@@ -1,0 +1,47 @@
+name: Daily Paper Metadata Download
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 매일 UTC 17:00 (한국 시간 오전 0시) 실행
+  workflow_dispatch:       # 수동 실행 가능
+
+jobs:
+  download-and-push:
+    runs-on: ubuntu-latest  # Ubuntu 환경 사용
+
+    strategy:
+      matrix:
+        python-version: [3.8]  # Python 3.8 사용
+
+    steps:
+    # 1. 저장소 Checkout
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # 깃헙 푸시를 위한 토큰
+
+    # 2. Python 환경 설정
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    # 3. 의존성 설치
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    # 4. 스크립트 실행 (테스트 포함)
+    - name: Run Daily Paper Download Script
+      run: |
+        python -m unittest paper_metadata_download.py
+
+    # 5. 변경사항 Commit 및 Push
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add Paper_metadata_download/
+        git commit -m "Automated daily paper metadata download: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push origin main
