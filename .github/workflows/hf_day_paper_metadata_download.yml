@@ -2,7 +2,7 @@ name: Daily Paper Metadata Download
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 매일 UTC 17:00 (한국 시간 오전 0시) 실행
+    - cron: '0 15 * * *'  # 매일 한국 시간 오전 0시 실행
   workflow_dispatch:       # 수동 실행 가능
 
 jobs:
