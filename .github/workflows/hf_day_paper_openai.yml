@@ -2,7 +2,7 @@ name: HF Daily Paper OpenAI
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 매일 UTC 1:00 실행 (KST 7:00)
+    - cron: '0 16 * * *'  # 매일 한국 시간 오전 1시 실행
   workflow_dispatch:  # 수동 실행 허용
 
 jobs:
