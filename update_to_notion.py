@@ -70,16 +70,13 @@ def main():
     # 어제 날짜 문자열 생성
     yesterday = datetime.datetime.now(pytz.timezone("Asia/Seoul")) - datetime.timedelta(days=1)
     yesterday_str = yesterday.strftime("%Y-%m-%d")
-    
     output_file = os.path.join('hf-daily-paper-ko-gpt', f"{yesterday_str}_paper_ko.json")
+    print(output_file)
     with open(output_file, "r", encoding="utf-8") as f:
         papers_info = json.load(f)
 
     notion_api = os.getenv('NOTION_API_KEY')
     notion_db_id = os.getenv('NOTION_DB_ID')
-
-    print(f"notion_api: {notion_api}")
-    print(f"notion_db_id: {notion_db_id}")
 
     for i in range(0, len(papers_info), 10):
         print(f"Uploading {i} to {i+10} papers to Notion")
