@@ -1,0 +1,289 @@
+[
+    {
+        "paper": {
+            "id": "2412.10360",
+            "authors": [
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a5f",
+                    "user": {
+                        "_id": "648c9605565e3a44f3c9bb7b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648c9605565e3a44f3c9bb7b/W5chvk17Zol6-2QSWkFVR.jpeg",
+                        "isPro": true,
+                        "fullname": "Orr Zohar",
+                        "user": "orrzohar",
+                        "type": "user"
+                    },
+                    "name": "Orr Zohar",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2024-12-16T03:24:34.794Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a60",
+                    "user": {
+                        "_id": "65703fab7f50602340d23704",
+                        "avatarUrl": "/avatars/324c45f5fba9cd8c38a89b30427c06b4.svg",
+                        "isPro": false,
+                        "fullname": "Xiaohan Wang",
+                        "user": "nicholswang",
+                        "type": "user"
+                    },
+                    "name": "Xiaohan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T09:23:12.868Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a61",
+                    "user": {
+                        "_id": "641362754e5305c14f233f08",
+                        "avatarUrl": "/avatars/bce974ef60c507d22702cc7662033b28.svg",
+                        "isPro": false,
+                        "fullname": "Yann Dubois",
+                        "user": "YannDubs",
+                        "type": "user"
+                    },
+                    "name": "Yann Dubois",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:57:20.008Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a62",
+                    "name": "Nikhil Mehta",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a63",
+                    "name": "Tong Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a64",
+                    "user": {
+                        "_id": "644eb923a8f384abd038a4f7",
+                        "avatarUrl": "/avatars/3d1a29c6149a6ffc482842f1438ba55a.svg",
+                        "isPro": false,
+                        "fullname": "Philippe I Hansen-Estruch",
+                        "user": "philippehansen",
+                        "type": "user"
+                    },
+                    "name": "Philippe Hansen-Estruch",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-17T08:04:15.986Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a65",
+                    "user": {
+                        "_id": "6372b1f9bd81fae2b3a712e8",
+                        "avatarUrl": "/avatars/bcdf7b540cc94882e0ae6035bb07a8f2.svg",
+                        "isPro": false,
+                        "fullname": "Licheng Yu",
+                        "user": "lichengyu",
+                        "type": "user"
+                    },
+                    "name": "Licheng Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:58:30.800Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a66",
+                    "user": {
+                        "_id": "6334c1b3762d2d0e9eb151ea",
+                        "avatarUrl": "/avatars/45b3eb63f0515ab417aacd79aa9f8a41.svg",
+                        "isPro": false,
+                        "fullname": "Xiaofang Wang",
+                        "user": "minione",
+                        "type": "user"
+                    },
+                    "name": "Xiaofang Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:59:05.541Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a67",
+                    "user": {
+                        "_id": "6417cf37dce1e4c0229f17b1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6417cf37dce1e4c0229f17b1/7h-ZCB5f4wif7TsnF-B1M.jpeg",
+                        "isPro": false,
+                        "fullname": "Felix Xu",
+                        "user": "katanaxu",
+                        "type": "user"
+                    },
+                    "name": "Felix Juefei-Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T16:55:18.689Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a68",
+                    "name": "Ning Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a69",
+                    "name": "Serena Yeung-Levy",
+                    "hidden": false
+                },
+                {
+                    "_id": "675f9d6d2eb87c3a1b120a6a",
+                    "name": "Xide Xia",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-13T18:53:24.000Z",
+            "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
+            "summary": "Despite the rapid integration of video perception capabilities into Large\nMultimodal Models (LMMs), the underlying mechanisms driving their video\nunderstanding remain poorly understood. Consequently, many design decisions in\nthis domain are made without proper justification or analysis. The high\ncomputational cost of training and evaluating such models, coupled with limited\nopen research, hinders the development of video-LMMs. To address this, we\npresent a comprehensive study that helps uncover what effectively drives video\nunderstanding in LMMs.\n  We begin by critically examining the primary contributors to the high\ncomputational requirements associated with video-LMM research and discover\nScaling Consistency, wherein design and training decisions made on smaller\nmodels and datasets (up to a critical size) effectively transfer to larger\nmodels. Leveraging these insights, we explored many video-specific aspects of\nvideo-LMMs, including video sampling, architectures, data composition, training\nschedules, and more. For example, we demonstrated that fps sampling during\ntraining is vastly preferable to uniform frame sampling and which vision\nencoders are the best for video representation.\n  Guided by these findings, we introduce Apollo, a state-of-the-art family of\nLMMs that achieve superior performance across different model sizes. Our models\ncan perceive hour-long videos efficiently, with Apollo-3B outperforming most\nexisting 7B models with an impressive 55.1 on LongVideoBench. Apollo-7B is\nstate-of-the-art compared to 7B LMMs with a 70.9 on MLVU, and 63.3 on\nVideo-MME.",
+            "upvotes": 106,
+            "discussionId": "675f9d722eb87c3a1b120bb3"
+        },
+        "translation_title": "Apollo: 대규모 다중 모달 모델에서 비디오 이해 탐색",
+        "translation_summary": "대규모 다중 모달 모델(LMM)에서 비디오 인식 기능이 급속히 통합되고 있지만, 이들의 비디오 이해를 이끄는 기본 메커니즘은 잘 이해되지 않고 있습니다. 따라서 이 분야의 많은 설계 결정은 적절한 정당화나 분석 없이 이루어지고 있습니다. 이런 모델의 훈련 및 평가에 드는 높은 계산 비용과 제한된 공개 연구는 비디오-LMM의 개발을 저해하고 있습니다. 이를 해결하기 위해 우리는 LMM에서 비디오 이해를 효과적으로 이끄는 요소를 밝혀내는 포괄적인 연구를 제시합니다. 우리는 비디오-LMM 연구와 관련된 높은 계산 요구의 주요 기여자를 비판적으로 검토하며, 작은 모델과 데이터셋에서 내려진 설계 및 훈련 결정이 더 큰 모델에 효과적으로 전이될 수 있는 Scaling Consistency를 발견하였습니다. 이러한 통찰력을 바탕으로 우리는 비디오 샘플링, 아키텍처, 데이터 구성, 훈련 스케줄 등 비디오-LMM의 여러 비디오 특정 요소를 탐구하였습니다. 예를 들어, 훈련 중 fps 샘플링이 균일한 프레임 샘플링보다 훨씬 바람직하다는 것을 보여주었고, 비디오 표현을 위한 최상의 비전 인코더는 무엇인지도 조사하였습니다. 이러한 발견에 의해 우리는 다양한 모델 크기에서 우수한 성능을 달성하는 최첨단 LMM 가족인 Apollo를 소개합니다. 우리의 모델은 한 시간 분량의 비디오를 효율적으로 인식할 수 있으며, Apollo-3B는 LongVideoBench에서 55.1이라는 인상적인 성적으로 대부분의 기존 7B 모델을 능가합니다. Apollo-7B는 MLVU에서 70.9, Video-MME에서 63.3의 성적으로 7B LMM에 대한 최신 최첨단 모델입니다.",
+        "purpose": "비디오 이해를 위한 대규모 다중 모달 모델 개발 및 효율적인 설계 원리 규명",
+        "advertising_copy": "비디오 이해 모델의 새로운 지평을 열고 싶었던 연구자님께 추천드립니다!",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.09624",
+            "authors": [
+                {
+                    "_id": "675bcfacd0c3aeab39880d36",
+                    "user": {
+                        "_id": "656a9b9f9496f21be8271f1b",
+                        "avatarUrl": "/avatars/cfba9f835bf5eef80c6c5f52be69abd4.svg",
+                        "isPro": false,
+                        "fullname": "TaiMing",
+                        "user": "TaiMingLu",
+                        "type": "user"
+                    },
+                    "name": "Taiming Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-13T08:56:00.579Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d37",
+                    "user": {
+                        "_id": "618af79af281834c95311402",
+                        "avatarUrl": "/avatars/58ba086eb2309657d823b5768616eafe.svg",
+                        "isPro": false,
+                        "fullname": "Tianmin Shu",
+                        "user": "tshu",
+                        "type": "user"
+                    },
+                    "name": "Tianmin Shu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:55:49.658Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d38",
+                    "user": {
+                        "_id": "64b5ba6060274cbb296d6288",
+                        "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                        "isPro": false,
+                        "fullname": "Junfei Xiao",
+                        "user": "lambertxiao",
+                        "type": "user"
+                    },
+                    "name": "Junfei Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T09:42:08.190Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d39",
+                    "name": "Luoxin Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3a",
+                    "user": {
+                        "_id": "64cbf523e3cc4a476d8291b6",
+                        "avatarUrl": "/avatars/825d7665db471e46921abad3319c2846.svg",
+                        "isPro": false,
+                        "fullname": "Jiahao Wang",
+                        "user": "jiahaoplus",
+                        "type": "user"
+                    },
+                    "name": "Jiahao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T09:42:10.694Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3b",
+                    "name": "Cheng Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3c",
+                    "name": "Chen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3d",
+                    "user": {
+                        "_id": "5f6540c65e78cc6b0ed3199d",
+                        "avatarUrl": "/avatars/0280d4df417855965a0964d22766c012.svg",
+                        "isPro": false,
+                        "fullname": "Daniel Khashabi",
+                        "user": "danyaljj",
+                        "type": "user"
+                    },
+                    "name": "Daniel Khashabi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:55:06.806Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3e",
+                    "name": "Rama Chellappa",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3f",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d40",
+                    "user": {
+                        "_id": "660c9ac4b202fcf3892f62fa",
+                        "avatarUrl": "/avatars/7314fd5f3f642096d0e37d3194f1aa7e.svg",
+                        "isPro": false,
+                        "fullname": "Jieneng Chen",
+                        "user": "jienengchen",
+                        "type": "user"
+                    },
+                    "name": "Jieneng Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:54:46.355Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-12T18:59:57.000Z",
+            "title": "GenEx: Generating an Explorable World",
+            "summary": "Understanding, navigating, and exploring the 3D physical real world has long\nbeen a central challenge in the development of artificial intelligence. In this\nwork, we take a step toward this goal by introducing GenEx, a system capable of\nplanning complex embodied world exploration, guided by its generative\nimagination that forms priors (expectations) about the surrounding\nenvironments. GenEx generates an entire 3D-consistent imaginative environment\nfrom as little as a single RGB image, bringing it to life through panoramic\nvideo streams. Leveraging scalable 3D world data curated from Unreal Engine,\nour generative model is rounded in the physical world. It captures a continuous\n360-degree environment with little effort, offering a boundless landscape for\nAI agents to explore and interact with. GenEx achieves high-quality world\ngeneration, robust loop consistency over long trajectories, and demonstrates\nstrong 3D capabilities such as consistency and active 3D mapping. Powered by\ngenerative imagination of the world, GPT-assisted agents are equipped to\nperform complex embodied tasks, including both goal-agnostic exploration and\ngoal-driven navigation. These agents utilize predictive expectation regarding\nunseen parts of the physical world to refine their beliefs, simulate different\noutcomes based on potential decisions, and make more informed choices. In\nsummary, we demonstrate that GenEx provides a transformative platform for\nadvancing embodied AI in imaginative spaces and brings potential for extending\nthese capabilities to real-world exploration.",
+            "upvotes": 74,
+            "discussionId": "675bcfafd0c3aeab39880e37"
+        },
+        "translation_title": "GenEx: 탐험 가능한 세계 생성",
+        "translation_summary": "3D 물리적 현실 세계를 이해하고 탐색하는 것은 인공지능 발전에 있어 오랫동안 중대한 도전 과제가 되어왔습니다. 본 연구에서는 주변 환경에 대한 예상(priors)을 형성하는 생성적 상상력에 의해 안내되는 복잡한 구체적 세계 탐험 계획을 수립할 수 있는 시스템인 GenEx를 소개함으로써 이 목표에 한 걸음 더 나아갑니다. GenEx는 단 하나의 RGB 이미지에서 시작하여 전체 3D 일관성 있는 상상 환경을 생성하고, 이를 파노라마 동영상 스트림을 통해 생동감 있게 제공합니다. Unreal Engine에서 선별된 확장 가능한 3D 세계 데이터를 활용하여, 우리의 생성 모델은 물리적 세계에 뿌리를 두고 있습니다. 이는 적은 노력을 통해 연속적인 360도 환경을 포착하여 AI 에이전트들이 탐험하고 상호작용할 수 있는 무한한 경관을 제공합니다. GenEx는 높은 품질의 세계 생성, 긴 경로에서의 견고한 루프 일관성을 달성하며, 일관성과 능동적인 3D 매핑과 같은 강력한 3D 능력을 입증합니다. 세계의 생성적 상상력에 의해 구동되는 GPT-assisted 에이전트는 목표에 구애받지 않는 탐험과 목표 지향 탐색을 포함하여 복잡한 구체적 작업을 수행할 수 있도록 장비됩니다. 이러한 에이전트는 물리적 세계의 보지 못한 부분에 대한 예측 기대를 활용하여 자신들의 신념을 정제하고, 잠재적 결정을 바탕으로 다양한 결과를 시뮬레이션하며, 보다 정보에 기반한 선택을 하게 됩니다. 요약하자면, GenEx는 상상 공간에서 구현된 AI를 발전시키기 위한 혁신적인 플랫폼을 제공하며, 이러한 능력을 현실 탐험으로 확장할 가능성을 보여줍니다.",
+        "purpose": "생성적 상상력을 통해 복잡한 구체적 세계 탐험 계획을 수립하고 AI 에이전트의 능력을 확장하기 위한 시스템 개발",
+        "advertising_copy": "상상력 넘치는 공간에서의 탐험을 통해 AI의 미래를 한 단계 높은 곳으로 이끌어 나가세요!",
+        "keywords": [
+            "Computer Vision",
+            "3D Vision",
+            "Robotics"
+        ]
+    }
+]
