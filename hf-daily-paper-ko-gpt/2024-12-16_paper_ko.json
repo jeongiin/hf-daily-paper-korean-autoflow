@@ -1,0 +1,138 @@
+[
+    {
+        "paper": {
+            "id": "2412.09624",
+            "authors": [
+                {
+                    "_id": "675bcfacd0c3aeab39880d36",
+                    "user": {
+                        "_id": "656a9b9f9496f21be8271f1b",
+                        "avatarUrl": "/avatars/cfba9f835bf5eef80c6c5f52be69abd4.svg",
+                        "isPro": false,
+                        "fullname": "TaiMing",
+                        "user": "TaiMingLu",
+                        "type": "user"
+                    },
+                    "name": "Taiming Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-13T08:56:00.579Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d37",
+                    "user": {
+                        "_id": "618af79af281834c95311402",
+                        "avatarUrl": "/avatars/58ba086eb2309657d823b5768616eafe.svg",
+                        "isPro": false,
+                        "fullname": "Tianmin Shu",
+                        "user": "tshu",
+                        "type": "user"
+                    },
+                    "name": "Tianmin Shu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:55:49.658Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d38",
+                    "user": {
+                        "_id": "64b5ba6060274cbb296d6288",
+                        "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                        "isPro": false,
+                        "fullname": "Junfei Xiao",
+                        "user": "lambertxiao",
+                        "type": "user"
+                    },
+                    "name": "Junfei Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T09:42:08.190Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d39",
+                    "name": "Luoxin Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3a",
+                    "user": {
+                        "_id": "64cbf523e3cc4a476d8291b6",
+                        "avatarUrl": "/avatars/825d7665db471e46921abad3319c2846.svg",
+                        "isPro": false,
+                        "fullname": "Jiahao Wang",
+                        "user": "jiahaoplus",
+                        "type": "user"
+                    },
+                    "name": "Jiahao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-16T09:42:10.694Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3b",
+                    "name": "Cheng Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3c",
+                    "name": "Chen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3d",
+                    "user": {
+                        "_id": "5f6540c65e78cc6b0ed3199d",
+                        "avatarUrl": "/avatars/0280d4df417855965a0964d22766c012.svg",
+                        "isPro": false,
+                        "fullname": "Daniel Khashabi",
+                        "user": "danyaljj",
+                        "type": "user"
+                    },
+                    "name": "Daniel Khashabi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:55:06.806Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3e",
+                    "name": "Rama Chellappa",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d3f",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "675bcfacd0c3aeab39880d40",
+                    "user": {
+                        "_id": "660c9ac4b202fcf3892f62fa",
+                        "avatarUrl": "/avatars/7314fd5f3f642096d0e37d3194f1aa7e.svg",
+                        "isPro": false,
+                        "fullname": "Jieneng Chen",
+                        "user": "jienengchen",
+                        "type": "user"
+                    },
+                    "name": "Jieneng Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-16T09:54:46.355Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-12T18:59:57.000Z",
+            "title": "GenEx: Generating an Explorable World",
+            "summary": "Understanding, navigating, and exploring the 3D physical real world has long\nbeen a central challenge in the development of artificial intelligence. In this\nwork, we take a step toward this goal by introducing GenEx, a system capable of\nplanning complex embodied world exploration, guided by its generative\nimagination that forms priors (expectations) about the surrounding\nenvironments. GenEx generates an entire 3D-consistent imaginative environment\nfrom as little as a single RGB image, bringing it to life through panoramic\nvideo streams. Leveraging scalable 3D world data curated from Unreal Engine,\nour generative model is rounded in the physical world. It captures a continuous\n360-degree environment with little effort, offering a boundless landscape for\nAI agents to explore and interact with. GenEx achieves high-quality world\ngeneration, robust loop consistency over long trajectories, and demonstrates\nstrong 3D capabilities such as consistency and active 3D mapping. Powered by\ngenerative imagination of the world, GPT-assisted agents are equipped to\nperform complex embodied tasks, including both goal-agnostic exploration and\ngoal-driven navigation. These agents utilize predictive expectation regarding\nunseen parts of the physical world to refine their beliefs, simulate different\noutcomes based on potential decisions, and make more informed choices. In\nsummary, we demonstrate that GenEx provides a transformative platform for\nadvancing embodied AI in imaginative spaces and brings potential for extending\nthese capabilities to real-world exploration.",
+            "upvotes": 75,
+            "discussionId": "675bcfafd0c3aeab39880e37"
+        },
+        "translation_title": "GenEx: 탐색 가능한 세계 생성",
+        "translation_summary": "3D 물리적 실제 세계를 이해하고 탐색하는 것은 인공지능 개발에 있어 오랫동안 핵심적인 도전 과제가 되어왔습니다. 본 연구에서는 복잡한 구현된 세계 탐색을 계획할 수 있는 시스템인 GenEx를 소개하여 이 목표를 향해 나아가는 한 걸음을 내딛습니다. GenEx는 주변 환경에 대한 priors(기대)를 형성하는 생성적 상상력에 의해 안내됨으로써 세계를 탐색합니다. GenEx는 단 하나의 RGB 이미지로부터 전체 3D 일관성 있는 상상 환경을 생성하며, 파노라마 비디오 스트림을 통해 이를 생동감 있게 만듭니다. Unreal Engine에서 선별한 확장 가능한 3D 세계 데이터를 활용하여, 우리의 생성 모델은 물리적 세계를 기반으로 합니다. 이는 적은 노력으로 360도 연속 환경을 포착하여 AI 에이전트가 탐색하고 상호작용할 수 있는 무한한 풍경을 제공합니다. GenEx는 높은 품질의 세계 생성을 달성하며 긴 궤적에서 강력한 루프 일관성을 보여주고, 일관성 및 능동적 3D 매핑과 같은 강력한 3D 능력을 입증합니다. 세계의 생성적 상상력에 의해 구동되는 GPT 지원 에이전트는 목표 보지 않는 탐색 및 목표 지향 탐색을 포함하여 복잡한 구현 작업을 수행할 수 있는 능력을 갖추고 있습니다. 이 에이전트들은 물리적 세계의 보이지 않는 부분에 대한 예측 기대를 활용하여 신념을 다듬고, 잠재적인 결정에 따라 다양한 결과를 시뮬레이션하며, 더 정보에 기반한 선택을 하게 됩니다. 요약하자면, 우리는 GenEx가 상상 공간에서 구현된 AI를 발전시킬 수 있는 혁신적인 플랫폼을 제공하며, 이러한 능력을 실제 탐색으로 확장할 수 있는 잠재력을 발휘한다고 보여줍니다.",
+        "purpose": "물리적 세계를 탐색하는 에이전트를 위한 생성적 상상력을 활용한 3D 환경 생성 방법 개발",
+        "advertising_copy": "상상력을 기반으로 한 탐색 가능 세계와 이를 구현하는 AI를 원하는 연구자 및 개발자에게 강력히 추천하는 플랫폼입니다!",
+        "keywords": [
+            "3D Vision",
+            "Robotics",
+            "Natural Language Processing"
+        ]
+    }
+]
