@@ -2,7 +2,7 @@ name: Daily Paper Metadata Download
 
 on:
   schedule:
-    - cron: '8 0 * * *'  # UTC 00:00 - KST 09:00
+    - cron: '17 15 * * *'  # UTC 00:00 - KST 09:00
   workflow_dispatch:       # 수동 실행 가능
 
 jobs:
