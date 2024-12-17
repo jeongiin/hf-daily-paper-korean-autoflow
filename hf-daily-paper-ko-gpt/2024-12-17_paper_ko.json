@@ -1,0 +1,194 @@
+[
+    {
+        "paper": {
+            "id": "2412.11919",
+            "authors": [
+                {
+                    "_id": "6760ec669e797e610c5979e0",
+                    "user": {
+                        "_id": "66e03eace17fb5ff054b7686",
+                        "avatarUrl": "/avatars/2b739ff11e43dd9e701c647a92617f20.svg",
+                        "isPro": false,
+                        "fullname": "Xiaoxi Li",
+                        "user": "lixiaoxi45",
+                        "type": "user"
+                    },
+                    "name": "Xiaoxi Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:22:41.868Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e1",
+                    "user": {
+                        "_id": "6695f14df0ffd8e3a379ad61",
+                        "avatarUrl": "/avatars/5ebb7e55ee9c2d93850b279f440675b0.svg",
+                        "isPro": false,
+                        "fullname": "Jiajie Jin",
+                        "user": "jinjiajie",
+                        "type": "user"
+                    },
+                    "name": "Jiajie Jin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:21:52.824Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e2",
+                    "name": "Yujia Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e3",
+                    "user": {
+                        "_id": "62f3a590261bc5fb2e072a5f",
+                        "avatarUrl": "/avatars/d65d362ddc32aca3d6c564252d81e109.svg",
+                        "isPro": false,
+                        "fullname": "YongkangWu",
+                        "user": "wuyongkang",
+                        "type": "user"
+                    },
+                    "name": "Yongkang Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:21:03.390Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e4",
+                    "user": {
+                        "_id": "67145068485b75297d6a5ec5",
+                        "avatarUrl": "/avatars/67cb59ec072783ee5e4d909c4615bd44.svg",
+                        "isPro": false,
+                        "fullname": "LiZhongHua",
+                        "user": "Benen2024",
+                        "type": "user"
+                    },
+                    "name": "Zhonghua Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:20:44.760Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e5",
+                    "name": "Qi Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6760ec669e797e610c5979e6",
+                    "user": {
+                        "_id": "66f0bf59e9d50ec57febf751",
+                        "avatarUrl": "/avatars/be97941e60064e5dd806c6fe9db3c537.svg",
+                        "isPro": false,
+                        "fullname": "Zhicheng Dou",
+                        "user": "douzc",
+                        "type": "user"
+                    },
+                    "name": "Zhicheng Dou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:20:11.013Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-16T16:03:25.000Z",
+            "title": "RetroLLM: Empowering Large Language Models to Retrieve Fine-grained\n  Evidence within Generation",
+            "summary": "Large language models (LLMs) exhibit remarkable generative capabilities but\noften suffer from hallucinations. Retrieval-augmented generation (RAG) offers\nan effective solution by incorporating external knowledge, but existing methods\nstill face several limitations: additional deployment costs of separate\nretrievers, redundant input tokens from retrieved text chunks, and the lack of\njoint optimization of retrieval and generation. To address these issues, we\npropose RetroLLM, a unified framework that integrates retrieval and\ngeneration into a single, cohesive process, enabling LLMs to directly generate\nfine-grained evidence from the corpus with constrained decoding. Moreover, to\nmitigate false pruning in the process of constrained evidence generation, we\nintroduce (1) hierarchical FM-Index constraints, which generate\ncorpus-constrained clues to identify a subset of relevant documents before\nevidence generation, reducing irrelevant decoding space; and (2) a\nforward-looking constrained decoding strategy, which considers the relevance of\nfuture sequences to improve evidence accuracy. Extensive experiments on five\nopen-domain QA datasets demonstrate RetroLLM's superior performance across both\nin-domain and out-of-domain tasks. The code is available at\nhttps://github.com/sunnynexus/RetroLLM.",
+            "upvotes": 22,
+            "discussionId": "6760ec679e797e610c597a17"
+        },
+        "translation_title": "RetroLLM: 세밀한 증거를 생성 내에서 검색할 수 있는 대형 언어 모델 강화",
+        "translation_summary": "대형 언어 모델(LLMs)은 놀라운 생성 능력을 보이지만, 종종 망상 현상에 시달립니다. 검색 증강 생성(RAG)은 외부 지식을 통합하여 효과적인 해결책을 제공하지만, 기존 방법들은 여전히 몇 가지 한계에 직면해 있습니다: 별도의 검색기가 필요한 추가 배포 비용, 검색된 텍스트 덩어리에서 오는 중복 입력 토큰, 검색과 생성의 공동 최적화 부족. 이러한 문제를 해결하기 위해 우리는 검색과 생성을 하나의 통합된 프로세스로 결합한 RetroLLM이라는 프레임워크를 제안합니다. 이를 통해 LLMs는 제약된 디코딩으로부터 직접적으로 세밀한 증거를 생성할 수 있습니다. 더욱이, 세밀한 증거 생성을 제약하는 과정에서 잘못된 가지치기를 완화하기 위해 (1) 계층적 FM-Index 제약을 도입하여 증거 생성을 위한 관련 문서를 식별하기 전 corpus 제약 단서를 생성, 불필요한 디코딩 공간을 줄이고, (2) 앞으로의 시퀀스의 관련성을 고려하는 전향적 제약 디코딩 전략을 도입하여 증거의 정확성을 개선합니다. 다섯 가지 오픈 도메인 QA 데이터 세트에서 실시한 광범위한 실험 결과, RetroLLM은 도메인 내 및 도메인 외 작업 모두에서 우수한 성능을 보였습니다. 코드 링크는 https://github.com/sunnynexus/RetroLLM에서 확인할 수 있습니다.",
+        "purpose": "대형 언어 모델이 증거를 생성을 통해 효율적으로 검색하고 생성할 수 있도록 하는 통합 프레임워크 개발",
+        "advertising_copy": "정확한 정보를 필요로 하는 대형 언어 모델의 성능을 극대화하고 싶은 연구자들에게 최적의 솔루션을 제공합니다!",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Retrieval-Augmented Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.09645",
+            "authors": [
+                {
+                    "_id": "67610b5eb04baaf63514fcc9",
+                    "user": {
+                        "_id": "61f24cbb88b9b5abbe184a85",
+                        "avatarUrl": "/avatars/17c806013092ef18cbb1304cf9c5312e.svg",
+                        "isPro": false,
+                        "fullname": "zhangfan",
+                        "user": "Fan-s",
+                        "type": "user"
+                    },
+                    "name": "Fan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-17T08:03:36.826Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67610b5eb04baaf63514fcca",
+                    "user": {
+                        "_id": "6658d01c6f1a71ba56d6c273",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/tc4nZrMuZQLfgt5aVxtH4.jpeg",
+                        "isPro": false,
+                        "fullname": "Tian Shulin",
+                        "user": "shulin16",
+                        "type": "user"
+                    },
+                    "name": "Shulin Tian",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:23:16.414Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67610b5eb04baaf63514fccb",
+                    "user": {
+                        "_id": "60efe7fa0d920bc7805cada5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+                        "isPro": false,
+                        "fullname": "Ziqi Huang",
+                        "user": "Ziqi",
+                        "type": "user"
+                    },
+                    "name": "Ziqi Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:23:04.978Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67610b5eb04baaf63514fccc",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67610b5eb04baaf63514fccd",
+                    "user": {
+                        "_id": "62ab1ac1d48b4d8b048a3473",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656826685333-62ab1ac1d48b4d8b048a3473.png",
+                        "isPro": false,
+                        "fullname": "Ziwei Liu",
+                        "user": "liuziwei7",
+                        "type": "user"
+                    },
+                    "name": "Ziwei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-17T09:22:56.546Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-10T18:52:39.000Z",
+            "title": "Evaluation Agent: Efficient and Promptable Evaluation Framework for\n  Visual Generative Models",
+            "summary": "Recent advancements in visual generative models have enabled high-quality\nimage and video generation, opening diverse applications. However, evaluating\nthese models often demands sampling hundreds or thousands of images or videos,\nmaking the process computationally expensive, especially for diffusion-based\nmodels with inherently slow sampling. Moreover, existing evaluation methods\nrely on rigid pipelines that overlook specific user needs and provide numerical\nresults without clear explanations. In contrast, humans can quickly form\nimpressions of a model's capabilities by observing only a few samples. To mimic\nthis, we propose the Evaluation Agent framework, which employs human-like\nstrategies for efficient, dynamic, multi-round evaluations using only a few\nsamples per round, while offering detailed, user-tailored analyses. It offers\nfour key advantages: 1) efficiency, 2) promptable evaluation tailored to\ndiverse user needs, 3) explainability beyond single numerical scores, and 4)\nscalability across various models and tools. Experiments show that Evaluation\nAgent reduces evaluation time to 10% of traditional methods while delivering\ncomparable results. The Evaluation Agent framework is fully open-sourced to\nadvance research in visual generative models and their efficient evaluation.",
+            "upvotes": 21,
+            "discussionId": "67610b60b04baaf63514fd5d"
+        },
+        "translation_title": "Evaluation Agent: 시각 생성 모델을 위한 효율적이고 즉각적으로 평가할 수 있는 프레임워크",
+        "translation_summary": "최근 시각 생성 모델의 발전은 고품질 이미지와 비디오 생성 가능성을 열어 다양한 응용 분야를 여는 데 기여했습니다. 그러나 이러한 모델을 평가하는 것은 수백 혹은 수천 개의 이미지나 비디오를 샘플링해야 하므로 계산 비용이 많이 들고, 특히 느린 샘플링이 본질인 diffusion 기반 모델에서는 더욱 그렇습니다. 더욱이 기존 평가 방법은 특정 사용자 요구를 간과하고 명확한 설명 없이 수치 결과만을 제공하는 경향이 있습니다. 반면, 인간은 소수의 샘플만 관찰하여 모델의 능력에 대한 인상을 빠르게 형성할 수 있습니다. 이를 모방하기 위해, 우리는 Evaluation Agent 프레임워크를 제안하며, 이는 몇 개의 샘플만으로도 효율적이고 동적이며 다중 라운드 평가를 수행하는 인간과 유사한 전략을 사용합니다. 또한 상세하고 사용자 맞춤형 분석을 제공합니다. 이 프레임워크는 1) 효율성, 2) 다양한 사용자 요구에 맞춘 즉각적인 평가, 3) 단일 수치 점수를 넘어선 설명 가능성, 4) 다양한 모델과 도구에 대한 확장 가능성의 네 가지 주요 장점을 가지고 있습니다. 실험 결과, Evaluation Agent는 전통적인 방법에 비해 평가 시간을 10%로 줄이면서도 유사한 결과를 제공합니다. Evaluation Agent 프레임워크는 시각 생성 모델 연구 및 효율적인 평가를 촉진하기 위해 완전히 오픈 소스로 제공됩니다.",
+        "purpose": "시각 생성 모델 평가 과정의 효율성과 사용자 맞춤형 분석을 개선하기 위한 평가 프레임워크 개발",
+        "advertising_copy": "비용 효율적이고 사용자 맞춤형의 시각 생성 모델 평가를 원하신다면, Evaluation Agent를 추천합니다!",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Video Generation"
+        ]
+    }
+]
