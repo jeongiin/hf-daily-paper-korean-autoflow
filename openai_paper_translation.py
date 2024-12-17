@@ -63,7 +63,7 @@ def process_papers():
     yesterday = datetime.datetime.now(pytz.timezone("Asia/Seoul")) - datetime.timedelta(days=1)
     yesterday_str = yesterday.strftime("%Y-%m-%d")
 
-    metadata_file = os.path.join('Paper_metadata_download', f"{yesterday_str}.json")
+    metadata_file = os.path.join('paper_metadata_download', f"{yesterday_str}.json")
     if not os.path.exists(metadata_file):
         print(f"메타데이터 파일을 찾을 수 없습니다: {metadata_file}")
         return
