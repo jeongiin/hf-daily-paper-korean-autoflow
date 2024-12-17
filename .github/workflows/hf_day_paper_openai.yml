@@ -1,0 +1,48 @@
+name: HF Daily Paper DeepSeek
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 매일 UTC 1:00 실행 (KST 7:00)
+  workflow_dispatch:  # 수동 실행 허용
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 코드 체크아웃
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Python 설정
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # 3. 의존성 설치
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai tqdm Pillow requests tenacity pytz
+
+      # 4. 메타데이터 다운로드 실행
+      - name: Download paper metadata
+        run: python paper_metadata_download.py
+
+      # 5. 논문 처리 및 번역 실행
+      - name: Process and translate papers
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python openai_paper_translation.py
+
+      # 6. 변경 사항 커밋 및 푸시
+      - name: Commit and push updates
+        run: |
+          git config --local user.email "jeongiin@users.noreply.github.com"
+          git config --local user.name "jeongiin"
+          git add .
+          git commit -m "Automated update of paper summaries" -a || exit 0
+          git push
