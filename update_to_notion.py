@@ -72,7 +72,7 @@ def main():
     yesterday_str = yesterday.strftime("%Y-%m-%d")
     
     output_file = os.path.join('hf-daily-paper-ko-gpt', f"{yesterday_str}_paper_ko.json")
-    with open("hf-daily-paper-ko-gpt/2024-12-16_paper_ko.json", "r", encoding="utf-8") as f:
+    with open(output_file, "r", encoding="utf-8") as f:
         papers_info = json.load(f)
 
     notion_api = os.getenv('NOTION_API_KEY')
