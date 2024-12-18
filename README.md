@@ -12,14 +12,14 @@
 ![](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/blob/main/images/hf-daily-paper-into-korean.png?raw=true)
 이 프로젝트는 GitHub Action Workflow 관점에서 세 단계로 이루어집니다!
 
-1. [download HF daily paper](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
+1. [Download HF daily paper](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
     - [Hugging Face Daily Papers](https://huggingface.co/papers) API Endpoint 에서 메타데이터를 다운로드 합니다. 일간지의 전체 목록이 업데이트 되는 시점이 불분명하기 때문에 목표 날짜는 "어제"입니다. 날짜는 동적으로 계산됩니니다.
    
-2. [translate_into_korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml)
+2. [Translate into Korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml)
     - [OpenAI API](https://openai.com/index/openai-api/)로 제공하는 LLM과 프롬프트 엔지니어링을 활용하여 문서를 번역합니다. LLM은 논문의 제목/요약을 번역하고, 키워드를 추출하며, 목적을 요약합니다.
     - API 요금은 개인 자금을 사용하고 있습니다..
 
-3. [upload_to_notion](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/upload_to_notion.yml)
+3. [Upload to Notion](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/upload_to_notion.yml)
     - 공개된 Notion 페이지에 업로드합니다. 모든 페이지는 Notion에서 제공하는 Database 형태로 관리됩니다.
 
 * 현재는 beta version 으로 하루에 2건의 논문만 작업 중이며, 요약 성능 개선 후 전체 논문을 번역하도록 변경 예정입니다.
