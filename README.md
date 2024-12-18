@@ -1,15 +1,15 @@
 [![download_daily_papers](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml/badge.svg)](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml) [![translate_into_korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml/badge.svg)](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml) [![upload_to_notion](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/upload_to_notion.yml/badge.svg)](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/upload_to_notion.yml)
 
 
-# Daily Briefing for Hugging Face Daily Papers 🤗
+# Korean Daily Briefs for Hugging Face Papers 🤗
+![](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/blob/main/images/hf-daily-paper-into-korean-site.png?raw=true)
 
 이 Repository는 한국 시간을 기준으로 매일 오전 12시~1시 사이에 [Hugging Face Daily Papers](https://huggingface.co/papers)에서 소개하는 논문 정보를 수집하고, 한국어로 번역하여 [Notion](https://leejeongin.notion.site/ai-daily-briefing-in-korean)에 업로드합니다.
 
 모든 과정은 **GitHub Action 을 통해 자동화**되므로, 유료 유지관리가 필요하지 않습니다.
 
 # How this works?
-
-
+![](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/blob/main/images/hf-daily-paper-into-korean.png?raw=true)
 이 프로젝트는 GitHub Action Workflow 관점에서 세 단계로 이루어집니다!
 
 1. [download HF daily paper](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
