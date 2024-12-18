@@ -12,7 +12,7 @@
 ![](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/blob/main/images/hf-daily-paper-into-korean.png?raw=true)
 이 프로젝트는 GitHub Action Workflow 관점에서 세 단계로 이루어집니다!
 
-1. [Download HF daily paper](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
+1. [Download HF daily papers](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
     - [Hugging Face Daily Papers](https://huggingface.co/papers) API Endpoint 에서 메타데이터를 다운로드 합니다. 일간지의 전체 목록이 업데이트 되는 시점이 불분명하기 때문에 목표 날짜는 "어제"입니다. 날짜는 동적으로 계산됩니니다.
    
 2. [Translate into Korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml)
