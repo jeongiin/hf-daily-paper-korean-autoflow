@@ -2,7 +2,7 @@ name: Upload to Notion
 
 on:
   schedule:
-    - cron: '25 15 * * *'  # UTC 02:00 - KST 11:00 자동실행
+    - cron: '33 15 * * *'  # UTC 15:56 - KST 12:33 자동 실행
   workflow_dispatch:  # 수동 실행 허용
 
 jobs:
