@@ -32,14 +32,14 @@ LLM 번역 결과가 미숙하다보니, 다른 API를 활용해서 번역하는
 
 
 # To Do
-- [O] Ver.beta에 대한 README 작성 
-- [X] `paper_openai_translation.py` 에서 목표 날짜에 번역된 json 이 이미 있으면 수행하지 않도록 예외 처리
-- [X] 요약 성능 고도화
-    - [X] Prompt Engineering
-    - [X] API 교체(Claude, Solar 등)
-- [X] 논문 대표 사진 다운 및 Notion Page 내 삽입 기능
-- [X] 통계 기능
-- [X] Contribution 기능
+- [X] Ver.beta에 대한 README 작성 
+- [ ] `paper_openai_translation.py` 에서 목표 날짜에 번역된 json 이 이미 있으면 수행하지 않도록 예외 처리
+- [ ] 요약 성능 고도화
+    - [ ] Prompt Engineering
+    - [ ] API 교체(Claude, Solar 등)
+- [ ] 논문 대표 사진 다운 및 Notion Page 내 삽입 기능
+- [ ] 통계 기능
+- [ ] 수정한 내용 Push -> Notion 자동 업로드 기능
 
 # Acknowledgement
 - 두 분의 작업물을 참고하였습니다. 감사합니다!
