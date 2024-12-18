@@ -36,7 +36,7 @@ jobs:
       - name: Process and translate papers
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python openai_paper_translation.py
+        run: python paper_openai_translation.py
 
       # 6. 변경 사항 커밋 및 푸시
       - name: Commit and push updates
