@@ -1,0 +1,194 @@
+[
+    {
+        "paper": {
+            "id": "2412.14161",
+            "authors": [
+                {
+                    "_id": "6763867f523f25389126b2aa",
+                    "name": "Frank F. Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2ab",
+                    "name": "Yufan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2ac",
+                    "name": "Boxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2ad",
+                    "name": "Yuxuan Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2ae",
+                    "name": "Kritanjali Jain",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2af",
+                    "name": "Mengxue Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b0",
+                    "name": "Zora Z. Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b1",
+                    "name": "Xuhui Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b2",
+                    "name": "Zhitong Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b3",
+                    "name": "Murong Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b4",
+                    "name": "Mingyang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b5",
+                    "name": "Hao Yang Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b6",
+                    "name": "Amaad Martin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b7",
+                    "name": "Zhe Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b8",
+                    "name": "Leander Maben",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2b9",
+                    "name": "Raj Mehta",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2ba",
+                    "name": "Wayne Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2bb",
+                    "name": "Lawrence Jang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2bc",
+                    "name": "Yiqing Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2bd",
+                    "name": "Shuyan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6763867f523f25389126b2be",
+                    "name": "Graham Neubig",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-18T18:55:40.000Z",
+            "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World\n  Tasks",
+            "summary": "We interact with computers on an everyday basis, be it in everyday life or\nwork, and many aspects of work can be done entirely with access to a computer\nand the Internet. At the same time, thanks to improvements in large language\nmodels (LLMs), there has also been a rapid development in AI agents that\ninteract with and affect change in their surrounding environments. But how\nperformant are AI agents at helping to accelerate or even autonomously perform\nwork-related tasks? The answer to this question has important implications for\nboth industry looking to adopt AI into their workflows, and for economic policy\nto understand the effects that adoption of AI may have on the labor market. To\nmeasure the progress of these LLM agents' performance on performing real-world\nprofessional tasks, in this paper, we introduce TheAgentCompany, an extensible\nbenchmark for evaluating AI agents that interact with the world in similar ways\nto those of a digital worker: by browsing the Web, writing code, running\nprograms, and communicating with other coworkers. We build a self-contained\nenvironment with internal web sites and data that mimics a small software\ncompany environment, and create a variety of tasks that may be performed by\nworkers in such a company. We test baseline agents powered by both closed\nAPI-based and open-weights language models (LMs), and find that with the most\ncompetitive agent, 24% of the tasks can be completed autonomously. This paints\na nuanced picture on task automation with LM agents -- in a setting simulating\na real workplace, a good portion of simpler tasks could be solved autonomously,\nbut more difficult long-horizon tasks are still beyond the reach of current\nsystems.",
+            "upvotes": 23,
+            "discussionId": "67638680523f25389126b310"
+        },
+        "translation_title": "TheAgentCompany: 실제 작업에서 LLM 에이전트 성능 벤치마킹",
+        "translation_summary": "우리는 일상생활이나 직장에서 컴퓨터와 매일 상호작용을 하며, 컴퓨터와 인터넷에 접근하면 많은 작업을 완전히 수행할 수 있습니다. 동시에, 대형 언어 모델(LLMs)의 발전 덕분에 주변 환경과 상호작용하고 변화를 일으키는 AI 에이전트에 대한 급속한 개발이 이루어졌습니다. 그러나 AI 에이전트가 업무 관련 작업을 가속화하거나 독립적으로 수행하는 데 얼마나 성능을 발휘할까요? 이 질문에 대한 답은 AI를 업무 흐름에 도입하고자 하는 산업과 AI 도입이 노동 시장에 미칠 영향을 이해하고자 하는 경제 정책 모두에 중요한 함의를 가지고 있습니다. 본 논문에서는 LLM 에이전트가 실제 전문 작업을 수행하는 성과를 측정하기 위해, 디지털 근로자의 방식으로 세계와 상호작용하는 AI 에이전트를 평가하기 위한 확장 가능한 벤치마크인 TheAgentCompany를 소개합니다. 우리는 내부 웹사이트와 데이터를 갖춘 자기 포함 환경을 구성하여 소규모 소프트웨어 회사의 환경을 모방하고, 해당 회사의 근무자가 수행할 수 있는 다양한 작업을 생성합니다. 우리는 폐쇄 API 기반 및 오픈 가중치 언어 모델(LM)을 사용하는 기본 에이전트를 테스트했으며, 가장 경쟁력 있는 에이전트를 사용했을 때 24%의 작업을 자율적으로 완료할 수 있음을 발견했습니다. 이는 LM 에이전트를 이용한 작업 자동화에 대한 미세한 그림을 제시합니다. 실제 직장을 모사한 설정에서 간단한 작업의 상당 부분은 자율적으로 해결될 수 있지만, 더 복잡한 장기 과제는 아직 현재 시스템의 범위를 초과하고 있습니다.",
+        "purpose": "LLM 에이전트의 실제 작업 성능을 정확하게 평가하기 위한 방법론 개발",
+        "advertising_copy": "AI 에이전트를 통해 업무의 효율성을 높이고자 하는 모든 분들을 위한 필수 벤치마크, TheAgentCompany를 경험해보세요!",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.14173",
+            "authors": [
+                {
+                    "_id": "67639f320e317931ea6264d5",
+                    "name": "Yihao Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264d6",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264d7",
+                    "name": "Hanlin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264d8",
+                    "name": "Qiuyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264d9",
+                    "name": "Wen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264da",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264db",
+                    "name": "Zhiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264dc",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67639f320e317931ea6264dd",
+                    "name": "Huamin Qu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-18T18:59:59.000Z",
+            "title": "AniDoc: Animation Creation Made Easier",
+            "summary": "The production of 2D animation follows an industry-standard workflow,\nencompassing four essential stages: character design, keyframe animation,\nin-betweening, and coloring. Our research focuses on reducing the labor costs\nin the above process by harnessing the potential of increasingly powerful\ngenerative AI. Using video diffusion models as the foundation, AniDoc emerges\nas a video line art colorization tool, which automatically converts sketch\nsequences into colored animations following the reference character\nspecification. Our model exploits correspondence matching as an explicit\nguidance, yielding strong robustness to the variations (e.g., posture) between\nthe reference character and each line art frame. In addition, our model could\neven automate the in-betweening process, such that users can easily create a\ntemporally consistent animation by simply providing a character image as well\nas the start and end sketches. Our code is available at:\nhttps://yihao-meng.github.io/AniDoc_demo.",
+            "upvotes": 20,
+            "discussionId": "67639f330e317931ea62652d"
+        },
+        "translation_title": "AniDoc: 애니메이션 제작을 더 쉽게",
+        "translation_summary": "2D 애니메이션 제작은 캐릭터 디자인, 주요 프레임 애니메이션, 중간 프레임 추가, 색칠 등 네 가지 필수 단계를 포함하는 업계 표준 작업 흐름을 따릅니다. 우리의 연구는 점점 더 강력해지는 생성 AI의 가능성을 활용하여 위 과정에서의 인건비를 줄이는 데 중점을 두고 있습니다. 비디오 확산 모델을 기반으로 AniDoc은 스케치 시퀀스를 참조 캐릭터 사양에 따라 자동으로 색칠하는 비디오 라인 아트 색칠 도구로, 강력한 견고성을 이끌어냅니다. 우리의 모델은 명시적인 가이드를 제공하기 위해 일치 매칭을 활용하여 참조 캐릭터와 각 라인 아트 프레임 사이의 변형(예: 포즈)에도 강한 내성을 보입니다. 추가로, 우리의 모델은 중간 프레임 추가 과정을 자동화하여, 사용자들이 캐릭터 이미지와 시작 및 종료 스케치를 제공하는 것만으로도 시간적으로 일관된 애니메이션을 쉽게 생성할 수 있도록 합니다. 우리의 코드는 다음 링크에서 확인할 수 있습니다: https://yihao-meng.github.io/AniDoc_demo.",
+        "purpose": "2D 애니메이션 제작 과정에서 인건비 절감을 위한 생성 AI 모델 개발",
+        "advertising_copy": "애니메이션 제작을 더 쉽게 하고 싶었던 모든 분들에게 AniDoc을 추천합니다!",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Image Generation"
+        ]
+    }
+]
