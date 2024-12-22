@@ -37,9 +37,8 @@ LLM 번역 결과가 미숙하다보니, 다른 API를 활용해서 번역하는
 - [ ] 요약 성능 고도화
     - [ ] Prompt Engineering
     - [ ] API 교체(Claude, Solar 등)
-- [ ] 논문 대표 사진 다운 및 Notion Page 내 삽입 기능
-- [ ] 통계 기능
-- [ ] 수정한 내용 Push -> Notion 자동 업로드 기능
+- [X] 논문 대표 사진 다운 및 Notion Page 내 삽입 기능
+- [ ] 통계 기능(ex. Weekly Kerywords 등)
 
 # Acknowledgement
 - 두 분의 작업물을 참고하였습니다. 감사합니다!
