@@ -55,14 +55,14 @@ def upload_to_notion(papers_info, notion_api, notion_db_id):
                     "object": "block",
                     "type": "heading_2",
                     "heading_2": {
-                        "rich_text": [{"type": "text", "text": {"content": "한국어 요약 🇰🇷"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "🇰🇷 한국어 요약"}}]
                     }
                 },
                 {
                     "object": "block",
                     "type": "heading_3",
                     "heading_3": {
-                        "rich_text": [{"type": "text", "text": {"content": "목적 ⛳️"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "⛳️ 목적"}}]
                     }
                 },
                 {
@@ -76,7 +76,7 @@ def upload_to_notion(papers_info, notion_api, notion_db_id):
                     "object": "block",
                     "type": "heading_3",
                     "heading_3": {
-                        "rich_text": [{"type": "text", "text": {"content": "방법 👣"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "👣 방법"}}]
                     }
                 },
                 {
@@ -90,7 +90,7 @@ def upload_to_notion(papers_info, notion_api, notion_db_id):
                     "object": "block",
                     "type": "heading_3",
                     "heading_3": {
-                        "rich_text": [{"type": "text", "text": {"content": "결론 ⭐️"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "⭐️ 결론"}}]
                     }
                 },
                 {
@@ -104,7 +104,7 @@ def upload_to_notion(papers_info, notion_api, notion_db_id):
                     "object": "block",
                     "type": "heading_2",
                     "heading_2": {
-                        "rich_text": [{"type": "text", "text": {"content": "요약 원문 👀"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "👀 요약 원문"}}]
                     }
                 },
                 {
