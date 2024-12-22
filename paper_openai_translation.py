@@ -10,47 +10,53 @@ import re
 import time
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-
-
 # OpenAI API 키를 환경 변수에서 가져오기
 api_key = os.getenv('OPENAI_API_KEY')
 if not api_key:
     raise ValueError("OPENAI_API_KEY 환경 변수를 설정해주세요")
 
-
 # OpenAI API 호출 함수 (재시도 메커니즘 포함)
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
 def call_gpt_api(prompt):
-    
     # OpenAI 클라이언트를 초기화
     client = OpenAI(api_key=api_key)
-    
-    """
-    OpenAI GPT API를 호출하여 번역 요청을 처리하는 함수
-    재시도 로직이 포함되어 API 호출이 실패하면 최대 3번 재시도함
-    """
     try:
         result = client.chat.completions.create(
-            model="gpt-4o-mini",  # 사용 모델 지정
+            model="gpt-4o-mini",
             messages=[
                 {
-                    "role": "user",  # 사용자 입력 메시지
+                    "role": "user",
                     "content": prompt
                 }
             ],
-            stream=False  # 스트리밍 비활성화
+            stream=False
         )
         return result
     except Exception as e:
         print(f"API 호출 중 오류 발생: {str(e)}")
         raise
 
+def is_already_translated(paper_title, output_folder):
+    """
+    이미 번역된 문서인지 확인하는 함수
+    :param paper_title: 논문의 제목
+    :param output_folder: 번역 결과가 저장된 폴더 경로
+    :return: 번역 여부 (True/False)
+    """
+    for file_name in os.listdir(output_folder):
+        if file_name.endswith("_paper_ko.json"):
+            file_path = os.path.join(output_folder, file_name)
+            with open(file_path, 'r', encoding='utf-8') as f:
+                translated_papers = json.load(f)
+                for paper in translated_papers:
+                    if paper.get("paper", {}).get("title", "") == paper_title:
+                        return paper
+    return False
 
 def process_papers():
     """
-    논문 메타데이터 파일을 읽고 번역 후 결과를 저장하고 포스터를 생성하는 함수
+    논문 메타데이터 파일을 읽고 번역 후 결과를 저장하는 함수
     """
-    # 어제 날짜 문자열 생성
     yesterday = datetime.datetime.now(pytz.timezone("Asia/Seoul")) - datetime.timedelta(days=1)
     yesterday_str = yesterday.strftime("%Y-%m-%d")
 
@@ -59,29 +65,38 @@ def process_papers():
         print(f"메타데이터 파일을 찾을 수 없습니다: {metadata_file}")
         return
 
+    output_folder = 'hf-daily-paper-ko-gpt'
+    os.makedirs(output_folder, exist_ok=True)
+
     try:
         with open(metadata_file, 'r', encoding='utf-8') as f:
-            papers_data = json.load(f)  # 논문 데이터 읽기
+            papers_data = json.load(f)
 
-        papers_data = papers_data[0:2] # 2개의 논문에 대해서만 처리
+        papers_data = papers_data[0:3]  # 2개의 논문에 대해서만 처리
 
         results = []
-        # tqdm을 사용해 진행률 표시
         for paper_str in tqdm(papers_data, desc="논문 처리 중"):
             try:
-                paper_data = eval(paper_str)  # 논문 데이터 파싱
+                paper_data = eval(paper_str)
                 paper_info = paper_data.get("paper", {})
 
                 if not paper_info:
                     continue
 
                 title = paper_info.get("title", "")
+
+                # 이미 번역된 문서인지 확인
+                translated_paper = is_already_translated(title, output_folder)
+                if translated_paper:
+                    print(f"이미 번역된 문서: {title}")
+                    results.append(translated_paper)
+                    continue
+
                 summary = paper_info.get("summary", "")
 
-                # OpenAI GPT API에 번역 요청
                 prompt = """
                 이 논문의 영문 제목과 요약을 자연스러운 한국어로 요약해. 
-                문장은 최대한 쉬운 표현으로 간결하게 번역하고, 기술 용어나 AI와 관련 있는 용어는 영어 단어를 그대로 작성해.
+                문장은 최대한 쉬운 표현으로 간결하게 번역하고, 기술 용어나 AI와 관련 있는 용어나 논문 전략과 관련된 중요한 용어는 영어 단어를 그대로 작성해.
                 키워드는 "Computer Vision, Image Generation, Image Understanding,
                 Video Generation, Video Understanding, Natural Language Processing,
                 Large Language Models, Multimodal Learning, Vision-Language Models,
@@ -108,46 +123,31 @@ def process_papers():
                 요약: %s
                 출력:
                 """ %(title, summary)
-                
-                
-                response = call_gpt_api(prompt)
-                print(response)
 
-                # GPT 응답 데이터 안전하게 JSON 파싱
+                response = call_gpt_api(prompt)
                 translation_content = response.choices[0].message.content
                 translation_data = json.loads(translation_content)
-                print(translation_data)
-                
+
                 parsed_result = {
                     "paper": paper_info,
                     "translation_title": translation_data.get("translation_title", ""),
                     "purpose": translation_data.get("purpose", ""),
                     "method": translation_data.get("method", []),
-                    "conclusion": translation_data.get("conclusion",""),
+                    "conclusion": translation_data.get("conclusion", ""),
                     "keywords": translation_data.get("keywords", [])
                 }
-                
-                # 번역 결과 저장
-                results.append(parsed_result)
-                
-                # None 값 체크
-                if any(value is None for value in parsed_result.values()):
-                    raise ValueError("응답 데이터에 None 값이 포함되어 있습니다.")
 
-                time.sleep(1)  # 요청 간 딜레이 추가
+                results.append(parsed_result)
+                time.sleep(1)
 
             except Exception as e:
                 print(f"논문 처리 중 오류 발생: {str(e)}")
                 continue
 
-        # 결과 저장
-        output_folder = 'hf-daily-paper-ko-gpt'
-        os.makedirs(output_folder, exist_ok=True)
         output_file = os.path.join(output_folder, f"{yesterday_str}_paper_ko.json")
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4)
         print(f"번역 결과가 저장되었습니다: {output_file}")
-
 
     except Exception as e:
         print(f"논문 처리 중 오류 발생: {e}")
