@@ -72,7 +72,7 @@ def process_papers():
         with open(metadata_file, 'r', encoding='utf-8') as f:
             papers_data = json.load(f)
 
-        papers_data = papers_data[0:3]  # 2개의 논문에 대해서만 처리
+        papers_data = papers_data[0:5]  # 5개의 논문에 대해서만 처리
 
         results = []
         for paper_str in tqdm(papers_data, desc="논문 처리 중"):
