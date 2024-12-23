@@ -33,7 +33,7 @@ LLM 번역 결과가 미숙하다보니, 다른 API를 활용해서 번역하는
 
 
 # To Do
-- [X] Ver.beta에 대한 README 작성 
+- [X] README 작성 
 - [X] `paper_openai_translation.py` 에서 목표 날짜에 번역된 json 이 이미 있으면 수행하지 않도록 예외 처리
 - [ ] 요약 성능 고도화
     - [X] Prompt Engineering
