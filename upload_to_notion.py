@@ -55,7 +55,7 @@ def upload_to_notion(papers_info, notion_api, notion_db_id):
                     "object": "block",
                     "type": "heading_2",
                     "heading_2": {
-                        "rich_text": [{"type": "text", "text": {"content": "🇰🇷 한국어 요약"}}]
+                        "rich_text": [{"type": "text", "text": {"content": "한국어 요약 🇰🇷 "}}]
                     }
                 },
                 {
