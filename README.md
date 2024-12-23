@@ -14,6 +14,7 @@
 
 1. [Download HF daily papers](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/download_hf_daily_paper.yml)
     - [Hugging Face Daily Papers](https://huggingface.co/papers) API Endpoint 에서 메타데이터를 다운로드 합니다. 일간지의 전체 목록이 업데이트 되는 시점이 불분명하기 때문에 목표 날짜는 "어제"입니다. 날짜는 동적으로 계산됩니니다.
+    - 💥 주말에는 일간지 업데이트가 되고 있지 않아서, 한국 기준 일~월요일에는 메타데이터 다운로드 및 Notion 업로드가 되지 않습니다.
    
 2. [Translate into Korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml)
     - [OpenAI API](https://openai.com/index/openai-api/)로 제공하는 LLM과 프롬프트 엔지니어링을 활용하여 문서를 번역합니다. LLM은 논문의 제목/요약을 번역하고, 키워드를 추출하며, 목적을 요약합니다.
@@ -33,12 +34,12 @@ LLM 번역 결과가 미숙하다보니, 다른 API를 활용해서 번역하는
 
 # To Do
 - [X] Ver.beta에 대한 README 작성 
-- [ ] `paper_openai_translation.py` 에서 목표 날짜에 번역된 json 이 이미 있으면 수행하지 않도록 예외 처리
+- [X] `paper_openai_translation.py` 에서 목표 날짜에 번역된 json 이 이미 있으면 수행하지 않도록 예외 처리
 - [ ] 요약 성능 고도화
-    - [ ] Prompt Engineering
+    - [X] Prompt Engineering
     - [ ] API 교체(Claude, Solar 등)
 - [X] 논문 대표 사진 다운 및 Notion Page 내 삽입 기능
-- [ ] 통계 기능(ex. Weekly Kerywords 등)
+- [ ] 통계 기능(ex. Weekly Keywords 등)
 
 # Acknowledgement
 - 두 분의 작업물을 참고하였습니다. 감사합니다!
