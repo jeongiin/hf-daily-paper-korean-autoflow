@@ -1,0 +1,492 @@
+[
+    {
+        "paper": {
+            "id": "2412.15119",
+            "authors": [
+                {
+                    "_id": "6764fd9b10330426aecdded7",
+                    "user": {
+                        "_id": "63ea23b9dedfeebe54d02bdf",
+                        "avatarUrl": "/avatars/4d9f9a546aa8c63e277161ea700075c4.svg",
+                        "isPro": false,
+                        "fullname": "Yuqing Wang",
+                        "user": "Epiphqny",
+                        "type": "user"
+                    },
+                    "name": "Yuqing Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:11:21.169Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecdded8",
+                    "user": {
+                        "_id": "60d2e681b8448e1785bbda06",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624434302056-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Shuhuai Ren",
+                        "user": "ShuhuaiRen",
+                        "type": "user"
+                    },
+                    "name": "Shuhuai Ren",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:11:23.352Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecdded9",
+                    "user": {
+                        "_id": "64415957bd0c9726529802f6",
+                        "avatarUrl": "/avatars/1132d1ee68fb58ec635d57c8175caacd.svg",
+                        "isPro": false,
+                        "fullname": "Zhijie Lin",
+                        "user": "Ikuinen",
+                        "type": "user"
+                    },
+                    "name": "Zhijie Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:30:34.250Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddeda",
+                    "name": "Yujin Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddedb",
+                    "name": "Haoyuan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddedc",
+                    "user": {
+                        "_id": "6421183b69a2c2933882d652",
+                        "avatarUrl": "/avatars/66813a8fa22915087cccd4dbfb945ca7.svg",
+                        "isPro": false,
+                        "fullname": "Zhenheng Yang",
+                        "user": "zhenheny",
+                        "type": "user"
+                    },
+                    "name": "Zhenheng Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:24:14.038Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddedd",
+                    "name": "Difan Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddede",
+                    "user": {
+                        "_id": "67298e44017b96a1d0101dc4",
+                        "avatarUrl": "/avatars/1f8ed1a3e911e6a3021087b9371d284c.svg",
+                        "isPro": false,
+                        "fullname": "Jiashi Feng",
+                        "user": "jshfeng",
+                        "type": "user"
+                    },
+                    "name": "Jiashi Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:23:58.910Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6764fd9b10330426aecddedf",
+                    "user": {
+                        "_id": "65d5ec74cd05bc1eaa125040",
+                        "avatarUrl": "/avatars/2de1b1539a86452c2c89570eeb02f5ab.svg",
+                        "isPro": false,
+                        "fullname": "Xihui Liu",
+                        "user": "XihuiLiu",
+                        "type": "user"
+                    },
+                    "name": "Xihui Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:11:19.211Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-19T17:59:54.000Z",
+            "title": "Parallelized Autoregressive Visual Generation",
+            "summary": "Autoregressive models have emerged as a powerful approach for visual\ngeneration but suffer from slow inference speed due to their sequential\ntoken-by-token prediction process. In this paper, we propose a simple yet\neffective approach for parallelized autoregressive visual generation that\nimproves generation efficiency while preserving the advantages of\nautoregressive modeling. Our key insight is that parallel generation depends on\nvisual token dependencies-tokens with weak dependencies can be generated in\nparallel, while strongly dependent adjacent tokens are difficult to generate\ntogether, as their independent sampling may lead to inconsistencies. Based on\nthis observation, we develop a parallel generation strategy that generates\ndistant tokens with weak dependencies in parallel while maintaining sequential\ngeneration for strongly dependent local tokens. Our approach can be seamlessly\nintegrated into standard autoregressive models without modifying the\narchitecture or tokenizer. Experiments on ImageNet and UCF-101 demonstrate that\nour method achieves a 3.6x speedup with comparable quality and up to 9.5x\nspeedup with minimal quality degradation across both image and video generation\ntasks. We hope this work will inspire future research in efficient visual\ngeneration and unified autoregressive modeling. Project page:\nhttps://epiphqny.github.io/PAR-project.",
+            "upvotes": 30,
+            "discussionId": "6764fda210330426aecde36f"
+        },
+        "translation_title": "병렬화된 자기회귀 시각 생성",
+        "purpose": "시각 생성의 효율성을 개선하면서 자기회귀 모델의 장점을 유지하기 위한 방법 연구",
+        "method": [
+            "시각 토큰 의존성에 기반한 병렬 생성 전략 개발(Our key insight is that parallel generation depends on visual token dependencies-tokens with weak dependencies can be generated in parallel.)",
+            "약한 의존성을 가진 먼 토큰을 병렬로 생성하고, 강한 의존성을 가진 인접 토큰은 순차적으로 생성함(Based on this observation, we develop a parallel generation strategy that generates distant tokens with weak dependencies in parallel while maintaining sequential generation for strongly dependent local tokens.)",
+            "기존 자기회귀 모델의 아키텍처나 토크나이저를 수정하지 않고 통합 가능함(Our approach can be seamlessly integrated into standard autoregressive models without modifying the architecture or tokenizer.)"
+        ],
+        "conclusion": "이미지 및 비디오 생성 작업에서 3.6배의 속도 향상과 최소한의 품질 저하로 9.5배의 속도 향상을 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.16145",
+            "authors": [
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f2",
+                    "user": {
+                        "_id": "6310664063b70252b4779150",
+                        "avatarUrl": "/avatars/d514270c57b6ac494e0a419d792a72e5.svg",
+                        "isPro": false,
+                        "fullname": "Huaijie Wang",
+                        "user": "jwhj",
+                        "type": "user"
+                    },
+                    "name": "Huaijie Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:31:56.207Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f3",
+                    "user": {
+                        "_id": "660ee5df35d092e3fc2a3685",
+                        "avatarUrl": "/avatars/a7e0472fb7ea49973f74e3eea13dc964.svg",
+                        "isPro": false,
+                        "fullname": "Shibo Hao",
+                        "user": "Shibo-UCSD",
+                        "type": "user"
+                    },
+                    "name": "Shibo Hao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:32:02.176Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f4",
+                    "user": {
+                        "_id": "63a3ff69f91ad3ea5703841d",
+                        "avatarUrl": "/avatars/69227c4bce01d33747c1377b6f9672db.svg",
+                        "isPro": false,
+                        "fullname": "Hanze Dong",
+                        "user": "hendrydong",
+                        "type": "user"
+                    },
+                    "name": "Hanze Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:32:07.779Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f5",
+                    "user": {
+                        "_id": "661213f894e0b3bff3e80c69",
+                        "avatarUrl": "/avatars/d8febbb081825bf91e487aa8bad3a391.svg",
+                        "isPro": false,
+                        "fullname": "Shenao Zhang",
+                        "user": "ZhangShenao",
+                        "type": "user"
+                    },
+                    "name": "Shenao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:09:50.829Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f6",
+                    "name": "Yilin Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f7",
+                    "name": "Ziran Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768f050bf7c0f8d9a17c4f8",
+                    "user": {
+                        "_id": "62c88b04ab9c23f5c459ed90",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c88b04ab9c23f5c459ed90/tEaeuKpXdXwqK-zq1H-8a.png",
+                        "isPro": false,
+                        "fullname": "Yi Wu",
+                        "user": "yiwu",
+                        "type": "user"
+                    },
+                    "name": "Yi Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:32:27.882Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-20T18:49:45.000Z",
+            "title": "Offline Reinforcement Learning for LLM Multi-Step Reasoning",
+            "summary": "Improving the multi-step reasoning ability of large language models (LLMs)\nwith offline reinforcement learning (RL) is essential for quickly adapting them\nto complex tasks. While Direct Preference Optimization (DPO) has shown promise\nin aligning LLMs with human preferences, it is less suitable for multi-step\nreasoning tasks because (1) DPO relies on paired preference data, which is not\nreadily available for multi-step reasoning tasks, and (2) it treats all tokens\nuniformly, making it ineffective for credit assignment in multi-step reasoning\ntasks, which often come with sparse reward. In this work, we propose OREO\n(Offline Reasoning Optimization), an offline RL method for enhancing LLM\nmulti-step reasoning. Building on insights from previous works of maximum\nentropy reinforcement learning, it jointly learns a policy model and value\nfunction by optimizing the soft Bellman Equation. We show in principle that it\nreduces the need to collect pairwise data and enables better credit assignment.\nEmpirically, OREO surpasses existing offline learning methods on multi-step\nreasoning benchmarks, including mathematical reasoning tasks (GSM8K, MATH) and\nembodied agent control (ALFWorld). The approach can be extended to a\nmulti-iteration framework when additional resources are available. Furthermore,\nthe learned value function can be leveraged to guide the tree search for free,\nwhich can further boost performance during test time.",
+            "upvotes": 16,
+            "discussionId": "6768f051bf7c0f8d9a17c53a"
+        },
+        "translation_title": "LLM 다단계 추론을 위한 오프라인 강화 학습",
+        "purpose": "오프라인 강화 학습을 통해 대형 언어 모델(LLM)의 다단계 추론 능력을 향상시키기 위한 연구",
+        "method": [
+            "Direct Preference Optimization(DPO) 방법이 다단계 추론 작업에 적합하지 않음을 언급하고 새로운 방법인 OREO(Offline Reasoning Optimization)를 제안함.(While Direct Preference Optimization (DPO) has shown promise in aligning LLMs with human preferences, it is less suitable for multi-step reasoning tasks...)",
+            "OREO는 최대 엔트로피 강화 학습의 통찰을 바탕으로 하고 있으며 정책 모델과 가치 함수를 동시에 학습함.(Building on insights from previous works of maximum entropy reinforcement learning, it jointly learns a policy model and value function by optimizing the soft Bellman Equation.)",
+            "OREO가 다단계 추론 벤치마크에서 기존 오프라인 학습 방법들을 초월하는 성능을 보임.(Empirically, OREO surpasses existing offline learning methods on multi-step reasoning benchmarks...)"
+        ],
+        "conclusion": "OREO는 다단계 추론 작업에서 데이터 수집 필요성을 줄이고, 성능을 향상시키는 효과적인 방법임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.13649",
+            "authors": [
+                {
+                    "_id": "6768cd61aa9027defefa2ad4",
+                    "user": {
+                        "_id": "644a4fbc2166258fccc664bc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                        "isPro": false,
+                        "fullname": "Jialong Wu",
+                        "user": "callanwu",
+                        "type": "user"
+                    },
+                    "name": "Jialong Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:10:00.992Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768cd61aa9027defefa2ad5",
+                    "name": "Zhenglin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768cd61aa9027defefa2ad6",
+                    "user": {
+                        "_id": "66596d64ce1b2838888f4401",
+                        "avatarUrl": "/avatars/d8d0d116a3198571c7e86f09871c2d76.svg",
+                        "isPro": false,
+                        "fullname": "Linhai Zhang",
+                        "user": "lzhang472",
+                        "type": "user"
+                    },
+                    "name": "Linhai Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:30:58.318Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768cd61aa9027defefa2ad7",
+                    "name": "Yilong Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768cd61aa9027defefa2ad8",
+                    "name": "Yulan He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768cd61aa9027defefa2ad9",
+                    "user": {
+                        "_id": "64e821f2bddc5b1072b15c2e",
+                        "avatarUrl": "/avatars/618b5a48f2fa62daff4e1922a9aa9e8b.svg",
+                        "isPro": false,
+                        "fullname": "zhoudeyu",
+                        "user": "zhoudeyu",
+                        "type": "user"
+                    },
+                    "name": "Deyu Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:31:24.902Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-18T09:27:33.000Z",
+            "title": "SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation",
+            "summary": "Key-Value (KV) cache has become a bottleneck of LLMs for long-context\ngeneration. Despite the numerous efforts in this area, the optimization for the\ndecoding phase is generally ignored. However, we believe such optimization is\ncrucial, especially for long-output generation tasks based on the following two\nobservations: (i) Excessive compression during the prefill phase, which\nrequires specific full context impairs the comprehension of the reasoning task;\n(ii) Deviation of heavy hitters occurs in the reasoning tasks with long\noutputs. Therefore, SCOPE, a simple yet efficient framework that separately\nperforms KV cache optimization during the prefill and decoding phases, is\nintroduced. Specifically, the KV cache during the prefill phase is preserved to\nmaintain the essential information, while a novel strategy based on sliding is\nproposed to select essential heavy hitters for the decoding phase. Memory usage\nand memory transfer are further optimized using adaptive and discontinuous\nstrategies. Extensive experiments on LongGenBench show the effectiveness and\ngeneralization of SCOPE and its compatibility as a plug-in to other\nprefill-only KV compression methods.",
+            "upvotes": 15,
+            "discussionId": "6768cd62aa9027defefa2b1b"
+        },
+        "translation_title": "SCOPE: 긴 문맥 생성을 위한 Key-Value 캐시 압축 최적화",
+        "purpose": "긴 문맥 생성에서 LLMs의 Key-Value 캐시 최적화를 통해 성능 향상",
+        "method": [
+            "KV 캐시 최적화를 prefill 단계와 decoding 단계에서 분리하여 수행하는 SCOPE 프레임워크 도입(Therefore, SCOPE, a simple yet efficient framework that separately performs KV cache optimization during the prefill and decoding phases, is introduced.)",
+            "prefill 단계에서 필수 정보를 유지하기 위해 KV 캐시를 보존함(Specifically, the KV cache during the prefill phase is preserved to maintain the essential information.)",
+            "슬라이딩 기반의 새로운 전략을 통해 decoding 단계에서 필수 heavy hitters 선택(Novel strategy based on sliding is proposed to select essential heavy hitters for the decoding phase.)"
+        ],
+        "conclusion": "SCOPE는 긴 문맥 생성에서 메모리 사용과 전송을 최적화하며, 다른 KV 압축 방법과 호환성도 뛰어나다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.16112",
+            "authors": [
+                {
+                    "_id": "6768d7f797a8f966b3362aa6",
+                    "user": {
+                        "_id": "642ad435a096201096ecc580",
+                        "avatarUrl": "/avatars/35d2c8d6615d8ed8ad6d695e5d748ab2.svg",
+                        "isPro": false,
+                        "fullname": "Songhua Liu",
+                        "user": "flyingman",
+                        "type": "user"
+                    },
+                    "name": "Songhua Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:32:39.114Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d7f797a8f966b3362aa7",
+                    "user": {
+                        "_id": "674e743be91289226ef9e857",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/FnLwJTTeItGbAUg4IPr7l.jpeg",
+                        "isPro": false,
+                        "fullname": "唐振雄",
+                        "user": "ZhenxiongTang",
+                        "type": "user"
+                    },
+                    "name": "Zhenxiong Tan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:32:44.224Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d7f797a8f966b3362aa8",
+                    "user": {
+                        "_id": "63fc03a50aab060792ffef39",
+                        "avatarUrl": "/avatars/9d5b1bb2a41928e08176b703935133ab.svg",
+                        "isPro": false,
+                        "fullname": "Wangxinchao",
+                        "user": "wxcTest",
+                        "type": "user"
+                    },
+                    "name": "Xinchao Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:33:21.470Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-20T17:57:09.000Z",
+            "title": "CLEAR: Conv-Like Linearization Revs Pre-Trained Diffusion Transformers\n  Up",
+            "summary": "Diffusion Transformers (DiT) have become a leading architecture in image\ngeneration. However, the quadratic complexity of attention mechanisms, which\nare responsible for modeling token-wise relationships, results in significant\nlatency when generating high-resolution images. To address this issue, we aim\nat a linear attention mechanism in this paper that reduces the complexity of\npre-trained DiTs to linear. We begin our exploration with a comprehensive\nsummary of existing efficient attention mechanisms and identify four key\nfactors crucial for successful linearization of pre-trained DiTs: locality,\nformulation consistency, high-rank attention maps, and feature integrity. Based\non these insights, we introduce a convolution-like local attention strategy\ntermed CLEAR, which limits feature interactions to a local window around each\nquery token, and thus achieves linear complexity. Our experiments indicate\nthat, by fine-tuning the attention layer on merely 10K self-generated samples\nfor 10K iterations, we can effectively transfer knowledge from a pre-trained\nDiT to a student model with linear complexity, yielding results comparable to\nthe teacher model. Simultaneously, it reduces attention computations by 99.5%\nand accelerates generation by 6.3 times for generating 8K-resolution images.\nFurthermore, we investigate favorable properties in the distilled attention\nlayers, such as zero-shot generalization cross various models and plugins, and\nimproved support for multi-GPU parallel inference. Models and codes are\navailable here: https://github.com/Huage001/CLEAR.",
+            "upvotes": 10,
+            "discussionId": "6768d7fa97a8f966b3362bcf"
+        },
+        "translation_title": "CLEAR: 컨볼루션 유사 선형화가 사전 학습된 확산 변형기를 개선하다",
+        "purpose": "사전 학습된 Diffusion Transformers의 복잡도를 선형으로 줄여 고해상도 이미지 생성을 빠르게 하고자 함",
+        "method": [
+            "기존의 효율적인 attention 메커니즘을 분석하여, 선형화를 위한 네 가지 주요 요소를 식별함(we begin our exploration with a comprehensive summary of existing efficient attention mechanisms and identify four key factors crucial for successful linearization of pre-trained DiTs)",
+            "CLEAR라는 국소적 attention 전략을 도입하여 기능 상호작용을 각 쿼리 토큰 주변의 지역 창으로 제한함(Based on these insights, we introduce a convolution-like local attention strategy termed CLEAR, which limits feature interactions to a local window around each query token, and thus achieves linear complexity)",
+            "단 10K 자가 생성 샘플로 attention 레이어를 미세 조정하여 선형 복잡도를 가진 학생 모델로 지식 이전을 효과적으로 수행함(our experiments indicate that, by fine-tuning the attention layer on merely 10K self-generated samples for 10K iterations, we can effectively transfer knowledge from a pre-trained DiT to a student model with linear complexity, yielding results comparable to the teacher model)"
+        ],
+        "conclusion": "CLEAR 방법을 통해 생성 과정의 계산량을 99.5% 줄이고, 8K 해상도 이미지 생성을 6.3배 가속화하는 성과를 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.15322",
+            "authors": [
+                {
+                    "_id": "6768d18826eb881162077014",
+                    "user": {
+                        "_id": "63041b541dd5d3c62486c294",
+                        "avatarUrl": "/avatars/a5286d562f7b9082730f760e66c3bf29.svg",
+                        "isPro": true,
+                        "fullname": "Ho Kei Cheng",
+                        "user": "hkchengrex",
+                        "type": "user"
+                    },
+                    "name": "Ho Kei Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:09:58.995Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d18826eb881162077015",
+                    "user": {
+                        "_id": "674545617e0ea169b0c471d1",
+                        "avatarUrl": "/avatars/a422e3efa5fb1c3f2c6c0997c412b088.svg",
+                        "isPro": false,
+                        "fullname": "Masato Ishii",
+                        "user": "mi141",
+                        "type": "user"
+                    },
+                    "name": "Masato Ishii",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:33:45.656Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d18826eb881162077016",
+                    "name": "Akio Hayakawa",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d18826eb881162077017",
+                    "user": {
+                        "_id": "6650773ca6acfdd2aba7d486",
+                        "avatarUrl": "/avatars/d297886ea60dbff98a043caf825820ed.svg",
+                        "isPro": false,
+                        "fullname": "Takashi Shibuya",
+                        "user": "TakashiShibuyaSony",
+                        "type": "user"
+                    },
+                    "name": "Takashi Shibuya",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-23T11:09:56.433Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d18826eb881162077018",
+                    "name": "Alexander Schwing",
+                    "hidden": false
+                },
+                {
+                    "_id": "6768d18826eb881162077019",
+                    "user": {
+                        "_id": "665e32384ecc8a7181634f6d",
+                        "avatarUrl": "/avatars/8752f952010540d14f45eac849e91371.svg",
+                        "isPro": false,
+                        "fullname": "Yuki Mitsufuji",
+                        "user": "mittu1204",
+                        "type": "user"
+                    },
+                    "name": "Yuki Mitsufuji",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2024-12-23T11:34:10.186Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-19T18:59:55.000Z",
+            "title": "Taming Multimodal Joint Training for High-Quality Video-to-Audio\n  Synthesis",
+            "summary": "We propose to synthesize high-quality and synchronized audio, given video and\noptional text conditions, using a novel multimodal joint training framework\nMMAudio. In contrast to single-modality training conditioned on (limited) video\ndata only, MMAudio is jointly trained with larger-scale, readily available\ntext-audio data to learn to generate semantically aligned high-quality audio\nsamples. Additionally, we improve audio-visual synchrony with a conditional\nsynchronization module that aligns video conditions with audio latents at the\nframe level. Trained with a flow matching objective, MMAudio achieves new\nvideo-to-audio state-of-the-art among public models in terms of audio quality,\nsemantic alignment, and audio-visual synchronization, while having a low\ninference time (1.23s to generate an 8s clip) and just 157M parameters. MMAudio\nalso achieves surprisingly competitive performance in text-to-audio generation,\nshowing that joint training does not hinder single-modality performance. Code\nand demo are available at: https://hkchengrex.github.io/MMAudio",
+            "upvotes": 8,
+            "discussionId": "6768d18926eb881162077079"
+        },
+        "translation_title": "고품질 비디오-오디오 합성을 위한 다중 모드 공동 훈련 조절",
+        "purpose": "비디오와 선택적 텍스트 조건을 바탕으로 고품질의 동기화된 오디오를 합성하기 위한 방법 개발",
+        "method": [
+            "새로운 다중 모드 공동 훈련 프레임워크인 MMAudio를 사용해 비디오와 텍스트 데이터를 함께 훈련함(In contrast to single-modality training conditioned on (limited) video data only, MMAudio is jointly trained with larger-scale, readily available text-audio data to learn to generate semantically aligned high-quality audio samples.)",
+            "조건부 동기화 모듈을 통해 프레임 수준에서 비디오 조건과 오디오 잠재 변수를 정렬하여 오디오-비주얼 동기성을 개선함(Additionally, we improve audio-visual synchrony with a conditional synchronization module that aligns video conditions with audio latents at the frame level.)",
+            "플로우 매칭 목표로 훈련하여 다양한 측면에서 최첨단 비디오-오디오 성능을 달성함.(Trained with a flow matching objective, MMAudio achieves new video-to-audio state-of-the-art among public models in terms of audio quality, semantic alignment, and audio-visual synchronization, while having a low inference time (1.23s to generate an 8s clip) and just 157M parameters.)"
+        ],
+        "conclusion": "MMAudio는 비디오-오디오 합성에서 새로운 성능 기준을 세우며 텍스트-오디오 생성에서도 경쟁력 있는 성과를 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Video Generation",
+            "Natural Language Processing"
+        ]
+    }
+]
