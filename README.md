@@ -17,13 +17,13 @@
     - 💥 주말에는 일간지 업데이트가 되고 있지 않아서, 한국 기준 일~월요일에는 메타데이터 다운로드 및 Notion 업로드가 되지 않습니다.
    
 2. [Translate into Korean](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/translate_into_korean.yml)
-    - [OpenAI API](https://openai.com/index/openai-api/)로 제공하는 LLM과 프롬프트 엔지니어링을 활용하여 문서를 번역합니다. LLM은 논문의 제목/요약을 번역하고, 키워드를 추출하며, 목적을 요약합니다.
+    - [OpenAI API](https://openai.com/index/openai-api/)로 제공하는 LLM과 프롬프트 엔지니어링을 활용하여 문서를 번역합니다. LLM은 논문의 제목/요약을 번역 및 요약하고, 키워드를 추출합니다.
     - API 요금은 개인 자금을 사용하고 있습니다..
 
 3. [Upload to Notion](https://github.com/jeongiin/hf-daily-paper-korean-autoflow/actions/workflows/upload_to_notion.yml)
     - 공개된 Notion 페이지에 업로드합니다. 모든 페이지는 Notion에서 제공하는 Database 형태로 관리됩니다.
 
-* 현재는 beta version 으로 하루에 2건의 논문만 작업 중이며, 요약 성능 개선 후 전체 논문을 번역하도록 변경 예정입니다.
+* 현재는 beta version 으로 하루에 일부 논문만 작업 중이며, 요약 성능 개선 후 전체 논문을 번역하도록 변경 예정입니다.
 
 # Welcome to Contionbute!
 
