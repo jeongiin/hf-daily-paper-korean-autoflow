@@ -1,0 +1,304 @@
+[
+    {
+        "paper": {
+            "id": "2412.18153",
+            "authors": [
+                {
+                    "_id": "676b7d07d886f8125a4fb855",
+                    "name": "Zhiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb856",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb857",
+                    "name": "Qiuyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb858",
+                    "name": "Shuzhe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb859",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb85a",
+                    "name": "Bin Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb85b",
+                    "name": "Kai Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb85c",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb85d",
+                    "name": "Qifeng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b7d07d886f8125a4fb85e",
+                    "name": "Ping Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T04:16:38.000Z",
+            "title": "DepthLab: From Partial to Complete",
+            "summary": "Missing values remain a common challenge for depth data across its wide range\nof applications, stemming from various causes like incomplete data acquisition\nand perspective alteration. This work bridges this gap with DepthLab, a\nfoundation depth inpainting model powered by image diffusion priors. Our model\nfeatures two notable strengths: (1) it demonstrates resilience to\ndepth-deficient regions, providing reliable completion for both continuous\nareas and isolated points, and (2) it faithfully preserves scale consistency\nwith the conditioned known depth when filling in missing values. Drawing on\nthese advantages, our approach proves its worth in various downstream tasks,\nincluding 3D scene inpainting, text-to-3D scene generation, sparse-view\nreconstruction with DUST3R, and LiDAR depth completion, exceeding current\nsolutions in both numerical performance and visual quality. Our project page\nwith source code is available at https://johanan528.github.io/depthlab_web/.",
+            "upvotes": 21,
+            "discussionId": "676b7d0bd886f8125a4fb983"
+        },
+        "translation_title": "DepthLab: 부분에서 완전으로",
+        "purpose": "Depth 데이터의 결측값 문제를 해결하고 다양한 응용 프로그램에서 신뢰할 수 있는 결과를 도출하기 위한 방법 연구",
+        "method": [
+            "DepthLab라는 기반 깊이 보완 모델을 개발하고 이미지 확산 사전 지식으로 강화함(Our work bridges this gap with DepthLab, a foundation depth inpainting model powered by image diffusion priors.)",
+            "모델이 깊이가 부족한 영역에서도 안정성을 발휘할 수 있도록 설계하고, 연속적인 영역과 고립된 점에 대한 신뢰할 수 있는 보완을 제공함(Our model features two notable strengths: it demonstrates resilience to depth-deficient regions, providing reliable completion for both continuous areas and isolated points.)",
+            "결측값을 보완 할 때 조건부로 주어진 깊이와 함께 스케일 일관성을 유지하도록 함(it faithfully preserves scale consistency with the conditioned known depth when filling in missing values.)",
+            "3D 장면 보완, 텍스트-3D 장면 생성, DUST3R를 통한 희소 뷰 재구성, LiDAR 깊이 완성을 포함한 다양한 하위 작업에서 성능을 입증함(Drawing on these advantages, our approach proves its worth in various downstream tasks, including 3D scene inpainting, text-to-3D scene generation, sparse-view reconstruction with DUST3R, and LiDAR depth completion.)"
+        ],
+        "conclusion": "DepthLab은 현재 솔루션보다 수치적 성능과 시각적 품질 모두에서 뛰어난 결과를 보여줍니다.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.18450",
+            "authors": [
+                {
+                    "_id": "676bbe579484d105b89dba3b",
+                    "user": {
+                        "_id": "6363767e572fd34304f49a67",
+                        "avatarUrl": "/avatars/a9fc92b6005d48adf71a45bebf812648.svg",
+                        "isPro": false,
+                        "fullname": "Tatiana Zemskova",
+                        "user": "wingrune",
+                        "type": "user"
+                    },
+                    "name": "Tatiana Zemskova",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2024-12-25T08:52:22.544Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bbe579484d105b89dba3c",
+                    "name": "Dmitry Yudin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T14:21:58.000Z",
+            "title": "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D\n  Scene Understanding",
+            "summary": "A 3D scene graph represents a compact scene model, storing information about\nthe objects and the semantic relationships between them, making its use\npromising for robotic tasks. When interacting with a user, an embodied\nintelligent agent should be capable of responding to various queries about the\nscene formulated in natural language. Large Language Models (LLMs) are\nbeneficial solutions for user-robot interaction due to their natural language\nunderstanding and reasoning abilities. Recent methods for creating learnable\nrepresentations of 3D scenes have demonstrated the potential to improve the\nquality of LLMs responses by adapting to the 3D world. However, the existing\nmethods do not explicitly utilize information about the semantic relationships\nbetween objects, limiting themselves to information about their coordinates. In\nthis work, we propose a method 3DGraphLLM for constructing a learnable\nrepresentation of a 3D scene graph. The learnable representation is used as\ninput for LLMs to perform 3D vision-language tasks. In our experiments on\npopular ScanRefer, RIORefer, Multi3DRefer, ScanQA, Sqa3D, and Scan2cap\ndatasets, we demonstrate the advantage of this approach over baseline methods\nthat do not use information about the semantic relationships between objects.\nThe code is publicly available at\nhttps://github.com/CognitiveAISystems/3DGraphLLM.",
+            "upvotes": 20,
+            "discussionId": "676bbe599484d105b89dbac5"
+        },
+        "translation_title": "3DGraphLLM: 3D 장면 이해를 위한 의미 그래프와 대형 언어 모델의 결합",
+        "purpose": "3D 장면 그래프를 통해 로봇 작업에 효과적인 3D 장면 모델을 구축하고, 사용자와의 자연어 상호작용을 개선하는 것",
+        "method": [
+            "3D 장면의 의미 관계 정보를 활용하여 학습 가능한 3D 장면 그래프 표현 방법을 제안함(We propose a method 3DGraphLLM for constructing a learnable representation of a 3D scene graph.)",
+            "제안한 장면 그래프 표현을 LLM의 입력으로 사용하여 3D 비전-언어 작업을 수행함(The learnable representation is used as input for LLMs to perform 3D vision-language tasks.)",
+            "여러 데이터셋에서 기존 방법보다 의미 관계 정보를 활용한 접근법의 장점을 입증함(In our experiments on popular datasets, we demonstrate the advantage of this approach over baseline methods that do not use information about the semantic relationships between objects.)"
+        ],
+        "conclusion": "3DGraphLLM은 의미 관계 정보를 이용하여 LLM의 응답 품질을 향상시키는 데 기여함.",
+        "keywords": [
+            "3D Vision",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.17739",
+            "authors": [
+                {
+                    "_id": "676a6844bee647b8c004f469",
+                    "name": "Ermo Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46a",
+                    "name": "Che Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46b",
+                    "name": "Xingtai Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46c",
+                    "name": "Kaiyan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46d",
+                    "name": "Ning Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46e",
+                    "name": "Youbang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f46f",
+                    "name": "Biqing Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f470",
+                    "name": "Yuchen Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f471",
+                    "name": "Xue Kai Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "676a6844bee647b8c004f472",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-23T17:44:01.000Z",
+            "title": "Fourier Position Embedding: Enhancing Attention's Periodic Extension for\n  Length Generalization",
+            "summary": "Extending the context length of Language Models (LMs) by improving Rotary\nPosition Embedding (RoPE) has become a trend. While existing works mainly\naddress RoPE's limitations within attention mechanism, this paper provides an\nanalysis across nearly all parts of LMs, uncovering their adverse effects on\nlength generalization for RoPE-based attention. Using Discrete Signal\nProcessing theory, we show that RoPE enables periodic attention by implicitly\nachieving Non-Uniform Discrete Fourier Transform. However, this periodicity is\nundermined by the spectral damage caused by: 1) linear layers and activation\nfunctions outside of attention; 2) insufficiently trained frequency components\nbrought by time-domain truncation. Building on our observations, we propose\nFourier Position Embedding (FoPE), which enhances attention's frequency-domain\nproperties to improve both its periodic extension and length generalization.\nFoPE constructs Fourier Series and zero-outs the destructive frequency\ncomponents, increasing model robustness against the spectrum damage.\nExperiments across various model scales show that, within varying context\nwindows, FoPE can maintain a more stable perplexity and a more consistent\naccuracy in a needle-in-haystack task compared to RoPE and ALiBi. Several\nanalyses and ablations bring further support to our method and theoretical\nmodeling.",
+            "upvotes": 16,
+            "discussionId": "676a6845bee647b8c004f51c"
+        },
+        "translation_title": "푸리에 위치 임베딩: 길이 일반화를 위한 주의 사항의 주기적 확장 향상",
+        "purpose": "Rotary Position Embedding (RoPE)의 개선을 통해 언어 모델의 맥락 길이를 확장하기 위한 연구",
+        "method": [
+            "RoPE의 문제를 분석하여 주의 메커니즘 외부의 선형 계층과 활성화 함수가 주기적 주의에 미치는 부정적 영향을 밝혀냄(While existing works mainly address RoPE's limitations within attention mechanism, this paper provides an analysis across nearly all parts of LMs, uncovering their adverse effects on length generalization for RoPE-based attention.)",
+            "Fourier Position Embedding (FoPE)를 제안하여 주의의 주파수 도메인 속성을 향상시키고, 주기적 확장과 길이 일반화를 개선하도록 설계함(Building on our observations, we propose Fourier Position Embedding (FoPE), which enhances attention's frequency-domain properties to improve both its periodic extension and length generalization.)",
+            "여러 모델 스케일에서 실험을 수행하여 FoPE가 RoPE 및 ALiBi에 비해 더욱 안정적인 perplexity와 일관된 정확도를 유지함을 입증함(Experiments across various model scales show that, within varying context windows, FoPE can maintain a more stable perplexity and a more consistent accuracy in a needle-in-haystack task compared to RoPE and ALiBi.)"
+        ],
+        "conclusion": "FoPE는 주의 메커니즘의 주기적 속성을 강화하여 모델의 강건성을 높이고, 길이 일반화 성능을 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.18597",
+            "authors": [
+                {
+                    "_id": "676b9b876fb4876383b8591b",
+                    "name": "Minghong Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b8591c",
+                    "name": "Xiaodong Cun",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b8591d",
+                    "name": "Xiaoyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b8591e",
+                    "name": "Wenze Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b8591f",
+                    "name": "Zhaoyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b85920",
+                    "name": "Yong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b85921",
+                    "name": "Ying Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "676b9b876fb4876383b85922",
+                    "name": "Xiangyu Yue",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T18:51:19.000Z",
+            "title": "DiTCtrl: Exploring Attention Control in Multi-Modal Diffusion\n  Transformer for Tuning-Free Multi-Prompt Longer Video Generation",
+            "summary": "Sora-like video generation models have achieved remarkable progress with a\nMulti-Modal Diffusion Transformer MM-DiT architecture. However, the current\nvideo generation models predominantly focus on single-prompt, struggling to\ngenerate coherent scenes with multiple sequential prompts that better reflect\nreal-world dynamic scenarios. While some pioneering works have explored\nmulti-prompt video generation, they face significant challenges including\nstrict training data requirements, weak prompt following, and unnatural\ntransitions. To address these problems, we propose DiTCtrl, a training-free\nmulti-prompt video generation method under MM-DiT architectures for the first\ntime. Our key idea is to take the multi-prompt video generation task as\ntemporal video editing with smooth transitions. To achieve this goal, we first\nanalyze MM-DiT's attention mechanism, finding that the 3D full attention\nbehaves similarly to that of the cross/self-attention blocks in the UNet-like\ndiffusion models, enabling mask-guided precise semantic control across\ndifferent prompts with attention sharing for multi-prompt video generation.\nBased on our careful design, the video generated by DiTCtrl achieves smooth\ntransitions and consistent object motion given multiple sequential prompts\nwithout additional training. Besides, we also present MPVBench, a new benchmark\nspecially designed for multi-prompt video generation to evaluate the\nperformance of multi-prompt generation. Extensive experiments demonstrate that\nour method achieves state-of-the-art performance without additional training.",
+            "upvotes": 10,
+            "discussionId": "676b9b886fb4876383b8597d"
+        },
+        "translation_title": "DiTCtrl: 튜닝이 필요 없는 멀티 프롬프트 긴 비디오 생성을 위한 멀티모달 확산 트랜스포머에서 주의 제어 탐색",
+        "purpose": "비디오 생성에서 여러 연속 프롬프트를 효과적으로 처리하기 위함",
+        "method": [
+            "MM-DiT 아키텍처에서 멀티 프롬프트 비디오 생성 작업을 시간적 비디오 편집으로 보고 접근함(Our key idea is to take the multi-prompt video generation task as temporal video editing with smooth transitions.)",
+            "MM-DiT의 attention 메커니즘을 분석하여 3D 전체 attention이 확산 모델의 크로스/셀프 attention과 유사하다는 것을 발견함(we first analyze MM-DiT's attention mechanism, finding that the 3D full attention behaves similarly to that of the cross/self-attention blocks in the UNet-like diffusion models.)",
+            "mask-guided 정확한 의미적 제어를 통해 여러 프롬프트에 대한 주의 공유를 가능하게 함(enabling mask-guided precise semantic control across different prompts with attention sharing for multi-prompt video generation.)",
+            "MPVBench라는 새로운 벤치마크를 제시하여 멀티 프롬프트 생성 성능을 평가함(we also present MPVBench, a new benchmark specially designed for multi-prompt video generation to evaluate the performance of multi-prompt generation.)"
+        ],
+        "conclusion": "DiTCtrl은 추가 학습 없이도 매끄러운 전환과 일관된 객체 움직임을 생성하여 최첨단 성능을 달성함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Attention Control"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.17758",
+            "authors": [
+                {
+                    "_id": "676bd06524bd46fa1990dcec",
+                    "user": {
+                        "_id": "600b381d3cc3b87db94bc0ce",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/600b381d3cc3b87db94bc0ce/I3xpr4gzcG1uXawXBpWpD.jpeg",
+                        "isPro": false,
+                        "fullname": "Łukasz Borchmann",
+                        "user": "Borchmann",
+                        "type": "user"
+                    },
+                    "name": "Łukasz Borchmann",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2024-12-25T09:29:11.195Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-23T18:14:36.000Z",
+            "title": "In Case You Missed It: ARC 'Challenge' Is Not That Challenging",
+            "summary": "ARC Challenge appears more difficult than ARC Easy for modern LLMs primarily\ndue to an evaluation setup that prevents direct comparison of answer choices\nrather than inherent complexity. Although some researchers have quietly shifted\nto a more appropriate scheme over the last year, the implications of this\nchange have yet to be widely acknowledged. We highlight this overlooked shift,\nshow how similar evaluation practices falsely imply reasoning deficits in other\nbenchmarks, and demonstrate that fairer methods dramatically reduce performance\ngaps (e.g. on SIQA) and even yield superhuman results (OpenBookQA). In doing\nso, we reveal how evaluation shapes perceived difficulty and offer guidelines\nto ensure that multiple-choice evaluations accurately reflect actual model\ncapabilities.",
+            "upvotes": 7,
+            "discussionId": "676bd06724bd46fa1990dd63"
+        },
+        "translation_title": "놓친 것이라면: ARC '도전'은 그렇게 어렵지 않다",
+        "purpose": "모델 평가가 실제 능력과 잘 맞도록 개선하여 ARC Challenge의 난이도를 재조명하기 위한 연구",
+        "method": [
+            "ARC Challenge의 평가 설정이 직접적인 답안 선택 비교를 방해하는 방식으로 어려움을 느끼게 만들고 있음을 강조함(ARC Challenge appears more difficult than ARC Easy for modern LLMs primarily due to an evaluation setup that prevents direct comparison of answer choices).",
+            "최근 연구자들이 더 적절한 평가 방식으로 변화하고 있음을 보여주지만, 이 변화가 널리 인식되지 못하고 있음을 밝힘(Although some researchers have quietly shifted to a more appropriate scheme over the last year, the implications of this change have yet to be widely acknowledged).",
+            "공정한 방법을 이용해 성능 격차가 dramatically 줄어들며 심지어 초인적인 결과를 얻는 것을 보여줌(In doing so, we reveal how evaluation shapes perceived difficulty and offer guidelines to ensure that multiple-choice evaluations accurately reflect actual model capabilities)."
+        ],
+        "conclusion": "ARC Challenge의 평가 방식을 개선하면 모델의 실제 능력이 더 잘 드러나며, 평가 방식이 난이도 인식에 미치는 영향을 확인할 수 있다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
