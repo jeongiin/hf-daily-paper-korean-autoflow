@@ -1,0 +1,57 @@
+[
+    {
+        "paper": {
+            "id": "2412.18547",
+            "authors": [
+                {
+                    "_id": "676c40d619a21c8b928d13c2",
+                    "name": "Tingxu Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "676c40d619a21c8b928d13c3",
+                    "name": "Chunrong Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676c40d619a21c8b928d13c4",
+                    "name": "Shiyu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "676c40d619a21c8b928d13c5",
+                    "name": "Shiqing Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "676c40d619a21c8b928d13c6",
+                    "name": "Zhenyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "676c40d619a21c8b928d13c7",
+                    "name": "Zhenting Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T16:55:45.000Z",
+            "title": "Token-Budget-Aware LLM Reasoning",
+            "summary": "Reasoning is critical for large language models (LLMs) to excel in a wide\nrange of tasks. While methods like Chain-of-Thought (CoT) reasoning enhance LLM\nperformance by decomposing problems into intermediate steps, they also incur\nsignificant overhead in token usage, leading to increased costs. We find that\nthe reasoning process of current LLMs is unnecessarily lengthy and it can be\ncompressed by including a reasonable token budget in the prompt, but the choice\nof token budget plays a crucial role in the actual compression effectiveness.\nWe then propose a token-budget-aware LLM reasoning framework, which dynamically\nestimates token budgets for different problems based on reasoning complexity\nand uses the estimated token budgets to guide the reasoning process.\nExperiments show that our method effectively reduces token costs in CoT\nreasoning with only a slight performance reduction, offering a practical\nsolution to balance efficiency and accuracy in LLM reasoning. Code:\nhttps://github.com/GeniusHTX/TALE.",
+            "upvotes": 9,
+            "discussionId": "676c40d719a21c8b928d13ea"
+        },
+        "translation_title": "토큰 예산 인식 LLM 추론",
+        "purpose": "대규모 언어 모델(LLMs)의 추론 과정에서 비용을 절감하고 성능을 유지하기 위한 방법론 개선",
+        "method": [
+            "토큰 예산을 포함한 프롬프트를 통해 LLM의 추론 과정이 불필요하게 길다는 것을 발견함(We find that the reasoning process of current LLMs is unnecessarily lengthy and it can be compressed by including a reasonable token budget in the prompt.)",
+            "문제의 복잡성에 따라 동적으로 토큰 예산을 추정하는 프레임워크를 제안함(We then propose a token-budget-aware LLM reasoning framework, which dynamically estimates token budgets for different problems based on reasoning complexity.)",
+            "예상된 토큰 예산을 통해 추론 과정을 안내하도록 함(and uses the estimated token budgets to guide the reasoning process.)"
+        ],
+        "conclusion": "우리의 방법은 Chain-of-Thought 추론에서 토큰 비용을 효과적으로 줄이고, 성능 저하를 최소화하며 LLM 추론의 효율성과 정확성의 균형을 제공합니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
