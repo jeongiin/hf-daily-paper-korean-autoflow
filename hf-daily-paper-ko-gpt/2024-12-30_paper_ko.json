@@ -1,0 +1,427 @@
+[
+    {
+        "paper": {
+            "id": "2412.18925",
+            "authors": [
+                {
+                    "_id": "677209448e0ed7713b183674",
+                    "name": "Junying Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b183675",
+                    "name": "Zhenyang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b183676",
+                    "name": "Ke Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b183677",
+                    "name": "Xidong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b183678",
+                    "name": "Wanlong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b183679",
+                    "name": "Rongsheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b18367a",
+                    "name": "Jianye Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "677209448e0ed7713b18367b",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-25T15:12:34.000Z",
+            "title": "HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs",
+            "summary": "The breakthrough of OpenAI o1 highlights the potential of enhancing reasoning\nto improve LLM. Yet, most research in reasoning has focused on mathematical\ntasks, leaving domains like medicine underexplored. The medical domain, though\ndistinct from mathematics, also demands robust reasoning to provide reliable\nanswers, given the high standards of healthcare. However, verifying medical\nreasoning is challenging, unlike those in mathematics. To address this, we\npropose verifiable medical problems with a medical verifier to check the\ncorrectness of model outputs. This verifiable nature enables advancements in\nmedical reasoning through a two-stage approach: (1) using the verifier to guide\nthe search for a complex reasoning trajectory for fine-tuning LLMs, (2)\napplying reinforcement learning (RL) with verifier-based rewards to enhance\ncomplex reasoning further. Finally, we introduce HuatuoGPT-o1, a medical LLM\ncapable of complex reasoning, which outperforms general and medical-specific\nbaselines using only 40K verifiable problems. Experiments show complex\nreasoning improves medical problem-solving and benefits more from RL. We hope\nour approach inspires advancements in reasoning across medical and other\nspecialized domains.",
+            "upvotes": 44,
+            "discussionId": "677209448e0ed7713b1836cb"
+        },
+        "translation_title": "HuatuoGPT-o1: 의료 복합 추론을 위한 LLMs 방향",
+        "purpose": "의료 분야에서 복합적인 추론 능력을 향상시키기 위한 검증 가능한 의료 문제를 제안하고 모델 출력의 정확성을 확인",
+        "method": [
+            "의료 검증기를 사용하여 모델 출력의 정 correctness을 확인하는 검증 가능한 의료 문제를 제안함(To address this, we propose verifiable medical problems with a medical verifier to check the correctness of model outputs.)",
+            "검증기를 이용해 LLMs의 미세 조정을 위한 복합 추론 경로 검색을 안내함(1) using the verifier to guide the search for a complex reasoning trajectory for fine-tuning LLMs.)",
+            "검증 기반 보상을 활용한 강화 학습(RL)을 통해 복합 추론을 더욱 향상시킴(2) applying reinforcement learning (RL) with verifier-based rewards to enhance complex reasoning further.)"
+        ],
+        "conclusion": "HuatuoGPT-o1은 40K개의 검증 가능한 문제만으로도 일반 및 의료 전문 기준을 초과하는 복합 추론 능력을 보여주며, 의료 문제 해결 능력을 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Medical Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.18619",
+            "authors": [
+                {
+                    "_id": "67720aa292c63806bde6d2be",
+                    "user": {
+                        "_id": "61b0a4ce1b3d95b3d1ed9251",
+                        "avatarUrl": "/avatars/b5f8c68801829b5653ee1d55244dbe16.svg",
+                        "isPro": false,
+                        "fullname": "Liang Chen",
+                        "user": "leonardPKU",
+                        "type": "user"
+                    },
+                    "name": "Liang Chen",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2024-12-30T02:51:16.924Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2bf",
+                    "name": "Zekun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c0",
+                    "name": "Shuhuai Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c1",
+                    "name": "Lei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c2",
+                    "name": "Haozhe Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c3",
+                    "name": "Yunshui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c4",
+                    "name": "Zefan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c5",
+                    "name": "Hongcheng Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c6",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c7",
+                    "name": "Yizhe Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c8",
+                    "name": "Yichi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2c9",
+                    "name": "Ruoyu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2ca",
+                    "name": "Qingxiu Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2cb",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2cc",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2cd",
+                    "name": "Lingwei Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2ce",
+                    "name": "Shujie Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2cf",
+                    "name": "Yulong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d0",
+                    "name": "Junyang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d1",
+                    "name": "Shuai Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d2",
+                    "name": "Andreas Vlachos",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d3",
+                    "name": "Xu Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d4",
+                    "name": "Minjia Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d5",
+                    "name": "Wen Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d6",
+                    "name": "Aaron Yee",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d7",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720aa292c63806bde6d2d8",
+                    "name": "Baobao Chang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-16T05:02:25.000Z",
+            "title": "Next Token Prediction Towards Multimodal Intelligence: A Comprehensive\n  Survey",
+            "summary": "Building on the foundations of language modeling in natural language\nprocessing, Next Token Prediction (NTP) has evolved into a versatile training\nobjective for machine learning tasks across various modalities, achieving\nconsiderable success. As Large Language Models (LLMs) have advanced to unify\nunderstanding and generation tasks within the textual modality, recent research\nhas shown that tasks from different modalities can also be effectively\nencapsulated within the NTP framework, transforming the multimodal information\ninto tokens and predict the next one given the context. This survey introduces\na comprehensive taxonomy that unifies both understanding and generation within\nmultimodal learning through the lens of NTP. The proposed taxonomy covers five\nkey aspects: Multimodal tokenization, MMNTP model architectures, unified task\nrepresentation, datasets \\& evaluation, and open challenges. This new taxonomy\naims to aid researchers in their exploration of multimodal intelligence. An\nassociated GitHub repository collecting the latest papers and repos is\navailable at https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction",
+            "upvotes": 8,
+            "discussionId": "67720aa492c63806bde6d350"
+        },
+        "translation_title": "멀티모달 지능을 향한 다음 토큰 예측: 포괄적 연구",
+        "purpose": "다양한 모달리티에서 Next Token Prediction(NTP)을 활용하여 멀티모달 지능을 향상시키기 위한 체계적인 분류 체계 제공",
+        "method": [
+            "NTP의 기반 위에 여러 형태의 데이터 처리 및 모델학습 과정을 통합하는 신뢰할 수 있는 체계 구축(Building on the foundations of language modeling in natural language processing, Next Token Prediction (NTP) has evolved into a versatile training objective for machine learning tasks across various modalities.)",
+            "NTP 프레임워크를 통해 서로 다른 모달리티의 작업을 효과적으로 통합하고 변환하는 방법 제시(Recent research has shown that tasks from different modalities can also be effectively encapsulated within the NTP framework, transforming the multimodal information into tokens and predict the next one given the context.)",
+            "5가지 주요 측면을 포함하는 포괄적인 분류 체계 개발(The proposed taxonomy covers five key aspects: Multimodal tokenization, MMNTP model architectures, unified task representation, datasets & evaluation, and open challenges.)"
+        ],
+        "conclusion": "제시된 분류 체계는 연구자들이 멀티모달 지능 탐색에 도움을 줄 것이며, 관련 GitHub 저장소를 통해 최신 자료를 제공받을 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.19326",
+            "authors": [
+                {
+                    "_id": "67722817633a6043c33212aa",
+                    "name": "Ziang Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212ab",
+                    "name": "Zhilin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212ac",
+                    "name": "Yinan He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212ad",
+                    "name": "Chenting Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212ae",
+                    "name": "Kunchang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212af",
+                    "name": "Xinhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b0",
+                    "name": "Xiangyu Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b1",
+                    "name": "Zilei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b2",
+                    "name": "Yali Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b3",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b4",
+                    "name": "Limin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67722817633a6043c33212b5",
+                    "name": "Yi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-26T18:56:05.000Z",
+            "title": "Task Preference Optimization: Improving Multimodal Large Language Models\n  with Vision Task Alignment",
+            "summary": "Current multimodal large language models (MLLMs) struggle with fine-grained\nor precise understanding of visuals though they give comprehensive perception\nand reasoning in a spectrum of vision applications. Recent studies either\ndevelop tool-using or unify specific visual tasks into the autoregressive\nframework, often at the expense of overall multimodal performance. To address\nthis issue and enhance MLLMs with visual tasks in a scalable fashion, we\npropose Task Preference Optimization (TPO), a novel method that utilizes\ndifferentiable task preferences derived from typical fine-grained visual tasks.\nTPO introduces learnable task tokens that establish connections between\nmultiple task-specific heads and the MLLM. By leveraging rich visual labels\nduring training, TPO significantly enhances the MLLM's multimodal capabilities\nand task-specific performance. Through multi-task co-training within TPO, we\nobserve synergistic benefits that elevate individual task performance beyond\nwhat is achievable through single-task training methodologies. Our\ninstantiation of this approach with VideoChat and LLaVA demonstrates an overall\n14.6% improvement in multimodal performance compared to baseline models.\nAdditionally, MLLM-TPO demonstrates robust zero-shot capabilities across\nvarious tasks, performing comparably to state-of-the-art supervised models. The\ncode will be released at https://github.com/OpenGVLab/TPO",
+            "upvotes": 6,
+            "discussionId": "6772281a633a6043c3321365"
+        },
+        "translation_title": "작업 선호 최적화: 비전 작업 정렬을 통한 멀티모달 대규모 언어 모델 향상",
+        "purpose": "비주얼 작업과의 정렬을 통해 멀티모달 대규모 언어 모델의 성능을 향상시키려는 목표",
+        "method": [
+            "TPO(Task Preference Optimization)라는 새로운 방법을 제안하여 일반적인 세분화된 비주얼 작업에서 파생된 미분 가능한 작업 선호도를 활용함(we propose Task Preference Optimization (TPO), a novel method that utilizes differentiable task preferences derived from typical fine-grained visual tasks.)",
+            "학습 가능한 작업 토큰을 도입하여 여러 작업별 헤드와 MLLM 간의 연결을 설정함(TPO introduces learnable task tokens that establish connections between multiple task-specific heads and the MLLM.)",
+            "훈련 중 풍부한 비주얼 레이블을 활용하여 MLLM의 멀티모달 기능과 작업 별 성능을 크게 향상시킴(By leveraging rich visual labels during training, TPO significantly enhances the MLLM's multimodal capabilities and task-specific performance.)"
+        ],
+        "conclusion": "TPO 방식을 통해 MLLM의 멀티모달 성능이 14.6% 향상되었으며, 다양한 작업에서 강력한 제로샷 능력을 보여 주목받았다.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.18605",
+            "authors": [
+                {
+                    "_id": "676bb2c29063304d2d9ec676",
+                    "name": "Zehan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bb2c29063304d2d9ec677",
+                    "name": "Ziang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bb2c29063304d2d9ec678",
+                    "name": "Tianyu Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bb2c29063304d2d9ec679",
+                    "name": "Chao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bb2c29063304d2d9ec67a",
+                    "name": "Hengshuang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "676bb2c29063304d2d9ec67b",
+                    "name": "Zhou Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T18:58:43.000Z",
+            "title": "Orient Anything: Learning Robust Object Orientation Estimation from\n  Rendering 3D Models",
+            "summary": "Orientation is a key attribute of objects, crucial for understanding their\nspatial pose and arrangement in images. However, practical solutions for\naccurate orientation estimation from a single image remain underexplored. In\nthis work, we introduce Orient Anything, the first expert and foundational\nmodel designed to estimate object orientation in a single- and free-view image.\nDue to the scarcity of labeled data, we propose extracting knowledge from the\n3D world. By developing a pipeline to annotate the front face of 3D objects and\nrender images from random views, we collect 2M images with precise orientation\nannotations. To fully leverage the dataset, we design a robust training\nobjective that models the 3D orientation as probability distributions of three\nangles and predicts the object orientation by fitting these distributions.\nBesides, we employ several strategies to improve synthetic-to-real transfer.\nOur model achieves state-of-the-art orientation estimation accuracy in both\nrendered and real images and exhibits impressive zero-shot ability in various\nscenarios. More importantly, our model enhances many applications, such as\ncomprehension and generation of complex spatial concepts and 3D object pose\nadjustment.",
+            "upvotes": 6,
+            "discussionId": "676bb2c49063304d2d9ec7d0"
+        },
+        "translation_title": "Orient Anything: 3D 모델 렌더링을 통한 견고한 객체 방향 추정 학습",
+        "purpose": "단일 이미지에서 객체의 방향을 정확히 추정하기 위한 모델 개발",
+        "method": [
+            "3D 객체의 전면을 주석 처리하고 무작위 뷰에서 이미지를 렌더링하는 파이프라인을 개발하여 200만 장의 정확한 방향 주석 이미지를 수집함(we propose extracting knowledge from the 3D world. By developing a pipeline to annotate the front face of 3D objects and render images from random views, we collect 2M images with precise orientation annotations.)",
+            "3D 방향을 확률 분포로 모델링하고 이를 통해 객체 방향을 추정하는 강력한 훈련 목표를 설계함(we design a robust training objective that models the 3D orientation as probability distributions of three angles and predicts the object orientation by fitting these distributions.)",
+            "합성 이미지를 실제 이미지로 전이하는 여러 전략을 적용함(we employ several strategies to improve synthetic-to-real transfer.)"
+        ],
+        "conclusion": "모델은 렌더링된 이미지와 실제 이미지 모두에서 최첨단 방향 추정 정확도를 달성하고, 다양한 상황에서 뛰어난 제로샷 능력을 보여줍니다.",
+        "keywords": [
+            "Computer Vision",
+            "3D Vision",
+            "Pose Estimation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.17762",
+            "authors": [
+                {
+                    "_id": "676d0a2e0076ad5ba195b88a",
+                    "name": "Marta Skreta",
+                    "hidden": false
+                },
+                {
+                    "_id": "676d0a2e0076ad5ba195b88b",
+                    "name": "Lazar Atanackovic",
+                    "hidden": false
+                },
+                {
+                    "_id": "676d0a2e0076ad5ba195b88c",
+                    "name": "Avishek Joey Bose",
+                    "hidden": false
+                },
+                {
+                    "_id": "676d0a2e0076ad5ba195b88d",
+                    "name": "Alexander Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "676d0a2e0076ad5ba195b88e",
+                    "name": "Kirill Neklyudov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-23T18:18:07.000Z",
+            "title": "The Superposition of Diffusion Models Using the Itô Density Estimator",
+            "summary": "The Cambrian explosion of easily accessible pre-trained diffusion models\nsuggests a demand for methods that combine multiple different pre-trained\ndiffusion models without incurring the significant computational burden of\nre-training a larger combined model. In this paper, we cast the problem of\ncombining multiple pre-trained diffusion models at the generation stage under a\nnovel proposed framework termed superposition. Theoretically, we derive\nsuperposition from rigorous first principles stemming from the celebrated\ncontinuity equation and design two novel algorithms tailor-made for combining\ndiffusion models in SuperDiff. SuperDiff leverages a new scalable It\\^o density\nestimator for the log likelihood of the diffusion SDE which incurs no\nadditional overhead compared to the well-known Hutchinson's estimator needed\nfor divergence calculations. We demonstrate that SuperDiff is scalable to large\npre-trained diffusion models as superposition is performed solely through\ncomposition during inference, and also enjoys painless implementation as it\ncombines different pre-trained vector fields through an automated re-weighting\nscheme. Notably, we show that SuperDiff is efficient during inference time, and\nmimics traditional composition operators such as the logical OR and the logical\nAND. We empirically demonstrate the utility of using SuperDiff for generating\nmore diverse images on CIFAR-10, more faithful prompt conditioned image editing\nusing Stable Diffusion, and improved unconditional de novo structure design of\nproteins. https://github.com/necludov/super-diffusion",
+            "upvotes": 4,
+            "discussionId": "676d0a330076ad5ba195b97c"
+        },
+        "translation_title": "Itô 밀도 추정기를 이용한 확산 모델의 중첩",
+        "purpose": "여러 개의 사전 훈련된 확산 모델을 재훈련 없이 결합하는 방법 연구",
+        "method": [
+            "확산 모델을 결합하는 문제를 새로운 프레임워크인 중첩(superposition) 아래에서 제시함(In this paper, we cast the problem of combining multiple pre-trained diffusion models at the generation stage under a novel proposed framework termed superposition.)",
+            "연속성 방정식에서 유래한 원리들을 바탕으로 중첩에 대한 이론적 근거를 제시하고 두 가지 알고리즘을 설계함(Theoretically, we derive superposition from rigorous first principles stemming from the celebrated continuity equation and design two novel algorithms tailor-made for combining diffusion models in SuperDiff.)",
+            "기존의 계산 비용을 초과하지 않는 새로운 Itô 밀도 추정기를 활용함(SuperDiff leverages a new scalable Itô density estimator for the log likelihood of the diffusion SDE which incurs no additional overhead compared to the well-known Hutchinson's estimator.)"
+        ],
+        "conclusion": "SuperDiff는 대규모 사전 훈련된 확산 모델을 효율적으로 결합하여 다양한 이미지 생성, 프롬프트 기반 이미지 편집, 그리고 단백질 구조 설계에 유용한 성과를 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
