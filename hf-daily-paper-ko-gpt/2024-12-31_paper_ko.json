@@ -1,0 +1,323 @@
+[
+    {
+        "paper": {
+            "id": "2412.18525",
+            "authors": [
+                {
+                    "_id": "67721383d565d51e49e7a90f",
+                    "user": {
+                        "_id": "66702b9cd8101e70bd8f70ec",
+                        "avatarUrl": "/avatars/2c20e4083ac314a4a42388b0ec4654e9.svg",
+                        "isPro": false,
+                        "fullname": "sheny",
+                        "user": "axxkaya",
+                        "type": "user"
+                    },
+                    "name": "Yang Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-30T19:30:01.793Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a910",
+                    "name": "Xiu-Shen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a911",
+                    "name": "Yifan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a912",
+                    "name": "Yuxin Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a913",
+                    "name": "Tao Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a914",
+                    "name": "Jian Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a915",
+                    "name": "Heyang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a916",
+                    "name": "Yazhou Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67721383d565d51e49e7a917",
+                    "name": "Errui Ding",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-24T16:08:25.000Z",
+            "title": "Explanatory Instructions: Towards Unified Vision Tasks Understanding and\n  Zero-shot Generalization",
+            "summary": "Computer Vision (CV) has yet to fully achieve the zero-shot task\ngeneralization observed in Natural Language Processing (NLP), despite following\nmany of the milestones established in NLP, such as large transformer models,\nextensive pre-training, and the auto-regression paradigm, among others. In this\npaper, we explore the idea that CV adopts discrete and terminological task\ndefinitions (\\eg, ``image segmentation''), which may be a key barrier to\nzero-shot task generalization. Our hypothesis is that without truly\nunderstanding previously-seen tasks--due to these terminological\ndefinitions--deep models struggle to generalize to novel tasks. To verify this,\nwe introduce Explanatory Instructions, which provide an intuitive way to define\nCV task objectives through detailed linguistic transformations from input\nimages to outputs. We create a large-scale dataset comprising 12 million\n``image input to explanatory instruction to output'' triplets, and train\nan auto-regressive-based vision-language model (AR-based VLM) that takes both\nimages and explanatory instructions as input. By learning to follow these\ninstructions, the AR-based VLM achieves instruction-level zero-shot\ncapabilities for previously-seen tasks and demonstrates strong zero-shot\ngeneralization for unseen CV tasks. Code and dataset will be openly available\non our GitHub repository.",
+            "upvotes": 34,
+            "discussionId": "67721386d565d51e49e7a9b7"
+        },
+        "translation_title": "설명적 지침: 통합된 비전 작업 이해와 제로샷 일반화를 위한 방향",
+        "purpose": "Computer Vision에서 제로샷 일반화를 달성하는 데 어려움을 겪고 있는 기초 원인 탐구",
+        "method": [
+            "CV의 기존 작업 정의 방식을 검토하고, 설명적 지침을 통해 작업 목표를 직관적으로 정의하는 방법을 도입함(we explore the idea that CV adopts discrete and terminological task definitions).",
+            "12백만 개의 이미지 입력과 설명적 지침, 출력의 삼중 조합으로 이루어진 대규모 데이터셋을 생성함(we create a large-scale dataset comprising 12 million 'image input to explanatory instruction to output' triplets).",
+            "자동 회귀 기반 비전-언어 모델을 훈련하여 이미지를 입력으로 받고 설명적 지침을 따르도록 함(by learning to follow these instructions, the AR-based VLM achieves instruction-level zero-shot capabilities)."
+        ],
+        "conclusion": "이 모델은 이전에 본 작업들에 대해 지침 기반 제로샷 능력을 기록하고, 새로운 Computer Vision 작업에 대해서도 강력한 제로샷 일반화를 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.20070",
+            "authors": [
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cef",
+                    "name": "Zhenyang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf0",
+                    "name": "Junying Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf1",
+                    "name": "Rongsheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf2",
+                    "name": "Weihong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf3",
+                    "name": "Yonglin Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf4",
+                    "name": "Dingjie Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf5",
+                    "name": "Yize Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf6",
+                    "name": "Zixu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67735f9f9cc5d33bf6af3cf7",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-28T07:50:00.000Z",
+            "title": "On the Compositional Generalization of Multimodal LLMs for Medical\n  Imaging",
+            "summary": "Multimodal large language models (MLLMs) hold significant potential in the\nmedical field, but their capabilities are often limited by insufficient data in\ncertain medical domains, highlighting the need for understanding what kinds of\nimages can be used by MLLMs for generalization. Current research suggests that\nmulti-task training outperforms single-task as different tasks can benefit each\nother, but they often overlook the internal relationships within these tasks,\nproviding limited guidance on selecting datasets to enhance specific tasks. To\nanalyze this phenomenon, we attempted to employ compositional generalization\n(CG)-the ability of models to understand novel combinations by recombining\nlearned elements-as a guiding framework. Since medical images can be precisely\ndefined by Modality, Anatomical area, and Task, naturally providing an\nenvironment for exploring CG. Therefore, we assembled 106 medical datasets to\ncreate Med-MAT for comprehensive experiments. The experiments confirmed that\nMLLMs can use CG to understand unseen medical images and identified CG as one\nof the main drivers of the generalization observed in multi-task training.\nAdditionally, further studies demonstrated that CG effectively supports\ndatasets with limited data and delivers consistent performance across different\nbackbones, highlighting its versatility and broad applicability. Med-MAT is\npublicly available at https://github.com/FreedomIntelligence/Med-MAT.",
+            "upvotes": 27,
+            "discussionId": "67735fa09cc5d33bf6af3d85"
+        },
+        "translation_title": "의학 이미지를 위한 다중 모달 LLM의 구성적 일반화 연구",
+        "purpose": "의학 분야에서 다중 모달 언어 모델(MLLM)의 일반화 능력을 향상시키기 위한 데이터 세트 이해 및 활용 전략 연구",
+        "method": [
+            "의학 이미지를 이해하기 위한 구성적 일반화(CG)를 가이드 프레임워크로 사용함(we attempted to employ compositional generalization (CG) as a guiding framework).",
+            "106개의 의학 데이터 세트를 모아 Med-MAT를 생성함(Therefore, we assembled 106 medical datasets to create Med-MAT for comprehensive experiments).",
+            "실험을 통해 MLLMs가 CG를 사용하여 보지 못한 의학 이미지를 이해할 수 있음을 확인함(The experiments confirmed that MLLMs can use CG to understand unseen medical images).",
+            "CG가 다중 작업 훈련에서 관찰된 일반화를 촉진하는 주요 요인임을 규명함(identified CG as one of the main drivers of the generalization observed in multi-task training)."
+        ],
+        "conclusion": "Med-MAT의 실험 결과, CG는 제한된 데이터 세트를 지원하고 다양한 백본에서 일관된 성능을 제공하여 의학 이미지 분야에 적용 가능함을 보였다.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.20422",
+            "authors": [
+                {
+                    "_id": "67738c503be2064a656e7e70",
+                    "name": "Ohad Rahamim",
+                    "hidden": false
+                },
+                {
+                    "_id": "67738c503be2064a656e7e71",
+                    "name": "Ori Malca",
+                    "hidden": false
+                },
+                {
+                    "_id": "67738c503be2064a656e7e72",
+                    "name": "Dvir Samuel",
+                    "hidden": false
+                },
+                {
+                    "_id": "67738c503be2064a656e7e73",
+                    "name": "Gal Chechik",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-29T10:12:01.000Z",
+            "title": "Bringing Objects to Life: 4D generation from 3D objects",
+            "summary": "Recent advancements in generative modeling now enable the creation of 4D\ncontent (moving 3D objects) controlled with text prompts. 4D generation has\nlarge potential in applications like virtual worlds, media, and gaming, but\nexisting methods provide limited control over the appearance and geometry of\ngenerated content. In this work, we introduce a method for animating\nuser-provided 3D objects by conditioning on textual prompts to guide 4D\ngeneration, enabling custom animations while maintaining the identity of the\noriginal object. We first convert a 3D mesh into a ``static\" 4D Neural Radiance\nField (NeRF) that preserves the visual attributes of the input object. Then, we\nanimate the object using an Image-to-Video diffusion model driven by text. To\nimprove motion realism, we introduce an incremental viewpoint selection\nprotocol for sampling perspectives to promote lifelike movement and a masked\nScore Distillation Sampling (SDS) loss, which leverages attention maps to focus\noptimization on relevant regions. We evaluate our model in terms of temporal\ncoherence, prompt adherence, and visual fidelity and find that our method\noutperforms baselines that are based on other approaches, achieving up to\nthreefold improvements in identity preservation measured using LPIPS scores,\nand effectively balancing visual quality with dynamic content.",
+            "upvotes": 19,
+            "discussionId": "67738c513be2064a656e7ebd"
+        },
+        "translation_title": "객체에 생명을 불어넣기: 3D 객체에서 4D 생성하기",
+        "purpose": "사용자가 제공한 3D 객체를 기반으로 4D 콘텐츠를 보다 정교하게 생성하기 위한 방법 연구",
+        "method": [
+            "3D 메쉬를 '정적' 4D Neural Radiance Field(NeRF)로 변환하여 입력 객체의 시각적 속성을 보존함(We first convert a 3D mesh into a ``static'' 4D Neural Radiance Field (NeRF) that preserves the visual attributes of the input object.)",
+            "텍스트 기반의 Image-to-Video diffusion 모델을 사용해 객체를 애니메이션화함(Then, we animate the object using an Image-to-Video diffusion model driven by text.)",
+            "자연스러운 움직임을 위해 점진적 시점 선택 프로토콜과 마스크된 Score Distillation Sampling(SDS) 손실을 도입함(To improve motion realism, we introduce an incremental viewpoint selection protocol for sampling perspectives to promote lifelike movement and a masked Score Distillation Sampling (SDS) loss.)"
+        ],
+        "conclusion": "이 방법을 통해 시간적 일관성, 텍스트 프롬프트 준수 및 시각적 충실도 측면에서 우수한 성능을 보여주며, 정체성 유지에서 최대 세 배의 개선을 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Video Generation",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.20993",
+            "authors": [
+                {
+                    "_id": "6773560ad86f2a718772598b",
+                    "name": "Yichao Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a718772598c",
+                    "name": "Junda Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a718772598d",
+                    "name": "Siqi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a718772598e",
+                    "name": "Zheyu Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a718772598f",
+                    "name": "Zhongdongming Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a7187725990",
+                    "name": "Aurick Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6773560ad86f2a7187725991",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-30T14:57:53.000Z",
+            "title": "Efficiently Serving LLM Reasoning Programs with Certaindex",
+            "summary": "The rapid evolution of large language models (LLMs) has unlocked their\ncapabilities in advanced reasoning tasks like mathematical problem-solving,\ncode generation, and legal analysis. Central to this progress are\ninference-time reasoning algorithms, which refine outputs by exploring multiple\nsolution paths, at the cost of increasing compute demands and response\nlatencies. Existing serving systems fail to adapt to the scaling behaviors of\nthese algorithms or the varying difficulty of queries, leading to inefficient\nresource use and unmet latency targets.\n  We present Dynasor, a system that optimizes inference-time compute for LLM\nreasoning queries. Unlike traditional engines, Dynasor tracks and schedules\nrequests within reasoning queries and uses Certaindex, a proxy that measures\nstatistical reasoning progress based on model certainty, to guide compute\nallocation dynamically. Dynasor co-adapts scheduling with reasoning progress:\nit allocates more compute to hard queries, reduces compute for simpler ones,\nand terminates unpromising queries early, balancing accuracy, latency, and\ncost. On diverse datasets and algorithms, Dynasor reduces compute by up to 50%\nin batch processing and sustaining 3.3x higher query rates or 4.7x tighter\nlatency SLOs in online serving.",
+            "upvotes": 18,
+            "discussionId": "6773560bd86f2a71877259f6"
+        },
+        "translation_title": "Certaindex로 LLM 추론 프로그램 효율적으로 제공하기",
+        "purpose": "LLM 추론 쿼리의 컴퓨팅 최적화 및 효율적 자원 사용 달성",
+        "method": [
+            "Dynasor 시스템을 통해 LLM의 추론 쿼리를 최적화함(We present Dynasor, a system that optimizes inference-time compute for LLM reasoning queries.)",
+            "Certaindex를 사용해 모델의 확신 정도에 따른 통계적 추론 진행 상황을 측정하여 동적으로 컴퓨팅 할당을 안내함(uses Certaindex, a proxy that measures statistical reasoning progress based on model certainty, to guide compute allocation dynamically.)",
+            "어려운 쿼리에는 더 많은 컴퓨팅을 할당하고, 간단한 쿼리에는 컴퓨팅을 줄이며, 가능성이 낮은 쿼리는 일찍 종료하는 방식으로 정확도, 지연 시간, 비용의 균형을 맞춤(Dynasor co-adapts scheduling with reasoning progress: it allocates more compute to hard queries, reduces compute for simpler ones, and terminates unpromising queries early, balancing accuracy, latency, and cost.)"
+        ],
+        "conclusion": "Dynasor는 배치 처리에서 최대 50%의 컴퓨팅 감소와 온라인 서비스에서 3.3배 더 높은 쿼리 속도 또는 4.7배 더 엄격한 지연 시간 목표를 유지하게 해줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.21079",
+            "authors": [
+                {
+                    "_id": "67736096b272a4f186d161f9",
+                    "name": "Qingyan Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161fa",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161fb",
+                    "name": "Yinghao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161fc",
+                    "name": "Qiuyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161fd",
+                    "name": "Ceyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161fe",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d161ff",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67736096b272a4f186d16200",
+                    "name": "Qifeng Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-30T16:56:44.000Z",
+            "title": "Edicho: Consistent Image Editing in the Wild",
+            "summary": "As a verified need, consistent editing across in-the-wild images remains a\ntechnical challenge arising from various unmanageable factors, like object\nposes, lighting conditions, and photography environments. Edicho steps in with\na training-free solution based on diffusion models, featuring a fundamental\ndesign principle of using explicit image correspondence to direct editing.\nSpecifically, the key components include an attention manipulation module and a\ncarefully refined classifier-free guidance (CFG) denoising strategy, both of\nwhich take into account the pre-estimated correspondence. Such an\ninference-time algorithm enjoys a plug-and-play nature and is compatible to\nmost diffusion-based editing methods, such as ControlNet and BrushNet.\nExtensive results demonstrate the efficacy of Edicho in consistent cross-image\nediting under diverse settings. We will release the code to facilitate future\nstudies.",
+            "upvotes": 12,
+            "discussionId": "6773609db272a4f186d16447"
+        },
+        "translation_title": "Edicho: 자연 이미지에서 일관된 편집",
+        "purpose": "자연 이미지에서 다양한 요인에 의한 일관된 이미지 편집 문제 해결",
+        "method": [
+            "확산 모델을 기반으로 한 훈련 없는 솔루션을 제안함(Edicho steps in with a training-free solution based on diffusion models.)",
+            "머릿속에 미리 추정된 이미지 대응 관계를 사용하여 편집 방향을 설정하는 기본 설계를 적용함(featuring a fundamental design principle of using explicit image correspondence to direct editing.)",
+            "주의 조작 모듈과 정제된 분류기 없는 가이드(CFG) 노이즈 제거 전략을 포함함(The key components include an attention manipulation module and a carefully refined classifier-free guidance (CFG) denoising strategy.)"
+        ],
+        "conclusion": "Edicho는 다양한 환경에서 일관된 이미지 편집의 효율성을 보여주며, 앞으로의 연구를 위한 코드도 공개할 예정이다.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Image Understanding"
+        ]
+    }
+]
