@@ -1,0 +1,182 @@
+[
+    {
+        "paper": {
+            "id": "2412.19723",
+            "authors": [
+                {
+                    "_id": "67720d79b3163a95a653baaf",
+                    "user": {
+                        "_id": "6064a0eeb1703ddba0d458b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617207525789-noauth.png",
+                        "isPro": false,
+                        "fullname": "Qiushi",
+                        "user": "QiushiSun",
+                        "type": "user"
+                    },
+                    "name": "Qiushi Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-02T10:19:16.620Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab0",
+                    "name": "Kanzhi Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab1",
+                    "user": {
+                        "_id": "642b9861bb77f8456634b048",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642b9861bb77f8456634b048/ZT-oJrw5BsADC-gZT_i25.jpeg",
+                        "isPro": false,
+                        "fullname": "Zichen Ding",
+                        "user": "heroding77",
+                        "type": "user"
+                    },
+                    "name": "Zichen Ding",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-02T10:19:18.679Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab2",
+                    "name": "Chuanyang Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab3",
+                    "name": "Yian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab4",
+                    "name": "Fangzhi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab5",
+                    "name": "Zhenyu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab6",
+                    "name": "Chengyou Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab7",
+                    "name": "Liheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab8",
+                    "name": "Zhoumianze Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653bab9",
+                    "name": "Ben Kao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653baba",
+                    "name": "Guohao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653babb",
+                    "name": "Junxian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653babc",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67720d79b3163a95a653babd",
+                    "name": "Zhiyong Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-27T16:21:58.000Z",
+            "title": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse\n  Task Synthesis",
+            "summary": "Graphical User Interface (GUI) agents powered by Vision-Language Models\n(VLMs) have demonstrated human-like computer control capability. Despite their\nutility in advancing digital automation, a critical bottleneck persists:\ncollecting high-quality trajectory data for training. Common practices for\ncollecting such data rely on human supervision or synthetic data generation\nthrough executing pre-defined tasks, which are either resource-intensive or\nunable to guarantee data quality. Moreover, these methods suffer from limited\ndata diversity and significant gaps between synthetic data and real-world\nenvironments. To address these challenges, we propose OS-Genesis, a novel GUI\ndata synthesis pipeline that reverses the conventional trajectory collection\nprocess. Instead of relying on pre-defined tasks, OS-Genesis enables agents\nfirst to perceive environments and perform step-wise interactions, then\nretrospectively derive high-quality tasks to enable trajectory-level\nexploration. A trajectory reward model is then employed to ensure the quality\nof the generated trajectories. We demonstrate that training GUI agents with\nOS-Genesis significantly improves their performance on highly challenging\nonline benchmarks. In-depth analysis further validates OS-Genesis's efficiency\nand its superior data quality and diversity compared to existing synthesis\nmethods. Our codes, data, and checkpoints are available at\nhttps://qiushisun.github.io/OS-Genesis-Home/{OS-Genesis Homepage}.",
+            "upvotes": 46,
+            "discussionId": "67720d7bb3163a95a653bb18"
+        },
+        "translation_title": "OS-Genesis: 역방향 작업 합성을 통한 GUI 에이전트 궤적 구축 자동화",
+        "purpose": "고품질 궤적 데이터를 수집하여 GUI 에이전트의 성능을 향상시키기 위한 새로운 방법론 개발",
+        "method": [
+            "전통적인 궤적 수집 공정을 반전시키는 GUI 데이터 합성 파이프라인인 OS-Genesis 제안(We propose OS-Genesis, a novel GUI data synthesis pipeline that reverses the conventional trajectory collection process.)",
+            "에이전트가 환경을 인식하고 단계별 상호작용을 수행한 후 고품질 작업을 도출하여 궤적 탐색을 가능하게 함(OS-Genesis enables agents first to perceive environments and perform step-wise interactions, then retrospectively derive high-quality tasks to enable trajectory-level exploration.)",
+            "생성된 궤적의 품질을 보장하기 위해 궤적 보상 모델을 사용함(A trajectory reward model is then employed to ensure the quality of the generated trajectories.)"
+        ],
+        "conclusion": "OS-Genesis를 통해 GUI 에이전트의 성능이 향상되었으며, 기존 합성 방법보다 우수한 데이터 품질과 다양성을 입증함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Data Synthesis"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2412.19638",
+            "authors": [
+                {
+                    "_id": "677223b635722632fcc63ff5",
+                    "user": {
+                        "_id": "647adfd0e3a7d24c8e46d7d1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647adfd0e3a7d24c8e46d7d1/UqZegkj3P2XyPe4Lgnrt7.jpeg",
+                        "isPro": false,
+                        "fullname": "ValeriaWong",
+                        "user": "valeriaWong",
+                        "type": "user"
+                    },
+                    "name": "Wang Qun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2024-12-30T19:29:25.463Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677223b635722632fcc63ff6",
+                    "name": "Liu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677223b635722632fcc63ff7",
+                    "name": "Lin Qingquan",
+                    "hidden": false
+                },
+                {
+                    "_id": "677223b635722632fcc63ff8",
+                    "name": "Qu Zhijiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677223b635722632fcc63ff9",
+                    "name": "Jiang Ling",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-27T13:32:10.000Z",
+            "title": "Xmodel-2 Technical Report",
+            "summary": "Xmodel-2 is a 1.2-billion-parameter large language model designed\nspecifically for reasoning tasks. Its architecture enables different model\nscales to share a unified set of hyperparameters, allowing for extensive\nexperimentation on smaller models and seamless transfer of optimal\nconfigurations to larger models. To maximize training efficiency and stability,\nXmodel-2 employs the WSD learning rate scheduler from MiniCPM. Pretrained on\n1.5 trillion tokens from diverse sources, Xmodel-2 achieves state-of-the-art\nperformance in complex reasoning and agent-based tasks, while maintaining low\ntraining costs. These results highlight the potential of efficient model design\nand training strategies in advancing reasoning capabilities. Model checkpoints\nand code are publicly available on GitHub at\nhttps://github.com/XiaoduoAILab/Xmodel-2",
+            "upvotes": 8,
+            "discussionId": "677223b735722632fcc64063"
+        },
+        "translation_title": "Xmodel-2 기술 보고서",
+        "purpose": "Reasoning 작업을 위한 대규모 언어 모델의 설계 및 효율적인 학습 전략 연구",
+        "method": [
+            "모델의 다른 크기들이 통일된 하이퍼파라미터 세트를 공유하도록 하는 아키텍처 설계(its architecture enables different model scales to share a unified set of hyperparameters)",
+            "Xmodel-2는 MiniCPM의 WSD 학습률 스케줄러를 사용하여 훈련의 효율성과 안정성을 극대화함(To maximize training efficiency and stability, Xmodel-2 employs the WSD learning rate scheduler from MiniCPM)",
+            "1.5 trillion 토큰으로 사전 훈련을 실시하여 복잡한 Reasoning과 에이전트 기반 작업에서 뛰어난 성능을 달성함(Pretrained on 1.5 trillion tokens from diverse sources, Xmodel-2 achieves state-of-the-art performance in complex reasoning and agent-based tasks)"
+        ],
+        "conclusion": "Xmodel-2의 결과는 효율적인 모델 설계와 학습 전략이 Reasoning 능력을 향상시키는 데 잠재력이 있음을 강조함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Reasoning"
+        ]
+    }
+]
