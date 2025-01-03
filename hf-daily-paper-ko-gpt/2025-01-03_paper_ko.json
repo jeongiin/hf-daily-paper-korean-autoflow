@@ -1,0 +1,408 @@
+[
+    {
+        "paper": {
+            "id": "2501.00958",
+            "authors": [
+                {
+                    "_id": "67776143829d5102834151fb",
+                    "name": "Wenqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d5102834151fc",
+                    "name": "Hang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d5102834151fd",
+                    "name": "Xin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d5102834151fe",
+                    "name": "Jiashuo Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d5102834151ff",
+                    "name": "Yongliang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d510283415200",
+                    "name": "Weiming Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d510283415201",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d510283415202",
+                    "name": "Yueting Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67776143829d510283415203",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-01T21:29:37.000Z",
+            "title": "2.5 Years in Class: A Multimodal Textbook for Vision-Language\n  Pretraining",
+            "summary": "Compared to image-text pair data, interleaved corpora enable Vision-Language\nModels (VLMs) to understand the world more naturally like humans. However, such\nexisting datasets are crawled from webpage, facing challenges like low\nknowledge density, loose image-text relations, and poor logical coherence\nbetween images. On the other hand, the internet hosts vast instructional videos\n(e.g., online geometry courses) that are widely used by humans to learn\nfoundational subjects, yet these valuable resources remain underexplored in VLM\ntraining. In this paper, we introduce a high-quality multimodal\ntextbook corpus with richer foundational knowledge for VLM pretraining. It\ncollects over 2.5 years of instructional videos, totaling 22,000 class hours.\nWe first use an LLM-proposed taxonomy to systematically gather instructional\nvideos. Then we progressively extract and refine visual (keyframes), audio\n(ASR), and textual knowledge (OCR) from the videos, and organize as an\nimage-text interleaved corpus based on temporal order. Compared to its\ncounterparts, our video-centric textbook offers more coherent context, richer\nknowledge, and better image-text alignment. Experiments demonstrate its superb\npretraining performance, particularly in knowledge- and reasoning-intensive\ntasks like ScienceQA and MathVista. Moreover, VLMs pre-trained on our textbook\nexhibit outstanding interleaved context awareness, leveraging visual and\ntextual cues in their few-shot context for task solving~Our code are\navailable at \\url{https://github.com/DAMO-NLP-SG/multimodal_textbook}.",
+            "upvotes": 35,
+            "discussionId": "67776145829d5102834152a8"
+        },
+        "translation_title": "2.5년의 수업: 비전-언어를 위한 멀티모달 교과서 사전 학습",
+        "purpose": "비전-언어 모델의 사전 학습을 위해 풍부한 기초 지식을 갖춘 고품질 멀티모달 교과서 코퍼스를 소개하는 것",
+        "method": [
+            "LLM이 제안한 분류 체계를 사용하여 2.5년에 걸친 강의 영상을 체계적으로 수집함(We first use an LLM-proposed taxonomy to systematically gather instructional videos.)",
+            "시간 순서에 따라 비디오에서 시각적(키프레임), 오디오(ASR), 텍스트(OCR) 정보를 추출 및 정제하여 이미지-텍스트 혼합 코퍼스를 구성함(Then we progressively extract and refine visual (keyframes), audio (ASR), and textual knowledge (OCR) from the videos, and organize as an image-text interleaved corpus based on temporal order.)",
+            "비디오 중심의 교과서가 보다 일관된 맥락, 풍부한 지식, 그리고 나은 이미지-텍스트 정렬을 제공함(Compared to its counterparts, our video-centric textbook offers more coherent context, richer knowledge, and better image-text alignment.)"
+        ],
+        "conclusion": "우리의 교과서에서 사전 학습된 VLM은 특히 지식 및 추론이 중요한 작업에서 훌륭한 성능을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.01427",
+            "authors": [
+                {
+                    "_id": "677752371ab3b33411033089",
+                    "user": {
+                        "_id": "65fd2da40e543c5a84586eb5",
+                        "avatarUrl": "/avatars/ebb4e4bda4b025f167fb9fb4099e4cfd.svg",
+                        "isPro": false,
+                        "fullname": "yuanpeng",
+                        "user": "Tuyuanpeng",
+                        "type": "user"
+                    },
+                    "name": "Yuanpeng Tu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-03T14:03:30.344Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677752371ab3b3341103308a",
+                    "name": "Hao Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "677752371ab3b3341103308b",
+                    "name": "Xi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "677752371ab3b3341103308c",
+                    "name": "Sihui Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "677752371ab3b3341103308d",
+                    "name": "Xiang Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "677752371ab3b3341103308e",
+                    "name": "Hengshuang Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-02T18:59:54.000Z",
+            "title": "VideoAnydoor: High-fidelity Video Object Insertion with Precise Motion\n  Control",
+            "summary": "Despite significant advancements in video generation, inserting a given\nobject into videos remains a challenging task. The difficulty lies in\npreserving the appearance details of the reference object and accurately\nmodeling coherent motions at the same time. In this paper, we propose\nVideoAnydoor, a zero-shot video object insertion framework with high-fidelity\ndetail preservation and precise motion control. Starting from a text-to-video\nmodel, we utilize an ID extractor to inject the global identity and leverage a\nbox sequence to control the overall motion. To preserve the detailed appearance\nand meanwhile support fine-grained motion control, we design a pixel warper. It\ntakes the reference image with arbitrary key-points and the corresponding\nkey-point trajectories as inputs. It warps the pixel details according to the\ntrajectories and fuses the warped features with the diffusion U-Net, thus\nimproving detail preservation and supporting users in manipulating the motion\ntrajectories. In addition, we propose a training strategy involving both videos\nand static images with a reweight reconstruction loss to enhance insertion\nquality. VideoAnydoor demonstrates significant superiority over existing\nmethods and naturally supports various downstream applications (e.g., talking\nhead generation, video virtual try-on, multi-region editing) without\ntask-specific fine-tuning.",
+            "upvotes": 29,
+            "discussionId": "6777523c1ab3b3341103325a"
+        },
+        "translation_title": "VideoAnydoor: 정밀한 동작 제어를 통한 고충실도 비디오 객체 삽입",
+        "purpose": "주어진 객체를 비디오에 삽입할 때 외관 세부 정보와 일관된 동작을 동시에 보존하기 위한 방법 연구",
+        "method": [
+            "텍스트-투-비디오 모델을 시작점으로 ID 추출기를 활용하여 글로벌 아이덴티티를 주입함(Starting from a text-to-video model, we utilize an ID extractor to inject the global identity.)",
+            "상반신 동작을 제어하기 위해 박스 시퀀스를 사용함(we leverage a box sequence to control the overall motion.)",
+            "세부 외관을 보존하고 세밀한 동작 제어를 지원하기 위해 픽셀 왜곡기를 설계함(we design a pixel warper to preserve the detailed appearance and meanwhile support fine-grained motion control.)",
+            "비디오와 정적 이미지를 포함한 훈련 전략 및 재가중 재구성 손실을 제안하여 삽입 품질을 향상시킴(we propose a training strategy involving both videos and static images with a reweight reconstruction loss to enhance insertion quality.)"
+        ],
+        "conclusion": "VideoAnydoor는 기존 방법보다 뛰어난 성능을 보여주며 다양한 후속 응용 프로그램을 자연스럽게 지원함.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.00599",
+            "authors": [
+                {
+                    "_id": "677761253c2cb54a3ac7918e",
+                    "name": "Yuqian Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac7918f",
+                    "name": "Hang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79190",
+                    "user": {
+                        "_id": "64c48a78d07620bdc99777d4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c48a78d07620bdc99777d4/NJC4Ot0a7YSdU5RC6dgga.jpeg",
+                        "isPro": false,
+                        "fullname": "LI WENTONG",
+                        "user": "sunshine-lwt",
+                        "type": "user"
+                    },
+                    "name": "Wentong Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-03T14:03:13.776Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79191",
+                    "name": "Zesen Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79192",
+                    "name": "Boqiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79193",
+                    "name": "Long Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79194",
+                    "name": "Xin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79195",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79196",
+                    "name": "Wenqiao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79197",
+                    "name": "Yueting Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79198",
+                    "name": "Jianke Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677761253c2cb54a3ac79199",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-12-31T18:56:46.000Z",
+            "title": "VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with\n  Video LLM",
+            "summary": "Video Large Language Models (Video LLMs) have recently exhibited remarkable\ncapabilities in general video understanding. However, they mainly focus on\nholistic comprehension and struggle with capturing fine-grained spatial and\ntemporal details. Besides, the lack of high-quality object-level video\ninstruction data and a comprehensive benchmark further hinders their\nadvancements. To tackle these challenges, we introduce the VideoRefer Suite to\nempower Video LLM for finer-level spatial-temporal video understanding, i.e.,\nenabling perception and reasoning on any objects throughout the video.\nSpecially, we thoroughly develop VideoRefer Suite across three essential\naspects: dataset, model, and benchmark. Firstly, we introduce a multi-agent\ndata engine to meticulously curate a large-scale, high-quality object-level\nvideo instruction dataset, termed VideoRefer-700K. Next, we present the\nVideoRefer model, which equips a versatile spatial-temporal object encoder to\ncapture precise regional and sequential representations. Finally, we\nmeticulously create a VideoRefer-Bench to comprehensively assess the\nspatial-temporal understanding capability of a Video LLM, evaluating it across\nvarious aspects. Extensive experiments and analyses demonstrate that our\nVideoRefer model not only achieves promising performance on video referring\nbenchmarks but also facilitates general video understanding capabilities.",
+            "upvotes": 26,
+            "discussionId": "677761283c2cb54a3ac79251"
+        },
+        "translation_title": "VideoRefer Suite: 비디오 LLM을 통한 공간-시간 객체 이해 향상",
+        "purpose": "비디오의 공간과 시간에 대한 세밀한 이해를 가능하게 하기 위한 Video LLM의 발전",
+        "method": [
+            "대규모 고품질 객체 수준 비디오 지침 데이터셋인 VideoRefer-700K를 생성하기 위해 다중 에이전트 데이터 엔진을 개발함(we introduce a multi-agent data engine to meticulously curate a large-scale, high-quality object-level video instruction dataset, termed VideoRefer-700K.)",
+            "정밀한 지역 및 순차적 표현을 캡처할 수 있는 다재다능한 공간-시간 객체 인코더를 갖춘 VideoRefer 모델을 제시함(we present the VideoRefer model, which equips a versatile spatial-temporal object encoder to capture precise regional and sequential representations.)",
+            "Video LLM의 공간-시간 이해 능력을 종합적으로 평가하기 위해 VideoRefer-Bench를 제작함(we meticulously create a VideoRefer-Bench to comprehensively assess the spatial-temporal understanding capability of a Video LLM.)"
+        ],
+        "conclusion": "VideoRefer 모델은 비디오 참조 벤치마크에서 뛰어난 성능을 달성하며, 일반 비디오 이해 능력을 향상시킴.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.01257",
+            "authors": [
+                {
+                    "_id": "6777515fab01c44c478e51e9",
+                    "user": {
+                        "_id": "64b9954845ce8d7ad607c14d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b9954845ce8d7ad607c14d/LZ9yeTOz4J_YKrnGkcmnL.jpeg",
+                        "isPro": false,
+                        "fullname": "Shanghaoran Quan",
+                        "user": "quanshr",
+                        "type": "user"
+                    },
+                    "name": "Shanghaoran Quan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-03T14:03:42.563Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51ea",
+                    "name": "Jiaxi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51eb",
+                    "name": "Bowen Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51ec",
+                    "name": "Bo Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51ed",
+                    "name": "Dayiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51ee",
+                    "name": "An Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51ef",
+                    "name": "Xuancheng Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f0",
+                    "name": "Bofei Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f1",
+                    "name": "Yibo Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f2",
+                    "user": {
+                        "_id": "5df83428da6d0311fd3d5404",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1613644244177-5df83428da6d0311fd3d5404.jpeg",
+                        "isPro": false,
+                        "fullname": "Feng YunLong",
+                        "user": "ylfeng",
+                        "type": "user"
+                    },
+                    "name": "Yunlong Feng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-03T14:03:38.392Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f3",
+                    "name": "Zekun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f4",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f5",
+                    "name": "Zeyu Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f6",
+                    "name": "Yang Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f7",
+                    "name": "Yichang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f8",
+                    "user": {
+                        "_id": "61e4c4ca1ab24785ac11ba69",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e4c4ca1ab24785ac11ba69/1Q1zhhyGSJ9RJG9MzwxVv.jpeg",
+                        "isPro": false,
+                        "fullname": "Binyuan Hui",
+                        "user": "huybery",
+                        "type": "user"
+                    },
+                    "name": "Binyuan Hui",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-03T14:03:40.621Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6777515fab01c44c478e51f9",
+                    "name": "Junyang Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-02T13:49:00.000Z",
+            "title": "CodeElo: Benchmarking Competition-level Code Generation of LLMs with\n  Human-comparable Elo Ratings",
+            "summary": "With the increasing code reasoning capabilities of existing large language\nmodels (LLMs) and breakthroughs in reasoning models like OpenAI o1 and o3,\nthere is a growing need to develop more challenging and comprehensive\nbenchmarks that effectively test their sophisticated competition-level coding\nabilities. Existing benchmarks, like LiveCodeBench and USACO, fall short due to\nthe unavailability of private test cases, lack of support for special judges,\nand misaligned execution environments. To bridge this gap, we introduce\nCodeElo, a standardized competition-level code generation benchmark that\neffectively addresses all these challenges for the first time. CodeElo\nbenchmark is mainly based on the official CodeForces platform and tries to\nalign with the platform as much as possible. We compile the recent six months\nof contest problems on CodeForces with detailed information such as contest\ndivisions, problem difficulty ratings, and problem algorithm tags. We introduce\na unique judging method in which problems are submitted directly to the\nplatform and develop a reliable Elo rating calculation system that aligns with\nthe platform and is comparable with human participants but has lower variance.\nBy testing on our CodeElo, we provide the Elo ratings of 30 existing popular\nopen-source and 3 proprietary LLMs for the first time. The results show that\no1-mini and QwQ-32B-Preview stand out significantly, achieving Elo ratings of\n1578 and 1261, respectively, while other models struggle even with the easiest\nproblems, placing in the lowest 20 percent among all human participants.\nDetailed analysis experiments are also conducted to provide insights into\nperformance across algorithms and comparisons between using C++ and Python,\nwhich can suggest directions for future studies.",
+            "upvotes": 24,
+            "discussionId": "67775160ab01c44c478e5259"
+        },
+        "translation_title": "CodeElo: 경쟁 수준의 코드 생성을 위한 LLM의 인간과 비교 가능한 Elo 등급 평가",
+        "purpose": "LLMs의 코드 생성 능력을 테스트하기 위한 도전적이고 포괄적인 벤치마크 개발",
+        "method": [
+            "CodeForces 플랫폼을 기반으로 한 경쟁 수준의 코드 생성 벤치마크 CodeElo를 소개함(we introduce CodeElo, a standardized competition-level code generation benchmark that effectively addresses all these challenges for the first time.)",
+            "최근 6개월의 경진 문제를 수집하고 문제 난이도 평가 및 알고리즘 태그와 같은 상세 정보를 포함함(We compile the recent six months of contest problems on CodeForces with detailed information such as contest divisions, problem difficulty ratings, and problem algorithm tags.)",
+            "문제를 직접 플랫폼에 제출하는 독특한 판단 방법을 도입하고, 인간 참가자들과 비교 가능한 신뢰할 수 있는 Elo 등급 계산 시스템을 개발함(We introduce a unique judging method in which problems are submitted directly to the platform and develop a reliable Elo rating calculation system that aligns with the platform and is comparable with human participants but has lower variance.)"
+        ],
+        "conclusion": "CodeElo를 통해 30개의 인기 오픈소스 LLM과 3개의 독점 LLM의 Elo 등급이 제공되었으며, o1-mini와 QwQ-32B-Preview가 뛰어난 성과를 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Code Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.01423",
+            "authors": [
+                {
+                    "_id": "677753a28376dfe003a3fbd3",
+                    "name": "Jingfeng Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677753a28376dfe003a3fbd4",
+                    "name": "Xinggang Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-02T18:59:40.000Z",
+            "title": "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent\n  Diffusion Models",
+            "summary": "Latent diffusion models with Transformer architectures excel at generating\nhigh-fidelity images. However, recent studies reveal an optimization dilemma in\nthis two-stage design: while increasing the per-token feature dimension in\nvisual tokenizers improves reconstruction quality, it requires substantially\nlarger diffusion models and more training iterations to achieve comparable\ngeneration performance. Consequently, existing systems often settle for\nsub-optimal solutions, either producing visual artifacts due to information\nloss within tokenizers or failing to converge fully due to expensive\ncomputation costs. We argue that this dilemma stems from the inherent\ndifficulty in learning unconstrained high-dimensional latent spaces. To address\nthis, we propose aligning the latent space with pre-trained vision foundation\nmodels when training the visual tokenizers. Our proposed VA-VAE (Vision\nfoundation model Aligned Variational AutoEncoder) significantly expands the\nreconstruction-generation frontier of latent diffusion models, enabling faster\nconvergence of Diffusion Transformers (DiT) in high-dimensional latent spaces.\nTo exploit the full potential of VA-VAE, we build an enhanced DiT baseline with\nimproved training strategies and architecture designs, termed LightningDiT. The\nintegrated system achieves state-of-the-art (SOTA) performance on ImageNet\n256x256 generation with an FID score of 1.35 while demonstrating remarkable\ntraining efficiency by reaching an FID score of 2.11 in just 64\nepochs--representing an over 21 times convergence speedup compared to the\noriginal DiT. Models and codes are available at:\nhttps://github.com/hustvl/LightningDiT.",
+            "upvotes": 24,
+            "discussionId": "677753a38376dfe003a3fc2b"
+        },
+        "translation_title": "재구성 대 생성: 잠재 확산 모델에서 최적화 딜레마 해결하기",
+        "purpose": "Visual tokenizers의 재구성 품질 향상과 생성 성능 간의 최적화 딜레마를 해결하기 위함",
+        "method": [
+            "재구성이 뛰어난 잠재 공간 학습을 위해 Vision foundation model과 일치시키도록 토큰화 과정에서 훈련 방법을 제안함(To address this, we propose aligning the latent space with pre-trained vision foundation models when training the visual tokenizers.)",
+            "VA-VAE라는 새로운 접근법을 통해 잠재 확산 모델의 재구성-생성 경계를 확장함(Our proposed VA-VAE (Vision foundation model Aligned Variational AutoEncoder) significantly expands the reconstruction-generation frontier of latent diffusion models.)",
+            "LightningDiT라는 향상된 모델을 구축하여 더 빠른 훈련과 성능 향상을 도모함(To exploit the full potential of VA-VAE, we build an enhanced DiT baseline with improved training strategies and architecture designs, termed LightningDiT.)"
+        ],
+        "conclusion": "LightningDiT는 ImageNet 256x256 생성에서 1.35의 FID 점수를 기록하며, 64 에폭 만에 2.11의 FID 점수를 달성하여 기존 DiT보다 21배 더 빠른 수렴 속도를 보여주며 SOTA 성능을 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    }
+]
