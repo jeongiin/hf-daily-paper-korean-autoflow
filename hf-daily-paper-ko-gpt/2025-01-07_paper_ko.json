@@ -1,0 +1,628 @@
+[
+    {
+        "paper": {
+            "id": "2501.02976",
+            "authors": [
+                {
+                    "_id": "677c986c1b9a7499c3644ef0",
+                    "user": {
+                        "_id": "660a7ecf14cfe4973e0acfe1",
+                        "avatarUrl": "/avatars/e488058397f2b7a617515a4f721a9a00.svg",
+                        "isPro": false,
+                        "fullname": "Rui Xie",
+                        "user": "SherryX",
+                        "type": "user"
+                    },
+                    "name": "Rui Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:41:59.722Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef1",
+                    "user": {
+                        "_id": "6548f92f5a65d02afb4a3021",
+                        "avatarUrl": "/avatars/6bde44107ea0d1986356563f0738d2b8.svg",
+                        "isPro": false,
+                        "fullname": "Yinhong Liu",
+                        "user": "Solitude-liu",
+                        "type": "user"
+                    },
+                    "name": "Yinhong Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T13:16:18.989Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef2",
+                    "user": {
+                        "_id": "667e5d480f66814a82e56420",
+                        "avatarUrl": "/avatars/33fd797c7690959fed7449666a2502bf.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "LeonZhouph",
+                        "type": "user"
+                    },
+                    "name": "Penghao Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T13:02:04.376Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef3",
+                    "user": {
+                        "_id": "660103ec4ae78d4ded4633fc",
+                        "avatarUrl": "/avatars/efce106d70f5d092bf44d0638aa49984.svg",
+                        "isPro": false,
+                        "fullname": "CHEN Zhao",
+                        "user": "chenzhao",
+                        "type": "user"
+                    },
+                    "name": "Chen Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:57:59.285Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef4",
+                    "name": "Jun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef5",
+                    "name": "Kai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef6",
+                    "name": "Zhenyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef7",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef8",
+                    "user": {
+                        "_id": "6421183b69a2c2933882d652",
+                        "avatarUrl": "/avatars/66813a8fa22915087cccd4dbfb945ca7.svg",
+                        "isPro": false,
+                        "fullname": "Zhenheng Yang",
+                        "user": "zhenheny",
+                        "type": "user"
+                    },
+                    "name": "Zhenheng Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:58:14.804Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c986c1b9a7499c3644ef9",
+                    "user": {
+                        "_id": "65734004769f3ee9bde1af10",
+                        "avatarUrl": "/avatars/d6310ed861972fd691687d8f47413f33.svg",
+                        "isPro": false,
+                        "fullname": "Ying Tai",
+                        "user": "yingtai",
+                        "type": "user"
+                    },
+                    "name": "Ying Tai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:58:21.644Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-06T12:36:21.000Z",
+            "title": "STAR: Spatial-Temporal Augmentation with Text-to-Video Models for\n  Real-World Video Super-Resolution",
+            "summary": "Image diffusion models have been adapted for real-world video\nsuper-resolution to tackle over-smoothing issues in GAN-based methods. However,\nthese models struggle to maintain temporal consistency, as they are trained on\nstatic images, limiting their ability to capture temporal dynamics effectively.\nIntegrating text-to-video (T2V) models into video super-resolution for improved\ntemporal modeling is straightforward. However, two key challenges remain:\nartifacts introduced by complex degradations in real-world scenarios, and\ncompromised fidelity due to the strong generative capacity of powerful T2V\nmodels (e.g., CogVideoX-5B). To enhance the spatio-temporal quality of\nrestored videos, we introduce~\\name\n(Spatial-Temporal Augmentation with T2V models for\nReal-world video super-resolution), a novel approach that leverages\nT2V models for real-world video super-resolution, achieving realistic spatial\ndetails and robust temporal consistency. Specifically, we introduce a Local\nInformation Enhancement Module (LIEM) before the global attention block to\nenrich local details and mitigate degradation artifacts. Moreover, we propose a\nDynamic Frequency (DF) Loss to reinforce fidelity, guiding the model to focus\non different frequency components across diffusion steps. Extensive experiments\ndemonstrate~\\name~outperforms state-of-the-art methods on both\nsynthetic and real-world datasets.",
+            "upvotes": 33,
+            "discussionId": "677c986e1b9a7499c3644fb5"
+        },
+        "translation_title": "STAR: 텍스트-비디오 모델을 활용한 현실 세계 비디오 슈퍼 해상도를 위한 공간-시간 보강",
+        "purpose": "현실 세계 비디오의 해상도를 높이기 위해 T2V 모델을 활용하여 템포럴 일관성을 개선하고자 함.",
+        "method": [
+            "T2V 모델을 통합하여 비디오 슈퍼 해상도를 개선하는 방법을 제안함.(Integrating text-to-video (T2V) models into video super-resolution for improved temporal modeling is straightforward.)",
+            "로컬 정보 강화 모듈(LIEM)을 도입하여 지역 세부 정보를 풍부하게 하고 손실 인자를 완화함.(we introduce a Local Information Enhancement Module (LIEM) before the global attention block to enrich local details and mitigate degradation artifacts.)",
+            "다양한 주파수 성분에 주목하도록 가이드를 제공하는 동적 주파수 손실(DF Loss)을 제안함.(Moreover, we propose a Dynamic Frequency (DF) Loss to reinforce fidelity, guiding the model to focus on different frequency components across diffusion steps.)"
+        ],
+        "conclusion": "STAR 방법은 합성 및 현실 세계 데이터셋에서 최첨단 기법을 능가하며, 복원된 비디오의 공간적 세부정보와 시간적 일관성을 향상시킴.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.03226",
+            "authors": [
+                {
+                    "_id": "677cdcd50604b68871999e0f",
+                    "user": {
+                        "_id": "64b93578ee257c3a4cfceed1",
+                        "avatarUrl": "/avatars/e6188562254f75a09b4048b800860016.svg",
+                        "isPro": false,
+                        "fullname": "Beichen Zhang",
+                        "user": "BeichenZhang",
+                        "type": "user"
+                    },
+                    "name": "Beichen Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:37:59.472Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e10",
+                    "name": "Yuhong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e11",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e12",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:41:16.697Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e13",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e14",
+                    "user": {
+                        "_id": "63ee1379190ddd6214efd73a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676546883247-noauth.png",
+                        "isPro": false,
+                        "fullname": "HAODONG DUAN",
+                        "user": "KennyUTC",
+                        "type": "user"
+                    },
+                    "name": "Haodong Duan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T08:57:58.362Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e15",
+                    "user": {
+                        "_id": "65000bef18830fabea469fdd",
+                        "avatarUrl": "/avatars/b320c77dfad039d9f9c54127f610d44f.svg",
+                        "isPro": false,
+                        "fullname": "Cao Yuhang",
+                        "user": "yhcao",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T08:57:51.041Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e16",
+                    "user": {
+                        "_id": "636317ed80c1a705a6eff396",
+                        "avatarUrl": "/avatars/3db090e101b916d9256d0d3e043db71d.svg",
+                        "isPro": false,
+                        "fullname": "Dahua Lin",
+                        "user": "lindahua",
+                        "type": "user"
+                    },
+                    "name": "Dahua Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T08:56:41.557Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdcd50604b68871999e17",
+                    "user": {
+                        "_id": "64b4eec4faa3181a5eab9c46",
+                        "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                        "isPro": true,
+                        "fullname": "Jiaqi Wang",
+                        "user": "myownskyW7",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:37:28.234Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-06T18:59:13.000Z",
+            "title": "BoostStep: Boosting mathematical capability of Large Language Models via\n  improved single-step reasoning",
+            "summary": "Cutting-edge large language models (LLMs) demonstrate promising performance\nin solving complex math problems with a divide-and-conquer pipeline and the\nassistance of in-context learning (ICL) examples. However, their potential for\nimprovement is limited by two critical problems within their ICL examples:\ngranularity-mismatch and the ensuing negative-effect noise problem.\nSpecifically, the LLMs are capable of the dividing process yet mostly failed by\ninaccurate reasoning within a few conquer steps, while the ICL examples\nretrieved in question-grained sometimes lack relevant steps for a specific\nchallenging reasoning step. Further, this disconnect may hinder the correct\nreasoning due to its irrelevance. To this end, we focus on improving the\nreasoning quality within each step and present BoostStep. BoostStep aligns the\ngranularity between the retrieving and reasoning on step grained, and provides\nhighly related ICL examples for each reasoning step with a novel `first-try'\nstrategy. BoostStep provides more relevant examples than the coarse\nquestion-grained strategy, enhancing the model reasoning quality within each\nstep steadily. BoostStep is a general and robust reasoning-enhancing method\nthat not only improves standalone reasoning performance but also integrates\nseamlessly with Monte Carlo Tree Search methods (MCTS) to refine both candidate\ngeneration and decision-making. Quantitatively, it improves GPT-4o and\nQwen2.5-Math-72B by 3.6\\% and 2.0\\% respectively on various mathematical\nbenchmarks, and 7.5\\% gain combined with MCTS.",
+            "upvotes": 19,
+            "discussionId": "677cdcd60604b68871999e7b"
+        },
+        "translation_title": "BoostStep: 개선된 단일 단계 추리를 통한 대형 언어 모델의 수학적 능력 향상",
+        "purpose": "대형 언어 모델의 수학 문제 해결 성능을 높이기 위한 단계별 추리 품질 개선",
+        "method": [
+            "단계별 추리와 관련된 ICL 예제를 제공합니다.(BoostStep aligns the granularity between the retrieving and reasoning on step grained, and provides highly related ICL examples for each reasoning step with a novel `first-try' strategy.)",
+            "BoostStep는 각 단계의 추리 품질을 지속적으로 향상시킵니다. (BoostStep provides more relevant examples than the coarse question-grained strategy, enhancing the model reasoning quality within each step steadily.)",
+            "BoostStep는 MCTS와 통합되어 후보 생성 및 의사 결정 과정을 개선합니다.(BoostStep is a general and robust reasoning-enhancing method that not only improves standalone reasoning performance but also integrates seamlessly with Monte Carlo Tree Search methods (MCTS) to refine both candidate generation and decision-making.)"
+        ],
+        "conclusion": "BoostStep는 다양한 수학 벤치마크에서 GPT-4o와 Qwen2.5-Math-72B의 성능을 각각 3.6%와 2.0% 향상시키고, MCTS와 결합 시 7.5%의 성과를 달성했습니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.03218",
+            "authors": [
+                {
+                    "_id": "677cdc004804091804c654c6",
+                    "name": "Rui Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654c7",
+                    "user": {
+                        "_id": "65a7c0335e79abfa2ec30c52",
+                        "avatarUrl": "/avatars/2f62f83f9c5c4cc9444571f067cd85b7.svg",
+                        "isPro": true,
+                        "fullname": "Shuangrui Ding",
+                        "user": "Mar2Ding",
+                        "type": "user"
+                    },
+                    "name": "Shuangrui Ding",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:47:38.104Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654c8",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654c9",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654ca",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:41:19.447Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654cb",
+                    "user": {
+                        "_id": "65000bef18830fabea469fdd",
+                        "avatarUrl": "/avatars/b320c77dfad039d9f9c54127f610d44f.svg",
+                        "isPro": false,
+                        "fullname": "Cao Yuhang",
+                        "user": "yhcao",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:47:16.734Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654cc",
+                    "user": {
+                        "_id": "636317ed80c1a705a6eff396",
+                        "avatarUrl": "/avatars/3db090e101b916d9256d0d3e043db71d.svg",
+                        "isPro": false,
+                        "fullname": "Dahua Lin",
+                        "user": "lindahua",
+                        "type": "user"
+                    },
+                    "name": "Dahua Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:47:00.823Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677cdc004804091804c654cd",
+                    "user": {
+                        "_id": "64b4eec4faa3181a5eab9c46",
+                        "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                        "isPro": true,
+                        "fullname": "Jiaqi Wang",
+                        "user": "myownskyW7",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:46:54.181Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-06T18:55:10.000Z",
+            "title": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via\n  Disentangled Perception, Decision, and Reaction",
+            "summary": "Active Real-time interaction with video LLMs introduces a new paradigm for\nhuman-computer interaction, where the model not only understands user intent\nbut also responds while continuously processing streaming video on the fly.\nUnlike offline video LLMs, which analyze the entire video before answering\nquestions, active real-time interaction requires three capabilities: 1)\nPerception: real-time video monitoring and interaction capturing. 2) Decision:\nraising proactive interaction in proper situations, 3) Reaction: continuous\ninteraction with users. However, inherent conflicts exist among the desired\ncapabilities. The Decision and Reaction require a contrary Perception scale and\ngrain, and the autoregressive decoding blocks the real-time Perception and\nDecision during the Reaction. To unify the conflicted capabilities within a\nharmonious system, we present Dispider, a system that disentangles Perception,\nDecision, and Reaction. Dispider features a lightweight proactive streaming\nvideo processing module that tracks the video stream and identifies optimal\nmoments for interaction. Once the interaction is triggered, an asynchronous\ninteraction module provides detailed responses, while the processing module\ncontinues to monitor the video in the meantime. Our disentangled and\nasynchronous design ensures timely, contextually accurate, and computationally\nefficient responses, making Dispider ideal for active real-time interaction for\nlong-duration video streams. Experiments show that Dispider not only maintains\nstrong performance in conventional video QA tasks, but also significantly\nsurpasses previous online models in streaming scenario responses, thereby\nvalidating the effectiveness of our architecture. The code and model are\nreleased at https://github.com/Mark12Ding/Dispider.",
+            "upvotes": 19,
+            "discussionId": "677cdc014804091804c6552e"
+        },
+        "translation_title": "Dispider: 분리된 인식, 결정 및 반응을 통한 실시간 상호작용을 가능하게 하는 비디오 LLM",
+        "purpose": "영상에서의 실시간 상호작용을 통해 인간-컴퓨터 상호작용 방식 혁신",
+        "method": [
+            "Dispider라는 시스템을 제안하여 인식(Perception), 결정(Decision) 및 반응(Reaction)을 분리함(we present Dispider, a system that disentangles Perception, Decision, and Reaction.)",
+            "가벼운 스트리밍 비디오 처리 모듈을 통해 비디오 스트림을 추적하고 상호작용을 위한 최적의 순간을 식별함(Dispider features a lightweight proactive streaming video processing module that tracks the video stream and identifies optimal moments for interaction.)",
+            "비동기 상호작용 모듈을 사용하여 상호작용이 트리거되면 자세한 응답을 제공하며, 그 동안 처리 모듈은 계속 비디오를 모니터링함(Once the interaction is triggered, an asynchronous interaction module provides detailed responses, while the processing module continues to monitor the video in the meantime.)"
+        ],
+        "conclusion": "Dispider는 실시간 상호작용을 위한 비디오 QA 작업에서 강력한 성능을 유지하며, 온라인 모델들보다 우수한 성능을 보임으로써 아키텍처의 효과성을 입증함.",
+        "keywords": [
+            "Video Understanding",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.02157",
+            "authors": [
+                {
+                    "_id": "677c9728ae2cce31b6aa977b",
+                    "user": {
+                        "_id": "65dd26cf5012ec503f0137d1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/jPhOKOrd9axHhUfa7SFic.jpeg",
+                        "isPro": false,
+                        "fullname": "Steven Au",
+                        "user": "StevenAu",
+                        "type": "user"
+                    },
+                    "name": "Steven Au",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:48:43.716Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa977c",
+                    "user": {
+                        "_id": "63888721f67ad3caa9d2701d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669891869519-noauth.png",
+                        "isPro": false,
+                        "fullname": "Cameron Dimacali",
+                        "user": "Tobilee",
+                        "type": "user"
+                    },
+                    "name": "Cameron J. Dimacali",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:49:00.825Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa977d",
+                    "user": {
+                        "_id": "6561171fe0a7720b6ae89483",
+                        "avatarUrl": "/avatars/34e3b8f41084811b9a5f8022b698f3a9.svg",
+                        "isPro": false,
+                        "fullname": "Ojasmitha Pedirappagari",
+                        "user": "Ojasmitha17",
+                        "type": "user"
+                    },
+                    "name": "Ojasmitha Pedirappagari",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:49:08.187Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa977e",
+                    "user": {
+                        "_id": "65f9ecb65ff1f80a69598e33",
+                        "avatarUrl": "/avatars/e0dd617533d9d7d6167a8dc4383ae08e.svg",
+                        "isPro": false,
+                        "fullname": "Namyong Park",
+                        "user": "namyongp",
+                        "type": "user"
+                    },
+                    "name": "Namyong Park",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:49:14.438Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa977f",
+                    "user": {
+                        "_id": "62c5947524171688a9feb992",
+                        "avatarUrl": "/avatars/5a151713b9eae8dc566f5957acee3475.svg",
+                        "isPro": false,
+                        "fullname": "Franck Dernoncourt",
+                        "user": "Franck-Dernoncourt",
+                        "type": "user"
+                    },
+                    "name": "Franck Dernoncourt",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:42:05.220Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa9780",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa9781",
+                    "user": {
+                        "_id": "64c3d7543e30498cca75acaf",
+                        "avatarUrl": "/avatars/9608497e2b4d0a57cff69843fd09a077.svg",
+                        "isPro": false,
+                        "fullname": "Nikos Kanakaris",
+                        "user": "nkanak",
+                        "type": "user"
+                    },
+                    "name": "Nikos Kanakaris",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:42:01.570Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa9782",
+                    "name": "Hanieh Deilamsalehy",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa9783",
+                    "user": {
+                        "_id": "62a3ab83e4dd6252344d27cd",
+                        "avatarUrl": "/avatars/7ca8510f70a58dc207b104240e30c35c.svg",
+                        "isPro": false,
+                        "fullname": "Ryan A. Rossi",
+                        "user": "ryanrossi",
+                        "type": "user"
+                    },
+                    "name": "Ryan A. Rossi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:49:50.928Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677c9728ae2cce31b6aa9784",
+                    "user": {
+                        "_id": "663e588ccca86c8371a913d9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663e588ccca86c8371a913d9/wgVGw5U77cqwtjovhsXyR.jpeg",
+                        "isPro": false,
+                        "fullname": "Nesreen Ahmed",
+                        "user": "nkahmed",
+                        "type": "user"
+                    },
+                    "name": "Nesreen K. Ahmed",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T08:42:03.376Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-04T01:46:49.000Z",
+            "title": "Personalized Graph-Based Retrieval for Large Language Models",
+            "summary": "As large language models (LLMs) evolve, their ability to deliver personalized\nand context-aware responses offers transformative potential for improving user\nexperiences. Existing personalization approaches, however, often rely solely on\nuser history to augment the prompt, limiting their effectiveness in generating\ntailored outputs, especially in cold-start scenarios with sparse data. To\naddress these limitations, we propose Personalized Graph-based\nRetrieval-Augmented Generation (PGraphRAG), a framework that leverages\nuser-centric knowledge graphs to enrich personalization. By directly\nintegrating structured user knowledge into the retrieval process and augmenting\nprompts with user-relevant context, PGraphRAG enhances contextual understanding\nand output quality. We also introduce the Personalized Graph-based Benchmark\nfor Text Generation, designed to evaluate personalized text generation tasks in\nreal-world settings where user history is sparse or unavailable. Experimental\nresults show that PGraphRAG significantly outperforms state-of-the-art\npersonalization methods across diverse tasks, demonstrating the unique\nadvantages of graph-based retrieval for personalization.",
+            "upvotes": 15,
+            "discussionId": "677c9729ae2cce31b6aa97c2"
+        },
+        "translation_title": "대규모 언어 모델을 위한 개인화 그래프 기반 검색",
+        "purpose": "사용자 맞춤형 응답 개선을 위한 새로운 개인화 프레임워크 개발",
+        "method": [
+            "사용자 중심의 지식 그래프를 활용하여 개인화를 강화함(we propose Personalized Graph-based Retrieval-Augmented Generation (PGraphRAG), a framework that leverages user-centric knowledge graphs to enrich personalization.)",
+            "구조화된 사용자 지식을 검색 과정에 통합하여 중요 정보를 제공함(By directly integrating structured user knowledge into the retrieval process and augmenting prompts with user-relevant context, PGraphRAG enhances contextual understanding and output quality.)",
+            "실제 사용자 데이터가 부족한 환경에서 개인화된 텍스트 생성을 평가하기 위한 벤치마크를 생성함(We also introduce the Personalized Graph-based Benchmark for Text Generation, designed to evaluate personalized text generation tasks in real-world settings where user history is sparse or unavailable.)"
+        ],
+        "conclusion": "PGraphRAG는 다양한 작업에서 기존 개인화 방법을 능가하며, 그래프 기반 검색의 특별한 장점을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.02497",
+            "authors": [
+                {
+                    "_id": "677ca7db0c9718b04a426305",
+                    "user": {
+                        "_id": "63412a43a7582111c3f1cadd",
+                        "avatarUrl": "/avatars/033e809a7aa3d9c4b1326e9195290f65.svg",
+                        "isPro": false,
+                        "fullname": "Yixin Ji",
+                        "user": "Yisam",
+                        "type": "user"
+                    },
+                    "name": "Yixin Ji",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-01-07T04:53:11.414Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a426306",
+                    "user": {
+                        "_id": "6670e285b0c03c4e9d6e0985",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/uCZHm4gKSHZ2b0hpHWgZv.jpeg",
+                        "isPro": false,
+                        "fullname": "Juntao Li",
+                        "user": "douvleplus",
+                        "type": "user"
+                    },
+                    "name": "Juntao Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-07T09:51:35.155Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a426307",
+                    "user": {
+                        "_id": "6239888e7fef05b7bdd5fcff",
+                        "avatarUrl": "/avatars/54fcc756b8c0936b6bb410c6e0e02d75.svg",
+                        "isPro": false,
+                        "fullname": "Hai Ye",
+                        "user": "oceanpty",
+                        "type": "user"
+                    },
+                    "name": "Hai Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-07T13:02:02.646Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a426308",
+                    "name": "Kaixin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a426309",
+                    "name": "Jia Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a42630a",
+                    "name": "Linjian Mo",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ca7db0c9718b04a42630b",
+                    "name": "Min Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-05T10:24:20.000Z",
+            "title": "Test-time Computing: from System-1 Thinking to System-2 Thinking",
+            "summary": "The remarkable performance of the o1 model in complex reasoning demonstrates\nthat test-time computing scaling can further unlock the model's potential,\nenabling powerful System-2 thinking. However, there is still a lack of\ncomprehensive surveys for test-time computing scaling. We trace the concept of\ntest-time computing back to System-1 models. In System-1 models, test-time\ncomputing addresses distribution shifts and improves robustness and\ngeneralization through parameter updating, input modification, representation\nediting, and output calibration. In System-2 models, it enhances the model's\nreasoning ability to solve complex problems through repeated sampling,\nself-correction, and tree search. We organize this survey according to the\ntrend of System-1 to System-2 thinking, highlighting the key role of test-time\ncomputing in the transition from System-1 models to weak System-2 models, and\nthen to strong System-2 models. We also point out a few possible future\ndirections.",
+            "upvotes": 13,
+            "discussionId": "677ca7dc0c9718b04a426342"
+        },
+        "translation_title": "테스트 시간 컴퓨팅: 시스템-1 사고에서 시스템-2 사고로",
+        "purpose": "테스트 시간 컴퓨팅이 시스템-1 모델에서 시스템-2 모델로의 전환에 미치는 영향과 잠재력을 조사하기 위한 서베이",
+        "method": [
+            "테스트 시간 컴퓨팅 개념을 시스템-1 모델로 추적함(We trace the concept of test-time computing back to System-1 models.)",
+            "시스템-1 모델에서 분포 변화, 견고성 및 일반화 향상을 위한 방법을 다룸(In System-1 models, test-time computing addresses distribution shifts and improves robustness and generalization through parameter updating, input modification, representation editing, and output calibration.)",
+            "시스템-2 모델에서 복잡한 문제 해결을 위한 사고 능력을 강화하는 방법을 설명함(In System-2 models, it enhances the model's reasoning ability to solve complex problems through repeated sampling, self-correction, and tree search.)",
+            "시스템-1에서 시스템-2 사고로의 전환을 나타내는 서베이를 조직함(We organize this survey according to the trend of System-1 to System-2 thinking.)"
+        ],
+        "conclusion": "테스트 시간 컴퓨팅은 시스템-1 모델에서 시스템-2 모델로의 전환에 중요한 역할을 하며, 앞으로의 방향성도 제시됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
