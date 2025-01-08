@@ -1,0 +1,928 @@
+[
+    {
+        "paper": {
+            "id": "2501.03262",
+            "authors": [
+                {
+                    "_id": "677e18a67edb3025daa99e09",
+                    "user": {
+                        "_id": "63f6c04ac96958470d1e9043",
+                        "avatarUrl": "/avatars/da46cdd9e21498e120ca91b67bfbfb5e.svg",
+                        "isPro": false,
+                        "fullname": "Jian Hu",
+                        "user": "chuyi777",
+                        "type": "user"
+                    },
+                    "name": "Jian Hu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-08T06:18:15.147Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-04T02:08:06.000Z",
+            "title": "REINFORCE++: A Simple and Efficient Approach for Aligning Large Language\n  Models",
+            "summary": "Reinforcement Learning from Human Feedback (RLHF) has emerged as a critical\napproach for aligning large language models with human preferences, witnessing\nrapid algorithmic evolution through methods such as Proximal Policy\nOptimization (PPO), Direct Preference Optimization (DPO), REINFORCE Leave\nOne-Out (RLOO), ReMax, and Group Relative Policy Optimization (GRPO). We\npresent REINFORCE++, an enhanced variant of the classical REINFORCE algorithm\nthat incorporates key optimization techniques from PPO while eliminating the\nneed for a critic network. REINFORCE++ achieves three primary objectives: (1)\nsimplicity (2) enhanced training stability, and (3) reduced computational\noverhead. Through extensive empirical evaluation, we demonstrate that\nREINFORCE++ exhibits superior stability compared to GRPO and achieves greater\ncomputational efficiency than PPO while maintaining comparable performance. The\nimplementation is available at https://github.com/OpenRLHF/OpenRLHF.",
+            "upvotes": 35,
+            "discussionId": "677e18a77edb3025daa99e4f"
+        },
+        "translation_title": "REINFORCE++: 대규모 언어 모델 정렬을 위한 간단하고 효율적인 접근법",
+        "purpose": "대규모 언어 모델이 인간의 선호에 맞춰 정렬될 수 있도록 개선된 알고리즘을 제안하는 것",
+        "method": [
+            "REINFORCE 알고리즘의 개선된 변형인 REINFORCE++를 제안함(We present REINFORCE++, an enhanced variant of the classical REINFORCE algorithm).",
+            "PPO의 주요 최적화 기법을 포함하되 비평 네트워크의 필요성을 없앰(incorporates key optimization techniques from PPO while eliminating the need for a critic network).",
+            "REINFORCE++가 단순성, 훈련 안정성 개선, 계산 비용 절감을 달성함(REINFORCE++ achieves three primary objectives: (1) simplicity (2) enhanced training stability, and (3) reduced computational overhead.)"
+        ],
+        "conclusion": "REINFORCE++는 GRPO에 비해 안정성이 우수하며, PPO보다 계산 효율성을 높이면서도 비슷한 성능을 유지함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.02955",
+            "authors": [
+                {
+                    "_id": "677dfb5d0310e9426191dd3e",
+                    "user": {
+                        "_id": "62ecd24cb8764c7738ef2793",
+                        "avatarUrl": "/avatars/c1b80b5c55f9d652c1aaac7919e1fa32.svg",
+                        "isPro": false,
+                        "fullname": "Wenyi Hong",
+                        "user": "wenyi",
+                        "type": "user"
+                    },
+                    "name": "Wenyi Hong",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-08T04:13:19.132Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd3f",
+                    "user": {
+                        "_id": "65acc5afe2a2c8635614de43",
+                        "avatarUrl": "/avatars/c5fce792792cc0b52ed7475d72460c58.svg",
+                        "isPro": false,
+                        "fullname": "Yean Cheng",
+                        "user": "LiquidAmmonia",
+                        "type": "user"
+                    },
+                    "name": "Yean Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-08T09:44:31.589Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd40",
+                    "user": {
+                        "_id": "6466d1640ed2f7a8cba87503",
+                        "avatarUrl": "/avatars/652746e63dfeb5154ae7d34039d1a485.svg",
+                        "isPro": false,
+                        "fullname": "Zhuoyi Yang",
+                        "user": "zyyangzy",
+                        "type": "user"
+                    },
+                    "name": "Zhuoyi Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:26:08.664Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd41",
+                    "name": "Weihan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd42",
+                    "name": "Lefan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd43",
+                    "name": "Xiaotao Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd44",
+                    "user": {
+                        "_id": "6406db5cd684369027166986",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6406db5cd684369027166986/Zl-orrGcbY0RbfjfKszn1.jpeg",
+                        "isPro": false,
+                        "fullname": "Shiyu Huang",
+                        "user": "ShiyuHuang",
+                        "type": "user"
+                    },
+                    "name": "Shiyu Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:27:03.140Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd45",
+                    "user": {
+                        "_id": "640e73bdfdeaae1390857b62",
+                        "avatarUrl": "/avatars/cd6779e30f716002a7838ed93d5c0754.svg",
+                        "isPro": false,
+                        "fullname": "Yuxiao Dong",
+                        "user": "yuxiaod",
+                        "type": "user"
+                    },
+                    "name": "Yuxiao Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:27:12.264Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfb5d0310e9426191dd46",
+                    "user": {
+                        "_id": "640dff05474aa6f89556677e",
+                        "avatarUrl": "/avatars/1b4591c7322d649c797b3125148f1915.svg",
+                        "isPro": false,
+                        "fullname": "Jie Tang",
+                        "user": "jerytang",
+                        "type": "user"
+                    },
+                    "name": "Jie Tang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:27:19.977Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-06T11:57:38.000Z",
+            "title": "MotionBench: Benchmarking and Improving Fine-grained Video Motion\n  Understanding for Vision Language Models",
+            "summary": "In recent years, vision language models (VLMs) have made significant\nadvancements in video understanding. However, a crucial capability -\nfine-grained motion comprehension - remains under-explored in current\nbenchmarks. To address this gap, we propose MotionBench, a comprehensive\nevaluation benchmark designed to assess the fine-grained motion comprehension\nof video understanding models. MotionBench evaluates models' motion-level\nperception through six primary categories of motion-oriented question types and\nincludes data collected from diverse sources, ensuring a broad representation\nof real-world video content. Experimental results reveal that existing VLMs\nperform poorly in understanding fine-grained motions. To enhance VLM's ability\nto perceive fine-grained motion within a limited sequence length of LLM, we\nconduct extensive experiments reviewing VLM architectures optimized for video\nfeature compression and propose a novel and efficient Through-Encoder (TE)\nFusion method. Experiments show that higher frame rate inputs and TE Fusion\nyield improvements in motion understanding, yet there is still substantial room\nfor enhancement. Our benchmark aims to guide and motivate the development of\nmore capable video understanding models, emphasizing the importance of\nfine-grained motion comprehension. Project page: https://motion-bench.github.io .",
+            "upvotes": 27,
+            "discussionId": "677dfb5f0310e9426191de09"
+        },
+        "translation_title": "MotionBench: 비전 언어 모델을 위한 세밀한 비디오 모션 이해 벤치마크 및 개선",
+        "purpose": "세밀한 모션 이해 능력을 평가하고 개선하기 위한 비디오 이해 모델의 종합 평가 벤치마크 제안",
+        "method": [
+            "세밀한 모션 이해 격차를 해결하기 위해 MotionBench라는 평가 벤치마크를 제안함(To address this gap, we propose MotionBench, a comprehensive evaluation benchmark designed to assess the fine-grained motion comprehension of video understanding models.)",
+            "모델의 모션 수준 인식을 여섯 가지 주요 질문 유형을 통해 평가함(MotionBench evaluates models' motion-level perception through six primary categories of motion-oriented question types.)",
+            "비디오 기능 압축을 최적화한 VLM 아키텍처에 대한 실험을 수행하고 새로운 효율적인 Through-Encoder (TE) Fusion 방법을 제안함(To enhance VLM's ability to perceive fine-grained motion within a limited sequence length of LLM, we conduct extensive experiments reviewing VLM architectures optimized for video feature compression and propose a novel and efficient Through-Encoder (TE) Fusion method.)"
+        ],
+        "conclusion": "MotionBench는 비디오 이해 모델 개발을 촉진하고 세밀한 모션 이해의 중요성을 강조함.",
+        "keywords": [
+            "Video Understanding",
+            "Vision-Language Models",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.03895",
+            "authors": [
+                {
+                    "_id": "677ded917e773a03180e90c9",
+                    "user": {
+                        "_id": "64803e5dc57f629056c601f1",
+                        "avatarUrl": "/avatars/a9e9c97c70714e3a29bef2cf929ee6b3.svg",
+                        "isPro": false,
+                        "fullname": "Shaolei Zhang",
+                        "user": "zhangshaolei",
+                        "type": "user"
+                    },
+                    "name": "Shaolei Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:27:33.924Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ded917e773a03180e90ca",
+                    "user": {
+                        "_id": "65b7573482d384513443875e",
+                        "avatarUrl": "/avatars/0f2175e4adf507f5ccb0636c1cb647de.svg",
+                        "isPro": false,
+                        "fullname": "Qingkai Fang",
+                        "user": "poeroz",
+                        "type": "user"
+                    },
+                    "name": "Qingkai Fang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:27:41.696Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ded917e773a03180e90cb",
+                    "name": "Zhe Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677ded917e773a03180e90cc",
+                    "user": {
+                        "_id": "63b39f33922f26a27e7e93dd",
+                        "avatarUrl": "/avatars/fa1562f8c44270647826b293f49483bb.svg",
+                        "isPro": false,
+                        "fullname": "Yang Feng",
+                        "user": "fengyang0317",
+                        "type": "user"
+                    },
+                    "name": "Yang Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:29:03.040Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-07T16:03:14.000Z",
+            "title": "LLaVA-Mini: Efficient Image and Video Large Multimodal Models with One\n  Vision Token",
+            "summary": "The advent of real-time large multimodal models (LMMs) like GPT-4o has\nsparked considerable interest in efficient LMMs. LMM frameworks typically\nencode visual inputs into vision tokens (continuous representations) and\nintegrate them and textual instructions into the context of large language\nmodels (LLMs), where large-scale parameters and numerous context tokens\n(predominantly vision tokens) result in substantial computational overhead.\nPrevious efforts towards efficient LMMs always focus on replacing the LLM\nbackbone with smaller models, while neglecting the crucial issue of token\nquantity. In this paper, we introduce LLaVA-Mini, an efficient LMM with minimal\nvision tokens. To achieve a high compression ratio of vision tokens while\npreserving visual information, we first analyze how LMMs understand vision\ntokens and find that most vision tokens only play a crucial role in the early\nlayers of LLM backbone, where they mainly fuse visual information into text\ntokens. Building on this finding, LLaVA-Mini introduces modality pre-fusion to\nfuse visual information into text tokens in advance, thereby facilitating the\nextreme compression of vision tokens fed to LLM backbone into one token.\nLLaVA-Mini is a unified large multimodal model that can support the\nunderstanding of images, high-resolution images, and videos in an efficient\nmanner. Experiments across 11 image-based and 7 video-based benchmarks\ndemonstrate that LLaVA-Mini outperforms LLaVA-v1.5 with just 1 vision token\ninstead of 576. Efficiency analyses reveal that LLaVA-Mini can reduce FLOPs by\n77%, deliver low-latency responses within 40 milliseconds, and process over\n10,000 frames of video on the GPU hardware with 24GB of memory.",
+            "upvotes": 18,
+            "discussionId": "677ded937e773a03180e9144"
+        },
+        "translation_title": "LLaVA-Mini: 하나의 Vision Token으로 효율적인 이미지 및 비디오 대형 다중 모달 모델",
+        "purpose": "최소의 vision token으로 효율적인 대형 다중 모달 모델(LMM) 개발을 목표로 함",
+        "method": [
+            "LLaVA-Mini는 시각 정보를 미리 텍스트 토큰에 융합하여 vision token의 극단적인 압축을 가능하게 함(modality pre-fusion to fuse visual information into text tokens in advance)",
+            "실험을 통해 LLaVA-Mini가 LLaVA-v1.5보다 1개의 vision token으로 576개 대신 성능 향상이 있음을 입증함(Experiments across 11 image-based and 7 video-based benchmarks demonstrate that LLaVA-Mini outperforms LLaVA-v1.5 with just 1 vision token instead of 576)",
+            "효율성 분석을 통해 FLOPs를 77% 줄이고, 40 밀리초 이내의 저지연 응답을 제공하며, 24GB 메모리를 가진 GPU 하드웨어에서 10,000프레임 이상의 비디오 처리 가능성을 보여줌(Efficiency analyses reveal that LLaVA-Mini can reduce FLOPs by 77%, deliver low-latency responses within 40 milliseconds, and process over 10,000 frames of video on the GPU hardware with 24GB of memory)"
+        ],
+        "conclusion": "LLaVA-Mini는 효율적으로 이미지와 비디오를 이해할 수 있는 통합된 대형 다중 모달 모델임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.03575",
+            "authors": [
+                {
+                    "_id": "677dfaa14bf7f0d4734088a4",
+                    "name": "NVIDIA",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088a6",
+                    "user": {
+                        "_id": "667b2e7f0ae3fef85fe33eb9",
+                        "avatarUrl": "/avatars/033f74277bf934d8d9703e9a8c5a6716.svg",
+                        "isPro": false,
+                        "fullname": "Niket Agarwal",
+                        "user": "niketa12",
+                        "type": "user"
+                    },
+                    "name": "Niket Agarwal",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:41:16.772Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088a7",
+                    "user": {
+                        "_id": "6517ec608a6d58d1d7ec8ec1",
+                        "avatarUrl": "/avatars/4aac7fa6643f7f2d32e95cc991130ee9.svg",
+                        "isPro": false,
+                        "fullname": "Arslan Ali",
+                        "user": "arslanali",
+                        "type": "user"
+                    },
+                    "name": "Arslan Ali",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:41:24.513Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088a8",
+                    "user": {
+                        "_id": "675304737c4876b7a1475695",
+                        "avatarUrl": "/avatars/7ee3c443f6a143b4a79d679fb7f60fe5.svg",
+                        "isPro": false,
+                        "fullname": "Maciej Bala",
+                        "user": "mbalaNV",
+                        "type": "user"
+                    },
+                    "name": "Maciej Bala",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:41:34.024Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088a9",
+                    "user": {
+                        "_id": "66cd4e2564a8631d7328a637",
+                        "avatarUrl": "/avatars/024592abd427a8109f85c49e52e3bb7e.svg",
+                        "isPro": false,
+                        "fullname": "Yogesh Balaji",
+                        "user": "yogeshbalaji",
+                        "type": "user"
+                    },
+                    "name": "Yogesh Balaji",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:41:53.307Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088aa",
+                    "name": "Erik Barker",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ab",
+                    "user": {
+                        "_id": "62b481f03ec2ed6645e816ff",
+                        "avatarUrl": "/avatars/64906ebf885e29d5ef85065f060cc322.svg",
+                        "isPro": false,
+                        "fullname": "Tiffany Cai",
+                        "user": "tc2718",
+                        "type": "user"
+                    },
+                    "name": "Tiffany Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:43:14.189Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ac",
+                    "user": {
+                        "_id": "628d451386d23ad1560882c4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/628d451386d23ad1560882c4/UMxez0DEvX5qdP5ddqi-8.png",
+                        "isPro": false,
+                        "fullname": "Prithvijit Chattopadhyay",
+                        "user": "prithv1",
+                        "type": "user"
+                    },
+                    "name": "Prithvijit Chattopadhyay",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:43:22.176Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ad",
+                    "user": {
+                        "_id": "66f4cf1a03b5ba8a7f1f6522",
+                        "avatarUrl": "/avatars/2768d6e37d3f280194cfb8ed274f6015.svg",
+                        "isPro": false,
+                        "fullname": "Yongxin Chen",
+                        "user": "Ema11",
+                        "type": "user"
+                    },
+                    "name": "Yongxin Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:43:31.201Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ae",
+                    "user": {
+                        "_id": "66f6510a1c8cb854dec2d05c",
+                        "avatarUrl": "/avatars/c344d7f6747beec0c3bab0c023b7b3d4.svg",
+                        "isPro": false,
+                        "fullname": "Yin Cui",
+                        "user": "yinc-nvidia",
+                        "type": "user"
+                    },
+                    "name": "Yin Cui",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:43:42.260Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088af",
+                    "name": "Yifan Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b0",
+                    "name": "Daniel Dworakowski",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b1",
+                    "user": {
+                        "_id": "67227b67dfa07920c2985d22",
+                        "avatarUrl": "/avatars/98f09002722950eadffe5c199d22bb4f.svg",
+                        "isPro": false,
+                        "fullname": "Jiaojiao Fan",
+                        "user": "jjf233",
+                        "type": "user"
+                    },
+                    "name": "Jiaojiao Fan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:44:52.955Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b2",
+                    "name": "Michele Fenzi",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b3",
+                    "user": {
+                        "_id": "6353d3e95eac2d2efa7501f9",
+                        "avatarUrl": "/avatars/4b063f54000bed4bfb1bfcc3cde1a09e.svg",
+                        "isPro": false,
+                        "fullname": "Francesco Ferroni",
+                        "user": "fferroni",
+                        "type": "user"
+                    },
+                    "name": "Francesco Ferroni",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:45:05.039Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b4",
+                    "name": "Sanja Fidler",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b5",
+                    "name": "Dieter Fox",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b6",
+                    "user": {
+                        "_id": "67291c1a027e12eb38dc8a0c",
+                        "avatarUrl": "/avatars/00a0ca6da11d2ffd14a83d28e57c01b4.svg",
+                        "isPro": false,
+                        "fullname": "Songwei Ge",
+                        "user": "SongweiGe",
+                        "type": "user"
+                    },
+                    "name": "Songwei Ge",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:45:28.342Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b7",
+                    "user": {
+                        "_id": "6520e493b80dc49ba0f1e262",
+                        "avatarUrl": "/avatars/af21c1ee154b2c9a0d56e69a07508ccb.svg",
+                        "isPro": false,
+                        "fullname": "Yunhao Ge",
+                        "user": "yunhaog",
+                        "type": "user"
+                    },
+                    "name": "Yunhao Ge",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:45:53.639Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b8",
+                    "user": {
+                        "_id": "647e8118770c299e56fc2bc8",
+                        "avatarUrl": "/avatars/adf80f3473dda42450148789ae5c208f.svg",
+                        "isPro": false,
+                        "fullname": "Jinwei Gu",
+                        "user": "jwgu",
+                        "type": "user"
+                    },
+                    "name": "Jinwei Gu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:46:02.830Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088b9",
+                    "name": "Siddharth Gururani",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ba",
+                    "user": {
+                        "_id": "62b20f6df4a72794189248fc",
+                        "avatarUrl": "/avatars/87e1125868616d4f7d6ee1e5ec4499b4.svg",
+                        "isPro": false,
+                        "fullname": "Ethan He",
+                        "user": "ethanhe",
+                        "type": "user"
+                    },
+                    "name": "Ethan He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:46:14.910Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088bb",
+                    "name": "Jiahui Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088bc",
+                    "name": "Jacob Huffman",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088bd",
+                    "name": "Pooya Jannaty",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088be",
+                    "name": "Jingyi Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088bf",
+                    "name": "Seung Wook Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c0",
+                    "name": "Gergely Klár",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c1",
+                    "name": "Grace Lam",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c2",
+                    "name": "Shiyi Lan",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c3",
+                    "name": "Laura Leal-Taixe",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c4",
+                    "name": "Anqi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c5",
+                    "name": "Zhaoshuo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c6",
+                    "name": "Chen-Hsuan Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c7",
+                    "name": "Tsung-Yi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c8",
+                    "name": "Huan Ling",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088c9",
+                    "name": "Ming-Yu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ca",
+                    "name": "Xian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088cb",
+                    "name": "Alice Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088cc",
+                    "name": "Qianli Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088cd",
+                    "name": "Hanzi Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ce",
+                    "name": "Kaichun Mo",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088cf",
+                    "name": "Arsalan Mousavian",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d0",
+                    "name": "Seungjun Nah",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d1",
+                    "name": "Sriharsha Niverty",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d2",
+                    "name": "David Page",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d3",
+                    "name": "Despoina Paschalidou",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d4",
+                    "name": "Zeeshan Patel",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d5",
+                    "name": "Lindsey Pavao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d6",
+                    "name": "Morteza Ramezanali",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d7",
+                    "name": "Fitsum Reda",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d8",
+                    "name": "Xiaowei Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088d9",
+                    "name": "Vasanth Rao Naik Sabavat",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088da",
+                    "name": "Ed Schmerling",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088db",
+                    "name": "Stella Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088dc",
+                    "name": "Bartosz Stefaniak",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088dd",
+                    "name": "Shitao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088de",
+                    "name": "Lyne Tchapmi",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088df",
+                    "name": "Przemek Tredak",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e0",
+                    "name": "Wei-Cheng Tseng",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e1",
+                    "name": "Jibin Varghese",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e2",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e3",
+                    "name": "Haoxiang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e4",
+                    "name": "Heng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e5",
+                    "name": "Ting-Chun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e6",
+                    "name": "Fangyin Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e7",
+                    "name": "Xinyue Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e8",
+                    "name": "Jay Zhangjie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088e9",
+                    "name": "Jiashu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ea",
+                    "name": "Wei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088eb",
+                    "name": "Lin Yen-Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ec",
+                    "name": "Xiaohui Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ed",
+                    "name": "Yu Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ee",
+                    "name": "Jing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088ef",
+                    "name": "Qinsheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088f0",
+                    "name": "Yuxuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088f1",
+                    "name": "Qingqing Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677dfaa14bf7f0d4734088f2",
+                    "name": "Artur Zolkowski",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-07T06:55:50.000Z",
+            "title": "Cosmos World Foundation Model Platform for Physical AI",
+            "summary": "Physical AI needs to be trained digitally first. It needs a digital twin of\nitself, the policy model, and a digital twin of the world, the world model. In\nthis paper, we present the Cosmos World Foundation Model Platform to help\ndevelopers build customized world models for their Physical AI setups. We\nposition a world foundation model as a general-purpose world model that can be\nfine-tuned into customized world models for downstream applications. Our\nplatform covers a video curation pipeline, pre-trained world foundation models,\nexamples of post-training of pre-trained world foundation models, and video\ntokenizers. To help Physical AI builders solve the most critical problems of\nour society, we make our platform open-source and our models open-weight with\npermissive licenses available via https://github.com/NVIDIA/Cosmos.",
+            "upvotes": 17,
+            "discussionId": "677dfaa84bf7f0d473408be8"
+        },
+        "translation_title": "Cosmos 월드 재단 모델 플랫폼을 통한 Physical AI",
+        "purpose": "Physical AI를 구축하기 위한 맞춤형 세계 모델을 개발 지원",
+        "method": [
+            "Cosmos World Foundation Model Platform을 통해 세계 모델 개발 프로세스를 제공함(we present the Cosmos World Foundation Model Platform to help developers build customized world models for their Physical AI setups.)",
+            "일반적인 목적의 세계 모델을 제공하고, 이를 맞춤형 세계 모델로 세분화할 수 있도록 함(We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications.)",
+            "비디오 큐레이션 파이프라인, 사전 훈련된 세계 모델 및 비디오 토크나이저를 포함함(Our platform covers a video curation pipeline, pre-trained world foundation models, and video tokenizers.)",
+            "개발자들이 전 세계 문제를 해결할 수 있도록 플랫폼을 오픈 소스화함(we make our platform open-source and our models open-weight with permissive licenses.)"
+        ],
+        "conclusion": "Cosmos 플랫폼을 통해 Physical AI 개발자들이 맞춤형 세계 모델을 쉽게 구축하고 사회적 문제 해결에 기여할 수 있게 됨.",
+        "keywords": [
+            "Large Language Models",
+            "Video Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04001",
+            "authors": [
+                {
+                    "_id": "677e2052dbff7b495e85ec95",
+                    "user": {
+                        "_id": "6391e41f2e73987364e6bcb2",
+                        "avatarUrl": "/avatars/d09a9ee329bb8c3a9e2929d67d24e97d.svg",
+                        "isPro": false,
+                        "fullname": "Haobo Yuan",
+                        "user": "HarborYuan",
+                        "type": "user"
+                    },
+                    "name": "Haobo Yuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-08T09:44:27.046Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec96",
+                    "user": {
+                        "_id": "63958b4414513eaf9029ebf1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/U1g5H071pWRswGAG9UTpo.png",
+                        "isPro": false,
+                        "fullname": "Xiangtai Li",
+                        "user": "LXT",
+                        "type": "user"
+                    },
+                    "name": "Xiangtai Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:39:14.906Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec97",
+                    "user": {
+                        "_id": "660d28db4215cc70372bc432",
+                        "avatarUrl": "/avatars/a515303c6e29725ef3698bb695ffa743.svg",
+                        "isPro": false,
+                        "fullname": "Tao Zhang",
+                        "user": "TaoZhang",
+                        "type": "user"
+                    },
+                    "name": "Tao Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:39:23.333Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec98",
+                    "name": "Zilong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec99",
+                    "user": {
+                        "_id": "638598a138f4aec99c50750e",
+                        "avatarUrl": "/avatars/42a4aad213e04a0ded1ab7f81910e082.svg",
+                        "isPro": false,
+                        "fullname": "Shilin Xu",
+                        "user": "shilinxu",
+                        "type": "user"
+                    },
+                    "name": "Shilin Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:40:16.694Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec9a",
+                    "name": "Shunping Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec9b",
+                    "name": "Yunhai Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec9c",
+                    "name": "Lu Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec9d",
+                    "user": {
+                        "_id": "67298e44017b96a1d0101dc4",
+                        "avatarUrl": "/avatars/1f8ed1a3e911e6a3021087b9371d284c.svg",
+                        "isPro": false,
+                        "fullname": "Jiashi Feng",
+                        "user": "jshfeng",
+                        "type": "user"
+                    },
+                    "name": "Jiashi Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-08T13:41:01.815Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677e2052dbff7b495e85ec9e",
+                    "name": "Ming-Hsuan Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-07T18:58:54.000Z",
+            "title": "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of\n  Images and Videos",
+            "summary": "This work presents Sa2VA, the first unified model for dense grounded\nunderstanding of both images and videos. Unlike existing multi-modal large\nlanguage models, which are often limited to specific modalities and tasks,\nSa2VA supports a wide range of image and video tasks, including referring\nsegmentation and conversation, with minimal one-shot instruction tuning. Sa2VA\ncombines SAM-2, a foundation video segmentation model, with LLaVA, an advanced\nvision-language model, and unifies text, image, and video into a shared LLM\ntoken space. Using the LLM, Sa2VA generates instruction tokens that guide SAM-2\nin producing precise masks, enabling a grounded, multi-modal understanding of\nboth static and dynamic visual content. Additionally, we introduce Ref-SAV, an\nauto-labeled dataset containing over 72k object expressions in complex video\nscenes, designed to boost model performance. We also manually validate 2k video\nobjects in the Ref-SAV datasets to benchmark referring video object\nsegmentation in complex environments. Experiments show that Sa2VA achieves\nstate-of-the-art across multiple tasks, particularly in referring video object\nsegmentation, highlighting its potential for complex real-world applications.",
+            "upvotes": 15,
+            "discussionId": "677e2056dbff7b495e85ede6"
+        },
+        "translation_title": "Sa2VA: 이미지와 비디오의 밀접한 기초 이해를 위한 SAM2와 LLaVA의 결합",
+        "purpose": "이미지와 비디오의 밀접한 이해를 위한 통합 모델 개발",
+        "method": [
+            "SAM-2라는 비디오 분할 모델과 LLaVA라는 비전-언어 모델을 결합하여 이미지와 비디오를 하나의 LLM 토큰 공간으로 통합함(Sa2VA combines SAM-2, a foundation video segmentation model, with LLaVA, an advanced vision-language model, and unifies text, image, and video into a shared LLM token space.)",
+            "LLM을 사용해 SAM-2에게 정확한 마스크 생성을 위한 지침 토큰을 생성함(Using the LLM, Sa2VA generates instruction tokens that guide SAM-2 in producing precise masks, enabling a grounded, multi-modal understanding of both static and dynamic visual content.)",
+            "복잡한 비디오 장면에서 72k 이상의 객체 표현이 포함된 Ref-SAV라는 자동 라벨링 데이터세트를 도입함(Additionally, we introduce Ref-SAV, an auto-labeled dataset containing over 72k object expressions in complex video scenes, designed to boost model performance.)"
+        ],
+        "conclusion": "Sa2VA는 여러 작업에서 최첨단 성능을 달성했으며 특히 복잡한 비디오 객체 분할에서 그 가능성을 강조함.",
+        "keywords": [
+            "Video Understanding",
+            "Vision-Language Models",
+            "Image Segmentation"
+        ]
+    }
+]
