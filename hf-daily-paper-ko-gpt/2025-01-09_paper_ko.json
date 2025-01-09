@@ -1,0 +1,429 @@
+[
+    {
+        "paper": {
+            "id": "2501.04519",
+            "authors": [
+                {
+                    "_id": "677f3f364be6eaf5077001f6",
+                    "name": "Xinyu Guan",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001f7",
+                    "user": {
+                        "_id": "62b0009c72043b05d29492b2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b0009c72043b05d29492b2/NqRkX2YLhlfOLvYysa7dD.png",
+                        "isPro": false,
+                        "fullname": "Li Lyna Zhang",
+                        "user": "lynazhang",
+                        "type": "user"
+                    },
+                    "name": "Li Lyna Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-09T10:14:40.859Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001f8",
+                    "name": "Yifei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001f9",
+                    "user": {
+                        "_id": "632bc663eafe8eca5e9bfdbc",
+                        "avatarUrl": "/avatars/787553c73e9a96adc5219e67acd29c00.svg",
+                        "isPro": false,
+                        "fullname": "Ning Shang",
+                        "user": "J-shang",
+                        "type": "user"
+                    },
+                    "name": "Ning Shang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-09T10:16:39.284Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001fa",
+                    "name": "Youran Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001fb",
+                    "name": "Yi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001fc",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f3f364be6eaf5077001fd",
+                    "name": "Mao Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T14:12:57.000Z",
+            "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep\n  Thinking",
+            "summary": "We present rStar-Math to demonstrate that small language models (SLMs) can\nrival or even surpass the math reasoning capability of OpenAI o1, without\ndistillation from superior models. rStar-Math achieves this by exercising \"deep\nthinking\" through Monte Carlo Tree Search (MCTS), where a math policy SLM\nperforms test-time search guided by an SLM-based process reward model.\nrStar-Math introduces three innovations to tackle the challenges in training\nthe two SLMs: (1) a novel code-augmented CoT data sythesis method, which\nperforms extensive MCTS rollouts to generate step-by-step verified reasoning\ntrajectories used to train the policy SLM; (2) a novel process reward model\ntraining method that avoids na\\\"ive step-level score annotation, yielding a\nmore effective process preference model (PPM); (3) a self-evolution recipe in\nwhich the policy SLM and PPM are built from scratch and iteratively evolved to\nimprove reasoning capabilities. Through 4 rounds of self-evolution with\nmillions of synthesized solutions for 747k math problems, rStar-Math boosts\nSLMs' math reasoning to state-of-the-art levels. On the MATH benchmark, it\nimproves Qwen2.5-Math-7B from 58.8% to 90.0% and Phi3-mini-3.8B from 41.4% to\n86.4%, surpassing o1-preview by +4.5% and +0.9%. On the USA Math Olympiad\n(AIME), rStar-Math solves an average of 53.3% (8/15) of problems, ranking among\nthe top 20% the brightest high school math students. Code and data will be\navailable at https://github.com/microsoft/rStar.",
+            "upvotes": 83,
+            "discussionId": "677f3f374be6eaf507700262"
+        },
+        "translation_title": "rStar-Math: 소형 LLM이 자기 발전 깊은 사고로 수학 추리를 정복할 수 있다",
+        "purpose": "OpenAI의 대형 모델과 경쟁하거나 이를 초월하는 소형 언어 모델의 수학 추리 능력 실현",
+        "method": [
+            "Monte Carlo Tree Search(MCTS)를 통한 '깊은 사고' 구현으로 수학 정책 SLM이 SLM 기반 프로세스 보상 모델에 의해 안내받으며 테스트 시간 검색 수행(SLMs can rival or even surpass the math reasoning capability of OpenAI o1, without distillation from superior models.)",
+            "새로운 코드 증강 CoT 데이터 합성 방법을 통해 정책 SLM을 훈련하는 데 사용되는 단계별 검증된 추론 경로 생성(Presenting three innovations to tackle the challenges in training the two SLMs: a novel code-augmented CoT data synthesis method.)",
+            "나이브한 단계별 점수 주석 방법을 피하는 프로세스 보상 모델 훈련 방법 도입(Training method that avoids naive step-level score annotation, yielding a more effective process preference model.)",
+            "정책 SLM과 PPM을 처음부터 구축하고 점진적으로 발전시키는 자기 발전 레시피 구현(Self-evolution recipe in which the policy SLM and PPM are built from scratch and iteratively evolved to improve reasoning capabilities.)"
+        ],
+        "conclusion": "rStar-Math는 747k 수학 문제에 대해 수백만 개의 합성 솔루션을 통해 SLM의 수학 추리 능력을 최첨단 수준으로 향상시켰으며, 여러 벤치마크에서 기존 모델보다 높은 성과를 기록함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04686",
+            "authors": [
+                {
+                    "_id": "677f62ca407edfda4408dd07",
+                    "user": {
+                        "_id": "6548956fe49bd8d58e8adf0e",
+                        "avatarUrl": "/avatars/24c54b14c253c87d4b7438193f16ce28.svg",
+                        "isPro": false,
+                        "fullname": "Ruilin",
+                        "user": "Antimage01",
+                        "type": "user"
+                    },
+                    "name": "Ruilin Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-09T10:06:31.575Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd08",
+                    "user": {
+                        "_id": "64ae0f825d48838462023c9b",
+                        "avatarUrl": "/avatars/d3f348c1428376aea490339e94d4c239.svg",
+                        "isPro": false,
+                        "fullname": "Zheng Zhuofan",
+                        "user": "fun6668",
+                        "type": "user"
+                    },
+                    "name": "Zhuofan Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-09T11:09:45.251Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd09",
+                    "name": "Yifan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd0a",
+                    "name": "Yiyao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd0b",
+                    "name": "Xinzhe Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd0c",
+                    "name": "Zicheng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd0d",
+                    "name": "Jin Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f62ca407edfda4408dd0e",
+                    "name": "Yujiu Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T18:49:41.000Z",
+            "title": "URSA: Understanding and Verifying Chain-of-thought Reasoning in\n  Multimodal Mathematics",
+            "summary": "Chain-of-thought (CoT) reasoning has been widely applied in the mathematical\nreasoning of Large Language Models (LLMs). Recently, the introduction of\nderivative process supervision on CoT trajectories has sparked discussions on\nenhancing scaling capabilities during test time, thereby boosting the potential\nof these models. However, in multimodal mathematical reasoning, the scarcity of\nhigh-quality CoT training data has hindered existing models from achieving\nhigh-precision CoT reasoning and has limited the realization of reasoning\npotential during test time. In this work, we propose a three-module synthesis\nstrategy that integrates CoT distillation, trajectory-format rewriting, and\nformat unification. It results in a high-quality CoT reasoning instruction\nfine-tuning dataset in multimodal mathematics, MMathCoT-1M. We comprehensively\nvalidate the state-of-the-art (SOTA) performance of the trained URSA-7B model\non multiple multimodal mathematical benchmarks. For test-time scaling, we\nintroduce a data synthesis strategy that automatically generates process\nannotation datasets, known as DualMath-1.1M, focusing on both interpretation\nand logic. By further training URSA-7B on DualMath-1.1M, we transition from CoT\nreasoning capabilities to robust supervision abilities. The trained URSA-RM-7B\nacts as a verifier, effectively enhancing the performance of URSA-7B at test\ntime. URSA-RM-7B also demonstrates excellent out-of-distribution (OOD)\nverifying capabilities, showcasing its generalization. Model weights, training\ndata and code will be open-sourced.",
+            "upvotes": 33,
+            "discussionId": "677f62cb407edfda4408dd5c"
+        },
+        "translation_title": "URSA: 다중 모드 수학에서 Chain-of-thought 추론 이해 및 검증",
+        "purpose": "다중 모드 수학에서 고품질 Chain-of-thought 교육 데이터를 생성해 모델의 추론 능력을 향상시키기 위함.",
+        "method": [
+            "Chain-of-thought 증류, 경로 형식 재작성 및 형식 통합을 포함하는 세 가지 모듈 합성 전략을 제안함 (we propose a three-module synthesis strategy that integrates CoT distillation, trajectory-format rewriting, and format unification.)",
+            "결과적으로 다중 모드 수학에서 고품질 Chain-of-thought 추론 지침 미세 조정 데이터 세트 MMathCoT-1M을 생성함 (It results in a high-quality CoT reasoning instruction fine-tuning dataset in multimodal mathematics, MMathCoT-1M.)",
+            "DualMath-1.1M이라는 프로세스 주석 데이터 세트를 자동으로 생성하여 URSA-7B 모델의 성능을 높임 (we introduce a data synthesis strategy that automatically generates process annotation datasets, known as DualMath-1.1M, focusing on both interpretation and logic.)",
+            "DualMath-1.1M에서 추가로 훈련하여 URSA-7B의 강력한 감독 능력을 전환함 (By further training URSA-7B on DualMath-1.1M, we transition from CoT reasoning capabilities to robust supervision abilities.)"
+        ],
+        "conclusion": "URSA-7B는 다중 모드 수학에서 뛰어난 성과를 보여주며, URSA-RM-7B는 검증기 역할을 통해 테스트 시간 성능을 효과적으로 향상시킴.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04227",
+            "authors": [
+                {
+                    "_id": "677f4d709e9ddbcae5ce5364",
+                    "name": "Samuel Schmidgall",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce5365",
+                    "name": "Yusheng Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce5366",
+                    "name": "Ze Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce5367",
+                    "name": "Ximeng Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce5368",
+                    "name": "Jialian Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce5369",
+                    "name": "Xiaodong Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce536a",
+                    "name": "Jiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce536b",
+                    "name": "Zicheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4d709e9ddbcae5ce536c",
+                    "name": "Emad Barsoum",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T01:58:42.000Z",
+            "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+            "summary": "Historically, scientific discovery has been a lengthy and costly process,\ndemanding substantial time and resources from initial conception to final\nresults. To accelerate scientific discovery, reduce research costs, and improve\nresearch quality, we introduce Agent Laboratory, an autonomous LLM-based\nframework capable of completing the entire research process. This framework\naccepts a human-provided research idea and progresses through three\nstages--literature review, experimentation, and report writing to produce\ncomprehensive research outputs, including a code repository and a research\nreport, while enabling users to provide feedback and guidance at each stage. We\ndeploy Agent Laboratory with various state-of-the-art LLMs and invite multiple\nresearchers to assess its quality by participating in a survey, providing human\nfeedback to guide the research process, and then evaluate the final paper. We\nfound that: (1) Agent Laboratory driven by o1-preview generates the best\nresearch outcomes; (2) The generated machine learning code is able to achieve\nstate-of-the-art performance compared to existing methods; (3) Human\ninvolvement, providing feedback at each stage, significantly improves the\noverall quality of research; (4) Agent Laboratory significantly reduces\nresearch expenses, achieving an 84% decrease compared to previous autonomous\nresearch methods. We hope Agent Laboratory enables researchers to allocate more\neffort toward creative ideation rather than low-level coding and writing,\nultimately accelerating scientific discovery.",
+            "upvotes": 30,
+            "discussionId": "677f4d739e9ddbcae5ce5412"
+        },
+        "translation_title": "에이전트 연구실: LLM을 연구 조수로 활용하기",
+        "purpose": "과학적 발견을 가속화하고, 연구 비용을 줄이며, 연구 품질을 향상시키기 위한 자동화된 연구 프레임워크 연구",
+        "method": [
+            "Agent Laboratory라는 LLM 기반 프레임워크를 개발하여 사용자가 제공한 연구 아이디어에 따라 문헌 검토, 실험, 보고서 작성의 세 단계를 진행함(To accelerate scientific discovery, reduce research costs, and improve research quality, we introduce Agent Laboratory, an autonomous LLM-based framework capable of completing the entire research process.)",
+            "여러 최신 LLM을 활용하여 다양한 연구자들이 설문 조사에 참여하고 연구 결과를 평가하도록 초대함(We deploy Agent Laboratory with various state-of-the-art LLMs and invite multiple researchers to assess its quality by participating in a survey, providing human feedback to guide the research process, and then evaluate the final paper.)",
+            "연구 과정의 각 단계에서 피드백과 지도를 제공하는 인류의 참여가 연구 품질을 개선하는 데 유의미함을 발견함(We found that... Human involvement, providing feedback at each stage, significantly improves the overall quality of research.)"
+        ],
+        "conclusion": "Agent Laboratory는 연구 비용을 84% 줄이며, 연구자들이 창의적인 아이디어에 더 많은 노력을 쏟을 수 있도록 돕고, 궁극적으로 과학적 발견을 가속화하는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04682",
+            "authors": [
+                {
+                    "_id": "677f4e0d05ab3422540b88ff",
+                    "name": "Violet Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8900",
+                    "name": "Charlie Snell",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8901",
+                    "name": "Kanishk Gandhi",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8902",
+                    "name": "Alon Albalak",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8903",
+                    "user": {
+                        "_id": "6511ee845b7e52b0251fdee9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6511ee845b7e52b0251fdee9/hTIwiIYBGOVnIrxtpri83.png",
+                        "isPro": false,
+                        "fullname": "Anikait Singh",
+                        "user": "Asap7772",
+                        "type": "user"
+                    },
+                    "name": "Anikait Singh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-09T10:06:59.745Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8904",
+                    "name": "Chase Blagden",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8905",
+                    "name": "Duy Phung",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8906",
+                    "name": "Rafael Rafailov",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8907",
+                    "user": {
+                        "_id": "61aa15fd8a9625ebfe284286",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61aa15fd8a9625ebfe284286/KaGzIeijcgcN15JErCqft.jpeg",
+                        "isPro": false,
+                        "fullname": "nathan lile",
+                        "user": "nlile",
+                        "type": "user"
+                    },
+                    "name": "Nathan Lile",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-09T10:07:02.418Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8908",
+                    "name": "Dakota Mahan",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b8909",
+                    "name": "Louis Castricato",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b890a",
+                    "name": "Jan-Philipp Franken",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b890b",
+                    "name": "Nick Haber",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f4e0d05ab3422540b890c",
+                    "name": "Chelsea Finn",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T18:42:48.000Z",
+            "title": "Towards System 2 Reasoning in LLMs: Learning How to Think With Meta\n  Chain-of-Though",
+            "summary": "We propose a novel framework, Meta Chain-of-Thought (Meta-CoT), which extends\ntraditional Chain-of-Thought (CoT) by explicitly modeling the underlying\nreasoning required to arrive at a particular CoT. We present empirical evidence\nfrom state-of-the-art models exhibiting behaviors consistent with in-context\nsearch, and explore methods for producing Meta-CoT via process supervision,\nsynthetic data generation, and search algorithms. Finally, we outline a\nconcrete pipeline for training a model to produce Meta-CoTs, incorporating\ninstruction tuning with linearized search traces and reinforcement learning\npost-training. Finally, we discuss open research questions, including scaling\nlaws, verifier roles, and the potential for discovering novel reasoning\nalgorithms. This work provides a theoretical and practical roadmap to enable\nMeta-CoT in LLMs, paving the way for more powerful and human-like reasoning in\nartificial intelligence.",
+            "upvotes": 26,
+            "discussionId": "677f4e1105ab3422540b8a2e"
+        },
+        "translation_title": "LLM에서 시스템 2 추론을 향하여: 메타 체인-오브-생각 학습하기",
+        "purpose": "강력하고 인간처럼 생각하는 인공지능을 위해 메타 체인-오브-생각을 가능하게 하는 이론적 및 실용적 로드맵을 제시하기",
+        "method": [
+            "Meta Chain-of-Thought를 통해 전통적인 Chain-of-Thought를 확장하고, 특정 CoT에 도달하기 위한 추론을 명시적으로 모델링함(We propose a novel framework, Meta Chain-of-Thought (Meta-CoT), which extends traditional Chain-of-Thought (CoT) by explicitly modeling the underlying reasoning required to arrive at a particular CoT.)",
+            "최신 모델에서 맥락 내 검색과 일치하는 행동을 보여주는 경험적 증거 제시 및 프로세스 감독, 합성 데이터 생성, 검색 알고리즘을 활용하여 Meta-CoT를 생성하는 방법 탐색함(We present empirical evidence from state-of-the-art models exhibiting behaviors consistent with in-context search, and explore methods for producing Meta-CoT via process supervision, synthetic data generation, and search algorithms.)",
+            "모델을 훈련시키기 위한 구체적인 파이프라인을 outline하고, 지시 조정 및 강화 학습 후 훈련을 통합함(Finally, we outline a concrete pipeline for training a model to produce Meta-CoTs, incorporating instruction tuning with linearized search traces and reinforcement learning post-training.)"
+        ],
+        "conclusion": "Meta-CoT는 LLM에서 더 강력하고 인간과 유사한 추론을 가능하게 하는 기반을 제공합니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04306",
+            "authors": [
+                {
+                    "_id": "677f72d01178cdb06e266bc2",
+                    "name": "Ziming Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f72d01178cdb06e266bc3",
+                    "user": {
+                        "_id": "646a11791556443f24b582e9",
+                        "avatarUrl": "/avatars/b54d416ddca2f124492ba51bc4b95fd2.svg",
+                        "isPro": false,
+                        "fullname": "Zonglin Yang",
+                        "user": "ZonglinY",
+                        "type": "user"
+                    },
+                    "name": "Zonglin Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-09T10:06:03.156Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f72d01178cdb06e266bc4",
+                    "user": {
+                        "_id": "66cfe76a22493660a2fddf2c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/WQtmUTIQaqFVryT2YY8zZ.jpeg",
+                        "isPro": false,
+                        "fullname": "Zexin Xu",
+                        "user": "Ason-jay",
+                        "type": "user"
+                    },
+                    "name": "Zexin Xu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-09T06:55:13.005Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f72d01178cdb06e266bc5",
+                    "name": "Wei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f72d01178cdb06e266bc6",
+                    "name": "Xinya Du",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T06:44:02.000Z",
+            "title": "LLM4SR: A Survey on Large Language Models for Scientific Research",
+            "summary": "In recent years, the rapid advancement of Large Language Models (LLMs) has\ntransformed the landscape of scientific research, offering unprecedented\nsupport across various stages of the research cycle. This paper presents the\nfirst systematic survey dedicated to exploring how LLMs are revolutionizing the\nscientific research process. We analyze the unique roles LLMs play across four\ncritical stages of research: hypothesis discovery, experiment planning and\nimplementation, scientific writing, and peer reviewing. Our review\ncomprehensively showcases the task-specific methodologies and evaluation\nbenchmarks. By identifying current challenges and proposing future research\ndirections, this survey not only highlights the transformative potential of\nLLMs, but also aims to inspire and guide researchers and practitioners in\nleveraging LLMs to advance scientific inquiry. Resources are available at the\nfollowing repository: https://github.com/du-nlp-lab/LLM4SR",
+            "upvotes": 16,
+            "discussionId": "677f72d11178cdb06e266c0a"
+        },
+        "translation_title": "LLM4SR: 과학 연구를 위한 대형 언어 모델 조사",
+        "purpose": "과학 연구 과정에서 LLM이 어떻게 혁신을 가져오는지에 대한 체계적인 조사 제공",
+        "method": [
+            "LLM의 연구 과정 네 가지 중요한 단계: 가설 발견, 실험 계획 및 실행, 과학적 글쓰기, 동료 평가에서의 역할 분석함(In this paper, we analyze the unique roles LLMs play across four critical stages of research: hypothesis discovery, experiment planning and implementation, scientific writing, and peer reviewing.)",
+            "작업별 방법론 및 평가 기준을 포괄적으로 소개함(Our review comprehensively showcases the task-specific methodologies and evaluation benchmarks.)",
+            "현재의 과제들을 규명하고 향후 연구 방향 제안함(By identifying current challenges and proposing future research directions, this survey highlights the transformative potential of LLMs.)"
+        ],
+        "conclusion": "LLM은 과학 연구를 혁신할 수 있는 잠재력을 지니고 있으며, 연구자들이 이를 활용하여 과학 탐구를 발전시키도록 영감을 주는 것을 목표로 함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
