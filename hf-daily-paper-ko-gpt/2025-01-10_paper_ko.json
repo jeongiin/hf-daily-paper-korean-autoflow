@@ -1,0 +1,462 @@
+[
+    {
+        "paper": {
+            "id": "2501.05441",
+            "authors": [
+                {
+                    "_id": "6780827489ff720d2e028eb8",
+                    "user": {
+                        "_id": "656988c35958c68e3180961e",
+                        "avatarUrl": "/avatars/7e7916a9c9d2502774dd7727c1a03049.svg",
+                        "isPro": false,
+                        "fullname": "Yiwen Huang",
+                        "user": "Eva1209",
+                        "type": "user"
+                    },
+                    "name": "Yiwen Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:25:22.968Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780827489ff720d2e028eb9",
+                    "user": {
+                        "_id": "620573d0522e40b4a18d8763",
+                        "avatarUrl": "/avatars/9353c064ef8ccac84d0397411d38fa90.svg",
+                        "isPro": false,
+                        "fullname": "Aaron Gokaslan",
+                        "user": "Skylion007",
+                        "type": "user"
+                    },
+                    "name": "Aaron Gokaslan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:25:29.960Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780827489ff720d2e028eba",
+                    "user": {
+                        "_id": "640ea1c43c82bd463ee80e19",
+                        "avatarUrl": "/avatars/3213d2e8a433a207dfb96a35f0f52a92.svg",
+                        "isPro": false,
+                        "fullname": "Volodymyr Kuleshov",
+                        "user": "kuleshov",
+                        "type": "user"
+                    },
+                    "name": "Volodymyr Kuleshov",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:25:37.188Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780827489ff720d2e028ebb",
+                    "user": {
+                        "_id": "6581b07b4466994ea8491941",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6581b07b4466994ea8491941/dsKpoHwnyTqCaSRMV3evn.png",
+                        "isPro": false,
+                        "fullname": "James Tompkin",
+                        "user": "jamestompkin",
+                        "type": "user"
+                    },
+                    "name": "James Tompkin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:25:45.080Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-09T18:53:06.000Z",
+            "title": "The GAN is dead; long live the GAN! A Modern GAN Baseline",
+            "summary": "There is a widely-spread claim that GANs are difficult to train, and GAN\narchitectures in the literature are littered with empirical tricks. We provide\nevidence against this claim and build a modern GAN baseline in a more\nprincipled manner. First, we derive a well-behaved regularized relativistic GAN\nloss that addresses issues of mode dropping and non-convergence that were\npreviously tackled via a bag of ad-hoc tricks. We analyze our loss\nmathematically and prove that it admits local convergence guarantees, unlike\nmost existing relativistic losses. Second, our new loss allows us to discard\nall ad-hoc tricks and replace outdated backbones used in common GANs with\nmodern architectures. Using StyleGAN2 as an example, we present a roadmap of\nsimplification and modernization that results in a new minimalist baseline --\nR3GAN. Despite being simple, our approach surpasses StyleGAN2 on FFHQ,\nImageNet, CIFAR, and Stacked MNIST datasets, and compares favorably against\nstate-of-the-art GANs and diffusion models.",
+            "upvotes": 18,
+            "discussionId": "6780827a89ff720d2e029207"
+        },
+        "translation_title": "GAN은 죽었다; GAN 만세! 현대적인 GAN 기준선",
+        "purpose": "GAN 훈련의 어려움에 대한 일반적인 주장을 반박하고, 보다 원칙적인 방식으로 현대적인 GAN 기준선을 구축하는 것.",
+        "method": [
+            "잘 동작하는 정규화된 상대적 GAN 손실을 도출하여 모드 드랍과 비수렴 문제를 해결함(First, we derive a well-behaved regularized relativistic GAN loss that addresses issues of mode dropping and non-convergence).",
+            "우리의 손실을 수학적으로 분석하고, 대부분의 기존 상대적 손실과 달리 지역 수렴 보장을 입증함(We analyze our loss mathematically and prove that it admits local convergence guarantees).",
+            "우리는 구식 백본을 현대적인 아키텍처로 대체하고, StyleGAN2를 예로 하여 단순화 및 현대화를 위한 로드맵을 제시함(Using StyleGAN2 as an example, we present a roadmap of simplification and modernization that results in a new minimalist baseline -- R3GAN)."
+        ],
+        "conclusion": "우리의 간단한 접근 방식은 FFHQ, ImageNet, CIFAR, Stacked MNIST 데이터셋에서 StyleGAN2를 초월하며 최신 GAN 및 확산 모델들과 비교했을 때 긍정적인 성과를 보임.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.05453",
+            "authors": [
+                {
+                    "_id": "67809ce9063dd44ffb1de7a7",
+                    "user": {
+                        "_id": "63895b3a43d8b0797a0d0406",
+                        "avatarUrl": "/avatars/04d9952dff70f85d4e481ec80ae818cb.svg",
+                        "isPro": false,
+                        "fullname": "Jathushan Rajasegaran",
+                        "user": "brjathu",
+                        "type": "user"
+                    },
+                    "name": "Jathushan Rajasegaran",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:22:39.142Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67809ce9063dd44ffb1de7a8",
+                    "name": "Ilija Radosavovic",
+                    "hidden": false
+                },
+                {
+                    "_id": "67809ce9063dd44ffb1de7a9",
+                    "user": {
+                        "_id": "667f3f8c5595354e745a1eb8",
+                        "avatarUrl": "/avatars/7bdf766b61709e318c86795b2f48d424.svg",
+                        "isPro": false,
+                        "fullname": "Rahul Ravishankar",
+                        "user": "rravishankar",
+                        "type": "user"
+                    },
+                    "name": "Rahul Ravishankar",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:23:24.331Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67809ce9063dd44ffb1de7aa",
+                    "user": {
+                        "_id": "62f6942205ca68c0e0ff7b97",
+                        "avatarUrl": "/avatars/b0600de531b4c88f4aa7c30c5ceb06e1.svg",
+                        "isPro": false,
+                        "fullname": "Yossi Gandelsman",
+                        "user": "yossig",
+                        "type": "user"
+                    },
+                    "name": "Yossi Gandelsman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:23:33.999Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67809ce9063dd44ffb1de7ab",
+                    "name": "Christoph Feichtenhofer",
+                    "hidden": false
+                },
+                {
+                    "_id": "67809ce9063dd44ffb1de7ac",
+                    "user": {
+                        "_id": "65369a95605a07338de78ab0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/sGFjOjLT2akN-sn5beVWL.jpeg",
+                        "isPro": false,
+                        "fullname": "Jitendra Malik ",
+                        "user": "jitendra1995",
+                        "type": "user"
+                    },
+                    "name": "Jitendra Malik",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:24:49.391Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-09T18:59:58.000Z",
+            "title": "An Empirical Study of Autoregressive Pre-training from Videos",
+            "summary": "We empirically study autoregressive pre-training from videos. To perform our\nstudy, we construct a series of autoregressive video models, called Toto. We\ntreat videos as sequences of visual tokens and train transformer models to\nautoregressively predict future tokens. Our models are pre-trained on a diverse\ndataset of videos and images comprising over 1 trillion visual tokens. We\nexplore different architectural, training, and inference design choices. We\nevaluate the learned visual representations on a range of downstream tasks\nincluding image recognition, video classification, object tracking, and\nrobotics. Our results demonstrate that, despite minimal inductive biases,\nautoregressive pre-training leads to competitive performance across all\nbenchmarks. Finally, we find that scaling our video models results in similar\nscaling curves to those seen in language models, albeit with a different rate.\nMore details at https://brjathu.github.io/toto/",
+            "upvotes": 14,
+            "discussionId": "67809ced063dd44ffb1de947"
+        },
+        "translation_title": "비디오로부터 자가 회귀 전훈련에 대한 실증 연구",
+        "purpose": "비디오에서 자가 회귀 전훈련 방법이 다양한 태스크에서 얼마나 효과적인지를 평가하기 위함",
+        "method": [
+            "Toto라는 자가 회귀 비디오 모델을 구성하여 비디오를 시각적 토큰의 시퀀스로 간주하고, transformer 모델을 훈련함(we construct a series of autoregressive video models, called Toto, and treat videos as sequences of visual tokens and train transformer models to autoregressively predict future tokens.)",
+            "1조 개 이상의 시각적 토큰을 포함한 다양한 비디오 및 이미지 데이터셋을 기반으로 전훈련 수행함(Our models are pre-trained on a diverse dataset of videos and images comprising over 1 trillion visual tokens.)",
+            "다양한 아키텍처, 훈련 및 추론 설계 선택을 탐색함(We explore different architectural, training, and inference design choices.)"
+        ],
+        "conclusion": "자가 회귀 전훈련이 최소한의 귀납적 편향에도 불구하고 모든 벤치마크에서 경쟁력 있는 성능을 보여주며, 영상 모델의 규모 확장이 언어 모델과 유사한 패턴을 보임을 확인함.",
+        "keywords": [
+            "Video Generation",
+            "Image Recognition",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04003",
+            "authors": [
+                {
+                    "_id": "6780c27b7a8cd9c2c506a074",
+                    "user": {
+                        "_id": "67097d0c02d531812edad345",
+                        "avatarUrl": "/avatars/b3a48c0f7c8e37bcfb0749007cd25608.svg",
+                        "isPro": false,
+                        "fullname": "Shaoyuan Xie",
+                        "user": "shaoyuanxie",
+                        "type": "user"
+                    },
+                    "name": "Shaoyuan Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:34:11.760Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a075",
+                    "user": {
+                        "_id": "62df78222d89ce551ce0f71d",
+                        "avatarUrl": "/avatars/89fba294cff2d2f941d121c1923e4c76.svg",
+                        "isPro": false,
+                        "fullname": "Lingdong Kong",
+                        "user": "ldkong",
+                        "type": "user"
+                    },
+                    "name": "Lingdong Kong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-10T08:20:30.948Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a076",
+                    "user": {
+                        "_id": "652965773a416e1f2173443b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652965773a416e1f2173443b/y9MB8YgHzbwCXAc4EI9T3.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhao Dong",
+                        "user": "THUdyh",
+                        "type": "user"
+                    },
+                    "name": "Yuhao Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:34:17.783Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a077",
+                    "user": {
+                        "_id": "65bcaa3f88b6228542e9caa3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bcaa3f88b6228542e9caa3/DcaY3Ioic6lKfd8Rk3A1D.jpeg",
+                        "isPro": false,
+                        "fullname": "Sima",
+                        "user": "Chonghao",
+                        "type": "user"
+                    },
+                    "name": "Chonghao Sima",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:34:27.775Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a078",
+                    "user": {
+                        "_id": "64e8505321540e1da3226b54",
+                        "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+                        "isPro": false,
+                        "fullname": "Wenwei Zhang",
+                        "user": "ZwwWayne",
+                        "type": "user"
+                    },
+                    "name": "Wenwei Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:34:33.723Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a079",
+                    "name": "Qi Alfred Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a07a",
+                    "user": {
+                        "_id": "62ab1ac1d48b4d8b048a3473",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656826685333-62ab1ac1d48b4d8b048a3473.png",
+                        "isPro": false,
+                        "fullname": "Ziwei Liu",
+                        "user": "liuziwei7",
+                        "type": "user"
+                    },
+                    "name": "Ziwei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:35:28.051Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780c27b7a8cd9c2c506a07b",
+                    "name": "Liang Pan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-07T18:59:55.000Z",
+            "title": "Are VLMs Ready for Autonomous Driving? An Empirical Study from the\n  Reliability, Data, and Metric Perspectives",
+            "summary": "Recent advancements in Vision-Language Models (VLMs) have sparked interest in\ntheir use for autonomous driving, particularly in generating interpretable\ndriving decisions through natural language. However, the assumption that VLMs\ninherently provide visually grounded, reliable, and interpretable explanations\nfor driving remains largely unexamined. To address this gap, we introduce\nDriveBench, a benchmark dataset designed to evaluate VLM reliability across 17\nsettings (clean, corrupted, and text-only inputs), encompassing 19,200 frames,\n20,498 question-answer pairs, three question types, four mainstream driving\ntasks, and a total of 12 popular VLMs. Our findings reveal that VLMs often\ngenerate plausible responses derived from general knowledge or textual cues\nrather than true visual grounding, especially under degraded or missing visual\ninputs. This behavior, concealed by dataset imbalances and insufficient\nevaluation metrics, poses significant risks in safety-critical scenarios like\nautonomous driving. We further observe that VLMs struggle with multi-modal\nreasoning and display heightened sensitivity to input corruptions, leading to\ninconsistencies in performance. To address these challenges, we propose refined\nevaluation metrics that prioritize robust visual grounding and multi-modal\nunderstanding. Additionally, we highlight the potential of leveraging VLMs'\nawareness of corruptions to enhance their reliability, offering a roadmap for\ndeveloping more trustworthy and interpretable decision-making systems in\nreal-world autonomous driving contexts. The benchmark toolkit is publicly\naccessible.",
+            "upvotes": 7,
+            "discussionId": "6780c27d7a8cd9c2c506a10d"
+        },
+        "translation_title": "VLM은 자율 주행에 준비가 되었는가? 신뢰성, 데이터 및 지표 관점에서의 실증 연구",
+        "purpose": "자율 주행에서 VLM(비전-언어 모델)의 신뢰성을 평가하고자 뉴스를 기반으로 한 데이터를 수집하고 메트릭을 제안하기 위함",
+        "method": [
+            "DriveBench라는 벤치마크 데이터셋을 소개하여 17가지 설정에서 VLM의 신뢰성을 평가함(We introduce DriveBench, a benchmark dataset designed to evaluate VLM reliability across 17 settings).",
+            "특히, 19,200 프레임과 20,498 질문-답변 쌍을 포함하여 12개의 인기 있는 VLM을 분석함(Our findings reveal that VLMs... a total of 12 popular VLMs).",
+            "VLM이 진정한 시각적으로 기반한 응답을 생성하지 못하는 경향을 드러냄(This behavior, concealed by dataset imbalances and insufficient evaluation metrics, poses significant risks in safety-critical scenarios)."
+        ],
+        "conclusion": "VLM의 신뢰성을 향상시키기 위해 다중 모달 이해를 우선시하는 정제된 평가 지표를 제안하며, 자율 주행 시스템에서 더 신뢰할 수 있는 결정 시스템을 개발할 수 있는 로드맵을 제공함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.04377",
+            "authors": [
+                {
+                    "_id": "6780a7fdaf887f31d643cb55",
+                    "user": {
+                        "_id": "6600cb94e95908a2a60f3abd",
+                        "avatarUrl": "/avatars/82cdb1ef4ab4caacfa8d9f4c4f538222.svg",
+                        "isPro": false,
+                        "fullname": "keyekun",
+                        "user": "keyekun",
+                        "type": "user"
+                    },
+                    "name": "Yekun Ke",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:26:56.992Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780a7fdaf887f31d643cb56",
+                    "name": "Xiaoyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780a7fdaf887f31d643cb57",
+                    "name": "Yingyu Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780a7fdaf887f31d643cb58",
+                    "user": {
+                        "_id": "6335604ea01bd734f72316b0",
+                        "avatarUrl": "/avatars/4c6611dabd492106ffb2e82fd680d983.svg",
+                        "isPro": false,
+                        "fullname": "Zhizhou Sha",
+                        "user": "JamesSand",
+                        "type": "user"
+                    },
+                    "name": "Zhizhou Sha",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:26:20.704Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780a7fdaf887f31d643cb59",
+                    "user": {
+                        "_id": "64b769d7fa7eabaae5fb7f2f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b769d7fa7eabaae5fb7f2f/AbxVphanApZDfj3cOI1tb.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhenmei Shi",
+                        "user": "Zhenmei",
+                        "type": "user"
+                    },
+                    "name": "Zhenmei Shi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T08:26:12.739Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780a7fdaf887f31d643cb5a",
+                    "name": "Zhao Song",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-08T09:34:15.000Z",
+            "title": "On Computational Limits and Provably Efficient Criteria of Visual\n  Autoregressive Models: A Fine-Grained Complexity Analysis",
+            "summary": "Recently, Visual Autoregressive (VAR) Models introduced a\ngroundbreaking advancement in the field of image generation, offering a\nscalable approach through a coarse-to-fine \"next-scale prediction\" paradigm.\nHowever, the state-of-the-art algorithm of VAR models in [Tian,\nJiang, Yuan, Peng and Wang, NeurIPS 2024] takes O(n^4) time, which is\ncomputationally inefficient. In this work, we analyze the computational limits\nand efficiency criteria of VAR Models through a fine-grained\ncomplexity lens. Our key contribution is identifying the conditions under which\nVAR computations can achieve sub-quadratic time complexity.\nSpecifically, we establish a critical threshold for the norm of input matrices\nused in VAR attention mechanisms. Above this threshold, assuming the\nStrong Exponential Time Hypothesis (SETH) from fine-grained\ncomplexity theory, a sub-quartic time algorithm for VAR models is\nimpossible. To substantiate our theoretical findings, we present efficient\nconstructions leveraging low-rank approximations that align with the derived\ncriteria. This work initiates the study of the computational efficiency of the\nVAR model from a theoretical perspective. Our technique will shed\nlight on advancing scalable and efficient image generation in VAR\nframeworks.",
+            "upvotes": 5,
+            "discussionId": "6780a7feaf887f31d643cb83"
+        },
+        "translation_title": "비주얼 오토회귀 모델의 계산 한계 및 효율 기준: 세밀한 복잡성 분석",
+        "purpose": "비주얼 오토회귀 모델의 계산 효율성을 분석하고 향상시키기 위한 조건 연구",
+        "method": [
+            "VAR 모델의 계산 한계를 세밀한 복잡성 관점에서 분석함(we analyze the computational limits and efficiency criteria of VAR Models through a fine-grained complexity lens.)",
+            "VAR 계산이 부분 제곱 시간 복잡도를 달성할 수 있는 조건을 확인함(our key contribution is identifying the conditions under which VAR computations can achieve sub-quadratic time complexity.)",
+            "입력 행렬의 노름에 대한 중요한 기준선을 설정하고, 이 기준에 따라 효율적인 구성을 제시함(we present efficient constructions leveraging low-rank approximations that align with the derived criteria.)"
+        ],
+        "conclusion": "이 연구는 VAR 모델의 계산 효율성에 대한 이론적 연구를 시작하며, 향후 스케일 가능한 이미지 생성 향상에 기여할 것으로 기대됨.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.05122",
+            "authors": [
+                {
+                    "_id": "6780ce57c759e70936ba6da5",
+                    "user": {
+                        "_id": "613f291fe5a812eff913808e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/613f291fe5a812eff913808e/aQUoRv6tllC2j-jg6meUt.jpeg",
+                        "isPro": false,
+                        "fullname": "Gregor Geigle",
+                        "user": "Gregor",
+                        "type": "user"
+                    },
+                    "name": "Gregor Geigle",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-10T13:35:02.224Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6da6",
+                    "name": "Florian Schneider",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6da7",
+                    "name": "Carolin Holtermann",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6da8",
+                    "name": "Chris Biemann",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6da9",
+                    "name": "Radu Timofte",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6daa",
+                    "name": "Anne Lauscher",
+                    "hidden": false
+                },
+                {
+                    "_id": "6780ce57c759e70936ba6dab",
+                    "name": "Goran Glavaš",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-09T10:26:14.000Z",
+            "title": "Centurio: On Drivers of Multilingual Ability of Large Vision-Language\n  Model",
+            "summary": "Most Large Vision-Language Models (LVLMs) to date are trained predominantly\non English data, which makes them struggle to understand non-English input and\nfail to generate output in the desired target language. Existing efforts\nmitigate these issues by adding multilingual training data, but do so in a\nlargely ad-hoc manner, lacking insight into how different training mixes tip\nthe scale for different groups of languages. In this work, we present a\ncomprehensive investigation into the training strategies for massively\nmultilingual LVLMs. First, we conduct a series of multi-stage experiments\nspanning 13 downstream vision-language tasks and 43 languages, systematically\nexamining: (1) the number of training languages that can be included without\ndegrading English performance and (2) optimal language distributions of\npre-training as well as (3) instruction-tuning data. Further, we (4)\ninvestigate how to improve multilingual text-in-image understanding, and\nintroduce a new benchmark for the task. Surprisingly, our analysis reveals that\none can (i) include as many as 100 training languages simultaneously (ii) with\nas little as 25-50\\% of non-English data, to greatly improve multilingual\nperformance while retaining strong English performance. We further find that\n(iii) including non-English OCR data in pre-training and instruction-tuning is\nparamount for improving multilingual text-in-image understanding. Finally, we\nput all our findings together and train Centurio, a 100-language LVLM, offering\nstate-of-the-art performance in an evaluation covering 14 tasks and 56\nlanguages.",
+            "upvotes": 4,
+            "discussionId": "6780ce5ac759e70936ba6e7b"
+        },
+        "translation_title": "Centurio: 대형 비전-언어 모델의 다국어 능력 결정 요인",
+        "purpose": "다국어 비전-언어 모델의 훈련 전략을 종합적으로 조사하여 다양한 언어 그룹에 대한 성능 향상 목표",
+        "method": [
+            "13개 비전-언어 하위 작업과 43개 언어를 포함한 다단계 실험을 통해 다국어 훈련 언어 수와 최적의 언어 분포를 분석함.(we conduct a series of multi-stage experiments spanning 13 downstream vision-language tasks and 43 languages)",
+            "훈련 중 영어 성능 저하 없이 포함할 수 있는 언어 수를 조사하고 최적의 언어 분포를 분석함.(examining: (1) the number of training languages that can be included without degrading English performance)",
+            "비영어 텍스트-이미지 이해를 개선하고 새로운 평가 기준을 도입함.(investigate how to improve multilingual text-in-image understanding, and introduce a new benchmark for the task)"
+        ],
+        "conclusion": "Centurio는 100개 언어를 지원하는 LVLM으로, 14개 작업과 56개 언어를 포함한 평가에서 최첨단 성능을 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Natural Language Processing"
+        ]
+    }
+]
