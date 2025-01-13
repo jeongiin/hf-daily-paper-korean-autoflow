@@ -1,0 +1,672 @@
+[
+    {
+        "paper": {
+            "id": "2501.05874",
+            "authors": [
+                {
+                    "_id": "678474cb65495e1686093192",
+                    "user": {
+                        "_id": "64e5a1cd4c20016ec9020ec8",
+                        "avatarUrl": "/avatars/d7ffe7fbbe39c0a013375357457c57b3.svg",
+                        "isPro": false,
+                        "fullname": "Soyeong",
+                        "user": "starsuzi",
+                        "type": "user"
+                    },
+                    "name": "Soyeong Jeong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T09:18:35.528Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678474cb65495e1686093193",
+                    "user": {
+                        "_id": "66ed7737f2f27a5dfd81ef09",
+                        "avatarUrl": "/avatars/f45eea356e92ac7b3db23c2c92dec9fa.svg",
+                        "isPro": false,
+                        "fullname": "Kangsan Kim",
+                        "user": "KangsanKim71",
+                        "type": "user"
+                    },
+                    "name": "Kangsan Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T08:54:32.431Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678474cb65495e1686093194",
+                    "user": {
+                        "_id": "63036b6c5c70c21d0ea79d48",
+                        "avatarUrl": "/avatars/a7eb03f5cbd4eaa09fe807bbed8bc0f7.svg",
+                        "isPro": false,
+                        "fullname": "Jinheon Baek",
+                        "user": "jinheon",
+                        "type": "user"
+                    },
+                    "name": "Jinheon Baek",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:15:25.765Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678474cb65495e1686093195",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-10T11:17:15.000Z",
+            "title": "VideoRAG: Retrieval-Augmented Generation over Video Corpus",
+            "summary": "Retrieval-Augmented Generation (RAG) is a powerful strategy to address the\nissue of generating factually incorrect outputs in foundation models by\nretrieving external knowledge relevant to queries and incorporating it into\ntheir generation process. However, existing RAG approaches have primarily\nfocused on textual information, with some recent advancements beginning to\nconsider images, and they largely overlook videos, a rich source of multimodal\nknowledge capable of representing events, processes, and contextual details\nmore effectively than any other modality. While a few recent studies explore\nthe integration of videos in the response generation process, they either\npredefine query-associated videos without retrieving them according to queries,\nor convert videos into the textual descriptions without harnessing their\nmultimodal richness. To tackle these, we introduce VideoRAG, a novel framework\nthat not only dynamically retrieves relevant videos based on their relevance\nwith queries but also utilizes both visual and textual information of videos in\nthe output generation. Further, to operationalize this, our method revolves\naround the recent advance of Large Video Language Models (LVLMs), which enable\nthe direct processing of video content to represent it for retrieval and\nseamless integration of the retrieved videos jointly with queries. We\nexperimentally validate the effectiveness of VideoRAG, showcasing that it is\nsuperior to relevant baselines.",
+            "upvotes": 36,
+            "discussionId": "678474cc65495e16860931f3"
+        },
+        "translation_title": "VideoRAG: 비디오 데이터셋을 통한 검색 증강 생성",
+        "purpose": "비디오를 활용하여 정보를 더 효과적으로 생성하고 정확성을 높이기 위한 새로운 접근법 개발",
+        "method": [
+            "비디오와 쿼리의 연관성을 기반으로 관련 비디오를 동적으로 검색하여 활용함(To tackle these, we introduce VideoRAG, a novel framework that not only dynamically retrieves relevant videos based on their relevance with queries.)",
+            "비디오의 시각적 및 텍스트 정보를 출력 생성 과정에 통합함(but also utilizes both visual and textual information of videos in the output generation.)",
+            "대형 비디오 언어 모델(LVLMs)의 발전을 활용하여 비디오 콘텐츠를 직접 처리하고 검색할 수 있도록 함(our method revolves around the recent advance of Large Video Language Models (LVLMs), which enable the direct processing of video content to represent it for retrieval.)"
+        ],
+        "conclusion": "VideoRAG는 비디오를 효과적으로 통합하여 정보 생성의 정확성을 높임을 실험적으로 입증함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.03841",
+            "authors": [
+                {
+                    "_id": "677f66a83e2b5456e79f60bd",
+                    "user": {
+                        "_id": "655ecd7c56e5ceaf05344b24",
+                        "avatarUrl": "/avatars/faad88525197bb6c63be0068f19de418.svg",
+                        "isPro": false,
+                        "fullname": "MingjieP",
+                        "user": "pmj110119",
+                        "type": "user"
+                    },
+                    "name": "Mingjie Pan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-09T10:06:23.044Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f66a83e2b5456e79f60be",
+                    "user": {
+                        "_id": "6784a033eb390961206f542e",
+                        "avatarUrl": "/avatars/d2b5bd89535618a8ca383a3dd2537055.svg",
+                        "isPro": false,
+                        "fullname": "Jiyao Zhang",
+                        "user": "JiyaoZhang",
+                        "type": "user"
+                    },
+                    "name": "Jiyao Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:16:41.553Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f66a83e2b5456e79f60bf",
+                    "name": "Tianshu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f66a83e2b5456e79f60c0",
+                    "user": {
+                        "_id": "675ed5f808a1109506e04a62",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/xCgJ6I7-rATf5J1A5tCJM.png",
+                        "isPro": false,
+                        "fullname": "zhaoyinghao",
+                        "user": "Ergogogogo",
+                        "type": "user"
+                    },
+                    "name": "Yinghao Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:17:05.656Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f66a83e2b5456e79f60c1",
+                    "name": "Wenlong Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "677f66a83e2b5456e79f60c2",
+                    "name": "Hao Dong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-07T14:50:33.000Z",
+            "title": "OmniManip: Towards General Robotic Manipulation via Object-Centric\n  Interaction Primitives as Spatial Constraints",
+            "summary": "The development of general robotic systems capable of manipulating in\nunstructured environments is a significant challenge. While Vision-Language\nModels(VLM) excel in high-level commonsense reasoning, they lack the\nfine-grained 3D spatial understanding required for precise manipulation tasks.\nFine-tuning VLM on robotic datasets to create Vision-Language-Action\nModels(VLA) is a potential solution, but it is hindered by high data collection\ncosts and generalization issues. To address these challenges, we propose a\nnovel object-centric representation that bridges the gap between VLM's\nhigh-level reasoning and the low-level precision required for manipulation. Our\nkey insight is that an object's canonical space, defined by its functional\naffordances, provides a structured and semantically meaningful way to describe\ninteraction primitives, such as points and directions. These primitives act as\na bridge, translating VLM's commonsense reasoning into actionable 3D spatial\nconstraints. In this context, we introduce a dual closed-loop, open-vocabulary\nrobotic manipulation system: one loop for high-level planning through primitive\nresampling, interaction rendering and VLM checking, and another for low-level\nexecution via 6D pose tracking. This design ensures robust, real-time control\nwithout requiring VLM fine-tuning. Extensive experiments demonstrate strong\nzero-shot generalization across diverse robotic manipulation tasks,\nhighlighting the potential of this approach for automating large-scale\nsimulation data generation.",
+            "upvotes": 35,
+            "discussionId": "677f66ab3e2b5456e79f6177"
+        },
+        "translation_title": "OmniManip: 객체 중심 상호작용 원리를 통한 일반 로봇 조작 향상",
+        "purpose": "비정형 환경에서 조작 가능한 일반 로봇 시스템 개발을 위한 객체 중심 표현 제안",
+        "method": [
+            "로봇 데이터세트에 대한 VLM의 미세 조정 대신, 기능적 용도를 통해 정의된 객체의 표준 공간을 이용한 새로운 객체 중심 표현을 제안함(This is accomplished through a novel object-centric representation that bridges the gap between VLM's high-level reasoning and the low-level precision required for manipulation.)",
+            "이 표현을 통해 고수준 계획과 저수준 실행을 위한 이중 폐쇄 루프 로봇 조작 시스템을 도입함(We introduce a dual closed-loop, open-vocabulary robotic manipulation system: one loop for high-level planning through primitive resampling, interaction rendering and VLM checking, and another for low-level execution via 6D pose tracking.)",
+            "이 시스템은 VLM 미세 조정 없이도 강력하고 실시간 제어를 보장함(This design ensures robust, real-time control without requiring VLM fine-tuning.)"
+        ],
+        "conclusion": "이 방법은 다양한 로봇 조작 작업에서 강력한 제로샷 일반화 성능을 입증하며, 대규모 시뮬레이션 데이터 생성 자동화 가능성을 강조함.",
+        "keywords": [
+            "Robotics",
+            "Vision-Language Models",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.06186",
+            "authors": [
+                {
+                    "_id": "6784817c956a6e09449547bd",
+                    "user": {
+                        "_id": "64b7d2ad8c632fbca9507431",
+                        "avatarUrl": "/avatars/76c31ea218108cf6c3715269f7605404.svg",
+                        "isPro": false,
+                        "fullname": "Omkar Thawakar",
+                        "user": "omkarthawakar",
+                        "type": "user"
+                    },
+                    "name": "Omkar Thawakar",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:25:42.768Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547be",
+                    "name": "Dinura Dissanayake",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547bf",
+                    "name": "Ketan More",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c0",
+                    "user": {
+                        "_id": "664cec3ba016876f526afe7a",
+                        "avatarUrl": "/avatars/69007f7e7f7ff78069101deb4b354e37.svg",
+                        "isPro": true,
+                        "fullname": "Ritesh Thawkar ",
+                        "user": "Ritesh-hf",
+                        "type": "user"
+                    },
+                    "name": "Ritesh Thawkar",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:26:18.535Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c1",
+                    "user": {
+                        "_id": "656864e12d73834278a8dea7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656864e12d73834278a8dea7/sfAWS2eyPtFHb_2GZIypp.jpeg",
+                        "isPro": true,
+                        "fullname": "Ahmed Heakl",
+                        "user": "ahmedheakl",
+                        "type": "user"
+                    },
+                    "name": "Ahmed Heakl",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T08:54:30.443Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c2",
+                    "name": "Noor Ahsan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c3",
+                    "name": "Yuhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c4",
+                    "name": "Mohammed Zumri",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c5",
+                    "name": "Jean Lahoud",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c6",
+                    "name": "Rao Muhammad Anwer",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c7",
+                    "user": {
+                        "_id": "654a5f4f9b8bd6406d45bb46",
+                        "avatarUrl": "/avatars/ac0d7eef62cd98a280b162cf7896b1a2.svg",
+                        "isPro": false,
+                        "fullname": "Hisham Cholakkal",
+                        "user": "hishamcholakkal",
+                        "type": "user"
+                    },
+                    "name": "Hisham Cholakkal",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:27:47.044Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c8",
+                    "name": "Ivan Laptev",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547c9",
+                    "name": "Mubarak Shah",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547ca",
+                    "name": "Fahad Shahbaz Khan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784817c956a6e09449547cb",
+                    "name": "Salman Khan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-10T18:59:51.000Z",
+            "title": "LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs",
+            "summary": "Reasoning is a fundamental capability for solving complex multi-step\nproblems, particularly in visual contexts where sequential step-wise\nunderstanding is essential. Existing approaches lack a comprehensive framework\nfor evaluating visual reasoning and do not emphasize step-wise problem-solving.\nTo this end, we propose a comprehensive framework for advancing step-by-step\nvisual reasoning in large language models (LMMs) through three key\ncontributions. First, we introduce a visual reasoning benchmark specifically\ndesigned to evaluate multi-step reasoning tasks. The benchmark presents a\ndiverse set of challenges with eight different categories ranging from complex\nvisual perception to scientific reasoning with over 4k reasoning steps in\ntotal, enabling robust evaluation of LLMs' abilities to perform accurate and\ninterpretable visual reasoning across multiple steps. Second, we propose a\nnovel metric that assesses visual reasoning quality at the granularity of\nindividual steps, emphasizing both correctness and logical coherence. The\nproposed metric offers deeper insights into reasoning performance compared to\ntraditional end-task accuracy metrics. Third, we present a new multimodal\nvisual reasoning model, named LlamaV-o1, trained using a multi-step curriculum\nlearning approach, where tasks are progressively organized to facilitate\nincremental skill acquisition and problem-solving. The proposed LlamaV-o1 is\ndesigned for multi-step reasoning and learns step-by-step through a structured\ntraining paradigm. Extensive experiments show that our LlamaV-o1 outperforms\nexisting open-source models and performs favorably against close-source\nproprietary models. Compared to the recent Llava-CoT, our LlamaV-o1 achieves an\naverage score of 67.3 with an absolute gain of 3.8\\% across six benchmarks\nwhile being 5 times faster during inference scaling. Our benchmark, model, and\ncode are publicly available.",
+            "upvotes": 26,
+            "discussionId": "6784817d956a6e0944954821"
+        },
+        "translation_title": "LlamaV-o1: LLMs에서 단계별 시각적 추론 재구성하기",
+        "purpose": "단계별 문제 해결을 강조하는 포괄적인 시각적 추론 평가 프레임워크 개발",
+        "method": [
+            "다단계 추론 작업을 평가하기 위해 설계된 시각적 추론 벤치마크를 도입함(We introduce a visual reasoning benchmark specifically designed to evaluate multi-step reasoning tasks.)",
+            "개별 단계의 정확성과 논리적 일관성을 중시하는 새로운 메트릭을 제안함(The proposed metric offers deeper insights into reasoning performance compared to traditional end-task accuracy metrics.)",
+            "다단계 커리큘럼 학습 접근 방식을 사용하여 새로 훈련된 멀티모달 시각적 추론 모델인 LlamaV-o1을 제시함(The proposed LlamaV-o1 is designed for multi-step reasoning and learns step-by-step through a structured training paradigm.)"
+        ],
+        "conclusion": "LlamaV-o1은 기존 모델보다 뛰어난 성능을 보이며, 공공 벤치마크와 코드를 온라인으로 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.05510",
+            "authors": [
+                {
+                    "_id": "6784bf46dd05c40289463293",
+                    "user": {
+                        "_id": "64adfeac4beffa272dfaef21",
+                        "avatarUrl": "/avatars/883f6ba38b993476115dfafcef9ce3c1.svg",
+                        "isPro": false,
+                        "fullname": "Yifei Li",
+                        "user": "JoeLeelyf",
+                        "type": "user"
+                    },
+                    "name": "Yifei Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T08:54:23.749Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463294",
+                    "user": {
+                        "_id": "650abbb71aece923f21d87fc",
+                        "avatarUrl": "/avatars/f09ff031c278bc42bfd7a563853e142c.svg",
+                        "isPro": false,
+                        "fullname": "Junbo Niu",
+                        "user": "Niujunbo2002",
+                        "type": "user"
+                    },
+                    "name": "Junbo Niu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:18:32.157Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463295",
+                    "name": "Ziyang Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463296",
+                    "user": {
+                        "_id": "645e054ff7a55f0d780a8ff7",
+                        "avatarUrl": "/avatars/9614510443bee3bd5d6266efd1c39fc1.svg",
+                        "isPro": false,
+                        "fullname": "Chunjiang Ge",
+                        "user": "HelloJiang",
+                        "type": "user"
+                    },
+                    "name": "Chunjiang Ge",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:19:10.355Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463297",
+                    "user": {
+                        "_id": "5f0fb4827a6784092812b6eb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1594864762501-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuanhang Zhou",
+                        "user": "zyh",
+                        "type": "user"
+                    },
+                    "name": "Yuanhang Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:19:15.974Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463298",
+                    "user": {
+                        "_id": "6784c961dd05c40289493dee",
+                        "avatarUrl": "/avatars/41b94d1b3f51e4bb070f291f80fcafd8.svg",
+                        "isPro": false,
+                        "fullname": "Qihao He",
+                        "user": "qiaozc",
+                        "type": "user"
+                    },
+                    "name": "Qihao He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:19:22.762Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c40289463299",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329a",
+                    "user": {
+                        "_id": "63ee1379190ddd6214efd73a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676546883247-noauth.png",
+                        "isPro": false,
+                        "fullname": "HAODONG DUAN",
+                        "user": "KennyUTC",
+                        "type": "user"
+                    },
+                    "name": "Haodong Duan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:19:40.474Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329b",
+                    "user": {
+                        "_id": "65a7c0335e79abfa2ec30c52",
+                        "avatarUrl": "/avatars/2f62f83f9c5c4cc9444571f067cd85b7.svg",
+                        "isPro": true,
+                        "fullname": "Shuangrui Ding",
+                        "user": "Mar2Ding",
+                        "type": "user"
+                    },
+                    "name": "Shuangrui Ding",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:19:46.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329c",
+                    "name": "Rui Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329d",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329e",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T08:54:27.776Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c4028946329f",
+                    "user": {
+                        "_id": "65000bef18830fabea469fdd",
+                        "avatarUrl": "/avatars/b320c77dfad039d9f9c54127f610d44f.svg",
+                        "isPro": false,
+                        "fullname": "Cao Yuhang",
+                        "user": "yhcao",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:20:37.666Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c402894632a0",
+                    "user": {
+                        "_id": "63f9fca8d4349b157a109eec",
+                        "avatarUrl": "/avatars/fa1f2ae7972d7cde99dab178136ccbb0.svg",
+                        "isPro": false,
+                        "fullname": "Conghui He",
+                        "user": "conghui",
+                        "type": "user"
+                    },
+                    "name": "Conghui He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:20:44.739Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6784bf46dd05c402894632a1",
+                    "user": {
+                        "_id": "64b4eec4faa3181a5eab9c46",
+                        "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                        "isPro": true,
+                        "fullname": "Jiaqi Wang",
+                        "user": "myownskyW7",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-13T08:54:25.642Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-09T19:00:01.000Z",
+            "title": "OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video\n  Understanding?",
+            "summary": "Temporal Awareness, the ability to reason dynamically based on the timestamp\nwhen a question is raised, is the key distinction between offline and online\nvideo LLMs. Unlike offline models, which rely on complete videos for static,\npost hoc analysis, online models process video streams incrementally and\ndynamically adapt their responses based on the timestamp at which the question\nis posed. Despite its significance, temporal awareness has not been adequately\nevaluated in existing benchmarks. To fill this gap, we present OVO-Bench\n(Online-VideO-Benchmark), a novel video benchmark that emphasizes the\nimportance of timestamps for advanced online video understanding capability\nbenchmarking. OVO-Bench evaluates the ability of video LLMs to reason and\nrespond to events occurring at specific timestamps under three distinct\nscenarios: (1) Backward tracing: trace back to past events to answer the\nquestion. (2) Real-time understanding: understand and respond to events as they\nunfold at the current timestamp. (3) Forward active responding: delay the\nresponse until sufficient future information becomes available to answer the\nquestion accurately. OVO-Bench comprises 12 tasks, featuring 644 unique videos\nand approximately human-curated 2,800 fine-grained meta-annotations with\nprecise timestamps. We combine automated generation pipelines with human\ncuration. With these high-quality samples, we further developed an evaluation\npipeline to systematically query video LLMs along the video timeline.\nEvaluations of nine Video-LLMs reveal that, despite advancements on traditional\nbenchmarks, current models struggle with online video understanding, showing a\nsignificant gap compared to human agents. We hope OVO-Bench will drive progress\nin video LLMs and inspire future research in online video reasoning. Our\nbenchmark and code can be accessed at https://github.com/JoeLeelyf/OVO-Bench.",
+            "upvotes": 23,
+            "discussionId": "6784bf4add05c402894633c6"
+        },
+        "translation_title": "OVO-Bench: 당신의 Video-LLMs가 실제 온라인 비디오 이해에서 얼마나 떨어져 있는가?",
+        "purpose": "온라인 비디오 이해에서 타임스탬프의 중요성을 강조하는 새로운 벤치마크 개발",
+        "method": [
+            "OVO-Bench라는 새로운 비디오 벤치마크를 제안하여 타임스탬프의 중요성을 평가함(Temporal awareness has not been adequately evaluated in existing benchmarks. To fill this gap, we present OVO-Bench (Online-VideO-Benchmark), a novel video benchmark that emphasizes the importance of timestamps for advanced online video understanding capability benchmarking.)",
+            "세 가지 시나리오를 통해 비디오 LLMs의 사고 및 응답 능력을 평가함(OVO-Bench evaluates the ability of video LLMs to reason and respond to events occurring at specific timestamps under three distinct scenarios.)",
+            "자동화된 생성 파이프라인과 인간 큐레이션을 결합하여 12개의 작업과 644개 비디오, 약 2,800개의 메타 주석을 제공함(OVO-Bench comprises 12 tasks, featuring 644 unique videos and approximately human-curated 2,800 fine-grained meta-annotations with precise timestamps.)"
+        ],
+        "conclusion": "OVO-Bench는 현재 모델들이 온라인 비디오 이해에서 인간과의 상당한 격차를 보임을 확인하고, 비디오 LLMs의 발전을 촉진하는 계기가 되기를 희망함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.05727",
+            "authors": [
+                {
+                    "_id": "67847bca43f26c67cc29d68f",
+                    "user": {
+                        "_id": "64912976b95c3f0a1e6233cb",
+                        "avatarUrl": "/avatars/c0615f8c6606073faffb419757d4e667.svg",
+                        "isPro": false,
+                        "fullname": "Zhengyang Tang",
+                        "user": "tangzhy",
+                        "type": "user"
+                    },
+                    "name": "Zhengyang Tang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:20:56.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d690",
+                    "user": {
+                        "_id": "647c4c901f878439e2fd34d6",
+                        "avatarUrl": "/avatars/b4399d210d7239d4662b11a4ee7b527d.svg",
+                        "isPro": false,
+                        "fullname": "Ziniu Li",
+                        "user": "ziniuli",
+                        "type": "user"
+                    },
+                    "name": "Ziniu Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:21:26.947Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d691",
+                    "user": {
+                        "_id": "649d87b19f0ffe21ef26d36b",
+                        "avatarUrl": "/avatars/2a0b47328a780f24a640933111fe163c.svg",
+                        "isPro": false,
+                        "fullname": "xiaozhenyang",
+                        "user": "yeshoubaizi",
+                        "type": "user"
+                    },
+                    "name": "Zhenyang Xiao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:21:40.957Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d692",
+                    "name": "Tian Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d693",
+                    "name": "Ruoyu Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d694",
+                    "user": {
+                        "_id": "637c6703ca8542a0ba900ccb",
+                        "avatarUrl": "/avatars/288ed63a1efa566c3f01e850c6ba5dd5.svg",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Benyou",
+                        "type": "user"
+                    },
+                    "name": "Benyou Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:22:43.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d695",
+                    "user": {
+                        "_id": "6434d4989bd5a84b5dd0b0f5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6434d4989bd5a84b5dd0b0f5/0Elf9qbfG9Hkgypm9pTGm.jpeg",
+                        "isPro": false,
+                        "fullname": "Dayiheng Liu",
+                        "user": "Losin94",
+                        "type": "user"
+                    },
+                    "name": "Dayiheng Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:22:49.154Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d696",
+                    "user": {
+                        "_id": "635b8b6a37c6a2c12e2cce00",
+                        "avatarUrl": "/avatars/229fb72180529141515d1df797b33709.svg",
+                        "isPro": false,
+                        "fullname": "Fei Huang",
+                        "user": "hzhwcmhf",
+                        "type": "user"
+                    },
+                    "name": "Fei Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:23:37.449Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d697",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d698",
+                    "user": {
+                        "_id": "6438b43ab2ea24b52ebac2b9",
+                        "avatarUrl": "/avatars/84133cd719a4b1e2f5c1a74178425f86.svg",
+                        "isPro": false,
+                        "fullname": "Bowen Yu",
+                        "user": "bwy",
+                        "type": "user"
+                    },
+                    "name": "Bowen Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:24:32.921Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67847bca43f26c67cc29d699",
+                    "user": {
+                        "_id": "620760a26e3b7210c2ff1943",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/620760a26e3b7210c2ff1943/VC-rKqimF6yxGESNVlPoR.jpeg",
+                        "isPro": false,
+                        "fullname": "Junyang Lin",
+                        "user": "JustinLin610",
+                        "type": "user"
+                    },
+                    "name": "Junyang Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-13T09:24:39.156Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-10T05:51:52.000Z",
+            "title": "Enabling Scalable Oversight via Self-Evolving Critic",
+            "summary": "Despite their remarkable performance, the development of Large Language\nModels (LLMs) faces a critical challenge in scalable oversight: providing\neffective feedback for tasks where human evaluation is difficult or where LLMs\noutperform humans. While there is growing interest in using LLMs for critique,\ncurrent approaches still rely on human annotations or more powerful models,\nleaving the issue of enhancing critique capabilities without external\nsupervision unresolved. We introduce SCRIT (Self-evolving CRITic), a framework\nthat enables genuine self-evolution of critique abilities. Technically, SCRIT\nself-improves by training on synthetic data, generated by a contrastive-based\nself-critic that uses reference solutions for step-by-step critique, and a\nself-validation mechanism that ensures critique quality through correction\noutcomes. Implemented with Qwen2.5-72B-Instruct, one of the most powerful LLMs,\nSCRIT achieves up to a 10.3\\% improvement on critique-correction and error\nidentification benchmarks. Our analysis reveals that SCRIT's performance scales\npositively with data and model size, outperforms alternative approaches, and\nbenefits critically from its self-validation component.",
+            "upvotes": 16,
+            "discussionId": "67847bcc43f26c67cc29d6cd"
+        },
+        "translation_title": "Self-Evolving Critic를 통한 확장 가능한 감독 체계 구현",
+        "purpose": "인간 평가가 어려운 작업에서 효과적인 피드백을 제공하기 위한 Self-evolving critic의 개발",
+        "method": [
+            "SCRIT라는 프레임워크를 통해 비외부 감독 아래 비판 능력의 자체 진화를 가능하게 함(We introduce SCRIT (Self-evolving CRITic), a framework that enables genuine self-evolution of critique abilities.)",
+            "댓가 접근 방식으로 이끌어진 합성 데이터로 학습하여 비판 능력을 향상시킴(SCRIT self-improves by training on synthetic data, generated by a contrastive-based self-critic that uses reference solutions for step-by-step critique.)",
+            "자체 검증 메커니즘을 통해 비판 품질을 보장함(a self-validation mechanism that ensures critique quality through correction outcomes.)"
+        ],
+        "conclusion": "SCRIT는 비판 수정 및 오류 식별 벤치마크에서 최대 10.3%의 개선을 달성하고, 데이터와 모델 규모에 따라 성능이 긍정적으로 증가함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
