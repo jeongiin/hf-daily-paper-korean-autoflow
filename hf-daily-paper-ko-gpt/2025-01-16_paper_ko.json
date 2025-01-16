@@ -1,0 +1,753 @@
+[
+    {
+        "paper": {
+            "id": "2501.08828",
+            "authors": [
+                {
+                    "_id": "67889537383254ec3f017a1d",
+                    "user": {
+                        "_id": "66337cb5bd8ef15a47e72ce0",
+                        "avatarUrl": "/avatars/cc49056fcdc6bdabfe72a0d3de5c196d.svg",
+                        "isPro": false,
+                        "fullname": "DONG KUICAI",
+                        "user": "daviddongdong",
+                        "type": "user"
+                    },
+                    "name": "Kuicai Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-16T09:41:42.249Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67889537383254ec3f017a1e",
+                    "name": "Yujing Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67889537383254ec3f017a1f",
+                    "name": "Xin Deik Goh",
+                    "hidden": false
+                },
+                {
+                    "_id": "67889537383254ec3f017a20",
+                    "name": "Dexun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67889537383254ec3f017a21",
+                    "name": "Ruiming Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67889537383254ec3f017a22",
+                    "name": "Yong Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-15T14:30:13.000Z",
+            "title": "MMDocIR: Benchmarking Multi-Modal Retrieval for Long Documents",
+            "summary": "Multi-modal document retrieval is designed to identify and retrieve various\nforms of multi-modal content, such as figures, tables, charts, and layout\ninformation from extensive documents. Despite its significance, there is a\nnotable lack of a robust benchmark to effectively evaluate the performance of\nsystems in multi-modal document retrieval. To address this gap, this work\nintroduces a new benchmark, named as MMDocIR, encompassing two distinct tasks:\npage-level and layout-level retrieval. The former focuses on localizing the\nmost relevant pages within a long document, while the latter targets the\ndetection of specific layouts, offering a more fine-grained granularity than\nwhole-page analysis. A layout can refer to a variety of elements such as\ntextual paragraphs, equations, figures, tables, or charts. The MMDocIR\nbenchmark comprises a rich dataset featuring expertly annotated labels for\n1,685 questions and bootstrapped labels for 173,843 questions, making it a\npivotal resource for advancing multi-modal document retrieval for both training\nand evaluation. Through rigorous experiments, we reveal that (i) visual\nretrievers significantly outperform their text counterparts, (ii) MMDocIR train\nset can effectively benefit the training process of multi-modal document\nretrieval and (iii) text retrievers leveraging on VLM-text perform much better\nthan those using OCR-text. These findings underscores the potential advantages\nof integrating visual elements for multi-modal document retrieval.",
+            "upvotes": 13,
+            "discussionId": "67889539383254ec3f017a72"
+        },
+        "translation_title": "MMDocIR: 긴 문서에 대한 다중 모달 검색 벤치마크",
+        "purpose": "다중 모달 문서 검색의 성과를 효과적으로 평가하기 위해 견고한 벤치마크 마련",
+        "method": [
+            "MMDocIR이라는 새로운 벤치마크를 도입하여 페이지 수준과 레이아웃 수준의 검색 두 가지 작업을 포함함(To address this gap, this work introduces a new benchmark, named as MMDocIR, encompassing two distinct tasks: page-level and layout-level retrieval.)",
+            "페이지 검색은 긴 문서 내에서 가장 관련성이 높은 페이지를 로컬라이징하는 데 중점을 두고, 레이아웃 검색은 특정 레이아웃을 탐지하는 데 초점을 맞춤(The former focuses on localizing the most relevant pages within a long document, while the latter targets the detection of specific layouts, offering a more fine-grained granularity than whole-page analysis.)",
+            "1,685개의 질문에 대해 전문가가 주석을 달고, 173,843개의 질문에 대해 부트스트랩된 레이블을 포함한 데이터 세트를 구성함(The MMDocIR benchmark comprises a rich dataset featuring expertly annotated labels for 1,685 questions and bootstrapped labels for 173,843 questions.)"
+        ],
+        "conclusion": "실험을 통해 시각적 검색기가 텍스트 검색기보다 현저히 우수하다는 것을 보여주었고, MMDocIR 훈련 세트가 효과적으로 다중 모달 문서 검색 훈련에 기여할 수 있음을 확인함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Document Parsing",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.08365",
+            "authors": [
+                {
+                    "_id": "6788d4566cc82aa3a079f632",
+                    "user": {
+                        "_id": "645954bafbf75ae1c71fb8aa",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645954bafbf75ae1c71fb8aa/twyFXx2-M8SruwLwRBV1W.jpeg",
+                        "isPro": false,
+                        "fullname": "Stefan Baack",
+                        "user": "stefan-baack",
+                        "type": "user"
+                    },
+                    "name": "Stefan Baack",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:43:49.638Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f633",
+                    "user": {
+                        "_id": "60347d3660e3dd96631c9093",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60347d3660e3dd96631c9093/B3fuZer5N04tZIAYrLnz4.jpeg",
+                        "isPro": false,
+                        "fullname": "Stella Biderman",
+                        "user": "stellaathena",
+                        "type": "user"
+                    },
+                    "name": "Stella Biderman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:43:56.119Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f634",
+                    "name": "Kasia Odrozek",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f635",
+                    "user": {
+                        "_id": "63c5dfc8d5a5cd2043e6f03c",
+                        "avatarUrl": "/avatars/edcfcd9cfb03286d670e6c5743efef6a.svg",
+                        "isPro": false,
+                        "fullname": "Aviya Skowron",
+                        "user": "avi-skowron",
+                        "type": "user"
+                    },
+                    "name": "Aviya Skowron",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:44:07.420Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f636",
+                    "user": {
+                        "_id": "66fe985ff3ba4a0ed6d2bc89",
+                        "avatarUrl": "/avatars/7ded4065561a6bd571fa94a27f328c18.svg",
+                        "isPro": false,
+                        "fullname": "ayah bdeir",
+                        "user": "ayahbdeir",
+                        "type": "user"
+                    },
+                    "name": "Ayah Bdeir",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:44:13.401Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f637",
+                    "name": "Jillian Bommarito",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f638",
+                    "user": {
+                        "_id": "62a0da842e30aaf94ebaaa12",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679073278459-62a0da842e30aaf94ebaaa12.jpeg",
+                        "isPro": false,
+                        "fullname": "Jennifer Ding",
+                        "user": "jending12",
+                        "type": "user"
+                    },
+                    "name": "Jennifer Ding",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:44:22.871Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f639",
+                    "name": "Maximilian Gahntz",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63a",
+                    "user": {
+                        "_id": "63692f631e9d04886d555da6",
+                        "avatarUrl": "/avatars/13035d88679a570c20c74b7325d89542.svg",
+                        "isPro": false,
+                        "fullname": "Paul Keller",
+                        "user": "paulkeller",
+                        "type": "user"
+                    },
+                    "name": "Paul Keller",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:44:50.535Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63b",
+                    "user": {
+                        "_id": "64ce091a9e9ca8123d7a42b0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ce091a9e9ca8123d7a42b0/OEPggp82RwigxNLL35LgT.jpeg",
+                        "isPro": false,
+                        "fullname": "Pierre-Carl Langlais",
+                        "user": "Pclanglais",
+                        "type": "user"
+                    },
+                    "name": "Pierre-Carl Langlais",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:44:59.405Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63c",
+                    "user": {
+                        "_id": "656fbeae7734a829bbd16252",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656fbeae7734a829bbd16252/s0_NEIevmFM3dncq0gHPn.jpeg",
+                        "isPro": false,
+                        "fullname": "Greg Lindahl",
+                        "user": "greglindahl",
+                        "type": "user"
+                    },
+                    "name": "Greg Lindahl",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:45:10.564Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63d",
+                    "user": {
+                        "_id": "636071759ddc44e710e0f5ce",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/636071759ddc44e710e0f5ce/-gmEhY5PidmSXIQPi2-QB.jpeg",
+                        "isPro": true,
+                        "fullname": "Sebastian Majstorovic",
+                        "user": "storytracer",
+                        "type": "user"
+                    },
+                    "name": "Sebastian Majstorovic",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:45:17.228Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63e",
+                    "name": "Nik Marda",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f63f",
+                    "user": {
+                        "_id": "62596f9e1c0a084224b93e00",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62596f9e1c0a084224b93e00/X2aLkJ0ofhkXwAg7lXvxD.jpeg",
+                        "isPro": false,
+                        "fullname": "Guilherme Penedo",
+                        "user": "guipenedo",
+                        "type": "user"
+                    },
+                    "name": "Guilherme Penedo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:45:26.371Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f640",
+                    "name": "Maarten Van Segbroeck",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f641",
+                    "name": "Jennifer Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f642",
+                    "user": {
+                        "_id": "5e48005437cb5b49818287a5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e48005437cb5b49818287a5/4uCXGGui-9QifAT4qelxU.png",
+                        "isPro": false,
+                        "fullname": "Leandro von Werra",
+                        "user": "lvwerra",
+                        "type": "user"
+                    },
+                    "name": "Leandro von Werra",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:46:10.239Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f643",
+                    "user": {
+                        "_id": "63741e742b908db633716c80",
+                        "avatarUrl": "/avatars/97fa9158afab29053e47ce3067714bee.svg",
+                        "isPro": false,
+                        "fullname": "Mitchell Baker",
+                        "user": "HOOisDead",
+                        "type": "user"
+                    },
+                    "name": "Mitchell Baker",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:46:17.572Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f644",
+                    "name": "Julie Belião",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f645",
+                    "name": "Kasia Chmielinski",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f646",
+                    "user": {
+                        "_id": "6441042d5d600fb0951a5f99",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6441042d5d600fb0951a5f99/4CbOaYcEz99BtVAQvnGTn.jpeg",
+                        "isPro": false,
+                        "fullname": "Marzieh Fadaee",
+                        "user": "MarziehFadaee",
+                        "type": "user"
+                    },
+                    "name": "Marzieh Fadaee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:46:34.586Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f647",
+                    "name": "Lisa Gutermuth",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f648",
+                    "user": {
+                        "_id": "626ede24d2fa9e7d598c8709",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/626ede24d2fa9e7d598c8709/JKS8-Y2Jw87EgNQZBRswq.jpeg",
+                        "isPro": false,
+                        "fullname": "Hynek Kydlicek",
+                        "user": "hynky",
+                        "type": "user"
+                    },
+                    "name": "Hynek Kydlíček",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:46:45.941Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f649",
+                    "user": {
+                        "_id": "623b6a04ae0ec315881b9c97",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623b6a04ae0ec315881b9c97/IprOmck5cUmwKB6yoAU4L.jpeg",
+                        "isPro": false,
+                        "fullname": "Greg Leppert",
+                        "user": "leppert",
+                        "type": "user"
+                    },
+                    "name": "Greg Leppert",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:46:51.942Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64a",
+                    "name": "EM Lewis-Jong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64b",
+                    "name": "Solana Larsen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64c",
+                    "user": {
+                        "_id": "61f4283a81c4d30f58140242",
+                        "avatarUrl": "/avatars/a1cf1ef1fd442c36ed65c68e51919fed.svg",
+                        "isPro": false,
+                        "fullname": "Shayne Longpre",
+                        "user": "Shayne",
+                        "type": "user"
+                    },
+                    "name": "Shayne Longpre",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:47:15.078Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64d",
+                    "name": "Angela Oduor Lungati",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64e",
+                    "user": {
+                        "_id": "6571bd30e82edf86f269fac0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6571bd30e82edf86f269fac0/310j0bc6evOUY6dmtiBq5.jpeg",
+                        "isPro": false,
+                        "fullname": "Cullen Miller",
+                        "user": "cullenmiller",
+                        "type": "user"
+                    },
+                    "name": "Cullen Miller",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:47:27.114Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f64f",
+                    "user": {
+                        "_id": "638a93f1ed88cf97afd53e42",
+                        "avatarUrl": "/avatars/147ed42f13847b5e4d534511ef5388a3.svg",
+                        "isPro": false,
+                        "fullname": "Victor Miller",
+                        "user": "victormiller",
+                        "type": "user"
+                    },
+                    "name": "Victor Miller",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:47:46.377Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f650",
+                    "user": {
+                        "_id": "607d59fb921db717010c7ccc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625736058289-607d59fb921db717010c7ccc.png",
+                        "isPro": false,
+                        "fullname": "Max Ryabinin",
+                        "user": "mryab",
+                        "type": "user"
+                    },
+                    "name": "Max Ryabinin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:47:53.155Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f651",
+                    "name": "Kathleen Siminyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f652",
+                    "name": "Andrew Strait",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f653",
+                    "name": "Mark Surman",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f654",
+                    "name": "Anna Tumadóttir",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f655",
+                    "user": {
+                        "_id": "6329ee3dab49d487dd1439ec",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6329ee3dab49d487dd1439ec/vxGvdBK0XMZaCpc5dGOIa.jpeg",
+                        "isPro": false,
+                        "fullname": "Maurice Weber",
+                        "user": "mauriceweber",
+                        "type": "user"
+                    },
+                    "name": "Maurice Weber",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:48:17.851Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f656",
+                    "user": {
+                        "_id": "6430688e0d7e3248d0616a64",
+                        "avatarUrl": "/avatars/6d3ff97af3dd0da6f4781523e8cb2778.svg",
+                        "isPro": false,
+                        "fullname": "Rebecca Weiss",
+                        "user": "rjweiss",
+                        "type": "user"
+                    },
+                    "name": "Rebecca Weiss",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:48:24.368Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f657",
+                    "name": "Lee White",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788d4566cc82aa3a079f658",
+                    "user": {
+                        "_id": "5df7e9e5da6d0311fd3d53f9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857746553-5df7e9e5da6d0311fd3d53f9.jpeg",
+                        "isPro": true,
+                        "fullname": "Thomas Wolf",
+                        "user": "thomwolf",
+                        "type": "user"
+                    },
+                    "name": "Thomas Wolf",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T09:43:36.026Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-14T17:18:05.000Z",
+            "title": "Towards Best Practices for Open Datasets for LLM Training",
+            "summary": "Many AI companies are training their large language models (LLMs) on data\nwithout the permission of the copyright owners. The permissibility of doing so\nvaries by jurisdiction: in countries like the EU and Japan, this is allowed\nunder certain restrictions, while in the United States, the legal landscape is\nmore ambiguous. Regardless of the legal status, concerns from creative\nproducers have led to several high-profile copyright lawsuits, and the threat\nof litigation is commonly cited as a reason for the recent trend towards\nminimizing the information shared about training datasets by both corporate and\npublic interest actors. This trend in limiting data information causes harm by\nhindering transparency, accountability, and innovation in the broader ecosystem\nby denying researchers, auditors, and impacted individuals access to the\ninformation needed to understand AI models.\n  While this could be mitigated by training language models on open access and\npublic domain data, at the time of writing, there are no such models (trained\nat a meaningful scale) due to the substantial technical and sociological\nchallenges in assembling the necessary corpus. These challenges include\nincomplete and unreliable metadata, the cost and complexity of digitizing\nphysical records, and the diverse set of legal and technical skills required to\nensure relevance and responsibility in a quickly changing landscape. Building\ntowards a future where AI systems can be trained on openly licensed data that\nis responsibly curated and governed requires collaboration across legal,\ntechnical, and policy domains, along with investments in metadata standards,\ndigitization, and fostering a culture of openness.",
+            "upvotes": 9,
+            "discussionId": "6788d4566cc82aa3a079f68d"
+        },
+        "translation_title": "LLM 훈련을 위한 공개 데이터셋 최선의 관행을 향하여",
+        "purpose": "AI 시스템을 책임감 있게 훈련하기 위한 공개 라이선스 데이터의 활용 방안을 모색",
+        "method": [
+            "저작권 소유자 허가 없이 데이터를 사용하는 AI 기업의 현황과 법적 문제를 논의함(Companies are training their large language models (LLMs) on data without the permission of the copyright owners.)",
+            "국가별 저작권 법의 차이와 이로 인해 발생하는 문제를 분석함(Regardless of the legal status, concerns from creative producers have led to several high-profile copyright lawsuits.)",
+            "열린 접근성과 공공 도메인 데이터를 활용하여 LLM을 훈련하는 방안을 제안하고, 이를 위한 기술적·사회적 도전 과제를 정리함(While this could be mitigated by training language models on open access and public domain data, there are no such models.)"
+        ],
+        "conclusion": "AI 시스템이 공개 데이터로 효과적으로 훈련되기 위해서는 법적, 기술적, 정책적 협력이 필요하다.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.08983",
+            "authors": [
+                {
+                    "_id": "678897a4d42825b51c19d65a",
+                    "user": {
+                        "_id": "63f47b5321eb234ab739e91a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f47b5321eb234ab739e91a/vWfFNVtMkHl8gieha5PPd.jpeg",
+                        "isPro": false,
+                        "fullname": "Haozhe Xie",
+                        "user": "hzxie",
+                        "type": "user"
+                    },
+                    "name": "Haozhe Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:50:10.101Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678897a4d42825b51c19d65b",
+                    "user": {
+                        "_id": "62fc8cf7ee999004b5a8b982",
+                        "avatarUrl": "/avatars/6c5dda9e58747054a989f077a078f3dc.svg",
+                        "isPro": false,
+                        "fullname": "Zhaoxi Chen",
+                        "user": "FrozenBurning",
+                        "type": "user"
+                    },
+                    "name": "Zhaoxi Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:50:16.000Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678897a4d42825b51c19d65c",
+                    "user": {
+                        "_id": "623c530013a63ea865f96c8e",
+                        "avatarUrl": "/avatars/164455a1a94f92b71733fc778c21bd89.svg",
+                        "isPro": false,
+                        "fullname": "Fangzhou Hong",
+                        "user": "hongfz16",
+                        "type": "user"
+                    },
+                    "name": "Fangzhou Hong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:51:11.083Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678897a4d42825b51c19d65d",
+                    "user": {
+                        "_id": "62ab1ac1d48b4d8b048a3473",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656826685333-62ab1ac1d48b4d8b048a3473.png",
+                        "isPro": false,
+                        "fullname": "Ziwei Liu",
+                        "user": "liuziwei7",
+                        "type": "user"
+                    },
+                    "name": "Ziwei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:50:34.647Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-15T17:59:56.000Z",
+            "title": "CityDreamer4D: Compositional Generative Model of Unbounded 4D Cities",
+            "summary": "3D scene generation has garnered growing attention in recent years and has\nmade significant progress. Generating 4D cities is more challenging than 3D\nscenes due to the presence of structurally complex, visually diverse objects\nlike buildings and vehicles, and heightened human sensitivity to distortions in\nurban environments. To tackle these issues, we propose CityDreamer4D, a\ncompositional generative model specifically tailored for generating unbounded\n4D cities. Our main insights are 1) 4D city generation should separate dynamic\nobjects (e.g., vehicles) from static scenes (e.g., buildings and roads), and 2)\nall objects in the 4D scene should be composed of different types of neural\nfields for buildings, vehicles, and background stuff. Specifically, we propose\nTraffic Scenario Generator and Unbounded Layout Generator to produce dynamic\ntraffic scenarios and static city layouts using a highly compact BEV\nrepresentation. Objects in 4D cities are generated by combining stuff-oriented\nand instance-oriented neural fields for background stuff, buildings, and\nvehicles. To suit the distinct characteristics of background stuff and\ninstances, the neural fields employ customized generative hash grids and\nperiodic positional embeddings as scene parameterizations. Furthermore, we\noffer a comprehensive suite of datasets for city generation, including OSM,\nGoogleEarth, and CityTopia. The OSM dataset provides a variety of real-world\ncity layouts, while the Google Earth and CityTopia datasets deliver\nlarge-scale, high-quality city imagery complete with 3D instance annotations.\nLeveraging its compositional design, CityDreamer4D supports a range of\ndownstream applications, such as instance editing, city stylization, and urban\nsimulation, while delivering state-of-the-art performance in generating\nrealistic 4D cities.",
+            "upvotes": 9,
+            "discussionId": "678897a7d42825b51c19d702"
+        },
+        "translation_title": "CityDreamer4D: 무한 4D 도시 생성을 위한 구성적 생성 모델",
+        "purpose": "구성적 생성을 통해 동적 객체와 정적 장면을 구분하여 현실감 있는 4D 도시 생성을 목표로 함.",
+        "method": [
+            "CityDreamer4D 모델을 제안하여 동적 객체(예: 차량)와 정적 장면(예: 건물, 도로)을 분리하여 생성함(Our main insights are 1) 4D city generation should separate dynamic objects (e.g., vehicles) from static scenes (e.g., buildings and roads).)",
+            "Traffic Scenario Generator와 Unbounded Layout Generator를 통해 동적 교통 시나리오와 정적 도시 레이아웃을 생성함(Specifically, we propose Traffic Scenario Generator and Unbounded Layout Generator to produce dynamic traffic scenarios and static city layouts).",
+            "배경과 인스턴스에 맞는 신경 필드를 사용하여 객체를 생성함(Objects in 4D cities are generated by combining stuff-oriented and instance-oriented neural fields for background stuff, buildings, and vehicles.)",
+            "OSM, GoogleEarth, CityTopia 데이터셋을 활용하여 대규모, 고품질 도시 이미지를 제공함(Furthermore, we offer a comprehensive suite of datasets for city generation, including OSM, GoogleEarth, and CityTopia.)"
+        ],
+        "conclusion": "CityDreamer4D는 다양한 하위 작업을 지원하며, 현실감 있는 4D 도시 생성을 통해 최첨단 성능을 보임.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.08994",
+            "authors": [
+                {
+                    "_id": "6788945e2b5050a9154d939d",
+                    "user": {
+                        "_id": "635f8ed47c05eb9f59963d3a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/635f8ed47c05eb9f59963d3a/uQf4p9N9pSaFy87Wg9v4k.jpeg",
+                        "isPro": false,
+                        "fullname": "ChenyangSi",
+                        "user": "ChenyangSi",
+                        "type": "user"
+                    },
+                    "name": "Chenyang Si",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:49:14.615Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788945e2b5050a9154d939e",
+                    "user": {
+                        "_id": "6481764e8af4675862efb22e",
+                        "avatarUrl": "/avatars/fc2e076bc861693f598a528a068a696e.svg",
+                        "isPro": false,
+                        "fullname": "weichenfan",
+                        "user": "weepiess2383",
+                        "type": "user"
+                    },
+                    "name": "Weichen Fan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:49:38.866Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788945e2b5050a9154d939f",
+                    "user": {
+                        "_id": "645aff5121ab438e732c47c1",
+                        "avatarUrl": "/avatars/23b2a853139b0f2ae1fa88e2bd4e0056.svg",
+                        "isPro": false,
+                        "fullname": "Zhengyao Lv",
+                        "user": "cszy98",
+                        "type": "user"
+                    },
+                    "name": "Zhengyao Lv",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:49:45.309Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788945e2b5050a9154d93a0",
+                    "user": {
+                        "_id": "60efe7fa0d920bc7805cada5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+                        "isPro": false,
+                        "fullname": "Ziqi Huang",
+                        "user": "Ziqi",
+                        "type": "user"
+                    },
+                    "name": "Ziqi Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:49:51.123Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788945e2b5050a9154d93a1",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788945e2b5050a9154d93a2",
+                    "user": {
+                        "_id": "62ab1ac1d48b4d8b048a3473",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656826685333-62ab1ac1d48b4d8b048a3473.png",
+                        "isPro": false,
+                        "fullname": "Ziwei Liu",
+                        "user": "liuziwei7",
+                        "type": "user"
+                    },
+                    "name": "Ziwei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:49:58.339Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-15T18:20:37.000Z",
+            "title": "RepVideo: Rethinking Cross-Layer Representation for Video Generation",
+            "summary": "Video generation has achieved remarkable progress with the introduction of\ndiffusion models, which have significantly improved the quality of generated\nvideos. However, recent research has primarily focused on scaling up model\ntraining, while offering limited insights into the direct impact of\nrepresentations on the video generation process. In this paper, we initially\ninvestigate the characteristics of features in intermediate layers, finding\nsubstantial variations in attention maps across different layers. These\nvariations lead to unstable semantic representations and contribute to\ncumulative differences between features, which ultimately reduce the similarity\nbetween adjacent frames and negatively affect temporal coherence. To address\nthis, we propose RepVideo, an enhanced representation framework for\ntext-to-video diffusion models. By accumulating features from neighboring\nlayers to form enriched representations, this approach captures more stable\nsemantic information. These enhanced representations are then used as inputs to\nthe attention mechanism, thereby improving semantic expressiveness while\nensuring feature consistency across adjacent frames. Extensive experiments\ndemonstrate that our RepVideo not only significantly enhances the ability to\ngenerate accurate spatial appearances, such as capturing complex spatial\nrelationships between multiple objects, but also improves temporal consistency\nin video generation.",
+            "upvotes": 8,
+            "discussionId": "678894602b5050a9154d945b"
+        },
+        "translation_title": "RepVideo: 비디오 생성을 위한 교차 레이어 표현 재고하기",
+        "purpose": "비디오 생성 과정에서 표현의 직접적인 영향을 이해하고 향상시키기 위한 연구",
+        "method": [
+            "중간 레이어의 특징을 조사하여 주의 맵에서 큰 변화를 발견함(we initially investigate the characteristics of features in intermediate layers, finding substantial variations in attention maps across different layers.)",
+            "이웃 레이어에서 특징을 누적하여 향상된 표현을 형성하는 RepVideo 프레임워크를 제안함(we propose RepVideo, an enhanced representation framework for text-to-video diffusion models by accumulating features from neighboring layers to form enriched representations.)",
+            "강화된 표현을 주의 메커니즘의 입력으로 사용하여 의미적 표현력을 개선하고 특징의 일관성을 보장함(These enhanced representations are then used as inputs to the attention mechanism, thereby improving semantic expressiveness while ensuring feature consistency across adjacent frames.)"
+        ],
+        "conclusion": "RepVideo는 비디오 생성에서 공간적 모습의 정확성을 크게 향상시키고, 여러 객체 간의 복잡한 공간 관계를 캐치하면서도 시간적 일관성을 개선함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09012",
+            "authors": [
+                {
+                    "_id": "6788a30ee9e04d1c80fb1d6d",
+                    "user": {
+                        "_id": "6351382f40dffad651ef3fbd",
+                        "avatarUrl": "/avatars/3ac2de7c49086bb37cc4f4bd29ed72f2.svg",
+                        "isPro": false,
+                        "fullname": "JIANG",
+                        "user": "Ruixiang",
+                        "type": "user"
+                    },
+                    "name": "Ruixiang Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:54:16.366Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6788a30ee9e04d1c80fb1d6e",
+                    "user": {
+                        "_id": "64f95c12ec913b4f977ba028",
+                        "avatarUrl": "/avatars/b128850ee2a3667d0b1972659cd5f0ae.svg",
+                        "isPro": false,
+                        "fullname": "Chang Wen Cheng",
+                        "user": "Vincentchang",
+                        "type": "user"
+                    },
+                    "name": "Changwen Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-16T08:54:22.754Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-15T18:56:22.000Z",
+            "title": "Multimodal LLMs Can Reason about Aesthetics in Zero-Shot",
+            "summary": "We present the first study on how Multimodal LLMs' (MLLMs) reasoning ability\nshall be elicited to evaluate the aesthetics of artworks. To facilitate this\ninvestigation, we construct MM-StyleBench, a novel high-quality dataset for\nbenchmarking artistic stylization. We then develop a principled method for\nhuman preference modeling and perform a systematic correlation analysis between\nMLLMs' responses and human preference. Our experiments reveal an inherent\nhallucination issue of MLLMs in art evaluation, associated with response\nsubjectivity. ArtCoT is proposed, demonstrating that art-specific task\ndecomposition and the use of concrete language boost MLLMs' reasoning ability\nfor aesthetics. Our findings offer valuable insights into MLLMs for art and can\nbenefit a wide range of downstream applications, such as style transfer and\nartistic image generation. Code available at\nhttps://github.com/songrise/MLLM4Art.",
+            "upvotes": 4,
+            "discussionId": "6788a30fe9e04d1c80fb1dc5"
+        },
+        "translation_title": "다중 모달 LLM이 제로샷에서 미학에 대해 추론할 수 있다",
+        "purpose": "다중 모달 LLM의 미학 평가 추론 능력을 연구하기 위해 새로운 데이터셋과 방법론을 개발하는 것",
+        "method": [
+            "MM-StyleBench라는 예술 스타일화 벤치마킹을 위한 고품질 데이터셋을 구축함(To facilitate this investigation, we construct MM-StyleBench, a novel high-quality dataset for benchmarking artistic stylization.)",
+            "MLLM의 응답과 인간 선호 사이의 상관 분석을 수행하여 인간 선호 모델링 방법을 개발함(We then develop a principled method for human preference modeling and perform a systematic correlation analysis between MLLMs' responses and human preference.)",
+            "ArtCoT를 제안하여 예술 관련 작업 분해와 구체적인 언어 사용이 MLLM의 미학에 대한 추론 능력을 높임을 입증함(ArtCoT is proposed, demonstrating that art-specific task decomposition and the use of concrete language boost MLLMs' reasoning ability for aesthetics.)"
+        ],
+        "conclusion": "연구 결과는 MLLM의 예술 평가에서의 환각 문제를 드러내며, 이러한 발견은 스타일 전이 및 예술적 이미지 생성과 같은 다양한 다운스트림 애플리케이션에 유용할 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Image Generation"
+        ]
+    }
+]
