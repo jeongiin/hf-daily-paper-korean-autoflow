@@ -1,0 +1,647 @@
+[
+    {
+        "paper": {
+            "id": "2501.09751",
+            "authors": [
+                {
+                    "_id": "6789f776766dd160379b89fb",
+                    "user": {
+                        "_id": "647229256facfb01d8ae7b89",
+                        "avatarUrl": "/avatars/2fc34d2739b28c1089b20e7a7fa40f0e.svg",
+                        "isPro": false,
+                        "fullname": "Xi Ze Kun",
+                        "user": "ZekunXi",
+                        "type": "user"
+                    },
+                    "name": "Zekun Xi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:29:57.432Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b89fc",
+                    "name": "Wenbiao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b89fd",
+                    "user": {
+                        "_id": "669663472d25bd04e9af1d66",
+                        "avatarUrl": "/avatars/8b11d5d79d1b8b205baa498a942f573c.svg",
+                        "isPro": false,
+                        "fullname": "Jizhan Fang",
+                        "user": "JizhanFang",
+                        "type": "user"
+                    },
+                    "name": "Jizhan Fang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:30:13.133Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b89fe",
+                    "user": {
+                        "_id": "644a4fbc2166258fccc664bc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                        "isPro": false,
+                        "fullname": "Jialong Wu",
+                        "user": "callanwu",
+                        "type": "user"
+                    },
+                    "name": "Jialong Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:31:40.494Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b89ff",
+                    "user": {
+                        "_id": "63d32cd7b734eaa4d4fa410b",
+                        "avatarUrl": "/avatars/68acb80f62bc6493e1ad26506999b6c4.svg",
+                        "isPro": false,
+                        "fullname": "Runnan Fang",
+                        "user": "Runnaning",
+                        "type": "user"
+                    },
+                    "name": "Runnan Fang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:31:49.555Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b8a00",
+                    "user": {
+                        "_id": "620b3bbb0668e435407c8d0a",
+                        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                        "isPro": false,
+                        "fullname": "Ningyu Zhang",
+                        "user": "Ningyu",
+                        "type": "user"
+                    },
+                    "name": "Ningyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-17T10:25:07.769Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b8a01",
+                    "name": "Jiang Yong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b8a02",
+                    "user": {
+                        "_id": "63a091e42fabbbb89991f5ce",
+                        "avatarUrl": "/avatars/d55485b06461764c36c9edf9d6e8892c.svg",
+                        "isPro": false,
+                        "fullname": "pengjun xie",
+                        "user": "xpjandy",
+                        "type": "user"
+                    },
+                    "name": "Pengjun Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:32:07.000Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b8a03",
+                    "user": {
+                        "_id": "635b8b6a37c6a2c12e2cce00",
+                        "avatarUrl": "/avatars/229fb72180529141515d1df797b33709.svg",
+                        "isPro": false,
+                        "fullname": "Fei Huang",
+                        "user": "hzhwcmhf",
+                        "type": "user"
+                    },
+                    "name": "Fei Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:32:22.107Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f776766dd160379b8a04",
+                    "user": {
+                        "_id": "64931296137833d7ec7689cd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64931296137833d7ec7689cd/TBihNdp1ZwIWjhfAWjRr6.jpeg",
+                        "isPro": false,
+                        "fullname": "Huajun Chen",
+                        "user": "huajunsir",
+                        "type": "user"
+                    },
+                    "name": "Huajun Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:32:36.118Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T18:58:06.000Z",
+            "title": "OmniThink: Expanding Knowledge Boundaries in Machine Writing through\n  Thinking",
+            "summary": "Machine writing with large language models often relies on\nretrieval-augmented generation. However, these approaches remain confined\nwithin the boundaries of the model's predefined scope, limiting the generation\nof content with rich information. Specifically, vanilla-retrieved information\ntends to lack depth, utility, and suffers from redundancy, which negatively\nimpacts the quality of generated articles, leading to shallow, repetitive, and\nunoriginal outputs. To address these issues, we propose OmniThink, a machine\nwriting framework that emulates the human-like process of iterative expansion\nand reflection. The core idea behind OmniThink is to simulate the cognitive\nbehavior of learners as they progressively deepen their knowledge of the\ntopics. Experimental results demonstrate that OmniThink improves the knowledge\ndensity of generated articles without compromising metrics such as coherence\nand depth. Human evaluations and expert feedback further highlight the\npotential of OmniThink to address real-world challenges in the generation of\nlong-form articles.",
+            "upvotes": 26,
+            "discussionId": "6789f777766dd160379b8a39"
+        },
+        "translation_title": "OmniThink: 사고를 통한 기계 작문에서 지식 경계를 확장하기",
+        "purpose": "기계 작문에서 정보 밀도를 높이고, 품질 높은 콘텐츠 생성을 위한 새로운 접근법 개발",
+        "method": [
+            "OmniThink라는 기계 작문 프레임워크를 제안하여 인간의 사고 과정을 모방함(To address these issues, we propose OmniThink, a machine writing framework that emulates the human-like process of iterative expansion and reflection.)",
+            "학습자가 주제에 대해 점진적으로 지식을 심화시키는 인지 행동을 시뮬레이션함(The core idea behind OmniThink is to simulate the cognitive behavior of learners as they progressively deepen their knowledge of the topics.)",
+            "실험 결과 OmniThink가 생성된 기사들의 지식 밀도를 향상시키면서도 통일성 및 깊이와 같은 지표를 유지함(Experimental results demonstrate that OmniThink improves the knowledge density of generated articles without compromising metrics such as coherence and depth.)"
+        ],
+        "conclusion": "OmniThink는 장문의 글을 생성하는 실제 문제를 해결할 가능성을 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09732",
+            "authors": [
+                {
+                    "_id": "6789e1dfaa9f64e4af498482",
+                    "user": {
+                        "_id": "66c398fc5f4422f886b71a00",
+                        "avatarUrl": "/avatars/9cd690d7857de1b926ddcdc2bccbfdfa.svg",
+                        "isPro": false,
+                        "fullname": "Nanye Ma",
+                        "user": "willllis",
+                        "type": "user"
+                    },
+                    "name": "Nanye Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:32:46.832Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498483",
+                    "user": {
+                        "_id": "64d39e0f5ceebf9c30359082",
+                        "avatarUrl": "/avatars/7c21f18874498a793dd2275277d4dafb.svg",
+                        "isPro": false,
+                        "fullname": "Shangyuan Tong",
+                        "user": "S8T",
+                        "type": "user"
+                    },
+                    "name": "Shangyuan Tong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:32:52.717Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498484",
+                    "name": "Haolin Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498485",
+                    "user": {
+                        "_id": "643441ccd55dea2d0ec2c309",
+                        "avatarUrl": "/avatars/82e99d445e2b513ad7270fa852adbcbb.svg",
+                        "isPro": false,
+                        "fullname": "Hexiang Hu",
+                        "user": "hexianghu",
+                        "type": "user"
+                    },
+                    "name": "Hexiang Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:33:08.220Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498486",
+                    "user": {
+                        "_id": "6729508649696b4e066b0506",
+                        "avatarUrl": "/avatars/246e13b236edf039f2ca27e4f4051be8.svg",
+                        "isPro": false,
+                        "fullname": "Yu-Chuan Su",
+                        "user": "ycsu",
+                        "type": "user"
+                    },
+                    "name": "Yu-Chuan Su",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:33:14.078Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498487",
+                    "user": {
+                        "_id": "65676b1711b2bbd6c2ab093a",
+                        "avatarUrl": "/avatars/bdd4364057c6b9e54d7ec451ad1ffb64.svg",
+                        "isPro": false,
+                        "fullname": "mingdazhang",
+                        "user": "mingdazhang",
+                        "type": "user"
+                    },
+                    "name": "Mingda Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:33:35.040Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498488",
+                    "name": "Xuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af498489",
+                    "user": {
+                        "_id": "6338914220fc636fd8b27fb8",
+                        "avatarUrl": "/avatars/4c5a0c925c0f0296e02aa498218f339d.svg",
+                        "isPro": false,
+                        "fullname": "li",
+                        "user": "yandong",
+                        "type": "user"
+                    },
+                    "name": "Yandong Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:33:47.975Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af49848a",
+                    "name": "Tommi Jaakkola",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af49848b",
+                    "user": {
+                        "_id": "634ce7ce05f736dff37aae5f",
+                        "avatarUrl": "/avatars/1405c76a38f7ea497e4439f0e4e786a8.svg",
+                        "isPro": false,
+                        "fullname": "Xuhui Jia",
+                        "user": "Jxh-cuit",
+                        "type": "user"
+                    },
+                    "name": "Xuhui Jia",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:33:58.031Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e1dfaa9f64e4af49848c",
+                    "user": {
+                        "_id": "6596422646624a86ff3b3bda",
+                        "avatarUrl": "/avatars/216e12b77e45ac5f1fa20932f5745411.svg",
+                        "isPro": false,
+                        "fullname": "Saining Xie",
+                        "user": "sainx",
+                        "type": "user"
+                    },
+                    "name": "Saining Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:34:03.297Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T18:30:37.000Z",
+            "title": "Inference-Time Scaling for Diffusion Models beyond Scaling Denoising\n  Steps",
+            "summary": "Generative models have made significant impacts across various domains,\nlargely due to their ability to scale during training by increasing data,\ncomputational resources, and model size, a phenomenon characterized by the\nscaling laws. Recent research has begun to explore inference-time scaling\nbehavior in Large Language Models (LLMs), revealing how performance can further\nimprove with additional computation during inference. Unlike LLMs, diffusion\nmodels inherently possess the flexibility to adjust inference-time computation\nvia the number of denoising steps, although the performance gains typically\nflatten after a few dozen. In this work, we explore the inference-time scaling\nbehavior of diffusion models beyond increasing denoising steps and investigate\nhow the generation performance can further improve with increased computation.\nSpecifically, we consider a search problem aimed at identifying better noises\nfor the diffusion sampling process. We structure the design space along two\naxes: the verifiers used to provide feedback, and the algorithms used to find\nbetter noise candidates. Through extensive experiments on class-conditioned and\ntext-conditioned image generation benchmarks, our findings reveal that\nincreasing inference-time compute leads to substantial improvements in the\nquality of samples generated by diffusion models, and with the complicated\nnature of images, combinations of the components in the framework can be\nspecifically chosen to conform with different application scenario.",
+            "upvotes": 22,
+            "discussionId": "6789e1e4aa9f64e4af498679"
+        },
+        "translation_title": "Denoising을 넘어선 확산 모델의 추론 시간 스케일링",
+        "purpose": "확산 모델에서 추가 계산을 통해 생성 성능을 향상시키려는 연구",
+        "method": [
+            "확산 모델의 추론 시간 스케일링 행동을 조사하고 더 나은 노이즈 식별을 위한 탐색 문제를 고려함.(In this work, we explore the inference-time scaling behavior of diffusion models beyond increasing denoising steps and investigate how the generation performance can further improve with increased computation.)",
+            "설계 공간을 피드백을 제공하는 검증기와 더 나은 노이즈 후보를 찾기 위한 알고리즘 두 축을 따라 구조화함.(We structure the design space along two axes: the verifiers used to provide feedback, and the algorithms used to find better noise candidates.)",
+            "클래스-조건화 및 텍스트-조건화 이미지 생성 벤치마크에 대한 광범위한 실험을 수행함.(Through extensive experiments on class-conditioned and text-conditioned image generation benchmarks, our findings reveal that increasing inference-time compute leads to substantial improvements in the quality of samples generated by diffusion models.)"
+        ],
+        "conclusion": "추론 시간의 계산 증가로 확산 모델에서 생성된 샘플의 품질이 크게 향상되며, 다양한 응용 시나리오에 맞게 구성 요소의 조합을 선택할 수 있음을 확인함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09484",
+            "authors": [
+                {
+                    "_id": "6789f2795a84f1087bc9274a",
+                    "user": {
+                        "_id": "633e570be7d5ce7bfe037a53",
+                        "avatarUrl": "/avatars/f0997831ad5ccdaa29d070fed294e2f6.svg",
+                        "isPro": false,
+                        "fullname": "Zhaocheng Liu",
+                        "user": "zhaocheng",
+                        "type": "user"
+                    },
+                    "name": "Zhaocheng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-17T10:25:21.951Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc9274b",
+                    "name": "Quan Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc9274c",
+                    "name": "Wen Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc9274d",
+                    "name": "Yu Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc9274e",
+                    "name": "Zhishou Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc9274f",
+                    "name": "Hengfu Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc92750",
+                    "name": "Yalun Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc92751",
+                    "user": {
+                        "_id": "62dcdb86d36b2070f928a51e",
+                        "avatarUrl": "/avatars/a341e4305217f8abd14cff97201a24aa.svg",
+                        "isPro": false,
+                        "fullname": "sdujq",
+                        "user": "sdujq",
+                        "type": "user"
+                    },
+                    "name": "Qiang Ju",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-17T10:25:20.100Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc92752",
+                    "user": {
+                        "_id": "64ab92c362b769f936bba203",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ab92c362b769f936bba203/Kq3Nlnq3DTPwungx8r9G5.jpeg",
+                        "isPro": false,
+                        "fullname": "Shizheng Li",
+                        "user": "ShizhengLi",
+                        "type": "user"
+                    },
+                    "name": "Shizheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:34:35.155Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789f2795a84f1087bc92753",
+                    "user": {
+                        "_id": "62d65139667051e0a29bffe7",
+                        "avatarUrl": "/avatars/0252aa2bcd4cf1c8e4b87e5f164b6da5.svg",
+                        "isPro": false,
+                        "fullname": "Jian Xie",
+                        "user": "hsaest",
+                        "type": "user"
+                    },
+                    "name": "Jian Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:34:48.855Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T11:41:14.000Z",
+            "title": "Exploring the Inquiry-Diagnosis Relationship with Advanced Patient\n  Simulators",
+            "summary": "Online medical consultation (OMC) restricts doctors to gathering patient\ninformation solely through inquiries, making the already complex sequential\ndecision-making process of diagnosis even more challenging. Recently, the rapid\nadvancement of large language models has demonstrated a significant potential\nto transform OMC. However, most studies have primarily focused on improving\ndiagnostic accuracy under conditions of relatively sufficient information,\nwhile paying limited attention to the \"inquiry\" phase of the consultation\nprocess. This lack of focus has left the relationship between \"inquiry\" and\n\"diagnosis\" insufficiently explored. In this paper, we first extract real\npatient interaction strategies from authentic doctor-patient conversations and\nuse these strategies to guide the training of a patient simulator that closely\nmirrors real-world behavior. By inputting medical records into our patient\nsimulator to simulate patient responses, we conduct extensive experiments to\nexplore the relationship between \"inquiry\" and \"diagnosis\" in the consultation\nprocess. Experimental results demonstrate that inquiry and diagnosis adhere to\nthe Liebig's law: poor inquiry quality limits the effectiveness of diagnosis,\nregardless of diagnostic capability, and vice versa. Furthermore, the\nexperiments reveal significant differences in the inquiry performance of\nvarious models. To investigate this phenomenon, we categorize the inquiry\nprocess into four types: (1) chief complaint inquiry; (2) specification of\nknown symptoms; (3) inquiry about accompanying symptoms; and (4) gathering\nfamily or medical history. We analyze the distribution of inquiries across the\nfour types for different models to explore the reasons behind their significant\nperformance differences. We plan to open-source the weights and related code of\nour patient simulator at https://github.com/LIO-H-ZEN/PatientSimulator.",
+            "upvotes": 14,
+            "discussionId": "6789f27a5a84f1087bc9279e"
+        },
+        "translation_title": "고급 환자 시뮬레이터를 통한 문의-진단 관계 탐구",
+        "purpose": "온라인 의료 상담에서 문의 단계와 진단 간의 관계를 명확히 하고 이를 개선하기 위한 연구",
+        "method": [
+            "실제 의사-환자 대화에서 환자 상호작용 전략을 추출하여 이를 기반으로 실제 행동에 가까운 환자 시뮬레이터를 훈련함(we first extract real patient interaction strategies from authentic doctor-patient conversations and use these strategies to guide the training of a patient simulator that closely mirrors real-world behavior.)",
+            "의료 기록을 입력하여 환자 시뮬레이터에서 환자 반응을 시뮬레이션하고 이를 통해 문의와 진단의 관계를 탐구함(By inputting medical records into our patient simulator to simulate patient responses, we conduct extensive experiments to explore the relationship between 'inquiry' and 'diagnosis' in the consultation process.)",
+            "실험 결과가 문의 품질이 진단의 효과성을 제한하는 것을 보여줌(Experimental results demonstrate that inquiry and diagnosis adhere to the Liebig's law: poor inquiry quality limits the effectiveness of diagnosis, regardless of diagnostic capability, and vice versa.)"
+        ],
+        "conclusion": "문의 과정은 네 가지 유형으로 분류되며, 각 모델의 문의 성능 차이에 대한 이유를 분석하였다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09756",
+            "authors": [
+                {
+                    "_id": "6789e9b78a27185f5084533a",
+                    "name": "Sumit Chaturvedi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e9b78a27185f5084533b",
+                    "user": {
+                        "_id": "63b48ed5a50cfcefda9dbe67",
+                        "avatarUrl": "/avatars/98a2f07ea6a7ce3792f250cf9fecf402.svg",
+                        "isPro": false,
+                        "fullname": "Mengwei Ren",
+                        "user": "mengweir",
+                        "type": "user"
+                    },
+                    "name": "Mengwei Ren",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:35:43.879Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e9b78a27185f5084533c",
+                    "name": "Yannick Hold-Geoffroy",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e9b78a27185f5084533d",
+                    "name": "Jingyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e9b78a27185f5084533e",
+                    "name": "Julie Dorsey",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e9b78a27185f5084533f",
+                    "user": {
+                        "_id": "62a8efd508a7ea93ff18785a",
+                        "avatarUrl": "/avatars/ff259233d437833a304329bb973a5a04.svg",
+                        "isPro": false,
+                        "fullname": "Zhixin Shu",
+                        "user": "zhixinshu",
+                        "type": "user"
+                    },
+                    "name": "Zhixin Shu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:36:05.684Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T18:59:48.000Z",
+            "title": "SynthLight: Portrait Relighting with Diffusion Model by Learning to\n  Re-render Synthetic Faces",
+            "summary": "We introduce SynthLight, a diffusion model for portrait relighting. Our\napproach frames image relighting as a re-rendering problem, where pixels are\ntransformed in response to changes in environmental lighting conditions. Using\na physically-based rendering engine, we synthesize a dataset to simulate this\nlighting-conditioned transformation with 3D head assets under varying lighting.\nWe propose two training and inference strategies to bridge the gap between the\nsynthetic and real image domains: (1) multi-task training that takes advantage\nof real human portraits without lighting labels; (2) an inference time\ndiffusion sampling procedure based on classifier-free guidance that leverages\nthe input portrait to better preserve details. Our method generalizes to\ndiverse real photographs and produces realistic illumination effects, including\nspecular highlights and cast shadows, while preserving the subject's identity.\nOur quantitative experiments on Light Stage data demonstrate results comparable\nto state-of-the-art relighting methods. Our qualitative results on in-the-wild\nimages showcase rich and unprecedented illumination effects. Project Page:\nhttps://vrroom.github.io/synthlight/",
+            "upvotes": 11,
+            "discussionId": "6789e9bd8a27185f50845514"
+        },
+        "translation_title": "SynthLight: 확산 모델을 통한 초상화 조명 재조정",
+        "purpose": "초상화의 조명 재조정을 위한 Diffusion 모델 개발 및 실제 이미지와의 간극 해소",
+        "method": [
+            "물리 기반 렌더링 엔진을 사용해 다양한 조명 조건 하에서 3D 머리 자산을 활용한 데이터셋을 생성함(Using a physically-based rendering engine, we synthesize a dataset to simulate this lighting-conditioned transformation with 3D head assets under varying lighting.)",
+            "실제 인물 초상화를 활용한 다중 작업 학습과 클래스 파이터 자유 지침을 기반으로 한 추론 과정 제안함(We propose two training and inference strategies to bridge the gap between the synthetic and real image domains: (1) multi-task training that takes advantage of real human portraits without lighting labels; (2) an inference time diffusion sampling procedure based on classifier-free guidance.)"
+        ],
+        "conclusion": "우리의 방법은 다양하고 실제적인 조명 효과를 생성하며, 최신 조명 재조정 방법과 비교했을 때 유사한 성과를 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09747",
+            "authors": [
+                {
+                    "_id": "6789e918e1b3fda757de947f",
+                    "user": {
+                        "_id": "65d4c1ff29b4ac81c265e6e6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d4c1ff29b4ac81c265e6e6/GXgs28okxGfpBdqhxov9-.png",
+                        "isPro": false,
+                        "fullname": "Karl Pertsch",
+                        "user": "KarlP",
+                        "type": "user"
+                    },
+                    "name": "Karl Pertsch",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:36:46.947Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9480",
+                    "user": {
+                        "_id": "6307eabda670ed10f9d2571f",
+                        "avatarUrl": "/avatars/b0811b25ed4fb7e48dd380898049c764.svg",
+                        "isPro": false,
+                        "fullname": "Kyle Stachowicz",
+                        "user": "kylestach",
+                        "type": "user"
+                    },
+                    "name": "Kyle Stachowicz",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:36:59.830Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9481",
+                    "user": {
+                        "_id": "633a26ab474cfeb1a864dc56",
+                        "avatarUrl": "/avatars/cd40accd894fc78810fc0d5108f413e9.svg",
+                        "isPro": false,
+                        "fullname": "Brian I",
+                        "user": "brianichter",
+                        "type": "user"
+                    },
+                    "name": "Brian Ichter",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:37:05.229Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9482",
+                    "user": {
+                        "_id": "67225875b46c703941fa7967",
+                        "avatarUrl": "/avatars/7c89fbdd9a135210209bcd0cbfe7988a.svg",
+                        "isPro": false,
+                        "fullname": "Danny Driess",
+                        "user": "dannydriess",
+                        "type": "user"
+                    },
+                    "name": "Danny Driess",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:37:10.829Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9483",
+                    "name": "Suraj Nair",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9484",
+                    "name": "Quan Vuong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9485",
+                    "user": {
+                        "_id": "663a7190d9dee283e3f56150",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/663a7190d9dee283e3f56150/zoYBdFIQPGWTS0R7bpg07.jpeg",
+                        "isPro": false,
+                        "fullname": "Oier Mees",
+                        "user": "oier-mees",
+                        "type": "user"
+                    },
+                    "name": "Oier Mees",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:37:30.435Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9486",
+                    "user": {
+                        "_id": "64ac22a9193f0a807deb673d",
+                        "avatarUrl": "/avatars/fcac4912678ad3cb6e817d40bdee9aea.svg",
+                        "isPro": false,
+                        "fullname": "Chelsea Finn",
+                        "user": "cbfinn",
+                        "type": "user"
+                    },
+                    "name": "Chelsea Finn",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:37:36.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6789e918e1b3fda757de9487",
+                    "user": {
+                        "_id": "665ce54120a307a3754849dd",
+                        "avatarUrl": "/avatars/e698726e9be61dd50ce2efe372ed5dac.svg",
+                        "isPro": false,
+                        "fullname": "Sergey Levine",
+                        "user": "svlevine",
+                        "type": "user"
+                    },
+                    "name": "Sergey Levine",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-17T10:37:41.213Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T18:57:04.000Z",
+            "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+            "summary": "Autoregressive sequence models, such as Transformer-based vision-language\naction (VLA) policies, can be tremendously effective for capturing complex and\ngeneralizable robotic behaviors. However, such models require us to choose a\ntokenization of our continuous action signals, which determines how the\ndiscrete symbols predicted by the model map to continuous robot actions. We\nfind that current approaches for robot action tokenization, based on simple\nper-dimension, per-timestep binning schemes, typically perform poorly when\nlearning dexterous skills from high-frequency robot data. To address this\nchallenge, we propose a new compression-based tokenization scheme for robot\nactions, based on the discrete cosine transform. Our tokenization approach,\nFrequency-space Action Sequence Tokenization (FAST), enables us to train\nautoregressive VLAs for highly dexterous and high-frequency tasks where\nstandard discretization methods fail completely. Based on FAST, we release\nFAST+, a universal robot action tokenizer, trained on 1M real robot action\ntrajectories. It can be used as a black-box tokenizer for a wide range of robot\naction sequences, with diverse action spaces and control frequencies. Finally,\nwe show that, when combined with the pi0 VLA, our method can scale to training\non 10k hours of robot data and match the performance of diffusion VLAs, while\nreducing training time by up to 5x.",
+            "upvotes": 9,
+            "discussionId": "6789e91ae1b3fda757de94d3"
+        },
+        "translation_title": "FAST: 비전-언어-행동 모델을 위한 효율적인 액션 토큰화",
+        "purpose": "고빈도 로봇 데이터를 활용한 정교한 스킬 학습을 위한 새로운 액션 토큰화 방안 연구",
+        "method": [
+            "기존의 단순한 차원 및 타임스탬프 기준 방법으로는 성능이 저조함을 발견함(Current approaches for robot action tokenization, based on simple per-dimension, per-timestep binning schemes, typically perform poorly when learning dexterous skills from high-frequency robot data.)",
+            "이 문제를 해결하기 위해, 압축 기반의 새로운 로봇 액션 토큰화 방법인 Frequency-space Action Sequence Tokenization (FAST)을 제안함(We propose a new compression-based tokenization scheme for robot actions, based on the discrete cosine transform.)",
+            "FAST를 기반으로 100만 개의 실제 로봇 작업 경로로 훈련된 보편적인 로봇 액션 토크나이저 FAST+를 출시함(we release FAST+, a universal robot action tokenizer, trained on 1M real robot action trajectories.)",
+            "pi0 VLA와 결합 시 10,000시간의 로봇 데이터로 훈련이 가능하고, 훈련 시간을 최대 5배 단축함을 보여줌(Finally, we show that, when combined with the pi0 VLA, our method can scale to training on 10k hours of robot data and match the performance of diffusion VLAs, while reducing training time by up to 5x.)"
+        ],
+        "conclusion": "FAST는 정교하고 고빈도 작업에서의 성능을 개선하며, 훈련 시간 단축 효과를 입증함.",
+        "keywords": [
+            "Robotics",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    }
+]
