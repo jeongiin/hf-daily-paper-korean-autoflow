@@ -1,0 +1,397 @@
+[
+    {
+        "paper": {
+            "id": "2501.09891",
+            "authors": [
+                {
+                    "_id": "678dc332281a0e32feb5fbfe",
+                    "user": {
+                        "_id": "669fbf44200c01b737751dc5",
+                        "avatarUrl": "/avatars/2023c01b2a8cc1625cafcd0b625871dc.svg",
+                        "isPro": false,
+                        "fullname": "Kuang-Huei Lee",
+                        "user": "khlee112",
+                        "type": "user"
+                    },
+                    "name": "Kuang-Huei Lee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T13:16:59.574Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fbff",
+                    "user": {
+                        "_id": "64ef4f9866f36326b3ec5b8c",
+                        "avatarUrl": "/avatars/9eea179e0797f952664f33e1aef21e88.svg",
+                        "isPro": false,
+                        "fullname": "Ian Fischer",
+                        "user": "Ianfischer",
+                        "type": "user"
+                    },
+                    "name": "Ian Fischer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T13:18:01.647Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fc00",
+                    "name": "Yueh-Hua Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fc01",
+                    "name": "Dave Marwood",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fc02",
+                    "name": "Shumeet Baluja",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fc03",
+                    "name": "Dale Schuurmans",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc332281a0e32feb5fc04",
+                    "user": {
+                        "_id": "64d0268001931c60161e026a",
+                        "avatarUrl": "/avatars/0ea48c47b0270b449fd6b97b495e64a6.svg",
+                        "isPro": true,
+                        "fullname": "Xinyun Chen",
+                        "user": "xinyunchen",
+                        "type": "user"
+                    },
+                    "name": "Xinyun Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T13:18:37.820Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-17T00:41:44.000Z",
+            "title": "Evolving Deeper LLM Thinking",
+            "summary": "We explore an evolutionary search strategy for scaling inference time compute\nin Large Language Models. The proposed approach, Mind Evolution, uses a\nlanguage model to generate, recombine and refine candidate responses. The\nproposed approach avoids the need to formalize the underlying inference problem\nwhenever a solution evaluator is available. Controlling for inference cost, we\nfind that Mind Evolution significantly outperforms other inference strategies\nsuch as Best-of-N and Sequential Revision in natural language planning tasks.\nIn the TravelPlanner and Natural Plan benchmarks, Mind Evolution solves more\nthan 98% of the problem instances using Gemini 1.5 Pro without the use of a\nformal solver.",
+            "upvotes": 45,
+            "discussionId": "678dc333281a0e32feb5fc2c"
+        },
+        "translation_title": "더 깊은 LLM 사고 방식의 발전",
+        "purpose": "Large Language Models의 추론 시간 계산을 확장하기 위한 새로운 전략을 연구",
+        "method": [
+            "Mind Evolution이라는 언어 모델을 통해 후보 응답을 생성, 재결합 및 개선함(We explore an evolutionary search strategy for scaling inference time compute in Large Language Models.)",
+            "형식적인 해결책이 필요하지 않도록 응답 평가자가 있는 경우를 활용함(The proposed approach avoids the need to formalize the underlying inference problem whenever a solution evaluator is available.)",
+            "자연어 계획 작업에서 Mind Evolution이 다른 추론 전략보다 큰 성과를 보임(we find that Mind Evolution significantly outperforms other inference strategies such as Best-of-N and Sequential Revision in natural language planning tasks.)"
+        ],
+        "conclusion": "Mind Evolution은 Gemini 1.5 Pro를 사용하여 TravelPlanner 및 Natural Plan 벤치마크에서 98% 이상의 문제 사례를 해결함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.10120",
+            "authors": [
+                {
+                    "_id": "678dc283d4a7a158a8e5cf08",
+                    "user": {
+                        "_id": "60ea81771cc8dc259c58e905",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60ea81771cc8dc259c58e905/kmGlaNvdS4EEHc_5qongT.jpeg",
+                        "isPro": false,
+                        "fullname": "yichen he",
+                        "user": "hyc2026",
+                        "type": "user"
+                    },
+                    "name": "Yichen He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T13:19:13.591Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf09",
+                    "name": "Guanhua Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf0a",
+                    "user": {
+                        "_id": "662608797670fa2bc0d0fa0a",
+                        "avatarUrl": "/avatars/eef336e6ba43fae56c90e17f60606f4d.svg",
+                        "isPro": false,
+                        "fullname": "fengpeiyuan",
+                        "user": "fpybytedance",
+                        "type": "user"
+                    },
+                    "name": "Peiyuan Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T13:19:41.033Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf0b",
+                    "name": "Yuan Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf0c",
+                    "name": "Yuchen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf0d",
+                    "name": "Hang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dc283d4a7a158a8e5cf0e",
+                    "name": "Weinan E",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-17T11:12:28.000Z",
+            "title": "PaSa: An LLM Agent for Comprehensive Academic Paper Search",
+            "summary": "We introduce PaSa, an advanced Paper Search agent powered by large language\nmodels. PaSa can autonomously make a series of decisions, including invoking\nsearch tools, reading papers, and selecting relevant references, to ultimately\nobtain comprehensive and accurate results for complex scholarly queries. We\noptimize PaSa using reinforcement learning with a synthetic dataset,\nAutoScholarQuery, which includes 35k fine-grained academic queries and\ncorresponding papers sourced from top-tier AI conference publications.\nAdditionally, we develop RealScholarQuery, a benchmark collecting real-world\nacademic queries to assess PaSa performance in more realistic scenarios.\nDespite being trained on synthetic data, PaSa significantly outperforms\nexisting baselines on RealScholarQuery, including Google, Google Scholar,\nGoogle with GPT-4 for paraphrased queries, chatGPT (search-enabled GPT-4o),\nGPT-o1, and PaSa-GPT-4o (PaSa implemented by prompting GPT-4o). Notably,\nPaSa-7B surpasses the best Google-based baseline, Google with GPT-4o, by 37.78%\nin recall@20 and 39.90% in recall@50. It also exceeds PaSa-GPT-4o by 30.36% in\nrecall and 4.25% in precision. Model, datasets, and code are available at\nhttps://github.com/bytedance/pasa.",
+            "upvotes": 14,
+            "discussionId": "678dc284d4a7a158a8e5cf48"
+        },
+        "translation_title": "PaSa: 종합 학술 논문 검색을 위한 LLM 에이전트",
+        "purpose": "복잡한 학술 질문에 대한 포괄적이고 정확한 결과를 얻기 위한 자동 학술 논문 검색 에이전트 개발",
+        "method": [
+            "35,000개의 세분화된 학술 질의와 관련 논문을 포함하는 합성 데이터셋인 AutoScholarQuery를 사용해 강화 학습으로 PaSa를 최적화함(We optimize PaSa using reinforcement learning with a synthetic dataset, AutoScholarQuery, which includes 35k fine-grained academic queries and corresponding papers.)",
+            "실제 학술 질의 수집을 통해 PaSa의 성능을 평가하는 RealScholarQuery 벤치마크 개발함(Additionally, we develop RealScholarQuery, a benchmark collecting real-world academic queries to assess PaSa performance in more realistic scenarios.)",
+            "합성 데이터로 학습했음에도 불구하고, PaSa가 Google, Google Scholar, GPT-4가 포함된 Google과 같은 기존 기준선보다 더 우수함을 확인함(Despite being trained on synthetic data, PaSa significantly outperforms existing baselines on RealScholarQuery.)"
+        ],
+        "conclusion": "PaSa는 기존 Google 기반 기준선보다 recall@20에서 37.78%, recall@50에서 39.90% 개선된 성과를 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.10020",
+            "authors": [
+                {
+                    "_id": "678dd1d27e1f344cdc26b717",
+                    "name": "Chao He",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dd1d27e1f344cdc26b718",
+                    "name": "Jianqiang Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "678dd1d27e1f344cdc26b719",
+                    "user": {
+                        "_id": "63d0cc736b985b0f25d0412c",
+                        "avatarUrl": "/avatars/3eb8c79f9a7c4c819038ea7b04e323dd.svg",
+                        "isPro": false,
+                        "fullname": "Bo",
+                        "user": "Liefeng",
+                        "type": "user"
+                    },
+                    "name": "Liefeng Bo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T14:07:42.307Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-17T08:09:06.000Z",
+            "title": "Textoon: Generating Vivid 2D Cartoon Characters from Text Descriptions",
+            "summary": "The 2D cartoon style is a prominent art form in digital character creation,\nparticularly popular among younger audiences. While advancements in digital\nhuman technology have spurred extensive research into photorealistic digital\nhumans and 3D characters, interactive 2D cartoon characters have received\ncomparatively less attention. Unlike 3D counterparts, which require\nsophisticated construction and resource-intensive rendering, Live2D, a\nwidely-used format for 2D cartoon characters, offers a more efficient\nalternative, which allows to animate 2D characters in a manner that simulates\n3D movement without the necessity of building a complete 3D model. Furthermore,\nLive2D employs lightweight HTML5 (H5) rendering, improving both accessibility\nand efficiency. In this technical report, we introduce Textoon, an innovative\nmethod for generating diverse 2D cartoon characters in the Live2D format based\non text descriptions. The Textoon leverages cutting-edge language and vision\nmodels to comprehend textual intentions and generate 2D appearance, capable of\ncreating a wide variety of stunning and interactive 2D characters within one\nminute. The project homepage is https://human3daigc.github.io/Textoon_webpage/.",
+            "upvotes": 10,
+            "discussionId": "678dd1d47e1f344cdc26b7b2"
+        },
+        "translation_title": "Textoon: 텍스트 설명을 통한 생동감 넘치는 2D 만화 캐릭터 생성",
+        "purpose": "텍스트 설명에 기반하여 다양한 2D 만화 캐릭터를 생성하기 위한 효율적인 방법 개발",
+        "method": [
+            "텍스트 설명을 이해하고 2D 외형을 생성하기 위해 최첨단 언어 및 비전 모델을 활용함(Textoon leverages cutting-edge language and vision models to comprehend textual intentions and generate 2D appearance.)",
+            "Live2D 형식으로 2D 캐릭터를 생성하여 3D 모델 완성 없이도 효율적으로 애니메이션을 적용함(we introduce Textoon, an innovative method for generating diverse 2D cartoon characters in the Live2D format.)",
+            "해당 기술을 통해 사용자가 1분 이내에 다양한 멋진 상호작용 가능한 2D 캐릭터를 생성할 수 있도록 함(The Textoon is capable of creating a wide variety of stunning and interactive 2D characters within one minute.)"
+        ],
+        "conclusion": "Textoon을 통해 사용자는 효율적으로 다양한 2D 만화 캐릭터를 텍스트 기반으로 생성할 수 있으며, Live2D 형식의 이점을 활용할 수 있음.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09825",
+            "authors": [
+                {
+                    "_id": "678e3e0c8aeb001443af5cb1",
+                    "user": {
+                        "_id": "66bb35988b09ede0b7b92313",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66bb35988b09ede0b7b92313/M06mQ3ifyRwuladTNwMS2.png",
+                        "isPro": false,
+                        "fullname": "Nada Saadi",
+                        "user": "Nadas31",
+                        "type": "user"
+                    },
+                    "name": "Nada Saadi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T14:12:06.609Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e3e0c8aeb001443af5cb2",
+                    "user": {
+                        "_id": "5f5f6c113c67af20d9945afb",
+                        "avatarUrl": "/avatars/06b2eb3a5d27864280d4d02e6d00d782.svg",
+                        "isPro": false,
+                        "fullname": "Tathagata Raha",
+                        "user": "tathagataraha",
+                        "type": "user"
+                    },
+                    "name": "Tathagata Raha",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T14:12:13.246Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e3e0c8aeb001443af5cb3",
+                    "user": {
+                        "_id": "628e39f4b1596566033b8d7b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/628e39f4b1596566033b8d7b/-Y807up1cgMmAQsczdOPn.jpeg",
+                        "isPro": false,
+                        "fullname": "Clément Christophe",
+                        "user": "cchristophe",
+                        "type": "user"
+                    },
+                    "name": "Clément Christophe",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T14:12:19.413Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e3e0c8aeb001443af5cb4",
+                    "name": "Marco AF Pimentel",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e3e0c8aeb001443af5cb5",
+                    "user": {
+                        "_id": "65281d6ef61ca80b9c2ee707",
+                        "avatarUrl": "/avatars/090ea7210a4bb6549b0f7fee71525625.svg",
+                        "isPro": false,
+                        "fullname": "Ronnie Rajan",
+                        "user": "ronnierajan",
+                        "type": "user"
+                    },
+                    "name": "Ronnie Rajan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-20T14:12:33.526Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e3e0c8aeb001443af5cb6",
+                    "user": {
+                        "_id": "65280984b794fe3d06544d77",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65280984b794fe3d06544d77/tyrxbxtDG02On1uiRaVbL.jpeg",
+                        "isPro": false,
+                        "fullname": "Praveenkumar",
+                        "user": "pkanithi",
+                        "type": "user"
+                    },
+                    "name": "Praveen K Kanithi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-20T14:07:22.890Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T20:24:56.000Z",
+            "title": "Bridging Language Barriers in Healthcare: A Study on Arabic LLMs",
+            "summary": "This paper investigates the challenges of developing large language models\n(LLMs) proficient in both multilingual understanding and medical knowledge. We\ndemonstrate that simply translating medical data does not guarantee strong\nperformance on clinical tasks in the target language. Our experiments reveal\nthat the optimal language mix in training data varies significantly across\ndifferent medical tasks. We find that larger models with carefully calibrated\nlanguage ratios achieve superior performance on native-language clinical tasks.\nFurthermore, our results suggest that relying solely on fine-tuning may not be\nthe most effective approach for incorporating new language knowledge into LLMs.\nInstead, data and computationally intensive pretraining methods may still be\nnecessary to achieve optimal performance in multilingual medical settings.\nThese findings provide valuable guidance for building effective and inclusive\nmedical AI systems for diverse linguistic communities.",
+            "upvotes": 7,
+            "discussionId": "678e3e0d8aeb001443af5cf4"
+        },
+        "translation_title": "헬스케어에서 언어 장벽 극복하기: 아랍어 LLM에 관한 연구",
+        "purpose": "다국어 이해와 의료 지식을 갖춘 대규모 언어 모델(LLM) 개발의 문제점 연구",
+        "method": [
+            "의료 데이터를 단순 번역하는 것으로는 목표 언어에서 임상 과제를 수행하는 데 강한 성능을 보장할 수 없음을 입증함(This paper investigates the challenges of developing large language models (LLMs) proficient in both multilingual understanding and medical knowledge.)",
+            "서로 다른 의료 과제에 따라 최적의 언어 비율이 다름을 실험적으로 확인함(Our experiments reveal that the optimal language mix in training data varies significantly across different medical tasks.)",
+            "신중하게 조정된 언어 비율을 가진 대형 모델이 원어 임상 작업에서 더 나은 성과를 낸다는 것을 발견함(We find that larger models with carefully calibrated language ratios achieve superior performance on native-language clinical tasks.)"
+        ],
+        "conclusion": "효과적이고 포용적인 의료 AI 시스템 구축을 위한 가치 있는 지침을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.09775",
+            "authors": [
+                {
+                    "_id": "678e1b151a99a49b98056e1c",
+                    "name": "Tairan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e1b151a99a49b98056e1d",
+                    "name": "Javier Conde",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e1b151a99a49b98056e1e",
+                    "name": "Gonzalo Martínez",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e1b151a99a49b98056e1f",
+                    "user": {
+                        "_id": "5f9c00a5777efc07d7f1e4be",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1665073337782-5f9c00a5777efc07d7f1e4be.png",
+                        "isPro": false,
+                        "fullname": "María Grandury",
+                        "user": "mariagrandury",
+                        "type": "user"
+                    },
+                    "name": "María Grandury",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-01-20T10:35:14.566Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "678e1b151a99a49b98056e20",
+                    "user": {
+                        "_id": "6574f66b06fdcd4ca9491299",
+                        "avatarUrl": "/avatars/e31821949d75efb750ab2d9ebe12b9a8.svg",
+                        "isPro": false,
+                        "fullname": "pedro reviriego",
+                        "user": "reviriego",
+                        "type": "user"
+                    },
+                    "name": "Pedro Reviriego",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-20T13:16:45.528Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-16T10:27:51.000Z",
+            "title": "Multiple Choice Questions: Reasoning Makes Large Language Models (LLMs)\n  More Self-Confident Even When They Are Wrong",
+            "summary": "One of the most widely used methods to evaluate LLMs are Multiple Choice\nQuestion (MCQ) tests. MCQ benchmarks enable the testing of LLM knowledge on\nalmost any topic at scale as the results can be processed automatically. To\nhelp the LLM answer, a few examples called few shots can be included in the\nprompt. Moreover, the LLM can be asked to answer the question directly with the\nselected option or to first provide the reasoning and then the selected answer,\nwhich is known as chain of thought. In addition to checking whether the\nselected answer is correct, the evaluation can look at the LLM-estimated\nprobability of its response as an indication of the confidence of the LLM in\nthe response. In this paper, we study how the LLM confidence in its answer\ndepends on whether the model has been asked to answer directly or to provide\nthe reasoning before answering. The results of the evaluation of questions on a\nwide range of topics in seven different models show that LLMs are more\nconfident in their answers when they provide reasoning before the answer. This\noccurs regardless of whether the selected answer is correct. Our hypothesis is\nthat this behavior is due to the reasoning that modifies the probability of the\nselected answer, as the LLM predicts the answer based on the input question and\nthe reasoning that supports the selection made. Therefore, LLM estimated\nprobabilities seem to have intrinsic limitations that should be understood in\norder to use them in evaluation procedures. Interestingly, the same behavior\nhas been observed in humans, for whom explaining an answer increases confidence\nin its correctness.",
+            "upvotes": 7,
+            "discussionId": "678e1b161a99a49b98056e61"
+        },
+        "translation_title": "다중 선택 질문: 추론이 대형 언어 모델(LLMs)의 자신감을 더 높임",
+        "purpose": "대형 언어 모델의 자신감을 이해하고 평가하는 방법 연구",
+        "method": [
+            "MCQ 테스트를 사용하여 LLM을 평가함(One of the most widely used methods to evaluate LLMs are Multiple Choice Question (MCQ) tests.)",
+            "Prompt에 few shots 예시를 포함시켜 LLM이 답변할 수 있도록 도움을 줌(To help the LLM answer, a few examples called few shots can be included in the prompt.)",
+            "LLM의 답변 신뢰도를 평가하기 위해 직접 답변하게 하거나 추론을 먼저 제공하도록 요청함(In addition to checking whether the selected answer is correct, the evaluation can look at the LLM-estimated probability of its response as an indication of the confidence of the LLM in the response.)"
+        ],
+        "conclusion": "LLM은 답변하기 전에 추론을 제공할 때 더 높은 자신감을 보이며, 이 경향은 인간에게서도 관찰되는 현상임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
