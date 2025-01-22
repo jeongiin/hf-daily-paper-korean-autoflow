@@ -1,0 +1,693 @@
+[
+    {
+        "paper": {
+            "id": "2501.11425",
+            "authors": [
+                {
+                    "_id": "679080298ad1d8203a994f7f",
+                    "user": {
+                        "_id": "62d62b333bf5e059f7d2b286",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1668513815771-62d62b333bf5e059f7d2b286.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyu Yuan",
+                        "user": "siyuyuan",
+                        "type": "user"
+                    },
+                    "name": "Siyu Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T11:00:12.151Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679080298ad1d8203a994f80",
+                    "user": {
+                        "_id": "64892d31cbda0d1cdb956897",
+                        "avatarUrl": "/avatars/3cdafe03a8295124636347d15a099aaf.svg",
+                        "isPro": false,
+                        "fullname": "Zehui Chen",
+                        "user": "lovesnowbest",
+                        "type": "user"
+                    },
+                    "name": "Zehui Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T11:00:20.946Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679080298ad1d8203a994f81",
+                    "user": {
+                        "_id": "653a6e5cae155b92bae77b74",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653a6e5cae155b92bae77b74/TA5FWKAUsB249ux4MzD_R.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhiheng Xi",
+                        "user": "WooooDyy",
+                        "type": "user"
+                    },
+                    "name": "Zhiheng Xi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:04:23.785Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679080298ad1d8203a994f82",
+                    "user": {
+                        "_id": "66384be673c2c55f2ded89fa",
+                        "avatarUrl": "/avatars/1d8721074f0f51fab405f81474f2035f.svg",
+                        "isPro": false,
+                        "fullname": "Junjie Ye",
+                        "user": "Junjie-Ye",
+                        "type": "user"
+                    },
+                    "name": "Junjie Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T10:08:02.519Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679080298ad1d8203a994f83",
+                    "name": "Zhengyin Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "679080298ad1d8203a994f84",
+                    "user": {
+                        "_id": "66df70fe5a0c5910d663160d",
+                        "avatarUrl": "/avatars/980ca32bd0049ef5bbf002e7dc9f911c.svg",
+                        "isPro": false,
+                        "fullname": "jiecao.chen",
+                        "user": "xmerge123",
+                        "type": "user"
+                    },
+                    "name": "Jiecao Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:04:37.918Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-20T11:46:04.000Z",
+            "title": "Agent-R: Training Language Model Agents to Reflect via Iterative\n  Self-Training",
+            "summary": "Large Language Models (LLMs) agents are increasingly pivotal for addressing\ncomplex tasks in interactive environments. Existing work mainly focuses on\nenhancing performance through behavior cloning from stronger experts, yet such\napproaches often falter in real-world applications, mainly due to the inability\nto recover from errors. However, step-level critique data is difficult and\nexpensive to collect. Automating and dynamically constructing self-critique\ndatasets is thus crucial to empowering models with intelligent agent\ncapabilities. In this work, we propose an iterative self-training framework,\nAgent-R, that enables language Agent to Reflect on the fly. Unlike traditional\nmethods that reward or penalize actions based on correctness, Agent-R leverages\nMCTS to construct training data that recover correct trajectories from\nerroneous ones. A key challenge of agent reflection lies in the necessity for\ntimely revision rather than waiting until the end of a rollout. To address\nthis, we introduce a model-guided critique construction mechanism: the actor\nmodel identifies the first error step (within its current capability) in a\nfailed trajectory. Starting from it, we splice it with the adjacent correct\npath, which shares the same parent node in the tree. This strategy enables the\nmodel to learn reflection based on its current policy, therefore yielding\nbetter learning efficiency. To further explore the scalability of this\nself-improvement paradigm, we investigate iterative refinement of both error\ncorrection capabilities and dataset construction. Our findings demonstrate that\nAgent-R continuously improves the model's ability to recover from errors and\nenables timely error correction. Experiments on three interactive environments\nshow that Agent-R effectively equips agents to correct erroneous actions while\navoiding loops, achieving superior performance compared to baseline methods\n(+5.59%).",
+            "upvotes": 50,
+            "discussionId": "6790802b8ad1d8203a994fc7"
+        },
+        "translation_title": "Agent-R: 반복 자기 학습을 통한 언어 모델 에이전트 훈련",
+        "purpose": "언어 모델 에이전트를 실시간으로 반영하여 복잡한 작업을 수행할 수 있도록 하는 훈련 방법 제안",
+        "method": [
+            "Agent-R이라는 반복 자기 학습 프레임워크를 제안하여 언어 에이전트가 실시간으로 반영할 수 있도록 함(we propose an iterative self-training framework, Agent-R, that enables language Agent to Reflect on the fly.)",
+            "MCTS를 활용하여 잘못된 경로에서 올바른 경로로 회복하는 훈련 데이터를 구성함(Unlike traditional methods that reward or penalize actions based on correctness, Agent-R leverages MCTS to construct training data that recover correct trajectories from erroneous ones.)",
+            "모델 안내 비판 생성 메커니즘을 도입하여 실패한 경로에서 첫 번째 오류 단계를 식별하고, 이를 이용해 인접한 올바른 경로와 결합하여 학습함(To address this, we introduce a model-guided critique construction mechanism: the actor model identifies the first error step in a failed trajectory.)"
+        ],
+        "conclusion": "Agent-R는 에이전트가 오류 행위를 수정할 수 있도록 효과적으로 도움을 주며, 특정 작업에서 기존 방법보다 더 나은 성능을 달성함(+5.59%).",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.12380",
+            "authors": [
+                {
+                    "_id": "67906f432565fc5140d72dc3",
+                    "name": "Yilun Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc4",
+                    "user": {
+                        "_id": "64ffd83b96ec8a52185dfb54",
+                        "avatarUrl": "/avatars/a4fadc7e2f5c1125d5d455de4d5c9b8e.svg",
+                        "isPro": false,
+                        "fullname": "Lujing Xie",
+                        "user": "leeroylucas",
+                        "type": "user"
+                    },
+                    "name": "Lujing Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:06:45.496Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc5",
+                    "user": {
+                        "_id": "637169557a5e5d8efdc3e58e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1668515232215-637169557a5e5d8efdc3e58e.jpeg",
+                        "isPro": false,
+                        "fullname": "Haowei Zhang",
+                        "user": "freesky",
+                        "type": "user"
+                    },
+                    "name": "Haowei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T10:59:50.465Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc6",
+                    "name": "Guo Gan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc7",
+                    "name": "Yitao Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc8",
+                    "user": {
+                        "_id": "65e9945f6bcbcae600b7e64f",
+                        "avatarUrl": "/avatars/8aa986a6c0e35c55d5d1461d1dc11ac3.svg",
+                        "isPro": false,
+                        "fullname": "Zhiyuan Hu",
+                        "user": "zhiyhu",
+                        "type": "user"
+                    },
+                    "name": "Zhiyuan Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:07:09.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dc9",
+                    "user": {
+                        "_id": "66e83ec5deb449d8d856e78d",
+                        "avatarUrl": "/avatars/c5e56be65fcacb3192ce10ba6d8f48e2.svg",
+                        "isPro": false,
+                        "fullname": "Tongyan Hu",
+                        "user": "entropyhu",
+                        "type": "user"
+                    },
+                    "name": "Tongyan Hu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T10:59:48.493Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dca",
+                    "user": {
+                        "_id": "6652e84bff6ccc0ef5ac7055",
+                        "avatarUrl": "/avatars/70a8b6a0bae5f9e954fa15f56ab2ddc3.svg",
+                        "isPro": false,
+                        "fullname": "Weiyuan Chen",
+                        "user": "RaidonShogun",
+                        "type": "user"
+                    },
+                    "name": "Weiyuan Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T14:04:09.444Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dcb",
+                    "user": {
+                        "_id": "65415f1d5168c4f3487a2103",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65415f1d5168c4f3487a2103/qJuzDpOGSDL4E1-L2lGWW.jpeg",
+                        "isPro": false,
+                        "fullname": "Chuhan Li",
+                        "user": "ChuhanLi",
+                        "type": "user"
+                    },
+                    "name": "Chuhan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:07:16.582Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dcc",
+                    "name": "Junyang Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dcd",
+                    "name": "Zhijian Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dce",
+                    "name": "Chengye Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dcf",
+                    "user": {
+                        "_id": "67907fdb6146e0f96241dcc3",
+                        "avatarUrl": "/avatars/ba16cb87dce1e3ccbbe8091a3fe553fc.svg",
+                        "isPro": false,
+                        "fullname": "Wf Pan",
+                        "user": "Phil-01",
+                        "type": "user"
+                    },
+                    "name": "Weifeng Pan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T10:08:18.785Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd0",
+                    "user": {
+                        "_id": "65dea56779f827c045b1df96",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Jtx4JcM5CNgoVyzxTC93S.jpeg",
+                        "isPro": false,
+                        "fullname": "Ziyao Shangguan",
+                        "user": "ziyaosg",
+                        "type": "user"
+                    },
+                    "name": "Ziyao Shangguan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:06:39.157Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd1",
+                    "user": {
+                        "_id": "63357c608adfa81faf2ac180",
+                        "avatarUrl": "/avatars/ae0314c644f882251baf59b9134fd36f.svg",
+                        "isPro": false,
+                        "fullname": "Xiangru Tang",
+                        "user": "RTT1",
+                        "type": "user"
+                    },
+                    "name": "Xiangru Tang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:07:56.034Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd2",
+                    "user": {
+                        "_id": "62ffa3f8311cad266f9af236",
+                        "avatarUrl": "/avatars/4c88cb518e000a475f8381573f21aa7f.svg",
+                        "isPro": false,
+                        "fullname": "Zhenwen Liang",
+                        "user": "invokerliang",
+                        "type": "user"
+                    },
+                    "name": "Zhenwen Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:08:01.981Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd3",
+                    "name": "Yixin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd4",
+                    "name": "Chen Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67906f432565fc5140d72dd5",
+                    "user": {
+                        "_id": "5f5ba21188f57f65f951f255",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1599840760465-noauth.png",
+                        "isPro": false,
+                        "fullname": "Arman Cohan",
+                        "user": "armanc",
+                        "type": "user"
+                    },
+                    "name": "Arman Cohan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-22T14:09:26.876Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-21T18:56:18.000Z",
+            "title": "MMVU: Measuring Expert-Level Multi-Discipline Video Understanding",
+            "summary": "We introduce MMVU, a comprehensive expert-level, multi-discipline benchmark\nfor evaluating foundation models in video understanding. MMVU includes 3,000\nexpert-annotated questions spanning 27 subjects across four core disciplines:\nScience, Healthcare, Humanities & Social Sciences, and Engineering. Compared to\nprior benchmarks, MMVU features three key advancements. First, it challenges\nmodels to apply domain-specific knowledge and perform expert-level reasoning to\nanalyze specialized-domain videos, moving beyond the basic visual perception\ntypically assessed in current video benchmarks. Second, each example is\nannotated by human experts from scratch. We implement strict data quality\ncontrols to ensure the high quality of the dataset. Finally, each example is\nenriched with expert-annotated reasoning rationals and relevant domain\nknowledge, facilitating in-depth analysis. We conduct an extensive evaluation\nof 32 frontier multimodal foundation models on MMVU. The latest\nSystem-2-capable models, o1 and Gemini 2.0 Flash Thinking, achieve the highest\nperformance among the tested models. However, they still fall short of matching\nhuman expertise. Through in-depth error analyses and case studies, we offer\nactionable insights for future advancements in expert-level,\nknowledge-intensive video understanding for specialized domains.",
+            "upvotes": 43,
+            "discussionId": "67906f442565fc5140d72e4a"
+        },
+        "translation_title": "MMVU: 전문가 수준의 다학제 비디오 이해 측정",
+        "purpose": "비디오 이해 분야에서 기초 모델을 평가하기 위한 전문가 수준의 다학제 벤치마크 개발",
+        "method": [
+            "3,000개의 전문가 주석 질문을 바탕으로 4개의 핵심 분야(과학, 헬스케어, 인문사회, 공학)에서 27개의 주제를 포함하는 평가 체계 구축(MMVU includes 3,000 expert-annotated questions spanning 27 subjects across four core disciplines: Science, Healthcare, Humanities & Social Sciences, and Engineering.)",
+            "모델이 전문가 수준의 추론을 할 수 있도록 도메인 지식을 적용해야 하며, 기존 비디오 벤치마크보다 더 높은 수준의 분석 수행 요구(MMVU features three key advancements. First, it challenges models to apply domain-specific knowledge and perform expert-level reasoning to analyze specialized-domain videos.)",
+            "엄격한 데이터 품질 관리를 통해 데이터셋의 품질을 보장하며, 각 예제에는 전문가 주석의 추론 근거와 관련 도메인 지식 추가(MMVA includes expert-annotated reasoning rationals and relevant domain knowledge, facilitating in-depth analysis.)"
+        ],
+        "conclusion": "최신 모델인 o1과 Gemini 2.0 Flash Thinking이 가장 높은 성능을 보였지만 여전히 인간 전문성을 충족하지는 못하며, 향후 발전을 위한 실행 가능한 통찰을 제공함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.11873",
+            "authors": [
+                {
+                    "_id": "679071da11a3f67d8f498649",
+                    "name": "Zihan Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864a",
+                    "name": "Zeyu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864b",
+                    "name": "Bo Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864c",
+                    "name": "Kaiyue Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864d",
+                    "name": "Zekun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864e",
+                    "name": "Rui Men",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f49864f",
+                    "name": "Ivan Titov",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f498650",
+                    "user": {
+                        "_id": "6434d4989bd5a84b5dd0b0f5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6434d4989bd5a84b5dd0b0f5/0Elf9qbfG9Hkgypm9pTGm.jpeg",
+                        "isPro": false,
+                        "fullname": "Dayiheng Liu",
+                        "user": "Losin94",
+                        "type": "user"
+                    },
+                    "name": "Dayiheng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-22T10:08:15.815Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f498651",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "679071da11a3f67d8f498652",
+                    "name": "Junyang Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-21T04:04:39.000Z",
+            "title": "Demons in the Detail: On Implementing Load Balancing Loss for Training\n  Specialized Mixture-of-Expert Models",
+            "summary": "This paper revisits the implementation of\nLoad-balancing Loss (LBL) when training\nMixture-of-Experts (MoEs) models. Specifically, LBL for MoEs is defined as N_E\nsum_{i=1}^{N_E} f_i p_i, where N_E is the total number of experts, f_i\nrepresents the frequency of expert i being selected, and p_i denotes the\naverage gating score of the expert i. Existing MoE training frameworks\nusually employ the parallel training strategy so that f_i and the LBL are\ncalculated within a micro-batch and then averaged across parallel\ngroups. In essence, a micro-batch for training billion-scale LLMs normally\ncontains very few sequences. So, the micro-batch LBL is almost at the sequence\nlevel, and the router is pushed to distribute the token evenly within each\nsequence. Under this strict constraint, even tokens from a domain-specific\nsequence (e.g., code) are uniformly routed to all experts, thereby\ninhibiting expert specialization. In this work, we propose calculating LBL\nusing a global-batch to loose this constraint. Because a\nglobal-batch contains much more diverse sequences than a micro-batch, which\nwill encourage load balance at the corpus level. Specifically, we introduce an\nextra communication step to synchronize f_i across micro-batches and then use\nit to calculate the LBL. Through experiments on training MoEs-based LLMs (up to\n42.8B total parameters and 400B tokens), we surprisingly\nfind that the global-batch LBL strategy yields excellent performance gains in\nboth pre-training perplexity and downstream tasks. Our analysis reveals that\nthe global-batch LBL also greatly improves the domain specialization of MoE\nexperts.",
+            "upvotes": 41,
+            "discussionId": "679071db11a3f67d8f498680"
+        },
+        "translation_title": "세부 사항의 악마: 전문 혼합 전문가 모델 훈련을 위한 부하 균형 손실 구현에 관한 연구",
+        "purpose": "Mixture-of-Experts 모델 훈련에서 부하 균형 손실(Load-balancing Loss) 구현을 개선하기 위한 연구",
+        "method": [
+            "기존의 MoE 훈련 프레임워크가 마이크로 배치 내에서 부하 균형 손실을 계산하는 방식에서 전역 배치(global-batch) 계산으로 변경함(we propose calculating LBL using a global-batch to lose this constraint.)",
+            "전역 배치는 마이크로 배치보다 더 다양한 시퀀스를 포함하여 전체적인 부하 균형을 촉진함(Because a global-batch contains much more diverse sequences than a micro-batch, which will encourage load balance at the corpus level.)",
+            "각 마이크로 배치에서 전문가 선택 빈도(f_i)를 동기화하기 위한 추가 통신 단계를 도입함(we introduce an extra communication step to synchronize f_i across micro-batches)"
+        ],
+        "conclusion": "전역 배치 부하 균형 손실 전략은 모델 사전 훈련과 다운스트림 작업에서 현저한 성능 향상을 보여주었고, 전문가의 도메인 전문화도 크게 개선됨.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.12224",
+            "authors": [
+                {
+                    "_id": "6790db6588d8a90790d99ed4",
+                    "name": "Daniel Garibi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99ed5",
+                    "name": "Shahar Yadin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99ed6",
+                    "name": "Roni Paiss",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99ed7",
+                    "name": "Omer Tov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99ed8",
+                    "name": "Shiran Zada",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99ed9",
+                    "name": "Ariel Ephrat",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99eda",
+                    "name": "Tomer Michaeli",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99edb",
+                    "name": "Inbar Mosseri",
+                    "hidden": false
+                },
+                {
+                    "_id": "6790db6588d8a90790d99edc",
+                    "name": "Tali Dekel",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-21T15:49:29.000Z",
+            "title": "TokenVerse: Versatile Multi-concept Personalization in Token Modulation\n  Space",
+            "summary": "We present TokenVerse -- a method for multi-concept personalization,\nleveraging a pre-trained text-to-image diffusion model. Our framework can\ndisentangle complex visual elements and attributes from as little as a single\nimage, while enabling seamless plug-and-play generation of combinations of\nconcepts extracted from multiple images. As opposed to existing works,\nTokenVerse can handle multiple images with multiple concepts each, and supports\na wide-range of concepts, including objects, accessories, materials, pose, and\nlighting. Our work exploits a DiT-based text-to-image model, in which the input\ntext affects the generation through both attention and modulation (shift and\nscale). We observe that the modulation space is semantic and enables localized\ncontrol over complex concepts. Building on this insight, we devise an\noptimization-based framework that takes as input an image and a text\ndescription, and finds for each word a distinct direction in the modulation\nspace. These directions can then be used to generate new images that combine\nthe learned concepts in a desired configuration. We demonstrate the\neffectiveness of TokenVerse in challenging personalization settings, and\nshowcase its advantages over existing methods. project's webpage in\nhttps://token-verse.github.io/",
+            "upvotes": 24,
+            "discussionId": "6790db6c88d8a90790d9a0f7"
+        },
+        "translation_title": "TokenVerse: 다중 개념 개인화를 위한 토큰 조절 공간",
+        "purpose": "단일 이미지에서 복잡한 시각적 요소와 속성을 분리하여 다중 개념 개인화를 달성하기 위한 방법 제시",
+        "method": [
+            "사전 훈련된 텍스트-이미지 확산 모델을 활용하여 다양한 이미지를 처리할 수 있도록 함(leveraging a pre-trained text-to-image diffusion model.)",
+            "다수의 이미지와 여러 개념을 동시에 다룰 수 있는 프레임워크 설계(TokenVerse can handle multiple images with multiple concepts each.)",
+            "입력 텍스트가 생성에 영향을 미치도록 주의(attention)와 조절(modulation) 기법을 사용함(in which the input text affects the generation through both attention and modulation).",
+            "이미지와 텍스트 설명을 입력받아 각 단어에 대해 조절 공간의 특정 방향을 찾는 최적화 기반 프레임워크를 개발함(we devise an optimization-based framework that takes as input an image and a text description, and finds for each word a distinct direction in the modulation space.)"
+        ],
+        "conclusion": "TokenVerse는 복잡한 개인화 설정에서 효과적으로 작동하며, 기존 방법들보다 장점을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.12326",
+            "authors": [
+                {
+                    "_id": "679078f902b4d94b0f2347c1",
+                    "name": "Yujia Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c2",
+                    "name": "Yining Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c3",
+                    "name": "Junjie Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c4",
+                    "name": "Haoming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c5",
+                    "name": "Shihao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c6",
+                    "name": "Shizuo Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c7",
+                    "name": "Junda Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c8",
+                    "name": "Jiahao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347c9",
+                    "name": "Yunxin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347ca",
+                    "name": "Shijue Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347cb",
+                    "name": "Wanjun Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347cc",
+                    "name": "Kuanye Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347cd",
+                    "name": "Jiale Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347ce",
+                    "name": "Yu Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347cf",
+                    "name": "Woyu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d0",
+                    "name": "Longxiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d1",
+                    "name": "Xu Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d2",
+                    "name": "Qianli Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d3",
+                    "name": "Jingyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d4",
+                    "name": "Xiaojun Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d5",
+                    "name": "Kai Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d6",
+                    "name": "Chuang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d7",
+                    "name": "Yaowei Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d8",
+                    "name": "Chaolin Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347d9",
+                    "name": "Chen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347da",
+                    "name": "Xiao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347db",
+                    "name": "Minchao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347dc",
+                    "name": "Haoli Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347dd",
+                    "name": "Zhaojian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347de",
+                    "name": "Haihua Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347df",
+                    "name": "Haifeng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347e0",
+                    "name": "Feng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347e1",
+                    "name": "Tao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347e2",
+                    "name": "Xin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679078f902b4d94b0f2347e3",
+                    "name": "Guang Shi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-21T17:48:10.000Z",
+            "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+            "summary": "This paper introduces UI-TARS, a native GUI agent model that solely perceives\nthe screenshots as input and performs human-like interactions (e.g., keyboard\nand mouse operations). Unlike prevailing agent frameworks that depend on\nheavily wrapped commercial models (e.g., GPT-4o) with expert-crafted prompts\nand workflows, UI-TARS is an end-to-end model that outperforms these\nsophisticated frameworks. Experiments demonstrate its superior performance:\nUI-TARS achieves SOTA performance in 10+ GUI agent benchmarks evaluating\nperception, grounding, and GUI task execution. Notably, in the OSWorld\nbenchmark, UI-TARS achieves scores of 24.6 with 50 steps and 22.7 with 15\nsteps, outperforming Claude (22.0 and 14.9 respectively). In AndroidWorld,\nUI-TARS achieves 46.6, surpassing GPT-4o (34.5). UI-TARS incorporates several\nkey innovations: (1) Enhanced Perception: leveraging a large-scale dataset of\nGUI screenshots for context-aware understanding of UI elements and precise\ncaptioning; (2) Unified Action Modeling, which standardizes actions into a\nunified space across platforms and achieves precise grounding and interaction\nthrough large-scale action traces; (3) System-2 Reasoning, which incorporates\ndeliberate reasoning into multi-step decision making, involving multiple\nreasoning patterns such as task decomposition, reflection thinking, milestone\nrecognition, etc. (4) Iterative Training with Reflective Online Traces, which\naddresses the data bottleneck by automatically collecting, filtering, and\nreflectively refining new interaction traces on hundreds of virtual machines.\nThrough iterative training and reflection tuning, UI-TARS continuously learns\nfrom its mistakes and adapts to unforeseen situations with minimal human\nintervention. We also analyze the evolution path of GUI agents to guide the\nfurther development of this domain.",
+            "upvotes": 20,
+            "discussionId": "679078ff02b4d94b0f2348e0"
+        },
+        "translation_title": "UI-TARS: 네이티브 에이전트를 통한 자동 GUI 상호작용의 선두주자",
+        "purpose": "Screenshot을 입력으로 받아 인간처럼 상호작용하는 GUI 에이전트를 개발하기 위한 연구",
+        "method": [
+            "UI-TARS는 GUI 스크린샷만을 입력으로 사용하여 인간과 유사한 상호작용을 수행하는 엔드투엔드 모델임을 설명함(Unlike prevailing agent frameworks that depend on heavily wrapped commercial models, UI-TARS is an end-to-end model that outperforms these sophisticated frameworks.)",
+            "대규모 GUI 스크린샷 데이터셋을 활용해 UI 요소에 대한 맥락 인식과 정확한 캡셔닝을 이루는 인식 강화 기술을 포함함(Enhanced Perception: leveraging a large-scale dataset of GUI screenshots for context-aware understanding of UI elements and precise captioning.)",
+            "다양한 플랫폼 간에 행동을 표준화하여 정밀한 상호작용을 가능하게 하는 통합 행동 모델링 기법을 도입함(Unified Action Modeling, which standardizes actions into a unified space across platforms and achieves precise grounding and interaction through large-scale action traces.)"
+        ],
+        "conclusion": "UI-TARS는 GUI 에이전트 벤치마크에서 높은 성능을 보여주며, 지속적인 학습과 적응을 통해 최소한의 인간 개입으로 unforeseen 상황에 잘 대응함.",
+        "keywords": [
+            "Computer Vision",
+            "Robotics",
+            "Large Language Models"
+        ]
+    }
+]
