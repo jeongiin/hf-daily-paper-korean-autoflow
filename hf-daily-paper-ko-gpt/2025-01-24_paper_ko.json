@@ -1,0 +1,842 @@
+[
+    {
+        "paper": {
+            "id": "2501.13200",
+            "authors": [
+                {
+                    "_id": "67933d69b843fda452c689dd",
+                    "user": {
+                        "_id": "65c0db0fbda79a18292dfbb7",
+                        "avatarUrl": "/avatars/1201b8282664c2d8c18beaba2396c03b.svg",
+                        "isPro": false,
+                        "fullname": "Alsu Sagirova",
+                        "user": "alsu-sagirova",
+                        "type": "user"
+                    },
+                    "name": "Alsu Sagirova",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-24T09:07:49.036Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67933d69b843fda452c689de",
+                    "name": "Yuri Kuratov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67933d69b843fda452c689df",
+                    "user": {
+                        "_id": "639c6e978a34ed9a404c6a7b",
+                        "avatarUrl": "/avatars/c98ca8c9f9ed8509c2f1bb6aa994fd57.svg",
+                        "isPro": false,
+                        "fullname": "MIKHAIL BURTSEV",
+                        "user": "mbur",
+                        "type": "user"
+                    },
+                    "name": "Mikhail Burtsev",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:07:03.954Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-22T20:08:53.000Z",
+            "title": "SRMT: Shared Memory for Multi-agent Lifelong Pathfinding",
+            "summary": "Multi-agent reinforcement learning (MARL) demonstrates significant progress\nin solving cooperative and competitive multi-agent problems in various\nenvironments. One of the principal challenges in MARL is the need for explicit\nprediction of the agents' behavior to achieve cooperation. To resolve this\nissue, we propose the Shared Recurrent Memory Transformer (SRMT) which extends\nmemory transformers to multi-agent settings by pooling and globally\nbroadcasting individual working memories, enabling agents to exchange\ninformation implicitly and coordinate their actions. We evaluate SRMT on the\nPartially Observable Multi-Agent Pathfinding problem in a toy Bottleneck\nnavigation task that requires agents to pass through a narrow corridor and on a\nPOGEMA benchmark set of tasks. In the Bottleneck task, SRMT consistently\noutperforms a variety of reinforcement learning baselines, especially under\nsparse rewards, and generalizes effectively to longer corridors than those seen\nduring training. On POGEMA maps, including Mazes, Random, and MovingAI, SRMT is\ncompetitive with recent MARL, hybrid, and planning-based algorithms. These\nresults suggest that incorporating shared recurrent memory into the\ntransformer-based architectures can enhance coordination in decentralized\nmulti-agent systems. The source code for training and evaluation is available\non GitHub: https://github.com/Aloriosa/srmt.",
+            "upvotes": 36,
+            "discussionId": "67933d6ab843fda452c68a38"
+        },
+        "translation_title": "SRMT: 다중 에이전트 평생 경로 탐색을 위한 공유 메모리",
+        "purpose": "다중 에이전트 협력이 필요할 때 에이전트의 행동 예측을 개선하기 위한 방법 연구",
+        "method": [
+            "Shared Recurrent Memory Transformer(SRMT)를 제안하여 메모리 트랜스포머를 다중 에이전트 환경에 확장함(we propose the Shared Recurrent Memory Transformer (SRMT) which extends memory transformers to multi-agent settings by pooling and globally broadcasting individual working memories)",
+            "에이전트들이 정보를 암묵적으로 교환하고 협동 행동을 할 수 있도록 함(enabling agents to exchange information implicitly and coordinate their actions.)",
+            "Partially Observable Multi-Agent Pathfinding 문제인 Bottleneck 탐색 작업에서 SRMT를 평가함.(We evaluate SRMT on the Partially Observable Multi-Agent Pathfinding problem in a toy Bottleneck navigation task)"
+        ],
+        "conclusion": "SRMT는 에이전트가 협동적으로 행동할 수 있도록 개선되어, 더 긴 경로에서도 효과적으로 일반화되며 다양한 강화 학습의 기준 모델을 초월하는 성과를 달성함.",
+        "keywords": [
+            "Multi-agent Reinforcement Learning",
+            "Coordination",
+            "Pathfinding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.13918",
+            "authors": [
+                {
+                    "_id": "679319848d46289f90266168",
+                    "user": {
+                        "_id": "639be86b59473c6ae02ef9c4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/639be86b59473c6ae02ef9c4/gw34RBCVZCOkcAA79xUr3.png",
+                        "isPro": false,
+                        "fullname": "Jie Liu",
+                        "user": "jieliu",
+                        "type": "user"
+                    },
+                    "name": "Jie Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-24T09:07:53.235Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266169",
+                    "name": "Gongye Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616a",
+                    "name": "Jiajun Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616b",
+                    "name": "Ziyang Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616c",
+                    "name": "Xiaokun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616d",
+                    "name": "Mingwu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616e",
+                    "name": "Xiele Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f9026616f",
+                    "name": "Qiulin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266170",
+                    "name": "Wenyu Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266171",
+                    "name": "Menghan Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266172",
+                    "user": {
+                        "_id": "60e272ca6c78a8c122b12127",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60e272ca6c78a8c122b12127/xldEGBzGrU-bX6IwAw0Ie.jpeg",
+                        "isPro": false,
+                        "fullname": "Xintao Wang",
+                        "user": "Xintao",
+                        "type": "user"
+                    },
+                    "name": "Xintao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-24T09:07:51.248Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266173",
+                    "name": "Xiaohong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266174",
+                    "name": "Fei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266175",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266176",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266177",
+                    "name": "Kun Gai",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266178",
+                    "name": "Yujiu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679319848d46289f90266179",
+                    "name": "Wanli Ouyang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-23T18:55:41.000Z",
+            "title": "Improving Video Generation with Human Feedback",
+            "summary": "Video generation has achieved significant advances through rectified flow\ntechniques, but issues like unsmooth motion and misalignment between videos and\nprompts persist. In this work, we develop a systematic pipeline that harnesses\nhuman feedback to mitigate these problems and refine the video generation\nmodel. Specifically, we begin by constructing a large-scale human preference\ndataset focused on modern video generation models, incorporating pairwise\nannotations across multi-dimensions. We then introduce VideoReward, a\nmulti-dimensional video reward model, and examine how annotations and various\ndesign choices impact its rewarding efficacy. From a unified reinforcement\nlearning perspective aimed at maximizing reward with KL regularization, we\nintroduce three alignment algorithms for flow-based models by extending those\nfrom diffusion models. These include two training-time strategies: direct\npreference optimization for flow (Flow-DPO) and reward weighted regression for\nflow (Flow-RWR), and an inference-time technique, Flow-NRG, which applies\nreward guidance directly to noisy videos. Experimental results indicate that\nVideoReward significantly outperforms existing reward models, and Flow-DPO\ndemonstrates superior performance compared to both Flow-RWR and standard\nsupervised fine-tuning methods. Additionally, Flow-NRG lets users assign custom\nweights to multiple objectives during inference, meeting personalized video\nquality needs. Project page: https://gongyeliu.github.io/videoalign.",
+            "upvotes": 28,
+            "discussionId": "679319858d46289f90266203"
+        },
+        "translation_title": "인간 피드백으로 비디오 생성 개선하기",
+        "purpose": "비디오 생성의 문제를 해결하고 모델을 정교화하기 위한 방법론 개발",
+        "method": [
+            "현대 비디오 생성 모델에 초점을 맞춘 대규모 인간 선호 데이터셋을 구축함(we begin by constructing a large-scale human preference dataset focused on modern video generation models, incorporating pairwise annotations across multi-dimensions.)",
+            "다차원 비디오 보상 모델인 VideoReward를 도입하고, 주석 및 디자인 선택이 보상 효과에 미치는 영향을 검토함(we then introduce VideoReward, a multi-dimensional video reward model, and examine how annotations and various design choices impact its rewarding efficacy.)",
+            "강화 학습 관점에서 KL 정규화를 통해 보상을 극대화하도록 세 가지 정렬 알고리즘을 제안함(from a unified reinforcement learning perspective aimed at maximizing reward with KL regularization, we introduce three alignment algorithms for flow-based models by extending those from diffusion models.)"
+        ],
+        "conclusion": "VideoReward는 기존 보상 모델보다 우수하며, Flow-DPO는 다른 방법들보다 뛰어난 성능을 보임. Flow-NRG 기능은 사용자에게 맞춤형 비디오 품질 요구를 충족시킴.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.13629",
+            "authors": [
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06a",
+                    "user": {
+                        "_id": "63776f1806241efce1e7aae6",
+                        "avatarUrl": "/avatars/d67d9dcd932934c630f407ac152f2ce6.svg",
+                        "isPro": false,
+                        "fullname": "Zhenghao Lin",
+                        "user": "Lin0",
+                        "type": "user"
+                    },
+                    "name": "Zhenghao Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T09:14:52.584Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06b",
+                    "user": {
+                        "_id": "656c6bd8e0ff1cebe966aa35",
+                        "avatarUrl": "/avatars/1083cb58bdb0bee72036953276d42e13.svg",
+                        "isPro": false,
+                        "fullname": "tangzihao",
+                        "user": "tzh94588",
+                        "type": "user"
+                    },
+                    "name": "Zihao Tang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T09:15:04.802Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06c",
+                    "user": {
+                        "_id": "63fb6e281b4b1bd4e7ffc5be",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677422062937-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiao Liu",
+                        "user": "lx865712528",
+                        "type": "user"
+                    },
+                    "name": "Xiao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-24T09:08:05.797Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06d",
+                    "user": {
+                        "_id": "643f615aa16cd6d1f4c581de",
+                        "avatarUrl": "/avatars/47753a3e82b44f81881600c52e1e8495.svg",
+                        "isPro": false,
+                        "fullname": "Yeyun Gong",
+                        "user": "yegong",
+                        "type": "user"
+                    },
+                    "name": "Yeyun Gong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T09:58:33.228Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06e",
+                    "name": "Yi Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb06f",
+                    "name": "Qi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb070",
+                    "user": {
+                        "_id": "61342a4b488458a484dee6c4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1630808595161-noauth.png",
+                        "isPro": false,
+                        "fullname": "Hang Li",
+                        "user": "hanglics",
+                        "type": "user"
+                    },
+                    "name": "Hang Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:03:59.680Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb071",
+                    "name": "Ying Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb072",
+                    "user": {
+                        "_id": "62f6a9add3bdacb7eec0d4f5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660332390183-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Ziyue Yang",
+                        "user": "ziyueyang37",
+                        "type": "user"
+                    },
+                    "name": "Ziyue Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:04:09.709Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb073",
+                    "user": {
+                        "_id": "646fc402e9c03ba436d5e93e",
+                        "avatarUrl": "/avatars/870c86dc99fb1cb6a348a7a0385b1a04.svg",
+                        "isPro": false,
+                        "fullname": "Kailai Yang",
+                        "user": "klyang",
+                        "type": "user"
+                    },
+                    "name": "Kailai Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:04:16.033Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb074",
+                    "name": "Yu Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb075",
+                    "name": "Xiao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb076",
+                    "name": "Shuai Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb077",
+                    "name": "Yiming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb078",
+                    "user": {
+                        "_id": "6443bb593c323e0918f61a96",
+                        "avatarUrl": "/avatars/b9e1ba17f7798b5142bc0124fba95237.svg",
+                        "isPro": false,
+                        "fullname": "zheheng luo",
+                        "user": "KenLuo",
+                        "type": "user"
+                    },
+                    "name": "Zheheng Luo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:04:49.140Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb079",
+                    "name": "Lei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07a",
+                    "name": "Xuan Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07b",
+                    "name": "Yaoxiang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07c",
+                    "user": {
+                        "_id": "6369e01864aad59d4d4501ac",
+                        "avatarUrl": "/avatars/bcbd3f9d0d194eeccd061c4fa6a6e283.svg",
+                        "isPro": false,
+                        "fullname": "Yuqing Xia",
+                        "user": "yuqxia",
+                        "type": "user"
+                    },
+                    "name": "Yuqing Xia",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:05:26.287Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07d",
+                    "user": {
+                        "_id": "673fd856a45b6f21829a3bf5",
+                        "avatarUrl": "/avatars/deb8c5362fad22019cccaed6d03dea09.svg",
+                        "isPro": false,
+                        "fullname": "Feiyang Chen",
+                        "user": "PhilipChen",
+                        "type": "user"
+                    },
+                    "name": "Feiyang Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:05:34.991Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07e",
+                    "user": {
+                        "_id": "64e85f4e5ddcace745bc0a55",
+                        "avatarUrl": "/avatars/e316355b913c73104db530010ceedeb4.svg",
+                        "isPro": false,
+                        "fullname": "Yuting Jiang",
+                        "user": "Stautinger",
+                        "type": "user"
+                    },
+                    "name": "Yuting Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:05:41.151Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb07f",
+                    "name": "Yasen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb080",
+                    "name": "Hao Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb081",
+                    "user": {
+                        "_id": "6485714cfc41a0b97fe377cc",
+                        "avatarUrl": "/avatars/0af8a3df9ad711a5eac739bce26c4c2a.svg",
+                        "isPro": false,
+                        "fullname": "Li",
+                        "user": "Binyang",
+                        "type": "user"
+                    },
+                    "name": "Binyang Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:06:03.263Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb082",
+                    "user": {
+                        "_id": "663de80ca920d195191807da",
+                        "avatarUrl": "/avatars/2437ce3fa073a07b971d370c26c7ab65.svg",
+                        "isPro": false,
+                        "fullname": "Guoshuai Zhao",
+                        "user": "crayonshine",
+                        "type": "user"
+                    },
+                    "name": "Guoshuai Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:05:17.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb083",
+                    "name": "Jui-Hao Chiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb084",
+                    "name": "Zhongxin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb085",
+                    "name": "Chen Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb086",
+                    "name": "Kun Kuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb087",
+                    "user": {
+                        "_id": "66a3710a4ee2a4c936315a5a",
+                        "avatarUrl": "/avatars/ef8da8fb1031695d77d34a5d365aa177.svg",
+                        "isPro": false,
+                        "fullname": "Li",
+                        "user": "WenjieLi",
+                        "type": "user"
+                    },
+                    "name": "Wenjie Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:06:22.951Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb088",
+                    "user": {
+                        "_id": "6454c337a13edf669cd5d8ea",
+                        "avatarUrl": "/avatars/a383a0dda7c2ef6a0d6c3c64651f42ff.svg",
+                        "isPro": false,
+                        "fullname": "Yelong Shen",
+                        "user": "uuu6",
+                        "type": "user"
+                    },
+                    "name": "Yelong Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:06:30.109Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb089",
+                    "name": "Jian Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb08a",
+                    "name": "Peng Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6792f8ed5e3ec6035dafb08b",
+                    "name": "Mao Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-23T12:58:14.000Z",
+            "title": "Sigma: Differential Rescaling of Query, Key and Value for Efficient\n  Language Models",
+            "summary": "We introduce Sigma, an efficient large language model specialized for the\nsystem domain, empowered by a novel architecture including DiffQKV attention,\nand pre-trained on our meticulously collected system domain data. DiffQKV\nattention significantly enhances the inference efficiency of Sigma by\noptimizing the Query (Q), Key (K), and Value (V) components in the attention\nmechanism differentially, based on their varying impacts on the model\nperformance and efficiency indicators. Specifically, we (1) conduct extensive\nexperiments that demonstrate the model's varying sensitivity to the compression\nof K and V components, leading to the development of differentially compressed\nKV, and (2) propose augmented Q to expand the Q head dimension, which enhances\nthe model's representation capacity with minimal impacts on the inference\nspeed. Rigorous theoretical and empirical analyses reveal that DiffQKV\nattention significantly enhances efficiency, achieving up to a 33.36%\nimprovement in inference speed over the conventional grouped-query attention\n(GQA) in long-context scenarios. We pre-train Sigma on 6T tokens from various\nsources, including 19.5B system domain data that we carefully collect and 1T\ntokens of synthesized and rewritten data. In general domains, Sigma achieves\ncomparable performance to other state-of-arts models. In the system domain, we\nintroduce the first comprehensive benchmark AIMicius, where Sigma demonstrates\nremarkable performance across all tasks, significantly outperforming GPT-4 with\nan absolute improvement up to 52.5%.",
+            "upvotes": 27,
+            "discussionId": "6792f8f05e3ec6035dafb140"
+        },
+        "translation_title": "Sigma: 효율적인 언어 모델을 위한 쿼리, 키, 값의 차별적 크기 조정",
+        "purpose": "시스템 도메인에 특화된 효율적인 대규모 언어 모델 개발",
+        "method": [
+            "DiffQKV attention을 포함한 새로운 아키텍처를 통해 쿼리(Q), 키(K), 값(V)의 차별적 최적화를 수행함(we introduce Sigma, an efficient large language model specialized for the system domain, empowered by a novel architecture including DiffQKV attention)",
+            "실험을 통해 K와 V 구성 요소의 압축에 대한 모델의 민감도를 검증하고 차별적으로 압축된 KV를 개발함(we conduct extensive experiments that demonstrate the model's varying sensitivity to the compression of K and V components, leading to the development of differentially compressed KV)",
+            "Q 헤드 차원을 확장하기 위한 증강된 Q를 제안하여 모델의 표현 능력을 향상시킴(we propose augmented Q to expand the Q head dimension, which enhances the model's representation capacity with minimal impacts on the inference speed)",
+            "DiffQKV attention이 전통적인 grouped-query attention(GQA)에 비해 최대 33.36%의 인퍼런스 속도 향상을 달성함을 입증함(Rigorous theoretical and empirical analyses reveal that DiffQKV attention significantly enhances efficiency, achieving up to a 33.36% improvement in inference speed over the conventional grouped-query attention (GQA) in long-context scenarios)"
+        ],
+        "conclusion": "Sigma는 시스템 도메인에서 GPT-4보다 최대 52.5% 절대 성능 향상을 보여주는 첫 번째 종합 벤치마크 AIMicius에서 뛰어난 성능을 입증함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.13926",
+            "authors": [
+                {
+                    "_id": "6793040ec67af4a116a25d05",
+                    "user": {
+                        "_id": "647d9ab61a1fcad2fdbf2d3d",
+                        "avatarUrl": "/avatars/48c8aeae8979d2c87df8bde922437d62.svg",
+                        "isPro": true,
+                        "fullname": "Ziyu Guo",
+                        "user": "ZiyuG",
+                        "type": "user"
+                    },
+                    "name": "Ziyu Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:07:58.258Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d06",
+                    "name": "Renrui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d07",
+                    "name": "Chengzhuo Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d08",
+                    "user": {
+                        "_id": "6713a71e7dfe714b425cccfb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/95YYcbv_f6J8yWTunwn4z.png",
+                        "isPro": false,
+                        "fullname": "zhizhengzhao",
+                        "user": "zhizhengzhao",
+                        "type": "user"
+                    },
+                    "name": "Zhizheng Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:08:20.272Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d09",
+                    "user": {
+                        "_id": "6759af3eccbc8817f9169179",
+                        "avatarUrl": "/avatars/49e64c7ccf71b8f25c52783b6ae93620.svg",
+                        "isPro": false,
+                        "fullname": "Peng Gao",
+                        "user": "gaopenghigh",
+                        "type": "user"
+                    },
+                    "name": "Peng Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:08:26.816Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d0a",
+                    "user": {
+                        "_id": "65c04e9c27a5fdca81abcbd9",
+                        "avatarUrl": "/avatars/12a155683c824fa23da4a9e2bed4f64e.svg",
+                        "isPro": false,
+                        "fullname": "Hongsheng LI",
+                        "user": "hsli-cuhk",
+                        "type": "user"
+                    },
+                    "name": "Hongsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:08:33.312Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6793040ec67af4a116a25d0b",
+                    "name": "Pheng-Ann Heng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-23T18:59:43.000Z",
+            "title": "Can We Generate Images with CoT? Let's Verify and Reinforce Image\n  Generation Step by Step",
+            "summary": "Chain-of-Thought (CoT) reasoning has been extensively explored in large\nmodels to tackle complex understanding tasks. However, it still remains an open\nquestion whether such strategies can be applied to verifying and reinforcing\nimage generation scenarios. In this paper, we provide the first comprehensive\ninvestigation of the potential of CoT reasoning to enhance autoregressive image\ngeneration. We focus on three techniques: scaling test-time computation for\nverification, aligning model preferences with Direct Preference Optimization\n(DPO), and integrating these techniques for complementary effects. Our results\ndemonstrate that these approaches can be effectively adapted and combined to\nsignificantly improve image generation performance. Furthermore, given the\npivotal role of reward models in our findings, we propose the Potential\nAssessment Reward Model (PARM) and PARM++, specialized for autoregressive image\ngeneration. PARM adaptively assesses each generation step through a potential\nassessment approach, merging the strengths of existing reward models, and\nPARM++ further introduces a reflection mechanism to self-correct the generated\nunsatisfactory image. Using our investigated reasoning strategies, we enhance a\nbaseline model, Show-o, to achieve superior results, with a significant +24%\nimprovement on the GenEval benchmark, surpassing Stable Diffusion 3 by +15%. We\nhope our study provides unique insights and paves a new path for integrating\nCoT reasoning with autoregressive image generation. Code and models are\nreleased at https://github.com/ZiyuGuo99/Image-Generation-CoT",
+            "upvotes": 10,
+            "discussionId": "67930410c67af4a116a25da4"
+        },
+        "translation_title": "CoT로 이미지를 생성할 수 있을까? 이미지 생성을 단계별로 검증하고 강화하자",
+        "purpose": "Chain-of-Thought(코트) 추론을 통해 이미지 생성 성능을 개선하는 방법을 탐구하기 위한 연구",
+        "method": [
+            "세 가지 기술에 주목하여 이미지 생성을 강화함: 검증을 위한 테스트 시간 계산 스케일링, 모델 선호를 Direct Preference Optimization(DPO)으로 정렬, 그리고 이러한 기술의 통합을 통해 상호 보완적인 효과를 이끌어냄 (We focus on three techniques: scaling test-time computation for verification, aligning model preferences with Direct Preference Optimization (DPO), and integrating these techniques for complementary effects.)",
+            "보상 모델의 중요성을 강조하며, 잠재 평가 보상 모델(Potential Assessment Reward Model, PARM) 및 PARM++를 제안함 (we propose the Potential Assessment Reward Model (PARM) and PARM++, specialized for autoregressive image generation.)",
+            "PARM은 기존 보상 모델의 강점을 조합하여 생성 단계마다 적응적으로 평가를 수행함 (PARM adaptively assesses each generation step through a potential assessment approach, merging the strengths of existing reward models.)"
+        ],
+        "conclusion": "이 연구를 통해 Show-o라는 모델의 성능을 +24% 향상시켜 GenEval 벤치마크에서 Stable Diffusion 3에 비해 +15%를 초과하는 우수한 결과를 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.13920",
+            "authors": [
+                {
+                    "_id": "679316ff3698fd97252a8e6f",
+                    "user": {
+                        "_id": "64c3c72e8f31d1e6c664b052",
+                        "avatarUrl": "/avatars/af1ad5048eaa9dc417837ad02f927911.svg",
+                        "isPro": false,
+                        "fullname": "jiayi lei",
+                        "user": "jyjyjyjy",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Lei",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:12:22.641Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e70",
+                    "name": "Renrui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e71",
+                    "name": "Xiangfei Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e72",
+                    "user": {
+                        "_id": "66026c9068d519ed32519e9c",
+                        "avatarUrl": "/avatars/8fa051312c713772e5b8ba65989ff7f5.svg",
+                        "isPro": false,
+                        "fullname": "Weifeng Lin",
+                        "user": "Afeng-x",
+                        "type": "user"
+                    },
+                    "name": "Weifeng Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:13:07.303Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e73",
+                    "name": "Zhen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e74",
+                    "name": "Wenjian Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e75",
+                    "user": {
+                        "_id": "64a54586c0f13de8e7093314",
+                        "avatarUrl": "/avatars/389e43e9a32cf2fc95f8f3a23b8f0508.svg",
+                        "isPro": false,
+                        "fullname": "Ruoyi Du",
+                        "user": "RuoyiDu",
+                        "type": "user"
+                    },
+                    "name": "Ruoyi Du",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:13:21.861Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e76",
+                    "user": {
+                        "_id": "6358a167f56b03ec9147074d",
+                        "avatarUrl": "/avatars/e54ea7bf0c240cf76d538296efb3976c.svg",
+                        "isPro": false,
+                        "fullname": "Le Zhuo",
+                        "user": "JackyZhuo",
+                        "type": "user"
+                    },
+                    "name": "Le Zhuo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:13:27.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e77",
+                    "user": {
+                        "_id": "6740a5730bb4a675446a80ad",
+                        "avatarUrl": "/avatars/27c08e33df88e4f73c136da65f2b5adb.svg",
+                        "isPro": false,
+                        "fullname": "Zhong-Yu Li",
+                        "user": "lzyhha",
+                        "type": "user"
+                    },
+                    "name": "Zhongyu Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:13:33.108Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e78",
+                    "name": "Xinyue Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e79",
+                    "user": {
+                        "_id": "62c66504031996c36c86976a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62c66504031996c36c86976a/wIq0YJhkWnEhlzsh-TGYO.png",
+                        "isPro": true,
+                        "fullname": "steve z",
+                        "user": "stzhao",
+                        "type": "user"
+                    },
+                    "name": "Shitian Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-24T13:30:14.688Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e7a",
+                    "user": {
+                        "_id": "647d9ab61a1fcad2fdbf2d3d",
+                        "avatarUrl": "/avatars/48c8aeae8979d2c87df8bde922437d62.svg",
+                        "isPro": true,
+                        "fullname": "Ziyu Guo",
+                        "user": "ZiyuG",
+                        "type": "user"
+                    },
+                    "name": "Ziyu Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:14:21.821Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e7b",
+                    "user": {
+                        "_id": "6614fb3d5aed02b298a4b469",
+                        "avatarUrl": "/avatars/d0ddb4f989ad1a3f24128cc843347bde.svg",
+                        "isPro": false,
+                        "fullname": "yiting lu",
+                        "user": "yeeeeeyy",
+                        "type": "user"
+                    },
+                    "name": "Yiting Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:14:50.714Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e7c",
+                    "user": {
+                        "_id": "6759af3eccbc8817f9169179",
+                        "avatarUrl": "/avatars/49e64c7ccf71b8f25c52783b6ae93620.svg",
+                        "isPro": false,
+                        "fullname": "Peng Gao",
+                        "user": "gaopenghigh",
+                        "type": "user"
+                    },
+                    "name": "Peng Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:15:04.489Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679316ff3698fd97252a8e7d",
+                    "user": {
+                        "_id": "65c04e9c27a5fdca81abcbd9",
+                        "avatarUrl": "/avatars/12a155683c824fa23da4a9e2bed4f64e.svg",
+                        "isPro": false,
+                        "fullname": "Hongsheng LI",
+                        "user": "hsli-cuhk",
+                        "type": "user"
+                    },
+                    "name": "Hongsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-24T10:15:11.437Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-23T18:58:33.000Z",
+            "title": "IMAGINE-E: Image Generation Intelligence Evaluation of State-of-the-art\n  Text-to-Image Models",
+            "summary": "With the rapid development of diffusion models, text-to-image(T2I) models\nhave made significant progress, showcasing impressive abilities in prompt\nfollowing and image generation. Recently launched models such as FLUX.1 and\nIdeogram2.0, along with others like Dall-E3 and Stable Diffusion 3, have\ndemonstrated exceptional performance across various complex tasks, raising\nquestions about whether T2I models are moving towards general-purpose\napplicability. Beyond traditional image generation, these models exhibit\ncapabilities across a range of fields, including controllable generation, image\nediting, video, audio, 3D, and motion generation, as well as computer vision\ntasks like semantic segmentation and depth estimation. However, current\nevaluation frameworks are insufficient to comprehensively assess these models'\nperformance across expanding domains. To thoroughly evaluate these models, we\ndeveloped the IMAGINE-E and tested six prominent models: FLUX.1, Ideogram2.0,\nMidjourney, Dall-E3, Stable Diffusion 3, and Jimeng. Our evaluation is divided\ninto five key domains: structured output generation, realism, and physical\nconsistency, specific domain generation, challenging scenario generation, and\nmulti-style creation tasks. This comprehensive assessment highlights each\nmodel's strengths and limitations, particularly the outstanding performance of\nFLUX.1 and Ideogram2.0 in structured and specific domain tasks, underscoring\nthe expanding applications and potential of T2I models as foundational AI\ntools. This study provides valuable insights into the current state and future\ntrajectory of T2I models as they evolve towards general-purpose usability.\nEvaluation scripts will be released at https://github.com/jylei16/Imagine-e.",
+            "upvotes": 8,
+            "discussionId": "679317043698fd97252a8f6f"
+        },
+        "translation_title": "IMAGINE-E: 최신 Text-to-Image 모델의 이미지 생성 지능 평가",
+        "purpose": "Text-to-Image 모델의 성능을 다양한 도메인에서 포괄적으로 평가하기 위한 목적",
+        "method": [
+            "IMAGINE-E를 개발하여 FLUX.1, Ideogram2.0, Midjourney, Dall-E3, Stable Diffusion 3, Jimeng 등 6개의 저명한 모델을 테스트함(we developed the IMAGINE-E and tested six prominent models: FLUX.1, Ideogram2.0, Midjourney, Dall-E3, Stable Diffusion 3, and Jimeng)",
+            "평가는 구조화된 출력 생성, 현실감과 물리적 일관성, 특정 도메인 생성 등 5개의 주요 분야로 나누어 진행함(Our evaluation is divided into five key domains: structured output generation, realism, and physical consistency, specific domain generation, challenging scenario generation, and multi-style creation tasks)"
+        ],
+        "conclusion": "FLUX.1과 Ideogram2.0이 구조화된 특정 도메인 작업에서 뛰어난 성능을 보이며, Text-to-Image 모델이 일반화 가능성과 함께 확장성과 잠재력을 가짐을 강조함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
