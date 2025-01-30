@@ -1,0 +1,373 @@
+[
+    {
+        "paper": {
+            "id": "2501.17703",
+            "authors": [
+                {
+                    "_id": "679ae76cf211c66bd702f5d5",
+                    "user": {
+                        "_id": "636a35eff8d9af4aea181608",
+                        "avatarUrl": "/avatars/d9c5cf3491243d1f2b1c5df1873ee8e7.svg",
+                        "isPro": false,
+                        "fullname": "yubo",
+                        "user": "ubowang",
+                        "type": "user"
+                    },
+                    "name": "Yubo Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T08:39:49.375Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae76cf211c66bd702f5d6",
+                    "user": {
+                        "_id": "6230d750d93e84e233882dbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6230d750d93e84e233882dbc/4MGEekLW3oWzqeFWDWvIK.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiang Yue",
+                        "user": "yuexiang96",
+                        "type": "user"
+                    },
+                    "name": "Xiang Yue",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T15:17:01.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae76cf211c66bd702f5d7",
+                    "user": {
+                        "_id": "6313a86154e6e5d9f0f94e04",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662232951344-6313a86154e6e5d9f0f94e04.jpeg",
+                        "isPro": false,
+                        "fullname": "Wenhu Chen",
+                        "user": "wenhu",
+                        "type": "user"
+                    },
+                    "name": "Wenhu Chen",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-30T02:43:59.302Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-29T15:20:30.000Z",
+            "title": "Critique Fine-Tuning: Learning to Critique is More Effective than\n  Learning to Imitate",
+            "summary": "Supervised Fine-Tuning (SFT) is commonly used to train language models to\nimitate annotated responses for given instructions. In this paper, we challenge\nthis paradigm and propose Critique Fine-Tuning (CFT), a strategy where models\nlearn to critique noisy responses rather than simply imitate correct ones.\nInspired by human learning processes that emphasize critical thinking, CFT\nencourages deeper analysis and nuanced understanding-traits often overlooked by\nstandard SFT. To validate the effectiveness of CFT, we construct a 50K-sample\ndataset from WebInstruct, using GPT-4o as the teacher to generate critiques in\nthe form of (input=[query; noisy response], output=critique). CFT on this\ndataset yields a consistent 4-10% improvement over SFT on six math benchmarks\nwith different base models like Qwen2.5, Qwen2.5-Math and DeepSeek-Math. We\nfurther expand to MetaMath and NuminaMath datasets and observe similar gains\nover SFT. Notably, our Qwen2.5-Math-CFT model-trained on just 50K\nsamples-matches or outperforms competitive models such as AceMath and\nQwen2.5-Math-Instruct on most benchmarks, both of which use over 2M samples.\nAblation studies show that CFT is robust to the source of noisy response and\nteacher critique model. Through these findings, we argue that critique-based\ntraining offers a more effective alternative to advance the reasoning of\nlanguage models.",
+            "upvotes": 17,
+            "discussionId": "679ae770f211c66bd702f697"
+        },
+        "translation_title": "비판적 파인튜닝: 비판 학습이 모방 학습보다 효과적이다",
+        "purpose": "모델이 정확한 답변을 단순히 모방하는 대신, 노이즈가 있는 답변을 비판하도록 학습하기 위한 새로운 방법 제안",
+        "method": [
+            "전통적인 SFT를 도전하고 비판적 사고를 강조하는 Critique Fine-Tuning (CFT) 전략을 제안함(In this paper, we challenge this paradigm and propose Critique Fine-Tuning (CFT), a strategy where models learn to critique noisy responses rather than simply imitate correct ones.)",
+            "WebInstruct에서 5만 샘플의 데이터셋을 구성하고, GPT-4o를 사용해 비판을 생성함(To validate the effectiveness of CFT, we construct a 50K-sample dataset from WebInstruct, using GPT-4o as the teacher to generate critiques.)",
+            "CFT를 통해 SFT보다 4-10% 일관된 성능 향상을 얻음(CFT on this dataset yields a consistent 4-10% improvement over SFT on six math benchmarks.)"
+        ],
+        "conclusion": "CFT 접근 방식은 언어 모델의 추론 능력을 향상시키는 더 효과적인 대안을 제공한다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.17195",
+            "authors": [
+                {
+                    "_id": "679ae7655c55250b48483742",
+                    "user": {
+                        "_id": "62571e9e0e0c97db812e3afb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662586587273-62571e9e0e0c97db812e3afb.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrei Alexandru",
+                        "user": "inwaves",
+                        "type": "user"
+                    },
+                    "name": "Andrei Alexandru",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T15:17:07.941Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483743",
+                    "user": {
+                        "_id": "66e184e86048d62cd8fb4e52",
+                        "avatarUrl": "/avatars/dc459c692fe9fce0911fa1229df0aeee.svg",
+                        "isPro": false,
+                        "fullname": "Antonia Calvi",
+                        "user": "NinaCalvi",
+                        "type": "user"
+                    },
+                    "name": "Antonia Calvi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-30T09:40:54.827Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483744",
+                    "name": "Henry Broomfield",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483745",
+                    "name": "Jackson Golden",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483746",
+                    "user": {
+                        "_id": "659fc8832cb13cede03047bb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/659fc8832cb13cede03047bb/Wo_LjryGEJFnxXrOcokfE.jpeg",
+                        "isPro": true,
+                        "fullname": "kyle",
+                        "user": "kaikaidai",
+                        "type": "user"
+                    },
+                    "name": "Kyle Dai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T15:17:03.347Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483747",
+                    "name": "Mathias Leys",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483748",
+                    "user": {
+                        "_id": "66d08d5c952f5e4e64bd6be0",
+                        "avatarUrl": "/avatars/2fc3a6e3813718f0c001fb26337dab45.svg",
+                        "isPro": false,
+                        "fullname": "Maurice",
+                        "user": "MauriceBurg",
+                        "type": "user"
+                    },
+                    "name": "Maurice Burger",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T15:17:05.147Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b48483749",
+                    "name": "Max Bartolo",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b4848374a",
+                    "name": "Roman Engeler",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b4848374b",
+                    "user": {
+                        "_id": "633c4fb100732349209f2aad",
+                        "avatarUrl": "/avatars/b44ccae4fb097284730291e4fcc47a24.svg",
+                        "isPro": false,
+                        "fullname": "Sashank Pisupati",
+                        "user": "spisupat",
+                        "type": "user"
+                    },
+                    "name": "Sashank Pisupati",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T15:17:06.579Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b4848374c",
+                    "name": "Toby Drane",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae7655c55250b4848374d",
+                    "name": "Young Sun Park",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-27T15:09:08.000Z",
+            "title": "Atla Selene Mini: A General Purpose Evaluation Model",
+            "summary": "We introduce Atla Selene Mini, a state-of-the-art small language\nmodel-as-a-judge (SLMJ). Selene Mini is a general-purpose evaluator that\noutperforms the best SLMJs and GPT-4o-mini on overall performance across 11\nout-of-distribution benchmarks, spanning absolute scoring, classification, and\npairwise preference tasks. It is the highest-scoring 8B generative model on\nRewardBench, surpassing strong baselines like GPT-4o and specialized judges. To\nachieve this, we develop a principled data curation strategy that augments\npublic datasets with synthetically generated critiques and ensures high quality\nthrough filtering and dataset ablations. We train our model on a combined\ndirect preference optimization (DPO) and supervised fine-tuning (SFT) loss, and\nproduce a highly promptable evaluator that excels in real-world scenarios.\nSelene Mini shows dramatically improved zero-shot agreement with human expert\nevaluations on financial and medical industry datasets. It is also robust to\nvariations in prompt format. Preliminary results indicate that Selene Mini is\nthe top-ranking evaluator in a live, community-driven Judge Arena. We release\nthe model weights on HuggingFace\n(https://hf.co/AtlaAI/Selene-1-Mini-Llama-3.1-8B) and Ollama to encourage\nwidespread community adoption.",
+            "upvotes": 14,
+            "discussionId": "679ae76b5c55250b484838e0"
+        },
+        "translation_title": "Atla Selene Mini: 다목적 평가 모델",
+        "purpose": "다양한 평가 작업에서 높은 성능을 발휘하는 일반 목적의 평가 모델 개발",
+        "method": [
+            "공개 데이터셋을 강화하는 원칙 있는 데이터 큐레이션 전략을 개발하고(high quality through filtering and dataset ablations),",
+            "DPO(Direct Preference Optimization)와 SFT(Supervised Fine-Tuning) 손실을 결합하여 모델을 학습함(we train our model on a combined direct preference optimization and supervised fine-tuning loss),",
+            "실제 상황에서 최상급 성능을 발휘하는 평가자를 생성함(to produce a highly promptable evaluator that excels in real-world scenarios)."
+        ],
+        "conclusion": "Selene Mini는 전문가 평가와 높은 일치를 보이며 다양한 산업 데이터셋에서 우수한 성능을 발휘함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.14334",
+            "authors": [
+                {
+                    "_id": "679a7546805383520ce065af",
+                    "user": {
+                        "_id": "644156da1a80f6d83cb1667c",
+                        "avatarUrl": "/avatars/106d30a576b0fb58118ac4333b17260b.svg",
+                        "isPro": false,
+                        "fullname": "Clement Desroches",
+                        "user": "clementdesroches",
+                        "type": "user"
+                    },
+                    "name": "Clément Desroches",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-29T21:06:17.418Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679a7546805383520ce065b0",
+                    "user": {
+                        "_id": "66221f6295e8f09a668f07f0",
+                        "avatarUrl": "/avatars/f7c943996c814630ab5dcfaaaba01a83.svg",
+                        "isPro": false,
+                        "fullname": "Martin Chauvin",
+                        "user": "Neyri56",
+                        "type": "user"
+                    },
+                    "name": "Martin Chauvin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-30T09:38:17.235Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679a7546805383520ce065b1",
+                    "name": "Louis Ladan",
+                    "hidden": false
+                },
+                {
+                    "_id": "679a7546805383520ce065b2",
+                    "name": "Caroline Vateau",
+                    "hidden": false
+                },
+                {
+                    "_id": "679a7546805383520ce065b3",
+                    "name": "Simon Gosset",
+                    "hidden": false
+                },
+                {
+                    "_id": "679a7546805383520ce065b4",
+                    "name": "Philippe Cordier",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-24T08:58:49.000Z",
+            "title": "Exploring the sustainable scaling of AI dilemma: A projective study of\n  corporations' AI environmental impacts",
+            "summary": "The rapid growth of artificial intelligence (AI), particularly Large Language\nModels (LLMs), has raised concerns regarding its global environmental impact\nthat extends beyond greenhouse gas emissions to include consideration of\nhardware fabrication and end-of-life processes. The opacity from major\nproviders hinders companies' abilities to evaluate their AI-related\nenvironmental impacts and achieve net-zero targets.\n  In this paper, we propose a methodology to estimate the environmental impact\nof a company's AI portfolio, providing actionable insights without\nnecessitating extensive AI and Life-Cycle Assessment (LCA) expertise. Results\nconfirm that large generative AI models consume up to 4600x more energy than\ntraditional models. Our modelling approach, which accounts for increased AI\nusage, hardware computing efficiency, and changes in electricity mix in line\nwith IPCC scenarios, forecasts AI electricity use up to 2030. Under a high\nadoption scenario, driven by widespread Generative AI and agents adoption\nassociated to increasingly complex models and frameworks, AI electricity use is\nprojected to rise by a factor of 24.4.\n  Mitigating the environmental impact of Generative AI by 2030 requires\ncoordinated efforts across the AI value chain. Isolated measures in hardware\nefficiency, model efficiency, or grid improvements alone are insufficient. We\nadvocate for standardized environmental assessment frameworks, greater\ntransparency from the all actors of the value chain and the introduction of a\n\"Return on Environment\" metric to align AI development with net-zero goals.",
+            "upvotes": 13,
+            "discussionId": "679a7548805383520ce065f5"
+        },
+        "translation_title": "AI의 지속 가능한 확장 탐구: 기업의 AI 환경 영향에 대한 프로젝트 연구",
+        "purpose": "기업의 AI 포트폴리오의 환경 영향을 추정하고, 광범위한 AI 및 생애 주기 평가 전문 지식이 필요 없는 실행 가능한 통찰력을 제공하는 방법론 제안",
+        "method": [
+            "기업의 AI 관련 환경 영향을 평가할 수 있도록 기존의 LCA 전문 지식 없이도 활용할 수 있는 방법론을 제안함(The opacity from major providers hinders companies' abilities to evaluate their AI-related environmental impacts and achieve net-zero targets.)",
+            "대규모 생성 AI 모델이 전통적인 모델보다 최대 4600배 더 많은 에너지를 소비함을 확인함(Results confirm that large generative AI models consume up to 4600x more energy than traditional models.)",
+            "AI 사용 증가, 하드웨어 컴퓨팅 효율성, 전기 믹스 변화를 반영하여 2030년까지의 AI 전기 사용 예측 모델링을 수행함(Our modelling approach, which accounts for increased AI usage, hardware computing efficiency, and changes in electricity mix in line with IPCC scenarios, forecasts AI electricity use up to 2030.)"
+        ],
+        "conclusion": "Generative AI의 환경 영향을 줄이기 위해서는 2030년까지 AI 가치 사슬 전반의 협력이 필요하며, 표준화된 환경 평가 체계 수립과 함께 투명성을 높이는 것이 중요하다.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.17749",
+            "authors": [
+                {
+                    "_id": "679ae5eab898ac90bf4480b6",
+                    "user": {
+                        "_id": "657b3a44de028a439ea2ed9d",
+                        "avatarUrl": "/avatars/9f05e8eb6809a0ce1b50cd1fc9b5a044.svg",
+                        "isPro": false,
+                        "fullname": "Aitor Arrieta",
+                        "user": "aitorarrieta",
+                        "type": "user"
+                    },
+                    "name": "Aitor Arrieta",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-01-30T08:45:20.561Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae5eab898ac90bf4480b7",
+                    "name": "Miriam Ugarte",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae5eab898ac90bf4480b8",
+                    "user": {
+                        "_id": "65001514f322f9156663f096",
+                        "avatarUrl": "/avatars/e8712f60d4e8b7c70ac02c532ad547ef.svg",
+                        "isPro": false,
+                        "fullname": "Pablo Valle",
+                        "user": "pablovalle",
+                        "type": "user"
+                    },
+                    "name": "Pablo Valle",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-30T09:39:30.629Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae5eab898ac90bf4480b9",
+                    "user": {
+                        "_id": "63527de67e4cc3135fd16651",
+                        "avatarUrl": "/avatars/5eb8076d448d0b6746e256c24e1440e0.svg",
+                        "isPro": false,
+                        "fullname": "José Antonio Parejo Maestre",
+                        "user": "japarejo",
+                        "type": "user"
+                    },
+                    "name": "José Antonio Parejo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-30T09:39:06.958Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ae5eab898ac90bf4480ba",
+                    "user": {
+                        "_id": "6790d642a1863df579840ae3",
+                        "avatarUrl": "/avatars/a10a6f4af327c1bb67513c56d7f84820.svg",
+                        "isPro": false,
+                        "fullname": "Sergio Segura",
+                        "user": "ssegura",
+                        "type": "user"
+                    },
+                    "name": "Sergio Segura",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-01-30T02:37:35.516Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-29T16:36:53.000Z",
+            "title": "Early External Safety Testing of OpenAI's o3-mini: Insights from the\n  Pre-Deployment Evaluation",
+            "summary": "Large Language Models (LLMs) have become an integral part of our daily lives.\nHowever, they impose certain risks, including those that can harm individuals'\nprivacy, perpetuate biases and spread misinformation. These risks highlight the\nneed for robust safety mechanisms, ethical guidelines, and thorough testing to\nensure their responsible deployment. Safety of LLMs is a key property that\nneeds to be thoroughly tested prior the model to be deployed and accessible to\nthe general users. This paper reports the external safety testing experience\nconducted by researchers from Mondragon University and University of Seville on\nOpenAI's new o3-mini LLM as part of OpenAI's early access for safety testing\nprogram. In particular, we apply our tool, ASTRAL, to automatically and\nsystematically generate up to date unsafe test inputs (i.e., prompts) that\nhelps us test and assess different safety categories of LLMs. We automatically\ngenerate and execute a total of 10,080 unsafe test input on a early o3-mini\nbeta version. After manually verifying the test cases classified as unsafe by\nASTRAL, we identify a total of 87 actual instances of unsafe LLM behavior. We\nhighlight key insights and findings uncovered during the pre-deployment\nexternal testing phase of OpenAI's latest LLM.",
+            "upvotes": 7,
+            "discussionId": "679ae5f0b898ac90bf44826c"
+        },
+        "translation_title": "OpenAI의 o3-mini 초기 외부 안전성 테스트: 배포 전 평가에서 얻은 통찰",
+        "purpose": "OpenAI의 LLM 안전성 테스트를 통해 모델의 안전성을 보장하고 책임 있는 배포 마련",
+        "method": [
+            "Mondragon University와 University of Seville 연구자들이 OpenAI의 o3-mini LLM에 대해 외부 안전성 테스트를 수행함(we report the external safety testing experience conducted by researchers from Mondragon University and University of Seville on OpenAI's new o3-mini LLM).",
+            "ASTRAL이라는 도구를 사용해 최신의 안전하지 않은 테스트 입력(프롬프트)을 자동으로 생성하고 평가함(we apply our tool, ASTRAL, to automatically and systematically generate up to date unsafe test inputs).",
+            "총 10,080개의 안전하지 않은 테스트 입력을 자동으로 생성하고 실행함(we automatically generate and execute a total of 10,080 unsafe test input on a early o3-mini beta version).",
+            "ASTRAL이 분류한 안전하지 않은 테스트 케이스를 수동으로 검증한 결과, 87개의 실제 안전하지 않은 LLM 행동 사례를 확인함(we identify a total of 87 actual instances of unsafe LLM behavior after manually verifying the test cases classified as unsafe by ASTRAL.)"
+        ],
+        "conclusion": "OpenAI의 최신 LLM에 대한 배포 전 외부 테스트 단계에서 주요 통찰과 발견을 강조함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
