@@ -1,0 +1,512 @@
+[
+    {
+        "paper": {
+            "id": "2501.18492",
+            "authors": [
+                {
+                    "_id": "679c4ac5e2c0dbf282597d35",
+                    "user": {
+                        "_id": "64b708351a4d97b5d7edd369",
+                        "avatarUrl": "/avatars/960c1033f9cf218220f86de22c06915b.svg",
+                        "isPro": false,
+                        "fullname": "Yue Liu",
+                        "user": "yueliu1998",
+                        "type": "user"
+                    },
+                    "name": "Yue Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:41:25.697Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d36",
+                    "user": {
+                        "_id": "62728f4f6253fe2068da1021",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62728f4f6253fe2068da1021/KZ65X0EH98AF3zXemPiap.jpeg",
+                        "isPro": false,
+                        "fullname": "Hongcheng Gao",
+                        "user": "HongchengGao",
+                        "type": "user"
+                    },
+                    "name": "Hongcheng Gao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-31T08:35:51.645Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d37",
+                    "user": {
+                        "_id": "6366429195204b4649c658b8",
+                        "avatarUrl": "/avatars/5d80e9ebe0b57fd815f36796b9187248.svg",
+                        "isPro": false,
+                        "fullname": "Shengfang Zhai",
+                        "user": "zsf",
+                        "type": "user"
+                    },
+                    "name": "Shengfang Zhai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:41:32.474Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d38",
+                    "user": {
+                        "_id": "679c68bbfc30f43de85206f5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/IJWda9ZYtjzlhr2ehsLHu.jpeg",
+                        "isPro": false,
+                        "fullname": "Jun Xia",
+                        "user": "JunXia97",
+                        "type": "user"
+                    },
+                    "name": "Jun Xia",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:41:53.366Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d39",
+                    "name": "Tianyi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d3a",
+                    "user": {
+                        "_id": "63f42ca3520c1461892ee929",
+                        "avatarUrl": "/avatars/095241acfe7c783d2406abf63ff81f65.svg",
+                        "isPro": false,
+                        "fullname": "xuezhiwei",
+                        "user": "lakxtxue",
+                        "type": "user"
+                    },
+                    "name": "Zhiwei Xue",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:42:30.842Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d3b",
+                    "user": {
+                        "_id": "65efc25828426de60f977dfc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/u8ZcIoo58JPLdnjm-jZeo.png",
+                        "isPro": false,
+                        "fullname": "Yulin Chen",
+                        "user": "CallMeChen",
+                        "type": "user"
+                    },
+                    "name": "Yulin Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:42:41.013Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d3c",
+                    "name": "Kenji Kawaguchi",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d3d",
+                    "user": {
+                        "_id": "669e19e5dac1eb34c0f5f505",
+                        "avatarUrl": "/avatars/bec7d1d1dac2ad6570844d1f00e7df0a.svg",
+                        "isPro": false,
+                        "fullname": "Jiaheng Zhang",
+                        "user": "jiaheng233",
+                        "type": "user"
+                    },
+                    "name": "Jiaheng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:37:04.493Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4ac5e2c0dbf282597d3e",
+                    "user": {
+                        "_id": "651d8032c50012d33e914f2f",
+                        "avatarUrl": "/avatars/0a44c9f51fc50ce86582e328c361ea00.svg",
+                        "isPro": false,
+                        "fullname": "Bryan Hooi",
+                        "user": "bhooi",
+                        "type": "user"
+                    },
+                    "name": "Bryan Hooi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:42:50.273Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-30T17:06:06.000Z",
+            "title": "GuardReasoner: Towards Reasoning-based LLM Safeguards",
+            "summary": "As LLMs increasingly impact safety-critical applications, ensuring their\nsafety using guardrails remains a key challenge. This paper proposes\nGuardReasoner, a new safeguard for LLMs, by guiding the guard model to learn to\nreason. Concretely, we first create the GuardReasonerTrain dataset, which\nconsists of 127K samples with 460K detailed reasoning steps. Then, we introduce\nreasoning SFT to unlock the reasoning capability of guard models. In addition,\nwe present hard sample DPO to further strengthen their reasoning ability. In\nthis manner, GuardReasoner achieves better performance, explainability, and\ngeneralizability. Extensive experiments and analyses on 13 benchmarks of 3\nguardrail tasks demonstrate its superiority. Remarkably, GuardReasoner 8B\nsurpasses GPT-4o+CoT by 5.74% and LLaMA Guard 3 8B by 20.84% F1 score on\naverage. We release the training data, code, and models with different scales\n(1B, 3B, 8B) of GuardReasoner : https://github.com/yueliu1999/GuardReasoner/.",
+            "upvotes": 37,
+            "discussionId": "679c4ac6e2c0dbf282597d80"
+        },
+        "translation_title": "GuardReasoner: 추론 기반 LLM 안전 장치 개발",
+        "purpose": "LLM의 안전성을 향상시키기 위해 추론 능력을 학습하도록 가드 모델을 유도하는 안전 장치 연구",
+        "method": [
+            "GuardReasonerTrain 데이터셋을 만들어 127K 샘플과 460K 세부 추론 단계를 수집함(we first create the GuardReasonerTrain dataset, which consists of 127K samples with 460K detailed reasoning steps.)",
+            "추론 능력을 발휘하기 위해 가드 모델에 대해 SFT 방법을 도입함(we introduce reasoning SFT to unlock the reasoning capability of guard models.)",
+            "어려운 샘플에 대한 DPO를 통해 가드 모델의 추론 능력을 추가로 강화함(in addition, we present hard sample DPO to further strengthen their reasoning ability.)"
+        ],
+        "conclusion": "GuardReasoner는 추론 능력이 향상되어 성능, 설명 가능성, 일반화 능력이 뛰어나며, 여러 기준에서 다른 모델들을 초월함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.18585",
+            "authors": [
+                {
+                    "_id": "679c5ca666c379e215bc9e74",
+                    "name": "Yue Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e75",
+                    "user": {
+                        "_id": "63e60ff62d704152abac8af8",
+                        "avatarUrl": "/avatars/a54c34fb87a7ed5aeba792852747de92.svg",
+                        "isPro": false,
+                        "fullname": "Qiuzhi Liu",
+                        "user": "Dennis364",
+                        "type": "user"
+                    },
+                    "name": "Qiuzhi Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:45:37.562Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e76",
+                    "user": {
+                        "_id": "660399710f1fc2f16de18072",
+                        "avatarUrl": "/avatars/c22a749cc45db693c2d9ea877c7cace4.svg",
+                        "isPro": false,
+                        "fullname": "Jiahao Xu",
+                        "user": "Jiahao004",
+                        "type": "user"
+                    },
+                    "name": "Jiahao Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:45:31.807Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e77",
+                    "name": "Tian Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e78",
+                    "name": "Xingyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e79",
+                    "user": {
+                        "_id": "638439ca834d3558a398d035",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669609868550-noauth.png",
+                        "isPro": false,
+                        "fullname": "Zhiwei He",
+                        "user": "zwhe99",
+                        "type": "user"
+                    },
+                    "name": "Zhiwei He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:44:45.300Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7a",
+                    "user": {
+                        "_id": "64c94eddcb2f1bf0e7db5a4d",
+                        "avatarUrl": "/avatars/f7e2532d3c85d5e5b5a02c579ea68c3a.svg",
+                        "isPro": false,
+                        "fullname": "Linfeng Song",
+                        "user": "freesunshine0316",
+                        "type": "user"
+                    },
+                    "name": "Linfeng Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:44:29.221Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7b",
+                    "user": {
+                        "_id": "62d58fd53bf5e059f7cc3245",
+                        "avatarUrl": "/avatars/7a4f3ee4a37245f67efd26749d66a706.svg",
+                        "isPro": false,
+                        "fullname": "Dian Yu",
+                        "user": "yudian",
+                        "type": "user"
+                    },
+                    "name": "Dian Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:44:23.114Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7c",
+                    "user": {
+                        "_id": "6670e285b0c03c4e9d6e0985",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/uCZHm4gKSHZ2b0hpHWgZv.jpeg",
+                        "isPro": false,
+                        "fullname": "Juntao Li",
+                        "user": "douvleplus",
+                        "type": "user"
+                    },
+                    "name": "Juntao Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:44:12.069Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7d",
+                    "user": {
+                        "_id": "5f82f9f7f0801648bf8844b2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669627733134-5f82f9f7f0801648bf8844b2.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhuosheng Zhang",
+                        "user": "cooelf",
+                        "type": "user"
+                    },
+                    "name": "Zhuosheng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:44:05.749Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7e",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e7f",
+                    "user": {
+                        "_id": "67485743561b1e6f9579389f",
+                        "avatarUrl": "/avatars/8a4cc63bd7be388010bc329bb74582a1.svg",
+                        "isPro": false,
+                        "fullname": "Zhaopeng Tu",
+                        "user": "zptu",
+                        "type": "user"
+                    },
+                    "name": "Zhaopeng Tu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:43:27.683Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e80",
+                    "user": {
+                        "_id": "65147a1426fbd558dbd08f1b",
+                        "avatarUrl": "/avatars/86574ee2d5c22e940be1c4e50be88675.svg",
+                        "isPro": false,
+                        "fullname": "Haitao Mi",
+                        "user": "haitaominlp",
+                        "type": "user"
+                    },
+                    "name": "Haitao Mi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:43:21.871Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c5ca666c379e215bc9e81",
+                    "name": "Dong Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-30T18:58:18.000Z",
+            "title": "Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs",
+            "summary": "Large language models (LLMs) such as OpenAI's o1 have demonstrated remarkable\nabilities in complex reasoning tasks by scaling test-time compute and\nexhibiting human-like deep thinking. However, we identify a phenomenon we term\nunderthinking, where o1-like LLMs frequently switch between different reasoning\nthoughts without sufficiently exploring promising paths to reach a correct\nsolution. This behavior leads to inadequate depth of reasoning and decreased\nperformance, particularly on challenging mathematical problems. To\nsystematically analyze this issue, we conduct experiments on three challenging\ntest sets and two representative open-source o1-like models, revealing that\nfrequent thought switching correlates with incorrect responses. We introduce a\nnovel metric to quantify underthinking by measuring token efficiency in\nincorrect answers. To address underthinking, we propose a decoding strategy\nwith thought switching penalty TIP that discourages premature transitions\nbetween thoughts, encouraging deeper exploration of each reasoning path.\nExperimental results demonstrate that our approach improves accuracy across\nchallenging datasets without requiring model fine-tuning. Our findings\ncontribute to understanding reasoning inefficiencies in o1-like LLMs and offer\na practical solution to enhance their problem-solving capabilities.",
+            "upvotes": 11,
+            "discussionId": "679c5ca766c379e215bc9eb1"
+        },
+        "translation_title": "생각이 엉망이다: o1 유사 LLM의 과소사고에 대하여",
+        "purpose": "o1 유사 LLM의 과소사고 문제를 이해하고 해결하여 문제 해결 능력을 향상시키고자 함",
+        "method": [
+            "세 가지 어려운 테스트 세트와 두 개의 오픈소스 o1 유사 모델을 대상으로 실험을 진행하여 자주 생각을 전환하는 현상과 잘못된 응답 간의 상관관계를 분석함(We conduct experiments on three challenging test sets and two representative open-source o1-like models, revealing that frequent thought switching correlates with incorrect responses.)",
+            "잘못된 응답에서 토큰 효율성을 측정해 과소사고를 정의하는 새로운 지표를 도입함(We introduce a novel metric to quantify underthinking by measuring token efficiency in incorrect answers.)",
+            "TIP이라는 생각 전환 패널티가 포함된 디코딩 전략을 제안하여, 생각 사이의 빠른 전환을 방지하고 각 사고 경로를 깊이 있게 탐색하도록 유도함(We propose a decoding strategy with thought switching penalty TIP that discourages premature transitions between thoughts, encouraging deeper exploration of each reasoning path.)"
+        ],
+        "conclusion": "우리의 접근 방식은 모델의 세밀한 조정 없이도 어려운 데이터셋에서 정확성을 향상시켰으며, o1 유사 LLM의 사고 효율성을 이해하는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.18512",
+            "authors": [
+                {
+                    "_id": "679ca01ecad2402cec0a939a",
+                    "name": "Arthur Douillard",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a939b",
+                    "name": "Yanislav Donchev",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a939c",
+                    "name": "Keith Rush",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a939d",
+                    "name": "Satyen Kale",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a939e",
+                    "name": "Zachary Charles",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a939f",
+                    "name": "Zachary Garrett",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a0",
+                    "name": "Gabriel Teston",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a1",
+                    "name": "Dave Lacey",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a2",
+                    "name": "Ross McIlroy",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a3",
+                    "name": "Jiajun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a4",
+                    "name": "Alexandre Ramé",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a5",
+                    "name": "Arthur Szlam",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a6",
+                    "name": "Marc'Aurelio Ranzato",
+                    "hidden": false
+                },
+                {
+                    "_id": "679ca01ecad2402cec0a93a7",
+                    "name": "Paul Barham",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-30T17:23:50.000Z",
+            "title": "Streaming DiLoCo with overlapping communication: Towards a Distributed\n  Free Lunch",
+            "summary": "Training of large language models (LLMs) is typically distributed across a\nlarge number of accelerators to reduce training time. Since internal states and\nparameter gradients need to be exchanged at each and every single gradient\nstep, all devices need to be co-located using low-latency high-bandwidth\ncommunication links to support the required high volume of exchanged bits.\nRecently, distributed algorithms like DiLoCo have relaxed such co-location\nconstraint: accelerators can be grouped into ``workers'', where\nsynchronizations between workers only occur infrequently. This in turn means\nthat workers can afford being connected by lower bandwidth communication links\nwithout affecting learning quality. However, in these methods, communication\nacross workers still requires the same peak bandwidth as before, as the\nsynchronizations require all parameters to be exchanged across all workers. In\nthis paper, we improve DiLoCo in three ways. First, we synchronize only subsets\nof parameters in sequence, rather than all at once, which greatly reduces peak\nbandwidth. Second, we allow workers to continue training while synchronizing,\nwhich decreases wall clock time. Third, we quantize the data exchanged by\nworkers, which further reduces bandwidth across workers. By properly combining\nthese modifications, we show experimentally that we can distribute training of\nbillion-scale parameters and reach similar quality as before, but reducing\nrequired bandwidth by two orders of magnitude.",
+            "upvotes": 7,
+            "discussionId": "679ca01fcad2402cec0a9404"
+        },
+        "translation_title": "중복 통신을 통한 Streaming DiLoCo: 분산 무료 점심을 향하여",
+        "purpose": "대규모 언어 모델(LLMs)의 훈련 시간을 줄이기 위해 필요한 통신 대역폭을 감소시키는 방법을 모색함",
+        "method": [
+            "동시에 모든 매개변수를 동기화하는 대신 일부 매개변수만 순차적으로 동기화함으로써 최대 대역폭을 크게 줄임(we synchronize only subsets of parameters in sequence, rather than all at once, which greatly reduces peak bandwidth.)",
+            "동기화하는 동안에도 작업자가 계속 훈련할 수 있도록 하여 총 소요 시간을 감소시킴(we allow workers to continue training while synchronizing, which decreases wall clock time.)",
+            "작업자 간에 교환되는 데이터를 양자화하여 대역폭을 추가로 줄임(we quantize the data exchanged by workers, which further reduces bandwidth across workers.)"
+        ],
+        "conclusion": "이러한 방식의 결합을 통해 우리는 10억 개 규모의 매개변수를 분산 훈련하면서도 예전과 유사한 품질을 유지하면서 대역폭 요구량을 두 배 줄일 수 있음을 실험적으로 입증함.",
+        "keywords": [
+            "Large Language Models",
+            "Distributed Training",
+            "Bandwidth Reduction"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.16411",
+            "authors": [
+                {
+                    "_id": "679c4f344061a1ab60ebe6fa",
+                    "user": {
+                        "_id": "644b71ddb2e7823a76abcf91",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644b71ddb2e7823a76abcf91/JPF7Eqeq2jx8i79nQ962K.jpeg",
+                        "isPro": false,
+                        "fullname": "zhou wei",
+                        "user": "WeiChow",
+                        "type": "user"
+                    },
+                    "name": "Wei Chow",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-01-31T08:35:49.674Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4f344061a1ab60ebe6fb",
+                    "name": "Jiageng Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4f344061a1ab60ebe6fc",
+                    "user": {
+                        "_id": "620dd3888528f797e88cb9b5",
+                        "avatarUrl": "/avatars/af04728788d78fe7d6375e19e32a535e.svg",
+                        "isPro": false,
+                        "fullname": "Boyi Li",
+                        "user": "Boyiliee",
+                        "type": "user"
+                    },
+                    "name": "Boyi Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-01-31T08:46:09.305Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4f344061a1ab60ebe6fd",
+                    "name": "Daniel Seita",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4f344061a1ab60ebe6fe",
+                    "name": "Vitor Guizilini",
+                    "hidden": false
+                },
+                {
+                    "_id": "679c4f344061a1ab60ebe6ff",
+                    "name": "Yue Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-27T18:59:58.000Z",
+            "title": "PhysBench: Benchmarking and Enhancing Vision-Language Models for\n  Physical World Understanding",
+            "summary": "Understanding the physical world is a fundamental challenge in embodied AI,\ncritical for enabling agents to perform complex tasks and operate safely in\nreal-world environments. While Vision-Language Models (VLMs) have shown great\npromise in reasoning and task planning for embodied agents, their ability to\ncomprehend physical phenomena remains extremely limited. To close this gap, we\nintroduce PhysBench, a comprehensive benchmark designed to evaluate VLMs'\nphysical world understanding capability across a diverse set of tasks.\nPhysBench contains 10,002 entries of interleaved video-image-text data,\ncategorized into four major domains: physical object properties, physical\nobject relationships, physical scene understanding, and physics-based dynamics,\nfurther divided into 19 subclasses and 8 distinct capability dimensions. Our\nextensive experiments, conducted on 75 representative VLMs, reveal that while\nthese models excel in common-sense reasoning, they struggle with understanding\nthe physical world -- likely due to the absence of physical knowledge in their\ntraining data and the lack of embedded physical priors. To tackle the\nshortfall, we introduce PhysAgent, a novel framework that combines the\ngeneralization strengths of VLMs with the specialized expertise of vision\nmodels, significantly enhancing VLMs' physical understanding across a variety\nof tasks, including an 18.4\\% improvement on GPT-4o. Furthermore, our results\ndemonstrate that enhancing VLMs' physical world understanding capabilities can\nhelp embodied agents such as MOKA. We believe that PhysBench and PhysAgent\noffer valuable insights and contribute to bridging the gap between VLMs and\nphysical world understanding.",
+            "upvotes": 7,
+            "discussionId": "679c4f394061a1ab60ebe7f0"
+        },
+        "translation_title": "PhysBench: 물리적 세계 이해를 위한 Vision-Language 모델의 벤치마킹 및 향상",
+        "purpose": "물리적 세계를 이해하기 위한 Vision-Language 모델의 성능을 평가하고 향상시키기 위한 체계적인 방법론 개발",
+        "method": [
+            "PhysBench라는 포괄적인 벤치마크를 개발하여 다양한 작업에서 VLM의 물리적 세계 이해 능력을 평가함(we introduce PhysBench, a comprehensive benchmark designed to evaluate VLMs' physical world understanding capability across a diverse set of tasks.)",
+            "10,002개의 비디오-이미지-텍스트 데이터를 포함하며, 물리적 사물의 속성, 관계, 장면 이해, 물리학적 동역학 등 4 가지 주요 영역으로 분류함(PhysBench contains 10,002 entries of interleaved video-image-text data, categorized into four major domains: physical object properties, physical object relationships, physical scene understanding, and physics-based dynamics.)",
+            "75개의 대표적인 VLM을 대상으로 실험을 통해 물리적 이해에서의 한계를 확인하고, PhysAgent라는 새로운 프레임워크를 소개하여 VLM의 물리적 이해를 향상시킴(Our extensive experiments, conducted on 75 representative VLMs, reveal that while these models excel in common-sense reasoning, they struggle with understanding the physical world, and we introduce PhysAgent, a novel framework to enhance VLMs' physical understanding.)"
+        ],
+        "conclusion": "PhysBench와 PhysAgent는 VLM이 물리적 세계를 더 잘 이해할 수 있도록 도와주며, 앞으로의 연구와 실제 응용에 중요한 기여를 할 것으로 보임.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Robotics"
+        ]
+    }
+]
