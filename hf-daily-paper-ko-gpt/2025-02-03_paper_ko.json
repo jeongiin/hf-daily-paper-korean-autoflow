@@ -1,0 +1,791 @@
+[
+    {
+        "paper": {
+            "id": "2501.19393",
+            "authors": [
+                {
+                    "_id": "67a02dd80e751b0476a1bcc6",
+                    "user": {
+                        "_id": "5f1eb362eec0ad2a071ad6e2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5f1eb362eec0ad2a071ad6e2/IXMYkYKuTwn6kBdWnQeeY.png",
+                        "isPro": false,
+                        "fullname": "Niklas Muennighoff",
+                        "user": "Muennighoff",
+                        "type": "user"
+                    },
+                    "name": "Niklas Muennighoff",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:07:41.451Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bcc7",
+                    "user": {
+                        "_id": "65a5b721f6cfc4b24a75732b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65a5b721f6cfc4b24a75732b/Hr2AZi3uC6nVl_x3er2Hn.png",
+                        "isPro": false,
+                        "fullname": "Zitong Yang",
+                        "user": "zitongyang",
+                        "type": "user"
+                    },
+                    "name": "Zitong Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:09:05.373Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bcc8",
+                    "user": {
+                        "_id": "6400f2ed568dbe30c9161e47",
+                        "avatarUrl": "/avatars/c55938df5bce82b5d96e592a1ec36a8b.svg",
+                        "isPro": false,
+                        "fullname": "Weijia Shi",
+                        "user": "swj0419",
+                        "type": "user"
+                    },
+                    "name": "Weijia Shi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:09:20.064Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bcc9",
+                    "name": "Xiang Lisa Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bcca",
+                    "name": "Li Fei-Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bccb",
+                    "name": "Hannaneh Hajishirzi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bccc",
+                    "name": "Luke Zettlemoyer",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bccd",
+                    "user": {
+                        "_id": "6409651b9e9f790c905b2335",
+                        "avatarUrl": "/avatars/1fb8c80b60f21f65a0a027319101f236.svg",
+                        "isPro": false,
+                        "fullname": "Percy Liang",
+                        "user": "percyliang",
+                        "type": "user"
+                    },
+                    "name": "Percy Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:10:17.521Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bcce",
+                    "name": "Emmanuel Candès",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a02dd80e751b0476a1bccf",
+                    "name": "Tatsunori Hashimoto",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-31T18:48:08.000Z",
+            "title": "s1: Simple test-time scaling",
+            "summary": "Test-time scaling is a promising new approach to language modeling that uses\nextra test-time compute to improve performance. Recently, OpenAI's o1 model\nshowed this capability but did not publicly share its methodology, leading to\nmany replication efforts. We seek the simplest approach to achieve test-time\nscaling and strong reasoning performance. First, we curate a small dataset s1K\nof 1,000 questions paired with reasoning traces relying on three criteria we\nvalidate through ablations: difficulty, diversity, and quality. Second, we\ndevelop budget forcing to control test-time compute by forcefully terminating\nthe model's thinking process or lengthening it by appending \"Wait\" multiple\ntimes to the model's generation when it tries to end. This can lead the model\nto double-check its answer, often fixing incorrect reasoning steps. After\nsupervised finetuning the Qwen2.5-32B-Instruct language model on s1K and\nequipping it with budget forcing, our model s1 exceeds o1-preview on\ncompetition math questions by up to 27% (MATH and AIME24). Further, scaling s1\nwith budget forcing allows extrapolating beyond its performance without\ntest-time intervention: from 50% to 57% on AIME24. Our model, data, and code\nare open-source at https://github.com/simplescaling/s1.",
+            "upvotes": 35,
+            "discussionId": "67a02dd90e751b0476a1bd02"
+        },
+        "translation_title": "s1: 간단한 테스트 시간 스케일링",
+        "purpose": "테스트 시간 스케일링 방법을 통해 언어 모델의 성능을 개선하고자 함",
+        "method": [
+            "1,000개의 질문과 추론 과정을 쌍으로 한 작은 데이터 세트 s1K를 구축함(First, we curate a small dataset s1K of 1,000 questions paired with reasoning traces relying on three criteria we validate through ablations: difficulty, diversity, and quality.)",
+            "모델의 사고 과정을 강제로 종료하거나 연장하는 budget forcing 기법을 개발함(Second, we develop budget forcing to control test-time compute by forcefully terminating the model's thinking process or lengthening it by appending 'Wait' multiple times to the model's generation when it tries to end.)",
+            "Qwen2.5-32B-Instruct 언어 모델을 s1K 데이터로 슈퍼바이즈드 파인튜닝한 후 budget forcing을 적용함(After supervised finetuning the Qwen2.5-32B-Instruct language model on s1K and equipping it with budget forcing.)"
+        ],
+        "conclusion": "우리 모델 s1은 경쟁数学 질문에서 o1-preview보다 최대 27% 이상의 성능을 기록하였으며, budget forcing을 통해 테스트 시간 개입 없이도 성능을 확장할 수 있게 됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.19324",
+            "authors": [
+                {
+                    "_id": "67a04151dd7b3a4aba880589",
+                    "user": {
+                        "_id": "62c414354ce7250560a1f67f",
+                        "avatarUrl": "/avatars/28fd73973d1703c84f4f59644fef8a80.svg",
+                        "isPro": false,
+                        "fullname": "Baohao Liao",
+                        "user": "baohao",
+                        "type": "user"
+                    },
+                    "name": "Baohao Liao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:10:48.379Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058a",
+                    "user": {
+                        "_id": "6602869253a0518b2a98cafd",
+                        "avatarUrl": "/avatars/c14b5953a716f42c83ad28147f8308ae.svg",
+                        "isPro": false,
+                        "fullname": "Yuhui Xu",
+                        "user": "yuhuixu",
+                        "type": "user"
+                    },
+                    "name": "Yuhui Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-03T11:07:52.570Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058b",
+                    "user": {
+                        "_id": "63a3ff69f91ad3ea5703841d",
+                        "avatarUrl": "/avatars/69227c4bce01d33747c1377b6f9672db.svg",
+                        "isPro": false,
+                        "fullname": "Hanze Dong",
+                        "user": "hendrydong",
+                        "type": "user"
+                    },
+                    "name": "Hanze Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:10:54.880Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058c",
+                    "user": {
+                        "_id": "61f9d3b54ac99e8a1bae85f4",
+                        "avatarUrl": "/avatars/ac47d13204dd22452e4bc46e280842d5.svg",
+                        "isPro": false,
+                        "fullname": "JunnanLi",
+                        "user": "JunnanLi",
+                        "type": "user"
+                    },
+                    "name": "Junnan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:11:08.170Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058d",
+                    "name": "Christof Monz",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058e",
+                    "name": "Silvio Savarese",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba88058f",
+                    "user": {
+                        "_id": "65f84fd980481173afd91233",
+                        "avatarUrl": "/avatars/6ac7bd6beba24d1476c5179b88c9e3fa.svg",
+                        "isPro": false,
+                        "fullname": "Doyen",
+                        "user": "doyensahoo",
+                        "type": "user"
+                    },
+                    "name": "Doyen Sahoo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:11:23.345Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04151dd7b3a4aba880590",
+                    "user": {
+                        "_id": "649dbcc4e0fff1ed099dc80a",
+                        "avatarUrl": "/avatars/c87c273ca628dbcddccbf1ee19b2ce33.svg",
+                        "isPro": false,
+                        "fullname": "Caiming Xiong",
+                        "user": "cxiong",
+                        "type": "user"
+                    },
+                    "name": "Caiming Xiong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:11:29.821Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-31T17:19:57.000Z",
+            "title": "Reward-Guided Speculative Decoding for Efficient LLM Reasoning",
+            "summary": "We introduce Reward-Guided Speculative Decoding (RSD), a novel framework\naimed at improving the efficiency of inference in large language models (LLMs).\nRSD synergistically combines a lightweight draft model with a more powerful\ntarget model, incorporating a controlled bias to prioritize high-reward\noutputs, in contrast to existing speculative decoding methods that enforce\nstrict unbiasedness. RSD employs a process reward model to evaluate\nintermediate decoding steps and dynamically decide whether to invoke the target\nmodel, optimizing the trade-off between computational cost and output quality.\nWe theoretically demonstrate that a threshold-based mixture strategy achieves\nan optimal balance between resource utilization and performance. Extensive\nevaluations on challenging reasoning benchmarks, including Olympiad-level\ntasks, show that RSD delivers significant efficiency gains against decoding\nwith the target model only (up to 4.4x fewer FLOPs), while achieving\nsignificant better accuracy than parallel decoding method on average (up to\n+3.5). These results highlight RSD as a robust and cost-effective approach for\ndeploying LLMs in resource-intensive scenarios.",
+            "upvotes": 20,
+            "discussionId": "67a04152dd7b3a4aba8805c0"
+        },
+        "translation_title": "효율적인 LLM 추론을 위한 보상 기반 추측 디코딩",
+        "purpose": "Large Language Models의 추론 효율성을 향상시키기 위한 새로운 프레임워크 개발",
+        "method": [
+            "경량의 드래프트 모델과 더 강력한 타겟 모델을 결합하여 높은 보상을 우선시하는 제어된 편향을 도입함(RSD synergistically combines a lightweight draft model with a more powerful target model, incorporating a controlled bias to prioritize high-reward outputs.)",
+            "프로세스 보상 모델을 사용하여 중간 디코딩 단계를 평가하고, 타겟 모델을 호출할지를 동적으로 결정함(RSD employs a process reward model to evaluate intermediate decoding steps and dynamically decide whether to invoke the target model.)",
+            "최적의 자원 활용과 성과의 균형을 이루는 임계값 기반 혼합 전략을 이론적으로 검증함(We theoretically demonstrate that a threshold-based mixture strategy achieves an optimal balance between resource utilization and performance.)"
+        ],
+        "conclusion": "RSD는 추론 과정에서 성능을 개선하면서 리소스 사용을 크게 줄여, LLM을 비용 효율적으로 배포할 수 있는 방법임을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.18119",
+            "authors": [
+                {
+                    "_id": "67a0a3201d9fadf4470cb07a",
+                    "user": {
+                        "_id": "66ac77011cfb12c087605acb",
+                        "avatarUrl": "/avatars/54c06bd1c4c9d491470ed4162c2301ae.svg",
+                        "isPro": false,
+                        "fullname": "Lin",
+                        "user": "Qika",
+                        "type": "user"
+                    },
+                    "name": "Qika Lin",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-03T11:06:10.149Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb07b",
+                    "name": "Tianzhe Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb07c",
+                    "name": "Kai He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb07d",
+                    "name": "Zhen Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb07e",
+                    "name": "Fangzhi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb07f",
+                    "name": "Ling Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb080",
+                    "name": "Jingying Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0a3201d9fadf4470cb081",
+                    "name": "Mengling Feng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-30T03:40:20.000Z",
+            "title": "Self-supervised Quantized Representation for Seamlessly Integrating\n  Knowledge Graphs with Large Language Models",
+            "summary": "Due to the presence of the natural gap between Knowledge Graph (KG)\nstructures and the natural language, the effective integration of holistic\nstructural information of KGs with Large Language Models (LLMs) has emerged as\na significant question. To this end, we propose a two-stage framework to learn\nand apply quantized codes for each entity, aiming for the seamless integration\nof KGs with LLMs. Firstly, a self-supervised quantized representation (SSQR)\nmethod is proposed to compress both KG structural and semantic knowledge into\ndiscrete codes (\\ie, tokens) that align the format of language sentences. We\nfurther design KG instruction-following data by viewing these learned codes as\nfeatures to directly input to LLMs, thereby achieving seamless integration. The\nexperiment results demonstrate that SSQR outperforms existing unsupervised\nquantized methods, producing more distinguishable codes. Further, the\nfine-tuned LLaMA2 and LLaMA3.1 also have superior performance on KG link\nprediction and triple classification tasks, utilizing only 16 tokens per entity\ninstead of thousands in conventional prompting methods.",
+            "upvotes": 7,
+            "discussionId": "67a0a3221d9fadf4470cb0f8"
+        },
+        "translation_title": "대규모 언어 모델과 지식 그래프의 원활한 통합을 위한 자기 지도 양자 표현",
+        "purpose": "지식 그래프의 구조적 정보와 대규모 언어 모델의 효과적인 통합 연구",
+        "method": [
+            "지식 그래프의 구조적 및 의미적 지식을 분산 코드로 압축하는 자기 지도 양자 표현(SSQR) 방법을 제안함(Firstly, a self-supervised quantized representation (SSQR) method is proposed to compress both KG structural and semantic knowledge into discrete codes.)",
+            "학습된 코드를 특징으로 간주하여 LLM에 직접 입력할 KG 지시 데이터 설계함(We further design KG instruction-following data by viewing these learned codes as features to directly input to LLMs.)",
+            "실험 결과 SSQR이 기존 자가 지도 양자화 방법보다 더 구별 가능한 코드를 생성함을 입증함(The experiment results demonstrate that SSQR outperforms existing unsupervised quantized methods, producing more distinguishable codes.)"
+        ],
+        "conclusion": "SSQR을 통해 대규모 언어 모델이 지식 그래프 링크 예측 및 삼중 분류 작업에서 더 나은 성능을 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2411.04983",
+            "authors": [
+                {
+                    "_id": "67a0783a1b24595484396c4d",
+                    "user": {
+                        "_id": "63486560e0bf88ccd36fe568",
+                        "avatarUrl": "/avatars/934cffbd9f5c699abad20dcf86745382.svg",
+                        "isPro": false,
+                        "fullname": "Gaoyue Zhou",
+                        "user": "gaoyuezhou",
+                        "type": "user"
+                    },
+                    "name": "Gaoyue Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T12:58:14.740Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0783a1b24595484396c4e",
+                    "user": {
+                        "_id": "634236fc8d8089ebaefb8180",
+                        "avatarUrl": "/avatars/e40518ff3f0d0a58ba4f46048c84640d.svg",
+                        "isPro": false,
+                        "fullname": "Hengkai Pan",
+                        "user": "garyphk",
+                        "type": "user"
+                    },
+                    "name": "Hengkai Pan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T12:58:20.238Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0783a1b24595484396c4f",
+                    "user": {
+                        "_id": "64ed0b8c2203a126eb1a5b9a",
+                        "avatarUrl": "/avatars/9156dc406ed3f9ee62b73657ac20f5ed.svg",
+                        "isPro": false,
+                        "fullname": "Yann LeCun",
+                        "user": "ylecun",
+                        "type": "user"
+                    },
+                    "name": "Yann LeCun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T12:58:26.526Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a0783a1b24595484396c50",
+                    "user": {
+                        "_id": "66fffa0766bc54f4e532e3d2",
+                        "avatarUrl": "/avatars/9db8b2183097bcaddded06d1b800cf77.svg",
+                        "isPro": false,
+                        "fullname": "Lerrel Pinto",
+                        "user": "LerrelPinto",
+                        "type": "user"
+                    },
+                    "name": "Lerrel Pinto",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T12:58:41.008Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2024-11-07T18:54:37.000Z",
+            "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot\n  Planning",
+            "summary": "The ability to predict future outcomes given control actions is fundamental\nfor physical reasoning. However, such predictive models, often called world\nmodels, have proven challenging to learn and are typically developed for\ntask-specific solutions with online policy learning. We argue that the true\npotential of world models lies in their ability to reason and plan across\ndiverse problems using only passive data. Concretely, we require world models\nto have the following three properties: 1) be trainable on offline,\npre-collected trajectories, 2) support test-time behavior optimization, and 3)\nfacilitate task-agnostic reasoning. To realize this, we present DINO World\nModel (DINO-WM), a new method to model visual dynamics without reconstructing\nthe visual world. DINO-WM leverages spatial patch features pre-trained with\nDINOv2, enabling it to learn from offline behavioral trajectories by predicting\nfuture patch features. This design allows DINO-WM to achieve observational\ngoals through action sequence optimization, facilitating task-agnostic behavior\nplanning by treating desired goal patch features as prediction targets. We\nevaluate DINO-WM across various domains, including maze navigation, tabletop\npushing, and particle manipulation. Our experiments demonstrate that DINO-WM\ncan generate zero-shot behavioral solutions at test time without relying on\nexpert demonstrations, reward modeling, or pre-learned inverse models. Notably,\nDINO-WM exhibits strong generalization capabilities compared to prior\nstate-of-the-art work, adapting to diverse task families such as arbitrarily\nconfigured mazes, push manipulation with varied object shapes, and\nmulti-particle scenarios.",
+            "upvotes": 4,
+            "discussionId": "67a0783d1b24595484396cca"
+        },
+        "translation_title": "DINO-WM: 사전 훈련된 시각 특성을 기반으로 한 제로샷 계획을 위한 세계 모델",
+        "purpose": "제로샷 상황에서의 행동 계획을 가능하게 하는 예측 모델 개발",
+        "method": [
+            "DINO-WM이라는 새로운 방법을 제시하여 시각 동역학을 모델링함(we present DINO World Model (DINO-WM), a new method to model visual dynamics without reconstructing the visual world.)",
+            "DINOv2로 사전 훈련된 공간 패치 특성을 활용하여 오프라인 행동 궤적을 통해 학습함(DINO-WM leverages spatial patch features pre-trained with DINOv2, enabling it to learn from offline behavioral trajectories by predicting future patch features.)",
+            "원하는 목표 패치 특성을 예측 대상으로 설정하여 행동 계획을 용이하게 함(facilitating task-agnostic behavior planning by treating desired goal patch features as prediction targets.)"
+        ],
+        "conclusion": "DINO-WM은 제로샷 방식으로 다양한 작업에서 강력한 일반화 능력을 보이며, 전문가의 시연이나 보상 모델, 사전 학습된 역모델에 의존하지 않고 행동 솔루션을 생성할 수 있음.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.18837",
+            "authors": [
+                {
+                    "_id": "67a04e7ab6fd93f91c65457b",
+                    "name": "Mrinank Sharma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65457c",
+                    "user": {
+                        "_id": "63272a638624baac667c8bdb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63272a638624baac667c8bdb/ylZ-FNT9PLhn8sBCD1wQm.png",
+                        "isPro": false,
+                        "fullname": "Meg Tong",
+                        "user": "meg-tong",
+                        "type": "user"
+                    },
+                    "name": "Meg Tong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:10.128Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65457d",
+                    "user": {
+                        "_id": "62301010174feb5439c42e23",
+                        "avatarUrl": "/avatars/cd3c8a97823e3cbc176fef245113624f.svg",
+                        "isPro": false,
+                        "fullname": "Jesse Mu",
+                        "user": "jayelm",
+                        "type": "user"
+                    },
+                    "name": "Jesse Mu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:02.638Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65457e",
+                    "name": "Jerry Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65457f",
+                    "name": "Jorrit Kruthoff",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654580",
+                    "user": {
+                        "_id": "60ef38cdd36c6e3f5e270b5c",
+                        "avatarUrl": "/avatars/a6c89092322364f35eb6051178f3fbcc.svg",
+                        "isPro": false,
+                        "fullname": "Scott Goodfriend",
+                        "user": "sgoodfriend",
+                        "type": "user"
+                    },
+                    "name": "Scott Goodfriend",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:11:51.464Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654581",
+                    "user": {
+                        "_id": "64f2218f0d19f5ae05f6a807",
+                        "avatarUrl": "/avatars/855d9f57b075855418e2db33a110ffed.svg",
+                        "isPro": false,
+                        "fullname": "Euan Ong",
+                        "user": "euanong",
+                        "type": "user"
+                    },
+                    "name": "Euan Ong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-03T11:07:50.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654582",
+                    "user": {
+                        "_id": "660ed54c6923ed21e630820d",
+                        "avatarUrl": "/avatars/5c613fbff6d4d36eeaeae92296c88d2c.svg",
+                        "isPro": false,
+                        "fullname": "Alwin Peng",
+                        "user": "Primusa",
+                        "type": "user"
+                    },
+                    "name": "Alwin Peng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:18.423Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654583",
+                    "user": {
+                        "_id": "676158c7bedb5ba8dd41cad5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/yLEBoauB-32KlAi7arfAE.png",
+                        "isPro": false,
+                        "fullname": "Raj Agarwal",
+                        "user": "Raj32123",
+                        "type": "user"
+                    },
+                    "name": "Raj Agarwal",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:26.895Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654584",
+                    "user": {
+                        "_id": "62f6b27d05ca68c0e0008549",
+                        "avatarUrl": "/avatars/14d0075aa1b578cd7ee5f9e68d12e2f0.svg",
+                        "isPro": false,
+                        "fullname": "Cem Anil",
+                        "user": "anilcem",
+                        "type": "user"
+                    },
+                    "name": "Cem Anil",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:35.275Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654585",
+                    "user": {
+                        "_id": "6764dc0c7fa1ef387f891893",
+                        "avatarUrl": "/avatars/eb060a92b65877ae90c1106cfa7c4314.svg",
+                        "isPro": false,
+                        "fullname": "Amanda askell",
+                        "user": "askeii",
+                        "type": "user"
+                    },
+                    "name": "Amanda Askell",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:44.345Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654586",
+                    "user": {
+                        "_id": "665991b987aedd2a572042e1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/665991b987aedd2a572042e1/nWbp1n_Ps_MPTmpWJcWoz.jpeg",
+                        "isPro": false,
+                        "fullname": "Nathan Bailey",
+                        "user": "nathanbaileyw",
+                        "type": "user"
+                    },
+                    "name": "Nathan Bailey",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:50.549Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654587",
+                    "user": {
+                        "_id": "63124bb3f568fb0098f617c7",
+                        "avatarUrl": "/avatars/6109b5c05452322246843b29b4662051.svg",
+                        "isPro": false,
+                        "fullname": "Joe Benton",
+                        "user": "JoeJBenton",
+                        "type": "user"
+                    },
+                    "name": "Joe Benton",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:12:58.193Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654588",
+                    "name": "Emma Bluemke",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654589",
+                    "user": {
+                        "_id": "65b7ceed0e2951626572e25d",
+                        "avatarUrl": "/avatars/5d6085ca4260d663f0ddbe632c9e746c.svg",
+                        "isPro": false,
+                        "fullname": "Samuel Bowman",
+                        "user": "samuelpbowman",
+                        "type": "user"
+                    },
+                    "name": "Samuel R. Bowman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:13:11.959Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458a",
+                    "user": {
+                        "_id": "64dd22e1c29ed0b051d1a5c4",
+                        "avatarUrl": "/avatars/c8511325f6d8cb485382c0de40975b65.svg",
+                        "isPro": false,
+                        "fullname": "Eric Christiansen",
+                        "user": "emchristiansen",
+                        "type": "user"
+                    },
+                    "name": "Eric Christiansen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:13:19.490Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458b",
+                    "user": {
+                        "_id": "636146e7472131c3bc538bd8",
+                        "avatarUrl": "/avatars/9db880163cc0eea796165d8bf5e2a91f.svg",
+                        "isPro": false,
+                        "fullname": "Hoagy Cunningham",
+                        "user": "HoagyC",
+                        "type": "user"
+                    },
+                    "name": "Hoagy Cunningham",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:13:24.996Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458c",
+                    "user": {
+                        "_id": "656f669dec366e93ca16cf98",
+                        "avatarUrl": "/avatars/84e266ede3fe45d24666e1d8e03dd94d.svg",
+                        "isPro": false,
+                        "fullname": "Andy Dau",
+                        "user": "atadau",
+                        "type": "user"
+                    },
+                    "name": "Andy Dau",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-03T11:13:38.325Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458d",
+                    "name": "Anjali Gopal",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458e",
+                    "name": "Rob Gilson",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65458f",
+                    "name": "Logan Graham",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654590",
+                    "name": "Logan Howard",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654591",
+                    "user": {
+                        "_id": "66fc4c692408eb3bdeba876f",
+                        "avatarUrl": "/avatars/66ba18ccb95d150e66d7b6930d4eb938.svg",
+                        "isPro": false,
+                        "fullname": "Nimit Kalra",
+                        "user": "nimitkalra",
+                        "type": "user"
+                    },
+                    "name": "Nimit Kalra",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-03T08:14:42.317Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654592",
+                    "name": "Taesung Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654593",
+                    "name": "Kevin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654594",
+                    "name": "Peter Lofgren",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654595",
+                    "name": "Francesco Mosconi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654596",
+                    "name": "Clare O'Hara",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654597",
+                    "name": "Catherine Olsson",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654598",
+                    "name": "Linda Petrini",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c654599",
+                    "name": "Samir Rajani",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459a",
+                    "name": "Nikhil Saxena",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459b",
+                    "name": "Alex Silverstein",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459c",
+                    "name": "Tanya Singh",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459d",
+                    "name": "Theodore Sumers",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459e",
+                    "name": "Leonard Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c65459f",
+                    "name": "Kevin K. Troy",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a0",
+                    "name": "Constantin Weisser",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a1",
+                    "name": "Ruiqi Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a2",
+                    "name": "Giulio Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a3",
+                    "name": "Jan Leike",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a4",
+                    "name": "Jared Kaplan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a04e7ab6fd93f91c6545a5",
+                    "name": "Ethan Perez",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-31T01:09:32.000Z",
+            "title": "Constitutional Classifiers: Defending against Universal Jailbreaks\n  across Thousands of Hours of Red Teaming",
+            "summary": "Large language models (LLMs) are vulnerable to universal jailbreaks-prompting\nstrategies that systematically bypass model safeguards and enable users to\ncarry out harmful processes that require many model interactions, like\nmanufacturing illegal substances at scale. To defend against these attacks, we\nintroduce Constitutional Classifiers: safeguards trained on synthetic data,\ngenerated by prompting LLMs with natural language rules (i.e., a constitution)\nspecifying permitted and restricted content. In over 3,000 estimated hours of\nred teaming, no red teamer found a universal jailbreak that could extract\ninformation from an early classifier-guarded LLM at a similar level of detail\nto an unguarded model across most target queries. On automated evaluations,\nenhanced classifiers demonstrated robust defense against held-out\ndomain-specific jailbreaks. These classifiers also maintain deployment\nviability, with an absolute 0.38% increase in production-traffic refusals and a\n23.7% inference overhead. Our work demonstrates that defending against\nuniversal jailbreaks while maintaining practical deployment viability is\ntractable.",
+            "upvotes": 3,
+            "discussionId": "67a04e7bb6fd93f91c6545bc"
+        },
+        "translation_title": "헌법적 분류기: 보편적 탈옥 공격에 대한 방어 전략",
+        "purpose": "보편적 탈옥 공격으로부터 대규모 언어 모델을 방어하기 위한 헌법적 분류기를 도입",
+        "method": [
+            "자연어 규칙으로 LLM을 프롬프트하여 생성된 합성 데이터를 학습하여 헌법적 분류기를 구축함(we introduce Constitutional Classifiers: safeguards trained on synthetic data, generated by prompting LLMs with natural language rules)",
+            "3,000시간 이상의 레드 팀 검증을 통해 초기 분류기의 모델이 비상식적인 요청에 대해 정보를 추출당하지 않음을 입증함(In over 3,000 estimated hours of red teaming, no red teamer found a universal jailbreak that could extract information from an early classifier-guarded LLM)"
+        ],
+        "conclusion": "보편적 탈옥 공격으로부터 방어하면서도 실용적인 배치 가능성을 유지하는 것이 가능하다는 것을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
