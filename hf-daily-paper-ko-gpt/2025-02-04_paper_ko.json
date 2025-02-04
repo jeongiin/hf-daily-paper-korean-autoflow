@@ -1,0 +1,521 @@
+[
+    {
+        "paper": {
+            "id": "2502.01061",
+            "authors": [
+                {
+                    "_id": "67a1a7a166a8a88726963ef4",
+                    "user": {
+                        "_id": "64802fcdcc9e514b3b031244",
+                        "avatarUrl": "/avatars/cc5979008bdb21a2be9575865dce909b.svg",
+                        "isPro": false,
+                        "fullname": "Gaojie Lin",
+                        "user": "lingaojie",
+                        "type": "user"
+                    },
+                    "name": "Gaojie Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:49:22.604Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1a7a166a8a88726963ef5",
+                    "user": {
+                        "_id": "666c1c980bc5acf176808bcf",
+                        "avatarUrl": "/avatars/3930b46046565dab7685704ddb428e14.svg",
+                        "isPro": false,
+                        "fullname": "jianwen jiang",
+                        "user": "janphu",
+                        "type": "user"
+                    },
+                    "name": "Jianwen Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:49:28.420Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1a7a166a8a88726963ef6",
+                    "name": "Jiaqi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1a7a166a8a88726963ef7",
+                    "user": {
+                        "_id": "65b0b6d00648e8d10b609066",
+                        "avatarUrl": "/avatars/071d2a99f6d7a4e37d338e58d46c4bc2.svg",
+                        "isPro": false,
+                        "fullname": "ZZerong",
+                        "user": "zerong2",
+                        "type": "user"
+                    },
+                    "name": "Zerong Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:50:10.474Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1a7a166a8a88726963ef8",
+                    "name": "Chao Liang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T05:17:32.000Z",
+            "title": "OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human\n  Animation Models",
+            "summary": "End-to-end human animation, such as audio-driven talking human generation,\nhas undergone notable advancements in the recent few years. However, existing\nmethods still struggle to scale up as large general video generation models,\nlimiting their potential in real applications. In this paper, we propose\nOmniHuman, a Diffusion Transformer-based framework that scales up data by\nmixing motion-related conditions into the training phase. To this end, we\nintroduce two training principles for these mixed conditions, along with the\ncorresponding model architecture and inference strategy. These designs enable\nOmniHuman to fully leverage data-driven motion generation, ultimately achieving\nhighly realistic human video generation. More importantly, OmniHuman supports\nvarious portrait contents (face close-up, portrait, half-body, full-body),\nsupports both talking and singing, handles human-object interactions and\nchallenging body poses, and accommodates different image styles. Compared to\nexisting end-to-end audio-driven methods, OmniHuman not only produces more\nrealistic videos, but also offers greater flexibility in inputs. It also\nsupports multiple driving modalities (audio-driven, video-driven and combined\ndriving signals). Video samples are provided on the ttfamily project page\n(https://omnihuman-lab.github.io)",
+            "upvotes": 37,
+            "discussionId": "67a1a7a466a8a88726963f90"
+        },
+        "translation_title": "OmniHuman-1: 원스테이지 조건부 인간 애니메이션 모델의 스케일 업 재고",
+        "purpose": "현실적인 사람 비디오 생성을 위해 데이터 기반 동작 생성을 최대한 활용함으로써 스케일 업을 가능하게 하려는 목표",
+        "method": [
+            "Diffusion Transformer 기반의 프레임워크인 OmniHuman을 제안하고, 훈련 단계에서 동작 관련 조건을 혼합함으로써 데이터를 스케일 업 함(We propose OmniHuman, a Diffusion Transformer-based framework that scales up data by mixing motion-related conditions into the training phase.)",
+            "혼합 조건을 위한 두 가지 훈련 원칙과 해당 모델 아키텍처 및 추론 전략을 도입함(To this end, we introduce two training principles for these mixed conditions, along with the corresponding model architecture and inference strategy.)",
+            "OmniHuman은 다양한 포트레이트 콘텐츠와 여러 구동 모드를 지원하여 더 많은 사실적 비디오를 생성하고 입력의 유연성을 높임(OmniHuman supports various portrait contents and multiple driving modalities, ultimately achieving highly realistic human video generation.)"
+        ],
+        "conclusion": "OmniHuman은 기존의 오디오 기반 방법에 비해 더 사실적인 비디오를 생성할 수 있으며, 다양한 입력을 처리할 수 있는 유연성을 제공합니다.",
+        "keywords": [
+            "Video Generation",
+            "3D Vision",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.01456",
+            "authors": [
+                {
+                    "_id": "67a19d705efa4fab15497775",
+                    "user": {
+                        "_id": "650eba9555dc1e841746f132",
+                        "avatarUrl": "/avatars/af6f5ee78f161d25ec0afc45d2def8eb.svg",
+                        "isPro": false,
+                        "fullname": "Ganqu Cui",
+                        "user": "ganqu",
+                        "type": "user"
+                    },
+                    "name": "Ganqu Cui",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-04T09:39:23.889Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497776",
+                    "name": "Lifan Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497777",
+                    "name": "Zefan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497778",
+                    "user": {
+                        "_id": "6321152b8c0da827c72c7c16",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678783813705-6321152b8c0da827c72c7c16.jpeg",
+                        "isPro": false,
+                        "fullname": "Hanbin Wang",
+                        "user": "hanbin",
+                        "type": "user"
+                    },
+                    "name": "Hanbin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-04T09:39:25.869Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497779",
+                    "user": {
+                        "_id": "671bfaa29e5e675c7f5c4307",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/PwDA6OSSAmg6k4LliEQkZ.png",
+                        "isPro": false,
+                        "fullname": "Wendi Li",
+                        "user": "wendili",
+                        "type": "user"
+                    },
+                    "name": "Wendi Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:51:24.261Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777a",
+                    "user": {
+                        "_id": "64c5e944979493279b700cb2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/vjFuPWw8Vl7b7gXB19Sk-.jpeg",
+                        "isPro": false,
+                        "fullname": "Bingxiang He",
+                        "user": "hbx",
+                        "type": "user"
+                    },
+                    "name": "Bingxiang He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:51:31.090Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777b",
+                    "user": {
+                        "_id": "672c2d7816766a76a747b7b5",
+                        "avatarUrl": "/avatars/12c7b26d2b81721ccac3a5c71e32a1a1.svg",
+                        "isPro": false,
+                        "fullname": "Yuchen Fan",
+                        "user": "yuchenFan",
+                        "type": "user"
+                    },
+                    "name": "Yuchen Fan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:51:56.597Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777c",
+                    "user": {
+                        "_id": "64abc4aa6cadc7aca585dddf",
+                        "avatarUrl": "/avatars/736afea979cd0021c7a37f68731524ea.svg",
+                        "isPro": false,
+                        "fullname": "Tianyu Yu",
+                        "user": "Yirany",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:52:26.615Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777d",
+                    "name": "Qixin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777e",
+                    "user": {
+                        "_id": "648312243b7fe59c876c0dca",
+                        "avatarUrl": "/avatars/c26ad76cd213529e4670bb599b8199bb.svg",
+                        "isPro": false,
+                        "fullname": "weize",
+                        "user": "weizechen",
+                        "type": "user"
+                    },
+                    "name": "Weize Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:52:46.343Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549777f",
+                    "name": "Jiarui Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497780",
+                    "user": {
+                        "_id": "6630f87ee53fcb71c3887df0",
+                        "avatarUrl": "/avatars/50191a3d45bebf90cf08df09477e95db.svg",
+                        "isPro": false,
+                        "fullname": "HuayuChen",
+                        "user": "HuayuChen",
+                        "type": "user"
+                    },
+                    "name": "Huayu Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:53:06.620Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497781",
+                    "user": {
+                        "_id": "6621f365313c12da6713d336",
+                        "avatarUrl": "/avatars/bb1d7e0369a279c4d33408c8a1ae67bb.svg",
+                        "isPro": false,
+                        "fullname": "Zhang",
+                        "user": "Kaiyanzhang",
+                        "type": "user"
+                    },
+                    "name": "Kaiyan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:53:14.100Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497782",
+                    "user": {
+                        "_id": "663f07d029be04778ba97871",
+                        "avatarUrl": "/avatars/fb7c9d4a2c537d918a3267e7cbc03f04.svg",
+                        "isPro": false,
+                        "fullname": "Xingtai Lv",
+                        "user": "XingtaiHF",
+                        "type": "user"
+                    },
+                    "name": "Xingtai Lv",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:53:21.172Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497783",
+                    "name": "Shuo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497784",
+                    "name": "Yuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497785",
+                    "name": "Xu Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497786",
+                    "name": "Hao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497787",
+                    "user": {
+                        "_id": "67017abfe4d49b157ac534d9",
+                        "avatarUrl": "/avatars/997e1b9f54b27a7728a9d4abfee4ba91.svg",
+                        "isPro": false,
+                        "fullname": "Yu Cheng",
+                        "user": "ych133",
+                        "type": "user"
+                    },
+                    "name": "Yu Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-04T14:48:37.956Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497788",
+                    "user": {
+                        "_id": "6310a3cd531cc21f9e06de6a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6310a3cd531cc21f9e06de6a/aTGMx3O41lUARK9s3dAik.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhiyuan Liu",
+                        "user": "acharkq",
+                        "type": "user"
+                    },
+                    "name": "Zhiyuan Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:53:42.497Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab15497789",
+                    "name": "Maosong Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549778a",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a19d705efa4fab1549778b",
+                    "name": "Ning Ding",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T15:43:48.000Z",
+            "title": "Process Reinforcement through Implicit Rewards",
+            "summary": "Dense process rewards have proven a more effective alternative to the sparse\noutcome-level rewards in the inference-time scaling of large language models\n(LLMs), particularly in tasks requiring complex multi-step reasoning. While\ndense rewards also offer an appealing choice for the reinforcement learning\n(RL) of LLMs since their fine-grained rewards have the potential to address\nsome inherent issues of outcome rewards, such as training efficiency and credit\nassignment, this potential remains largely unrealized. This can be primarily\nattributed to the challenges of training process reward models (PRMs) online,\nwhere collecting high-quality process labels is prohibitively expensive, making\nthem particularly vulnerable to reward hacking. To address these challenges, we\npropose PRIME (Process Reinforcement through IMplicit rEwards), which enables\nonline PRM updates using only policy rollouts and outcome labels through\nimplict process rewards. PRIME combines well with various advantage functions\nand forgoes the dedicated reward model training phrase that existing approaches\nrequire, substantially reducing the development overhead. We demonstrate\nPRIME's effectiveness on competitional math and coding. Starting from\nQwen2.5-Math-7B-Base, PRIME achieves a 15.1% average improvement across several\nkey reasoning benchmarks over the SFT model. Notably, our resulting model,\nEurus-2-7B-PRIME, surpasses Qwen2.5-Math-7B-Instruct on seven reasoning\nbenchmarks with 10% of its training data.",
+            "upvotes": 36,
+            "discussionId": "67a19d705efa4fab154977d0"
+        },
+        "translation_title": "암묵적 보상을 통한 과정 강화 학습",
+        "purpose": "복잡한 다단계 추론을 요구하는 작업에서 대규모 언어 모델(LLMs)의 성능을 향상시키기 위한 방법 탐구",
+        "method": [
+            "PRIME(암묵적 보상을 통한 과정 강화)가 정책 롤아웃과 결과 레이블만을 사용하여 온라인으로 과정 보상 모델(PRMs)을 업데이트하게 해줌(we propose PRIME which enables online PRM updates using only policy rollouts and outcome labels through implicit process rewards.)",
+            "기존 접근 방식에서 요구되는 보상 모델 훈련 단계를 생략하여 개발 부담을 줄임(PRIME combines well with various advantage functions and forgoes the dedicated reward model training phase that existing approaches require.)"
+        ],
+        "conclusion": "PRIME은 경쟁적인 수학 및 코딩 문제에서 효과성을 입증하였으며, Qwen2.5-Math-7B-Base 모델 대비 여러 주요 추론 벤치마크에서 평균 15.1% 향상을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Process Reward Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.01534",
+            "authors": [
+                {
+                    "_id": "67a1ad77d797fac51fa80770",
+                    "name": "Dawei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80771",
+                    "user": {
+                        "_id": "653a195b0da86d726c9c580c",
+                        "avatarUrl": "/avatars/61649e1d600fdc1edc50ead0dfa99fdd.svg",
+                        "isPro": false,
+                        "fullname": "Renliang Sun",
+                        "user": "RLSNLP",
+                        "type": "user"
+                    },
+                    "name": "Renliang Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-04T09:39:11.035Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80772",
+                    "name": "Yue Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80773",
+                    "user": {
+                        "_id": "61d53df2062444ea769d3b79",
+                        "avatarUrl": "/avatars/fa771202368b6b2626a8fdf1c4369239.svg",
+                        "isPro": false,
+                        "fullname": "Ming Zhong",
+                        "user": "MingZhong",
+                        "type": "user"
+                    },
+                    "name": "Ming Zhong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-04T14:54:39.212Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80774",
+                    "name": "Bohan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80775",
+                    "name": "Jiawei Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80776",
+                    "name": "Xiangliang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80777",
+                    "name": "Wei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1ad77d797fac51fa80778",
+                    "name": "Huan Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T17:13:03.000Z",
+            "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+            "summary": "Large Language Models (LLMs) as judges and LLM-based data synthesis have\nemerged as two fundamental LLM-driven data annotation methods in model\ndevelopment. While their combination significantly enhances the efficiency of\nmodel training and evaluation, little attention has been given to the potential\ncontamination brought by this new model development paradigm. In this work, we\nexpose preference leakage, a contamination problem in LLM-as-a-judge caused by\nthe relatedness between the synthetic data generators and LLM-based evaluators.\nTo study this issue, we first define three common relatednesses between data\ngenerator LLM and judge LLM: being the same model, having an inheritance\nrelationship, and belonging to the same model family. Through extensive\nexperiments, we empirically confirm the bias of judges towards their related\nstudent models caused by preference leakage across multiple LLM baselines and\nbenchmarks. Further analysis suggests that preference leakage is a pervasive\nissue that is harder to detect compared to previously identified biases in\nLLM-as-a-judge scenarios. All of these findings imply that preference leakage\nis a widespread and challenging problem in the area of LLM-as-a-judge. We\nrelease all codes and data at:\nhttps://github.com/David-Li0406/Preference-Leakage.",
+            "upvotes": 18,
+            "discussionId": "67a1ad78d797fac51fa807c1"
+        },
+        "translation_title": "선호 누수: LLM-as-a-judge의 오염 문제",
+        "purpose": "LLM-as-a-judge와 관련된 오염 문제인 선호 누수를 드러내고 연구하기 위함",
+        "method": [
+            "데이터 생성 LLM과 판별 LLM 간의 관련성 유형을 정의함(we first define three common relatednesses between data generator LLM and judge LLM: being the same model, having an inheritance relationship, and belonging to the same model family.)",
+            "다양한 LLM 기반 실험을 통해 판별자가 관련 모델에 대해 편향된 결과를 확인함(Through extensive experiments, we empirically confirm the bias of judges towards their related student models caused by preference leakage across multiple LLM baselines and benchmarks.)",
+            "선호 누수가 LLM-as-a-judge 시나리오에서 기존 편향보다 탐지하기 더 어려운 문제임을 분석함(Further analysis suggests that preference leakage is a pervasive issue that is harder to detect compared to previously identified biases in LLM-as-a-judge scenarios.)"
+        ],
+        "conclusion": "선호 누수는 LLM-as-a-judge 분야에서 광범위하고 도전적인 문제임을 확인하였으며, 이와 관련된 코드와 데이터를 공개함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "LLM-as-a-judge"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2501.18636",
+            "authors": [
+                {
+                    "_id": "67a1bfc314cba2eba6da4b2b",
+                    "name": "Xun Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b2c",
+                    "name": "Simin Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b2d",
+                    "name": "Zhiyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b2e",
+                    "name": "Sensen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b2f",
+                    "user": {
+                        "_id": "669e0b93c7cb0568dac6e92e",
+                        "avatarUrl": "/avatars/a39ea77d7391f164af8a80f94f85f2ca.svg",
+                        "isPro": false,
+                        "fullname": "hanyu Wang",
+                        "user": "UglyToilet",
+                        "type": "user"
+                    },
+                    "name": "Hanyu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-04T09:39:04.452Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b30",
+                    "name": "Feiyu Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b31",
+                    "name": "Jason Zhaoxin Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b32",
+                    "name": "Bo Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b33",
+                    "name": "Shichao Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b34",
+                    "name": "Mengwei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a1bfc314cba2eba6da4b35",
+                    "name": "Jiawei Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-01-28T17:01:31.000Z",
+            "title": "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of\n  Large Language Model",
+            "summary": "The indexing-retrieval-generation paradigm of retrieval-augmented generation\n(RAG) has been highly successful in solving knowledge-intensive tasks by\nintegrating external knowledge into large language models (LLMs). However, the\nincorporation of external and unverified knowledge increases the vulnerability\nof LLMs because attackers can perform attack tasks by manipulating knowledge.\nIn this paper, we introduce a benchmark named SafeRAG designed to evaluate the\nRAG security. First, we classify attack tasks into silver noise, inter-context\nconflict, soft ad, and white Denial-of-Service. Next, we construct RAG security\nevaluation dataset (i.e., SafeRAG dataset) primarily manually for each task. We\nthen utilize the SafeRAG dataset to simulate various attack scenarios that RAG\nmay encounter. Experiments conducted on 14 representative RAG components\ndemonstrate that RAG exhibits significant vulnerability to all attack tasks and\neven the most apparent attack task can easily bypass existing retrievers,\nfilters, or advanced LLMs, resulting in the degradation of RAG service quality.\nCode is available at: https://github.com/IAAR-Shanghai/SafeRAG.",
+            "upvotes": 12,
+            "discussionId": "67a1bfc414cba2eba6da4b63"
+        },
+        "translation_title": "SafeRAG: 대형 언어 모델의 검색 보강 생성에서 보안 벤치마킹",
+        "purpose": "검색 보강 생성(RAG)의 보안을 평가하기 위한 벤치마크 설계",
+        "method": [
+            "공격 작업을 silver noise, inter-context conflict, soft ad, white Denial-of-Service로 분류함(First, we classify attack tasks into silver noise, inter-context conflict, soft ad, and white Denial-of-Service.)",
+            "각 공격 작업에 대해 수작업으로 RAG 보안 평가 데이터 세트(SafeRAG dataset)를 생성함(Next, we construct RAG security evaluation dataset (i.e., SafeRAG dataset) primarily manually for each task.)",
+            "SafeRAG 데이터 세트를 이용해 RAG의 다양한 공격 시나리오를 시뮬레이션함(We then utilize the SafeRAG dataset to simulate various attack scenarios that RAG may encounter.)"
+        ],
+        "conclusion": "RAG가 모든 공격 작업에 대해 상당한 취약성을 보이며, 가장 명백한 공격 작업조차 기존 리트리버나 LLM을 쉽게 우회할 수 있음을 실험을 통해 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
