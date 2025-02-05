@@ -1,0 +1,398 @@
+[
+    {
+        "paper": {
+            "id": "2502.01362",
+            "authors": [
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e61",
+                    "user": {
+                        "_id": "672503c59f68afdd63cc81a2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/672503c59f68afdd63cc81a2/lw4ApCTwAKgt_uUyfSVRH.jpeg",
+                        "isPro": false,
+                        "fullname": "Nikita Gushchin",
+                        "user": "ngushchin",
+                        "type": "user"
+                    },
+                    "name": "Nikita Gushchin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-05T10:14:26.177Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e62",
+                    "user": {
+                        "_id": "656a2e59b4020389028dc85f",
+                        "avatarUrl": "/avatars/6fda3bddc3cecba2894233bebb3de968.svg",
+                        "isPro": false,
+                        "fullname": "David Li",
+                        "user": "kekchpek",
+                        "type": "user"
+                    },
+                    "name": "David Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-05T10:14:24.236Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e63",
+                    "user": {
+                        "_id": "64a42977250bfdecd9570a9e",
+                        "avatarUrl": "/avatars/df5d7cf159e6bb9e961e1c77d1b89d36.svg",
+                        "isPro": false,
+                        "fullname": "Daniil Selikhanovych",
+                        "user": "apryc1",
+                        "type": "user"
+                    },
+                    "name": "Daniil Selikhanovych",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-05T10:17:09.668Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e64",
+                    "name": "Evgeny Burnaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e65",
+                    "user": {
+                        "_id": "62b6cc49752323892323bc04",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b6cc49752323892323bc04/gGBld1KJIP9AIpd81L3PC.jpeg",
+                        "isPro": true,
+                        "fullname": "Dmitry Baranchuk",
+                        "user": "dbaranchuk",
+                        "type": "user"
+                    },
+                    "name": "Dmitry Baranchuk",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-05T10:17:26.518Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ad6ac7caec9bf5a45e66",
+                    "user": {
+                        "_id": "67a31c9ae5b870d5157657db",
+                        "avatarUrl": "/avatars/ca5fd356e3656e1beacb5a28ecaad5be.svg",
+                        "isPro": false,
+                        "fullname": "Alexander Korotin",
+                        "user": "akorotin",
+                        "type": "user"
+                    },
+                    "name": "Alexander Korotin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-05T10:17:33.816Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T13:56:03.000Z",
+            "title": "Inverse Bridge Matching Distillation",
+            "summary": "Learning diffusion bridge models is easy; making them fast and practical is\nan art. Diffusion bridge models (DBMs) are a promising extension of diffusion\nmodels for applications in image-to-image translation. However, like many\nmodern diffusion and flow models, DBMs suffer from the problem of slow\ninference. To address it, we propose a novel distillation technique based on\nthe inverse bridge matching formulation and derive the tractable objective to\nsolve it in practice. Unlike previously developed DBM distillation techniques,\nthe proposed method can distill both conditional and unconditional types of\nDBMs, distill models in a one-step generator, and use only the corrupted images\nfor training. We evaluate our approach for both conditional and unconditional\ntypes of bridge matching on a wide set of setups, including super-resolution,\nJPEG restoration, sketch-to-image, and other tasks, and show that our\ndistillation technique allows us to accelerate the inference of DBMs from 4x to\n100x and even provide better generation quality than used teacher model\ndepending on particular setup.",
+            "upvotes": 21,
+            "discussionId": "67a2ad70c7caec9bf5a45fb0"
+        },
+        "translation_title": "역 브리지 매칭 증류",
+        "purpose": "이미지 간 변환을 위한 Diffusion Bridge Models의 실용성을 높이고 빠른 추론을 가능하게 하기 위한 연구",
+        "method": [
+            "역 브리지 매칭 형식에 기반한 새로운 증류 기법을 제안함(In this paper, we propose a novel distillation technique based on the inverse bridge matching formulation.)",
+            "조건부 및 비조건부 유형의 DBM을 증류할 수 있도록 설계함(Unlike previously developed DBM distillation techniques, the proposed method can distill both conditional and unconditional types of DBMs.)",
+            "손상된 이미지만 사용하여 훈련하는 방법을 적용함(and use only the corrupted images for training.)",
+            "폭넓은 설정에서 조건부 및 비조건부 브리지 매칭을 평가함(We evaluate our approach for both conditional and unconditional types of bridge matching on a wide set of setups.)"
+        ],
+        "conclusion": "제안된 증류 기법을 통해 DBM의 추론 속도를 4배에서 100배까지 가속화할 수 있으며, 특정 설정에 따라 사용된 teacher model보다 더 나은 생성 품질을 제공함.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.02492",
+            "authors": [
+                {
+                    "_id": "67a2ec904ea0e3138ac966f2",
+                    "user": {
+                        "_id": "6181c72cdcc1df2c9de8a4d8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1655248010394-6181c72cdcc1df2c9de8a4d8.jpeg",
+                        "isPro": false,
+                        "fullname": "Hila Chefer",
+                        "user": "Hila",
+                        "type": "user"
+                    },
+                    "name": "Hila Chefer",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-05T04:44:03.218Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f3",
+                    "name": "Uriel Singer",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f4",
+                    "name": "Amit Zohar",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f5",
+                    "name": "Yuval Kirstain",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f6",
+                    "name": "Adam Polyak",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f7",
+                    "name": "Yaniv Taigman",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f8",
+                    "name": "Lior Wolf",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2ec904ea0e3138ac966f9",
+                    "name": "Shelly Sheynin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-04T17:07:10.000Z",
+            "title": "VideoJAM: Joint Appearance-Motion Representations for Enhanced Motion\n  Generation in Video Models",
+            "summary": "Despite tremendous recent progress, generative video models still struggle to\ncapture real-world motion, dynamics, and physics. We show that this limitation\narises from the conventional pixel reconstruction objective, which biases\nmodels toward appearance fidelity at the expense of motion coherence. To\naddress this, we introduce VideoJAM, a novel framework that instills an\neffective motion prior to video generators, by encouraging the model to learn a\njoint appearance-motion representation. VideoJAM is composed of two\ncomplementary units. During training, we extend the objective to predict both\nthe generated pixels and their corresponding motion from a single learned\nrepresentation. During inference, we introduce Inner-Guidance, a mechanism that\nsteers the generation toward coherent motion by leveraging the model's own\nevolving motion prediction as a dynamic guidance signal. Notably, our framework\ncan be applied to any video model with minimal adaptations, requiring no\nmodifications to the training data or scaling of the model. VideoJAM achieves\nstate-of-the-art performance in motion coherence, surpassing highly competitive\nproprietary models while also enhancing the perceived visual quality of the\ngenerations. These findings emphasize that appearance and motion can be\ncomplementary and, when effectively integrated, enhance both the visual quality\nand the coherence of video generation. Project website:\nhttps://hila-chefer.github.io/videojam-paper.github.io/",
+            "upvotes": 19,
+            "discussionId": "67a2ec934ea0e3138ac9678e"
+        },
+        "translation_title": "VideoJAM: 모션 생성을 향상시키기 위한 공동 외관-모션 표현",
+        "purpose": "비디오 모델에서 현실 세계의 모션을 더 잘 캡처하기 위한 방법론 개발",
+        "method": [
+            "기존의 픽셀 재구성 목표에서 발생하는 한계를 극복하기 위해 VideoJAM 프레임워크를 도입함(we show that this limitation arises from the conventional pixel reconstruction objective).",
+            "모델이 공동 외관-모션 표현을 학습하도록 유도하여 비디오 생성기를 위한 효과적인 모션 선행 지식을 제공함(VideoJAM introduces a novel framework that instills an effective motion prior).",
+            "Inner-Guidance 메커니즘을 통해 생성 과정에서 일관된 모션을 유도함(we introduce Inner-Guidance, a mechanism that steers the generation toward coherent motion)."
+        ],
+        "conclusion": "VideoJAM은 모션 일관성에서 최첨단 성능을 달성하고, 생성 품질을 향상시키며 외관과 모션의 상호 보완적인 관계를 강조함.",
+        "keywords": [
+            "Video Generation",
+            "Motion Coherence",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.01718",
+            "authors": [
+                {
+                    "_id": "67a2d995c97974764a8c294c",
+                    "name": "Huaye Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d995c97974764a8c294d",
+                    "user": {
+                        "_id": "62567c86d444a9b5a0ec51c1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62567c86d444a9b5a0ec51c1/1vXJf2uGztPcXpkwyTBr6.png",
+                        "isPro": false,
+                        "fullname": "Dongfu Jiang",
+                        "user": "DongfuJiang",
+                        "type": "user"
+                    },
+                    "name": "Dongfu Jiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-05T10:14:14.136Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d995c97974764a8c294e",
+                    "name": "Haozhe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d995c97974764a8c294f",
+                    "user": {
+                        "_id": "65358802a920f38780b3248a",
+                        "avatarUrl": "/avatars/9415510b598079973c2b0436ad12db9c.svg",
+                        "isPro": false,
+                        "fullname": "Ping Nie",
+                        "user": "pingnieuk",
+                        "type": "user"
+                    },
+                    "name": "Ping Nie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-05T10:18:51.897Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d995c97974764a8c2950",
+                    "name": "Xiaotong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d995c97974764a8c2951",
+                    "name": "Wenhu Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T18:46:04.000Z",
+            "title": "ACECODER: Acing Coder RL via Automated Test-Case Synthesis",
+            "summary": "Most progress in recent coder models has been driven by supervised\nfine-tuning (SFT), while the potential of reinforcement learning (RL) remains\nlargely unexplored, primarily due to the lack of reliable reward data/model in\nthe code domain. In this paper, we address this challenge by leveraging\nautomated large-scale test-case synthesis to enhance code model training.\nSpecifically, we design a pipeline that generates extensive (question,\ntest-cases) pairs from existing code data. Using these test cases, we construct\npreference pairs based on pass rates over sampled programs to train reward\nmodels with Bradley-Terry loss. It shows an average of 10-point improvement for\nLlama-3.1-8B-Ins and 5-point improvement for Qwen2.5-Coder-7B-Ins through\nbest-of-32 sampling, making the 7B model on par with 236B DeepSeek-V2.5.\nFurthermore, we conduct reinforcement learning with both reward models and\ntest-case pass rewards, leading to consistent improvements across HumanEval,\nMBPP, BigCodeBench, and LiveCodeBench (V4). Notably, we follow the R1-style\ntraining to start from Qwen2.5-Coder-base directly and show that our RL\ntraining can improve model on HumanEval-plus by over 25\\% and MBPP-plus by 6\\%\nfor merely 80 optimization steps. We believe our results highlight the huge\npotential of reinforcement learning in coder models.",
+            "upvotes": 14,
+            "discussionId": "67a2d996c97974764a8c29a1"
+        },
+        "translation_title": "ACECODER: 자동 테스트 케이스 합성을 통한 Coder RL 개선",
+        "purpose": "코드 모델 훈련을 향상시키기 위해 자동화된 대규모 테스트 케이스 합성을 이용한 RL의 가능성을 탐구함",
+        "method": [
+            "기존 코드 데이터를 기반으로 (질문, 테스트 케이스) 쌍을 생성하는 파이프라인 설계(we design a pipeline that generates extensive (question, test-cases) pairs from existing code data.)",
+            "샘플 프로그램의 성공률 기반으로 선호 쌍을 구성하여 보상 모델을 학습함(using these test cases, we construct preference pairs based on pass rates over sampled programs to train reward models with Bradley-Terry loss.)",
+            "최고의 32개 샘플링을 통해 Llama-3.1-8B-Ins는 평균 10점, Qwen2.5-Coder-7B-Ins는 5점 개선함(it shows an average of 10-point improvement for Llama-3.1-8B-Ins and 5-point improvement for Qwen2.5-Coder-7B-Ins through best-of-32 sampling.)"
+        ],
+        "conclusion": "RL 모델 훈련을 통해 HumanEval, MBPP, BigCodeBench, LiveCodeBench에서 일관된 개선을 이루었고, 특히 Qwen2.5-Coder-base에서 시작하여 HumanEval-plus를 25% 이상, MBPP-plus를 6% 개선할 수 있었음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Code Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.02584",
+            "authors": [
+                {
+                    "_id": "67a2d59fd5ad3369a66ff394",
+                    "name": "Zongyu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff395",
+                    "name": "Yao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff396",
+                    "name": "Xingcheng Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff397",
+                    "name": "Da Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff398",
+                    "name": "Ziniu Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff399",
+                    "name": "Yizhou Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2d59fd5ad3369a66ff39a",
+                    "name": "Kai-Wei Chang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-04T18:58:31.000Z",
+            "title": "QLASS: Boosting Language Agent Inference via Q-Guided Stepwise Search",
+            "summary": "Language agents have become a promising solution to complex interactive\ntasks. One of the key ingredients to the success of language agents is the\nreward model on the trajectory of the agentic workflow, which provides valuable\nguidance during training or inference. However, due to the lack of annotations\nof intermediate interactions, most existing works use an outcome reward model\nto optimize policies across entire trajectories. This may lead to sub-optimal\npolicies and hinder the overall performance. To address this, we propose QLASS\n(Q-guided Language Agent Stepwise Search), to automatically generate\nannotations by estimating Q-values in a stepwise manner for open language\nagents. By introducing a reasoning tree and performing process reward modeling,\nQLASS provides effective intermediate guidance for each step. With the stepwise\nguidance, we propose a Q-guided generation strategy to enable language agents\nto better adapt to long-term value, resulting in significant performance\nimprovement during model inference on complex interactive agent tasks. Notably,\neven with almost half the annotated data, QLASS retains strong performance,\ndemonstrating its efficiency in handling limited supervision. We also\nempirically demonstrate that QLASS can lead to more effective decision making\nthrough qualitative analysis. We will release our code and data.",
+            "upvotes": 9,
+            "discussionId": "67a2d5a0d5ad3369a66ff3d4"
+        },
+        "translation_title": "QLASS: Q-Guided 단계적 탐색을 통한 언어 에이전트 추론 향상",
+        "purpose": "복잡한 상호작용 작업에서 언어 에이전트의 성능을 향상시키기 위한 중간 단계 독려 및 최적화",
+        "method": [
+            "Q값을 단계적으로 추정하여 언어 에이전트의 중간 상호작용에 대한 주석을 자동으로 생성함(we propose QLASS to automatically generate annotations by estimating Q-values in a stepwise manner for open language agents.)",
+            "추론 트리를 도입하고 과정 보상 모델링을 수행하여 각 단계에 대한 효과적인 가이드를 제공함(QLASS provides effective intermediate guidance for each step by introducing a reasoning tree and performing process reward modeling.)",
+            "단계별 가이드를 기반으로 언어 에이전트가 장기적인 가치를 잘 적응하도록 하는 Q-guided generation 전략을 제안함(we propose a Q-guided generation strategy to enable language agents to better adapt to long-term value.)"
+        ],
+        "conclusion": "QLASS는 거의 절반의 주석 데이터만으로도 강력한 성능을 유지하며, 제한된 감독을 처리하는 효율성을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.01941",
+            "authors": [
+                {
+                    "_id": "67a2e2a02dd2adbc88755a47",
+                    "user": {
+                        "_id": "63024676056ec3a2a8714b24",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661093436322-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiang Liu",
+                        "user": "Dominic789654",
+                        "type": "user"
+                    },
+                    "name": "Xiang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-05T10:12:48.427Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a48",
+                    "name": "Zhenheng Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a49",
+                    "name": "Hong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4a",
+                    "name": "Peijie Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4b",
+                    "name": "Zeyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4c",
+                    "name": "Xiuze Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4d",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4e",
+                    "name": "Xuming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a2e2a02dd2adbc88755a4f",
+                    "name": "Xiaowen Chu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-04T02:23:06.000Z",
+            "title": "Can LLMs Maintain Fundamental Abilities under KV Cache Compression?",
+            "summary": "This paper investigates an under-explored challenge in large language models\n(LLMs): the impact of KV cache compression methods on LLMs' fundamental\ncapabilities. While existing methods achieve impressive compression ratios on\nlong-context benchmarks, their effects on core model capabilities remain\nunderstudied. We present a comprehensive empirical study evaluating prominent\nKV cache compression methods across diverse tasks, spanning world knowledge,\ncommonsense reasoning, arithmetic reasoning, code generation, safety, and\nlong-context understanding and generation.Our analysis reveals that KV cache\ncompression methods exhibit task-specific performance degradation. Arithmetic\nreasoning tasks prove particularly sensitive to aggressive compression, with\ndifferent methods showing performance drops of 17.4%-43.3%. Notably, the\nDeepSeek R1 Distill model exhibits more robust compression tolerance compared\nto instruction-tuned models, showing only 9.67%-25.53% performance\ndegradation. Based on our analysis of attention patterns and cross-task\ncompression performance, we propose ShotKV, a novel compression approach that\ndistinctly handles prefill and decoding phases while maintaining shot-level\nsemantic coherence. Empirical results show that ShotKV achieves 9%-18%\nperformance improvements on long-context generation tasks under aggressive\ncompression ratios.",
+            "upvotes": 7,
+            "discussionId": "67a2e2a22dd2adbc88755ab4"
+        },
+        "translation_title": "KV 캐시 압축 하에서 LLM의 기본 능력 유지 가능성 조사",
+        "purpose": "KV 캐시 압축 방법이 LLM의 기본 능력에 미치는 영향을 연구하고자 함.",
+        "method": [
+            "다양한 작업을 통해 여러 KV 캐시 압축 방법을 종합적으로 평가함(This paper presents a comprehensive empirical study evaluating prominent KV cache compression methods across diverse tasks.)",
+            "수학적 추론 작업이 압축에 특히 민감하다는 것을 발견함(Our analysis reveals that KV cache compression methods exhibit task-specific performance degradation.)",
+            "ShotKV라는 새로운 압축 접근 방식을 제안하고 이를 통해 성과를 개선함(Based on our analysis of attention patterns and cross-task compression performance, we propose ShotKV, a novel compression approach that distinctly handles prefill and decoding phases while maintaining shot-level semantic coherence.)"
+        ],
+        "conclusion": "ShotKV는 공격적인 압축 비율 하에서도 긴 맥락 생성 작업에서 9%-18%의 성과 개선을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
