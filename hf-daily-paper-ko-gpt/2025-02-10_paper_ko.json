@@ -1,0 +1,518 @@
+[
+    {
+        "paper": {
+            "id": "2502.05173",
+            "authors": [
+                {
+                    "_id": "67a97a47174028234b74f687",
+                    "user": {
+                        "_id": "62eb70462f0f5e54df42f778",
+                        "avatarUrl": "/avatars/456049dba67638d3cdb330cdf383f272.svg",
+                        "isPro": false,
+                        "fullname": "Xilin Wei",
+                        "user": "Wiselnn",
+                        "type": "user"
+                    },
+                    "name": "Xilin Wei",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T13:12:02.432Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f688",
+                    "user": {
+                        "_id": "64f033ef82c6eea604c4da8b",
+                        "avatarUrl": "/avatars/51b93fea7fd68b4274ee03701245dcca.svg",
+                        "isPro": false,
+                        "fullname": "Liu Xiaoran",
+                        "user": "LiuXR",
+                        "type": "user"
+                    },
+                    "name": "Xiaoran Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:59.999Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f689",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:50:02.011Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68a",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68b",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68c",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68d",
+                    "name": "Jian Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68e",
+                    "name": "Haodong Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f68f",
+                    "name": "Qipeng Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f690",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f691",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a97a47174028234b74f692",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-07T18:56:04.000Z",
+            "title": "VideoRoPE: What Makes for Good Video Rotary Position Embedding?",
+            "summary": "While Rotary Position Embedding (RoPE) and its variants are widely adopted\nfor their long-context capabilities, the extension of the 1D RoPE to video,\nwith its complex spatio-temporal structure, remains an open challenge. This\nwork first introduces a comprehensive analysis that identifies four key\ncharacteristics essential for the effective adaptation of RoPE to video, which\nhave not been fully considered in prior work. As part of our analysis, we\nintroduce a challenging V-NIAH-D (Visual Needle-In-A-Haystack with Distractors)\ntask, which adds periodic distractors into V-NIAH. The V-NIAH-D task\ndemonstrates that previous RoPE variants, lacking appropriate temporal\ndimension allocation, are easily misled by distractors. Based on our analysis,\nwe introduce VideoRoPE, with a 3D structure designed to\npreserve spatio-temporal relationships. VideoRoPE features\nlow-frequency temporal allocation to mitigate periodic oscillations, a\ndiagonal layout to maintain spatial symmetry, and adjustable\ntemporal spacing to decouple temporal and spatial indexing. VideoRoPE\nconsistently surpasses previous RoPE variants, across diverse downstream tasks\nsuch as long video retrieval, video understanding, and video hallucination. Our\ncode will be available at\nhttps://github.com/Wiselnn570/VideoRoPE{https://github.com/Wiselnn570/VideoRoPE}.",
+            "upvotes": 44,
+            "discussionId": "67a97a4a174028234b74f707"
+        },
+        "translation_title": "VideoRoPE: 좋은 비디오 회전 위치 임베딩을 위한 조건",
+        "purpose": "Rotary Position Embedding(RoPE)를 비디오에 효과적으로 적용하기 위한 주요 특성을 파악하고 개선하기 위해 연구함.",
+        "method": [
+            "RoPE의 비디오 적용을 위한 네 가지 주요 특성을 분석함(we first introduces a comprehensive analysis that identifies four key characteristics essential for the effective adaptation of RoPE to video).",
+            "새로운 V-NIAH-D 과제를 도입하여 주기적 방해 요소를 포함시킴(The V-NIAH-D task demonstrates that previous RoPE variants, lacking appropriate temporal dimension allocation, are easily misled by distractors).",
+            "3D 구조로 설계된 VideoRoPE를 도입하여 시공간 관계를 보존함(Based on our analysis, we introduce VideoRoPE, with a 3D structure designed to preserve spatio-temporal relationships).",
+            "저주파수 시간 할당과 공간 대칭 유지, 조절 가능한 시간 간격 설정으로 RoPE의 문제를 해결함(VideoRoPE features low-frequency temporal allocation to mitigate periodic oscillations, a diagonal layout to maintain spatial symmetry, and adjustable temporal spacing to decouple temporal and spatial indexing)."
+        ],
+        "conclusion": "VideoRoPE는 다양한 하위 작업에서 이전 RoPE 변형을 지속적으로 능가하며, 긴 비디오 검색, 비디오 이해 및 비디오 환각 등에서 성능이 향상됨.",
+        "keywords": [
+            "Video Understanding",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.04507",
+            "authors": [
+                {
+                    "_id": "67a98cd1b8b21202c9004628",
+                    "name": "Peiyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c9004629",
+                    "user": {
+                        "_id": "65416817271d3bc4d70f6745",
+                        "avatarUrl": "/avatars/55cc24918c62ab39540c4df813b026ef.svg",
+                        "isPro": false,
+                        "fullname": "Yongqi Chen",
+                        "user": "BrianChen1129",
+                        "type": "user"
+                    },
+                    "name": "Yongqi Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:48.410Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c900462a",
+                    "name": "Runlong Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c900462b",
+                    "name": "Hangliang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c900462c",
+                    "name": "Ion Stoica",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c900462d",
+                    "name": "Zhenghong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a98cd1b8b21202c900462e",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-06T21:17:09.000Z",
+            "title": "Fast Video Generation with Sliding Tile Attention",
+            "summary": "Diffusion Transformers (DiTs) with 3D full attention power state-of-the-art\nvideo generation, but suffer from prohibitive compute cost -- when generating\njust a 5-second 720P video, attention alone takes 800 out of 945 seconds of\ntotal inference time. This paper introduces sliding tile attention (STA) to\naddress this challenge. STA leverages the observation that attention scores in\npretrained video diffusion models predominantly concentrate within localized 3D\nwindows. By sliding and attending over the local spatial-temporal region, STA\neliminates redundancy from full attention. Unlike traditional token-wise\nsliding window attention (SWA), STA operates tile-by-tile with a novel\nhardware-aware sliding window design, preserving expressiveness while being\nhardware-efficient. With careful kernel-level optimizations, STA offers the\nfirst efficient 2D/3D sliding-window-like attention implementation, achieving\n58.79% MFU. Precisely, STA accelerates attention by 2.8-17x over\nFlashAttention-2 (FA2) and 1.6-10x over FlashAttention-3 (FA3). On the leading\nvideo DiT, HunyuanVideo, STA reduces end-to-end latency from 945s (FA3) to 685s\nwithout quality degradation, requiring no training. Enabling finetuning further\nlowers latency to 268s with only a 0.09% drop on VBench.",
+            "upvotes": 34,
+            "discussionId": "67a98cd7b8b21202c90047c5"
+        },
+        "translation_title": "슬라이딩 타일 어텐션을 이용한 빠른 비디오 생성",
+        "purpose": "비디오 생성 시 계산 비용을 줄이기 위한 새로운 어텐션 메커니즘 개발",
+        "method": [
+            "슬라이딩 타일 어텐션(STA)을 도입하여 로컬ized 3D 윈도우 내의 어텐션 점수를 활용함(STA leverages the observation that attention scores in pretrained video diffusion models predominantly concentrate within localized 3D windows.)",
+            "타일 단위로 작동하는 새로운 하드웨어 인식 슬라이딩 윈도우 설계를 통해 연산 효율성을 개선함(STA operates tile-by-tile with a novel hardware-aware sliding window design, preserving expressiveness while being hardware-efficient.)",
+            "커널 레벨 최적화를 통해 효율적인 2D/3D 슬라이딩 윈도우와 유사한 어텐션 구현을 제공함(STA offers the first efficient 2D/3D sliding-window-like attention implementation, achieving 58.79% MFU.)"
+        ],
+        "conclusion": "슬라이딩 타일 어텐션은 비디오 생성의 최종 대기 시간을 945초에서 685초로 줄이면서 품질 저하 없이 효율성을 높임.",
+        "keywords": [
+            "Video Generation",
+            "Large Language Models",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.05003",
+            "authors": [
+                {
+                    "_id": "67a9b1a69a99341e859c488d",
+                    "user": {
+                        "_id": "623753b5eddd7763adc9346a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623753b5eddd7763adc9346a/rcpQAKZNrkn1-tMtraQBX.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrei Panferov",
+                        "user": "BlackSamorez",
+                        "type": "user"
+                    },
+                    "name": "Andrei Panferov",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-02-10T08:09:18.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9b1a69a99341e859c488e",
+                    "name": "Jiale Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9b1a69a99341e859c488f",
+                    "user": {
+                        "_id": "632a2e325f2ff1958c0103be",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/632a2e325f2ff1958c0103be/Tb0ql9e4LcaFktTK1hzqe.jpeg",
+                        "isPro": false,
+                        "fullname": "Soroush Tabesh",
+                        "user": "soroushtabesh",
+                        "type": "user"
+                    },
+                    "name": "Soroush Tabesh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:37.573Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9b1a69a99341e859c4890",
+                    "name": "Roberto L. Castro",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9b1a69a99341e859c4891",
+                    "user": {
+                        "_id": "6526b8ebba9a8279c139616b",
+                        "avatarUrl": "/avatars/09f6b677603a03be128996a0765233e6.svg",
+                        "isPro": false,
+                        "fullname": "Mahdi Nikdan",
+                        "user": "mnikdan97",
+                        "type": "user"
+                    },
+                    "name": "Mahdi Nikdan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:50:25.944Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9b1a69a99341e859c4892",
+                    "user": {
+                        "_id": "64ef52c2718f94ae8e78a5e7",
+                        "avatarUrl": "/avatars/d169f4ee62786a3eb4a3fa9d1fec52e9.svg",
+                        "isPro": false,
+                        "fullname": "Alistarh",
+                        "user": "d-alistarh",
+                        "type": "user"
+                    },
+                    "name": "Dan Alistarh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:35.449Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-07T15:23:34.000Z",
+            "title": "QuEST: Stable Training of LLMs with 1-Bit Weights and Activations",
+            "summary": "One approach to reducing the massive costs of large language models (LLMs) is\nthe use of quantized or sparse representations for training or deployment.\nWhile post-training compression methods are very popular, the question of\nobtaining even more accurate compressed models by directly training over such\nrepresentations, i.e., Quantization-Aware Training (QAT), is still open: for\nexample, a recent study (arXiv:2411.04330v2) put the \"optimal\" bit-width at\nwhich models can be trained using QAT, while staying accuracy-competitive with\nstandard FP16/BF16 precision, at 8-bits weights and activations.\n  We advance this state-of-the-art via a new method called QuEST, which is\nPareto-competitive with FP16, i.e., it provides better accuracy at lower model\nsize, while training models with weights and activations in 4-bits or less.\nMoreover, QuEST allows stable training with 1-bit weights and activations.\nQuEST achieves this by improving two key aspects of QAT methods: (1) accurate\nand fast quantization of the (continuous) distributions of weights and\nactivations via Hadamard normalization and MSE-optimal fitting; (2) a new trust\ngradient estimator based on the idea of explicitly minimizing the error between\nthe noisy gradient computed over quantized states and the \"true\" (but unknown)\nfull-precision gradient. Experiments on Llama-type architectures show that\nQuEST induces stable scaling laws across the entire range of hardware-supported\nprecisions, and can be extended to sparse representations. We provide GPU\nkernel support showing that models produced by QuEST can be executed\nefficiently. Our code is available at https://github.com/IST-DASLab/QuEST.",
+            "upvotes": 23,
+            "discussionId": "67a9b1a79a99341e859c48c7"
+        },
+        "translation_title": "QuEST: 1비트 가중치와 활성화를 활용한 LLM의 안정적 훈련",
+        "purpose": "LLM의 훈련 비용을 줄이기 위한 정량화 및 희소 표현 방법의 연구",
+        "method": [
+            "Quantization-Aware Training(QAT)로 훈련하면서 가중치 및 활성화를 4비트 이하로 설정하여 더 나은 정확도를 제공함을 목표로 함(We advance this state-of-the-art via a new method called QuEST, which is Pareto-competitive with FP16.)",
+            "Hadamard 정규화와 MSE 최적 적합을 통해 가중치와 활성화의 분포를 정확하고 빠르게 정량화함(QuEST achieves this by improving two key aspects of QAT methods: accurate and fast quantization of the (continuous) distributions of weights and activations via Hadamard normalization and MSE-optimal fitting.)",
+            "정량화된 상태에서 계산된 노이즈 경량과 실제(알 수 없는) 고정도 경량 간의 오차를 최소화하는 새로운 신뢰 그래디언트 추정기를 도입함( a new trust gradient estimator based on the idea of explicitly minimizing the error between the noisy gradient computed over quantized states and the 'true' (but unknown) full-precision gradient.)"
+        ],
+        "conclusion": "QuEST는 안정적인 스케일링 법칙을 유도하며, 희소 표현에 확장할 수 있고, GPU에서 효율적으로 실행될 수 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.05176",
+            "authors": [
+                {
+                    "_id": "67a9889dc1fbde5146aba8b1",
+                    "name": "Chung-Ho Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b2",
+                    "name": "Yang-Jung Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b3",
+                    "name": "Ying-Huan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b4",
+                    "name": "Jie-Ying Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b5",
+                    "name": "Bo-Hsu Ke",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b6",
+                    "name": "Chun-Wei Tuan Mu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b7",
+                    "name": "Yi-Chuan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b8",
+                    "name": "Chin-Yang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8b9",
+                    "user": {
+                        "_id": "64ae22dd1aee69ece065cdcd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+                        "isPro": false,
+                        "fullname": "Min-Hung Chen",
+                        "user": "cmhungsteve",
+                        "type": "user"
+                    },
+                    "name": "Min-Hung Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:50.370Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8ba",
+                    "name": "Yen-Yu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a9889dc1fbde5146aba8bb",
+                    "name": "Yu-Lun Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-07T18:59:55.000Z",
+            "title": "AuraFusion360: Augmented Unseen Region Alignment for Reference-based\n  360° Unbounded Scene Inpainting",
+            "summary": "Three-dimensional scene inpainting is crucial for applications from virtual\nreality to architectural visualization, yet existing methods struggle with view\nconsistency and geometric accuracy in 360{\\deg} unbounded scenes. We present\nAuraFusion360, a novel reference-based method that enables high-quality object\nremoval and hole filling in 3D scenes represented by Gaussian Splatting. Our\napproach introduces (1) depth-aware unseen mask generation for accurate\nocclusion identification, (2) Adaptive Guided Depth Diffusion, a zero-shot\nmethod for accurate initial point placement without requiring additional\ntraining, and (3) SDEdit-based detail enhancement for multi-view coherence. We\nalso introduce 360-USID, the first comprehensive dataset for 360{\\deg}\nunbounded scene inpainting with ground truth. Extensive experiments demonstrate\nthat AuraFusion360 significantly outperforms existing methods, achieving\nsuperior perceptual quality while maintaining geometric accuracy across\ndramatic viewpoint changes. See our project page for video results and the\ndataset at https://kkennethwu.github.io/aurafusion360/.",
+            "upvotes": 22,
+            "discussionId": "67a988a4c1fbde5146abaa3b"
+        },
+        "translation_title": "AuraFusion360: 참조 기반 360° 무한 장면 제도로 알아보는 증강된 보이지 않는 영역 정렬",
+        "purpose": "3D 장면의 객체 제거와 홀 채우기 성능 개선을 위한 새로운 방법 제안",
+        "method": [
+            "Gaussian Splatting으로 표현된 3D 장면에서 정확한 가리기 식별을 위한 깊이 인식 보이지 않는 마스크 생성 방법을 도입함(our approach introduces (1) depth-aware unseen mask generation for accurate occlusion identification.)",
+            "추가 교육 없이도 정확한 초기 포인트 배치를 위한 제로샷 방식인 Adaptive Guided Depth Diffusion을 활용함,(2) Adaptive Guided Depth Diffusion, a zero-shot method for accurate initial point placement without requiring additional training.)",
+            "다중 시점 일관성을 위한 SDEdit 기반 세부 사항 향상 기법을 적용함(3) SDEdit-based detail enhancement for multi-view coherence.)"
+        ],
+        "conclusion": "AuraFusion360은 기존 방법들에 비해 시각적 품질을 크게 개선하고, 극적인 시점 변화에서도 기하학적 정확성을 유지함을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "3D Vision",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.04896",
+            "authors": [
+                {
+                    "_id": "67a983ea9b72585dd12587fb",
+                    "user": {
+                        "_id": "6412a33900634c4fe9873652",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6412a33900634c4fe9873652/Nmn_yRA1gGD2VO1YbSOYF.jpeg",
+                        "isPro": false,
+                        "fullname": "Shoufa Chen",
+                        "user": "ShoufaChen",
+                        "type": "user"
+                    },
+                    "name": "Shoufa Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-10T09:49:52.136Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd12587fc",
+                    "name": "Chongjian Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd12587fd",
+                    "name": "Yuqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd12587fe",
+                    "name": "Yida Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd12587ff",
+                    "name": "Fengda Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258800",
+                    "name": "Hao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258801",
+                    "name": "Hongxiang Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258802",
+                    "name": "Hui Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258803",
+                    "name": "Zhichao Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258804",
+                    "name": "Yifei Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258805",
+                    "name": "Ting-Che Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258806",
+                    "name": "Shilong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258807",
+                    "name": "Fu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258808",
+                    "name": "Chuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258809",
+                    "name": "Xing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880a",
+                    "name": "Yanghua Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880b",
+                    "name": "Peize Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880c",
+                    "name": "Ping Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880d",
+                    "name": "Yi Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880e",
+                    "name": "Zehuan Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd125880f",
+                    "name": "Bingyue Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a983ea9b72585dd1258810",
+                    "name": "Xiaobing Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-07T13:03:55.000Z",
+            "title": "Goku: Flow Based Video Generative Foundation Models",
+            "summary": "This paper introduces Goku, a state-of-the-art family of joint\nimage-and-video generation models leveraging rectified flow Transformers to\nachieve industry-leading performance. We detail the foundational elements\nenabling high-quality visual generation, including the data curation pipeline,\nmodel architecture design, flow formulation, and advanced infrastructure for\nefficient and robust large-scale training. The Goku models demonstrate superior\nperformance in both qualitative and quantitative evaluations, setting new\nbenchmarks across major tasks. Specifically, Goku achieves 0.76 on GenEval and\n83.65 on DPG-Bench for text-to-image generation, and 84.85 on VBench for\ntext-to-video tasks. We believe that this work provides valuable insights and\npractical advancements for the research community in developing joint\nimage-and-video generation models.",
+            "upvotes": 21,
+            "discussionId": "67a983ee9b72585dd125890f"
+        },
+        "translation_title": "Goku: 흐름 기반 비디오 생성 기초 모델",
+        "purpose": "고품질 이미지와 비디오 생성 모델 개발을 위한 기초 요소와 기술 제시",
+        "method": [
+            "rectified flow Transformers를 활용한 이미지 및 비디오 생성 모델 설계(We detail the foundational elements enabling high-quality visual generation, including the data curation pipeline, model architecture design, flow formulation, and advanced infrastructure for efficient and robust large-scale training.)",
+            "Goku 모델이 업계 최고 성능을 달성하기 위해 데이터 정제 및 대규모 훈련 인프라를 구축함(The Goku models demonstrate superior performance in both qualitative and quantitative evaluations, setting new benchmarks across major tasks.)",
+            "Goku 모델이 다양한 벤치마크에서 새로운 기준을 수립함(Goku achieves 0.76 on GenEval and 83.65 on DPG-Bench for text-to-image generation, and 84.85 on VBench for text-to-video tasks.)"
+        ],
+        "conclusion": "Goku 모델은 이미지와 비디오 생성을 위한 새로운 기준을 세우며, 연구 커뮤니티에 유용한 통찰과 발전을 제공함.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
