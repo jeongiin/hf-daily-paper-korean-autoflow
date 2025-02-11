@@ -1,0 +1,453 @@
+[
+    {
+        "paper": {
+            "id": "2502.06394",
+            "authors": [
+                {
+                    "_id": "67aafead3711ca5b760f324c",
+                    "user": {
+                        "_id": "61ade264f602880813dbe10b",
+                        "avatarUrl": "/avatars/a92dea7d853bbabbf60b351c207b6875.svg",
+                        "isPro": false,
+                        "fullname": "Daniil Moskovskiy",
+                        "user": "etomoscow",
+                        "type": "user"
+                    },
+                    "name": "Daniil Moskovskiy",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:17.448Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aafead3711ca5b760f324d",
+                    "user": {
+                        "_id": "634c72e6fe1bfa967d6c2b5c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c72e6fe1bfa967d6c2b5c/WFWIAlWl-FsiJRyGxQTTx.jpeg",
+                        "isPro": false,
+                        "fullname": "Nikita Sushko",
+                        "user": "chameleon-lizard",
+                        "type": "user"
+                    },
+                    "name": "Nikita Sushko",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:21.453Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aafead3711ca5b760f324e",
+                    "user": {
+                        "_id": "5dfa8e07da6d0311fd3d5430",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651090418656-5dfa8e07da6d0311fd3d5430.png",
+                        "isPro": false,
+                        "fullname": "Sergey Pletenev",
+                        "user": "memyprokotow",
+                        "type": "user"
+                    },
+                    "name": "Sergey Pletenev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T09:59:47.063Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aafead3711ca5b760f324f",
+                    "user": {
+                        "_id": "662f8d645c4db70c77a203b0",
+                        "avatarUrl": "/avatars/72f9a3c39b3ba5114388d16a35524835.svg",
+                        "isPro": false,
+                        "fullname": "Elena Tutubalina",
+                        "user": "tlenusik",
+                        "type": "user"
+                    },
+                    "name": "Elena Tutubalina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T09:59:50.003Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aafead3711ca5b760f3250",
+                    "name": "Alexander Panchenko",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-10T12:30:25.000Z",
+            "title": "SynthDetoxM: Modern LLMs are Few-Shot Parallel Detoxification Data\n  Annotators",
+            "summary": "Existing approaches to multilingual text detoxification are hampered by the\nscarcity of parallel multilingual datasets. In this work, we introduce a\npipeline for the generation of multilingual parallel detoxification data. We\nalso introduce SynthDetoxM, a manually collected and synthetically generated\nmultilingual parallel text detoxification dataset comprising 16,000\nhigh-quality detoxification sentence pairs across German, French, Spanish and\nRussian. The data was sourced from different toxicity evaluation datasets and\nthen rewritten with nine modern open-source LLMs in few-shot setting. Our\nexperiments demonstrate that models trained on the produced synthetic datasets\nhave superior performance to those trained on the human-annotated\nMultiParaDetox dataset even in data limited setting. Models trained on\nSynthDetoxM outperform all evaluated LLMs in few-shot setting. We release our\ndataset and code to help further research in multilingual text detoxification.",
+            "upvotes": 67,
+            "discussionId": "67aafeae3711ca5b760f3280"
+        },
+        "translation_title": "SynthDetoxM: 현대 LLM의 Few-Shot 병렬 독소 제거 데이터 주석자",
+        "purpose": "다국어 텍스트 독소 제거를 위한 병렬 다국어 데이터 세트의 부족 문제를 해결하기 위한 연구",
+        "method": [
+            "다국어 병렬 독소 제거 데이터 생성을 위한 파이프라인을 소개함(In this work, we introduce a pipeline for the generation of multilingual parallel detoxification data.)",
+            "16,000개의 고품질 독소 제거 문장 쌍으로 구성된 SynthDetoxM 데이터세트를 수집 및 생성함(We also introduce SynthDetoxM, a manually collected and synthetically generated multilingual parallel text detoxification dataset comprising 16,000 high-quality detoxification sentence pairs.)",
+            "다양한 독소 평가 데이터 세트와 현대의 오픈소스 LLM을 사용해 데이터를 재작성함(The data was sourced from different toxicity evaluation datasets and then rewritten with nine modern open-source LLMs in few-shot setting.)",
+            "생성된 합성 데이터 세트로 훈련한 모델이 기존 사람 주석 기반 데이터 세트에 비해 우수한 성능을 나타냄(Our experiments demonstrate that models trained on the produced synthetic datasets have superior performance to those trained on the human-annotated MultiParaDetox dataset.)"
+        ],
+        "conclusion": "SynthDetoxM으로 훈련된 모델은 평가된 모든 LLM을 초월하는 성능을 발휘하며, 우리는 이 데이터셋과 코드를 공개하여 다국어 텍스트 독소 제거 연구를 지원함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.06703",
+            "authors": [
+                {
+                    "_id": "67aabf93c0f8648f68c68ce4",
+                    "user": {
+                        "_id": "667187ba9ab144eb3ac43a1b",
+                        "avatarUrl": "/avatars/db5558aa1c5160b9aee8b58573271959.svg",
+                        "isPro": false,
+                        "fullname": "Runze Liu",
+                        "user": "RyanLiu112",
+                        "type": "user"
+                    },
+                    "name": "Runze Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:55:22.940Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ce5",
+                    "name": "Junqi Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ce6",
+                    "name": "Jian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ce7",
+                    "user": {
+                        "_id": "60bc94cd85a3ab33829b6211",
+                        "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+                        "isPro": false,
+                        "fullname": "Kaiyan Zhang",
+                        "user": "iseesaw",
+                        "type": "user"
+                    },
+                    "name": "Kaiyan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:55:18.725Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ce8",
+                    "name": "Xiu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ce9",
+                    "name": "Biqing Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68cea",
+                    "name": "Wanli Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aabf93c0f8648f68c68ceb",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-10T17:30:23.000Z",
+            "title": "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time\n  Scaling",
+            "summary": "Test-Time Scaling (TTS) is an important method for improving the performance\nof Large Language Models (LLMs) by using additional computation during the\ninference phase. However, current studies do not systematically analyze how\npolicy models, Process Reward Models (PRMs), and problem difficulty influence\nTTS. This lack of analysis limits the understanding and practical use of TTS\nmethods. In this paper, we focus on two core questions: (1) What is the optimal\napproach to scale test-time computation across different policy models, PRMs,\nand problem difficulty levels? (2) To what extent can extended computation\nimprove the performance of LLMs on complex tasks, and can smaller language\nmodels outperform larger ones through this approach? Through comprehensive\nexperiments on MATH-500 and challenging AIME24 tasks, we have the following\nobservations: (1) The compute-optimal TTS strategy is highly dependent on the\nchoice of policy model, PRM, and problem difficulty. (2) With our\ncompute-optimal TTS strategy, extremely small policy models can outperform\nlarger models. For example, a 1B LLM can exceed a 405B LLM on MATH-500.\nMoreover, on both MATH-500 and AIME24, a 0.5B LLM outperforms GPT-4o, a 3B LLM\nsurpasses a 405B LLM, and a 7B LLM beats o1 and DeepSeek-R1, while with higher\ninference efficiency. These findings show the significance of adapting TTS\nstrategies to the specific characteristics of each task and model and indicate\nthat TTS is a promising approach for enhancing the reasoning abilities of LLMs.",
+            "upvotes": 45,
+            "discussionId": "67aabf94c0f8648f68c68d19"
+        },
+        "translation_title": "1B LLM이 405B LLM을 능가할 수 있을까? 최적의 Compute-Optimal Test-Time Scaling 재고",
+        "purpose": "Test-Time Scaling(TTS) 방법을 통해 대형 언어 모델의 성능을 향상시키기 위한 최적의 접근 방식을 파악하고, 더 작은 언어 모델이 더 큰 모델을 능가할 수 있는지를 검증",
+        "method": [
+            "정책 모델, 과정 보상 모델(PRMs), 문제 난이도에 따라 TTS의 최적화를 분석하고 체계적으로 실험함(we systematically analyze how policy models, Process Reward Models (PRMs), and problem difficulty influence TTS.)",
+            "MATH-500 과 AIME24와 같은 복잡한 과제를 대상으로 포괄적인 실험을 수행함(Through comprehensive experiments on MATH-500 and challenging AIME24 tasks, we have the following observations.)"
+        ],
+        "conclusion": "1B LLM이 실제로 405B LLM을 능가할 수 있으며, 각 작업과 모델의 특정 특성에 맞춰 TTS 전략을 조정하는 것이 중요하다는 것을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Test-Time Scaling",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.06781",
+            "authors": [
+                {
+                    "_id": "67aacd7e078cdf445284f9f6",
+                    "name": "Chengqi Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9f7",
+                    "name": "Songyang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9f8",
+                    "name": "Yuzhe Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9f9",
+                    "user": {
+                        "_id": "64e8505321540e1da3226b54",
+                        "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+                        "isPro": false,
+                        "fullname": "Wenwei Zhang",
+                        "user": "ZwwWayne",
+                        "type": "user"
+                    },
+                    "name": "Wenwei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:40.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9fa",
+                    "name": "Jianfei Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9fb",
+                    "name": "Kuikun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9fc",
+                    "name": "Ziyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9fd",
+                    "name": "Shuaibin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9fe",
+                    "name": "Qian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284f9ff",
+                    "name": "Haian Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa00",
+                    "name": "Weihan Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa01",
+                    "name": "Jiangning Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa02",
+                    "name": "Hongwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa03",
+                    "name": "Junnan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa04",
+                    "user": {
+                        "_id": "630716d11801ecc7d2595021",
+                        "avatarUrl": "/avatars/2d36a880ce4a3cf7efc5ff3987dbeaf3.svg",
+                        "isPro": false,
+                        "fullname": "Songyang Zhang",
+                        "user": "zsytony",
+                        "type": "user"
+                    },
+                    "name": "Songyang Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:37.733Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa05",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacd7e078cdf445284fa06",
+                    "name": "Kai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-10T18:57:29.000Z",
+            "title": "Exploring the Limit of Outcome Reward for Learning Mathematical\n  Reasoning",
+            "summary": "Reasoning abilities, especially those for solving complex math problems, are\ncrucial components of general intelligence. Recent advances by proprietary\ncompanies, such as o-series models of OpenAI, have made remarkable progress on\nreasoning tasks. However, the complete technical details remain unrevealed, and\nthe techniques that are believed certainly to be adopted are only reinforcement\nlearning (RL) and the long chain of thoughts. This paper proposes a new RL\nframework, termed OREAL, to pursue the performance limit that can be achieved\nthrough Outcome REwArd-based reinforcement\nLearning for mathematical reasoning tasks, where only binary outcome\nrewards are easily accessible. We theoretically prove that behavior cloning on\npositive trajectories from best-of-N (BoN) sampling is sufficient to learn the\nKL-regularized optimal policy in binary feedback environments. This formulation\nfurther implies that the rewards of negative samples should be reshaped to\nensure the gradient consistency between positive and negative samples. To\nalleviate the long-existing difficulties brought by sparse rewards in RL, which\nare even exacerbated by the partial correctness of the long chain of thought\nfor reasoning tasks, we further apply a token-level reward model to sample\nimportant tokens in reasoning trajectories for learning. With OREAL, for the\nfirst time, a 7B model can obtain 94.0 pass@1 accuracy on MATH-500 through RL,\nbeing on par with 32B models. OREAL-32B also surpasses previous 32B models\ntrained by distillation with 95.0 pass@1 accuracy on MATH-500. Our\ninvestigation also indicates the importance of initial policy models and\ntraining queries for RL. Code, models, and data will be released to benefit\nfuture researchhttps://github.com/InternLM/OREAL.",
+            "upvotes": 34,
+            "discussionId": "67aacd7f078cdf445284fa4b"
+        },
+        "translation_title": "수학 추론 학습을 위한 결과 보상의 한계 탐색",
+        "purpose": "수학적 추론 과제를 위한 성과 한계를 주어진 결과 보상 기반 강화 학습 방법론을 통해 탐구",
+        "method": [
+            "OREAL이라 불리는 새로운 RL 프레임워크를 제안함( This paper proposes a new RL framework, termed OREAL, to pursue the performance limit that can be achieved through Outcome REwArd-based reinforcement Learning for mathematical reasoning tasks.)",
+            "행동 복제를 통해 이전의 성과 기반 정책 학습 방법을 이론적으로 증명함(We theoretically prove that behavior cloning on positive trajectories from best-of-N (BoN) sampling is sufficient to learn the KL-regularized optimal policy in binary feedback environments.)",
+            "토큰 수준의 보상 모델을 적용하여 중요한 토큰을 샘플링함(To alleviate the long-existing difficulties brought by sparse rewards in RL, we further apply a token-level reward model to sample important tokens in reasoning trajectories for learning.)"
+        ],
+        "conclusion": "OREAL을 통해 7B 모델이 MATH-500에서 94.0%의 pass@1 정확도를 달성하며, 이전의 32B 모델과 동등한 성과를 보였음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Mathematical Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.06060",
+            "authors": [
+                {
+                    "_id": "67ab1314385da1f07cda1271",
+                    "user": {
+                        "_id": "63abbf74ad514ca8d14a0548",
+                        "avatarUrl": "/avatars/b1357b73b8f9a8ff9908710ad64154ef.svg",
+                        "isPro": false,
+                        "fullname": "Bidipta Sarkar",
+                        "user": "bidiptas",
+                        "type": "user"
+                    },
+                    "name": "Bidipta Sarkar",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T09:51:17.933Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab1314385da1f07cda1272",
+                    "name": "Warren Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab1314385da1f07cda1273",
+                    "name": "C. Karen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab1314385da1f07cda1274",
+                    "name": "Dorsa Sadigh",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-09T22:44:45.000Z",
+            "title": "Training Language Models for Social Deduction with Multi-Agent\n  Reinforcement Learning",
+            "summary": "Communicating in natural language is a powerful tool in multi-agent settings,\nas it enables independent agents to share information in partially observable\nsettings and allows zero-shot coordination with humans. However, most prior\nworks are limited as they either rely on training with large amounts of human\ndemonstrations or lack the ability to generate natural and useful communication\nstrategies. In this work, we train language models to have productive\ndiscussions about their environment in natural language without any human\ndemonstrations. We decompose the communication problem into listening and\nspeaking. Our key idea is to leverage the agent's goal to predict useful\ninformation about the world as a dense reward signal that guides communication.\nSpecifically, we improve a model's listening skills by training them to predict\ninformation about the environment based on discussions, and we simultaneously\nimprove a model's speaking skills with multi-agent reinforcement learning by\nrewarding messages based on their influence on other agents. To investigate the\nrole and necessity of communication in complex social settings, we study an\nembodied social deduction game based on Among Us, where the key question to\nanswer is the identity of an adversarial imposter. We analyze emergent\nbehaviors due to our technique, such as accusing suspects and providing\nevidence, and find that it enables strong discussions, doubling the win rates\ncompared to standard RL. We release our code and models at\nhttps://socialdeductionllm.github.io/",
+            "upvotes": 16,
+            "discussionId": "67ab1315385da1f07cda12a5"
+        },
+        "translation_title": "다중 에이전트를 위한 사회적 추론을 위한 언어 모델 훈련",
+        "purpose": "인간의 시연 없이 자연어로 에이전트 간의 효과적인 의사소통을 생성하는 언어 모델 훈련",
+        "method": [
+            "의사소통 문제를 듣기와 말하기로 나누어 접근함(We decompose the communication problem into listening and speaking.)",
+            "에이전트의 목표를 활용하여 환경에 대한 유용한 정보를 예측하도록 훈련함(Our key idea is to leverage the agent's goal to predict useful information about the world as a dense reward signal that guides communication.)",
+            "다중 에이전트 강화 학습을 통해 메시지가 다른 에이전트에 미치는 영향을 보상하여 말하기 기술을 향상함(we simultaneously improve a model's speaking skills with multi-agent reinforcement learning by rewarding messages based on their influence on other agents.)"
+        ],
+        "conclusion": "이 방법을 통해 에이전트들은 강한 토론을 하게 되어 승리 확률이 두 배로 증가함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multi-Agent Learning",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.05609",
+            "authors": [
+                {
+                    "_id": "67aacaaaa03eecbc2d72835f",
+                    "user": {
+                        "_id": "64ec4c04c782d648d28d70fc",
+                        "avatarUrl": "/avatars/6975526fcf4b513cc934b5bc45370a48.svg",
+                        "isPro": false,
+                        "fullname": "Sukmin Cho",
+                        "user": "zomss",
+                        "type": "user"
+                    },
+                    "name": "Sukmin Cho",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:43.377Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728360",
+                    "name": "Sangjin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728361",
+                    "user": {
+                        "_id": "64d1e70a84f205869017703b",
+                        "avatarUrl": "/avatars/215d0d4db5f79cb74df4d888b18c6a0d.svg",
+                        "isPro": false,
+                        "fullname": "Taeho Hwang",
+                        "user": "doubleyyh",
+                        "type": "user"
+                    },
+                    "name": "Taeho Hwang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-11T07:54:45.737Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728362",
+                    "name": "Jeongyeon Seo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728363",
+                    "name": "Soyeong Jeong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728364",
+                    "name": "Huije Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728365",
+                    "name": "Hoyun Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728366",
+                    "name": "Jong C. Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "67aacaaaa03eecbc2d728367",
+                    "name": "Youngjin Kwon",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-08T15:32:53.000Z",
+            "title": "Lossless Acceleration of Large Language Models with Hierarchical\n  Drafting based on Temporal Locality in Speculative Decoding",
+            "summary": "Accelerating inference in Large Language Models (LLMs) is critical for\nreal-time interactions, as they have been widely incorporated into real-world\nservices. Speculative decoding, a fully algorithmic solution, has gained\nattention for improving inference speed by drafting and verifying tokens,\nthereby generating multiple tokens in a single forward pass. However, current\ndrafting strategies usually require significant fine-tuning or have\ninconsistent performance across tasks. To address these challenges, we propose\nHierarchy Drafting (HD), a novel lossless drafting approach that organizes\nvarious token sources into multiple databases in a hierarchical framework based\non temporal locality. In the drafting step, HD sequentially accesses multiple\ndatabases to obtain draft tokens from the highest to the lowest locality,\nensuring consistent acceleration across diverse tasks and minimizing drafting\nlatency. Our experiments on Spec-Bench using LLMs with 7B and 13B parameters\ndemonstrate that HD outperforms existing database drafting methods, achieving\nrobust inference speedups across model sizes, tasks, and temperatures.",
+            "upvotes": 12,
+            "discussionId": "67aacaaca03eecbc2d728394"
+        },
+        "translation_title": "시간적 지역성을 기반으로 한 계층적 초안 작성을 통한 대형 언어 모델의 무손실 가속화",
+        "purpose": "대형 언어 모델의 추론 속도를 일관되게 향상시켜 실시간 상호작용을 가능하게 하기 위한 전략 개발",
+        "method": [
+            "새로운 무손실 초안 작성 방법인 Hierarchy Drafting(HD)를 제안함(Hierarchy Drafting (HD), a novel lossless drafting approach).",
+            "HD는 시간적 지역성을 기반으로 다양한 토큰 소스를 계층적인 프레임워크로 조직함(based on temporal locality).",
+            "초안 작성 단계에서 HD는 여러 데이터베이스에 순차적으로 접근하여 높은 지역성부터 낮은 지역성까지의 초안 토큰을 확보함(sequentially accesses multiple databases to obtain draft tokens from the highest to the lowest locality).",
+            "7B 및 13B 매개변수를 가진 LLM으로 Spec-Bench에서 실험을 수행함(experiments on Spec-Bench using LLMs with 7B and 13B parameters)."
+        ],
+        "conclusion": "HD는 기존 데이터베이스 초안 작성 방법보다 뛰어난 성능을 보이며, 다양한 모델 크기와 작업에서 강력한 추론 속도 향상을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
