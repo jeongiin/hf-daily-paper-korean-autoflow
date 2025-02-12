@@ -1,0 +1,378 @@
+[
+    {
+        "paper": {
+            "id": "2502.06807",
+            "authors": [
+                {
+                    "_id": "67ac1b080686a1e0690741ce",
+                    "name": "OpenAI",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d0",
+                    "name": "Ahmed El-Kishky",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d1",
+                    "name": "Alexander Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d2",
+                    "name": "Andre Saraiva",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d3",
+                    "name": "Borys Minaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d4",
+                    "name": "Daniel Selsam",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d5",
+                    "name": "David Dohan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d6",
+                    "name": "Francis Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d7",
+                    "name": "Hunter Lightman",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d8",
+                    "name": "Ignasi Clavera",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741d9",
+                    "name": "Jakub Pachocki",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741da",
+                    "name": "Jerry Tworek",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741db",
+                    "name": "Lorenz Kuhn",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741dc",
+                    "name": "Lukasz Kaiser",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741dd",
+                    "name": "Mark Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741de",
+                    "name": "Max Schwarzer",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741df",
+                    "name": "Mostafa Rohaninejad",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e0",
+                    "name": "Nat McAleese",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e1",
+                    "name": "o3 contributors",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e2",
+                    "name": "Oleg Mürk",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e3",
+                    "name": "Rhythm Garg",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e4",
+                    "name": "Rui Shu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e5",
+                    "name": "Szymon Sidor",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e6",
+                    "name": "Vineet Kosaraju",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac1b080686a1e0690741e7",
+                    "name": "Wenda Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-03T23:00:15.000Z",
+            "title": "Competitive Programming with Large Reasoning Models",
+            "summary": "We show that reinforcement learning applied to large language models (LLMs)\nsignificantly boosts performance on complex coding and reasoning tasks.\nAdditionally, we compare two general-purpose reasoning models - OpenAI o1 and\nan early checkpoint of o3 - with a domain-specific system, o1-ioi, which uses\nhand-engineered inference strategies designed for competing in the 2024\nInternational Olympiad in Informatics (IOI). We competed live at IOI 2024 with\no1-ioi and, using hand-crafted test-time strategies, placed in the 49th\npercentile. Under relaxed competition constraints, o1-ioi achieved a gold\nmedal. However, when evaluating later models such as o3, we find that o3\nachieves gold without hand-crafted domain-specific strategies or relaxed\nconstraints. Our findings show that although specialized pipelines such as\no1-ioi yield solid improvements, the scaled-up, general-purpose o3 model\nsurpasses those results without relying on hand-crafted inference heuristics.\nNotably, o3 achieves a gold medal at the 2024 IOI and obtains a Codeforces\nrating on par with elite human competitors. Overall, these results indicate\nthat scaling general-purpose reinforcement learning, rather than relying on\ndomain-specific techniques, offers a robust path toward state-of-the-art AI in\nreasoning domains, such as competitive programming.",
+            "upvotes": 34,
+            "discussionId": "67ac1b090686a1e069074208"
+        },
+        "translation_title": "대규모 추론 모델을 활용한 경쟁 프로그래밍",
+        "purpose": "복잡한 코딩 및 추론 작업에서 성능 향상을 위한 대규모 언어 모델(Large Language Models)에 대한 강화 학습 적용 연구",
+        "method": [
+            "두 가지 일반 목적의 추론 모델, OpenAI o1과 초기 버전 o3, 도메인 특화 시스템 o1-ioi를 비교함(Additionally, we compare two general-purpose reasoning models - OpenAI o1 and an early checkpoint of o3 - with a domain-specific system, o1-ioi.)",
+            "2024 국제 정보 올림피아드(IOI)에서 o1-ioi 모델을 사용하여 실제로 경쟁을 함(We competed live at IOI 2024 with o1-ioi.)",
+            "o3 모델은 도메인 특화 전략 없이도 금메달을 달성함(However, when evaluating later models such as o3, we find that o3 achieves gold without hand-crafted domain-specific strategies.)"
+        ],
+        "conclusion": "일반 목적의 강화 학습을 확장하는 것이 경쟁 프로그래밍과 같은 추론 분야에서 최첨단 AI에 이르는 강력한 경로임을 보여줍니다.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.06329",
+            "authors": [
+                {
+                    "_id": "67ab4174757d2eb190af0375",
+                    "user": {
+                        "_id": "621d6f532165dc431641e438",
+                        "avatarUrl": "/avatars/56ccef10a8426d7160ef3586a771bd63.svg",
+                        "isPro": false,
+                        "fullname": "Kiran Kamble",
+                        "user": "kiranr",
+                        "type": "user"
+                    },
+                    "name": "Kiran Kamble",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-12T09:16:55.367Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab4174757d2eb190af0376",
+                    "name": "Melisa Russak",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab4174757d2eb190af0377",
+                    "name": "Dmytro Mozolevskyi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab4174757d2eb190af0378",
+                    "user": {
+                        "_id": "6320a906a023aad6a7670e99",
+                        "avatarUrl": "/avatars/48071559b0c7660bf6861cfe008b3006.svg",
+                        "isPro": false,
+                        "fullname": "Muayad Sayed Ali",
+                        "user": "muayad",
+                        "type": "user"
+                    },
+                    "name": "Muayad Ali",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-12T09:16:53.157Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab4174757d2eb190af0379",
+                    "name": "Mateusz Russak",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ab4174757d2eb190af037a",
+                    "name": "Waseem AlShikh",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-10T10:29:28.000Z",
+            "title": "Expect the Unexpected: FailSafe Long Context QA for Finance",
+            "summary": "We propose a new long-context financial benchmark, FailSafeQA, designed to\ntest the robustness and context-awareness of LLMs against six variations in\nhuman-interface interactions in LLM-based query-answer systems within finance.\nWe concentrate on two case studies: Query Failure and Context Failure. In the\nQuery Failure scenario, we perturb the original query to vary in domain\nexpertise, completeness, and linguistic accuracy. In the Context Failure case,\nwe simulate the uploads of degraded, irrelevant, and empty documents. We employ\nthe LLM-as-a-Judge methodology with Qwen2.5-72B-Instruct and use fine-grained\nrating criteria to define and calculate Robustness, Context Grounding, and\nCompliance scores for 24 off-the-shelf models. The results suggest that\nalthough some models excel at mitigating input perturbations, they must balance\nrobust answering with the ability to refrain from hallucinating. Notably,\nPalmyra-Fin-128k-Instruct, recognized as the most compliant model, maintained\nstrong baseline performance but encountered challenges in sustaining robust\npredictions in 17% of test cases. On the other hand, the most robust model,\nOpenAI o3-mini, fabricated information in 41% of tested cases. The results\ndemonstrate that even high-performing models have significant room for\nimprovement and highlight the role of FailSafeQA as a tool for developing LLMs\noptimized for dependability in financial applications. The dataset is available\nat: https://huggingface.co/datasets/Writer/FailSafeQA",
+            "upvotes": 14,
+            "discussionId": "67ab4175757d2eb190af03ca"
+        },
+        "translation_title": "예상치 못한 상황에 대비하라: 금융을 위한 FailSafe 장기 맥락 QA",
+        "purpose": "LLM의 Robustness(강인성)과 Context-awareness(맥락 인식)를 평가하기 위한 금융 벤치마크 개발",
+        "method": [
+            "FailSafeQA라는 새로운 장기 맥락 금융 벤치마크를 제안하여 LLM 기반 질의 응답 시스템의 다양한 인간-인터페이스 변화를 테스트함(We propose a new long-context financial benchmark, FailSafeQA, designed to test the robustness and context-awareness of LLMs against six variations in human-interface interactions in LLM-based query-answer systems within finance.)",
+            "Query Failure와 Context Failure의 두 가지 사례 연구에 집중하여, 원래 질의를 다양한 접근으로 조정함(In the Query Failure scenario, we perturb the original query to vary in domain expertise, completeness, and linguistic accuracy.)",
+            "루브릭을 정의하고 24개의 모델의 Robustness, Context Grounding, Compliance 점수를 평가하기 위해 LLM-as-a-Judge 방법론을 사용함(We employ the LLM-as-a-Judge methodology with Qwen2.5-72B-Instruct and use fine-grained rating criteria to define and calculate Robustness, Context Grounding, and Compliance scores for 24 off-the-shelf models.)"
+        ],
+        "conclusion": "모델들은 입출력 변동에 대해 개선이 필요하며, FailSafeQA는 금융 응용 프로그램에서 신뢰성을 최적화하기 위한 LLM 개발 도구로서 중요한 역할을 한다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Financial QA"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.07701",
+            "authors": [
+                {
+                    "_id": "67ac23166def89f9aae56abd",
+                    "name": "Hongwei Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56abe",
+                    "name": "Shitong Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56abf",
+                    "user": {
+                        "_id": "66015e8aa4d296af07de538e",
+                        "avatarUrl": "/avatars/a1295c631cc2646282c545859975ce4c.svg",
+                        "isPro": false,
+                        "fullname": "Ye",
+                        "user": "Owen777",
+                        "type": "user"
+                    },
+                    "name": "Tian Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-12T09:16:12.141Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac0",
+                    "name": "Jiantong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac1",
+                    "name": "Qingyu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac2",
+                    "name": "Michael Lingelbach",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac3",
+                    "name": "Li Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac4",
+                    "name": "Yonghong Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac5",
+                    "name": "Enze Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac23166def89f9aae56ac6",
+                    "name": "Daquan Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-11T16:58:15.000Z",
+            "title": "Magic 1-For-1: Generating One Minute Video Clips within One Minute",
+            "summary": "In this technical report, we present Magic 1-For-1 (Magic141), an efficient\nvideo generation model with optimized memory consumption and inference latency.\nThe key idea is simple: factorize the text-to-video generation task into two\nseparate easier tasks for diffusion step distillation, namely text-to-image\ngeneration and image-to-video generation. We verify that with the same\noptimization algorithm, the image-to-video task is indeed easier to converge\nover the text-to-video task. We also explore a bag of optimization tricks to\nreduce the computational cost of training the image-to-video (I2V) models from\nthree aspects: 1) model convergence speedup by using a multi-modal prior\ncondition injection; 2) inference latency speed up by applying an adversarial\nstep distillation, and 3) inference memory cost optimization with parameter\nsparsification. With those techniques, we are able to generate 5-second video\nclips within 3 seconds. By applying a test time sliding window, we are able to\ngenerate a minute-long video within one minute with significantly improved\nvisual quality and motion dynamics, spending less than 1 second for generating\n1 second video clips on average. We conduct a series of preliminary\nexplorations to find out the optimal tradeoff between computational cost and\nvideo quality during diffusion step distillation and hope this could be a good\nfoundation model for open-source explorations. The code and the model weights\nare available at https://github.com/DA-Group-PKU/Magic-1-For-1.",
+            "upvotes": 14,
+            "discussionId": "67ac23186def89f9aae56b69"
+        },
+        "translation_title": "Magic 1-For-1: 1분 안에 1분 길이의 비디오 클립 생성하기",
+        "purpose": "비디오 생성의 효율성을 높이기 위해 텍스트-비디오 생성 작업을 더 간단한 두 작업으로 나누어 최적화하는 것",
+        "method": [
+            "텍스트-이미지 생성과 이미지-비디오 생성으로 비디오 생성 작업을 분리함(The key idea is simple: factorize the text-to-video generation task into two separate easier tasks for diffusion step distillation, namely text-to-image generation and image-to-video generation.)",
+            "모델 수렴 속도를 높이기 위해 다중 모드 사전 조건 주입을 사용함(1) model convergence speedup by using a multi-modal prior condition injection;",
+            "적대적 단계 증류를 적용하여 추론 지연 시간을 줄임(2) inference latency speed up by applying an adversarial step distillation,",
+            "매개변수 희소화를 통해 추론 메모리 비용을 최적화함(3) inference memory cost optimization with parameter sparsification."
+        ],
+        "conclusion": "이 기술을 통해 1분 길이의 비디오를 1분 이내에 생성할 수 있으며, 평균적으로 1초의 비디오 클립을 생성하는 데 1초 미만의 시간을 소요한다.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.03492",
+            "authors": [
+                {
+                    "_id": "67a5a8e595df68b0a167c298",
+                    "user": {
+                        "_id": "622f103fc78da4c7ebd7c887",
+                        "avatarUrl": "/avatars/b0c7cd29835d92c2cd584947fcd5d520.svg",
+                        "isPro": false,
+                        "fullname": "Xie",
+                        "user": "Zhihui",
+                        "type": "user"
+                    },
+                    "name": "Zhihui Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-12T09:17:02.682Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a5a8e595df68b0a167c299",
+                    "name": "Jie chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a5a8e595df68b0a167c29a",
+                    "name": "Liyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a5a8e595df68b0a167c29b",
+                    "name": "Weichao Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a5a8e595df68b0a167c29c",
+                    "name": "Jingjing Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67a5a8e595df68b0a167c29d",
+                    "name": "Lingpeng Kong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-05T02:18:46.000Z",
+            "title": "Teaching Language Models to Critique via Reinforcement Learning",
+            "summary": "Teaching large language models (LLMs) to critique and refine their outputs is\ncrucial for building systems that can iteratively improve, yet it is\nfundamentally limited by the ability to provide accurate judgments and\nactionable suggestions. In this work, we study LLM critics for code generation\nand propose CTRL, a framework for Critic\nTraining via Reinforcement Learning, which\ntrains a critic model to generate feedback that maximizes correction\nperformance for a fixed generator model without human supervision. Our results\ndemonstrate that critics trained with CTRL significantly enhance\npass rates and mitigate compounding errors across both base and stronger\ngenerator models. Furthermore, we show that these critic models act as accurate\ngenerative reward models and enable test-time scaling through iterative\ncritique-revision, achieving up to 106.1% relative improvements across\nchallenging code generation benchmarks.",
+            "upvotes": 12,
+            "discussionId": "67a5a8e695df68b0a167c2c6"
+        },
+        "translation_title": "강화 학습을 통한 언어 모델 비판 교육",
+        "purpose": "언어 모델이 출력물을 비판하고 개선할 수 있도록 하는 시스템 구축",
+        "method": [
+            "CTRL이라는 비판 훈련 프레임워크를 제안하여 비판 모델이 수정 성과를 극대화하는 피드백을 생성하도록 훈련함(we propose CTRL, a framework for Critic Training via Reinforcement Learning, which trains a critic model to generate feedback that maximizes correction performance.)",
+            "인간의 감독 없이 생성기 모델에 대한 피드백을 학습시킴(without human supervision.)",
+            "비판 모델을 사용하여 기초 및 강력한 생성기 모델 모두에서 통과율을 크게 향상시킴(Our results demonstrate that critics trained with CTRL significantly enhance pass rates.)."
+        ],
+        "conclusion": "CTRL을 사용한 비판 모델로 코드 생성 벤치마크에서 최대 106.1%의 성과 향상을 달성함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Natural Language Processing",
+            "Large Language Models"
+        ]
+    }
+]
