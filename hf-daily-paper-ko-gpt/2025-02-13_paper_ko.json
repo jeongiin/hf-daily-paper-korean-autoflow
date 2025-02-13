@@ -1,0 +1,406 @@
+[
+    {
+        "paper": {
+            "id": "2502.07346",
+            "authors": [
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f0",
+                    "user": {
+                        "_id": "649d1d4c379eada9a580cf59",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649d1d4c379eada9a580cf59/ucXv7KoJDEB3Phgn-Dn5E.png",
+                        "isPro": false,
+                        "fullname": "xuhuang",
+                        "user": "xuhuang87",
+                        "type": "user"
+                    },
+                    "name": "Xu Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-13T08:25:17.555Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f1",
+                    "name": "Wenhao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f2",
+                    "name": "Hanxu Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f3",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f4",
+                    "name": "Lei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f5",
+                    "name": "Shujian Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ac4e046b8c86e0cc7988f6",
+                    "name": "Fei Yuan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-11T08:17:19.000Z",
+            "title": "BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large\n  Language Models",
+            "summary": "Previous multilingual benchmarks focus primarily on simple understanding\ntasks, but for large language models(LLMs), we emphasize proficiency in\ninstruction following, reasoning, long context understanding, code generation,\nand so on. However, measuring these advanced capabilities across languages is\nunderexplored. To address the disparity, we introduce BenchMAX, a multi-way\nmultilingual evaluation benchmark that allows for fair comparisons of these\nimportant abilities across languages. To maintain high quality, three distinct\nnative-speaking annotators independently annotate each sample within all tasks\nafter the data was machine-translated from English into 16 other languages.\nAdditionally, we present a novel translation challenge stemming from dataset\nconstruction. Extensive experiments on BenchMAX reveal varying effectiveness of\ncore capabilities across languages, highlighting performance gaps that cannot\nbe bridged by simply scaling up model size. BenchMAX serves as a comprehensive\nmultilingual evaluation platform, providing a promising test bed to promote the\ndevelopment of multilingual language models. The dataset and code are publicly\naccessible.",
+            "upvotes": 30,
+            "discussionId": "67ac4e056b8c86e0cc798952"
+        },
+        "translation_title": "BenchMAX: 대형 언어 모델을 위한 포괄적인 다국어 평가 도구",
+        "purpose": "대형 언어 모델의 고급 능력을 공정하게 평가하기 위한 다국어 평가 기준 구축",
+        "method": [
+            "다양한 언어 간의 능력을 공정하게 비교할 수 있는 BenchMAX라는 다국어 평가 기준을 도입함(To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages.)",
+            "데이터의 품질 유지를 위해 3명의 원어민 주석가가 각각의 샘플을 독립적으로 주석 처리함(three distinct native-speaking annotators independently annotate each sample within all tasks after the data was machine-translated from English into 16 other languages.)",
+            "BenchMAX에서 다양한 실험을 수행하여 언어별로 핵심 능력의 효과가 다름을 드러냄(Extensive experiments on BenchMAX reveal varying effectiveness of core capabilities across languages, highlighting performance gaps that cannot be bridged by simply scaling up model size.)"
+        ],
+        "conclusion": "BenchMAX는 다국어 평가 플랫폼으로서, 다국어 언어 모델 개발을 촉진하는 유망한 테스트 베드를 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.07870",
+            "authors": [
+                {
+                    "_id": "67ad79cb60ec3f444b21cbcb",
+                    "name": "Alex Jinpeng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbcc",
+                    "name": "Dongxing Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbcd",
+                    "name": "Jiawei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbce",
+                    "name": "Weiming Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbcf",
+                    "name": "Zhuobai Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd0",
+                    "name": "Linjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd1",
+                    "name": "Yiqi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd2",
+                    "name": "Zhengyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd3",
+                    "name": "Libo Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd4",
+                    "name": "Fuwei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd5",
+                    "name": "Lijuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79cb60ec3f444b21cbd6",
+                    "name": "Min Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-11T18:59:19.000Z",
+            "title": "TextAtlas5M: A Large-scale Dataset for Dense Text Image Generation",
+            "summary": "Text-conditioned image generation has gained significant attention in recent\nyears and are processing increasingly longer and comprehensive text prompt. In\neveryday life, dense and intricate text appears in contexts like\nadvertisements, infographics, and signage, where the integration of both text\nand visuals is essential for conveying complex information. However, despite\nthese advances, the generation of images containing long-form text remains a\npersistent challenge, largely due to the limitations of existing datasets,\nwhich often focus on shorter and simpler text. To address this gap, we\nintroduce TextAtlas5M, a novel dataset specifically designed to evaluate\nlong-text rendering in text-conditioned image generation. Our dataset consists\nof 5 million long-text generated and collected images across diverse data\ntypes, enabling comprehensive evaluation of large-scale generative models on\nlong-text image generation. We further curate 3000 human-improved test set\nTextAtlasEval across 3 data domains, establishing one of the most extensive\nbenchmarks for text-conditioned generation. Evaluations suggest that the\nTextAtlasEval benchmarks present significant challenges even for the most\nadvanced proprietary models (e.g. GPT4o with DallE-3), while their open-source\ncounterparts show an even larger performance gap. These evidences position\nTextAtlas5M as a valuable dataset for training and evaluating future-generation\ntext-conditioned image generation models.",
+            "upvotes": 29,
+            "discussionId": "67ad79d260ec3f444b21cd1f"
+        },
+        "translation_title": "TextAtlas5M: 밀집 텍스트 이미지 생성을 위한 대규모 데이터셋",
+        "purpose": "밀집 텍스트 이미지 생성을 평가하기 위한 대규모 데이터셋 구축",
+        "method": [
+            "밀집하고 복잡한 텍스트를 포함하는 이미지를 생성하는 TextAtlas5M 데이터셋을 소개함(we introduce TextAtlas5M, a novel dataset specifically designed to evaluate long-text rendering in text-conditioned image generation.)",
+            "5백만 개의 긴 텍스트 이미지로 구성된 데이터셋을 수집하여 대규모 생성 모델의 포괄적인 평가를 가능하게 함(Our dataset consists of 5 million long-text generated and collected images across diverse data types, enabling comprehensive evaluation of large-scale generative models on long-text image generation.)",
+            "3000개의 인간 개선 테스트 세트를 포함한 TextAtlasEval을 구성하여 텍스트 조건 생성 모델을 위한 광범위한 벤치마크를 마련함(We further curate 3000 human-improved test set TextAtlasEval across 3 data domains, establishing one of the most extensive benchmarks for text-conditioned generation.)"
+        ],
+        "conclusion": "TextAtlas5M 데이터셋은 밀집 텍스트 이미지 생성 모델의 훈련과 평가에 중요한 자료로 자리매김함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.08590",
+            "authors": [
+                {
+                    "_id": "67ad79552fdac6537b43f120",
+                    "name": "Yujie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f121",
+                    "name": "Jiazi Bu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f122",
+                    "name": "Pengyang Ling",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f123",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f124",
+                    "name": "Tong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f125",
+                    "name": "Qidong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f126",
+                    "name": "Jinsong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f127",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f128",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-13T08:21:31.817Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f129",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f12a",
+                    "name": "Anyi Rao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f12b",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad79552fdac6537b43f12c",
+                    "name": "Li Niu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-12T17:24:19.000Z",
+            "title": "Light-A-Video: Training-free Video Relighting via Progressive Light\n  Fusion",
+            "summary": "Recent advancements in image relighting models, driven by large-scale\ndatasets and pre-trained diffusion models, have enabled the imposition of\nconsistent lighting. However, video relighting still lags, primarily due to the\nexcessive training costs and the scarcity of diverse, high-quality video\nrelighting datasets. A simple application of image relighting models on a\nframe-by-frame basis leads to several issues: lighting source inconsistency and\nrelighted appearance inconsistency, resulting in flickers in the generated\nvideos. In this work, we propose Light-A-Video, a training-free approach to\nachieve temporally smooth video relighting. Adapted from image relighting\nmodels, Light-A-Video introduces two key techniques to enhance lighting\nconsistency. First, we design a Consistent Light Attention (CLA) module, which\nenhances cross-frame interactions within the self-attention layers to stabilize\nthe generation of the background lighting source. Second, leveraging the\nphysical principle of light transport independence, we apply linear blending\nbetween the source video's appearance and the relighted appearance, using a\nProgressive Light Fusion (PLF) strategy to ensure smooth temporal transitions\nin illumination. Experiments show that Light-A-Video improves the temporal\nconsistency of relighted video while maintaining the image quality, ensuring\ncoherent lighting transitions across frames. Project page:\nhttps://bujiazi.github.io/light-a-video.github.io/.",
+            "upvotes": 29,
+            "discussionId": "67ad79572fdac6537b43f189"
+        },
+        "translation_title": "Light-A-Video: 훈련 없이 진행되는 비디오 조명 변경",
+        "purpose": "훈련 없이 시간적으로 매끄러운 비디오 조명 변경을 달성하기 위한 방법 연구",
+        "method": [
+            "Consistent Light Attention(CLA) 모듈을 설계하여 배경 조명 소스의 생성을 안정화하고 프레임 간 상호작용을 강화함(we design a Consistent Light Attention (CLA) module, which enhances cross-frame interactions within the self-attention layers to stabilize the generation of the background lighting source.)",
+            "조명 전송 독립의 물리적 원리를 활용하여 Progressive Light Fusion(PLF) 전략을 적용함(we apply linear blending between the source video's appearance and the relighted appearance, using a Progressive Light Fusion (PLF) strategy to ensure smooth temporal transitions in illumination.)"
+        ],
+        "conclusion": "Light-A-Video는 비디오의 시간적 일관성을 개선하면서도 이미지 품질을 유지하여 프레임 간 조명 변화가 자연스럽게 이루어지도록 함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.08639",
+            "authors": [
+                {
+                    "_id": "67ad5f25cad644864b436186",
+                    "name": "Qinghe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b436187",
+                    "name": "Yawen Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b436188",
+                    "name": "Xiaoyu Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b436189",
+                    "name": "Xu Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618a",
+                    "name": "Huchuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618b",
+                    "name": "Tianfan Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618c",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618d",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618e",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5f25cad644864b43618f",
+                    "name": "Kun Gai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-12T18:55:36.000Z",
+            "title": "CineMaster: A 3D-Aware and Controllable Framework for Cinematic\n  Text-to-Video Generation",
+            "summary": "In this work, we present CineMaster, a novel framework for 3D-aware and\ncontrollable text-to-video generation. Our goal is to empower users with\ncomparable controllability as professional film directors: precise placement of\nobjects within the scene, flexible manipulation of both objects and camera in\n3D space, and intuitive layout control over the rendered frames. To achieve\nthis, CineMaster operates in two stages. In the first stage, we design an\ninteractive workflow that allows users to intuitively construct 3D-aware\nconditional signals by positioning object bounding boxes and defining camera\nmovements within the 3D space. In the second stage, these control\nsignals--comprising rendered depth maps, camera trajectories and object class\nlabels--serve as the guidance for a text-to-video diffusion model, ensuring to\ngenerate the user-intended video content. Furthermore, to overcome the scarcity\nof in-the-wild datasets with 3D object motion and camera pose annotations, we\ncarefully establish an automated data annotation pipeline that extracts 3D\nbounding boxes and camera trajectories from large-scale video data. Extensive\nqualitative and quantitative experiments demonstrate that CineMaster\nsignificantly outperforms existing methods and implements prominent 3D-aware\ntext-to-video generation. Project page: https://cinemaster-dev.github.io/.",
+            "upvotes": 27,
+            "discussionId": "67ad5f26cad644864b4361cf"
+        },
+        "translation_title": "CineMaster: 3D 인식 및 제어 가능한 영화적 텍스트-비디오 생성 프레임워크",
+        "purpose": "사용자가 전문 영화 감독처럼 객체 배치 및 카메라 조작을 정밀하게 제어할 수 있도록 하는 것",
+        "method": [
+            "사용자가 3D 공간에서 객체 경계 상자를 배치하고 카메라 움직임을 정의하여 3D 인식 조건 신호를 구성할 수 있는 인터랙티브 워크플로우를 설계함(In the first stage, we design an interactive workflow that allows users to intuitively construct 3D-aware conditional signals by positioning object bounding boxes and defining camera movements within the 3D space.)",
+            "이러한 제어 신호를 텍스트-비디오 확산 모델에 안내 신호로 사용하여 사용자가 의도한 비디오 콘텐츠를 생성함(In the second stage, these control signals--comprising rendered depth maps, camera trajectories and object class labels--serve as the guidance for a text-to-video diffusion model, ensuring to generate the user-intended video content.)",
+            "크고 다양한 비디오 데이터에서 3D 경계 상자 및 카메라 궤적을 자동으로 추출하는 데이터 주석 파이프라인을 설정함(we carefully establish an automated data annotation pipeline that extracts 3D bounding boxes and camera trajectories from large-scale video data.)"
+        ],
+        "conclusion": "CineMaster는 기존 방법들보다 훨씬 우수한 3D 인식 기반 텍스트-비디오 생성을 구현함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.08127",
+            "authors": [
+                {
+                    "_id": "67ad5ca29109885ce9b859e4",
+                    "name": "Lingfei Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5ca29109885ce9b859e5",
+                    "name": "Weipeng Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5ca29109885ce9b859e6",
+                    "name": "Yan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5ca29109885ce9b859e7",
+                    "name": "Xueqing Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5ca29109885ce9b859e8",
+                    "user": {
+                        "_id": "63b58ed5889aa6707f0bb0f4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b58ed5889aa6707f0bb0f4/9-6SJBOLdqUoc2LrKsI6y.jpeg",
+                        "isPro": true,
+                        "fullname": "Jimin Huang",
+                        "user": "jiminHuang",
+                        "type": "user"
+                    },
+                    "name": "Jimin Huang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-13T02:44:52.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ad5ca29109885ce9b859e9",
+                    "user": {
+                        "_id": "6479f4317c18dca75e9a9324",
+                        "avatarUrl": "/avatars/9aa709230b057f57ee4415c04a622c63.svg",
+                        "isPro": false,
+                        "fullname": "Xie",
+                        "user": "QianqianXie1994",
+                        "type": "user"
+                    },
+                    "name": "Qianqian Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-13T08:22:01.539Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-12T05:13:04.000Z",
+            "title": "Fino1: On the Transferability of Reasoning Enhanced LLMs to Finance",
+            "summary": "Recent advancements in large language models (LLMs) have shown strong general\nreasoning abilities, yet their effectiveness in financial reasoning remains\nunderexplored. In this study, we comprehensively evaluate 16 powerful reasoning\nand general LLMs on three complex financial tasks involving financial text,\ntabular data, and equations, assessing numerical reasoning, tabular\ninterpretation, financial terminology comprehension, long-context processing,\nand equation-based problem solving. Our results show that while better datasets\nand pretraining improve financial reasoning, general enhancements like CoT\nfine-tuning do not always yield consistent gains. Moreover, all reasoning\nstrategies face challenges in improving performance on long-context and\nmulti-table tasks. To address these limitations, we develop a financial\nreasoning-enhanced model based on Llama-3.1-8B-Instruct, by CoT fine-tuning and\nreinforcement learning with domain-specific reasoning paths. Even with simple\nfine-tuning with one financial dataset, our model achieves a consistent 10%\nperformance improvement across tasks, surpassing all 8B models and even\nLlama3-70B-Instruct and Llama3.1-70B-Instruct on average. Our results highlight\nthe need for domain-specific adaptations in financial tasks, emphasizing future\ndirections such as multi-table reasoning, long-context processing, and\nfinancial terminology comprehension. All our datasets, models, and codes are\npublicly available. Furthermore, we introduce a leaderboard for benchmarking\nfuture datasets and models.",
+            "upvotes": 22,
+            "discussionId": "67ad5ca59109885ce9b85a5b"
+        },
+        "translation_title": "Fino1: 재무 분야에서 Reasoning 향상된 LLM의 전이 가능성에 대한 연구",
+        "purpose": "재무에서의 Reasoning 능력 향상을 목표로 LLM의 효과를 검증하려는 연구",
+        "method": [
+            "16개의 강력한 Reasoning 및 일반 LLM을 사용해 금융 텍스트, 표 데이터, 방정식을 포함한 3개의 복잡한 금융 작업을 평가함(we comprehensively evaluate 16 powerful reasoning and general LLMs on three complex financial tasks involving financial text, tabular data, and equations)",
+            "Llama-3.1-8B-Instruct 기반의 재무 Reasoning 향상 모델을 개발하고 CoT fine-tuning 및 도메인 특정 Reasoning 경로로 강화 학습을 수행함(To address these limitations, we develop a financial reasoning-enhanced model based on Llama-3.1-8B-Instruct, by CoT fine-tuning and reinforcement learning with domain-specific reasoning paths)",
+            "단일 금융 데이터셋을 사용한 간단한 fine-tuning 만으로도 모델이 모든 8B 모델을 초과하는 10%의 성능 향상을 달성함(Even with simple fine-tuning with one financial dataset, our model achieves a consistent 10% performance improvement across tasks)"
+        ],
+        "conclusion": "재무 작업에서의 도메인 특정 적응의 필요성을 강조하며, 향후 다중 테이블 Reasoning 및 긴 컨텍스트 처리를 연구할 필요성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Financial Reasoning"
+        ]
+    }
+]
