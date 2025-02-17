@@ -1,0 +1,1003 @@
+[
+    {
+        "paper": {
+            "id": "2502.10389",
+            "authors": [
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff1",
+                    "name": "Ziming Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff2",
+                    "name": "Yifan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff3",
+                    "name": "Chengruidong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff4",
+                    "name": "Yiqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff5",
+                    "name": "Lili Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff6",
+                    "name": "Yang You",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a89ebe31bfaa7cd2bff7",
+                    "name": "Yuqing Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-14T18:59:36.000Z",
+            "title": "Region-Adaptive Sampling for Diffusion Transformers",
+            "summary": "Diffusion models (DMs) have become the leading choice for generative tasks\nacross diverse domains. However, their reliance on multiple sequential forward\npasses significantly limits real-time performance. Previous acceleration\nmethods have primarily focused on reducing the number of sampling steps or\nreusing intermediate results, failing to leverage variations across spatial\nregions within the image due to the constraints of convolutional U-Net\nstructures. By harnessing the flexibility of Diffusion Transformers (DiTs) in\nhandling variable number of tokens, we introduce RAS, a novel, training-free\nsampling strategy that dynamically assigns different sampling ratios to regions\nwithin an image based on the focus of the DiT model. Our key observation is\nthat during each sampling step, the model concentrates on semantically\nmeaningful regions, and these areas of focus exhibit strong continuity across\nconsecutive steps. Leveraging this insight, RAS updates only the regions\ncurrently in focus, while other regions are updated using cached noise from the\nprevious step. The model's focus is determined based on the output from the\npreceding step, capitalizing on the temporal consistency we observed. We\nevaluate RAS on Stable Diffusion 3 and Lumina-Next-T2I, achieving speedups up\nto 2.36x and 2.51x, respectively, with minimal degradation in generation\nquality. Additionally, a user study reveals that RAS delivers comparable\nqualities under human evaluation while achieving a 1.6x speedup. Our approach\nmakes a significant step towards more efficient diffusion transformers,\nenhancing their potential for real-time applications.",
+            "upvotes": 42,
+            "discussionId": "67b2a8a4be31bfaa7cd2c1ad"
+        },
+        "translation_title": "Diffusion Transformers를 위한 지역 적응 샘플링",
+        "purpose": "Diffusion 모델의 실시간 성능을 개선하는 새로운 샘플링 전략 개발",
+        "method": [
+            "Diffusion Transformers의 유연성을 활용하여 이미지 내 지역에 따라 다른 샘플링 비율을 동적으로 할당함(we introduce RAS, a novel, training-free sampling strategy that dynamically assigns different sampling ratios to regions within an image based on the focus of the DiT model.)",
+            "샘플링 단계에서 모델이 의미 있는 지역에 집중하고, 이 지역들이 연속적인 단계에서 강한 연속성을 보인다는 점을 이끌어냄(Our key observation is that during each sampling step, the model concentrates on semantically meaningful regions, and these areas of focus exhibit strong continuity across consecutive steps.)",
+            "현재 집중된 지역만 업데이트하고, 나머지 지역은 이전 단계에서 저장된 노이즈를 사용함(Leveraging this insight, RAS updates only the regions currently in focus, while other regions are updated using cached noise from the previous step.)"
+        ],
+        "conclusion": "RAS는 Stable Diffusion 3와 Lumina-Next-T2I에서 각각 2.36배와 2.51배의 속도 향상을 달성하며, 생성 품질 저하를 최소화한다는 것을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.10248",
+            "authors": [
+                {
+                    "_id": "67b2a72e7a49eaea082b9dcf",
+                    "name": "Guoqing Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd0",
+                    "name": "Haoyang Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd1",
+                    "name": "Kun Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd2",
+                    "name": "Liangyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd3",
+                    "name": "Nan Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd4",
+                    "name": "Shengming Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd5",
+                    "name": "Changyi Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd6",
+                    "name": "Ranchen Ming",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd7",
+                    "name": "Xiaoniu Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd8",
+                    "name": "Xing Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dd9",
+                    "name": "Yu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dda",
+                    "name": "Deshan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9ddb",
+                    "name": "Deyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9ddc",
+                    "name": "Jian Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9ddd",
+                    "name": "Kaijun Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dde",
+                    "name": "Kang An",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9ddf",
+                    "name": "Mei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de0",
+                    "name": "Wei Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de1",
+                    "name": "Qiling Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de2",
+                    "name": "Wen Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de3",
+                    "name": "Xin Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de4",
+                    "name": "Yanan Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de5",
+                    "name": "Zheng Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de6",
+                    "name": "Aojie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de7",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de8",
+                    "name": "Bizhu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9de9",
+                    "name": "Bo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dea",
+                    "name": "Brian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9deb",
+                    "name": "Changxing Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dec",
+                    "name": "Chen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9ded",
+                    "name": "Chenfei Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dee",
+                    "name": "Chenguang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9def",
+                    "name": "Dapeng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df0",
+                    "name": "Dingyuan Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df1",
+                    "name": "Enle Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df2",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df3",
+                    "name": "Ge Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df4",
+                    "name": "Guanzhe Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df5",
+                    "name": "Gulin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df6",
+                    "name": "Haiyang Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df7",
+                    "name": "Hao Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df8",
+                    "name": "Haonan Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9df9",
+                    "name": "Hanpeng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dfa",
+                    "name": "Hanqi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dfb",
+                    "name": "Haolong Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dfc",
+                    "name": "Heng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dfd",
+                    "name": "Hongcheng Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dfe",
+                    "name": "Huilin Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9dff",
+                    "name": "Huixin Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e00",
+                    "name": "Jiahao Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e01",
+                    "name": "Jianchang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e02",
+                    "name": "Jiaoren Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e03",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e04",
+                    "name": "Jie Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e05",
+                    "name": "Jiashuai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e06",
+                    "name": "Jiashuo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e07",
+                    "name": "Jingyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e08",
+                    "name": "Junjing Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e09",
+                    "name": "Junzhe Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0a",
+                    "name": "Kaixiang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0b",
+                    "name": "Lei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0c",
+                    "name": "Lei Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0d",
+                    "name": "Liang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0e",
+                    "name": "Liguo Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e0f",
+                    "name": "Liwen Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e10",
+                    "name": "Liying Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e11",
+                    "name": "Ming Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e12",
+                    "name": "Mingliang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e13",
+                    "name": "Muhua Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e14",
+                    "name": "Na Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e15",
+                    "name": "Qiaohui Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e16",
+                    "name": "Qinglin He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e17",
+                    "name": "Qiuyan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e18",
+                    "name": "Quan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e19",
+                    "name": "Ran Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1a",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1b",
+                    "name": "Shaoliang Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1c",
+                    "name": "Shiliang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1d",
+                    "name": "Sitong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1e",
+                    "name": "Siqi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e1f",
+                    "name": "Shuli Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e20",
+                    "name": "Tiancheng Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e21",
+                    "name": "Tianyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e22",
+                    "name": "Weipeng Ming",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e23",
+                    "name": "Wenqing He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e24",
+                    "name": "Xu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e25",
+                    "name": "Xuelin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e26",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e27",
+                    "name": "Xiaojia Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e28",
+                    "name": "Xuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e29",
+                    "name": "Yaqi Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2a",
+                    "name": "Yanbo Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2b",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2c",
+                    "name": "Yineng Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2d",
+                    "name": "Yingming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2e",
+                    "name": "Yilei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e2f",
+                    "name": "Yuanwei Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e30",
+                    "name": "Yu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e31",
+                    "name": "Yu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e32",
+                    "name": "Yuchu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e33",
+                    "name": "Yuhe Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e34",
+                    "name": "Yuheng Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e35",
+                    "name": "Yuxiang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e36",
+                    "name": "Zecheng Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e37",
+                    "name": "Zekai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e38",
+                    "name": "Zidong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e39",
+                    "name": "Binxing Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3a",
+                    "name": "Jiansheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3b",
+                    "name": "Jing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3c",
+                    "name": "Shuchang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3d",
+                    "name": "Xiangyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3e",
+                    "name": "Xinhao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e3f",
+                    "name": "Yibo Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e40",
+                    "name": "Heung-Yeung Shum",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2a72e7a49eaea082b9e41",
+                    "name": "Daxin Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-14T15:58:10.000Z",
+            "title": "Step-Video-T2V Technical Report: The Practice, Challenges, and Future of\n  Video Foundation Model",
+            "summary": "We present Step-Video-T2V, a state-of-the-art text-to-video pre-trained model\nwith 30B parameters and the ability to generate videos up to 204 frames in\nlength. A deep compression Variational Autoencoder, Video-VAE, is designed for\nvideo generation tasks, achieving 16x16 spatial and 8x temporal compression\nratios, while maintaining exceptional video reconstruction quality. User\nprompts are encoded using two bilingual text encoders to handle both English\nand Chinese. A DiT with 3D full attention is trained using Flow Matching and is\nemployed to denoise input noise into latent frames. A video-based DPO approach,\nVideo-DPO, is applied to reduce artifacts and improve the visual quality of the\ngenerated videos. We also detail our training strategies and share key\nobservations and insights. Step-Video-T2V's performance is evaluated on a novel\nvideo generation benchmark, Step-Video-T2V-Eval, demonstrating its\nstate-of-the-art text-to-video quality when compared with both open-source and\ncommercial engines. Additionally, we discuss the limitations of current\ndiffusion-based model paradigm and outline future directions for video\nfoundation models. We make both Step-Video-T2V and Step-Video-T2V-Eval\navailable at https://github.com/stepfun-ai/Step-Video-T2V. The online version\ncan be accessed from https://yuewen.cn/videos as well. Our goal is to\naccelerate the innovation of video foundation models and empower video content\ncreators.",
+            "upvotes": 29,
+            "discussionId": "67b2a7357a49eaea082b9fbf"
+        },
+        "translation_title": "Step-Video-T2V 기술 보고서: 비디오 기초 모델의 실제, 도전 과제 및 미래",
+        "purpose": "비디오 콘텐츠 제작자를 위한 비디오 기초 모델 혁신 가속화",
+        "method": [
+            "30B 파라미터를 가진 최신 텍스트-비디오 사전 훈련 모델인 Step-Video-T2V를 제안함(We present Step-Video-T2V, a state-of-the-art text-to-video pre-trained model with 30B parameters.)",
+            "딥 압축 변분 오토 인코더인 Video-VAE를 설계하여 비디오 생성 작업을 수행함(A deep compression Variational Autoencoder, Video-VAE, is designed for video generation tasks.)",
+            "사용자 프롬프트를 두 개의 이중 언어 텍스트 인코더를 사용하여 인코딩함(User prompts are encoded using two bilingual text encoders to handle both English and Chinese.)",
+            "Flow Matching을 사용하여 3D 전체 주의 집합을 가진 DiT를 훈련시키고 입력 노이즈를 잠재 프레임으로 디노이즈함(A DiT with 3D full attention is trained using Flow Matching and is employed to denoise input noise into latent frames.)"
+        ],
+        "conclusion": "Step-Video-T2V는 최신 비디오 생성 품질을 보여주며, 비디오 기초 모델의 한계를 논의하고 미래 방향을 제시함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.09992",
+            "authors": [
+                {
+                    "_id": "67b2c31125f77e5fc242f4f8",
+                    "name": "Shen Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4f9",
+                    "name": "Fengqi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4fa",
+                    "name": "Zebin You",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4fb",
+                    "name": "Xiaolu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4fc",
+                    "name": "Jingyang Ou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4fd",
+                    "name": "Jun Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4fe",
+                    "name": "Jun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f4ff",
+                    "name": "Yankai Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f500",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2c31125f77e5fc242f501",
+                    "name": "Chongxuan Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-14T08:23:51.000Z",
+            "title": "Large Language Diffusion Models",
+            "summary": "Autoregressive models (ARMs) are widely regarded as the cornerstone of large\nlanguage models (LLMs). We challenge this notion by introducing LLaDA, a\ndiffusion model trained from scratch under the pre-training and supervised\nfine-tuning (SFT) paradigm. LLaDA models distributions through a forward data\nmasking process and a reverse process, parameterized by a vanilla Transformer\nto predict masked tokens. By optimizing a likelihood bound, it provides a\nprincipled generative approach for probabilistic inference. Across extensive\nbenchmarks, LLaDA demonstrates strong scalability, outperforming our\nself-constructed ARM baselines. Remarkably, LLaDA 8B is competitive with strong\nLLMs like LLaMA3 8B in in-context learning and, after SFT, exhibits impressive\ninstruction-following abilities in case studies such as multi-turn dialogue.\nMoreover, LLaDA addresses the reversal curse, surpassing GPT-4o in a reversal\npoem completion task. Our findings establish diffusion models as a viable and\npromising alternative to ARMs, challenging the assumption that key LLM\ncapabilities discussed above are inherently tied to ARMs.",
+            "upvotes": 27,
+            "discussionId": "67b2c31225f77e5fc242f527"
+        },
+        "translation_title": "대규모 언어 확산 모델",
+        "purpose": "대규모 언어 모델(LLMs)의 핵심 기술로 여겨지는 Autoregressive 모델(ARMs) 외에 새로운 대안을 제시하기 위해 연구",
+        "method": [
+            "LLaDA라는 확산 모델을 처음부터 훈련하고, 사전 훈련 및 감독 세부 조정(SFT) 패러다임을 사용함 (by introducing LLaDA, a diffusion model trained from scratch under the pre-training and supervised fine-tuning (SFT) paradigm.)",
+            "LLaDA는 데이터 마스킹 과정과 이를 통해 예측을 수행하는 Transformer를 사용하여 분포를 모델링함 (LLaDA models distributions through a forward data masking process and a reverse process, parameterized by a vanilla Transformer to predict masked tokens.)",
+            "확률적 추론을 위한 체계적인 생성 접근 방식을 제공하기 위해 가능도 경계를 최적화함 (By optimizing a likelihood bound, it provides a principled generative approach for probabilistic inference.)"
+        ],
+        "conclusion": "LLaDA는 자가 구축한 ARM 기준선보다 뛰어난 확장성을 보였으며, 여러 벤치마크에서 강력한 LLM인 LLaMA3 8B와 경쟁할 수 있는 성능을 보여주었음. 이는 확산 모델이 ARM의 유용한 대안임을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.09696",
+            "authors": [
+                {
+                    "_id": "67b2aae22a4cd186392a18b2",
+                    "name": "Jonathan Roberts",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b3",
+                    "name": "Mohammad Reza Taesiri",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b4",
+                    "name": "Ansh Sharma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b5",
+                    "name": "Akash Gupta",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b6",
+                    "name": "Samuel Roberts",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b7",
+                    "name": "Ioana Croitoru",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b8",
+                    "name": "Simion-Vlad Bogolin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18b9",
+                    "name": "Jialu Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18ba",
+                    "name": "Florian Langer",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18bb",
+                    "name": "Vyas Raina",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18bc",
+                    "name": "Vatsal Raina",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18bd",
+                    "name": "Hanyi Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18be",
+                    "name": "Vishaal Udandarao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18bf",
+                    "name": "Jingyi Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c0",
+                    "name": "Shiyang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c1",
+                    "name": "Sam Purkis",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c2",
+                    "name": "Tianshuo Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c3",
+                    "name": "Wenye Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c4",
+                    "name": "Gyungin Shin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c5",
+                    "name": "Qiaochu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c6",
+                    "name": "Anh Totti Nguyen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c7",
+                    "name": "Kai Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2aae22a4cd186392a18c8",
+                    "name": "Samuel Albanie",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-13T18:59:11.000Z",
+            "title": "ZeroBench: An Impossible Visual Benchmark for Contemporary Large\n  Multimodal Models",
+            "summary": "Large Multimodal Models (LMMs) exhibit major shortfalls when interpreting\nimages and, by some measures, have poorer spatial cognition than small children\nor animals. Despite this, they attain high scores on many popular visual\nbenchmarks, with headroom rapidly eroded by an ongoing surge of model progress.\nTo address this, there is a pressing need for difficult benchmarks that remain\nrelevant for longer. We take this idea to its limit by introducing ZeroBench-a\nlightweight visual reasoning benchmark that is entirely impossible for\ncontemporary frontier LMMs. Our benchmark consists of 100 manually curated\nquestions and 334 less difficult subquestions. We evaluate 20 LMMs on\nZeroBench, all of which score 0.0%, and rigorously analyse the errors. To\nencourage progress in visual understanding, we publicly release ZeroBench.",
+            "upvotes": 21,
+            "discussionId": "67b2aae42a4cd186392a195b"
+        },
+        "translation_title": "ZeroBench: 현대 대규모 멀티모달 모델을 위한 불가능한 시각 벤치마크",
+        "purpose": "현대 멀티모달 모델이 직면한 시각적 이해의 한계를 평가할 수 있는 어려운 벤치마크 개발",
+        "method": [
+            "‘ZeroBench’라는 가벼운 시각적 추론 벤치마크를 소개하여 대규모 멀티모달 모델이 해결할 수 없는 과제를 제시함(We take this idea to its limit by introducing ZeroBench-a lightweight visual reasoning benchmark that is entirely impossible for contemporary frontier LMMs.)",
+            "100개의 수작업으로 큐레이션된 질문과 334개의 덜 어려운 하위 질문으로 구성됨(Our benchmark consists of 100 manually curated questions and 334 less difficult subquestions.)",
+            "20개의 LMMs를 ZeroBench에서 평가하고 모두 0.0%의 점수를 기록함(We evaluate 20 LMMs on ZeroBench, all of which score 0.0%.)."
+        ],
+        "conclusion": "ZeroBench는 시각적 이해의 발전을 촉진하기 위해 공개되었으며, 현재의 LMMs의 한계를 드러내는 데 기여함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.10391",
+            "authors": [
+                {
+                    "_id": "67b2ab548191c180b9c4eb83",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb84",
+                    "name": "Tao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb85",
+                    "name": "Haochen Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb86",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb87",
+                    "name": "Peiyan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb88",
+                    "name": "Jianshu Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb89",
+                    "name": "Wulin Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8a",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8b",
+                    "name": "Huanyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8c",
+                    "name": "Junkang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8d",
+                    "name": "Xue Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8e",
+                    "name": "Yibo Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb8f",
+                    "name": "Bin Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb90",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb91",
+                    "name": "Zhang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb92",
+                    "name": "Tingting Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb93",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb94",
+                    "name": "Liang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb95",
+                    "name": "Rong Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b2ab548191c180b9c4eb96",
+                    "name": "Tieniu Tan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-14T18:59:51.000Z",
+            "title": "MM-RLHF: The Next Step Forward in Multimodal LLM Alignment",
+            "summary": "Despite notable advancements in Multimodal Large Language Models (MLLMs),\nmost state-of-the-art models have not undergone thorough alignment with human\npreferences. This gap exists because current alignment research has primarily\nachieved progress in specific areas (e.g., hallucination reduction), while the\nbroader question of whether aligning models with human preferences can\nsystematically enhance MLLM capability remains largely unexplored. To this end,\nwe introduce MM-RLHF, a dataset containing 120k fine-grained,\nhuman-annotated preference comparison pairs. This dataset represents a\nsubstantial advancement over existing resources, offering superior size,\ndiversity, annotation granularity, and quality. Leveraging this dataset, we\npropose several key innovations to improve both the quality of reward models\nand the efficiency of alignment algorithms. Notably, we introduce a\nCritique-Based Reward Model, which generates critiques of model outputs before\nassigning scores, offering enhanced interpretability and more informative\nfeedback compared to traditional scalar reward mechanisms. Additionally, we\npropose Dynamic Reward Scaling, a method that adjusts the loss weight of each\nsample according to the reward signal, thereby optimizing the use of\nhigh-quality comparison pairs. Our approach is rigorously evaluated across\n10 distinct dimensions and 27 benchmarks, with results\ndemonstrating significant and consistent improvements in model performance.\nSpecifically, fine-tuning LLaVA-ov-7B with MM-RLHF and our alignment algorithm\nleads to a 19.5% increase in conversational abilities and a\n60% improvement in safety.\n  We have open-sourced the preference dataset, reward model, training and\nevaluation code, as well as reward modeling and safety benchmarks. For more\ndetails, please visit our project page: https://mm-rlhf.github.io.",
+            "upvotes": 16,
+            "discussionId": "67b2ab598191c180b9c4ec10"
+        },
+        "translation_title": "MM-RLHF: 멀티모달 LLM 정렬의 다음 단계",
+        "purpose": "인간 선호와의 정렬을 통해 멀티모달 대형 언어 모델(MLLM)의 성능을 시스템적으로 향상시키기 위한 연구",
+        "method": [
+            "120,000개의 세밀하게 주석 처리된 선호도 비교 쌍으로 구성된 MM-RLHF 데이터세트를 소개하여 기존 자원보다 규모, 다양성, 주석 세밀함 및 품질을 크게 향상함.(To this end, we introduce MM-RLHF, a dataset containing 120k fine-grained, human-annotated preference comparison pairs.)",
+            "모델 출력의 비평을 생성하여 점수를 부여하는 Critique-Based Reward Model을 도입하여 해석 가능성을 높이고 더 유용한 피드백을 제공함.(Notably, we introduce a Critique-Based Reward Model, which generates critiques of model outputs before assigning scores, offering enhanced interpretability and more informative feedback.)",
+            "샘플의 손실 가중치를 보상 신호에 따라 조정하는 Dynamic Reward Scaling 방법을 제안하여 고품질 비교 쌍의 활용을 최적화함.(Additionally, we propose Dynamic Reward Scaling, a method that adjusts the loss weight of each sample according to the reward signal, thereby optimizing the use of high-quality comparison pairs.)"
+        ],
+        "conclusion": "MM-RLHF와 정렬 알고리즘을 사용하여 LLaVA-ov-7B를 미세 조정한 결과, 19.5%의 대화 능력 향상과 60%의 안전성 개선을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Natural Language Processing"
+        ]
+    }
+]
