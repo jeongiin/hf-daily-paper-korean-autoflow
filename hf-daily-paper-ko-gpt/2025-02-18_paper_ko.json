@@ -1,0 +1,365 @@
+[
+    {
+        "paper": {
+            "id": "2502.11089",
+            "authors": [
+                {
+                    "_id": "67b43211d3c5f50aa9c03a2d",
+                    "name": "Jingyang Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a2e",
+                    "name": "Huazuo Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a2f",
+                    "name": "Damai Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a30",
+                    "name": "Junyu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a31",
+                    "name": "Liang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a32",
+                    "name": "Zhengyan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a33",
+                    "name": "Zhenda Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a34",
+                    "name": "Y. X. Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a35",
+                    "name": "Lean Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a36",
+                    "name": "Zhiping Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a37",
+                    "name": "Yuqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a38",
+                    "name": "Chong Ruan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a39",
+                    "name": "Ming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a3a",
+                    "name": "Wenfeng Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b43211d3c5f50aa9c03a3b",
+                    "name": "Wangding Zeng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-16T11:53:44.000Z",
+            "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse\n  Attention",
+            "summary": "Long-context modeling is crucial for next-generation language models, yet the\nhigh computational cost of standard attention mechanisms poses significant\ncomputational challenges. Sparse attention offers a promising direction for\nimproving efficiency while maintaining model capabilities. We present NSA, a\nNatively trainable Sparse Attention mechanism that integrates algorithmic\ninnovations with hardware-aligned optimizations to achieve efficient\nlong-context modeling. NSA employs a dynamic hierarchical sparse strategy,\ncombining coarse-grained token compression with fine-grained token selection to\npreserve both global context awareness and local precision. Our approach\nadvances sparse attention design with two key innovations: (1) We achieve\nsubstantial speedups through arithmetic intensity-balanced algorithm design,\nwith implementation optimizations for modern hardware. (2) We enable end-to-end\ntraining, reducing pretraining computation without sacrificing model\nperformance. As shown in Figure 1, experiments show the model pretrained with\nNSA maintains or exceeds Full Attention models across general benchmarks,\nlong-context tasks, and instruction-based reasoning. Meanwhile, NSA achieves\nsubstantial speedups over Full Attention on 64k-length sequences across\ndecoding, forward propagation, and backward propagation, validating its\nefficiency throughout the model lifecycle.",
+            "upvotes": 41,
+            "discussionId": "67b43212d3c5f50aa9c03a5c"
+        },
+        "translation_title": "네이티브 스파스 어텐션: 하드웨어에 최적화된 네이티브 학습 가능 스파스 어텐션",
+        "purpose": "다음 세대 언어 모델을 위한 효율적인 긴 컨텍스트 모델링을 달성하기 위한 스파스 어텐션 기법 연구",
+        "method": [
+            "스파스 어텐션 메커니즘 NSA를 제안하고, 알고리즘 혁신과 하드웨어 최적화를 결합하여 효율적인 모델링 구현(We present NSA, a Natively trainable Sparse Attention mechanism that integrates algorithmic innovations with hardware-aligned optimizations to achieve efficient long-context modeling.)",
+            "동적 계층형 스파스 전략을 통해 전역적 컨텍스트 인식과 지역적 정밀도를 유지하며 코스-그레인 및 파인-그레인 토큰 압축을 결합함(NSA employs a dynamic hierarchical sparse strategy, combining coarse-grained token compression with fine-grained token selection to preserve both global context awareness and local precision.)",
+            "최신 하드웨어를 위한 구현 최적화를 통해 수치적 집약성을 높이며 속도를 크게 향상시킴(We achieve substantial speedups through arithmetic intensity-balanced algorithm design, with implementation optimizations for modern hardware.)",
+            "전이 학습 없이도 엔드-투-엔드 학습이 가능하게 하여 모델 성능 저하 없이 사전 훈련 계산을 줄임(We enable end-to-end training, reducing pretraining computation without sacrificing model performance.)"
+        ],
+        "conclusion": "NSA는 전통적인 풀 어텐션 모델과 비교해 전반적인 벤치마크 및 긴 컨텍스트 작업에서 유사하거나 더 나은 성과를 유지하며, 64k 길이 시퀀스에서 풀 어텐션보다 현저한 속도 향상을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.12152",
+            "authors": [
+                {
+                    "_id": "67b41ed52867282b4eb37ce4",
+                    "name": "Xialin He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41ed52867282b4eb37ce5",
+                    "user": {
+                        "_id": "6201fc5d91d53938a6432fbf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6201fc5d91d53938a6432fbf/VLs8ZYaZrop4KBpZn53fH.jpeg",
+                        "isPro": false,
+                        "fullname": "Runpei Dong",
+                        "user": "RunpeiDong",
+                        "type": "user"
+                    },
+                    "name": "Runpei Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-18T09:31:13.178Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41ed52867282b4eb37ce6",
+                    "name": "Zixuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41ed52867282b4eb37ce7",
+                    "name": "Saurabh Gupta",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-17T18:59:06.000Z",
+            "title": "Learning Getting-Up Policies for Real-World Humanoid Robots",
+            "summary": "Automatic fall recovery is a crucial prerequisite before humanoid robots can\nbe reliably deployed. Hand-designing controllers for getting up is difficult\nbecause of the varied configurations a humanoid can end up in after a fall and\nthe challenging terrains humanoid robots are expected to operate on. This paper\ndevelops a learning framework to produce controllers that enable humanoid\nrobots to get up from varying configurations on varying terrains. Unlike\nprevious successful applications of humanoid locomotion learning, the\ngetting-up task involves complex contact patterns, which necessitates\naccurately modeling the collision geometry and sparser rewards. We address\nthese challenges through a two-phase approach that follows a curriculum. The\nfirst stage focuses on discovering a good getting-up trajectory under minimal\nconstraints on smoothness or speed / torque limits. The second stage then\nrefines the discovered motions into deployable (i.e. smooth and slow) motions\nthat are robust to variations in initial configuration and terrains. We find\nthese innovations enable a real-world G1 humanoid robot to get up from two main\nsituations that we considered: a) lying face up and b) lying face down, both\ntested on flat, deformable, slippery surfaces and slopes (e.g., sloppy grass\nand snowfield). To the best of our knowledge, this is the first successful\ndemonstration of learned getting-up policies for human-sized humanoid robots in\nthe real world. Project page: https://humanoid-getup.github.io/",
+            "upvotes": 26,
+            "discussionId": "67b41edb2867282b4eb37ddf"
+        },
+        "translation_title": "실제 환경에서의 휴머노이드 로봇을 위한 일어나는 정책 학습",
+        "purpose": "휴머노이드 로봇이 안정적으로 배치되기 위해 필요한 자동 낙상 복구 방법을 개발하는 것",
+        "method": [
+            "두 단계로 나누어 일어나는 동작을 학습함(We address these challenges through a two-phase approach that follows a curriculum.)",
+            "첫 번째 단계에서 최소한의 제약 조건하에 좋은 일어나는 궤적 발견(Focused on discovering a good getting-up trajectory under minimal constraints on smoothness or speed / torque limits.)",
+            "두 번째 단계에서 발견된 동작을 실제 환경에서 사용할 수 있는 동작으로 정제함(The second stage then refines the discovered motions into deployable (i.e. smooth and slow) motions.)"
+        ],
+        "conclusion": "이 방식으로 G1 휴머노이드 로봇이 다양한 상황에서 성공적으로 일어날 수 있음을 증명함.",
+        "keywords": [
+            "Robotics",
+            "Image Understanding",
+            "Pose Estimation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.11190",
+            "authors": [
+                {
+                    "_id": "67b420dfb2528c023491f455",
+                    "name": "Haoming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f456",
+                    "name": "Ningyuan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f457",
+                    "name": "Liming Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f458",
+                    "name": "Sendong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f459",
+                    "name": "Shumin Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f45a",
+                    "name": "Mengru Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f45b",
+                    "name": "Bryan Hooi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f45c",
+                    "name": "Nay Oo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f45d",
+                    "name": "Huajun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b420dfb2528c023491f45e",
+                    "user": {
+                        "_id": "620b3bbb0668e435407c8d0a",
+                        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                        "isPro": false,
+                        "fullname": "Ningyu Zhang",
+                        "user": "Ningyu",
+                        "type": "user"
+                    },
+                    "name": "Ningyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-18T09:31:11.243Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-16T16:31:00.000Z",
+            "title": "ReLearn: Unlearning via Learning for Large Language Models",
+            "summary": "Current unlearning methods for large language models usually rely on reverse\noptimization to reduce target token probabilities. However, this paradigm\ndisrupts the subsequent tokens prediction, degrading model performance and\nlinguistic coherence. Moreover, existing evaluation metrics overemphasize\ncontextual forgetting while inadequately assessing response fluency and\nrelevance. To address these challenges, we propose ReLearn, a data augmentation\nand fine-tuning pipeline for effective unlearning, along with a comprehensive\nevaluation framework. This framework introduces Knowledge Forgetting Rate (KFR)\nand Knowledge Retention Rate (KRR) to measure knowledge-level preservation, and\nLinguistic Score (LS) to evaluate generation quality. Our experiments show that\nReLearn successfully achieves targeted forgetting while preserving high-quality\noutput. Through mechanistic analysis, we further demonstrate how reverse\noptimization disrupts coherent text generation, while ReLearn preserves this\nessential capability. Code is available at https://github.com/zjunlp/unlearn.",
+            "upvotes": 14,
+            "discussionId": "67b420e2b2528c023491f506"
+        },
+        "translation_title": "ReLearn: 대형 언어 모델을 위한 학습을 통한 잊기",
+        "purpose": "대형 언어 모델에서 효과적인 잊기 방법과 이에 대한 종합적인 평가 체계 개발",
+        "method": [
+            "데이터 증강 및 미세 조정 파이프라인인 ReLearn을 제안함(To address these challenges, we propose ReLearn, a data augmentation and fine-tuning pipeline for effective unlearning.)",
+            "지식 보존 수준을 측정하기 위해 Knowledge Forgetting Rate (KFR) 및 Knowledge Retention Rate (KRR)를 도입하고, 생성 품질을 평가하기 위해 Linguistic Score (LS)를 사용하는 평가 체계를 구축함(This framework introduces Knowledge Forgetting Rate (KFR) and Knowledge Retention Rate (KRR) to measure knowledge-level preservation, and Linguistic Score (LS) to evaluate generation quality.)",
+            "실험 결과 ReLearn이 목표한 잊기를 달성하면서 고품질 출력을 보존함을 입증함(Our experiments show that ReLearn successfully achieves targeted forgetting while preserving high-quality output.)"
+        ],
+        "conclusion": "ReLearn은 일관된 텍스트 생성을 유지하면서 잊기의 효과를 성공적으로 구현하고 있는 방법임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.12115",
+            "authors": [
+                {
+                    "_id": "67b41a72a38d04cc6148d80e",
+                    "name": "Samuel Miserendino",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41a72a38d04cc6148d80f",
+                    "name": "Michele Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41a72a38d04cc6148d810",
+                    "name": "Tejal Patwardhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b41a72a38d04cc6148d811",
+                    "name": "Johannes Heidecke",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-17T18:41:16.000Z",
+            "title": "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance\n  Software Engineering?",
+            "summary": "We introduce SWE-Lancer, a benchmark of over 1,400 freelance software\nengineering tasks from Upwork, valued at \\1 million USD total in real-world\npayouts. SWE-Lancer encompasses both independent engineering tasks--ranging\nfrom 50 bug fixes to \\$32,000 feature implementations--and managerial tasks,\nwhere models choose between technical implementation proposals. Independent\ntasks are graded with end-to-end tests triple-verified by experienced software\nengineers, while managerial decisions are assessed against the choices of the\noriginal hired engineering managers. We evaluate model performance and find\nthat frontier models are still unable to solve the majority of tasks. To\nfacilitate future research, we open-source a unified Docker image and a public\nevaluation split, SWE-Lancer Diamond\n(https://github.com/openai/SWELancer-Benchmark). By mapping model performance\nto monetary value, we hope SWE-Lancer enables greater research into the\neconomic impact of AI model development.",
+            "upvotes": 14,
+            "discussionId": "67b41a74a38d04cc6148d84b"
+        },
+        "translation_title": "SWE-Lancer: 최전선 LLM이 실제 프리랜서 소프트웨어 엔지니어링에서 100만 달러를 벌 수 있을까?",
+        "purpose": "프리랜서 소프트웨어 엔지니어링 과제를 통해 AI 모델의 경제적 Impact를 연구하기 위한 벤치마크 데이터셋 개발",
+        "method": [
+            "1,400개 이상의 프리랜서 소프트웨어 엔지니어링 과제를 포함한 SWE-Lancer 벤치마크를 구축함(We introduce SWE-Lancer, a benchmark of over 1,400 freelance software engineering tasks from Upwork.)",
+            "독립적 작업은 경험 많은 소프트웨어 엔지니어들이 삼중 검증한 end-to-end 테스트로 평가하며, 관리 작업은 원래 고용된 엔지니어링 매니저의 선택과 비교함(Independent tasks are graded with end-to-end tests triple-verified by experienced software engineers, while managerial decisions are assessed against the choices of the original hired engineering managers.)",
+            "모델 성능을 평가해 최전선 모델들이 여전히 대부분의 작업을 해결하지 못한다는 사실을 발견함(We evaluate model performance and find that frontier models are still unable to solve the majority of tasks.)"
+        ],
+        "conclusion": "SWE-Lancer는 AI 모델 개발의 경제적 영향을 연구하는 데 기여할 수 있는 기회를 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.11196",
+            "authors": [
+                {
+                    "_id": "67b42223c2fe54b8d43efed6",
+                    "name": "Yixin Ou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efed7",
+                    "name": "Yunzhi Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efed8",
+                    "user": {
+                        "_id": "620b3bbb0668e435407c8d0a",
+                        "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                        "isPro": false,
+                        "fullname": "Ningyu Zhang",
+                        "user": "Ningyu",
+                        "type": "user"
+                    },
+                    "name": "Ningyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-18T09:31:04.227Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efed9",
+                    "name": "Hui Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efeda",
+                    "name": "Jiacheng Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efedb",
+                    "name": "Shumin Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efedc",
+                    "name": "Zhenguo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b42223c2fe54b8d43efedd",
+                    "name": "Huajun Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-16T16:55:43.000Z",
+            "title": "How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on\n  Continual Pre-Training",
+            "summary": "Despite exceptional capabilities in knowledge-intensive tasks, Large Language\nModels (LLMs) face a critical gap in understanding how they internalize new\nknowledge, particularly how to structurally embed acquired knowledge in their\nneural computations. We address this issue through the lens of knowledge\ncircuit evolution, identifying computational subgraphs that facilitate\nknowledge storage and processing. Our systematic analysis of circuit evolution\nthroughout continual pre-training reveals several key findings: (1) the\nacquisition of new knowledge is influenced by its relevance to pre-existing\nknowledge; (2) the evolution of knowledge circuits exhibits a distinct phase\nshift from formation to optimization; (3) the evolution of knowledge circuits\nfollows a deep-to-shallow pattern. These insights not only advance our\ntheoretical understanding of the mechanisms of new knowledge acquisition in\nLLMs, but also provide potential implications for improving continual\npre-training strategies to enhance model performance. Code and data will be\navailable at https://github.com/zjunlp/DynamicKnowledgeCircuits.",
+            "upvotes": 11,
+            "discussionId": "67b42225c2fe54b8d43eff9b"
+        },
+        "translation_title": "LLMs는 새로운 지식을 어떻게 습득하는가? 지속적인 사전 훈련의 지식 회로 관점",
+        "purpose": "LLMs가 새로운 지식을 내부적으로 어떻게 이해하고 구조적으로 임베드하는지를 규명하기 위한 연구",
+        "method": [
+            "지식 회로 진화를 통해 지식을 저장하고 처리하는 계산 하위 그래프를 식별함(We address this issue through the lens of knowledge circuit evolution, identifying computational subgraphs that facilitate knowledge storage and processing.)",
+            "지속적인 사전 훈련에서 회로 진화를 체계적으로 분석하여 몇 가지 주요 발견을 도출함(Our systematic analysis of circuit evolution throughout continual pre-training reveals several key findings.)",
+            "새로운 지식의 습득이 기존 지식의 관련성에 영향을 받는다는 것을 확인함(the acquisition of new knowledge is influenced by its relevance to pre-existing knowledge.)",
+            "지식 회로의 진화가 형성에서 최적화로의 뚜렷한 단계 변화를 보임(the evolution of knowledge circuits exhibits a distinct phase shift from formation to optimization.)",
+            "지식 회로의 진화가 깊은 구조에서 얕은 구조로 진행됨(the evolution of knowledge circuits follows a deep-to-shallow pattern.)"
+        ],
+        "conclusion": "이 연구는 LLM의 새로운 지식 습득 메커니즘에 대한 이해를 심화시키고 지속적인 사전 훈련 전략을 개선하여 모델 성능을 향상시킬 수 있는 가능성을 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
