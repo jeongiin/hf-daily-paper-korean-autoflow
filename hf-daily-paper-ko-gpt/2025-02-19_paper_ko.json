@@ -1,0 +1,412 @@
+[
+    {
+        "paper": {
+            "id": "2502.12900",
+            "authors": [
+                {
+                    "_id": "67b54851b986e35c41e063da",
+                    "user": {
+                        "_id": "66975b9f8031bf92b428e138",
+                        "avatarUrl": "/avatars/3254281a7bac1c8ddde1d6bc7e518b2f.svg",
+                        "isPro": false,
+                        "fullname": "Yuhao Zhang",
+                        "user": "Yoohao",
+                        "type": "user"
+                    },
+                    "name": "Yuhao Zhang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-19T02:56:18.848Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b54851b986e35c41e063db",
+                    "user": {
+                        "_id": "66597f2cf769c3c443b7cf41",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/WkZBh7hwlD9wVqCEMQtGX.png",
+                        "isPro": false,
+                        "fullname": "Chihang Lau",
+                        "user": "puccho",
+                        "type": "user"
+                    },
+                    "name": "Zhiheng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-19T09:01:05.678Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b54851b986e35c41e063dc",
+                    "user": {
+                        "_id": "668e7f46c243a12604035758",
+                        "avatarUrl": "/avatars/35bd20032fafb7d7603266cf9a72d1e0.svg",
+                        "isPro": false,
+                        "fullname": "Fan Bu",
+                        "user": "FanBuCUHK",
+                        "type": "user"
+                    },
+                    "name": "Fan Bu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:42:08.544Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b54851b986e35c41e063dd",
+                    "user": {
+                        "_id": "67b587c8882e49771f610b51",
+                        "avatarUrl": "/avatars/aecfb38b44141b8284416fc261692909.svg",
+                        "isPro": false,
+                        "fullname": "Ruiyu Zhang",
+                        "user": "PhoenixAxis",
+                        "type": "user"
+                    },
+                    "name": "Ruiyu Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:42:14.866Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b54851b986e35c41e063de",
+                    "user": {
+                        "_id": "637c6703ca8542a0ba900ccb",
+                        "avatarUrl": "/avatars/288ed63a1efa566c3f01e850c6ba5dd5.svg",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Benyou",
+                        "type": "user"
+                    },
+                    "name": "Benyou Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:42:23.845Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b54851b986e35c41e063df",
+                    "name": "Haizhou Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-18T14:36:39.000Z",
+            "title": "Soundwave: Less is More for Speech-Text Alignment in LLMs",
+            "summary": "Existing end-to-end speech large language models (LLMs) usually rely on\nlarge-scale annotated data for training, while data-efficient training has not\nbeen discussed in depth. We focus on two fundamental problems between speech\nand text: the representation space gap and sequence length inconsistency. We\npropose Soundwave, which utilizes an efficient training strategy and a novel\narchitecture to address these issues. Results show that Soundwave outperforms\nthe advanced Qwen2-Audio in speech translation and AIR-Bench speech tasks,\nusing only one-fiftieth of the training data. Further analysis shows that\nSoundwave still retains its intelligence during conversation. The project is\navailable at https://github.com/FreedomIntelligence/Soundwave.",
+            "upvotes": 55,
+            "discussionId": "67b54852b986e35c41e06426"
+        },
+        "translation_title": "Soundwave: LLM에서 음성과 텍스트 정렬을 위한 데이터 절약 전략",
+        "purpose": "소량의 데이터를 이용해 음성 대 텍스트 정렬 문제 해결을 위한 효과적인 방법 제안",
+        "method": [
+            "음성과 텍스트 간의 표현 공간 차이 및 시퀀스 길이 불일치 문제를 해결하기 위해 효율적인 훈련 전략과 새로운 아키텍처를 제안함(We propose Soundwave, which utilizes an efficient training strategy and a novel architecture to address these issues.)",
+            "Soundwave가 고급 Qwen2-Audio를 초월해 음성 번역 및 AIR-Bench 음성 작업에서 성능이 뛰어난 것을 확인함(Results show that Soundwave outperforms the advanced Qwen2-Audio in speech translation and AIR-Bench speech tasks, using only one-fiftieth of the training data.)"
+        ],
+        "conclusion": "Soundwave는 적은 양의 데이터로도 높은 성능을 유지하며 대화 중에도 지능을 유지함을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech Translation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.11564",
+            "authors": [
+                {
+                    "_id": "67b40f93aba9e111862052ab",
+                    "user": {
+                        "_id": "65e5bd4568234ef5d6decadc",
+                        "avatarUrl": "/avatars/c41095a946c0176b949c0b3566136c05.svg",
+                        "isPro": false,
+                        "fullname": "Jaehyeong Jo",
+                        "user": "harryjo97",
+                        "type": "user"
+                    },
+                    "name": "Jaehyeong Jo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-18T09:31:27.544Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40f93aba9e111862052ac",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-17T08:54:29.000Z",
+            "title": "Continuous Diffusion Model for Language Modeling",
+            "summary": "Diffusion models have emerged as a promising alternative to autoregressive\nmodels in modeling discrete categorical data. Yet diffusion models that\ndirectly work on discrete data space do not fully exploit the power of\niterative refinement, as the signals are lost during the transition between\ndiscrete states. Existing continuous diffusion models for discrete data have\nlimited performance compared to discrete approaches, and the unclear link\nbetween them restricts the development of diffusion models for discrete data.\nIn this work, we propose a continuous diffusion model for language modeling\nthat incorporates the geometry of the underlying categorical distribution. We\nestablish a connection between the discrete diffusion and continuous flow on\nthe statistical manifold, and building on the analogy, we introduce a simple\ndesign for the diffusion process that generalizes previous discrete diffusion\nmodels. We further propose a simulation-free training framework based on radial\nsymmetry and a simple technique to address the high dimensionality of the\nmanifold. Comprehensive experiments on language modeling benchmarks and other\nmodalities show that our method outperforms existing discrete diffusion models\nand approaches the performance of autoregressive models. Codes available at\nhttps://github.com/harryjo97/RDLM{https://github.com/harryjo97/RDLM}.",
+            "upvotes": 38,
+            "discussionId": "67b40f94aba9e111862052d5"
+        },
+        "translation_title": "언어 모델링을 위한 연속 확산 모델",
+        "purpose": "연속 확산 모델을 통해 언어 모델링의 성능 개선 및 디스크리트 데이터의 한계 극복",
+        "method": [
+            "기하학적 카테고리 분포를 포함한 연속 확산 모델을 제안함(we propose a continuous diffusion model for language modeling that incorporates the geometry of the underlying categorical distribution)",
+            "이산 확산과 연속 흐름 간의 연결을 확립함(we establish a connection between the discrete diffusion and continuous flow on the statistical manifold)",
+            "단순한 확산 과정 설계를 도입하여 기존 이산 확산 모델을 일반화함(we introduce a simple design for the diffusion process that generalizes previous discrete diffusion models)",
+            "고차원 매니폴드 문제를 해결하기 위한 간단한 기법을 제안함(we further propose a simulation-free training framework based on radial symmetry and a simple technique to address the high dimensionality of the manifold)"
+        ],
+        "conclusion": "우리 방법은 기존 이산 확산 모델보다 우수한 성능을 보이며, 오토회귀 모델의 성능에 접근함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.11079",
+            "authors": [
+                {
+                    "_id": "67b40141ad717fe02e188c1a",
+                    "user": {
+                        "_id": "63a950ac3453852ef5394178",
+                        "avatarUrl": "/avatars/48a5e537b10e2247a17e63502e3201a6.svg",
+                        "isPro": false,
+                        "fullname": "Lijie Liu",
+                        "user": "liulj13",
+                        "type": "user"
+                    },
+                    "name": "Lijie Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-18T09:31:42.570Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c1b",
+                    "user": {
+                        "_id": "657ab4705e1c941f4c2f7877",
+                        "avatarUrl": "/avatars/c450f81f83dd0436ae120ab15616c4f7.svg",
+                        "isPro": false,
+                        "fullname": "Tianxiang Ma",
+                        "user": "Grayson111",
+                        "type": "user"
+                    },
+                    "name": "Tianxiang Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:45:00.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c1c",
+                    "user": {
+                        "_id": "63b415037af2e415f2599c18",
+                        "avatarUrl": "/avatars/4afbe7d6d05a702f1beeed9c53e78153.svg",
+                        "isPro": false,
+                        "fullname": "Bingchuan Li",
+                        "user": "lbc402",
+                        "type": "user"
+                    },
+                    "name": "Bingchuan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:47:57.441Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c1d",
+                    "user": {
+                        "_id": "6304e2dabad6ce7fc0287d57",
+                        "avatarUrl": "/avatars/3fd4a9a62b0ef98db2573411463a9247.svg",
+                        "isPro": false,
+                        "fullname": "Zhuowei_Chen",
+                        "user": "ZhuoweiChen",
+                        "type": "user"
+                    },
+                    "name": "Zhuowei Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:47:50.995Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c1e",
+                    "name": "Jiawei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c1f",
+                    "name": "Qian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b40141ad717fe02e188c20",
+                    "name": "Xinglong Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-16T11:02:50.000Z",
+            "title": "Phantom: Subject-consistent video generation via cross-modal alignment",
+            "summary": "The continuous development of foundational models for video generation is\nevolving into various applications, with subject-consistent video generation\nstill in the exploratory stage. We refer to this as Subject-to-Video, which\nextracts subject elements from reference images and generates\nsubject-consistent video through textual instructions. We believe that the\nessence of subject-to-video lies in balancing the dual-modal prompts of text\nand image, thereby deeply and simultaneously aligning both text and visual\ncontent. To this end, we propose Phantom, a unified video generation framework\nfor both single and multi-subject references. Building on existing\ntext-to-video and image-to-video architectures, we redesign the joint\ntext-image injection model and drive it to learn cross-modal alignment via\ntext-image-video triplet data. In particular, we emphasize subject consistency\nin human generation, covering existing ID-preserving video generation while\noffering enhanced advantages. The project homepage is here\nhttps://phantom-video.github.io/Phantom/.",
+            "upvotes": 36,
+            "discussionId": "67b40144ad717fe02e188cb2"
+        },
+        "translation_title": "Phantom: 주제 일관성을 갖춘 비디오 생성을 위한 크로스 모달 정렬",
+        "purpose": "주제 일관성을 갖춘 비디오 생성을 위한 새로운 프레임워크 개발",
+        "method": [
+            "주제 요소를 기준 이미지에서 추출하고 텍스트 지시를 통해 주제 일관성 있는 비디오 생성 구현(We refer to this as Subject-to-Video, which extracts subject elements from reference images and generates subject-consistent video through textual instructions.)",
+            "단일 및 다중 주제 참조에 대해 통합된 비디오 생성 프레임워크인 Phantom 제안(we propose Phantom, a unified video generation framework for both single and multi-subject references.)",
+            "텍스트-비디오 및 이미지-비디오 구조를 기반으로 텍스트-이미지 주입 모델 재설계 및 텍스트-이미지-비디오 삼중 데이터 학습 구현(Building on existing text-to-video and image-to-video architectures, we redesign the joint text-image injection model and drive it to learn cross-modal alignment via text-image-video triplet data.)"
+        ],
+        "conclusion": "Phantom은 인간 생성에서 주제 일관성을 강조하며, 기존 ID 보존 비디오 생성의 장점을 향상시킴.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.13063",
+            "authors": [
+                {
+                    "_id": "67b5a7896f72266cb765e744",
+                    "user": {
+                        "_id": "618b9540682ec1c38327e586",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/618b9540682ec1c38327e586/v_ZBkfh8O9Zh6C2YQpuBX.jpeg",
+                        "isPro": false,
+                        "fullname": "Yury Kuratov",
+                        "user": "yurakuratov",
+                        "type": "user"
+                    },
+                    "name": "Yuri Kuratov",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-19T09:42:34.422Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5a7896f72266cb765e745",
+                    "name": "Mikhail Arkhipov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5a7896f72266cb765e746",
+                    "name": "Aydar Bulatov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5a7896f72266cb765e747",
+                    "user": {
+                        "_id": "639c6e978a34ed9a404c6a7b",
+                        "avatarUrl": "/avatars/c98ca8c9f9ed8509c2f1bb6aa994fd57.svg",
+                        "isPro": false,
+                        "fullname": "MIKHAIL BURTSEV",
+                        "user": "mbur",
+                        "type": "user"
+                    },
+                    "name": "Mikhail Burtsev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-19T09:56:59.080Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-18T17:08:45.000Z",
+            "title": "Cramming 1568 Tokens into a Single Vector and Back Again: Exploring the\n  Limits of Embedding Space Capacity",
+            "summary": "A range of recent works addresses the problem of compression of sequence of\ntokens into a shorter sequence of real-valued vectors to be used as inputs\ninstead of token embeddings or key-value cache. These approaches allow to\nreduce the amount of compute in existing language models. Despite relying on\npowerful models as encoders, the maximum attainable lossless compression ratio\nis typically not higher than x10. This fact is highly intriguing because, in\ntheory, the maximum information capacity of large real-valued vectors is far\nbeyond the presented rates even for 16-bit precision and a modest vector size.\nIn this work, we explore the limits of compression by replacing the encoder\nwith a per-sample optimization procedure. We show that vectors with compression\nratios up to x1500 exist, which highlights two orders of magnitude gap between\nexisting and practically attainable solutions. Furthermore, we empirically show\nthat the compression limits are determined not by the length of the input but\nby the amount of uncertainty to be reduced, namely, the cross-entropy loss on\nthis sequence without any conditioning. The obtained limits highlight the\nsubstantial gap between the theoretical capacity of input embeddings and their\npractical utilization, suggesting significant room for optimization in model\ndesign.",
+            "upvotes": 34,
+            "discussionId": "67b5a78a6f72266cb765e779"
+        },
+        "translation_title": "1568 토큰을 하나의 벡터로 압축하고 다시 변환하기: 임베딩 공간 용량의 한계 탐색",
+        "purpose": "언어 모델의 컴퓨팅 양을 줄이기 위해 토큰 시퀀스를 짧은 실수 벡터 시퀀스로 압축하는 한계 탐구",
+        "method": [
+            "기존의 인코더 대신 샘플별 최적화 절차를 사용하여 압축의 한계를 탐구함.(In this work, we explore the limits of compression by replacing the encoder with a per-sample optimization procedure.)",
+            "압축 비율이 x1500에 이르는 벡터의 존재를 보여주며, 기존 솔루션과 실질적으로 달성 가능한 솔루션 간의 간극을 강조함.(We show that vectors with compression ratios up to x1500 exist, which highlights two orders of magnitude gap between existing and practically attainable solutions.)",
+            "입력 길이가 아닌 줄여야 할 불확실성의 양에 따라 압축 한계가 결정됨을 경험적으로 보여줌.(Furthermore, we empirically show that the compression limits are determined not by the length of the input but by the amount of uncertainty to be reduced.)"
+        ],
+        "conclusion": "이 연구는 입력 임베딩의 이론적 용량과 실제 활용 간의 상당한 간극을 강조하여 모델 설계에서의 최적화 가능성을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.13131",
+            "authors": [
+                {
+                    "_id": "67b5461d29cc269e5a4eb823",
+                    "name": "Feng Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb824",
+                    "user": {
+                        "_id": "64d45451c34a346181b130dd",
+                        "avatarUrl": "/avatars/9bb8205b889337df5d321539c9b5d69d.svg",
+                        "isPro": false,
+                        "fullname": "Rui Yang",
+                        "user": "Ray2333",
+                        "type": "user"
+                    },
+                    "name": "Rui Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-19T09:01:23.095Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb825",
+                    "name": "Hao Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb826",
+                    "user": {
+                        "_id": "634b9914dcf125e4da02498b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/634b9914dcf125e4da02498b/crRgFroWq5U6XWtvlTXSZ.jpeg",
+                        "isPro": false,
+                        "fullname": "Chunyuan Deng",
+                        "user": "CharlesDDDD",
+                        "type": "user"
+                    },
+                    "name": "Chunyuan Deng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:56:33.053Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb827",
+                    "name": "Jiarui Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb828",
+                    "name": "Jingyan Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb829",
+                    "user": {
+                        "_id": "6719d581a6cad13741b8bc7f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6719d581a6cad13741b8bc7f/w4EttqfXRgWZJc6HpYOS9.jpeg",
+                        "isPro": false,
+                        "fullname": "Huan Zhang",
+                        "user": "huanzhang12",
+                        "type": "user"
+                    },
+                    "name": "Huan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-19T09:52:47.329Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b5461d29cc269e5a4eb82a",
+                    "name": "Hanjie Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-18T18:55:26.000Z",
+            "title": "Rethinking Diverse Human Preference Learning through Principal Component\n  Analysis",
+            "summary": "Understanding human preferences is crucial for improving foundation models\nand building personalized AI systems. However, preferences are inherently\ndiverse and complex, making it difficult for traditional reward models to\ncapture their full range. While fine-grained preference data can help,\ncollecting it is expensive and hard to scale. In this paper, we introduce\nDecomposed Reward Models (DRMs), a novel approach that extracts diverse human\npreferences from binary comparisons without requiring fine-grained annotations.\nOur key insight is to represent human preferences as vectors and analyze them\nusing Principal Component Analysis (PCA). By constructing a dataset of\nembedding differences between preferred and rejected responses, DRMs identify\northogonal basis vectors that capture distinct aspects of preference. These\ndecomposed rewards can be flexibly combined to align with different user needs,\noffering an interpretable and scalable alternative to traditional reward\nmodels. We demonstrate that DRMs effectively extract meaningful preference\ndimensions (e.g., helpfulness, safety, humor) and adapt to new users without\nadditional training. Our results highlight DRMs as a powerful framework for\npersonalized and interpretable LLM alignment.",
+            "upvotes": 27,
+            "discussionId": "67b5461f29cc269e5a4eb8bc"
+        },
+        "translation_title": "주성분 분석을 통한 다양한 인간 선호 학습 재조명",
+        "purpose": "인간의 복잡한 선호를 효과적으로 이해하고 개인 맞춤형 AI 시스템을 개선하기 위한 방법 제시",
+        "method": [
+            "Decomposed Reward Models (DRMs)을 도입하여 이진 비교를 통해 다양한 인간 선호를 추출하고 세밀한 주석 없이 선호를 분석함(we introduce Decomposed Reward Models (DRMs), a novel approach that extracts diverse human preferences from binary comparisons without requiring fine-grained annotations.)",
+            "주성분 분석(Principal Component Analysis, PCA)을 통해 인간 선호를 벡터로 표현하고, 이를 분석하여 다양한 선호 차원을 식별함(Our key insight is to represent human preferences as vectors and analyze them using Principal Component Analysis (PCA).)",
+            "선호에 대한 응답 간의 임베딩 차이를 기반으로 데이터셋을 구축하여 DRMs가 다양한 선호 측면을 포착하도록 함(By constructing a dataset of embedding differences between preferred and rejected responses, DRMs identify orthogonal basis vectors that capture distinct aspects of preference.)"
+        ],
+        "conclusion": "DRMs는 효과적으로 의미 있는 선호 차원을 추출하고 새로운 사용자에 적응할 수 있어 개인화된 AI 시스템에서 유용한 프레임워크로 자리잡음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
