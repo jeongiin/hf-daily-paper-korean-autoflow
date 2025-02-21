@@ -1,0 +1,1307 @@
+[
+    {
+        "paper": {
+            "id": "2502.14499",
+            "authors": [
+                {
+                    "_id": "67b7ee1dfedfe971271dcca0",
+                    "user": {
+                        "_id": "6114c9fae7a2566ae7d1a1a7",
+                        "avatarUrl": "/avatars/c71ab1850322fcf5ef239cb8d31cb137.svg",
+                        "isPro": false,
+                        "fullname": "Deepak Nathani",
+                        "user": "dnathani",
+                        "type": "user"
+                    },
+                    "name": "Deepak Nathani",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-02-21T07:20:46.836Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca1",
+                    "name": "Lovish Madaan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca2",
+                    "name": "Nicholas Roberts",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca3",
+                    "user": {
+                        "_id": "633476edc3cb9eda9328e556",
+                        "avatarUrl": "/avatars/a127e270a606c18623fe00cd723313f6.svg",
+                        "isPro": false,
+                        "fullname": "Nikolay B",
+                        "user": "bashnick",
+                        "type": "user"
+                    },
+                    "name": "Nikolay Bashlykov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:58.738Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca4",
+                    "name": "Ajay Menon",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca5",
+                    "name": "Vincent Moens",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca6",
+                    "name": "Amar Budhiraja",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca7",
+                    "name": "Despoina Magka",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca8",
+                    "name": "Vladislav Vorotilov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dcca9",
+                    "name": "Gaurav Chaurasia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccaa",
+                    "name": "Dieuwke Hupkes",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccab",
+                    "user": {
+                        "_id": "67b8749ffa8442592bce008e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ctbzupAxRhcNXDka75ANi.png",
+                        "isPro": false,
+                        "fullname": "Ricardo Silveira Cabral",
+                        "user": "rscabral",
+                        "type": "user"
+                    },
+                    "name": "Ricardo Silveira Cabral",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:55.449Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccac",
+                    "user": {
+                        "_id": "60dc2eb60037b630c5df57aa",
+                        "avatarUrl": "/avatars/fbe707b1231a3d9dc6e87ec011e0e738.svg",
+                        "isPro": false,
+                        "fullname": "Tatiana",
+                        "user": "Shavrina",
+                        "type": "user"
+                    },
+                    "name": "Tatiana Shavrina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:43:03.777Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccad",
+                    "name": "Jakob Foerster",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccae",
+                    "user": {
+                        "_id": "671b9e3ba54e59639d597fcb",
+                        "avatarUrl": "/avatars/95201b98d1cf2ffa68d23f3b74e387fb.svg",
+                        "isPro": false,
+                        "fullname": "Yoram Bachrach",
+                        "user": "yorambac",
+                        "type": "user"
+                    },
+                    "name": "Yoram Bachrach",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:43:01.304Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccaf",
+                    "name": "William Yang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ee1dfedfe971271dccb0",
+                    "user": {
+                        "_id": "633e94793a17ab61de8e2b9c",
+                        "avatarUrl": "/avatars/5f2f58ddeed211393660ada6b135f0d5.svg",
+                        "isPro": false,
+                        "fullname": "Roberta Raileanu",
+                        "user": "rraileanu",
+                        "type": "user"
+                    },
+                    "name": "Roberta Raileanu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-02-21T03:08:15.471Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T12:28:23.000Z",
+            "title": "MLGym: A New Framework and Benchmark for Advancing AI Research Agents",
+            "summary": "We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for\nevaluating and developing LLM agents on AI research tasks. This is the first\nGym environment for machine learning (ML) tasks, enabling research on\nreinforcement learning (RL) algorithms for training such agents. MLGym-bench\nconsists of 13 diverse and open-ended AI research tasks from diverse domains\nsuch as computer vision, natural language processing, reinforcement learning,\nand game theory. Solving these tasks requires real-world AI research skills\nsuch as generating new ideas and hypotheses, creating and processing data,\nimplementing ML methods, training models, running experiments, analyzing the\nresults, and iterating through this process to improve on a given task. We\nevaluate a number of frontier large language models (LLMs) on our benchmarks\nsuch as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5\nPro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate\nmodels or agents, generate synthetic data at scale, as well as develop new\nlearning algorithms for training agents on AI research tasks. We find that\ncurrent frontier models can improve on the given baselines, usually by finding\nbetter hyperparameters, but do not generate novel hypotheses, algorithms,\narchitectures, or substantial improvements. We open-source our framework and\nbenchmark to facilitate future research in advancing the AI research\ncapabilities of LLM agents.",
+            "upvotes": 101,
+            "discussionId": "67b7ee1ffedfe971271dcd3a"
+        },
+        "translation_title": "MLGym: AI 연구 에이전트를 위한 새로운 프레임워크 및 벤치마크",
+        "purpose": "AI 연구 과제를 위한 LLM 에이전트를 평가하고 개발하기 위한 새로운 프레임워크와 벤치마크 제안",
+        "method": [
+            "Meta MLGym과 MLGym-Bench를 소개하여 AI 연구 tasks를 위한 첫 번째 Gym 환경을 구축함(This is the first Gym environment for machine learning (ML) tasks, enabling research on reinforcement learning (RL) algorithms for training such agents.)",
+            "다양한 도메인에서 13개의 개방형 AI 연구 tasks를 포함하여 MLGym-bench를 구성함(MLGym-bench consists of 13 diverse and open-ended AI research tasks from diverse domains such as computer vision, natural language processing, reinforcement learning, and game theory.)",
+            "중요한 실제 AI 연구 기술을 요구하는 이러한 작업을 통해 LLM 모델을 평가함(Solving these tasks requires real-world AI research skills such as generating new ideas and hypotheses, creating and processing data, implementing ML methods, training models, running experiments, analyzing the results, and iterating through this process to improve on a given task.)"
+        ],
+        "conclusion": "MLGym 프레임워크는 AI 연구 능력을 향상시키기 위해 LLM 모델을 평가할 수 있으며, 현재의 모델들이 기준을 개선할 수 있지만, 새로운 가설이나 알고리듬은 생성하지 않는다는 것을 발견함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.14739",
+            "authors": [
+                {
+                    "_id": "67b7efc26348a1df80a8ae53",
+                    "name": "M-A-P Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae54",
+                    "user": {
+                        "_id": "654907a4a1faff97850c4eff",
+                        "avatarUrl": "/avatars/458c90151614bc7f116943b6e67d6b8a.svg",
+                        "isPro": false,
+                        "fullname": "du",
+                        "user": "dododododo",
+                        "type": "user"
+                    },
+                    "name": "Xinrun Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:53.525Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae55",
+                    "name": "Yifan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae56",
+                    "user": {
+                        "_id": "65eb65722fbf6807134a636c",
+                        "avatarUrl": "/avatars/282920ff99c8d83cdac5fd6ee507096a.svg",
+                        "isPro": false,
+                        "fullname": "Kaijing Ma",
+                        "user": "mkj69",
+                        "type": "user"
+                    },
+                    "name": "Kaijing Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:20:18.121Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae57",
+                    "user": {
+                        "_id": "658d0a228cff48d3a4612689",
+                        "avatarUrl": "/avatars/70e297c6cb12d1bdde6d91c23f590b63.svg",
+                        "isPro": false,
+                        "fullname": "Bingli Wang",
+                        "user": "BingliW",
+                        "type": "user"
+                    },
+                    "name": "Bingli Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:20:24.792Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae58",
+                    "user": {
+                        "_id": "64ab99dcb76bfd863eba64c1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ab99dcb76bfd863eba64c1/UBXwDPx17X-gl-SzBPvrc.jpeg",
+                        "isPro": false,
+                        "fullname": "TY.Zheng",
+                        "user": "aaabiao",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:24.002Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae59",
+                    "user": {
+                        "_id": "6578265ddea7e2122d02f6ba",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6578265ddea7e2122d02f6ba/Bh6JjoVF5ceLSjV7Z7nTk.jpeg",
+                        "isPro": false,
+                        "fullname": "kang zhu",
+                        "user": "kangz",
+                        "type": "user"
+                    },
+                    "name": "Kang Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:20:45.485Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5a",
+                    "user": {
+                        "_id": "6417d9ea8f689506e7148417",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6417d9ea8f689506e7148417/bAYcruWNw4WvmuQcGgcwC.jpeg",
+                        "isPro": false,
+                        "fullname": "minghao",
+                        "user": "Liam-Liu",
+                        "type": "user"
+                    },
+                    "name": "Minghao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:25.894Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5b",
+                    "user": {
+                        "_id": "6555e8d8a0c34cd61a6b9ce3",
+                        "avatarUrl": "/avatars/71dc562cef4bd42f6b762f036357c800.svg",
+                        "isPro": false,
+                        "fullname": "yimingliang",
+                        "user": "yimingliang",
+                        "type": "user"
+                    },
+                    "name": "Yiming Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:21:08.553Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5c",
+                    "name": "Xiaolong Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5d",
+                    "user": {
+                        "_id": "67375a6ae6b1d15ff5359a54",
+                        "avatarUrl": "/avatars/9d32d9e3bfb43b8d001c6ddeae720ec5.svg",
+                        "isPro": false,
+                        "fullname": "weizhenlin",
+                        "user": "vzl123",
+                        "type": "user"
+                    },
+                    "name": "Zhenlin Wei",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:21:31.565Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5e",
+                    "user": {
+                        "_id": "610b70452719facd4ea85e28",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/610b70452719facd4ea85e28/S7nMy7D0Rxq0VIVblhYDG.jpeg",
+                        "isPro": false,
+                        "fullname": "Chujie Zheng",
+                        "user": "chujiezheng",
+                        "type": "user"
+                    },
+                    "name": "Chujie Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:34.124Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae5f",
+                    "name": "Kaixing Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae60",
+                    "name": "Shuyue Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae61",
+                    "name": "Shian Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae62",
+                    "user": {
+                        "_id": "675085408119fa5fac3cd7cf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0Mrrkzhv0wBggP5kGKtSt.png",
+                        "isPro": false,
+                        "fullname": "jiangsichao",
+                        "user": "jsc137",
+                        "type": "user"
+                    },
+                    "name": "Sichao Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:22:09.140Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae63",
+                    "user": {
+                        "_id": "67a9d186b22571659007a43d",
+                        "avatarUrl": "/avatars/79b06cf0983083b6161374e66a8c51b2.svg",
+                        "isPro": false,
+                        "fullname": "Yiyan Liao",
+                        "user": "yiyanliao",
+                        "type": "user"
+                    },
+                    "name": "Yiyan Liao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:22:15.619Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae64",
+                    "name": "Rui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae65",
+                    "name": "Qinrui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae66",
+                    "user": {
+                        "_id": "67ab7826ab5ebf181a7f78d7",
+                        "avatarUrl": "/avatars/d6baf414011d6df659da4eb58e9d8958.svg",
+                        "isPro": false,
+                        "fullname": "Sirun Li",
+                        "user": "inorganicwriter",
+                        "type": "user"
+                    },
+                    "name": "Sirun Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:22:30.478Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae67",
+                    "user": {
+                        "_id": "6382252f54421460665ec501",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6382252f54421460665ec501/gW9fev3T5QPcNq4f9hqB1.jpeg",
+                        "isPro": false,
+                        "fullname": "Yizhi Li",
+                        "user": "yizhilll",
+                        "type": "user"
+                    },
+                    "name": "Yizhi Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:51.449Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae68",
+                    "name": "Yunwen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae69",
+                    "name": "Dehua Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6a",
+                    "user": {
+                        "_id": "64de37ee5e192985054be575",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64de37ee5e192985054be575/fVV7JQMtp_J3uFqszJJHH.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuansheng Ni",
+                        "user": "yuanshengni",
+                        "type": "user"
+                    },
+                    "name": "Yuansheng Ni",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:30.371Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6b",
+                    "name": "Haoran Que",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6c",
+                    "user": {
+                        "_id": "64560618bfdf9c63ce2d658a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64560618bfdf9c63ce2d658a/GVBWU4yNzRsjdyzKT3z3B.jpeg",
+                        "isPro": false,
+                        "fullname": "Mathsion Wong",
+                        "user": "QiYao-Wang",
+                        "type": "user"
+                    },
+                    "name": "Qiyao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:28.639Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6d",
+                    "name": "Zhoufutu Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6e",
+                    "name": "Siwei Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae6f",
+                    "name": "Tianshun Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae70",
+                    "name": "Ming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae71",
+                    "name": "Zhenzhu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae72",
+                    "name": "Zekun Moore Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae73",
+                    "name": "Junting Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae74",
+                    "name": "Yuelin Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae75",
+                    "name": "Xingyuan Bu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae76",
+                    "user": {
+                        "_id": "64f9c21b681224dbe49a2280",
+                        "avatarUrl": "/avatars/df26cc4b4c6105af2c77392db61e3a27.svg",
+                        "isPro": false,
+                        "fullname": "caichenglin",
+                        "user": "easy4mego",
+                        "type": "user"
+                    },
+                    "name": "Chenglin Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:23:17.731Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae77",
+                    "name": "Liang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae78",
+                    "name": "Yifan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae79",
+                    "name": "Chengtuo Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7a",
+                    "name": "Tianhao Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7b",
+                    "name": "Keyi Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7c",
+                    "name": "Siming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7d",
+                    "name": "Yun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7e",
+                    "name": "Yaoru Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae7f",
+                    "name": "Yizhe Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae80",
+                    "name": "Zhaoqun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae81",
+                    "name": "Tianhao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae82",
+                    "user": {
+                        "_id": "66751c722b487c2e015a1f60",
+                        "avatarUrl": "/avatars/d66a98b625451ccea1b4dfcdaf623304.svg",
+                        "isPro": false,
+                        "fullname": "lin",
+                        "user": "adams6435",
+                        "type": "user"
+                    },
+                    "name": "Chengdong Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T15:15:33.213Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae83",
+                    "name": "Hongquan Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae84",
+                    "name": "Yinghao Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae85",
+                    "name": "Zhongyuan Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae86",
+                    "user": {
+                        "_id": "65adda5299c3bd19c74d6a8d",
+                        "avatarUrl": "/avatars/1ce504b64ab60f375b235ebaf81cafd6.svg",
+                        "isPro": false,
+                        "fullname": "PENG ZIFAN",
+                        "user": "Ziffer",
+                        "type": "user"
+                    },
+                    "name": "Zifan Peng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:20.429Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae87",
+                    "name": "Qige Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae88",
+                    "name": "Shi Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae89",
+                    "name": "Xingwei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8a",
+                    "name": "Yizhou Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8b",
+                    "name": "Zili Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8c",
+                    "name": "Chenqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8d",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8e",
+                    "name": "Yiya Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae8f",
+                    "name": "Yubo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae90",
+                    "name": "Jiajun Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae91",
+                    "name": "Kexin Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae92",
+                    "name": "Ruibin Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae93",
+                    "name": "Yuanhao Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae94",
+                    "name": "Tianyang Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae95",
+                    "name": "Chun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae96",
+                    "name": "Jingyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae97",
+                    "name": "Xiyue Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae98",
+                    "name": "Xingjian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae99",
+                    "name": "Yue Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9a",
+                    "name": "Yongchi Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9b",
+                    "name": "Xiangyu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9c",
+                    "name": "Chenghua Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9d",
+                    "name": "Yang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9e",
+                    "name": "Zhoujun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8ae9f",
+                    "name": "Dayiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea0",
+                    "user": {
+                        "_id": "612ee6a7b960e78c6d2319d4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/612ee6a7b960e78c6d2319d4/2Hu9BaAyXbyh1vt0v1Qui.jpeg",
+                        "isPro": false,
+                        "fullname": "Qian Liu",
+                        "user": "SivilTaram",
+                        "type": "user"
+                    },
+                    "name": "Qian Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:32.399Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea1",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea2",
+                    "name": "Shiwen Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea3",
+                    "name": "Junran Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea4",
+                    "name": "Yujia Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea5",
+                    "name": "Wenbo Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea6",
+                    "user": {
+                        "_id": "6490d4ba1afdee3acd1147f6",
+                        "avatarUrl": "/avatars/ae13c7b21fe9ced7541dcd664d1b94ed.svg",
+                        "isPro": false,
+                        "fullname": "Guoyin Wang",
+                        "user": "guoyinwang",
+                        "type": "user"
+                    },
+                    "name": "Guoyin Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:23:25.946Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea7",
+                    "name": "Shi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea8",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aea9",
+                    "name": "Min Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeaa",
+                    "name": "Meng Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeab",
+                    "name": "Xiang Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeac",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aead",
+                    "name": "Wangchunshu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeae",
+                    "user": {
+                        "_id": "65377c30e48353201e6fdda0",
+                        "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+                        "isPro": false,
+                        "fullname": "Jiaheng Liu",
+                        "user": "CheeryLJH",
+                        "type": "user"
+                    },
+                    "name": "Jiaheng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:22.185Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeaf",
+                    "name": "Qunshu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeb0",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7efc26348a1df80a8aeb1",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T17:05:58.000Z",
+            "title": "SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines",
+            "summary": "Large language models (LLMs) have demonstrated remarkable proficiency in\nmainstream academic disciplines such as mathematics, physics, and computer\nscience. However, human knowledge encompasses over 200 specialized disciplines,\nfar exceeding the scope of existing benchmarks. The capabilities of LLMs in\nmany of these specialized fields-particularly in light industry, agriculture,\nand service-oriented disciplines-remain inadequately evaluated. To address this\ngap, we present SuperGPQA, a comprehensive benchmark that evaluates\ngraduate-level knowledge and reasoning capabilities across 285 disciplines. Our\nbenchmark employs a novel Human-LLM collaborative filtering mechanism to\neliminate trivial or ambiguous questions through iterative refinement based on\nboth LLM responses and expert feedback. Our experimental results reveal\nsignificant room for improvement in the performance of current state-of-the-art\nLLMs across diverse knowledge domains (e.g., the reasoning-focused model\nDeepSeek-R1 achieved the highest accuracy of 61.82% on SuperGPQA), highlighting\nthe considerable gap between current model capabilities and artificial general\nintelligence. Additionally, we present comprehensive insights from our\nmanagement of a large-scale annotation process, involving over 80 expert\nannotators and an interactive Human-LLM collaborative system, offering valuable\nmethodological guidance for future research initiatives of comparable scope.",
+            "upvotes": 76,
+            "discussionId": "67b7efc66348a1df80a8afc8"
+        },
+        "translation_title": "SuperGPQA: 285개 대학원 전공에서 LLM 평가 확장",
+        "purpose": "전문 분야에서 LLM의 지식과 추론 능력을 보다 포괄적으로 평가하기 위한 벤치마크 개발",
+        "method": [
+            "285개 전공에서 대학원 수준의 지식과 추론 능력을 평가하는 SuperGPQA라는 벤치마크를 제시함(To address this gap, we present SuperGPQA, a comprehensive benchmark that evaluates graduate-level knowledge and reasoning capabilities across 285 disciplines.)",
+            "Human-LLM 협업 필터링 메커니즘을 활용하여 LLM 응답과 전문가 피드백을 바탕으로 질문을 반복적으로 정제함(Our benchmark employs a novel Human-LLM collaborative filtering mechanism to eliminate trivial or ambiguous questions through iterative refinement based on both LLM responses and expert feedback.)",
+            "현재의 최첨단 LLM의 성능 개선 가능성을 실험 결과를 통해 확인함(Our experimental results reveal significant room for improvement in the performance of current state-of-the-art LLMs across diverse knowledge domains.)"
+        ],
+        "conclusion": "SuperGPQA는 LLM의 여러 지식 분야에서 성능 개선의 여지를 밝히며, 향후 연구에 대한 방법론적 지침을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.14786",
+            "authors": [
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b4",
+                    "user": {
+                        "_id": "6489893e1ec8356ba5bb9777",
+                        "avatarUrl": "/avatars/54354c1e5774cadd1d83d42054e9d96b.svg",
+                        "isPro": false,
+                        "fullname": "Michael Tschannen",
+                        "user": "mitsch",
+                        "type": "user"
+                    },
+                    "name": "Michael Tschannen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:23:44.125Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b5",
+                    "user": {
+                        "_id": "62d8f9887b8dc0ba17271415",
+                        "avatarUrl": "/avatars/12ec78d34fd849bad44217b212f31e98.svg",
+                        "isPro": false,
+                        "fullname": "Alexey Gritsenko",
+                        "user": "AlexeyG",
+                        "type": "user"
+                    },
+                    "name": "Alexey Gritsenko",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:23:50.440Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b6",
+                    "name": "Xiao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b7",
+                    "name": "Muhammad Ferjad Naeem",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b8",
+                    "user": {
+                        "_id": "630545da20668afe24860235",
+                        "avatarUrl": "/avatars/5d82be2e7412bff1af15cc5eafa60b7d.svg",
+                        "isPro": false,
+                        "fullname": "Ibrahim Alabdulmohsin",
+                        "user": "ibomohsin",
+                        "type": "user"
+                    },
+                    "name": "Ibrahim Alabdulmohsin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:24:03.702Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7b9",
+                    "name": "Nikhil Parthasarathy",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7ba",
+                    "user": {
+                        "_id": "66be3074dac7d71326f613cf",
+                        "avatarUrl": "/avatars/012a531aad3eb1a2751bb3c31a619bf5.svg",
+                        "isPro": false,
+                        "fullname": "Talfan Evans",
+                        "user": "talfanevans",
+                        "type": "user"
+                    },
+                    "name": "Talfan Evans",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T10:24:14.273Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7bb",
+                    "user": {
+                        "_id": "642d334ff65714b4585f2de4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642d334ff65714b4585f2de4/gxBynq5KyoUP0VlAQD3-w.jpeg",
+                        "isPro": false,
+                        "fullname": "Lucas Beyer",
+                        "user": "giffmana",
+                        "type": "user"
+                    },
+                    "name": "Lucas Beyer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:44:51.778Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7bc",
+                    "name": "Ye Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7bd",
+                    "user": {
+                        "_id": "63cfcad6e23b90128c66685c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674562206311-noauth.png",
+                        "isPro": false,
+                        "fullname": "Basil Mustafa",
+                        "user": "BasilMustafa",
+                        "type": "user"
+                    },
+                    "name": "Basil Mustafa",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:44:44.933Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7be",
+                    "user": {
+                        "_id": "64f30d8ceb5f2982081db604",
+                        "avatarUrl": "/avatars/eedf65a104d099d8a60bbffe69bc2571.svg",
+                        "isPro": false,
+                        "fullname": "Olivier Henaff",
+                        "user": "olivierhenaff",
+                        "type": "user"
+                    },
+                    "name": "Olivier Hénaff",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:44:38.156Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7bf",
+                    "user": {
+                        "_id": "65d77c0e1e7686c460255fda",
+                        "avatarUrl": "/avatars/1d26a7a7ffdc5ca9e67b97030f21b098.svg",
+                        "isPro": false,
+                        "fullname": "Jeremiah Harmsen",
+                        "user": "jharmsen",
+                        "type": "user"
+                    },
+                    "name": "Jeremiah Harmsen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:44:32.302Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7c0",
+                    "name": "Andreas Steiner",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed0d58f6b70b18dda7c1",
+                    "user": {
+                        "_id": "65dcd90082bddd501f68174b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/M2bc9PyKeFs1cCXjTfGGq.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiaohua Zhai",
+                        "user": "xiaohuazhai",
+                        "type": "user"
+                    },
+                    "name": "Xiaohua Zhai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:44:07.595Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T18:08:29.000Z",
+            "title": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic\n  Understanding, Localization, and Dense Features",
+            "summary": "We introduce SigLIP 2, a family of new multilingual vision-language encoders\nthat build on the success of the original SigLIP. In this second iteration, we\nextend the original image-text training objective with several prior,\nindependently developed techniques into a unified recipe -- this includes\ncaptioning-based pretraining, self-supervised losses (self-distillation, masked\nprediction) and online data curation. With these changes, SigLIP 2 models\noutperform their SigLIP counterparts at all model scales in core capabilities,\nincluding zero-shot classification, image-text retrieval, and transfer\nperformance when extracting visual representations for Vision-Language Models\n(VLMs). Furthermore, the new training recipe leads to significant improvements\non localization and dense prediction tasks. We also train variants which\nsupport multiple resolutions and preserve the input's native aspect ratio.\nFinally, we train on a more diverse data-mixture that includes de-biasing\ntechniques, leading to much better multilingual understanding and improved\nfairness. To allow users to trade off inference cost with performance, we\nrelease model checkpoints at four sizes: ViT-B (86M), L (303M), So400m (400M),\nand g (1B).",
+            "upvotes": 66,
+            "discussionId": "67b7ed0e58f6b70b18dda7f4"
+        },
+        "translation_title": "SigLIP 2: 향상된 의미 이해, 위치 추정 및 밀집 특성을 가진 다국어 비전-언어 인코더",
+        "purpose": "다국어 비전-언어 인코더의 성능을 개선하고, 더 나은 의미 이해 및 공정성을 달성하기 위함.",
+        "method": [
+            "기존의 SigLIP 모델을 기반으로 captioning을 이용한 사전 학습과 self-supervised 손실, 온라인 데이터 큐레이션 기술을 통합하여 새로운 훈련 목표를 개발함(We extend the original image-text training objective with several prior, independently developed techniques into a unified recipe.)",
+            "SigLIP 2 모델은 제로샷 분류, 이미지-텍스트 검색 및 전이 성능 등에서 기존 SigLIP 모델을 초월함(SigLIP 2 models outperform their SigLIP counterparts at all model scales in core capabilities, including zero-shot classification, image-text retrieval, and transfer performance.)",
+            "다양한 해상도를 지원하고 입력의 비율을 유지하는 모델 변형을 훈련함(We also train variants which support multiple resolutions and preserve the input's native aspect ratio.)"
+        ],
+        "conclusion": "SigLIP 2는 다국어 이해와 공정성을 크게 향상시키며, 성능과 추론 비용 간의 균형을 맞출 수 있는 다양한 모델 크기를 제공함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Classification",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.14502",
+            "authors": [
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef3",
+                    "user": {
+                        "_id": "5dfa8e07da6d0311fd3d5430",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651090418656-5dfa8e07da6d0311fd3d5430.png",
+                        "isPro": false,
+                        "fullname": "Sergey Pletenev",
+                        "user": "memyprokotow",
+                        "type": "user"
+                    },
+                    "name": "Sergey Pletenev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:49:33.682Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef4",
+                    "user": {
+                        "_id": "660ee18e2dcd816ad14b3739",
+                        "avatarUrl": "/avatars/a8a56327961e68f65808e63fe9c8e050.svg",
+                        "isPro": false,
+                        "fullname": "Maria Marina",
+                        "user": "zlatamaria",
+                        "type": "user"
+                    },
+                    "name": "Maria Marina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:47.555Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef5",
+                    "user": {
+                        "_id": "61ade264f602880813dbe10b",
+                        "avatarUrl": "/avatars/a92dea7d853bbabbf60b351c207b6875.svg",
+                        "isPro": false,
+                        "fullname": "Daniil Moskovskiy",
+                        "user": "etomoscow",
+                        "type": "user"
+                    },
+                    "name": "Daniil Moskovskiy",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T14:42:49.828Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef6",
+                    "name": "Vasily Konovalov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef7",
+                    "name": "Pavel Braslavski",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef8",
+                    "name": "Alexander Panchenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b83fd69fb3eedaf6d0aef9",
+                    "user": {
+                        "_id": "62bd6c6baaf1480f1aa2222e",
+                        "avatarUrl": "/avatars/fd92ae2986d435a47eb1e382ac11d8e0.svg",
+                        "isPro": false,
+                        "fullname": "Mikhail Salnikov",
+                        "user": "msalnikov",
+                        "type": "user"
+                    },
+                    "name": "Mikhail Salnikov",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-02-21T09:01:04.770Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T12:31:03.000Z",
+            "title": "How Much Knowledge Can You Pack into a LoRA Adapter without Harming LLM?",
+            "summary": "The performance of Large Language Models (LLMs) on many tasks is greatly\nlimited by the knowledge learned during pre-training and stored in the model's\nparameters. Low-rank adaptation (LoRA) is a popular and efficient training\ntechnique for updating or domain-specific adaptation of LLMs. In this study, we\ninvestigate how new facts can be incorporated into the LLM using LoRA without\ncompromising the previously learned knowledge. We fine-tuned\nLlama-3.1-8B-instruct using LoRA with varying amounts of new knowledge. Our\nexperiments have shown that the best results are obtained when the training\ndata contains a mixture of known and new facts. However, this approach is still\npotentially harmful because the model's performance on external\nquestion-answering benchmarks declines after such fine-tuning. When the\ntraining data is biased towards certain entities, the model tends to regress to\nfew overrepresented answers. In addition, we found that the model becomes more\nconfident and refuses to provide an answer in only few cases. These findings\nhighlight the potential pitfalls of LoRA-based LLM updates and underscore the\nimportance of training data composition and tuning parameters to balance new\nknowledge integration and general model capabilities.",
+            "upvotes": 41,
+            "discussionId": "67b83fd79fb3eedaf6d0af16"
+        },
+        "translation_title": "LLM에 LoRA 어댑터를 추가할 때 얼마나 많은 지식을 담을 수 있을까?",
+        "purpose": "LoRA를 사용하여 LLM에 새로운 사실을 통합하되, 기존 지식을 해치지 않으려는 목표.",
+        "method": [
+            "LoRA를 사용하여 Llama-3.1-8B-instruct를 다양한 양의 새로운 지식으로 미세 조정함(We fine-tuned Llama-3.1-8B-instruct using LoRA with varying amounts of new knowledge.)",
+            "훈련 데이터에 기존 사실과 새로운 사실의 혼합을 포함했을 때 가장 좋은 결과를 얻음(Our experiments have shown that the best results are obtained when the training data contains a mixture of known and new facts.)",
+            "그러나 특정 개체에 대해 편향된 훈련 데이터를 사용할 경우 모델 성능이 저하되고, 과도하게 대표된 답변으로 회귀하는 경향이 있음을 발견함(When the training data is biased towards certain entities, the model tends to regress to few overrepresented answers.)"
+        ],
+        "conclusion": "이 연구는 LoRA 기반 LLM 업데이트의 잠재적인 함정을 보여주며, 새로운 지식 통합과 일반 모델 능력 간 균형을 맞추기 위해 훈련 데이터 구성과 튜닝 매개변수의 중요성을 강조함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.14382",
+            "authors": [
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4bc",
+                    "user": {
+                        "_id": "63715b25ffc0489ed7d1f415",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63715b25ffc0489ed7d1f415/xZJepbs0LRqFbW1knnBKR.jpeg",
+                        "isPro": false,
+                        "fullname": "Dacheng Li",
+                        "user": "DachengLi",
+                        "type": "user"
+                    },
+                    "name": "Dacheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:13.558Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4bd",
+                    "user": {
+                        "_id": "64ebbae6895a36ab28de811a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ebbae6895a36ab28de811a/gBiaQP4paS4L13eu-yRm7.jpeg",
+                        "isPro": false,
+                        "fullname": "Shiyi Cao",
+                        "user": "eva98",
+                        "type": "user"
+                    },
+                    "name": "Shiyi Cao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:58:43.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4be",
+                    "name": "Chengkun Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4bf",
+                    "user": {
+                        "_id": "644570ba2d91b15b4c7f6311",
+                        "avatarUrl": "/avatars/d5e66012066d0c330b8f23718b1499d8.svg",
+                        "isPro": false,
+                        "fullname": "Xiuyu Li",
+                        "user": "xiuyul",
+                        "type": "user"
+                    },
+                    "name": "Xiuyu Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:28.150Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4c0",
+                    "user": {
+                        "_id": "663cfbd9b0f659de3db65c1a",
+                        "avatarUrl": "/avatars/b7d82d281026ee04a9932b44a770b840.svg",
+                        "isPro": false,
+                        "fullname": "Shangyin Tan",
+                        "user": "shangyint",
+                        "type": "user"
+                    },
+                    "name": "Shangyin Tan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:33.730Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4c1",
+                    "user": {
+                        "_id": "6251bf4b183aa4266924ad91",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678041834400-6251bf4b183aa4266924ad91.jpeg",
+                        "isPro": true,
+                        "fullname": "Kurt Keutzer",
+                        "user": "kurtkeutzer",
+                        "type": "user"
+                    },
+                    "name": "Kurt Keutzer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:39.902Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4c2",
+                    "user": {
+                        "_id": "66ff8aa43a31c499dc48fdd6",
+                        "avatarUrl": "/avatars/060dc90fb13991bd013ce8173f12ae3e.svg",
+                        "isPro": false,
+                        "fullname": "Jiarong Xing",
+                        "user": "JerryPotter",
+                        "type": "user"
+                    },
+                    "name": "Jiarong Xing",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:45.774Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4c3",
+                    "user": {
+                        "_id": "645d2e8401f4eaab2a0878ce",
+                        "avatarUrl": "/avatars/1273c5fb607b4b622a746a42692fa632.svg",
+                        "isPro": false,
+                        "fullname": "Joseph E. Gonzalez",
+                        "user": "ProfJoeyG",
+                        "type": "user"
+                    },
+                    "name": "Joseph E. Gonzalez",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-21T14:45:52.578Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ed3e58f6b70b18ddb4c4",
+                    "name": "Ion Stoica",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T09:18:53.000Z",
+            "title": "S*: Test Time Scaling for Code Generation",
+            "summary": "Increasing test-time compute for LLMs shows promise across domains but\nremains underexplored in code generation, despite extensive study in math. In\nthis paper, we propose S*, the first hybrid test-time scaling framework that\nsubstantially improves the coverage and selection accuracy of generated code.\nS* extends the existing parallel scaling paradigm with sequential scaling to\npush performance boundaries. It further leverages a novel selection mechanism\nthat adaptively generates distinguishing inputs for pairwise comparison,\ncombined with execution-grounded information to robustly identify correct\nsolutions. We evaluate across 12 Large Language Models and Large Reasoning\nModel and show: (1) S* consistently improves performance across model families\nand sizes, enabling a 3B model to outperform GPT-4o-mini; (2) S* enables\nnon-reasoning models to surpass reasoning models - GPT-4o-mini with S*\noutperforms o1-preview by 3.7% on LiveCodeBench; (3) S* further boosts\nstate-of-the-art reasoning models - DeepSeek-R1-Distill-Qwen-32B with S*\nachieves 85.7% on LiveCodeBench, approaching o1 (high) at 88.5%. Code will be\navailable under https://github.com/NovaSky-AI/SkyThought.",
+            "upvotes": 33,
+            "discussionId": "67b7ed3f58f6b70b18ddb510"
+        },
+        "translation_title": "S*: 코드 생성을 위한 테스트 시간 스케일링",
+        "purpose": "코드 생성 분야에서 LLM의 테스트 시간 계산 증가를 통해 성능을 향상시키기 위한 연구",
+        "method": [
+            "S*라는 하이브리드 테스트 시간 스케일링 프레임워크를 제안하여 생성된 코드의 범위와 선택 정확도를 개선함.(we propose S*, the first hybrid test-time scaling framework that substantially improves the coverage and selection accuracy of generated code.)",
+            "기존의 병렬 스케일링 패러다임을 확장하여 순차적 스케일링을 도입함.(S* extends the existing parallel scaling paradigm with sequential scaling to push performance boundaries.)",
+            "쌍 대비 비교를 위한 구별 입력을 적응적으로 생성하는 새로운 선택 메커니즘을 활용함.(It further leverages a novel selection mechanism that adaptively generates distinguishing inputs for pairwise comparison.)"
+        ],
+        "conclusion": "S*는 다양한 LLM과 대형 추론 모델에서 성능을 지속적으로 개선하여 GPT-4o-mini보다 우수한 성능을 보이며, 비추론 모델이 추론 모델을 초월하는 결과를 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    }
+]
