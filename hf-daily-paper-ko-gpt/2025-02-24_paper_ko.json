@@ -1,0 +1,522 @@
+[
+    {
+        "paper": {
+            "id": "2502.14776",
+            "authors": [
+                {
+                    "_id": "67bbdb46d94d32bcfba70db7",
+                    "name": "Xun Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70db8",
+                    "user": {
+                        "_id": "669e60ee8580d17cb60f8347",
+                        "avatarUrl": "/avatars/37963b833228afe39cc24854c9326670.svg",
+                        "isPro": false,
+                        "fullname": "yang jiawei",
+                        "user": "Dany-0",
+                        "type": "user"
+                    },
+                    "name": "Jiawei Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-24T13:05:10.864Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70db9",
+                    "user": {
+                        "_id": "662dd19f9e6d371ab71b91ce",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662dd19f9e6d371ab71b91ce/mZBPw_Zs8ZlEFGlbekAoH.jpeg",
+                        "isPro": false,
+                        "fullname": "Yezhaohui Wang",
+                        "user": "HaruTeru",
+                        "type": "user"
+                    },
+                    "name": "Yezhaohui Wang",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-02-24T04:12:46.485Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dba",
+                    "user": {
+                        "_id": "615a0d48b89c239e75b2b019",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1633291509590-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Travis Tang",
+                        "user": "tangg555",
+                        "type": "user"
+                    },
+                    "name": "Chen Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-24T13:05:12.859Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dbb",
+                    "user": {
+                        "_id": "656f47ba2f058b368c0b1611",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656f47ba2f058b368c0b1611/mrmcmA8bxaDNUhuJQQ7T1.png",
+                        "isPro": false,
+                        "fullname": "Zifan Zheng",
+                        "user": "fan2goa1",
+                        "type": "user"
+                    },
+                    "name": "Zifan Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-24T09:07:22.303Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dbc",
+                    "user": {
+                        "_id": "66daea8776dbaaa372eabec5",
+                        "avatarUrl": "/avatars/1e5fbe4ff06bb6121c7029253b76b79f.svg",
+                        "isPro": false,
+                        "fullname": "siminniu",
+                        "user": "siminniu",
+                        "type": "user"
+                    },
+                    "name": "Simin Niu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T11:55:35.171Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dbd",
+                    "user": {
+                        "_id": "656f339a5273668d5b946b33",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656f339a5273668d5b946b33/o2nBvQiOKKP5IfDmnpHP2.jpeg",
+                        "isPro": false,
+                        "fullname": "Shichao Song",
+                        "user": "Ki-Seki",
+                        "type": "user"
+                    },
+                    "name": "Shichao Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T11:55:41.788Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dbe",
+                    "user": {
+                        "_id": "669e0b93c7cb0568dac6e92e",
+                        "avatarUrl": "/avatars/a39ea77d7391f164af8a80f94f85f2ca.svg",
+                        "isPro": false,
+                        "fullname": "hanyu Wang",
+                        "user": "UglyToilet",
+                        "type": "user"
+                    },
+                    "name": "Hanyu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-24T09:07:20.146Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dbf",
+                    "name": "Bo Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dc0",
+                    "name": "Feiyu Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dc1",
+                    "name": "Keming Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbdb46d94d32bcfba70dc2",
+                    "name": "Zhiyu li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T17:59:45.000Z",
+            "title": "SurveyX: Academic Survey Automation via Large Language Models",
+            "summary": "Large Language Models (LLMs) have demonstrated exceptional comprehension\ncapabilities and a vast knowledge base, suggesting that LLMs can serve as\nefficient tools for automated survey generation. However, recent research\nrelated to automated survey generation remains constrained by some critical\nlimitations like finite context window, lack of in-depth content discussion,\nand absence of systematic evaluation frameworks. Inspired by human writing\nprocesses, we propose SurveyX, an efficient and organized system for automated\nsurvey generation that decomposes the survey composing process into two phases:\nthe Preparation and Generation phases. By innovatively introducing online\nreference retrieval, a pre-processing method called AttributeTree, and a\nre-polishing process, SurveyX significantly enhances the efficacy of survey\ncomposition. Experimental evaluation results show that SurveyX outperforms\nexisting automated survey generation systems in content quality (0.259\nimprovement) and citation quality (1.76 enhancement), approaching human expert\nperformance across multiple evaluation dimensions. Examples of surveys\ngenerated by SurveyX are available on www.surveyx.cn",
+            "upvotes": 69,
+            "discussionId": "67bbdb47d94d32bcfba70df3"
+        },
+        "translation_title": "SurveyX: 대규모 언어 모델을 활용한 자동 학술 조사 시스템",
+        "purpose": "자동 설문 조사 생성의 효율성을 높이기 위해 체계적이고 조직적인 접근법 제안",
+        "method": [
+            "설문 조사 작성 과정을 준비 및 생성 두 단계로 분해함(we propose SurveyX, an efficient and organized system for automated survey generation that decomposes the survey composing process into two phases: the Preparation and Generation phases.)",
+            "온라인 참조 검색, AttributeTree라는 전처리 방법, 재다듬기 프로세스를 도입함(we innovatively introduce online reference retrieval, a pre-processing method called AttributeTree, and a re-polishing process.)",
+            "실험 평가를 통해 SurveyX가 기존 시스템보다 내용의 질(0.259 개선)과 인용의 질(1.76 향상)에서 우수한 성능을 발휘함(Experimental evaluation results show that SurveyX outperforms existing automated survey generation systems in content quality (0.259 improvement) and citation quality (1.76 enhancement).)"
+        ],
+        "conclusion": "SurveyX는 기존 자동 설문 조사 시스템보다 뛰어난 성능을 보여주며, 인간 전문가에 근접한 결과를 얻음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.11663",
+            "authors": [
+                {
+                    "_id": "67b705d2ebee4662205c47f7",
+                    "user": {
+                        "_id": "65d444b1ea28ba508b87ab01",
+                        "avatarUrl": "/avatars/5836c0d64ba3936e064faa8ff4d44de0.svg",
+                        "isPro": false,
+                        "fullname": "Jingcheng Ni",
+                        "user": "kiranjc",
+                        "type": "user"
+                    },
+                    "name": "Jingcheng Ni",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:06:17.841Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b705d2ebee4662205c47f8",
+                    "name": "Yuxin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b705d2ebee4662205c47f9",
+                    "user": {
+                        "_id": "6572dcc6bbd6664053b1fa6b",
+                        "avatarUrl": "/avatars/aba29efd00bc41f14ce422f7807cd2c3.svg",
+                        "isPro": false,
+                        "fullname": "Liu Yichen",
+                        "user": "lyclyc52",
+                        "type": "user"
+                    },
+                    "name": "Yichen Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-24T09:23:40.466Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b705d2ebee4662205c47fa",
+                    "name": "Rui Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b705d2ebee4662205c47fb",
+                    "user": {
+                        "_id": "65ead3ea908526a39082e641",
+                        "avatarUrl": "/avatars/dcf870695fd56b06ca03d82f831e9019.svg",
+                        "isPro": false,
+                        "fullname": "Lewei Lu",
+                        "user": "luotto",
+                        "type": "user"
+                    },
+                    "name": "Lewei Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:06:46.453Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b705d2ebee4662205c47fc",
+                    "user": {
+                        "_id": "65717368be66cd9b65a8201c",
+                        "avatarUrl": "/avatars/fe945828eec9ded4cfa3b89d48a64d90.svg",
+                        "isPro": false,
+                        "fullname": "Wu Zehuan",
+                        "user": "wzhgba",
+                        "type": "user"
+                    },
+                    "name": "Zehuan Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:59:38.956Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-17T10:53:56.000Z",
+            "title": "MaskGWM: A Generalizable Driving World Model with Video Mask\n  Reconstruction",
+            "summary": "World models that forecast environmental changes from actions are vital for\nautonomous driving models with strong generalization. The prevailing driving\nworld model mainly build on video prediction model. Although these models can\nproduce high-fidelity video sequences with advanced diffusion-based generator,\nthey are constrained by their predictive duration and overall generalization\ncapabilities. In this paper, we explore to solve this problem by combining\ngeneration loss with MAE-style feature-level context learning. In particular,\nwe instantiate this target with three key design: (1) A more scalable Diffusion\nTransformer (DiT) structure trained with extra mask construction task. (2) we\ndevise diffusion-related mask tokens to deal with the fuzzy relations between\nmask reconstruction and generative diffusion process. (3) we extend mask\nconstruction task to spatial-temporal domain by utilizing row-wise mask for\nshifted self-attention rather than masked self-attention in MAE. Then, we adopt\na row-wise cross-view module to align with this mask design. Based on above\nimprovement, we propose MaskGWM: a Generalizable driving World Model embodied\nwith Video Mask reconstruction. Our model contains two variants: MaskGWM-long,\nfocusing on long-horizon prediction, and MaskGWM-mview, dedicated to multi-view\ngeneration. Comprehensive experiments on standard benchmarks validate the\neffectiveness of the proposed method, which contain normal validation of\nNuscene dataset, long-horizon rollout of OpenDV-2K dataset and zero-shot\nvalidation of Waymo dataset. Quantitative metrics on these datasets show our\nmethod notably improving state-of-the-art driving world model.",
+            "upvotes": 36,
+            "discussionId": "67b705d4ebee4662205c489c"
+        },
+        "translation_title": "MaskGWM: 비디오 마스크 재구성을 통한 일반화 가능한 주행 세계 모델",
+        "purpose": "자율 주행 모델의 강력한 일반화를 위한 환경 변화 예측을 해결하고자 함.",
+        "method": [
+            "생성 손실과 MAE 스타일의 특성 수준 컨텍스트 학습을 결합하여 문제를 해결하고자 함(In this paper, we explore to solve this problem by combining generation loss with MAE-style feature-level context learning.)",
+            "확장된 마스크 구축 작업으로 훈련된 더욱 확장 가능한 Diffusion Transformer(DiT) 구조를 구현함.(A more scalable Diffusion Transformer (DiT) structure trained with extra mask construction task.)",
+            "마스크 재구성과 생성적 확산 과정 간의 모호한 관계를 다루기 위해 확산 관련 마스크 토큰을 설계함.(we devise diffusion-related mask tokens to deal with the fuzzy relations between mask reconstruction and generative diffusion process.)"
+        ],
+        "conclusion": "MaskGWM은 비디오 마스크 재구성을 구현하여 자율 주행 세계 모델에서 최첨단 성능을 개선함.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.15007",
+            "authors": [
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc70",
+                    "user": {
+                        "_id": "6172aaeec8e66e2aa84c06b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6172aaeec8e66e2aa84c06b9/ZdRZSp3P1SU6CIDbvQwkv.jpeg",
+                        "isPro": false,
+                        "fullname": "Anton Razzhigaev",
+                        "user": "razzant",
+                        "type": "user"
+                    },
+                    "name": "Anton Razzhigaev",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:11:53.576Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc71",
+                    "user": {
+                        "_id": "64ee45a944f4b3b1bccc02d1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ee45a944f4b3b1bccc02d1/SoidO9HQ4mftzbUPtuBBf.png",
+                        "isPro": false,
+                        "fullname": "Matvey Mikhalchuk",
+                        "user": "matveymih",
+                        "type": "user"
+                    },
+                    "name": "Matvey Mikhalchuk",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:11:58.863Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc72",
+                    "name": "Temurbek Rahmatullaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc73",
+                    "user": {
+                        "_id": "6310ff34bc152fa3e810c186",
+                        "avatarUrl": "/avatars/bfd63bcd81548283f5e496e3693bf143.svg",
+                        "isPro": false,
+                        "fullname": "Elizaveta Goncharova",
+                        "user": "Elizaveta",
+                        "type": "user"
+                    },
+                    "name": "Elizaveta Goncharova",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:12:27.998Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc74",
+                    "user": {
+                        "_id": "65d5e094cd05bc1eaa0fafc9",
+                        "avatarUrl": "/avatars/ea3d52def6ef4d9af07728a76a499a9f.svg",
+                        "isPro": false,
+                        "fullname": "Polina Druzhinina",
+                        "user": "plina2polina",
+                        "type": "user"
+                    },
+                    "name": "Polina Druzhinina",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:12:33.837Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc75",
+                    "user": {
+                        "_id": "6169a581d05945bfd8718dfa",
+                        "avatarUrl": "/avatars/1892ab06a7ddb557232777de3cbec470.svg",
+                        "isPro": false,
+                        "fullname": "Ivan Oseledets",
+                        "user": "oseledets",
+                        "type": "user"
+                    },
+                    "name": "Ivan Oseledets",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:12:40.295Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bc1a4a72499ce2ba28cc76",
+                    "name": "Andrey Kuznetsov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T19:59:35.000Z",
+            "title": "LLM-Microscope: Uncovering the Hidden Role of Punctuation in Context\n  Memory of Transformers",
+            "summary": "We introduce methods to quantify how Large Language Models (LLMs) encode and\nstore contextual information, revealing that tokens often seen as minor (e.g.,\ndeterminers, punctuation) carry surprisingly high context. Notably, removing\nthese tokens -- especially stopwords, articles, and commas -- consistently\ndegrades performance on MMLU and BABILong-4k, even if removing only irrelevant\ntokens. Our analysis also shows a strong correlation between contextualization\nand linearity, where linearity measures how closely the transformation from one\nlayer's embeddings to the next can be approximated by a single linear mapping.\nThese findings underscore the hidden importance of filler tokens in maintaining\ncontext. For further exploration, we present LLM-Microscope, an open-source\ntoolkit that assesses token-level nonlinearity, evaluates contextual memory,\nvisualizes intermediate layer contributions (via an adapted Logit Lens), and\nmeasures the intrinsic dimensionality of representations. This toolkit\nilluminates how seemingly trivial tokens can be critical for long-range\nunderstanding.",
+            "upvotes": 35,
+            "discussionId": "67bc1a4c72499ce2ba28cd49"
+        },
+        "translation_title": "LLM-Microscope: 문맥에서 구두점의 숨은 역할 밝히기",
+        "purpose": "Large Language Models가 문맥 정보를 어떻게 인코딩하고 저장하는지를 정량화하여, 작은 토큰들이 가진 문맥의 중요성을 밝혀내기 위함.",
+        "method": [
+            "구두점 및 불필요한 단어를 제거하는 것이 MMLU와 BABILong-4k 성능에 미치는 영향을 분석함(our analysis also shows a strong correlation between contextualization and linearity).",
+            "LLM-Microscope라는 오픈소스 툴킷을 개발하여, 토큰 수준의 비선형성 평가, 문맥 메모리 분석, 중간 층의 기여 시각화 등을 수행함(this toolkit illuminates how seemingly trivial tokens can be critical for long-range understanding).",
+            "변환 과정의 선형성을 측정하여, 문맥 유지에 있어 작은 토큰들의 중요성을 강조함(these findings underscore the hidden importance of filler tokens in maintaining context)."
+        ],
+        "conclusion": "구두점과 불필요한 단어가 문맥 유지에 필수적이라는 것을 발견했으며, LLM-Microscope는 이러한 연구를 위한 유용한 도구로 자리 잡을 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.13449",
+            "authors": [
+                {
+                    "_id": "67b7ceae3e8a45f770b2606e",
+                    "user": {
+                        "_id": "65633c5e84a9fbe322f87d81",
+                        "avatarUrl": "/avatars/7233a555b43c669847a950ce5697c92c.svg",
+                        "isPro": false,
+                        "fullname": "DongkiKim",
+                        "user": "DongkiKim",
+                        "type": "user"
+                    },
+                    "name": "Dongki Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-21T09:59:11.214Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ceae3e8a45f770b2606f",
+                    "user": {
+                        "_id": "66d812997e6c9509bb15fac2",
+                        "avatarUrl": "/avatars/baf0e384a864de47bfd989aebe62c357.svg",
+                        "isPro": false,
+                        "fullname": "Wonbin Lee",
+                        "user": "WonbinLee067",
+                        "type": "user"
+                    },
+                    "name": "Wonbin Lee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:09:46.291Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67b7ceae3e8a45f770b26070",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-19T05:49:10.000Z",
+            "title": "Mol-LLaMA: Towards General Understanding of Molecules in Large Molecular\n  Language Model",
+            "summary": "Understanding molecules is key to understanding organisms and driving\nadvances in drug discovery, requiring interdisciplinary knowledge across\nchemistry and biology. Although large molecular language models have achieved\nnotable success in interpreting molecular structures, their instruction\ndatasets are limited to the specific knowledge from task-oriented datasets and\ndo not fully cover the fundamental characteristics of molecules, hindering\ntheir abilities as general-purpose molecular assistants. To address this issue,\nwe propose Mol-LLaMA, a large molecular language model that grasps the general\nknowledge centered on molecules via multi-modal instruction tuning. To this\nend, we design key data types that encompass the fundamental features of\nmolecules, incorporating essential knowledge from molecular structures. In\naddition, to improve understanding of molecular features, we introduce a module\nthat integrates complementary information from different molecular encoders,\nleveraging the distinct advantages of different molecular representations. Our\nexperimental results demonstrate that Mol-LLaMA is capable of comprehending the\ngeneral features of molecules and generating relevant responses to users'\nqueries with detailed explanations, implying its potential as a general-purpose\nassistant for molecular analysis.",
+            "upvotes": 31,
+            "discussionId": "67b7ceae3e8a45f770b2609f"
+        },
+        "translation_title": "Mol-LLaMA: 대규모 분자 언어 모델을 통한 분자의 일반 이해",
+        "purpose": "분자의 일반적인 지식을 이해하고 이를 바탕으로 분자 분석을 지원하는 모델 개발",
+        "method": [
+            "멀티모달 instruction tuning을 통해 분자 중심의 일반 지식을 학습하도록 설계함(To address this issue, we propose Mol-LLaMA, a large molecular language model that grasps the general knowledge centered on molecules via multi-modal instruction tuning.)",
+            "분자의 기본 특징을 포괄하는 주요 데이터 유형을 설계하여 분자 구조에 대한 필수 지식을 통합함(In addition, to improve understanding of molecular features, we introduce a module that integrates complementary information from different molecular encoders, leveraging the distinct advantages of different molecular representations.)",
+            "다양한 분자 인코더로부터의 보완 정보를 통합하는 모듈을 도입하여 분자 특성에 대한 이해를 향상시킴."
+        ],
+        "conclusion": "Mol-LLaMA는 분자의 일반적인 특징을 이해하고 사용자 쿼리에 대해 상세한 설명과 함께 적절한 응답을 생성하는 능력을 가지고 있으며, 이는 분자 분석을 위한 일반적인 어시스턴트로서의 잠재력을 인지하게 함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.14397",
+            "authors": [
+                {
+                    "_id": "67bbed806f2833ecccf914dd",
+                    "user": {
+                        "_id": "6239ad42cddfae177174bdc5",
+                        "avatarUrl": "/avatars/badc07ff40d9790527b27d87c924e9ee.svg",
+                        "isPro": false,
+                        "fullname": "Shijie Huang",
+                        "user": "Humor",
+                        "type": "user"
+                    },
+                    "name": "Shijie Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:13:17.369Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914de",
+                    "user": {
+                        "_id": "64311a95034ecbefddd141ef",
+                        "avatarUrl": "/avatars/b6dc5ca373bedbaa368208517954c375.svg",
+                        "isPro": true,
+                        "fullname": "Yiren Song",
+                        "user": "yiren98",
+                        "type": "user"
+                    },
+                    "name": "Yiren Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:13:23.453Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914df",
+                    "name": "Yuxuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914e0",
+                    "name": "Hailong Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914e1",
+                    "user": {
+                        "_id": "65fd9853b329ebf2d40e280a",
+                        "avatarUrl": "/avatars/053e96c4db138cc8948c6350b04617b9.svg",
+                        "isPro": false,
+                        "fullname": "Wang Xueying",
+                        "user": "Forever-rover",
+                        "type": "user"
+                    },
+                    "name": "Xueyin Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:17:06.041Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914e2",
+                    "user": {
+                        "_id": "661ab3da2b14565c7acccf5c",
+                        "avatarUrl": "/avatars/fa4fc03664803e02aede4d4c3d50b393.svg",
+                        "isPro": false,
+                        "fullname": "Mike Zheng Shou",
+                        "user": "AnalMom",
+                        "type": "user"
+                    },
+                    "name": "Mike Zheng Shou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-24T13:17:12.124Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bbed806f2833ecccf914e3",
+                    "name": "Jiaming Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-20T09:35:38.000Z",
+            "title": "PhotoDoodle: Learning Artistic Image Editing from Few-Shot Pairwise Data",
+            "summary": "We introduce PhotoDoodle, a novel image editing framework designed to\nfacilitate photo doodling by enabling artists to overlay decorative elements\nonto photographs. Photo doodling is challenging because the inserted elements\nmust appear seamlessly integrated with the background, requiring realistic\nblending, perspective alignment, and contextual coherence. Additionally, the\nbackground must be preserved without distortion, and the artist's unique style\nmust be captured efficiently from limited training data. These requirements are\nnot addressed by previous methods that primarily focus on global style transfer\nor regional inpainting. The proposed method, PhotoDoodle, employs a two-stage\ntraining strategy. Initially, we train a general-purpose image editing model,\nOmniEditor, using large-scale data. Subsequently, we fine-tune this model with\nEditLoRA using a small, artist-curated dataset of before-and-after image pairs\nto capture distinct editing styles and techniques. To enhance consistency in\nthe generated results, we introduce a positional encoding reuse mechanism.\nAdditionally, we release a PhotoDoodle dataset featuring six high-quality\nstyles. Extensive experiments demonstrate the advanced performance and\nrobustness of our method in customized image editing, opening new possibilities\nfor artistic creation.",
+            "upvotes": 29,
+            "discussionId": "67bbed856f2833ecccf915c5"
+        },
+        "translation_title": "PhotoDoodle: 적은 샷의 쌍 데이터를 이용한 예술적 이미지 편집 학습",
+        "purpose": "예술가가 사진에 장식 요소를 원활히 덧붙일 수 있도록 간편한 이미지 편집 프레임워크 개발",
+        "method": [
+            "사진의 배경과 잘 맞아떨어지는 장식 요소를 삽입하기 위한 두 단계의 훈련 전략을 사용함(Initially, we train a general-purpose image editing model, OmniEditor, using large-scale data.)",
+            "작가가 curated한 소규모 데이터셋을 활용해 모델을 미세 조정하여 개별적인 편집 스타일을 캡처함(Then, we fine-tune this model with EditLoRA using a small, artist-curated dataset of before-and-after image pairs to capture distinct editing styles and techniques.)",
+            "생성 결과의 일관성을 높이기 위해 위치 인코딩 재사용 메커니즘을 도입함(To enhance consistency in the generated results, we introduce a positional encoding reuse mechanism.)"
+        ],
+        "conclusion": "PhotoDoodle 방법을 통해 사용자 맞춤형 이미지 편집에서 뛰어난 성능과 견고성을 보여주어 예술 창작의 새로운 가능성을 열어줌.",
+        "keywords": [
+            "Image Generation",
+            "Image Editing",
+            "Multimodal Learning"
+        ]
+    }
+]
