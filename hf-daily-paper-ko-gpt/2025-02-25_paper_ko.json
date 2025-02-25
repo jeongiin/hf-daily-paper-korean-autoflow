@@ -1,0 +1,487 @@
+[
+    {
+        "paper": {
+            "id": "2502.17129",
+            "authors": [
+                {
+                    "_id": "67bd37cb0d41e01cca99aa8b",
+                    "user": {
+                        "_id": "64f033ef82c6eea604c4da8b",
+                        "avatarUrl": "/avatars/51b93fea7fd68b4274ee03701245dcca.svg",
+                        "isPro": false,
+                        "fullname": "Liu Xiaoran",
+                        "user": "LiuXR",
+                        "type": "user"
+                    },
+                    "name": "Xiaoran Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:40:07.298Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa8c",
+                    "name": "Ruixiao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa8d",
+                    "name": "Mianqiu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa8e",
+                    "name": "Zhigeng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa8f",
+                    "name": "Yuerong Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa90",
+                    "user": {
+                        "_id": "6491cd52b1e5d3444528edb1",
+                        "avatarUrl": "/avatars/a85635d886c7f157b6723dec5c01c030.svg",
+                        "isPro": false,
+                        "fullname": "Qipeng Guo",
+                        "user": "QipengGuo",
+                        "type": "user"
+                    },
+                    "name": "Qipeng Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-25T15:15:13.798Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa91",
+                    "user": {
+                        "_id": "6380041df6d1901fcaafb3d2",
+                        "avatarUrl": "/avatars/c1ff5b80e5251ac5de7f32f7dd596fb1.svg",
+                        "isPro": false,
+                        "fullname": "Siyang He",
+                        "user": "decaf12",
+                        "type": "user"
+                    },
+                    "name": "Siyang He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-25T15:15:07.305Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa92",
+                    "name": "Qiqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa93",
+                    "name": "Linlin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa94",
+                    "name": "Qun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa95",
+                    "name": "Yaqian Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa96",
+                    "name": "Xuanjing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd37cb0d41e01cca99aa97",
+                    "user": {
+                        "_id": "61457b8deff2c9fdb4de4988",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1632381702899-61457b8deff2c9fdb4de4988.jpeg",
+                        "isPro": false,
+                        "fullname": "Xipeng Qiu",
+                        "user": "xpqiu",
+                        "type": "user"
+                    },
+                    "name": "Xipeng Qiu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-25T15:12:06.360Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-24T13:19:33.000Z",
+            "title": "Thus Spake Long-Context Large Language Model",
+            "summary": "Long context is an important topic in Natural Language Processing (NLP),\nrunning through the development of NLP architectures, and offers immense\nopportunities for Large Language Models (LLMs) giving LLMs the lifelong\nlearning potential akin to humans. Unfortunately, the pursuit of a long context\nis accompanied by numerous obstacles. Nevertheless, long context remains a core\ncompetitive advantage for LLMs. In the past two years, the context length of\nLLMs has achieved a breakthrough extension to millions of tokens. Moreover, the\nresearch on long-context LLMs has expanded from length extrapolation to a\ncomprehensive focus on architecture, infrastructure, training, and evaluation\ntechnologies.\n  Inspired by the symphonic poem, Thus Spake Zarathustra, we draw an analogy\nbetween the journey of extending the context of LLM and the attempts of humans\nto transcend its mortality. In this survey, We will illustrate how LLM\nstruggles between the tremendous need for a longer context and its equal need\nto accept the fact that it is ultimately finite. To achieve this, we give a\nglobal picture of the lifecycle of long-context LLMs from four perspectives:\narchitecture, infrastructure, training, and evaluation, showcasing the full\nspectrum of long-context technologies. At the end of this survey, we will\npresent 10 unanswered questions currently faced by long-context LLMs. We hope\nthis survey can serve as a systematic introduction to the research on\nlong-context LLMs.",
+            "upvotes": 45,
+            "discussionId": "67bd37cc0d41e01cca99ab1e"
+        },
+        "translation_title": "길고 긴 맥락의 대형 언어 모델",
+        "purpose": "대형 언어 모델에서 긴 맥락 연구의 필요성과 연구 현황을 정리하고, 앞으로의 방향성을 제시하기 위함",
+        "method": [
+            "대형 언어 모델의 긴 맥락을 확장하는 과정과 인프라, 교육, 평가 기술을 네 가지 관점에서 조망함(To achieve this, we give a global picture of the lifecycle of long-context LLMs from four perspectives: architecture, infrastructure, training, and evaluation.)",
+            "최근 2년간 LLM의 맥락 길이가 수백만 개의 토큰으로 연장된 성과를 설명함(In the past two years, the context length of LLMs has achieved a breakthrough extension to millions of tokens.)",
+            "현재 긴 맥락 LLM이 직면한 10가지 미해결 질문을 제시함(At the end of this survey, we will present 10 unanswered questions currently faced by long-context LLMs.)"
+        ],
+        "conclusion": "이 조사를 통해 긴 맥락 LLM에 대한 체계적인 소개를 제공하며, 연구자들에게 향후 연구 방향에 대해 고민할 기회를 마련하고자 함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Training"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.17258",
+            "authors": [
+                {
+                    "_id": "67bd515c0417e7f92283d3b8",
+                    "name": "Xiangpeng Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd515c0417e7f92283d3b9",
+                    "user": {
+                        "_id": "63521e1dfe367c0d9b155007",
+                        "avatarUrl": "/avatars/b22804fc63b507fd60191486b17cdf7c.svg",
+                        "isPro": false,
+                        "fullname": "Linchao Zhu",
+                        "user": "ffmpbgrnn",
+                        "type": "user"
+                    },
+                    "name": "Linchao Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-25T15:16:07.044Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd515c0417e7f92283d3ba",
+                    "user": {
+                        "_id": "64ad04020fb9b20dbabbd30e",
+                        "avatarUrl": "/avatars/a6bae4a3a4bcd6b54c33860fe14c7923.svg",
+                        "isPro": false,
+                        "fullname": "Hehe Fan",
+                        "user": "hehefan",
+                        "type": "user"
+                    },
+                    "name": "Hehe Fan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-25T15:16:12.884Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd515c0417e7f92283d3bb",
+                    "name": "Yi Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-24T15:39:14.000Z",
+            "title": "VideoGrain: Modulating Space-Time Attention for Multi-grained Video\n  Editing",
+            "summary": "Recent advancements in diffusion models have significantly improved video\ngeneration and editing capabilities. However, multi-grained video editing,\nwhich encompasses class-level, instance-level, and part-level modifications,\nremains a formidable challenge. The major difficulties in multi-grained editing\ninclude semantic misalignment of text-to-region control and feature coupling\nwithin the diffusion model. To address these difficulties, we present\nVideoGrain, a zero-shot approach that modulates space-time (cross- and self-)\nattention mechanisms to achieve fine-grained control over video content. We\nenhance text-to-region control by amplifying each local prompt's attention to\nits corresponding spatial-disentangled region while minimizing interactions\nwith irrelevant areas in cross-attention. Additionally, we improve feature\nseparation by increasing intra-region awareness and reducing inter-region\ninterference in self-attention. Extensive experiments demonstrate our method\nachieves state-of-the-art performance in real-world scenarios. Our code, data,\nand demos are available at https://knightyxp.github.io/VideoGrain_project_page/",
+            "upvotes": 40,
+            "discussionId": "67bd51620417e7f92283d4e9"
+        },
+        "translation_title": "VideoGrain: 다중 표적 비디오 편집을 위한 시공간 주의력 조정",
+        "purpose": "다중 표적 비디오 편집의 어려움을 덜어주고, 더 세밀한 비디오 편집을 가능하게 하는 방법 개발",
+        "method": [
+            "시공간 주의력 메커니즘을 조정하여 비디오 콘텐츠에 대한 세밀한 제어를 이룰 수 있는 제로샷 접근법 제시(VideoGrain, a zero-shot approach that modulates space-time attention mechanisms to achieve fine-grained control over video content)",
+            "각 로컬 프롬프트의 주의를 해당 공간에만 집중시키고, 관련 없는 영역과의 상호작용을 최소화함으로써 텍스트-영역 제어를 강화함(We enhance text-to-region control by amplifying each local prompt's attention to its corresponding spatial-disentangled region while minimizing interactions with irrelevant areas in cross-attention)",
+            "자기 주의에서 영역 내 인식 강화와 영역 간 간섭 감소로 피처 분리를 개선함(Additionally, we improve feature separation by increasing intra-region awareness and reducing inter-region interference in self-attention)"
+        ],
+        "conclusion": "우리의 방법은 실제 세계에서 최첨단 성능을 달성했으며, 비디오 편집의 세부 조정이 가능해짐.",
+        "keywords": [
+            "Video Generation",
+            "Video Editing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.17157",
+            "authors": [
+                {
+                    "_id": "67bd3285ac4a596a43b53205",
+                    "user": {
+                        "_id": "646efd223dd912a539e0bd46",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EOFAv5xvOgJOzuDgh4nSb.png",
+                        "isPro": true,
+                        "fullname": "Canyu Zhao",
+                        "user": "Canyu",
+                        "type": "user"
+                    },
+                    "name": "Canyu Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:40:20.829Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b53206",
+                    "name": "Mingyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b53207",
+                    "user": {
+                        "_id": "64d60375d7e30889c65e8cf4",
+                        "avatarUrl": "/avatars/640f7c570fc45194557ce7931bdfe87f.svg",
+                        "isPro": false,
+                        "fullname": "Huanyi Zheng",
+                        "user": "zhyya",
+                        "type": "user"
+                    },
+                    "name": "Huanyi Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:40:18.731Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b53208",
+                    "user": {
+                        "_id": "632179745fc60c44fd91fc33",
+                        "avatarUrl": "/avatars/37d4fefbcc19f091dccffefec9706de2.svg",
+                        "isPro": false,
+                        "fullname": "zhumuzhi",
+                        "user": "Z-MU-Z",
+                        "type": "user"
+                    },
+                    "name": "Muzhi Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:40:11.968Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b53209",
+                    "name": "Zhiyue Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b5320a",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b5320b",
+                    "name": "Tong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3285ac4a596a43b5320c",
+                    "name": "Chunhua Shen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-24T13:51:06.000Z",
+            "title": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+            "summary": "Our primary goal here is to create a good, generalist perception model that\ncan tackle multiple tasks, within limits on computational resources and\ntraining data. To achieve this, we resort to text-to-image diffusion models\npre-trained on billions of images. Our exhaustive evaluation metrics\ndemonstrate that DICEPTION effectively tackles multiple perception tasks,\nachieving performance on par with state-of-the-art models. We achieve results\non par with SAM-vit-h using only 0.06% of their data (e.g., 600K vs. 1B\npixel-level annotated images). Inspired by Wang et al., DICEPTION formulates\nthe outputs of various perception tasks using color encoding; and we show that\nthe strategy of assigning random colors to different instances is highly\neffective in both entity segmentation and semantic segmentation. Unifying\nvarious perception tasks as conditional image generation enables us to fully\nleverage pre-trained text-to-image models. Thus, DICEPTION can be efficiently\ntrained at a cost of orders of magnitude lower, compared to conventional models\nthat were trained from scratch. When adapting our model to other tasks, it only\nrequires fine-tuning on as few as 50 images and 1% of its parameters. DICEPTION\nprovides valuable insights and a more promising solution for visual generalist\nmodels.",
+            "upvotes": 36,
+            "discussionId": "67bd328aac4a596a43b532ae"
+        },
+        "translation_title": "DICEPTION: 시각 지각 작업을 위한 일반화 확산 모델",
+        "purpose": "다양한 지각 작업을 수행할 수 있는 일반화된 모델을 생성하여, 컴퓨팅 자원과 훈련 데이터에 대한 제한을 극복하는 것",
+        "method": [
+            "수십억 개의 이미지로 사전 훈련된 text-to-image diffusion 모델을 활용함(To achieve this, we resort to text-to-image diffusion models pre-trained on billions of images.)",
+            "DICEPTION이 여러 지각 작업을 효과적으로 처리할 수 있음을 보여주는 평가 지표를 제시함(Our exhaustive evaluation metrics demonstrate that DICEPTION effectively tackles multiple perception tasks.)",
+            "다양한 지각 작업의 출력을 색상 인코딩을 통해 공식화하고, 다른 인스턴스에 무작위 색상을 할당하는 전략이 매우 효과적임을 보임(Inspired by Wang et al., DICEPTION formulates the outputs of various perception tasks using color encoding.)"
+        ],
+        "conclusion": "DICEPTION은 기존 모델에 비해 훨씬 적은 데이터로 유사한 성능을 내며, 시각 일반화 모델에 대한 통찰력을 제공함.",
+        "keywords": [
+            "Image Understanding",
+            "Image Segmentation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.15814",
+            "authors": [
+                {
+                    "_id": "67bd3972f077ddf1f98bacda",
+                    "user": {
+                        "_id": "66b9bc2dacdbc1d0b39c3b50",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/hwR0pVfP_E8XjimXIxDOU.jpeg",
+                        "isPro": false,
+                        "fullname": "Gallil Maimon",
+                        "user": "gallilmaimon",
+                        "type": "user"
+                    },
+                    "name": "Gallil Maimon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:39:36.258Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3972f077ddf1f98bacdb",
+                    "user": {
+                        "_id": "644662145004f2cb3af08b27",
+                        "avatarUrl": "/avatars/5f2af24c7410a5db46374d0b84fb479d.svg",
+                        "isPro": false,
+                        "fullname": "Avishai Elmakies",
+                        "user": "avishai-elmakies",
+                        "type": "user"
+                    },
+                    "name": "Avishai Elmakies",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-25T09:39:33.712Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd3972f077ddf1f98bacdc",
+                    "name": "Yossi Adi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-19T17:21:15.000Z",
+            "title": "Slamming: Training a Speech Language Model on One GPU in a Day",
+            "summary": "We introduce Slam, a recipe for training high-quality Speech Language Models\n(SLMs) on a single academic GPU in 24 hours. We do so through empirical\nanalysis of model initialisation and architecture, synthetic training data,\npreference optimisation with synthetic data and tweaking all other components.\nWe empirically demonstrate that this training recipe also scales well with more\ncompute getting results on par with leading SLMs in a fraction of the compute\ncost. We hope these insights will make SLM training and research more\naccessible. In the context of SLM scaling laws, our results far outperform\npredicted compute optimal performance, giving an optimistic view to SLM\nfeasibility. See code, data, models, samples at -\nhttps://pages.cs.huji.ac.il/adiyoss-lab/slamming .",
+            "upvotes": 31,
+            "discussionId": "67bd3973f077ddf1f98bacf9"
+        },
+        "translation_title": "슬램: 하루 만에 한 대의 GPU로 음성 언어 모델 훈련하기",
+        "purpose": "단일 GPU에서 고품질 음성 언어 모델(SLM)을 24시간 내에 훈련하는 방법 제시",
+        "method": [
+            "모델 초기화와 아키텍처, 합성 훈련 데이터를 통한 경험적 분석 수행(Empirical analysis of model initialisation and architecture, synthetic training data)",
+            "합성 데이터를 활용한 선호 최적화 및 기타 구성 요소 조정(Preference optimisation with synthetic data and tweaking all other components)",
+            "이 훈련 레시피의 성능을 더 많은 컴퓨팅 자원으로 확장하여 확인함(Empirically demonstrate that this training recipe also scales well with more compute)."
+        ],
+        "conclusion": "이 연구 결과는 SLM 훈련을 더 접근 가능하게 하고, SLM의 확장 법칙에 대한 예측 성능을 뛰어넘어 SLM의 실행 가능성에 대한 긍정적인 관점을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.16584",
+            "authors": [
+                {
+                    "_id": "67bd42386959e61abd265a9b",
+                    "name": "Liumeng Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265a9c",
+                    "name": "Ziya Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265a9d",
+                    "name": "Jiahao Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265a9e",
+                    "name": "Zixuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265a9f",
+                    "name": "Shuai Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa0",
+                    "name": "Yinghao Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa1",
+                    "name": "Sitong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa2",
+                    "name": "Dongchao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa3",
+                    "name": "Haohan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa4",
+                    "name": "Yujia Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa5",
+                    "name": "Xinsheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa6",
+                    "name": "Zixuan Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa7",
+                    "name": "Chuanbo Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa8",
+                    "name": "Xinshen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aa9",
+                    "name": "Tianchi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aaa",
+                    "name": "Ruibin Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aab",
+                    "name": "Zeyue Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aac",
+                    "name": "Haohe Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aad",
+                    "name": "Emmanouil Benetos",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aae",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265aaf",
+                    "name": "Yike Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67bd42386959e61abd265ab0",
+                    "name": "Wei Xue",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-23T14:24:15.000Z",
+            "title": "Audio-FLAN: A Preliminary Release",
+            "summary": "Recent advancements in audio tokenization have significantly enhanced the\nintegration of audio capabilities into large language models (LLMs). However,\naudio understanding and generation are often treated as distinct tasks,\nhindering the development of truly unified audio-language models. While\ninstruction tuning has demonstrated remarkable success in improving\ngeneralization and zero-shot learning across text and vision, its application\nto audio remains largely unexplored. A major obstacle is the lack of\ncomprehensive datasets that unify audio understanding and generation. To\naddress this, we introduce Audio-FLAN, a large-scale instruction-tuning dataset\ncovering 80 diverse tasks across speech, music, and sound domains, with over\n100 million instances. Audio-FLAN lays the foundation for unified\naudio-language models that can seamlessly handle both understanding (e.g.,\ntranscription, comprehension) and generation (e.g., speech, music, sound) tasks\nacross a wide range of audio domains in a zero-shot manner. The Audio-FLAN\ndataset is available on HuggingFace and GitHub and will be continuously\nupdated.",
+            "upvotes": 22,
+            "discussionId": "67bd423b6959e61abd265b88"
+        },
+        "translation_title": "Audio-FLAN: 초기 공개",
+        "purpose": "오디오 이해와 생성을 통합하는 대규모 데이터 세트 개발로 통합 오디오-언어 모델의 기초 마련",
+        "method": [
+            "80개의 다양한 작업을 포함하는 대규모 instruction-tuning 데이터 세트를 소개함(we introduce Audio-FLAN, a large-scale instruction-tuning dataset covering 80 diverse tasks across speech, music, and sound domains)",
+            "100만 개 이상의 인스턴스를 수집하여 데이터 세트를 구성함(with over 100 million instances)",
+            "Audio-FLAN을 통해 오디오 이해(예: 전사, 이해)와 생성(예: 음성, 음악, 소리) 작업을 모두 지원함(Audio-FLAN lays the foundation for unified audio-language models that can seamlessly handle both understanding and generation tasks)"
+        ],
+        "conclusion": "Audio-FLAN 데이터 세트는 오디오 이해와 생성을 통합한 모델 개발에 기여하며, 지속적으로 업데이트될 예정임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
