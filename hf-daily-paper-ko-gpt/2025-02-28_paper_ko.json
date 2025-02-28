@@ -1,0 +1,523 @@
+[
+    {
+        "paper": {
+            "id": "2502.19613",
+            "authors": [
+                {
+                    "_id": "67c12987505a88e4a185e0d7",
+                    "name": "Wei Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12987505a88e4a185e0d8",
+                    "user": {
+                        "_id": "6470e0f1cfd57849519033a5",
+                        "avatarUrl": "/avatars/7ffefee3e36a4e37b9f4510bc6b689d1.svg",
+                        "isPro": false,
+                        "fullname": "Hanning Zhang",
+                        "user": "HanningZhang",
+                        "type": "user"
+                    },
+                    "name": "Hanning Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:22:33.128Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12987505a88e4a185e0d9",
+                    "user": {
+                        "_id": "65eec5c1d7d63c2ed0615421",
+                        "avatarUrl": "/avatars/8c32f5e7d4b1940088bdec73c0b86fab.svg",
+                        "isPro": false,
+                        "fullname": "Chenlu Ye",
+                        "user": "Chenlu123",
+                        "type": "user"
+                    },
+                    "name": "Chenlu Ye",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:22:38.981Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12987505a88e4a185e0da",
+                    "user": {
+                        "_id": "62323bb408bcea92917e42ee",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62323bb408bcea92917e42ee/2vHxkv-oSROtLteOnqa8P.jpeg",
+                        "isPro": false,
+                        "fullname": "Lichang Chen",
+                        "user": "Lichang-Chen",
+                        "type": "user"
+                    },
+                    "name": "Lichang Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T12:14:29.479Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12987505a88e4a185e0db",
+                    "user": {
+                        "_id": "64b8922ca1827cc8d04ae919",
+                        "avatarUrl": "/avatars/0aaa83e3d09a82434e1d6af724aaa485.svg",
+                        "isPro": false,
+                        "fullname": "Nan Jiang",
+                        "user": "nanjiang",
+                        "type": "user"
+                    },
+                    "name": "Nan Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:23:02.992Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12987505a88e4a185e0dc",
+                    "name": "Tong Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-26T23:01:16.000Z",
+            "title": "Self-rewarding correction for mathematical reasoning",
+            "summary": "We study self-rewarding reasoning large language models (LLMs), which can\nsimultaneously generate step-by-step reasoning and evaluate the correctness of\ntheir outputs during the inference time-without external feedback. This\nintegrated approach allows a single model to independently guide its reasoning\nprocess, offering computational advantages for model deployment. We\nparticularly focus on the representative task of self-correction, where models\nautonomously detect errors in their responses, revise outputs, and decide when\nto terminate iterative refinement loops. To enable this, we propose a\ntwo-staged algorithmic framework for constructing self-rewarding reasoning\nmodels using only self-generated data. In the first stage, we employ sequential\nrejection sampling to synthesize long chain-of-thought trajectories that\nincorporate both self-rewarding and self-correction mechanisms. Fine-tuning\nmodels on these curated data allows them to learn the patterns of\nself-rewarding and self-correction. In the second stage, we further enhance the\nmodels' ability to assess response accuracy and refine outputs through\nreinforcement learning with rule-based signals. Experiments with Llama-3 and\nQwen-2.5 demonstrate that our approach surpasses intrinsic self-correction\ncapabilities and achieves performance comparable to systems that rely on\nexternal reward models.",
+            "upvotes": 44,
+            "discussionId": "67c12989505a88e4a185e115"
+        },
+        "translation_title": "수학적 추론을 위한 자기 보상 수정",
+        "purpose": "자기 보상 방식으로 추론하는 대규모 언어 모델을 연구하여 모델이 출력을 평가하고 수정할 수 있도록 하기 위함",
+        "method": [
+            "대외적 피드백 없이 모델이 스스로 추론 과정을 안내할 수 있도록 하는 통합 접근법을 연구함(This integrated approach allows a single model to independently guide its reasoning process, offering computational advantages for model deployment.)",
+            "자기 수정 기능에 집중하여 모델이 자동으로 오류를 탐지하고 출력을 수정하도록 하는 두 단계의 알고리즘 프레임워크를 제안함(To enable this, we propose a two-staged algorithmic framework for constructing self-rewarding reasoning models using only self-generated data.)",
+            "시퀀스 거부 샘플링을 이용해 자기 보상과 자기 수정 메커니즘을 포함한 긴 사고 흐름을 합성함(In the first stage, we employ sequential rejection sampling to synthesize long chain-of-thought trajectories that incorporate both self-rewarding and self-correction mechanisms.)",
+            "모델을 규칙 기반 신호와 강화 학습을 통해 응답 정확성을 평가하고 출력을 수정하는 능력을 향상시킴(In the second stage, we further enhance the models' ability to assess response accuracy and refine outputs through reinforcement learning with rule-based signals.)"
+        ],
+        "conclusion": "우리의 접근법은 자가 수정 능력을 초월하여 외부 보상 모델에 의지하는 시스템과 유사한 성능을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Self-Correction"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.19634",
+            "authors": [
+                {
+                    "_id": "67c12bf3505a88e4a1866a01",
+                    "name": "Jiazhen Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a02",
+                    "user": {
+                        "_id": "631b9ff5824f2502e3557c7e",
+                        "avatarUrl": "/avatars/076043c9dba07644a570692563ef8114.svg",
+                        "isPro": false,
+                        "fullname": "liu",
+                        "user": "che111",
+                        "type": "user"
+                    },
+                    "name": "Che Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T09:28:38.598Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a03",
+                    "user": {
+                        "_id": "6317257fc92fd6fee317ff7c",
+                        "avatarUrl": "/avatars/2f460a2f28562c987becb2acad8d93e7.svg",
+                        "isPro": false,
+                        "fullname": "Junde Wu",
+                        "user": "morson",
+                        "type": "user"
+                    },
+                    "name": "Junde Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T12:14:18.528Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a04",
+                    "user": {
+                        "_id": "647c7c311f878439e2fe50e7",
+                        "avatarUrl": "/avatars/be0ddfc98c98f66b88c939c0451907a5.svg",
+                        "isPro": false,
+                        "fullname": "Fenglin Liu",
+                        "user": "fenglinliu",
+                        "type": "user"
+                    },
+                    "name": "Fenglin Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:23:44.550Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a05",
+                    "user": {
+                        "_id": "66aff1d8ccc0fb3883dd19a8",
+                        "avatarUrl": "/avatars/dc9a0c622f0509c5bc9bf82d8f6ad7e3.svg",
+                        "isPro": false,
+                        "fullname": "Jiayuan Zhu",
+                        "user": "jiayuanz3",
+                        "type": "user"
+                    },
+                    "name": "Jiayuan Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T15:14:46.124Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a06",
+                    "name": "Hongwei Bran Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a07",
+                    "name": "Chen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a08",
+                    "user": {
+                        "_id": "67aae5f65c9e4fad21eb8bde",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/CYjnjsajtTVn2FLvUPVXH.png",
+                        "isPro": false,
+                        "fullname": "Cheng Ouyang",
+                        "user": "ecnuOYC",
+                        "type": "user"
+                    },
+                    "name": "Cheng Ouyang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:23:25.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12bf3505a88e4a1866a09",
+                    "name": "Daniel Rueckert",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-26T23:57:34.000Z",
+            "title": "MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language\n  Models (VLMs) via Reinforcement Learning",
+            "summary": "Reasoning is a critical frontier for advancing medical image analysis, where\ntransparency and trustworthiness play a central role in both clinician trust\nand regulatory approval. Although Medical Visual Language Models (VLMs) show\npromise for radiological tasks, most existing VLMs merely produce final answers\nwithout revealing the underlying reasoning. To address this gap, we introduce\nMedVLM-R1, a medical VLM that explicitly generates natural language reasoning\nto enhance transparency and trustworthiness. Instead of relying on supervised\nfine-tuning (SFT), which often suffers from overfitting to training\ndistributions and fails to foster genuine reasoning, MedVLM-R1 employs a\nreinforcement learning framework that incentivizes the model to discover\nhuman-interpretable reasoning paths without using any reasoning references.\nDespite limited training data (600 visual question answering samples) and model\nparameters (2B), MedVLM-R1 boosts accuracy from 55.11% to 78.22% across MRI,\nCT, and X-ray benchmarks, outperforming larger models trained on over a million\nsamples. It also demonstrates robust domain generalization under\nout-of-distribution tasks. By unifying medical image analysis with explicit\nreasoning, MedVLM-R1 marks a pivotal step toward trustworthy and interpretable\nAI in clinical practice.",
+            "upvotes": 36,
+            "discussionId": "67c12bf4505a88e4a1866a35"
+        },
+        "translation_title": "MedVLM-R1: 강화 학습을 통한 Vision-Language 모델의 의료 추론 능력 증진",
+        "purpose": "의료 이미지 분석에서 투명성과 신뢰성을 높이기 위한 자연어 추론 생성",
+        "method": [
+            "MedVLM-R1은 자연어로 추론을 생성하여 투명성과 신뢰성을 높이는 의료 VLM임(we introduce MedVLM-R1, a medical VLM that explicitly generates natural language reasoning to enhance transparency and trustworthiness.)",
+            "supervised fine-tuning(SFT)에 의존하지 않고 강화 학습 프레임워크를 활용하여 인간이 해석 가능한 추론 경로를 발견하도록 모델을 유도함(MedVLM-R1 employs a reinforcement learning framework that incentivizes the model to discover human-interpretable reasoning paths).",
+            "한정된 훈련 데이터와 모델 파라미터에도 불구하고, MedVLM-R1은 MRI, CT, X-ray 벤치마크에서 정확도를 55.11%에서 78.22%로 향상시킴(Despite limited training data and model parameters, MedVLM-R1 boosts accuracy from 55.11% to 78.22% across MRI, CT, and X-ray benchmarks.)"
+        ],
+        "conclusion": "MedVLM-R1은 의료 이미지 분석과 명시적 추론을 통합하여 신뢰할 수 있고 해석 가능한 AI로 나아가는 중요한 단계를 의미함.",
+        "keywords": [
+            "Medical Visual Language Models",
+            "Natural Language Processing",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.20395",
+            "authors": [
+                {
+                    "_id": "67c12b5def9af74902537b98",
+                    "user": {
+                        "_id": "671002fd13203512e7b8f9e3",
+                        "avatarUrl": "/avatars/313d8ea313ed300750cfdaaca44fdb6e.svg",
+                        "isPro": false,
+                        "fullname": "Zhongyang Li",
+                        "user": "Lzy01241010",
+                        "type": "user"
+                    },
+                    "name": "Zhongyang Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T12:14:22.809Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b5def9af74902537b99",
+                    "name": "Ziyue Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b5def9af74902537b9a",
+                    "user": {
+                        "_id": "647f5af5b0e96764589f3b2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Zhou",
+                        "user": "zhoutianyi",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T12:14:16.482Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-27T18:59:32.000Z",
+            "title": "R2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts",
+            "summary": "In large multimodal models (LMMs), the perception of non-language modalities\n(e.g., visual representations) is usually not on par with the large language\nmodels (LLMs)' powerful reasoning capabilities, deterring LMMs' performance on\nchallenging downstream tasks. This weakness has been recently mitigated by\nreplacing the vision encoder with a mixture-of-experts (MoE), which provides\nrich, multi-granularity, and diverse representations required by diverse\ndownstream tasks. The performance of multimodal MoE largely depends on its\nrouter, which reweights and mixes the representations of different experts for\neach input. However, we find that the end-to-end trained router does not always\nproduce the optimal routing weights for every test sample. To bridge the gap,\nwe propose a novel and efficient method \"Re-Routing in Test-Time(R2-T2) that\nlocally optimizes the vector of routing weights in test-time by moving it\ntoward those vectors of the correctly predicted samples in a neighborhood of\nthe test sample. We propose three R2-T2 strategies with different optimization\nobjectives and neighbor-search spaces. R2-T2 consistently and greatly improves\nstate-of-the-art LMMs' performance on challenging benchmarks of diverse tasks,\nwithout training any base-model parameters.",
+            "upvotes": 26,
+            "discussionId": "67c12b5eef9af74902537c00"
+        },
+        "translation_title": "R2-T2: 멀티모달 혼합 전문가를 위한 테스트 시 재라우팅",
+        "purpose": "멀티모달 모델(LMM)의 성능을 좌우하는 라우터의 최적화를 통해 다양한 다운스트림 작업에서의 성능 개선을 목표로 함.",
+        "method": [
+            "다양한 다운스트림 작업에 필요한 다채로운 표현을 제공하는 혼합 전문가(MoE)를 비전 인코더로 사용함(e.g., visual representations)",
+            "테스트 샘플의 주변에서 올바르게 예측된 샘플의 벡터로 방향을 조정하여 라우팅 가중치를 최적화하는 R2-T2 방법을 제안함(To bridge the gap, we propose a novel and efficient method 'Re-Routing in Test-Time (R2-T2)')",
+            "세 가지의 서로 다른 최적화 목표와 이웃 탐색 공간을 갖는 R2-T2 전략을 제안함. R2-T2 consistently and greatly improves state-of-the-art LMMs' performance."
+        ],
+        "conclusion": "R2-T2는 다양한 작업의 도전 과제에서 LMM의 성능을 크게 향상시키며, 기본 모델 파라미터를 훈련하지 않고도 효과를 발휘함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.20082",
+            "authors": [
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce8e",
+                    "user": {
+                        "_id": "632bc663eafe8eca5e9bfdbc",
+                        "avatarUrl": "/avatars/787553c73e9a96adc5219e67acd29c00.svg",
+                        "isPro": false,
+                        "fullname": "Ning Shang",
+                        "user": "J-shang",
+                        "type": "user"
+                    },
+                    "name": "Ning Shang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:28:26.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce8f",
+                    "user": {
+                        "_id": "62b0009c72043b05d29492b2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b0009c72043b05d29492b2/NqRkX2YLhlfOLvYysa7dD.png",
+                        "isPro": false,
+                        "fullname": "Li Lyna Zhang",
+                        "user": "lynazhang",
+                        "type": "user"
+                    },
+                    "name": "Li Lyna Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:26:58.131Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce90",
+                    "user": {
+                        "_id": "6495b0b844bc2e9ce6cc849b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/j6aucl_tefMHwtD-bdUAw.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyuan Wang",
+                        "user": "OldKingMeister",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-02-28T12:14:20.687Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce91",
+                    "user": {
+                        "_id": "65efe691ccef3501d586bb62",
+                        "avatarUrl": "/avatars/c4716c532754b487359e77e43afe09bc.svg",
+                        "isPro": false,
+                        "fullname": "Gaokai Zhang",
+                        "user": "gaokaiz2",
+                        "type": "user"
+                    },
+                    "name": "Gaokai Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:28:05.040Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce92",
+                    "user": {
+                        "_id": "60c790f1accf7da31ed8240d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60c790f1accf7da31ed8240d/YDohCmgf9OUeWqZIs3Thh.jpeg",
+                        "isPro": false,
+                        "fullname": "Gilsinia Lopez",
+                        "user": "lgg",
+                        "type": "user"
+                    },
+                    "name": "Gilsinia Lopez",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:27:52.164Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce93",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce94",
+                    "user": {
+                        "_id": "64da876370446182be5b608d",
+                        "avatarUrl": "/avatars/e412fdc71404ecdf638e416846e3ebfb.svg",
+                        "isPro": false,
+                        "fullname": "Weizhu Chen",
+                        "user": "chenweizhu",
+                        "type": "user"
+                    },
+                    "name": "Weizhu Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:27:17.122Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c12b6d25c74ee5b6e2ce95",
+                    "name": "Mao Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-27T13:41:07.000Z",
+            "title": "LongRoPE2: Near-Lossless LLM Context Window Scaling",
+            "summary": "LongRoPE2 is a novel approach that extends the effective context window of\npre-trained large language models (LLMs) to the target length, while preserving\nthe performance on the original shorter context window. This is achieved by\nthree contributions: (1) a hypothesis that insufficient training in higher RoPE\ndimensions contributes to the persistent out-of-distribution (OOD) issues\nobserved in existing methods; (2) an effective RoPE rescaling algorithm that\nadopts evolutionary search guided by \"needle-driven\" perplexity to address the\ninsufficient training problem; (3) a mixed context window training approach\nthat fine-tunes model weights to adopt rescaled RoPE for long-context sequences\nwhile preserving the short-context performance with the original RoPE.\nExtensive experiments on LLaMA3-8B and Phi3-mini-3.8B across various benchmarks\nvalidate the hypothesis and demonstrate the effectiveness of LongRoPE2.\nRemarkably, LongRoPE2 extends LLaMA3-8B to achieve a 128K effective context\nlength while retaining over 98.5% of short-context performance, using only 10B\ntokens -- 80x fewer than Meta's approach, which fails to reach the target\neffective context length. Code will be available at\nhttps://github.com/microsoft/LongRoPE.",
+            "upvotes": 19,
+            "discussionId": "67c12b6e25c74ee5b6e2ceb5"
+        },
+        "translation_title": "LongRoPE2: 손실 없는 LLM 컨텍스트 윈도우 확장",
+        "purpose": "기존의 짧은 컨텍스트 윈도우 성능을 유지하면서 프리트레인된 대형 언어 모델(LLMs)의 유효 컨텍스트 윈도우를 확장하기 위한 새로운 접근법 개발",
+        "method": [
+            "기존 방법에서 관찰된 OOD 문제의 원인이 더 높은 RoPE 차원에서의 훈련 부족이라는 가설을 설정함(1. a hypothesis that insufficient training in higher RoPE dimensions contributes to the persistent out-of-distribution (OOD) issues observed in existing methods;)",
+            "‘needle-driven’ perplexity에 의해 안내되는 진화적 탐색을 사용하는 RoPE 리스케일링 알고리즘을 개발함(2. an effective RoPE rescaling algorithm that adopts evolutionary search guided by 'needle-driven' perplexity to address the insufficient training problem;)",
+            "혼합 컨텍스트 윈도우 훈련 접근법을 통해 롱 컨텍스트 시퀀스에 적합한 리스케일된 RoPE를 도입하면서 짧은 컨텍스트 성능을 유지하도록 모델 가중치를 미세 조정함(3. a mixed context window training approach that fine-tunes model weights to adopt rescaled RoPE for long-context sequences while preserving the short-context performance with the original RoPE.)"
+        ],
+        "conclusion": "LongRoPE2는 LLaMA3-8B의 유효 컨텍스트 길이를 128K로 확장하면서 짧은 컨텍스트 성능의 98.5% 이상을 유지하는 뛰어난 결과를 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.20238",
+            "authors": [
+                {
+                    "_id": "67c15306333e2f71f01c8e35",
+                    "user": {
+                        "_id": "64e85b3edb3767299865e0e3",
+                        "avatarUrl": "/avatars/fdbe121535dea940edd2766161393485.svg",
+                        "isPro": false,
+                        "fullname": "Chen",
+                        "user": "Guizhen",
+                        "type": "user"
+                    },
+                    "name": "Guizhen Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:28:41.974Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e36",
+                    "user": {
+                        "_id": "67627b97fc88502751bfd2b8",
+                        "avatarUrl": "/avatars/4b1f5c333f9255181d7b9078c5d4eb32.svg",
+                        "isPro": false,
+                        "fullname": "Wei",
+                        "user": "weiwenxu",
+                        "type": "user"
+                    },
+                    "name": "Weiwen Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:28:47.949Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e37",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e38",
+                    "name": "Hou Pong Chan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e39",
+                    "user": {
+                        "_id": "61657b0b20606e5e73f611cc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61657b0b20606e5e73f611cc/6ZPne2GYlWkxrx35ND1P8.png",
+                        "isPro": false,
+                        "fullname": "CHAOQUN LIU",
+                        "user": "lukecq",
+                        "type": "user"
+                    },
+                    "name": "Chaoqun Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:28:58.424Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e3a",
+                    "user": {
+                        "_id": "6454685a548f22be598414c4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eMjMWKJ-AouF7eY1-RzGF.jpeg",
+                        "isPro": false,
+                        "fullname": "Lidong Bing",
+                        "user": "LidongBing",
+                        "type": "user"
+                    },
+                    "name": "Lidong Bing",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:29:04.845Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e3b",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e3c",
+                    "user": {
+                        "_id": "655722e80438e0854fae7554",
+                        "avatarUrl": "/avatars/b93a74f7c7880f9fe0f3ffb47e2aef5e.svg",
+                        "isPro": false,
+                        "fullname": "Luu Anh Tuan",
+                        "user": "anhtuanluu36",
+                        "type": "user"
+                    },
+                    "name": "Anh Tuan Luu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-02-28T12:29:21.748Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c15306333e2f71f01c8e3d",
+                    "name": "Yu Rong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-27T16:23:25.000Z",
+            "title": "FINEREASON: Evaluating and Improving LLMs' Deliberate Reasoning through\n  Reflective Puzzle Solving",
+            "summary": "Many challenging reasoning tasks require not just rapid, intuitive responses,\nbut a more deliberate, multi-step approach. Recent progress in large language\nmodels (LLMs) highlights an important shift from the \"System 1\" way of quick\nreactions to the \"System 2\" style of reflection-and-correction problem solving.\nHowever, current benchmarks heavily rely on the final-answer accuracy, leaving\nmuch of a model's intermediate reasoning steps unexamined. This fails to assess\nthe model's ability to reflect and rectify mistakes within the reasoning\nprocess. To bridge this gap, we introduce FINEREASON, a logic-puzzle benchmark\nfor fine-grained evaluation of LLMs' reasoning capabilities. Each puzzle can be\ndecomposed into atomic steps, making it ideal for rigorous validation of\nintermediate correctness. Building on this, we introduce two tasks: state\nchecking, and state transition, for a comprehensive evaluation of how models\nassess the current situation and plan the next move. To support broader\nresearch, we also provide a puzzle training set aimed at enhancing performance\non general mathematical tasks. We show that models trained on our state\nchecking and transition data demonstrate gains in math reasoning by up to 5.1%\non GSM8K.",
+            "upvotes": 15,
+            "discussionId": "67c15307333e2f71f01c8ebc"
+        },
+        "translation_title": "FINEREASON: LLM의 심사숙고 추론 개선을 위한 논리 퍼즐 평가",
+        "purpose": "LLM의 사고 및 오류 수정 능력을 정밀하게 평가하기 위한 벤치마크 개발",
+        "method": [
+            "FINEREASON이라는 논리 퍼즐 벤치마크를 도입하여 LLM의 추론 능력을 세밀하게 평가함(we introduce FINEREASON, a logic-puzzle benchmark for fine-grained evaluation of LLMs' reasoning capabilities.)",
+            "퍼즐을 원자적 단계로 분해하여 중간 정확성을 엄격하게 검증할 수 있도록 함(Each puzzle can be decomposed into atomic steps, making it ideal for rigorous validation of intermediate correctness.)",
+            "현재 상황을 평가하고 다음 단계를 계획하는 모델의 능력을 종합적으로 평가하기 위해 상태 확인 및 상태 전환이라는 두 가지 작업을 도입함(Building on this, we introduce two tasks: state checking, and state transition, for a comprehensive evaluation of how models assess the current situation and plan the next move.)"
+        ],
+        "conclusion": "상태 확인 및 전환 데이터를 통해 훈련된 모델은 GSM8K에서 수학 추론 능력이 최대 5.1% 향상됨을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
