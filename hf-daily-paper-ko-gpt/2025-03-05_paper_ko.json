@@ -1,0 +1,422 @@
+[
+    {
+        "paper": {
+            "id": "2503.02682",
+            "authors": [
+                {
+                    "_id": "67c7c3d073299239b63f5378",
+                    "user": {
+                        "_id": "6225a9983207dfc568407204",
+                        "avatarUrl": "/avatars/c970db6232d84ae8c0fa5f11d561d67c.svg",
+                        "isPro": false,
+                        "fullname": "xwm",
+                        "user": "xwm",
+                        "type": "user"
+                    },
+                    "name": "Weimin Xiong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:11:35.055Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f5379",
+                    "name": "Yifan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f537a",
+                    "user": {
+                        "_id": "670740744341dcee459fb990",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/66UkZvrAk7fQr5YCylEFk.png",
+                        "isPro": false,
+                        "fullname": "Qingxiu Dong",
+                        "user": "Rsy24",
+                        "type": "user"
+                    },
+                    "name": "Qingxiu Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:31:12.605Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f537b",
+                    "user": {
+                        "_id": "6371af80789970f7bc65fef8",
+                        "avatarUrl": "/avatars/0f91fed93d6714cd0534f3435ddcbcbd.svg",
+                        "isPro": false,
+                        "fullname": "Bingchan Zhao",
+                        "user": "Adagio",
+                        "type": "user"
+                    },
+                    "name": "Bingchan Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:31:05.438Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f537c",
+                    "user": {
+                        "_id": "6447ca6ca478b20f1755b294",
+                        "avatarUrl": "/avatars/5049856b5ed1b74533fff902e14b4c7c.svg",
+                        "isPro": false,
+                        "fullname": "Feifan Song",
+                        "user": "songff",
+                        "type": "user"
+                    },
+                    "name": "Feifan Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:30:59.446Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f537d",
+                    "name": "Xun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3d073299239b63f537e",
+                    "user": {
+                        "_id": "66021bd9d3d4aea81b12ee06",
+                        "avatarUrl": "/avatars/13e7ffe1ea0d64ef447a87a874923531.svg",
+                        "isPro": false,
+                        "fullname": "Sujian Li",
+                        "user": "sujianli",
+                        "type": "user"
+                    },
+                    "name": "Sujian Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:30:37.203Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-04T14:54:45.000Z",
+            "title": "MPO: Boosting LLM Agents with Meta Plan Optimization",
+            "summary": "Recent advancements in large language models (LLMs) have enabled LLM-based\nagents to successfully tackle interactive planning tasks. However, despite\ntheir successes, existing approaches often suffer from planning hallucinations\nand require retraining for each new agent. To address these challenges, we\npropose the Meta Plan Optimization (MPO) framework, which enhances agent\nplanning capabilities by directly incorporating explicit guidance. Unlike\nprevious methods that rely on complex knowledge, which either require\nsignificant human effort or lack quality assurance, MPO leverages high-level\ngeneral guidance through meta plans to assist agent planning and enables\ncontinuous optimization of the meta plans based on feedback from the agent's\ntask execution. Our experiments conducted on two representative tasks\ndemonstrate that MPO significantly outperforms existing baselines. Moreover,\nour analysis indicates that MPO provides a plug-and-play solution that enhances\nboth task completion efficiency and generalization capabilities in previous\nunseen scenarios.",
+            "upvotes": 14,
+            "discussionId": "67c7c3d173299239b63f53d6",
+            "githubRepo": "https://github.com/WeiminXiong/MPO"
+        },
+        "translation_title": "MPO: 메타 플래너 최적화를 통한 LLM 에이전트 성능 향상",
+        "purpose": "LLM 기반 에이전트의 계획 능력을 강화하고, 계획의 허상을 줄이며 재교육 필요성을 낮추기 위한 새로운 방법 연구",
+        "method": [
+            "Meta Plan Optimization(MPO) 프레임워크를 제안하여 명시적 지침을 포함시킴으로써 에이전트의 계획 능력을 강화함(we propose the Meta Plan Optimization (MPO) framework, which enhances agent planning capabilities by directly incorporating explicit guidance.)",
+            "고급 일반 지침을 활용한 메타 계획을 통해 에이전트 계획을 지원하고 이를 에이전트 작업 실행 피드백에 따라 지속적으로 최적화함(MPO leverages high-level general guidance through meta plans to assist agent planning and enables continuous optimization of the meta plans based on feedback from the agent's task execution.)",
+            "실험을 통해 두 가지 대표 작업에서 MPO가 기존 방법보다 월등한 성능을 보임(Our experiments conducted on two representative tasks demonstrate that MPO significantly outperforms existing baselines.)"
+        ],
+        "conclusion": "MPO는 작업 완료 효율성과 일반화 능력을 향상시키며, 플러그 앤 플레이 솔루션을 제공하여 이전에 보지 못한 시나리오에서도 효과적으로 작동함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.02846",
+            "authors": [
+                {
+                    "_id": "67c7c3ce6f68759bf368533c",
+                    "user": {
+                        "_id": "6601196cc91ba4c08ad6e270",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6601196cc91ba4c08ad6e270/X2YPNzUOQXBz5Gv-xR9LW.jpeg",
+                        "isPro": false,
+                        "fullname": "yuzhe gu",
+                        "user": "vanilla1116",
+                        "type": "user"
+                    },
+                    "name": "Yuzhe Gu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:11:38.988Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3ce6f68759bf368533d",
+                    "user": {
+                        "_id": "64e8505321540e1da3226b54",
+                        "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+                        "isPro": false,
+                        "fullname": "Wenwei Zhang",
+                        "user": "ZwwWayne",
+                        "type": "user"
+                    },
+                    "name": "Wenwei Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:32:26.106Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3ce6f68759bf368533e",
+                    "name": "Chengqi Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3ce6f68759bf368533f",
+                    "user": {
+                        "_id": "636317ed80c1a705a6eff396",
+                        "avatarUrl": "/avatars/3db090e101b916d9256d0d3e043db71d.svg",
+                        "isPro": false,
+                        "fullname": "Dahua Lin",
+                        "user": "lindahua",
+                        "type": "user"
+                    },
+                    "name": "Dahua Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:32:37.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c3ce6f68759bf3685340",
+                    "name": "Kai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-04T18:20:24.000Z",
+            "title": "Mask-DPO: Generalizable Fine-grained Factuality Alignment of LLMs",
+            "summary": "Large language models (LLMs) exhibit hallucinations (i.e., unfaithful or\nnonsensical information) when serving as AI assistants in various domains.\nSince hallucinations always come with truthful content in the LLM responses,\nprevious factuality alignment methods that conduct response-level preference\nlearning inevitably introduced noises during training. Therefore, this paper\nproposes a fine-grained factuality alignment method based on Direct Preference\nOptimization (DPO), called Mask-DPO. Incorporating sentence-level factuality as\nmask signals, Mask-DPO only learns from factually correct sentences in the\npreferred samples and prevents the penalty on factual contents in the not\npreferred samples, which resolves the ambiguity in the preference learning.\nExtensive experimental results demonstrate that Mask-DPO can significantly\nimprove the factuality of LLMs responses to questions from both in-domain and\nout-of-domain datasets, although these questions and their corresponding topics\nare unseen during training. Only trained on the ANAH train set, the score of\nLlama3.1-8B-Instruct on the ANAH test set is improved from 49.19% to 77.53%,\neven surpassing the score of Llama3.1-70B-Instruct (53.44%), while its\nFactScore on the out-of-domain Biography dataset is also improved from 30.29%\nto 39.39%. We further study the generalization property of Mask-DPO using\ndifferent training sample scaling strategies and find that scaling the number\nof topics in the dataset is more effective than the number of questions. We\nprovide a hypothesis of what factual alignment is doing with LLMs, on the\nimplication of this phenomenon, and conduct proof-of-concept experiments to\nverify it. We hope the method and the findings pave the way for future research\non scaling factuality alignment.",
+            "upvotes": 12,
+            "discussionId": "67c7c3d06f68759bf3685489",
+            "githubRepo": "https://github.com/open-compass/ANAH"
+        },
+        "translation_title": "Mask-DPO: LLM의 일반화 가능한 세밀한 사실 일치 조정",
+        "purpose": "LLM의 응답에서 사실적 일치를 향상시키기 위한 새로운 방법 개발",
+        "method": [
+            "Direct Preference Optimization(DPO) 기법을 사용하여 Mask-DPO라는 세밀한 사실 일치 방법을 제안함.(this paper proposes a fine-grained factuality alignment method based on Direct Preference Optimization (DPO), called Mask-DPO.)",
+            "사실적으로 올바른 문장에서만 학습하고, 선호하지 않는 샘플에서 사실 내용에 대한 패널티를 방지함.(Mask-DPO only learns from factually correct sentences in the preferred samples and prevents the penalty on factual contents in the not preferred samples.)",
+            "ANAH 데이터셋을 통해 LLM 응답의 사실성을 크게 향상시킴.(Extensive experimental results demonstrate that Mask-DPO can significantly improve the factuality of LLMs responses to questions from both in-domain and out-of-domain datasets.)"
+        ],
+        "conclusion": "Mask-DPO는 LLM의 사실성을 현저히 개선할 수 있으며, 사실 일치 조정 관련 미래 연구에 도움이 될 것으로 기대됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.02879",
+            "authors": [
+                {
+                    "_id": "67c7c42269d99dd25c5ba0ce",
+                    "user": {
+                        "_id": "67c7c621a78dc9c14f0e2697",
+                        "avatarUrl": "/avatars/94cdcaa2c9f3c2e672f4c988ea0c81e7.svg",
+                        "isPro": false,
+                        "fullname": "Siming Huang",
+                        "user": "hsm316",
+                        "type": "user"
+                    },
+                    "name": "Siming Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:11:32.237Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c42269d99dd25c5ba0cf",
+                    "user": {
+                        "_id": "66451b129a4de258b5a028b8",
+                        "avatarUrl": "/avatars/bfa5903aa90d3071fac5c3c14cb1f115.svg",
+                        "isPro": false,
+                        "fullname": "Yuliang Xu",
+                        "user": "sdzzxyl",
+                        "type": "user"
+                    },
+                    "name": "Yuliang Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:39:56.806Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c42269d99dd25c5ba0d0",
+                    "user": {
+                        "_id": "67890323f8796231c857231e",
+                        "avatarUrl": "/avatars/f5ccd5186968d880fee9c36324a5f713.svg",
+                        "isPro": false,
+                        "fullname": "Mingmeng Geng",
+                        "user": "mgeng",
+                        "type": "user"
+                    },
+                    "name": "Mingmeng Geng",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-03-05T13:45:31.195Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c42269d99dd25c5ba0d1",
+                    "name": "Yao Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7c42269d99dd25c5ba0d2",
+                    "user": {
+                        "_id": "65e2be1e630e2db23829ee8d",
+                        "avatarUrl": "/avatars/294f9ba909037f03669dc0bb80cabfe3.svg",
+                        "isPro": false,
+                        "fullname": "Dongping Chen",
+                        "user": "fjchendp",
+                        "type": "user"
+                    },
+                    "name": "Dongping Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:40:02.647Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-04T18:58:13.000Z",
+            "title": "Wikipedia in the Era of LLMs: Evolution and Risks",
+            "summary": "In this paper, we present a thorough analysis of the impact of Large Language\nModels (LLMs) on Wikipedia, examining the evolution of Wikipedia through\nexisting data and using simulations to explore potential risks. We begin by\nanalyzing page views and article content to study Wikipedia's recent changes\nand assess the impact of LLMs. Subsequently, we evaluate how LLMs affect\nvarious Natural Language Processing (NLP) tasks related to Wikipedia, including\nmachine translation and retrieval-augmented generation (RAG). Our findings and\nsimulation results reveal that Wikipedia articles have been influenced by LLMs,\nwith an impact of approximately 1%-2% in certain categories. If the machine\ntranslation benchmark based on Wikipedia is influenced by LLMs, the scores of\nthe models may become inflated, and the comparative results among models might\nshift as well. Moreover, the effectiveness of RAG might decrease if the\nknowledge base becomes polluted by LLM-generated content. While LLMs have not\nyet fully changed Wikipedia's language and knowledge structures, we believe\nthat our empirical findings signal the need for careful consideration of\npotential future risks.",
+            "upvotes": 10,
+            "discussionId": "67c7c42369d99dd25c5ba103",
+            "githubRepo": "https://github.com/HSM316/LLM_Wikipedia"
+        },
+        "translation_title": "LLMs 시대의 위키백과: 진화와 위험",
+        "purpose": "대형 언어 모델(LLMs)이 위키백과에 미치는 영향을 분석하고, 그로 인한 잠재적 위험을 탐구하기 위함",
+        "method": [
+            "페이지 뷰와 기사 내용을 분석하여 최근의 위키백과 변화를 연구함(We begin by analyzing page views and article content to study Wikipedia's recent changes and assess the impact of LLMs.)",
+            "LLMs가 위키백과와 관련된 다양한 자연어 처리(NLP) 작업에 미치는 영향을 평가함(We subsequently evaluate how LLMs affect various Natural Language Processing (NLP) tasks related to Wikipedia.)",
+            "시뮬레이션을 통해 LLMs의 영향 분석을 수행하고, 특정 카테고리에서 약 1%-2%의 영향을 발견함(Our findings and simulation results reveal that Wikipedia articles have been influenced by LLMs, with an impact of approximately 1%-2% in certain categories.)"
+        ],
+        "conclusion": "LLMs는 위키백과의 언어와 지식 구조를 완전히 바꾸지는 않았지만, 미래의 잠재적 위험을 신중하게 고려할 필요성을 나타낸다.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.00735",
+            "authors": [
+                {
+                    "_id": "67c7dc0c9ad085d8f8ffc0cd",
+                    "user": {
+                        "_id": "649e1f4d2ccae3ea1f2b6a7f",
+                        "avatarUrl": "/avatars/04657fb53bde660dafb743da4273325f.svg",
+                        "isPro": false,
+                        "fullname": "Toby Simonds",
+                        "user": "TamasSimonds",
+                        "type": "user"
+                    },
+                    "name": "Toby Simonds",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:11:10.920Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7dc0c9ad085d8f8ffc0ce",
+                    "user": {
+                        "_id": "667b8f5f09faa9d48cf82d2c",
+                        "avatarUrl": "/avatars/ca6c009ff73cedf4585ef8fea018443b.svg",
+                        "isPro": false,
+                        "fullname": "Akira Yoshiyama",
+                        "user": "akiray1",
+                        "type": "user"
+                    },
+                    "name": "Akira Yoshiyama",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:11:12.944Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-02T05:16:43.000Z",
+            "title": "LADDER: Self-Improving LLMs Through Recursive Problem Decomposition",
+            "summary": "We introduce LADDER (Learning through Autonomous Difficulty-Driven Example\nRecursion), a framework which enables Large Language Models to autonomously\nimprove their problem-solving capabilities through self-guided learning by\nrecursively generating and solving progressively simpler variants of complex\nproblems. Unlike prior approaches that require curated datasets or human\nfeedback, LADDER leverages a model's own capabilities to generate easier\nquestion variants. We demonstrate LADDER's effectiveness in the subject of\nmathematical integration, improving Llama 3.2 3B's accuracy from 1% to 82% on\nundergraduate-level problems and enabling Qwen2.5 7B Deepseek-R1 Distilled to\nachieve 73% on the MIT Integration Bee qualifying examination. We also\nintroduce TTRL (Test-Time Reinforcement Learning), where we perform\nreinforcement learning on variants of test problems at inference time. TTRL\nenables Qwen2.5 7B Deepseek-R1 Distilled to achieve a state-of-the-art score of\n90% on the MIT Integration Bee qualifying examination, surpassing OpenAI o1's\nperformance. These results show how self-directed strategic learning can\nachieve significant capability improvements without relying on architectural\nscaling or human supervision.",
+            "upvotes": 9,
+            "discussionId": "67c7dc0e9ad085d8f8ffc113"
+        },
+        "translation_title": "LADDER: 자기 개선 LLM을 위한 재귀적 문제 분해",
+        "purpose": "Large Language Models의 문제 해결 능력을 자가 학습을 통해 향상시키기 위한 자기 주도적 학습 프레임워크 개발",
+        "method": [
+            "LADDER 프레임워크를 통해 모델이 복잡한 문제의 점진적으로 간단한 변형을 생성하고 해결하도록 함(we introduce LADDER (Learning through Autonomous Difficulty-Driven Example Recursion), a framework which enables Large Language Models to autonomously improve their problem-solving capabilities through self-guided learning by recursively generating and solving progressively simpler variants of complex problems.)",
+            "특정 주제에서의 효과성을 입증하기 위해 수학적 적분 문제에서 모델의 정확도를 1%에서 82%로 향상시키고, MIT Integration Bee 퀄리파잉 시험에서 73%를 기록함(We demonstrate LADDER's effectiveness in the subject of mathematical integration, improving Llama 3.2 3B's accuracy from 1% to 82% on undergraduate-level problems and enabling Qwen2.5 7B Deepseek-R1 Distilled to achieve 73% on the MIT Integration Bee qualifying examination.)",
+            "TTRL(Test-Time Reinforcement Learning) 기법을 도입하여 추론 시 테스트 문제의 변형에서 강화 학습을 수행함(We also introduce TTRL (Test-Time Reinforcement Learning), where we perform reinforcement learning on variants of test problems at inference time.)"
+        ],
+        "conclusion": "자기 주도적 전략 학습을 통해 아키텍처 확장이나 인간 감독 없이도 상당한 능력 향상을 이룰 수 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.01328",
+            "authors": [
+                {
+                    "_id": "67c7b5900b05ab9c7e805433",
+                    "name": "Xinyi Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7b5900b05ab9c7e805434",
+                    "user": {
+                        "_id": "63885f1d0bebb233d8ad6e5b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669881620925-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Penghui Qi",
+                        "user": "QPHutu",
+                        "type": "user"
+                    },
+                    "name": "Penghui Qi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-05T10:12:19.621Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7b5900b05ab9c7e805435",
+                    "user": {
+                        "_id": "67c7b8c95d393f85737562e5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KMmEVbXppNkfj1T9UOD7o.png",
+                        "isPro": false,
+                        "fullname": "Guangxing Huang",
+                        "user": "huanggx-sea",
+                        "type": "user"
+                    },
+                    "name": "Guangxing Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:39:20.500Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7b5900b05ab9c7e805436",
+                    "user": {
+                        "_id": "658f147c50d39af7f4cd889d",
+                        "avatarUrl": "/avatars/93bb33e975ab97c1f4179f20d384438f.svg",
+                        "isPro": false,
+                        "fullname": "Jialin Li",
+                        "user": "JialinLi",
+                        "type": "user"
+                    },
+                    "name": "Jialin Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-05T10:39:29.789Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67c7b5900b05ab9c7e805437",
+                    "name": "Min Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-03T09:11:06.000Z",
+            "title": "PipeOffload: Improving Scalability of Pipeline Parallelism with Memory\n  Optimization",
+            "summary": "Pipeline parallelism (PP) is widely used for training large language models\n(LLMs), yet its scalability is often constrained by high activation memory\nconsumption as the number of in-flight microbatches grows with the degree of\nPP. In this paper, we focus on addressing this challenge by leveraging the\nunder-explored memory offload strategy in PP. With empirical study, we discover\nthat in the majority of standard configurations, at least half, and potentially\nall, of the activations can be offloaded with negligible overhead. In the cases\nwhere full overload is not possible, we introduce a novel selective offload\nstrategy that decreases peak activation memory in a better-than-linear manner.\nFurthermore, we integrate memory offload with other techniques to jointly\nconsider overall throughput and memory limitation. Our experiments proves that\nthe per-device activation memory effectively reduces with the total number of\nstages, making PP a stronger alternative than TP, offering up to a 19\\%\nacceleration with even lower memory consumption. The implementation is\nopen-sourced at\nhttps://github.com/sail-sg/zero-bubble-pipeline-parallelism{this url}.",
+            "upvotes": 9,
+            "discussionId": "67c7b5970b05ab9c7e8055a1",
+            "githubRepo": "https://github.com/sail-sg/zero-bubble"
+        },
+        "translation_title": "PipeOffload: 메모리 최적화를 통한 파이프라인 병렬성의 확장성 향상",
+        "purpose": "대형 언어 모델 훈련에서 파이프라인 병렬성의 메모리 소비 문제를 해결하기 위한 새로운 접근법 연구",
+        "method": [
+            "메모리 오프로드 전략을 활용하여 활성화 메모리 사용을 줄이는 실험을 진행함(we focus on addressing this challenge by leveraging the under-explored memory offload strategy in PP.)",
+            "표준 구성에서 반 이상, 경우에 따라 모든 활성화를 오프로드할 수 있음을 발견함(in the majority of standard configurations, at least half, and potentially all, of the activations can be offloaded with negligible overhead.)",
+            "선택적 오프로드 전략을 도입하여 메모리 사용을 비선형적으로 감소시킴(we introduce a novel selective offload strategy that decreases peak activation memory in a better-than-linear manner.)",
+            "메모리 오프로드를 다른 기술과 통합하여 전반적인 처리량과 메모리 제한을 동시에 고려함(we integrate memory offload with other techniques to jointly consider overall throughput and memory limitation.)"
+        ],
+        "conclusion": "따라서, 파이프라인 병렬성이 기존의 방법보다 더 우수하며, 최대 19%의 성능 향상과 낮은 메모리 소비를 가능하게 함.",
+        "keywords": [
+            "Large Language Models",
+            "Pipeline Parallelism",
+            "Memory Optimization"
+        ]
+    }
+]
