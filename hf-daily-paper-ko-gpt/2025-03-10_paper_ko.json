@@ -1,0 +1,674 @@
+[
+    {
+        "paper": {
+            "id": "2503.05236",
+            "authors": [
+                {
+                    "_id": "67ce37239f9aaaae837f3894",
+                    "user": {
+                        "_id": "654c6845bac6e6e49895a5b5",
+                        "avatarUrl": "/avatars/ed1f140abcd4d76669e2e48db1d1193f.svg",
+                        "isPro": false,
+                        "fullname": "Yibin Wang",
+                        "user": "CodeGoat24",
+                        "type": "user"
+                    },
+                    "name": "Yibin Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:37:51.835Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce37239f9aaaae837f3895",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/iUQm5FAomzqYi6fkqIn9F.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T08:01:24.660Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce37239f9aaaae837f3896",
+                    "name": "Hao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce37239f9aaaae837f3897",
+                    "name": "Cheng Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce37239f9aaaae837f3898",
+                    "user": {
+                        "_id": "64638c4d51fa6e63060521b5",
+                        "avatarUrl": "/avatars/c863ace5b1dc788a341bcf4ddbdfaec1.svg",
+                        "isPro": false,
+                        "fullname": "JIaqi",
+                        "user": "Jiaqiwang",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:38:17.938Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-07T08:36:05.000Z",
+            "title": "Unified Reward Model for Multimodal Understanding and Generation",
+            "summary": "Recent advances in human preference alignment have significantly enhanced\nmultimodal generation and understanding. A key approach is training reward\nmodels to guide preference optimization. However, existing models are often\ntask-specific, limiting their adaptability across diverse visual applications.\nWe also argue that jointly learning to assess multiple tasks may foster a\nsynergistic effect, where improved image understanding enhances image\ngeneration assessment, and refined image evaluation benefits video assessment\nthrough better frame analysis. To this end, this paper proposes UnifiedReward,\nthe first unified reward model for multimodal understanding and generation\nassessment, enabling both pairwise ranking and pointwise scoring, which can be\nemployed for vision model preference alignment. Specifically, (1) we first\ndevelop UnifiedReward on our constructed large-scale human preference dataset,\nincluding both image and video generation/understanding tasks. (2) Then, it is\nutilized to automatically construct high-quality preference pair data based on\nthe vision models, fine-gradually filtering their outputs through pair ranking\nand point sifting. (3) Finally, these data are used for their preference\nalignment through Direct Preference Optimization (DPO). Experimental results\ndemonstrate that joint learning to assess diverse visual tasks can lead to\nsubstantial mutual benefits and we apply our pipeline to both image and video\nunderstanding/generation tasks, significantly improving the performance in each\ndomain.",
+            "upvotes": 80,
+            "discussionId": "67ce37259f9aaaae837f3948",
+            "projectPage": "https://codegoat24.github.io/UnifiedReward/",
+            "githubRepo": "https://github.com/CodeGoat24/UnifiedReward",
+            "ai_keywords": [
+                "reward models",
+                "preference optimization",
+                "multimodal generation",
+                "multimodal understanding",
+                "UnifiedReward",
+                "pairwise ranking",
+                "pointwise scoring",
+                "preference alignment",
+                "vision model preference alignment",
+                "Direct Preference Optimization (DPO)"
+            ]
+        },
+        "translation_title": "다중 모달 이해 및 생성을 위한 통합 보상 모델",
+        "purpose": "다양한 시각적 응용 프로그램에서의 적응성을 높이기 위한 통합 보상 모델 개발",
+        "method": [
+            "다중 작업을 함께 평가하는 방법을 통해 향상된 시너지를 도모하고, 이미지 이해 개선이 이미지 생성 평가에 기여하며, 정제된 이미지 평가가 비디오 평가에 도움이 될 수 있음을 제시함.(We also argue that jointly learning to assess multiple tasks may foster a synergistic effect, where improved image understanding enhances image generation assessment, and refined image evaluation benefits video assessment through better frame analysis.)",
+            "자체 구축한 대규모 인간 선호 데이터 세트를 기반으로 UnifiedReward를 개발함.(we first develop UnifiedReward on our constructed large-scale human preference dataset, including both image and video generation/understanding tasks.)",
+            "비주얼 모델에 따라 선호도 쌍 데이터를 자동으로 구성하고 점진적으로 필터링하여 최종적으로 직접 선호 최적화(Direct Preference Optimization, DPO)를 통해 선호를 정렬함.(Then, it is utilized to automatically construct high-quality preference pair data based on the vision models, fine-gradually filtering their outputs through pair ranking and point sifting.)"
+        ],
+        "conclusion": "다양한 시각적 작업을 평가하는 공동 학습이 상호 혜택을 가져오는 데 큰 기여를 하며, 이미지와 비디오 이해 및 생성 작업 모두에서 성능이 크게 향상됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2502.21263",
+            "authors": [
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3a",
+                    "name": "Aleksandr Nesterov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3b",
+                    "name": "Andrey Sakhovskiy",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3c",
+                    "user": {
+                        "_id": "61dedb1b2066746d68b63adb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61dedb1b2066746d68b63adb/PLBHQxvbcay3qDJjY7HM3.jpeg",
+                        "isPro": false,
+                        "fullname": "Ivan Sviridov",
+                        "user": "univanxx",
+                        "type": "user"
+                    },
+                    "name": "Ivan Sviridov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T12:46:22.500Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3d",
+                    "name": "Airat Valiev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3e",
+                    "user": {
+                        "_id": "6563a8dd8fb38d71f77ee20a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/WthtysRoxzNvT5AlIwPlR.jpeg",
+                        "isPro": false,
+                        "fullname": "Vladimir Makharev",
+                        "user": "sm1rk",
+                        "type": "user"
+                    },
+                    "name": "Vladimir Makharev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T12:46:24.513Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb3f",
+                    "name": "Petr Anokhin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb40",
+                    "name": "Galina Zubkova",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced7b271b2e0c1f985fb41",
+                    "user": {
+                        "_id": "662f8d645c4db70c77a203b0",
+                        "avatarUrl": "/avatars/72f9a3c39b3ba5114388d16a35524835.svg",
+                        "isPro": false,
+                        "fullname": "Elena Tutubalina",
+                        "user": "tlenusik",
+                        "type": "user"
+                    },
+                    "name": "Elena Tutubalina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T13:35:18.779Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-02-28T17:40:24.000Z",
+            "title": "RuCCoD: Towards Automated ICD Coding in Russian",
+            "summary": "This study investigates the feasibility of automating clinical coding in\nRussian, a language with limited biomedical resources. We present a new dataset\nfor ICD coding, which includes diagnosis fields from electronic health records\n(EHRs) annotated with over 10,000 entities and more than 1,500 unique ICD\ncodes. This dataset serves as a benchmark for several state-of-the-art models,\nincluding BERT, LLaMA with LoRA, and RAG, with additional experiments examining\ntransfer learning across domains (from PubMed abstracts to medical diagnosis)\nand terminologies (from UMLS concepts to ICD codes). We then apply the\nbest-performing model to label an in-house EHR dataset containing patient\nhistories from 2017 to 2021. Our experiments, conducted on a carefully curated\ntest set, demonstrate that training with the automated predicted codes leads to\na significant improvement in accuracy compared to manually annotated data from\nphysicians. We believe our findings offer valuable insights into the potential\nfor automating clinical coding in resource-limited languages like Russian,\nwhich could enhance clinical efficiency and data accuracy in these contexts.",
+            "upvotes": 76,
+            "discussionId": "67ced7b471b2e0c1f985fbb3",
+            "ai_keywords": [
+                "BERT",
+                "LLaMA with LoRA",
+                "RAG",
+                "transfer learning",
+                "electronic health records (EHRs)",
+                "ICD coding",
+                "UMLS concepts",
+                "automated predicted codes"
+            ]
+        },
+        "translation_title": "RuCCoD: 러시아어에서 임상 진단 코딩 자동화를 위한 연구",
+        "purpose": "러시아어에서의 임상 코딩 자동화 가능성을 탐구하고, 이를 통해 의료 효율성 및 데이터 정확성을 향상시키기 위한 목표",
+        "method": [
+            "ICD 코딩을 위한 새로운 데이터셋을 제시하고, 10,000개 이상의 엔티티 및 1,500개 이상의 고유 ICD 코드로 주석을 달음(This study presents a new dataset for ICD coding, which includes diagnosis fields from electronic health records (EHRs) annotated with over 10,000 entities and more than 1,500 unique ICD codes.)",
+            "최신 모델(BERT, LLaMA with LoRA, RAG 등)을 벤치마크하며, 도메인(예: PubMed 초록에서 의료 진단으로) 및 용어(예: UMLS 개념에서 ICD 코드로) 간 transfer learning 실험을 수행함(This dataset serves as a benchmark for several state-of-the-art models, including BERT, LLaMA with LoRA, and RAG, with additional experiments examining transfer learning across domains and terminologies.)",
+            "가장 성능이 우수한 모델을 적용하여 2017년부터 2021년까지의 환자 기록이 포함된 내부 EHR 데이터셋에 라벨링을 수행함(We then apply the best-performing model to label an in-house EHR dataset containing patient histories from 2017 to 2021.)",
+            "자동 예측 코드를 활용한 훈련이 의사가 주석을 단 데이터보다 정확도에서 유의미한 개선을 가져옴(My experiments, conducted on a carefully curated test set, demonstrate that training with the automated predicted codes leads to a significant improvement in accuracy compared to manually annotated data from physicians.)"
+        ],
+        "conclusion": "우리의 연구는 자원이 제한된 언어에서 임상 코딩 자동화의 가능성에 대한 귀중한 통찰을 제공하며, 이는 해당 언어의 의료 효율성과 데이터 정확성을 향상시킬 수 있는 잠재력이 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Document Parsing",
+            "Medical Coding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.05500",
+            "authors": [
+                {
+                    "_id": "67ce9626e5cdfda52b9e8839",
+                    "user": {
+                        "_id": "62be186a5f59ff2320e6e32b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62be186a5f59ff2320e6e32b/W_emoC2uItM-MJZyCfIKI.png",
+                        "isPro": false,
+                        "fullname": "Nicolas-BZRD",
+                        "user": "Nicolas-BZRD",
+                        "type": "user"
+                    },
+                    "name": "Nicolas Boizard",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:42:06.860Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883a",
+                    "user": {
+                        "_id": "65fa95405355a52c784633fc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65fa95405355a52c784633fc/rSfBUHPa7eSAsLd8DuOq4.png",
+                        "isPro": false,
+                        "fullname": "Hippolyte Gisserot-Boukhlef",
+                        "user": "hgissbkh",
+                        "type": "user"
+                    },
+                    "name": "Hippolyte Gisserot-Boukhlef",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:42:13.176Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883b",
+                    "user": {
+                        "_id": "64132452d8a418df415a6ded",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64132452d8a418df415a6ded/qkjL5G89uldHUXlCI3n4f.jpeg",
+                        "isPro": false,
+                        "fullname": "Duarte Alves",
+                        "user": "DuarteMRAlves",
+                        "type": "user"
+                    },
+                    "name": "Duarte M. Alves",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:42:23.055Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883c",
+                    "name": "André Martins",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883d",
+                    "user": {
+                        "_id": "63937b399762cdd66be2a32f",
+                        "avatarUrl": "/avatars/7aefd888a3c54673d5881dcef61f771b.svg",
+                        "isPro": false,
+                        "fullname": "Ayoub Hammal",
+                        "user": "ayoubhammal",
+                        "type": "user"
+                    },
+                    "name": "Ayoub Hammal",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:42:42.527Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883e",
+                    "user": {
+                        "_id": "677bedd522ca8585ede98470",
+                        "avatarUrl": "/avatars/54bca410c446610f02aca55918c74518.svg",
+                        "isPro": false,
+                        "fullname": "Caio Corro",
+                        "user": "caiocorro",
+                        "type": "user"
+                    },
+                    "name": "Caio Corro",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:42:48.603Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e883f",
+                    "user": {
+                        "_id": "61efea03a57920a251ec19b8",
+                        "avatarUrl": "/avatars/f47c8e3cb17a2bf7d43f2c152bb86885.svg",
+                        "isPro": false,
+                        "fullname": "Celine Hudelot",
+                        "user": "CelineH",
+                        "type": "user"
+                    },
+                    "name": "Céline Hudelot",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:51:41.273Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8840",
+                    "user": {
+                        "_id": "66f2d6a684a241caac8e16dc",
+                        "avatarUrl": "/avatars/81acb87c2b07bea938251b40a2139911.svg",
+                        "isPro": false,
+                        "fullname": "Emmanuel Malherbe",
+                        "user": "emmanuelmalherbe",
+                        "type": "user"
+                    },
+                    "name": "Emmanuel Malherbe",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:51:47.996Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8841",
+                    "name": "Etienne Malaboeuf",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8842",
+                    "user": {
+                        "_id": "6708db59caf70ddea8e1355d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6708db59caf70ddea8e1355d/C6T16AdpqoeWCk7Gg9wSH.jpeg",
+                        "isPro": false,
+                        "fullname": "Fanny Jourdan",
+                        "user": "Fannyjrd",
+                        "type": "user"
+                    },
+                    "name": "Fanny Jourdan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:09.223Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8843",
+                    "user": {
+                        "_id": "67cafedda972115e89972cd7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/P_xComqG9IttvluN-6tyB.png",
+                        "isPro": false,
+                        "fullname": "Gabriel Hautreux",
+                        "user": "GabrielHau",
+                        "type": "user"
+                    },
+                    "name": "Gabriel Hautreux",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:15.512Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8844",
+                    "user": {
+                        "_id": "6772bde5c997eeb5550e80ea",
+                        "avatarUrl": "/avatars/8134a4d9330317e748dc7b33e1bb25f6.svg",
+                        "isPro": false,
+                        "fullname": "João Alves",
+                        "user": "albusonrails",
+                        "type": "user"
+                    },
+                    "name": "João Alves",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:22.630Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8845",
+                    "user": {
+                        "_id": "66e2c22d7cc3edd60d725267",
+                        "avatarUrl": "/avatars/b217c5708c7dba8b1c220f37984ccc1e.svg",
+                        "isPro": false,
+                        "fullname": "Kevin El Haddad",
+                        "user": "kelhad",
+                        "type": "user"
+                    },
+                    "name": "Kevin El-Haddad",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:31.191Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8846",
+                    "user": {
+                        "_id": "60f2e021adf471cbdf8bb660",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1654090481550-60f2e021adf471cbdf8bb660.jpeg",
+                        "isPro": false,
+                        "fullname": "Manuel Faysse",
+                        "user": "manu",
+                        "type": "user"
+                    },
+                    "name": "Manuel Faysse",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:38.114Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8847",
+                    "user": {
+                        "_id": "6369394dd322a76e1ea4bdf6",
+                        "avatarUrl": "/avatars/a4e5ab0167025fbbfc970d54630ce754.svg",
+                        "isPro": false,
+                        "fullname": "Maxime Peyrard",
+                        "user": "peyrardm",
+                        "type": "user"
+                    },
+                    "name": "Maxime Peyrard",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:44.389Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8848",
+                    "user": {
+                        "_id": "67b622d2df3a86fbca306c43",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/lNlshrl56oaKslArMzSzj.png",
+                        "isPro": false,
+                        "fullname": "Nuno  Guerreiro",
+                        "user": "nunogj",
+                        "type": "user"
+                    },
+                    "name": "Nuno M. Guerreiro",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:52:54.367Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e8849",
+                    "name": "Patrick Fernandes",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e884a",
+                    "name": "Ricardo Rei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce9626e5cdfda52b9e884b",
+                    "user": {
+                        "_id": "644a900e3a619fe72b14af0f",
+                        "avatarUrl": "/avatars/e2d5dac3d92757ed48e37e126a3464a3.svg",
+                        "isPro": false,
+                        "fullname": "Colombo",
+                        "user": "PierreColombo",
+                        "type": "user"
+                    },
+                    "name": "Pierre Colombo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-10T09:41:26.353Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-07T15:13:58.000Z",
+            "title": "EuroBERT: Scaling Multilingual Encoders for European Languages",
+            "summary": "General-purpose multilingual vector representations, used in retrieval,\nregression and classification, are traditionally obtained from bidirectional\nencoder models. Despite their wide applicability, encoders have been recently\novershadowed by advances in generative decoder-only models. However, many\ninnovations driving this progress are not inherently tied to decoders. In this\npaper, we revisit the development of multilingual encoders through the lens of\nthese advances, and introduce EuroBERT, a family of multilingual encoders\ncovering European and widely spoken global languages. Our models outperform\nexisting alternatives across a diverse range of tasks, spanning multilingual\ncapabilities, mathematics, and coding, and natively supporting sequences of up\nto 8,192 tokens. We also examine the design decisions behind EuroBERT, offering\ninsights into our dataset composition and training pipeline. We publicly\nrelease the EuroBERT models, including intermediate training checkpoints,\ntogether with our training framework.",
+            "upvotes": 48,
+            "discussionId": "67ce9627e5cdfda52b9e88a4",
+            "ai_keywords": [
+                "bidirectional encoder models",
+                "generative decoder-only models",
+                "multilingual encoders",
+                "EuroBERT",
+                "multilingual capabilities",
+                "sequences of up to 8,192 tokens",
+                "intermediate training checkpoints",
+                "training framework"
+            ]
+        },
+        "translation_title": "EuroBERT: 유럽 언어를 위한 다국어 인코더 확장",
+        "purpose": "유럽과 널리 사용되는 언어를 포함하는 다국어 인코더를 개발하고 성능을 높이기 위한 연구",
+        "method": [
+            "최근 발전한 생성형 디코더 모형과는 별개로 다국어 인코더의 발전을 재조명함(In this paper, we revisit the development of multilingual encoders through the lens of these advances.)",
+            "EuroBERT라는 다국어 인코더 모델을 제안하고, 다양한 작업에서 기존 모델을 초월하는 성능을 보임(Our models outperform existing alternatives across a diverse range of tasks.)",
+            "8,192 토큰까지의 시퀀스를 원활하게 지원하는 모델 구조를 설계함(natively supporting sequences of up to 8,192 tokens.)"
+        ],
+        "conclusion": "EuroBERT는 유럽 언어에 대한 성능이 뛰어나며, 훈련 체크포인트와 훈련 프레임워크를 공개함으로써 연구자들에게 유용한 자원을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.05085",
+            "authors": [
+                {
+                    "_id": "67ced88fa0db83a841e09be6",
+                    "user": {
+                        "_id": "62d4cdbdb9e2ec814c0e0659",
+                        "avatarUrl": "/avatars/616dd89be0fe8937b32c3f23c69a4e15.svg",
+                        "isPro": false,
+                        "fullname": "feng jiang",
+                        "user": "liuxuan320",
+                        "type": "user"
+                    },
+                    "name": "Feng Jiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T12:46:04.417Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced88fa0db83a841e09be7",
+                    "user": {
+                        "_id": "67061847e343e345b777d574",
+                        "avatarUrl": "/avatars/6b6f35aa563dcf32937c4b6a3cdd870e.svg",
+                        "isPro": false,
+                        "fullname": "Zhiyu",
+                        "user": "zylin1",
+                        "type": "user"
+                    },
+                    "name": "Zhiyu Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T13:35:13.930Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced88fa0db83a841e09be8",
+                    "user": {
+                        "_id": "668e7f46c243a12604035758",
+                        "avatarUrl": "/avatars/35bd20032fafb7d7603266cf9a72d1e0.svg",
+                        "isPro": false,
+                        "fullname": "Fan Bu",
+                        "user": "FanBuCUHK",
+                        "type": "user"
+                    },
+                    "name": "Fan Bu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T13:35:16.297Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced88fa0db83a841e09be9",
+                    "name": "Yuhao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced88fa0db83a841e09bea",
+                    "user": {
+                        "_id": "637c6703ca8542a0ba900ccb",
+                        "avatarUrl": "/avatars/288ed63a1efa566c3f01e850c6ba5dd5.svg",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Benyou",
+                        "type": "user"
+                    },
+                    "name": "Benyou Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T13:35:11.668Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ced88fa0db83a841e09beb",
+                    "name": "Haizhou Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-07T02:07:00.000Z",
+            "title": "S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following\n  with Paralinguistic Information",
+            "summary": "The rapid development of large language models (LLMs) has brought significant\nattention to speech models, particularly recent progress in speech2speech\nprotocols supporting speech input and output. However, the existing benchmarks\nadopt automatic text-based evaluators for evaluating the instruction following\nability of these models lack consideration for paralinguistic information in\nboth speech understanding and generation. To address these issues, we introduce\nS2S-Arena, a novel arena-style S2S benchmark that evaluates\ninstruction-following capabilities with paralinguistic information in both\nspeech-in and speech-out across real-world tasks. We design 154 samples that\nfused TTS and live recordings in four domains with 21 tasks and manually\nevaluate existing popular speech models in an arena-style manner. The\nexperimental results show that: (1) in addition to the superior performance of\nGPT-4o, the speech model of cascaded ASR, LLM, and TTS outperforms the jointly\ntrained model after text-speech alignment in speech2speech protocols; (2)\nconsidering paralinguistic information, the knowledgeability of the speech\nmodel mainly depends on the LLM backbone, and the multilingual support of that\nis limited by the speech module; (3) excellent speech models can already\nunderstand the paralinguistic information in speech input, but generating\nappropriate audio with paralinguistic information is still a challenge.",
+            "upvotes": 37,
+            "discussionId": "67ced890a0db83a841e09c1b",
+            "githubRepo": "https://github.com/FreedomIntelligence/S2S-Arena",
+            "ai_keywords": [
+                "large language models (LLMs)",
+                "speech2speech protocols",
+                "speech input and output",
+                "speech models",
+                "paralinguistic information",
+                "speech understanding",
+                "speech generation",
+                "S2S-Arena",
+                "arena-style S2S benchmark",
+                "instruction-following capabilities",
+                "TTS (Text-to-Speech)",
+                "live recordings",
+                "cascaded ASR (Automatic Speech Recognition)",
+                "jointly trained model",
+                "text-speech alignment",
+                "knowledgeability",
+                "multilingual support",
+                "speech module"
+            ]
+        },
+        "translation_title": "S2S-Arena: 지시 수행 평가를 위한 Speech2Speech 프로토콜의 패러링귀스틱 정보 활용",
+        "purpose": "Speech2Speech 모델의 지시 수행 능력을 패러링귀스틱 정보를 고려하여 평가하기 위한 새로운 벤치마크 연구",
+        "method": [
+            "S2S-Arena라는 새로운 arena 스타일의 벤치마크를 도입하여 실제 작업에서 speech-in 및 speech-out의 지시 수행 능력을 평가함(To address these issues, we introduce S2S-Arena, a novel arena-style S2S benchmark that evaluates instruction-following capabilities with paralinguistic information in both speech-in and speech-out across real-world tasks.)",
+            "154개의 샘플을 설계하여 4개 도메인과 21개 작업에서 TTS와 실시간 녹음을 융합하여 수작업으로 기존의 인기 있는 음성 모델을 평가함(We design 154 samples that fused TTS and live recordings in four domains with 21 tasks and manually evaluate existing popular speech models in an arena-style manner.)",
+            "실험 결과를 통해 GPT-4o, ASR과 LLM 및 TTS가 연계된 음성 모델이 텍스트-음성 정렬 후에 협력 훈련된 모델보다 성능이 뛰어남을 확인함(The experimental results show that: in addition to the superior performance of GPT-4o, the speech model of cascaded ASR, LLM, and TTS outperforms the jointly trained model after text-speech alignment in speech2speech protocols.)"
+        ],
+        "conclusion": "우수한 음성 모델은 입력의 패러링귀스틱 정보를 이해할 수 있지만, 적절한 패러링귀스틱 정보를 가진 오디오 생성은 여전히 도전 과제임을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.05179",
+            "authors": [
+                {
+                    "_id": "67ce4bff5847e4787a7ebedd",
+                    "user": {
+                        "_id": "65f4060754ecda1ecb5797a0",
+                        "avatarUrl": "/avatars/f8b44524d36b505673cb538fd7895a82.svg",
+                        "isPro": false,
+                        "fullname": "Simon Aytes",
+                        "user": "saytes",
+                        "type": "user"
+                    },
+                    "name": "Simon A. Aytes",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T08:01:10.363Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce4bff5847e4787a7ebede",
+                    "user": {
+                        "_id": "63036b6c5c70c21d0ea79d48",
+                        "avatarUrl": "/avatars/a7eb03f5cbd4eaa09fe807bbed8bc0f7.svg",
+                        "isPro": false,
+                        "fullname": "Jinheon Baek",
+                        "user": "jinheon",
+                        "type": "user"
+                    },
+                    "name": "Jinheon Baek",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-10T08:01:13.328Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ce4bff5847e4787a7ebedf",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-07T06:57:17.000Z",
+            "title": "Sketch-of-Thought: Efficient LLM Reasoning with Adaptive\n  Cognitive-Inspired Sketching",
+            "summary": "Recent advances in large language models have demonstrated remarkable\nreasoning capabilities through Chain of Thought (CoT) prompting, but often at\nthe cost of excessive verbosity in their intermediate outputs, which increases\ncomputational overhead. We introduce Sketch-of-Thought (SoT), a novel prompting\nframework that combines cognitive-inspired reasoning paradigms with linguistic\nconstraints to minimize token usage while preserving reasoning accuracy. SoT is\ndesigned as a flexible framework that can incorporate any custom reasoning\nparadigms based on cognitive science, and we instantiate it with three such\nparadigms - Conceptual Chaining, Chunked Symbolism, and Expert Lexicons - each\ntailored to different reasoning tasks and selected dynamically via a\nlightweight routing model. Through comprehensive evaluation across 15 reasoning\ndatasets with multiple languages and multimodal scenarios, we demonstrate that\nSoT achieves token reductions of 76% with negligible accuracy impact. In\ncertain domains like mathematical and multi-hop reasoning, it even improves\naccuracy while using significantly fewer tokens. Our code is publicly\navailable: https://www.github.com/SimonAytes/SoT.",
+            "upvotes": 31,
+            "discussionId": "67ce4c035847e4787a7ebf4c",
+            "projectPage": "https://huggingface.co/saytes/SoT_DistilBERT",
+            "githubRepo": "https://github.com/SimonAytes/SoT",
+            "ai_keywords": [
+                "Sketch-of-Thought (SoT)",
+                "Chain of Thought (CoT)",
+                "token usage",
+                "reasoning accuracy",
+                "Conceptual Chaining",
+                "Chunked Symbolism",
+                "Expert Lexicons",
+                "lightweight routing model",
+                "multimodal scenarios",
+                "reasoning datasets",
+                "mathematical reasoning",
+                "multi-hop reasoning"
+            ]
+        },
+        "translation_title": "Sketch-of-Thought: 적응형 인지 영감을 받은 스케치로 효율적인 LLM 추론",
+        "purpose": "추론의 정확성을 유지하면서도 토큰 사용량을 최소화하기 위해 새로운 프롬프트 프레임워크를 제안하는 것",
+        "method": [
+            "인지 과학에 기반한 추론 패러다임과 언어적 제약을 결합하여 SoT 프레임워크를 설계함(We introduce Sketch-of-Thought (SoT), a novel prompting framework that combines cognitive-inspired reasoning paradigms with linguistic constraints to minimize token usage while preserving reasoning accuracy.)",
+            "세 가지 커스터마이징된 추론 패러다임인 Conceptual Chaining, Chunked Symbolism, Expert Lexicons를 사용하여 형식화함(we instantiate it with three such paradigms - Conceptual Chaining, Chunked Symbolism, and Expert Lexicons...)",
+            "15개의 추론 데이터셋을 사용한 포괄적인 평가를 통해 SoT가 76%의 토큰 감소를 달성하며, 정확성에 미치는 영향은 미미함(Through comprehensive evaluation across 15 reasoning datasets... we demonstrate that SoT achieves token reductions of 76% with negligible accuracy impact.)"
+        ],
+        "conclusion": "특정 도메인에서는 정확성이 개선되기도 하며, 전체적으로 SoT가 토큰을 크게 줄이는 데 효과적임을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
