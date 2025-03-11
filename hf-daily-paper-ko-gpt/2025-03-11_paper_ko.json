@@ -1,0 +1,613 @@
+[
+    {
+        "paper": {
+            "id": "2503.03601",
+            "authors": [
+                {
+                    "_id": "67cbfff12cc05acaab147f07",
+                    "name": "Kristian Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f08",
+                    "user": {
+                        "_id": "636254dc2691058b19d9276a",
+                        "avatarUrl": "/avatars/36eb0e27e0e321fb0ac513f0d4d67c95.svg",
+                        "isPro": false,
+                        "fullname": "Kushnareva",
+                        "user": "Kushnareva",
+                        "type": "user"
+                    },
+                    "name": "Laida Kushnareva",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-11T08:23:18.630Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f09",
+                    "user": {
+                        "_id": "65d5e094cd05bc1eaa0fafc9",
+                        "avatarUrl": "/avatars/ea3d52def6ef4d9af07728a76a499a9f.svg",
+                        "isPro": false,
+                        "fullname": "Polina Druzhinina",
+                        "user": "plina2polina",
+                        "type": "user"
+                    },
+                    "name": "Polina Druzhinina",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:23:35.842Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f0a",
+                    "user": {
+                        "_id": "6172aaeec8e66e2aa84c06b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6172aaeec8e66e2aa84c06b9/ZdRZSp3P1SU6CIDbvQwkv.jpeg",
+                        "isPro": false,
+                        "fullname": "Anton Razzhigaev",
+                        "user": "razzant",
+                        "type": "user"
+                    },
+                    "name": "Anton Razzhigaev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-11T08:23:21.197Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f0b",
+                    "user": {
+                        "_id": "64cbfc39a81988d0735867a1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64cbfc39a81988d0735867a1/JLlYTaRa70H4MzLXOHhEB.jpeg",
+                        "isPro": false,
+                        "fullname": "Anastasia Voznyuk",
+                        "user": "natriistorm",
+                        "type": "user"
+                    },
+                    "name": "Anastasia Voznyuk",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:23:50.503Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f0c",
+                    "name": "Irina Piontkovskaya",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f0d",
+                    "name": "Evgeny Burnaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cbfff12cc05acaab147f0e",
+                    "name": "Serguei Barannikov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-05T15:33:52.000Z",
+            "title": "Feature-Level Insights into Artificial Text Detection with Sparse\n  Autoencoders",
+            "summary": "Artificial Text Detection (ATD) is becoming increasingly important with the\nrise of advanced Large Language Models (LLMs). Despite numerous efforts, no\nsingle algorithm performs consistently well across different types of unseen\ntext or guarantees effective generalization to new LLMs. Interpretability plays\na crucial role in achieving this goal. In this study, we enhance ATD\ninterpretability by using Sparse Autoencoders (SAE) to extract features from\nGemma-2-2b residual stream. We identify both interpretable and efficient\nfeatures, analyzing their semantics and relevance through domain- and\nmodel-specific statistics, a steering approach, and manual or LLM-based\ninterpretation. Our methods offer valuable insights into how texts from various\nmodels differ from human-written content. We show that modern LLMs have a\ndistinct writing style, especially in information-dense domains, even though\nthey can produce human-like outputs with personalized prompts.",
+            "upvotes": 119,
+            "discussionId": "67cbfff22cc05acaab147f4d",
+            "ai_keywords": [
+                "Sparse Autoencoders",
+                "Gemma-2-2b",
+                "residual stream",
+                "interpretability",
+                "domain-specific statistics",
+                "model-specific statistics",
+                "steering approach",
+                "LLM-based interpretation",
+                "writing style",
+                "information-dense domains",
+                "human-like outputs"
+            ]
+        },
+        "translation_title": "희소 오토인코더를 활용한 인공 텍스트 탐지의 특성 수준 통찰",
+        "purpose": "인공 텍스트 탐지(ATD)의 해석 가능성을 향상시키고 다양한 미확인 텍스트에서의 일반화 성능을 개선하기 위함",
+        "method": [
+            "희소 오토인코더(SAE)를 사용해 Gemma-2-2b 잔여 스트림에서 특징을 추출함(we enhance ATD interpretability by using Sparse Autoencoders (SAE) to extract features from Gemma-2-2b residual stream.)",
+            "특성이 해석 가능하고 효율적임을 식별하고, 이를 도메인 및 모델별 통계와 해석을 통해 분석함(We identify both interpretable and efficient features, analyzing their semantics and relevance through domain- and model-specific statistics, a steering approach, and manual or LLM-based interpretation.)",
+            "다양한 모델에서 생성된 텍스트와 인간이 쓴 콘텐츠의 차이를 분석함(Our methods offer valuable insights into how texts from various models differ from human-written content.)"
+        ],
+        "conclusion": "현대의 LLM은 정보가 조밀한 영역에서 독특한 작성 스타일을 가지고 있으며, 개인화된 프롬프트로 인간과 유사한 출력을 생성할 수 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Text Detection"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.07605",
+            "authors": [
+                {
+                    "_id": "67cfa0c1edb742caa3572982",
+                    "name": "Xun Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572983",
+                    "user": {
+                        "_id": "669e0b93c7cb0568dac6e92e",
+                        "avatarUrl": "/avatars/a39ea77d7391f164af8a80f94f85f2ca.svg",
+                        "isPro": false,
+                        "fullname": "hanyu Wang",
+                        "user": "UglyToilet",
+                        "type": "user"
+                    },
+                    "name": "Hanyu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-11T08:22:46.104Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572984",
+                    "name": "Huayi Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572985",
+                    "user": {
+                        "_id": "66daea8776dbaaa372eabec5",
+                        "avatarUrl": "/avatars/1e5fbe4ff06bb6121c7029253b76b79f.svg",
+                        "isPro": false,
+                        "fullname": "siminniu",
+                        "user": "siminniu",
+                        "type": "user"
+                    },
+                    "name": "Simin Niu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:32:27.196Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572986",
+                    "user": {
+                        "_id": "656f339a5273668d5b946b33",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656f339a5273668d5b946b33/o2nBvQiOKKP5IfDmnpHP2.jpeg",
+                        "isPro": false,
+                        "fullname": "Shichao Song",
+                        "user": "Ki-Seki",
+                        "type": "user"
+                    },
+                    "name": "Shichao Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:32:34.461Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572987",
+                    "name": "Jiawei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572988",
+                    "name": "Jihao Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa3572989",
+                    "name": "Feiyu Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa357298a",
+                    "user": {
+                        "_id": "66b02a2642c34e7a212133c0",
+                        "avatarUrl": "/avatars/737a69b095e8c427ecd08f870b173635.svg",
+                        "isPro": false,
+                        "fullname": "Bo Tang",
+                        "user": "BO1022",
+                        "type": "user"
+                    },
+                    "name": "Bo Tang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:43:43.972Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa0c1edb742caa357298b",
+                    "name": "Zhiyu Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-10T17:59:03.000Z",
+            "title": "SEAP: Training-free Sparse Expert Activation Pruning Unlock the\n  Brainpower of Large Language Models",
+            "summary": "Large Language Models have achieved remarkable success across various natural\nlanguage processing tasks, yet their high computational cost during inference\nremains a major bottleneck. This paper introduces Sparse Expert Activation\nPruning (SEAP), a training-free pruning method that selectively retains\ntask-relevant parameters to reduce inference overhead. Inspired by the\nclustering patterns of hidden states and activations in LLMs, SEAP identifies\ntask-specific expert activation patterns and prunes the model while preserving\ntask performance and enhancing computational efficiency. Experimental results\ndemonstrate that SEAP significantly reduces computational overhead while\nmaintaining competitive accuracy. Notably, at 50% pruning, SEAP surpasses both\nWandA and FLAP by over 20%, and at 20% pruning, it incurs only a 2.2%\nperformance drop compared to the dense model. These findings highlight SEAP's\nscalability and effectiveness, making it a promising approach for optimizing\nlarge-scale LLMs.",
+            "upvotes": 56,
+            "discussionId": "67cfa0c2edb742caa35729dc",
+            "githubRepo": "https://github.com/IAAR-Shanghai/SEAP",
+            "ai_keywords": [
+                "Sparse Expert Activation Pruning (SEAP)",
+                "hidden states",
+                "activations",
+                "task-specific expert activation patterns",
+                "computational efficiency"
+            ]
+        },
+        "translation_title": "SEAP: 훈련 없는 희소 전문가 활성화 가지치기로 대형 언어 모델의 두뇌를 활용하다",
+        "purpose": "대형 언어 모델의 추론 시 높은 계산 비용 문제를 해결하기 위한 방법 연구",
+        "method": [
+            "훈련 과정 없이 특정 작업 관련 매개변수만 선택적으로 유지하는 SEAP 방법을 소개함(This paper introduces Sparse Expert Activation Pruning (SEAP), a training-free pruning method that selectively retains task-relevant parameters to reduce inference overhead.)",
+            "LLM의 숨겨진 상태와 활성화 패턴을 분석하여 작업별 전문가 활성화 패턴을 식별하고 모델 가지치기를 수행함(Inspired by the clustering patterns of hidden states and activations in LLMs, SEAP identifies task-specific expert activation patterns and prunes the model while preserving task performance and enhancing computational efficiency.)",
+            "실험 결과 SEAP가 계산 오버헤드를 상당히 줄이면서 경쟁력 있는 정확도를 유지함을 입증함(Experimental results demonstrate that SEAP significantly reduces computational overhead while maintaining competitive accuracy.)"
+        ],
+        "conclusion": "SEAP는 계산 효율성을 극대화하며, 대형 LLM 최적화에 효과적임을 나타낸다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.07365",
+            "authors": [
+                {
+                    "_id": "67cf9cd037bc7273882147a3",
+                    "user": {
+                        "_id": "640b37b2bab5ca8fbe7df8f2",
+                        "avatarUrl": "/avatars/c7bef45efad6a0d911a720e2236fcba5.svg",
+                        "isPro": false,
+                        "fullname": "fanqing meng",
+                        "user": "FanqingM",
+                        "type": "user"
+                    },
+                    "name": "Fanqing Meng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:25:13.253Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a4",
+                    "user": {
+                        "_id": "666fe1a5b07525f0bde69c27",
+                        "avatarUrl": "/avatars/bb98ab0b974c8fe011739baa8dadd91a.svg",
+                        "isPro": false,
+                        "fullname": "Lingxiao Du",
+                        "user": "Cierra0506",
+                        "type": "user"
+                    },
+                    "name": "Lingxiao Du",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:25:22.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a5",
+                    "name": "Zongkai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a6",
+                    "name": "Zhixiang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a7",
+                    "user": {
+                        "_id": "653a483dacdeea08424ef55d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/tYG2isIZBLCaBbWABatgK.png",
+                        "isPro": false,
+                        "fullname": "Quanfeng Lu",
+                        "user": "hflqf88888",
+                        "type": "user"
+                    },
+                    "name": "Quanfeng Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:30:58.512Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a8",
+                    "name": "Daocheng Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147a9",
+                    "user": {
+                        "_id": "643df87f7cd64d872cb9fabd",
+                        "avatarUrl": "/avatars/c53bfabcee08de448dde973915e8b31d.svg",
+                        "isPro": false,
+                        "fullname": "Botian Shi",
+                        "user": "friskit",
+                        "type": "user"
+                    },
+                    "name": "Botian Shi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:31:14.118Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147aa",
+                    "user": {
+                        "_id": "64d1c560c0c627dfa71bdbe0",
+                        "avatarUrl": "/avatars/f42794fe25bffcd870a1bcee69b95298.svg",
+                        "isPro": false,
+                        "fullname": "wenhai.wang",
+                        "user": "wangwhcore",
+                        "type": "user"
+                    },
+                    "name": "Wenhai Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:31:26.926Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147ab",
+                    "user": {
+                        "_id": "66b593026cef22e6ba6adb8a",
+                        "avatarUrl": "/avatars/8a94d55b85177e84d65dd0bd537e335f.svg",
+                        "isPro": false,
+                        "fullname": "JunjunHe",
+                        "user": "JunjunHe",
+                        "type": "user"
+                    },
+                    "name": "Junjun He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:31:39.917Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147ac",
+                    "user": {
+                        "_id": "63527f4e7d071f23d085ad45",
+                        "avatarUrl": "/avatars/99a51adef5673b3ac1a8c02eb47759c4.svg",
+                        "isPro": false,
+                        "fullname": "KAIPENG ZHANG",
+                        "user": "kpzhang",
+                        "type": "user"
+                    },
+                    "name": "Kaipeng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:31:47.538Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147ad",
+                    "user": {
+                        "_id": "67cb7d55560c3dcbb1adeaa3",
+                        "avatarUrl": "/avatars/0b616d3655b0b54a621c2608b2f14379.svg",
+                        "isPro": false,
+                        "fullname": "Ping Luo",
+                        "user": "appleluo",
+                        "type": "user"
+                    },
+                    "name": "Ping Luo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:31:54.446Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147ae",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147af",
+                    "user": {
+                        "_id": "63cf4ecdc1dedf59c8f8362e",
+                        "avatarUrl": "/avatars/cede885854d6a1551860080d55c87568.svg",
+                        "isPro": false,
+                        "fullname": "Qiaosheng ZHANG",
+                        "user": "Domingo12",
+                        "type": "user"
+                    },
+                    "name": "Qiaosheng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:32:02.499Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cf9cd037bc7273882147b0",
+                    "user": {
+                        "_id": "64b3fd42eec33e27dcc4c941",
+                        "avatarUrl": "/avatars/5aa1a99468fa61d4b8b0e80b592c4e55.svg",
+                        "isPro": false,
+                        "fullname": "Wenqi Shao",
+                        "user": "wqshao126",
+                        "type": "user"
+                    },
+                    "name": "Wenqi Shao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:25:01.021Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-10T14:23:12.000Z",
+            "title": "MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale\n  Reinforcement Learning",
+            "summary": "We present MM-Eureka, a multimodal reasoning model that successfully extends\nlarge-scale rule-based reinforcement learning (RL) to multimodal reasoning.\nWhile rule-based RL has shown remarkable success in improving LLMs' reasoning\nabilities in text domains, its application to multimodal settings has remained\nchallenging. Our work reproduces key characteristics of text-based RL systems\nlike DeepSeek-R1 in the multimodal space, including steady increases in\naccuracy reward and response length, and the emergence of reflection behaviors.\nWe demonstrate that both instruction-tuned and pre-trained models can develop\nstrong multimodal reasoning capabilities through rule-based RL without\nsupervised fine-tuning, showing superior data efficiency compared to\nalternative approaches. We open-source our complete pipeline to foster further\nresearch in this area. We release all our codes, models, data, etc. at\nhttps://github.com/ModalMinds/MM-EUREKA",
+            "upvotes": 44,
+            "discussionId": "67cf9cd137bc7273882147e2",
+            "ai_keywords": [
+                "multimodal reasoning",
+                "rule-based reinforcement learning (RL)",
+                "large-scale rule-based reinforcement learning (RL)",
+                "DeepSeek-R1",
+                "multimodal space",
+                "accuracy reward",
+                "response length",
+                "reflection behaviors",
+                "instruction-tuned",
+                "pre-trained models",
+                "multimodal reasoning capabilities",
+                "rule-based RL",
+                "supervised fine-tuning",
+                "data efficiency"
+            ]
+        },
+        "translation_title": "MM-Eureka: 규칙 기반 대규모 강화 학습을 통한 시각적 '아하' 순간 탐구",
+        "purpose": "대규모 규칙 기반 강화 학습을 다중 모달 추론에 성공적으로 확장하여 멀티모달 추론 능력을 향상시키기 위함",
+        "method": [
+            "멀티모달 공간에서 텍스트 기반 RL 시스템의 주요 특성을 재현함(Our work reproduces key characteristics of text-based RL systems like DeepSeek-R1 in the multimodal space.)",
+            "규칙 기반 RL을 통해 지침 조정 및 사전 학습된 모델이 감독 학습 없이도 강력한 멀티모달 추론 능력을 개발할 수 있음을 입증함(We demonstrate that both instruction-tuned and pre-trained models can develop strong multimodal reasoning capabilities through rule-based RL without supervised fine-tuning.)",
+            "다른 접근법에 비해 데이터 효율성이 우수함을 보여줌(showing superior data efficiency compared to alternative approaches.)"
+        ],
+        "conclusion": "MM-Eureka 모델은 멀티모달 추론 능력을 크게 향상시킬 수 있으며, 관련 연구를 촉진하기 위해 모든 코드와 모델을 오픈 소스 형태로 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.07002",
+            "authors": [
+                {
+                    "_id": "67cfa814d212c9c5048845a0",
+                    "name": "Jiazheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa814d212c9c5048845a1",
+                    "user": {
+                        "_id": "64eac1f496f42afd627d439c",
+                        "avatarUrl": "/avatars/aa46265122b8a1170f57475494d7922e.svg",
+                        "isPro": false,
+                        "fullname": "Sipeng Zheng",
+                        "user": "sipeng9527",
+                        "type": "user"
+                    },
+                    "name": "Sipeng Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T10:59:45.667Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa814d212c9c5048845a2",
+                    "user": {
+                        "_id": "61e52be53d6dbb1da842316a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                        "isPro": false,
+                        "fullname": "Börje Karlsson",
+                        "user": "tellarin",
+                        "type": "user"
+                    },
+                    "name": "Börje F. Karlsson",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-11T08:22:32.095Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa814d212c9c5048845a3",
+                    "name": "Zongqing Lu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-10T07:32:53.000Z",
+            "title": "Taking Notes Brings Focus? Towards Multi-Turn Multimodal Dialogue\n  Learning",
+            "summary": "Multimodal large language models (MLLMs), built on large-scale pre-trained\nvision towers and language models, have shown great capabilities in multimodal\nunderstanding. However, most existing MLLMs are trained on single-turn vision\nquestion-answering tasks, which do not accurately reflect real-world human\nconversations. In this paper, we introduce MMDiag, a multi-turn multimodal\ndialogue dataset. This dataset is collaboratively generated through\ndeliberately designed rules and GPT assistance, featuring strong correlations\nbetween questions, between questions and images, and among different image\nregions; thus aligning more closely with real-world scenarios. MMDiag serves as\na strong benchmark for multi-turn multimodal dialogue learning and brings more\nchallenges to the grounding and reasoning capabilities of MLLMs. Further,\ninspired by human vision processing, we present DiagNote, an MLLM equipped with\nmultimodal grounding and reasoning capabilities. DiagNote consists of two\nmodules (Deliberate and Gaze) interacting with each other to perform\nChain-of-Thought and annotations respectively, throughout multi-turn dialogues.\nWe empirically demonstrate the advantages of DiagNote in both grounding and\njointly processing and reasoning with vision and language information over\nexisting MLLMs.",
+            "upvotes": 31,
+            "discussionId": "67cfa818d212c9c504884689",
+            "ai_keywords": [
+                "multimodal large language models (MLLMs)",
+                "vision towers",
+                "multi-turn vision question-answering tasks",
+                "multi-turn multimodal dialogue dataset (MMDiag)",
+                "GPT assistant",
+                "multimodal dialogue learning",
+                "grounding",
+                "reasoning capabilities",
+                "Deliberate module",
+                "Gaze module",
+                "Chain-of-Thought"
+            ]
+        },
+        "translation_title": "노트 필기는 집중력을 높일까? 다중 턴 멀티모달 대화 학습을 향하여",
+        "purpose": "실제 인간 대화를 더 잘 반영하는 다중 턴 멀티모달 대화 데이터 세트를 개선하려고 함",
+        "method": [
+            "MMDiag이라는 다중 턴 멀티모달 대화 데이터 세트를 협력적으로 생성함(we introduce MMDiag, a multi-turn multimodal dialogue dataset.)",
+            "이 데이터 세트는 질문 간, 질문과 이미지 간, 다양한 이미지 영역 간의 강한 상관관계를 특징으로 함(features strong correlations between questions, between questions and images, and among different image regions.)",
+            "DiagNote라는 MLLM을 제시하고, 다중 턴 대화에서 Chain-of-Thought와 주석을 수행하도록 설계함(we present DiagNote, an MLLM equipped with multimodal grounding and reasoning capabilities.)"
+        ],
+        "conclusion": "DiagNote는 기존의 MLLM에 비해 비전과 언어 정보를 함께 처리하고 추론하는 데에 있어서 장점을 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.07314",
+            "authors": [
+                {
+                    "_id": "67cfa750c8f2a661dc9798fe",
+                    "user": {
+                        "_id": "6345a93afe134dfd7a0cfabd",
+                        "avatarUrl": "/avatars/65130ce06b1c72ab1066678419731d88.svg",
+                        "isPro": false,
+                        "fullname": "wu weijia",
+                        "user": "weijiawu",
+                        "type": "user"
+                    },
+                    "name": "Weijia Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T11:00:27.031Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa750c8f2a661dc9798ff",
+                    "name": "Zeyu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfa750c8f2a661dc979900",
+                    "user": {
+                        "_id": "661ab3da2b14565c7acccf5c",
+                        "avatarUrl": "/avatars/fa4fc03664803e02aede4d4c3d50b393.svg",
+                        "isPro": false,
+                        "fullname": "Mike Zheng Shou",
+                        "user": "AnalMom",
+                        "type": "user"
+                    },
+                    "name": "Mike Zheng Shou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-11T11:00:52.927Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-10T13:33:27.000Z",
+            "title": "Automated Movie Generation via Multi-Agent CoT Planning",
+            "summary": "Existing long-form video generation frameworks lack automated planning,\nrequiring manual input for storylines, scenes, cinematography, and character\ninteractions, resulting in high costs and inefficiencies. To address these\nchallenges, we present MovieAgent, an automated movie generation via\nmulti-agent Chain of Thought (CoT) planning. MovieAgent offers two key\nadvantages: 1) We firstly explore and define the paradigm of automated\nmovie/long-video generation. Given a script and character bank, our MovieAgent\ncan generates multi-scene, multi-shot long-form videos with a coherent\nnarrative, while ensuring character consistency, synchronized subtitles, and\nstable audio throughout the film. 2) MovieAgent introduces a hierarchical\nCoT-based reasoning process to automatically structure scenes, camera settings,\nand cinematography, significantly reducing human effort. By employing multiple\nLLM agents to simulate the roles of a director, screenwriter, storyboard\nartist, and location manager, MovieAgent streamlines the production pipeline.\nExperiments demonstrate that MovieAgent achieves new state-of-the-art results\nin script faithfulness, character consistency, and narrative coherence. Our\nhierarchical framework takes a step forward and provides new insights into\nfully automated movie generation. The code and project website are available\nat: https://github.com/showlab/MovieAgent and\nhttps://weijiawu.github.io/MovieAgent.",
+            "upvotes": 25,
+            "discussionId": "67cfa752c8f2a661dc9799b8",
+            "projectPage": "https://weijiawu.github.io/MovieAgent/",
+            "githubRepo": "https://github.com/showlab/MovieAgent",
+            "ai_keywords": [
+                "MovieAgent",
+                "Chain of Thought (CoT)",
+                "automated movie/long-video generation",
+                "multi-scene, multi-shot long-form videos",
+                "coherent narrative",
+                "character consistency",
+                "synchronized subtitles",
+                "stable audio",
+                "hierarchical CoT-based reasoning",
+                "multiple LLM agents",
+                "director",
+                "screenwriter",
+                "storyboard artist",
+                "location manager",
+                "script faithfulness",
+                "narrative coherence",
+                "fully automated movie generation"
+            ]
+        },
+        "translation_title": "멀티 에이전트 CoT Planning을 통한 자동 영화 생성",
+        "purpose": "영화 및 장편 비디오 생성의 자동화를 통해 효율성을 높이고 비용을 절감하는 것",
+        "method": [
+            "MovieAgent라는 자동 영화 생성 시스템을 통해 스크립트와 캐릭터 뱅크를 기반으로 다중 장면, 다중 샷의 일관된 내러티브를 가진 길이 있는 비디오를 생성함(we present MovieAgent, an automated movie generation via multi-agent Chain of Thought (CoT) planning.)",
+            "계층적 CoT 기반 추론 과정을 도입해 장면, 카메라 설정 및 촬영 기법을 자동으로 구조화함(MovieAgent introduces a hierarchical CoT-based reasoning process to automatically structure scenes, camera settings, and cinematography.)",
+            "다수의 LLM 에이전트를 사용해 감독, 각본가, 스토리보드 아티스트 및 위치 관리자의 역할을 시뮬레이션하여 제작 파이프라인을 간소화함(By employing multiple LLM agents to simulate the roles of a director, screenwriter, storyboard artist, and location manager, MovieAgent streamlines the production pipeline.)"
+        ],
+        "conclusion": "MovieAgent는 스크립트 충실도, 캐릭터 일관성, 내러티브 응집력에서 새로운 최첨단 결과를 달성하며 완전한 자동 영화 생성에 대한 새로운 통찰을 제공합니다.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
