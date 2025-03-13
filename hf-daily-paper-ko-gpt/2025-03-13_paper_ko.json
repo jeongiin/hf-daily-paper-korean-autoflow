@@ -1,0 +1,322 @@
+[
+    {
+        "paper": {
+            "id": "2503.09566",
+            "authors": [
+                {
+                    "_id": "67d274c467e782a7eeb4ab70",
+                    "name": "Lingmin Ran",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d274c467e782a7eeb4ab71",
+                    "name": "Mike Zheng Shou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-12T17:33:22.000Z",
+            "title": "TPDiff: Temporal Pyramid Video Diffusion Model",
+            "summary": "The development of video diffusion models unveils a significant challenge:\nthe substantial computational demands. To mitigate this challenge, we note that\nthe reverse process of diffusion exhibits an inherent entropy-reducing nature.\nGiven the inter-frame redundancy in video modality, maintaining full frame\nrates in high-entropy stages is unnecessary. Based on this insight, we propose\nTPDiff, a unified framework to enhance training and inference efficiency. By\ndividing diffusion into several stages, our framework progressively increases\nframe rate along the diffusion process with only the last stage operating on\nfull frame rate, thereby optimizing computational efficiency. To train the\nmulti-stage diffusion model, we introduce a dedicated training framework:\nstage-wise diffusion. By solving the partitioned probability flow ordinary\ndifferential equations (ODE) of diffusion under aligned data and noise, our\ntraining strategy is applicable to various diffusion forms and further enhances\ntraining efficiency. Comprehensive experimental evaluations validate the\ngenerality of our method, demonstrating 50% reduction in training cost and 1.5x\nimprovement in inference efficiency.",
+            "upvotes": 30,
+            "discussionId": "67d274c567e782a7eeb4abb0",
+            "ai_keywords": [
+                "video diffusion models",
+                "entropy-reducing nature",
+                "inter-frame redundancy",
+                "TPDiff",
+                "unified framework",
+                "frame rate",
+                "diffusion stages",
+                "stage-wise diffusion",
+                "partitioned probability flow ordinary differential equations (ODE)",
+                "diffusion forms"
+            ]
+        },
+        "translation_title": "TPDiff: 시계열 피라미드 비디오 확산 모델",
+        "purpose": "비디오 확산 모델의 계산 요구 사항을 줄이고 교육 및 추론 효율성을 높이기 위한 새로운 프레임워크 개발",
+        "method": [
+            "확산 과정을 여러 단계로 나누고 마지막 단계에서만 전체 프레임 속도로 작동하여 계산 효율성을 최적화함(we propose TPDiff, a unified framework to enhance training and inference efficiency. By dividing diffusion into several stages, our framework progressively increases frame rate along the diffusion process with only the last stage operating on full frame rate.)",
+            "전 단계에서 정렬된 데이터와 노이즈에 따라 나누어진 확산 확률 흐름 ODE를 해결하는 교육 전략을 적용함(By solving the partitioned probability flow ordinary differential equations (ODE) of diffusion under aligned data and noise, our training strategy is applicable to various diffusion forms and further enhances training efficiency.)"
+        ],
+        "conclusion": "TPDiff를 통해 교육 비용이 50% 줄어들고 추론 효율성이 1.5배 향상됨을 확인함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.09151",
+            "authors": [
+                {
+                    "_id": "67d2784fbe3b4e06086d8eec",
+                    "user": {
+                        "_id": "656ee8008bb9f4f8d95bd8f7",
+                        "avatarUrl": "/avatars/4069d70f1279d928da521211c495d638.svg",
+                        "isPro": true,
+                        "fullname": "Hyeonho Jeong",
+                        "user": "hyeonho-jeong-video",
+                        "type": "user"
+                    },
+                    "name": "Hyeonho Jeong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-13T08:23:54.861Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2784fbe3b4e06086d8eed",
+                    "name": "Suhyeon Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2784fbe3b4e06086d8eee",
+                    "name": "Jong Chul Ye",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-12T08:26:15.000Z",
+            "title": "Reangle-A-Video: 4D Video Generation as Video-to-Video Translation",
+            "summary": "We introduce Reangle-A-Video, a unified framework for generating synchronized\nmulti-view videos from a single input video. Unlike mainstream approaches that\ntrain multi-view video diffusion models on large-scale 4D datasets, our method\nreframes the multi-view video generation task as video-to-videos translation,\nleveraging publicly available image and video diffusion priors. In essence,\nReangle-A-Video operates in two stages. (1) Multi-View Motion Learning: An\nimage-to-video diffusion transformer is synchronously fine-tuned in a\nself-supervised manner to distill view-invariant motion from a set of warped\nvideos. (2) Multi-View Consistent Image-to-Images Translation: The first frame\nof the input video is warped and inpainted into various camera perspectives\nunder an inference-time cross-view consistency guidance using DUSt3R,\ngenerating multi-view consistent starting images. Extensive experiments on\nstatic view transport and dynamic camera control show that Reangle-A-Video\nsurpasses existing methods, establishing a new solution for multi-view video\ngeneration. We will publicly release our code and data. Project page:\nhttps://hyeonho99.github.io/reangle-a-video/",
+            "upvotes": 23,
+            "discussionId": "67d27857be3b4e06086d9160",
+            "projectPage": "https://hyeonho99.github.io/reangle-a-video/",
+            "githubRepo": "https://github.com/HyeonHo99/Reangle-Video",
+            "ai_keywords": [
+                "image-to-video diffusion transformer",
+                "self-supervised manner",
+                "view-invariant motion",
+                "warped videos",
+                "Multi-View Consistent Image-to-Images Translation",
+                "cross-view consistency",
+                "DUSt3R",
+                "multi-view video generation",
+                "static view transport",
+                "dynamic camera control"
+            ]
+        },
+        "translation_title": "Reangle-A-Video: 비디오 간 변환을 통한 4D 비디오 생성",
+        "purpose": "단일 입력 비디오로부터 동기화된 다중 뷰 비디오를 생성하기 위한 통합 프레임워크 개발",
+        "method": [
+            "다중 뷰 비디오 생성 작업을 비디오-to-비디오 변환으로 재구성함(Our method reframes the multi-view video generation task as video-to-videos translation.)",
+            "자기 지도 방식으로 왜곡된 비디오 세트에서 뷰 변Invariant motion을 추출하기 위해 이미지-비디오 diffusion transformer를 동기화하여 미세 조정함(Multi-View Motion Learning: An image-to-video diffusion transformer is synchronously fine-tuned in a self-supervised manner to distill view-invariant motion from a set of warped videos.)",
+            "입력 비디오의 첫 번째 프레임을 다양한 카메라 관점으로 왜곡하고 인페인팅하여 다중 뷰 일관된 시작 이미지를 생성함(Multi-View Consistent Image-to-Images Translation: The first frame of the input video is warped and inpainted into various camera perspectives.)"
+        ],
+        "conclusion": "Reangle-A-Video는 기존 방법들을 초월하는 성능을 보여주었으며, 다중 뷰 비디오 생성을 위한 새로운 솔루션을 확립함.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.09573",
+            "authors": [
+                {
+                    "_id": "67d2511e7d0fc37e67269f85",
+                    "name": "Marianne Arriola",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f86",
+                    "name": "Aaron Gokaslan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f87",
+                    "name": "Justin T Chiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f88",
+                    "name": "Zhihan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f89",
+                    "name": "Zhixuan Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f8a",
+                    "name": "Jiaqi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f8b",
+                    "name": "Subham Sekhar Sahoo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d2511e7d0fc37e67269f8c",
+                    "name": "Volodymyr Kuleshov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-12T17:43:40.000Z",
+            "title": "Block Diffusion: Interpolating Between Autoregressive and Diffusion\n  Language Models",
+            "summary": "Diffusion language models offer unique benefits over autoregressive models\ndue to their potential for parallelized generation and controllability, yet\nthey lag in likelihood modeling and are limited to fixed-length generation. In\nthis work, we introduce a class of block diffusion language models that\ninterpolate between discrete denoising diffusion and autoregressive models.\nBlock diffusion overcomes key limitations of both approaches by supporting\nflexible-length generation and improving inference efficiency with KV caching\nand parallel token sampling. We propose a recipe for building effective block\ndiffusion models that includes an efficient training algorithm, estimators of\ngradient variance, and data-driven noise schedules to minimize the variance.\nBlock diffusion sets a new state-of-the-art performance among diffusion models\non language modeling benchmarks and enables generation of arbitrary-length\nsequences. We provide the code, along with the model weights and blog post on\nthe project page: https://m-arriola.com/bd3lms/",
+            "upvotes": 22,
+            "discussionId": "67d2511e7d0fc37e67269fbf",
+            "projectPage": "https://m-arriola.com/bd3lms/",
+            "ai_keywords": [
+                "diffusion language models",
+                "autoregressive models",
+                "parallelized generation",
+                "controllability",
+                "likelihood modeling",
+                "fixed-length generation",
+                "block diffusion language models",
+                "discrete denoising diffusion",
+                "flexible-length generation",
+                "inference efficiency",
+                "KV caching",
+                "parallel token sampling",
+                "efficient training algorithm",
+                "gradient variance estimators",
+                "data-driven noise schedules",
+                "arbitrary-length sequences"
+            ]
+        },
+        "translation_title": "Block Diffusion: 자율 회귀 모델과 확산 언어 모델 간의 보간",
+        "purpose": "유연한 길이 생성을 지원하고 추론 효율성을 개선하기 위한 새로운 확산 언어 모델 개발",
+        "method": [
+            "Block diffusion 언어 모델 클래스를 도입하여 개별적인 denoising diffusion과 자율 회귀 모델을 보간함(In this work, we introduce a class of block diffusion language models that interpolate between discrete denoising diffusion and autoregressive models.)",
+            "KV 캐싱과 병렬 토큰 샘플링을 활용하여 추론 효율성을 개선하고 유연한 길이 생성을 지원함(Block diffusion overcomes key limitations of both approaches by supporting flexible-length generation and improving inference efficiency with KV caching and parallel token sampling.)",
+            "효과적인 block diffusion 모델을 구축하기 위한 교육 알고리즘과 분산 추정기를 제안함(We propose a recipe for building effective block diffusion models that includes an efficient training algorithm, estimators of gradient variance, and data-driven noise schedules to minimize the variance.)"
+        ],
+        "conclusion": "Block diffusion 모델은 언어 모델링 벤치마크에서 새로운 최첨단 성능을 설정하고 임의 길이의 시퀀스 생성을 가능하게 함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.09601",
+            "authors": [
+                {
+                    "_id": "67d29b617d0fc37e673c7e65",
+                    "name": "Itay Chachy",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d29b617d0fc37e673c7e66",
+                    "name": "Guy Yariv",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d29b617d0fc37e673c7e67",
+                    "name": "Sagie Benaim",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-12T17:59:47.000Z",
+            "title": "RewardSDS: Aligning Score Distillation via Reward-Weighted Sampling",
+            "summary": "Score Distillation Sampling (SDS) has emerged as an effective technique for\nleveraging 2D diffusion priors for tasks such as text-to-3D generation. While\npowerful, SDS struggles with achieving fine-grained alignment to user intent.\nTo overcome this, we introduce RewardSDS, a novel approach that weights noise\nsamples based on alignment scores from a reward model, producing a weighted SDS\nloss. This loss prioritizes gradients from noise samples that yield aligned\nhigh-reward output. Our approach is broadly applicable and can extend SDS-based\nmethods. In particular, we demonstrate its applicability to Variational Score\nDistillation (VSD) by introducing RewardVSD. We evaluate RewardSDS and\nRewardVSD on text-to-image, 2D editing, and text-to-3D generation tasks,\nshowing significant improvements over SDS and VSD on a diverse set of metrics\nmeasuring generation quality and alignment to desired reward models, enabling\nstate-of-the-art performance. Project page is available at https://itaychachy.\ngithub.io/reward-sds/.",
+            "upvotes": 9,
+            "discussionId": "67d29b637d0fc37e673c7efc",
+            "projectPage": "https://itaychachy.github.io/reward-sds/",
+            "githubRepo": "https://github.com/itaychachy/RewardSDS",
+            "ai_keywords": [
+                "score distillation sampling (SDS)",
+                "2D diffusion priors",
+                "text-to-3D generation",
+                "reward model",
+                "weighted SDS loss",
+                "gradients",
+                "high-reward output",
+                "variational score distillation (VSD)",
+                "RewardVSD",
+                "text-to-image",
+                "2D editing",
+                "generation quality",
+                "alignment to desired reward models"
+            ]
+        },
+        "translation_title": "RewardSDS: 보상 가중 샘플링을 통한 점수 증류 정렬",
+        "purpose": "사용자의 의도에 맞는 정밀한 정렬을 달성하기 위해 Score Distillation Sampling(SDS) 기술 개선",
+        "method": [
+            "보상 모델에서 나온 정렬 점수를 기반으로 잡음 샘플에 가중치를 부여하는 새로운 접근법 RewardSDS를 도입함(To overcome this, we introduce RewardSDS, a novel approach that weights noise samples based on alignment scores from a reward model.)",
+            "RewardSDS가 Variational Score Distillation(VSD)에도 적용될 수 있음을 증명함(In particular, we demonstrate its applicability to Variational Score Distillation (VSD) by introducing RewardVSD.)",
+            "다양한 텍스트-이미지, 2D 편집, 텍스트-3D 생성 작업에서 RewardSDS와 RewardVSD의 성능을 평가하고, SDS 및 VSD보다 우수한 성능을 나타냄(We evaluate RewardSDS and RewardVSD on text-to-image, 2D editing, and text-to-3D generation tasks, showing significant improvements over SDS and VSD on a diverse set of metrics measuring generation quality and alignment to desired reward models.)"
+        ],
+        "conclusion": "RewardSDS와 RewardVSD는 텍스트-이미지 및 텍스트-3D 생성 작업에서 기존 방법들보다 더 나은 성능을 달성하였다.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.04388",
+            "authors": [
+                {
+                    "_id": "67d05aa2348bae81a8ae572e",
+                    "name": "Shahar Levy",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d05aa2348bae81a8ae572f",
+                    "name": "Nir Mazor",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d05aa2348bae81a8ae5730",
+                    "user": {
+                        "_id": "63b433ee7af2e415f25b1a7b",
+                        "avatarUrl": "/avatars/0b03f66d263bffd22ed864d1241fe28b.svg",
+                        "isPro": false,
+                        "fullname": "Lihi Shalmon",
+                        "user": "LihiShalmon",
+                        "type": "user"
+                    },
+                    "name": "Lihi Shalmon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-11T16:09:23.471Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d05aa2348bae81a8ae5731",
+                    "name": "Michael Hassid",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d05aa2348bae81a8ae5732",
+                    "name": "Gabriel Stanovsky",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-06T12:38:17.000Z",
+            "title": "More Documents, Same Length: Isolating the Challenge of Multiple\n  Documents in RAG",
+            "summary": "Retrieval-augmented generation (RAG) provides LLMs with relevant documents.\nAlthough previous studies noted that retrieving many documents can degrade\nperformance, they did not isolate how the quantity of documents affects\nperformance while controlling for context length. We evaluate various language\nmodels on custom datasets derived from a multi-hop QA task. We keep the context\nlength and position of relevant information constant while varying the number\nof documents, and find that increasing the document count in RAG settings poses\nsignificant challenges for LLMs. Additionally, our results indicate that\nprocessing multiple documents is a separate challenge from handling long\ncontexts. We also make the datasets and code available:\nhttps://github.com/shaharl6000/MoreDocsSameLen .",
+            "upvotes": 9,
+            "discussionId": "67d05aa3348bae81a8ae5780",
+            "githubRepo": "https://github.com/shaharl6000/MoreDocsSameLen",
+            "ai_keywords": [
+                "Retrieval-augmented generation (RAG)",
+                "LLMs",
+                "relevant documents",
+                "multi-hop QA task",
+                "document count",
+                "long contexts"
+            ]
+        },
+        "translation_title": "더 많은 문서, 동일한 길이: RAG에서 여러 문서의 도전 과제 분리하기",
+        "purpose": "LLM이 여러 문서를 처리할 때 성능 저하의 원인을 규명하기 위한 연구",
+        "method": [
+            "다양한 언어 모델을 평가하기 위해 multi-hop QA 작업에서 파생된 맞춤형 데이터셋을 사용함(We evaluate various language models on custom datasets derived from a multi-hop QA task.)",
+            "문서의 수를 다양하게 조정하는 동시에 관련 정보의 맥락 길이와 위치를 일정하게 유지함(We keep the context length and position of relevant information constant while varying the number of documents.)",
+            "RAG 환경에서 문서 수 증가가 LLM에 미치는 영향을 분석함(we find that increasing the document count in RAG settings poses significant challenges for LLMs.)"
+        ],
+        "conclusion": "문서 수의 증가는 LLM의 성능에 큰 도전을 주며, 여러 문서를 처리하는 것이 긴 맥락을 다루는 것과는 별개의 도전 과제임을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    }
+]
