@@ -1,0 +1,587 @@
+[
+    {
+        "paper": {
+            "id": "2503.10613",
+            "authors": [
+                {
+                    "_id": "67d393ca336d57afb21bbf63",
+                    "user": {
+                        "_id": "67a99ec47b754f038d110926",
+                        "avatarUrl": "/avatars/e1ff318a42ccb75b094bbe7dae0cabec.svg",
+                        "isPro": false,
+                        "fullname": "Advait Gupta",
+                        "user": "advaitgupta",
+                        "type": "user"
+                    },
+                    "name": "Advait Gupta",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:36.855Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d393ca336d57afb21bbf64",
+                    "user": {
+                        "_id": "672f89e6d7f4171f374dacea",
+                        "avatarUrl": "/avatars/4a8b378e13e862586bb428fdf000b3cc.svg",
+                        "isPro": false,
+                        "fullname": "NandaKiran Velaga",
+                        "user": "nandakiran09",
+                        "type": "user"
+                    },
+                    "name": "NandaKiran Velaga",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:34.327Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d393ca336d57afb21bbf65",
+                    "name": "Dang Nguyen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d393ca336d57afb21bbf66",
+                    "user": {
+                        "_id": "647f5af5b0e96764589f3b2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Zhou",
+                        "user": "zhoutianyi",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:39.157Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-13T17:55:45.000Z",
+            "submittedOnDailyAt": "2025-03-14T01:33:20.201Z",
+            "title": "CoSTAast: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing",
+            "submittedOnDailyBy": {
+                "_id": "647f5af5b0e96764589f3b2a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                "isPro": false,
+                "fullname": "Tianyi Zhou",
+                "user": "zhoutianyi",
+                "type": "user"
+            },
+            "summary": "Text-to-image models like stable diffusion and DALLE-3 still struggle with\nmulti-turn image editing. We decompose such a task as an agentic workflow\n(path) of tool use that addresses a sequence of subtasks by AI tools of varying\ncosts. Conventional search algorithms require expensive exploration to find\ntool paths. While large language models (LLMs) possess prior knowledge of\nsubtask planning, they may lack accurate estimations of capabilities and costs\nof tools to determine which to apply in each subtask. Can we combine the\nstrengths of both LLMs and graph search to find cost-efficient tool paths? We\npropose a three-stage approach \"CoSTA*\" that leverages LLMs to create a subtask\ntree, which helps prune a graph of AI tools for the given task, and then\nconducts A* search on the small subgraph to find a tool path. To better balance\nthe total cost and quality, CoSTA* combines both metrics of each tool on every\nsubtask to guide the A* search. Each subtask's output is then evaluated by a\nvision-language model (VLM), where a failure will trigger an update of the\ntool's cost and quality on the subtask. Hence, the A* search can recover from\nfailures quickly to explore other paths. Moreover, CoSTA* can automatically\nswitch between modalities across subtasks for a better cost-quality trade-off.\nWe build a novel benchmark of challenging multi-turn image editing, on which\nCoSTA* outperforms state-of-the-art image-editing models or agents in terms of\nboth cost and quality, and performs versatile trade-offs upon user preference.",
+            "upvotes": 38,
+            "discussionId": "67d393cf336d57afb21bc0db",
+            "githubRepo": "https://github.com/tianyi-lab/CoSTAR",
+            "ai_keywords": [
+                "text-to-image models",
+                "stable diffusion",
+                "DALLE-3",
+                "multi-turn image editing",
+                "agentic workflow",
+                "tool use",
+                "subtasks",
+                "AI tools",
+                "cost-efficient",
+                "large language models (LLMs)",
+                "subtask planning",
+                "graph search",
+                "three-stage approach",
+                "CoSTA*",
+                "subtask tree",
+                "pruning",
+                "A* search",
+                "subgraph",
+                "cost-quality trade-off",
+                "vision-language model (VLM)",
+                "failure",
+                "total cost",
+                "quality",
+                "modality switching",
+                "benchmark",
+                "state-of-the-art image-editing models",
+                "user preference"
+            ]
+        },
+        "translation_title": "CoSTAast: 다단계 이미지 편집을 위한 비용 민감 도구 경로 에이전트",
+        "purpose": "비용 효율적인 도구 경로를 찾아 다단계 이미지 편집 성능을 향상시키기 위한 연구",
+        "method": [
+            "대규모 언어 모델(LLMs)을 활용해 하위 작업 트리를 생성하고(A three-stage approach 'CoSTA*' that leverages LLMs to create a subtask tree)",
+            "AI 도구의 그래프를 줄여 소규모 서브그래프에서 A* 탐색을 통해 도구 경로를 찾음(and then conducts A* search on the small subgraph to find a tool path.)",
+            "각 하위 작업의 출력은 비전-언어 모델(VLM)로 평가되고 실패 시 도구의 비용과 품질을 업데이트함(where a failure will trigger an update of the tool's cost and quality on the subtask.)"
+        ],
+        "conclusion": "CoSTA*는 비용 및 품질 측면에서 최첨단 이미지 편집 모델보다 우수한 성능을 보이며, 사용자 선호에 따라 유연한 트레이드오프를 수행함.",
+        "keywords": [
+            "Image Generation",
+            "Vision-Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.10480",
+            "authors": [
+                {
+                    "_id": "67d38a42d3d16e1166d81bed",
+                    "user": {
+                        "_id": "64c3c631e77ea9f28111172a",
+                        "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                        "isPro": false,
+                        "fullname": "Siyin Wang",
+                        "user": "sinwang",
+                        "type": "user"
+                    },
+                    "name": "Siyin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:44.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bee",
+                    "user": {
+                        "_id": "629ef8544313a7c1dd671130",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/629ef8544313a7c1dd671130/i5xfHIgELcuO1Ew19ebTw.png",
+                        "isPro": false,
+                        "fullname": "Zhaoye Fei",
+                        "user": "ngc7293",
+                        "type": "user"
+                    },
+                    "name": "Zhaoye Fei",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:05:04.607Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bef",
+                    "name": "Qinyuan Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bf0",
+                    "user": {
+                        "_id": "64196e45060a651c415d5cf7",
+                        "avatarUrl": "/avatars/71a43232a7bae851eca252782387a63d.svg",
+                        "isPro": false,
+                        "fullname": "Shiduo Zhang",
+                        "user": "CyberDJ",
+                        "type": "user"
+                    },
+                    "name": "Shiduo Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:05:20.440Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bf1",
+                    "name": "Panpan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bf2",
+                    "user": {
+                        "_id": "618497ea8aaadc9253c2dfa9",
+                        "avatarUrl": "/avatars/2eb3954a99f5aede6f31b8ae49b8c910.svg",
+                        "isPro": false,
+                        "fullname": "Fu Jinlan",
+                        "user": "Jinlan",
+                        "type": "user"
+                    },
+                    "name": "Jinlan Fu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:05:38.981Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d38a42d3d16e1166d81bf3",
+                    "user": {
+                        "_id": "61457b8deff2c9fdb4de4988",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1632381702899-61457b8deff2c9fdb4de4988.jpeg",
+                        "isPro": false,
+                        "fullname": "Xipeng Qiu",
+                        "user": "xpqiu",
+                        "type": "user"
+                    },
+                    "name": "Xipeng Qiu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:05:46.041Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-13T15:49:56.000Z",
+            "submittedOnDailyAt": "2025-03-14T01:42:40.120Z",
+            "title": "World Modeling Makes a Better Planner: Dual Preference Optimization for\n  Embodied Task Planning",
+            "submittedOnDailyBy": {
+                "_id": "64c3c631e77ea9f28111172a",
+                "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                "isPro": false,
+                "fullname": "Siyin Wang",
+                "user": "sinwang",
+                "type": "user"
+            },
+            "summary": "Recent advances in large vision-language models (LVLMs) have shown promise\nfor embodied task planning, yet they struggle with fundamental challenges like\ndependency constraints and efficiency. Existing approaches either solely\noptimize action selection or leverage world models during inference,\noverlooking the benefits of learning to model the world as a way to enhance\nplanning capabilities. We propose Dual Preference Optimization (D^2PO), a new\nlearning framework that jointly optimizes state prediction and action selection\nthrough preference learning, enabling LVLMs to understand environment dynamics\nfor better planning. To automatically collect trajectories and stepwise\npreference data without human annotation, we introduce a tree search mechanism\nfor extensive exploration via trial-and-error. Extensive experiments on\nVoTa-Bench demonstrate that our D^2PO-based method significantly outperforms\nexisting methods and GPT-4o when applied to Qwen2-VL (7B), LLaVA-1.6 (7B), and\nLLaMA-3.2 (11B), achieving superior task success rates with more efficient\nexecution paths.",
+            "upvotes": 28,
+            "discussionId": "67d38a44d3d16e1166d81c54",
+            "ai_keywords": [
+                "Dual Preference Optimization (D$^2$PO)",
+                "preference learning",
+                "state prediction",
+                "action selection",
+                "environment dynamics",
+                "tree search mechanism",
+                "VoTa-Bench",
+                "Qwen2-VL",
+                "LLaVA-1.6",
+                "LLaMA-3.2",
+                "task success rates",
+                "efficient execution paths"
+            ]
+        },
+        "translation_title": "세계 모델링이 더 나은 계획자를 만든다: 구현된 작업 계획을 위한 이중 선호 최적화",
+        "purpose": "LVLM의 작업 계획 능력을 향상시키기 위해 세계 모델을 학습하여 상태 예측과 행동 선택을 동시에 최적화하려는 목표",
+        "method": [
+            "이중 선호 최적화(D^2PO)라는 새로운 학습 프레임워크를 제안함(State prediction and action selection through preference learning을 통해 D^2PO가 서로 최적화하게 함).",
+            "사람의 주석 없이 자동으로 궤적과 단계별 선호 데이터를 수집하기 위해 시도와 오류를 통한 광범위한 탐색을 위한 트리 검색 메커니즘을 도입함(we introduce a tree search mechanism for extensive exploration via trial-and-error).",
+            "VoTa-Bench에서 D^2PO 기반 방법의 성능을 평가하여 기존 방법과 GPT-4o를 초월하는 성능을 입증함(Extensive experiments on VoTa-Bench demonstrate that our D^2PO-based method significantly outperforms existing methods and GPT-4o)."
+        ],
+        "conclusion": "D^2PO를 통해 LVLM이 더 나은 작업 성공률과 효율적인 실행 경로를 달성할 수 있음을 확인함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.09669",
+            "authors": [
+                {
+                    "_id": "67d37754e07f664c7325f236",
+                    "user": {
+                        "_id": "63bbf972d8d676a2299cdb44",
+                        "avatarUrl": "/avatars/cd038f11dc1007b1267324b34c165dda.svg",
+                        "isPro": false,
+                        "fullname": "Sangwon",
+                        "user": "agwmon",
+                        "type": "user"
+                    },
+                    "name": "Sangwon Jang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:49.038Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d37754e07f664c7325f237",
+                    "user": {
+                        "_id": "66c6edcc91dced946471bc13",
+                        "avatarUrl": "/avatars/55cc8593da6540e1566e1de9d7133f9f.svg",
+                        "isPro": false,
+                        "fullname": "June Suk Choi",
+                        "user": "wchoi403",
+                        "type": "user"
+                    },
+                    "name": "June Suk Choi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:05:59.636Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d37754e07f664c7325f238",
+                    "user": {
+                        "_id": "65e5bd4568234ef5d6decadc",
+                        "avatarUrl": "/avatars/c41095a946c0176b949c0b3566136c05.svg",
+                        "isPro": false,
+                        "fullname": "Jaehyeong Jo",
+                        "user": "harryjo97",
+                        "type": "user"
+                    },
+                    "name": "Jaehyeong Jo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:06:19.773Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d37754e07f664c7325f239",
+                    "user": {
+                        "_id": "635097ec59bfa9a85d4207b2",
+                        "avatarUrl": "/avatars/787085894e9e6538b6b3e3051efe9eea.svg",
+                        "isPro": false,
+                        "fullname": "Kimin Lee",
+                        "user": "kiminle2",
+                        "type": "user"
+                    },
+                    "name": "Kimin Lee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T09:06:26.649Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d37754e07f664c7325f23a",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-12T17:21:57.000Z",
+            "submittedOnDailyAt": "2025-03-14T02:05:42.787Z",
+            "title": "Silent Branding Attack: Trigger-free Data Poisoning Attack on\n  Text-to-Image Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "63bbf972d8d676a2299cdb44",
+                "avatarUrl": "/avatars/cd038f11dc1007b1267324b34c165dda.svg",
+                "isPro": false,
+                "fullname": "Sangwon",
+                "user": "agwmon",
+                "type": "user"
+            },
+            "summary": "Text-to-image diffusion models have achieved remarkable success in generating\nhigh-quality contents from text prompts. However, their reliance on publicly\navailable data and the growing trend of data sharing for fine-tuning make these\nmodels particularly vulnerable to data poisoning attacks. In this work, we\nintroduce the Silent Branding Attack, a novel data poisoning method that\nmanipulates text-to-image diffusion models to generate images containing\nspecific brand logos or symbols without any text triggers. We find that when\ncertain visual patterns are repeatedly in the training data, the model learns\nto reproduce them naturally in its outputs, even without prompt mentions.\nLeveraging this, we develop an automated data poisoning algorithm that\nunobtrusively injects logos into original images, ensuring they blend naturally\nand remain undetected. Models trained on this poisoned dataset generate images\ncontaining logos without degrading image quality or text alignment. We\nexperimentally validate our silent branding attack across two realistic\nsettings on large-scale high-quality image datasets and style personalization\ndatasets, achieving high success rates even without a specific text trigger.\nHuman evaluation and quantitative metrics including logo detection show that\nour method can stealthily embed logos.",
+            "upvotes": 28,
+            "discussionId": "67d37759e07f664c7325f3c5",
+            "projectPage": "https://silent-branding.github.io/",
+            "ai_keywords": [
+                "text-to-image diffusion models",
+                "high-quality contents",
+                "text prompts",
+                "data poisoning attacks",
+                "Silent Branding Attack",
+                "visual patterns",
+                "data poisoning algorithm",
+                "logos",
+                "style personalization datasets",
+                "logo detection"
+            ]
+        },
+        "translation_title": "Silent Branding Attack: 텍스트-이미지 확산 모델에 대한 트리거 없는 데이터 독성 공격",
+        "purpose": "텍스트-이미지 확산 모델의 데이터 독성 공격을 통해 특정 브랜드 로고를 포함한 이미지를 생성하기 위한 새로운 방법 개발",
+        "method": [
+            "Silent Branding Attack이라는 새로운 데이터 독성 방법을 소개함(we introduce the Silent Branding Attack, a novel data poisoning method that manipulates text-to-image diffusion models to generate images containing specific brand logos or symbols without any text triggers.)",
+            "자동화된 데이터 독성 알고리즘을 개발해 원본 이미지에 로고를 자연스럽게 주입함(we develop an automated data poisoning algorithm that unobtrusively injects logos into original images, ensuring they blend naturally and remain undetected.)",
+            "독성 데이터셋으로 학습한 모델이 이미지 품질이나 텍스트 정렬을 저하시키지 않고 로고가 포함된 이미지를 생성함(Models trained on this poisoned dataset generate images containing logos without degrading image quality or text alignment.)"
+        ],
+        "conclusion": "우리의 방법은 로고를 은밀하게 삽입할 수 있으며, 인간 평가와 정량적 지표를 통해 성공적인 결과를 보임.",
+        "keywords": [
+            "Image Generation",
+            "Data Poisoning",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.10622",
+            "authors": [
+                {
+                    "_id": "67d3b0a87443e648e8aa1ea6",
+                    "user": {
+                        "_id": "6552126dd8a8835b66653767",
+                        "avatarUrl": "/avatars/0b1dad9ebaeada8f5e7ebe453123960b.svg",
+                        "isPro": false,
+                        "fullname": "Jiachen Zhu",
+                        "user": "JiachenZhu",
+                        "type": "user"
+                    },
+                    "name": "Jiachen Zhu",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-03-14T05:13:31.648Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3b0a87443e648e8aa1ea7",
+                    "user": {
+                        "_id": "63e58e3a006a775275e59e41",
+                        "avatarUrl": "/avatars/75262a35b27a2ae1939df9118120d99e.svg",
+                        "isPro": false,
+                        "fullname": "Xinlei Chen",
+                        "user": "endernewton",
+                        "type": "user"
+                    },
+                    "name": "Xinlei Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T10:45:29.927Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3b0a87443e648e8aa1ea8",
+                    "name": "Kaiming He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3b0a87443e648e8aa1ea9",
+                    "user": {
+                        "_id": "64ed0b8c2203a126eb1a5b9a",
+                        "avatarUrl": "/avatars/9156dc406ed3f9ee62b73657ac20f5ed.svg",
+                        "isPro": false,
+                        "fullname": "Yann LeCun",
+                        "user": "ylecun",
+                        "type": "user"
+                    },
+                    "name": "Yann LeCun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T10:45:43.974Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3b0a87443e648e8aa1eaa",
+                    "name": "Zhuang Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-13T17:59:06.000Z",
+            "submittedOnDailyAt": "2025-03-14T02:59:49.783Z",
+            "title": "Transformers without Normalization",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": false,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "Normalization layers are ubiquitous in modern neural networks and have long\nbeen considered essential. This work demonstrates that Transformers without\nnormalization can achieve the same or better performance using a remarkably\nsimple technique. We introduce Dynamic Tanh (DyT), an element-wise operation\nDyT(x) = tanh(alpha x), as a drop-in replacement for normalization\nlayers in Transformers. DyT is inspired by the observation that layer\nnormalization in Transformers often produces tanh-like, S-shaped input-output\nmappings. By incorporating DyT, Transformers without normalization can match or\nexceed the performance of their normalized counterparts, mostly without\nhyperparameter tuning. We validate the effectiveness of Transformers with DyT\nacross diverse settings, ranging from recognition to generation, supervised to\nself-supervised learning, and computer vision to language models. These\nfindings challenge the conventional understanding that normalization layers are\nindispensable in modern neural networks, and offer new insights into their role\nin deep networks.",
+            "upvotes": 26,
+            "discussionId": "67d3b0a97443e648e8aa1f22",
+            "ai_keywords": [
+                "Dynamic Tanh (DyT)",
+                "Transformers",
+                "normalization layers",
+                "layer normalization",
+                "hyperparameter tuning",
+                "supervised learning",
+                "self-supervised learning",
+                "computer vision",
+                "language models"
+            ]
+        },
+        "translation_title": "정규화 없는 Transformers",
+        "purpose": "정규화 계층 없이도 뛰어난 성능을 달성할 수 있음을 보여주기 위한 연구",
+        "method": [
+            "정규화 계층을 대체할 수 있는 DyT(Dynamic Tanh)라는 간단한 기법을 도입함(DyT is inspired by the observation that layer normalization in Transformers often produces tanh-like, S-shaped input-output mappings.)",
+            "정규화 없는 Transformers가 DyT를 통해 normalized counterparts와 같은 성능을 달성할 수 있음을 입증함(Transformers without normalization can match or exceed the performance of their normalized counterparts.)",
+            "다양한 설정에서 DyT의 효과성을 검증함(We validate the effectiveness of Transformers with DyT across diverse settings, ranging from recognition to generation, supervised to self-supervised learning, and computer vision to language models.)"
+        ],
+        "conclusion": "이 연구는 정규화 계층이 현대 신경망에서 필수적이라는 기존 이해에 도전하며, 딥 네트워크에서의 역할에 대한 새로운 통찰을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Computer Vision",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.10633",
+            "authors": [
+                {
+                    "_id": "67d3ba5e4d3a41ed9f8651eb",
+                    "user": {
+                        "_id": "630dd4218df86f1e5beb2ed7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/630dd4218df86f1e5beb2ed7/fKvNWyWv6CVBdbXXUlrYv.jpeg",
+                        "isPro": false,
+                        "fullname": "Eliahu Horwitz",
+                        "user": "Eliahu",
+                        "type": "user"
+                    },
+                    "name": "Eliahu Horwitz",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:04.270Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3ba5e4d3a41ed9f8651ec",
+                    "user": {
+                        "_id": "674ec6d1ce68874ee4f2d53b",
+                        "avatarUrl": "/avatars/4c15c9bdcf51d4bf5e6fceb86195e480.svg",
+                        "isPro": false,
+                        "fullname": "Nitzan Kurer",
+                        "user": "nitzankur",
+                        "type": "user"
+                    },
+                    "name": "Nitzan Kurer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T10:09:18.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3ba5e4d3a41ed9f8651ed",
+                    "user": {
+                        "_id": "6465fd33dac127ac80f0b334",
+                        "avatarUrl": "/avatars/113f02c1b1f8d33d3487daa867afcd3f.svg",
+                        "isPro": false,
+                        "fullname": "Jonathan Kahana",
+                        "user": "jonkahana",
+                        "type": "user"
+                    },
+                    "name": "Jonathan Kahana",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T10:09:25.338Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3ba5e4d3a41ed9f8651ee",
+                    "user": {
+                        "_id": "669ffff5944b597ce2a1aa5b",
+                        "avatarUrl": "/avatars/559ca0ad82b1a52208510f09492fafa6.svg",
+                        "isPro": false,
+                        "fullname": "Liel Amar",
+                        "user": "LielAmar",
+                        "type": "user"
+                    },
+                    "name": "Liel Amar",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-14T08:56:01.634Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d3ba5e4d3a41ed9f8651ef",
+                    "user": {
+                        "_id": "646cfc3b4220471ca0c56b20",
+                        "avatarUrl": "/avatars/19d6ab141ec2cd25c1c3b45fd8f69910.svg",
+                        "isPro": false,
+                        "fullname": "Yedid Hoshen",
+                        "user": "yedid",
+                        "type": "user"
+                    },
+                    "name": "Yedid Hoshen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-14T10:09:39.859Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/630dd4218df86f1e5beb2ed7/HClm12KfVuYMozbJaIp9_.png"
+            ],
+            "publishedAt": "2025-03-13T17:59:53.000Z",
+            "submittedOnDailyAt": "2025-03-14T03:51:41.703Z",
+            "title": "Charting and Navigating Hugging Face's Model Atlas",
+            "submittedOnDailyBy": {
+                "_id": "630dd4218df86f1e5beb2ed7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/630dd4218df86f1e5beb2ed7/fKvNWyWv6CVBdbXXUlrYv.jpeg",
+                "isPro": false,
+                "fullname": "Eliahu Horwitz",
+                "user": "Eliahu",
+                "type": "user"
+            },
+            "summary": "As there are now millions of publicly available neural networks, searching\nand analyzing large model repositories becomes increasingly important.\nNavigating so many models requires an atlas, but as most models are poorly\ndocumented charting such an atlas is challenging. To explore the hidden\npotential of model repositories, we chart a preliminary atlas representing the\ndocumented fraction of Hugging Face. It provides stunning visualizations of the\nmodel landscape and evolution. We demonstrate several applications of this\natlas including predicting model attributes (e.g., accuracy), and analyzing\ntrends in computer vision models. However, as the current atlas remains\nincomplete, we propose a method for charting undocumented regions.\nSpecifically, we identify high-confidence structural priors based on dominant\nreal-world model training practices. Leveraging these priors, our approach\nenables accurate mapping of previously undocumented areas of the atlas. We\npublicly release our datasets, code, and interactive atlas.",
+            "upvotes": 25,
+            "discussionId": "67d3ba634d3a41ed9f86533a",
+            "projectPage": "https://horwitz.ai/model-atlas",
+            "githubRepo": "https://github.com/eliahuhorwitz/Model-Atlas",
+            "ai_keywords": [
+                "neural networks",
+                "model repositories",
+                "atlas",
+                "model landscape",
+                "model evolution",
+                "predicting model attributes",
+                "trends in computer vision models",
+                "high-confidence structural priors",
+                "dominant real-world model training practices",
+                "interactive atlas"
+            ]
+        },
+        "translation_title": "Hugging Face의 모델 아틀라스 탐색 및 내비게이션",
+        "purpose": "공개된 신경망을 효율적으로 탐색하고 분석하기 위한 모델 아틀라스 제안",
+        "method": [
+            "Hugging Face의 문서화된 모델 데이터를 기반으로 초기 아틀라스를 작성함(we chart a preliminary atlas representing the documented fraction of Hugging Face.)",
+            "모델 속성 예측 및 컴퓨터 비전 모델의 동향 분석 등 다양한 활용 사례를 시연함(We demonstrate several applications of this atlas including predicting model attributes (e.g., accuracy), and analyzing trends in computer vision models.)",
+            "문서화되지 않은 영역을 식별하기 위해 고신뢰의 구조적 우선사항을 설정함(we identify high-confidence structural priors based on dominant real-world model training practices.)"
+        ],
+        "conclusion": "제안된 아틀라스를 통해 기존에 문서화되지 않았던 영역도 정확히 매핑할 수 있으며, 관련 데이터셋과 코드를 공개함.",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
