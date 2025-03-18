@@ -1,0 +1,633 @@
+[
+    {
+        "paper": {
+            "id": "2503.06053",
+            "authors": [
+                {
+                    "_id": "67cfd2d7bc539099da9ebecb",
+                    "name": "Runze Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebecc",
+                    "user": {
+                        "_id": "6474a63f7d131daf633d10f2",
+                        "avatarUrl": "/avatars/5e5d1ce5731987a810448835a1a69c91.svg",
+                        "isPro": false,
+                        "fullname": "GeorgeDu",
+                        "user": "georgedu",
+                        "type": "user"
+                    },
+                    "name": "Guoguang Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-17T08:45:36.478Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebecd",
+                    "user": {
+                        "_id": "66b01dc4e48856bb718f2ba8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66b01dc4e48856bb718f2ba8/MHZyIDd3BEtsnH9M2BvzM.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiaochuan Li",
+                        "user": "lixiaochuan",
+                        "type": "user"
+                    },
+                    "name": "Xiaochuan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-17T08:45:39.724Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebece",
+                    "name": "Qi Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebecf",
+                    "name": "Liang Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed0",
+                    "user": {
+                        "_id": "66f67725cdcb9a4eaef04027",
+                        "avatarUrl": "/avatars/fb5f4b467cc4d73e129fa9aa60ef344d.svg",
+                        "isPro": false,
+                        "fullname": "Ellen Liu",
+                        "user": "EllenAP",
+                        "type": "user"
+                    },
+                    "name": "Lu Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-17T08:45:32.476Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed1",
+                    "name": "Jingjing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed2",
+                    "user": {
+                        "_id": "6297889a64501abb8d002c6b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/-tfSq05d4nkLkU_E-N75e.png",
+                        "isPro": false,
+                        "fullname": "Cong Xu",
+                        "user": "NeilXu",
+                        "type": "user"
+                    },
+                    "name": "Cong Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-18T09:16:48.232Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed3",
+                    "name": "Zhenhua Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed4",
+                    "name": "Yaqian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed5",
+                    "name": "Xiaoli Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed6",
+                    "name": "Rengang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67cfd2d7bc539099da9ebed7",
+                    "name": "Baoyu Fan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66b01dc4e48856bb718f2ba8/_R9279HPwaWKB34BDJmAv.png"
+            ],
+            "publishedAt": "2025-03-08T04:37:38.000Z",
+            "submittedOnDailyAt": "2025-03-18T05:40:31.378Z",
+            "title": "DropletVideo: A Dataset and Approach to Explore Integral Spatio-Temporal\n  Consistent Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "66b01dc4e48856bb718f2ba8",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66b01dc4e48856bb718f2ba8/MHZyIDd3BEtsnH9M2BvzM.jpeg",
+                "isPro": false,
+                "fullname": "Xiaochuan Li",
+                "user": "lixiaochuan",
+                "type": "user"
+            },
+            "summary": "Spatio-temporal consistency is a critical research topic in video generation.\nA qualified generated video segment must ensure plot plausibility and coherence\nwhile maintaining visual consistency of objects and scenes across varying\nviewpoints. Prior research, especially in open-source projects, primarily\nfocuses on either temporal or spatial consistency, or their basic combination,\nsuch as appending a description of a camera movement after a prompt without\nconstraining the outcomes of this movement. However, camera movement may\nintroduce new objects to the scene or eliminate existing ones, thereby\noverlaying and affecting the preceding narrative. Especially in videos with\nnumerous camera movements, the interplay between multiple plots becomes\nincreasingly complex. This paper introduces and examines integral\nspatio-temporal consistency, considering the synergy between plot progression\nand camera techniques, and the long-term impact of prior content on subsequent\ngeneration. Our research encompasses dataset construction through to the\ndevelopment of the model. Initially, we constructed a DropletVideo-10M dataset,\nwhich comprises 10 million videos featuring dynamic camera motion and object\nactions. Each video is annotated with an average caption of 206 words,\ndetailing various camera movements and plot developments. Following this, we\ndeveloped and trained the DropletVideo model, which excels in preserving\nspatio-temporal coherence during video generation. The DropletVideo dataset and\nmodel are accessible at https://dropletx.github.io.",
+            "upvotes": 70,
+            "discussionId": "67cfd2debc539099da9ec061",
+            "ai_keywords": [
+                "spatio-temporal consistency",
+                "video generation",
+                "plot plausibility",
+                "visual consistency",
+                "objects",
+                "scenes",
+                "viewpoints",
+                "camera movement",
+                "prompt",
+                "narrative",
+                "plot progression",
+                "camera techniques",
+                "long-term impact",
+                "dataset construction",
+                "DropletVideo-10M dataset",
+                "dynamic camera motion",
+                "object actions",
+                "caption",
+                "DropletVideo model",
+                "spatio-temporal coherence"
+            ]
+        },
+        "translation_title": "DropletVideo: 통합 시공간 일관성을 탐구하는 데이터셋과 접근법",
+        "purpose": "비디오 생성 시 시공간 일관성을 유지하며 플롯의 신뢰성과 일관성을 확보하는 연구",
+        "method": [
+            "DropletVideo-10M이라는 데이터셋을 구축하여 1천만 개의 동적 카메라 모션과 객체 동작을 포함한 비디오를 수집함(Initially, we constructed a DropletVideo-10M dataset, which comprises 10 million videos featuring dynamic camera motion and object actions.)",
+            "각 비디오에는 다양한 카메라 이동 및 플롯 발전을 설명하는 평균 206단어의 캡션이 포함됨(Each video is annotated with an average caption of 206 words, detailing various camera movements and plot developments.)",
+            "DropletVideo 모델을 개발하고 훈련시켜 비디오 생성 시 시공간 일관성을 잘 유지하도록 함(Following this, we developed and trained the DropletVideo model, which excels in preserving spatio-temporal coherence during video generation.)"
+        ],
+        "conclusion": "DropletVideo 데이터셋과 모델은 시공간 일관성을 효과적으로 유지하며, 연구 및 개발에 기여할 수 있음.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.12533",
+            "authors": [
+                {
+                    "_id": "67d8eadc045f869fea1ce3f2",
+                    "user": {
+                        "_id": "644560657a7b94ddc2d445a3",
+                        "avatarUrl": "/avatars/09d6447da6ff1bd0b2b00c899c9f1b28.svg",
+                        "isPro": false,
+                        "fullname": "Haoqi Yuan",
+                        "user": "Yaya041",
+                        "type": "user"
+                    },
+                    "name": "Haoqi Yuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-18T11:33:52.255Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f3",
+                    "name": "Yu Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f4",
+                    "user": {
+                        "_id": "67d92b2218de6ef86c60f7d4",
+                        "avatarUrl": "/avatars/9758522c99bc38bc7b60845eff8bf8d7.svg",
+                        "isPro": false,
+                        "fullname": "Yuhui Fu",
+                        "user": "fuyh",
+                        "type": "user"
+                    },
+                    "name": "Yuhui Fu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:17:46.443Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f5",
+                    "name": "Bohan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f6",
+                    "user": {
+                        "_id": "6655b86e607894ea80d74910",
+                        "avatarUrl": "/avatars/663c0135c903c9c127fe1b8d8aaf279c.svg",
+                        "isPro": false,
+                        "fullname": "yicheng feng",
+                        "user": "takenpeanut",
+                        "type": "user"
+                    },
+                    "name": "Yicheng Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:17:31.771Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f7",
+                    "user": {
+                        "_id": "653238fdcd5377e9adee0c41",
+                        "avatarUrl": "/avatars/78aea70cde6ab0050c7e18b5e148075c.svg",
+                        "isPro": false,
+                        "fullname": "Xinrun Xu",
+                        "user": "SherryXu",
+                        "type": "user"
+                    },
+                    "name": "Xinrun Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:17:05.200Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f8",
+                    "name": "Yi Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3f9",
+                    "user": {
+                        "_id": "61e52be53d6dbb1da842316a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                        "isPro": false,
+                        "fullname": "Börje Karlsson",
+                        "user": "tellarin",
+                        "type": "user"
+                    },
+                    "name": "Börje F. Karlsson",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-18T08:07:34.005Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8eadc045f869fea1ce3fa",
+                    "user": {
+                        "_id": "67d905c0e27ba28109384f5c",
+                        "avatarUrl": "/avatars/26712594ac9d43c8d1a3e75e36b5df16.svg",
+                        "isPro": false,
+                        "fullname": "Zongqing Lu",
+                        "user": "chungtsing",
+                        "type": "user"
+                    },
+                    "name": "Zongqing Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:16:58.409Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-16T14:53:53.000Z",
+            "submittedOnDailyAt": "2025-03-18T02:11:08.263Z",
+            "title": "Being-0: A Humanoid Robotic Agent with Vision-Language Models and\n  Modular Skills",
+            "submittedOnDailyBy": {
+                "_id": "61e52be53d6dbb1da842316a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                "isPro": false,
+                "fullname": "Börje Karlsson",
+                "user": "tellarin",
+                "type": "user"
+            },
+            "summary": "Building autonomous robotic agents capable of achieving human-level\nperformance in real-world embodied tasks is an ultimate goal in humanoid robot\nresearch. Recent advances have made significant progress in high-level\ncognition with Foundation Models (FMs) and low-level skill development for\nhumanoid robots. However, directly combining these components often results in\npoor robustness and efficiency due to compounding errors in long-horizon tasks\nand the varied latency of different modules. We introduce Being-0, a\nhierarchical agent framework that integrates an FM with a modular skill\nlibrary. The FM handles high-level cognitive tasks such as instruction\nunderstanding, task planning, and reasoning, while the skill library provides\nstable locomotion and dexterous manipulation for low-level control. To bridge\nthe gap between these levels, we propose a novel Connector module, powered by a\nlightweight vision-language model (VLM). The Connector enhances the FM's\nembodied capabilities by translating language-based plans into actionable skill\ncommands and dynamically coordinating locomotion and manipulation to improve\ntask success. With all components, except the FM, deployable on low-cost\nonboard computation devices, Being-0 achieves efficient, real-time performance\non a full-sized humanoid robot equipped with dexterous hands and active vision.\nExtensive experiments in large indoor environments demonstrate Being-0's\neffectiveness in solving complex, long-horizon tasks that require challenging\nnavigation and manipulation subtasks. For further details and videos, visit\nhttps://beingbeyond.github.io/being-0.",
+            "upvotes": 45,
+            "discussionId": "67d8eadd045f869fea1ce44a",
+            "projectPage": "https://beingbeyond.github.io/Being-0/",
+            "ai_keywords": [
+                "Foundation Models (FMs)",
+                "modular skill library",
+                "high-level cognitive tasks",
+                "instruction understanding",
+                "task planning",
+                "reasoning",
+                "stable locomotion",
+                "dexterous manipulation",
+                "low-level control",
+                "Connector module",
+                "lightweight vision-language model (VLM",
+                "embodied capabilities",
+                "language-based plans",
+                "actionable skill commands",
+                "dynamic coordination",
+                "full-sized humanoid robot",
+                "dexterous hands",
+                "active vision",
+                "complex, long-horizon tasks",
+                "challenging navigation",
+                "manipulation subtasks"
+            ]
+        },
+        "translation_title": "Being-0: 비전-언어 모델과 모듈형 기술을 갖춘 휴머노이드 로봇 에이전트",
+        "purpose": "실세계에서 인간 수준의 성능을 달성할 수 있는 자율 로봇 에이전트를 구축하는 것",
+        "method": [
+            "FM(Foundation Models)에 모듈형 기술 라이브러리를 통합한 계층적 에이전트 프레임워크인 Being-0를 소개함(We introduce Being-0, a hierarchical agent framework that integrates an FM with a modular skill library.)",
+            "FM은 고급 인지 작업을 처리하고, 기술 라이브러리는 안정적인 운동 및 세밀한 조작을 제공함(The FM handles high-level cognitive tasks such as instruction understanding, task planning, and reasoning, while the skill library provides stable locomotion and dexterous manipulation for low-level control.)",
+            "저렴한 저전력 장치에서 구현될 수 있는 모든 구성요소를 통해 효율적인 실시간 성능을 달성함(With all components, except the FM, deployable on low-cost onboard computation devices, Being-0 achieves efficient, real-time performance on a full-sized humanoid robot.)"
+        ],
+        "conclusion": "Being-0는 복잡하고 긴 작업을 수행하는 데 효과적이며, 도전적인 내비게이션과 조작 하위 작업이 필요한 상황에서 성공적인 성과를 보여줌.",
+        "keywords": [
+            "Robotics",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.12885",
+            "authors": [
+                {
+                    "_id": "67d8e23afa59a8b15a9057e8",
+                    "user": {
+                        "_id": "65eaa1e2b11eeb516a973508",
+                        "avatarUrl": "/avatars/beecd135bb940fdc02406f9063b3fa67.svg",
+                        "isPro": false,
+                        "fullname": "Dewei Zhou",
+                        "user": "limuloo1999",
+                        "type": "user"
+                    },
+                    "name": "Dewei Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:20:39.038Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e23afa59a8b15a9057e9",
+                    "user": {
+                        "_id": "64551bc2c9c0dcc8c2484cf6",
+                        "avatarUrl": "/avatars/0d1ed4f4502f6f54ac6ba071e4c9a220.svg",
+                        "isPro": false,
+                        "fullname": "Mingwei Li",
+                        "user": "aiJojosh",
+                        "type": "user"
+                    },
+                    "name": "Mingwei Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:20:46.810Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e23afa59a8b15a9057ea",
+                    "user": {
+                        "_id": "619bf9b3cbedb87e1a92fb3b",
+                        "avatarUrl": "/avatars/ee280db0232e21416c948ab9a9a2344e.svg",
+                        "isPro": false,
+                        "fullname": "Zongxin Yang",
+                        "user": "z-x-yang",
+                        "type": "user"
+                    },
+                    "name": "Zongxin Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:20:52.869Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e23afa59a8b15a9057eb",
+                    "name": "Yi Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-17T07:30:16.000Z",
+            "submittedOnDailyAt": "2025-03-18T01:33:30.593Z",
+            "title": "DreamRenderer: Taming Multi-Instance Attribute Control in Large-Scale\n  Text-to-Image Models",
+            "submittedOnDailyBy": {
+                "_id": "65eaa1e2b11eeb516a973508",
+                "avatarUrl": "/avatars/beecd135bb940fdc02406f9063b3fa67.svg",
+                "isPro": false,
+                "fullname": "Dewei Zhou",
+                "user": "limuloo1999",
+                "type": "user"
+            },
+            "summary": "Image-conditioned generation methods, such as depth- and canny-conditioned\napproaches, have demonstrated remarkable abilities for precise image synthesis.\nHowever, existing models still struggle to accurately control the content of\nmultiple instances (or regions). Even state-of-the-art models like FLUX and\n3DIS face challenges, such as attribute leakage between instances, which limits\nuser control. To address these issues, we introduce DreamRenderer, a\ntraining-free approach built upon the FLUX model. DreamRenderer enables users\nto control the content of each instance via bounding boxes or masks, while\nensuring overall visual harmony. We propose two key innovations: 1) Bridge\nImage Tokens for Hard Text Attribute Binding, which uses replicated image\ntokens as bridge tokens to ensure that T5 text embeddings, pre-trained solely\non text data, bind the correct visual attributes for each instance during Joint\nAttention; 2) Hard Image Attribute Binding applied only to vital layers.\nThrough our analysis of FLUX, we identify the critical layers responsible for\ninstance attribute rendering and apply Hard Image Attribute Binding only in\nthese layers, using soft binding in the others. This approach ensures precise\ncontrol while preserving image quality. Evaluations on the COCO-POS and\nCOCO-MIG benchmarks demonstrate that DreamRenderer improves the Image Success\nRatio by 17.7% over FLUX and enhances the performance of layout-to-image models\nlike GLIGEN and 3DIS by up to 26.8%. Project Page:\nhttps://limuloo.github.io/DreamRenderer/.",
+            "upvotes": 33,
+            "discussionId": "67d8e23cfa59a8b15a9058ba",
+            "projectPage": "https://limuloo.github.io/DreamRenderer/",
+            "githubRepo": "https://github.com/limuloo/DreamRenderer",
+            "ai_keywords": [
+                "Bridge Image Tokens",
+                "Hard Text Attribute Binding",
+                "Replicated image tokens",
+                "T5 text embeddings",
+                "Joint Attention",
+                "Hard Image Attribute Binding",
+                "Vital layers",
+                "Soft binding",
+                "Image Success Ratio",
+                "COCO-POS",
+                "COCO-MIG",
+                "layout-to-image models",
+                "GLIGEN",
+                "3DIS"
+            ]
+        },
+        "translation_title": "DreamRenderer: 대규모 Text-to-Image 모델에서 다중 인스턴스 속성 제어 기법",
+        "purpose": "다중 인스턴스의 내용을 정확하게 제어할 수 있는 방법 개발",
+        "method": [
+            "FLUX 모델을 기반으로 사용자들이 바운딩 박스나 마스크를 이용해 각 인스턴스의 내용을 제어할 수 있도록 함(To address these issues, we introduce DreamRenderer, a training-free approach built upon the FLUX model.)",
+            "Bridge Image Tokens를 활용해 T5 텍스트 임베딩이 각 인스턴스에 맞게 정확한 시각적 속성을 결합하도록 함(1) Bridge Image Tokens for Hard Text Attribute Binding, which uses replicated image tokens as bridge tokens to ensure that T5 text embeddings, pre-trained solely on text data, bind the correct visual attributes for each instance during Joint Attention.)",
+            "중요한 레이어에서만 Hard Image Attribute Binding을 적용하여 정밀도를 높임(2) Hard Image Attribute Binding applied only to vital layers.)"
+        ],
+        "conclusion": "DreamRenderer는 COCO-POS와 COCO-MIG 벤치마크에서 FLUX보다 17.7% 높은 Image Success Ratio를 기록하였고, GLIGEN 및 3DIS의 성능을 최대 26.8% 향상시킴.",
+        "keywords": [
+            "Image Generation",
+            "Image Segmentation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.13327",
+            "authors": [
+                {
+                    "_id": "67d8e00f0922c3dc8866520c",
+                    "user": {
+                        "_id": "640d704c8036cc2142299c19",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640d704c8036cc2142299c19/Wt9AslcVxWOSSc11epk8l.jpeg",
+                        "isPro": false,
+                        "fullname": "Lan Chen",
+                        "user": "Orannue",
+                        "type": "user"
+                    },
+                    "name": "Lan Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:21:18.982Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e00f0922c3dc8866520d",
+                    "user": {
+                        "_id": "6388a7e98a5dbe2f3dc61faa",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6388a7e98a5dbe2f3dc61faa/Zj8pR7BG_wOQjsYzosb5p.jpeg",
+                        "isPro": false,
+                        "fullname": "Qi Mao",
+                        "user": "HelenMao",
+                        "type": "user"
+                    },
+                    "name": "Qi Mao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-18T14:58:03.938Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e00f0922c3dc8866520e",
+                    "user": {
+                        "_id": "63021630a35b21bd8a53305a",
+                        "avatarUrl": "/avatars/7a7e8b39749eda61e57d8a1908726558.svg",
+                        "isPro": true,
+                        "fullname": "Gu Yuchao",
+                        "user": "guyuchao",
+                        "type": "user"
+                    },
+                    "name": "Yuchao Gu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:21:44.702Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8e00f0922c3dc8866520f",
+                    "user": {
+                        "_id": "661ab3da2b14565c7acccf5c",
+                        "avatarUrl": "/avatars/fa4fc03664803e02aede4d4c3d50b393.svg",
+                        "isPro": false,
+                        "fullname": "Mike Zheng Shou",
+                        "user": "AnalMom",
+                        "type": "user"
+                    },
+                    "name": "Mike Zheng Shou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:21:29.754Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-17T16:04:44.000Z",
+            "submittedOnDailyAt": "2025-03-18T01:26:49.605Z",
+            "title": "Edit Transfer: Learning Image Editing via Vision In-Context Relations",
+            "submittedOnDailyBy": {
+                "_id": "640d704c8036cc2142299c19",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640d704c8036cc2142299c19/Wt9AslcVxWOSSc11epk8l.jpeg",
+                "isPro": false,
+                "fullname": "Lan Chen",
+                "user": "Orannue",
+                "type": "user"
+            },
+            "summary": "We introduce a new setting, Edit Transfer, where a model learns a\ntransformation from just a single source-target example and applies it to a new\nquery image. While text-based methods excel at semantic manipulations through\ntextual prompts, they often struggle with precise geometric details (e.g.,\nposes and viewpoint changes). Reference-based editing, on the other hand,\ntypically focuses on style or appearance and fails at non-rigid\ntransformations. By explicitly learning the editing transformation from a\nsource-target pair, Edit Transfer mitigates the limitations of both text-only\nand appearance-centric references. Drawing inspiration from in-context learning\nin large language models, we propose a visual relation in-context learning\nparadigm, building upon a DiT-based text-to-image model. We arrange the edited\nexample and the query image into a unified four-panel composite, then apply\nlightweight LoRA fine-tuning to capture complex spatial transformations from\nminimal examples. Despite using only 42 training samples, Edit Transfer\nsubstantially outperforms state-of-the-art TIE and RIE methods on diverse\nnon-rigid scenarios, demonstrating the effectiveness of few-shot visual\nrelation learning.",
+            "upvotes": 21,
+            "discussionId": "67d8e0100922c3dc88665285",
+            "projectPage": "https://cuc-mipg.github.io/EditTransfer.github.io",
+            "githubRepo": "https://github.com/CUC-MIPG/Edit-Transfer",
+            "ai_keywords": [
+                "Edit Transfer",
+                "visual relation in-context learning",
+                "DiT-based text-to-image model",
+                "four-panel composite",
+                "LoRA fine-tuning",
+                "few-shot visual relation learning",
+                "non-rigid transformations",
+                "TIE methods",
+                "RIE methods"
+            ]
+        },
+        "translation_title": "Edit Transfer: 비전 인-컨텍스트 관계를 통한 이미지 편집 학습",
+        "purpose": "단일 샘플에서 변환을 학습하고 새로운 이미지에 적용하여 이미지 편집 능력을 향상시키는 것",
+        "method": [
+            "Edit Transfer는 소스-타겟 쌍에서 편집 변환을 학습함으로써 텍스트 기반 방법과 스타일 중심 편집의 한계를 완화함(By explicitly learning the editing transformation from a source-target pair, Edit Transfer mitigates the limitations of both text-only and appearance-centric references.)",
+            "비주얼 관계 인-컨텍스트 학습 패러다임을 제안하고, DiT 기반 텍스트-이미지 모델을 바탕으로 편집된 예와 쿼리 이미지를 통합하여 네 패널 합성으로 구성함(Drawing inspiration from in-context learning in large language models, we propose a visual relation in-context learning paradigm, building upon a DiT-based text-to-image model.)",
+            "경량 LoRA 미세 조정을 적용하여 최소한의 예시로부터 복잡한 공간 변환을 캡처함(then apply lightweight LoRA fine-tuning to capture complex spatial transformations from minimal examples.)"
+        ],
+        "conclusion": "Edit Transfer는 42개의 훈련 샘플만 사용하고도 다양한 비형상 시나리오에서 최신 TIE 및 RIE 방법을 크게 초월하는 성능을 보여줌으로써 몇 샷 비주얼 관계 학습의 효과를 입증함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.12590",
+            "authors": [
+                {
+                    "_id": "67d8de85f7809eea577c4805",
+                    "name": "Haoran Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8de85f7809eea577c4806",
+                    "user": {
+                        "_id": "6375d136dee28348a9c63cbf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6375d136dee28348a9c63cbf/gK465HBrQWIOZ-qtHb-Vh.jpeg",
+                        "isPro": false,
+                        "fullname": "zehuan-huang",
+                        "user": "huanngzh",
+                        "type": "user"
+                    },
+                    "name": "Zehuan Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-18T08:08:06.131Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8de85f7809eea577c4807",
+                    "name": "Lin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8de85f7809eea577c4808",
+                    "user": {
+                        "_id": "674ded8ee50d988a4b9e108b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/8oQITwlb7AB8LeIJjooYc.png",
+                        "isPro": false,
+                        "fullname": "Hairong Lv",
+                        "user": "lvhairong",
+                        "type": "user"
+                    },
+                    "name": "Hairong Lv",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-18T09:22:23.294Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67d8de85f7809eea577c4809",
+                    "name": "Lu Sheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-16T17:51:16.000Z",
+            "submittedOnDailyAt": "2025-03-18T01:18:31.307Z",
+            "title": "Personalize Anything for Free with Diffusion Transformer",
+            "submittedOnDailyBy": {
+                "_id": "6375d136dee28348a9c63cbf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6375d136dee28348a9c63cbf/gK465HBrQWIOZ-qtHb-Vh.jpeg",
+                "isPro": false,
+                "fullname": "zehuan-huang",
+                "user": "huanngzh",
+                "type": "user"
+            },
+            "summary": "Personalized image generation aims to produce images of user-specified\nconcepts while enabling flexible editing. Recent training-free approaches,\nwhile exhibit higher computational efficiency than training-based methods,\nstruggle with identity preservation, applicability, and compatibility with\ndiffusion transformers (DiTs). In this paper, we uncover the untapped potential\nof DiT, where simply replacing denoising tokens with those of a reference\nsubject achieves zero-shot subject reconstruction. This simple yet effective\nfeature injection technique unlocks diverse scenarios, from personalization to\nimage editing. Building upon this observation, we propose Personalize\nAnything, a training-free framework that achieves personalized image\ngeneration in DiT through: 1) timestep-adaptive token replacement that enforces\nsubject consistency via early-stage injection and enhances flexibility through\nlate-stage regularization, and 2) patch perturbation strategies to boost\nstructural diversity. Our method seamlessly supports layout-guided generation,\nmulti-subject personalization, and mask-controlled editing. Evaluations\ndemonstrate state-of-the-art performance in identity preservation and\nversatility. Our work establishes new insights into DiTs while delivering a\npractical paradigm for efficient personalization.",
+            "upvotes": 20,
+            "discussionId": "67d8de89f7809eea577c4930",
+            "projectPage": "https://fenghora.github.io/Personalize-Anything-Page/",
+            "githubRepo": "https://github.com/fenghora/personalize-anything",
+            "ai_keywords": [
+                "diffusion transformers (DiTs)",
+                "denoising tokens",
+                "zero-shot subject reconstruction",
+                "timestep-adaptive token replacement",
+                "early-stage injection",
+                "late-stage regularization",
+                "patch perturbation strategies",
+                "layout-guided generation",
+                "multi-subject personalization",
+                "mask-controlled editing",
+                "identity preservation",
+                "versatility"
+            ]
+        },
+        "translation_title": "Diffusion Transformer를 활용한 무료 맞춤형 이미지 생성",
+        "purpose": "사용자가 지정한 개념의 이미지를 생성하면서 유연한 편집을 가능하게 하는 맞춤형 이미지 생성을 목표로 함.",
+        "method": [
+            "Denoising tokens를 참조 주체의 것으로 간단히 교체하여 제로샷 주체 재구성을 실현함(This paper uncovers the untapped potential of DiT, where simply replacing denoising tokens with those of a reference subject achieves zero-shot subject reconstruction.)",
+            "시공간 적응형 토큰 교체로 주체 일관성을 보장하고 유연성을 높임을 제안함(Building upon this observation, we propose Personalize Anything, a training-free framework that achieves personalized image generation in DiT through: 1) timestep-adaptive token replacement that enforces subject consistency via early-stage injection and enhances flexibility through late-stage regularization.)",
+            "패치 변형 전략을 통해 구조적 다양성을 높임(2) patch perturbation strategies to boost structural diversity.)"
+        ],
+        "conclusion": "우리의 방법은 주체 보존과 다재다능성에서 최첨단 성능을 나타내며, 효율적인 맞춤화를 위한 실용적인 패러다임을 제시함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Image Editing"
+        ]
+    }
+]
