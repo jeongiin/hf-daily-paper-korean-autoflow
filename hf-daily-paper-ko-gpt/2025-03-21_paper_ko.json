@@ -1,0 +1,842 @@
+[
+    {
+        "paper": {
+            "id": "2503.13358",
+            "authors": [
+                {
+                    "_id": "67dd2ed0d2550735426e7b6f",
+                    "user": {
+                        "_id": "64a42977250bfdecd9570a9e",
+                        "avatarUrl": "/avatars/df5d7cf159e6bb9e961e1c77d1b89d36.svg",
+                        "isPro": false,
+                        "fullname": "Daniil Selikhanovych",
+                        "user": "apryc1",
+                        "type": "user"
+                    },
+                    "name": "Daniil Selikhanovych",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-03-21T09:18:55.946Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b70",
+                    "user": {
+                        "_id": "656a2e59b4020389028dc85f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656a2e59b4020389028dc85f/_OneIJ3ByHSgIZjjuU7HB.jpeg",
+                        "isPro": false,
+                        "fullname": "David Li",
+                        "user": "kekchpek",
+                        "type": "user"
+                    },
+                    "name": "David Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:37:32.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b71",
+                    "name": "Aleksei Leonov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b72",
+                    "user": {
+                        "_id": "672503c59f68afdd63cc81a2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/672503c59f68afdd63cc81a2/lw4ApCTwAKgt_uUyfSVRH.jpeg",
+                        "isPro": false,
+                        "fullname": "Nikita Gushchin",
+                        "user": "ngushchin",
+                        "type": "user"
+                    },
+                    "name": "Nikita Gushchin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:37:30.126Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b73",
+                    "user": {
+                        "_id": "644aa54d1acffad9353d5655",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644aa54d1acffad9353d5655/KE2nbf6UsmdNMFRtthwlH.jpeg",
+                        "isPro": false,
+                        "fullname": "Sergey Kushneryuk",
+                        "user": "skushneryuk",
+                        "type": "user"
+                    },
+                    "name": "Sergei Kushneriuk",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:37:27.722Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b74",
+                    "user": {
+                        "_id": "63190c17ca8b18deedc77734",
+                        "avatarUrl": "/avatars/5b0e1850df82435b6875f85e03c3702f.svg",
+                        "isPro": false,
+                        "fullname": "Alexander Filippov",
+                        "user": "agoxandr",
+                        "type": "user"
+                    },
+                    "name": "Alexander Filippov",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:53:41.165Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b75",
+                    "name": "Evgeny Burnaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b76",
+                    "user": {
+                        "_id": "670558e7d2fc9d76b06c207e",
+                        "avatarUrl": "/avatars/88a66ffb334a4fc9d4c150b6aae0f537.svg",
+                        "isPro": false,
+                        "fullname": "Iaroslav Koshelev",
+                        "user": "ys-koshelev",
+                        "type": "user"
+                    },
+                    "name": "Iaroslav Koshelev",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:58:41.132Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd2ed0d2550735426e7b77",
+                    "user": {
+                        "_id": "67a31c9ae5b870d5157657db",
+                        "avatarUrl": "/avatars/ca5fd356e3656e1beacb5a28ecaad5be.svg",
+                        "isPro": false,
+                        "fullname": "Alexander Korotin",
+                        "user": "akorotin",
+                        "type": "user"
+                    },
+                    "name": "Alexander Korotin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:58:35.510Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-17T16:44:08.000Z",
+            "submittedOnDailyAt": "2025-03-21T07:50:23.779Z",
+            "title": "One-Step Residual Shifting Diffusion for Image Super-Resolution via\n  Distillation",
+            "submittedOnDailyBy": {
+                "_id": "64a42977250bfdecd9570a9e",
+                "avatarUrl": "/avatars/df5d7cf159e6bb9e961e1c77d1b89d36.svg",
+                "isPro": false,
+                "fullname": "Daniil Selikhanovych",
+                "user": "apryc1",
+                "type": "user"
+            },
+            "summary": "Diffusion models for super-resolution (SR) produce high-quality visual\nresults but require expensive computational costs. Despite the development of\nseveral methods to accelerate diffusion-based SR models, some (e.g., SinSR)\nfail to produce realistic perceptual details, while others (e.g., OSEDiff) may\nhallucinate non-existent structures. To overcome these issues, we present RSD,\na new distillation method for ResShift, one of the top diffusion-based SR\nmodels. Our method is based on training the student network to produce such\nimages that a new fake ResShift model trained on them will coincide with the\nteacher model. RSD achieves single-step restoration and outperforms the teacher\nby a large margin. We show that our distillation method can surpass the other\ndistillation-based method for ResShift - SinSR - making it on par with\nstate-of-the-art diffusion-based SR distillation methods. Compared to SR\nmethods based on pre-trained text-to-image models, RSD produces competitive\nperceptual quality, provides images with better alignment to degraded input\nimages, and requires fewer parameters and GPU memory. We provide experimental\nresults on various real-world and synthetic datasets, including RealSR,\nRealSet65, DRealSR, ImageNet, and DIV2K.",
+            "upvotes": 61,
+            "discussionId": "67dd2ed7d2550735426e7d7f",
+            "ai_keywords": [
+                "diffusion models",
+                "super-resolution (SR)",
+                "ResShift",
+                "distillation method",
+                "fake ResShift model",
+                "single-step restoration",
+                "SinSR",
+                "perceptual quality",
+                "degraded input images",
+                "parameters",
+                "GPU memory"
+            ]
+        },
+        "translation_title": "이미지 초해상도를 위한 One-Step Residual Shifting Diffusion 방법",
+        "purpose": "효율적이고 고품질의 이미지 초해상도(SR)를 생산하기 위한 새로운 방법 개발",
+        "method": [
+            "학습된 학생 네트워크가 생성한 이미지가 새로운 가짜 ResShift 모델과 일치하도록 훈련하는 방법론 제시(RSD, a new distillation method for ResShift, is based on training the student network to produce such images that a new fake ResShift model trained on them will coincide with the teacher model.)",
+            "단일 단계 복원을 달성하고 교사 모델보다 성능이 월등히 우수함(RSD achieves single-step restoration and outperforms the teacher by a large margin.)",
+            "기존의 방법보다 더 나은 성능을 가지며, 특히 SinSR과 비교하여 state-of-the-art 이미지 초해상도 기법에 근접함(RSD can surpass SinSR - making it on par with state-of-the-art diffusion-based SR distillation methods.)"
+        ],
+        "conclusion": "RSD는 경쟁력 있는 시각적 품질을 제공하며, 더 적은 파라미터와 GPU 메모리로도 높은 성능을 발휘하는 효과적인 방법임.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16419",
+            "authors": [
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f2",
+                    "user": {
+                        "_id": "63787b13500186f250ba377c",
+                        "avatarUrl": "/avatars/96bb6051662109e9cd25e6df7d738f17.svg",
+                        "isPro": false,
+                        "fullname": "yangsui",
+                        "user": "yangsui",
+                        "type": "user"
+                    },
+                    "name": "Yang Sui",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:40:51.244Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f3",
+                    "name": "Yu-Neng Chuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f4",
+                    "name": "Guanchu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f5",
+                    "user": {
+                        "_id": "63dcc9f3043d6c11093d3bd4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63dcc9f3043d6c11093d3bd4/t3Ai60QML7ZEwifVf3IF4.png",
+                        "isPro": false,
+                        "fullname": "Jiamu Zhang",
+                        "user": "JiamuZhang",
+                        "type": "user"
+                    },
+                    "name": "Jiamu Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:59:21.471Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f6",
+                    "name": "Tianyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f7",
+                    "user": {
+                        "_id": "64b7879a6ab5d14ca7f9bdf4",
+                        "avatarUrl": "/avatars/48990fe5b18ab17a3dedacdcc6ee3f3a.svg",
+                        "isPro": false,
+                        "fullname": "Jiayi Yuan",
+                        "user": "jy-yuan",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:59:47.887Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f8",
+                    "user": {
+                        "_id": "65c540e2735dd9c81625fadd",
+                        "avatarUrl": "/avatars/36713db387abb001cc1e20644ff1f1d4.svg",
+                        "isPro": false,
+                        "fullname": "Hongyi Liu",
+                        "user": "HongyiLiuAI",
+                        "type": "user"
+                    },
+                    "name": "Hongyi Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T11:59:56.207Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3f9",
+                    "user": {
+                        "_id": "658fb57da02954c9820eeb29",
+                        "avatarUrl": "/avatars/57a3a9c5175d0b23cc7d6cab0fec08b7.svg",
+                        "isPro": false,
+                        "fullname": "andrew wen",
+                        "user": "andrewwen",
+                        "type": "user"
+                    },
+                    "name": "Andrew Wen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:00:02.782Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3fa",
+                    "name": "Shaochen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3fb",
+                    "name": "Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3fc",
+                    "name": "Hanjie Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdbfc71027d42fa46e3fd",
+                    "name": "Xia Hu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-20T17:59:38.000Z",
+            "submittedOnDailyAt": "2025-03-21T01:56:58.604Z",
+            "title": "Stop Overthinking: A Survey on Efficient Reasoning for Large Language\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "63787b13500186f250ba377c",
+                "avatarUrl": "/avatars/96bb6051662109e9cd25e6df7d738f17.svg",
+                "isPro": false,
+                "fullname": "yangsui",
+                "user": "yangsui",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities in\ncomplex tasks. Recent advancements in Large Reasoning Models (LRMs), such as\nOpenAI o1 and DeepSeek-R1, have further improved performance in System-2\nreasoning domains like mathematics and programming by harnessing supervised\nfine-tuning (SFT) and reinforcement learning (RL) techniques to enhance the\nChain-of-Thought (CoT) reasoning. However, while longer CoT reasoning sequences\nimprove performance, they also introduce significant computational overhead due\nto verbose and redundant outputs, known as the \"overthinking phenomenon\". In\nthis paper, we provide the first structured survey to systematically\ninvestigate and explore the current progress toward achieving efficient\nreasoning in LLMs. Overall, relying on the inherent mechanism of LLMs, we\ncategorize existing works into several key directions: (1) model-based\nefficient reasoning, which considers optimizing full-length reasoning models\ninto more concise reasoning models or directly training efficient reasoning\nmodels; (2) reasoning output-based efficient reasoning, which aims to\ndynamically reduce reasoning steps and length during inference; (3) input\nprompts-based efficient reasoning, which seeks to enhance reasoning efficiency\nbased on input prompt properties such as difficulty or length control.\nAdditionally, we introduce the use of efficient data for training reasoning\nmodels, explore the reasoning capabilities of small language models, and\ndiscuss evaluation methods and benchmarking.",
+            "upvotes": 32,
+            "discussionId": "67dcdbfd71027d42fa46e439",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "Large Reasoning Models (LRMs)",
+                "OpenAI o1",
+                "DeepSeek-R1",
+                "supervised fine-tuning (SFT)",
+                "reinforcement learning (RL)",
+                "Chain-of-Thought (CoT) reasoning",
+                "overthinking phenomenon",
+                "model-based efficient reasoning",
+                "reasoning output-based efficient reasoning",
+                "input prompts-based efficient reasoning",
+                "efficient data",
+                "small language models",
+                "evaluation methods",
+                "benchmarking"
+            ]
+        },
+        "translation_title": "Stop Overthinking: 대형 언어 모델을 위한 효율적 추론에 대한 설문 조사",
+        "purpose": "대형 언어 모델에서 효율적인 추론을 달성하기 위한 진행 상황을 조사하고 체계적으로 연구",
+        "method": [
+            "기존 연구를 모델 기반, 추론 출력 기반, 입력 프롬프트 기반의 효율적 추론 방향으로 분류함(Overall, relying on the inherent mechanism of LLMs, we categorize existing works into several key directions.)",
+            "효율적인 추론 모델로 전체 추론 모델을 최적화하거나 직접 학습하는 방법을 논의함((1) model-based efficient reasoning, which considers optimizing full-length reasoning models into more concise reasoning models or directly training efficient reasoning models.)",
+            "추론 중 동적으로 추론 단계와 길이를 줄이는 방법을 제안함((2) reasoning output-based efficient reasoning, which aims to dynamically reduce reasoning steps and length during inference.)"
+        ],
+        "conclusion": "이 연구를 통해 대형 언어 모델에서 효율적인 추론을 위한 여러 방향을 체계적으로 이해하고 논의할 수 있게 되었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Efficient Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16416",
+            "authors": [
+                {
+                    "_id": "67dd1d595fd14aedd30bb94a",
+                    "user": {
+                        "_id": "638324f862badff43269e588",
+                        "avatarUrl": "/avatars/907a39a9b44fc8b7f3fad35858b01fb7.svg",
+                        "isPro": false,
+                        "fullname": "Asaf Yehudai",
+                        "user": "Asaf-Yehudai",
+                        "type": "user"
+                    },
+                    "name": "Asaf Yehudai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:37:52.838Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb94b",
+                    "user": {
+                        "_id": "6694bdae1a0138cdbfc2799b",
+                        "avatarUrl": "/avatars/8c42646280c327253493edc149d16a56.svg",
+                        "isPro": false,
+                        "fullname": "Lilach Eden",
+                        "user": "LilachE",
+                        "type": "user"
+                    },
+                    "name": "Lilach Eden",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:53:28.129Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb94c",
+                    "user": {
+                        "_id": "6209ab721c19916805e5b2d1",
+                        "avatarUrl": "/avatars/67bbb958f19cedb2ea09461127f8ac92.svg",
+                        "isPro": false,
+                        "fullname": "Alan Li",
+                        "user": "lihaoxin2020",
+                        "type": "user"
+                    },
+                    "name": "Alan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:37:48.565Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb94d",
+                    "name": "Guy Uziel",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb94e",
+                    "user": {
+                        "_id": "62f662bcc58915315c4eccea",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                        "isPro": true,
+                        "fullname": "Yilun",
+                        "user": "yilunzhao",
+                        "type": "user"
+                    },
+                    "name": "Yilun Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:53:35.221Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb94f",
+                    "user": {
+                        "_id": "666d8753e70e5838d9716446",
+                        "avatarUrl": "/avatars/6390f9069372a72e79cd331bf043908b.svg",
+                        "isPro": false,
+                        "fullname": "Roy Bar Haim",
+                        "user": "roybarhaim",
+                        "type": "user"
+                    },
+                    "name": "Roy Bar-Haim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:53:41.335Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb950",
+                    "user": {
+                        "_id": "5f5ba21188f57f65f951f255",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1599840760465-noauth.png",
+                        "isPro": false,
+                        "fullname": "Arman Cohan",
+                        "user": "armanc",
+                        "type": "user"
+                    },
+                    "name": "Arman Cohan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:53:51.866Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dd1d595fd14aedd30bb951",
+                    "name": "Michal Shmueli-Scheuer",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-20T17:59:23.000Z",
+            "submittedOnDailyAt": "2025-03-21T06:34:12.447Z",
+            "title": "Survey on Evaluation of LLM-based Agents",
+            "submittedOnDailyBy": {
+                "_id": "638324f862badff43269e588",
+                "avatarUrl": "/avatars/907a39a9b44fc8b7f3fad35858b01fb7.svg",
+                "isPro": false,
+                "fullname": "Asaf Yehudai",
+                "user": "Asaf-Yehudai",
+                "type": "user"
+            },
+            "summary": "The emergence of LLM-based agents represents a paradigm shift in AI, enabling\nautonomous systems to plan, reason, use tools, and maintain memory while\ninteracting with dynamic environments. This paper provides the first\ncomprehensive survey of evaluation methodologies for these increasingly capable\nagents. We systematically analyze evaluation benchmarks and frameworks across\nfour critical dimensions: (1) fundamental agent capabilities, including\nplanning, tool use, self-reflection, and memory; (2) application-specific\nbenchmarks for web, software engineering, scientific, and conversational\nagents; (3) benchmarks for generalist agents; and (4) frameworks for evaluating\nagents. Our analysis reveals emerging trends, including a shift toward more\nrealistic, challenging evaluations with continuously updated benchmarks. We\nalso identify critical gaps that future research must address-particularly in\nassessing cost-efficiency, safety, and robustness, and in developing\nfine-grained, and scalable evaluation methods. This survey maps the rapidly\nevolving landscape of agent evaluation, reveals the emerging trends in the\nfield, identifies current limitations, and proposes directions for future\nresearch.",
+            "upvotes": 27,
+            "discussionId": "67dd1d5a5fd14aedd30bb999",
+            "ai_keywords": [
+                "LLM-based agents",
+                "planning",
+                "tool use",
+                "self-reflection",
+                "memory",
+                "evaluation benchmarks",
+                "evaluation frameworks",
+                "fundamental agent capabilities",
+                "application-specific benchmarks",
+                "web agents",
+                "software engineering agents",
+                "scientific agents",
+                "conversational agents",
+                "generalist agents",
+                "cost-efficiency",
+                "safety",
+                "robustness",
+                "fine-grained evaluation methods",
+                "scalable evaluation methods"
+            ]
+        },
+        "translation_title": "LLM 기반 에이전트 평가에 대한 조사",
+        "purpose": "LLM 기반 에이전트의 평가 방법론을 포괄적으로 조사하여 자율 시스템의 발전을 지원하기 위한 것",
+        "method": [
+            "에이전트의 기본 능력, 애플리케이션 별 벤치마크, 일반 에이전트 벤치마크, 에이전트 평가 프레임워크를 분석함(We systematically analyze evaluation benchmarks and frameworks across four critical dimensions: (1) fundamental agent capabilities, including planning, tool use, self-reflection, and memory; (2) application-specific benchmarks for web, software engineering, scientific, and conversational agents; (3) benchmarks for generalist agents; and (4) frameworks for evaluating agents.)",
+            "평가 방법에서 보다 현실적이고 도전적인 평가로의 전환을 포함한 새로운 경향을 발견함(Our analysis reveals emerging trends, including a shift toward more realistic, challenging evaluations with continuously updated benchmarks.)",
+            "비용 효율성, 안전성, 강건성을 평가하기 위한 방법론의 공백을 식별함(We also identify critical gaps that future research must address-particularly in assessing cost-efficiency, safety, and robustness.)"
+        ],
+        "conclusion": "이 조사는 에이전트 평가의 발전 속에서 현재의 한계를 밝혀내고, 미래 연구의 방향을 제안함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16302",
+            "authors": [
+                {
+                    "_id": "67dce2d2068292e7ef79b3dd",
+                    "user": {
+                        "_id": "63044b89eedc089484c995ad",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/T4mOIQLaQdM5_oviaw_Cp.png",
+                        "isPro": false,
+                        "fullname": "Zeqiang Lai",
+                        "user": "ZeqiangLai",
+                        "type": "user"
+                    },
+                    "name": "Zeqiang Lai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:40:33.586Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3de",
+                    "user": {
+                        "_id": "619b8af6cbedb87e1a92e692",
+                        "avatarUrl": "/avatars/1258fb2f2637adac8550100f3645651e.svg",
+                        "isPro": false,
+                        "fullname": "YunFei Zhao",
+                        "user": "qikahh",
+                        "type": "user"
+                    },
+                    "name": "Yunfei Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:00:37.346Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3df",
+                    "user": {
+                        "_id": "62d8ce11c60d1450a1ed8795",
+                        "avatarUrl": "/avatars/26f1ca693ad7106be0f2f469070d8500.svg",
+                        "isPro": false,
+                        "fullname": "zibo.zhao",
+                        "user": "cocacola",
+                        "type": "user"
+                    },
+                    "name": "Zibo Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:00:43.511Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e0",
+                    "name": "Haolin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e1",
+                    "user": {
+                        "_id": "63e9e92f20c109718713f5eb",
+                        "avatarUrl": "/avatars/9ff312e854d803e1a2e9e685a21d12f8.svg",
+                        "isPro": false,
+                        "fullname": "Fu-Yun Wang",
+                        "user": "wangfuyun",
+                        "type": "user"
+                    },
+                    "name": "Fuyun Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:01:06.818Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e2",
+                    "user": {
+                        "_id": "67287a522ae45f363dd0ad43",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67287a522ae45f363dd0ad43/H6eyuxxSk6a84PzRoYcIU.png",
+                        "isPro": false,
+                        "fullname": "huiwenshi",
+                        "user": "Huiwenshi",
+                        "type": "user"
+                    },
+                    "name": "Huiwen Shi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:01:13.316Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e3",
+                    "name": "Xianghui Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e4",
+                    "name": "Qinxiang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e5",
+                    "name": "Jinwei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e6",
+                    "name": "Yuhong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e7",
+                    "name": "Jie Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e8",
+                    "name": "Chunchao Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dce2d2068292e7ef79b3e9",
+                    "user": {
+                        "_id": "666a8f24e2990b0cb16b7bf9",
+                        "avatarUrl": "/avatars/fcbaf8f1e3e53a2a4a819b7cb2c53aa4.svg",
+                        "isPro": false,
+                        "fullname": "Xiangyu Yue",
+                        "user": "xyyue",
+                        "type": "user"
+                    },
+                    "name": "Xiangyu Yue",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:52:21.020Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63044b89eedc089484c995ad/ukrgJYM5cBYEzAo7b9J7U.mp4"
+            ],
+            "publishedAt": "2025-03-20T16:23:44.000Z",
+            "submittedOnDailyAt": "2025-03-21T02:25:30.177Z",
+            "title": "Unleashing Vecset Diffusion Model for Fast Shape Generation",
+            "submittedOnDailyBy": {
+                "_id": "63044b89eedc089484c995ad",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/T4mOIQLaQdM5_oviaw_Cp.png",
+                "isPro": false,
+                "fullname": "Zeqiang Lai",
+                "user": "ZeqiangLai",
+                "type": "user"
+            },
+            "summary": "3D shape generation has greatly flourished through the development of\nso-called \"native\" 3D diffusion, particularly through the Vecset Diffusion\nModel (VDM). While recent advancements have shown promising results in\ngenerating high-resolution 3D shapes, VDM still struggles with high-speed\ngeneration. Challenges exist because of difficulties not only in accelerating\ndiffusion sampling but also VAE decoding in VDM, areas under-explored in\nprevious works. To address these challenges, we present FlashVDM, a systematic\nframework for accelerating both VAE and DiT in VDM. For DiT, FlashVDM enables\nflexible diffusion sampling with as few as 5 inference steps and comparable\nquality, which is made possible by stabilizing consistency distillation with\nour newly introduced Progressive Flow Distillation. For VAE, we introduce a\nlightning vecset decoder equipped with Adaptive KV Selection, Hierarchical\nVolume Decoding, and Efficient Network Design. By exploiting the locality of\nthe vecset and the sparsity of shape surface in the volume, our decoder\ndrastically lowers FLOPs, minimizing the overall decoding overhead. We apply\nFlashVDM to Hunyuan3D-2 to obtain Hunyuan3D-2 Turbo. Through systematic\nevaluation, we show that our model significantly outperforms existing fast 3D\ngeneration methods, achieving comparable performance to the state-of-the-art\nwhile reducing inference time by over 45x for reconstruction and 32x for\ngeneration. Code and models are available at\nhttps://github.com/Tencent/FlashVDM.",
+            "upvotes": 27,
+            "discussionId": "67dce2d6068292e7ef79b556",
+            "githubRepo": "https://github.com/Tencent/FlashVDM",
+            "ai_keywords": [
+                "3D diffusion",
+                "Vecset Diffusion Model (VDM)",
+                "diffusion sampling",
+                "VAE",
+                "DiT",
+                "Progressive Flow Distillation",
+                "lightning vecset decoder",
+                "Adaptive KV Selection",
+                "Hierarchical Volume Decoding",
+                "Efficient Network Design",
+                "FLOPs",
+                "decoding overhead",
+                "Hunyuan3D-2",
+                "Hunyuan3D-2 Turbo"
+            ]
+        },
+        "translation_title": "빠른 형태 생성을 위한 Vecset Diffusion 모델의 활용",
+        "purpose": "고속 3D 형태 생성을 위한 VDM(Vertset Diffusion Model) 개선",
+        "method": [
+            "FlashVDM이라는 체계적인 프레임워크를 통해 VAE와 DiT의 속도를 동시에 높임(To address these challenges, we present FlashVDM, a systematic framework for accelerating both VAE and DiT in VDM.)",
+            "FlashVDM은 5회 추론 단계로 유연한 diffusion 샘플링을 가능하게 함, 이는 새로운 Progressive Flow Distillation을 통해 일관성 증류를 안정화하여 가능함(For DiT, FlashVDM enables flexible diffusion sampling with as few as 5 inference steps and comparable quality, which is made possible by stabilizing consistency distillation with our newly introduced Progressive Flow Distillation.)",
+            "Adaptive KV Selection과 Hierarchical Volume Decoding을 갖춘 Lightning vecset decoder를 도입하여 디코딩 비용을 대폭 줄임(For VAE, we introduce a lightning vecset decoder equipped with Adaptive KV Selection, Hierarchical Volume Decoding, and Efficient Network Design.)"
+        ],
+        "conclusion": "FlashVDM은 기존의 빠른 3D 생성 방법보다 훨씬 우수한 성능을 보이며, 재구성에서는 45배, 생성에서는 32배 빠른 속도를 달성함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.14487",
+            "authors": [
+                {
+                    "_id": "67da83d1b05eff6d87a41f81",
+                    "user": {
+                        "_id": "662887715d246621f33d2ce6",
+                        "avatarUrl": "/avatars/3e0b1017b1e1bf284758ce840c174290.svg",
+                        "isPro": false,
+                        "fullname": "Shi Minglei",
+                        "user": "MingleiShi",
+                        "type": "user"
+                    },
+                    "name": "Minglei Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-19T09:43:55.360Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f82",
+                    "user": {
+                        "_id": "66c15837b186e4f6a0dac80c",
+                        "avatarUrl": "/avatars/a3b75d6945f1608e64a2fcff887a5024.svg",
+                        "isPro": false,
+                        "fullname": "Ziyang Yuan",
+                        "user": "ziyangy",
+                        "type": "user"
+                    },
+                    "name": "Ziyang Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:54:09.791Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f83",
+                    "user": {
+                        "_id": "64ba53dcbc787364968a7649",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/KgbDlawW8n2s_V3kzhJLW.png",
+                        "isPro": false,
+                        "fullname": "Haotian Yang",
+                        "user": "haotianxoxo",
+                        "type": "user"
+                    },
+                    "name": "Haotian Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:54:19.207Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f84",
+                    "user": {
+                        "_id": "60e272ca6c78a8c122b12127",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60e272ca6c78a8c122b12127/xldEGBzGrU-bX6IwAw0Ie.jpeg",
+                        "isPro": false,
+                        "fullname": "Xintao Wang",
+                        "user": "Xintao",
+                        "type": "user"
+                    },
+                    "name": "Xintao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T12:46:06.302Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f85",
+                    "user": {
+                        "_id": "647dcab4becb41a272921250",
+                        "avatarUrl": "/avatars/1e4fa540109c4963f54ccad9bd9e9b42.svg",
+                        "isPro": false,
+                        "fullname": "Mingwu Zheng",
+                        "user": "MuonZ",
+                        "type": "user"
+                    },
+                    "name": "Mingwu Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:54:26.135Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f86",
+                    "name": "Xin Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f87",
+                    "user": {
+                        "_id": "65be89df5e342a230dd04375",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65be89df5e342a230dd04375/aoexyZRbHt2lwHE3iBrBv.jpeg",
+                        "isPro": false,
+                        "fullname": "Wenliang Zhao",
+                        "user": "kennyzhao",
+                        "type": "user"
+                    },
+                    "name": "Wenliang Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:54:33.665Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f88",
+                    "name": "Wenzhao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f89",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f8a",
+                    "user": {
+                        "_id": "66c44203ea476bea05e9fcd7",
+                        "avatarUrl": "/avatars/b061eebec609446e669f5ad6365959f9.svg",
+                        "isPro": false,
+                        "fullname": "lu",
+                        "user": "jiwenlu",
+                        "type": "user"
+                    },
+                    "name": "Jiwen Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-21T12:55:09.982Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f8b",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f8c",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67da83d1b05eff6d87a41f8d",
+                    "name": "Kun Gai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-18T17:57:07.000Z",
+            "submittedOnDailyAt": "2025-03-21T06:35:23.843Z",
+            "title": "DiffMoE: Dynamic Token Selection for Scalable Diffusion Transformers",
+            "submittedOnDailyBy": {
+                "_id": "662887715d246621f33d2ce6",
+                "avatarUrl": "/avatars/3e0b1017b1e1bf284758ce840c174290.svg",
+                "isPro": false,
+                "fullname": "Shi Minglei",
+                "user": "MingleiShi",
+                "type": "user"
+            },
+            "summary": "Diffusion models have demonstrated remarkable success in various image\ngeneration tasks, but their performance is often limited by the uniform\nprocessing of inputs across varying conditions and noise levels. To address\nthis limitation, we propose a novel approach that leverages the inherent\nheterogeneity of the diffusion process. Our method, DiffMoE, introduces a\nbatch-level global token pool that enables experts to access global token\ndistributions during training, promoting specialized expert behavior. To\nunleash the full potential of the diffusion process, DiffMoE incorporates a\ncapacity predictor that dynamically allocates computational resources based on\nnoise levels and sample complexity. Through comprehensive evaluation, DiffMoE\nachieves state-of-the-art performance among diffusion models on ImageNet\nbenchmark, substantially outperforming both dense architectures with 3x\nactivated parameters and existing MoE approaches while maintaining 1x activated\nparameters. The effectiveness of our approach extends beyond class-conditional\ngeneration to more challenging tasks such as text-to-image generation,\ndemonstrating its broad applicability across different diffusion model\napplications. Project Page: https://shiml20.github.io/DiffMoE/",
+            "upvotes": 21,
+            "discussionId": "67da83d3b05eff6d87a42049",
+            "projectPage": "https://shiml20.github.io/DiffMoE/",
+            "githubRepo": "https://github.com/KwaiVGI/DiffMoE",
+            "ai_keywords": [
+                "diffusion models",
+                "ImageNet",
+                "batch-level global token pool",
+                "experts",
+                "global token distributions",
+                "capacity predictor",
+                "computational resources",
+                "noise levels",
+                "sample complexity",
+                "class-conditional generation",
+                "text-to-image generation"
+            ]
+        },
+        "translation_title": "DiffMoE: 확장 가능한 확산 변환기를 위한 동적 토큰 선택",
+        "purpose": "다양한 조건과 노이즈 수준에서 입력을 균일하게 처리하는 한계를 극복하고 전문가 모델을 효과적으로 활용하기 위한 접근법 개발",
+        "method": [
+            "DiffMoE는 배치 수준의 글로벌 토큰 풀을 도입하여 훈련 중 전문가들이 글로벌 토큰 배포에 접근할 수 있게 함(Our method, DiffMoE, introduces a batch-level global token pool that enables experts to access global token distributions during training, promoting specialized expert behavior.)",
+            "노이즈 수준과 샘플 복잡성에 따라 동적으로 컴퓨팅 자원을 할당하는 용량 예측기를 통합함(DiffMoE incorporates a capacity predictor that dynamically allocates computational resources based on noise levels and sample complexity.)"
+        ],
+        "conclusion": "DiffMoE는 ImageNet 벤치마크에서 최첨단 성능을 달성하였으며, 기존 MoE 접근법보다 훨씬 뛰어난 효과를 보임.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    }
+]
