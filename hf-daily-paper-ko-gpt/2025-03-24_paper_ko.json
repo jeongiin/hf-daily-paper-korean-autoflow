@@ -1,0 +1,585 @@
+[
+    {
+        "paper": {
+            "id": "2503.16660",
+            "authors": [
+                {
+                    "_id": "67e0ffb029682c8065e1c223",
+                    "name": "Eduard Allakhverdov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0ffb029682c8065e1c224",
+                    "user": {
+                        "_id": "6310ff34bc152fa3e810c186",
+                        "avatarUrl": "/avatars/bfd63bcd81548283f5e496e3693bf143.svg",
+                        "isPro": false,
+                        "fullname": "Elizaveta Goncharova",
+                        "user": "Elizaveta",
+                        "type": "user"
+                    },
+                    "name": "Elizaveta Goncharova",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:38:44.495Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0ffb029682c8065e1c225",
+                    "user": {
+                        "_id": "643984dceb7c5616ef3f5d54",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643984dceb7c5616ef3f5d54/10JRkblrRIEVci6UJwvPz.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrey Kuznetsov",
+                        "user": "kuznetsoffandrey",
+                        "type": "user"
+                    },
+                    "name": "Andrey Kuznetsov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-24T14:49:31.067Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-20T19:17:08.000Z",
+            "submittedOnDailyAt": "2025-03-24T05:20:19.676Z",
+            "title": "When Less is Enough: Adaptive Token Reduction for Efficient Image\n  Representation",
+            "submittedOnDailyBy": {
+                "_id": "6310ff34bc152fa3e810c186",
+                "avatarUrl": "/avatars/bfd63bcd81548283f5e496e3693bf143.svg",
+                "isPro": false,
+                "fullname": "Elizaveta Goncharova",
+                "user": "Elizaveta",
+                "type": "user"
+            },
+            "summary": "Vision encoders typically generate a large number of visual tokens, providing\ninformation-rich representations but significantly increasing computational\ndemands. This raises the question of whether all generated tokens are equally\nvaluable or if some of them can be discarded to reduce computational costs\nwithout compromising quality. In this paper, we introduce a new method for\ndetermining feature utility based on the idea that less valuable features can\nbe reconstructed from more valuable ones. We implement this concept by\nintegrating an autoencoder with a Gumbel-Softmax selection mechanism, that\nallows identifying and retaining only the most informative visual tokens. To\nvalidate our approach, we compared the performance of the LLaVA-NeXT model,\nusing features selected by our method with randomly selected features. We found\nthat on OCR-based tasks, more than 50% of the visual context can be removed\nwith minimal performance loss, whereas randomly discarding the same proportion\nof features significantly affects the model capabilities. Furthermore, in\ngeneral-domain tasks, even randomly retaining only 30% of tokens achieves\nperformance comparable to using the full set of visual tokens. Our results\nhighlight a promising direction towards adaptive and efficient multimodal\npruning that facilitates scalable and low-overhead inference without\ncompromising performance.",
+            "upvotes": 46,
+            "discussionId": "67e0ffb229682c8065e1c2c6",
+            "ai_keywords": [
+                "autoencoder",
+                "Gumbel-Softmax selection mechanism",
+                "feature utility",
+                "LLaVA-NeXT model",
+                "OCR-based tasks",
+                "visual context",
+                "performance loss",
+                "general-domain tasks",
+                "multimodal pruning"
+            ]
+        },
+        "translation_title": "충분한 것: 효율적인 이미지 표현을 위한 적응형 토큰 감소",
+        "purpose": "컴퓨팅 비용을 줄이면서도 질을 유지할 수 있도록 가치가 낮은 시각적 특징을 버리는 방법 연구",
+        "method": [
+            "자동 인코더와 Gumbel-Softmax 선택 메커니즘을 통합하여 가장 정보가 많은 시각적 토큰만을 식별하고 유지하도록 함(We implement this concept by integrating an autoencoder with a Gumbel-Softmax selection mechanism, that allows identifying and retaining only the most informative visual tokens.)",
+            "우리의 방법으로 선택한 특징을 사용하여 LLaVA-NeXT 모델의 성능을 비교함(We compared the performance of the LLaVA-NeXT model, using features selected by our method with randomly selected features.)",
+            "OCR 기반 작업에서 50% 이상의 시각적 맥락을 최소한의 성능 손실로 제거할 수 있음을 발견함(We found that on OCR-based tasks, more than 50% of the visual context can be removed with minimal performance loss.)"
+        ],
+        "conclusion": "우리의 방법은 성능을 저하시키지 않으면서도 확장 가능하고 적은 오버헤드의 추론을 가능하게 하는 적응형 및 효율적인 다중 모드 가지치기에 대한 유망한 방향을 제시함.",
+        "keywords": [
+            "Image Understanding",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16905",
+            "authors": [
+                {
+                    "_id": "67e0c13fe5fa0da84e134581",
+                    "user": {
+                        "_id": "658be7fe135580745c510323",
+                        "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                        "isPro": false,
+                        "fullname": "Jian Zhang",
+                        "user": "VentureZJ",
+                        "type": "user"
+                    },
+                    "name": "Jian Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-24T08:07:08.476Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134582",
+                    "name": "Zhiyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134583",
+                    "name": "Zhangqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134584",
+                    "name": "Xinyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134585",
+                    "user": {
+                        "_id": "64e6cf78ecce34cb442dc889",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e6cf78ecce34cb442dc889/qVZFiUEpBpSkmH8SQeinm.jpeg",
+                        "isPro": false,
+                        "fullname": "Fangzhi Xu",
+                        "user": "xufangzhi",
+                        "type": "user"
+                    },
+                    "name": "Fangzhi Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:33:42.732Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134586",
+                    "user": {
+                        "_id": "66ac77011cfb12c087605acb",
+                        "avatarUrl": "/avatars/54c06bd1c4c9d491470ed4162c2301ae.svg",
+                        "isPro": false,
+                        "fullname": "Lin",
+                        "user": "Qika",
+                        "type": "user"
+                    },
+                    "name": "Qika Lin",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-03-24T02:19:51.913Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134587",
+                    "name": "Rui Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134588",
+                    "name": "Erik Cambria",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c13fe5fa0da84e134589",
+                    "name": "Jun Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-21T07:13:45.000Z",
+            "submittedOnDailyAt": "2025-03-24T00:51:41.644Z",
+            "title": "MAPS: A Multi-Agent Framework Based on Big Seven Personality and\n  Socratic Guidance for Multimodal Scientific Problem Solving",
+            "submittedOnDailyBy": {
+                "_id": "658be7fe135580745c510323",
+                "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                "isPro": false,
+                "fullname": "Jian Zhang",
+                "user": "VentureZJ",
+                "type": "user"
+            },
+            "summary": "Multimodal scientific problems (MSPs) involve complex issues that require the\nintegration of multiple modalities, such as text and diagrams, presenting a\nsignificant challenge in artificial intelligence. While progress has been made\nin addressing traditional scientific problems, MSPs still face two primary\nissues: the challenge of multi-modal comprehensive reasoning in scientific\nproblem-solving and the lack of reflective and rethinking capabilities. To\naddress these issues, we introduce a Multi-Agent framework based on the Big\nSeven Personality and Socratic guidance (MAPS). This framework employs seven\ndistinct agents that leverage feedback mechanisms and the Socratic method to\nguide the resolution of MSPs. To tackle the first issue, we propose a\nprogressive four-agent solving strategy, where each agent focuses on a specific\nstage of the problem-solving process. For the second issue, we introduce a\nCritic agent, inspired by Socratic questioning, which prompts critical thinking\nand stimulates autonomous learning. We conduct extensive experiments on the\nEMMA, Olympiad, and MathVista datasets, achieving promising results that\noutperform the current SOTA model by 15.84% across all tasks. Meanwhile, the\nadditional analytical experiments also verify the model's progress as well as\ngeneralization ability.",
+            "upvotes": 43,
+            "discussionId": "67e0c147e5fa0da84e1347f5",
+            "githubRepo": "https://github.com/exoskeletonzj/MAPS"
+        },
+        "translation_title": "MAPS: 다중 에이전트 프레임워크를 이용한 다중 모달 과학 문제 해결",
+        "purpose": "다중 모달 과학 문제(MSPs)에 대한 효과적인 해결 방안을 제시하고, 비판적 사고 및 반성적 능력을 향상하기 위한 프레임워크 개발",
+        "method": [
+            "Big Seven Personality와 소크라틱 접근 방식을 기반으로 한 Multi-Agent 프레임워크를 제안함(To address these issues, we introduce a Multi-Agent framework based on the Big Seven Personality and Socratic guidance.)",
+            "문제 해결 과정의 특정 단계를 집중적으로 다루는 4-Agent의 단계적 해결 전략을 제안함(We propose a progressive four-agent solving strategy, where each agent focuses on a specific stage of the problem-solving process.)",
+            "소크라틱 질문을 기반으로 비판적 사고를 자극하는 Critic agent를 도입함(For the second issue, we introduce a Critic agent, inspired by Socratic questioning, which prompts critical thinking and stimulates autonomous learning.)"
+        ],
+        "conclusion": "실험 결과, MAPS 프레임워크는 기존 SOTA 모델보다 모든 과제에서 15.84% 향상된 결과를 보여주었으며, 모델의 발전과 일반화 능력을 확인할 수 있었음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16874",
+            "authors": [
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc52",
+                    "user": {
+                        "_id": "658be7fe135580745c510323",
+                        "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                        "isPro": false,
+                        "fullname": "Jian Zhang",
+                        "user": "VentureZJ",
+                        "type": "user"
+                    },
+                    "name": "Jian Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-24T08:07:05.271Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc53",
+                    "name": "Zhangqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc54",
+                    "name": "Haiping Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc55",
+                    "name": "Jun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc56",
+                    "user": {
+                        "_id": "66ac77011cfb12c087605acb",
+                        "avatarUrl": "/avatars/54c06bd1c4c9d491470ed4162c2301ae.svg",
+                        "isPro": false,
+                        "fullname": "Lin",
+                        "user": "Qika",
+                        "type": "user"
+                    },
+                    "name": "Qika Lin",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-03-24T02:22:15.812Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0c1ce151ca9ed9284dc57",
+                    "name": "Erik Cambria",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-21T06:19:55.000Z",
+            "submittedOnDailyAt": "2025-03-24T00:56:26.218Z",
+            "title": "MARS: A Multi-Agent Framework Incorporating Socratic Guidance for\n  Automated Prompt Optimization",
+            "submittedOnDailyBy": {
+                "_id": "658be7fe135580745c510323",
+                "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                "isPro": false,
+                "fullname": "Jian Zhang",
+                "user": "VentureZJ",
+                "type": "user"
+            },
+            "summary": "The basic question-answering format of large language models involves\ninputting a prompt and receiving a response, and the quality of the prompt\ndirectly impacts the effectiveness of the response. Automated Prompt\nOptimization (APO) aims to break free from the cognitive biases of manually\ndesigned prompts and explores a broader design space for prompts. However,\nexisting APO methods suffer from limited flexibility of fixed templates and\ninefficient search in prompt spaces as key issues. To this end, we propose a\nMulti-Agent framework Incorporating Socratic guidance (MARS), which utilizes\nmulti-agent fusion technology for automatic planning, with gradual continuous\noptimization and evaluation. Specifically, MARS comprises seven agents, each\nwith distinct functionalities, which autonomously use the Planner to devise an\noptimization path that ensures flexibility. Additionally, it employs a\nTeacher-Critic-Student Socratic dialogue pattern to iteratively optimize the\nprompts while conducting effective search. We conduct extensive experiments on\nvarious datasets to validate the effectiveness of our method, and perform\nadditional analytical experiments to assess the model's advancement as well as\nthe interpretability.",
+            "upvotes": 35,
+            "discussionId": "67e0c1d7151ca9ed9284ded7",
+            "githubRepo": "https://github.com/exoskeletonzj/MARS",
+            "ai_keywords": [
+                "Multi-Agent framework",
+                "Socratic guidance",
+                "multi-agent fusion technology",
+                "Planner",
+                "Teacher-Critic-Student Socratic dialogue pattern"
+            ]
+        },
+        "translation_title": "MARS: 소크라틱 안내를 통합한 다중 에이전트 프레임워크를 통한 자동 프롬프트 최적화",
+        "purpose": "효율적이고 유연한 자동 프롬프트 최적화를 수행하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "다중 에이전트 융합 기술을 활용하여 자동 계획을 수행하는 MARS 프레임워크를 제안함(To this end, we propose a Multi-Agent framework Incorporating Socratic guidance (MARS), which utilizes multi-agent fusion technology for automatic planning.)",
+            "프레임워크는 서로 다른 기능을 가진 7개의 에이전트로 구성되어 최적화 경로를 자율적으로 수립함( Specifically, MARS comprises seven agents, each with distinct functionalities, which autonomously use the Planner to devise an optimization path that ensures flexibility.)",
+            "소크라틱 대화 패턴을 활용해 프롬프트 최적화를 반복적으로 수행함(Additionally, it employs a Teacher-Critic-Student Socratic dialogue pattern to iteratively optimize the prompts while conducting effective search.)"
+        ],
+        "conclusion": "MARS 프레임워크는 여러 데이터셋에서 효과성을 입증하였으며, 프롬프트 최적화의 유연성과 성능을 개선함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16408",
+            "authors": [
+                {
+                    "_id": "67dcdedbeff29d0d52c739e4",
+                    "user": {
+                        "_id": "658a6c1399ed106ac8c822b1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658a6c1399ed106ac8c822b1/Wk2KXCcK39rUvXx6mpmGD.jpeg",
+                        "isPro": false,
+                        "fullname": "yiranqin",
+                        "user": "IranQin",
+                        "type": "user"
+                    },
+                    "name": "Yiran Qin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:40:36.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739e5",
+                    "user": {
+                        "_id": "64eadcb03d76028d805a7818",
+                        "avatarUrl": "/avatars/528e4fded4419caf08589b2ed40437bc.svg",
+                        "isPro": false,
+                        "fullname": "Li Kang",
+                        "user": "FACEONG",
+                        "type": "user"
+                    },
+                    "name": "Li Kang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-21T11:40:38.834Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739e6",
+                    "user": {
+                        "_id": "64cdf8230fbfb00b91225087",
+                        "avatarUrl": "/avatars/5379727f55782e146302ed20c7661932.svg",
+                        "isPro": false,
+                        "fullname": "Xiufeng Song",
+                        "user": "sparklexfantasy",
+                        "type": "user"
+                    },
+                    "name": "Xiufeng Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:35:50.462Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739e7",
+                    "user": {
+                        "_id": "64e314ad24809d7fa0f20fbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/bHE0w_hjDFvU-Aul0_E7g.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhenfei Yin",
+                        "user": "JeremyYin",
+                        "type": "user"
+                    },
+                    "name": "Zhenfei Yin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:35:56.882Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739e8",
+                    "name": "Xiaohong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739e9",
+                    "user": {
+                        "_id": "65d5ec74cd05bc1eaa125040",
+                        "avatarUrl": "/avatars/2de1b1539a86452c2c89570eeb02f5ab.svg",
+                        "isPro": false,
+                        "fullname": "Xihui Liu",
+                        "user": "XihuiLiu",
+                        "type": "user"
+                    },
+                    "name": "Xihui Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:36:19.727Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739ea",
+                    "user": {
+                        "_id": "65324848220f490dbaa3b8c9",
+                        "avatarUrl": "/avatars/cec7dcadf4657bb4f61e2c9a8075521b.svg",
+                        "isPro": false,
+                        "fullname": "Zhang",
+                        "user": "Ruimao",
+                        "type": "user"
+                    },
+                    "name": "Ruimao Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:37:18.101Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67dcdedbeff29d0d52c739eb",
+                    "name": "Lei Bai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-20T17:58:38.000Z",
+            "submittedOnDailyAt": "2025-03-24T01:35:09.139Z",
+            "title": "RoboFactory: Exploring Embodied Agent Collaboration with Compositional\n  Constraints",
+            "submittedOnDailyBy": {
+                "_id": "658a6c1399ed106ac8c822b1",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658a6c1399ed106ac8c822b1/Wk2KXCcK39rUvXx6mpmGD.jpeg",
+                "isPro": false,
+                "fullname": "yiranqin",
+                "user": "IranQin",
+                "type": "user"
+            },
+            "summary": "Designing effective embodied multi-agent systems is critical for solving\ncomplex real-world tasks across domains. Due to the complexity of multi-agent\nembodied systems, existing methods fail to automatically generate safe and\nefficient training data for such systems. To this end, we propose the concept\nof compositional constraints for embodied multi-agent systems, addressing the\nchallenges arising from collaboration among embodied agents. We design various\ninterfaces tailored to different types of constraints, enabling seamless\ninteraction with the physical world. Leveraging compositional constraints and\nspecifically designed interfaces, we develop an automated data collection\nframework for embodied multi-agent systems and introduce the first benchmark\nfor embodied multi-agent manipulation, RoboFactory. Based on RoboFactory\nbenchmark, we adapt and evaluate the method of imitation learning and analyzed\nits performance in different difficulty agent tasks. Furthermore, we explore\nthe architectures and training strategies for multi-agent imitation learning,\naiming to build safe and efficient embodied multi-agent systems.",
+            "upvotes": 30,
+            "discussionId": "67dcdedeeff29d0d52c73abc",
+            "projectPage": "https://iranqin.github.io/robofactory/",
+            "ai_keywords": [
+                "compositional constraints",
+                "embodied multi-agent systems",
+                "data collection framework",
+                "benchmark",
+                "RoboFactory",
+                "imitation learning",
+                "multi-agent imitation learning",
+                "training strategies"
+            ]
+        },
+        "translation_title": "RoboFactory: 조합 제약을 가진 체화된 에이전트 협업 탐구",
+        "purpose": "복잡한 현실 세계의 과제를 해결하기 위해 효과적인 체화된 다중 에이전트 시스템 설계",
+        "method": [
+            "체화된 다중 에이전트 시스템을 위한 조합 제약 개념을 제안하여 협업에서 발생하는 문제를 해결함(We propose the concept of compositional constraints for embodied multi-agent systems, addressing the challenges arising from collaboration among embodied agents.)",
+            "물리적 세계와의 원활한 상호작용을 가능하게 하는 다양한 제약에 맞춘 인터페이스를 설계함(We design various interfaces tailored to different types of constraints, enabling seamless interaction with the physical world.)",
+            "조합 제약과 특별히 설계된 인터페이스를 활용하여 체화된 다중 에이전트 시스템을 위한 자동 데이터 수집 프레임워크를 개발함(Leveraging compositional constraints and specifically designed interfaces, we develop an automated data collection framework for embodied multi-agent systems.)"
+        ],
+        "conclusion": "RoboFactory 벤치마크를 기반으로 모방 학습 방법을 조정 및 평가하고, 안전하고 효율적인 체화된 다중 에이전트 시스템 구축을 위한 아키텍처 및 훈련 전략을 탐구함.",
+        "keywords": [
+            "Robotics",
+            "Multi-agent Systems",
+            "Imitation Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.16430",
+            "authors": [
+                {
+                    "_id": "67e0bd81b04d9e836829c468",
+                    "user": {
+                        "_id": "63ea23b9dedfeebe54d02bdf",
+                        "avatarUrl": "/avatars/4d9f9a546aa8c63e277161ea700075c4.svg",
+                        "isPro": false,
+                        "fullname": "Yuqing Wang",
+                        "user": "Epiphqny",
+                        "type": "user"
+                    },
+                    "name": "Yuqing Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-24T08:10:42.267Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c469",
+                    "user": {
+                        "_id": "64415957bd0c9726529802f6",
+                        "avatarUrl": "/avatars/1132d1ee68fb58ec635d57c8175caacd.svg",
+                        "isPro": false,
+                        "fullname": "Zhijie Lin",
+                        "user": "Ikuinen",
+                        "type": "user"
+                    },
+                    "name": "Zhijie Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:40:54.208Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c46a",
+                    "user": {
+                        "_id": "6427e08288215cee63b1c44d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6427e08288215cee63b1c44d/rzaG978FF-ywzicWNl_xl.jpeg",
+                        "isPro": false,
+                        "fullname": "yao teng",
+                        "user": "tytyt",
+                        "type": "user"
+                    },
+                    "name": "Yao Teng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:41:01.459Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c46b",
+                    "user": {
+                        "_id": "627d2723401f42c57b6b7c0c",
+                        "avatarUrl": "/avatars/6ff754e56aaee63d8572881a6a966171.svg",
+                        "isPro": false,
+                        "fullname": "Yuanzhi Zhu",
+                        "user": "Yuanzhi",
+                        "type": "user"
+                    },
+                    "name": "Yuanzhi Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:41:07.856Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c46c",
+                    "user": {
+                        "_id": "60d2e681b8448e1785bbda06",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624434302056-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Shuhuai Ren",
+                        "user": "ShuhuaiRen",
+                        "type": "user"
+                    },
+                    "name": "Shuhuai Ren",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-24T08:10:44.045Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c46d",
+                    "user": {
+                        "_id": "67298e44017b96a1d0101dc4",
+                        "avatarUrl": "/avatars/1f8ed1a3e911e6a3021087b9371d284c.svg",
+                        "isPro": false,
+                        "fullname": "Jiashi Feng",
+                        "user": "jshfeng",
+                        "type": "user"
+                    },
+                    "name": "Jiashi Feng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:41:16.160Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e0bd81b04d9e836829c46e",
+                    "user": {
+                        "_id": "65d5ec74cd05bc1eaa125040",
+                        "avatarUrl": "/avatars/2de1b1539a86452c2c89570eeb02f5ab.svg",
+                        "isPro": false,
+                        "fullname": "Xihui Liu",
+                        "user": "XihuiLiu",
+                        "type": "user"
+                    },
+                    "name": "Xihui Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-24T12:41:22.229Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-20T17:59:59.000Z",
+            "submittedOnDailyAt": "2025-03-24T00:50:05.627Z",
+            "title": "Bridging Continuous and Discrete Tokens for Autoregressive Visual\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "63ea23b9dedfeebe54d02bdf",
+                "avatarUrl": "/avatars/4d9f9a546aa8c63e277161ea700075c4.svg",
+                "isPro": false,
+                "fullname": "Yuqing Wang",
+                "user": "Epiphqny",
+                "type": "user"
+            },
+            "summary": "Autoregressive visual generation models typically rely on tokenizers to\ncompress images into tokens that can be predicted sequentially. A fundamental\ndilemma exists in token representation: discrete tokens enable straightforward\nmodeling with standard cross-entropy loss, but suffer from information loss and\ntokenizer training instability; continuous tokens better preserve visual\ndetails, but require complex distribution modeling, complicating the generation\npipeline. In this paper, we propose TokenBridge, which bridges this gap by\nmaintaining the strong representation capacity of continuous tokens while\npreserving the modeling simplicity of discrete tokens. To achieve this, we\ndecouple discretization from the tokenizer training process through\npost-training quantization that directly obtains discrete tokens from\ncontinuous representations. Specifically, we introduce a dimension-wise\nquantization strategy that independently discretizes each feature dimension,\npaired with a lightweight autoregressive prediction mechanism that efficiently\nmodel the resulting large token space. Extensive experiments show that our\napproach achieves reconstruction and generation quality on par with continuous\nmethods while using standard categorical prediction. This work demonstrates\nthat bridging discrete and continuous paradigms can effectively harness the\nstrengths of both approaches, providing a promising direction for high-quality\nvisual generation with simple autoregressive modeling. Project page:\nhttps://yuqingwang1029.github.io/TokenBridge.",
+            "upvotes": 23,
+            "discussionId": "67e0bd85b04d9e836829c55f",
+            "projectPage": "https://yuqingwang1029.github.io/TokenBridge/",
+            "githubRepo": "https://github.com/YuqingWang1029/TokenBridge",
+            "ai_keywords": [
+                "autoregressive visual generation models",
+                "tokenizers",
+                "tokens",
+                "discrete tokens",
+                "continuous tokens",
+                "cross-entropy loss",
+                "tokenizer training",
+                "TokenBridge",
+                "post-training quantization",
+                "dimension-wise quantization",
+                "lightweight autoregressive prediction mechanism",
+                "reconstruction quality",
+                "generation quality"
+            ]
+        },
+        "translation_title": "연속 및 이산 토큰 간의 연결을 통한 자가 회귀 시각 생성",
+        "purpose": "연속 토큰의 표현력과 이산 토큰의 모델링 단순성을 모두 활용하여 시각적 생성 품질을 향상시키기 위한 연구",
+        "method": [
+            "TokenBridge를 제안하여 연속 토큰의 표현력을 유지하면서 이산 토큰의 모델링 단순성을 보존함(To achieve this, we propose TokenBridge, which bridges this gap by maintaining the strong representation capacity of continuous tokens while preserving the modeling simplicity of discrete tokens.)",
+            "포스트 트레이닝 양자화를 통해 토크나이저 학습 과정에서 이산화를 분리하여 연속 표현에서 직접 이산 토큰을 얻음(To decouple discretization from the tokenizer training process through post-training quantization that directly obtains discrete tokens from continuous representations.)",
+            "각 특징 차원을 독립적으로 이산화하는 차원별 양자화 전략과 경량 자가 회귀 예측 메커니즘을 도입함(Specifically, we introduce a dimension-wise quantization strategy that independently discretizes each feature dimension, paired with a lightweight autoregressive prediction mechanism that efficiently models the resulting large token space.)"
+        ],
+        "conclusion": "이 방법은 표준 범주형 예측을 사용하면서도 연속 방식과 동등한 재구성 및 생성 품질을 달성할 수 있음을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Vision-Language Models"
+        ]
+    }
+]
