@@ -1,0 +1,541 @@
+[
+    {
+        "paper": {
+            "id": "2503.18878",
+            "authors": [
+                {
+                    "_id": "67e25fe88e6c927eb7794abd",
+                    "name": "Andrey Galichin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794abe",
+                    "user": {
+                        "_id": "60cd95ee15ecba5f2200304a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60cd95ee15ecba5f2200304a/3gMYeWm8wQO5KfqE5RmEe.jpeg",
+                        "isPro": false,
+                        "fullname": "Alexey Dontsov",
+                        "user": "therem",
+                        "type": "user"
+                    },
+                    "name": "Alexey Dontsov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T08:18:43.467Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794abf",
+                    "name": "Polina Druzhinina",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794ac0",
+                    "user": {
+                        "_id": "6172aaeec8e66e2aa84c06b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6172aaeec8e66e2aa84c06b9/ZdRZSp3P1SU6CIDbvQwkv.jpeg",
+                        "isPro": false,
+                        "fullname": "Anton Razzhigaev",
+                        "user": "razzant",
+                        "type": "user"
+                    },
+                    "name": "Anton Razzhigaev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T09:05:58.409Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794ac1",
+                    "name": "Oleg Y. Rogov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794ac2",
+                    "user": {
+                        "_id": "662f8d645c4db70c77a203b0",
+                        "avatarUrl": "/avatars/72f9a3c39b3ba5114388d16a35524835.svg",
+                        "isPro": false,
+                        "fullname": "Elena Tutubalina",
+                        "user": "tlenusik",
+                        "type": "user"
+                    },
+                    "name": "Elena Tutubalina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T09:05:56.401Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25fe88e6c927eb7794ac3",
+                    "name": "Ivan Oseledets",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-24T16:54:26.000Z",
+            "submittedOnDailyAt": "2025-03-25T06:45:16.781Z",
+            "title": "I Have Covered All the Bases Here: Interpreting Reasoning Features in\n  Large Language Models via Sparse Autoencoders",
+            "submittedOnDailyBy": {
+                "_id": "60cd95ee15ecba5f2200304a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60cd95ee15ecba5f2200304a/3gMYeWm8wQO5KfqE5RmEe.jpeg",
+                "isPro": false,
+                "fullname": "Alexey Dontsov",
+                "user": "therem",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have achieved remarkable success in natural\nlanguage processing. Recent advances have led to the developing of a new class\nof reasoning LLMs; for example, open-source DeepSeek-R1 has achieved\nstate-of-the-art performance by integrating deep thinking and complex\nreasoning. Despite these impressive capabilities, the internal reasoning\nmechanisms of such models remain unexplored. In this work, we employ Sparse\nAutoencoders (SAEs), a method to learn a sparse decomposition of latent\nrepresentations of a neural network into interpretable features, to identify\nfeatures that drive reasoning in the DeepSeek-R1 series of models. First, we\npropose an approach to extract candidate ''reasoning features'' from SAE\nrepresentations. We validate these features through empirical analysis and\ninterpretability methods, demonstrating their direct correlation with the\nmodel's reasoning abilities. Crucially, we demonstrate that steering these\nfeatures systematically enhances reasoning performance, offering the first\nmechanistic account of reasoning in LLMs. Code available at\nhttps://github.com/AIRI-Institute/SAE-Reasoning",
+            "upvotes": 73,
+            "discussionId": "67e25fea8e6c927eb7794b25",
+            "ai_keywords": [
+                "Sparse Autoencoders (SAEs)",
+                "latent representations",
+                "interpretable features",
+                "reasoning features",
+                "empirical analysis",
+                "interpretability methods",
+                "systematic enhancement"
+            ]
+        },
+        "translation_title": "여기 모든 기초를 다졌습니다: 희소 오토인코더를 통한 대형 언어 모델의 추론 특징 해석",
+        "purpose": "대형 언어 모델의 내부 추론 메커니즘을 탐구하고 향상시키기 위한 연구",
+        "method": [
+            "희소 오토인코더(SAE)를 활용해 신경망의 잠재 표현을 해석 가능한 특징으로 분해함(we employ Sparse Autoencoders (SAEs), a method to learn a sparse decomposition of latent representations of a neural network into interpretable features)",
+            "SAE 표현에서 후보 '추론 특징'을 추출하는 방법을 제안함(we propose an approach to extract candidate 'reasoning features' from SAE representations)",
+            "이 특징들을 경험적 분석과 해석 가능성 방법을 통해 검증함(We validate these features through empirical analysis and interpretability methods)"
+        ],
+        "conclusion": "이 연구는 대형 언어 모델의 추론 성능을 향상시키기 위한 첫 번째 기계적 설명을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.17359",
+            "authors": [
+                {
+                    "_id": "67e16a266280a70b45b8a16c",
+                    "user": {
+                        "_id": "64105a6d14215c0775dfdd14",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64105a6d14215c0775dfdd14/-VX-cUYOLjHIg7QnWhRGG.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiwen Yu",
+                        "user": "VictorYuki",
+                        "type": "user"
+                    },
+                    "name": "Jiwen Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:05:33.251Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a16d",
+                    "name": "Yiran Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a16e",
+                    "user": {
+                        "_id": "652404d0050781c16f1c51b0",
+                        "avatarUrl": "/avatars/4ad62f2c65406dd0af36c6d0697ae599.svg",
+                        "isPro": false,
+                        "fullname": "Haoxuan Che",
+                        "user": "chehx",
+                        "type": "user"
+                    },
+                    "name": "Haoxuan Che",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:06:13.592Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a16f",
+                    "name": "Quande Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a170",
+                    "user": {
+                        "_id": "60e272ca6c78a8c122b12127",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60e272ca6c78a8c122b12127/xldEGBzGrU-bX6IwAw0Ie.jpeg",
+                        "isPro": false,
+                        "fullname": "Xintao Wang",
+                        "user": "Xintao",
+                        "type": "user"
+                    },
+                    "name": "Xintao Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:06:29.181Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a171",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a172",
+                    "user": {
+                        "_id": "644c8324f02250233d0d67d9",
+                        "avatarUrl": "/avatars/feb39d281457c1750f3eada3c060a23e.svg",
+                        "isPro": false,
+                        "fullname": "Di Zhang",
+                        "user": "dizhang",
+                        "type": "user"
+                    },
+                    "name": "Di Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:06:50.971Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e16a266280a70b45b8a173",
+                    "user": {
+                        "_id": "65d5ec74cd05bc1eaa125040",
+                        "avatarUrl": "/avatars/2de1b1539a86452c2c89570eeb02f5ab.svg",
+                        "isPro": false,
+                        "fullname": "Xihui Liu",
+                        "user": "XihuiLiu",
+                        "type": "user"
+                    },
+                    "name": "Xihui Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:06:56.864Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-21T17:59:22.000Z",
+            "submittedOnDailyAt": "2025-03-25T01:42:15.880Z",
+            "title": "Position: Interactive Generative Video as Next-Generation Game Engine",
+            "submittedOnDailyBy": {
+                "_id": "64105a6d14215c0775dfdd14",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64105a6d14215c0775dfdd14/-VX-cUYOLjHIg7QnWhRGG.jpeg",
+                "isPro": false,
+                "fullname": "Jiwen Yu",
+                "user": "VictorYuki",
+                "type": "user"
+            },
+            "summary": "Modern game development faces significant challenges in creativity and cost\ndue to predetermined content in traditional game engines. Recent breakthroughs\nin video generation models, capable of synthesizing realistic and interactive\nvirtual environments, present an opportunity to revolutionize game creation. In\nthis position paper, we propose Interactive Generative Video (IGV) as the\nfoundation for Generative Game Engines (GGE), enabling unlimited novel content\ngeneration in next-generation gaming. GGE leverages IGV's unique strengths in\nunlimited high-quality content synthesis, physics-aware world modeling,\nuser-controlled interactivity, long-term memory capabilities, and causal\nreasoning. We present a comprehensive framework detailing GGE's core modules\nand a hierarchical maturity roadmap (L0-L4) to guide its evolution. Our work\ncharts a new course for game development in the AI era, envisioning a future\nwhere AI-powered generative systems fundamentally reshape how games are created\nand experienced.",
+            "upvotes": 51,
+            "discussionId": "67e16a276280a70b45b8a214",
+            "ai_keywords": [
+                "Interactive Generative Video (IGV)",
+                "Generative Game Engines (GGE)",
+                "video generation models",
+                "high-quality content synthesis",
+                "physics-aware world modeling",
+                "user-controlled interactivity",
+                "long-term memory capabilities",
+                "causal reasoning",
+                "hierarchical maturity roadmap (L0-L4)"
+            ]
+        },
+        "translation_title": "Position: 차세대 게임 엔진으로서의 인터랙티브 생성 비디오",
+        "purpose": "다양하고 혁신적인 콘텐츠 생성을 지원하는 게임 엔진으로서 인터랙티브 생성 비디오(IGV)의 활용 방안 연구",
+        "method": [
+            "인터랙티브 생성 비디오(IGV)를 기반으로 생성 게임 엔진(GGE) 제안(We propose Interactive Generative Video (IGV) as the foundation for Generative Game Engines (GGE), enabling unlimited novel content generation in next-generation gaming.)",
+            "GGE가 IGV의 고유한 강점을 활용할 수 있도록 하는 주요 모듈과 발전 로드맵 제시(We present a comprehensive framework detailing GGE's core modules and a hierarchical maturity roadmap (L0-L4) to guide its evolution.)"
+        ],
+        "conclusion": "AI 시대의 게임 개발에서 인터랙티브 생성 시스템이 게임 제작 및 경험 방식을 근본적으로 변화시킬 것이라는 비전을 제시함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.18942",
+            "authors": [
+                {
+                    "_id": "67e226039cd910bee045e38f",
+                    "user": {
+                        "_id": "6505a02f9310ce8c400edc63",
+                        "avatarUrl": "/avatars/bbf781594fc8c812316711aa8e2797aa.svg",
+                        "isPro": false,
+                        "fullname": "Fangfu Liu",
+                        "user": "Liuff23",
+                        "type": "user"
+                    },
+                    "name": "Fangfu Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:07:42.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e226039cd910bee045e390",
+                    "name": "Hanyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e226039cd910bee045e391",
+                    "name": "Yimo Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e226039cd910bee045e392",
+                    "user": {
+                        "_id": "60bc94cd85a3ab33829b6211",
+                        "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+                        "isPro": false,
+                        "fullname": "Kaiyan Zhang",
+                        "user": "iseesaw",
+                        "type": "user"
+                    },
+                    "name": "Kaiyan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T08:20:20.614Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e226039cd910bee045e393",
+                    "user": {
+                        "_id": "6528fc319474946b8541b36f",
+                        "avatarUrl": "/avatars/08ea388cbcd7c0f1361980127a8d33c3.svg",
+                        "isPro": false,
+                        "fullname": "Xiaohang Zhan",
+                        "user": "xhangzhan",
+                        "type": "user"
+                    },
+                    "name": "Xiaohang Zhan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:08:05.983Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e226039cd910bee045e394",
+                    "user": {
+                        "_id": "66c8131afafc0fc87ca99650",
+                        "avatarUrl": "/avatars/a6eeba2ccf011d5c9964fd38f85bd671.svg",
+                        "isPro": false,
+                        "fullname": "Yueqi Duan",
+                        "user": "duanyueqi",
+                        "type": "user"
+                    },
+                    "name": "Yueqi Duan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:08:11.759Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-24T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-03-25T02:12:44.893Z",
+            "title": "Video-T1: Test-Time Scaling for Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "6505a02f9310ce8c400edc63",
+                "avatarUrl": "/avatars/bbf781594fc8c812316711aa8e2797aa.svg",
+                "isPro": false,
+                "fullname": "Fangfu Liu",
+                "user": "Liuff23",
+                "type": "user"
+            },
+            "summary": "With the scale capability of increasing training data, model size, and\ncomputational cost, video generation has achieved impressive results in digital\ncreation, enabling users to express creativity across various domains.\nRecently, researchers in Large Language Models (LLMs) have expanded the scaling\nto test-time, which can significantly improve LLM performance by using more\ninference-time computation. Instead of scaling up video foundation models\nthrough expensive training costs, we explore the power of Test-Time Scaling\n(TTS) in video generation, aiming to answer the question: if a video generation\nmodel is allowed to use non-trivial amount of inference-time compute, how much\ncan it improve generation quality given a challenging text prompt. In this\nwork, we reinterpret the test-time scaling of video generation as a searching\nproblem to sample better trajectories from Gaussian noise space to the target\nvideo distribution. Specifically, we build the search space with test-time\nverifiers to provide feedback and heuristic algorithms to guide searching\nprocess. Given a text prompt, we first explore an intuitive linear search\nstrategy by increasing noise candidates at inference time. As full-step\ndenoising all frames simultaneously requires heavy test-time computation costs,\nwe further design a more efficient TTS method for video generation called\nTree-of-Frames (ToF) that adaptively expands and prunes video branches in an\nautoregressive manner. Extensive experiments on text-conditioned video\ngeneration benchmarks demonstrate that increasing test-time compute\nconsistently leads to significant improvements in the quality of videos.\nProject page: https://liuff19.github.io/Video-T1",
+            "upvotes": 49,
+            "discussionId": "67e226059cd910bee045e42b",
+            "projectPage": "https://liuff19.github.io/Video-T1/",
+            "githubRepo": "https://github.com/liuff19/Video-T1",
+            "ai_keywords": [
+                "Test-Time Scaling (TTS)",
+                "video foundation models",
+                "inference-time computation",
+                "Gaussian noise space",
+                "target video distribution",
+                "test-time verifiers",
+                "heuristic algorithms",
+                "linear search strategy",
+                "noise candidates",
+                "full-step denoising",
+                "inference time",
+                "Tree-of-Frames (ToF)",
+                "autoregressive manner",
+                "text-conditioned video generation benchmarks"
+            ]
+        },
+        "translation_title": "Video-T1: 비디오 생성을 위한 테스트 시간 확장",
+        "purpose": "비디오 생성 모델이 테스트 시간 동안 추가적인 컴퓨팅 자원을 사용할 수 있을 경우 생성 품질을 어떻게 향상시킬 수 있는지를 연구하기 위함",
+        "method": [
+            "테스트 시간 확장(Test-Time Scaling, TTS)의 가능성을 탐구하여 비디오 생성 능력을 개선하고자 함(we explore the power of Test-Time Scaling (TTS) in video generation).",
+            "비디오 생성의 테스트 시간 확장을 탐색 문제로 재구성하여 더 나은 경로를 샘플링하기 위한 탐색 공간을 구축함(we reinterpret the test-time scaling of video generation as a searching problem to sample better trajectories from Gaussian noise space to the target video distribution).",
+            "노이즈 후보를 증가시키는 직관적인 선형 탐색 전략을 먼저 탐색하고, 이후 Tree-of-Frames(ToF)라는 더 효율적인 TTS 방법을 설계함(we further design a more efficient TTS method for video generation called Tree-of-Frames (ToF) that adaptively expands and prunes video branches in an autoregressive manner)."
+        ],
+        "conclusion": "비디오 생성에서 테스트 시간 동안의 컴퓨팅 자원을 증가시키면 비디오 품질이 일관되게 향상된다는 것을 입증함.",
+        "keywords": [
+            "Video Generation",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.18945",
+            "authors": [
+                {
+                    "_id": "67e22eca9455abdd1d257263",
+                    "name": "Aether Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257264",
+                    "user": {
+                        "_id": "6283546209aa80237c6c482c",
+                        "avatarUrl": "/avatars/0d6fc5846c0456d5282d82d5bf4d7056.svg",
+                        "isPro": false,
+                        "fullname": "Haoyi Zhu",
+                        "user": "HaoyiZhu",
+                        "type": "user"
+                    },
+                    "name": "Haoyi Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:15:13.586Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257265",
+                    "name": "Yifan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257266",
+                    "user": {
+                        "_id": "667e81565934c9fae29207ef",
+                        "avatarUrl": "/avatars/431e777c71fccf7cf48ce013e5f6f1cb.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "ZhouTimeMachine",
+                        "type": "user"
+                    },
+                    "name": "Jianjun Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T09:05:54.719Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257267",
+                    "user": {
+                        "_id": "67a5b0fe5a8652514e67c38c",
+                        "avatarUrl": "/avatars/28da8e93ee00fd77c7e62d16f9b94045.svg",
+                        "isPro": false,
+                        "fullname": "Wenzheng Chang",
+                        "user": "AmberHeart",
+                        "type": "user"
+                    },
+                    "name": "Wenzheng Chang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T08:20:10.947Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257268",
+                    "name": "Yang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d257269",
+                    "user": {
+                        "_id": "65e7eb86c7a0617cc71d3df4",
+                        "avatarUrl": "/avatars/01020b6b5ccb08bf8aa10fd5f8b2701d.svg",
+                        "isPro": false,
+                        "fullname": "lizizun",
+                        "user": "lizizun",
+                        "type": "user"
+                    },
+                    "name": "Zizun Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:16:06.912Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d25726a",
+                    "user": {
+                        "_id": "6679bb85972a0f224cde335c",
+                        "avatarUrl": "/avatars/bf0649645458e206ba5224b001723641.svg",
+                        "isPro": false,
+                        "fullname": "Junyi Chen",
+                        "user": "Junyichen",
+                        "type": "user"
+                    },
+                    "name": "Junyi Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:16:13.751Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d25726b",
+                    "name": "Chunhua Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d25726c",
+                    "user": {
+                        "_id": "65783ee6ee33d547aecc3ffc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65783ee6ee33d547aecc3ffc/lWZX88c-0dCsN-yB9Jhlf.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiangmiao Pang",
+                        "user": "Jiangmiao",
+                        "type": "user"
+                    },
+                    "name": "Jiangmiao Pang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:16:26.855Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e22eca9455abdd1d25726d",
+                    "user": {
+                        "_id": "64478c64e2148488340229db",
+                        "avatarUrl": "/avatars/f5c23489a068e896381cdc25836ce3dd.svg",
+                        "isPro": false,
+                        "fullname": "he",
+                        "user": "tonghe",
+                        "type": "user"
+                    },
+                    "name": "Tong He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-25T09:16:35.824Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-24T17:59:51.000Z",
+            "submittedOnDailyAt": "2025-03-25T02:50:34.610Z",
+            "title": "Aether: Geometric-Aware Unified World Modeling",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": false,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "The integration of geometric reconstruction and generative modeling remains a\ncritical challenge in developing AI systems capable of human-like spatial\nreasoning. This paper proposes Aether, a unified framework that enables\ngeometry-aware reasoning in world models by jointly optimizing three core\ncapabilities: (1) 4D dynamic reconstruction, (2) action-conditioned video\nprediction, and (3) goal-conditioned visual planning. Through task-interleaved\nfeature learning, Aether achieves synergistic knowledge sharing across\nreconstruction, prediction, and planning objectives. Building upon video\ngeneration models, our framework demonstrates unprecedented synthetic-to-real\ngeneralization despite never observing real-world data during training.\nFurthermore, our approach achieves zero-shot generalization in both action\nfollowing and reconstruction tasks, thanks to its intrinsic geometric modeling.\nRemarkably, even without real-world data, its reconstruction performance far\nexceeds that of domain-specific models. Additionally, Aether leverages a\ngeometry-informed action space to seamlessly translate predictions into\nactions, enabling effective autonomous trajectory planning. We hope our work\ninspires the community to explore new frontiers in physically-reasonable world\nmodeling and its applications.",
+            "upvotes": 21,
+            "discussionId": "67e22ecb9455abdd1d2572af",
+            "projectPage": "https://aether-world.github.io/",
+            "githubRepo": "https://github.com/OpenRobotLab/Aether",
+            "ai_keywords": [
+                "Aether",
+                "4D dynamic reconstruction",
+                "action-conditioned video prediction",
+                "goal-conditioned visual planning",
+                "task-interleaved feature learning",
+                "video generation models",
+                "synthetic-to-real generalization",
+                "zero-shot generalization",
+                "geometric modeling",
+                "geometry-informed action space",
+                "autonomous trajectory planning",
+                "physically-reasonable world modeling"
+            ]
+        },
+        "translation_title": "Aether: 기하학적 인식을 포함한 통합 세계 모델링",
+        "purpose": "인간처럼 공간을 추론할 수 있는 AI 시스템 개발을 위한 기하학적 재구성과 생성 모델링 통합 문제 해결",
+        "method": [
+            "Aether라는 통합 프레임워크를 제안하여 4D 동적 재구성, 행동 조건부 비디오 예측 및 목표 조건부 시각적 계획을 동시에 최적화함(This paper proposes Aether, a unified framework that enables geometry-aware reasoning in world models by jointly optimizing three core capabilities: (1) 4D dynamic reconstruction, (2) action-conditioned video prediction, and (3) goal-conditioned visual planning.)",
+            "태스크 간 피처 학습을 통해 재구성, 예측, 계획 목표 간의 지식 공유를 촉진함(Through task-interleaved feature learning, Aether achieves synergistic knowledge sharing across reconstruction, prediction, and planning objectives.)",
+            "비디오 생성 모델을 바탕으로 실제 데이터를 관찰하지 않고도 뛰어난 생성 성능을 입증함(Building upon video generation models, our framework demonstrates unprecedented synthetic-to-real generalization despite never observing real-world data during training.)"
+        ],
+        "conclusion": "Aether는 실제 데이터 없이도 뛰어난 재구성 성과를 보여주고, 행동 예측을 통해 효과적인 자율 궤적 계획을 가능하게 하며, 새로운 물리학적 세계 모델링 분야 탐색을 촉진하길 희망함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Robotics"
+        ]
+    }
+]
