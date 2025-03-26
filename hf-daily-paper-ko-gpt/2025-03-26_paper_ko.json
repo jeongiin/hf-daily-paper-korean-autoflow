@@ -1,0 +1,450 @@
+[
+    {
+        "paper": {
+            "id": "2503.19325",
+            "authors": [
+                {
+                    "_id": "67e35f6fc9d8214b5e1c64c3",
+                    "name": "Yuchao Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e35f6fc9d8214b5e1c64c4",
+                    "name": "Weijia Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e35f6fc9d8214b5e1c64c5",
+                    "name": "Mike Zheng Shou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63021630a35b21bd8a53305a/SL0MQs7OvQpNlGBhroTW3.png"
+            ],
+            "publishedAt": "2025-03-25T03:38:06.000Z",
+            "submittedOnDailyAt": "2025-03-26T00:37:14.940Z",
+            "title": "Long-Context Autoregressive Video Modeling with Next-Frame Prediction",
+            "submittedOnDailyBy": {
+                "_id": "63021630a35b21bd8a53305a",
+                "avatarUrl": "/avatars/7a7e8b39749eda61e57d8a1908726558.svg",
+                "isPro": true,
+                "fullname": "Gu Yuchao",
+                "user": "guyuchao",
+                "type": "user"
+            },
+            "summary": "Long-context autoregressive modeling has significantly advanced language\ngeneration, but video generation still struggles to fully utilize extended\ntemporal contexts. To investigate long-context video modeling, we introduce\nFrame AutoRegressive (FAR), a strong baseline for video autoregressive\nmodeling. Just as language models learn causal dependencies between tokens\n(i.e., Token AR), FAR models temporal causal dependencies between continuous\nframes, achieving better convergence than Token AR and video diffusion\ntransformers. Building on FAR, we observe that long-context vision modeling\nfaces challenges due to visual redundancy. Existing RoPE lacks effective\ntemporal decay for remote context and fails to extrapolate well to long video\nsequences. Additionally, training on long videos is computationally expensive,\nas vision tokens grow much faster than language tokens. To tackle these issues,\nwe propose balancing locality and long-range dependency. We introduce FlexRoPE,\nan test-time technique that adds flexible temporal decay to RoPE, enabling\nextrapolation to 16x longer vision contexts. Furthermore, we propose long\nshort-term context modeling, where a high-resolution short-term context window\nensures fine-grained temporal consistency, while an unlimited long-term context\nwindow encodes long-range information using fewer tokens. With this approach,\nwe can train on long video sequences with a manageable token context length. We\ndemonstrate that FAR achieves state-of-the-art performance in both short- and\nlong-video generation, providing a simple yet effective baseline for video\nautoregressive modeling.",
+            "upvotes": 56,
+            "discussionId": "67e35f72c9d8214b5e1c659b",
+            "ai_keywords": [
+                "Frame AutoRegressive (FAR)",
+                "Token AR",
+                "video autoregressive modeling",
+                "visual redundancy",
+                "RoPE (Rotary Position Embedding)",
+                "temporal decay",
+                "FlexRoPE",
+                "long short-term context modeling",
+                "high-resolution short-term context window",
+                "long-term context window",
+                "state-of-the-art performance",
+                "video generation"
+            ]
+        },
+        "translation_title": "다음 프레임 예측을 통한 긴 문맥 자율 회귀 비디오 모델링",
+        "purpose": "비디오 생성에서 긴 문맥을 효과적으로 활용하기 위해 연구",
+        "method": [
+            "Frame AutoRegressive (FAR)를 소개하여 비디오 자율 회귀 모델링의 강력한 기준선을 제공함(we introduce Frame AutoRegressive (FAR), a strong baseline for video autoregressive modeling.)",
+            "FlexRoPE라는 기법을 도입하여 RoPE에 유연한 시간 감소를 추가해 16배 긴 비전 문맥으로 외삽할 수 있도록 함(we introduce FlexRoPE, an test-time technique that adds flexible temporal decay to RoPE, enabling extrapolation to 16x longer vision contexts.)",
+            "고해상도 단기 문맥 창을 사용해 세밀한 시간 일관성을 확보하고, 무제한 장기 문맥 창을 통해 더 적은 토큰으로 장거리 정보를 인코딩하는 방식으로 훈련함(long short-term context modeling)"
+        ],
+        "conclusion": "FAR는 짧은 비디오와 긴 비디오 생성에서 최상 성능을 달성하며, 비디오 자율 회귀 모델링을 위한 간단하면서도 효과적인 기준을 제공함.",
+        "keywords": [
+            "Video Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.18931",
+            "authors": [
+                {
+                    "_id": "67e25c4d1908043170bd551d",
+                    "user": {
+                        "_id": "64651db3611ae99d14d392ea",
+                        "avatarUrl": "/avatars/b818dc0dddc999758ab5737d5053e8c3.svg",
+                        "isPro": false,
+                        "fullname": "cyt",
+                        "user": "Row11n",
+                        "type": "user"
+                    },
+                    "name": "Yitong Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-25T08:18:45.692Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25c4d1908043170bd551e",
+                    "name": "Lingchen Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25c4d1908043170bd551f",
+                    "name": "Wujian Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25c4d1908043170bd5520",
+                    "name": "Zuxuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e25c4d1908043170bd5521",
+                    "name": "Yu-Gang Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-24T17:52:47.000Z",
+            "submittedOnDailyAt": "2025-03-26T01:10:42.553Z",
+            "title": "CoMP: Continual Multimodal Pre-training for Vision Foundation Models",
+            "submittedOnDailyBy": {
+                "_id": "64651db3611ae99d14d392ea",
+                "avatarUrl": "/avatars/b818dc0dddc999758ab5737d5053e8c3.svg",
+                "isPro": false,
+                "fullname": "cyt",
+                "user": "Row11n",
+                "type": "user"
+            },
+            "summary": "Pre-trained Vision Foundation Models (VFMs) provide strong visual\nrepresentations for a wide range of applications. In this paper, we continually\npre-train prevailing VFMs in a multimodal manner such that they can\neffortlessly process visual inputs of varying sizes and produce visual\nrepresentations that are more aligned with language representations, regardless\nof their original pre-training process. To this end, we introduce CoMP, a\ncarefully designed multimodal pre-training pipeline. CoMP uses a Continual\nRotary Position Embedding to support native resolution continual pre-training,\nand an Alignment Loss between visual and textual features through language\nprototypes to align multimodal representations. By three-stage training, our\nVFMs achieve remarkable improvements not only in multimodal understanding but\nalso in other downstream tasks such as classification and segmentation.\nRemarkably, CoMP-SigLIP achieves scores of 66.7 on ChartQA and 75.9 on DocVQA\nwith a 0.5B LLM, while maintaining an 87.4% accuracy on ImageNet-1K and a 49.5\nmIoU on ADE20K under frozen chunk evaluation.",
+            "upvotes": 23,
+            "discussionId": "67e25c4f1908043170bd55a8",
+            "projectPage": "https://slimm-x.github.io/comp/",
+            "githubRepo": "https://github.com/SliMM-X/CoMP-MM",
+            "ai_keywords": [
+                "Vision Foundation Models (VFMs)",
+                "Continual Rotary Position Embedding",
+                "Alignment Loss",
+                "language prototypes",
+                "multimodal pre-training pipeline",
+                "three-stage training",
+                "multimodal understanding",
+                "classification",
+                "segmentation",
+                "ChartQA",
+                "DocVQA",
+                "LLM",
+                "ImageNet-1K",
+                "ADE20K",
+                "frozen chunk evaluation"
+            ]
+        },
+        "translation_title": "CoMP: 비전 기초 모델을 위한 지속적인 멀티모달 사전 학습",
+        "purpose": "비전 기초 모델의 성능을 높이기 위해 멀티모달 방식으로 지속적인 사전 학습을 수행하려는 목표",
+        "method": [
+            "CoMP라는 체계적인 멀티모달 사전 학습 파이프라인을 도입함(To this end, we introduce CoMP, a carefully designed multimodal pre-training pipeline.)",
+            "계속되는 해상도 사전 학습을 지원하기 위해 지속적인 회전 위치 임베딩(Continual Rotary Position Embedding)을 사용하고, 언어 프로토타입을 통해 시각적 및 텍스트적 특성 간의 정렬 손실(Alignment Loss)을 적용함(CoMP uses a Continual Rotary Position Embedding to support native resolution continual pre-training, and an Alignment Loss between visual and textual features through language prototypes to align multimodal representations.)",
+            "세 단계 훈련을 통해 VFMs가 멀티모달 이해와 분류, 분할과 같은 다운스트림 작업에서 현저한 개선을 달성함(By three-stage training, our VFMs achieve remarkable improvements not only in multimodal understanding but also in other downstream tasks such as classification and segmentation.)"
+        ],
+        "conclusion": "CoMP-SigLIP은 ChartQA에서 66.7, DocVQA에서 75.9의 점수를 기록하며 ImageNet-1K에서 87.4%의 정확도와 ADE20K에서 49.5 mIoU를 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Classification",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.19385",
+            "authors": [
+                {
+                    "_id": "67e36241d8da46951f858026",
+                    "name": "Jaihoon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e36241d8da46951f858027",
+                    "name": "Taehoon Yoon",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e36241d8da46951f858028",
+                    "name": "Jisung Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e36241d8da46951f858029",
+                    "name": "Minhyuk Sung",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-25T06:30:45.000Z",
+            "submittedOnDailyAt": "2025-03-26T00:49:38.583Z",
+            "title": "Inference-Time Scaling for Flow Models via Stochastic Generation and\n  Rollover Budget Forcing",
+            "submittedOnDailyBy": {
+                "_id": "6342796a0875f2c99cfd313b",
+                "avatarUrl": "/avatars/98575092404c4197b20c929a6499a015.svg",
+                "isPro": false,
+                "fullname": "Yuseung \"Phillip\" Lee",
+                "user": "phillipinseoul",
+                "type": "user"
+            },
+            "summary": "We propose an inference-time scaling approach for pretrained flow models.\nRecently, inference-time scaling has gained significant attention in LLMs and\ndiffusion models, improving sample quality or better aligning outputs with user\npreferences by leveraging additional computation. For diffusion models,\nparticle sampling has allowed more efficient scaling due to the stochasticity\nat intermediate denoising steps. On the contrary, while flow models have gained\npopularity as an alternative to diffusion models--offering faster generation\nand high-quality outputs in state-of-the-art image and video generative\nmodels--efficient inference-time scaling methods used for diffusion models\ncannot be directly applied due to their deterministic generative process. To\nenable efficient inference-time scaling for flow models, we propose three key\nideas: 1) SDE-based generation, enabling particle sampling in flow models, 2)\nInterpolant conversion, broadening the search space and enhancing sample\ndiversity, and 3) Rollover Budget Forcing (RBF), an adaptive allocation of\ncomputational resources across timesteps to maximize budget utilization. Our\nexperiments show that SDE-based generation, particularly variance-preserving\n(VP) interpolant-based generation, improves the performance of particle\nsampling methods for inference-time scaling in flow models. Additionally, we\ndemonstrate that RBF with VP-SDE achieves the best performance, outperforming\nall previous inference-time scaling approaches.",
+            "upvotes": 21,
+            "discussionId": "67e36245d8da46951f85802c",
+            "ai_keywords": [
+                "flow models",
+                "inference-time scaling",
+                "LLMs",
+                "diffusion models",
+                "sample quality",
+                "user preferences",
+                "particle sampling",
+                "stochasticity",
+                "denoising steps",
+                "generative process",
+                "SDE-based generation",
+                "interpolant conversion",
+                "sample diversity",
+                "Rollover Budget Forcing (RBF)",
+                "adaptive allocation",
+                "computational resources",
+                "timesteps",
+                "budget utilization",
+                "variance-preserving (VP)",
+                "VP interpolant-based generation"
+            ]
+        },
+        "translation_title": "흐름 모델을 위한 추론 시간 확장을 위한 확률적 생성 및 롤오버 예산 강제화",
+        "purpose": "흐름 모델의 추론 시간을 효과적으로 확장하기 위한 방법 제안",
+        "method": [
+            "추론 시간 확장을 위한 세 가지 주요 아이디어를 제안함(We propose three key ideas)",
+            "확률적 생성 방법인 SDE 기반 생성을 통해 흐름 모델에서 입자 샘플링을 가능하게 함(SDE-based generation, enabling particle sampling in flow models)",
+            "보간기 변환을 통해 검색 공간을 확장하고 샘플 다양성을 향상함(Interpolant conversion, broadening the search space and enhancing sample diversity)",
+            "롤오버 예산 강제화(RBF)를 통해 시간 단계 간 계산 자원을 조정하여 예산 활용을 극대화함(Rollover Budget Forcing (RBF), an adaptive allocation of computational resources across timesteps to maximize budget utilization)"
+        ],
+        "conclusion": "제안한 방법들이 흐름 모델의 추론 시간 확장에서 성능을 개선하며, 특히 RBF와 VP-SDE 조합이 기존 방법보다 더 우수한 성과를 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.19622",
+            "authors": [
+                {
+                    "_id": "67e3706bc9d8214b5e219149",
+                    "name": "Hongcheng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914a",
+                    "name": "Jiashu Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914b",
+                    "name": "Jingyi Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914c",
+                    "name": "Baolong Bi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914d",
+                    "name": "Yue Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914e",
+                    "name": "Hongyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e21914f",
+                    "name": "Li Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e219150",
+                    "name": "Li Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e3706bc9d8214b5e219151",
+                    "name": "Qingming Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-25T13:12:17.000Z",
+            "submittedOnDailyAt": "2025-03-26T01:44:03.080Z",
+            "title": "Exploring Hallucination of Large Multimodal Models in Video\n  Understanding: Benchmark, Analysis and Mitigation",
+            "submittedOnDailyBy": {
+                "_id": "62728f4f6253fe2068da1021",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62728f4f6253fe2068da1021/KZ65X0EH98AF3zXemPiap.jpeg",
+                "isPro": false,
+                "fullname": "Hongcheng Gao",
+                "user": "HongchengGao",
+                "type": "user"
+            },
+            "summary": "The hallucination of large multimodal models (LMMs), providing responses that\nappear correct but are actually incorrect, limits their reliability and\napplicability. This paper aims to study the hallucination problem of LMMs in\nvideo modality, which is dynamic and more challenging compared to static\nmodalities like images and text. From this motivation, we first present a\ncomprehensive benchmark termed HAVEN for evaluating hallucinations of LMMs in\nvideo understanding tasks. It is built upon three dimensions, i.e.,\nhallucination causes, hallucination aspects, and question formats, resulting in\n6K questions. Then, we quantitatively study 7 influential factors on\nhallucinations, e.g., duration time of videos, model sizes, and model\nreasoning, via experiments of 16 LMMs on the presented benchmark. In addition,\ninspired by recent thinking models like OpenAI o1, we propose a video-thinking\nmodel to mitigate the hallucinations of LMMs via supervised reasoning\nfine-tuning (SRFT) and direct preference optimization (TDPO)-- where SRFT\nenhances reasoning capabilities while TDPO reduces hallucinations in the\nthinking process. Extensive experiments and analyses demonstrate the\neffectiveness. Remarkably, it improves the baseline by 7.65% in accuracy on\nhallucination evaluation and reduces the bias score by 4.5%. The code and data\nare public at https://github.com/Hongcheng-Gao/HAVEN.",
+            "upvotes": 20,
+            "discussionId": "67e3706dc9d8214b5e2191e0",
+            "githubRepo": "https://github.com/Hongcheng-Gao/HAVEN",
+            "ai_keywords": [
+                "multimodal models (LMMs)",
+                "hallucination",
+                "video modality",
+                "video understanding",
+                "HAVEN",
+                "hallucination causes",
+                "hallucination aspects",
+                "question formats",
+                "duration time",
+                "model sizes",
+                "model reasoning",
+                "supervised reasoning fine-tuning (SRFT)",
+                "direct preference optimization (TDPO)",
+                "video-thinking model",
+                "accuracy",
+                "bias score"
+            ]
+        },
+        "translation_title": "비디오 이해에서 대규모 멀티모달 모델의 환각 탐색: 벤치마크, 분석 및 완화",
+        "purpose": "대규모 멀티모달 모델(LMMs)의 비디오 모달리티에서 발생하는 환각 문제를 연구하고 신뢰성을 높이는 것",
+        "method": [
+            "비디오 이해 작업에서 LMM의 환각을 평가하기 위해 HAVEN이라는 종합적인 벤치마크를 제시함(we first present a comprehensive benchmark termed HAVEN for evaluating hallucinations of LMMs in video understanding tasks.)",
+            "16개의 LMM을 대상으로 실험하여 환각에 영향을 미치는 7가지 요인을 정량적으로 연구함(we quantitatively study 7 influential factors on hallucinations via experiments of 16 LMMs on the presented benchmark.)",
+            "SRFT와 TDPO라는 방법을 통해 LMM의 환각을 완화하기 위한 비디오 사고 모델을 제안함(we propose a video-thinking model to mitigate the hallucinations of LMMs via supervised reasoning fine-tuning (SRFT) and direct preference optimization (TDPO))."
+        ],
+        "conclusion": "이 방법을 통해 환각 평가에서 정확도를 7.65% 향상시키고 편향 점수를 4.5% 줄이는 성과를 달성함.",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.19903",
+            "authors": [
+                {
+                    "_id": "67e375d3cc93cc8c42da7699",
+                    "name": "Baifeng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769a",
+                    "name": "Boyi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769b",
+                    "name": "Han Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769c",
+                    "name": "Yao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769d",
+                    "name": "Sifei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769e",
+                    "name": "Marco Pavone",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da769f",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da76a0",
+                    "name": "Song Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da76a1",
+                    "name": "Trevor Darrell",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da76a2",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e375d3cc93cc8c42da76a3",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/649004218f7cbbc94c782db6/F0o61glyGm9fib9Pl1i-L.mp4"
+            ],
+            "publishedAt": "2025-03-25T17:58:37.000Z",
+            "submittedOnDailyAt": "2025-03-26T02:13:20.800Z",
+            "title": "Scaling Vision Pre-Training to 4K Resolution",
+            "submittedOnDailyBy": {
+                "_id": "649004218f7cbbc94c782db6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/AdgLVfAIpWlug4jXTaEK-.jpeg",
+                "isPro": false,
+                "fullname": "Baifeng Shi",
+                "user": "bfshi",
+                "type": "user"
+            },
+            "summary": "High-resolution perception of visual details is crucial for daily tasks.\nCurrent vision pre-training, however, is still limited to low resolutions\n(e.g., 378 x 378 pixels) due to the quadratic cost of processing larger images.\nWe introduce PS3 that scales CLIP-style vision pre-training to 4K resolution\nwith a near-constant cost. Instead of contrastive learning on global image\nrepresentation, PS3 is pre-trained by selectively processing local regions and\ncontrasting them with local detailed captions, enabling high-resolution\nrepresentation learning with greatly reduced computational overhead. The\npre-trained PS3 is able to both encode the global image at low resolution and\nselectively process local high-resolution regions based on their saliency or\nrelevance to a text prompt. When applying PS3 to multi-modal LLM (MLLM), the\nresulting model, named VILA-HD, significantly improves high-resolution visual\nperception compared to baselines without high-resolution vision pre-training\nsuch as AnyRes and S^2 while using up to 4.3x fewer tokens. PS3 also unlocks\nappealing scaling properties of VILA-HD, including scaling up resolution for\nfree and scaling up test-time compute for better performance. Compared to state\nof the arts, VILA-HD outperforms previous MLLMs such as NVILA and Qwen2-VL\nacross multiple benchmarks and achieves better efficiency than latest token\npruning approaches. Finally, we find current benchmarks do not require\n4K-resolution perception, which motivates us to propose 4KPro, a new benchmark\nof image QA at 4K resolution, on which VILA-HD outperforms all previous MLLMs,\nincluding a 14.5% improvement over GPT-4o, and a 3.2% improvement and 2.96x\nspeedup over Qwen2-VL.",
+            "upvotes": 14,
+            "discussionId": "67e375d9cc93cc8c42da785f",
+            "projectPage": "https://nvlabs.github.io/PS3/",
+            "githubRepo": "https://github.com/NVlabs/PS3",
+            "ai_keywords": [
+                "PS3",
+                "CLIP-style vision pre-training",
+                "contrastive learning",
+                "local regions",
+                "local detailed captions",
+                "high-resolution representation learning",
+                "computational overhead",
+                "saliency",
+                "text prompt",
+                "VILA-HD",
+                "multi-modal LLM",
+                "high-resolution visual perception",
+                "AnyRes",
+                "S^2",
+                "scaling properties",
+                "test-time compute",
+                "NVILA",
+                "Qwen2-VL",
+                "benchmarks",
+                "token pruning approaches",
+                "4KPer",
+                "image QA",
+                "GPT-4o"
+            ]
+        },
+        "translation_title": "4K 해상도로 비전 사전 학습 확장하기",
+        "purpose": "고해상도 이미지를 처리하여 일상 작업의 시각적 세부 사항 인식을 개선함",
+        "method": [
+            "PS3라는 새로운 방식을 도입하여 CLIP 스타일의 비전 사전 학습을 4K 해상도로 확장함(We introduce PS3 that scales CLIP-style vision pre-training to 4K resolution with a near-constant cost.)",
+            "지역별 처리 및 로컬 세부 캡션과의 대조를 통해 고해상도 표현 학습을 가능하게 함(PS3 is pre-trained by selectively processing local regions and contrasting them with local detailed captions, enabling high-resolution representation learning with greatly reduced computational overhead.)",
+            "PS3를 다중 모달 LLM에 적용하여 VILA-HD 모델을 만들어저하였으며, 이는 저해상도 사전 학습을 하지 않은 모델에 비해 시각적 인식에서 현저한 개선을 보임(When applying PS3 to multi-modal LLM (MLLM), the resulting model, named VILA-HD, significantly improves high-resolution visual perception compared to baselines without high-resolution vision pre-training such as AnyRes and S^2 while using up to 4.3x fewer tokens.)"
+        ],
+        "conclusion": "VILA-HD는 이전 MLLM보다 여러 벤치마크에서 우수한 성능을 나타내며, 특히 4K 해상도의 이미지 QA에서 모든 이전 MLLM을 초과하는 성능 개선을 보임",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    }
+]
