@@ -1,0 +1,730 @@
+[
+    {
+        "paper": {
+            "id": "2503.19693",
+            "authors": [
+                {
+                    "_id": "67ea363dd13d75fc156ec498",
+                    "user": {
+                        "_id": "671f8106d677d3a764a6f9a5",
+                        "avatarUrl": "/avatars/90b4b00058aac30c060c5eac8debb1c7.svg",
+                        "isPro": false,
+                        "fullname": "itay nakash",
+                        "user": "itaynakash",
+                        "type": "user"
+                    },
+                    "name": "Itay Nakash",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:24:09.634Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea363dd13d75fc156ec499",
+                    "user": {
+                        "_id": "62d6a0c18faee0ac953c51fa",
+                        "avatarUrl": "/avatars/ca818cebdb089a8d853c5bc4d5e0987b.svg",
+                        "isPro": false,
+                        "fullname": "Nitay Calderon",
+                        "user": "nitay",
+                        "type": "user"
+                    },
+                    "name": "Nitay Calderon",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:24:15.760Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea363dd13d75fc156ec49a",
+                    "user": {
+                        "_id": "6645fc650e6706053171ce51",
+                        "avatarUrl": "/avatars/54b03ac6939d4b8943606b12b979ce52.svg",
+                        "isPro": false,
+                        "fullname": "Eyal Ben-David",
+                        "user": "eyalbd",
+                        "type": "user"
+                    },
+                    "name": "Eyal Ben David",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:24:21.914Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea363dd13d75fc156ec49b",
+                    "user": {
+                        "_id": "630480fa6dbbb80f16352ee3",
+                        "avatarUrl": "/avatars/f39ce2fe96a578f42a57e3bfe3a2d137.svg",
+                        "isPro": false,
+                        "fullname": "Elad Hoffer",
+                        "user": "ehoffer",
+                        "type": "user"
+                    },
+                    "name": "Elad Hoffer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:24:27.895Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea363dd13d75fc156ec49c",
+                    "name": "Roi Reichart",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/671f8106d677d3a764a6f9a5/Rq3iCgXutkz1jOx5krnk-.png"
+            ],
+            "publishedAt": "2025-03-25T14:18:21.000Z",
+            "submittedOnDailyAt": "2025-03-31T05:02:48.696Z",
+            "title": "AdaptiVocab: Enhancing LLM Efficiency in Focused Domains through\n  Lightweight Vocabulary Adaptation",
+            "submittedOnDailyBy": {
+                "_id": "671f8106d677d3a764a6f9a5",
+                "avatarUrl": "/avatars/90b4b00058aac30c060c5eac8debb1c7.svg",
+                "isPro": false,
+                "fullname": "itay nakash",
+                "user": "itaynakash",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have shown impressive versatility as general\npurpose models. However, their broad applicability comes at a high-cost\ncomputational overhead, particularly in auto-regressive decoding where each\nstep requires a forward pass. In domain-specific settings, general-purpose\ncapabilities are unnecessary and can be exchanged for efficiency. In this work,\nwe take a novel perspective on domain adaptation, reducing latency and\ncomputational costs by adapting the vocabulary to focused domains of interest.\nWe introduce AdaptiVocab, an end-to-end approach for vocabulary adaptation,\ndesigned to enhance LLM efficiency in low-resource domains. AdaptiVocab can be\napplied to any tokenizer and architecture, modifying the vocabulary by\nreplacing tokens with domain-specific n-gram-based tokens, thereby reducing the\nnumber of tokens required for both input processing and output generation.\nAdaptiVocab initializes new n-token embeddings using an exponentially weighted\ncombination of existing embeddings and employs a lightweight fine-tuning phase\nthat can be efficiently performed on a single GPU. We evaluate two 7B LLMs\nacross three niche domains, assessing efficiency, generation quality, and\nend-task performance. Our results show that AdaptiVocab reduces token usage by\nover 25% without compromising performance",
+            "upvotes": 42,
+            "discussionId": "67ea363ed13d75fc156ec4e8",
+            "projectPage": "https://itay-nakash.github.io/AdaptiVocab/",
+            "ai_keywords": [
+                "AdaptiVocab",
+                "vocabulary adaptation",
+                "n-gram-based tokens",
+                "token embeddings",
+                "lightweight fine-tuning"
+            ]
+        },
+        "translation_title": "AdaptiVocab: 경량 어휘 적응을 통한 LLM 효율성 향상",
+        "purpose": "도메인에 특화된 설정에서 LLM의 계산 비용과 지연 시간을 줄이기 위한 어휘 적응 연구",
+        "method": [
+            "어휘를 도메인에 맞게 조정하여 효율성을 높이는 새로운 접근 방식인 AdaptiVocab을 제안함(In this work, we take a novel perspective on domain adaptation, reducing latency and computational costs by adapting the vocabulary to focused domains of interest.)",
+            "n-그램 기반 토큰으로 일반 토큰을 대체하여 어휘를 수정함(AdaptiVocab can be applied to any tokenizer and architecture, modifying the vocabulary by replacing tokens with domain-specific n-gram-based tokens.)",
+            "신규 n-token 임베딩을 생성하고 가벼운 미세 조정 단계로 효율적으로 수행함(AdaptiVocab initializes new n-token embeddings using an exponentially weighted combination of existing embeddings and employs a lightweight fine-tuning phase that can be efficiently performed on a single GPU.)"
+        ],
+        "conclusion": "AdaptiVocab은 LLM의 토큰 사용량을 25% 이상 줄이면서 성능을 유지하는 데 성공하였다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.22230",
+            "authors": [
+                {
+                    "_id": "67e9fdd446d9dd867e9728d3",
+                    "user": {
+                        "_id": "6468823272d9180d4ac90bdf",
+                        "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                        "isPro": false,
+                        "fullname": "Wei Shen",
+                        "user": "Swtheking",
+                        "type": "user"
+                    },
+                    "name": "Wei Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:24:54.522Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d4",
+                    "user": {
+                        "_id": "67805c4a43a58ab7b52a05ea",
+                        "avatarUrl": "/avatars/759d0466020b6f7c0207aaf62ad89eca.svg",
+                        "isPro": false,
+                        "fullname": "Guanlin Liu",
+                        "user": "glnbyte",
+                        "type": "user"
+                    },
+                    "name": "Guanlin Liu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-03-31T02:28:37.898Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d5",
+                    "user": {
+                        "_id": "648223754de983d03190f4af",
+                        "avatarUrl": "/avatars/36c70a6a3a1aa8a7cc0de106d5902a81.svg",
+                        "isPro": false,
+                        "fullname": "Zheng Wu",
+                        "user": "zhengwu07",
+                        "type": "user"
+                    },
+                    "name": "Zheng Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:25:03.076Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d6",
+                    "name": "Ruofei Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d7",
+                    "user": {
+                        "_id": "64d20e1821aed29b2ffd2d99",
+                        "avatarUrl": "/avatars/b0719319a74e8f51fc8a1404aca367e6.svg",
+                        "isPro": false,
+                        "fullname": "Qingping Yang",
+                        "user": "qingping95",
+                        "type": "user"
+                    },
+                    "name": "Qingping Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:25:15.803Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d8",
+                    "user": {
+                        "_id": "661bca6576ac250a1106bfa6",
+                        "avatarUrl": "/avatars/200327d87103f13f7cbbb40d11f2f188.svg",
+                        "isPro": false,
+                        "fullname": "Chao Xin",
+                        "user": "amusingchao",
+                        "type": "user"
+                    },
+                    "name": "Chao Xin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:25:23.410Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728d9",
+                    "name": "Yu Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9fdd446d9dd867e9728da",
+                    "name": "Lin Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-28T08:26:41.000Z",
+            "submittedOnDailyAt": "2025-03-31T00:59:21.502Z",
+            "title": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from\n  Human Feedback",
+            "submittedOnDailyBy": {
+                "_id": "6468823272d9180d4ac90bdf",
+                "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                "isPro": false,
+                "fullname": "Wei Shen",
+                "user": "Swtheking",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning from Human Feedback (RLHF) is crucial for aligning\nlarge language models with human preferences. While recent research has focused\non algorithmic improvements, the importance of prompt-data construction has\nbeen overlooked. This paper addresses this gap by exploring data-driven\nbottlenecks in RLHF performance scaling, particularly reward hacking and\ndecreasing response diversity. We introduce a hybrid reward system combining\nreasoning task verifiers (RTV) and a generative reward model (GenRM) to\nmitigate reward hacking. We also propose a novel prompt-selection method,\nPre-PPO, to maintain response diversity and enhance learning effectiveness.\nAdditionally, we find that prioritizing mathematical and coding tasks early in\nRLHF training significantly improves performance. Experiments across two model\nsizes validate our methods' effectiveness and scalability. Results show that\nRTV is most resistant to reward hacking, followed by GenRM with ground truth,\nand then GenRM with SFT Best-of-N responses. Our strategies enable rapid\ncapture of subtle task-specific distinctions, leading to substantial\nimprovements in overall RLHF performance. This work highlights the importance\nof careful data construction and provides practical methods to overcome\nperformance barriers in RLHF.",
+            "upvotes": 26,
+            "discussionId": "67e9fdd546d9dd867e97292c",
+            "ai_keywords": [
+                "Reinforcement Learning from Human Feedback (RLHF)",
+                "reward hacking",
+                "response diversity",
+                "reasoning task verifiers (RTV)",
+                "generative reward model (GenRM)",
+                "Pre-PPO",
+                "prompt-selection method",
+                "mathematical tasks",
+                "coding tasks",
+                "GenRM with ground truth",
+                "GenRM with SFT Best-of-N responses"
+            ]
+        },
+        "translation_title": "인간 피드백을 통한 강화 학습에서 데이터 확장 경향과 효과 탐색",
+        "purpose": "",
+        "method": [
+            "RLHF 성능 확대에서의 데이터 기반 병목 현상 탐구를 통해 적절한 솔루션 제시(While recent research has focused on algorithmic improvements, the importance of prompt-data construction has been overlooked.)",
+            "추론 작업 검증기(RTV)와 생성 보상 모델(GenRM)을 결합한 하이브리드 보상 체계 도입하여 보상 해킹 완화(Hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM) to mitigate reward hacking.)",
+            "응답 다양성을 유지하고 학습 효과성을 높이기 위한 새로운 프롬프트 선택 방법인 Pre-PPO 제안(We also propose a novel prompt-selection method, Pre-PPO, to maintain response diversity and enhance learning effectiveness.)"
+        ],
+        "conclusion": "이 연구는 강화 학습에서의 데이터 구성의 중요성을 강조하고, 성능 장벽을 극복하기 위한 실용적인 방법을 제시함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Human Feedback",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.22675",
+            "authors": [
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f2e",
+                    "user": {
+                        "_id": "65acfb3a14e6582c30b4ce76",
+                        "avatarUrl": "/avatars/3402ba72fe2436a9c2c2f92e56b15deb.svg",
+                        "isPro": false,
+                        "fullname": "TangJiakai",
+                        "user": "TangJiakai5704",
+                        "type": "user"
+                    },
+                    "name": "Jiakai Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-31T08:11:47.198Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f2f",
+                    "user": {
+                        "_id": "64db88993725f8d9a908c077",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+                        "isPro": false,
+                        "fullname": "Sunhao Dai",
+                        "user": "KID-22",
+                        "type": "user"
+                    },
+                    "name": "Sunhao Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:23:02.371Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f30",
+                    "user": {
+                        "_id": "66152fbe1bcd61054402449b",
+                        "avatarUrl": "/avatars/17cb2f997e7983d706d87cf7c8c5c3dd.svg",
+                        "isPro": false,
+                        "fullname": "Shi",
+                        "user": "TengShi",
+                        "type": "user"
+                    },
+                    "name": "Teng Shi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:23:10.725Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f31",
+                    "name": "Jun Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f32",
+                    "name": "Xu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f33",
+                    "name": "Wen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f34",
+                    "name": "Wu Jian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e9f6b7d13d75fc155c7f35",
+                    "name": "Yuning Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-28T17:59:03.000Z",
+            "submittedOnDailyAt": "2025-03-31T00:29:30.669Z",
+            "title": "Think Before Recommend: Unleashing the Latent Reasoning Power for\n  Sequential Recommendation",
+            "submittedOnDailyBy": {
+                "_id": "64db88993725f8d9a908c077",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64db88993725f8d9a908c077/JZEGk0kius6mrANlwOWw9.jpeg",
+                "isPro": false,
+                "fullname": "Sunhao Dai",
+                "user": "KID-22",
+                "type": "user"
+            },
+            "summary": "Sequential Recommendation (SeqRec) aims to predict the next item by capturing\nsequential patterns from users' historical interactions, playing a crucial role\nin many real-world recommender systems. However, existing approaches\npredominantly adopt a direct forward computation paradigm, where the final\nhidden state of the sequence encoder serves as the user representation. We\nargue that this inference paradigm, due to its limited computational depth,\nstruggles to model the complex evolving nature of user preferences and lacks a\nnuanced understanding of long-tail items, leading to suboptimal performance. To\naddress this issue, we propose ReaRec, the first inference-time\ncomputing framework for recommender systems, which enhances user\nrepresentations through implicit multi-step reasoning. Specifically, ReaRec\nautoregressively feeds the sequence's last hidden state into the sequential\nrecommender while incorporating special reasoning position embeddings to\ndecouple the original item encoding space from the multi-step reasoning space.\nMoreover, we introduce two lightweight reasoning-based learning methods,\nEnsemble Reasoning Learning (ERL) and Progressive Reasoning Learning (PRL), to\nfurther effectively exploit ReaRec's reasoning potential. Extensive experiments\non five public real-world datasets and different SeqRec architectures\ndemonstrate the generality and effectiveness of our proposed ReaRec.\nRemarkably, post-hoc analyses reveal that ReaRec significantly elevates the\nperformance ceiling of multiple sequential recommendation backbones by\napproximately 30\\%-50\\%. Thus, we believe this work can open a new and\npromising avenue for future research in inference-time computing for sequential\nrecommendation.",
+            "upvotes": 22,
+            "discussionId": "67e9f6bdd13d75fc155c805e",
+            "githubRepo": "https://github.com/TangJiakai/ReaRec",
+            "ai_keywords": [
+                "ReaRec",
+                "reasoning position embeddings",
+                "Ensemble Reasoning Learning (ERL)",
+                "Progressive Reasoning Learning (PRL)",
+                "sequential recommendation backbones",
+                "autoregressive feeding"
+            ]
+        },
+        "translation_title": "추천하기 전에 고민하라: 순차 추천을 위한 잠재적 추론 능력 발휘",
+        "purpose": "순차 추천 시스템의 성능을 높이기 위해 더 나은 사용자 표현을 위한 추론 기반 접근법 연구",
+        "method": [
+            "기존의 직관적인 추론 패러다임이 사용자의 복잡한 선호를 모델링하는 데 한계가 있음을 지적함으로써 문제가 발생한다고 주장함.(We argue that this inference paradigm, due to its limited computational depth, struggles to model the complex evolving nature of user preferences.)",
+            "새로운 ReaRec 프레임워크를 제안하여 사용자 표현을 임의의 다단계 추론을 통해 향상시키도록 구성함.(To address this issue, we propose ReaRec, the first inference-time computing framework for recommender systems, which enhances user representations through implicit multi-step reasoning.)",
+            "ReaRec에 특별한 추론 위치 임베딩을 추가하여 기존 아이템 인코딩 공간과 다단계 추론 공간을 분리함.(Specifically, ReaRec autoregressively feeds the sequence's last hidden state into the sequential recommender while incorporating special reasoning position embeddings to decouple the original item encoding space from the multi-step reasoning space.)",
+            "두 가지 경량 추론 기반 학습 방법인 Ensemble Reasoning Learning (ERL)와 Progressive Reasoning Learning (PRL)을 도입하여 ReaRec의 추론 잠재력을 효과적으로 활용하도록 함.(Moreover, we introduce two lightweight reasoning-based learning methods, Ensemble Reasoning Learning (ERL) and Progressive Reasoning Learning (PRL), to further effectively exploit ReaRec's reasoning potential.)"
+        ],
+        "conclusion": "ReaRec은 다양한 순차 추천 시스템의 성능을 약 30%-50% 향상시키며, 순차 추천을 위한 추론 시간 컴퓨팅 연구에 새로운 가능성을 열 것으로 기대함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.21614",
+            "authors": [
+                {
+                    "_id": "67ea331c1238e1aa16fc18b3",
+                    "user": {
+                        "_id": "64cb54da1af278541d663708",
+                        "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+                        "isPro": false,
+                        "fullname": "Xiaoye Qu",
+                        "user": "Xiaoye08",
+                        "type": "user"
+                    },
+                    "name": "Xiaoye Qu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:27:07.849Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b4",
+                    "user": {
+                        "_id": "63f3502a520c14618925825a",
+                        "avatarUrl": "/avatars/e986a2a6625e7be6890616a417f908d2.svg",
+                        "isPro": false,
+                        "fullname": "Yafu Li",
+                        "user": "yaful",
+                        "type": "user"
+                    },
+                    "name": "Yafu Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:27:17.977Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b5",
+                    "user": {
+                        "_id": "64264095ba51f8a2136946a0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64264095ba51f8a2136946a0/FR33boVpkDXcrvGMBmprF.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhaochen Su",
+                        "user": "Warrieryes",
+                        "type": "user"
+                    },
+                    "name": "Zhaochen Su",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-31T08:11:31.516Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b6",
+                    "user": {
+                        "_id": "6246bb33da617c00b48e4d92",
+                        "avatarUrl": "/avatars/0304a9f6eb7f5dee4d933d03222f94e9.svg",
+                        "isPro": false,
+                        "fullname": "Weigao Sun",
+                        "user": "weigao266",
+                        "type": "user"
+                    },
+                    "name": "Weigao Sun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:28:08.547Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b7",
+                    "user": {
+                        "_id": "6086838b19137b3a6ba760e7",
+                        "avatarUrl": "/avatars/d63eea3e39b22c6e65b82c28192696f1.svg",
+                        "isPro": false,
+                        "fullname": "Jianhao Yan",
+                        "user": "Elliott",
+                        "type": "user"
+                    },
+                    "name": "Jianhao Yan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:28:21.561Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b8",
+                    "user": {
+                        "_id": "657fe7a8504da7f6f30a2832",
+                        "avatarUrl": "/avatars/65987e3cba449b5d250616510ee11f33.svg",
+                        "isPro": false,
+                        "fullname": "Dongrui Liu",
+                        "user": "Max9803",
+                        "type": "user"
+                    },
+                    "name": "Dongrui Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:28:40.653Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18b9",
+                    "user": {
+                        "_id": "650eba9555dc1e841746f132",
+                        "avatarUrl": "/avatars/af6f5ee78f161d25ec0afc45d2def8eb.svg",
+                        "isPro": false,
+                        "fullname": "Ganqu Cui",
+                        "user": "ganqu",
+                        "type": "user"
+                    },
+                    "name": "Ganqu Cui",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:28:47.399Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18ba",
+                    "name": "Daizong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18bb",
+                    "user": {
+                        "_id": "640052d5330a45b0360483aa",
+                        "avatarUrl": "/avatars/0836247e9e0ecbf68b069eaa3c6edd47.svg",
+                        "isPro": false,
+                        "fullname": "Shuxian Liang",
+                        "user": "liang4sx",
+                        "type": "user"
+                    },
+                    "name": "Shuxian Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:29:01.763Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18bc",
+                    "user": {
+                        "_id": "615f34ec3f6d24d67c1b5c78",
+                        "avatarUrl": "/avatars/6dcff6477993d9e57c5cb92b6f95eb66.svg",
+                        "isPro": false,
+                        "fullname": "Junxian He",
+                        "user": "jxhe",
+                        "type": "user"
+                    },
+                    "name": "Junxian He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:29:08.537Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18bd",
+                    "name": "Peng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18be",
+                    "name": "Wei Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18bf",
+                    "name": "Jing Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18c0",
+                    "name": "Chaochao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18c1",
+                    "name": "Yue Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18c2",
+                    "name": "Xian-Sheng Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18c3",
+                    "user": {
+                        "_id": "669f614b59adf5b56e05bce3",
+                        "avatarUrl": "/avatars/ffd4189efbceb0e63a03db273065a44b.svg",
+                        "isPro": false,
+                        "fullname": "BowenZhou",
+                        "user": "bowenZhou",
+                        "type": "user"
+                    },
+                    "name": "Bowen Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T08:29:49.460Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ea331c1238e1aa16fc18c4",
+                    "name": "Yu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-27T15:36:30.000Z",
+            "submittedOnDailyAt": "2025-03-31T04:49:37.564Z",
+            "title": "A Survey of Efficient Reasoning for Large Reasoning Models: Language,\n  Multimodality, and Beyond",
+            "submittedOnDailyBy": {
+                "_id": "64cb54da1af278541d663708",
+                "avatarUrl": "/avatars/c44507cc92bb2e83154bad31b90ce6dd.svg",
+                "isPro": false,
+                "fullname": "Xiaoye Qu",
+                "user": "Xiaoye08",
+                "type": "user"
+            },
+            "summary": "Recent Large Reasoning Models (LRMs), such as DeepSeek-R1 and OpenAI o1, have\ndemonstrated strong performance gains by scaling up the length of\nChain-of-Thought (CoT) reasoning during inference. However, a growing concern\nlies in their tendency to produce excessively long reasoning traces, which are\noften filled with redundant content (e.g., repeated definitions), over-analysis\nof simple problems, and superficial exploration of multiple reasoning paths for\nharder tasks. This inefficiency introduces significant challenges for training,\ninference, and real-world deployment (e.g., in agent-based systems), where\ntoken economy is critical. In this survey, we provide a comprehensive overview\nof recent efforts aimed at improving reasoning efficiency in LRMs, with a\nparticular focus on the unique challenges that arise in this new paradigm. We\nidentify common patterns of inefficiency, examine methods proposed across the\nLRM lifecycle, i.e., from pretraining to inference, and discuss promising\nfuture directions for research. To support ongoing development, we also\nmaintain a real-time GitHub repository tracking recent progress in the field.\nWe hope this survey serves as a foundation for further exploration and inspires\ninnovation in this rapidly evolving area.",
+            "upvotes": 19,
+            "discussionId": "67ea331d1238e1aa16fc190f",
+            "githubRepo": "https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning",
+            "ai_keywords": [
+                "Large Reasoning Models (LRMs)",
+                "DeepSeek-R1",
+                "OpenAI o1",
+                "Chain-of-Thought (CoT) reasoning",
+                "reasoning traces",
+                "redundant content",
+                "over-analysis",
+                "superficial exploration",
+                "reasoning efficiency",
+                "token economy",
+                "agent-based systems",
+                "pretraining",
+                "inference",
+                "GitHub repository"
+            ]
+        },
+        "translation_title": "대규모 추론 모델을 위한 효율적인 추론 조사: 언어, 멀티모달리티 및 그 이상",
+        "purpose": "대규모 추론 모델에서 추론 효율성을 향상시키기 위한 연구 동향과 과제를 종합적으로 제시하기",
+        "method": [
+            "대규모 추론 모델의 카우앨 오브 마인드(Chain-of-Thought) 추론의 비효율성을 분석하고 문제를 확인함(However, a growing concern lies in their tendency to produce excessively long reasoning traces, which are often filled with redundant content.)",
+            "대규모 추론 모델 생애 주기 전반에 걸쳐 제안된 다양한 방법을 검토함(we examine methods proposed across the LRM lifecycle, i.e., from pretraining to inference.)",
+            "효율성 향상을 위한 과제를 확인하고 향후 연구 방향에 대해 논의함(We identify common patterns of inefficiency, examine methods proposed across the LRM lifecycle, and discuss promising future directions for research.)"
+        ],
+        "conclusion": "이 조사는 대규모 추론 모델의 효율성을 향상시키기 위한 기초 자료를 제공하며, 이 분야의 혁신을 촉진하는 데 기여할 것으로 기대됨.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.21332",
+            "authors": [
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a179",
+                    "user": {
+                        "_id": "65642d7401de72cb63165d22",
+                        "avatarUrl": "/avatars/1f4417c4ac5e781ce73eae1060e3f7f2.svg",
+                        "isPro": true,
+                        "fullname": "ytaewon",
+                        "user": "hamzzi",
+                        "type": "user"
+                    },
+                    "name": "Taewon Yun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-03-28T08:36:56.604Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17a",
+                    "name": "Jihwan Oh",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17b",
+                    "user": {
+                        "_id": "6510c8ebf26dbb8827ee5e80",
+                        "avatarUrl": "/avatars/cc49a2f176c951007006e0dae331bc50.svg",
+                        "isPro": false,
+                        "fullname": "Hyangsuk Min",
+                        "user": "hyang0503",
+                        "type": "user"
+                    },
+                    "name": "Hyangsuk Min",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T10:01:07.989Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17c",
+                    "user": {
+                        "_id": "63f6eec4c96958470d207698",
+                        "avatarUrl": "/avatars/7fba5e561b809a1623bf2228435f1aad.svg",
+                        "isPro": false,
+                        "fullname": "Yuho Lee",
+                        "user": "Myyhlee",
+                        "type": "user"
+                    },
+                    "name": "Yuho Lee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T10:01:13.949Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17d",
+                    "user": {
+                        "_id": "644938d43def32791088b762",
+                        "avatarUrl": "/avatars/1f17916b92ef13452151175cb8cafdf9.svg",
+                        "isPro": false,
+                        "fullname": "Jihwan Bang",
+                        "user": "hwany-j",
+                        "type": "user"
+                    },
+                    "name": "Jihwan Bang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T10:01:20.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17e",
+                    "user": {
+                        "_id": "6463c26aa5af935cfe70f08d",
+                        "avatarUrl": "/avatars/33b1210098891db54f57d1344b5110fb.svg",
+                        "isPro": false,
+                        "fullname": "Jinglun (Jason) Cai",
+                        "user": "jasoncai",
+                        "type": "user"
+                    },
+                    "name": "Jason Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-03-31T10:01:43.066Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67e623f10aaa5e9f7cf8a17f",
+                    "name": "Hwanjun Song",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-27T10:11:41.000Z",
+            "submittedOnDailyAt": "2025-03-31T05:50:46.001Z",
+            "title": "ReFeed: Multi-dimensional Summarization Refinement with Reflective\n  Reasoning on Feedback",
+            "submittedOnDailyBy": {
+                "_id": "65642d7401de72cb63165d22",
+                "avatarUrl": "/avatars/1f4417c4ac5e781ce73eae1060e3f7f2.svg",
+                "isPro": true,
+                "fullname": "ytaewon",
+                "user": "hamzzi",
+                "type": "user"
+            },
+            "summary": "Summarization refinement faces challenges when extending to multi-dimension.\nIn this paper, we introduce ReFeed, a powerful summarization refinement\npipeline that enhances multiple dimensions through reflective reasoning on\nfeedback. To achieve this, we release SumFeed-CoT, a large-scale Long-CoT-based\ndataset optimized for training a lightweight model with reflective reasoning.\nOur experiments reveal how the number of dimensions, feedback exposure, and\nreasoning policy influence refinement performance, highlighting reflective\nreasoning and simultaneously addressing multiple feedback is crucial to\nmitigate trade-off between dimensions. Furthermore, ReFeed is robust to noisy\nfeedback and feedback order. Lastly, our finding emphasizes that creating data\nwith a proper goal and guideline constitutes a fundamental pillar of effective\nreasoning. The dataset and model will be released.",
+            "upvotes": 17,
+            "discussionId": "67e623f20aaa5e9f7cf8a1dc",
+            "ai_keywords": [
+                "Long-CoT-based dataset",
+                "reflective reasoning",
+                "refinement performance",
+                "ReFeed",
+                "SumFeed-CoT"
+            ]
+        },
+        "translation_title": "ReFeed: 피드백에 대한 반영적 사고를 통한 다차원 요약 개선",
+        "purpose": "다차원 요약에서 반영적 사고를 이용해 여러 차원의 성능을 향상시키기 위한 연구",
+        "method": [
+            "SumFeed-CoT이라는 반영적 사고를 위한 대규모 Long-CoT 기반 데이터 세트를 공개함(To achieve this, we release SumFeed-CoT, a large-scale Long-CoT-based dataset optimized for training a lightweight model with reflective reasoning.)",
+            "차원의 수, 피드백 노출, 사고 정책이 요약 성능에 미치는 영향을 실험을 통해 분석함(Our experiments reveal how the number of dimensions, feedback exposure, and reasoning policy influence refinement performance.)",
+            "다수의 피드백을 동시에 처리하는 반영적 사고가 차원 간 트레이드오프를 완화하는 데 중요하다는 점을 강조함(highlighting reflective reasoning and simultaneously addressing multiple feedback is crucial to mitigate trade-off between dimensions.)"
+        ],
+        "conclusion": "ReFeed는 노이즈 피드백과 피드백 순서에도 강건하며, 적절한 목표와 가이드라인으로 데이터 생성이 효과적인 사고의 기본 요소임을 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Summarization",
+            "Multimodal Learning"
+        ]
+    }
+]
