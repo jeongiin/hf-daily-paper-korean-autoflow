@@ -1,0 +1,680 @@
+[
+    {
+        "paper": {
+            "id": "2503.23461",
+            "authors": [
+                {
+                    "_id": "67eb594988a08fae617242f1",
+                    "name": "Nikai Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f2",
+                    "user": {
+                        "_id": "66449e619ff401732687f013",
+                        "avatarUrl": "/avatars/251897d1324a70a9bf761513871c5841.svg",
+                        "isPro": false,
+                        "fullname": "chen",
+                        "user": "zhen-nan",
+                        "type": "user"
+                    },
+                    "name": "Zhennan Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-01T07:46:46.364Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f3",
+                    "user": {
+                        "_id": "637c22183d8e2e9c40c09fcf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669079538761-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhizhou Chen",
+                        "user": "Chenzzzzzz",
+                        "type": "user"
+                    },
+                    "name": "Zhizhou Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:57:44.605Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f4",
+                    "name": "Shan Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f5",
+                    "name": "Xi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f6",
+                    "user": {
+                        "_id": "67593dd0f522f4409e614ba0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67593dd0f522f4409e614ba0/cvb9w_8seu3Kbjg_XAnNj.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiang Zhengkai",
+                        "user": "jzzzzk",
+                        "type": "user"
+                    },
+                    "name": "Zhengkai Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:58:12.614Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f7",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb594988a08fae617242f8",
+                    "user": {
+                        "_id": "65734004769f3ee9bde1af10",
+                        "avatarUrl": "/avatars/d6310ed861972fd691687d8f47413f33.svg",
+                        "isPro": false,
+                        "fullname": "Ying Tai",
+                        "user": "yingtai",
+                        "type": "user"
+                    },
+                    "name": "Ying Tai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-01T07:46:44.350Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-30T14:36:55.000Z",
+            "submittedOnDailyAt": "2025-04-01T01:44:26.275Z",
+            "title": "TextCrafter: Accurately Rendering Multiple Texts in Complex Visual\n  Scenes",
+            "submittedOnDailyBy": {
+                "_id": "66449e619ff401732687f013",
+                "avatarUrl": "/avatars/251897d1324a70a9bf761513871c5841.svg",
+                "isPro": false,
+                "fullname": "chen",
+                "user": "zhen-nan",
+                "type": "user"
+            },
+            "summary": "This paper explores the task of Complex Visual Text Generation (CVTG), which\ncenters on generating intricate textual content distributed across diverse\nregions within visual images. In CVTG, image generation models often rendering\ndistorted and blurred visual text or missing some visual text. To tackle these\nchallenges, we propose TextCrafter, a novel multi-visual text rendering method.\nTextCrafter employs a progressive strategy to decompose complex visual text\ninto distinct components while ensuring robust alignment between textual\ncontent and its visual carrier. Additionally, it incorporates a token focus\nenhancement mechanism to amplify the prominence of visual text during the\ngeneration process. TextCrafter effectively addresses key challenges in CVTG\ntasks, such as text confusion, omissions, and blurriness. Moreover, we present\na new benchmark dataset, CVTG-2K, tailored to rigorously evaluate the\nperformance of generative models on CVTG tasks. Extensive experiments\ndemonstrate that our method surpasses state-of-the-art approaches.",
+            "upvotes": 57,
+            "discussionId": "67eb594b88a08fae617243ac",
+            "projectPage": "https://dnknju.github.io/textcrafter-vue/",
+            "githubRepo": "https://github.com/NJU-PCALab/TextCrafter",
+            "ai_keywords": [
+                "complex visual text",
+                "TextCrafter",
+                "multi-visual text rendering",
+                "progressive strategy",
+                "token focus enhancement",
+                "CVTG-2K",
+                "generative models",
+                "CVTG tasks",
+                "state-of-the-art approaches"
+            ]
+        },
+        "translation_title": "TextCrafter: 복잡한 비주얼 장면에서 여러 텍스트를 정확하게 렌더링하기",
+        "purpose": "Complex Visual Text Generation (CVTG)에서 복잡한 텍스트를 이미지의 다양한 영역에 생성하기 위한 연구",
+        "method": [
+            "TextCrafter라는 새로운 다중 비주얼 텍스트 렌더링 방법을 제안함(To tackle these challenges, we propose TextCrafter, a novel multi-visual text rendering method.)",
+            "복잡한 비주얼 텍스트를 별도의 구성 요소로 분해하는 점진적 전략을 사용함(TextCrafter employs a progressive strategy to decompose complex visual text into distinct components.)",
+            "비주얼 텍스트의 가시성을 증대시키기 위해 토큰 집중 강화 메커니즘을 통합함(It incorporates a token focus enhancement mechanism to amplify the prominence of visual text during the generation process.)",
+            "CVTG 작업을 평가하기 위한 새로운 벤치마크 데이터셋인 CVTG-2K를 제시함(Moreover, we present a new benchmark dataset, CVTG-2K, tailored to rigorously evaluate the performance of generative models on CVTG tasks.)"
+        ],
+        "conclusion": "TextCrafter는 CVTG 작업의 주요 과제인 텍스트 혼란, 누락 및 흐림을 효과적으로 해결하며, 기존의 최첨단 접근 방식을 초월하는 성과를 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Text Generation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.23307",
+            "authors": [
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343a",
+                    "user": {
+                        "_id": "64f8e358766ff9f3d2b0de84",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f8e358766ff9f3d2b0de84/R2P1YG-mRBh7TU9wkjGGk.jpeg",
+                        "isPro": true,
+                        "fullname": "Cong Wei",
+                        "user": "lim142857",
+                        "type": "user"
+                    },
+                    "name": "Cong Wei",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-01T07:47:21.554Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343b",
+                    "name": "Bo Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343c",
+                    "user": {
+                        "_id": "650a8979c19e5b4c8a6ff062",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/650a8979c19e5b4c8a6ff062/64_JuECX_k_-uK7m7nlua.jpeg",
+                        "isPro": false,
+                        "fullname": "Haoyu Ma",
+                        "user": "haoyum1997",
+                        "type": "user"
+                    },
+                    "name": "Haoyu Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:54:47.847Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343d",
+                    "name": "Ji Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343e",
+                    "user": {
+                        "_id": "6444e8911cfc9ae6bb3ad216",
+                        "avatarUrl": "/avatars/8c06e064cf24789e4131f7af06dac86b.svg",
+                        "isPro": false,
+                        "fullname": "Xu",
+                        "user": "FelixXu",
+                        "type": "user"
+                    },
+                    "name": "Felix Juefei-Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:55:03.326Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb343f",
+                    "name": "Zecheng He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3440",
+                    "user": {
+                        "_id": "6549417b3ce45eb764faf993",
+                        "avatarUrl": "/avatars/d310f475d0697f5f13b3d4141ea0ccaf.svg",
+                        "isPro": false,
+                        "fullname": "Xiaoliang Dai",
+                        "user": "daixl1992",
+                        "type": "user"
+                    },
+                    "name": "Xiaoliang Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:54:01.490Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3441",
+                    "user": {
+                        "_id": "65a4fa7d2548c41ad9d9b710",
+                        "avatarUrl": "/avatars/3cace2d2f11f7194d8eca4b95b0b57cc.svg",
+                        "isPro": false,
+                        "fullname": "Luxin Zhang",
+                        "user": "Luczzz",
+                        "type": "user"
+                    },
+                    "name": "Luxin Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:53:55.152Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3442",
+                    "name": "Kunpeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3443",
+                    "user": {
+                        "_id": "655846d7ed8df83128f5826a",
+                        "avatarUrl": "/avatars/d7ce174d7d1b8614d5f6f071225c0057.svg",
+                        "isPro": false,
+                        "fullname": "Hou",
+                        "user": "Tingbo",
+                        "type": "user"
+                    },
+                    "name": "Tingbo Hou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:53:10.214Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3444",
+                    "name": "Animesh Sinha",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3445",
+                    "name": "Peter Vajda",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb4bd0eca57c4eebbb3446",
+                    "user": {
+                        "_id": "6313a86154e6e5d9f0f94e04",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662232951344-6313a86154e6e5d9f0f94e04.jpeg",
+                        "isPro": false,
+                        "fullname": "Wenhu Chen",
+                        "user": "wenhu",
+                        "type": "user"
+                    },
+                    "name": "Wenhu Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:52:50.248Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-30T04:22:09.000Z",
+            "submittedOnDailyAt": "2025-04-01T00:46:45.446Z",
+            "title": "MoCha: Towards Movie-Grade Talking Character Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "64f8e358766ff9f3d2b0de84",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f8e358766ff9f3d2b0de84/R2P1YG-mRBh7TU9wkjGGk.jpeg",
+                "isPro": true,
+                "fullname": "Cong Wei",
+                "user": "lim142857",
+                "type": "user"
+            },
+            "summary": "Recent advancements in video generation have achieved impressive motion\nrealism, yet they often overlook character-driven storytelling, a crucial task\nfor automated film, animation generation. We introduce Talking Characters, a\nmore realistic task to generate talking character animations directly from\nspeech and text. Unlike talking head, Talking Characters aims at generating the\nfull portrait of one or more characters beyond the facial region. In this\npaper, we propose MoCha, the first of its kind to generate talking characters.\nTo ensure precise synchronization between video and speech, we propose a\nspeech-video window attention mechanism that effectively aligns speech and\nvideo tokens. To address the scarcity of large-scale speech-labeled video\ndatasets, we introduce a joint training strategy that leverages both\nspeech-labeled and text-labeled video data, significantly improving\ngeneralization across diverse character actions. We also design structured\nprompt templates with character tags, enabling, for the first time,\nmulti-character conversation with turn-based dialogue-allowing AI-generated\ncharacters to engage in context-aware conversations with cinematic coherence.\nExtensive qualitative and quantitative evaluations, including human preference\nstudies and benchmark comparisons, demonstrate that MoCha sets a new standard\nfor AI-generated cinematic storytelling, achieving superior realism,\nexpressiveness, controllability and generalization.",
+            "upvotes": 39,
+            "discussionId": "67eb4bd3eca57c4eebbb34c7",
+            "projectPage": "https://congwei1230.github.io/MoCha/",
+            "ai_keywords": [
+                "speech-video window attention mechanism",
+                "speech-labeled video datasets",
+                "text-labeled video data",
+                "structured prompt templates",
+                "character tags",
+                "multi-character conversation",
+                "turn-based dialogue",
+                "context-aware conversations",
+                "cinematic coherence"
+            ]
+        },
+        "translation_title": "MoCha: 영화급 말하는 캐릭터 합성을 향하여",
+        "purpose": "자동화된 영화 및 애니메이션 생성을 위한 캐릭터 중심 스토리텔링 개선",
+        "method": [
+            "Talking Characters라는 보다 현실적인 작업을 소개하고, 음성과 텍스트에서 직접 말하는 캐릭터 애니메이션을 생성하도록 함(we introduce Talking Characters, a more realistic task to generate talking character animations directly from speech and text.)",
+            "비디오와 음성을 정확하게 동기화하기 위해 speech-video window attention mechanism을 제안함(To ensure precise synchronization between video and speech, we propose a speech-video window attention mechanism that effectively aligns speech and video tokens.)",
+            "대규모 음성 라벨이 있는 비디오 데이터 세트의 부족 문제를 해결하기 위해 공동 학습 전략을 도입함(To address the scarcity of large-scale speech-labeled video datasets, we introduce a joint training strategy that leverages both speech-labeled and text-labeled video data.)"
+        ],
+        "conclusion": "MoCha는 AI-generated 영화 스토리텔링에서 새로운 기준을 세우며, 현실감, 표현력, 제어 가능성 및 일반화에서 우수한 성과를 달성함.",
+        "keywords": [
+            "Video Generation",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.24235",
+            "authors": [
+                {
+                    "_id": "67eb57023475e7b135788500",
+                    "user": {
+                        "_id": "62a42f22c683d02f5b63320c",
+                        "avatarUrl": "/avatars/bc611abe9c4ef8d378123cb8ac9fdbf2.svg",
+                        "isPro": false,
+                        "fullname": "Qiyuan Zhang",
+                        "user": "DonJoey",
+                        "type": "user"
+                    },
+                    "name": "Qiyuan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:57:25.339Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788501",
+                    "user": {
+                        "_id": "65d2bb5c6130ef7be012d235",
+                        "avatarUrl": "/avatars/1c1e3bbb2c683a5c9d1f792a2c13fc4a.svg",
+                        "isPro": false,
+                        "fullname": "Fuyuan Lyu",
+                        "user": "silentspring2",
+                        "type": "user"
+                    },
+                    "name": "Fuyuan Lyu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:56:19.295Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788502",
+                    "user": {
+                        "_id": "65d1b42f3da87ce21e33261a",
+                        "avatarUrl": "/avatars/041cb441fa3871acde4ba565632056bf.svg",
+                        "isPro": false,
+                        "fullname": "RubinSun",
+                        "user": "RubinSun",
+                        "type": "user"
+                    },
+                    "name": "Zexu Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-01T07:46:51.229Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788503",
+                    "user": {
+                        "_id": "646def60df618b303b419323",
+                        "avatarUrl": "/avatars/97aa761d5255abf230304cfeade87835.svg",
+                        "isPro": false,
+                        "fullname": "Lei Wang",
+                        "user": "demolei",
+                        "type": "user"
+                    },
+                    "name": "Lei Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-01T08:01:21.676Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788504",
+                    "user": {
+                        "_id": "63414659c5565a4b8d41bc42",
+                        "avatarUrl": "/avatars/25b4ca3002edf4c35cded0902c26632a.svg",
+                        "isPro": false,
+                        "fullname": "Weixu Zhang",
+                        "user": "nancy-zwx",
+                        "type": "user"
+                    },
+                    "name": "Weixu Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:56:26.532Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788505",
+                    "user": {
+                        "_id": "63c0c2497f52541dfc7d7567",
+                        "avatarUrl": "/avatars/16c174e2803ef86d09815b36a666ee0e.svg",
+                        "isPro": false,
+                        "fullname": "ZhihanGUO",
+                        "user": "ZhihanGUO",
+                        "type": "user"
+                    },
+                    "name": "Zhihan Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:56:31.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788506",
+                    "name": "Yufei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788507",
+                    "name": "Irwin King",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788508",
+                    "name": "Xue Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb57023475e7b135788509",
+                    "name": "Chen Ma",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-31T15:46:15.000Z",
+            "submittedOnDailyAt": "2025-04-01T01:37:27.268Z",
+            "title": "What, How, Where, and How Well? A Survey on Test-Time Scaling in Large\n  Language Models",
+            "submittedOnDailyBy": {
+                "_id": "62a42f22c683d02f5b63320c",
+                "avatarUrl": "/avatars/bc611abe9c4ef8d378123cb8ac9fdbf2.svg",
+                "isPro": false,
+                "fullname": "Qiyuan Zhang",
+                "user": "DonJoey",
+                "type": "user"
+            },
+            "summary": "As enthusiasm for scaling computation (data and parameters) in the\npretraining era gradually diminished, test-time scaling (TTS), also referred to\nas ``test-time computing'' has emerged as a prominent research focus. Recent\nstudies demonstrate that TTS can further elicit the problem-solving\ncapabilities of large language models (LLMs), enabling significant\nbreakthroughs not only in specialized reasoning tasks, such as mathematics and\ncoding, but also in general tasks like open-ended Q&A. However, despite the\nexplosion of recent efforts in this area, there remains an urgent need for a\ncomprehensive survey offering a systemic understanding. To fill this gap, we\npropose a unified, multidimensional framework structured along four core\ndimensions of TTS research: what to scale, how to scale, where to scale, and\nhow well to scale. Building upon this taxonomy, we conduct an extensive review\nof methods, application scenarios, and assessment aspects, and present an\norganized decomposition that highlights the unique functional roles of\nindividual techniques within the broader TTS landscape. From this analysis, we\ndistill the major developmental trajectories of TTS to date and offer hands-on\nguidelines for practical deployment. Furthermore, we identify several open\nchallenges and offer insights into promising future directions, including\nfurther scaling, clarifying the functional essence of techniques, generalizing\nto more tasks, and more attributions.",
+            "upvotes": 32,
+            "discussionId": "67eb57053475e7b135788624",
+            "ai_keywords": [
+                "test-time scaling",
+                "test-time computing",
+                "large language models",
+                "specialized reasoning tasks",
+                "open-ended Q&A",
+                "multidimensional framework",
+                "what to scale",
+                "how to scale",
+                "where to scale",
+                "how well to scale",
+                "assessment aspects",
+                "functional roles",
+                "developmental trajectories",
+                "practical deployment",
+                "open challenges",
+                "attributions"
+            ]
+        },
+        "translation_title": "무엇, 어떻게, 어디서, 얼마나 잘? 대형 언어 모델의 테스트 시점 스케일링 설문조사",
+        "purpose": "대형 언어 모델의 테스트 시점 스케일링(TTS)에 대한 체계적인 이해 제공",
+        "method": [
+            "TTS 연구의 네 가지 핵심 차원(무엇을 스케일할지, 어떻게 스케일할지, 어디서 스케일할지, 얼마나 잘 스케일할지)을 기반으로 하는 통합된 다차원 프레임워크를 제안함(To fill this gap, we propose a unified, multidimensional framework structured along four core dimensions of TTS research: what to scale, how to scale, where to scale, and how well to scale.)",
+            "방법, 적용 시나리오 및 평가 측면에 대한 광범위한 리뷰를 수행함(we conduct an extensive review of methods, application scenarios, and assessment aspects.)",
+            "TTS의 주요 발전 경로를 정리하고 실질적인 구현에 대한 가이드를 제공함(From this analysis, we distill the major developmental trajectories of TTS to date and offer hands-on guidelines for practical deployment.)"
+        ],
+        "conclusion": "이 연구를 통해 TTS의 다양한 기술과 그 기능적 역할을 이해하며, 향후 발전 방향과 도전 과제를 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.24290",
+            "authors": [
+                {
+                    "_id": "67eb762381e530baa56dc830",
+                    "user": {
+                        "_id": "625026b7d2d191ac43320c5e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/625026b7d2d191ac43320c5e/2ExzHlZ-Bk8SQMyBjeY6N.jpeg",
+                        "isPro": false,
+                        "fullname": "Jingcheng Hu",
+                        "user": "reign12",
+                        "type": "user"
+                    },
+                    "name": "Jingcheng Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T08:09:02.123Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb762381e530baa56dc831",
+                    "user": {
+                        "_id": "664ae39ab5e5f95dc6209365",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/664ae39ab5e5f95dc6209365/8Z9ERYhX6URXh4si6jWGm.jpeg",
+                        "isPro": false,
+                        "fullname": "Yinmin Zhang",
+                        "user": "YinminZhang",
+                        "type": "user"
+                    },
+                    "name": "Yinmin Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T08:09:09.884Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb762381e530baa56dc832",
+                    "name": "Qi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb762381e530baa56dc833",
+                    "user": {
+                        "_id": "60d4440fe648443279aaffd8",
+                        "avatarUrl": "/avatars/bf7209c1f14ae120f5bfda5fda1301b7.svg",
+                        "isPro": false,
+                        "fullname": "Daxin Jiang",
+                        "user": "djiang",
+                        "type": "user"
+                    },
+                    "name": "Daxin Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T08:09:22.914Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb762381e530baa56dc834",
+                    "name": "Xiangyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb762381e530baa56dc835",
+                    "name": "Heung-Yeung Shum",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-31T16:36:05.000Z",
+            "submittedOnDailyAt": "2025-04-01T03:44:53.609Z",
+            "title": "Open-Reasoner-Zero: An Open Source Approach to Scaling Up Reinforcement\n  Learning on the Base Model",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": false,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "We introduce Open-Reasoner-Zero, the first open source implementation of\nlarge-scale reasoning-oriented RL training focusing on scalability, simplicity\nand accessibility. Through extensive experiments, we demonstrate that a\nminimalist approach, vanilla PPO with GAE (lambda=1, gamma=1) and\nstraightforward rule-based rewards, without any KL regularization, is\nsufficient to scale up both response length and benchmark performance, similar\nto the phenomenon observed in DeepSeek-R1-Zero. Using the same base model as\nDeepSeek-R1-Zero-Qwen-32B, our implementation achieves superior performance on\nAIME2024, MATH500, and the GPQA Diamond benchmark while demonstrating\nremarkable efficiency -- requiring only a tenth of the training steps, compared\nto DeepSeek-R1-Zero pipeline. In the spirit of open source, we release our\nsource code, parameter settings, training data, and model weights across\nvarious sizes.",
+            "upvotes": 27,
+            "discussionId": "67eb762481e530baa56dc872",
+            "projectPage": "https://huggingface.co/Open-Reasoner-Zero",
+            "githubRepo": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+            "ai_keywords": [
+                "Reinforcement Learning (RL)",
+                "vanilla PPO",
+                "GAE ($\\lambda=1$, $\\gamma=1$)",
+                "rule-based rewards",
+                "KL regularization",
+                "response length",
+                "benchmark performance",
+                "AIME2024",
+                "MATH500",
+                "GPQA Diamond benchmark",
+                "training steps"
+            ]
+        },
+        "translation_title": "Open-Reasoner-Zero: 강화 학습 모델 확장을 위한 오픈 소스 접근법",
+        "purpose": "대규모 추론 지향 강화 학습(RL)의 확장성을 높이고 접근성을 개선하기 위한 오픈 소스 구현 연구",
+        "method": [
+            "간소한 접근 방식을 통해 Vanilla PPO와 GAE를 사용하여 규칙 기반 리워드를 적용함(Through extensive experiments, we demonstrate that a minimalist approach, vanilla PPO with GAE (lambda=1, gamma=1) and straightforward rule-based rewards...)",
+            "기본 모델인 DeepSeek-R1-Zero-Qwen-32B를 사용하여 여러 벤치마크에서 우수한 성능을 달성함(Using the same base model as DeepSeek-R1-Zero-Qwen-32B, our implementation achieves superior performance on AIME2024, MATH500, and the GPQA Diamond benchmark...)"
+        ],
+        "conclusion": "Open-Reasoner-Zero는 매우 효율적이며, DeepSeek-R1-Zero 파이프라인에 비해 훈련 단계를 10분의 1로 줄이며 성능을 달성함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Open Source",
+            "Scalability"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2503.24388",
+            "authors": [
+                {
+                    "_id": "67eb544113ca8dcb9ccb991b",
+                    "name": "Zhonghan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb991c",
+                    "user": {
+                        "_id": "64e8505321540e1da3226b54",
+                        "avatarUrl": "/avatars/18958b8406d1ce492b54c1c839f18c54.svg",
+                        "isPro": false,
+                        "fullname": "Wenwei Zhang",
+                        "user": "ZwwWayne",
+                        "type": "user"
+                    },
+                    "name": "Wenwei Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:59:04.743Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb991d",
+                    "name": "Haian Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb991e",
+                    "name": "Kuikun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb991f",
+                    "user": {
+                        "_id": "64070c5c4dc5f2846c925e93",
+                        "avatarUrl": "/avatars/ac2d7c1cd4ecccd6a88b85767c963ec7.svg",
+                        "isPro": false,
+                        "fullname": "Gao Jianfei",
+                        "user": "pppppM",
+                        "type": "user"
+                    },
+                    "name": "Jianfei Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:59:34.182Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb9920",
+                    "user": {
+                        "_id": "64c9033c5381684d3eaac7f1",
+                        "avatarUrl": "/avatars/07d36ca193826044b0df04e3602b9ef8.svg",
+                        "isPro": false,
+                        "fullname": "Gaoang Wang",
+                        "user": "GaoangWang",
+                        "type": "user"
+                    },
+                    "name": "Gaoang Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-01T07:59:40.156Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67eb544113ca8dcb9ccb9921",
+                    "name": "Kai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-03-31T17:59:52.000Z",
+            "submittedOnDailyAt": "2025-04-01T01:27:12.837Z",
+            "title": "RIG: Synergizing Reasoning and Imagination in End-to-End Generalist\n  Policy",
+            "submittedOnDailyBy": {
+                "_id": "6601196cc91ba4c08ad6e270",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6601196cc91ba4c08ad6e270/X2YPNzUOQXBz5Gv-xR9LW.jpeg",
+                "isPro": false,
+                "fullname": "yuzhe gu",
+                "user": "vanilla1116",
+                "type": "user"
+            },
+            "summary": "Reasoning before action and imagining potential outcomes (i.e., world models)\nare essential for embodied agents operating in complex open-world environments.\nYet, prior work either incorporates only one of these abilities in an\nend-to-end agent or integrates multiple specialized models into an agent\nsystem, limiting the learning efficiency and generalization of the policy.\nThus, this paper makes the first attempt to synergize Reasoning and Imagination\nin an end-to-end Generalist policy, termed RIG. To train RIG in an end-to-end\nmanner, we construct a data pipeline that progressively integrates and enriches\nthe content of imagination and reasoning in the trajectories collected from\nexisting agents. The joint learning of reasoning and next image generation\nexplicitly models the inherent correlation between reasoning, action, and\ndynamics of environments, and thus exhibits more than 17times sample\nefficiency improvements and generalization in comparison with previous works.\nDuring inference, RIG first reasons about the next action, produces potential\naction, and then predicts the action outcomes, which offers the agent a chance\nto review and self-correct based on the imagination before taking real actions.\nExperimental results show that the synergy of reasoning and imagination not\nonly improves the robustness, generalization, and interoperability of\ngeneralist policy but also enables test-time scaling to enhance overall\nperformance.",
+            "upvotes": 21,
+            "discussionId": "67eb544213ca8dcb9ccb9963"
+        },
+        "translation_title": "RIG: 종합적 정책에서 추론과 상상의 시너지를 이루다",
+        "purpose": "복잡한 오픈 월드 환경에서 작동하는 에이전트를 위한 추론과 상상의 융합을 통해 학습 효율성과 일반화를 개선하려는 목표",
+        "method": [
+            "기존 에이전트에서 수집된 궤적의 내용을 점진적으로 통합하고 풍부하게 하는 데이터 파이프라인을 구축함(we construct a data pipeline that progressively integrates and enriches the content of imagination and reasoning in the trajectories collected from existing agents.)",
+            "추론과 다음 이미지 생성을 공동으로 학습하여 환경의 동적 특성과 행동 간의 상관관계를 모델링함(the joint learning of reasoning and next image generation explicitly models the inherent correlation between reasoning, action, and dynamics of environments.)",
+            "RIG는 먼저 다음 행동에 대해 추론하고, 잠재적인 행동을 생성한 후 행동 결과를 예측함(During inference, RIG first reasons about the next action, produces potential action, and then predicts the action outcomes.)"
+        ],
+        "conclusion": "추론과 상상의 시너지가 일반 정책의 견고성, 일반화 및 상호 운용성을 개선하고 전체 성능을 향상시키는 것을 가능하게 함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Robotics"
+        ]
+    }
+]
