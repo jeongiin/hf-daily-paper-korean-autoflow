@@ -1,0 +1,519 @@
+[
+    {
+        "paper": {
+            "id": "2504.02605",
+            "authors": [
+                {
+                    "_id": "67ef4d92c1e251f239495a13",
+                    "name": "Daoguang Zan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a14",
+                    "name": "Zhirong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a15",
+                    "name": "Wei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a16",
+                    "name": "Hanwu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a17",
+                    "name": "Linhao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a18",
+                    "name": "Shulin Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a19",
+                    "name": "Lu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1a",
+                    "name": "Qi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1b",
+                    "name": "Xiaojian Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1c",
+                    "name": "Aoyan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1d",
+                    "name": "Siyao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1e",
+                    "name": "Yongsheng Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a1f",
+                    "name": "Liangqiang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a20",
+                    "name": "Yuyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a21",
+                    "name": "Jing Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a22",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a23",
+                    "name": "Rui Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a24",
+                    "name": "Kai Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ef4d92c1e251f239495a25",
+                    "name": "Liang Xiang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/61527edf8b55dbdae72874fa/PS_Q49kWYAB6DdJy5YY9k.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/61527edf8b55dbdae72874fa/GhnnOocFnA-YN2oyeNjPB.png"
+            ],
+            "publishedAt": "2025-04-03T14:06:17.000Z",
+            "submittedOnDailyAt": "2025-04-07T02:30:50.286Z",
+            "title": "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving",
+            "submittedOnDailyBy": {
+                "_id": "61527edf8b55dbdae72874fa",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61527edf8b55dbdae72874fa/ZGWSBf_KSrDof6WyMoDMU.jpeg",
+                "isPro": false,
+                "fullname": "Daoguang Zan",
+                "user": "Daoguang",
+                "type": "user"
+            },
+            "summary": "The task of issue resolving is to modify a codebase to generate a patch that\naddresses a given issue. However, existing benchmarks, such as SWE-bench, focus\nalmost exclusively on Python, making them insufficient for evaluating Large\nLanguage Models (LLMs) across diverse software ecosystems. To address this, we\nintroduce a multilingual issue-resolving benchmark, called Multi-SWE-bench,\ncovering Java, TypeScript, JavaScript, Go, Rust, C, and C++. It includes a\ntotal of 1,632 high-quality instances, which were carefully annotated from\n2,456 candidates by 68 expert annotators, ensuring that the benchmark can\nprovide an accurate and reliable evaluation. Based on Multi-SWE-bench, we\nevaluate a series of state-of-the-art models using three representative methods\n(Agentless, SWE-agent, and OpenHands) and present a comprehensive analysis with\nkey empirical insights. In addition, we launch a Multi-SWE-RL open-source\ncommunity, aimed at building large-scale reinforcement learning (RL) training\ndatasets for issue-resolving tasks. As an initial contribution, we release a\nset of 4,723 well-structured instances spanning seven programming languages,\nlaying a solid foundation for RL research in this domain. More importantly, we\nopen-source our entire data production pipeline, along with detailed tutorials,\nencouraging the open-source community to continuously contribute and expand the\ndataset. We envision our Multi-SWE-bench and the ever-growing Multi-SWE-RL\ncommunity as catalysts for advancing RL toward its full potential, bringing us\none step closer to the dawn of AGI.",
+            "upvotes": 28,
+            "discussionId": "67ef4d93c1e251f239495a9b",
+            "projectPage": "https://multi-swe-bench.github.io",
+            "githubRepo": "https://github.com/multi-swe-bench/multi-swe-bench",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "Multi-SWE-bench",
+                "Agentless",
+                "SWE-agent",
+                "OpenHands",
+                "Multi-SWE-RL",
+                "reinforcement learning (RL)",
+                "AGI"
+            ]
+        },
+        "translation_title": "Multi-SWE-bench: 다국어 이슈 해결을 위한 벤치마크",
+        "purpose": "다양한 소프트웨어 생태계에서 Large Language Models(LLMs)의 성능을 평가하기 위해 다국어 이슈 해결 벤치마크 개발.",
+        "method": [
+            "Java, TypeScript, JavaScript, Go, Rust, C, C++를 포함하는 다국어 이슈 해결 벤치마크인 Multi-SWE-bench를 소개함(To address this, we introduce a multilingual issue-resolving benchmark, called Multi-SWE-bench, covering Java, TypeScript, JavaScript, Go, Rust, C, and C++.)",
+            "총 1,632개의 고품질 사례를 전문가가 신중하게 주석을 달아 포함시킴(It includes a total of 1,632 high-quality instances, which were carefully annotated from 2,456 candidates by 68 expert annotators, ensuring that the benchmark can provide an accurate and reliable evaluation.)",
+            "세 가지 대표적인 방법(Agentless, SWE-agent, OpenHands)을 사용해 최신 모델을 평가하고 포괄적인 분석을 제공함(Based on Multi-SWE-bench, we evaluate a series of state-of-the-art models using three representative methods (Agentless, SWE-agent, and OpenHands) and present a comprehensive analysis with key empirical insights.)"
+        ],
+        "conclusion": "Multi-SWE-bench와 Multi-SWE-RL 커뮤니티는 RL 연구의 기초를 마련하고 AGI 발전에 기여할 것으로 기대됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.03553",
+            "authors": [
+                {
+                    "_id": "67f345c983edbd64f15deeb3",
+                    "name": "Shuofei Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb4",
+                    "name": "Zhisong Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb5",
+                    "name": "Baochang Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb6",
+                    "name": "Xiaobin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb7",
+                    "name": "Xiangyuan Ru",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb8",
+                    "name": "Ningyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeb9",
+                    "name": "Xiang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deeba",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deebb",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deebc",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f345c983edbd64f15deebd",
+                    "name": "Huajun Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-04T16:03:38.000Z",
+            "submittedOnDailyAt": "2025-04-07T02:45:21.106Z",
+            "title": "Agentic Knowledgeable Self-awareness",
+            "submittedOnDailyBy": {
+                "_id": "620b3bbb0668e435407c8d0a",
+                "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                "isPro": false,
+                "fullname": "Ningyu Zhang",
+                "user": "Ningyu",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have achieved considerable performance across\nvarious agentic planning tasks. However, traditional agent planning approaches\nadopt a \"flood irrigation\" methodology that indiscriminately injects gold\ntrajectories, external feedback, and domain knowledge into agent models. This\npractice overlooks the fundamental human cognitive principle of situational\nself-awareness during decision-making-the ability to dynamically assess\nsituational demands and strategically employ resources during decision-making.\nWe propose agentic knowledgeable self-awareness to address this gap, a novel\nparadigm enabling LLM-based agents to autonomously regulate knowledge\nutilization. Specifically, we propose KnowSelf, a data-centric approach that\napplies agents with knowledgeable self-awareness like humans. Concretely, we\ndevise a heuristic situation judgement criterion to mark special tokens on the\nagent's self-explored trajectories for collecting training data. Through a\ntwo-stage training process, the agent model can switch between different\nsituations by generating specific special tokens, achieving optimal planning\neffects with minimal costs. Our experiments demonstrate that KnowSelf can\noutperform various strong baselines on different tasks and models with minimal\nuse of external knowledge. Code is available at\nhttps://github.com/zjunlp/KnowSelf.",
+            "upvotes": 17,
+            "discussionId": "67f345cd83edbd64f15def73",
+            "githubRepo": "https://github.com/zjunlp/KnowSelf",
+            "ai_keywords": [
+                "agentic planning",
+                "flood irrigation methodology",
+                "gold trajectories",
+                "external feedback",
+                "domain knowledge",
+                "self-awareness",
+                "decision-making",
+                "agentic knowledgeable self-awareness",
+                "KnowSelf",
+                "data-centric approach",
+                "situation judgement criterion",
+                "special tokens",
+                "two-stage training process",
+                "trajectory-based training"
+            ]
+        },
+        "translation_title": "주체적 지식 자기 인식",
+        "purpose": "LLM 기반 에이전트가 자원을 전략적으로 활용할 수 있도록 자율적으로 지식 활용을 조절하는 시스템 개발",
+        "method": [
+            "우리는 에이전트가 인간처럼 지식 있는 자기 인식을 갖도록 하는 데이터 중심 접근 방식인 KnowSelf를 제안함(we propose KnowSelf, a data-centric approach that applies agents with knowledgeable self-awareness like humans.)",
+            "에이전트의 자기 탐색 경로에서 훈련 데이터를 수집하기 위해 특별한 토큰을 표시하는 휴리스틱 상황 판단 기준을 고안함(we devise a heuristic situation judgement criterion to mark special tokens on the agent's self-explored trajectories for collecting training data.)",
+            "두 단계의 훈련 과정을 통해 에이전트 모델이 특정한 특별 토큰을 생성하여 다양한 상황 간에 전환할 수 있도록 함(Through a two-stage training process, the agent model can switch between different situations by generating specific special tokens.)"
+        ],
+        "conclusion": "KnowSelf는 외부 지식의 최소한을 사용해도 다양한 작업과 모델에서 여러 강력한 기준을 능가할 수 있음을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.02807",
+            "authors": [
+                {
+                    "_id": "67efe6e839d83c66f96ef051",
+                    "name": "Fan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef052",
+                    "name": "Zengzhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef053",
+                    "name": "Nikhil Ranjan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef054",
+                    "name": "Zhoujun Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef055",
+                    "name": "Liping Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef056",
+                    "name": "Guowei He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef057",
+                    "name": "Zhengzhong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67efe6e839d83c66f96ef058",
+                    "name": "Eric P. Xing",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/628f6e5ab90dde28ef57d293/WNxrlIEMuRO6z1IF5op1-.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/628f6e5ab90dde28ef57d293/VRjSgFv994luajXWJ42V7.png"
+            ],
+            "publishedAt": "2025-04-03T17:52:07.000Z",
+            "submittedOnDailyAt": "2025-04-07T09:34:49.638Z",
+            "title": "MegaMath: Pushing the Limits of Open Math Corpora",
+            "submittedOnDailyBy": {
+                "_id": "628f6e5ab90dde28ef57d293",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/628f6e5ab90dde28ef57d293/AxNzR2nvrND6Rf3RPkYMk.jpeg",
+                "isPro": false,
+                "fullname": "Fan Zhou",
+                "user": "koalazf99",
+                "type": "user"
+            },
+            "summary": "Mathematical reasoning is a cornerstone of human intelligence and a key\nbenchmark for advanced capabilities in large language models (LLMs). However,\nthe research community still lacks an open, large-scale, high-quality corpus\ntailored to the demands of math-centric LLM pre-training. We present MegaMath,\nan open dataset curated from diverse, math-focused sources through following\npractices: (1) Revisiting web data: We re-extracted mathematical documents from\nCommon Crawl with math-oriented HTML optimizations, fasttext-based filtering\nand deduplication, all for acquiring higher-quality data on the Internet. (2)\nRecalling Math-related code data: We identified high quality math-related code\nfrom large code training corpus, Stack-V2, further enhancing data diversity.\n(3) Exploring Synthetic data: We synthesized QA-style text, math-related code,\nand interleaved text-code blocks from web data or code data. By integrating\nthese strategies and validating their effectiveness through extensive\nablations, MegaMath delivers 371B tokens with the largest quantity and top\nquality among existing open math pre-training datasets.",
+            "upvotes": 16,
+            "discussionId": "67efe6e939d83c66f96ef08d",
+            "projectPage": "https://huggingface.co/datasets/LLM360/MegaMath",
+            "githubRepo": "https://github.com/LLM360/MegaMath",
+            "ai_keywords": [
+                "mathematical documents",
+                "Common Crawl",
+                "math-oriented HTML optimizations",
+                "fasttext-based filtering",
+                "deduplication",
+                "high quality math-related code",
+                "Stack-V2",
+                "QA-style text",
+                "interleaved text-code blocks",
+                "math pre-training datasets"
+            ]
+        },
+        "translation_title": "MegaMath: 공개 수학 코퍼스의 한계를 넘어서는 연구",
+        "purpose": "수학 중심의 LLM 사전 훈련을 위한 공개 고품질 코퍼스 필요를 충족하기 위해 연구",
+        "method": [
+            "Common Crawl로부터 수학 문서를 재추출하고 HTML 최적화 및 중복 제거 과정을 통해 고품질 데이터를 수집함.(We re-extracted mathematical documents from Common Crawl with math-oriented HTML optimizations, fasttext-based filtering and deduplication, all for acquiring higher-quality data on the Internet.)",
+            "대형 코드 훈련 코퍼스인 Stack-V2에서 수학 관련 고품질 코드를 식별하여 데이터 다양성을 높임.(We identified high quality math-related code from large code training corpus, Stack-V2, further enhancing data diversity.)",
+            "웹 데이터 또는 코드 데이터로부터 QA 스타일 텍스트와 수학 관련 코드를 합성하여 데이터 생성함.(We synthesized QA-style text, math-related code, and interleaved text-code blocks from web data or code data.)"
+        ],
+        "conclusion": "MegaMath는 기존의 공개 수학 사전 훈련 데이터 세트 중 가장 큰 규모와 높은 품질을 제공하며, 수학 중심 LLM 훈련에 유용한 자원으로 자리잡을 것입니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Open Dataset"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.03561",
+            "authors": [
+                {
+                    "_id": "67f351f068751b2bb84cc751",
+                    "name": "Runnan Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc752",
+                    "name": "Xiaobin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc753",
+                    "name": "Yuan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc754",
+                    "name": "Shuofei Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc755",
+                    "name": "Jialong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc756",
+                    "name": "Zekun Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc757",
+                    "name": "Ningyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc758",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc759",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc75a",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f351f068751b2bb84cc75b",
+                    "name": "Huajun Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-04T16:10:57.000Z",
+            "submittedOnDailyAt": "2025-04-07T02:48:19.567Z",
+            "title": "SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge\n  Refinement",
+            "submittedOnDailyBy": {
+                "_id": "620b3bbb0668e435407c8d0a",
+                "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                "isPro": false,
+                "fullname": "Ningyu Zhang",
+                "user": "Ningyu",
+                "type": "user"
+            },
+            "summary": "In the interaction between agents and their environments, agents expand their\ncapabilities by planning and executing actions. However, LLM-based agents face\nsubstantial challenges when deployed in novel environments or required to\nnavigate unconventional action spaces. To empower agents to autonomously\nexplore environments, optimize workflows, and enhance their understanding of\nactions, we propose SynWorld, a framework that allows agents to synthesize\npossible scenarios with multi-step action invocation within the action space\nand perform Monte Carlo Tree Search (MCTS) exploration to effectively refine\ntheir action knowledge in the current environment. Our experiments demonstrate\nthat SynWorld is an effective and general approach to learning action knowledge\nin new environments. Code is available at https://github.com/zjunlp/SynWorld.",
+            "upvotes": 12,
+            "discussionId": "67f351f168751b2bb84cc789",
+            "ai_keywords": [
+                "LLM-based agents",
+                "multi-step action invocation",
+                "Monte Carlo Tree Search (MCTS)"
+            ]
+        },
+        "translation_title": "SynWorld: 에이전트 행동 지식에 대한 가상 시나리오 합성",
+        "purpose": "에이전트가 새로운 환경에서 자율적으로 탐색하고 행동 지식을 향상시킬 수 있도록 하는 것",
+        "method": [
+            "SynWorld 프레임워크를 통해 에이전트가 여러 단계의 행동을 통합하여 가능한 시나리오를 합성하도록 함(we propose SynWorld, a framework that allows agents to synthesize possible scenarios with multi-step action invocation within the action space)",
+            "몬테 카를로 트리 탐색(MCTS)을 수행해 현재 환경에서 행동 지식을 정제하는 방법을 제안함(and perform Monte Carlo Tree Search (MCTS) exploration to effectively refine their action knowledge in the current environment)"
+        ],
+        "conclusion": "SynWorld는 새로운 환경에서 행동 지식을 학습하는 데 효과적이고 일반적인 접근 방법임.",
+        "keywords": [
+            "Robotics",
+            "Action Knowledge",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.03641",
+            "authors": [
+                {
+                    "_id": "67f34f5dfb6d8a613926ac2b",
+                    "name": "Wulin Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac2c",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac2d",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac2e",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac2f",
+                    "name": "Bingyan Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac30",
+                    "name": "Hongkai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac31",
+                    "name": "Zhang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac32",
+                    "name": "Liang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f34f5dfb6d8a613926ac33",
+                    "name": "Tieniu Tan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-04T17:59:55.000Z",
+            "submittedOnDailyAt": "2025-04-07T02:38:07.467Z",
+            "title": "MME-Unify: A Comprehensive Benchmark for Unified Multimodal\n  Understanding and Generation Models",
+            "submittedOnDailyBy": {
+                "_id": "623d8ca4c29adf5ef6175615",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+                "isPro": false,
+                "fullname": "Yi-Fan Zhang",
+                "user": "yifanzhang114",
+                "type": "user"
+            },
+            "summary": "Existing MLLM benchmarks face significant challenges in evaluating Unified\nMLLMs (U-MLLMs) due to: 1) lack of standardized benchmarks for traditional\ntasks, leading to inconsistent comparisons; 2) absence of benchmarks for\nmixed-modality generation, which fails to assess multimodal reasoning\ncapabilities. We present a comprehensive evaluation framework designed to\nsystematically assess U-MLLMs. Our benchmark includes: Standardized Traditional\nTask Evaluation. We sample from 12 datasets, covering 10 tasks with 30\nsubtasks, ensuring consistent and fair comparisons across studies.\" 2. Unified\nTask Assessment. We introduce five novel tasks testing multimodal reasoning,\nincluding image editing, commonsense QA with image generation, and geometric\nreasoning. 3. Comprehensive Model Benchmarking. We evaluate 12 leading U-MLLMs,\nsuch as Janus-Pro, EMU3, VILA-U, and Gemini2-flash, alongside specialized\nunderstanding (e.g., Claude-3.5-Sonnet) and generation models (e.g., DALL-E-3).\nOur findings reveal substantial performance gaps in existing U-MLLMs,\nhighlighting the need for more robust models capable of handling mixed-modality\ntasks effectively. The code and evaluation data can be found in\nhttps://mme-unify.github.io/.",
+            "upvotes": 9,
+            "discussionId": "67f34f64fb6d8a613926ada9",
+            "projectPage": "https://mme-unify.github.io/",
+            "githubRepo": "https://github.com/MME-Benchmarks/MME-Unify"
+        },
+        "translation_title": "MME-Unify: 통합된 다중모달 이해 및 생성 모델을 위한 종합 벤치마크",
+        "purpose": "기존 U-MLLM의 평가에서 발생하는 문제점을 해결하고 통합된 다중모달 모델의 성능을 체계적으로 평가하기 위한 프레임워크 제공",
+        "method": [
+            "12개의 데이터셋에서 샘플링하여 10개의 전통적인 작업과 30개의 하위 작업으로 구성된 표준화된 전통 작업 평가 실시(We sample from 12 datasets, covering 10 tasks with 30 subtasks, ensuring consistent and fair comparisons across studies.)",
+            "이미지 편집, 이미지 생성과 관련된 상식 QA, 기하학적 추론 등 다중모달 추론을 테스트하는 5개의 새로운 작업 도입(Introducing five novel tasks testing multimodal reasoning, including image editing, commonsense QA with image generation, and geometric reasoning.)",
+            "12개의 주요 U-MLLM을 평가하고, 전문 이해 및 생성 모델들과 함께 종합적으로 벤치마킹 실시(We evaluate 12 leading U-MLLMs alongside specialized understanding and generation models.)"
+        ],
+        "conclusion": "기존 U-MLLM에서 성능 차이가 크다는 사실을 발견하였으며, 혼합 모달 작업을 효과적으로 처리할 수 있는 보다 강력한 모델의 필요성이 강조됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Image Generation"
+        ]
+    }
+]
