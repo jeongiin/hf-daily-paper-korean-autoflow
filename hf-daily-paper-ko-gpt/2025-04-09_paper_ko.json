@@ -1,0 +1,740 @@
+[
+    {
+        "paper": {
+            "id": "2504.06263",
+            "authors": [
+                {
+                    "_id": "67f5e3701b29460f6a087954",
+                    "name": "Yiying Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a087955",
+                    "user": {
+                        "_id": "64b914c8ace99c0723ad83a9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b914c8ace99c0723ad83a9/udUHjj6fby82zh8LDjXhL.jpeg",
+                        "isPro": false,
+                        "fullname": "Wei Cheng",
+                        "user": "wchengad",
+                        "type": "user"
+                    },
+                    "name": "Wei Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T07:34:51.924Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a087956",
+                    "user": {
+                        "_id": "6485b08e687d9e0c759121b0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6485b08e687d9e0c759121b0/P_9F0izrQgUfEd-VEbhg8.jpeg",
+                        "isPro": false,
+                        "fullname": "sijin",
+                        "user": "CH3COOK",
+                        "type": "user"
+                    },
+                    "name": "Sijin Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T07:34:48.985Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a087957",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a087958",
+                    "name": "Jiaxu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a087959",
+                    "name": "Liao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a08795a",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a08795b",
+                    "name": "Xingjun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5e3701b29460f6a08795c",
+                    "name": "Yu-Gang Jiang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6485b08e687d9e0c759121b0/goYk4m9KxOQvIKfjUy5Rn.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/6485b08e687d9e0c759121b0/oqnAsMzmh3Vtx0OIPv5ai.gif"
+            ],
+            "publishedAt": "2025-04-08T17:59:49.000Z",
+            "submittedOnDailyAt": "2025-04-09T01:51:00.484Z",
+            "title": "OmniSVG: A Unified Scalable Vector Graphics Generation Model",
+            "submittedOnDailyBy": {
+                "_id": "6485b08e687d9e0c759121b0",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6485b08e687d9e0c759121b0/P_9F0izrQgUfEd-VEbhg8.jpeg",
+                "isPro": false,
+                "fullname": "sijin",
+                "user": "CH3COOK",
+                "type": "user"
+            },
+            "summary": "Scalable Vector Graphics (SVG) is an important image format widely adopted in\ngraphic design because of their resolution independence and editability. The\nstudy of generating high-quality SVG has continuously drawn attention from both\ndesigners and researchers in the AIGC community. However, existing methods\neither produces unstructured outputs with huge computational cost or is limited\nto generating monochrome icons of over-simplified structures. To produce\nhigh-quality and complex SVG, we propose OmniSVG, a unified framework that\nleverages pre-trained Vision-Language Models (VLMs) for end-to-end multimodal\nSVG generation. By parameterizing SVG commands and coordinates into discrete\ntokens, OmniSVG decouples structural logic from low-level geometry for\nefficient training while maintaining the expressiveness of complex SVG\nstructure. To further advance the development of SVG synthesis, we introduce\nMMSVG-2M, a multimodal dataset with two million richly annotated SVG assets,\nalong with a standardized evaluation protocol for conditional SVG generation\ntasks. Extensive experiments show that OmniSVG outperforms existing methods and\ndemonstrates its potential for integration into professional SVG design\nworkflows.",
+            "upvotes": 68,
+            "discussionId": "67f5e3751b29460f6a087aa7",
+            "projectPage": "https://omnisvg.github.io/",
+            "githubRepo": "https://github.com/OmniSVG/OmniSVG"
+        },
+        "translation_title": "OmniSVG: 통합 확장 가능한 벡터 그래픽 생성 모델",
+        "purpose": "고품질의 복잡한 SVG를 생성하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "기존의 방법론이 갖고 있는 단점을 극복하기 위해 OmniSVG라는 통합 프레임워크를 제안함(we propose OmniSVG, a unified framework that leverages pre-trained Vision-Language Models for end-to-end multimodal SVG generation.)",
+            "SVG 명령과 좌표를 이산 토큰으로 매개변수화하여 구조적 논리와 저수준 기하학을 분리함(By parameterizing SVG commands and coordinates into discrete tokens, OmniSVG decouples structural logic from low-level geometry for efficient training.)",
+            "MMSVG-2M이라는 200만 개의 주석이 달린 SVG 자산을 포함한 다중모달 데이터셋을 소개함(we introduce MMSVG-2M, a multimodal dataset with two million richly annotated SVG assets.)"
+        ],
+        "conclusion": "OmniSVG는 기존의 방법론보다 우수한 성능을 보이며, 전문 SVG 디자인 작업 흐름에 통합될 가능성을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.05599",
+            "authors": [
+                {
+                    "_id": "67f61a98af81b0685bf055cf",
+                    "name": "Yi Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d0",
+                    "name": "Chris",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d1",
+                    "name": "Xiaokun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d2",
+                    "name": "Yichen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d3",
+                    "name": "Jiangbo Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d4",
+                    "name": "Weijie Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d5",
+                    "name": "Ai Jian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d6",
+                    "name": "Yunzhuo Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d7",
+                    "name": "Jiachun Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d8",
+                    "name": "Tianyidan Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055d9",
+                    "name": "Li Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055da",
+                    "name": "Rongxian Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055db",
+                    "name": "Xuchen Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055dc",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f61a98af81b0685bf055dd",
+                    "name": "Yahui Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-08T01:19:20.000Z",
+            "submittedOnDailyAt": "2025-04-09T05:32:09.323Z",
+            "title": "Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought",
+            "submittedOnDailyBy": {
+                "_id": "6462b241b438438da3c25a5d",
+                "avatarUrl": "/avatars/606a67f1be639c9a5e36f293abd5f27a.svg",
+                "isPro": false,
+                "fullname": "Xuchen Song",
+                "user": "xuchensong",
+                "type": "user"
+            },
+            "summary": "We introduce Skywork R1V, a multimodal reasoning model extending the an\nR1-series Large language models (LLM) to visual modalities via an efficient\nmultimodal transfer method. Leveraging a lightweight visual projector, Skywork\nR1V facilitates seamless multimodal adaptation without necessitating retraining\nof either the foundational language model or the vision encoder. To strengthen\nvisual-text alignment, we propose a hybrid optimization strategy that combines\nIterative Supervised Fine-Tuning (SFT) with Group Relative Policy Optimization\n(GRPO), significantly enhancing cross-modal integration efficiency.\nAdditionally, we introduce an adaptive-length Chain-of-Thought distillation\napproach for reasoning data generation. This approach dynamically optimizes\nreasoning chain lengths, thereby enhancing inference efficiency and preventing\nexcessive reasoning overthinking. Empirical evaluations demonstrate that\nSkywork R1V, with only 38B parameters, delivers competitive performance,\nachieving a score of 69.0 on the MMMU benchmark and 67.5 on MathVista.\nMeanwhile, it maintains robust textual reasoning performance, evidenced by\nimpressive scores of 72.0 on AIME and 94.0 on MATH500. The Skywork R1V model\nweights have been publicly released to promote openness and reproducibility.",
+            "upvotes": 50,
+            "discussionId": "67f61a9daf81b0685bf05731",
+            "githubRepo": "https://github.com/SkyworkAI/Skywork-R1V"
+        },
+        "translation_title": "Skywork R1V: 체인-오브-생각으로 다중 모드 추론 개척",
+        "purpose": "효율적인 다중 모드 전이 방법을 통해 언어 모델을 시각적 모드로 확장하여 다중 모드 추론 모델 개발",
+        "method": [
+            "경량 비주얼 프로젝터를 활용하여 언어 모델이나 비전 인코더 재교육 없이도 다중 모드 적응을 원활하게 함(Leveraging a lightweight visual projector, Skywork R1V facilitates seamless multimodal adaptation without necessitating retraining of either the foundational language model or the vision encoder.)",
+            "Iterative Supervised Fine-Tuning (SFT)와 Group Relative Policy Optimization (GRPO)을 결합한 하이브리드 최적화 전략을 제안하여 시각-텍스트 정렬 강화함(To strengthen visual-text alignment, we propose a hybrid optimization strategy that combines Iterative Supervised Fine-Tuning (SFT) with Group Relative Policy Optimization (GRPO).)",
+            "Chain-of-Thought 증류 접근법으로 추론 데이터 생성을 동적으로 최적화하여 과도한 추론 과정을 방지함(Additionally, we introduce an adaptive-length Chain-of-Thought distillation approach for reasoning data generation.)"
+        ],
+        "conclusion": "Skywork R1V 모델은 38B 매개변수만으로도 경쟁력 있는 성능을 보여주며, 공개된 모델 가중치는 개방성과 재현성을 증진하는 데 기여함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.06261",
+            "authors": [
+                {
+                    "_id": "67f60df2d0df7eccaae93eb0",
+                    "name": "Gleb Rodionov",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb1",
+                    "user": {
+                        "_id": "6261af8040e04009e813a43d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6261af8040e04009e813a43d/Cc4I98uaePHE-YglLodlZ.jpeg",
+                        "isPro": false,
+                        "fullname": "Roman Garipov",
+                        "user": "garipovroma",
+                        "type": "user"
+                    },
+                    "name": "Roman Garipov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:56.157Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb2",
+                    "name": "Alina Shutova",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb3",
+                    "name": "George Yakushev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb4",
+                    "name": "Vage Egiazarian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb5",
+                    "name": "Anton Sinitsin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb6",
+                    "name": "Denis Kuznedelev",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f60df2d0df7eccaae93eb7",
+                    "name": "Dan Alistarh",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64ef52c2718f94ae8e78a5e7/79i2ecMWxf7tpYS3hvRP4.qt"
+            ],
+            "publishedAt": "2025-04-08T17:59:41.000Z",
+            "submittedOnDailyAt": "2025-04-09T04:36:08.129Z",
+            "title": "Hogwild! Inference: Parallel LLM Generation via Concurrent Attention",
+            "submittedOnDailyBy": {
+                "_id": "64ef52c2718f94ae8e78a5e7",
+                "avatarUrl": "/avatars/d169f4ee62786a3eb4a3fa9d1fec52e9.svg",
+                "isPro": false,
+                "fullname": "Alistarh",
+                "user": "d-alistarh",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have demonstrated the ability to tackle\nincreasingly complex tasks through advanced reasoning, long-form content\ngeneration, and tool use. Solving these tasks often involves long\ninference-time computations. In human problem solving, a common strategy to\nexpedite work is collaboration: by dividing the problem into sub-tasks,\nexploring different strategies concurrently, etc. Recent research has shown\nthat LLMs can also operate in parallel by implementing explicit cooperation\nframeworks, such as voting mechanisms or the explicit creation of independent\nsub-tasks that can be executed in parallel. However, each of these frameworks\nmay not be suitable for all types of tasks, which can hinder their\napplicability. In this work, we propose a different design approach: we run LLM\n\"workers\" in parallel , allowing them to synchronize via a concurrently-updated\nattention cache and prompt these workers to decide how best to collaborate. Our\napproach allows the instances to come up with their own collaboration strategy\nfor the problem at hand, all the while \"seeing\" each other's partial progress\nin the concurrent cache. We implement this approach via Hogwild! Inference: a\nparallel LLM inference engine where multiple instances of the same LLM run in\nparallel with the same attention cache, with \"instant\" access to each other's\ngenerated tokens. Hogwild! inference takes advantage of Rotary Position\nEmbeddings (RoPE) to avoid recomputation while improving parallel hardware\nutilization. We find that modern reasoning-capable LLMs can perform inference\nwith shared Key-Value cache out of the box, without additional fine-tuning.",
+            "upvotes": 49,
+            "discussionId": "67f60df3d0df7eccaae93eff",
+            "projectPage": "https://eqimp.github.io/hogwild_llm/",
+            "githubRepo": "https://github.com/eqimp/hogwild_llm"
+        },
+        "translation_title": "Hogwild! Inference: 동시 주의를 통한 병렬 LLM 생성",
+        "purpose": "병렬로 LLM '작업자'를 실행하여 협업 방식을 개선하고 작업 효율성을 높이기 위한 연구",
+        "method": [
+            "LLM '작업자'들을 병렬로 실행하고, 동시 업데이트된 attention cache를 통해 이들을 동기화함(we run LLM 'workers' in parallel, allowing them to synchronize via a concurrently-updated attention cache)",
+            "작업자들이 서로의 진행 상황을 확인하며 협업 전략을 결정하게 함(allowing them to decide how best to collaborate)",
+            "Hogwild! Inference라는 병렬 LLM 추론 엔진을 구현하여 동시 주의를 활용함(We implement this approach via Hogwild! Inference: a parallel LLM inference engine)",
+            "Rotary Position Embeddings (RoPE)를 이용해 재계산을 피하면서 병렬 하드웨어 활용도를 향상시킴(Hogwild! inference takes advantage of Rotary Position Embeddings (RoPE) to avoid recomputation while improving parallel hardware utilization)"
+        ],
+        "conclusion": "병렬로 작업하는 modern LLM이 별도의 파인 튜닝 없이도 공유된 Key-Value cache로 추론을 수행할 수 있음을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.05979",
+            "authors": [
+                {
+                    "_id": "67f5d5416ceb820f2006d8a2",
+                    "name": "Sixiang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a3",
+                    "user": {
+                        "_id": "63fccdac93b993a4ebd7789a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63fccdac93b993a4ebd7789a/KRx8vpdoDjsZBRw0j8Vg8.jpeg",
+                        "isPro": false,
+                        "fullname": "Jinbin Bai",
+                        "user": "BryanW",
+                        "type": "user"
+                    },
+                    "name": "Jinbin Bai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T07:35:08.303Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a4",
+                    "name": "Zhuoran Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a5",
+                    "name": "Tian Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a6",
+                    "user": {
+                        "_id": "656724074f6ec72017754d33",
+                        "avatarUrl": "/avatars/e61de248f6f53719b2375077340dd033.svg",
+                        "isPro": false,
+                        "fullname": "QingyuShi",
+                        "user": "QingyuShi",
+                        "type": "user"
+                    },
+                    "name": "Qingyu Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T07:35:04.572Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a7",
+                    "user": {
+                        "_id": "67136093d2e50f1e8c9fad52",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0q49MyGuav8lJ9CIeyLhu.png",
+                        "isPro": false,
+                        "fullname": "Donghao Zhou",
+                        "user": "donghao-zhou",
+                        "type": "user"
+                    },
+                    "name": "Donghao Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T07:35:02.400Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a8",
+                    "name": "Wenhao Chai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8a9",
+                    "name": "Xin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8aa",
+                    "name": "Jianzong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8ab",
+                    "name": "Chao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8ac",
+                    "name": "Shilin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8ad",
+                    "name": "Tao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8ae",
+                    "name": "Haobo Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8af",
+                    "name": "Yikang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8b0",
+                    "name": "Wei Chow",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8b1",
+                    "name": "Linfeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8b2",
+                    "name": "Xiangtai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8b3",
+                    "name": "Lei Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f5d5416ceb820f2006d8b4",
+                    "name": "Lu Qi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-08T12:34:36.000Z",
+            "submittedOnDailyAt": "2025-04-09T00:39:48.924Z",
+            "title": "An Empirical Study of GPT-4o Image Generation Capabilities",
+            "submittedOnDailyBy": {
+                "_id": "63fccdac93b993a4ebd7789a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63fccdac93b993a4ebd7789a/KRx8vpdoDjsZBRw0j8Vg8.jpeg",
+                "isPro": false,
+                "fullname": "Jinbin Bai",
+                "user": "BryanW",
+                "type": "user"
+            },
+            "summary": "The landscape of image generation has rapidly evolved, from early GAN-based\napproaches to diffusion models and, most recently, to unified generative\narchitectures that seek to bridge understanding and generation tasks. Recent\nadvances, especially the GPT-4o, have demonstrated the feasibility of\nhigh-fidelity multimodal generation, their architectural design remains\nmysterious and unpublished. This prompts the question of whether image and text\ngeneration have already been successfully integrated into a unified framework\nfor those methods. In this work, we conduct an empirical study of GPT-4o's\nimage generation capabilities, benchmarking it against leading open-source and\ncommercial models. Our evaluation covers four main categories, including\ntext-to-image, image-to-image, image-to-3D, and image-to-X generation, with\nmore than 20 tasks. Our analysis highlights the strengths and limitations of\nGPT-4o under various settings, and situates it within the broader evolution of\ngenerative modeling. Through this investigation, we identify promising\ndirections for future unified generative models, emphasizing the role of\narchitectural design and data scaling.",
+            "upvotes": 43,
+            "discussionId": "67f5d5496ceb820f2006da78"
+        },
+        "translation_title": "GPT-4o 이미지 생성 능력에 대한 경험적 연구",
+        "purpose": "GPT-4o의 이미지 생성 능력을 평가하고 기존 모델들과 비교하여 그 강점과 한계를 파악하기 위해 연구",
+        "method": [
+            "GPT-4o의 이미지 생성 능력을 평가하기 위해 텍스트-이미지, 이미지-이미지, 이미지-3D 및 이미지-X 생성을 포함한 20개 이상의 작업을 수행함(Our evaluation covers four main categories, including text-to-image, image-to-image, image-to-3D, and image-to-X generation, with more than 20 tasks.)",
+            "GPT-4o를 주요 오픈소스 및 상용 모델과 비교하여 그 성능을 측정함(benchmarking it against leading open-source and commercial models.)",
+            "다양한 설정에서 GPT-4o의 장점과 한계를 분석함(Our analysis highlights the strengths and limitations of GPT-4o under various settings.)"
+        ],
+        "conclusion": "GPT-4o의 이미지 생성 능력은 강점과 한계를 가졌으며, 미래 통합 생성 모델을 위한 유망한 방향을 제시함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.05535",
+            "authors": [
+                {
+                    "_id": "67f630091aed1b4344b57c1b",
+                    "name": "M-A-P Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c1c",
+                    "user": {
+                        "_id": "656d97b10bbc114fe64a96c5",
+                        "avatarUrl": "/avatars/fd23bae1d85c5b96c42064a5ddcfad41.svg",
+                        "isPro": false,
+                        "fullname": "SiweiWu",
+                        "user": "SiweiWu",
+                        "type": "user"
+                    },
+                    "name": "Siwei Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:41.051Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c1d",
+                    "user": {
+                        "_id": "6704ee27386892c420db1938",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6704ee27386892c420db1938/lb5mtEwYhn47RawkynYPs.jpeg",
+                        "isPro": false,
+                        "fullname": "JinCheng Ren",
+                        "user": "JinChengRen",
+                        "type": "user"
+                    },
+                    "name": "Jincheng Ren",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T09:48:17.939Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c1e",
+                    "user": {
+                        "_id": "654907a4a1faff97850c4eff",
+                        "avatarUrl": "/avatars/458c90151614bc7f116943b6e67d6b8a.svg",
+                        "isPro": false,
+                        "fullname": "du",
+                        "user": "dododododo",
+                        "type": "user"
+                    },
+                    "name": "Xinrun Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:47.680Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c1f",
+                    "name": "Shuyue Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c20",
+                    "name": "Xingwei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c21",
+                    "name": "Yiming Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c22",
+                    "name": "Jie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c23",
+                    "name": "Yunwen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c24",
+                    "user": {
+                        "_id": "64ab99dcb76bfd863eba64c1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ab99dcb76bfd863eba64c1/UBXwDPx17X-gl-SzBPvrc.jpeg",
+                        "isPro": false,
+                        "fullname": "TY.Zheng",
+                        "user": "aaabiao",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T09:48:16.069Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c25",
+                    "user": {
+                        "_id": "67f654ecb88bc093ada9da3f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Anh0oLDzzHCeSmEzwAmYd.png",
+                        "isPro": false,
+                        "fullname": "boyuFeng",
+                        "user": "FWORKS",
+                        "type": "user"
+                    },
+                    "name": "Boyu Feng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:53.597Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c26",
+                    "name": "Huaqing Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c27",
+                    "name": "Zenith Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c28",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c29",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2a",
+                    "name": "Chenglin Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2b",
+                    "name": "Haoran Que",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2c",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2d",
+                    "name": "Yuelin Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2e",
+                    "name": "Zekun Moore Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c2f",
+                    "user": {
+                        "_id": "62a80fe3ac97233f1625235a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhouliang Yu",
+                        "user": "zhouliang",
+                        "type": "user"
+                    },
+                    "name": "Zhouliang Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:43.986Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c30",
+                    "name": "Qunshu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c31",
+                    "name": "Ding Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c32",
+                    "name": "Yuchen Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c33",
+                    "name": "Tiannan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c34",
+                    "name": "Wangchunshu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c35",
+                    "name": "Shenzhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c36",
+                    "user": {
+                        "_id": "6444e7765691ca69b0d95856",
+                        "avatarUrl": "/avatars/4ae5001e7c7dea89c4deaf2b05436857.svg",
+                        "isPro": false,
+                        "fullname": "Xingyuan Bu",
+                        "user": "sefira32",
+                        "type": "user"
+                    },
+                    "name": "Xingyuan Bu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T14:36:50.729Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c37",
+                    "user": {
+                        "_id": "6417d9ea8f689506e7148417",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6417d9ea8f689506e7148417/bAYcruWNw4WvmuQcGgcwC.jpeg",
+                        "isPro": false,
+                        "fullname": "minghao",
+                        "user": "Liam-Liu",
+                        "type": "user"
+                    },
+                    "name": "Minghao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-09T09:48:19.721Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c38",
+                    "name": "Guoyin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c39",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67f630091aed1b4344b57c3a",
+                    "name": "Chenghua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-07T22:15:51.000Z",
+            "submittedOnDailyAt": "2025-04-09T07:58:42.888Z",
+            "title": "COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for\n  Alignment with Human Values",
+            "submittedOnDailyBy": {
+                "_id": "656d97b10bbc114fe64a96c5",
+                "avatarUrl": "/avatars/fd23bae1d85c5b96c42064a5ddcfad41.svg",
+                "isPro": false,
+                "fullname": "SiweiWu",
+                "user": "SiweiWu",
+                "type": "user"
+            },
+            "summary": "Aligning large language models (LLMs) with human preferences has achieved\nremarkable success. However, existing Chinese preference datasets are limited\nby small scale, narrow domain coverage, and lack of rigorous data validation.\nAdditionally, the reliance on human annotators for instruction and response\nlabeling significantly constrains the scalability of human preference datasets.\nTo address these challenges, we design an LLM-based Chinese preference dataset\nannotation pipeline with no human intervention. Specifically, we crawled and\ncarefully filtered 92k high-quality Chinese queries and employed 15 mainstream\nLLMs to generate and score chosen-rejected response pairs. Based on it, we\nintroduce COIG-P (Chinese Open Instruction Generalist - Preference), a\nhigh-quality, large-scale Chinese preference dataset, comprises 1,009k Chinese\npreference pairs spanning 6 diverse domains: Chat, Code, Math, Logic, Novel,\nand Role. Building upon COIG-P, to reduce the overhead of using LLMs for\nscoring, we trained a 8B-sized Chinese Reward Model (CRM) and meticulously\nconstructed a Chinese Reward Benchmark (CRBench). Evaluation results based on\nAlignBench liu2024alignbenchbenchmarkingchinesealignment show that that\nCOIG-P significantly outperforms other Chinese preference datasets, and it\nbrings significant performance improvements ranging from 2% to 12% for the\nQwen2/2.5 and Infinity-Instruct-3M-0625 model series, respectively. The results\non CRBench demonstrate that our CRM has a strong and robust scoring ability. We\napply it to filter chosen-rejected response pairs in a test split of COIG-P,\nand our experiments show that it is comparable to GPT-4o in identifying\nlow-quality samples while maintaining efficiency and cost-effectiveness. Our\ncodes and data are released in\nhttps://github.com/multimodal-art-projection/COIG-P.",
+            "upvotes": 30,
+            "discussionId": "67f6300b1aed1b4344b57cd0"
+        },
+        "translation_title": "COIG-P: 인간 가치에 부합하는 고품질 대규모 중국어 선호 데이터셋",
+        "purpose": "대규모 언어 모델과 인간 선호를 정렬하기 위한 대규모 데이터셋 구축",
+        "method": [
+            "인간 개입 없이 LLM을 기반으로 한 중국어 선호 데이터셋 주석 파이프라인을 설계함(To address these challenges, we design an LLM-based Chinese preference dataset annotation pipeline with no human intervention.)",
+            "92k개의 고품질 중국어 질의 데이터를 수집하고, 15개의 주류 LLM을 사용해 선택-거부 응답 쌍을 생성하고 평가함(Specifically, we crawled and carefully filtered 92k high-quality Chinese queries and employed 15 mainstream LLMs to generate and score chosen-rejected response pairs.)",
+            "COIG-P라는 100.9만 쌍의 중국어 선호 데이터셋을 소개하고 8B 크기의 중국어 보상 모델을 훈련함(Based on it, we introduce COIG-P, a high-quality, large-scale Chinese preference dataset, comprises 1,009k Chinese preference pairs spanning 6 diverse domains: Chat, Code, Math, Logic, Novel, and Role.)"
+        ],
+        "conclusion": "COIG-P는 기존 중국어 선호 데이터셋보다 성능이 2%에서 12%까지 향상되었으며, 우리의 CRM은 강력한 평가 능력을 갖추고 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
