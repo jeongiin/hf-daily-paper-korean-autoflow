@@ -1,0 +1,493 @@
+[
+    {
+        "paper": {
+            "id": "2504.08672",
+            "authors": [
+                {
+                    "_id": "67fcb7294a92187863e805ee",
+                    "user": {
+                        "_id": "64e6cf78ecce34cb442dc889",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e6cf78ecce34cb442dc889/qVZFiUEpBpSkmH8SQeinm.jpeg",
+                        "isPro": false,
+                        "fullname": "Fangzhi Xu",
+                        "user": "xufangzhi",
+                        "type": "user"
+                    },
+                    "name": "Fangzhi Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-14T09:46:16.537Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805ef",
+                    "name": "Hang Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f0",
+                    "name": "Chang Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f1",
+                    "name": "Haiteng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f2",
+                    "user": {
+                        "_id": "6064a0eeb1703ddba0d458b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617207525789-noauth.png",
+                        "isPro": false,
+                        "fullname": "Qiushi",
+                        "user": "QiushiSun",
+                        "type": "user"
+                    },
+                    "name": "Qiushi Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-16T09:24:08.107Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f3",
+                    "name": "Kanzhi Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f4",
+                    "name": "Junxian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f5",
+                    "name": "Jun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fcb7294a92187863e805f6",
+                    "name": "Zhiyong Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-11T16:26:23.000Z",
+            "submittedOnDailyAt": "2025-04-16T05:46:28.754Z",
+            "title": "Genius: A Generalizable and Purely Unsupervised Self-Training Framework\n  For Advanced Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "64e6cf78ecce34cb442dc889",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e6cf78ecce34cb442dc889/qVZFiUEpBpSkmH8SQeinm.jpeg",
+                "isPro": false,
+                "fullname": "Fangzhi Xu",
+                "user": "xufangzhi",
+                "type": "user"
+            },
+            "summary": "Advancing LLM reasoning skills has captivated wide interest. However, current\npost-training techniques rely heavily on supervisory signals, such as outcome\nsupervision or auxiliary reward models, which face the problem of scalability\nand high annotation costs. This motivates us to enhance LLM reasoning without\nthe need for external supervision. We introduce a generalizable and purely\nunsupervised self-training framework, named Genius. Without external auxiliary,\nGenius requires to seek the optimal response sequence in a stepwise manner and\noptimize the LLM. To explore the potential steps and exploit the optimal ones,\nGenius introduces a stepwise foresight re-sampling strategy to sample and\nestimate the step value by simulating future outcomes. Further, we recognize\nthat the unsupervised setting inevitably induces the intrinsic noise and\nuncertainty. To provide a robust optimization, we propose an\nadvantage-calibrated optimization (ACO) loss function to mitigate estimation\ninconsistencies. Combining these techniques together, Genius provides an\nadvanced initial step towards self-improve LLM reasoning with general queries\nand without supervision, revolutionizing reasoning scaling laws given the vast\navailability of general queries. The code will be released at\nhttps://github.com/xufangzhi/Genius.",
+            "upvotes": 40,
+            "discussionId": "67fcb72a4a92187863e8061b",
+            "projectPage": "https://github.com/xufangzhi/Genius",
+            "githubRepo": "https://github.com/xufangzhi/Genius",
+            "ai_keywords": [
+                "self-training framework",
+                "Genius",
+                "stepwise foresight re-sampling strategy",
+                "advantage-calibrated optimization (ACO) loss function"
+            ]
+        },
+        "translation_title": "Genius: 일반화 가능하고 완전 자율적인 자기 학습 프레임워크",
+        "purpose": "외부 감독 없이 LLM의 추론 능력을 향상시키기 위한 연구",
+        "method": [
+            "Genius라는 완전 자율적인 자기 학습 프레임워크를 도입함 (We introduce a generalizable and purely unsupervised self-training framework, named Genius.)",
+            "단계별로 최적의 응답 시퀀스를 찾아 LLM을 최적화함 (Genius requires to seek the optimal response sequence in a stepwise manner and optimize the LLM.)",
+            "미래 결과를 시뮬레이션하여 단계 가치를 샘플링하고 추정하는 단계적 예측 재샘플링 전략을 제안함 (Genius introduces a stepwise foresight re-sampling strategy to sample and estimate the step value by simulating future outcomes.)",
+            "추정 불일치를 완화하기 위한 advantage-calibrated optimization (ACO) 손실 함수를 제안함 (we propose an advantage-calibrated optimization (ACO) loss function to mitigate estimation inconsistencies.)"
+        ],
+        "conclusion": "Genius는 일반적인 질의에 대해 감독 없이 LLM 추론을 자가 개선할 수 있는 진전을 제공하며, 추론의 확장을 혁신적으로 변화시킵니다.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Unsupervised Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.10337",
+            "authors": [
+                {
+                    "_id": "67fddae99a03686367721718",
+                    "user": {
+                        "_id": "6471a24381ded91f253ceb1c",
+                        "avatarUrl": "/avatars/31d447068fe1fd4200ab5d08ab31eed4.svg",
+                        "isPro": false,
+                        "fullname": "Wesley Shi",
+                        "user": "WesleyShi",
+                        "type": "user"
+                    },
+                    "name": "Wenlei Shi",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-04-15T06:43:40.277Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67fddae99a03686367721719",
+                    "name": "Xing Jin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-14T15:46:33.000Z",
+            "submittedOnDailyAt": "2025-04-16T00:52:23.733Z",
+            "title": "Heimdall: test-time scaling on the generative verification",
+            "submittedOnDailyBy": {
+                "_id": "6471a24381ded91f253ceb1c",
+                "avatarUrl": "/avatars/31d447068fe1fd4200ab5d08ab31eed4.svg",
+                "isPro": false,
+                "fullname": "Wesley Shi",
+                "user": "WesleyShi",
+                "type": "user"
+            },
+            "summary": "An AI system can create and maintain knowledge only to the extent that it can\nverify that knowledge itself. Recent work on long Chain-of-Thought reasoning\nhas demonstrated great potential of LLMs on solving competitive problems, but\ntheir verification ability remains to be weak and not sufficiently\ninvestigated. In this paper, we propose Heimdall, the long CoT verification LLM\nthat can accurately judge the correctness of solutions. With pure reinforcement\nlearning, we boost the verification accuracy from 62.5% to 94.5% on competitive\nmath problems. By scaling with repeated sampling, the accuracy further\nincreases to 97.5%. Through human evaluation, Heimdall demonstrates impressive\ngeneralization capabilities, successfully detecting most issues in challenging\nmath proofs, the type of which is not included during training. Furthermore, we\npropose Pessimistic Verification to extend the functionality of Heimdall to\nscaling up the problem solving. It calls Heimdall to judge the solutions from a\nsolver model and based on the pessimistic principle, selects the most likely\ncorrect solution with the least uncertainty. Taking\nDeepSeek-R1-Distill-Qwen-32B as the solver model, Pessimistic Verification\nimproves the solution accuracy on AIME2025 from 54.2% to 70.0% with 16x compute\nbudget and to 83.3% with more compute budget. With the stronger solver Gemini\n2.5 Pro, the score reaches 93.0%. Finally, we prototype an automatic knowledge\ndiscovery system, a ternary system where one poses questions, another provides\nsolutions, and the third verifies the solutions. Using the data synthesis work\nNuminaMath for the first two components, Heimdall effectively identifies\nproblematic records within the dataset and reveals that nearly half of the data\nis flawed, which interestingly aligns with the recent ablation studies from\nNuminaMath.",
+            "upvotes": 25,
+            "discussionId": "67fddaea9a03686367721776",
+            "ai_keywords": [
+                "Chain-of-Thought reasoning",
+                "LLMs (Large Language Models)",
+                "Heimdall",
+                "long CoT verification",
+                "pure reinforcement learning",
+                "synthetic math problems",
+                "human evaluation",
+                "generalization capabilities",
+                "Pessimistic Verification",
+                "DeepSeek-R1-Distill-Qwen-32B",
+                "AIME2025",
+                "Gemini 2.5 Pro",
+                "solution accuracy",
+                "automatic knowledge discovery system",
+                "ternary system",
+                "NuminaMath",
+                "data synthesis",
+                "data records",
+                "flawed data"
+            ]
+        },
+        "translation_title": "Heimdall: 생성적 검증에서의 테스트 시간 확장",
+        "purpose": "LLM의 검증 능력을 향상시켜 수학 문제 해결의 정확성을 높이는 것",
+        "method": [
+            "강화 학습을 통해 경쟁적인 수학 문제의 검증 정확도를 62.5%에서 94.5%로 향상시킴(With pure reinforcement learning, we boost the verification accuracy from 62.5% to 94.5% on competitive math problems.)",
+            "반복 샘플링을 통해 정확도를 97.5%로 더욱 증가시킴(By scaling with repeated sampling, the accuracy further increases to 97.5%.)",
+            "Pessimistic Verification을 제안하여 문제 해결을 확장하고, 가장 가능성이 높은 정답을 선택함(Furthermore, we propose Pessimistic Verification to extend the functionality of Heimdall to scaling up the problem solving.)"
+        ],
+        "conclusion": "Heimdall은 검증과 문제 해결 정확성을 크게 향상시키며, 자동 지식 발견 시스템을 통해 유용한 문제를 식별하고 데이터의 결함을 드러냄.",
+        "keywords": [
+            "Large Language Models",
+            "Robotics",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.11346",
+            "authors": [
+                {
+                    "_id": "67ff18961dc5d56fdd6ca724",
+                    "name": "Yu Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca725",
+                    "name": "Lixue Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca726",
+                    "name": "Qiushan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca727",
+                    "name": "Xiaoxia Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca728",
+                    "name": "Zhichao Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca729",
+                    "name": "Fanshi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72a",
+                    "name": "Liang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72b",
+                    "name": "Xiaochen Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72c",
+                    "name": "Chao Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72d",
+                    "name": "Liyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72e",
+                    "name": "Wei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca72f",
+                    "name": "Yichun Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca730",
+                    "name": "Shiqi Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca731",
+                    "name": "Yu Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca732",
+                    "name": "Zhi Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca733",
+                    "name": "Peng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca734",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca735",
+                    "name": "Xuanda Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca736",
+                    "name": "Xun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca737",
+                    "name": "Ye Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca738",
+                    "name": "Guofeng Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca739",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73a",
+                    "name": "Xin Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73b",
+                    "name": "Xuefeng Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73c",
+                    "name": "Zhonghua Zhai",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73d",
+                    "name": "Xinyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73e",
+                    "name": "Qi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca73f",
+                    "name": "Yuwei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca740",
+                    "name": "Shijia Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca741",
+                    "name": "Jianchao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff18961dc5d56fdd6ca742",
+                    "name": "Weilin Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-15T16:19:07.000Z",
+            "submittedOnDailyAt": "2025-04-16T01:10:39.295Z",
+            "title": "Seedream 3.0 Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "63468720dd6d90d82ccf3450",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+                "isPro": false,
+                "fullname": "YSH",
+                "user": "BestWishYsh",
+                "type": "user"
+            },
+            "summary": "We present Seedream 3.0, a high-performance Chinese-English bilingual image\ngeneration foundation model. We develop several technical improvements to\naddress existing challenges in Seedream 2.0, including alignment with\ncomplicated prompts, fine-grained typography generation, suboptimal visual\naesthetics and fidelity, and limited image resolutions. Specifically, the\nadvancements of Seedream 3.0 stem from improvements across the entire pipeline,\nfrom data construction to model deployment. At the data stratum, we double the\ndataset using a defect-aware training paradigm and a dual-axis collaborative\ndata-sampling framework. Furthermore, we adopt several effective techniques\nsuch as mixed-resolution training, cross-modality RoPE, representation\nalignment loss, and resolution-aware timestep sampling in the pre-training\nphase. During the post-training stage, we utilize diversified aesthetic\ncaptions in SFT, and a VLM-based reward model with scaling, thereby achieving\noutputs that well align with human preferences. Furthermore, Seedream 3.0\npioneers a novel acceleration paradigm. By employing consistent noise\nexpectation and importance-aware timestep sampling, we achieve a 4 to 8 times\nspeedup while maintaining image quality. Seedream 3.0 demonstrates significant\nimprovements over Seedream 2.0: it enhances overall capabilities, in particular\nfor text-rendering in complicated Chinese characters which is important to\nprofessional typography generation. In addition, it provides native\nhigh-resolution output (up to 2K), allowing it to generate images with high\nvisual quality.",
+            "upvotes": 22,
+            "discussionId": "67ff189c1dc5d56fdd6ca8e0",
+            "projectPage": "https://team.doubao.com/zh/tech/seedream3_0",
+            "ai_keywords": [
+                "mixed-resolution training",
+                "cross-modality RoPE",
+                "representation alignment loss",
+                "resolution-aware timestep sampling",
+                "SFT (Supervised Fine-Tuning)",
+                "VLM (Vision Language Model)",
+                "consistent noise expectation",
+                "importance-aware timestep sampling"
+            ]
+        },
+        "translation_title": "Seedream 3.0 기술 보고서",
+        "purpose": "Seedream 2.0에서의 기존 문제를 해결하고 성능을 개선하기 위한 고성능 이중언어 이미지 생성 모델 개발",
+        "method": [
+            "결함 인식 훈련 패러다임과 이중 축 협력 데이터 샘플링 프레임워크를 통해 데이터셋을 두 배로 증가시킴(At the data stratum, we double the dataset using a defect-aware training paradigm and a dual-axis collaborative data-sampling framework.)",
+            "예비 훈련 단계에서 혼합 해상도 훈련, 교차 모달 RoPE, 표현 정렬 손실 및 해상도 인식 타임스텝 샘플링을 적용함(Furthermore, we adopt several effective techniques such as mixed-resolution training, cross-modality RoPE, representation alignment loss, and resolution-aware timestep sampling in the pre-training phase.)",
+            "SFT에서 다양한 미적 캡션을 사용하고, 확장 가능한 VLM 기반 보상 모델을 활용하여 인간 선호에 잘 맞는 결과를 도출함(During the post-training stage, we utilize diversified aesthetic captions in SFT, and a VLM-based reward model with scaling, thereby achieving outputs that well align with human preferences.)"
+        ],
+        "conclusion": "Seedream 3.0은 Seedream 2.0에 비해 성능이 크게 향상되었으며, 특히 복잡한 한자 텍스트 렌더링 및 고해상도 이미지 생성에서 뛰어난 결과를 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.10465",
+            "authors": [
+                {
+                    "_id": "67ff26c3414c03ebc1d42529",
+                    "name": "Tao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252a",
+                    "user": {
+                        "_id": "63958b4414513eaf9029ebf1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/U1g5H071pWRswGAG9UTpo.png",
+                        "isPro": false,
+                        "fullname": "Xiangtai Li",
+                        "user": "LXT",
+                        "type": "user"
+                    },
+                    "name": "Xiangtai Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-16T08:42:53.598Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252b",
+                    "name": "Zilong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252c",
+                    "name": "Yanwei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252d",
+                    "name": "Weixian Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252e",
+                    "name": "Xueqing Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d4252f",
+                    "name": "Shihao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d42530",
+                    "name": "Shunping Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "67ff26c3414c03ebc1d42531",
+                    "name": "Jiashi Feng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-14T17:52:22.000Z",
+            "submittedOnDailyAt": "2025-04-16T02:11:29.898Z",
+            "title": "Pixel-SAIL: Single Transformer For Pixel-Grounded Understanding",
+            "submittedOnDailyBy": {
+                "_id": "63958b4414513eaf9029ebf1",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/U1g5H071pWRswGAG9UTpo.png",
+                "isPro": false,
+                "fullname": "Xiangtai Li",
+                "user": "LXT",
+                "type": "user"
+            },
+            "summary": "Multimodal Large Language Models (MLLMs) achieve remarkable performance for\nfine-grained pixel-level understanding tasks. However, all the works rely\nheavily on extra components, such as vision encoder (CLIP), segmentation\nexperts, leading to high system complexity and limiting model scaling. In this\nwork, our goal is to explore a highly simplified MLLM without introducing extra\ncomponents. Our work is motivated by the recent works on Single trAnsformer as\na unified vIsion-Language Model (SAIL) design, where these works jointly learn\nvision tokens and text tokens in transformers. We present Pixel-SAIL, a single\ntransformer for pixel-wise MLLM tasks. In particular, we present three\ntechnical improvements on the plain baseline. First, we design a learnable\nupsampling module to refine visual token features. Secondly, we propose a novel\nvisual prompt injection strategy to enable the single transformer to understand\nvisual prompt inputs and benefit from the early fusion of visual prompt\nembeddings and vision tokens. Thirdly, we introduce a vision expert\ndistillation strategy to efficiently enhance the single transformer's\nfine-grained feature extraction capability. In addition, we have collected a\ncomprehensive pixel understanding benchmark (PerBench), using a manual check.\nIt includes three tasks: detailed object description, visual prompt-based\nquestion answering, and visual-text referring segmentation. Extensive\nexperiments on four referring segmentation benchmarks, one visual prompt\nbenchmark, and our PerBench show that our Pixel-SAIL achieves comparable or\neven better results with a much simpler pipeline. Code and model will be\nreleased at https://github.com/magic-research/Sa2VA.",
+            "upvotes": 22,
+            "discussionId": "67ff26c6414c03ebc1d425de",
+            "ai_keywords": [
+                "multimodal large language models (MLLMs)",
+                "pixel-level understanding",
+                "vision encoder (CLIP)",
+                "segmentation experts",
+                "single transformer as a unified vision-language model (SAIL)",
+                "pixel-wise MLLM tasks",
+                "learnable upsampling module",
+                "visual prompt injection",
+                "visual prompt embeddings",
+                "vision expert distillation",
+                "pixel understanding benchmark (PerBench)",
+                "detailed object description",
+                "visual prompt-based question answering",
+                "visual-text referring segmentation",
+                "referring segmentation benchmarks",
+                "visual prompt benchmark"
+            ]
+        },
+        "translation_title": "Pixel-SAIL: 픽셀 기반 이해를 위한 단일 트랜스포머",
+        "purpose": "추가 구성요소 없이 단순화된 MLLM을 탐구하여 시스템 복잡성을 줄이고 모델의 확장성을 높이는 것",
+        "method": [
+            "단일 트랜스포머 구조로 픽셀 수준의 MLLM 과제를 위한 Pixel-SAIL 제시(We present Pixel-SAIL, a single transformer for pixel-wise MLLM tasks.)",
+            "시각적 토큰 특징을 개선하기 위해 학습 가능한 업샘플링 모듈을 설계함(First, we design a learnable upsampling module to refine visual token features.)",
+            "단일 트랜스포머가 시각적 프롬프트 입력을 이해하도록 하는 새로운 시각적 프롬프트 주입 전략을 제안함(Secondly, we propose a novel visual prompt injection strategy to enable the single transformer to understand visual prompt inputs.)",
+            "단일 트랜스포머의 정밀한 특징 추출 능력을 향상시키기 위한 비전 전문가 증류 전략을 도입함(Thirdly, we introduce a vision expert distillation strategy to efficiently enhance the single transformer's fine-grained feature extraction capability.)"
+        ],
+        "conclusion": "Pixel-SAIL은 더 단순한 파이프라인으로 뛰어난 성능을 달성하며, 새로운 벤치마크 PerBench에서 여러 과제를 포함하고 있음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Classification"
+        ]
+    }
+]
