@@ -1,0 +1,470 @@
+[
+    {
+        "paper": {
+            "id": "2504.13161",
+            "authors": [
+                {
+                    "_id": "6801d661ed5fc062197db592",
+                    "user": {
+                        "_id": "633bd54b00732349209a18fe",
+                        "avatarUrl": "/avatars/150aa5b8d9bcca24366402932bf2d049.svg",
+                        "isPro": false,
+                        "fullname": "Shizhe Diao",
+                        "user": "shizhediao",
+                        "type": "user"
+                    },
+                    "name": "Shizhe Diao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-18T09:38:46.555Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db593",
+                    "name": "Yu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db594",
+                    "name": "Yonggan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db595",
+                    "name": "Xin Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db596",
+                    "name": "Dan Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db597",
+                    "name": "Markus Kliegl",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db598",
+                    "name": "Zijia Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db599",
+                    "name": "Peter Belcak",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59a",
+                    "name": "Yoshi Suhara",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59b",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59c",
+                    "name": "Mostofa Patwary",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59d",
+                    "name": "Yingyan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59e",
+                    "name": "Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db59f",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d661ed5fc062197db5a0",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-17T17:58:13.000Z",
+            "submittedOnDailyAt": "2025-04-18T03:05:25.298Z",
+            "title": "CLIMB: CLustering-based Iterative Data Mixture Bootstrapping for\n  Language Model Pre-training",
+            "submittedOnDailyBy": {
+                "_id": "633bd54b00732349209a18fe",
+                "avatarUrl": "/avatars/150aa5b8d9bcca24366402932bf2d049.svg",
+                "isPro": false,
+                "fullname": "Shizhe Diao",
+                "user": "shizhediao",
+                "type": "user"
+            },
+            "summary": "Pre-training datasets are typically collected from web content and lack\ninherent domain divisions. For instance, widely used datasets like Common Crawl\ndo not include explicit domain labels, while manually curating labeled datasets\nsuch as The Pile is labor-intensive. Consequently, identifying an optimal\npre-training data mixture remains a challenging problem, despite its\nsignificant benefits for pre-training performance. To address these challenges,\nwe propose CLustering-based Iterative Data Mixture Bootstrapping (CLIMB), an\nautomated framework that discovers, evaluates, and refines data mixtures in a\npre-training setting. Specifically, CLIMB embeds and clusters large-scale\ndatasets in a semantic space and then iteratively searches for optimal mixtures\nusing a smaller proxy model and a predictor. When continuously trained on 400B\ntokens with this mixture, our 1B model exceeds the state-of-the-art\nLlama-3.2-1B by 2.0%. Moreover, we observe that optimizing for a specific\ndomain (e.g., Social Sciences) yields a 5% improvement over random sampling.\nFinally, we introduce ClimbLab, a filtered 1.2-trillion-token corpus with 20\nclusters as a research playground, and ClimbMix, a compact yet powerful\n400-billion-token dataset designed for efficient pre-training that delivers\nsuperior performance under an equal token budget. We analyze the final data\nmixture, elucidating the characteristics of an optimal data mixture. Our data\nis available at: https://research.nvidia.com/labs/lpr/climb/",
+            "upvotes": 58,
+            "discussionId": "6801d663ed5fc062197db631",
+            "ai_keywords": [
+                "CLIMB",
+                "semantic space",
+                "proxy model",
+                "predictor",
+                "ClimbLab",
+                "ClimbMix"
+            ]
+        },
+        "translation_title": "CLIMB: 언어 모델 사전 학습을 위한 클러스터 기반 반복 데이터 혼합 부트스트래핑",
+        "purpose": "효율적인 사전 학습 성능을 위한 최적의 데이터 혼합 식별 문제 해결",
+        "method": [
+            "CLIMB라는 자동화된 프레임워크를 제안하여 데이터 혼합을 발견, 평가 및 수정함(we propose CLustering-based Iterative Data Mixture Bootstrapping (CLIMB), an automated framework that discovers, evaluates, and refines data mixtures in a pre-training setting.)",
+            "대규모 데이터셋을 의미 공간에 내장하고 클러스터링한 후, 작은 프록시 모델과 예측기를 사용하여 최적의 혼합을 반복적으로 검색함(CLIMB embeds and clusters large-scale datasets in a semantic space and then iteratively searches for optimal mixtures using a smaller proxy model and a predictor.)",
+            "400B 토큰으로 지속적으로 훈련한 결과, 우리의 1B 모델이 기존의 Llama-3.2-1B를 2.0% 초과함(When continuously trained on 400B tokens with this mixture, our 1B model exceeds the state-of-the-art Llama-3.2-1B by 2.0%)."
+        ],
+        "conclusion": "최적 데이터 혼합의 특징을 분석하고, 연구용 플레이그라운드인 ClimbLab과 효율적인 사전 학습을 위한 ClimbMix 데이터셋을 소개함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.13146",
+            "authors": [
+                {
+                    "_id": "6801b77dcb758561ae26997e",
+                    "user": {
+                        "_id": "647c0564001553a39c38e79e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/t5KF0Vp7kCk-5EZRWhG8i.jpeg",
+                        "isPro": false,
+                        "fullname": "Yash Savani",
+                        "user": "yashsavani",
+                        "type": "user"
+                    },
+                    "name": "Yash Savani",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-18T09:39:03.683Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae26997f",
+                    "name": "Asher Trockman",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae269980",
+                    "name": "Zhili Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae269981",
+                    "name": "Avi Schwarzschild",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae269982",
+                    "user": {
+                        "_id": "63458a32d54fb141deda949d",
+                        "avatarUrl": "/avatars/fc4b59cd009075ac7987c6cdddbe3fea.svg",
+                        "isPro": false,
+                        "fullname": "Alex Robey",
+                        "user": "arobey1",
+                        "type": "user"
+                    },
+                    "name": "Alexander Robey",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-18T09:39:01.839Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae269983",
+                    "name": "Marc Finzi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b77dcb758561ae269984",
+                    "name": "J. Zico Kolter",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-17T17:54:14.000Z",
+            "submittedOnDailyAt": "2025-04-18T00:59:33.586Z",
+            "title": "Antidistillation Sampling",
+            "submittedOnDailyBy": {
+                "_id": "6570917c0ea91e592aff0b8c",
+                "avatarUrl": "/avatars/529e9713e6ac835e11599ea7070a9603.svg",
+                "isPro": false,
+                "fullname": "Avi Schwarzschild",
+                "user": "schwarzschild",
+                "type": "user"
+            },
+            "summary": "Frontier models that generate extended reasoning traces inadvertently produce\nrich token sequences that can facilitate model distillation. Recognizing this\nvulnerability, model owners may seek sampling strategies that limit the\neffectiveness of distillation without compromising model performance.\nAntidistillation sampling provides exactly this capability. By\nstrategically modifying a model's next-token probability distribution,\nantidistillation sampling poisons reasoning traces, rendering them\nsignificantly less effective for distillation while preserving the model's\npractical utility. For further details, see https://antidistillation.com.",
+            "upvotes": 46,
+            "discussionId": "6801b77ecb758561ae269a19",
+            "projectPage": "https://antidistillation.com",
+            "ai_keywords": [
+                "antidistillation sampling",
+                "next-token probability distribution",
+                "reasoning traces"
+            ]
+        },
+        "translation_title": "Antidistillation Sampling",
+        "purpose": "모델 성능을 저하시키지 않으면서 증류 효과를 제한하는 샘플링 전략 연구",
+        "method": [
+            "모델의 다음 토큰 확률 분포를 전략적으로 수정함으로써(reasoning traces, rendering them significantly less effective for distillation while preserving the model's practical utility.)",
+            "모델이 생성하는 사고 추적이 증류 효과를 줄이도록 하는 antidistillation sampling 기법 제공함(Antidistillation sampling provides exactly this capability.)"
+        ],
+        "conclusion": "antidistillation sampling을 통해 모델 성능을 유지하면서 증류의 효과를 크게 줄일 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.12322",
+            "authors": [
+                {
+                    "_id": "6801d3de81552de84a537dd5",
+                    "user": {
+                        "_id": "652f9a74c22d404ebfa9f51d",
+                        "avatarUrl": "/avatars/8959d312b7c4c28952d4a26bb67f82ea.svg",
+                        "isPro": false,
+                        "fullname": "gaoxin",
+                        "user": "GX-XinGao",
+                        "type": "user"
+                    },
+                    "name": "Xin Gao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-18T09:38:50.872Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537dd6",
+                    "name": "Qizhi Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537dd7",
+                    "name": "Zinan Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537dd8",
+                    "name": "Yu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537dd9",
+                    "name": "Honglin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537dda",
+                    "name": "Jiang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537ddb",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801d3de81552de84a537ddc",
+                    "name": "Lijun Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-11T06:13:43.000Z",
+            "submittedOnDailyAt": "2025-04-18T03:58:23.748Z",
+            "title": "A Strategic Coordination Framework of Small LLMs Matches Large LLMs in\n  Data Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "6397f6081323f19c578f142e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6397f6081323f19c578f142e/it7FYYKjlLX8wSsMLm8EO.jpeg",
+                "isPro": false,
+                "fullname": "QizhiPei",
+                "user": "QizhiPei",
+                "type": "user"
+            },
+            "summary": "While data synthesis and distillation are promising strategies to enhance\nsmall language models, current approaches heavily rely on Large Language Models\n(LLMs), which suffer from high computational costs, environmental inefficiency,\nand potential biases inherited from monolithic architectures. In contrast,\nsmaller LLMs are more accessible and sustainable, but their individual\ncapabilities often fall short in generating high-quality, diverse, and reliable\ndata. Inspired by collaborative human processes (e.g., peer review), we propose\na multiple small LLMs involved framework, GRA, that aggregates specialized\nroles across small LLMs to iterative refinement and quality control typically\nachieved by a single large LLM. In this collaborative framework, multiple small\nLLMs assume distinct roles-Generator, Reviewer, and Adjudicator-to simulate a\npeer-review-inspired data synthesis pipeline. The Generator proposes initial\ndata samples, the Reviewer critiques their quality and diversity, and the\nAdjudicator resolves conflicts to finalize the output. By decomposing the\nsynthesis process into specialized sub-tasks, collaborative small LLMs can\nachieve data-level parity with large LLM-based distillation. Through\nexperiments across multiple benchmarks, we demonstrate that GRA-produced data\nmatches or exceeds the quality of single large LLM outputs, e.g.,\nQwen-2.5-72B-Instruct. Our results challenge the necessity of monolithic large\nmodels for high-quality data synthesis, advocating instead for strategic\ncoordination of smaller agents. Our datasets, models, and code are publicly\navailable at https://github.com/GX-XinGao/GRA.",
+            "upvotes": 21,
+            "discussionId": "6801d3df81552de84a537e20",
+            "githubRepo": "https://github.com/GX-XinGao/GRA",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "multiple small LLMs involved framework",
+                "GRA",
+                "Generator",
+                "Reviewer",
+                "Adjudicator",
+                "peer-review-inspired data synthesis pipeline",
+                "data-level parity"
+            ]
+        },
+        "translation_title": "소형 LLM의 전략적 조정 프레임워크가 데이터 합성에서 대형 LLM과 일치하다",
+        "purpose": "소형 언어 모델의 데이터 합성 품질을 높이기 위해 다수의 소형 LLM을 협력적으로 활용하는 방안을 제안함",
+        "method": [
+            "GRA라는 다수의 소형 LLM이 참여하는 프레임워크를 제안하여 전문화된 역할을 통한 반복적 개선 수행(we propose a multiple small LLMs involved framework, GRA, that aggregates specialized roles across small LLMs to iterative refinement and quality control typically achieved by a single large LLM.)",
+            "Generator가 초기 데이터 샘플을 제안하고, Reviewer가 그 품질과 다양성을 평가하며, Adjudicator가 충돌을 해결해 최종 출력을 결정함(In this collaborative framework, multiple small LLMs assume distinct roles-Generator, Reviewer, and Adjudicator-to simulate a peer-review-inspired data synthesis pipeline.)",
+            "실험을 통해 GRA에서 생성된 데이터가 단일 대형 LLM의 결과와 일치하거나 이를 초과함을 입증함(Through experiments across multiple benchmarks, we demonstrate that GRA-produced data matches or exceeds the quality of single large LLM outputs.)"
+        ],
+        "conclusion": "작은 LLM의 전략적 조정이 대형 LLM 없이도 높은 품질의 데이터 합성을 가능하게 하며, 이는 기존 대형 모델에 대한 필요성이 줄어들 수 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.13169",
+            "authors": [
+                {
+                    "_id": "6801bcd484335da5c3e32d0b",
+                    "user": {
+                        "_id": "644a767044b75fd95805d232",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/644a767044b75fd95805d232/vHA2vI_B3CpXapdBEwspB.jpeg",
+                        "isPro": false,
+                        "fullname": "Patrick (Tsung-Han) Wu",
+                        "user": "tsunghanwu",
+                        "type": "user"
+                    },
+                    "name": "Tsung-Han Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-18T09:38:59.626Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801bcd484335da5c3e32d0c",
+                    "name": "Heekyung Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801bcd484335da5c3e32d0d",
+                    "name": "Jiaxin Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801bcd484335da5c3e32d0e",
+                    "name": "Joseph E. Gonzalez",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801bcd484335da5c3e32d0f",
+                    "name": "Trevor Darrell",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801bcd484335da5c3e32d10",
+                    "name": "David M. Chan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-17T17:59:22.000Z",
+            "submittedOnDailyAt": "2025-04-18T01:16:30.770Z",
+            "title": "Generate, but Verify: Reducing Hallucination in Vision-Language Models\n  with Retrospective Resampling",
+            "submittedOnDailyBy": {
+                "_id": "6388f68c43d8b0797a09ff84",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669920369989-noauth.jpeg",
+                "isPro": false,
+                "fullname": "David Chan",
+                "user": "davidchan",
+                "type": "user"
+            },
+            "summary": "Vision-Language Models (VLMs) excel at visual understanding but often suffer\nfrom visual hallucinations, where they generate descriptions of nonexistent\nobjects, actions, or concepts, posing significant risks in safety-critical\napplications. Existing hallucination mitigation methods typically follow one of\ntwo paradigms: generation adjustment, which modifies decoding behavior to align\ntext with visual inputs, and post-hoc verification, where external models\nassess and correct outputs. While effective, generation adjustment methods\noften rely on heuristics and lack correction mechanisms, while post-hoc\nverification is complicated, typically requiring multiple models and tending to\nreject outputs rather than refine them. In this work, we introduce REVERSE, a\nunified framework that integrates hallucination-aware training with on-the-fly\nself-verification. By leveraging a new hallucination-verification dataset\ncontaining over 1.3M semi-synthetic samples, along with a novel inference-time\nretrospective resampling technique, our approach enables VLMs to both detect\nhallucinations during generation and dynamically revise those hallucinations.\nOur evaluations show that REVERSE achieves state-of-the-art hallucination\nreduction, outperforming the best existing methods by up to 12% on CHAIR-MSCOCO\nand 28% on HaloQuest. Our dataset, model, and code are available at:\nhttps://reverse-vlm.github.io.",
+            "upvotes": 20,
+            "discussionId": "6801bcd684335da5c3e32db7",
+            "projectPage": "https://reverse-vlm.github.io",
+            "githubRepo": "https://github.com/tsunghan-wu/reverse_vlm",
+            "ai_keywords": [
+                "Vision-Language Models (VLMs)",
+                "visual hallucinations",
+                "generation adjustment",
+                "post-hoc verification",
+                "hallucination-aware training",
+                "on-the-fly self-verification",
+                "hallucination-verification dataset",
+                "semi-synthetic samples",
+                "inference-time retrospective resampling",
+                "CHAIR-MSCOCO",
+                "HaloQuest",
+                "state-of-the-art hallucination reduction"
+            ]
+        },
+        "translation_title": "생성하되 검증하라: 회고적 재샘플링을 통해 비전-언어 모델에서 환각 감소",
+        "purpose": "비전-언어 모델의 환각 현상을 줄여 안전한 결과를 생성하기 위해 새로운 접근 방식을 개발하는 것",
+        "method": [
+            "회의적 수치를 발견하고 동적으로 수정할 수 있는 REVERSE라는 통합 프레임워크를 도입함(we introduce REVERSE, a unified framework that integrates hallucination-aware training with on-the-fly self-verification.)",
+            "1.3M 이상의 반-합성 샘플을 포함하는 새로운 환각 검증 데이터셋을 활용함(By leveraging a new hallucination-verification dataset containing over 1.3M semi-synthetic samples.)",
+            "새로운 추론 시 회고적 재샘플링 기법을 적용함(with a novel inference-time retrospective resampling technique.)"
+        ],
+        "conclusion": "REVERSE는 비전-언어 모델의 환각 감소에서 가장 최신의 성능을 달성하며 기존 방법보다 최대 12%에서 28% 더 나은 결과를 보임.",
+        "keywords": [
+            "Vision-Language Models",
+            "Hallucination",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.12626",
+            "authors": [
+                {
+                    "_id": "6801b65181552de84a4b7e29",
+                    "name": "Lvmin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6801b65181552de84a4b7e2a",
+                    "name": "Maneesh Agrawala",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-17T04:02:31.000Z",
+            "submittedOnDailyAt": "2025-04-18T00:47:56.027Z",
+            "title": "Packing Input Frame Context in Next-Frame Prediction Models for Video\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "63468720dd6d90d82ccf3450",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+                "isPro": false,
+                "fullname": "YSH",
+                "user": "BestWishYsh",
+                "type": "user"
+            },
+            "summary": "We present a neural network structure, FramePack, to train next-frame (or\nnext-frame-section) prediction models for video generation. The FramePack\ncompresses input frames to make the transformer context length a fixed number\nregardless of the video length. As a result, we are able to process a large\nnumber of frames using video diffusion with computation bottleneck similar to\nimage diffusion. This also makes the training video batch sizes significantly\nhigher (batch sizes become comparable to image diffusion training). We also\npropose an anti-drifting sampling method that generates frames in inverted\ntemporal order with early-established endpoints to avoid exposure bias (error\naccumulation over iterations). Finally, we show that existing video diffusion\nmodels can be finetuned with FramePack, and their visual quality may be\nimproved because the next-frame prediction supports more balanced diffusion\nschedulers with less extreme flow shift timesteps.",
+            "upvotes": 20,
+            "discussionId": "6801b65281552de84a4b7e42",
+            "projectPage": "https://lllyasviel.github.io/frame_pack_gitpage/",
+            "githubRepo": "https://github.com/lllyasviel/FramePack",
+            "ai_keywords": [
+                "FramePack",
+                "next-frame prediction",
+                "transformer context length",
+                "video diffusion",
+                "computation bottleneck",
+                "image diffusion",
+                "anti-drifting sampling",
+                "inverted temporal order",
+                "exposure bias",
+                "existing video diffusion models",
+                "parameter-efficient fine-tuning",
+                "visual quality",
+                "diffusion schedulers",
+                "extreme flow shift timesteps"
+            ]
+        },
+        "translation_title": "비디오 생성을 위한 다음 프레임 예측 모델에서 입력 프레임 컨텍스트 포장",
+        "purpose": "비디오 생성을 위한 다음 프레임 예측 모델의 효율성을 향상시키기 위해 입력 프레임을 효과적으로 처리하는 구조 연구",
+        "method": [
+            "FramePack이라는 신경망 구조를 제안하여 비디오 길이에 관계없이 변환기의 컨텍스트 길이가 고정되도록 입력 프레임을 압축함(We present a neural network structure, FramePack, to train next-frame prediction models for video generation.)",
+            "많은 프레임을 처리하고 계산 병목 현상을 줄이기 위해 비디오 디퓨전을 활용함(As a result, we are able to process a large number of frames using video diffusion with computation bottleneck similar to image diffusion.)",
+            "반 드리프팅 샘플링 방법을 제안하여 노출 편향을 피하도록 하고 초기 설정된 엔드포인트를 기초로 프레임을 생성함(We also propose an anti-drifting sampling method that generates frames in inverted temporal order with early-established endpoints to avoid exposure bias.)"
+        ],
+        "conclusion": "FramePack을 통해 기존 비디오 디퓨전 모델을 미세 조정하면 비주얼 품질이 향상되고, 더 균형 잡힌 디퓨전 스케줄러가 지원됨.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
