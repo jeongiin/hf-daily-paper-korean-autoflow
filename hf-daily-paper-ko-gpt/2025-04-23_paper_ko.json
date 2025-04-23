@@ -1,0 +1,842 @@
+[
+    {
+        "paper": {
+            "id": "2504.15120",
+            "authors": [
+                {
+                    "_id": "680733cf7722bb6407ca0787",
+                    "user": {
+                        "_id": "65276c7911a8a521c91bc10f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                        "isPro": false,
+                        "fullname": "Khalil Hennara",
+                        "user": "Hennara",
+                        "type": "user"
+                    },
+                    "name": "Khalil Hennara",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-04-22T09:37:47.479Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680733cf7722bb6407ca0788",
+                    "user": {
+                        "_id": "650b64fb443b2a59d4d432e3",
+                        "avatarUrl": "/avatars/e26ae76d9ab643081b155e521c3cddad.svg",
+                        "isPro": false,
+                        "fullname": "Sara Chrouf",
+                        "user": "SaraChrouf",
+                        "type": "user"
+                    },
+                    "name": "Sara Chrouf",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:01:31.400Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680733cf7722bb6407ca0789",
+                    "user": {
+                        "_id": "63aa7667769a10efc404fbbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aa7667769a10efc404fbbc/tn8ZxUmTEMS0Gze7_F7JL.jpeg",
+                        "isPro": false,
+                        "fullname": "Mohamed Motasim Hamed",
+                        "user": "Moatasem444",
+                        "type": "user"
+                    },
+                    "name": "Mohamed Motaism Hamed",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:37:25.702Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680733cf7722bb6407ca078a",
+                    "user": {
+                        "_id": "65704741e1cfce1764ce652e",
+                        "avatarUrl": "/avatars/9189aaf417426af4ebe381ed364a6c0e.svg",
+                        "isPro": false,
+                        "fullname": "Zeina Aldallal",
+                        "user": "ZeinaD",
+                        "type": "user"
+                    },
+                    "name": "Zeina Aldallal",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-04-23T05:30:42.569Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680733cf7722bb6407ca078b",
+                    "user": {
+                        "_id": "65aab3940150f64adfcf5ba6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65aab3940150f64adfcf5ba6/umkbppPt4grNdhLxP7ZUh.jpeg",
+                        "isPro": false,
+                        "fullname": "Mohammad Omar Hadid",
+                        "user": "omarhadid",
+                        "type": "user"
+                    },
+                    "name": "Omar Hadid",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:01:37.791Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680733cf7722bb6407ca078c",
+                    "name": "Safwan AlModhayan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-21T14:17:25.000Z",
+            "submittedOnDailyAt": "2025-04-23T03:28:02.778Z",
+            "title": "Kuwain 1.5B: An Arabic SLM via Language Injection",
+            "submittedOnDailyBy": {
+                "_id": "65276c7911a8a521c91bc10f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                "isPro": false,
+                "fullname": "Khalil Hennara",
+                "user": "Hennara",
+                "type": "user"
+            },
+            "summary": "Enhancing existing models with new knowledge is a crucial aspect of AI\ndevelopment. This paper introduces a novel method for integrating a new\nlanguage into a large language model (LLM). Our approach successfully\nincorporates a previously unseen target language into an existing LLM without\ncompromising its prior knowledge. We trained a tiny model with 1.5 billion\nparameters named Kuwain by injecting the Arabic language into a small\nopen-source model mainly trained in English. Our method demonstrates\nsignificant improvements in Arabic language performance, with an average 8%\nimprovement across various benchmarks, while retaining the model's existing\nknowledge with a minimum amount of the original model's data. This offers a\ncost-effective alternative to training a comprehensive model in both English\nand Arabic. The results highlight the potential for efficient, targeted\nlanguage model expansion without extensive retraining or resource-intensive\nprocesses.",
+            "upvotes": 82,
+            "discussionId": "680733d07722bb6407ca07da",
+            "githubRepo": "https://github.com/misraj-ai/Kuwain-Arabic-cleaner",
+            "ai_keywords": [
+                "large language model (LLM)",
+                "tiny model",
+                "Kuwain",
+                "language integration",
+                "Arabic language",
+                "benchmarks",
+                "language model expansion"
+            ]
+        },
+        "translation_title": "Kuwain 1.5B: 언어 주입을 통한 아랍어 SLM",
+        "purpose": "기존 LLM에 새로운 언어를 통합하여 아랍어 성능을 향상시키기 위한 방법 연구",
+        "method": [
+            "영어로 주로 학습된 소규모 오픈 소스 모델에 아랍어를 주입하여 15억 매개변수를 가진 Kuwain 모델을 훈련함(Our approach successfully incorporates a previously unseen target language into an existing LLM without compromising its prior knowledge.)",
+            "모델을 최소한의 원래 데이터로 훈련하면서 아랍어 성능을 평균 8% 향상시킴(Our method demonstrates significant improvements in Arabic language performance, with an average 8% improvement across various benchmarks.)"
+        ],
+        "conclusion": "Kuwain 모델은 아랍어 언어 모델의 효과적인 확장을 가능하게 하며, 자원집약적인 과정 없이도 효율적인 방법으로 새로운 언어를 통합할 수 있음을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.16084",
+            "authors": [
+                {
+                    "_id": "6808558a07e80b69b2e351b5",
+                    "user": {
+                        "_id": "622474f38dc6b0b64f5e903d",
+                        "avatarUrl": "/avatars/d6b60a014277a8ec7d564163c5f644aa.svg",
+                        "isPro": false,
+                        "fullname": "Yuxin Zuo",
+                        "user": "yuxinzuo",
+                        "type": "user"
+                    },
+                    "name": "Yuxin Zuo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:01:58.206Z",
+                    "hidden": true
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351b6",
+                    "user": {
+                        "_id": "60bc94cd85a3ab33829b6211",
+                        "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+                        "isPro": false,
+                        "fullname": "Kaiyan Zhang",
+                        "user": "iseesaw",
+                        "type": "user"
+                    },
+                    "name": "Kaiyan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:27:51.438Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351b7",
+                    "name": "Shang Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351b8",
+                    "user": {
+                        "_id": "65c874daa3ea4f6d8df75dd1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c874daa3ea4f6d8df75dd1/k-2Ng8pZvEwu6IcY9omYo.jpeg",
+                        "isPro": false,
+                        "fullname": "li sheng",
+                        "user": "bambisheng",
+                        "type": "user"
+                    },
+                    "name": "Li Sheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T13:00:56.119Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351b9",
+                    "user": {
+                        "_id": "647ffddeb82adfa7cc1a10d9",
+                        "avatarUrl": "/avatars/26aa168d6b2068298ebb16584aa52b6c.svg",
+                        "isPro": false,
+                        "fullname": "zhu",
+                        "user": "xuekai",
+                        "type": "user"
+                    },
+                    "name": "Xuekai Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:02:11.848Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351ba",
+                    "user": {
+                        "_id": "645d9c3058f9ee315148116d",
+                        "avatarUrl": "/avatars/165e18f27b5a50738bf1d22857118478.svg",
+                        "isPro": false,
+                        "fullname": "Biqing Qi",
+                        "user": "jackqi7",
+                        "type": "user"
+                    },
+                    "name": "Biqing Qi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:02:18.316Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351bb",
+                    "user": {
+                        "_id": "679ce8c048ebd7903d76a832",
+                        "avatarUrl": "/avatars/5f3fecaacfee6e2d5a72dd19fe87055a.svg",
+                        "isPro": false,
+                        "fullname": "Youbang Sun",
+                        "user": "Youbang",
+                        "type": "user"
+                    },
+                    "name": "Youbang Sun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:02:24.351Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351bc",
+                    "user": {
+                        "_id": "650eba9555dc1e841746f132",
+                        "avatarUrl": "/avatars/af6f5ee78f161d25ec0afc45d2def8eb.svg",
+                        "isPro": false,
+                        "fullname": "Ganqu Cui",
+                        "user": "ganqu",
+                        "type": "user"
+                    },
+                    "name": "Ganqu Cui",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:02:30.607Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351bd",
+                    "user": {
+                        "_id": "60cf4bcb1ce3775ebb86e5d5",
+                        "avatarUrl": "/avatars/12bcd18d215abf91f297f93007733148.svg",
+                        "isPro": false,
+                        "fullname": "Ning Ding",
+                        "user": "stingning",
+                        "type": "user"
+                    },
+                    "name": "Ning Ding",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:02:51.039Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808558a07e80b69b2e351be",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-22T17:59:56.000Z",
+            "submittedOnDailyAt": "2025-04-23T01:22:31.055Z",
+            "title": "TTRL: Test-Time Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "60bc94cd85a3ab33829b6211",
+                "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+                "isPro": false,
+                "fullname": "Kaiyan Zhang",
+                "user": "iseesaw",
+                "type": "user"
+            },
+            "summary": "This paper investigates Reinforcement Learning (RL) on data without explicit\nlabels for reasoning tasks in Large Language Models (LLMs). The core challenge\nof the problem is reward estimation during inference while not having access to\nground-truth information. While this setting appears elusive, we find that\ncommon practices in Test-Time Scaling (TTS), such as majority voting, yield\nsurprisingly effective rewards suitable for driving RL training. In this work,\nwe introduce Test-Time Reinforcement Learning (TTRL), a novel method for\ntraining LLMs using RL on unlabeled data. TTRL enables self-evolution of LLMs\nby utilizing the priors in the pre-trained models. Our experiments demonstrate\nthat TTRL consistently improves performance across a variety of tasks and\nmodels. Notably, TTRL boosts the pass@1 performance of Qwen-2.5-Math-7B by\napproximately 159% on the AIME 2024 with only unlabeled test data. Furthermore,\nalthough TTRL is only supervised by the Maj@N metric, TTRL has demonstrated\nperformance to consistently surpass the upper limit of the initial model, and\napproach the performance of models trained directly on test data with\nground-truth labels. Our experimental findings validate the general\neffectiveness of TTRL across various tasks, and highlight TTRL's potential for\nbroader tasks and domains. GitHub: https://github.com/PRIME-RL/TTRL",
+            "upvotes": 51,
+            "discussionId": "6808558b07e80b69b2e351f3",
+            "githubRepo": "https://github.com/PRIME-RL/TTRL",
+            "ai_keywords": [
+                "Reinforcement Learning (RL)",
+                "Large Language Models (LLMs)",
+                "reward estimation",
+                "Test-Time Scaling (TTS)",
+                "majority voting",
+                "Test-Time Reinforcement Learning (TTRL)",
+                "self-evolution",
+                "pre-trained models",
+                "pass@1",
+                "Qwen-2.5-Math-7B",
+                "AIME 2024",
+                "Maj@N metric"
+            ]
+        },
+        "translation_title": "TTRL: 테스트 시간 강화 학습",
+        "purpose": "라벨이 없는 데이터에서 대규모 언어 모델의 성능을 개선하기 위한 강화 학습 방법 연구",
+        "method": [
+            "테스트 시간에서 일반적인 방법(예: 다수결 투표)을 활용해 효과적인 보상을 추정함(While this setting appears elusive, we find that common practices in Test-Time Scaling (TTS), such as majority voting, yield surprisingly effective rewards suitable for driving RL training.)",
+            "테스트 라벨이 없는 데이터로 LLM을 강화 학습으로 훈련시키는 새로운 방법인 TTRL을 제안함(In this work, we introduce Test-Time Reinforcement Learning (TTRL), a novel method for training LLMs using RL on unlabeled data.)",
+            "TTRL을 통해 사전 훈련된 모델의 기존 정보를 활용하여 LLM의 자가 진화를 가능하게 함(TTRL enables self-evolution of LLMs by utilizing the priors in the pre-trained models.)",
+            "다양한 작업과 모델에서 TTRL이 일관되게 성능 향상을 보여줌(Our experiments demonstrate that TTRL consistently improves performance across a variety of tasks and models.)"
+        ],
+        "conclusion": "TTRL은 초기 모델 성능의 상한선을 일관되게 초과하며, 실제 라벨로 훈련된 모델과 유사한 성능에 도달함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.15521",
+            "authors": [
+                {
+                    "_id": "6808458f07e80b69b2df2440",
+                    "user": {
+                        "_id": "62d4bf8c97ab9eb08762a975",
+                        "avatarUrl": "/avatars/73c6228e317cf37b4e3c3e7a4b3d8ae8.svg",
+                        "isPro": false,
+                        "fullname": "Minghao Wu",
+                        "user": "minghaowu",
+                        "type": "user"
+                    },
+                    "name": "Minghao Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:03:02.862Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2441",
+                    "user": {
+                        "_id": "675c52ecdea6ceb2f6ce0ea3",
+                        "avatarUrl": "/avatars/b5ea0e2bc5b001446f62343a907e95f1.svg",
+                        "isPro": false,
+                        "fullname": "weixuan wang",
+                        "user": "yourdadishere",
+                        "type": "user"
+                    },
+                    "name": "Weixuan Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:03:08.988Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2442",
+                    "user": {
+                        "_id": "635504620d6e89270d440050",
+                        "avatarUrl": "/avatars/3790bf4a68f943a122af59b1362b07f2.svg",
+                        "isPro": false,
+                        "fullname": "LiuSinuo",
+                        "user": "SNF",
+                        "type": "user"
+                    },
+                    "name": "Sinuo Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:03:19.254Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2443",
+                    "name": "Huifeng Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2444",
+                    "name": "Xintong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2445",
+                    "user": {
+                        "_id": "654a500d9b8bd6406d431c0d",
+                        "avatarUrl": "/avatars/a6b76441bbc6f4b71d49c52e454c9ef7.svg",
+                        "isPro": false,
+                        "fullname": "Yu Zhao",
+                        "user": "yuzhaouoe",
+                        "type": "user"
+                    },
+                    "name": "Yu Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:04:09.002Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2446",
+                    "user": {
+                        "_id": "6527d8b077bceabaab382a75",
+                        "avatarUrl": "/avatars/69caacf9153dbf6a3796693a968b363f.svg",
+                        "isPro": false,
+                        "fullname": "Chenyang Lyu",
+                        "user": "ChenyangLyu",
+                        "type": "user"
+                    },
+                    "name": "Chenyang Lyu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:16.770Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2447",
+                    "user": {
+                        "_id": "636b030c328133bdb3a523bc",
+                        "avatarUrl": "/avatars/15d5d5403fef2f1368bb4185b199061d.svg",
+                        "isPro": false,
+                        "fullname": "Longyue Wang",
+                        "user": "longyuewang",
+                        "type": "user"
+                    },
+                    "name": "Longyue Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:04:14.454Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2448",
+                    "user": {
+                        "_id": "66b03cedd59c09785e39711e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/N5yfQBSP3oAKPCz4ylR09.png",
+                        "isPro": false,
+                        "fullname": "Weihua Luo",
+                        "user": "acecamel1977",
+                        "type": "user"
+                    },
+                    "name": "Weihua Luo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:04:20.964Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808458f07e80b69b2df2449",
+                    "user": {
+                        "_id": "63f87ebadf053017d1acbfdd",
+                        "avatarUrl": "/avatars/e497ba5f41a2587837b4a6118d9367bb.svg",
+                        "isPro": false,
+                        "fullname": "Kaifu Zhang",
+                        "user": "zhangkaifu314",
+                        "type": "user"
+                    },
+                    "name": "Kaifu Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:04:27.022Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-22T01:47:37.000Z",
+            "submittedOnDailyAt": "2025-04-23T00:13:52.385Z",
+            "title": "The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks",
+            "submittedOnDailyBy": {
+                "_id": "62d4bf8c97ab9eb08762a975",
+                "avatarUrl": "/avatars/73c6228e317cf37b4e3c3e7a4b3d8ae8.svg",
+                "isPro": false,
+                "fullname": "Minghao Wu",
+                "user": "minghaowu",
+                "type": "user"
+            },
+            "summary": "As large language models (LLMs) continue to advance in linguistic\ncapabilities, robust multilingual evaluation has become essential for promoting\nequitable technological progress. This position paper examines over 2,000\nmultilingual (non-English) benchmarks from 148 countries, published between\n2021 and 2024, to evaluate past, present, and future practices in multilingual\nbenchmarking. Our findings reveal that, despite significant investments\namounting to tens of millions of dollars, English remains significantly\noverrepresented in these benchmarks. Additionally, most benchmarks rely on\noriginal language content rather than translations, with the majority sourced\nfrom high-resource countries such as China, India, Germany, the UK, and the\nUSA. Furthermore, a comparison of benchmark performance with human judgments\nhighlights notable disparities. STEM-related tasks exhibit strong correlations\nwith human evaluations (0.70 to 0.85), while traditional NLP tasks like\nquestion answering (e.g., XQuAD) show much weaker correlations (0.11 to 0.30).\nMoreover, translating English benchmarks into other languages proves\ninsufficient, as localized benchmarks demonstrate significantly higher\nalignment with local human judgments (0.68) than their translated counterparts\n(0.47). This underscores the importance of creating culturally and\nlinguistically tailored benchmarks rather than relying solely on translations.\nThrough this comprehensive analysis, we highlight six key limitations in\ncurrent multilingual evaluation practices, propose the guiding principles\naccordingly for effective multilingual benchmarking, and outline five critical\nresearch directions to drive progress in the field. Finally, we call for a\nglobal collaborative effort to develop human-aligned benchmarks that prioritize\nreal-world applications.",
+            "upvotes": 47,
+            "discussionId": "6808459007e80b69b2df249e",
+            "ai_keywords": [
+                "multilingual large language models (LLMs)",
+                "multilingual benchmarks",
+                "benchmark performance",
+                "human judgments",
+                "STEM-related tasks",
+                "question answering (e.g., XQuAD)",
+                "culturally and linguistically tailored benchmarks",
+                "human-aligned benchmarks",
+                "real-world applications"
+            ]
+        },
+        "translation_title": "2,000개 이상의 다국어 벤치마크에서 배운 쓴 교훈",
+        "purpose": "공정한 기술 발전을 촉진하기 위해 다국어 평가의 필요성을 강조하고 효과적인 다국어 벤치마킹의 원칙을 제안함.",
+        "method": [
+            "2021년과 2024년 사이에 출판된 2,000개 이상의 다국어 벤치마크를 분석함(As large language models (LLMs) continue to advance in linguistic capabilities, robust multilingual evaluation has become essential for promoting equitable technological progress.)",
+            "벤치마크의 성과와 인간 판단 간의 비교를 통해 시사점을 도출함(Additionally, a comparison of benchmark performance with human judgments highlights notable disparities.)",
+            "현재의 다국어 평가 관행의 여섯 가지 주요 한계를 강조하고 향후 연구 방향을 제안함 (Through this comprehensive analysis, we highlight six key limitations in current multilingual evaluation practices, propose the guiding principles accordingly for effective multilingual benchmarking.)"
+        ],
+        "conclusion": "다국어 벤치마킹에서 문화적 및 언어적 맞춤화의 중요성을 강조하며, 인간 중심의 벤치마크 개발을 위한 글로벌 협력을 촉구함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.16072",
+            "authors": [
+                {
+                    "_id": "6808467a867c3ef14f8326ce",
+                    "user": {
+                        "_id": "63797c273f575acc2f6893c0",
+                        "avatarUrl": "/avatars/32d7a6a8881c8c4d80a097b732ed24b6.svg",
+                        "isPro": true,
+                        "fullname": "Long(Tony) Lian",
+                        "user": "longlian",
+                        "type": "user"
+                    },
+                    "name": "Long Lian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:14.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326cf",
+                    "name": "Yifan Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d0",
+                    "name": "Yunhao Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d1",
+                    "user": {
+                        "_id": "62fab69f8cd542e895bafd6e",
+                        "avatarUrl": "/avatars/c553bff4bd52b9a4f79e9c76fa22e27e.svg",
+                        "isPro": false,
+                        "fullname": "Sifei Liu",
+                        "user": "zwrq",
+                        "type": "user"
+                    },
+                    "name": "Sifei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:08.248Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d2",
+                    "user": {
+                        "_id": "645bd14978730bcc10414267",
+                        "avatarUrl": "/avatars/155cefe7bd5878532ce19693be5a13ec.svg",
+                        "isPro": false,
+                        "fullname": "Hanzi Mao",
+                        "user": "hannamao",
+                        "type": "user"
+                    },
+                    "name": "Hanzi Mao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:14.917Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d3",
+                    "user": {
+                        "_id": "620dd3888528f797e88cb9b5",
+                        "avatarUrl": "/avatars/af04728788d78fe7d6375e19e32a535e.svg",
+                        "isPro": false,
+                        "fullname": "Boyi Li",
+                        "user": "Boyiliee",
+                        "type": "user"
+                    },
+                    "name": "Boyi Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:09.738Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d4",
+                    "name": "Marco Pavone",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d5",
+                    "name": "Ming-Yu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d6",
+                    "user": {
+                        "_id": "64cbdf02f103036e23d1c7f3",
+                        "avatarUrl": "/avatars/496069463900dea20929b57381182d39.svg",
+                        "isPro": false,
+                        "fullname": "Trevor Darrell",
+                        "user": "trevordarrell",
+                        "type": "user"
+                    },
+                    "name": "Trevor Darrell",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:25.340Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d7",
+                    "user": {
+                        "_id": "6333a9195a032dcd095dda13",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1664329996201-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Adam Yala",
+                        "user": "yala",
+                        "type": "user"
+                    },
+                    "name": "Adam Yala",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:12.415Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808467a867c3ef14f8326d8",
+                    "user": {
+                        "_id": "649f05367b57fab3a5b27c8b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649f05367b57fab3a5b27c8b/UDJB4yqF2NmaRwCyTOfcl.jpeg",
+                        "isPro": true,
+                        "fullname": "Yin Cui",
+                        "user": "richardaecn",
+                        "type": "user"
+                    },
+                    "name": "Yin Cui",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:06.739Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63797c273f575acc2f6893c0/37vXp0iDKwhBbVyNnCGHy.qt"
+            ],
+            "publishedAt": "2025-04-22T17:51:41.000Z",
+            "submittedOnDailyAt": "2025-04-23T00:22:38.011Z",
+            "title": "Describe Anything: Detailed Localized Image and Video Captioning",
+            "submittedOnDailyBy": {
+                "_id": "63797c273f575acc2f6893c0",
+                "avatarUrl": "/avatars/32d7a6a8881c8c4d80a097b732ed24b6.svg",
+                "isPro": true,
+                "fullname": "Long(Tony) Lian",
+                "user": "longlian",
+                "type": "user"
+            },
+            "summary": "Generating detailed and accurate descriptions for specific regions in images\nand videos remains a fundamental challenge for vision-language models. We\nintroduce the Describe Anything Model (DAM), a model designed for detailed\nlocalized captioning (DLC). DAM preserves both local details and global context\nthrough two key innovations: a focal prompt, which ensures high-resolution\nencoding of targeted regions, and a localized vision backbone, which integrates\nprecise localization with its broader context. To tackle the scarcity of\nhigh-quality DLC data, we propose a Semi-supervised learning (SSL)-based Data\nPipeline (DLC-SDP). DLC-SDP starts with existing segmentation datasets and\nexpands to unlabeled web images using SSL. We introduce DLC-Bench, a benchmark\ndesigned to evaluate DLC without relying on reference captions. DAM sets new\nstate-of-the-art on 7 benchmarks spanning keyword-level, phrase-level, and\ndetailed multi-sentence localized image and video captioning.",
+            "upvotes": 37,
+            "discussionId": "6808467e867c3ef14f832831",
+            "projectPage": "https://describe-anything.github.io",
+            "githubRepo": "https://github.com/NVlabs/describe-anything",
+            "ai_keywords": [
+                "focal prompt",
+                "localized vision backbone",
+                "Semi-supervised learning (SSL)-based Data Pipeline (DLC-SDP)",
+                "segmentation datasets",
+                "DLC-Bench",
+                "keyword-level",
+                "phrase-level",
+                "detailed multi-sentence localized image and video captioning"
+            ]
+        },
+        "translation_title": "Describe Anything: 상세한 지역 기반 이미지 및 비디오 캡셔닝",
+        "purpose": "자세하고 정확한 지역 기반 캡셔닝을 통해 비전-언어 모델의 성능 향상",
+        "method": [
+            "Describe Anything Model (DAM)을 설계하여 세부적인 지역 기반 캡셔닝을 위한 모델을 개발함(DAM preserves both local details and global context through two key innovations: a focal prompt...)",
+            "Semi-supervised learning (SSL)을 적용한 데이터 파이프라인인 DLC-SDP를 통해 고품질의 데이터 부족 문제를 해결함(We propose a Semi-supervised learning (SSL)-based Data Pipeline (DLC-SDP).)",
+            "DLC-Bench라는 벤치마크를 도입하여 참조 캡션 없이 DLC를 평가할 수 있도록 함(We introduce DLC-Bench, a benchmark designed to evaluate DLC without relying on reference captions.)"
+        ],
+        "conclusion": "DAM은 7개의 벤치마크에서 새로운 최고 성능을 기록하며 키워드 수준, 구절 수준, 상세한 문장 기반의 지역 캡셔닝에서 뛰어난 결과를 도출함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Generation",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.15466",
+            "authors": [
+                {
+                    "_id": "6808480c49c8f78b6a4e492f",
+                    "user": {
+                        "_id": "61568f37272f2d87a99ba884",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61568f37272f2d87a99ba884/lgvkl5f0rEyiQRVU5FE32.png",
+                        "isPro": false,
+                        "fullname": "Jiayi Pan",
+                        "user": "Jiayi-Pan",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Pan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:37.415Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4930",
+                    "user": {
+                        "_id": "644570ba2d91b15b4c7f6311",
+                        "avatarUrl": "/avatars/d5e66012066d0c330b8f23718b1499d8.svg",
+                        "isPro": false,
+                        "fullname": "Xiuyu Li",
+                        "user": "xiuyul",
+                        "type": "user"
+                    },
+                    "name": "Xiuyu Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:27:59.248Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4931",
+                    "user": {
+                        "_id": "63797c273f575acc2f6893c0",
+                        "avatarUrl": "/avatars/32d7a6a8881c8c4d80a097b732ed24b6.svg",
+                        "isPro": true,
+                        "fullname": "Long(Tony) Lian",
+                        "user": "longlian",
+                        "type": "user"
+                    },
+                    "name": "Long Lian",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:44.955Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4932",
+                    "user": {
+                        "_id": "605d07fa8a3450814bada877",
+                        "avatarUrl": "/avatars/eafe986982057fbaba962b99d5543477.svg",
+                        "isPro": false,
+                        "fullname": "Charlie Snell",
+                        "user": "sea-snell",
+                        "type": "user"
+                    },
+                    "name": "Charlie Snell",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:46:52.865Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4933",
+                    "user": {
+                        "_id": "64fd0229e0dc35986bd3c0e5",
+                        "avatarUrl": "/avatars/94f5698f9104dad7288edb4460026fd8.svg",
+                        "isPro": false,
+                        "fullname": "Yifei Zhou",
+                        "user": "yifeizhou",
+                        "type": "user"
+                    },
+                    "name": "Yifei Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:47:00.482Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4934",
+                    "user": {
+                        "_id": "6333a9195a032dcd095dda13",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1664329996201-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Adam Yala",
+                        "user": "yala",
+                        "type": "user"
+                    },
+                    "name": "Adam Yala",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:28:02.029Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4935",
+                    "user": {
+                        "_id": "64cbdf02f103036e23d1c7f3",
+                        "avatarUrl": "/avatars/496069463900dea20929b57381182d39.svg",
+                        "isPro": false,
+                        "fullname": "Trevor Darrell",
+                        "user": "trevordarrell",
+                        "type": "user"
+                    },
+                    "name": "Trevor Darrell",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:47:06.847Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4936",
+                    "user": {
+                        "_id": "6251bf4b183aa4266924ad91",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678041834400-6251bf4b183aa4266924ad91.jpeg",
+                        "isPro": true,
+                        "fullname": "Kurt Keutzer",
+                        "user": "kurtkeutzer",
+                        "type": "user"
+                    },
+                    "name": "Kurt Keutzer",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:47:13.477Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6808480c49c8f78b6a4e4937",
+                    "user": {
+                        "_id": "6611e6e1188ff298b0dd0b79",
+                        "avatarUrl": "/avatars/3a495283955ec9e06e1829c7eb2cd9a4.svg",
+                        "isPro": false,
+                        "fullname": "Alane Suhr",
+                        "user": "alsuhr",
+                        "type": "user"
+                    },
+                    "name": "Alane Suhr",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-23T13:47:19.192Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-21T22:29:02.000Z",
+            "submittedOnDailyAt": "2025-04-23T00:30:52.876Z",
+            "title": "Learning Adaptive Parallel Reasoning with Language Models",
+            "submittedOnDailyBy": {
+                "_id": "63797c273f575acc2f6893c0",
+                "avatarUrl": "/avatars/32d7a6a8881c8c4d80a097b732ed24b6.svg",
+                "isPro": true,
+                "fullname": "Long(Tony) Lian",
+                "user": "longlian",
+                "type": "user"
+            },
+            "summary": "Scaling inference-time computation has substantially improved the reasoning\ncapabilities of language models. However, existing methods have significant\nlimitations: serialized chain-of-thought approaches generate overly long\noutputs, leading to increased latency and exhausted context windows, while\nparallel methods such as self-consistency suffer from insufficient\ncoordination, resulting in redundant computations and limited performance\ngains. To address these shortcomings, we propose Adaptive Parallel Reasoning\n(APR), a novel reasoning framework that enables language models to orchestrate\nboth serialized and parallel computations end-to-end. APR generalizes existing\nreasoning methods by enabling adaptive multi-threaded inference using spawn()\nand join() operations. A key innovation is our end-to-end reinforcement\nlearning strategy, optimizing both parent and child inference threads to\nenhance task success rate without requiring predefined reasoning structures.\nExperiments on the Countdown reasoning task demonstrate significant benefits of\nAPR: (1) higher performance within the same context window (83.4% vs. 60.0% at\n4k context); (2) superior scalability with increased computation (80.1% vs.\n66.6% at 20k total tokens); (3) improved accuracy at equivalent latency (75.2%\nvs. 57.3% at approximately 5,000ms). APR represents a step towards enabling\nlanguage models to autonomously optimize their reasoning processes through\nadaptive allocation of computation.",
+            "upvotes": 29,
+            "discussionId": "6808480c49c8f78b6a4e4968",
+            "githubRepo": "https://github.com/Parallel-Reasoning/APR",
+            "ai_keywords": [
+                "Adaptive Parallel Reasoning (APR)",
+                "serialized chain-of-thought approaches",
+                "parallel methods",
+                "self-consistency",
+                "adaptive multi-threaded inference",
+                "spawn()",
+                "join()",
+                "reinforcement learning strategy",
+                "parent inference threads",
+                "child inference threads",
+                "Countdown reasoning task",
+                "context window",
+                "scalability",
+                "total tokens",
+                "reasoning processes",
+                "adaptive allocation of computation"
+            ]
+        },
+        "translation_title": "언어 모델을 위한 적응형 병렬 추론 학습",
+        "purpose": "언어 모델이 추론 과정에서 효율성 향상을 위해 적응형 병렬 추론을 학습하도록 돕기",
+        "method": [
+            "기존 방법의 한계를 극복하기 위해 적응형 병렬 추론 프레임워크인 APR을 제안함(To address these shortcomings, we propose Adaptive Parallel Reasoning (APR), a novel reasoning framework that enables language models to orchestrate both serialized and parallel computations end-to-end.)",
+            "spawn() 및 join() 연산을 통해 다중 스레드 추론을 가능하게 함(APR generalizes existing reasoning methods by enabling adaptive multi-threaded inference using spawn() and join() operations.)",
+            "부모 및 자식 추론 스레드를 최적화하기 위한 강화 학습 전략을 적용하여 작업 성공률을 높임(A key innovation is our end-to-end reinforcement learning strategy, optimizing both parent and child inference threads to enhance task success rate without requiring predefined reasoning structures.)"
+        ],
+        "conclusion": "APR은 언어 모델이 추론 프로세스를 자율적으로 최적화할 수 있도록 하여 성능을 크게 향상시키는 효과가 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
