@@ -1,0 +1,666 @@
+[
+    {
+        "paper": {
+            "id": "2504.15279",
+            "authors": [
+                {
+                    "_id": "68070d3b5035e6d88636ae13",
+                    "user": {
+                        "_id": "649e5ee29420f68cf1c1470e",
+                        "avatarUrl": "/avatars/7f6d1ec4fb3f85351e88044016d8ab42.svg",
+                        "isPro": false,
+                        "fullname": "Xu Wayen",
+                        "user": "wilye",
+                        "type": "user"
+                    },
+                    "name": "Weiye Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-24T09:11:19.332Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae14",
+                    "user": {
+                        "_id": "664b4a748dd1bfb5a3a970fe",
+                        "avatarUrl": "/avatars/37aa9332ab3e8fbb6ae30b875a7e0e5a.svg",
+                        "isPro": false,
+                        "fullname": "Jiahao Wang",
+                        "user": "GenuineWWD",
+                        "type": "user"
+                    },
+                    "name": "Jiahao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-24T09:11:17.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae15",
+                    "user": {
+                        "_id": "619507e7b74b6c591f794340",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/619507e7b74b6c591f794340/JbPDoy6Ko1V1-6oJJwFV8.jpeg",
+                        "isPro": false,
+                        "fullname": "Weiyun Wang",
+                        "user": "Weiyun1025",
+                        "type": "user"
+                    },
+                    "name": "Weiyun Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:20:27.920Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae16",
+                    "name": "Zhe Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae17",
+                    "name": "Wengang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae18",
+                    "name": "Aijun Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae19",
+                    "user": {
+                        "_id": "65ead3ea908526a39082e641",
+                        "avatarUrl": "/avatars/dcf870695fd56b06ca03d82f831e9019.svg",
+                        "isPro": false,
+                        "fullname": "Lewei Lu",
+                        "user": "luotto",
+                        "type": "user"
+                    },
+                    "name": "Lewei Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:20:51.831Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1a",
+                    "name": "Houqiang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1b",
+                    "name": "Xiaohua Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1c",
+                    "user": {
+                        "_id": "64ae2359179421d320b1694b",
+                        "avatarUrl": "/avatars/c387a75191005bcaa473091de5383a10.svg",
+                        "isPro": false,
+                        "fullname": "Xizhou Zhu",
+                        "user": "Einsiedler",
+                        "type": "user"
+                    },
+                    "name": "Xizhou Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:21:11.459Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1d",
+                    "user": {
+                        "_id": "64d1c560c0c627dfa71bdbe0",
+                        "avatarUrl": "/avatars/f42794fe25bffcd870a1bcee69b95298.svg",
+                        "isPro": false,
+                        "fullname": "wenhai.wang",
+                        "user": "wangwhcore",
+                        "type": "user"
+                    },
+                    "name": "Wenhai Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:21:24.337Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1e",
+                    "user": {
+                        "_id": "64686f7172d9180d4ac8b4e4",
+                        "avatarUrl": "/avatars/db67dd6c4b2b41054ddcce5a18ade6f8.svg",
+                        "isPro": false,
+                        "fullname": "Jifeng Dai",
+                        "user": "daijifeng",
+                        "type": "user"
+                    },
+                    "name": "Jifeng Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:21:31.315Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68070d3b5035e6d88636ae1f",
+                    "name": "Jinguo Zhu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-21T17:59:53.000Z",
+            "submittedOnDailyAt": "2025-04-24T01:22:54.990Z",
+            "title": "VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal\n  Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "664b4a748dd1bfb5a3a970fe",
+                "avatarUrl": "/avatars/37aa9332ab3e8fbb6ae30b875a7e0e5a.svg",
+                "isPro": false,
+                "fullname": "Jiahao Wang",
+                "user": "GenuineWWD",
+                "type": "user"
+            },
+            "summary": "Visual reasoning is a core component of human intelligence and a critical\ncapability for advanced multimodal models. Yet current reasoning evaluations of\nmultimodal large language models (MLLMs) often rely on text descriptions and\nallow language-based reasoning shortcuts, failing to measure genuine\nvision-centric reasoning. To address this, we introduce VisuLogic: a benchmark\nof 1,000 human-verified problems across six categories (e.g., quantitative\nshifts, spatial relations, attribute comparisons). These various types of\nquestions can be evaluated to assess the visual reasoning capabilities of MLLMs\nfrom multiple perspectives. We evaluate leading MLLMs on this benchmark and\nanalyze their results to identify common failure modes. Most models score below\n30% accuracy-only slightly above the 25% random baseline and far below the\n51.4% achieved by humans-revealing significant gaps in visual reasoning.\nFurthermore, we provide a supplementary training dataset and a\nreinforcement-learning baseline to support further progress.",
+            "upvotes": 50,
+            "discussionId": "68070d3f5035e6d88636af56",
+            "projectPage": "https://visulogic-benchmark.github.io/VisuLogic/",
+            "githubRepo": "https://github.com/VisuLogic-Benchmark/VisuLogic-Eval",
+            "ai_keywords": [
+                "Visual reasoning",
+                "multimodal large language models (MLLMs)",
+                "text descriptions",
+                "language-based reasoning shortcuts",
+                "genuine vision-centric reasoning",
+                "VisuLogic",
+                "human-verified problems",
+                "quantitative shifts",
+                "spatial relations",
+                "attribute comparisons",
+                "supplementary training dataset",
+                "reinforcement-learning baseline"
+            ]
+        },
+        "translation_title": "VisuLogic: 멀티모달 대형 언어 모델에서 시각적 추론 평가를 위한 벤치마크",
+        "purpose": "멀티모달 대형 언어 모델의 진정한 시각적 추론 능력을 평가하기 위한 기준 개발",
+        "method": [
+            "1,000개의 인간 검증 문제로 구성된 VisuLogic 벤치마크를 도입하여 다양한 유형의 질문을 설계함(we introduce VisuLogic: a benchmark of 1,000 human-verified problems across six categories).",
+            "주요 멀티모달 대형 언어 모델에 대해 이 벤치마크를 평가하고, 그 결과를 분석하여 공통적인 실패 양상을 식별함(We evaluate leading MLLMs on this benchmark and analyze their results to identify common failure modes).",
+            "보조 훈련 데이터셋과 강화 학습 기준을 제공하여 지속적인 발전을 지원함(we provide a supplementary training dataset and a reinforcement-learning baseline to support further progress)."
+        ],
+        "conclusion": "대부분의 모델이 30% 이하의 정확도를 기록하여 인간의 51.4% 정확도에 비해 큰 격차가 있음을 보여주었으며, 이는 시각적 추론에 대한 중요한 개선의 필요성을 강조함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.14509",
+            "authors": [
+                {
+                    "_id": "6809dd092e04f68a3f5baa66",
+                    "user": {
+                        "_id": "6339029a76421c0543167075",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6339029a76421c0543167075/3npT0NxTMV-MLWDThyBy8.png",
+                        "isPro": false,
+                        "fullname": "fulong ye",
+                        "user": "Alon77777",
+                        "type": "user"
+                    },
+                    "name": "Fulong Ye",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:21:52.931Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa67",
+                    "user": {
+                        "_id": "6309807c03837fbcf0856059",
+                        "avatarUrl": "/avatars/fcafe6726e33094fed463a48f04f044f.svg",
+                        "isPro": false,
+                        "fullname": "miaohua",
+                        "user": "miaohua",
+                        "type": "user"
+                    },
+                    "name": "Miao Hua",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:21:59.688Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa68",
+                    "name": "Pengze Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa69",
+                    "user": {
+                        "_id": "6752cd83ffaeeb979db974ae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ci915Tdmv3uWbCqGy7LqL.png",
+                        "isPro": false,
+                        "fullname": "Xinghui Li",
+                        "user": "Crayon-Shinchan",
+                        "type": "user"
+                    },
+                    "name": "Xinghui Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:23:09.434Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa6a",
+                    "user": {
+                        "_id": "666a6e144a6c703a09d787d5",
+                        "avatarUrl": "/avatars/ae5dfa87e352a3561cd0cc53d5e3a91a.svg",
+                        "isPro": false,
+                        "fullname": "Qichao Sun",
+                        "user": "giruhc9gj",
+                        "type": "user"
+                    },
+                    "name": "Qichao Sun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:22:46.844Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa6b",
+                    "name": "Songtao Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa6c",
+                    "user": {
+                        "_id": "645dcad7a19f3e64bbf35e6c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/rV1uHDSnZv7jAvFq4ftj4.jpeg",
+                        "isPro": false,
+                        "fullname": "Qian He",
+                        "user": "heqian",
+                        "type": "user"
+                    },
+                    "name": "Qian He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:22:32.939Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809dd092e04f68a3f5baa6d",
+                    "user": {
+                        "_id": "67bc6b515d9470ec64bdcc33",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/dttL8Fb3bKCVG5zjg_02q.png",
+                        "isPro": false,
+                        "fullname": "Xinglong Wu",
+                        "user": "Xingzhe-xlwu",
+                        "type": "user"
+                    },
+                    "name": "Xinglong Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:22:21.048Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-20T06:53:00.000Z",
+            "submittedOnDailyAt": "2025-04-24T05:26:05.811Z",
+            "title": "DreamID: High-Fidelity and Fast diffusion-based Face Swapping via\n  Triplet ID Group Learning",
+            "submittedOnDailyBy": {
+                "_id": "6339029a76421c0543167075",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6339029a76421c0543167075/3npT0NxTMV-MLWDThyBy8.png",
+                "isPro": false,
+                "fullname": "fulong ye",
+                "user": "Alon77777",
+                "type": "user"
+            },
+            "summary": "In this paper, we introduce DreamID, a diffusion-based face swapping model\nthat achieves high levels of ID similarity, attribute preservation, image\nfidelity, and fast inference speed. Unlike the typical face swapping training\nprocess, which often relies on implicit supervision and struggles to achieve\nsatisfactory results. DreamID establishes explicit supervision for face\nswapping by constructing Triplet ID Group data, significantly enhancing\nidentity similarity and attribute preservation. The iterative nature of\ndiffusion models poses challenges for utilizing efficient image-space loss\nfunctions, as performing time-consuming multi-step sampling to obtain the\ngenerated image during training is impractical. To address this issue, we\nleverage the accelerated diffusion model SD Turbo, reducing the inference steps\nto a single iteration, enabling efficient pixel-level end-to-end training with\nexplicit Triplet ID Group supervision. Additionally, we propose an improved\ndiffusion-based model architecture comprising SwapNet, FaceNet, and ID Adapter.\nThis robust architecture fully unlocks the power of the Triplet ID Group\nexplicit supervision. Finally, to further extend our method, we explicitly\nmodify the Triplet ID Group data during training to fine-tune and preserve\nspecific attributes, such as glasses and face shape. Extensive experiments\ndemonstrate that DreamID outperforms state-of-the-art methods in terms of\nidentity similarity, pose and expression preservation, and image fidelity.\nOverall, DreamID achieves high-quality face swapping results at 512*512\nresolution in just 0.6 seconds and performs exceptionally well in challenging\nscenarios such as complex lighting, large angles, and occlusions.",
+            "upvotes": 31,
+            "discussionId": "6809dd102e04f68a3f5babf5",
+            "projectPage": "https://superhero-7.github.io/DreamID/",
+            "githubRepo": "https://github.com/superhero-7/DreamID",
+            "ai_keywords": [
+                "diffusion-based model",
+                "Triplet ID Group",
+                "diffusion models",
+                "image-space loss functions",
+                "SD Turbo",
+                "SwapNet",
+                "FaceNet",
+                "ID Adapter",
+                "face swapping",
+                "explicit supervision",
+                "identity similarity",
+                "attribute preservation",
+                "image fidelity",
+                "pose preservation",
+                "expression preservation",
+                "high-quality face swapping"
+            ]
+        },
+        "translation_title": "DreamID: 고해상도 및 빠른 확산 기반 얼굴 교환을 위한 Triplet ID 그룹 학습",
+        "purpose": "얼굴 교환에서 높은 ID 유사도와 속성 보존, 이미지 충실도를 달성하기 위한 모델 개발",
+        "method": [
+            "Triplet ID 그룹 데이터를 구축하여 얼굴 교환을 위한 명시적 감독을 설정함(Unlike the typical face swapping training process, which often relies on implicit supervision and struggles to achieve satisfactory results.)",
+            "SD Turbo 모델을 활용하여 추론 단계를 단일 반복으로 줄이고 효율적인 픽셀 수준 학습을 가능하게 함(To address this issue, we leverage the accelerated diffusion model SD Turbo, reducing the inference steps to a single iteration.)",
+            "SwapNet, FaceNet 및 ID Adapter로 구성된 개선된 확산 기반 모델 아키텍처를 제안함(Additionally, we propose an improved diffusion-based model architecture comprising SwapNet, FaceNet, and ID Adapter.)"
+        ],
+        "conclusion": "DreamID는 512*512 해상도에서 0.6초 만에 고품질 얼굴 교환 결과를 제공하며, 복잡한 조명, 큰 각도 및 가림과 같은 도전적인 시나리오에서도 뛰어난 성능을 보임.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Image Fidelity"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.15431",
+            "authors": [
+                {
+                    "_id": "680879ead6dc8bf64565c975",
+                    "user": {
+                        "_id": "67aaee60a8192c1ba3d7d42b",
+                        "avatarUrl": "/avatars/9544923076835a606f061cb71e84ef65.svg",
+                        "isPro": false,
+                        "fullname": "Sungjun Han",
+                        "user": "sungjunhan-trl",
+                        "type": "user"
+                    },
+                    "name": "Sungjun Han",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:23:37.021Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c976",
+                    "user": {
+                        "_id": "6138cc1306dd10833d2db64b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6138cc1306dd10833d2db64b/IRX4y-8M4YlzR_8jOwkKp.jpeg",
+                        "isPro": false,
+                        "fullname": "Juyoung Suk",
+                        "user": "scottsuk0306",
+                        "type": "user"
+                    },
+                    "name": "Juyoung Suk",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-23T08:08:21.257Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c977",
+                    "name": "Suyeong An",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c978",
+                    "name": "Hyungguk Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c979",
+                    "user": {
+                        "_id": "6729c4baae4312f3ab001a90",
+                        "avatarUrl": "/avatars/5d454f1695a0a8574e730fd4d884243b.svg",
+                        "isPro": false,
+                        "fullname": "Kyuseok Kim",
+                        "user": "kyudolski",
+                        "type": "user"
+                    },
+                    "name": "Kyuseok Kim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:24:00.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c97a",
+                    "name": "Wonsuk Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c97b",
+                    "user": {
+                        "_id": "6257adfdb98dcaa7e0de7ab4",
+                        "avatarUrl": "/avatars/ddfc2135104895d09cfce0cd6f10e5fb.svg",
+                        "isPro": false,
+                        "fullname": "Seungtaek Choi",
+                        "user": "hist0613",
+                        "type": "user"
+                    },
+                    "name": "Seungtaek Choi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-24T09:11:03.864Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "680879ead6dc8bf64565c97c",
+                    "user": {
+                        "_id": "6188cf3293317afcd1c2df7f",
+                        "avatarUrl": "/avatars/95621801d5b3f3c1a681f1ad6cc66c6a.svg",
+                        "isPro": false,
+                        "fullname": "Jay Shin",
+                        "user": "jshin49",
+                        "type": "user"
+                    },
+                    "name": "Jamin Shin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-24T12:41:14.275Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-21T20:54:44.000Z",
+            "submittedOnDailyAt": "2025-04-24T01:09:32.264Z",
+            "title": "Trillion 7B Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "6138cc1306dd10833d2db64b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6138cc1306dd10833d2db64b/IRX4y-8M4YlzR_8jOwkKp.jpeg",
+                "isPro": false,
+                "fullname": "Juyoung Suk",
+                "user": "scottsuk0306",
+                "type": "user"
+            },
+            "summary": "We introduce Trillion-7B, the most token-efficient Korean-centric\nmultilingual LLM available. Our novel Cross-lingual Document Attention (XLDA)\nmechanism enables highly efficient and effective knowledge transfer from\nEnglish to target languages like Korean and Japanese. Combined with optimized\ndata mixtures, language-specific filtering, and tailored tokenizer\nconstruction, Trillion-7B achieves competitive performance while dedicating\nonly 10\\% of its 2T training tokens to multilingual data and requiring just\n59.4K H100 GPU hours (\\$148K) for full training. Comprehensive evaluations\nacross 27 benchmarks in four languages demonstrate Trillion-7B's robust\nmultilingual performance and exceptional cross-lingual consistency.",
+            "upvotes": 23,
+            "discussionId": "680879ebd6dc8bf64565c9bb",
+            "ai_keywords": [
+                "Trillion-7B",
+                "Cross-lingual Document Attention (XLDA)",
+                "language-specific filtering",
+                "tailored tokenizer construction",
+                "multilingual data",
+                "multilingual performance",
+                "cross-lingual consistency"
+            ]
+        },
+        "translation_title": "Trillion-7B 기술 보고서",
+        "purpose": "한국어 중심의 다국어 LLM 개발을 통해 언어 간 지식을 효율적으로 전이하는 방법 연구",
+        "method": [
+            "Cross-lingual Document Attention (XLDA) 메커니즘을 사용하여 영어에서 한국어 및 일본어와 같은 타겟 언어로의 지식 전이를 효율적으로 수행함(Our novel Cross-lingual Document Attention (XLDA) mechanism enables highly efficient and effective knowledge transfer from English to target languages like Korean and Japanese.)",
+            "최적화된 데이터 혼합, 언어별 필터링, 맞춤형 토크나이저 구성을 통해 성능을 강화함(Combined with optimized data mixtures, language-specific filtering, and tailored tokenizer construction.)",
+            "다국어 데이터에 2T 훈련 토큰의 10%만 사용하고, 전체 훈련에 59.4K H100 GPU 시간만 소요함(while dedicating only 10% of its 2T training tokens to multilingual data and requiring just 59.4K H100 GPU hours for full training.)"
+        ],
+        "conclusion": "Trillion-7B는 27개의 벤치마크에서 강력한 다국어 성능과 뛰어난 언어 간 일관성을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.16929",
+            "authors": [
+                {
+                    "_id": "6809ba7976a4f4f7268546a7",
+                    "name": "Shaden Alshammari",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809ba7976a4f4f7268546a8",
+                    "name": "John Hershey",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809ba7976a4f4f7268546a9",
+                    "user": {
+                        "_id": "63124ad25e2531edb9edca45",
+                        "avatarUrl": "/avatars/9cc2e352ba3f79347e588a3e4a814987.svg",
+                        "isPro": false,
+                        "fullname": "Axel Feldmann",
+                        "user": "axelf",
+                        "type": "user"
+                    },
+                    "name": "Axel Feldmann",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:27:03.416Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809ba7976a4f4f7268546aa",
+                    "user": {
+                        "_id": "654e866a85a5e608059a9b4f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/O0T97EupMHH_iXcv1xYFr.png",
+                        "isPro": false,
+                        "fullname": "William Freeman",
+                        "user": "mrpuppt",
+                        "type": "user"
+                    },
+                    "name": "William T. Freeman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:27:14.536Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809ba7976a4f4f7268546ab",
+                    "user": {
+                        "_id": "62dae3734398e21bf7f53443",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658512237806-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Mark Hamilton",
+                        "user": "mhamilton723",
+                        "type": "user"
+                    },
+                    "name": "Mark Hamilton",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:27:36.305Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62dae3734398e21bf7f53443/MT5eBEJkF1u7uejE382FI.png"
+            ],
+            "publishedAt": "2025-04-23T17:59:01.000Z",
+            "submittedOnDailyAt": "2025-04-24T02:45:09.509Z",
+            "title": "I-Con: A Unifying Framework for Representation Learning",
+            "submittedOnDailyBy": {
+                "_id": "62dae3734398e21bf7f53443",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1658512237806-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Mark Hamilton",
+                "user": "mhamilton723",
+                "type": "user"
+            },
+            "summary": "As the field of representation learning grows, there has been a proliferation\nof different loss functions to solve different classes of problems. We\nintroduce a single information-theoretic equation that generalizes a large\ncollection of modern loss functions in machine learning. In particular, we\nintroduce a framework that shows that several broad classes of machine learning\nmethods are precisely minimizing an integrated KL divergence between two\nconditional distributions: the supervisory and learned representations. This\nviewpoint exposes a hidden information geometry underlying clustering, spectral\nmethods, dimensionality reduction, contrastive learning, and supervised\nlearning. This framework enables the development of new loss functions by\ncombining successful techniques from across the literature. We not only present\na wide array of proofs, connecting over 23 different approaches, but we also\nleverage these theoretical results to create state-of-the-art unsupervised\nimage classifiers that achieve a +8% improvement over the prior\nstate-of-the-art on unsupervised classification on ImageNet-1K. We also\ndemonstrate that I-Con can be used to derive principled debiasing methods which\nimprove contrastive representation learners.",
+            "upvotes": 17,
+            "discussionId": "6809ba7d76a4f4f72685478a",
+            "ai_keywords": [
+                "information-theoretic equation",
+                "KL divergence",
+                "conditional distributions",
+                "supervisory representations",
+                "learned representations",
+                "information geometry",
+                "clustering",
+                "spectral methods",
+                "dimensionality reduction",
+                "contrastive learning",
+                "supervised learning",
+                "I-Con",
+                "debiasing methods",
+                "contrastive representation learners"
+            ]
+        },
+        "translation_title": "I-Con: 표현 학습을 위한 통합 프레임워크",
+        "purpose": "다양한 문제를 해결하기 위한 손실 함수들을 통합하는 단일 정보 이론 방정식 제안",
+        "method": [
+            "우리는 현대 손실 함수들의 큰 집합을 일반화하는 단일 정보 이론 방정식을 도입함(we introduce a single information-theoretic equation that generalizes a large collection of modern loss functions in machine learning).",
+            "여러 머신 러닝 방법들이 두 조건부 분포 간의 통합 KL 발산을 최소화하고 있음을 보임(this viewpoint exposes a hidden information geometry underlying clustering, spectral methods, dimensionality reduction, contrastive learning, and supervised learning).",
+            "이론적 결과를 활용하여 ImageNet-1K에서 비지도 분류에 대한 성능을 +8% 향상시킨 최신 비감독 이미지 분류기를 생성함(we leverage these theoretical results to create state-of-the-art unsupervised image classifiers that achieve a +8% improvement over the prior state-of-the-art on unsupervised classification on ImageNet-1K)."
+        ],
+        "conclusion": "I-Con 프레임워크는 여러 손실 함수를 통합하여 새로운 손실 함수 개발을 가능하게 하며, 대조 학습의 정편향 방법도 제안함.",
+        "keywords": [
+            "Representation Learning",
+            "Contrastive Learning",
+            "Image Classification"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.15843",
+            "authors": [
+                {
+                    "_id": "6809948944114def75aaeb7d",
+                    "name": "Junshu Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809948944114def75aaeb7e",
+                    "user": {
+                        "_id": "6468823272d9180d4ac90bdf",
+                        "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                        "isPro": false,
+                        "fullname": "Wei Shen",
+                        "user": "Swtheking",
+                        "type": "user"
+                    },
+                    "name": "Wei Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-24T11:26:03.812Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809948944114def75aaeb7f",
+                    "name": "Shulin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809948944114def75aaeb80",
+                    "name": "Qiji Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6809948944114def75aaeb81",
+                    "name": "Yue Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-22T12:39:30.000Z",
+            "submittedOnDailyAt": "2025-04-24T00:02:36.679Z",
+            "title": "Pre-DPO: Improving Data Utilization in Direct Preference Optimization\n  Using a Guiding Reference Model",
+            "submittedOnDailyBy": {
+                "_id": "6468823272d9180d4ac90bdf",
+                "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                "isPro": false,
+                "fullname": "Wei Shen",
+                "user": "Swtheking",
+                "type": "user"
+            },
+            "summary": "Direct Preference Optimization (DPO) simplifies reinforcement learning from\nhuman feedback (RLHF) for large language models (LLMs) by directly optimizing\nhuman preferences without an explicit reward model. We find that during DPO\ntraining, the reference model plays the role of a data weight adjuster.\nHowever, the common practice of initializing the policy and reference models\nidentically in DPO can lead to inefficient data utilization and impose a\nperformance ceiling. Meanwhile, the lack of a reference model in Simple\nPreference Optimization (SimPO) reduces training robustness and necessitates\nstricter conditions to prevent catastrophic forgetting. In this work, we\npropose Pre-DPO, a simple yet effective DPO-based training paradigm that\nenhances preference optimization performance by leveraging a guiding reference\nmodel. This reference model provides foresight into the optimal policy state\nachievable through the training preference data, serving as a guiding mechanism\nthat adaptively assigns higher weights to samples more suitable for the model\nand lower weights to those less suitable. Extensive experiments on AlpacaEval\n2.0 and Arena-Hard v0.1 benchmarks demonstrate that Pre-DPO consistently\nimproves the performance of both DPO and SimPO, without relying on external\nmodels or additional data.",
+            "upvotes": 14,
+            "discussionId": "6809948a44114def75aaebab",
+            "ai_keywords": [
+                "reinforcement learning from human feedback (RLHF)",
+                "large language models (LLMs)",
+                "Direct Preference Optimization (DPO)",
+                "human preferences",
+                "reference model",
+                "data weight adjuster",
+                "Simple Preference Optimization (SimPO)",
+                "catastrophic forgetting",
+                "Pre-DPO",
+                "guiding reference model",
+                "AlpacaEval 2.0",
+                "Arena-Hard v0.1"
+            ]
+        },
+        "translation_title": "Pre-DPO: 직접 선호 최적화에서 데이터 활용 개선을 위한 가이드 참조 모델 사용",
+        "purpose": "가이드 참조 모델을 활용하여 직접 선호 최적화(DPO)의 성능을 향상시키기 위한 방법 연구",
+        "method": [
+            "DPO 훈련 중 참조 모델이 데이터 가중치 조정 역할을 수행함을 발견함(We find that during DPO training, the reference model plays the role of a data weight adjuster.)",
+            "DPO에서 정책 모델과 참조 모델을 동일하게 초기화하는 것이 비효율적인 데이터 활용을 초래할 수 있음을 주장함(The common practice of initializing the policy and reference models identically in DPO can lead to inefficient data utilization.)",
+            "Pre-DPO라는 새로운 훈련 패러다임을 제안하고, 가이드 참조 모델을 통해 훈련 데이터로부터 최적 정책 상태에 대한 통찰력을 제공하도록 함(This reference model provides foresight into the optimal policy state achievable through the training preference data.)",
+            "다양한 실험을 통해 Pre-DPO가 DPO 및 SimPO의 성능을 일관되게 개선함을 입증함(Extensive experiments on AlpacaEval 2.0 and Arena-Hard v0.1 benchmarks demonstrate that Pre-DPO consistently improves the performance of both DPO and SimPO.)"
+        ],
+        "conclusion": "Pre-DPO 접근법은 외부 모델이나 추가 데이터 없이도 DPO 및 SimPO의 성능을 향상시키는 데 효과적임.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
