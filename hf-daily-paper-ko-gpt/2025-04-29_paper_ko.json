@@ -1,0 +1,777 @@
+[
+    {
+        "paper": {
+            "id": "2504.19724",
+            "authors": [
+                {
+                    "_id": "68104dd9ec94d9d54ebde2c8",
+                    "user": {
+                        "_id": "637745113a63a2983ffbde13",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669187672174-637745113a63a2983ffbde13.jpeg",
+                        "isPro": false,
+                        "fullname": "Haofan Wang",
+                        "user": "wanghaofan",
+                        "type": "user"
+                    },
+                    "name": "Haofan Wang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-04-29T03:56:15.248Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2c9",
+                    "user": {
+                        "_id": "66471d8f4356b3b33548ee95",
+                        "avatarUrl": "/avatars/783beebc837d91684f8a959733b48e5b.svg",
+                        "isPro": false,
+                        "fullname": "Yujia Xu",
+                        "user": "YujiaX",
+                        "type": "user"
+                    },
+                    "name": "Yujia Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T09:20:54.897Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2ca",
+                    "name": "Yimeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2cb",
+                    "name": "Junchen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2cc",
+                    "name": "Chaowei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2cd",
+                    "user": {
+                        "_id": "6649b84af50d4711191ab04c",
+                        "avatarUrl": "/avatars/dfe85eb28ae970e718c37cc6bc459457.svg",
+                        "isPro": false,
+                        "fullname": "WJ",
+                        "user": "SNOWAI",
+                        "type": "user"
+                    },
+                    "name": "Jing Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T08:03:03.819Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2ce",
+                    "name": "Kejia Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68104dd9ec94d9d54ebde2cf",
+                    "user": {
+                        "_id": "66d963e52e82d53d3b81031b",
+                        "avatarUrl": "/avatars/302dbffc033ff47813a2435a2cec02f1.svg",
+                        "isPro": false,
+                        "fullname": "Zhibo Chen",
+                        "user": "winhelp",
+                        "type": "user"
+                    },
+                    "name": "Zhibo Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:13:22.884Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-28T12:19:53.000Z",
+            "submittedOnDailyAt": "2025-04-29T02:27:56.443Z",
+            "title": "RepText: Rendering Visual Text via Replicating",
+            "submittedOnDailyBy": {
+                "_id": "637745113a63a2983ffbde13",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669187672174-637745113a63a2983ffbde13.jpeg",
+                "isPro": false,
+                "fullname": "Haofan Wang",
+                "user": "wanghaofan",
+                "type": "user"
+            },
+            "summary": "Although contemporary text-to-image generation models have achieved\nremarkable breakthroughs in producing visually appealing images, their capacity\nto generate precise and flexible typographic elements, especially non-Latin\nalphabets, remains constrained. To address these limitations, we start from an\nnaive assumption that text understanding is only a sufficient condition for\ntext rendering, but not a necessary condition. Based on this, we present\nRepText, which aims to empower pre-trained monolingual text-to-image generation\nmodels with the ability to accurately render, or more precisely, replicate,\nmultilingual visual text in user-specified fonts, without the need to really\nunderstand them. Specifically, we adopt the setting from ControlNet and\nadditionally integrate language agnostic glyph and position of rendered text to\nenable generating harmonized visual text, allowing users to customize text\ncontent, font and position on their needs. To improve accuracy, a text\nperceptual loss is employed along with the diffusion loss. Furthermore, to\nstabilize rendering process, at the inference phase, we directly initialize\nwith noisy glyph latent instead of random initialization, and adopt region\nmasks to restrict the feature injection to only the text region to avoid\ndistortion of the background. We conducted extensive experiments to verify the\neffectiveness of our RepText relative to existing works, our approach\noutperforms existing open-source methods and achieves comparable results to\nnative multi-language closed-source models. To be more fair, we also\nexhaustively discuss its limitations in the end.",
+            "upvotes": 19,
+            "discussionId": "68104ddfec94d9d54ebde3f3",
+            "projectPage": "https://reptext.github.io/",
+            "githubRepo": "https://github.com/Shakker-Labs/RepText"
+        },
+        "translation_title": "RepText: 복제를 통한 시각적 텍스트 렌더링",
+        "purpose": "다국어 시각적 텍스트를 사용자 지정 폰트로 정확히 렌더링하기 위해 기존 text-to-image 모델의 한계를 극복하는 것",
+        "method": [
+            "기존 text-to-image 모델의 이해가 필요하지 않다는 가정에서 시작함(we start from an naive assumption that text understanding is only a sufficient condition for text rendering, but not a necessary condition.)",
+            "ControlNet의 설정을 채택하고 다국어 기호와 텍스트 위치를 통합하여 사용자가 텍스트 콘텐츠, 폰트 및 위치를 맞춤 설정할 수 있게 함(Specifically, we adopt the setting from ControlNet and additionally integrate language agnostic glyph and position of rendered text to enable generating harmonized visual text.)",
+            "텍스트 지각 손실과 확산 손실을 적용하여 정확도를 개선함(To improve accuracy, a text perceptual loss is employed along with the diffusion loss.)",
+            "추론 단계에서 노이즈가 있는 기호 잠재값으로 직접 초기화하고 배경 왜곡을 피하기 위해 지역 마스크를 사용함(Furthermore, to stabilize rendering process, at the inference phase, we directly initialize with noisy glyph latent instead of random initialization, and adopt region masks to restrict the feature injection to only the text region to avoid distortion of the background.)"
+        ],
+        "conclusion": "RepText는 기존 오픈 소스 방법보다 뛰어난 성능을 보였으며, 네이티브 다국어 클로즈드 소스 모델과 유사한 결과를 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.19838",
+            "authors": [
+                {
+                    "_id": "6810317e007d579cbf5200ba",
+                    "user": {
+                        "_id": "6108ae87823007eaf0c7bd1e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6108ae87823007eaf0c7bd1e/dKjdx9I5waJs6oUQ0_mmT.png",
+                        "isPro": false,
+                        "fullname": "Guangyi Liu",
+                        "user": "guangyil",
+                        "type": "user"
+                    },
+                    "name": "Guangyi Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:15:01.850Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200bb",
+                    "user": {
+                        "_id": "65a088f4300957620ba45c70",
+                        "avatarUrl": "/avatars/56ed45e10d3455531979f30881b2d3f9.svg",
+                        "isPro": false,
+                        "fullname": "pengxiang zhao",
+                        "user": "Pengxiangzhao",
+                        "type": "user"
+                    },
+                    "name": "Pengxiang Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T07:59:51.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200bc",
+                    "user": {
+                        "_id": "667b91162bfe908436900faa",
+                        "avatarUrl": "/avatars/daeaf058ec1df5307996895a5cbba052.svg",
+                        "isPro": false,
+                        "fullname": "Liang Liu",
+                        "user": "melpancake",
+                        "type": "user"
+                    },
+                    "name": "Liang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T08:01:16.707Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200bd",
+                    "user": {
+                        "_id": "65c237220c57a7141888363e",
+                        "avatarUrl": "/avatars/ce43c52f47d524c5b747523058946325.svg",
+                        "isPro": false,
+                        "fullname": "guoyaxuan",
+                        "user": "guoyaxuan0106",
+                        "type": "user"
+                    },
+                    "name": "Yaxuan Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:15:15.455Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200be",
+                    "name": "Han Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200bf",
+                    "user": {
+                        "_id": "66026c9068d519ed32519e9c",
+                        "avatarUrl": "/avatars/8fa051312c713772e5b8ba65989ff7f5.svg",
+                        "isPro": false,
+                        "fullname": "Weifeng Lin",
+                        "user": "Afeng-x",
+                        "type": "user"
+                    },
+                    "name": "Weifeng Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:15:29.782Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c0",
+                    "user": {
+                        "_id": "6458ce236fa580137af5aa95",
+                        "avatarUrl": "/avatars/db65a7332e375eb5daad5c1b076b1e3b.svg",
+                        "isPro": false,
+                        "fullname": "Yuxiang Chai",
+                        "user": "Yuxiang007",
+                        "type": "user"
+                    },
+                    "name": "Yuxiang Chai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T08:01:19.091Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c1",
+                    "name": "Yue Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c2",
+                    "name": "Shuai Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c3",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c4",
+                    "name": "Xiaoyu Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c5",
+                    "name": "Wenhao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c6",
+                    "name": "Tianze Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c7",
+                    "name": "Linghao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c8",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200c9",
+                    "name": "Guanjing Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200ca",
+                    "name": "Yong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810317e007d579cbf5200cb",
+                    "user": {
+                        "_id": "65c04e9c27a5fdca81abcbd9",
+                        "avatarUrl": "/avatars/12a155683c824fa23da4a9e2bed4f64e.svg",
+                        "isPro": false,
+                        "fullname": "Hongsheng LI",
+                        "user": "hsli-cuhk",
+                        "type": "user"
+                    },
+                    "name": "Hongsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:17:24.303Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-28T14:39:25.000Z",
+            "submittedOnDailyAt": "2025-04-29T00:30:25.482Z",
+            "title": "LLM-Powered GUI Agents in Phone Automation: Surveying Progress and\n  Prospects",
+            "submittedOnDailyBy": {
+                "_id": "64d761b98ebc40443831f82a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64d761b98ebc40443831f82a/DHBOtOstiFp2-lDY6b9gb.png",
+                "isPro": false,
+                "fullname": "Guangyi Liu",
+                "user": "lgy0404",
+                "type": "user"
+            },
+            "summary": "With the rapid rise of large language models (LLMs), phone automation has\nundergone transformative changes. This paper systematically reviews LLM-driven\nphone GUI agents, highlighting their evolution from script-based automation to\nintelligent, adaptive systems. We first contextualize key challenges, (i)\nlimited generality, (ii) high maintenance overhead, and (iii) weak intent\ncomprehension, and show how LLMs address these issues through advanced language\nunderstanding, multimodal perception, and robust decision-making. We then\npropose a taxonomy covering fundamental agent frameworks (single-agent,\nmulti-agent, plan-then-act), modeling approaches (prompt engineering,\ntraining-based), and essential datasets and benchmarks. Furthermore, we detail\ntask-specific architectures, supervised fine-tuning, and reinforcement learning\nstrategies that bridge user intent and GUI operations. Finally, we discuss open\nchallenges such as dataset diversity, on-device deployment efficiency,\nuser-centric adaptation, and security concerns, offering forward-looking\ninsights into this rapidly evolving field. By providing a structured overview\nand identifying pressing research gaps, this paper serves as a definitive\nreference for researchers and practitioners seeking to harness LLMs in\ndesigning scalable, user-friendly phone GUI agents.",
+            "upvotes": 16,
+            "discussionId": "68103184007d579cbf5202d9",
+            "projectPage": "https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"
+        },
+        "translation_title": "LLM 기반 GUI 에이전트의 전화 자동화: 진행 상황과 전망 조사",
+        "purpose": "LLM을 활용하여 전화 GUI 에이전트를 개선하고, 사용자 친화적인 시스템 개발을 위한 연구 방향 제시",
+        "method": [
+            "LLM이 다양한 문제를 해결하는 방식(고급 언어 이해, 다중 모달 인식, 강력한 의사 결정 등)을 설명함(We first contextualize key challenges, (i) limited generality, (ii) high maintenance overhead, and (iii) weak intent comprehension, and show how LLMs address these issues through advanced language understanding, multimodal perception, and robust decision-making.)",
+            "에이전트 프레임워크, 모델링 접근법 및 데이터셋의 분류 체계를 제안함(We then propose a taxonomy covering fundamental agent frameworks (single-agent, multi-agent, plan-then-act), modeling approaches (prompt engineering, training-based), and essential datasets and benchmarks.)",
+            "사용자 의도와 GUI 작업 간의 연결을 위한 아키텍처 및 학습 전략을 구체적으로 설명함(Furthermore, we detail task-specific architectures, supervised fine-tuning, and reinforcement learning strategies that bridge user intent and GUI operations.)"
+        ],
+        "conclusion": "전화 GUI 에이전트 설계에 LLM을 활용하는 데 있어 연구의 주요 공백과 도전 과제를 파악하며, 이 분야의 미래 전망을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.18919",
+            "authors": [
+                {
+                    "_id": "681039b2b02c157249d046b0",
+                    "user": {
+                        "_id": "659bec4728676374f33ef921",
+                        "avatarUrl": "/avatars/217ae547d6460e65c6d2a23012741830.svg",
+                        "isPro": false,
+                        "fullname": "Andrew Bean",
+                        "user": "ambean",
+                        "type": "user"
+                    },
+                    "name": "Andrew M. Bean",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:19:18.934Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b1",
+                    "name": "Rebecca Payne",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b2",
+                    "name": "Guy Parsons",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b3",
+                    "user": {
+                        "_id": "6255baa66b1f65958caf026c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649842998853-6255baa66b1f65958caf026c.jpeg",
+                        "isPro": true,
+                        "fullname": "Hannah Rose Kirk",
+                        "user": "HannahRoseKirk",
+                        "type": "user"
+                    },
+                    "name": "Hannah Rose Kirk",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:19:41.886Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b4",
+                    "user": {
+                        "_id": "6538526e83bcfe980bfe910c",
+                        "avatarUrl": "/avatars/19ccfd1d16a1426c4de418f9844f21ee.svg",
+                        "isPro": false,
+                        "fullname": "juan ciro",
+                        "user": "Chronoszoldyck11",
+                        "type": "user"
+                    },
+                    "name": "Juan Ciro",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:19:50.597Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b5",
+                    "name": "Rafael Mosquera",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b6",
+                    "user": {
+                        "_id": "66aa5c0703b67c04b2cae65f",
+                        "avatarUrl": "/avatars/c9406874fdbe3eb0c0269564df3f1038.svg",
+                        "isPro": false,
+                        "fullname": "Sara Hincapié Monsalve",
+                        "user": "sahimo",
+                        "type": "user"
+                    },
+                    "name": "Sara Hincapié Monsalve",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:20:12.417Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b7",
+                    "name": "Aruna S. Ekanayaka",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b8",
+                    "name": "Lionel Tarassenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046b9",
+                    "user": {
+                        "_id": "66291b9555d7c289634d75c0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66291b9555d7c289634d75c0/-h0MYYoV9G0jMCw4KBbBG.jpeg",
+                        "isPro": false,
+                        "fullname": "Luc Rocher",
+                        "user": "cynddl",
+                        "type": "user"
+                    },
+                    "name": "Luc Rocher",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T12:13:43.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681039b2b02c157249d046ba",
+                    "user": {
+                        "_id": "673cf9c93af47d1d2b6584c9",
+                        "avatarUrl": "/avatars/0792921a8adaa1493255abb0b5aaa4f1.svg",
+                        "isPro": false,
+                        "fullname": "Adam Mahdi",
+                        "user": "ammaox",
+                        "type": "user"
+                    },
+                    "name": "Adam Mahdi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T12:13:51.311Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-26T13:32:49.000Z",
+            "submittedOnDailyAt": "2025-04-29T01:01:48.840Z",
+            "title": "Clinical knowledge in LLMs does not translate to human interactions",
+            "submittedOnDailyBy": {
+                "_id": "659bec4728676374f33ef921",
+                "avatarUrl": "/avatars/217ae547d6460e65c6d2a23012741830.svg",
+                "isPro": false,
+                "fullname": "Andrew Bean",
+                "user": "ambean",
+                "type": "user"
+            },
+            "summary": "Global healthcare providers are exploring use of large language models (LLMs)\nto provide medical advice to the public. LLMs now achieve nearly perfect scores\non medical licensing exams, but this does not necessarily translate to accurate\nperformance in real-world settings. We tested if LLMs can assist members of the\npublic in identifying underlying conditions and choosing a course of action\n(disposition) in ten medical scenarios in a controlled study with 1,298\nparticipants. Participants were randomly assigned to receive assistance from an\nLLM (GPT-4o, Llama 3, Command R+) or a source of their choice (control). Tested\nalone, LLMs complete the scenarios accurately, correctly identifying conditions\nin 94.9% of cases and disposition in 56.3% on average. However, participants\nusing the same LLMs identified relevant conditions in less than 34.5% of cases\nand disposition in less than 44.2%, both no better than the control group. We\nidentify user interactions as a challenge to the deployment of LLMs for medical\nadvice. Standard benchmarks for medical knowledge and simulated patient\ninteractions do not predict the failures we find with human participants.\nMoving forward, we recommend systematic human user testing to evaluate\ninteractive capabilities prior to public deployments in healthcare.",
+            "upvotes": 15,
+            "discussionId": "681039b5b02c157249d04787"
+        },
+        "translation_title": "LLMs의 의료 지식은 인간 상호작용으로 전환되지 않는다",
+        "purpose": "LLMs가 실제 의료 조언에서 효과적으로 작동하는지를 평가하고, 사용자 상호작용이 문제임을 파악하는 것",
+        "method": [
+            "1,298명의 참여자를 대상으로 한 통제 연구에서 LLMs(GPT-4o, Llama 3, Command R+) 또는 사용자가 선택한 출처(control)로 의료 상황에서 지원을 제공하도록 무작위 배정함(We tested if LLMs can assist members of the public in identifying underlying conditions and choosing a course of action in ten medical scenarios in a controlled study with 1,298 participants.)",
+            "LLMs는 시나리오를 단독으로 진행했을 때 94.9%의 정확도로 조건을 정확히 식별했음(LLMs complete the scenarios accurately, correctly identifying conditions in 94.9% of cases).",
+            "그러나 LLMs를 사용한 참가자들은 관련 조건을 34.5% 미만으로 식별했음(However, participants using the same LLMs identified relevant conditions in less than 34.5% of cases)."
+        ],
+        "conclusion": "특정 시나리오에서 LLMs의 성능이 실제 사용자와의 상호작용에 의해 저하됨을 확인하였고, 따라서 의료 조언에 대한 배포 전 인체 시험의 필요성을 권장함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.19093",
+            "authors": [
+                {
+                    "_id": "6810356ab91a093e4f4cc262",
+                    "user": {
+                        "_id": "671b852aa4fa4f8f5fb5404c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/671b852aa4fa4f8f5fb5404c/TDLsgP8WgKW-qaA8Ys-iJ.jpeg",
+                        "isPro": false,
+                        "fullname": "YU LI",
+                        "user": "yu0226",
+                        "type": "user"
+                    },
+                    "name": "Yu Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T08:01:23.352Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc263",
+                    "name": "Qizhi Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc264",
+                    "user": {
+                        "_id": "67ad790c2b28204981be8e24",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ad790c2b28204981be8e24/KstE5e5bUXXIvgPJqMO2B.jpeg",
+                        "isPro": false,
+                        "fullname": "Mengyuan Sun",
+                        "user": "blue01223",
+                        "type": "user"
+                    },
+                    "name": "Mengyuan Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-04-29T08:01:29.740Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc265",
+                    "user": {
+                        "_id": "640d99628512ec51d7ef71c7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640d99628512ec51d7ef71c7/fcBkqnxfxuuuZTqfN_BGy.jpeg",
+                        "isPro": false,
+                        "fullname": "Honglin Lin",
+                        "user": "LHL3341",
+                        "type": "user"
+                    },
+                    "name": "Honglin Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:17:44.229Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc266",
+                    "user": {
+                        "_id": "677e133ee86d0754dc7ce296",
+                        "avatarUrl": "/avatars/c16511c1876b50c2d049925c5f320d15.svg",
+                        "isPro": false,
+                        "fullname": "mingchenlin",
+                        "user": "mingchenlin2025",
+                        "type": "user"
+                    },
+                    "name": "Chenlin Ming",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:17:55.935Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc267",
+                    "name": "Xin Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc268",
+                    "user": {
+                        "_id": "64bb936fc6e77d66f46ee99d",
+                        "avatarUrl": "/avatars/5b910a8fced936edcc075314fb353921.svg",
+                        "isPro": false,
+                        "fullname": "Jiang Wu",
+                        "user": "JiangWu",
+                        "type": "user"
+                    },
+                    "name": "Jiang Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:18:06.650Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc269",
+                    "user": {
+                        "_id": "63f9fca8d4349b157a109eec",
+                        "avatarUrl": "/avatars/fa1f2ae7972d7cde99dab178136ccbb0.svg",
+                        "isPro": false,
+                        "fullname": "Conghui He",
+                        "user": "conghui",
+                        "type": "user"
+                    },
+                    "name": "Conghui He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:18:17.101Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6810356ab91a093e4f4cc26a",
+                    "user": {
+                        "_id": "643e60d96db6ba8c5ee177ad",
+                        "avatarUrl": "/avatars/73ac7740e462ba0b53a2f2480d9f1e3e.svg",
+                        "isPro": false,
+                        "fullname": "Lijun Wu",
+                        "user": "apeters",
+                        "type": "user"
+                    },
+                    "name": "Lijun Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:18:37.977Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-27T03:41:17.000Z",
+            "submittedOnDailyAt": "2025-04-29T04:39:29.218Z",
+            "title": "CipherBank: Exploring the Boundary of LLM Reasoning Capabilities through\n  Cryptography Challenges",
+            "submittedOnDailyBy": {
+                "_id": "6397f6081323f19c578f142e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6397f6081323f19c578f142e/it7FYYKjlLX8wSsMLm8EO.jpeg",
+                "isPro": false,
+                "fullname": "QizhiPei",
+                "user": "QizhiPei",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) have demonstrated remarkable capabilities,\nespecially the recent advancements in reasoning, such as o1 and o3, pushing the\nboundaries of AI. Despite these impressive achievements in mathematics and\ncoding, the reasoning abilities of LLMs in domains requiring cryptographic\nexpertise remain underexplored. In this paper, we introduce CipherBank, a\ncomprehensive benchmark designed to evaluate the reasoning capabilities of LLMs\nin cryptographic decryption tasks. CipherBank comprises 2,358 meticulously\ncrafted problems, covering 262 unique plaintexts across 5 domains and 14\nsubdomains, with a focus on privacy-sensitive and real-world scenarios that\nnecessitate encryption. From a cryptographic perspective, CipherBank\nincorporates 3 major categories of encryption methods, spanning 9 distinct\nalgorithms, ranging from classical ciphers to custom cryptographic techniques.\nWe evaluate state-of-the-art LLMs on CipherBank, e.g., GPT-4o, DeepSeek-V3, and\ncutting-edge reasoning-focused models such as o1 and DeepSeek-R1. Our results\nreveal significant gaps in reasoning abilities not only between general-purpose\nchat LLMs and reasoning-focused LLMs but also in the performance of current\nreasoning-focused models when applied to classical cryptographic decryption\ntasks, highlighting the challenges these models face in understanding and\nmanipulating encrypted data. Through detailed analysis and error\ninvestigations, we provide several key observations that shed light on the\nlimitations and potential improvement areas for LLMs in cryptographic\nreasoning. These findings underscore the need for continuous advancements in\nLLM reasoning capabilities.",
+            "upvotes": 12,
+            "discussionId": "68103574b91a093e4f4cc57a",
+            "projectPage": "https://cipherbankeva.github.io/",
+            "githubRepo": "https://github.com/Goodman-liyu/CipherBank"
+        },
+        "translation_title": "CipherBank: 암호학 챌린지를 통한 LLM 추론 능력의 경계 탐구",
+        "purpose": "암호 해독 과제에서 LLM의 추론 능력을 평가하기 위한 종합 벤치마크 구축",
+        "method": [
+            "CipherBank라는 2,358개의 문제로 구성된 벤치마크를 소개함(we introduce CipherBank, a comprehensive benchmark designed to evaluate the reasoning capabilities of LLMs in cryptographic decryption tasks.)",
+            "5개 도메인과 14개 하위 도메인에 걸쳐 262개의 고유 평문을 포함함(CipherBank comprises 2,358 meticulously crafted problems, covering 262 unique plaintexts across 5 domains and 14 subdomains.)",
+            "최신 LLM 모델들을 CipherBank에서 평가하고 결과를 분석함(We evaluate state-of-the-art LLMs on CipherBank, e.g., GPT-4o, DeepSeek-V3, and cutting-edge reasoning-focused models.)",
+            "오류 조사와 분석을 통해 LLM의 한계 및 개선 가능성에 대한 관찰을 제공함(Through detailed analysis and error investigations, we provide several key observations that shed light on the limitations and potential improvement areas for LLMs in cryptographic reasoning.)"
+        ],
+        "conclusion": "LLM의 암호학적 추론 능력에는 큰 격차가 있으며, 지속적인 발전이 필요하다는 점을 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.16083",
+            "authors": [
+                {
+                    "_id": "68105d8632d635f02bc2976e",
+                    "user": {
+                        "_id": "655ea46bb11e49dd1fd6ce2e",
+                        "avatarUrl": "/avatars/671771dc565cf718f677536f91f1e8a3.svg",
+                        "isPro": false,
+                        "fullname": "Yuchengli",
+                        "user": "Yuchengli",
+                        "type": "user"
+                    },
+                    "name": "Yucheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:26:01.688Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc2976f",
+                    "user": {
+                        "_id": "6278bd42541f3d2dfa77ea70",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6278bd42541f3d2dfa77ea70/ejn49eapnB3UXQckAYdTd.jpeg",
+                        "isPro": true,
+                        "fullname": "Huiqiang Jiang",
+                        "user": "iofu728",
+                        "type": "user"
+                    },
+                    "name": "Huiqiang Jiang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-04-29T05:03:03.400Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29770",
+                    "user": {
+                        "_id": "64646896884f2e3e1ced3cd5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64646896884f2e3e1ced3cd5/86-t8V8LGMNaPQRXnADiD.png",
+                        "isPro": false,
+                        "fullname": "Zhang",
+                        "user": "Chengruidong",
+                        "type": "user"
+                    },
+                    "name": "Chengruidong Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:26:11.194Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29771",
+                    "user": {
+                        "_id": "63ef330b1e695b35aa484e11",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ef330b1e695b35aa484e11/bXwpGy0dl8JXeJwJ--ilr.jpeg",
+                        "isPro": false,
+                        "fullname": "Qianhui WU",
+                        "user": "qianhuiwu",
+                        "type": "user"
+                    },
+                    "name": "Qianhui Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:26:17.854Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29772",
+                    "user": {
+                        "_id": "64b750a2fdb702b3d8619514",
+                        "avatarUrl": "/avatars/f09181c0825763dff692c4bc65effc4c.svg",
+                        "isPro": false,
+                        "fullname": "Xufang Luo",
+                        "user": "luoxufang",
+                        "type": "user"
+                    },
+                    "name": "Xufang Luo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:26:38.807Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29773",
+                    "name": "Surin Ahn",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29774",
+                    "name": "Amir H. Abdi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29775",
+                    "user": {
+                        "_id": "6524f13821af4b07309015aa",
+                        "avatarUrl": "/avatars/f97d6a041428d48305568df7afd83cc8.svg",
+                        "isPro": false,
+                        "fullname": "dongsheng li",
+                        "user": "dongshengli",
+                        "type": "user"
+                    },
+                    "name": "Dongsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:27:31.251Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29776",
+                    "user": {
+                        "_id": "641904caf9d6f1d772ec7af7",
+                        "avatarUrl": "/avatars/4a63eac71eb30f70b1a0e9d4708f26c1.svg",
+                        "isPro": false,
+                        "fullname": "Jianfeng Gao",
+                        "user": "wyngjf",
+                        "type": "user"
+                    },
+                    "name": "Jianfeng Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-04-29T12:27:37.335Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29777",
+                    "name": "Yuqing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68105d8632d635f02bc29778",
+                    "name": "Lili Qiu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6278bd42541f3d2dfa77ea70/K2pFSyL6PhhzhfK3ar9Ok.jpeg"
+            ],
+            "publishedAt": "2025-04-22T17:59:51.000Z",
+            "submittedOnDailyAt": "2025-04-29T03:34:32.012Z",
+            "title": "MMInference: Accelerating Pre-filling for Long-Context VLMs via\n  Modality-Aware Permutation Sparse Attention",
+            "submittedOnDailyBy": {
+                "_id": "6278bd42541f3d2dfa77ea70",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6278bd42541f3d2dfa77ea70/ejn49eapnB3UXQckAYdTd.jpeg",
+                "isPro": true,
+                "fullname": "Huiqiang Jiang",
+                "user": "iofu728",
+                "type": "user"
+            },
+            "summary": "The integration of long-context capabilities with visual understanding\nunlocks unprecedented potential for Vision Language Models (VLMs). However, the\nquadratic attention complexity during the pre-filling phase remains a\nsignificant obstacle to real-world deployment. To overcome this limitation, we\nintroduce MMInference (Multimodality Million tokens Inference), a dynamic\nsparse attention method that accelerates the prefilling stage for long-context\nmulti-modal inputs. First, our analysis reveals that the temporal and spatial\nlocality of video input leads to a unique sparse pattern, the Grid pattern.\nSimultaneously, VLMs exhibit markedly different sparse distributions across\ndifferent modalities. We introduce a permutation-based method to leverage the\nunique Grid pattern and handle modality boundary issues. By offline search the\noptimal sparse patterns for each head, MMInference constructs the sparse\ndistribution dynamically based on the input. We also provide optimized GPU\nkernels for efficient sparse computations. Notably, MMInference integrates\nseamlessly into existing VLM pipelines without any model modifications or\nfine-tuning. Experiments on multi-modal benchmarks-including Video QA,\nCaptioning, VisionNIAH, and Mixed-Modality NIAH-with state-of-the-art\nlong-context VLMs (LongVila, LlavaVideo, VideoChat-Flash, Qwen2.5-VL) show that\nMMInference accelerates the pre-filling stage by up to 8.3x at 1M tokens while\nmaintaining accuracy. Our code is available at https://aka.ms/MMInference.",
+            "upvotes": 8,
+            "discussionId": "68105d8732d635f02bc297bb"
+        },
+        "translation_title": "MMInference: 모달리티 인식 순서 희소 주의를 통한 긴 문맥 VLM의 사전 채우기 가속화",
+        "purpose": "긴 문맥 입력에 대한 처리 속도를 높여 Vision Language Models(VLMs)의 실제 적용 가능성 향상",
+        "method": [
+            "MMInference라는 동적 희소 주의 방법을 도입해 사전 채우기 단계의 속도를 높임(To overcome this limitation, we introduce MMInference (Multimodality Million tokens Inference), a dynamic sparse attention method that accelerates the prefilling stage for long-context multi-modal inputs.)",
+            "비디오 입력의 시간적 및 공간적 국소성과 VLM의 다양한 모달리티 간 희소 분포 차이를 분석함(First, our analysis reveals that the temporal and spatial locality of video input leads to a unique sparse pattern, the Grid pattern.)",
+            "입력에 따라 희소 분포를 동적으로 구성하는 방법을 제안함(By offline search the optimal sparse patterns for each head, MMInference constructs the sparse distribution dynamically based on the input.)"
+        ],
+        "conclusion": "MMInference는 기존 VLM 파이프라인에 통합 가능하며, 정확성을 유지하면서 최대 8.3배의 속도를 향상시킴.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Video Understanding"
+        ]
+    }
+]
