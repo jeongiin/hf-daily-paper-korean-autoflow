@@ -1,0 +1,465 @@
+[
+    {
+        "paper": {
+            "id": "2504.21635",
+            "authors": [
+                {
+                    "_id": "68130be55342cbe1ddefb262",
+                    "user": {
+                        "_id": "65704741e1cfce1764ce652e",
+                        "avatarUrl": "/avatars/9189aaf417426af4ebe381ed364a6c0e.svg",
+                        "isPro": false,
+                        "fullname": "Zeina Aldallal",
+                        "user": "ZeinaD",
+                        "type": "user"
+                    },
+                    "name": "Zeina Aldallal",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-01T05:51:34.441Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68130be55342cbe1ddefb263",
+                    "name": "Sara Chrouf",
+                    "hidden": false
+                },
+                {
+                    "_id": "68130be55342cbe1ddefb264",
+                    "user": {
+                        "_id": "65276c7911a8a521c91bc10f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                        "isPro": false,
+                        "fullname": "Khalil Hennara",
+                        "user": "Hennara",
+                        "type": "user"
+                    },
+                    "name": "Khalil Hennara",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-01T06:55:15.787Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68130be55342cbe1ddefb265",
+                    "user": {
+                        "_id": "63aa7667769a10efc404fbbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aa7667769a10efc404fbbc/tn8ZxUmTEMS0Gze7_F7JL.jpeg",
+                        "isPro": false,
+                        "fullname": "Mohamed Motasim Hamed",
+                        "user": "Moatasem444",
+                        "type": "user"
+                    },
+                    "name": "Mohamed Motaism Hamed",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-01T07:00:18.613Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68130be55342cbe1ddefb266",
+                    "user": {
+                        "_id": "6496df4b3c64d75523a11973",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6496df4b3c64d75523a11973/I_Qn5-3Czngle-NsGmabO.jpeg",
+                        "isPro": false,
+                        "fullname": "Muhammad Hreden",
+                        "user": "hr99",
+                        "type": "user"
+                    },
+                    "name": "Muhammad Hreden",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-01T07:16:03.684Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68130be55342cbe1ddefb267",
+                    "name": "Safwan AlModhayan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T13:37:24.000Z",
+            "submittedOnDailyAt": "2025-05-01T05:10:38.792Z",
+            "title": "Sadeed: Advancing Arabic Diacritization Through Small Language Model",
+            "submittedOnDailyBy": {
+                "_id": "65276c7911a8a521c91bc10f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                "isPro": false,
+                "fullname": "Khalil Hennara",
+                "user": "Hennara",
+                "type": "user"
+            },
+            "summary": "Arabic text diacritization remains a persistent challenge in natural language\nprocessing due to the language's morphological richness. In this paper, we\nintroduce Sadeed, a novel approach based on a fine-tuned decoder-only language\nmodel adapted from Kuwain 1.5B Hennara et al. [2025], a compact model\noriginally trained on diverse Arabic corpora. Sadeed is fine-tuned on carefully\ncurated, high-quality diacritized datasets, constructed through a rigorous\ndata-cleaning and normalization pipeline. Despite utilizing modest\ncomputational resources, Sadeed achieves competitive results compared to\nproprietary large language models and outperforms traditional models trained on\nsimilar domains. Additionally, we highlight key limitations in current\nbenchmarking practices for Arabic diacritization. To address these issues, we\nintroduce SadeedDiac-25, a new benchmark designed to enable fairer and more\ncomprehensive evaluation across diverse text genres and complexity levels.\nTogether, Sadeed and SadeedDiac-25 provide a robust foundation for advancing\nArabic NLP applications, including machine translation, text-to-speech, and\nlanguage learning tools.",
+            "upvotes": 42,
+            "discussionId": "68130be65342cbe1ddefb2a6",
+            "ai_keywords": [
+                "decoder-only language model",
+                "Kuwain 1.5B Hennara",
+                "fine-tuned",
+                "diacritized datasets",
+                "data-cleaning",
+                "normalization",
+                "benchmarking",
+                "SadeedDiac-25"
+            ]
+        },
+        "translation_title": "Sadeed: 소형 언어 모델을 통한 아랍어 모음 기호화 발전",
+        "purpose": "아랍어 모음 기호화를 개선하기 위한 효율적인 방법과 평가 기준 개발",
+        "method": [
+            "Kuwain 1.5B Hennara et al.에서 변형된 decoder-only 언어 모델을 기반으로 Sadeed를 제안함(In this paper, we introduce Sadeed, a novel approach based on a fine-tuned decoder-only language model adapted from Kuwain 1.5B Hennara et al.)",
+            "철저한 데이터 정리 및 정규화 과정을 통해 구축된 고품질 모음 기호화 데이터 세트로 Sadeed를 세밀하게 조정함(Sadeed is fine-tuned on carefully curated, high-quality diacritized datasets, constructed through a rigorous data-cleaning and normalization pipeline.)",
+            "SadeedDiac-25라는 새로운 벤치마크를 도입하여 아랍어 모음 기호화의 공정하고 포괄적인 평가를 가능하게 함(To address these issues, we introduce SadeedDiac-25, a new benchmark designed to enable fairer and more comprehensive evaluation across diverse text genres and complexity levels.)"
+        ],
+        "conclusion": "Sadeed는 소규모 계산 리소스를 사용하면서도 기존 대형 언어 모델에 비해 경쟁력 있는 결과를 달성하고, 아랍어 NLP 애플리케이션 발전의 확고한 기반을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.21776",
+            "authors": [
+                {
+                    "_id": "6812d593060494e99e4835e0",
+                    "name": "Xiaoxi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e1",
+                    "name": "Jiajie Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e2",
+                    "name": "Guanting Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e3",
+                    "name": "Hongjin Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e4",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e5",
+                    "name": "Yongkang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e6",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d593060494e99e4835e7",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T16:25:25.000Z",
+            "submittedOnDailyAt": "2025-05-01T00:33:55.498Z",
+            "title": "WebThinker: Empowering Large Reasoning Models with Deep Research\n  Capability",
+            "submittedOnDailyBy": {
+                "_id": "61cd4b833dd34ba1985e0753",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                "isPro": false,
+                "fullname": "KABI",
+                "user": "dongguanting",
+                "type": "user"
+            },
+            "summary": "Large reasoning models (LRMs), such as OpenAI-o1 and DeepSeek-R1, demonstrate\nimpressive long-horizon reasoning capabilities. However, their reliance on\nstatic internal knowledge limits their performance on complex,\nknowledge-intensive tasks and hinders their ability to produce comprehensive\nresearch reports requiring synthesis of diverse web information. To address\nthis, we propose WebThinker, a deep research agent that empowers LRMs\nto autonomously search the web, navigate web pages, and draft research reports\nduring the reasoning process. WebThinker integrates a Deep Web\nExplorer module, enabling LRMs to dynamically search, navigate, and extract\ninformation from the web when encountering knowledge gaps. It also employs an\nAutonomous Think-Search-and-Draft strategy, allowing the model to\nseamlessly interleave reasoning, information gathering, and report writing in\nreal time. To further enhance research tool utilization, we introduce an\nRL-based training strategy via iterative online Direct Preference\nOptimization (DPO). Extensive experiments on complex reasoning benchmarks\n(GPQA, GAIA, WebWalkerQA, HLE) and scientific report generation tasks (Glaive)\ndemonstrate that WebThinker significantly outperforms existing methods and\nstrong proprietary systems. Our approach enhances LRM reliability and\napplicability in complex scenarios, paving the way for more capable and\nversatile deep research systems. The code is available at\nhttps://github.com/RUC-NLPIR/WebThinker.",
+            "upvotes": 24,
+            "discussionId": "6812d594060494e99e48361c",
+            "ai_keywords": [
+                "Large reasoning models (LRMs)",
+                "WebThinker",
+                "Deep Web Explorer",
+                "Autonomous Think-Search-and-Draft strategy",
+                "RL-based training strategy",
+                "iterative online Direct Preference Optimization (DPO)",
+                "GPQA",
+                "GAIA",
+                "WebWalkerQA",
+                "HLE",
+                "Glaive"
+            ]
+        },
+        "translation_title": "WebThinker: 대규모 추론 모델을 위한 심층 연구 능력 강화",
+        "purpose": "대규모 추론 모델의 지식 격차를 해결하고 더욱 효과적인 연구 보고서 작성을 목표로 함.",
+        "method": [
+            "WebThinker라는 깊은 연구 에이전트를 제안하여 LRM이 웹을 자율적으로 검색하고 웹 페이지를 탐색하는 능력을 부여함(To address this, we propose WebThinker, a deep research agent that empowers LRMs to autonomously search the web, navigate web pages, and draft research reports during the reasoning process.)",
+            "Deep Web Explorer 모듈을 통합하여 LRM이 지식 격차를 만났을 때 동적으로 웹에서 정보를 검색, 탐색 및 추출할 수 있도록 함(WebThinker integrates a Deep Web Explorer module, enabling LRMs to dynamically search, navigate, and extract information from the web when encountering knowledge gaps.)",
+            "추론, 정보 수집 및 보고서 작성을 실시간으로 연계하는 자율적 사고-검색-작성 전략을 사용함(It also employs an Autonomous Think-Search-and-Draft strategy, allowing the model to seamlessly interleave reasoning, information gathering, and report writing in real time.)"
+        ],
+        "conclusion": "WebThinker는 복잡한 추론 작업에서 기존 방법보다 성능이 뛰어나며, 더 믿을 수 있고 다양한 연구 시스템으로 발전할 수 있는 기반을 마련함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.21233",
+            "authors": [
+                {
+                    "_id": "6812d62ae74b39182bd17c9c",
+                    "name": "Haoran Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17c9d",
+                    "name": "Baolin Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17c9e",
+                    "name": "Hany Awadalla",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17c9f",
+                    "name": "Dongdong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca0",
+                    "name": "Yen-Chun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca1",
+                    "name": "Mei Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca2",
+                    "name": "Young Jin Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca3",
+                    "name": "Yunsheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca4",
+                    "name": "Liliang Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca5",
+                    "name": "Yelong Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca6",
+                    "name": "Shuohang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca7",
+                    "name": "Weijian Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca8",
+                    "name": "Jianfeng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812d62ae74b39182bd17ca9",
+                    "name": "Weizhu Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T00:04:35.000Z",
+            "submittedOnDailyAt": "2025-05-01T00:32:47.316Z",
+            "title": "Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language\n  Models in Math",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": false,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "Chain-of-Thought (CoT) significantly enhances formal reasoning capabilities\nin Large Language Models (LLMs) by training them to explicitly generate\nintermediate reasoning steps. While LLMs readily benefit from such techniques,\nimproving reasoning in Small Language Models (SLMs) remains challenging due to\ntheir limited model capacity. Recent work by Deepseek-R1 demonstrates that\ndistillation from LLM-generated synthetic data can substantially improve the\nreasoning ability of SLM. However, the detailed modeling recipe is not\ndisclosed. In this work, we present a systematic training recipe for SLMs that\nconsists of four steps: (1) large-scale mid-training on diverse distilled\nlong-CoT data, (2) supervised fine-tuning on high-quality long-CoT data, (3)\nRollout DPO leveraging a carefully curated preference dataset, and (4)\nReinforcement Learning (RL) with Verifiable Reward. We apply our method on\nPhi-4-Mini, a compact 3.8B-parameter model. The resulting Phi-4-Mini-Reasoning\nmodel exceeds, on math reasoning tasks, much larger reasoning models, e.g.,\noutperforming DeepSeek-R1-Distill-Qwen-7B by 3.2 points and\nDeepSeek-R1-Distill-Llama-8B by 7.7 points on Math-500. Our results validate\nthat a carefully designed training recipe, with large-scale high-quality CoT\ndata, is effective to unlock strong reasoning capabilities even in\nresource-constrained small models.",
+            "upvotes": 16,
+            "discussionId": "6812d62be74b39182bd17cdb",
+            "ai_keywords": [
+                "Chain-of-Thought (CoT)",
+                "Large Language Models (LLMs)",
+                "Small Language Models (SLMs)",
+                "distillation",
+                "synthetic data",
+                "mid-training",
+                "diverse distilled long-CoT data",
+                "supervised fine-tuning",
+                "high-quality long-CoT data",
+                "Rollout DPO",
+                "preference dataset",
+                "Reinforcement Learning (RL)",
+                "Verifiable Reward",
+                "Phi-4-Mini",
+                "resource-constrained small models"
+            ]
+        },
+        "translation_title": "Phi-4-Mini-Reasoning: 수학에서 작은 Reasoning Language Models의 한계 탐구",
+        "purpose": "리소스가 제한된 작은 모델에서도 강력한 추론 능력을 발휘하도록 하기 위한 체계적 훈련 방법 연구",
+        "method": [
+            "다양한 distilled long-CoT 데이터를 활용한 대규모 중간 훈련 실시(1. large-scale mid-training on diverse distilled long-CoT data)",
+            "고품질 long-CoT 데이터에 대한 감독 세밀 조정 수행(2. supervised fine-tuning on high-quality long-CoT data)",
+            "선택 데이터셋을 활용한 Rollout DPO 적용(3. Rollout DPO leveraging a carefully curated preference dataset)",
+            "검증 가능한 보상과 함께 강화 학습(RL) 실시(4. Reinforcement Learning (RL) with Verifiable Reward)"
+        ],
+        "conclusion": "Phi-4-Mini-Reasoning 모델은 수학 추론 작업에서 더 큰 모델들을 능가하며, 잘 설계된 훈련 레시피가 리소스가 제한된 작은 모델에서도 유효함을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.20708",
+            "authors": [
+                {
+                    "_id": "6813376e2379095ee572f2f8",
+                    "name": "Hasan Abed Al Kader Hammoud",
+                    "hidden": false
+                },
+                {
+                    "_id": "6813376e2379095ee572f2f9",
+                    "name": "Hani Itani",
+                    "hidden": false
+                },
+                {
+                    "_id": "6813376e2379095ee572f2fa",
+                    "name": "Bernard Ghanem",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/642b51385bf2355d02a23d15/lojSGsqwNqzSQxNp4FHXA.png"
+            ],
+            "publishedAt": "2025-04-29T12:39:07.000Z",
+            "submittedOnDailyAt": "2025-05-01T07:28:39.014Z",
+            "title": "Beyond the Last Answer: Your Reasoning Trace Uncovers More than You\n  Think",
+            "submittedOnDailyBy": {
+                "_id": "642b51385bf2355d02a23d15",
+                "avatarUrl": "/avatars/87985347643b2647555f2453fa4d94fb.svg",
+                "isPro": true,
+                "fullname": "Hasan Abed Al Kader Hammoud",
+                "user": "hammh0a",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) leverage step-by-step reasoning to solve complex\nproblems. Standard evaluation practice involves generating a complete reasoning\ntrace and assessing the correctness of the final answer presented at its\nconclusion. In this paper, we challenge the reliance on the final answer by\nposing the following two questions: Does the final answer reliably represent\nthe model's optimal conclusion? Can alternative reasoning paths yield different\nresults? To answer these questions, we analyze intermediate reasoning steps,\ntermed subthoughts, and propose a method based on our findings. Our approach\ninvolves segmenting a reasoning trace into sequential subthoughts based on\nlinguistic cues. We start by prompting the model to generate continuations from\nthe end-point of each intermediate subthought. We extract a potential answer\nfrom every completed continuation originating from different subthoughts. We\nfind that aggregating these answers by selecting the most frequent one (the\nmode) often yields significantly higher accuracy compared to relying solely on\nthe answer derived from the original complete trace. Analyzing the consistency\namong the answers derived from different subthoughts reveals characteristics\nthat correlate with the model's confidence and correctness, suggesting\npotential for identifying less reliable answers. Our experiments across various\nLLMs and challenging mathematical reasoning datasets (AIME2024 and AIME2025)\nshow consistent accuracy improvements, with gains reaching up to 13\\% and 10\\%\nrespectively. Implementation is available at:\nhttps://github.com/hammoudhasan/SubthoughtReasoner.",
+            "upvotes": 13,
+            "discussionId": "6813376f2379095ee572f34c",
+            "projectPage": "https://hammoudhasan.github.io/SubthoughtReasoner/",
+            "githubRepo": "https://github.com/hammoudhasan/SubthoughtReasoner",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "step-by-step reasoning",
+                "reasoning trace",
+                "subthoughts",
+                "linguistic cues",
+                "continuations",
+                "aggregating answers",
+                "mode",
+                "model's confidence",
+                "correctness",
+                "AIME2024",
+                "AIME2025"
+            ]
+        },
+        "translation_title": "마지막 답변을 넘어: 당신의 추론 과정이 당신이 생각하는 것 이상을 드러냄",
+        "purpose": "최종 답변에 대한 의존도를 줄이고 대안적인 추론 경로를 통한 결과의 차이를 탐구하기 위함",
+        "method": [
+            "추론 과정을 언어적 단서를 기반으로 순차적인 subthoughts로 나누는 방법을 제안함(Our approach involves segmenting a reasoning trace into sequential subthoughts based on linguistic cues.)",
+            "모델에 각 subthought의 끝점에서 연속성을 생성하도록 요청함(We start by prompting the model to generate continuations from the end-point of each intermediate subthought.)",
+            "서로 다른 subthoughts에서 발생하는 모든 연속성에서 잠재적 답을 추출함(We extract a potential answer from every completed continuation originating from different subthoughts.)",
+            "가장 빈번한 답을 선택하여 집합적으로 비교함(We find that aggregating these answers by selecting the most frequent one (the mode) often yields significantly higher accuracy compared to relying solely on the answer derived from the original complete trace.)"
+        ],
+        "conclusion": "이 방법을 통해 다양한 LLM 및 어려운 수학적 추론 데이터셋에서 일관된 정확도 향상을 달성하였으며, 최종적으로 최대 13% 및 10%의 성과를 거두었음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.20966",
+            "authors": [
+                {
+                    "_id": "6812e473060494e99e4c5116",
+                    "name": "Zayd M. K. Zuhri",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812e473060494e99e4c5117",
+                    "name": "Erland Hilman Fuadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6812e473060494e99e4c5118",
+                    "name": "Alham Fikri Aji",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/60cf8a354061635e43b28f60/ZQTvDnn0F_MaUg5zlVk62.png"
+            ],
+            "publishedAt": "2025-04-29T17:36:18.000Z",
+            "submittedOnDailyAt": "2025-05-01T01:38:03.643Z",
+            "title": "Softpick: No Attention Sink, No Massive Activations with Rectified\n  Softmax",
+            "submittedOnDailyBy": {
+                "_id": "60cf8a354061635e43b28f60",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60cf8a354061635e43b28f60/o8gv9mG5cvnopJZJnNibi.jpeg",
+                "isPro": true,
+                "fullname": "Zayd Muhammad Kawakibi Zuhri",
+                "user": "zaydzuhri",
+                "type": "user"
+            },
+            "summary": "We introduce softpick, a rectified, not sum-to-one, drop-in replacement for\nsoftmax in transformer attention mechanisms that eliminates attention sink and\nmassive activations. Our experiments with 340M parameter models demonstrate\nthat softpick maintains performance parity with softmax on standard benchmarks\nwhile achieving 0% sink rate. The softpick transformer produces hidden states\nwith significantly lower kurtosis (340 vs 33,510) and creates sparse attention\nmaps (46.97% sparsity). Models using softpick consistently outperform softmax\nwhen quantized, with particularly pronounced advantages at lower bit\nprecisions. Our analysis and discussion shows how softpick has the potential to\nopen new possibilities for quantization, low-precision training, sparsity\noptimization, pruning, and interpretability. Our code is available at\nhttps://github.com/zaydzuhri/softpick-attention.",
+            "upvotes": 12,
+            "discussionId": "6812e475060494e99e4c519f",
+            "ai_keywords": [
+                "softpick",
+                "rectified",
+                "drop-in replacement",
+                "softmax",
+                "transformer attention mechanisms",
+                "attention sink",
+                "massive activations",
+                "performance parity",
+                "kurtosis",
+                "sparse attention maps",
+                "quantized",
+                "bit precisions",
+                "quantization",
+                "low-precision training",
+                "sparsity optimization",
+                "pruning",
+                "interpretability"
+            ]
+        },
+        "translation_title": "Softpick: Attention Sink와 대규모 활성화를 없앤 Rectified Softmax",
+        "purpose": "Transformer 주의 메커니즘에서 softmax를 대체할 수 있는 방법 연구",
+        "method": [
+            "softmax 대신 사용할 수 있는 rectified drop-in replacement인 softpick을 소개함(We introduce softpick, a rectified, not sum-to-one, drop-in replacement for softmax in transformer attention mechanisms that eliminates attention sink and massive activations.)",
+            "340M 파라미터 모델을 사용한 실험을 통해 softpick이 standard benchmarks에서 softmax와 같은 성능을 유지함을 보여줌(Our experiments with 340M parameter models demonstrate that softpick maintains performance parity with softmax on standard benchmarks while achieving 0% sink rate.)",
+            "softpick을 사용한 모델들이 quantized 되었을 때 softmax보다 일관되게 더 뛰어난 성능을 보임(Models using softpick consistently outperform softmax when quantized, with particularly pronounced advantages at lower bit precisions.)"
+        ],
+        "conclusion": "softpick은 quantization, low-precision training, sparsity optimization 등 새로운 가능성을 열어줄 잠재력이 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Computer Vision"
+        ]
+    }
+]
