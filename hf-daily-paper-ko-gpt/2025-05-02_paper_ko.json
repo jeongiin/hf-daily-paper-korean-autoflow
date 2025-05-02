@@ -1,0 +1,462 @@
+[
+    {
+        "paper": {
+            "id": "2504.21853",
+            "authors": [
+                {
+                    "_id": "681441e64d6a681c7c840b1f",
+                    "name": "Jiwen Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b20",
+                    "name": "Yiran Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b21",
+                    "name": "Haoxuan Che",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b22",
+                    "name": "Quande Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b23",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b24",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b25",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b26",
+                    "name": "Kun Gai",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b27",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681441e64d6a681c7c840b28",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/Y9dvfNIIrOJ4rCzwIB6XI.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/64105a6d14215c0775dfdd14/5kPNXDj9LIsgShhFz5WSg.jpeg"
+            ],
+            "publishedAt": "2025-04-30T17:59:02.000Z",
+            "submittedOnDailyAt": "2025-05-02T02:29:37.187Z",
+            "title": "A Survey of Interactive Generative Video",
+            "submittedOnDailyBy": {
+                "_id": "64105a6d14215c0775dfdd14",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64105a6d14215c0775dfdd14/-VX-cUYOLjHIg7QnWhRGG.jpeg",
+                "isPro": false,
+                "fullname": "Jiwen Yu",
+                "user": "VictorYuki",
+                "type": "user"
+            },
+            "summary": "Interactive Generative Video (IGV) has emerged as a crucial technology in\nresponse to the growing demand for high-quality, interactive video content\nacross various domains. In this paper, we define IGV as a technology that\ncombines generative capabilities to produce diverse high-quality video content\nwith interactive features that enable user engagement through control signals\nand responsive feedback. We survey the current landscape of IGV applications,\nfocusing on three major domains: 1) gaming, where IGV enables infinite\nexploration in virtual worlds; 2) embodied AI, where IGV serves as a\nphysics-aware environment synthesizer for training agents in multimodal\ninteraction with dynamically evolving scenes; and 3) autonomous driving, where\nIGV provides closed-loop simulation capabilities for safety-critical testing\nand validation. To guide future development, we propose a comprehensive\nframework that decomposes an ideal IGV system into five essential modules:\nGeneration, Control, Memory, Dynamics, and Intelligence. Furthermore, we\nsystematically analyze the technical challenges and future directions in\nrealizing each component for an ideal IGV system, such as achieving real-time\ngeneration, enabling open-domain control, maintaining long-term coherence,\nsimulating accurate physics, and integrating causal reasoning. We believe that\nthis systematic analysis will facilitate future research and development in the\nfield of IGV, ultimately advancing the technology toward more sophisticated and\npractical applications.",
+            "upvotes": 25,
+            "discussionId": "681441e84d6a681c7c840bae",
+            "ai_keywords": [
+                "generative capabilities",
+                "interactive features",
+                "control signals",
+                "responsive feedback",
+                "virtual worlds",
+                "physics-aware environment synthesizer",
+                "multimodal interaction",
+                "dynamically evolving scenes",
+                "closed-loop simulation",
+                "safety-critical testing",
+                "validation",
+                "real-time generation",
+                "open-domain control",
+                "long-term coherence",
+                "accurate physics",
+                "causal reasoning"
+            ]
+        },
+        "translation_title": "대화형 생성 비디오에 대한 조사",
+        "purpose": "고품질 대화형 비디오 콘텐츠의 수요 증가에 대응하기 위한 IGV 기술 정의 및survey",
+        "method": [
+            "대화형 생성 비디오(IGV)를 사용자가 제어 신호를 통해 상호 작용할 수 있는 고품질 비디오 콘텐츠를 생성하는 기술로 정의함(we define IGV as a technology that combines generative capabilities to produce diverse high-quality video content with interactive features that enable user engagement through control signals and responsive feedback.)",
+            "IGV의 주요 응용 분야로 게임, 구현된 AI 및 자율주행을 포함하여 현재의 IGV 응용 프로그램을 조사함(we survey the current landscape of IGV applications, focusing on three major domains: 1) gaming, 2) embodied AI, and 3) autonomous driving.)",
+            "이상적인 IGV 시스템을 위해 Generation, Control, Memory, Dynamics, Intelligence의 다섯 가지 모듈로 분해하는 포괄적인 프레임워크를 제안함(we propose a comprehensive framework that decomposes an ideal IGV system into five essential modules: Generation, Control, Memory, Dynamics, and Intelligence.)",
+            "기술적 도전 과제와 이상적인 IGV 시스템 구현을 위한 미래 방향들을 체계적으로 분석함 (we systematically analyze the technical challenges and future directions in realizing each component for an ideal IGV system.)"
+        ],
+        "conclusion": "체계적인 분석을 통해 IGV 기술 발전에 기여하며, 더 정교하고 실용적인 응용 프로그램으로 나아가는 데 도움을 줄 것으로 기대함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.00662",
+            "authors": [
+                {
+                    "_id": "68142e4a551709da9244e8d1",
+                    "user": {
+                        "_id": "64b7df742f5a966b973e25f7",
+                        "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+                        "isPro": false,
+                        "fullname": "Wenkai Yang",
+                        "user": "Keven16",
+                        "type": "user"
+                    },
+                    "name": "Wenkai Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-02T06:34:18.531Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d2",
+                    "name": "Jingwen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d3",
+                    "name": "Yankai Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142e4a551709da9244e8d4",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T17:03:17.000Z",
+            "submittedOnDailyAt": "2025-05-02T01:12:33.949Z",
+            "title": "DeepCritic: Deliberate Critique with Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "64b7df742f5a966b973e25f7",
+                "avatarUrl": "/avatars/e24e7769188d441317b3b7d10ef8fd60.svg",
+                "isPro": false,
+                "fullname": "Wenkai Yang",
+                "user": "Keven16",
+                "type": "user"
+            },
+            "summary": "As Large Language Models (LLMs) are rapidly evolving, providing accurate\nfeedback and scalable oversight on their outputs becomes an urgent and critical\nproblem. Leveraging LLMs as critique models to achieve automated supervision is\na promising solution. In this work, we focus on studying and enhancing the math\ncritique ability of LLMs. Current LLM critics provide critiques that are too\nshallow and superficial on each step, leading to low judgment accuracy and\nstruggling to offer sufficient feedback for the LLM generator to correct\nmistakes. To tackle this issue, we propose a novel and effective two-stage\nframework to develop LLM critics that are capable of deliberately critiquing on\neach reasoning step of math solutions. In the first stage, we utilize\nQwen2.5-72B-Instruct to generate 4.5K long-form critiques as seed data for\nsupervised fine-tuning. Each seed critique consists of deliberate step-wise\ncritiques that includes multi-perspective verifications as well as in-depth\ncritiques of initial critiques for each reasoning step. Then, we perform\nreinforcement learning on the fine-tuned model with either existing\nhuman-labeled data from PRM800K or our automatically annotated data obtained\nvia Monte Carlo sampling-based correctness estimation, to further incentivize\nits critique ability. Our developed critique model built on Qwen2.5-7B-Instruct\nnot only significantly outperforms existing LLM critics (including the\nsame-sized DeepSeek-R1-distill models and GPT-4o) on various error\nidentification benchmarks, but also more effectively helps the LLM generator\nrefine erroneous steps through more detailed feedback.",
+            "upvotes": 22,
+            "discussionId": "68142e4b551709da9244e8f8",
+            "ai_keywords": [
+                "LLMs (Large Language Models)",
+                "critique models",
+                "automated supervision",
+                "math critique ability",
+                "supervised fine-tuning",
+                "Qwen2.5-72B-Instruct",
+                "seed data",
+                "deliberate step-wise critiques",
+                "multi-perspective verifications",
+                "reinforcement learning",
+                "PRM800K",
+                "Monte Carlo sampling-based correctness estimation",
+                "Qwen2.5-7B-Instruct",
+                "DeepSeek-R1-distill models",
+                "GPT-4o",
+                "error identification benchmarks"
+            ]
+        },
+        "translation_title": "DeepCritic: 대규모 언어 모델을 활용한 체계적인 비판",
+        "purpose": "대규모 언어 모델(LLM)의 수학 비판 능력을 향상시키고, 정확한 피드백을 제공하기 위한 체계적인 감독 방법 연구",
+        "method": [
+            "Qwen2.5-72B-Instruct를 사용해 4,500개의 장문 비판을 생성하여 감독 방식의 미세 조정을 위한 시드 데이터로 활용함.(In the first stage, we utilize Qwen2.5-72B-Instruct to generate 4.5K long-form critiques as seed data for supervised fine-tuning.)",
+            "각 시드 비판은 단계별 비판과 초기 비판에 대한 심층 비판을 포함함.(Each seed critique consists of deliberate step-wise critiques that includes multi-perspective verifications as well as in-depth critiques of initial critiques for each reasoning step.)",
+            "미세 조정된 모델을 강화 학습하여 비판 능력을 더욱 향상시킴.(Then, we perform reinforcement learning on the fine-tuned model with either existing human-labeled data from PRM800K or our automatically annotated data obtained via Monte Carlo sampling-based correctness estimation.)"
+        ],
+        "conclusion": "개발된 비판 모델은 기존 LLM 비판기보다 다양한 오류 식별 기준에서 성능이 크게 향상되었으며, LLM 생성기가 잘못된 단계를 수정하는 데 더 효과적인 피드백을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.00703",
+            "authors": [
+                {
+                    "_id": "681428debcdf962d03da2797",
+                    "name": "Dongzhi Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da2798",
+                    "name": "Ziyu Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da2799",
+                    "name": "Renrui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279a",
+                    "name": "Zhuofan Zong",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279b",
+                    "name": "Hao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279c",
+                    "name": "Le Zhuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279d",
+                    "name": "Shilin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279e",
+                    "name": "Pheng-Ann Heng",
+                    "hidden": false
+                },
+                {
+                    "_id": "681428debcdf962d03da279f",
+                    "name": "Hongsheng Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-01T17:59:46.000Z",
+            "submittedOnDailyAt": "2025-05-02T00:38:40.412Z",
+            "title": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level\n  and Token-level CoT",
+            "submittedOnDailyBy": {
+                "_id": "6349214f8146350b3a4c5cdf",
+                "avatarUrl": "/avatars/cfd24caac9a87efb528d0f4c375932bc.svg",
+                "isPro": false,
+                "fullname": "Dongzhi Jiang",
+                "user": "CaraJ",
+                "type": "user"
+            },
+            "summary": "Recent advancements in large language models have demonstrated how\nchain-of-thought (CoT) and reinforcement learning (RL) can improve performance.\nHowever, applying such reasoning strategies to the visual generation domain\nremains largely unexplored. In this paper, we present T2I-R1, a novel\nreasoning-enhanced text-to-image generation model, powered by RL with a\nbi-level CoT reasoning process. Specifically, we identify two levels of CoT\nthat can be utilized to enhance different stages of generation: (1) the\nsemantic-level CoT for high-level planning of the prompt and (2) the\ntoken-level CoT for low-level pixel processing during patch-by-patch\ngeneration. To better coordinate these two levels of CoT, we introduce\nBiCoT-GRPO with an ensemble of generation rewards, which seamlessly optimizes\nboth generation CoTs within the same training step. By applying our reasoning\nstrategies to the baseline model, Janus-Pro, we achieve superior performance\nwith 13% improvement on T2I-CompBench and 19% improvement on the WISE\nbenchmark, even surpassing the state-of-the-art model FLUX.1. Code is available\nat: https://github.com/CaraJ7/T2I-R1",
+            "upvotes": 16,
+            "discussionId": "681428dfbcdf962d03da281c",
+            "githubRepo": "https://github.com/CaraJ7/T2I-R1",
+            "ai_keywords": [
+                "chain-of-thought (CoT)",
+                "reinforcement learning (RL)",
+                "text-to-image generation model",
+                "bi-level CoT reasoning process",
+                "semantic-level CoT",
+                "token-level CoT",
+                "BiCoT-GRPO",
+                "generation rewards",
+                "Janus-Pro",
+                "T2I-CompBench",
+                "WISE benchmark",
+                "FLUX"
+            ]
+        },
+        "translation_title": "T2I-R1: 협업적 의미 수준 및 토큰 수준 CoT로 이미지 생성을 강화하다",
+        "purpose": "시각적 생성 분야에서의 사고 전개(Chain-of-Thought)와 강화 학습을 통해 텍스트에서 이미지로(T2I) 생성 모델의 성능 향상",
+        "method": [
+            "비의사 결정 체계에서의 두 가지 수준의 CoT를 활용해 텍스트에서 이미지로 생성 단계를 개선함(We identify two levels of CoT that can be utilized to enhance different stages of generation.)",
+            "의미 수준 CoT를 통해 프롬프트의 고수준 계획을 수립하고, 토큰 수준 CoT를 사용해 패치별 저수준 픽셀 처리 수행(Semantic-level CoT for high-level planning of the prompt and token-level CoT for low-level pixel processing during patch-by-patch generation.)",
+            "BiCoT-GRPO라는 생성 보상 집합체를 도입해 두 수준의 CoT를 조화롭게 최적화함(we introduce BiCoT-GRPO with an ensemble of generation rewards, which seamlessly optimizes both generation CoTs.)",
+            "기본 모델인 Janus-Pro에 우리의 사고 전개 전략을 적용해 T2I-CompBench에서 13% 및 WISE 벤치마크에서 19%의 성능 향상을 달성함(we achieve superior performance with 13% improvement on T2I-CompBench and 19% improvement on the WISE benchmark.)"
+        ],
+        "conclusion": "T2I-R1 모델은 기존 최첨단 모델 FLUX를 초월하는 성능을 보이므로, 텍스트에서 이미지로의 생성 품질이 크게 향상됨.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.00497",
+            "authors": [
+                {
+                    "_id": "68147d4d687b82a9b6308cfd",
+                    "name": "Antoni Bigata",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308cfe",
+                    "name": "Rodrigo Mira",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308cff",
+                    "name": "Stella Bounareli",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d00",
+                    "name": "Michał Stypułkowski",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d01",
+                    "name": "Konstantinos Vougioukas",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d02",
+                    "name": "Stavros Petridis",
+                    "hidden": false
+                },
+                {
+                    "_id": "68147d4d687b82a9b6308d03",
+                    "name": "Maja Pantic",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/640777812e309e65452491dd/4ao3SssNM8wCiTo5amAxn.mp4"
+            ],
+            "publishedAt": "2025-05-01T12:56:17.000Z",
+            "submittedOnDailyAt": "2025-05-02T06:38:20.471Z",
+            "title": "KeySync: A Robust Approach for Leakage-free Lip Synchronization in High\n  Resolution",
+            "submittedOnDailyBy": {
+                "_id": "640777812e309e65452491dd",
+                "avatarUrl": "/avatars/01b927675e78f212408168522f65fe36.svg",
+                "isPro": true,
+                "fullname": "Antoni Bigata",
+                "user": "toninio19",
+                "type": "user"
+            },
+            "summary": "Lip synchronization, known as the task of aligning lip movements in an\nexisting video with new input audio, is typically framed as a simpler variant\nof audio-driven facial animation. However, as well as suffering from the usual\nissues in talking head generation (e.g., temporal consistency), lip\nsynchronization presents significant new challenges such as expression leakage\nfrom the input video and facial occlusions, which can severely impact\nreal-world applications like automated dubbing, but are often neglected in\nexisting works. To address these shortcomings, we present KeySync, a two-stage\nframework that succeeds in solving the issue of temporal consistency, while\nalso incorporating solutions for leakage and occlusions using a carefully\ndesigned masking strategy. We show that KeySync achieves state-of-the-art\nresults in lip reconstruction and cross-synchronization, improving visual\nquality and reducing expression leakage according to LipLeak, our novel leakage\nmetric. Furthermore, we demonstrate the effectiveness of our new masking\napproach in handling occlusions and validate our architectural choices through\nseveral ablation studies. Code and model weights can be found at\nhttps://antonibigata.github.io/KeySync.",
+            "upvotes": 3,
+            "discussionId": "68147d53687b82a9b6308e59",
+            "projectPage": "https://antonibigata.github.io/KeySync/",
+            "githubRepo": "https://github.com/antonibigata/keysync",
+            "ai_keywords": [
+                "KeySync",
+                "lip synchronization",
+                "audio-driven facial animation",
+                "talking head generation",
+                "temporal consistency",
+                "expression leakage",
+                "facial occlusions",
+                "automated dubbing",
+                "lip reconstruction",
+                "cross-synchronization",
+                "visual quality",
+                "LipLeak",
+                "masking strategy",
+                "ablation studies"
+            ]
+        },
+        "translation_title": "KeySync: 고해상도에서 누수 없는 입술 동기화를 위한 강력한 접근법",
+        "purpose": "입술 동기화의 성능을 개선하고, 누수와 가림 문제를 해결하여 더 나은 자동 더빙 응용을 실현하기 위한 연구",
+        "method": [
+            "입술 동기화와 관련된 시간 일관성 문제를 해결하는 두 단계 프레임워크 KeySync를 제안함(To address these shortcomings, we present KeySync, a two-stage framework that succeeds in solving the issue of temporal consistency.)",
+            "입력 비디오의 표현 누수와 얼굴 가림 문제를 해결하기 위해 정교하게 설계된 마스킹 전략을 통합함(while also incorporating solutions for leakage and occlusions using a carefully designed masking strategy.)",
+            "LipLeak라는 새로운 누수 지표를 사용해 KeySync가 입술 재구성과 교차 동기화에서 최첨단 결과를 달성했음을 보여줌(We show that KeySync achieves state-of-the-art results in lip reconstruction and cross-synchronization, improving visual quality and reducing expression leakage according to LipLeak.)"
+        ],
+        "conclusion": "KeySync는 가림 문제를 효과적으로 처리할 수 있는 새로운 마스킹 접근법을 통해 높은 품질의 입술 동기화를 달성함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.21659",
+            "authors": [
+                {
+                    "_id": "68142de6111ccf18a993c890",
+                    "name": "Haotian Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c891",
+                    "name": "Haiying He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c892",
+                    "name": "Yibo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c893",
+                    "name": "Jinluan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c894",
+                    "name": "Rui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c895",
+                    "name": "Naiqiang Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c896",
+                    "name": "Xiaochun Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c897",
+                    "name": "Dacheng Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68142de6111ccf18a993c898",
+                    "name": "Li Shen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T14:01:45.000Z",
+            "submittedOnDailyAt": "2025-05-02T01:01:49.479Z",
+            "title": "AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning\n  Optimization",
+            "submittedOnDailyBy": {
+                "_id": "632ab8f5a968c34257da5c52",
+                "avatarUrl": "/avatars/59df09e6c9e1e633170514d950ad7981.svg",
+                "isPro": false,
+                "fullname": "Haotian Luo",
+                "user": "LordNoah",
+                "type": "user"
+            },
+            "summary": "Recently, long-thought reasoning models achieve strong performance on complex\nreasoning tasks, but often incur substantial inference overhead, making\nefficiency a critical concern. Our empirical analysis reveals that the benefit\nof using Long-CoT varies across problems: while some problems require elaborate\nreasoning, others show no improvement, or even degraded accuracy. This\nmotivates adaptive reasoning strategies that tailor reasoning depth to the\ninput. However, prior work primarily reduces redundancy within long reasoning\npaths, limiting exploration of more efficient strategies beyond the Long-CoT\nparadigm. To address this, we propose a novel two-stage framework for adaptive\nand efficient reasoning. First, we construct a hybrid reasoning model by\nmerging long and short CoT models to enable diverse reasoning styles. Second,\nwe apply bi-level preference training to guide the model to select suitable\nreasoning styles (group-level), and prefer concise and correct reasoning within\neach style group (instance-level). Experiments demonstrate that our method\nsignificantly reduces inference costs compared to other baseline approaches,\nwhile maintaining performance. Notably, on five mathematical datasets, the\naverage length of reasoning is reduced by more than 50%, highlighting the\npotential of adaptive strategies to optimize reasoning efficiency in large\nlanguage models. Our code is coming soon at https://github.com/StarDewXXX/AdaR1",
+            "upvotes": 3,
+            "discussionId": "68142de7111ccf18a993c8ba",
+            "ai_keywords": [
+                "CoT models",
+                "Long-CoT",
+                "hybrid reasoning model",
+                "bi-level preference training",
+                "adaptive reasoning strategies"
+            ]
+        },
+        "translation_title": "AdaR1: Long-CoT에서 Hybrid-CoT로의 이층 적응 추론 최적화",
+        "purpose": "효율성을 높이고 복잡한 추론 작업에서의 성능을 개선하기 위한 적응적 추론 전략 연구",
+        "method": [
+            "긴 추론 모델과 짧은 CoT 모델을 결합하여 하이브리드 추론 모델을 구성함(First, we construct a hybrid reasoning model by merging long and short CoT models to enable diverse reasoning styles.)",
+            "이층 선호 훈련을 적용하여 모델이 적합한 추론 스타일을 선택하도록 안내함(Second, we apply bi-level preference training to guide the model to select suitable reasoning styles.)",
+            "모델이 각 스타일 그룹 내에서 간결하고 정확한 추론을 선호하도록 함(and prefer concise and correct reasoning within each style group.)"
+        ],
+        "conclusion": "우리 방법은 기존 방법에 비해 추론 비용을 크게 줄이면서도 성능을 유지하며, 특히 다섯 개 수학 데이터셋에서 평균 추론 길이가 50% 이상 감소하여 큰 언어 모델에서 효율성을 최적화할 가능성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
