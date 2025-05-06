@@ -1,0 +1,703 @@
+[
+    {
+        "paper": {
+            "id": "2505.02707",
+            "authors": [
+                {
+                    "_id": "6819982f17007d963b9d4166",
+                    "name": "Yemin Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d4167",
+                    "name": "Yu Shu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d4168",
+                    "name": "Siwei Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d4169",
+                    "user": {
+                        "_id": "6108ae87823007eaf0c7bd1e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6108ae87823007eaf0c7bd1e/dKjdx9I5waJs6oUQ0_mmT.png",
+                        "isPro": false,
+                        "fullname": "Guangyi Liu",
+                        "user": "guangyil",
+                        "type": "user"
+                    },
+                    "name": "Guangyi Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:46:52.667Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d416a",
+                    "user": {
+                        "_id": "6438a9027de34e8ea7e4b257",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6438a9027de34e8ea7e4b257/vib8QSd1AWMr_bR9ig_xJ.jpeg",
+                        "isPro": false,
+                        "fullname": "Jaward Sesay",
+                        "user": "Jaward",
+                        "type": "user"
+                    },
+                    "name": "Jaward Sesay",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:32:48.746Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d416b",
+                    "name": "Jingwen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819982f17007d963b9d416c",
+                    "user": {
+                        "_id": "665bfa1b0d71762b8613282d",
+                        "avatarUrl": "/avatars/edbde7b1b47032339a1ecc59f8ea8f1a.svg",
+                        "isPro": false,
+                        "fullname": "Zhiting Hu",
+                        "user": "zhitinghu",
+                        "type": "user"
+                    },
+                    "name": "Zhiting Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:46:15.191Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/665bfa1b0d71762b8613282d/zbWarqt8nFt0AwhF0gElE.mp4"
+            ],
+            "publishedAt": "2025-05-05T15:05:01.000Z",
+            "submittedOnDailyAt": "2025-05-06T03:36:16.945Z",
+            "title": "Voila: Voice-Language Foundation Models for Real-Time Autonomous\n  Interaction and Voice Role-Play",
+            "submittedOnDailyBy": {
+                "_id": "665bfa1b0d71762b8613282d",
+                "avatarUrl": "/avatars/edbde7b1b47032339a1ecc59f8ea8f1a.svg",
+                "isPro": false,
+                "fullname": "Zhiting Hu",
+                "user": "zhitinghu",
+                "type": "user"
+            },
+            "summary": "A voice AI agent that blends seamlessly into daily life would interact with\nhumans in an autonomous, real-time, and emotionally expressive manner. Rather\nthan merely reacting to commands, it would continuously listen, reason, and\nrespond proactively, fostering fluid, dynamic, and emotionally resonant\ninteractions. We introduce Voila, a family of large voice-language foundation\nmodels that make a step towards this vision. Voila moves beyond traditional\npipeline systems by adopting a new end-to-end architecture that enables\nfull-duplex, low-latency conversations while preserving rich vocal nuances such\nas tone, rhythm, and emotion. It achieves a response latency of just 195\nmilliseconds, surpassing the average human response time. Its hierarchical\nmulti-scale Transformer integrates the reasoning capabilities of large language\nmodels (LLMs) with powerful acoustic modeling, enabling natural, persona-aware\nvoice generation -- where users can simply write text instructions to define\nthe speaker's identity, tone, and other characteristics. Moreover, Voila\nsupports over one million pre-built voices and efficient customization of new\nones from brief audio samples as short as 10 seconds. Beyond spoken dialogue,\nVoila is designed as a unified model for a wide range of voice-based\napplications, including automatic speech recognition (ASR), Text-to-Speech\n(TTS), and, with minimal adaptation, multilingual speech translation. Voila is\nfully open-sourced to support open research and accelerate progress toward\nnext-generation human-machine interactions.",
+            "upvotes": 52,
+            "discussionId": "6819983117007d963b9d4247",
+            "projectPage": "https://voila.maitrix.org",
+            "githubRepo": "https://github.com/maitrix-org/Voila",
+            "ai_keywords": [
+                "full-duplex",
+                "low-latency conversations",
+                "hierarchical multi-scale Transformer",
+                "reasoning capabilities",
+                "large language models (LLMs)",
+                "acoustic modeling",
+                "persona-aware voice generation",
+                "automatic speech recognition (ASR)",
+                "Text-to-Speech (TTS)",
+                "multilingual speech translation",
+                "pre-built voices",
+                "efficient customization"
+            ]
+        },
+        "translation_title": "Voila: 실시간 자율 상호작용 및 음성 역할 놀이를 위한 음성-언어 기초 모델",
+        "purpose": "실제 생활에서 인간과 자율적으로, 실시간으로, 감정적으로 소통하는 음성 AI 에이전트를 개발하기 위한 기초 모델 연구",
+        "method": [
+            "Voila라는 새로운 end-to-end 아키텍처를 채택해 전통적인 파이프라인 시스템을 넘어섰음(Viola moves beyond traditional pipeline systems by adopting a new end-to-end architecture that enables full-duplex, low-latency conversations.)",
+            "응답 지연 시간을 인간 평균보다 더 빠른 195밀리초로 줄임(It achieves a response latency of just 195 milliseconds, surpassing the average human response time.)",
+            "대규모 언어 모델의 추론 기능을 통합한 다계층 Transformer를 통해 자연스럽고 개인화된 음성 생성을 가능하게 함(Its hierarchical multi-scale Transformer integrates the reasoning capabilities of large language models (LLMs) with powerful acoustic modeling.)",
+            "100만 개가 넘는 사전 구축된 음성을 지원하고 10초짜리 짧은 오디오 샘플을 이용한 커스터마이징을 효율적으로 지원함(Viola supports over one million pre-built voices and efficient customization of new ones from brief audio samples as short as 10 seconds.)"
+        ],
+        "conclusion": "Voila는 음성 기반 응용 프로그램을 위한 통합 모델로서 인간-기계 상호작용의 발전을 지원하기 위해 완전히 오픈 소스화됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Voice Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.02387",
+            "authors": [
+                {
+                    "_id": "681988d6d6a5fee26b52ac28",
+                    "user": {
+                        "_id": "6270ff726417aed8a7340c8b",
+                        "avatarUrl": "/avatars/3f14913c55cc4fc78678ac43fb603e80.svg",
+                        "isPro": false,
+                        "fullname": "Xiusi Chen",
+                        "user": "XtremSup",
+                        "type": "user"
+                    },
+                    "name": "Xiusi Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:47:11.654Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac29",
+                    "user": {
+                        "_id": "654d784d71a30c4bca09a319",
+                        "avatarUrl": "/avatars/ab9f93122903ccd662267232bab30ad8.svg",
+                        "isPro": false,
+                        "fullname": "Gaotang Li",
+                        "user": "gaotang",
+                        "type": "user"
+                    },
+                    "name": "Gaotang Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:33:13.258Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2a",
+                    "name": "Ziqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2b",
+                    "name": "Bowen Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2c",
+                    "name": "Cheng Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2d",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2e",
+                    "user": {
+                        "_id": "65f906e5c3dbdcae83ff7aac",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65f906e5c3dbdcae83ff7aac/mdjiVkLDJgJcGLwv0rMe4.jpeg",
+                        "isPro": false,
+                        "fullname": "Hongru Wang",
+                        "user": "Merlin-Hongru",
+                        "type": "user"
+                    },
+                    "name": "Hongru Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:33:11.136Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac2f",
+                    "name": "Yu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac30",
+                    "user": {
+                        "_id": "66285acb73af5913c6bbf1ec",
+                        "avatarUrl": "/avatars/8969e3a6ae2dcc0b1c49768fd044b9e0.svg",
+                        "isPro": false,
+                        "fullname": "Denghui Zhang",
+                        "user": "zhangdenghui123",
+                        "type": "user"
+                    },
+                    "name": "Denghui Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:48:00.793Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac31",
+                    "name": "Tong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac32",
+                    "name": "Hanghang Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "681988d6d6a5fee26b52ac33",
+                    "name": "Heng Ji",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-05T06:11:12.000Z",
+            "submittedOnDailyAt": "2025-05-06T02:32:05.558Z",
+            "title": "RM-R1: Reward Modeling as Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "654d784d71a30c4bca09a319",
+                "avatarUrl": "/avatars/ab9f93122903ccd662267232bab30ad8.svg",
+                "isPro": false,
+                "fullname": "Gaotang Li",
+                "user": "gaotang",
+                "type": "user"
+            },
+            "summary": "Reward modeling is essential for aligning large language models (LLMs) with\nhuman preferences, especially through reinforcement learning from human\nfeedback (RLHF). To provide accurate reward signals, a reward model (RM) should\nstimulate deep thinking and conduct interpretable reasoning before assigning a\nscore or a judgment. However, existing RMs either produce opaque scalar scores\nor directly generate the prediction of a preferred answer, making them struggle\nto integrate natural language critiques, thus lacking interpretability.\nInspired by recent advances of long chain-of-thought (CoT) on\nreasoning-intensive tasks, we hypothesize and validate that integrating\nreasoning capabilities into reward modeling significantly enhances RM's\ninterpretability and performance. In this work, we introduce a new class of\ngenerative reward models -- Reasoning Reward Models (ReasRMs) -- which\nformulate reward modeling as a reasoning task. We propose a reasoning-oriented\ntraining pipeline and train a family of ReasRMs, RM-R1. The training consists\nof two key stages: (1) distillation of high-quality reasoning chains and (2)\nreinforcement learning with verifiable rewards. RM-R1 improves LLM rollouts by\nself-generating reasoning traces or chat-specific rubrics and evaluating\ncandidate responses against them. Empirically, our models achieve\nstate-of-the-art or near state-of-the-art performance of generative RMs across\nmultiple comprehensive reward model benchmarks, outperforming much larger\nopen-weight models (e.g., Llama3.1-405B) and proprietary ones (e.g., GPT-4o) by\nup to 13.8%. Beyond final performance, we perform thorough empirical analysis\nto understand the key ingredients of successful ReasRM training. To facilitate\nfuture research, we release six ReasRM models along with code and data at\nhttps://github.com/RM-R1-UIUC/RM-R1.",
+            "upvotes": 36,
+            "discussionId": "681988d7d6a5fee26b52ac7e",
+            "githubRepo": "https://github.com/RM-R1-UIUC/RM-R1",
+            "ai_keywords": [
+                "reward modeling",
+                "reinforcement learning from human feedback (RLHF)",
+                "reward model (RM)",
+                "scalar scores",
+                "preferred answer",
+                "natural language critiques",
+                "long chain-of-thought (CoT)",
+                "reasoning capabilities",
+                "Reasoning Reward Models (ReasRMs)",
+                "reasoning-oriented training pipeline",
+                "distillation",
+                "high-quality reasoning chains",
+                "reinforcement learning",
+                "verifiable rewards",
+                "LLM rollouts",
+                "self-generating reasoning traces",
+                "chat-specific rubrics",
+                "candidate responses",
+                "generative reward models",
+                "state-of-the-art",
+                "near state-of-the-art",
+                "reward model benchmarks",
+                "open-weight models",
+                "proprietary models",
+                "empirical analysis",
+                "ReasRM models"
+            ]
+        },
+        "translation_title": "RM-R1: 보상을 사고로 모델링하기",
+        "purpose": "대형 언어 모델을 인간의 선호와 일치시키기 위한 해석 가능한 보상 신호 제공",
+        "method": [
+            "이해 가능한 사고 능력을 보상 모델링에 통합하여 RM의 해석력과 성능 향상(We hypothesize and validate that integrating reasoning capabilities into reward modeling significantly enhances RM's interpretability and performance.)",
+            "Reasoning Reward Models (ReasRMs)를 도입하고, 이를 사고 과제로 정의함(we introduce a new class of generative reward models -- Reasoning Reward Models (ReasRMs) -- which formulate reward modeling as a reasoning task.)",
+            "고품질 사고 체인을 증류하고 검증 가능한 보상으로 강화 학습을 수행하는 훈련 파이프라인 설계(RM-R1 improve LLM rollouts by self-generating reasoning traces or chat-specific rubrics and evaluating candidate responses against them.)"
+        ],
+        "conclusion": "RM-R1은 여러 보상 모델 벤치마크에서 최첨단 성능을 달성하며, 향후 연구를 위해 여섯 개의 ReasRM 모델과 코드 및 데이터를 공개함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.20752",
+            "authors": [
+                {
+                    "_id": "6818c145daa8955b2085667d",
+                    "name": "Roman Abramov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6818c145daa8955b2085667e",
+                    "user": {
+                        "_id": "6679882913c63ebaa8ff62fe",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6679882913c63ebaa8ff62fe/zufYEHw7QNp50pfZx9SmF.jpeg",
+                        "isPro": false,
+                        "fullname": "Felix Steinbauer",
+                        "user": "fsteinbauer",
+                        "type": "user"
+                    },
+                    "name": "Felix Steinbauer",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-06T13:01:28.304Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6818c145daa8955b2085667f",
+                    "name": "Gjergji Kasneci",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-29T13:33:29.000Z",
+            "submittedOnDailyAt": "2025-05-06T03:38:21.809Z",
+            "title": "Grokking in the Wild: Data Augmentation for Real-World Multi-Hop\n  Reasoning with Transformers",
+            "submittedOnDailyBy": {
+                "_id": "6679882913c63ebaa8ff62fe",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6679882913c63ebaa8ff62fe/zufYEHw7QNp50pfZx9SmF.jpeg",
+                "isPro": false,
+                "fullname": "Felix Steinbauer",
+                "user": "fsteinbauer",
+                "type": "user"
+            },
+            "summary": "Transformers have achieved great success in numerous NLP tasks but continue\nto exhibit notable gaps in multi-step factual reasoning, especially when\nreal-world knowledge is sparse. Recent advances in grokking have demonstrated\nthat neural networks can transition from memorizing to perfectly generalizing\nonce they detect underlying logical patterns - yet these studies have primarily\nused small, synthetic tasks. In this paper, for the first time, we extend\ngrokking to real-world factual data and address the challenge of dataset\nsparsity by augmenting existing knowledge graphs with carefully designed\nsynthetic data to raise the ratio phi_r of inferred facts to atomic facts\nabove the threshold required for grokking. Surprisingly, we find that even\nfactually incorrect synthetic data can strengthen emergent reasoning circuits\nrather than degrade accuracy, as it forces the model to rely on relational\nstructure rather than memorization. When evaluated on multi-hop reasoning\nbenchmarks, our approach achieves up to 95-100% accuracy on 2WikiMultiHopQA -\nsubstantially improving over strong baselines and matching or exceeding current\nstate-of-the-art results. We further provide an in-depth analysis of how\nincreasing phi_r drives the formation of generalizing circuits inside\nTransformers. Our findings suggest that grokking-based data augmentation can\nunlock implicit multi-hop reasoning capabilities, opening the door to more\nrobust and interpretable factual reasoning in large-scale language models.",
+            "upvotes": 34,
+            "discussionId": "6818c146daa8955b208566f1",
+            "ai_keywords": [
+                "Transformers",
+                "multi-step factual reasoning",
+                "grokking",
+                "neural networks",
+                "perfect generalization",
+                "logical patterns",
+                "real-world factual data",
+                "dataset sparsity",
+                "knowledge graphs",
+                "synthetic data",
+                "inferred facts",
+                "atomic facts",
+                "factually incorrect synthetic data",
+                "relational structure",
+                "memorization",
+                "multi-hop reasoning",
+                "benchmarks",
+                "2WikiMultiHopQA",
+                "baselines",
+                "state-of-the-art results",
+                "generalizing circuits",
+                "grokking-based data augmentation",
+                "implicit multi-hop reasoning capabilities",
+                "robust",
+                "interpretable factual reasoning"
+            ]
+        },
+        "translation_title": "Grokking in the Wild: 실제 세계 다중 단계 추론을 위한 데이터 증강",
+        "purpose": "실제 데이터에서의 다중 단계 사실 추론 능력을 향상시키기 위한 데이터 증강 기법 연구",
+        "method": [
+            "기존 지식 그래프에 정교하게 설계된 합성 데이터를 추가하여 데이터셋의 희소성 문제를 해결함(we address the challenge of dataset sparsity by augmenting existing knowledge graphs with carefully designed synthetic data).",
+            "사실적으로 부정확한 합성 데이터도 모델이 기억보다는 관계 구조를 의존하게 하여 추론 회로를 강화할 수 있음을 발견함(Surprisingly, we find that even factually incorrect synthetic data can strengthen emergent reasoning circuits rather than degrade accuracy).",
+            "2WikiMultiHopQA에서 95-100%의 정확도로 점검하며 기존 강력한 기준선을 크게 개선함(When evaluated on multi-hop reasoning benchmarks, our approach achieves up to 95-100% accuracy on 2WikiMultiHopQA - substantially improving over strong baselines)."
+        ],
+        "conclusion": "Grokking 기반 데이터 증강이 다중 단계 추론 능력을 잠금 해제하여 대규모 언어 모델의 사실 추론을 더 강력하고 해석할 수 있도록 만듦.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.02819",
+            "authors": [
+                {
+                    "_id": "6819b5da3d9c61444380f4c5",
+                    "user": {
+                        "_id": "66465dfa508db0bde50d95f2",
+                        "avatarUrl": "/avatars/8b4a583dc0f3cab0f1cd9a1be3daa01b.svg",
+                        "isPro": false,
+                        "fullname": "Dmitry Shopkhoev",
+                        "user": "dimitriish",
+                        "type": "user"
+                    },
+                    "name": "Dmitriy Shopkhoev",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-06T13:37:06.786Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4c6",
+                    "user": {
+                        "_id": "6166db59f78a267701a78c2a",
+                        "avatarUrl": "/avatars/8784efc36f67719e9455b1f081340ed9.svg",
+                        "isPro": false,
+                        "fullname": "Ammar Ali",
+                        "user": "ammarali32",
+                        "type": "user"
+                    },
+                    "name": "Ammar Ali",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:32:17.870Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4c7",
+                    "name": "Magauiya Zhussip",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4c8",
+                    "user": {
+                        "_id": "66b1ce4ca14db5aac3e5e755",
+                        "avatarUrl": "/avatars/ab55ef112fba091813e1cc1f43857cf9.svg",
+                        "isPro": false,
+                        "fullname": "Valentin Malykh",
+                        "user": "madrugado",
+                        "type": "user"
+                    },
+                    "name": "Valentin Malykh",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T09:04:42.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4c9",
+                    "user": {
+                        "_id": "6683cc62b466c0d8e60e1bbc",
+                        "avatarUrl": "/avatars/d781cfb113263f88eaa3250bef521c53.svg",
+                        "isPro": false,
+                        "fullname": "Stamatis Lefkimmiatis",
+                        "user": "stamatisl",
+                        "type": "user"
+                    },
+                    "name": "Stamatios Lefkimmiatis",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:32:13.923Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4ca",
+                    "name": "Nikos Komodakis",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819b5da3d9c61444380f4cb",
+                    "user": {
+                        "_id": "667e7f968c6d7aede7ecb94b",
+                        "avatarUrl": "/avatars/d6dabd9b909b1f20f661dc4bc07af23f.svg",
+                        "isPro": false,
+                        "fullname": "Sergey Zagoruyko",
+                        "user": "szagoruyko121",
+                        "type": "user"
+                    },
+                    "name": "Sergey Zagoruyko",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T09:04:52.244Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-05T17:47:42.000Z",
+            "submittedOnDailyAt": "2025-05-06T07:03:26.032Z",
+            "title": "ReplaceMe: Network Simplification via Layer Pruning and Linear\n  Transformations",
+            "submittedOnDailyBy": {
+                "_id": "610e8c12119bebecb4d807b6",
+                "avatarUrl": "/avatars/7230b1584ec45585c12eb5703fd80ff3.svg",
+                "isPro": false,
+                "fullname": "Ivan Sedykh",
+                "user": "idsedykh",
+                "type": "user"
+            },
+            "summary": "We introduce ReplaceMe, a generalized training-free depth pruning method that\neffectively replaces transformer blocks with a linear operation, while\nmaintaining high performance for low compression ratios. In contrast to\nconventional pruning approaches that require additional training or\nfine-tuning, our approach requires only a small calibration dataset that is\nused to estimate a linear transformation to approximate the pruned blocks. This\nestimated linear mapping can be seamlessly merged with the remaining\ntransformer blocks, eliminating the need for any additional network parameters.\nOur experiments show that ReplaceMe consistently outperforms other\ntraining-free approaches and remains highly competitive with state-of-the-art\npruning methods that involve extensive retraining/fine-tuning and architectural\nmodifications. Applied to several large language models (LLMs), ReplaceMe\nachieves up to 25% pruning while retaining approximately 90% of the original\nmodel's performance on open benchmarks - without any training or healing steps,\nresulting in minimal computational overhead (see Fig.1). We provide an\nopen-source library implementing ReplaceMe alongside several state-of-the-art\ndepth pruning techniques, available at this repository.",
+            "upvotes": 19,
+            "discussionId": "6819b5db3d9c61444380f518",
+            "githubRepo": "https://github.com/mts-ai/ReplaceMe",
+            "ai_keywords": [
+                "training-free depth pruning",
+                "transformer blocks",
+                "linear operation",
+                "calibration dataset",
+                "linear transformation",
+                "computational overhead",
+                "large language models (LLMs)",
+                "open benchmarks",
+                "open-source library"
+            ]
+        },
+        "translation_title": "ReplaceMe: 레이어 가지치기 및 선형 변환을 통한 네트워크 단순화",
+        "purpose": "변환기 블록을 효과적으로 선형 연산으로 교체하여 성능을 유지하면서 네트워크 단순화를 목표로 하며, 추가적인 학습 없이 이루어짐",
+        "method": [
+            "ReplaceMe라는 일반화된 학습 없는 깊이 가지치기 방법을 제안함(We introduce ReplaceMe, a generalized training-free depth pruning method...)",
+            "소량의 보정 데이터셋만으로 가지치기된 블록을 근사하기 위한 선형 변환을 추정함(This estimated linear mapping can be seamlessly merged with the remaining transformer blocks...)",
+            "기존의 가지치기 기법들과 비교해 ReplaceMe가 일관되게 더 뛰어난 성능을 보임(Our experiments show that ReplaceMe consistently outperforms other training-free approaches...)"
+        ],
+        "conclusion": "ReplaceMe는 몇 가지 대규모 언어 모델에 적용하여 최대 25%의 가지치기를 달성하면서도 원래 모델 성능의 약 90%를 유지함.",
+        "keywords": [
+            "Large Language Models",
+            "Network Simplification",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.02735",
+            "authors": [
+                {
+                    "_id": "6819742e0d1c56fe9124fe3a",
+                    "user": {
+                        "_id": "62a80fe3ac97233f1625235a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhouliang Yu",
+                        "user": "zhouliang",
+                        "type": "user"
+                    },
+                    "name": "Zhouliang Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:34:10.190Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe3b",
+                    "user": {
+                        "_id": "662f2c8435ab6df959b005de",
+                        "avatarUrl": "/avatars/3e30053ecbe9cc14b5e1eb2b014755de.svg",
+                        "isPro": false,
+                        "fullname": "ruotian peng",
+                        "user": "prt66",
+                        "type": "user"
+                    },
+                    "name": "Ruotian Peng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:48:20.491Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe3c",
+                    "name": "Keyi Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe3d",
+                    "name": "Yizhe Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe3e",
+                    "name": "Zhongyuan Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe3f",
+                    "user": {
+                        "_id": "6417d9ea8f689506e7148417",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6417d9ea8f689506e7148417/bAYcruWNw4WvmuQcGgcwC.jpeg",
+                        "isPro": false,
+                        "fullname": "minghao",
+                        "user": "Liam-Liu",
+                        "type": "user"
+                    },
+                    "name": "Minghao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-06T08:33:31.975Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe40",
+                    "user": {
+                        "_id": "647bf082aba7062fe5c51ca9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647bf082aba7062fe5c51ca9/p4lY9IjHiWZETKmFq1mtU.jpeg",
+                        "isPro": false,
+                        "fullname": "Yifan Zhang",
+                        "user": "yifAI",
+                        "type": "user"
+                    },
+                    "name": "Yifan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T14:10:20.040Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe41",
+                    "user": {
+                        "_id": "649da6b4599302cdb9bc232b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/DxQT6LCDTZvyGUUe2t19c.jpeg",
+                        "isPro": false,
+                        "fullname": "Zheng Yuan",
+                        "user": "ZhengYuan",
+                        "type": "user"
+                    },
+                    "name": "Zheng Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:49:20.735Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe42",
+                    "user": {
+                        "_id": "6532a060a78e70d19c669103",
+                        "avatarUrl": "/avatars/3cc9309b0e31da0fb83f1c3ef87dbe9f.svg",
+                        "isPro": false,
+                        "fullname": "HuajianXin",
+                        "user": "HuajianXin",
+                        "type": "user"
+                    },
+                    "name": "Huajian Xin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:49:28.104Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe43",
+                    "user": {
+                        "_id": "641e5bf65f274a0a92c2f6a2",
+                        "avatarUrl": "/avatars/c15a54c51998c0e6367685e8e1737ec9.svg",
+                        "isPro": false,
+                        "fullname": "Wenhao Huang",
+                        "user": "EZ-hwh",
+                        "type": "user"
+                    },
+                    "name": "Wenhao Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:49:44.482Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe44",
+                    "user": {
+                        "_id": "643c21735fcffe09fb68a46f",
+                        "avatarUrl": "/avatars/76aabacd318aa954d4c53094ad456056.svg",
+                        "isPro": false,
+                        "fullname": "Yandong Wen",
+                        "user": "ydwen",
+                        "type": "user"
+                    },
+                    "name": "Yandong Wen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:49:51.642Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe45",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:49:59.764Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6819742e0d1c56fe9124fe46",
+                    "user": {
+                        "_id": "648905d1a15c43c791d4381f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/648905d1a15c43c791d4381f/GpqGBzsLiMHX0gWZEz3qn.jpeg",
+                        "isPro": false,
+                        "fullname": "Weiyang Liu",
+                        "user": "wy1iu",
+                        "type": "user"
+                    },
+                    "name": "Weiyang Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-06T08:50:07.063Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-05T15:37:00.000Z",
+            "submittedOnDailyAt": "2025-05-06T01:00:48.636Z",
+            "title": "FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "62a80fe3ac97233f1625235a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+                "isPro": false,
+                "fullname": "Zhouliang Yu",
+                "user": "zhouliang",
+                "type": "user"
+            },
+            "summary": "Formal mathematical reasoning remains a critical challenge for artificial\nintelligence, hindered by limitations of existing benchmarks in scope and\nscale. To address this, we present FormalMATH, a large-scale Lean4 benchmark\ncomprising 5,560 formally verified problems spanning from high-school Olympiad\nchallenges to undergraduate-level theorems across diverse domains (e.g.,\nalgebra, applied mathematics, calculus, number theory, and discrete\nmathematics). To mitigate the inefficiency of manual formalization, we\nintroduce a novel human-in-the-loop autoformalization pipeline that integrates:\n(1) specialized large language models (LLMs) for statement autoformalization,\n(2) multi-LLM semantic verification, and (3) negation-based disproof filtering\nstrategies using off-the-shelf LLM-based provers. This approach reduces expert\nannotation costs by retaining 72.09% of statements before manual verification\nwhile ensuring fidelity to the original natural-language problems. Our\nevaluation of state-of-the-art LLM-based theorem provers reveals significant\nlimitations: even the strongest models achieve only 16.46% success rate under\npractical sampling budgets, exhibiting pronounced domain bias (e.g., excelling\nin algebra but failing in calculus) and over-reliance on simplified automation\ntactics. Notably, we identify a counterintuitive inverse relationship between\nnatural-language solution guidance and proof success in chain-of-thought\nreasoning scenarios, suggesting that human-written informal reasoning\nintroduces noise rather than clarity in the formal reasoning settings. We\nbelieve that FormalMATH provides a robust benchmark for benchmarking formal\nmathematical reasoning.",
+            "upvotes": 19,
+            "discussionId": "6819742f0d1c56fe9124fe8a",
+            "projectPage": "https://spherelab.ai/FormalMATH/",
+            "githubRepo": "https://github.com/Sphere-AI-Lab/FormalMATH-Bench"
+        },
+        "translation_title": "FormalMATH: 대규모 언어 모델의 공식 수학적 추론 벤치마킹",
+        "purpose": "공식 수학적 추론의 벤치마킹을 위한 대규모 데이터세트 구축과 효율적인 자동화 수단 개발",
+        "method": [
+            "5,560개의 공식 검증 문제로 구성된 FormalMATH 대규모 벤치마크를 제시함(To address this, we present FormalMATH, a large-scale Lean4 benchmark comprising 5,560 formally verified problems.)",
+            "인간과 머신을 결합한 autoformalization 파이프라인을 소개하여 수동 공식화의 비효율성을 개선함(we introduce a novel human-in-the-loop autoformalization pipeline).",
+            "특화된 large language models(LLMs)를 활용하여 진술 자동화 및 다중 LLM 의미 검증을 수행함(1) specialized large language models (LLMs) for statement autoformalization,  (2) multi-LLM semantic verification).",
+            "LLM 기반 증명기를 활용한 부정 기반 증거 필터링 전략을 적용함(3) negation-based disproof filtering strategies using off-the-shelf LLM-based provers)."
+        ],
+        "conclusion": "FormalMATH는 공식 수학적 추론의 벤치마킹을 위한 강력한 기준을 제공하며, 인간 작성 비공식 추론이 혼란을 초래함을 확인함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Formal Reasoning"
+        ]
+    }
+]
