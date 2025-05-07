@@ -1,0 +1,482 @@
+[
+    {
+        "paper": {
+            "id": "2505.03318",
+            "authors": [
+                {
+                    "_id": "681aac4fd31f567552f0cc0e",
+                    "name": "Yibin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc0f",
+                    "name": "Zhimin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc10",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/mCgynEtoXdILvzyoPexii.png",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:09:33.194Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc11",
+                    "name": "Chunyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc12",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc13",
+                    "name": "Cheng Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "681aac4fd31f567552f0cc14",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-06T08:46:41.000Z",
+            "submittedOnDailyAt": "2025-05-07T00:19:35.245Z",
+            "title": "Unified Multimodal Chain-of-Thought Reward Model through Reinforcement\n  Fine-Tuning",
+            "submittedOnDailyBy": {
+                "_id": "654c6845bac6e6e49895a5b5",
+                "avatarUrl": "/avatars/ed1f140abcd4d76669e2e48db1d1193f.svg",
+                "isPro": false,
+                "fullname": "Yibin Wang",
+                "user": "CodeGoat24",
+                "type": "user"
+            },
+            "summary": "Recent advances in multimodal Reward Models (RMs) have shown significant\npromise in delivering reward signals to align vision models with human\npreferences. However, current RMs are generally restricted to providing direct\nresponses or engaging in shallow reasoning processes with limited depth, often\nleading to inaccurate reward signals. We posit that incorporating explicit long\nchains of thought (CoT) into the reward reasoning process can significantly\nstrengthen their reliability and robustness. Furthermore, we believe that once\nRMs internalize CoT reasoning, their direct response accuracy can also be\nimproved through implicit reasoning capabilities. To this end, this paper\nproposes UnifiedReward-Think, the first unified multimodal CoT-based reward\nmodel, capable of multi-dimensional, step-by-step long-chain reasoning for both\nvisual understanding and generation reward tasks. Specifically, we adopt an\nexploration-driven reinforcement fine-tuning approach to elicit and incentivize\nthe model's latent complex reasoning ability: (1) We first use a small amount\nof image generation preference data to distill the reasoning process of GPT-4o,\nwhich is then used for the model's cold start to learn the format and structure\nof CoT reasoning. (2) Subsequently, by leveraging the model's prior knowledge\nand generalization capabilities, we prepare large-scale unified multimodal\npreference data to elicit the model's reasoning process across various vision\ntasks. During this phase, correct reasoning outputs are retained for rejection\nsampling to refine the model (3) while incorrect predicted samples are finally\nused for Group Relative Policy Optimization (GRPO) based reinforcement\nfine-tuning, enabling the model to explore diverse reasoning paths and optimize\nfor correct and robust solutions. Extensive experiments across various vision\nreward tasks demonstrate the superiority of our model.",
+            "upvotes": 60,
+            "discussionId": "681aac50d31f567552f0cc5d",
+            "projectPage": "https://codegoat24.github.io/UnifiedReward/think",
+            "githubRepo": "https://github.com/CodeGoat24/UnifiedReward",
+            "ai_keywords": [
+                "Multimodal Reward Models (RMs)",
+                "long chains of thought (CoT)",
+                "UnifiedReward-Think",
+                "exploration-driven reinforcement fine-tuning",
+                "small amount of image generation preference data",
+                "GPT-4o",
+                "large-scale unified multimodal preference data",
+                "rejection sampling",
+                "Group Relative Policy Optimization (GRPO)",
+                "reinforcement fine-tuning"
+            ]
+        },
+        "translation_title": "강화 학습 미세 조정을 통한 통합 멀티모달 체인 오브 사고 보상 모델",
+        "purpose": "멀티모달 보상 모델의 신뢰성과 강건성을 높이기 위해 체인 오브 사고(Chain-of-Thought, CoT)를 통합하는 방법 연구",
+        "method": [
+            "GPT-4의 추론 과정을 간소화하기 위해 소량의 이미지 생성 선호도 데이터를 사용함(We first use a small amount of image generation preference data to distill the reasoning process of GPT-4o.)",
+            "모델의 이전 지식과 일반화 능력을 활용해 대규모 통합 멀티모달 선호도 데이터를 준비하여 모델의 추론 과정을 이끌어냄(We prepare large-scale unified multimodal preference data to elicit the model's reasoning process across various vision tasks.)",
+            "잘못 예측된 샘플을 Group Relative Policy Optimization (GRPO)를 기반으로 하는 강화 학습 미세 조정에 사용하여 다양한 추론 경로를 탐색하고 최적화함(incorrect predicted samples are finally used for Group Relative Policy Optimization (GRPO) based reinforcement fine-tuning.)"
+        ],
+        "conclusion": "우리는 다양한 비전 보상 작업에서 모델의 우수성을 입증하였으며, CoT 기반 보상 모델이 성능을 크게 향상시킬 수 있음을 확인하였음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.03335",
+            "authors": [
+                {
+                    "_id": "681ab9b8f43603c60cab87a3",
+                    "name": "Andrew Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a4",
+                    "user": {
+                        "_id": "647eb24118274bce0308b2b8",
+                        "avatarUrl": "/avatars/463e49a89b61164ccfad85ced10658b2.svg",
+                        "isPro": false,
+                        "fullname": "Yiran Wu",
+                        "user": "kevinwyr",
+                        "type": "user"
+                    },
+                    "name": "Yiran Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:09:25.939Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a5",
+                    "user": {
+                        "_id": "649d475111592b1a765ac1a3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649d475111592b1a765ac1a3/rjORJjErJq-mthghan08U.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang Yue",
+                        "user": "Yang130",
+                        "type": "user"
+                    },
+                    "name": "Yang Yue",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:09:23.436Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a6",
+                    "name": "Tong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a7",
+                    "name": "Quentin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a8",
+                    "name": "Yang Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87a9",
+                    "name": "Matthieu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87aa",
+                    "user": {
+                        "_id": "6486dde1f74857df3f1a5828",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6486dde1f74857df3f1a5828/FgE80CpalBO5qqArdfwxA.jpeg",
+                        "isPro": false,
+                        "fullname": "Shenzhi Wang",
+                        "user": "shenzhi-wang",
+                        "type": "user"
+                    },
+                    "name": "Shenzhi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:09:28.623Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87ab",
+                    "name": "Qingyun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87ac",
+                    "user": {
+                        "_id": "63a95a6a7930fa8c7dd63d4e",
+                        "avatarUrl": "/avatars/d9d0420f7ddfe2f3a7e029fb05f1c89f.svg",
+                        "isPro": false,
+                        "fullname": "Zilong Zheng",
+                        "user": "zlzheng",
+                        "type": "user"
+                    },
+                    "name": "Zilong Zheng",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-07T01:39:06.052Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681ab9b8f43603c60cab87ad",
+                    "name": "Gao Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-06T09:08:00.000Z",
+            "submittedOnDailyAt": "2025-05-07T00:10:48.130Z",
+            "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+            "submittedOnDailyBy": {
+                "_id": "630482fbce6b12280b18971d",
+                "avatarUrl": "/avatars/b07f31fd970d736bdf574d56da7a5634.svg",
+                "isPro": false,
+                "fullname": "Andrew Zhao",
+                "user": "andrewzh",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning with verifiable rewards (RLVR) has shown promise in\nenhancing the reasoning capabilities of large language models by learning\ndirectly from outcome-based rewards. Recent RLVR works that operate under the\nzero setting avoid supervision in labeling the reasoning process, but still\ndepend on manually curated collections of questions and answers for training.\nThe scarcity of high-quality, human-produced examples raises concerns about the\nlong-term scalability of relying on human supervision, a challenge already\nevident in the domain of language model pretraining. Furthermore, in a\nhypothetical future where AI surpasses human intelligence, tasks provided by\nhumans may offer limited learning potential for a superintelligent system. To\naddress these concerns, we propose a new RLVR paradigm called Absolute Zero, in\nwhich a single model learns to propose tasks that maximize its own learning\nprogress and improves reasoning by solving them, without relying on any\nexternal data. Under this paradigm, we introduce the Absolute Zero Reasoner\n(AZR), a system that self-evolves its training curriculum and reasoning ability\nby using a code executor to both validate proposed code reasoning tasks and\nverify answers, serving as an unified source of verifiable reward to guide\nopen-ended yet grounded learning. Despite being trained entirely without\nexternal data, AZR achieves overall SOTA performance on coding and mathematical\nreasoning tasks, outperforming existing zero-setting models that rely on tens\nof thousands of in-domain human-curated examples. Furthermore, we demonstrate\nthat AZR can be effectively applied across different model scales and is\ncompatible with various model classes.",
+            "upvotes": 52,
+            "discussionId": "681ab9baf43603c60cab881a",
+            "projectPage": "https://andrewzh112.github.io/absolute-zero-reasoner/",
+            "githubRepo": "https://github.com/LeapLabTHU/Absolute-Zero-Reasoner",
+            "ai_keywords": [
+                "Reinforcement learning with verifiable rewards (RLVR)",
+                "zero setting",
+                "outcome-based rewards",
+                "manually curated collections",
+                "superintelligent system",
+                "Absolute Zero",
+                "AzR (Absolute Zero Reasoner)",
+                "training curriculum",
+                "code executor",
+                "verifiable reward",
+                "open-ended yet grounded learning",
+                "SOTA performance",
+                "coding and mathematical reasoning tasks"
+            ]
+        },
+        "translation_title": "절대 제로: 데이터 없는 강화 자기 플레이 추론",
+        "purpose": "외부 데이터 없이 모델이 스스로 학습을 극대화하는 작업을 제안하고 추론 능력을 향상시키기 위한 새로운 RLVR 패러다임 연구",
+        "method": [
+            "새로운 RLVR 패러다임인 Absolute Zero를 제안하여, 모델이 외부 데이터를 사용하지 않고 스스로 작업을 제안하도록 함(To address these concerns, we propose a new RLVR paradigm called Absolute Zero, in which a single model learns to propose tasks that maximize its own learning progress.)",
+            "Absolute Zero Reasoner(AZR)라는 시스템을 개발하여 코드 실행기를 통해 제안된 코드를 검증하고 답변을 확인하는 방법으로 훈련 커리큘럼을 자가 발전시킴(we introduce the Absolute Zero Reasoner (AZR), a system that self-evolves its training curriculum and reasoning ability by using a code executor to both validate proposed code reasoning tasks and verify answers.)",
+            "AZR가 외부 데이터 없이도 우수한 성능을 발휘하도록 훈련함(Despite being trained entirely without external data, AZR achieves overall SOTA performance on coding and mathematical reasoning tasks.)"
+        ],
+        "conclusion": "AZR는 기존의 데이터 의존 모델보다 더 나은 성능을 발휘하며 다양한 모델 클래스와 호환 가능함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.03730",
+            "authors": [
+                {
+                    "_id": "681abf3759155282c1cb2306",
+                    "name": "Shiyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abf3759155282c1cb2307",
+                    "user": {
+                        "_id": "64970d3d9c3b29dca8633f87",
+                        "avatarUrl": "/avatars/11e3c9c66d28490d6d09925f9aa47cd1.svg",
+                        "isPro": false,
+                        "fullname": "JunhaoZhuang",
+                        "user": "JunhaoZhuang",
+                        "type": "user"
+                    },
+                    "name": "Junhao Zhuang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:08:58.214Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abf3759155282c1cb2308",
+                    "name": "Zhaoyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abf3759155282c1cb2309",
+                    "name": "Ying Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abf3759155282c1cb230a",
+                    "name": "Yansong Tang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-06T17:58:02.000Z",
+            "submittedOnDailyAt": "2025-05-07T00:37:06.442Z",
+            "title": "FlexiAct: Towards Flexible Action Control in Heterogeneous Scenarios",
+            "submittedOnDailyBy": {
+                "_id": "6315d306a9456afe2b9bf34a",
+                "avatarUrl": "/avatars/7285b4e7d84b528d1a50f8ee4eb10727.svg",
+                "isPro": false,
+                "fullname": "ElevenZ",
+                "user": "shiyi0408",
+                "type": "user"
+            },
+            "summary": "Action customization involves generating videos where the subject performs\nactions dictated by input control signals. Current methods use pose-guided or\nglobal motion customization but are limited by strict constraints on spatial\nstructure, such as layout, skeleton, and viewpoint consistency, reducing\nadaptability across diverse subjects and scenarios. To overcome these\nlimitations, we propose FlexiAct, which transfers actions from a reference\nvideo to an arbitrary target image. Unlike existing methods, FlexiAct allows\nfor variations in layout, viewpoint, and skeletal structure between the subject\nof the reference video and the target image, while maintaining identity\nconsistency. Achieving this requires precise action control, spatial structure\nadaptation, and consistency preservation. To this end, we introduce RefAdapter,\na lightweight image-conditioned adapter that excels in spatial adaptation and\nconsistency preservation, surpassing existing methods in balancing appearance\nconsistency and structural flexibility. Additionally, based on our\nobservations, the denoising process exhibits varying levels of attention to\nmotion (low frequency) and appearance details (high frequency) at different\ntimesteps. So we propose FAE (Frequency-aware Action Extraction), which, unlike\nexisting methods that rely on separate spatial-temporal architectures, directly\nachieves action extraction during the denoising process. Experiments\ndemonstrate that our method effectively transfers actions to subjects with\ndiverse layouts, skeletons, and viewpoints. We release our code and model\nweights to support further research at\nhttps://shiyi-zh0408.github.io/projectpages/FlexiAct/",
+            "upvotes": 18,
+            "discussionId": "681abf3859155282c1cb23fa",
+            "projectPage": "https://shiyi-zh0408.github.io/projectpages/FlexiAct/",
+            "githubRepo": "https://github.com/shiyi-zh0408/FlexiAct",
+            "ai_keywords": [
+                "FlexiAct",
+                "RefAdapter",
+                "image-conditioned adapter",
+                "spatial adaptation",
+                "consistency preservation",
+                "FAE",
+                "Frequency-aware Action Extraction",
+                "denoising process",
+                "spatial-temporal architectures",
+                "action extraction"
+            ]
+        },
+        "translation_title": "FlexiAct: 이질적인 상황에서 유연한 동작 제어를 위한 방향",
+        "purpose": "다양한 주제와 상황에서 동작 커스터마이징을 개선하기 위해 동작 전송 방식 연구",
+        "method": [
+            "기존 방법의 제한을 극복하기 위해 참고 비디오의 동작을 임의의 목표 이미지로 전송하는 FlexiAct를 제안함(To overcome these limitations, we propose FlexiAct, which transfers actions from a reference video to an arbitrary target image.)",
+            "RefAdapter라는 경량 이미지 조건 어댑터를 도입하여 공간 적응 및 일관성 유지를 훌륭하게 수행함을 확인함(To this end, we introduce RefAdapter, a lightweight image-conditioned adapter that excels in spatial adaptation and consistency preservation.)",
+            "FAE(Frequency-aware Action Extraction)를 통해 비디오의 노이즈 제거 과정 동안 동작 추출을 직접 수행함(So we propose FAE (Frequency-aware Action Extraction), which, unlike existing methods that rely on separate spatial-temporal architectures, directly achieves action extraction during the denoising process.)"
+        ],
+        "conclusion": "우리의 방법은 다양한 레이아웃, 스켈레톤, 시점의 주제에 효과적으로 동작을 전송하는 성과를 달성하였음.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Action Control"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.02922",
+            "authors": [
+                {
+                    "_id": "681abdbef8feaef23b543877",
+                    "name": "Yaoqi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543878",
+                    "name": "Jinkai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543879",
+                    "user": {
+                        "_id": "667135bdcca06def1c2599a6",
+                        "avatarUrl": "/avatars/d94ab99265e1970852605d344b4d69e9.svg",
+                        "isPro": false,
+                        "fullname": "Baotong Lu",
+                        "user": "baotonglu",
+                        "type": "user"
+                    },
+                    "name": "Baotong Lu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-07T01:56:16.240Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387a",
+                    "user": {
+                        "_id": "66e96f58de9ebeee86f5e27f",
+                        "avatarUrl": "/avatars/e7d692aa47f02f1858186f47186166ad.svg",
+                        "isPro": false,
+                        "fullname": "Qianxi Zhang",
+                        "user": "qianxizhang",
+                        "type": "user"
+                    },
+                    "name": "Qianxi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-07T08:09:00.341Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387b",
+                    "name": "Chengruidong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387c",
+                    "name": "Jingjia Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387d",
+                    "name": "Di Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387e",
+                    "name": "Huiqiang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b54387f",
+                    "name": "Qi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543880",
+                    "name": "Jing Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543881",
+                    "name": "Bailu Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543882",
+                    "name": "Xiao Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543883",
+                    "name": "Jiawei Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543884",
+                    "name": "Chen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543885",
+                    "name": "Mingxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543886",
+                    "name": "Yuqing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543887",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681abdbef8feaef23b543888",
+                    "name": "Mao Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-05T18:01:17.000Z",
+            "submittedOnDailyAt": "2025-05-07T00:36:48.274Z",
+            "title": "RetroInfer: A Vector-Storage Approach for Scalable Long-Context LLM\n  Inference",
+            "submittedOnDailyBy": {
+                "_id": "6278bd42541f3d2dfa77ea70",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6278bd42541f3d2dfa77ea70/ejn49eapnB3UXQckAYdTd.jpeg",
+                "isPro": true,
+                "fullname": "Huiqiang Jiang",
+                "user": "iofu728",
+                "type": "user"
+            },
+            "summary": "The growing context lengths of large language models (LLMs) pose significant\nchallenges for efficient inference, primarily due to GPU memory and bandwidth\nconstraints. We present RetroInfer, a novel system that reconceptualizes the\nkey-value (KV) cache as a vector storage system which exploits the inherent\nattention sparsity to accelerate long-context LLM inference. At its core is the\nwave index, an Attention-aWare VEctor index that enables efficient and accurate\nretrieval of critical tokens through techniques such as tripartite attention\napproximation, accuracy-bounded attention estimation, and segmented clustering.\nComplementing this is the wave buffer, which coordinates KV cache placement and\noverlaps computation and data transfer across GPU and CPU to sustain high\nthroughput. Unlike prior sparsity-based methods that struggle with token\nselection and hardware coordination, RetroInfer delivers robust performance\nwithout compromising model accuracy. Experiments on long-context benchmarks\nshow up to 4.5X speedup over full attention within GPU memory limits and up to\n10.5X over sparse attention baselines when KV cache is extended to CPU memory,\nall while preserving full-attention-level accuracy.",
+            "upvotes": 17,
+            "discussionId": "681abdc0f8feaef23b543926",
+            "ai_keywords": [
+                "RetrInfer",
+                "key-value (KV) cache",
+                "vector storage system",
+                "wave index",
+                "Attention-aWare VEctor index",
+                "tripartite attention approximation",
+                "accuracy-bounded attention estimation",
+                "segmented clustering",
+                "wave buffer",
+                "GPU memory",
+                "token selection",
+                "hardware coordination"
+            ]
+        },
+        "translation_title": "RetroInfer: 확장 가능한 긴 문맥 LLM 추론을 위한 벡터 저장 접근법",
+        "purpose": "긴 문맥의 LLM 추론 시 효율성을 높이기 위한 새로운 시스템 개발",
+        "method": [
+            "KV 캐시를 벡터 저장 시스템으로 재구성하여 주의의 희소성을 활용함(We present RetroInfer, a novel system that reconceptualizes the key-value (KV) cache as a vector storage system which exploits the inherent attention sparsity.)",
+            "Wave index라는 기법을 통해 중요한 토큰을 효율적으로 검색함(At its core is the wave index, an Attention-aWare VEctor index that enables efficient and accurate retrieval of critical tokens.)",
+            "KV 캐시 배치 조정을 통해 GPU와 CPU 간의 데이터 전송을 최적화함(Complementing this is the wave buffer, which coordinates KV cache placement and overlaps computation and data transfer across GPU and CPU to sustain high throughput.)"
+        ],
+        "conclusion": "RetroInfer는 모델 정확도를 유지하면서도 긴 문맥 처리에서 최대 4.5배에서 10.5배의 속도를 향상시킴.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
