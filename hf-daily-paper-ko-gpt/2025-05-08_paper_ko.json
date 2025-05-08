@@ -1,0 +1,453 @@
+[
+    {
+        "paper": {
+            "id": "2505.02567",
+            "authors": [
+                {
+                    "_id": "681c7895c7211b7efbc49f17",
+                    "name": "Xinjie Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f18",
+                    "name": "Jintao Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f19",
+                    "user": {
+                        "_id": "66ab4c8a1703f12f49583c6d",
+                        "avatarUrl": "/avatars/59c77d4556edc049bb410e180813d5e3.svg",
+                        "isPro": false,
+                        "fullname": "zss",
+                        "user": "Suikong",
+                        "type": "user"
+                    },
+                    "name": "Shanshan Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T10:07:03.107Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1a",
+                    "name": "Minghao Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1b",
+                    "name": "Lunhao Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1c",
+                    "user": {
+                        "_id": "636f4c6b5d2050767e4a1491",
+                        "avatarUrl": "/avatars/630c2ae12937fdb16ccd3280bc05729d.svg",
+                        "isPro": false,
+                        "fullname": "Guo-Hua Wang",
+                        "user": "Flourish",
+                        "type": "user"
+                    },
+                    "name": "Guo-Hua Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T09:58:04.757Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1d",
+                    "name": "Qing-Guo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1e",
+                    "name": "Zhao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f1f",
+                    "name": "Weihua Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7895c7211b7efbc49f20",
+                    "name": "Kaifu Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/658a8a837959448ef5500ce5/DwtDeTTjSrZoe2r4sL-a4.png"
+            ],
+            "publishedAt": "2025-05-05T11:18:03.000Z",
+            "submittedOnDailyAt": "2025-05-08T07:57:47.854Z",
+            "title": "Unified Multimodal Understanding and Generation Models: Advances,\n  Challenges, and Opportunities",
+            "submittedOnDailyBy": {
+                "_id": "658a8a837959448ef5500ce5",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658a8a837959448ef5500ce5/4rb2RXrsgCDH80VnwZsEt.jpeg",
+                "isPro": false,
+                "fullname": "Shiyin Lu",
+                "user": "runninglsy",
+                "type": "user"
+            },
+            "summary": "Recent years have seen remarkable progress in both multimodal understanding\nmodels and image generation models. Despite their respective successes, these\ntwo domains have evolved independently, leading to distinct architectural\nparadigms: While autoregressive-based architectures have dominated multimodal\nunderstanding, diffusion-based models have become the cornerstone of image\ngeneration. Recently, there has been growing interest in developing unified\nframeworks that integrate these tasks. The emergence of GPT-4o's new\ncapabilities exemplifies this trend, highlighting the potential for\nunification. However, the architectural differences between the two domains\npose significant challenges. To provide a clear overview of current efforts\ntoward unification, we present a comprehensive survey aimed at guiding future\nresearch. First, we introduce the foundational concepts and recent advancements\nin multimodal understanding and text-to-image generation models. Next, we\nreview existing unified models, categorizing them into three main architectural\nparadigms: diffusion-based, autoregressive-based, and hybrid approaches that\nfuse autoregressive and diffusion mechanisms. For each category, we analyze the\nstructural designs and innovations introduced by related works. Additionally,\nwe compile datasets and benchmarks tailored for unified models, offering\nresources for future exploration. Finally, we discuss the key challenges facing\nthis nascent field, including tokenization strategy, cross-modal attention, and\ndata. As this area is still in its early stages, we anticipate rapid\nadvancements and will regularly update this survey. Our goal is to inspire\nfurther research and provide a valuable reference for the community. The\nreferences associated with this survey are available on GitHub\n(https://github.com/AIDC-AI/Awesome-Unified-Multimodal-Models).",
+            "upvotes": 48,
+            "discussionId": "681c7896c7211b7efbc49f76",
+            "githubRepo": "https://github.com/AIDC-AI/Awesome-Unified-Multimodal-Models",
+            "ai_keywords": [
+                "autoregressive-based architectures",
+                "diffusion-based models",
+                "unified frameworks",
+                "GPT-4o",
+                "multimodal understanding",
+                "text-to-image generation models",
+                "diffusion-based",
+                "autoregressive-based",
+                "hybrid approaches",
+                "cross-modal attention"
+            ]
+        },
+        "translation_title": "통합된 다중 모달 이해 및 생성 모델: 발전, 도전 과제 및 기회",
+        "purpose": "다중 모달 이해 모델과 이미지 생성 모델을 통합하는 연구 방향 제시",
+        "method": [
+            "다중 모달 이해 및 text-to-image 생성 모델의 기본 개념과 최근 발전을 소개함(First, we introduce the foundational concepts and recent advancements in multimodal understanding and text-to-image generation models.)",
+            "기존의 통합 모델을 세 가지 주요 아키텍처 패러다임으로 분류하고 각 카테고리의 구조적 디자인 및 혁신을 분석함(Next, we review existing unified models, categorizing them into three main architectural paradigms: diffusion-based, autoregressive-based, and hybrid approaches that fuse autoregressive and diffusion mechanisms.)",
+            "통합 모델에 적합한 데이터셋과 벤치마크를 정리하여 향후 연구에 필요한 자료를 제공함(Additionally, we compile datasets and benchmarks tailored for unified models, offering resources for future exploration.)"
+        ],
+        "conclusion": "이 연구는 통합 모델 분야의 주요 도전 과제를 논의하고, 향후 연구를 위한 귀중한 참고 자료를 제공하여 관련 커뮤니티에 영감을 줄 것으로 기대함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.04588",
+            "authors": [
+                {
+                    "_id": "681c15ab84d0a008fcdb1ee8",
+                    "name": "Hao Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1ee9",
+                    "name": "Zile Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eea",
+                    "user": {
+                        "_id": "66224557c61c7fbd98099079",
+                        "avatarUrl": "/avatars/a4f2144585c808865c73b5b7f0087c1f.svg",
+                        "isPro": false,
+                        "fullname": "GJ",
+                        "user": "SpaceProduct",
+                        "type": "user"
+                    },
+                    "name": "Jiayan Guo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T08:59:01.834Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eeb",
+                    "name": "Xuanbo Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eec",
+                    "name": "Yingyan Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eed",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eee",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1eef",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c15ab84d0a008fcdb1ef0",
+                    "name": "Yan Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-07T17:30:22.000Z",
+            "submittedOnDailyAt": "2025-05-08T00:54:07.103Z",
+            "title": "ZeroSearch: Incentivize the Search Capability of LLMs without Searching",
+            "submittedOnDailyBy": {
+                "_id": "66224557c61c7fbd98099079",
+                "avatarUrl": "/avatars/a4f2144585c808865c73b5b7f0087c1f.svg",
+                "isPro": false,
+                "fullname": "GJ",
+                "user": "SpaceProduct",
+                "type": "user"
+            },
+            "summary": "Effective information searching is essential for enhancing the reasoning and\ngeneration capabilities of large language models (LLMs). Recent research has\nexplored using reinforcement learning (RL) to improve LLMs' search capabilities\nby interacting with live search engines in real-world environments. While these\napproaches show promising results, they face two major challenges: (1)\nUncontrolled Document Quality: The quality of documents returned by search\nengines is often unpredictable, introducing noise and instability into the\ntraining process. (2) Prohibitively High API Costs: RL training requires\nfrequent rollouts, potentially involving hundreds of thousands of search\nrequests, which incur substantial API expenses and severely constrain\nscalability. To address these challenges, we introduce ZeroSearch, a\nreinforcement learning framework that incentivizes the search capabilities of\nLLMs without interacting with real search engines. Our approach begins with\nlightweight supervised fine-tuning to transform the LLM into a retrieval module\ncapable of generating both relevant and noisy documents in response to a query.\nDuring RL training, we employ a curriculum-based rollout strategy that\nincrementally degrades the quality of generated documents, progressively\neliciting the model's reasoning ability by exposing it to increasingly\nchallenging retrieval scenarios. Extensive experiments demonstrate that\nZeroSearch effectively incentivizes the search capabilities of LLMs using a 3B\nLLM as the retrieval module. Remarkably, a 7B retrieval module achieves\ncomparable performance to the real search engine, while a 14B retrieval module\neven surpasses it. Furthermore, it generalizes well across both base and\ninstruction-tuned models of various parameter sizes and is compatible with a\nwide range of RL algorithms.",
+            "upvotes": 27,
+            "discussionId": "681c15ac84d0a008fcdb1f21",
+            "projectPage": "https://alibaba-nlp.github.io/ZeroSearch/",
+            "githubRepo": "https://github.com/Alibaba-nlp/ZeroSearch",
+            "ai_keywords": [
+                "reinforcement learning (RL)",
+                "large language models (LLMs)",
+                "search capabilities",
+                "live search engines",
+                "real-world environments",
+                "document quality",
+                "noise",
+                "instability",
+                "training process",
+                "API costs",
+                "rollouts",
+                "search requests",
+                "ZeroSearch",
+                "lightweight supervised fine-tuning",
+                "retrieval module",
+                "relevant documents",
+                "noisy documents",
+                "query",
+                "curriculum-based rollout strategy",
+                "reasoning ability",
+                "retrieval scenarios",
+                "base models",
+                "instruction-tuned models",
+                "parameter sizes",
+                "RL algorithms"
+            ]
+        },
+        "translation_title": "ZeroSearch: 검색 없이 LLM의 검색 능력을 유도하는 방법",
+        "purpose": "대규모 언어 모델(LLMs)의 검색 능력을 향상시키기 위한 비용 절감 및 안정적인 훈련 방법을 연구",
+        "method": [
+            "실제 검색 엔진과의 상호작용 없이 LLM의 검색 능력을 유도하는 강화 학습 프레임워크인 ZeroSearch를 제안함(To address these challenges, we introduce ZeroSearch, a reinforcement learning framework that incentivizes the search capabilities of LLMs without interacting with real search engines.)",
+            "경량화된 감독 학습을 통해 LLM을 질의에 대한 관련 문서 및 노이즈 문서를 생성을 위한 검색 모듈로 변환함(Our approach begins with lightweight supervised fine-tuning to transform the LLM into a retrieval module capable of generating both relevant and noisy documents in response to a query.)",
+            "RL 훈련 중 문서의 질을 점진적으로 저하시켜 모델의 추론 능력을 점진적으로 이끌어내는 커리큘럼 기반 롤아웃 전략을 활용함(During RL training, we employ a curriculum-based rollout strategy that incrementally degrades the quality of generated documents, progressively eliciting the model's reasoning ability by exposing it to increasingly challenging retrieval scenarios.)"
+        ],
+        "conclusion": "ZeroSearch는 3B LLM을 사용할 때 LLM의 검색 능력을 효과적으로 유도하며, 14B 검색 모듈이 실제 검색 엔진을 초월하는 성과를 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.03821",
+            "authors": [
+                {
+                    "_id": "681c7a3829ba66a745217db5",
+                    "user": {
+                        "_id": "63caf7ce9f78909f9f81eb72",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63caf7ce9f78909f9f81eb72/2mLUr_DdEom28DjodWimv.jpeg",
+                        "isPro": true,
+                        "fullname": "Gracjan Goral",
+                        "user": "Gracjan",
+                        "type": "user"
+                    },
+                    "name": "Gracjan Góral",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T09:58:02.558Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7a3829ba66a745217db6",
+                    "name": "Alicja Ziarko",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7a3829ba66a745217db7",
+                    "name": "Piotr Miłoś",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7a3829ba66a745217db8",
+                    "name": "Michał Nauman",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7a3829ba66a745217db9",
+                    "name": "Maciej Wołczyk",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c7a3829ba66a745217dba",
+                    "name": "Michał Kosiński",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63caf7ce9f78909f9f81eb72/b8OMQONPXPyBtcitD1Yg7.jpeg"
+            ],
+            "publishedAt": "2025-05-03T00:10:41.000Z",
+            "submittedOnDailyAt": "2025-05-08T08:19:59.040Z",
+            "title": "Beyond Recognition: Evaluating Visual Perspective Taking in Vision\n  Language Models",
+            "submittedOnDailyBy": {
+                "_id": "63caf7ce9f78909f9f81eb72",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63caf7ce9f78909f9f81eb72/2mLUr_DdEom28DjodWimv.jpeg",
+                "isPro": true,
+                "fullname": "Gracjan Goral",
+                "user": "Gracjan",
+                "type": "user"
+            },
+            "summary": "We investigate the ability of Vision Language Models (VLMs) to perform visual\nperspective taking using a novel set of visual tasks inspired by established\nhuman tests. Our approach leverages carefully controlled scenes, in which a\nsingle humanoid minifigure is paired with a single object. By systematically\nvarying spatial configurations - such as object position relative to the\nhumanoid minifigure and the humanoid minifigure's orientation - and using both\nbird's-eye and surface-level views, we created 144 unique visual tasks. Each\nvisual task is paired with a series of 7 diagnostic questions designed to\nassess three levels of visual cognition: scene understanding, spatial\nreasoning, and visual perspective taking. Our evaluation of several\nstate-of-the-art models, including GPT-4-Turbo, GPT-4o,\nLlama-3.2-11B-Vision-Instruct, and variants of Claude Sonnet, reveals that\nwhile they excel in scene understanding, the performance declines significantly\non spatial reasoning and further deteriorates on perspective-taking. Our\nanalysis suggests a gap between surface-level object recognition and the deeper\nspatial and perspective reasoning required for complex visual tasks, pointing\nto the need for integrating explicit geometric representations and tailored\ntraining protocols in future VLM development.",
+            "upvotes": 16,
+            "discussionId": "681c7a3e29ba66a745217f0c",
+            "ai_keywords": [
+                "Vision Language Models (VLMs)",
+                "visual perspective taking",
+                "visual tasks",
+                "humanoid minifigure",
+                "spatial configurations",
+                "bird's-eye view",
+                "surface-level view",
+                "diagnostic questions",
+                "scene understanding",
+                "spatial reasoning",
+                "visual perspective taking",
+                "GPT-4-Turbo",
+                "GPT-4o",
+                "Llama-3.2-11B-Vision-Instruct",
+                "Claude Sonnet",
+                "geometric representations",
+                "tailored training protocols"
+            ]
+        },
+        "translation_title": "인식을 넘어: 비전-언어 모델에서 시각적 관점 이해 평가",
+        "purpose": "비전-언어 모델(VLMs)의 시각적 관점 이해 능력을 평가하기 위한 새로운 시각적 과제 개발",
+        "method": [
+            "제어된 장면을 사용해, 휴먼 아이디어 미니피규어와 단일 객체를 조합하여 144개의 독특한 시각적 과제를 만듦(Our approach leverages carefully controlled scenes, in which a single humanoid minifigure is paired with a single object.)",
+            "객체 위치와 미니피규어의 방향과 같은 공간 구성 요소를 체계적으로 변화시켜 시각적 과제를 구성함(By systematically varying spatial configurations - such as object position relative to the humanoid minifigure and the humanoid minifigure's orientation - and using both bird's-eye and surface-level views, we created 144 unique visual tasks.)",
+            "각 과제에 대해 장면 이해, 공간 추론 및 시각적 관점 이해를 평가하기 위한 진단 질문 시리즈를 pair 함(Each visual task is paired with a series of 7 diagnostic questions designed to assess three levels of visual cognition: scene understanding, spatial reasoning, and visual perspective taking.)"
+        ],
+        "conclusion": "모델들은 장면 이해에서는 우수했으나, 공간 추론과 관점 이해에서는 성능이 크게 떨어짐. 이는 비전-언어 모델 개발 시 기하학적 표현과 맞춤형 훈련 프로토콜의 통합 필요성을 제기함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Spatial Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.04622",
+            "authors": [
+                {
+                    "_id": "681c03418ff29a163ef5f370",
+                    "name": "Jingwen Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f371",
+                    "user": {
+                        "_id": "64c903957b4d0d947ce86bc6",
+                        "avatarUrl": "/avatars/61d70a3ba00c83a5950f5c909a1a06f8.svg",
+                        "isPro": false,
+                        "fullname": "Yuze He",
+                        "user": "hyz317",
+                        "type": "user"
+                    },
+                    "name": "Yuze He",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T08:59:10.350Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f372",
+                    "name": "Yanning Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f373",
+                    "name": "Yiqin Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f374",
+                    "user": {
+                        "_id": "6441491c5d600fb0951cd872",
+                        "avatarUrl": "/avatars/d98892f3b52d87c2328201efa9897110.svg",
+                        "isPro": false,
+                        "fullname": "Kaiwen Xiao",
+                        "user": "loktarxiao",
+                        "type": "user"
+                    },
+                    "name": "Kaiwen Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-08T08:59:12.445Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f375",
+                    "name": "Yong-Jin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f376",
+                    "name": "Wei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "681c03418ff29a163ef5f377",
+                    "name": "Xiao Han",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-07T17:59:46.000Z",
+            "submittedOnDailyAt": "2025-05-08T05:41:14.360Z",
+            "title": "PrimitiveAnything: Human-Crafted 3D Primitive Assembly Generation with\n  Auto-Regressive Transformer",
+            "submittedOnDailyBy": {
+                "_id": "64c903957b4d0d947ce86bc6",
+                "avatarUrl": "/avatars/61d70a3ba00c83a5950f5c909a1a06f8.svg",
+                "isPro": false,
+                "fullname": "Yuze He",
+                "user": "hyz317",
+                "type": "user"
+            },
+            "summary": "Shape primitive abstraction, which decomposes complex 3D shapes into simple\ngeometric elements, plays a crucial role in human visual cognition and has\nbroad applications in computer vision and graphics. While recent advances in 3D\ncontent generation have shown remarkable progress, existing primitive\nabstraction methods either rely on geometric optimization with limited semantic\nunderstanding or learn from small-scale, category-specific datasets, struggling\nto generalize across diverse shape categories. We present PrimitiveAnything, a\nnovel framework that reformulates shape primitive abstraction as a primitive\nassembly generation task. PrimitiveAnything includes a shape-conditioned\nprimitive transformer for auto-regressive generation and an ambiguity-free\nparameterization scheme to represent multiple types of primitives in a unified\nmanner. The proposed framework directly learns the process of primitive\nassembly from large-scale human-crafted abstractions, enabling it to capture\nhow humans decompose complex shapes into primitive elements. Through extensive\nexperiments, we demonstrate that PrimitiveAnything can generate high-quality\nprimitive assemblies that better align with human perception while maintaining\ngeometric fidelity across diverse shape categories. It benefits various 3D\napplications and shows potential for enabling primitive-based user-generated\ncontent (UGC) in games. Project page: https://primitiveanything.github.io",
+            "upvotes": 11,
+            "discussionId": "681c03468ff29a163ef5f4d7",
+            "projectPage": "https://primitiveanything.github.io/",
+            "githubRepo": "https://github.com/PrimitiveAnything/PrimitiveAnything",
+            "ai_keywords": [
+                "shape primitive abstraction",
+                "geometric elements",
+                "human visual cognition",
+                "computer vision",
+                "graphics",
+                "3D content generation",
+                "geometric optimization",
+                "semantic understanding",
+                "category-specific datasets",
+                "primitive assembly generation task",
+                "shape-conditioned primitive transformer",
+                "auto-regressive generation",
+                "ambiguity-free parameterization scheme",
+                "human-crafted abstractions",
+                "high-quality primitive assemblies",
+                "human perception",
+                "geometric fidelity",
+                "3D applications",
+                "user-generated content (UGC)"
+            ]
+        },
+        "translation_title": "PrimitiveAnything: Auto-Regressive Transformer를 이용한 인간 제작 3D 프리미티브 조립 생성",
+        "purpose": "복잡한 3D 형상을 간단한 기하학적 요소로 나누는 프리미티브 추상화를 통해 더 나은 3D 콘텐츠 생성을 목표로 함.",
+        "method": [
+            "Shape-conditioned primitive transformer를 사용하여 자동 회귀 생성 진행(PrimitiveAnything includes a shape-conditioned primitive transformer for auto-regressive generation.)",
+            "대규모 인간 제작 추상화에서 프리미티브 조립 과정을 직접 학습함(The proposed framework directly learns the process of primitive assembly from large-scale human-crafted abstractions.)",
+            "모든 종류의 프리미티브를 통합하여 표현하는 애매함 없는 파라미터화 방식을 도입함(an ambiguity-free parameterization scheme to represent multiple types of primitives in a unified manner.)"
+        ],
+        "conclusion": "PrimitiveAnything는 높은 품질의 프리미티브 조립을 생성하여 인간의 인지와 더 잘 일치하도록 하였으며, 다양한 3D 애플리케이션에 유용하고 게임에서 사용자 생성 콘텐츠를 가능하게 할 잠재력을 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "3D Vision",
+            "Image Generation"
+        ]
+    }
+]
