@@ -1,0 +1,677 @@
+[
+    {
+        "paper": {
+            "id": "2505.07916",
+            "authors": [
+                {
+                    "_id": "68244ea3bfb1b25f60400efd",
+                    "name": "Bowen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400efe",
+                    "name": "Congchao Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400eff",
+                    "name": "Geng Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f00",
+                    "name": "Hang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f01",
+                    "name": "Haozhe Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f02",
+                    "name": "Heidi Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f03",
+                    "name": "Jialong Mai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f04",
+                    "user": {
+                        "_id": "63390ce41718795719635b1e",
+                        "avatarUrl": "/avatars/ad03a2b349f01c1ac1fedfb95d02d43e.svg",
+                        "isPro": false,
+                        "fullname": "JunjieYan",
+                        "user": "JunjieYan",
+                        "type": "user"
+                    },
+                    "name": "Junjie Yan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:05:37.903Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f05",
+                    "name": "Kaiyue Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f06",
+                    "user": {
+                        "_id": "65e29a93e142ecfc09bddf3a",
+                        "avatarUrl": "/avatars/70168cae7aef1bb2c00392b926eabb18.svg",
+                        "isPro": false,
+                        "fullname": "Mingqi Yang",
+                        "user": "mqyang1s",
+                        "type": "user"
+                    },
+                    "name": "Mingqi Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:05:51.310Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f07",
+                    "name": "Peikai Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f08",
+                    "name": "Ruiyang Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f09",
+                    "name": "Sitan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0a",
+                    "name": "Weihua Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0b",
+                    "name": "Yawei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0c",
+                    "name": "Yichen Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0d",
+                    "name": "Yiying Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0e",
+                    "user": {
+                        "_id": "64b655c3f44a33a87e73b866",
+                        "avatarUrl": "/avatars/3a2c58eb10d4cf7040f63ea15284c574.svg",
+                        "isPro": false,
+                        "fullname": "yongmao zhang",
+                        "user": "ymzhang0519",
+                        "type": "user"
+                    },
+                    "name": "Yongmao Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:06:55.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f0f",
+                    "name": "Yuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68244ea3bfb1b25f60400f10",
+                    "name": "Yucen He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-12T14:25:20.000Z",
+            "submittedOnDailyAt": "2025-05-14T07:29:51.954Z",
+            "title": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable\n  Speaker Encoder",
+            "submittedOnDailyBy": {
+                "_id": "676e38ad04af5bec20bc9faf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/676e38ad04af5bec20bc9faf/AG8Q9wAUzGtPWyjd5QO2l.jpeg",
+                "isPro": false,
+                "fullname": "MiniMax",
+                "user": "MiniMax-AI",
+                "type": "user"
+            },
+            "summary": "We introduce MiniMax-Speech, an autoregressive Transformer-based\nText-to-Speech (TTS) model that generates high-quality speech. A key innovation\nis our learnable speaker encoder, which extracts timbre features from a\nreference audio without requiring its transcription. This enables\nMiniMax-Speech to produce highly expressive speech with timbre consistent with\nthe reference in a zero-shot manner, while also supporting one-shot voice\ncloning with exceptionally high similarity to the reference voice. In addition,\nthe overall quality of the synthesized audio is enhanced through the proposed\nFlow-VAE. Our model supports 32 languages and demonstrates excellent\nperformance across multiple objective and subjective evaluations metrics.\nNotably, it achieves state-of-the-art (SOTA) results on objective voice cloning\nmetrics (Word Error Rate and Speaker Similarity) and has secured the top\nposition on the public TTS Arena leaderboard. Another key strength of\nMiniMax-Speech, granted by the robust and disentangled representations from the\nspeaker encoder, is its extensibility without modifying the base model,\nenabling various applications such as: arbitrary voice emotion control via\nLoRA; text to voice (T2V) by synthesizing timbre features directly from text\ndescription; and professional voice cloning (PVC) by fine-tuning timbre\nfeatures with additional data. We encourage readers to visit\nhttps://minimax-ai.github.io/tts_tech_report for more examples.",
+            "upvotes": 77,
+            "discussionId": "68244ea4bfb1b25f60400f4c",
+            "projectPage": "https://minimax-ai.github.io/tts_tech_report/",
+            "githubRepo": "https://github.com/MiniMax-AI/MiniMax-AI.github.io",
+            "ai_keywords": [
+                "autoregressive Transformer",
+                "Text-to-Speech (TTS)",
+                "learnable speaker encoder",
+                "timbre features",
+                "zero-shot",
+                "one-shot voice cloning",
+                "Flow-VAE",
+                "Word Error Rate",
+                "Speaker Similarity",
+                "TTS Arena leaderboard",
+                "robust and disentangled representations",
+                "arbitrary voice emotion control",
+                "LoRA (Low-Rank Adaptation)",
+                "text to voice (T2V)",
+                "professional voice cloning (PVC)"
+            ]
+        },
+        "translation_title": "MiniMax-Speech: 학습 가능한 화자 인코더를 통한 본질적인 제로샷 음성 합성",
+        "purpose": "고품질 음성을 생성하는 autoregressive Transformer 기반 Text-to-Speech 모델 개발",
+        "method": [
+            "학습 가능한 화자 인코더를 도입해 참조 오디오에서 발음 특징을 추출함(we introduce MiniMax-Speech, an autoregressive Transformer-based Text-to-Speech (TTS) model that generates high-quality speech.)",
+            "Zero-shot 방식으로 참조 음성과 일치하는 음성을 생성하며, one-shot 음성 클로닝도 지원함(This enables MiniMax-Speech to produce highly expressive speech with timbre consistent with the reference in a zero-shot manner...)",
+            "Flow-VAE를 통해 합성된 오디오의 전체 품질을 향상시킴(In addition, the overall quality of the synthesized audio is enhanced through the proposed Flow-VAE.)"
+        ],
+        "conclusion": "MiniMax-Speech는 SOTA 성능을 달성하며, 다양한 음향 응용을 지원할 수 있는 확장성이 뛰어난 모델임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Audio Generation",
+            "Voice Cloning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.07591",
+            "authors": [
+                {
+                    "_id": "6822e023b1df51252f95e958",
+                    "user": {
+                        "_id": "66384be673c2c55f2ded89fa",
+                        "avatarUrl": "/avatars/1d8721074f0f51fab405f81474f2035f.svg",
+                        "isPro": false,
+                        "fullname": "Junjie Ye",
+                        "user": "Junjie-Ye",
+                        "type": "user"
+                    },
+                    "name": "Junjie Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-14T07:35:57.239Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e959",
+                    "name": "Caishuang Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95a",
+                    "name": "Zhuohan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95b",
+                    "user": {
+                        "_id": "636b5fd69560e7403d9150ff",
+                        "avatarUrl": "/avatars/ffe3553a47624f6821b0b46f0da729dd.svg",
+                        "isPro": false,
+                        "fullname": "fuwenjie",
+                        "user": "avonfwj",
+                        "type": "user"
+                    },
+                    "name": "Wenjie Fu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:10:19.727Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95c",
+                    "name": "Chenyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95d",
+                    "name": "Leyi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95e",
+                    "user": {
+                        "_id": "64e99648662874dbc9c53ee6",
+                        "avatarUrl": "/avatars/10927024e137a3d43a5e8028c1d7c1c1.svg",
+                        "isPro": false,
+                        "fullname": "yilong",
+                        "user": "wuyilong",
+                        "type": "user"
+                    },
+                    "name": "Yilong Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:11:11.451Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e95f",
+                    "name": "Peng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e960",
+                    "name": "Meng Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e961",
+                    "user": {
+                        "_id": "643d91e737453b48a6febd9b",
+                        "avatarUrl": "/avatars/dc5802c5b76239737fa182a6cdfdae1b.svg",
+                        "isPro": false,
+                        "fullname": "Xiaolong  yang",
+                        "user": "sean-xl-y",
+                        "type": "user"
+                    },
+                    "name": "Xiaolong Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:11:18.988Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e962",
+                    "name": "Tao Gui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e963",
+                    "name": "Qi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e964",
+                    "name": "Zhongchao Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e965",
+                    "name": "Jianping Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6822e023b1df51252f95e966",
+                    "user": {
+                        "_id": "67f9c4ee171948c38302ae0f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Cqb3ijr_sZkpLhEEEEybK.png",
+                        "isPro": false,
+                        "fullname": "Xuanjing Huang",
+                        "user": "xjhuang",
+                        "type": "user"
+                    },
+                    "name": "Xuanjing Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:11:25.379Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-12T14:16:55.000Z",
+            "submittedOnDailyAt": "2025-05-14T05:33:58.516Z",
+            "title": "A Multi-Dimensional Constraint Framework for Evaluating and Improving\n  Instruction Following in Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "66384be673c2c55f2ded89fa",
+                "avatarUrl": "/avatars/1d8721074f0f51fab405f81474f2035f.svg",
+                "isPro": false,
+                "fullname": "Junjie Ye",
+                "user": "Junjie-Ye",
+                "type": "user"
+            },
+            "summary": "Instruction following evaluates large language models (LLMs) on their ability\nto generate outputs that adhere to user-defined constraints. However, existing\nbenchmarks often rely on templated constraint prompts, which lack the diversity\nof real-world usage and limit fine-grained performance assessment. To fill this\ngap, we propose a multi-dimensional constraint framework encompassing three\nconstraint patterns, four constraint categories, and four difficulty levels.\nBuilding on this framework, we develop an automated instruction generation\npipeline that performs constraint expansion, conflict detection, and\ninstruction rewriting, yielding 1,200 code-verifiable instruction-following\ntest samples. We evaluate 19 LLMs across seven model families and uncover\nsubstantial variation in performance across constraint forms. For instance,\naverage performance drops from 77.67% at Level I to 32.96% at Level IV.\nFurthermore, we demonstrate the utility of our approach by using it to generate\ndata for reinforcement learning, achieving substantial gains in instruction\nfollowing without degrading general performance. In-depth analysis indicates\nthat these gains stem primarily from modifications in the model's attention\nmodules parameters, which enhance constraint recognition and adherence. Code\nand data are available in https://github.com/Junjie-Ye/MulDimIF.",
+            "upvotes": 6,
+            "discussionId": "6822e024b1df51252f95e9be",
+            "githubRepo": "https://github.com/Junjie-Ye/MulDimIF",
+            "ai_keywords": [
+                "instruction-following",
+                "constraint expansion",
+                "conflict detection",
+                "instruction rewriting",
+                "code-verifiable",
+                "attention modules"
+            ]
+        },
+        "translation_title": "대형 언어 모델의 지침 준수를 평가하고 개선하기 위한 다차원 제약 프레임워크",
+        "purpose": "대형 언어 모델이 사용자 정의 제약을 준수하는 능력을 평가하고 개선하기 위한 새로운 기준 제안",
+        "method": [
+            "다차원 제약 프레임워크를 제안하여 세 가지 제약 패턴, 네 가지 제약 범주 및 네 가지 난이도 수준을 포함함(To fill this gap, we propose a multi-dimensional constraint framework encompassing three constraint patterns, four constraint categories, and four difficulty levels.)",
+            "자동화된 지침 생성 파이프라인을 개발하여 제약 확장, 충돌 탐지 및 지침 재작성 수행(We develop an automated instruction generation pipeline that performs constraint expansion, conflict detection, and instruction rewriting, yielding 1,200 code-verifiable instruction-following test samples.)",
+            "19개의 LLM을 평가하여 제약 형태에 따른 성능 차이를 발견함(We evaluate 19 LLMs across seven model families and uncover substantial variation in performance across constraint forms.)"
+        ],
+        "conclusion": "제안된 방법을 통해 강화 학습을 위한 데이터를 생성하여 지침 준수를 크게 개선하며, 성능 저하 없이 모델의 주의 집중 모듈 파라미터 수정으로 인해 이러한 향상이 이루어짐.",
+        "keywords": [
+            "Large Language Models",
+            "Instruction Following",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.07215",
+            "authors": [
+                {
+                    "_id": "68236b86102b1d3069ebafab",
+                    "user": {
+                        "_id": "64b88247e436bbca16603baf",
+                        "avatarUrl": "/avatars/7bde6b0f75bccc3195fb72cbe5860a7e.svg",
+                        "isPro": false,
+                        "fullname": "Vivek Verma",
+                        "user": "vivekverma",
+                        "type": "user"
+                    },
+                    "name": "Vivek Verma",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-13T15:55:50.678Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68236b86102b1d3069ebafac",
+                    "name": "David Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68236b86102b1d3069ebafad",
+                    "name": "William Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68236b86102b1d3069ebafae",
+                    "user": {
+                        "_id": "632be88b3690fb57e70e0bf1",
+                        "avatarUrl": "/avatars/74ff8f30b3662db2602495bdf493d397.svg",
+                        "isPro": false,
+                        "fullname": "Dan Klein",
+                        "user": "danjklein",
+                        "type": "user"
+                    },
+                    "name": "Dan Klein",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T10:09:04.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68236b86102b1d3069ebafaf",
+                    "user": {
+                        "_id": "6269d074a6a7bba9e46d8d50",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651101782106-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Nicholas Tomlin",
+                        "user": "nickatomlin",
+                        "type": "user"
+                    },
+                    "name": "Nicholas Tomlin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-14T07:35:26.733Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6269d074a6a7bba9e46d8d50/RSzjacMbHw27QCpwl_Nte.png"
+            ],
+            "publishedAt": "2025-05-12T04:01:03.000Z",
+            "submittedOnDailyAt": "2025-05-14T06:11:56.396Z",
+            "title": "Measuring General Intelligence with Generated Games",
+            "submittedOnDailyBy": {
+                "_id": "6269d074a6a7bba9e46d8d50",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651101782106-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Nicholas Tomlin",
+                "user": "nickatomlin",
+                "type": "user"
+            },
+            "summary": "We present gg-bench, a collection of game environments designed to evaluate\ngeneral reasoning capabilities in language models. Unlike most static\nbenchmarks, gg-bench is a data generating process where new evaluation\ninstances can be generated at will. In particular, gg-bench is synthetically\ngenerated by (1) using a large language model (LLM) to generate natural\nlanguage descriptions of novel games, (2) using the LLM to implement each game\nin code as a Gym environment, and (3) training reinforcement learning (RL)\nagents via self-play on the generated games. We evaluate language models by\ntheir winrate against these RL agents by prompting models with the game\ndescription, current board state, and a list of valid moves, after which models\noutput the moves they wish to take. gg-bench is challenging: state-of-the-art\nLLMs such as GPT-4o and Claude 3.7 Sonnet achieve winrates of 7-9% on gg-bench\nusing in-context learning, while reasoning models such as o1, o3-mini and\nDeepSeek-R1 achieve average winrates of 31-36%. We release the generated games,\ndata generation process, and evaluation code in order to support future\nmodeling work and expansion of our benchmark.",
+            "upvotes": 5,
+            "discussionId": "68236b86102b1d3069ebb00e",
+            "ai_keywords": [
+                "large language model (LLM)",
+                "Gym environment",
+                "reinforcement learning (RL)",
+                "self-play",
+                "prompt",
+                "in-context learning",
+                "winrate"
+            ]
+        },
+        "translation_title": "생성된 게임을 통한 일반 지능 측정",
+        "purpose": "언어 모델의 일반적인 추론 능력을 평가하기 위한 게임 환경 개발",
+        "method": [
+            "gg-bench라는 데이터 생성 프로세스를 통해 동적 평가 사례를 생성함(gg-bench is a data generating process where new evaluation instances can be generated at will.)",
+            "대규모 언어 모델(LLM)을 사용해 새로운 게임의 자연어 설명을 생성함(using a large language model (LLM) to generate natural language descriptions of novel games.)",
+            "LLM을 사용해 각 게임을 코드로 구현하여 Gym 환경을 만듦(using the LLM to implement each game in code as a Gym environment.)",
+            "자체 대결(self-play) 방식으로 강화 학습(RL) 에이전트를 훈련함(training reinforcement learning (RL) agents via self-play on the generated games.)"
+        ],
+        "conclusion": "gg-bench는 언어 모델의 성능을 평가하기 위한 도전적인 환경을 제공하며, 생성된 게임과 데이터 생성 프로세스, 평가 코드를 공개하여 향후 모델링 작업을 지원함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Game Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.08311",
+            "authors": [
+                {
+                    "_id": "682404584254a325ece48c4e",
+                    "name": "Yunjie Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c4f",
+                    "name": "Xiaoyu Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c50",
+                    "name": "Sitong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c51",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c52",
+                    "name": "Shuaiting Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c53",
+                    "name": "Yiping Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c54",
+                    "name": "Han Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "682404584254a325ece48c55",
+                    "name": "Xiangang Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-13T07:41:15.000Z",
+            "submittedOnDailyAt": "2025-05-14T12:05:28.577Z",
+            "title": "AM-Thinking-v1: Advancing the Frontier of Reasoning at 32B Scale",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": false,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "We present AM-Thinking-v1, a 32B dense language model that advances the\nfrontier of reasoning, embodying the collaborative spirit of open-source\ninnovation. Outperforming DeepSeek-R1 and rivaling leading Mixture-of-Experts\n(MoE) models like Qwen3-235B-A22B and Seed1.5-Thinking, AM-Thinking-v1 achieves\nimpressive scores of 85.3 on AIME 2024, 74.4 on AIME 2025, and 70.3 on\nLiveCodeBench, showcasing state-of-the-art mathematical and coding capabilities\namong open-source models of similar scale.\n  Built entirely from the open-source Qwen2.5-32B base model and publicly\navailable queries, AM-Thinking-v1 leverages a meticulously crafted\npost-training pipeline - combining supervised fine-tuning and reinforcement\nlearning - to deliver exceptional reasoning capabilities. This work\ndemonstrates that the open-source community can achieve high performance at the\n32B scale, a practical sweet spot for deployment and fine-tuning. By striking a\nbalance between top-tier performance and real-world usability, we hope\nAM-Thinking-v1 inspires further collaborative efforts to harness mid-scale\nmodels, pushing reasoning boundaries while keeping accessibility at the core of\ninnovation. We have open-sourced our model on\nhttps://huggingface.co/a-m-team/AM-Thinking-v1{Hugging Face}.",
+            "upvotes": 2,
+            "discussionId": "682404594254a325ece48cbd",
+            "ai_keywords": [
+                "dense language model",
+                "reasoning",
+                "DeepSeek-R1",
+                "Mixture-of-Experts (MoE)",
+                "Qwen3-235B-A22B",
+                "Seed1.5-Thinking",
+                "AIME 2024",
+                "AIME 2025",
+                "LiveCodeBench",
+                "mathematical capabilities",
+                "coding capabilities",
+                "Qwen2.5-32B base model",
+                "post-training pipeline",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "reasoning boundaries"
+            ]
+        },
+        "translation_title": "AM-Thinking-v1: 32B 규모에서 추론의 한계를 발전시키다",
+        "purpose": "32B 규모의 오픈 소스 언어 모델로서 높은 성능의 추론 능력 달성",
+        "method": [
+            "Qwen2.5-32B 기반 모델을 완전히 사용하여 AM-Thinking-v1 모델을 구축함(Built entirely from the open-source Qwen2.5-32B base model and publicly available queries)",
+            "감독 세밀 조정과 강화 학습을 결합한 정교한 사후 훈련 파이프라인을 활용함(leverages a meticulously crafted post-training pipeline - combining supervised fine-tuning and reinforcement learning)",
+            "AM-Thinking-v1가 AIME 2024에서 85.3, AIME 2025에서 74.4, LiveCodeBench에서 70.3의 뛰어난 점수를 달성함(AM-Thinking-v1 achieves impressive scores of 85.3 on AIME 2024, 74.4 on AIME 2025, and 70.3 on LiveCodeBench)"
+        ],
+        "conclusion": "AM-Thinking-v1는 오픈 소스 모델의 32B 규모에서도 높은 성능을 달성할 수 있음을 보여주며, 이는 협력적인 혁신을 촉진하는데 기여할 것으로 기대됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2504.21475",
+            "authors": [
+                {
+                    "_id": "68248d2c5d4294a3345b3889",
+                    "user": {
+                        "_id": "63fc7fe6d44f50f559587f93",
+                        "avatarUrl": "/avatars/0066af2fb1399a842c2ecca9e95b65dd.svg",
+                        "isPro": false,
+                        "fullname": "Serry Sibaee",
+                        "user": "SerrySibaee",
+                        "type": "user"
+                    },
+                    "name": "Serry Sibaee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T12:54:34.701Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388a",
+                    "name": "Samar Ahmed",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388b",
+                    "user": {
+                        "_id": "651452834a0c7cab164af487",
+                        "avatarUrl": "/avatars/f254d57e9a5c391827889c49df5cbc0e.svg",
+                        "isPro": false,
+                        "fullname": "Abdullah Alharbi",
+                        "user": "harbiai",
+                        "type": "user"
+                    },
+                    "name": "Abdullah Al Harbi",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T12:54:54.777Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388c",
+                    "name": "Omer Nacar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388d",
+                    "user": {
+                        "_id": "647c60cd36e109abce3b3b15",
+                        "avatarUrl": "/avatars/d702ec97cc2cde5ca7b5d16feb5f45c9.svg",
+                        "isPro": false,
+                        "fullname": "Adel Ammar",
+                        "user": "ammaradel",
+                        "type": "user"
+                    },
+                    "name": "Adel Ammar",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T12:55:04.658Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388e",
+                    "name": "Yasser Habashi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68248d2c5d4294a3345b388f",
+                    "user": {
+                        "_id": "67bde4936c7c7de3a68608d1",
+                        "avatarUrl": "/avatars/e08afba50d8aae8f7698ccba4c1e7b4a.svg",
+                        "isPro": false,
+                        "fullname": "Wadii Boulila",
+                        "user": "wboulila",
+                        "type": "user"
+                    },
+                    "name": "Wadii Boulila",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-14T12:55:18.105Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-04-30T09:56:36.000Z",
+            "submittedOnDailyAt": "2025-05-14T11:02:37.522Z",
+            "title": "Advancing Arabic Reverse Dictionary Systems: A Transformer-Based\n  Approach with Dataset Construction Guidelines",
+            "submittedOnDailyBy": {
+                "_id": "628f7a71dd993507cfcbe587",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/628f7a71dd993507cfcbe587/3frAcMgfBCx-OJsrdAhnb.png",
+                "isPro": true,
+                "fullname": "Omartificial Intelligence Space",
+                "user": "Omartificial-Intelligence-Space",
+                "type": "user"
+            },
+            "summary": "This study addresses the critical gap in Arabic natural language processing\nby developing an effective Arabic Reverse Dictionary (RD) system that enables\nusers to find words based on their descriptions or meanings. We present a novel\ntransformer-based approach with a semi-encoder neural network architecture\nfeaturing geometrically decreasing layers that achieves state-of-the-art\nresults for Arabic RD tasks. Our methodology incorporates a comprehensive\ndataset construction process and establishes formal quality standards for\nArabic lexicographic definitions. Experiments with various pre-trained models\ndemonstrate that Arabic-specific models significantly outperform general\nmultilingual embeddings, with ARBERTv2 achieving the best ranking score\n(0.0644). Additionally, we provide a formal abstraction of the reverse\ndictionary task that enhances theoretical understanding and develop a modular,\nextensible Python library (RDTL) with configurable training pipelines. Our\nanalysis of dataset quality reveals important insights for improving Arabic\ndefinition construction, leading to eight specific standards for building\nhigh-quality reverse dictionary resources. This work contributes significantly\nto Arabic computational linguistics and provides valuable tools for language\nlearning, academic writing, and professional communication in Arabic.",
+            "upvotes": 2,
+            "discussionId": "68248d2d5d4294a3345b38d8",
+            "ai_keywords": [
+                "transformer-based approach",
+                "semi-encoder neural network architecture",
+                "geometrically decreasing layers",
+                "state-of-the-art",
+                "formal quality standards",
+                "pre-trained models",
+                "Arabic-specific models",
+                "general multilingual embeddings",
+                "ARBERTv2",
+                "formal abstraction",
+                "modular, extensible Python library",
+                "RDTL",
+                "configurable training pipelines",
+                "dataset quality",
+                "high-quality reverse dictionary resources",
+                "Arabic computational linguistics",
+                "language learning",
+                "academic writing",
+                "professional communication"
+            ]
+        },
+        "translation_title": "아랍어 역 사전 시스템 발전: 데이터셋 구축 지침을 가진 Transformer 기반 접근법",
+        "purpose": "사용자가 설명이나 의미를 기반으로 단어를 찾을 수 있는 효과적인 아랍어 역 사전 시스템 개발",
+        "method": [
+            "Transformer 기반의 반인코더 신경망 구조를 활용하여 아랍어 역 사전 작업에서 최신 기술 성능을 달성함(We present a novel transformer-based approach with a semi-encoder neural network architecture featuring geometrically decreasing layers that achieves state-of-the-art results for Arabic RD tasks.)",
+            "아랍어 어휘 정의를 위한 포괄적인 데이터셋 구축 프로세스와 공식 품질 기준을 설정함(Our methodology incorporates a comprehensive dataset construction process and establishes formal quality standards for Arabic lexicographic definitions.)",
+            "ARBERTv2 모델이 일반 다국어 임베딩보다 훨씬 높은 성능을 보임(Experiments with various pre-trained models demonstrate that Arabic-specific models significantly outperform general multilingual embeddings, with ARBERTv2 achieving the best ranking score (0.0644).)"
+        ],
+        "conclusion": "이 연구는 아랍어 자연어 처리를 위한 중요한 기여를 하며 언어 학습 및 전문 커뮤니케이션 도구로 유용함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    }
+]
