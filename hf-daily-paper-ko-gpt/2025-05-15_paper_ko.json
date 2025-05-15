@@ -1,0 +1,776 @@
+[
+    {
+        "paper": {
+            "id": "2505.04410",
+            "authors": [
+                {
+                    "_id": "681d615fbd89ba9ceb5e94bc",
+                    "user": {
+                        "_id": "64a385281cbf675203fbb7df",
+                        "avatarUrl": "/avatars/f259d080d3127c45bcf564a8d1fafcc6.svg",
+                        "isPro": false,
+                        "fullname": "Junjie Wang",
+                        "user": "xiaomoguhzz",
+                        "type": "user"
+                    },
+                    "name": "Junjie Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-09T07:21:48.630Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681d615fbd89ba9ceb5e94bd",
+                    "user": {
+                        "_id": "647d70d136e109abce415e0e",
+                        "avatarUrl": "/avatars/c89864c663cbf3256e34785be85561bc.svg",
+                        "isPro": false,
+                        "fullname": "Bin Chen",
+                        "user": "BinChen68",
+                        "type": "user"
+                    },
+                    "name": "Bin Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:47:00.478Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681d615fbd89ba9ceb5e94be",
+                    "name": "Yulin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "681d615fbd89ba9ceb5e94bf",
+                    "user": {
+                        "_id": "67069836f95c7ec727df2806",
+                        "avatarUrl": "/avatars/fbe87f41e680362595b5864e690b62b4.svg",
+                        "isPro": false,
+                        "fullname": "bin kang",
+                        "user": "tygeer",
+                        "type": "user"
+                    },
+                    "name": "Bin Kang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:47:31.037Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "681d615fbd89ba9ceb5e94c0",
+                    "name": "Yichi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "681d615fbd89ba9ceb5e94c1",
+                    "user": {
+                        "_id": "64d104a37a7305c5895bd720",
+                        "avatarUrl": "/avatars/2d9eff3a2dff6d02e45ae8964fb91f27.svg",
+                        "isPro": false,
+                        "fullname": "zt tian",
+                        "user": "tianzhuotao",
+                        "type": "user"
+                    },
+                    "name": "Zhuotao Tian",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:48:12.084Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64a385281cbf675203fbb7df/MpXgXINxg1RmSFnfeqXqU.mp4"
+            ],
+            "publishedAt": "2025-05-07T13:46:34.000Z",
+            "submittedOnDailyAt": "2025-05-15T06:24:33.810Z",
+            "title": "DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception",
+            "submittedOnDailyBy": {
+                "_id": "64a385281cbf675203fbb7df",
+                "avatarUrl": "/avatars/f259d080d3127c45bcf564a8d1fafcc6.svg",
+                "isPro": false,
+                "fullname": "Junjie Wang",
+                "user": "xiaomoguhzz",
+                "type": "user"
+            },
+            "summary": "Dense visual prediction tasks have been constrained by their reliance on\npredefined categories, limiting their applicability in real-world scenarios\nwhere visual concepts are unbounded. While Vision-Language Models (VLMs) like\nCLIP have shown promise in open-vocabulary tasks, their direct application to\ndense prediction often leads to suboptimal performance due to limitations in\nlocal feature representation. In this work, we present our observation that\nCLIP's image tokens struggle to effectively aggregate information from\nspatially or semantically related regions, resulting in features that lack\nlocal discriminability and spatial consistency. To address this issue, we\npropose DeCLIP, a novel framework that enhances CLIP by decoupling the\nself-attention module to obtain ``content'' and ``context'' features\nrespectively. The ``content'' features are aligned with image crop\nrepresentations to improve local discriminability, while ``context'' features\nlearn to retain the spatial correlations under the guidance of vision\nfoundation models, such as DINO. Extensive experiments demonstrate that DeCLIP\nsignificantly outperforms existing methods across multiple open-vocabulary\ndense prediction tasks, including object detection and semantic segmentation.\nCode is available at magenta{https://github.com/xiaomoguhz/DeCLIP}.",
+            "upvotes": 34,
+            "discussionId": "681d6161bd89ba9ceb5e9571",
+            "githubRepo": "https://github.com/xiaomoguhz/DeCLIP",
+            "ai_keywords": [
+                "Vision-Language Models (VLMs)",
+                "CLIP",
+                "dense prediction",
+                "predefined categories",
+                "open-vocabulary tasks",
+                "spatially related regions",
+                "semantically related regions",
+                "local discriminability",
+                "spatial consistency",
+                "self-attention module",
+                "content features",
+                "context features",
+                "image crop representations",
+                "vision foundation models",
+                "DINO",
+                "object detection",
+                "semantic segmentation"
+            ]
+        },
+        "translation_title": "DeCLIP: 열린 어휘 밀집 인식을 위한 분리 학습",
+        "purpose": "밀집 시각 예측 작업에서 기존 카테고리 의존성을 줄이고 실세계 시나리오에 적합한 모델 개발",
+        "method": [
+            "CLIP의 이미지 토큰이 공간적 또는 의미적으로 관련된 지역에서 정보를 효과적으로 집계하지 못하는 점을 파악함.(we present our observation that CLIP's image tokens struggle to effectively aggregate information from spatially or semantically related regions)",
+            "자기 주의 모듈을 분리하여 'content'와 'context' 특징을 각각 얻는 DeCLIP 프레임워크를 제안함.(we propose DeCLIP, a novel framework that enhances CLIP by decoupling the self-attention module to obtain ``content'' and ``context'' features respectively)",
+            "'content' 특징은 이미지 크롭 표현과 정렬되어 지역 구별력을 향상시키고, 'context' 특징은 DINO와 같은 비전 기초 모델의 안내를 받아 공간적 상관관계를 유지하도록 학습함.(The ``content'' features are aligned with image crop representations to improve local discriminability, while ``context'' features learn to retain the spatial correlations under the guidance of vision foundation models, such as DINO)"
+        ],
+        "conclusion": "DeCLIP은 다양한 열린 어휘 밀집 예측 작업에서 기존 방법보다 성능이 크게 향상됨을 입증함.",
+        "keywords": [
+            "Image Understanding",
+            "Vision-Language Models",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.09568",
+            "authors": [
+                {
+                    "_id": "68254419181d43c25d829239",
+                    "user": {
+                        "_id": "6393847e3e30234ae798b7be",
+                        "avatarUrl": "/avatars/daeb8c37dff4432d837a69b87c196521.svg",
+                        "isPro": true,
+                        "fullname": "JiuhaiChen",
+                        "user": "jiuhai",
+                        "type": "user"
+                    },
+                    "name": "Jiuhai Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:48:28.916Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923a",
+                    "user": {
+                        "_id": "64b6c686cf5117d7962d8f62",
+                        "avatarUrl": "/avatars/96ed7a9602aa4c21b3a3d89608e76dc8.svg",
+                        "isPro": false,
+                        "fullname": "Zhiyang Xu",
+                        "user": "Zhiyang03",
+                        "type": "user"
+                    },
+                    "name": "Zhiyang Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:48:51.984Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923b",
+                    "user": {
+                        "_id": "63172831c92fd6fee3181f50",
+                        "avatarUrl": "/avatars/0f57068a138cb181e9451bfc1ed3d1c0.svg",
+                        "isPro": false,
+                        "fullname": "Xichen Pan",
+                        "user": "xcpan",
+                        "type": "user"
+                    },
+                    "name": "Xichen Pan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T10:31:43.038Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923c",
+                    "user": {
+                        "_id": "62b1474bdcbad6848a91a54e",
+                        "avatarUrl": "/avatars/d7308899b46232cad4a48a0e876449a8.svg",
+                        "isPro": false,
+                        "fullname": "Yushi Hu",
+                        "user": "yushihu",
+                        "type": "user"
+                    },
+                    "name": "Yushi Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:05.178Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923d",
+                    "name": "Can Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923e",
+                    "user": {
+                        "_id": "6381ca7d65dc156aba0b933d",
+                        "avatarUrl": "/avatars/84dfdca8e1cd6fbf50d6fb2a6f1b488d.svg",
+                        "isPro": false,
+                        "fullname": "Tom Goldstein",
+                        "user": "tomgoldstein",
+                        "type": "user"
+                    },
+                    "name": "Tom Goldstein",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:13.762Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d82923f",
+                    "name": "Lifu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829240",
+                    "user": {
+                        "_id": "647f5af5b0e96764589f3b2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Zhou",
+                        "user": "zhoutianyi",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T10:32:05.507Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829241",
+                    "user": {
+                        "_id": "6596422646624a86ff3b3bda",
+                        "avatarUrl": "/avatars/216e12b77e45ac5f1fa20932f5745411.svg",
+                        "isPro": false,
+                        "fullname": "Saining Xie",
+                        "user": "sainx",
+                        "type": "user"
+                    },
+                    "name": "Saining Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:28.644Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829242",
+                    "user": {
+                        "_id": "67d5674bbc03ef961e733ddd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/3EUXNd-mKvsXFDlr1FETh.png",
+                        "isPro": false,
+                        "fullname": "Silvio Savarese",
+                        "user": "SilvioSav8",
+                        "type": "user"
+                    },
+                    "name": "Silvio Savarese",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:36.341Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829243",
+                    "user": {
+                        "_id": "63dd73e7422ca8d7f7e3698c",
+                        "avatarUrl": "/avatars/7b0f8419f6941230b81dbbbb4f273edf.svg",
+                        "isPro": false,
+                        "fullname": "Le Xue",
+                        "user": "SFXX",
+                        "type": "user"
+                    },
+                    "name": "Le Xue",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:58.945Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829244",
+                    "user": {
+                        "_id": "649dbcc4e0fff1ed099dc80a",
+                        "avatarUrl": "/avatars/c87c273ca628dbcddccbf1ee19b2ce33.svg",
+                        "isPro": false,
+                        "fullname": "Caiming Xiong",
+                        "user": "cxiong",
+                        "type": "user"
+                    },
+                    "name": "Caiming Xiong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:49:42.774Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68254419181d43c25d829245",
+                    "user": {
+                        "_id": "6465c4c863e7e09dd02e3e1b",
+                        "avatarUrl": "/avatars/200b029184d2616f98296a2c212f0785.svg",
+                        "isPro": false,
+                        "fullname": "Ran Xu",
+                        "user": "xurantju",
+                        "type": "user"
+                    },
+                    "name": "Ran Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T10:31:39.465Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-14T17:11:07.000Z",
+            "submittedOnDailyAt": "2025-05-15T00:07:05.564Z",
+            "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture,\n  Training and Dataset",
+            "submittedOnDailyBy": {
+                "_id": "6393847e3e30234ae798b7be",
+                "avatarUrl": "/avatars/daeb8c37dff4432d837a69b87c196521.svg",
+                "isPro": true,
+                "fullname": "JiuhaiChen",
+                "user": "jiuhai",
+                "type": "user"
+            },
+            "summary": "Unifying image understanding and generation has gained growing attention in\nrecent research on multimodal models. Although design choices for image\nunderstanding have been extensively studied, the optimal model architecture and\ntraining recipe for a unified framework with image generation remain\nunderexplored. Motivated by the strong potential of autoregressive and\ndiffusion models for high-quality generation and scalability, we conduct a\ncomprehensive study of their use in unified multimodal settings, with emphasis\non image representations, modeling objectives, and training strategies.\nGrounded in these investigations, we introduce a novel approach that employs a\ndiffusion transformer to generate semantically rich CLIP image features, in\ncontrast to conventional VAE-based representations. This design yields both\nhigher training efficiency and improved generative quality. Furthermore, we\ndemonstrate that a sequential pretraining strategy for unified models-first\ntraining on image understanding and subsequently on image generation-offers\npractical advantages by preserving image understanding capability while\ndeveloping strong image generation ability. Finally, we carefully curate a\nhigh-quality instruction-tuning dataset BLIP3o-60k for image generation by\nprompting GPT-4o with a diverse set of captions covering various scenes,\nobjects, human gestures, and more. Building on our innovative model design,\ntraining recipe, and datasets, we develop BLIP3-o, a suite of state-of-the-art\nunified multimodal models. BLIP3-o achieves superior performance across most of\nthe popular benchmarks spanning both image understanding and generation tasks.\nTo facilitate future research, we fully open-source our models, including code,\nmodel weights, training scripts, and pretraining and instruction tuning\ndatasets.",
+            "upvotes": 29,
+            "discussionId": "6825441a181d43c25d82927a",
+            "ai_keywords": [
+                "autoregressive models",
+                "diffusion models",
+                "semantically rich CLIP image features",
+                "diffusion transformer",
+                "VAE-based representations",
+                "sequential pretraining strategy",
+                "image understanding",
+                "image generation",
+                "instruction-tuning dataset",
+                "GPT-4o",
+                "state-of-the-art unified multimodal models"
+            ]
+        },
+        "translation_title": "BLIP3-o: 완전 개방형 통합 멀티모달 모델의 구조, 훈련 및 데이터셋",
+        "purpose": "이미지 이해와 생성을 통합하는 효과적인 모델 아키텍처와 훈련 방법을 개발하기",
+        "method": [
+            "이미지 이해와 생성을 위한 통합 모델 설정에 자가 회귀 및 확산 모델의 사용을 연구함(we conduct a comprehensive study of their use in unified multimodal settings).",
+            "전통적인 VAE 기반 표현 대신 CLIP 이미지 기능을 생성하기 위해 확산 트랜스포머를 활용하는 새로운 접근 방식을 제안함(we introduce a novel approach that employs a diffusion transformer to generate semantically rich CLIP image features).",
+            "이미지 이해능력을 보존하며 강력한 이미지 생성 능력을 개발하기 위해 이미지 이해를 먼저 훈련하고 이후 이미지 생성을 훈련하는 전략을 채택함(a sequential pretraining strategy for unified models-first training on image understanding and subsequently on image generation)."
+        ],
+        "conclusion": "BLIP3-o는 이미지 이해 및 생성 작업에서 뛰어난 성능을 달성하며, 코드, 모델 가중치, 훈련 스크립트 및 데이터셋을 완전히 오픈 소스하여 향후 연구에 기여함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.09343",
+            "authors": [
+                {
+                    "_id": "682578ca1b93095c061429ff",
+                    "user": {
+                        "_id": "66053b1f9e3555d648b21c3d",
+                        "avatarUrl": "/avatars/c8b33e7f702c4edb17add47f0eafe5e6.svg",
+                        "isPro": false,
+                        "fullname": "Chenggang Zhao",
+                        "user": "LyricZ",
+                        "type": "user"
+                    },
+                    "name": "Chenggang Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:50:09.165Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a00",
+                    "name": "Chengqi Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a01",
+                    "user": {
+                        "_id": "6398203609f12714ed1935c2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6398203609f12714ed1935c2/uXgl0LgKnFYjq1Wz39-a6.jpeg",
+                        "isPro": false,
+                        "fullname": "Chong Ruan",
+                        "user": "Chester111",
+                        "type": "user"
+                    },
+                    "name": "Chong Ruan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:50:30.400Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a02",
+                    "user": {
+                        "_id": "659389f8de82e1ef7b9a8b13",
+                        "avatarUrl": "/avatars/896ed9f4cdbd317493b303d070b7e12a.svg",
+                        "isPro": false,
+                        "fullname": "Damai Dai",
+                        "user": "DeepSeekDDM",
+                        "type": "user"
+                    },
+                    "name": "Damai Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:50:51.345Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a03",
+                    "user": {
+                        "_id": "64e370be59aa5366642ac329",
+                        "avatarUrl": "/avatars/0fa1eb6ac6c1aeff3e65bc86a6617f64.svg",
+                        "isPro": false,
+                        "fullname": "Huazuo Gao",
+                        "user": "gaohuazuo",
+                        "type": "user"
+                    },
+                    "name": "Huazuo Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:51:03.129Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a04",
+                    "user": {
+                        "_id": "64fca5f28d50404bc42ca78a",
+                        "avatarUrl": "/avatars/ae01ac0296d6ce1277dacb6894f570b8.svg",
+                        "isPro": false,
+                        "fullname": "Jiashi Li",
+                        "user": "Beginlner",
+                        "type": "user"
+                    },
+                    "name": "Jiashi Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:51:09.237Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a05",
+                    "user": {
+                        "_id": "67367647517b82b436d74930",
+                        "avatarUrl": "/avatars/34c1f894a3da9f38816d0b30bfdc6d50.svg",
+                        "isPro": false,
+                        "fullname": "Liyue Zhang",
+                        "user": "Lyriccc",
+                        "type": "user"
+                    },
+                    "name": "Liyue Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:51:15.494Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a06",
+                    "name": "Panpan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a07",
+                    "user": {
+                        "_id": "654453e19b639f21e1d77d16",
+                        "avatarUrl": "/avatars/079ec500c2ca7a31f6cb754b8c7ef065.svg",
+                        "isPro": false,
+                        "fullname": "Shangyan Zhou",
+                        "user": "syzhou",
+                        "type": "user"
+                    },
+                    "name": "Shangyan Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:51:29.946Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a08",
+                    "user": {
+                        "_id": "6482e57a04f67f5f6056a61b",
+                        "avatarUrl": "/avatars/b26faf19ba1493b91102ac7978ab3230.svg",
+                        "isPro": false,
+                        "fullname": "Shirong Ma",
+                        "user": "msr2000",
+                        "type": "user"
+                    },
+                    "name": "Shirong Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:51:50.612Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a09",
+                    "name": "Wenfeng Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a0a",
+                    "name": "Ying He",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a0b",
+                    "user": {
+                        "_id": "63ea23b9dedfeebe54d02bdf",
+                        "avatarUrl": "/avatars/4d9f9a546aa8c63e277161ea700075c4.svg",
+                        "isPro": false,
+                        "fullname": "Yuqing Wang",
+                        "user": "Epiphqny",
+                        "type": "user"
+                    },
+                    "name": "Yuqing Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:52:24.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a0c",
+                    "name": "Yuxuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682578ca1b93095c06142a0d",
+                    "name": "Y. X. Wei",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-14T12:39:03.000Z",
+            "submittedOnDailyAt": "2025-05-15T05:22:39.526Z",
+            "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on\n  Hardware for AI Architectures",
+            "submittedOnDailyBy": {
+                "_id": "5f1158120c833276f61f1a84",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+                "isPro": false,
+                "fullname": "Niels Rogge",
+                "user": "nielsr",
+                "type": "user"
+            },
+            "summary": "The rapid scaling of large language models (LLMs) has unveiled critical\nlimitations in current hardware architectures, including constraints in memory\ncapacity, computational efficiency, and interconnection bandwidth. DeepSeek-V3,\ntrained on 2,048 NVIDIA H800 GPUs, demonstrates how hardware-aware model\nco-design can effectively address these challenges, enabling cost-efficient\ntraining and inference at scale. This paper presents an in-depth analysis of\nthe DeepSeek-V3/R1 model architecture and its AI infrastructure, highlighting\nkey innovations such as Multi-head Latent Attention (MLA) for enhanced memory\nefficiency, Mixture of Experts (MoE) architectures for optimized\ncomputation-communication trade-offs, FP8 mixed-precision training to unlock\nthe full potential of hardware capabilities, and a Multi-Plane Network Topology\nto minimize cluster-level network overhead. Building on the hardware\nbottlenecks encountered during DeepSeek-V3's development, we engage in a\nbroader discussion with academic and industry peers on potential future\nhardware directions, including precise low-precision computation units,\nscale-up and scale-out convergence, and innovations in low-latency\ncommunication fabrics. These insights underscore the critical role of hardware\nand model co-design in meeting the escalating demands of AI workloads, offering\na practical blueprint for innovation in next-generation AI systems.",
+            "upvotes": 20,
+            "discussionId": "682578cb1b93095c06142a55",
+            "ai_keywords": [
+                "Multi-head Latent Attention (MLA)",
+                "Mixture of Experts (MoE)",
+                "FP8 mixed-precision training",
+                "Multi-Plane Network Topology",
+                "low-precision computation units",
+                "scale-up and scale-out convergence",
+                "low-latency communication fabrics"
+            ]
+        },
+        "translation_title": "DeepSeek-V3에 대한 통찰: AI 아키텍처를 위한 하드웨어의 확장 도전과 성찰",
+        "purpose": "대규모 언어 모델의 훈련과 추론을 비용 효율적으로 지원하기 위한 하드웨어의 설계와 최적화 방안 연구",
+        "method": [
+            "2,048개의 NVIDIA H800 GPU에서 훈련된 DeepSeek-V3 모델에 대한 하드웨어 인식 모델 공동 설계 접근 방식 사용(Hardware-aware model co-design can effectively address these challenges, enabling cost-efficient training and inference at scale.)",
+            "Multi-head Latent Attention(MLA)을 통한 메모리 효율성 향상(Multi-head Latent Attention (MLA) for enhanced memory efficiency.)",
+            "Mixture of Experts(MoE) 아키텍처를 통해 계산 및 통신의 최적화(Mixture of Experts (MoE) architectures for optimized computation-communication trade-offs.)",
+            "FP8 혼합 정밀 훈련을 통해 하드웨어 성능 최대화(FP8 mixed-precision training to unlock the full potential of hardware capabilities.)",
+            "Multi-Plane Network Topology로 클러스터 수준 네트워크 오버헤드 최소화(Multi-Plane Network Topology to minimize cluster-level network overhead.)"
+        ],
+        "conclusion": "DeepSeek-V3의 발전 과정에서 발견된 하드웨어 병목 현상에 대한 논의를 통해 AI 워크로드의 급증하는 수요를 충족하기 위한 혁신적인 설계 방향을 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.09358",
+            "authors": [
+                {
+                    "_id": "6825c0e6bfd4908da7747c41",
+                    "user": {
+                        "_id": "63d90391da4f72339244c2a8",
+                        "avatarUrl": "/avatars/eb0e0259c391d59739c1a205c36bb539.svg",
+                        "isPro": false,
+                        "fullname": "Bingxin Ke",
+                        "user": "Bingxin",
+                        "type": "user"
+                    },
+                    "name": "Bingxin Ke",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-15T13:55:42.142Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c42",
+                    "name": "Kevin Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c43",
+                    "name": "Tianfu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c44",
+                    "user": {
+                        "_id": "63a5785a8fb23d08bb2d0291",
+                        "avatarUrl": "/avatars/758b06dae06e9eee6fced10ce682aef1.svg",
+                        "isPro": false,
+                        "fullname": "Nando Metzger",
+                        "user": "nandometzger",
+                        "type": "user"
+                    },
+                    "name": "Nando Metzger",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T13:45:09.533Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c45",
+                    "name": "Shengyu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c46",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c47",
+                    "user": {
+                        "_id": "62f93abbc4817cfc0756b6f8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f93abbc4817cfc0756b6f8/rGYLaq-rmoJJYotkC1VXk.jpeg",
+                        "isPro": true,
+                        "fullname": "Anton Obukhov",
+                        "user": "toshas",
+                        "type": "user"
+                    },
+                    "name": "Anton Obukhov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T13:45:11.907Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6825c0e6bfd4908da7747c48",
+                    "user": {
+                        "_id": "6750649b7edd6a98a1bbcd06",
+                        "avatarUrl": "/avatars/ba27f12d0333cf2d400d4405af7efe97.svg",
+                        "isPro": false,
+                        "fullname": "Konrad Schindler",
+                        "user": "konradschindler",
+                        "type": "user"
+                    },
+                    "name": "Konrad Schindler",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-15T10:53:52.126Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62f93abbc4817cfc0756b6f8/fDCIA8Ghqly2s-qQZj64D.mp4"
+            ],
+            "publishedAt": "2025-05-14T13:07:03.000Z",
+            "submittedOnDailyAt": "2025-05-15T09:14:40.835Z",
+            "title": "Marigold: Affordable Adaptation of Diffusion-Based Image Generators for\n  Image Analysis",
+            "submittedOnDailyBy": {
+                "_id": "62f93abbc4817cfc0756b6f8",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f93abbc4817cfc0756b6f8/rGYLaq-rmoJJYotkC1VXk.jpeg",
+                "isPro": true,
+                "fullname": "Anton Obukhov",
+                "user": "toshas",
+                "type": "user"
+            },
+            "summary": "The success of deep learning in computer vision over the past decade has\nhinged on large labeled datasets and strong pretrained models. In data-scarce\nsettings, the quality of these pretrained models becomes crucial for effective\ntransfer learning. Image classification and self-supervised learning have\ntraditionally been the primary methods for pretraining CNNs and\ntransformer-based architectures. Recently, the rise of text-to-image generative\nmodels, particularly those using denoising diffusion in a latent space, has\nintroduced a new class of foundational models trained on massive, captioned\nimage datasets. These models' ability to generate realistic images of unseen\ncontent suggests they possess a deep understanding of the visual world. In this\nwork, we present Marigold, a family of conditional generative models and a\nfine-tuning protocol that extracts the knowledge from pretrained latent\ndiffusion models like Stable Diffusion and adapts them for dense image analysis\ntasks, including monocular depth estimation, surface normals prediction, and\nintrinsic decomposition. Marigold requires minimal modification of the\npre-trained latent diffusion model's architecture, trains with small synthetic\ndatasets on a single GPU over a few days, and demonstrates state-of-the-art\nzero-shot generalization. Project page:\nhttps://marigoldcomputervision.github.io",
+            "upvotes": 13,
+            "discussionId": "6825c0ebbfd4908da7747d67",
+            "ai_keywords": [
+                "denoising diffusion",
+                "latent space",
+                "generative models",
+                "pretrained latent diffusion models",
+                "Stable Diffusion",
+                "dense image analysis tasks",
+                "monocular depth estimation",
+                "surface normals prediction",
+                "intrinsic decomposition",
+                "fine-tuning protocol",
+                "zero-shot generalization"
+            ]
+        },
+        "translation_title": "Marigold: 이미지 분석을 위한 확산 기반 이미지 생성기의 저렴한 적응",
+        "purpose": "사전 훈련된 확산 모델의 지식을 활용하여 밀집 이미지 분석 작업에 적합하게 조정하는 방법을 개발",
+        "method": [
+            "사전 훈련된 Stable Diffusion 모델의 지식을 추출하고 밀집 이미지 분석 작업에 맞게 적응하는 조건부 생성 모델을 제안함(we present Marigold, a family of conditional generative models and a fine-tuning protocol that extracts the knowledge from pretrained latent diffusion models like Stable Diffusion and adapts them for dense image analysis tasks)",
+            "Marigold는 사전 훈련된 모델의 구조를 최소한으로 수정하고, 작은 합성 데이터셋으로 몇 일 안에 단일 GPU에서 학습함(Marigold requires minimal modification of the pre-trained latent diffusion model's architecture, trains with small synthetic datasets on a single GPU over a few days)",
+            "이 모델은 뛰어난 제로샷 일반화를 보여줌(Marigold demonstrates state-of-the-art zero-shot generalization)"
+        ],
+        "conclusion": "Marigold는 밀집 이미지 분석 작업에 효과적으로 적용될 수 있는 새로운 방법론을 제시하고, 적은 자원으로도 높은 성능을 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Image Classification",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.08787",
+            "authors": [
+                {
+                    "_id": "6823f20eb9e5c4a5c866a634",
+                    "user": {
+                        "_id": "66f21f9e14fcea0aa11361f5",
+                        "avatarUrl": "/avatars/fb8261fb9da98f47d9102d68762ac821.svg",
+                        "isPro": false,
+                        "fullname": "Hanjung Kim",
+                        "user": "HanjungKim",
+                        "type": "user"
+                    },
+                    "name": "Hanjung Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-15T10:32:41.278Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6823f20eb9e5c4a5c866a635",
+                    "name": "Jaehyun Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6823f20eb9e5c4a5c866a636",
+                    "name": "Hyolim Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6823f20eb9e5c4a5c866a637",
+                    "name": "Meedeum Cho",
+                    "hidden": false
+                },
+                {
+                    "_id": "6823f20eb9e5c4a5c866a638",
+                    "name": "Seon Joo Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6823f20eb9e5c4a5c866a639",
+                    "name": "Youngwoon Lee",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-13T17:59:22.000Z",
+            "submittedOnDailyAt": "2025-05-15T11:39:27.106Z",
+            "title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill\n  Representations",
+            "submittedOnDailyBy": {
+                "_id": "66f21f9e14fcea0aa11361f5",
+                "avatarUrl": "/avatars/fb8261fb9da98f47d9102d68762ac821.svg",
+                "isPro": false,
+                "fullname": "Hanjung Kim",
+                "user": "HanjungKim",
+                "type": "user"
+            },
+            "summary": "Mimicry is a fundamental learning mechanism in humans, enabling individuals\nto learn new tasks by observing and imitating experts. However, applying this\nability to robots presents significant challenges due to the inherent\ndifferences between human and robot embodiments in both their visual appearance\nand physical capabilities. While previous methods bridge this gap using\ncross-embodiment datasets with shared scenes and tasks, collecting such aligned\ndata between humans and robots at scale is not trivial. In this paper, we\npropose UniSkill, a novel framework that learns embodiment-agnostic skill\nrepresentations from large-scale cross-embodiment video data without any\nlabels, enabling skills extracted from human video prompts to effectively\ntransfer to robot policies trained only on robot data. Our experiments in both\nsimulation and real-world environments show that our cross-embodiment skills\nsuccessfully guide robots in selecting appropriate actions, even with unseen\nvideo prompts. The project website can be found at:\nhttps://kimhanjung.github.io/UniSkill.",
+            "upvotes": 11,
+            "discussionId": "6823f210b9e5c4a5c866a6c5",
+            "projectPage": "https://kimhanjung.github.io/UniSkill/",
+            "githubRepo": "https://github.com/KimHanjung/UniSkill",
+            "ai_keywords": [
+                "embodiment-agnostic",
+                "skill representations",
+                "cross-embodiment video data",
+                "robot policies",
+                "action selection",
+                "video prompts",
+                "UniSkill"
+            ]
+        },
+        "translation_title": "UniSkill: 크로스-엠바디먼트 기술 표현을 통한 인간 비디오 모방",
+        "purpose": "로봇이 인간의 동작을 모방하고 새로운 과제를 배우도록 지원하기 위한 기술 표현 연구",
+        "method": [
+            "크로스-엠바디먼트 비디오 데이터를 활용하여 라벨 없이 기술 표현을 학습하는 UniSkill 프레임워크를 제안함(we propose UniSkill, a novel framework that learns embodiment-agnostic skill representations from large-scale cross-embodiment video data without any labels)",
+            "제안된 방식으로 추출한 기술이 로봇 정책에 효과적으로 적용될 수 있도록 함(enabling skills extracted from human video prompts to effectively transfer to robot policies trained only on robot data)",
+            "시뮬레이션과 실제 환경 모두에서 로봇이 적절한 행동을 선택하는 데 성공적으로 안내됨(our experiments in both simulation and real-world environments show that our cross-embodiment skills successfully guide robots in selecting appropriate actions)"
+        ],
+        "conclusion": "UniSkill을 통해 로봇이 인간의 비디오 프롬프트에 기반하여 본 적이 없는 상황에서도 효과적으로 행동할 수 있음을 입증함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Robotics"
+        ]
+    }
+]
