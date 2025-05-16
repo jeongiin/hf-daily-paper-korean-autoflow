@@ -1,0 +1,594 @@
+[
+    {
+        "paper": {
+            "id": "2505.09666",
+            "authors": [
+                {
+                    "_id": "68269a1eaa8aded616d280a0",
+                    "user": {
+                        "_id": "64cfa0b9749587dbe01d0079",
+                        "avatarUrl": "/avatars/93ca0a1d9c5578d052c5af0d4d1a0252.svg",
+                        "isPro": false,
+                        "fullname": "Yumin Choi",
+                        "user": "YuminChoi",
+                        "type": "user"
+                    },
+                    "name": "Yumin Choi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-16T07:12:06.309Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269a1eaa8aded616d280a1",
+                    "user": {
+                        "_id": "63036b6c5c70c21d0ea79d48",
+                        "avatarUrl": "/avatars/a7eb03f5cbd4eaa09fe807bbed8bc0f7.svg",
+                        "isPro": false,
+                        "fullname": "Jinheon Baek",
+                        "user": "jinheon",
+                        "type": "user"
+                    },
+                    "name": "Jinheon Baek",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:10:10.549Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269a1eaa8aded616d280a2",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-14T16:46:15.000Z",
+            "submittedOnDailyAt": "2025-05-16T01:05:44.315Z",
+            "title": "System Prompt Optimization with Meta-Learning",
+            "submittedOnDailyBy": {
+                "_id": "63036b6c5c70c21d0ea79d48",
+                "avatarUrl": "/avatars/a7eb03f5cbd4eaa09fe807bbed8bc0f7.svg",
+                "isPro": false,
+                "fullname": "Jinheon Baek",
+                "user": "jinheon",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have shown remarkable capabilities, with\noptimizing their input prompts playing a pivotal role in maximizing their\nperformance. However, while LLM prompts consist of both the task-agnostic\nsystem prompts and task-specific user prompts, existing work on prompt\noptimization has focused on user prompts specific to individual queries or\ntasks, and largely overlooked the system prompt that is, once optimized,\napplicable across different tasks and domains. Motivated by this, we introduce\nthe novel problem of bilevel system prompt optimization, whose objective is to\ndesign system prompts that are robust to diverse user prompts and transferable\nto unseen tasks. To tackle this problem, we then propose a meta-learning\nframework, which meta-learns the system prompt by optimizing it over various\nuser prompts across multiple datasets, while simultaneously updating the user\nprompts in an iterative manner to ensure synergy between them. We conduct\nexperiments on 14 unseen datasets spanning 5 different domains, on which we\nshow that our approach produces system prompts that generalize effectively to\ndiverse user prompts. Also, our findings reveal that the optimized system\nprompt enables rapid adaptation even to unseen tasks, requiring fewer\noptimization steps for test-time user prompts while achieving improved\nperformance.",
+            "upvotes": 42,
+            "discussionId": "68269a1eaa8aded616d280d1",
+            "githubRepo": "https://github.com/Dozi01/MetaSPO",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "bilevel system prompt optimization",
+                "meta-learning framework",
+                "system prompts",
+                "user prompts",
+                "unseen datasets",
+                "domains",
+                "rapid adaptation",
+                "test-time user prompts"
+            ]
+        },
+        "translation_title": "메타 학습을 통한 시스템 프롬프트 최적화",
+        "purpose": "시스템 프롬프트를 최적화하여 다양한 사용자 프롬프트 및 보지 않은 과제에 잘 적용되도록 하는 것이 목표입니다.",
+        "method": [
+            "사용자 프롬프트와 다양한 데이터셋에서 시스템 프롬프트를 최적화하는 메타 학습 프레임워크를 제안함(we then propose a meta-learning framework, which meta-learns the system prompt by optimizing it over various user prompts across multiple datasets)",
+            "사용자 프롬프트를 반복적으로 업데이트하여 시너지를 확보함(while simultaneously updating the user prompts in an iterative manner to ensure synergy between them)"
+        ],
+        "conclusion": "우리의 접근 방식을 통해 최적화된 시스템 프롬프트가 다양한 사용자 프롬프트에 잘 일반화되며, 보지 않은 과제에도 빠르게 적응할 수 있음을 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.09723",
+            "authors": [
+                {
+                    "_id": "6826b00c251d26fc0cd035cc",
+                    "user": {
+                        "_id": "63c20105726f62e411fbe882",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c20105726f62e411fbe882/2UsU9O2psbDjJzz-sAmGH.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuxin Jiang",
+                        "user": "YuxinJiang",
+                        "type": "user"
+                    },
+                    "name": "Yuxin Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:10:30.068Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035cd",
+                    "user": {
+                        "_id": "6575f9aeca03b6c514fe6e5c",
+                        "avatarUrl": "/avatars/a6e9d428beaa124ee989d702b9bf4f85.svg",
+                        "isPro": false,
+                        "fullname": "Shengcong Chen",
+                        "user": "Shengcong",
+                        "type": "user"
+                    },
+                    "name": "Shengcong Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:10:37.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035ce",
+                    "user": {
+                        "_id": "63c7a33121bd95f80ed74652",
+                        "avatarUrl": "/avatars/7dd59afea785a2bff0ec2b757abd474e.svg",
+                        "isPro": false,
+                        "fullname": "Siyuan Huang",
+                        "user": "thuhsy",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:10:50.217Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035cf",
+                    "user": {
+                        "_id": "640b00555a9c21b95c6449b3",
+                        "avatarUrl": "/avatars/5fa43b956f3acc671f033e31b7ca76c5.svg",
+                        "isPro": false,
+                        "fullname": "Liliang Chen",
+                        "user": "pathcn",
+                        "type": "user"
+                    },
+                    "name": "Liliang Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:10:55.980Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d0",
+                    "name": "Pengfei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d1",
+                    "name": "Yue Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d2",
+                    "name": "Xindong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d3",
+                    "name": "Chiming Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d4",
+                    "user": {
+                        "_id": "65c04e9c27a5fdca81abcbd9",
+                        "avatarUrl": "/avatars/12a155683c824fa23da4a9e2bed4f64e.svg",
+                        "isPro": false,
+                        "fullname": "Hongsheng LI",
+                        "user": "hsli-cuhk",
+                        "type": "user"
+                    },
+                    "name": "Hongsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:11:29.857Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d5",
+                    "user": {
+                        "_id": "67739bfa64e8b7438ae68eb4",
+                        "avatarUrl": "/avatars/15193bfbce487b2de4ce8c86bd18885a.svg",
+                        "isPro": false,
+                        "fullname": "Maoqing Yao",
+                        "user": "AutobotZero",
+                        "type": "user"
+                    },
+                    "name": "Maoqing Yao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:11:36.940Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826b00c251d26fc0cd035d6",
+                    "user": {
+                        "_id": "646ec9b135f55eb49e405faa",
+                        "avatarUrl": "/avatars/a17194be585d20e2a021e77a5a20e213.svg",
+                        "isPro": false,
+                        "fullname": "Guanghui Ren",
+                        "user": "sundrops",
+                        "type": "user"
+                    },
+                    "name": "Guanghui Ren",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:11:44.407Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/634e4120038b5879133552f5/PBKoxKQrSb2bFzjsx2Dta.gif"
+            ],
+            "publishedAt": "2025-05-14T18:30:53.000Z",
+            "submittedOnDailyAt": "2025-05-16T02:11:01.174Z",
+            "title": "EnerVerse-AC: Envisioning Embodied Environments with Action Condition",
+            "submittedOnDailyBy": {
+                "_id": "634e4120038b5879133552f5",
+                "avatarUrl": "/avatars/34ec861b4bbf1aecf927a7d6e726c7a4.svg",
+                "isPro": true,
+                "fullname": "Siyuan",
+                "user": "SiyuanH",
+                "type": "user"
+            },
+            "summary": "Robotic imitation learning has advanced from solving static tasks to\naddressing dynamic interaction scenarios, but testing and evaluation remain\ncostly and challenging due to the need for real-time interaction with dynamic\nenvironments. We propose EnerVerse-AC (EVAC), an action-conditional world model\nthat generates future visual observations based on an agent's predicted\nactions, enabling realistic and controllable robotic inference. Building on\nprior architectures, EVAC introduces a multi-level action-conditioning\nmechanism and ray map encoding for dynamic multi-view image generation while\nexpanding training data with diverse failure trajectories to improve\ngeneralization. As both a data engine and evaluator, EVAC augments\nhuman-collected trajectories into diverse datasets and generates realistic,\naction-conditioned video observations for policy testing, eliminating the need\nfor physical robots or complex simulations. This approach significantly reduces\ncosts while maintaining high fidelity in robotic manipulation evaluation.\nExtensive experiments validate the effectiveness of our method. Code,\ncheckpoints, and datasets can be found at\n<https://annaj2178.github.io/EnerverseAC.github.io>.",
+            "upvotes": 17,
+            "discussionId": "6826b013251d26fc0cd037ba",
+            "githubRepo": "https://github.com/AgibotTech/EnerVerse-AC",
+            "ai_keywords": [
+                "action-conditional world model",
+                "future visual observations",
+                "multi-level action-conditioning mechanism",
+                "ray map encoding",
+                "dynamic multi-view image generation",
+                "diverse failure trajectories",
+                "data engine",
+                "evaluator",
+                "human-collected trajectories",
+                "diverse datasets",
+                "action-conditioned video observations",
+                "robotic manipulation evaluation"
+            ]
+        },
+        "translation_title": "EnerVerse-AC: 행동 조건을 가진 구현된 환경 생성",
+        "purpose": "다양한 동적 상호작용 환경에서 로봇의 평가를 비용 효율적으로 개선하기 위한 방법 연구",
+        "method": [
+            "행동 예측을 기반으로 하는 미래 시각 관찰을 생성하는 액션 조건부 세계 모델 EnerVerse-AC(EVAC)를 제안함(We propose EnerVerse-AC (EVAC), an action-conditional world model that generates future visual observations based on an agent's predicted actions.)",
+            "다양한 실패 경로를 활용하여 데이터의 일반화 능력을 향상시키기 위해 멀티 레벨 행동 조건화 메커니즘과 레이 맵 인코딩을 도입함(EVAC introduces a multi-level action-conditioning mechanism and ray map encoding for dynamic multi-view image generation while expanding training data with diverse failure trajectories to improve generalization.)",
+            "물리 로봇이나 복잡한 시뮬레이션 없이 정책 테스트를 위한 사실적인 액션 조건 비디오 관찰을 생성하며, 데이터 엔진 및 평가자로서 작용함(This approach significantly reduces costs while maintaining high fidelity in robotic manipulation evaluation.)"
+        ],
+        "conclusion": "EVAC는 로봇 조작 평가 시 높은 충실도를 유지하면서도 비용을 크게 절감하는 효과적인 방법임.",
+        "keywords": [
+            "Robotics",
+            "Video Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.10185",
+            "authors": [
+                {
+                    "_id": "68269f67a47cb2b87646b98c",
+                    "user": {
+                        "_id": "6550c4f27bbfce1878f5f280",
+                        "avatarUrl": "/avatars/0ecedbcd8a55b2c4abd1da9e741a6652.svg",
+                        "isPro": false,
+                        "fullname": "seongyun_lee",
+                        "user": "Seongyun",
+                        "type": "user"
+                    },
+                    "name": "Seongyun Lee",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:03.612Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b98d",
+                    "user": {
+                        "_id": "6469949654873f0043b09c22",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6469949654873f0043b09c22/Lk7IJAR16Wa_sGJ2g81AQ.jpeg",
+                        "isPro": false,
+                        "fullname": "Seungone Kim",
+                        "user": "seungone",
+                        "type": "user"
+                    },
+                    "name": "Seungone Kim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:19.025Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b98e",
+                    "user": {
+                        "_id": "66f10ac605182775917d8c5a",
+                        "avatarUrl": "/avatars/21b21284d0a5a95413f91dde9dda346c.svg",
+                        "isPro": false,
+                        "fullname": "Minju Seo",
+                        "user": "Minju2136",
+                        "type": "user"
+                    },
+                    "name": "Minju Seo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:25.204Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b98f",
+                    "user": {
+                        "_id": "649e06313e5e7504763dfe03",
+                        "avatarUrl": "/avatars/1c4d19de5f2950d3342480c4b3e01047.svg",
+                        "isPro": false,
+                        "fullname": "Yongrae Jo",
+                        "user": "dreamgonfly",
+                        "type": "user"
+                    },
+                    "name": "Yongrae Jo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:30.806Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b990",
+                    "name": "Dongyoung Go",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b991",
+                    "user": {
+                        "_id": "647eaaf61a1fcad2fdc5d1ef",
+                        "avatarUrl": "/avatars/596d7a61d6e6227d38b661210a32fed0.svg",
+                        "isPro": false,
+                        "fullname": "Hyeonbin Hwang ",
+                        "user": "hbin0701",
+                        "type": "user"
+                    },
+                    "name": "Hyeonbin Hwang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:44.935Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b992",
+                    "user": {
+                        "_id": "638467ee8283412d401770dd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638467ee8283412d401770dd/UAMwDHhSwf91XSsubfrS_.jpeg",
+                        "isPro": false,
+                        "fullname": "Jinho Park",
+                        "user": "Br3ad",
+                        "type": "user"
+                    },
+                    "name": "Jinho Park",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:14:51.443Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b993",
+                    "name": "Xiang Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b994",
+                    "user": {
+                        "_id": "63e3f3c59db5da2dc1ef6889",
+                        "avatarUrl": "/avatars/f7546f57a5fd69bc99ff1640cc4a4853.svg",
+                        "isPro": false,
+                        "fullname": "Sean Welleck",
+                        "user": "wellecks",
+                        "type": "user"
+                    },
+                    "name": "Sean Welleck",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:17.990Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b995",
+                    "user": {
+                        "_id": "60de14638bedd2315529d43f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625166923504-noauth.png",
+                        "isPro": false,
+                        "fullname": "Graham Neubig",
+                        "user": "gneubig",
+                        "type": "user"
+                    },
+                    "name": "Graham Neubig",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:24.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b996",
+                    "name": "Moontae Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68269f67a47cb2b87646b997",
+                    "user": {
+                        "_id": "621f05ba970615ad5861ceb1",
+                        "avatarUrl": "/avatars/7e1902aa71369a524afda9b0a9e88e22.svg",
+                        "isPro": false,
+                        "fullname": "Minjoon Seo",
+                        "user": "minjoon",
+                        "type": "user"
+                    },
+                    "name": "Minjoon Seo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:33.521Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-15T11:31:02.000Z",
+            "submittedOnDailyAt": "2025-05-16T00:44:19.223Z",
+            "title": "The CoT Encyclopedia: Analyzing, Predicting, and Controlling how a\n  Reasoning Model will Think",
+            "submittedOnDailyBy": {
+                "_id": "6550c4f27bbfce1878f5f280",
+                "avatarUrl": "/avatars/0ecedbcd8a55b2c4abd1da9e741a6652.svg",
+                "isPro": false,
+                "fullname": "seongyun_lee",
+                "user": "Seongyun",
+                "type": "user"
+            },
+            "summary": "Long chain-of-thought (CoT) is an essential ingredient in effective usage of\nmodern large language models, but our understanding of the reasoning strategies\nunderlying these capabilities remains limited. While some prior works have\nattempted to categorize CoTs using predefined strategy types, such approaches\nare constrained by human intuition and fail to capture the full diversity of\nmodel behaviors. In this work, we introduce the CoT Encyclopedia, a bottom-up\nframework for analyzing and steering model reasoning. Our method automatically\nextracts diverse reasoning criteria from model-generated CoTs, embeds them into\na semantic space, clusters them into representative categories, and derives\ncontrastive rubrics to interpret reasoning behavior. Human evaluations show\nthat this framework produces more interpretable and comprehensive analyses than\nexisting methods. Moreover, we demonstrate that this understanding enables\nperformance gains: we can predict which strategy a model is likely to use and\nguide it toward more effective alternatives. Finally, we provide practical\ninsights, such as that training data format (e.g., free-form vs.\nmultiple-choice) has a far greater impact on reasoning behavior than data\ndomain, underscoring the importance of format-aware model design.",
+            "upvotes": 15,
+            "discussionId": "68269f68a47cb2b87646b9ed",
+            "ai_keywords": [
+                "long chain-of-thought (CoT)",
+                "large language models",
+                "reasoning strategies",
+                "predefined strategy types",
+                "CoT Encyclopedia",
+                "bottom-up framework",
+                "reasoning criteria",
+                "semantic space",
+                "contrastive rubrics",
+                "reasoning behavior",
+                "interpretability",
+                "performance gains"
+            ]
+        },
+        "translation_title": "CoT 백과사전: 추론 모델의 사고 방식 분석, 예측 및 제어",
+        "purpose": "현대 대형 언어 모델의 추론 전략을 분석하고 제어하기 위한 포괄적이고 해석 가능한 프레임워크 개발",
+        "method": [
+            "모델 생성 CoT에서 다양한 추론 기준을 자동으로 추출함(Our method automatically extracts diverse reasoning criteria from model-generated CoTs.)",
+            "이 기준들을 의미적 공간에 임베드하고 대표적인 카테고리로 군집화함(embeds them into a semantic space, clusters them into representative categories.)",
+            "대조적인 루브릭을 도출하여 추론 행동을 해석함(derives contrastive rubrics to interpret reasoning behavior.)",
+            "인간 평가를 통해 이 프레임워크가 기존 방법보다 더 해석 가능하고 포괄적이며 효과적임을 보여줌(Human evaluations show that this framework produces more interpretable and comprehensive analyses than existing methods.)"
+        ],
+        "conclusion": "이해를 통해 모델이 사용할 가능성이 높은 전략을 예측하고 보다 효과적인 대안으로 유도하는 성과를 거두었으며, 훈련 데이터 형식이 추론 행동에 미치는 영향이 데이터 도메인보다 크다는 것을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.09694",
+            "authors": [
+                {
+                    "_id": "6826ae4611765454f5757d7c",
+                    "name": "Hu Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d7d",
+                    "user": {
+                        "_id": "63c7a33121bd95f80ed74652",
+                        "avatarUrl": "/avatars/7dd59afea785a2bff0ec2b757abd474e.svg",
+                        "isPro": false,
+                        "fullname": "Siyuan Huang",
+                        "user": "thuhsy",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:16:33.829Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d7e",
+                    "name": "Yue Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d7f",
+                    "user": {
+                        "_id": "6575f9aeca03b6c514fe6e5c",
+                        "avatarUrl": "/avatars/a6e9d428beaa124ee989d702b9bf4f85.svg",
+                        "isPro": false,
+                        "fullname": "Shengcong Chen",
+                        "user": "Shengcong",
+                        "type": "user"
+                    },
+                    "name": "Shengcong Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:16:15.416Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d80",
+                    "name": "Pengfei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d81",
+                    "user": {
+                        "_id": "640b00555a9c21b95c6449b3",
+                        "avatarUrl": "/avatars/5fa43b956f3acc671f033e31b7ca76c5.svg",
+                        "isPro": false,
+                        "fullname": "Liliang Chen",
+                        "user": "pathcn",
+                        "type": "user"
+                    },
+                    "name": "Liliang Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:58.407Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d82",
+                    "user": {
+                        "_id": "67739bfa64e8b7438ae68eb4",
+                        "avatarUrl": "/avatars/15193bfbce487b2de4ce8c86bd18885a.svg",
+                        "isPro": false,
+                        "fullname": "Maoqing Yao",
+                        "user": "AutobotZero",
+                        "type": "user"
+                    },
+                    "name": "Maoqing Yao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:51.039Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6826ae4611765454f5757d83",
+                    "user": {
+                        "_id": "646ec9b135f55eb49e405faa",
+                        "avatarUrl": "/avatars/a17194be585d20e2a021e77a5a20e213.svg",
+                        "isPro": false,
+                        "fullname": "Guanghui Ren",
+                        "user": "sundrops",
+                        "type": "user"
+                    },
+                    "name": "Guanghui Ren",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-16T08:15:44.660Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-14T18:00:19.000Z",
+            "submittedOnDailyAt": "2025-05-16T01:55:39.761Z",
+            "title": "EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied\n  World Models",
+            "submittedOnDailyBy": {
+                "_id": "634e4120038b5879133552f5",
+                "avatarUrl": "/avatars/34ec861b4bbf1aecf927a7d6e726c7a4.svg",
+                "isPro": true,
+                "fullname": "Siyuan",
+                "user": "SiyuanH",
+                "type": "user"
+            },
+            "summary": "Recent advances in creative AI have enabled the synthesis of high-fidelity\nimages and videos conditioned on language instructions. Building on these\ndevelopments, text-to-video diffusion models have evolved into embodied world\nmodels (EWMs) capable of generating physically plausible scenes from language\ncommands, effectively bridging vision and action in embodied AI applications.\nThis work addresses the critical challenge of evaluating EWMs beyond general\nperceptual metrics to ensure the generation of physically grounded and\naction-consistent behaviors. We propose the Embodied World Model Benchmark\n(EWMBench), a dedicated framework designed to evaluate EWMs based on three key\naspects: visual scene consistency, motion correctness, and semantic alignment.\nOur approach leverages a meticulously curated dataset encompassing diverse\nscenes and motion patterns, alongside a comprehensive multi-dimensional\nevaluation toolkit, to assess and compare candidate models. The proposed\nbenchmark not only identifies the limitations of existing video generation\nmodels in meeting the unique requirements of embodied tasks but also provides\nvaluable insights to guide future advancements in the field. The dataset and\nevaluation tools are publicly available at\nhttps://github.com/AgibotTech/EWMBench.",
+            "upvotes": 14,
+            "discussionId": "6826ae4911765454f5757e32",
+            "ai_keywords": [
+                "text-to-video diffusion models",
+                "embodied world models",
+                "physically plausible scenes",
+                "language commands",
+                "perceptual metrics",
+                "visual scene consistency",
+                "motion correctness",
+                "semantic alignment",
+                "Embodied World Model Benchmark (EWMBench)",
+                "multi-dimensional evaluation toolkit",
+                "video generation models"
+            ]
+        },
+        "translation_title": "EWMBench: 구현된 세계 모델에서 장면, 동작 및 의미 품질 평가",
+        "purpose": "구현된 세계 모델(EWMs)의 평가에서 전반적인 인지 메트릭을 넘어 신체적으로 근거가 있고 행동 일관성이 있는 생성물을 보장하기 위한 방법론 제안",
+        "method": [
+            "EWMs를 시각적 장면 일관성, 동작 정확성 및 의미 정합성의 세 가지 핵심 측면을 기반으로 평가하는 Embodied World Model Benchmark (EWMBench) 프레임워크를 제안함(We propose the Embodied World Model Benchmark (EWMBench), a dedicated framework designed to evaluate EWMs based on three key aspects: visual scene consistency, motion correctness, and semantic alignment.)",
+            "다양한 장면과 동작 패턴을 포함한 신중하게 수집된 데이터셋과 포괄적인 다차원 평가 도구를 활용함(Our approach leverages a meticulously curated dataset encompassing diverse scenes and motion patterns, alongside a comprehensive multi-dimensional evaluation toolkit, to assess and compare candidate models.)"
+        ],
+        "conclusion": "제안된 벤치마크는 기존 비디오 생성 모델의 한계를 규명하고 구현된 작업의 고유한 요구 사항을 해결하는데 있어 미래의 발전 방향에 대한 귀중한 통찰력을 제공함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
