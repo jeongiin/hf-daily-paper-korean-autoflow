@@ -1,0 +1,573 @@
+[
+    {
+        "paper": {
+            "id": "2505.13417",
+            "authors": [
+                {
+                    "_id": "682be3e43ba4cfbca886a521",
+                    "user": {
+                        "_id": "66cdd285c51a915bd5f2d017",
+                        "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+                        "isPro": false,
+                        "fullname": "Jiajie Zhang",
+                        "user": "NeoZ123",
+                        "type": "user"
+                    },
+                    "name": "Jiajie Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:10:15.004Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682be3e43ba4cfbca886a522",
+                    "user": {
+                        "_id": "67385497d9af4eb4c078ced3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/yP-EPaY0tUosVR4kjXQ9B.png",
+                        "isPro": false,
+                        "fullname": "Lin Nianyi",
+                        "user": "linny2002",
+                        "type": "user"
+                    },
+                    "name": "Nianyi Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:10:51.330Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682be3e43ba4cfbca886a523",
+                    "name": "Lei Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "682be3e43ba4cfbca886a524",
+                    "name": "Ling Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "682be3e43ba4cfbca886a525",
+                    "user": {
+                        "_id": "65df8cbc2705d9672f55d1aa",
+                        "avatarUrl": "/avatars/63e46f15bb76bd9d4508fd0f54f39829.svg",
+                        "isPro": false,
+                        "fullname": "Juanzi Li",
+                        "user": "juanli",
+                        "type": "user"
+                    },
+                    "name": "Juanzi Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:10:58.673Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-19T17:50:52.000Z",
+            "submittedOnDailyAt": "2025-05-20T00:38:40.060Z",
+            "title": "AdaptThink: Reasoning Models Can Learn When to Think",
+            "submittedOnDailyBy": {
+                "_id": "66cdd285c51a915bd5f2d017",
+                "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+                "isPro": false,
+                "fullname": "Jiajie Zhang",
+                "user": "NeoZ123",
+                "type": "user"
+            },
+            "summary": "Recently, large reasoning models have achieved impressive performance on\nvarious tasks by employing human-like deep thinking. However, the lengthy\nthinking process substantially increases inference overhead, making efficiency\na critical bottleneck. In this work, we first demonstrate that NoThinking,\nwhich prompts the reasoning model to skip thinking and directly generate the\nfinal solution, is a better choice for relatively simple tasks in terms of both\nperformance and efficiency. Motivated by this, we propose AdaptThink, a novel\nRL algorithm to teach reasoning models to choose the optimal thinking mode\nadaptively based on problem difficulty. Specifically, AdaptThink features two\ncore components: (1) a constrained optimization objective that encourages the\nmodel to choose NoThinking while maintaining the overall performance; (2) an\nimportance sampling strategy that balances Thinking and NoThinking samples\nduring on-policy training, thereby enabling cold start and allowing the model\nto explore and exploit both thinking modes throughout the training process. Our\nexperiments indicate that AdaptThink significantly reduces the inference costs\nwhile further enhancing performance. Notably, on three math datasets,\nAdaptThink reduces the average response length of DeepSeek-R1-Distill-Qwen-1.5B\nby 53% and improves its accuracy by 2.4%, highlighting the promise of adaptive\nthinking-mode selection for optimizing the balance between reasoning quality\nand efficiency. Our codes and models are available at\nhttps://github.com/THU-KEG/AdaptThink.",
+            "upvotes": 52,
+            "discussionId": "682be3e53ba4cfbca886a551",
+            "ai_keywords": [
+                "NoThinking",
+                "AdaptThink",
+                "RL algorithm",
+                "constrained optimization objective",
+                "importance sampling strategy",
+                "on-policy training",
+                "cold start"
+            ]
+        },
+        "translation_title": "AdaptThink: 추론 모델이 사고할 시기를 배울 수 있다",
+        "purpose": "문제의 난이도에 따라 최적의 사고 모드를 선택하도록 추론 모델을 교육하여 효율성을 개선하고자 함",
+        "method": [
+            "NoThinking 방식을 사용하여 비교적 간단한 작업에서는 사고를 건너뛰고 바로 결과를 생성하는 것이 성능과 효율성 면에서 더 나은 선택임을 입증함.(we first demonstrate that NoThinking, which prompts the reasoning model to skip thinking and directly generate the final solution, is a better choice for relatively simple tasks in terms of both performance and efficiency.)",
+            "AdaptThink라는 새로운 RL 알고리즘을 제안하여 모델이 문제의 난이도에 따라 사고 모드를 적응적으로 선택하도록 유도함.(we propose AdaptThink, a novel RL algorithm to teach reasoning models to choose the optimal thinking mode adaptively based on problem difficulty.)",
+            "제한된 최적화 목표와 중요도 샘플링 전략을 통해 사고 모드 간의 균형을 맞추며 훈련함.(AdaptThink features two core components: (1) a constrained optimization objective that encourages the model to choose NoThinking while maintaining the overall performance; (2) an importance sampling strategy that balances Thinking and NoThinking samples during on-policy training)"
+        ],
+        "conclusion": "AdaptThink는 추론 비용을 크게 줄이면서 성능을 향상시켰으며, 수학 데이터셋에서 깊이 있는 사고 품질과 효율성의 균형을 최적화하는 가능성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.11896",
+            "authors": [
+                {
+                    "_id": "682bf60625f785dbadfb3dfd",
+                    "user": {
+                        "_id": "63fc6e47ee821f4bdfab58b8",
+                        "avatarUrl": "/avatars/4f1e98050092e416ba543b66dd981c2e.svg",
+                        "isPro": false,
+                        "fullname": "louchenwei",
+                        "user": "louchenwei",
+                        "type": "user"
+                    },
+                    "name": "Chenwei Lou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:12:03.700Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3dfe",
+                    "user": {
+                        "_id": "638dbeaaf467129f49947d5b",
+                        "avatarUrl": "/avatars/996aa78b4edb429cbb436d48821a317b.svg",
+                        "isPro": false,
+                        "fullname": "Zewei Sun",
+                        "user": "sunzewei2715",
+                        "type": "user"
+                    },
+                    "name": "Zewei Sun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:12:13.589Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3dff",
+                    "name": "Xinnian Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e00",
+                    "name": "Meng Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e01",
+                    "user": {
+                        "_id": "6468823272d9180d4ac90bdf",
+                        "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                        "isPro": false,
+                        "fullname": "Wei Shen",
+                        "user": "Swtheking",
+                        "type": "user"
+                    },
+                    "name": "Wei Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:11:52.139Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e02",
+                    "name": "Wenqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e03",
+                    "name": "Yuntao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e04",
+                    "user": {
+                        "_id": "64d20e1821aed29b2ffd2d99",
+                        "avatarUrl": "/avatars/b0719319a74e8f51fc8a1404aca367e6.svg",
+                        "isPro": false,
+                        "fullname": "Qingping Yang",
+                        "user": "qingping95",
+                        "type": "user"
+                    },
+                    "name": "Qingping Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:23:10.993Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf60625f785dbadfb3e05",
+                    "user": {
+                        "_id": "637301f4bb66bd6b13206a25",
+                        "avatarUrl": "/avatars/6925439441324f6fd00d167d471edff2.svg",
+                        "isPro": false,
+                        "fullname": "Shuangzhi Wu",
+                        "user": "Shuangzhi",
+                        "type": "user"
+                    },
+                    "name": "Shuangzhi Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:23:43.591Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-17T08:27:00.000Z",
+            "submittedOnDailyAt": "2025-05-20T01:58:16.261Z",
+            "title": "AdaCoT: Pareto-Optimal Adaptive Chain-of-Thought Triggering via\n  Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "6468823272d9180d4ac90bdf",
+                "avatarUrl": "/avatars/70cb7d65d30ecb944595000ceeeedb1b.svg",
+                "isPro": false,
+                "fullname": "Wei Shen",
+                "user": "Swtheking",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities but\noften face challenges with tasks requiring sophisticated reasoning. While\nChain-of-Thought (CoT) prompting significantly enhances reasoning, it\nindiscriminately generates lengthy reasoning steps for all queries, leading to\nsubstantial computational costs and inefficiency, especially for simpler\ninputs. To address this critical issue, we introduce AdaCoT (Adaptive\nChain-of-Thought), a novel framework enabling LLMs to adaptively decide when to\ninvoke CoT. AdaCoT framed adaptive reasoning as a Pareto optimization problem\nthat seeks to balance model performance with the costs associated with CoT\ninvocation (both frequency and computational overhead). We propose a\nreinforcement learning (RL) based method, specifically utilizing Proximal\nPolicy Optimization (PPO), to dynamically control the CoT triggering decision\nboundary by adjusting penalty coefficients, thereby allowing the model to\ndetermine CoT necessity based on implicit query complexity. A key technical\ncontribution is Selective Loss Masking (SLM), designed to counteract decision\nboundary collapse during multi-stage RL training, ensuring robust and stable\nadaptive triggering. Experimental results demonstrate that AdaCoT successfully\nnavigates the Pareto frontier, achieving substantial reductions in CoT usage\nfor queries not requiring elaborate reasoning. For instance, on our production\ntraffic testset, AdaCoT reduced CoT triggering rates to as low as 3.18\\% and\ndecreased average response tokens by 69.06%, while maintaining high performance\non complex tasks.",
+            "upvotes": 42,
+            "discussionId": "682bf60725f785dbadfb3e32",
+            "ai_keywords": [
+                "Chain-of-Thought (CoT)",
+                "Adaptive Chain-of-Thought (AdaCoT)",
+                "Pareto optimization problem",
+                "reinforcement learning (RL)",
+                "Proximal Policy Optimization (PPO)",
+                "penalty coefficients",
+                "Selective Loss Masking (SLM)",
+                "decision boundary collapse",
+                "multi-stage RL training",
+                "CoT triggering decision boundary",
+                "query complexity",
+                "adaptive reasoning",
+                "CoT usage",
+                "average response tokens",
+                "complex tasks"
+            ]
+        },
+        "translation_title": "AdaCoT: 강화 학습을 통한 최적 파레토 적응형 사고 과정 유도",
+        "purpose": "대형 언어 모델에서 불필요한 사고 과정을 줄이고 모델 성능을 유지하기 위한 적응형 유도 방법 연구",
+        "method": [
+            "AdaCoT를 사용해 CoT 유도가 언제 필요한지를 적응적으로 결정하게 함(To address this critical issue, we introduce AdaCoT (Adaptive Chain-of-Thought), a novel framework enabling LLMs to adaptively decide when to invoke CoT.)",
+            "강화 학습 기반 방법을 사용하여 CoT 유도의 결정 경계를 동적으로 조절함(We propose a reinforcement learning (RL) based method, specifically utilizing Proximal Policy Optimization (PPO), to dynamically control the CoT triggering decision boundary by adjusting penalty coefficients.)",
+            "Selective Loss Masking(SLM)를 도입하여 여러 단계의 RL 훈련 동안 결정 경계 붕괴를 방지함(A key technical contribution is Selective Loss Masking (SLM), designed to counteract decision boundary collapse during multi-stage RL training.)"
+        ],
+        "conclusion": "AdaCoT는 불필요한 CoT 사용을 줄이면서도 복잡한 작업에서 높은 성능을 유지하는 데 성공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.13227",
+            "authors": [
+                {
+                    "_id": "682c12b44040343163ca7e2a",
+                    "user": {
+                        "_id": "618767e4238063b4615d042b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1636263880877-noauth.jpeg",
+                        "isPro": true,
+                        "fullname": "Tianbao Xie",
+                        "user": "tianbaoxiexxx",
+                        "type": "user"
+                    },
+                    "name": "Tianbao Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:09.634Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e2b",
+                    "user": {
+                        "_id": "66eeeb2ae65d94c88e9af620",
+                        "avatarUrl": "/avatars/a25657d634878e9d53ada19feb38149a.svg",
+                        "isPro": false,
+                        "fullname": "Jiaqi Deng",
+                        "user": "MillanK",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Deng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:06.695Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e2c",
+                    "user": {
+                        "_id": "64b103cf372d434077206750",
+                        "avatarUrl": "/avatars/ba0eb4fc712a8b9b93ceb30d11859ec2.svg",
+                        "isPro": false,
+                        "fullname": "Xiaochuan Li",
+                        "user": "lixiaochuan2020",
+                        "type": "user"
+                    },
+                    "name": "Xiaochuan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:04.603Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e2d",
+                    "user": {
+                        "_id": "66ed083acaf696884760729a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/RgPe99BqsJsHUWoXO1qtS.jpeg",
+                        "isPro": false,
+                        "fullname": "Nick Yang",
+                        "user": "RadioBlue",
+                        "type": "user"
+                    },
+                    "name": "Junlin Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:02.029Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e2e",
+                    "name": "Haoyuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e2f",
+                    "user": {
+                        "_id": "6465941d0e6c7618f615675b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6465941d0e6c7618f615675b/W4EHqlCucz_bojFLFEeV_.jpeg",
+                        "isPro": false,
+                        "fullname": "Jixuan Chen",
+                        "user": "Mayome",
+                        "type": "user"
+                    },
+                    "name": "Jixuan Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:24:36.390Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e30",
+                    "name": "Wenjing Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e31",
+                    "user": {
+                        "_id": "63eb133a91a1b8ec4fbc4c2f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63eb133a91a1b8ec4fbc4c2f/dmaD56RAqkovB4izizv5m.png",
+                        "isPro": false,
+                        "fullname": "Xinyuan Wang",
+                        "user": "buaa42wxy",
+                        "type": "user"
+                    },
+                    "name": "Xinyuan Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:24:59.036Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e32",
+                    "user": {
+                        "_id": "6602869253a0518b2a98cafd",
+                        "avatarUrl": "/avatars/c14b5953a716f42c83ad28147f8308ae.svg",
+                        "isPro": false,
+                        "fullname": "Yuhui Xu",
+                        "user": "yuhuixu",
+                        "type": "user"
+                    },
+                    "name": "Yuhui Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:25:12.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e33",
+                    "user": {
+                        "_id": "656832dfbd65fd41ee7aa8cd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656832dfbd65fd41ee7aa8cd/HHkyetTqNq1wIBPipzjQA.jpeg",
+                        "isPro": false,
+                        "fullname": "Zekun Wang",
+                        "user": "kugwzk",
+                        "type": "user"
+                    },
+                    "name": "Zekun Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:25:30.953Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e34",
+                    "user": {
+                        "_id": "601d29ab913ad3afd7b7ddb8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1620447944896-601d29ab913ad3afd7b7ddb8.jpeg",
+                        "isPro": true,
+                        "fullname": "Yiheng Xu",
+                        "user": "ranpox",
+                        "type": "user"
+                    },
+                    "name": "Yiheng Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:25:52.551Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e35",
+                    "name": "Junli Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e36",
+                    "user": {
+                        "_id": "65f84fd980481173afd91233",
+                        "avatarUrl": "/avatars/6ac7bd6beba24d1476c5179b88c9e3fa.svg",
+                        "isPro": false,
+                        "fullname": "Doyen",
+                        "user": "doyensahoo",
+                        "type": "user"
+                    },
+                    "name": "Doyen Sahoo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:26:21.701Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e37",
+                    "name": "Tao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682c12b44040343163ca7e38",
+                    "user": {
+                        "_id": "649dbcc4e0fff1ed099dc80a",
+                        "avatarUrl": "/avatars/c87c273ca628dbcddccbf1ee19b2ce33.svg",
+                        "isPro": false,
+                        "fullname": "Caiming Xiong",
+                        "user": "cxiong",
+                        "type": "user"
+                    },
+                    "name": "Caiming Xiong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-20T08:26:15.939Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-19T15:09:23.000Z",
+            "submittedOnDailyAt": "2025-05-20T03:59:32.853Z",
+            "title": "Scaling Computer-Use Grounding via User Interface Decomposition and\n  Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "618767e4238063b4615d042b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1636263880877-noauth.jpeg",
+                "isPro": true,
+                "fullname": "Tianbao Xie",
+                "user": "tianbaoxiexxx",
+                "type": "user"
+            },
+            "summary": "Graphical user interface (GUI) grounding, the ability to map natural language\ninstructions to specific actions on graphical user interfaces, remains a\ncritical bottleneck in computer use agent development. Current benchmarks\noversimplify grounding tasks as short referring expressions, failing to capture\nthe complexity of real-world interactions that require software commonsense,\nlayout understanding, and fine-grained manipulation capabilities. To address\nthese limitations, we introduce OSWorld-G, a comprehensive benchmark comprising\n564 finely annotated samples across diverse task types including text matching,\nelement recognition, layout understanding, and precise manipulation.\nAdditionally, we synthesize and release the largest computer use grounding\ndataset Jedi, which contains 4 million examples through multi-perspective\ndecoupling of tasks. Our multi-scale models trained on Jedi demonstrate its\neffectiveness by outperforming existing approaches on ScreenSpot-v2,\nScreenSpot-Pro, and our OSWorld-G. Furthermore, we demonstrate that improved\ngrounding with Jedi directly enhances agentic capabilities of general\nfoundation models on complex computer tasks, improving from 5% to 27% on\nOSWorld. Through detailed ablation studies, we identify key factors\ncontributing to grounding performance and verify that combining specialized\ndata for different interface elements enables compositional generalization to\nnovel interfaces. All benchmark, data, checkpoints, and code are open-sourced\nand available at https://osworld-grounding.github.io.",
+            "upvotes": 33,
+            "discussionId": "682c12ba4040343163ca7fd4",
+            "projectPage": "https://osworld-grounding.github.io/",
+            "githubRepo": "https://github.com/xlang-ai/OSWorld-G",
+            "ai_keywords": [
+                "GUI grounding",
+                "natural language instructions",
+                "software commonsense",
+                "layout understanding",
+                "fine-grained manipulation capabilities",
+                "OSWorld-G",
+                "text matching",
+                "element recognition",
+                "precise manipulation",
+                "Jedi",
+                "multi-perspective decoupling",
+                "multi-scale models",
+                "ScreenSpot-v2",
+                "ScreenSpot-Pro",
+                "agentic capabilities",
+                "general foundation models",
+                "compositional generalization",
+                "novel interfaces"
+            ]
+        },
+        "translation_title": "사용자 인터페이스 분해 및 합성을 통한 컴퓨터 사용 기반 확장",
+        "purpose": "자연어 명령을 그래픽 사용자 인터페이스(GUI) 내 특정 동작으로 연결하는 능력을 향상시키기 위한 새로운 벤치마크와 데이터셋 개발",
+        "method": [
+            "OSWorld-G라는 포괄적인 벤치마크를 도입하여 564개의 세밀하게 주석이 달린 샘플을 제공함(we introduce OSWorld-G, a comprehensive benchmark comprising 564 finely annotated samples across diverse task types including text matching, element recognition, layout understanding, and precise manipulation.)",
+            "Jedi라는 가장 큰 컴퓨터 사용 기반 데이터셋을 생성하여 400만 개의 예제를 활용함(Additionally, we synthesize and release the largest computer use grounding dataset Jedi, which contains 4 million examples through multi-perspective decoupling of tasks.)",
+            "Jedi로 훈련된 다중 규모 모델이 ScreenSpot-v2 및 ScreenSpot-Pro에서 기존 접근 방식을 능가함(Our multi-scale models trained on Jedi demonstrate its effectiveness by outperforming existing approaches on ScreenSpot-v2, ScreenSpot-Pro, and our OSWorld-G.)"
+        ],
+        "conclusion": "Jedi를 통해 개선된 기반 성능이 복잡한 컴퓨터 작업의 에이전트 능력을 향상시켜, OSWorld에서 5%에서 27%까지의 성능 향상을 이룸.",
+        "keywords": [
+            "Natural Language Processing",
+            "Computer Vision",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.11254",
+            "authors": [
+                {
+                    "_id": "682bf899ca2c97f999864e23",
+                    "user": {
+                        "_id": "654c5d6548b4741202739b73",
+                        "avatarUrl": "/avatars/bf1bfcf34d93136b7d3a48cebf014d45.svg",
+                        "isPro": false,
+                        "fullname": "Jeff Willette",
+                        "user": "jeffwillette",
+                        "type": "user"
+                    },
+                    "name": "Jeffrey Willette",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:26.628Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf899ca2c97f999864e24",
+                    "user": {
+                        "_id": "62e622d08e0b2dc6707f8794",
+                        "avatarUrl": "/avatars/8c47b5c862f82d4258ba707c932f7f87.svg",
+                        "isPro": false,
+                        "fullname": "Heejun Lee",
+                        "user": "gmlwns5176",
+                        "type": "user"
+                    },
+                    "name": "Heejun Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-20T07:20:28.954Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682bf899ca2c97f999864e25",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-16T13:48:33.000Z",
+            "submittedOnDailyAt": "2025-05-20T02:14:37.554Z",
+            "title": "Delta Attention: Fast and Accurate Sparse Attention Inference by Delta\n  Correction",
+            "submittedOnDailyBy": {
+                "_id": "62e622d08e0b2dc6707f8794",
+                "avatarUrl": "/avatars/8c47b5c862f82d4258ba707c932f7f87.svg",
+                "isPro": false,
+                "fullname": "Heejun Lee",
+                "user": "gmlwns5176",
+                "type": "user"
+            },
+            "summary": "The attention mechanism of a transformer has a quadratic complexity, leading\nto high inference costs and latency for long sequences. However, attention\nmatrices are mostly sparse, which implies that many entries may be omitted from\ncomputation for efficient inference. Sparse attention inference methods aim to\nreduce this computational burden; however, they also come with a troublesome\nperformance degradation. We discover that one reason for this degradation is\nthat the sparse calculation induces a distributional shift in the attention\noutputs. The distributional shift causes decoding-time queries to fail to align\nwell with the appropriate keys from the prefill stage, leading to a drop in\nperformance. We propose a simple, novel, and effective procedure for correcting\nthis distributional shift, bringing the distribution of sparse attention\noutputs closer to that of quadratic attention. Our method can be applied on top\nof any sparse attention method, and results in an average 36%pt performance\nincrease, recovering 88% of quadratic attention accuracy on the 131K RULER\nbenchmark when applied on top of sliding window attention with sink tokens\nwhile only adding a small overhead. Our method can maintain approximately 98.5%\nsparsity over full quadratic attention, making our model 32 times faster than\nFlash Attention 2 when processing 1M token prefills.",
+            "upvotes": 33,
+            "discussionId": "682bf89aca2c97f999864e76",
+            "githubRepo": "https://github.com/jeffwillette/delta-attention",
+            "ai_keywords": [
+                "attention mechanism",
+                "transformer",
+                "quadratic complexity",
+                "inference costs",
+                "latency",
+                "long sequences",
+                "sparse attention",
+                "performance degradation",
+                "distributional shift",
+                "decoding-time queries",
+                "prefill stage",
+                "sink tokens",
+                "sliding window attention",
+                "Flash Attention 2"
+            ]
+        },
+        "translation_title": "Delta Attention: 델타 수정에 의한 빠르고 정확한 희소 주의 추론",
+        "purpose": "희소 주의 계산에서 성능 저하 문제를 해결하고, 전체 시스템의 효율성을 높이기 위한 방법 제안",
+        "method": [
+            "희소 주의 출력의 분포적 변화 문제를 확인하고 이를 수정하는 절차를 제안함(This includes discovering that one reason for this degradation is that the sparse calculation induces a distributional shift in the attention outputs.)",
+            "제안한 방법은 기존의 희소 주의 프로세스 위에 적용 가능하며, 평균 36%p 성능 향상 효과를 발휘함(Our method can be applied on top of any sparse attention method, resulting in an average 36%pt performance increase.)",
+            "131K RULER 벤치마크에서 88%의 전통적 주의 정확성을 회복함(Applying it on top of sliding window attention with sink tokens resulted in recovering 88% of quadratic attention accuracy.)"
+        ],
+        "conclusion": "제안한 방법은 처리 속도를 크게 향상시킴과 동시에 효과적으로 희소 주의를 개선함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    }
+]
