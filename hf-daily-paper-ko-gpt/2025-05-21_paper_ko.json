@@ -1,0 +1,619 @@
+[
+    {
+        "paper": {
+            "id": "2505.14683",
+            "authors": [
+                {
+                    "_id": "682d2fd84540abccd3b835e8",
+                    "name": "Chaorui Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835e9",
+                    "name": "Deyao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835ea",
+                    "user": {
+                        "_id": "61fb81006374891646732f37",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643872995181-61fb81006374891646732f37.jpeg",
+                        "isPro": false,
+                        "fullname": "Kunchang Li",
+                        "user": "Andy1621",
+                        "type": "user"
+                    },
+                    "name": "Kunchang Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:41:06.469Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835eb",
+                    "user": {
+                        "_id": "652e9c5774d1b0d7ff73d091",
+                        "avatarUrl": "/avatars/a6d2098b3dde4a8b7488a193f0ecb776.svg",
+                        "isPro": true,
+                        "fullname": "Chenhui Gou",
+                        "user": "gouc",
+                        "type": "user"
+                    },
+                    "name": "Chenhui Gou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:41:08.903Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835ec",
+                    "name": "Feng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835ed",
+                    "name": "Zeyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835ee",
+                    "name": "Shu Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835ef",
+                    "user": {
+                        "_id": "5df833bdda6d0311fd3d5403",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5df833bdda6d0311fd3d5403/62OtGJEQXdOuhV9yCd4HS.png",
+                        "isPro": false,
+                        "fullname": "Weihao Yu",
+                        "user": "whyu",
+                        "type": "user"
+                    },
+                    "name": "Weihao Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T09:31:55.569Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835f0",
+                    "user": {
+                        "_id": "64b6b81142134e053233c3c0",
+                        "avatarUrl": "/avatars/5c7455d99a7a2648f77a531c9a71eb98.svg",
+                        "isPro": false,
+                        "fullname": "Xiaonan Nie",
+                        "user": "codecaution",
+                        "type": "user"
+                    },
+                    "name": "Xiaonan Nie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:06:14.057Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835f1",
+                    "user": {
+                        "_id": "617fe76105423df678cef199",
+                        "avatarUrl": "/avatars/64c94a4d743edab18ecb4bb7c550f049.svg",
+                        "isPro": false,
+                        "fullname": "Song",
+                        "user": "Ziang",
+                        "type": "user"
+                    },
+                    "name": "Ziang Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:06:07.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835f2",
+                    "name": "Guang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d2fd84540abccd3b835f3",
+                    "name": "Haoqi Fan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/61fb81006374891646732f37/HQOfWqrOf9B97hWczL489.png"
+            ],
+            "publishedAt": "2025-05-20T17:59:30.000Z",
+            "submittedOnDailyAt": "2025-05-21T00:38:53.960Z",
+            "title": "Emerging Properties in Unified Multimodal Pretraining",
+            "submittedOnDailyBy": {
+                "_id": "61fb81006374891646732f37",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643872995181-61fb81006374891646732f37.jpeg",
+                "isPro": false,
+                "fullname": "Kunchang Li",
+                "user": "Andy1621",
+                "type": "user"
+            },
+            "summary": "Unifying multimodal understanding and generation has shown impressive\ncapabilities in cutting-edge proprietary systems. In this work, we introduce\nBAGEL, an open0source foundational model that natively supports multimodal\nunderstanding and generation. BAGEL is a unified, decoder0only model pretrained\non trillions of tokens curated from large0scale interleaved text, image, video,\nand web data. When scaled with such diverse multimodal interleaved data, BAGEL\nexhibits emerging capabilities in complex multimodal reasoning. As a result, it\nsignificantly outperforms open-source unified models in both multimodal\ngeneration and understanding across standard benchmarks, while exhibiting\nadvanced multimodal reasoning abilities such as free-form image manipulation,\nfuture frame prediction, 3D manipulation, and world navigation. In the hope of\nfacilitating further opportunities for multimodal research, we share the key\nfindings, pretraining details, data creation protocal, and release our code and\ncheckpoints to the community. The project page is at https://bagel-ai.org/",
+            "upvotes": 73,
+            "discussionId": "682d2fdc4540abccd3b836ee",
+            "ai_keywords": [
+                "unified, decoder-only model",
+                "pretrained",
+                "trillions of tokens",
+                "large-scale interleaved data",
+                "complex multimodal reasoning",
+                "multimodal generation",
+                "multimodal understanding",
+                "free-form image manipulation",
+                "future frame prediction",
+                "3D manipulation",
+                "world navigation"
+            ]
+        },
+        "translation_title": "통합 다중 모달 사전 학습에서의 새로운 속성",
+        "purpose": "다중 모달 이해 및 생성을 통합하여 복잡한 다중 모달 추론 능력을 향상시키기 위한 기초 모델 개발",
+        "method": [
+            "BAGEL이라는 오픈 소스 모델을 도입하여 다중 모달 이해 및 생성을 네이티브로 지원함(In this work, we introduce BAGEL, an open-source foundational model that natively supports multimodal understanding and generation.)",
+            "모델을 대규모 текста, 이미지, 비디오 및 웹 데이터를 포함한 수십억 개의 토큰으로 사전 학습함(BAGEL is a unified, decoder-only model pretrained on trillions of tokens curated from large-scale interleaved text, image, video, and web data.)",
+            "BAGEL이 다양한 다중 모달 데이터를 통해 복잡한 다중 모달 추론에서 새로운 능력을 보여줌(When scaled with such diverse multimodal interleaved data, BAGEL exhibits emerging capabilities in complex multimodal reasoning.)"
+        ],
+        "conclusion": "BAGEL은 다중 모달 생성 및 이해에서 기존 오픈 소스 모델보다 높은 성능을 보이며, 3D 조작 및 세계 탐색과 같은 고급 다중 모달 추론 능력을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.11594",
+            "authors": [
+                {
+                    "_id": "682d426251ce04237318cfe5",
+                    "user": {
+                        "_id": "66c0a08bac74db25de8427ec",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c0a08bac74db25de8427ec/9D-piDBZqSt6KNkHImmkv.jpeg",
+                        "isPro": false,
+                        "fullname": "Jintao Zhang",
+                        "user": "jt-zhang",
+                        "type": "user"
+                    },
+                    "name": "Jintao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:40:46.065Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfe6",
+                    "name": "Jia Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfe7",
+                    "user": {
+                        "_id": "62cc11a4f1d37c16280a2923",
+                        "avatarUrl": "/avatars/265b3cfb80f0a7b11a2ef67c49e29cf7.svg",
+                        "isPro": false,
+                        "fullname": "Pengle Zhang",
+                        "user": "Guyan",
+                        "type": "user"
+                    },
+                    "name": "Pengle Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:07:09.573Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfe8",
+                    "name": "Xiaoming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfe9",
+                    "user": {
+                        "_id": "67ea1f6693f71dd8167a2d22",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/H_upra_XVG1AoBKUe9ArV.png",
+                        "isPro": false,
+                        "fullname": "haofeng huang",
+                        "user": "haofeng666",
+                        "type": "user"
+                    },
+                    "name": "Haofeng Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:06:48.450Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfea",
+                    "user": {
+                        "_id": "658c1802a1105f8157ad1db9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658c1802a1105f8157ad1db9/WzjY29SkngxkKfiTYcssh.jpeg",
+                        "isPro": false,
+                        "fullname": "whx1003",
+                        "user": "whx1003",
+                        "type": "user"
+                    },
+                    "name": "Haoxu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T10:30:12.064Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfeb",
+                    "name": "Kai Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfec",
+                    "name": "Jun Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d426251ce04237318cfed",
+                    "user": {
+                        "_id": "65fcad0ba0d7adc40b54fac2",
+                        "avatarUrl": "/avatars/7564b5642378fddb46ec3b5ae57c0402.svg",
+                        "isPro": false,
+                        "fullname": "Jianfei Chen",
+                        "user": "surfingtomchen",
+                        "type": "user"
+                    },
+                    "name": "Jianfei Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:06:40.981Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66c0a08bac74db25de8427ec/Tb20E3IJSV6PjcD9Nkvfg.png"
+            ],
+            "publishedAt": "2025-05-16T18:01:54.000Z",
+            "submittedOnDailyAt": "2025-05-21T01:35:25.101Z",
+            "title": "SageAttention3: Microscaling FP4 Attention for Inference and An\n  Exploration of 8-Bit Training",
+            "submittedOnDailyBy": {
+                "_id": "66c0a08bac74db25de8427ec",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c0a08bac74db25de8427ec/9D-piDBZqSt6KNkHImmkv.jpeg",
+                "isPro": false,
+                "fullname": "Jintao Zhang",
+                "user": "jt-zhang",
+                "type": "user"
+            },
+            "summary": "The efficiency of attention is important due to its quadratic time\ncomplexity. We enhance the efficiency of attention through two key\ncontributions: First, we leverage the new FP4 Tensor Cores in Blackwell GPUs to\naccelerate attention computation. Our implementation achieves 1038 TOPS on\nRTX5090, which is a 5x speedup over the fastest FlashAttention on RTX5090.\nExperiments show that our FP4 attention can accelerate inference of various\nmodels in a plug-and-play way. Second, we pioneer low-bit attention to training\ntasks. Existing low-bit attention works like FlashAttention3 and SageAttention\nfocus only on inference. However, the efficiency of training large models is\nalso important. To explore whether low-bit attention can be effectively applied\nto training tasks, we design an accurate and efficient 8-bit attention for both\nforward and backward propagation. Experiments indicate that 8-bit attention\nachieves lossless performance in fine-tuning tasks but exhibits slower\nconvergence in pretraining tasks. The code will be available at\nhttps://github.com/thu-ml/SageAttention.",
+            "upvotes": 40,
+            "discussionId": "682d426551ce04237318d0b9",
+            "projectPage": "https://github.com/thu-ml/SageAttention",
+            "githubRepo": "https://github.com/thu-ml/SageAttention",
+            "ai_keywords": [
+                "attention",
+                "FP4 Tensor Cores",
+                "TOPS",
+                "speedup",
+                "inference",
+                "plug-and-play",
+                "low-bit attention",
+                "8-bit attention",
+                "forward propagation",
+                "backward propagation",
+                "fine-tuning",
+                "pretraining",
+                "convergence",
+                "lossless performance"
+            ]
+        },
+        "translation_title": "SageAttention3: 추론을 위한 FP4 Attention의 마이크로 스케일링 및 8비트 훈련 탐색",
+        "purpose": "Attention의 효율성을 향상시키기 위해 새로운 방법을 제안하고자 함",
+        "method": [
+            "Blackwell GPU의 새로운 FP4 Tensor Core를 활용하여 Attention 계산을 가속화함(We leverage the new FP4 Tensor Cores in Blackwell GPUs to accelerate attention computation.)",
+            "기존의 low-bit attention 접근 방식과 달리 8비트 Attention을 훈련 작업에 적용하도록 설계함(To explore whether low-bit attention can be effectively applied to training tasks, we design an accurate and efficient 8-bit attention for both forward and backward propagation.)",
+            "실험을 통해 8비트 Attention이 미세 조정 작업에서 손실 없는 성능을 달성함(Experiments indicate that 8-bit attention achieves lossless performance in fine-tuning tasks but exhibits slower convergence in pretraining tasks.)"
+        ],
+        "conclusion": "FP4 attention을 이용한 추론 가속화와 8비트 attention 적용이 가능하다는 것을 보여주며, 향후 연구에 기여할 수 있는 기초를 마련하였음.",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.13438",
+            "authors": [
+                {
+                    "_id": "682d84d6aa4903837eeac1dc",
+                    "user": {
+                        "_id": "63885f1d0bebb233d8ad6e5b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669881620925-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Penghui Qi",
+                        "user": "QPHutu",
+                        "type": "user"
+                    },
+                    "name": "Penghui Qi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:39:35.138Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d84d6aa4903837eeac1dd",
+                    "user": {
+                        "_id": "65f5392c68b8e0cb3c9977a2",
+                        "avatarUrl": "/avatars/aa64772475098e8a135c13072fde6744.svg",
+                        "isPro": false,
+                        "fullname": "Zichen",
+                        "user": "lkevinzc",
+                        "type": "user"
+                    },
+                    "name": "Zichen Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T09:31:12.541Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d84d6aa4903837eeac1de",
+                    "user": {
+                        "_id": "63d91b6d255ef6add20e1b38",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1675921369867-63d91b6d255ef6add20e1b38.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyu Pang",
+                        "user": "P2333",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Pang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:12:08.028Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d84d6aa4903837eeac1df",
+                    "user": {
+                        "_id": "632407c892e07e3ca20aca28",
+                        "avatarUrl": "/avatars/23b51b37b12b51a0947f687d1de4d3b5.svg",
+                        "isPro": false,
+                        "fullname": "Chao Du",
+                        "user": "duchao",
+                        "type": "user"
+                    },
+                    "name": "Chao Du",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:12:18.649Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d84d6aa4903837eeac1e0",
+                    "name": "Wee Sun Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d84d6aa4903837eeac1e1",
+                    "name": "Min Lin",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63885f1d0bebb233d8ad6e5b/UeoRcEi-bKgq6eecwvo8o.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/63885f1d0bebb233d8ad6e5b/JLzRbfpomaF02gHLNkON6.png"
+            ],
+            "publishedAt": "2025-05-19T17:58:44.000Z",
+            "submittedOnDailyAt": "2025-05-21T06:36:34.577Z",
+            "title": "Optimizing Anytime Reasoning via Budget Relative Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "63885f1d0bebb233d8ad6e5b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1669881620925-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Penghui Qi",
+                "user": "QPHutu",
+                "type": "user"
+            },
+            "summary": "Scaling test-time compute is crucial for enhancing the reasoning capabilities\nof large language models (LLMs). Existing approaches typically employ\nreinforcement learning (RL) to maximize a verifiable reward obtained at the end\nof reasoning traces. However, such methods optimize only the final performance\nunder a large and fixed token budget, which hinders efficiency in both training\nand deployment. In this work, we present a novel framework, AnytimeReasoner, to\noptimize anytime reasoning performance, which aims to improve token efficiency\nand the flexibility of reasoning under varying token budget constraints. To\nachieve this, we truncate the complete thinking process to fit within sampled\ntoken budgets from a prior distribution, compelling the model to summarize the\noptimal answer for each truncated thinking for verification. This introduces\nverifiable dense rewards into the reasoning process, facilitating more\neffective credit assignment in RL optimization. We then optimize the thinking\nand summary policies in a decoupled manner to maximize the cumulative reward.\nAdditionally, we introduce a novel variance reduction technique, Budget\nRelative Policy Optimization (BRPO), to enhance the robustness and efficiency\nof the learning process when reinforcing the thinking policy. Empirical results\nin mathematical reasoning tasks demonstrate that our method consistently\noutperforms GRPO across all thinking budgets under various prior distributions,\nenhancing both training and token efficiency.",
+            "upvotes": 25,
+            "discussionId": "682d84d7aa4903837eeac215",
+            "githubRepo": "https://github.com/sail-sg/AnytimeReasoner",
+            "ai_keywords": [
+                "reinforcement learning (RL)",
+                "verifiable reward",
+                "reasoning traces",
+                "token budget",
+                "AnytimeReasoner",
+                "truncation",
+                "verifiable dense rewards",
+                "credit assignment",
+                "thinking and summary policies",
+                "decoupled manner",
+                "cumulative reward",
+                "Budget Relative Policy Optimization (BRPO)",
+                "variance reduction"
+            ]
+        },
+        "translation_title": "예산 상대 정책 최적화를 통한 Anytime Reasoning 최적화",
+        "purpose": "대규모 언어 모델의 reasoning 성능을 개선하기 위해 token 효율성과 유연성을 증대시키는 것",
+        "method": [
+            "이전에 배포된 분포에서 샘플링한 token 예산에 맞도록 전체 사고 과정을 절단하여 모델이 최적의 답변을 요약하도록 유도함(To achieve this, we truncate the complete thinking process to fit within sampled token budgets from a prior distribution.)",
+            "Reasoning 과정에 verifiable dense rewards를 도입하여 RL 최적화에서 더 효과적인 credit assignment을 가능하게 함(This introduces verifiable dense rewards into the reasoning process, facilitating more effective credit assignment in RL optimization.)",
+            "사고 정책과 요약 정책을 분리하여 누적 보상을 극대화하게끔 최적화함(We then optimize the thinking and summary policies in a decoupled manner to maximize the cumulative reward.)"
+        ],
+        "conclusion": "제안한 방법은 다양한 prior 분포 하에서 모든 사고 예산에 대해 GRPO보다 일관되게 우수한 성능을 나타내며, 훈련 및 token 효율성을 개선함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.14246",
+            "authors": [
+                {
+                    "_id": "682d7a2340a42d1538fada76",
+                    "user": {
+                        "_id": "66fe1334ff3ee1f7569fab6d",
+                        "avatarUrl": "/avatars/6868b1a545028a9b8bbded52490dc093.svg",
+                        "isPro": false,
+                        "fullname": "ziyuliu",
+                        "user": "ziyuliu",
+                        "type": "user"
+                    },
+                    "name": "Ziyu Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:08:39.517Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada77",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/mCgynEtoXdILvzyoPexii.png",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:39:42.962Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada78",
+                    "user": {
+                        "_id": "6671341b4eee852a8b25888f",
+                        "avatarUrl": "/avatars/635d1821bbc960b4ea845e606883eb16.svg",
+                        "isPro": false,
+                        "fullname": "yushan zou",
+                        "user": "zyshan",
+                        "type": "user"
+                    },
+                    "name": "Yushan Zou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:08:45.972Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada79",
+                    "user": {
+                        "_id": "652768eeb723b49e8c8865da",
+                        "avatarUrl": "/avatars/491e02da9ec81e439ccda8a181634bca.svg",
+                        "isPro": false,
+                        "fullname": "Zijian Liang",
+                        "user": "steins1096",
+                        "type": "user"
+                    },
+                    "name": "Zijian Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:08:51.938Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada7a",
+                    "user": {
+                        "_id": "67c0849ee08c178ef8d4e05c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/mQ6VdnjZnRhb0H_waPclo.png",
+                        "isPro": false,
+                        "fullname": "Xiaoyi Dong",
+                        "user": "sweetFruit",
+                        "type": "user"
+                    },
+                    "name": "Xiaoyi Dong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:09:00.912Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada7b",
+                    "user": {
+                        "_id": "65000bef18830fabea469fdd",
+                        "avatarUrl": "/avatars/b320c77dfad039d9f9c54127f610d44f.svg",
+                        "isPro": false,
+                        "fullname": "Cao Yuhang",
+                        "user": "yhcao",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:09:22.645Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada7c",
+                    "user": {
+                        "_id": "63ee1379190ddd6214efd73a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676546883247-noauth.png",
+                        "isPro": false,
+                        "fullname": "HAODONG DUAN",
+                        "user": "KennyUTC",
+                        "type": "user"
+                    },
+                    "name": "Haodong Duan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:09:31.442Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada7d",
+                    "user": {
+                        "_id": "636317ed80c1a705a6eff396",
+                        "avatarUrl": "/avatars/3db090e101b916d9256d0d3e043db71d.svg",
+                        "isPro": false,
+                        "fullname": "Dahua Lin",
+                        "user": "lindahua",
+                        "type": "user"
+                    },
+                    "name": "Dahua Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-21T10:09:37.103Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682d7a2340a42d1538fada7e",
+                    "user": {
+                        "_id": "64b4eec4faa3181a5eab9c46",
+                        "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                        "isPro": true,
+                        "fullname": "Jiaqi Wang",
+                        "user": "myownskyW7",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T08:39:45.391Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-20T11:59:25.000Z",
+            "submittedOnDailyAt": "2025-05-21T05:32:01.442Z",
+            "title": "Visual Agentic Reinforcement Fine-Tuning",
+            "submittedOnDailyBy": {
+                "_id": "64b4eec4faa3181a5eab9c46",
+                "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                "isPro": true,
+                "fullname": "Jiaqi Wang",
+                "user": "myownskyW7",
+                "type": "user"
+            },
+            "summary": "A key trend in Large Reasoning Models (e.g., OpenAI's o3) is the native\nagentic ability to use external tools such as web browsers for searching and\nwriting/executing code for image manipulation to think with images. In the\nopen-source research community, while significant progress has been made in\nlanguage-only agentic abilities such as function calling and tool integration,\nthe development of multi-modal agentic capabilities that involve truly thinking\nwith images, and their corresponding benchmarks, are still less explored. This\nwork highlights the effectiveness of Visual Agentic Reinforcement Fine-Tuning\n(Visual-ARFT) for enabling flexible and adaptive reasoning abilities for Large\nVision-Language Models (LVLMs). With Visual-ARFT, open-source LVLMs gain the\nability to browse websites for real-time information updates and write code to\nmanipulate and analyze input images through cropping, rotation, and other image\nprocessing techniques. We also present a Multi-modal Agentic Tool Bench (MAT)\nwith two settings (MAT-Search and MAT-Coding) designed to evaluate LVLMs'\nagentic search and coding abilities. Our experimental results demonstrate that\nVisual-ARFT outperforms its baseline by +18.6% F1 / +13.0% EM on MAT-Coding and\n+10.3% F1 / +8.7% EM on MAT-Search, ultimately surpassing GPT-4o. Visual-ARFT\nalso achieves +29.3 F1% / +25.9% EM gains on existing multi-hop QA benchmarks\nsuch as 2Wiki and HotpotQA, demonstrating strong generalization capabilities.\nOur findings suggest that Visual-ARFT offers a promising path toward building\nrobust and generalizable multimodal agents.",
+            "upvotes": 24,
+            "discussionId": "682d7a2440a42d1538fadac0",
+            "githubRepo": "https://github.com/Liuziyu77/Visual-RFT/tree/main/Visual-ARFT",
+            "ai_keywords": [
+                "Visual Agentic Reinforcement Fine-Tuning (Visual-ARFT)",
+                "Large Vision-Language Models (LVLMs)",
+                "Multi-modal Agentic Tool Bench (MAT)",
+                "MAT-Search",
+                "MAT-Coding",
+                "F1",
+                "EM",
+                "GPT-4o",
+                "multi-hop QA benchmarks",
+                "2Wiki",
+                "HotpotQA"
+            ]
+        },
+        "translation_title": "비주얼 에이전틱 강화 미세 조정",
+        "purpose": "대형 비전-언어 모델의 유연하고 적응력 있는 추론 능력을 향상시키기 위한 방법 연구",
+        "method": [
+            "Visual Agentic Reinforcement Fine-Tuning(Visual-ARFT)를 통해 오픈 소스 LVLM들이 웹사이트를 탐색하고 실시간 정보 업데이트를 수행하도록 함(With Visual-ARFT, open-source LVLMs gain the ability to browse websites for real-time information updates.)",
+            "코드를 작성해 이미지를 자르고 회전하는 등 다양한 이미지 처리 기법을 적용할 수 있게 함(write code to manipulate and analyze input images through cropping, rotation, and other image processing techniques.)",
+            "두 가지 설정(MAT-Search 및 MAT-Coding)을 갖춘 Multi-modal Agentic Tool Bench(MAT)를 제안하여 LVLM의 검색 및 코딩 능력을 평가함(We also present a Multi-modal Agentic Tool Bench (MAT) with two settings (MAT-Search and MAT-Coding) designed to evaluate LVLMs' agentic search and coding abilities.)"
+        ],
+        "conclusion": "Visual-ARFT는 기존 모델보다 뛰어난 성능을 보이며, 강력하고 일반화 가능한 멀티모달 에이전트를 구축하는 유망한 경로를 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "Vision-Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
