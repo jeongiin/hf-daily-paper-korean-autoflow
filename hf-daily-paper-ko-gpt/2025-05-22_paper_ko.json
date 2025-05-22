@@ -1,0 +1,617 @@
+[
+    {
+        "paper": {
+            "id": "2505.15277",
+            "authors": [
+                {
+                    "_id": "682e854551706f69070aca6b",
+                    "user": {
+                        "_id": "64c8f4cec547ed5243ebd0a8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c8f4cec547ed5243ebd0a8/MiOH5YbMg8Gh9KYlQsLmX.jpeg",
+                        "isPro": false,
+                        "fullname": "Hyungjoo Chae",
+                        "user": "hyungjoochae",
+                        "type": "user"
+                    },
+                    "name": "Hyungjoo Chae",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:37.301Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca6c",
+                    "user": {
+                        "_id": "646a0897c37ca1e12308b026",
+                        "avatarUrl": "/avatars/6d720a9e366db9bec15c8c10878c0c75.svg",
+                        "isPro": false,
+                        "fullname": "Sunghwan Kim",
+                        "user": "KimSHine",
+                        "type": "user"
+                    },
+                    "name": "Sunghwan Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:32.322Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca6d",
+                    "name": "Junhee Cho",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca6e",
+                    "name": "Seungone Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca6f",
+                    "name": "Seungjun Moon",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca70",
+                    "name": "Gyeom Hwangbo",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca71",
+                    "user": {
+                        "_id": "6683b8680b72be136701de35",
+                        "avatarUrl": "/avatars/0c135e570b16b81ee2fb81ad65b01ba8.svg",
+                        "isPro": false,
+                        "fullname": "Dongha Lim",
+                        "user": "donghalim",
+                        "type": "user"
+                    },
+                    "name": "Dongha Lim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:34.741Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca72",
+                    "name": "Minjin Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca73",
+                    "name": "Yeonjun Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca74",
+                    "name": "Minju Gwak",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca75",
+                    "name": "Dongwook Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca76",
+                    "name": "Minseok Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca77",
+                    "name": "Gwanhoon Im",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca78",
+                    "name": "ByeongUng Cho",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca79",
+                    "name": "Hyojun Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7a",
+                    "name": "Jun Hee Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7b",
+                    "name": "Taeyoon Kwon",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7c",
+                    "name": "Minju Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7d",
+                    "name": "Beong-woo Kwak",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7e",
+                    "name": "Dongjin Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e854551706f69070aca7f",
+                    "name": "Jinyoung Yeo",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64c8f4cec547ed5243ebd0a8/hXqaaoJTvW35xMW1lPVv0.png"
+            ],
+            "publishedAt": "2025-05-21T08:56:55.000Z",
+            "submittedOnDailyAt": "2025-05-22T00:31:53.858Z",
+            "title": "Web-Shepherd: Advancing PRMs for Reinforcing Web Agents",
+            "submittedOnDailyBy": {
+                "_id": "64c8f4cec547ed5243ebd0a8",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c8f4cec547ed5243ebd0a8/MiOH5YbMg8Gh9KYlQsLmX.jpeg",
+                "isPro": false,
+                "fullname": "Hyungjoo Chae",
+                "user": "hyungjoochae",
+                "type": "user"
+            },
+            "summary": "Web navigation is a unique domain that can automate many repetitive real-life\ntasks and is challenging as it requires long-horizon sequential decision making\nbeyond typical multimodal large language model (MLLM) tasks. Yet, specialized\nreward models for web navigation that can be utilized during both training and\ntest-time have been absent until now. Despite the importance of speed and\ncost-effectiveness, prior works have utilized MLLMs as reward models, which\nposes significant constraints for real-world deployment. To address this, in\nthis work, we propose the first process reward model (PRM) called Web-Shepherd\nwhich could assess web navigation trajectories in a step-level. To achieve\nthis, we first construct the WebPRM Collection, a large-scale dataset with 40K\nstep-level preference pairs and annotated checklists spanning diverse domains\nand difficulty levels. Next, we also introduce the WebRewardBench, the first\nmeta-evaluation benchmark for evaluating PRMs. In our experiments, we observe\nthat our Web-Shepherd achieves about 30 points better accuracy compared to\nusing GPT-4o on WebRewardBench. Furthermore, when testing on WebArena-lite by\nusing GPT-4o-mini as the policy and Web-Shepherd as the verifier, we achieve\n10.9 points better performance, in 10 less cost compared to using GPT-4o-mini\nas the verifier. Our model, dataset, and code are publicly available at LINK.",
+            "upvotes": 76,
+            "discussionId": "682e854951706f69070acbf0",
+            "githubRepo": "https://github.com/kyle8581/Web-Shepherd",
+            "ai_summary": "The paper introduces Web-Shepherd, a process reward model for web navigation, which improves accuracy and cost-effectiveness in step-level trajectory assessment compared to existing multimodal large language models.",
+            "ai_keywords": [
+                "multimodal large language model",
+                "process reward model",
+                "web navigation",
+                "webPRM collection",
+                "webrewardbench",
+                "long-horizon sequential decision making",
+                "preference pairs",
+                "annotated checklists",
+                "step-level assessment",
+                "webarena-lite",
+                "policy",
+                "verifier"
+            ]
+        },
+        "translation_title": "Web-Shepherd: 웹 에이전트를 강화하기 위한 PRMs의 발전",
+        "purpose": "웹 내비게이션에 대한 효과적인 보상 모델을 개발하여 실제 적용을 위해 훈련 및 테스트에서 사용할 수 있도록 하는 것",
+        "method": [
+            "WebPRM Collection이라는 대규모 데이터셋을 구축하여 4만 개의 단계별 선호 쌍 및 다양한 체크리스트를 포함함(To achieve this, we first construct the WebPRM Collection, a large-scale dataset with 40K step-level preference pairs and annotated checklists spanning diverse domains and difficulty levels.)",
+            "WebRewardBench라는 PRMs 평가를 위한 첫 번째 메타 평가 벤치마크를 도입함(Next, we also introduce the WebRewardBench, the first meta-evaluation benchmark for evaluating PRMs.)",
+            "Web-Shepherd를 사용하여 WebRewardBench에서 GPT-4o보다 약 30포인트 더 높은 정확도를 기록함(In our experiments, we observe that our Web-Shepherd achieves about 30 points better accuracy compared to using GPT-4o on WebRewardBench.)",
+            "GPT-4o-mini를 정책으로 사용하고 Web-Shepherd를 검증자로 사용하여 WebArena-lite에서 10.9포인트 더 나은 성능을 달성함(when testing on WebArena-lite by using GPT-4o-mini as the policy and Web-Shepherd as the verifier, we achieve 10.9 points better performance)."
+        ],
+        "conclusion": "Web-Shepherd는 웹 내비게이션의 평가 및 성능 향상에 효과적이며, 실제 비용을 줄이는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.14302",
+            "authors": [
+                {
+                    "_id": "682e887e866a44f6a81409b1",
+                    "user": {
+                        "_id": "64aea082704210bf815e7551",
+                        "avatarUrl": "/avatars/5c8dc0df57596c526b2bccea21835f53.svg",
+                        "isPro": false,
+                        "fullname": "Mengzhao Chen",
+                        "user": "ChenMnZ",
+                        "type": "user"
+                    },
+                    "name": "Mengzhao Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:29.873Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b2",
+                    "name": "Chaoyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b3",
+                    "name": "Jing Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b4",
+                    "name": "Yutao Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b5",
+                    "name": "Zeyue Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b6",
+                    "name": "Zhiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b7",
+                    "name": "Yunshui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b8",
+                    "name": "Jin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409b9",
+                    "name": "Jie Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409ba",
+                    "name": "Xun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e887e866a44f6a81409bb",
+                    "name": "Ping Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-20T12:54:43.000Z",
+            "submittedOnDailyAt": "2025-05-22T00:44:46.277Z",
+            "title": "Scaling Law for Quantization-Aware Training",
+            "submittedOnDailyBy": {
+                "_id": "64aea082704210bf815e7551",
+                "avatarUrl": "/avatars/5c8dc0df57596c526b2bccea21835f53.svg",
+                "isPro": false,
+                "fullname": "Mengzhao Chen",
+                "user": "ChenMnZ",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) demand substantial computational and memory\nresources, creating deployment challenges. Quantization-aware training (QAT)\naddresses these challenges by reducing model precision while maintaining\nperformance. However, the scaling behavior of QAT, especially at 4-bit\nprecision (W4A4), is not well understood. Existing QAT scaling laws often\nignore key factors such as the number of training tokens and quantization\ngranularity, which limits their applicability. This paper proposes a unified\nscaling law for QAT that models quantization error as a function of model size,\ntraining data volume, and quantization group size. Through 268 QAT experiments,\nwe show that quantization error decreases as model size increases, but rises\nwith more training tokens and coarser quantization granularity. To identify the\nsources of W4A4 quantization error, we decompose it into weight and activation\ncomponents. Both components follow the overall trend of W4A4 quantization\nerror, but with different sensitivities. Specifically, weight quantization\nerror increases more rapidly with more training tokens. Further analysis shows\nthat the activation quantization error in the FC2 layer, caused by outliers, is\nthe primary bottleneck of W4A4 QAT quantization error. By applying\nmixed-precision quantization to address this bottleneck, we demonstrate that\nweight and activation quantization errors can converge to similar levels.\nAdditionally, with more training data, weight quantization error eventually\nexceeds activation quantization error, suggesting that reducing weight\nquantization error is also important in such scenarios. These findings offer\nkey insights for improving QAT research and development.",
+            "upvotes": 51,
+            "discussionId": "682e887e866a44f6a81409f0",
+            "ai_summary": "A unified scaling law for quantization-aware training (QAT) identifies key factors affecting quantization error, leading to improvements through mixed-precision quantization.",
+            "ai_keywords": [
+                "quantization-aware training",
+                "QAT",
+                "quantization error",
+                "model size",
+                "training tokens",
+                "quantization granularity",
+                "weight quantization",
+                "activation quantization",
+                "mixed-precision quantization",
+                "FC2 layer"
+            ]
+        },
+        "translation_title": "양자화 인식 훈련을 위한 스케일링 법칙",
+        "purpose": "모델의 정확도를 유지하면서 메모리와 컴퓨팅 자원을 줄이기 위해 양자화 인식 훈련의 스케일링 행동을 이해하고자 함.",
+        "method": [
+            "양자화 오류를 모델 크기, 훈련 데이터 양, 양자화 그룹 크기의 함수로 모델링하는 통합 스케일링 법칙을 제안함(This paper proposes a unified scaling law for QAT that models quantization error as a function of model size, training data volume, and quantization group size.)",
+            "268개의 QAT 실험을 통해 모델 크기가 커질수록 양자화 오류가 감소하나, 훈련 토큰 수가 많아지거나 양자화 조도(quantization granularity)가 거칠어질수록 오류가 증가함을 보여줌(Through 268 QAT experiments, we show that quantization error decreases as model size increases, but rises with more training tokens and coarser quantization granularity.)",
+            "양자화 오류의 원인을 파악하기 위해 가중치와 활성화 구성요소로 분해하여 분석함(To identify the sources of W4A4 quantization error, we decompose it into weight and activation components.)",
+            "혼합 정밀도 양자화를 적용하여 W4A4 양자화 오류의 주요 병목 현상을 해결함(By applying mixed-precision quantization to address this bottleneck, we demonstrate that weight and activation quantization errors can converge to similar levels.)"
+        ],
+        "conclusion": "이 연구는 QAT 연구와 개발을 개선하기 위한 핵심 통찰력을 제공함.",
+        "keywords": [
+            "Large Language Models",
+            "Quantization-aware Training",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.15809",
+            "authors": [
+                {
+                    "_id": "682e7e061d7637a25846bf52",
+                    "name": "Ling Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf53",
+                    "user": {
+                        "_id": "64e357dd825f4133e7427bf8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e357dd825f4133e7427bf8/HwaWhINrzkbXG6SHG2oyf.jpeg",
+                        "isPro": false,
+                        "fullname": "tyfeld",
+                        "user": "tyfeld",
+                        "type": "user"
+                    },
+                    "name": "Ye Tian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:17:11.786Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf54",
+                    "name": "Bowen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf55",
+                    "user": {
+                        "_id": "653e5d31ffd60206c8b64bb5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653e5d31ffd60206c8b64bb5/JrfOSCunFSW39vdW7E59y.png",
+                        "isPro": false,
+                        "fullname": "Xinchen Zhang",
+                        "user": "comin",
+                        "type": "user"
+                    },
+                    "name": "Xinchen Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:17:14.114Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf56",
+                    "name": "Ke Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf57",
+                    "name": "Yunhai Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e7e061d7637a25846bf58",
+                    "name": "Mengdi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-21T17:59:05.000Z",
+            "submittedOnDailyAt": "2025-05-22T00:24:15.122Z",
+            "title": "MMaDA: Multimodal Large Diffusion Language Models",
+            "submittedOnDailyBy": {
+                "_id": "64fde4e252e82dd432b74ce9",
+                "avatarUrl": "/avatars/061a69d858b86d1600be916122cae7fc.svg",
+                "isPro": false,
+                "fullname": "Ling Yang",
+                "user": "Lingaaaaaaa",
+                "type": "user"
+            },
+            "summary": "We introduce MMaDA, a novel class of multimodal diffusion foundation models\ndesigned to achieve superior performance across diverse domains such as textual\nreasoning, multimodal understanding, and text-to-image generation. The approach\nis distinguished by three key innovations: (i) MMaDA adopts a unified diffusion\narchitecture with a shared probabilistic formulation and a modality-agnostic\ndesign, eliminating the need for modality-specific components. This\narchitecture ensures seamless integration and processing across different data\ntypes. (ii) We implement a mixed long chain-of-thought (CoT) fine-tuning\nstrategy that curates a unified CoT format across modalities. By aligning\nreasoning processes between textual and visual domains, this strategy\nfacilitates cold-start training for the final reinforcement learning (RL)\nstage, thereby enhancing the model's ability to handle complex tasks from the\noutset. (iii) We propose UniGRPO, a unified policy-gradient-based RL algorithm\nspecifically tailored for diffusion foundation models. Utilizing diversified\nreward modeling, UniGRPO unifies post-training across both reasoning and\ngeneration tasks, ensuring consistent performance improvements. Experimental\nresults demonstrate that MMaDA-8B exhibits strong generalization capabilities\nas a unified multimodal foundation model. It surpasses powerful models like\nLLaMA-3-7B and Qwen2-7B in textual reasoning, outperforms Show-o and SEED-X in\nmultimodal understanding, and excels over SDXL and Janus in text-to-image\ngeneration. These achievements highlight MMaDA's effectiveness in bridging the\ngap between pretraining and post-training within unified diffusion\narchitectures, providing a comprehensive framework for future research and\ndevelopment. We open-source our code and trained models at:\nhttps://github.com/Gen-Verse/MMaDA",
+            "upvotes": 42,
+            "discussionId": "682e7e0a1d7637a25846c03b",
+            "projectPage": "https://huggingface.co/spaces/Gen-Verse/MMaDA",
+            "githubRepo": "https://github.com/Gen-Verse/MMaDA",
+            "ai_summary": "MMaDA, a multimodal diffusion foundation model, achieves superior performance through a unified architecture, mixed long chain-of-thought fine-tuning, and a unified policy-gradient-based RL algorithm.",
+            "ai_keywords": [
+                "multimodal diffusion foundation models",
+                "unified diffusion architecture",
+                "modality-agnostic design",
+                "mixed long chain-of-thought fine-tuning",
+                "cold-start training",
+                "reinforcement learning",
+                "UniGRPO",
+                "policy-gradient-based RL algorithm",
+                "diversified reward modeling",
+                "generalization capabilities",
+                "textual reasoning",
+                "multimodal understanding",
+                "text-to-image generation"
+            ]
+        },
+        "translation_title": "MMaDA: 다중모달 대규모 확산 언어 모델",
+        "purpose": "다양한 영역에서 뛰어난 성능을 내기 위한 다중모달 확산 기초 모델 개발",
+        "method": [
+            "MMaDA는 공유된 확률적 수식과 모드에 구애받지 않는 디자인을 채택하여 모달리티별 구성 요소의 필요성을 제거하고 통합된 확산 아키텍처를 구현함 (MMaDA adopts a unified diffusion architecture with a shared probabilistic formulation and a modality-agnostic design, eliminating the need for modality-specific components.)",
+            "혼합된 Chain-of-Thought (CoT) 미세 조정 전략을 통해 다양한 모달리티의 통합된 CoT 형식을 관리함 (We implement a mixed long chain-of-thought (CoT) fine-tuning strategy that curates a unified CoT format across modalities.)",
+            "UniGRPO라는 통합된 정책 기울기 기반 RL 알고리즘을 제안하여 reasoning과 generation 작업 모두에서 일관된 성능 향상을 보장함 (We propose UniGRPO, a unified policy-gradient-based RL algorithm specifically tailored for diffusion foundation models.)"
+        ],
+        "conclusion": "MMaDA는 통합된 다중모달 기초 모델로서 강력한 일반화 능력을 보여 주며, 다양한 작업에서 뛰어난 성능 향상을 기록함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.14231",
+            "authors": [
+                {
+                    "_id": "682db25d265177367e35d5b1",
+                    "name": "Sule Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b2",
+                    "name": "Mingxing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b3",
+                    "name": "Yong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b4",
+                    "name": "Jing Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b5",
+                    "name": "Haoji Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b6",
+                    "name": "Lei Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b7",
+                    "user": {
+                        "_id": "66d255e3947594430c723ff6",
+                        "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                        "isPro": false,
+                        "fullname": "xiaochonglinghu",
+                        "user": "xiaochonglinghu",
+                        "type": "user"
+                    },
+                    "name": "Xiangxiang Chu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-21T12:27:07.959Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682db25d265177367e35d5b8",
+                    "name": "Yansong Tang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-20T11:40:43.000Z",
+            "submittedOnDailyAt": "2025-05-22T00:13:45.780Z",
+            "title": "UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement\n  Learning",
+            "submittedOnDailyBy": {
+                "_id": "6513a0f14f1682e4407758a9",
+                "avatarUrl": "/avatars/b2a6886114492944cfa235363817565f.svg",
+                "isPro": false,
+                "fullname": "Mingxing Li",
+                "user": "MingxingLi",
+                "type": "user"
+            },
+            "summary": "Traditional visual grounding methods primarily focus on single-image\nscenarios with simple textual references. However, extending these methods to\nreal-world scenarios that involve implicit and complex instructions,\nparticularly in conjunction with multiple images, poses significant challenges,\nwhich is mainly due to the lack of advanced reasoning ability across diverse\nmulti-modal contexts. In this work, we aim to address the more practical\nuniversal grounding task, and propose UniVG-R1, a reasoning guided multimodal\nlarge language model (MLLM) for universal visual grounding, which enhances\nreasoning capabilities through reinforcement learning (RL) combined with\ncold-start data. Specifically, we first construct a high-quality\nChain-of-Thought (CoT) grounding dataset, annotated with detailed reasoning\nchains, to guide the model towards correct reasoning paths via supervised\nfine-tuning. Subsequently, we perform rule-based reinforcement learning to\nencourage the model to identify correct reasoning chains, thereby incentivizing\nits reasoning capabilities. In addition, we identify a difficulty bias arising\nfrom the prevalence of easy samples as RL training progresses, and we propose a\ndifficulty-aware weight adjustment strategy to further strengthen the\nperformance. Experimental results demonstrate the effectiveness of UniVG-R1,\nwhich achieves state-of-the-art performance on MIG-Bench with a 9.1%\nimprovement over the previous method. Furthermore, our model exhibits strong\ngeneralizability, achieving an average improvement of 23.4% in zero-shot\nperformance across four image and video reasoning grounding benchmarks. The\nproject page can be accessed at https://amap-ml.github.io/UniVG-R1-page/.",
+            "upvotes": 42,
+            "discussionId": "682db25e265177367e35d638",
+            "projectPage": "https://amap-ml.github.io/UniVG-R1-page/",
+            "githubRepo": "https://github.com/AMAP-ML/UniVG-R1",
+            "ai_summary": "UniVG-R1, a reasoning-guided multimodal large language model, enhances visual grounding by leveraging reinforcement learning and a difficulty-aware strategy, achieving state-of-the-art results and strong generalizability.",
+            "ai_keywords": [
+                "multimodal large language model",
+                "reasoning guided",
+                "reinforcement learning",
+                "cold-start data",
+                "Chain-of-Thought dataset",
+                "supervised fine-tuning",
+                "rule-based reinforcement learning",
+                "difficulty bias",
+                "difficulty-aware weight adjustment"
+            ]
+        },
+        "translation_title": "UniVG-R1: 강화를 통한 추론 유도 범용 시각 기초 설정",
+        "purpose": "복잡한 텍스트 지시와 다중 이미지를 포함하는 현실 세계의 시각 기초 설정 과제를 해결하기 위한 연구",
+        "method": [
+            "고품질 Chain-of-Thought 데이터셋을 구축하여 모델의 올바른 추론 경로를 유도하기 위해 감독 세밀 조정을 실시함(we first construct a high-quality Chain-of-Thought (CoT) grounding dataset, annotated with detailed reasoning chains, to guide the model towards correct reasoning paths via supervised fine-tuning.)",
+            "규칙 기반 강화 학습을 수행하여 모델이 올바른 추론 체계를 찾도록 유도함(subsequently, we perform rule-based reinforcement learning to encourage the model to identify correct reasoning chains.)",
+            "난이도 편향을 파악하고 성능 강화를 위한 난이도 인식 가중치 조정 전략을 제안함(we identify a difficulty bias arising from the prevalence of easy samples as RL training progresses, and we propose a difficulty-aware weight adjustment strategy to further strengthen the performance.)"
+        ],
+        "conclusion": "UniVG-R1은 MIG-Bench에서 기존 방법보다 9.1% 향상된 최첨단 성능을 달성하며, 네 가지 이미지 및 비디오 추론 기초 설정 벤치마크에서 제로샷 성능이 평균 23.4% 개선됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.15045",
+            "authors": [
+                {
+                    "_id": "682e9672d28d9650c90db133",
+                    "user": {
+                        "_id": "638f1803c67af472d317a922",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f1803c67af472d317a922/9BMVXqHa-AsdZPmBprcbd.jpeg",
+                        "isPro": false,
+                        "fullname": "siyue zhang",
+                        "user": "siyue",
+                        "type": "user"
+                    },
+                    "name": "Siyue Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:04.722Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e9672d28d9650c90db134",
+                    "user": {
+                        "_id": "62f662bcc58915315c4eccea",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                        "isPro": true,
+                        "fullname": "Yilun",
+                        "user": "yilunzhao",
+                        "type": "user"
+                    },
+                    "name": "Yilun Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:16:02.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e9672d28d9650c90db135",
+                    "user": {
+                        "_id": "65457e29bd25cef7d118122c",
+                        "avatarUrl": "/avatars/67777b3f4584b8ba92f12e95dbf93482.svg",
+                        "isPro": false,
+                        "fullname": "Liyuan Geng",
+                        "user": "LYGeng",
+                        "type": "user"
+                    },
+                    "name": "Liyuan Geng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-22T07:15:59.203Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e9672d28d9650c90db136",
+                    "name": "Arman Cohan",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e9672d28d9650c90db137",
+                    "name": "Anh Tuan Luu",
+                    "hidden": false
+                },
+                {
+                    "_id": "682e9672d28d9650c90db138",
+                    "name": "Chen Zhao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/638f1803c67af472d317a922/2-30it6-2JiegJOHJEfOy.png"
+            ],
+            "publishedAt": "2025-05-21T02:59:14.000Z",
+            "submittedOnDailyAt": "2025-05-22T01:48:05.988Z",
+            "title": "Diffusion vs. Autoregressive Language Models: A Text Embedding\n  Perspective",
+            "submittedOnDailyBy": {
+                "_id": "638f1803c67af472d317a922",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638f1803c67af472d317a922/9BMVXqHa-AsdZPmBprcbd.jpeg",
+                "isPro": false,
+                "fullname": "siyue zhang",
+                "user": "siyue",
+                "type": "user"
+            },
+            "summary": "Large language model (LLM)-based embedding models, benefiting from large\nscale pre-training and post-training, have begun to surpass BERT and T5-based\nmodels on general-purpose text embedding tasks such as document retrieval.\nHowever, a fundamental limitation of LLM embeddings lies in the unidirectional\nattention used during autoregressive pre-training, which misaligns with the\nbidirectional nature of text embedding tasks. To this end, We propose adopting\ndiffusion language models for text embeddings, motivated by their inherent\nbidirectional architecture and recent success in matching or surpassing LLMs\nespecially on reasoning tasks. We present the first systematic study of the\ndiffusion language embedding model, which outperforms the LLM-based embedding\nmodel by 20% on long-document retrieval, 8% on reasoning-intensive retrieval,\n2% on instruction-following retrieval, and achieve competitive performance on\ntraditional text embedding benchmarks. Our analysis verifies that bidirectional\nattention is crucial for encoding global context in long and complex text.",
+            "upvotes": 33,
+            "discussionId": "682e9673d28d9650c90db154",
+            "ai_summary": "Diffusion language models outperform large language model embeddings in text retrieval tasks due to their bidirectional architecture.",
+            "ai_keywords": [
+                "large language model (LLM)",
+                "diffusion language models",
+                "unidirectional attention",
+                "bidirectional attention",
+                "document retrieval",
+                "reasoning-intensive retrieval",
+                "instruction-following retrieval",
+                "text embedding benchmarks"
+            ]
+        },
+        "translation_title": "확산 모델 vs. 자기 회귀 언어 모델: 텍스트 임베딩 관점",
+        "purpose": "자기 회귀 모델의 한계를 극복하고 텍스트 임베딩 작업의 성능을 개선하기 위해 확산 언어 모델을 제안함.",
+        "method": [
+            "확산 언어 모델을 텍스트 임베딩에 적용할 것을 제안함(We propose adopting diffusion language models for text embeddings, motivated by their inherent bidirectional architecture.)",
+            "확산 언어 임베딩 모델에 대한 첫 번째 체계적인 연구를 수행하여 LLM 기반 임베딩 모델보다 20% 향상된 단기 문서 검색 성능을 기록함(We present the first systematic study of the diffusion language embedding model, which outperforms the LLM-based embedding model by 20% on long-document retrieval.)",
+            "비교적 전통적인 텍스트 임베딩 기준에서도 경쟁력 있는 성과를 달성함(achieve competitive performance on traditional text embedding benchmarks.)"
+        ],
+        "conclusion": "확산 언어 모델이 텍스트 임베딩에서 더 나은 성과를 내며, 이의 양방향 주의는 긴 문서에서의 전반적인 맥락 인코딩에 필수적임을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    }
+]
