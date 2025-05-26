@@ -1,0 +1,638 @@
+[
+    {
+        "paper": {
+            "id": "2505.18125",
+            "authors": [
+                {
+                    "_id": "6833f8b419852283c4b3bbd6",
+                    "user": {
+                        "_id": "60d84af7eac5e05d4594f010",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60d84af7eac5e05d4594f010/KnGxUR7OUOAGg0S67tRaY.png",
+                        "isPro": false,
+                        "fullname": "Alan Arazi",
+                        "user": "alana89",
+                        "type": "user"
+                    },
+                    "name": "Alan Arazi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T14:07:38.679Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833f8b419852283c4b3bbd7",
+                    "user": {
+                        "_id": "64802fb6c57f629056c59966",
+                        "avatarUrl": "/avatars/d5ecabaceeba759969855acf512b6649.svg",
+                        "isPro": false,
+                        "fullname": "Eilam Shapira",
+                        "user": "EilamSha",
+                        "type": "user"
+                    },
+                    "name": "Eilam Shapira",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:09:08.206Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833f8b419852283c4b3bbd8",
+                    "name": "Roi Reichart",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-23T17:34:28.000Z",
+            "submittedOnDailyAt": "2025-05-26T03:50:53.260Z",
+            "title": "TabSTAR: A Foundation Tabular Model With Semantically Target-Aware\n  Representations",
+            "submittedOnDailyBy": {
+                "_id": "64802fb6c57f629056c59966",
+                "avatarUrl": "/avatars/d5ecabaceeba759969855acf512b6649.svg",
+                "isPro": false,
+                "fullname": "Eilam Shapira",
+                "user": "EilamSha",
+                "type": "user"
+            },
+            "summary": "While deep learning has achieved remarkable success across many domains, it\nhas historically underperformed on tabular learning tasks, which remain\ndominated by gradient boosting decision trees (GBDTs). However, recent\nadvancements are paving the way for Tabular Foundation Models, which can\nleverage real-world knowledge and generalize across diverse datasets,\nparticularly when the data contains free-text. Although incorporating language\nmodel capabilities into tabular tasks has been explored, most existing methods\nutilize static, target-agnostic textual representations, limiting their\neffectiveness. We introduce TabSTAR: a Foundation Tabular Model with\nSemantically Target-Aware Representations. TabSTAR is designed to enable\ntransfer learning on tabular data with textual features, with an architecture\nfree of dataset-specific parameters. It unfreezes a pretrained text encoder and\ntakes as input target tokens, which provide the model with the context needed\nto learn task-specific embeddings. TabSTAR achieves state-of-the-art\nperformance for both medium- and large-sized datasets across known benchmarks\nof classification tasks with text features, and its pretraining phase exhibits\nscaling laws in the number of datasets, offering a pathway for further\nperformance improvements.",
+            "upvotes": 85,
+            "discussionId": "6833f8b419852283c4b3bc02",
+            "projectPage": "https://eilamshapira.com/TabSTAR",
+            "ai_summary": "TabSTAR, a tabular foundation model with semantically target-aware representations, achieves state-of-the-art performance in classification tasks with text features through transfer learning without dataset-specific parameters.",
+            "ai_keywords": [
+                "TabSTAR",
+                "foundation tabular model",
+                "semantically target-aware representations",
+                "transfer learning",
+                "pretrained text encoder",
+                "target tokens",
+                "task-specific embeddings",
+                "scaling laws"
+            ]
+        },
+        "translation_title": "TabSTAR: 의미적으로 타겟을 인식하는 기초 표 형식 모델",
+        "purpose": "표 형식 데이터에서 텍스트 특성을 활용하여 전이 학습을 가능하게 하고, 기존 방법의 한계를 극복하기 위함",
+        "method": [
+            "기본적인 텍스트 인코더를 사용해 타겟 토큰을 입력으로 받아 작업 특화 임베딩을 학습함(We introduce TabSTAR: a Foundation Tabular Model with Semantically Target-Aware Representations.)",
+            "세미타겟 인식 표현을 통해 데이터셋에 구애받지 않는 구조를 설계 함(TabSTAR is designed to enable transfer learning on tabular data with textual features, with an architecture free of dataset-specific parameters.)",
+            "TabSTAR가 다양한 데이터셋에서 높은 성능을 달성하고 전이 학습 과정에서 데이터셋 수에 대한 스케일링 법칙을 보임(TabSTAR achieves state-of-the-art performance for both medium- and large-sized datasets across known benchmarks of classification tasks with text features, and its pretraining phase exhibits scaling laws in the number of datasets.)"
+        ],
+        "conclusion": "TabSTAR는 텍스트 특성을 가진 표 형식 데이터에서 최신 성능을 달성하며, 향후 성능 향상을 위한 경로를 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Classification"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.17667",
+            "authors": [
+                {
+                    "_id": "6833d7c5a3262d6b1e4d358e",
+                    "user": {
+                        "_id": "62ecbffd99112e99c5f7fded",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecbffd99112e99c5f7fded/U6iXAJbpm2vaC5qksEPiH.png",
+                        "isPro": false,
+                        "fullname": "Fanqi Wan",
+                        "user": "Wanfq",
+                        "type": "user"
+                    },
+                    "name": "Fanqi Wan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:09:44.880Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d358f",
+                    "user": {
+                        "_id": "64777a346e6c7ac608c1e9bf",
+                        "avatarUrl": "/avatars/b0e65ba781c90c2560606eb5467101eb.svg",
+                        "isPro": false,
+                        "fullname": "Weizhou Shen",
+                        "user": "shenwzh3",
+                        "type": "user"
+                    },
+                    "name": "Weizhou Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:12:42.577Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3590",
+                    "user": {
+                        "_id": "64a69c1a9704e9888c1da827",
+                        "avatarUrl": "/avatars/096aefab0ca99af76097cdfc5e752402.svg",
+                        "isPro": false,
+                        "fullname": "LiaoShengyi",
+                        "user": "LsyLsyLsyyy",
+                        "type": "user"
+                    },
+                    "name": "Shengyi Liao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:12:56.397Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3591",
+                    "name": "Yingcheng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3592",
+                    "user": {
+                        "_id": "645df9a28c179ee09e156876",
+                        "avatarUrl": "/avatars/2171aac5196b4a68776174ca921912c9.svg",
+                        "isPro": false,
+                        "fullname": "li",
+                        "user": "chenliangli",
+                        "type": "user"
+                    },
+                    "name": "Chenliang Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:13:23.931Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3593",
+                    "user": {
+                        "_id": "64c9b0f28d2d187c24d1e6c1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/1CPnAaB3gsupdpiNWaoDc.png",
+                        "isPro": false,
+                        "fullname": "ZiYi Yang",
+                        "user": "AALF",
+                        "type": "user"
+                    },
+                    "name": "Ziyi Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:13:43.167Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3594",
+                    "name": "Ji Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3595",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3596",
+                    "user": {
+                        "_id": "602f88f5e8149a962412a667",
+                        "avatarUrl": "/avatars/b78f0e583df8e5d5e3365934fe5f4900.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "Jingren",
+                        "type": "user"
+                    },
+                    "name": "Jingren Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:14:03.511Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833d7c5a3262d6b1e4d3597",
+                    "name": "Ming Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-23T09:31:55.000Z",
+            "submittedOnDailyAt": "2025-05-26T03:36:36.885Z",
+            "title": "QwenLong-L1: Towards Long-Context Large Reasoning Models with\n  Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "62ecbffd99112e99c5f7fded",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecbffd99112e99c5f7fded/U6iXAJbpm2vaC5qksEPiH.png",
+                "isPro": false,
+                "fullname": "Fanqi Wan",
+                "user": "Wanfq",
+                "type": "user"
+            },
+            "summary": "Recent large reasoning models (LRMs) have demonstrated strong reasoning\ncapabilities through reinforcement learning (RL). These improvements have\nprimarily been observed within the short-context reasoning tasks. In contrast,\nextending LRMs to effectively process and reason on long-context inputs via RL\nremains a critical unsolved challenge. To bridge this gap, we first formalize\nthe paradigm of long-context reasoning RL, and identify key challenges in\nsuboptimal training efficiency and unstable optimization process. To address\nthese issues, we propose QwenLong-L1, a framework that adapts short-context\nLRMs to long-context scenarios via progressive context scaling. Specifically,\nwe utilize a warm-up supervised fine-tuning (SFT) stage to establish a robust\ninitial policy, followed by a curriculum-guided phased RL technique to\nstabilize the policy evolution, and enhanced with a difficulty-aware\nretrospective sampling strategy to incentivize the policy exploration.\nExperiments on seven long-context document question-answering benchmarks\ndemonstrate that QwenLong-L1-32B outperforms flagship LRMs like OpenAI-o3-mini\nand Qwen3-235B-A22B, achieving performance on par with\nClaude-3.7-Sonnet-Thinking, demonstrating leading performance among\nstate-of-the-art LRMs. This work advances the development of practical\nlong-context LRMs capable of robust reasoning across information-intensive\nenvironments.",
+            "upvotes": 52,
+            "discussionId": "6833d7c6a3262d6b1e4d35c5",
+            "githubRepo": "https://github.com/Tongyi-Zhiwen/QwenLong-L1",
+            "ai_summary": "A framework called QwenLong-L1 enhances large reasoning models for long-context reasoning through reinforcement learning, achieving leading performance on document question-answering benchmarks.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "long-context reasoning",
+                "short-context reasoning",
+                "training efficiency",
+                "optimization process",
+                "QwenLong-L1",
+                "progressive context scaling",
+                "supervised fine-tuning",
+                "curriculum-guided phased RL",
+                "difficulty-aware retrospective sampling",
+                "document question-answering benchmarks",
+                "OpenAI-o3-mini",
+                "Qwen3-235B-A22B",
+                "Claude-3.7-Sonnet-Thinking"
+            ]
+        },
+        "translation_title": "QwenLong-L1: 장기 컨텍스트 대규모 추론 모델을 위한 강화 학습",
+        "purpose": "장기 컨텍스트 입력에 대해 효과적으로 처리하고 추론하는 방법을 연구하여 대규모 추론 모델의 한계를 극복하기 위함.",
+        "method": [
+            "장기 컨텍스트 추론을 위한 RL 패러다임을 공식화하고 주요 문제점을 식별함(To bridge this gap, we first formalize the paradigm of long-context reasoning RL, and identify key challenges in suboptimal training efficiency and unstable optimization process.)",
+            "짧은 컨텍스트 LRM을 장기 컨텍스트 시나리오에 적응시키기 위해 QwenLong-L1 프레임워크를 제안함(To address these issues, we propose QwenLong-L1, a framework that adapts short-context LRMs to long-context scenarios via progressive context scaling.)",
+            "훈련된 정책을 안정화하기 위해 커리큘럼 기반 단계 RL 기법을 적용함(Specifically, we utilize a warm-up supervised fine-tuning (SFT) stage to establish a robust initial policy, followed by a curriculum-guided phased RL technique to stabilize the policy evolution.)"
+        ],
+        "conclusion": "QwenLong-L1은 기존 LRM들을 능가하며 정보 밀집 환경에서 강력한 추론 능력을 제공하는 장기 컨텍스트 LRM 개발에 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.18129",
+            "authors": [
+                {
+                    "_id": "6833cf89df7cbb5c087a4caa",
+                    "name": "Yan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cab",
+                    "name": "Linge Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cac",
+                    "user": {
+                        "_id": "642e4d4d6748dd4f8eeb7732",
+                        "avatarUrl": "/avatars/fd911e9143d1a7aedd21a7d611543fcc.svg",
+                        "isPro": false,
+                        "fullname": "Xuyang Shen",
+                        "user": "Ryan1122",
+                        "type": "user"
+                    },
+                    "name": "Xuyang Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:10:03.920Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cad",
+                    "user": {
+                        "_id": "6829f5feb461b85f5dd0f036",
+                        "avatarUrl": "/avatars/a1308c337ee366ad06819cbd81dbdcb3.svg",
+                        "isPro": false,
+                        "fullname": "shaoxiang",
+                        "user": "chenshaoxiang1",
+                        "type": "user"
+                    },
+                    "name": "Shaoxiang Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:27:11.208Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cae",
+                    "name": "Pengfei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4caf",
+                    "user": {
+                        "_id": "642cede11f576acdab6520e8",
+                        "avatarUrl": "/avatars/95c57579beea2bfe703380a370dc2322.svg",
+                        "isPro": false,
+                        "fullname": "renqibing",
+                        "user": "renqibing",
+                        "type": "user"
+                    },
+                    "name": "Qibing Ren",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:26:48.219Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cb0",
+                    "name": "Lizhuang Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cb1",
+                    "user": {
+                        "_id": "647df7670ed7d0c8760b00ed",
+                        "avatarUrl": "/avatars/180dfa736af2aac64cb459ee4563dc61.svg",
+                        "isPro": false,
+                        "fullname": "Yuchao Dai",
+                        "user": "daiyuchao",
+                        "type": "user"
+                    },
+                    "name": "Yuchao Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:26:30.646Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cb2",
+                    "user": {
+                        "_id": "6144a0c4ff1146bbd84d9865",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661715958139-6144a0c4ff1146bbd84d9865.png",
+                        "isPro": false,
+                        "fullname": "Pengfei Liu",
+                        "user": "Pengfei",
+                        "type": "user"
+                    },
+                    "name": "Pengfei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:26:36.896Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833cf89df7cbb5c087a4cb3",
+                    "name": "Junjie Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-23T17:41:14.000Z",
+            "submittedOnDailyAt": "2025-05-26T00:54:44.420Z",
+            "title": "One RL to See Them All: Visual Triple Unified Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "642e4d4d6748dd4f8eeb7732",
+                "avatarUrl": "/avatars/fd911e9143d1a7aedd21a7d611543fcc.svg",
+                "isPro": false,
+                "fullname": "Xuyang Shen",
+                "user": "Ryan1122",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning (RL) has significantly advanced the reasoning\ncapabilities of vision-language models (VLMs). However, the use of RL beyond\nreasoning tasks remains largely unexplored, especially for perceptionintensive\ntasks like object detection and grounding. We propose V-Triune, a Visual Triple\nUnified Reinforcement Learning system that enables VLMs to jointly learn visual\nreasoning and perception tasks within a single training pipeline. V-Triune\ncomprises triple complementary components: Sample-Level Data Formatting (to\nunify diverse task inputs), Verifier-Level Reward Computation (to deliver\ncustom rewards via specialized verifiers) , and Source-Level Metric Monitoring\n(to diagnose problems at the data-source level). We further introduce a novel\nDynamic IoU reward, which provides adaptive, progressive, and definite feedback\nfor perception tasks handled by V-Triune. Our approach is instantiated within\noff-the-shelf RL training framework using open-source 7B and 32B backbone\nmodels. The resulting model, dubbed Orsta (One RL to See Them All),\ndemonstrates consistent improvements across both reasoning and perception\ntasks. This broad capability is significantly shaped by its training on a\ndiverse dataset, constructed around four representative visual reasoning tasks\n(Math, Puzzle, Chart, and Science) and four visual perception tasks (Grounding,\nDetection, Counting, and OCR). Subsequently, Orsta achieves substantial gains\non MEGA-Bench Core, with improvements ranging from +2.1 to an impressive +14.1\nacross its various 7B and 32B model variants, with performance benefits\nextending to a wide range of downstream tasks. These results highlight the\neffectiveness and scalability of our unified RL approach for VLMs. The V-Triune\nsystem, along with the Orsta models, is publicly available at\nhttps://github.com/MiniMax-AI.",
+            "upvotes": 45,
+            "discussionId": "6833cf8adf7cbb5c087a4d0c",
+            "githubRepo": "https://github.com/MiniMax-AI/One-RL-to-See-Them-All",
+            "ai_summary": "A unified reinforcement learning system, V-Triune, combines visual reasoning and perception tasks in vision-language models through a single training pipeline, achieving significant improvements across various tasks.",
+            "ai_keywords": [
+                "visual triple unified reinforcement learning",
+                "sample-level data formatting",
+                "verifier-level reward computation",
+                "source-level metric monitoring",
+                "dynamic IoU reward",
+                "reinforcement learning",
+                "vision-language models",
+                "object detection",
+                "grounding",
+                "Orsta",
+                "MEGA-Bench Core"
+            ]
+        },
+        "translation_title": "모든 것을 보기 위한 하나의 RL: Visual Triple Unified Reinforcement Learning",
+        "purpose": "시각-언어 모델(VLM)이 시각적 추론과 인식 작업을 동시에 학습할 수 있도록 하는 RL 시스템 개발",
+        "method": [
+            "V-Triune이라는 시스템을 제안하여 다양한 작업 입력을 통합하는 Sample-Level Data Formatting을 구현함(Reinforcement learning (RL) has significantly advanced the reasoning capabilities of vision-language models (VLMs). We propose V-Triune, a Visual Triple Unified Reinforcement Learning system that enables VLMs to jointly learn visual reasoning and perception tasks within a single training pipeline.)",
+            "전문 검증기를 통한 맞춤형 보상을 제공하는 Verifier-Level Reward Computation을 포함함(V-Triune comprises triple complementary components: Sample-Level Data Formatting, Verifier-Level Reward Computation, and Source-Level Metric Monitoring.)",
+            "V-Triune이 다루는 인식 작업에 대한 적응형 피드백을 제공하는 Dynamic IoU 보상을 도입함(We further introduce a novel Dynamic IoU reward, which provides adaptive, progressive, and definite feedback for perception tasks handled by V-Triune.)"
+        ],
+        "conclusion": "V-Triune으로 훈련된 Orsta 모델은 추론과 인식 작업에서 일관된 개선을 보였으며, 다양한 데이터셋에서 훈련하여 성능 이득을 기록함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.17225",
+            "authors": [
+                {
+                    "_id": "6833c65d49b9e903d3ddbd11",
+                    "user": {
+                        "_id": "62845957b410bd779033759c",
+                        "avatarUrl": "/avatars/4feef73c06f2f7de6abf7a4789ac13f9.svg",
+                        "isPro": false,
+                        "fullname": "Doohyuk Jang",
+                        "user": "jadohu",
+                        "type": "user"
+                    },
+                    "name": "Doohyuk Jang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:10:25.026Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833c65d49b9e903d3ddbd12",
+                    "user": {
+                        "_id": "61b15ce1a5dd7dc7024406dc",
+                        "avatarUrl": "/avatars/682ce5ee7d2fec7180dc8e1144cd12ab.svg",
+                        "isPro": false,
+                        "fullname": "Yoonjeon Kim",
+                        "user": "yjyjyj98",
+                        "type": "user"
+                    },
+                    "name": "Yoonjeon Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:10:27.112Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833c65d49b9e903d3ddbd13",
+                    "name": "Chanjae Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833c65d49b9e903d3ddbd14",
+                    "user": {
+                        "_id": "666d506fc0f3d5afc24dd5ca",
+                        "avatarUrl": "/avatars/eeb98947415d08a26815fd139c76a071.svg",
+                        "isPro": false,
+                        "fullname": "Hyun Ryu",
+                        "user": "hyun1905",
+                        "type": "user"
+                    },
+                    "name": "Hyun Ryu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:24:47.602Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6833c65d49b9e903d3ddbd15",
+                    "name": "Eunho Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-22T19:00:01.000Z",
+            "submittedOnDailyAt": "2025-05-26T00:11:09.797Z",
+            "title": "Reasoning Model is Stubborn: Diagnosing Instruction Overriding in\n  Reasoning Models",
+            "submittedOnDailyBy": {
+                "_id": "61b15ce1a5dd7dc7024406dc",
+                "avatarUrl": "/avatars/682ce5ee7d2fec7180dc8e1144cd12ab.svg",
+                "isPro": false,
+                "fullname": "Yoonjeon Kim",
+                "user": "yjyjyj98",
+                "type": "user"
+            },
+            "summary": "Large language models have demonstrated remarkable proficiency in long and\ncomplex reasoning tasks. However, they frequently exhibit a problematic\nreliance on familiar reasoning patterns, a phenomenon we term reasoning\nrigidity. Despite explicit instructions from users, these models often\noverride clearly stated conditions and default to habitual reasoning\ntrajectories, leading to incorrect conclusions. This behavior presents\nsignificant challenges, particularly in domains such as mathematics and logic\npuzzle, where precise adherence to specified constraints is critical. To\nsystematically investigate reasoning rigidity, a behavior largely unexplored in\nprior work, we introduce a expert-curated diagnostic set, . Our\ndataset includes specially modified variants of existing mathematical\nbenchmarks, namely AIME and MATH500, as well as well-known puzzles deliberately\nredesigned to require deviation from familiar reasoning strategies. Using this\ndataset, we identify recurring contamination patterns that occur when models\ndefault to ingrained reasoning. Specifically, we categorize this contamination\ninto three distinctive modes: (i) Interpretation Overload, (ii) Input Distrust,\nand (iii) Partial Instruction Attention, each causing models to ignore or\ndistort provided instructions. We publicly release our diagnostic set to\nfacilitate future research on mitigating reasoning rigidity in language models.",
+            "upvotes": 45,
+            "discussionId": "6833c65e49b9e903d3ddbd6a",
+            "projectPage": "https://reasoningtrap.github.io/",
+            "githubRepo": "https://github.com/ReasoningTrap/ReasoningTrap",
+            "ai_summary": "A diagnostic set examines and categorizes reasoning rigidity in large language models, identifying patterns where models ignore instructions and default to familiar reasoning.",
+            "ai_keywords": [
+                "reasoning rigidity",
+                "large language models",
+                "long and complex reasoning tasks",
+                "reasoning trajectories",
+                "diagnostic set",
+                "AIME",
+                "MATH500",
+                "Interpretation Overload",
+                "Input Distrust",
+                "Partial Instruction Attention"
+            ]
+        },
+        "translation_title": "Reasoning Model의 강한 고집: Reasoning Models에서 Instruction Overriding 진단하기",
+        "purpose": "Reasoning Models에서 사용자의 지침을 무시하고 고정된 사고 방식으로 잘못된 결론에 도달하는 현상인 reasoning rigidity를 진단 및 연구하기 위함.",
+        "method": [
+            "전문가가 선별한 진단 세트를 도입하여 reasoning rigidity를 체계적으로 조사함(we introduce an expert-curated diagnostic set, ).",
+            "AIME 및 MATH500와 같은 기존 수학 벤치마크의 변형된 버전을 포함하고, 친숙한 추론 전략에서 벗어나도록 재설계된 퍼즐도 포함함(Our dataset includes specially modified variants of existing mathematical benchmarks, namely AIME and MATH500, as well as well-known puzzles deliberately redesigned to require deviation from familiar reasoning strategies).",
+            "이 데이터셋을 사용하여 모델이 고정된 추론으로 기본적으로 돌아갈 때 발생하는 오염 패턴을 식별함(Using this dataset, we identify recurring contamination patterns that occur when models default to ingrained reasoning).",
+            "오염을 세 가지 모드(Interpretation Overload, Input Distrust, Partial Instruction Attention)로 분류하고 각 모드가 어떻게 사용자의 지시를 무시하거나 왜곡하게 하는지 분석함(we categorize this contamination into three distinctive modes: (i) Interpretation Overload, (ii) Input Distrust, and (iii) Partial Instruction Attention)."
+        ],
+        "conclusion": "이 연구를 통해 Reasoning Models의 지침 무시 현상에 대한 이해를 높이고, 향후 언어 모델에서 reasoning rigidity를 완화하는 연구에 기여하기 위한 진단 세트를 공개함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.14669",
+            "authors": [
+                {
+                    "_id": "682da9d3781210358218a950",
+                    "name": "Roberto L. Castro",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a951",
+                    "user": {
+                        "_id": "623753b5eddd7763adc9346a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623753b5eddd7763adc9346a/rcpQAKZNrkn1-tMtraQBX.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrei Panferov",
+                        "user": "BlackSamorez",
+                        "type": "user"
+                    },
+                    "name": "Andrei Panferov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T14:07:46.802Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a952",
+                    "user": {
+                        "_id": "632a2e325f2ff1958c0103be",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/632a2e325f2ff1958c0103be/Tb0ql9e4LcaFktTK1hzqe.jpeg",
+                        "isPro": false,
+                        "fullname": "Soroush Tabesh",
+                        "user": "soroushtabesh",
+                        "type": "user"
+                    },
+                    "name": "Soroush Tabesh",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:25:12.072Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a953",
+                    "user": {
+                        "_id": "659ddfb45673a33b5db22d57",
+                        "avatarUrl": "/avatars/ae1dce603b4cae2659d6070e8ce98b15.svg",
+                        "isPro": false,
+                        "fullname": "Oliver Sieberling",
+                        "user": "OliverSieberling",
+                        "type": "user"
+                    },
+                    "name": "Oliver Sieberling",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:25:18.736Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a954",
+                    "name": "Jiale Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a955",
+                    "user": {
+                        "_id": "6526b8ebba9a8279c139616b",
+                        "avatarUrl": "/avatars/09f6b677603a03be128996a0765233e6.svg",
+                        "isPro": false,
+                        "fullname": "Mahdi Nikdan",
+                        "user": "mnikdan97",
+                        "type": "user"
+                    },
+                    "name": "Mahdi Nikdan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:25:45.476Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a956",
+                    "name": "Saleh Ashkboos",
+                    "hidden": false
+                },
+                {
+                    "_id": "682da9d3781210358218a957",
+                    "user": {
+                        "_id": "64d100c5d8d0927372e3d4c0",
+                        "avatarUrl": "/avatars/91d9e4f1dab25b70d901783cdfcd2fd1.svg",
+                        "isPro": false,
+                        "fullname": "Dan Alistarh",
+                        "user": "dalistarh",
+                        "type": "user"
+                    },
+                    "name": "Dan Alistarh",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-26T14:25:55.295Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/623753b5eddd7763adc9346a/N9QxR8-CzRd2UcOj9uwRR.png"
+            ],
+            "publishedAt": "2025-05-20T17:55:50.000Z",
+            "submittedOnDailyAt": "2025-05-26T08:34:57.302Z",
+            "title": "Quartet: Native FP4 Training Can Be Optimal for Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "623753b5eddd7763adc9346a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623753b5eddd7763adc9346a/rcpQAKZNrkn1-tMtraQBX.jpeg",
+                "isPro": false,
+                "fullname": "Andrei Panferov",
+                "user": "BlackSamorez",
+                "type": "user"
+            },
+            "summary": "The rapid advancement of large language models (LLMs) has been paralleled by\nunprecedented increases in computational demands, with training costs for\nstate-of-the-art models doubling every few months. Training models directly in\nlow-precision arithmetic offers a solution, by improving both computational\nthroughput and energy efficiency. Specifically, NVIDIA's recent Blackwell\narchitecture facilitates extremely low-precision operations, specifically FP4\nvariants, promising substantial efficiency gains. Yet, current algorithms for\ntraining LLMs in FP4 precision face significant accuracy degradation and often\nrely on mixed-precision fallbacks. In this paper, we systematically investigate\nhardware-supported FP4 training and introduce Quartet, a new approach enabling\naccurate, end-to-end FP4 training with all the major computations (in e.g.\nlinear layers) being performed in low precision. Through extensive evaluations\non Llama-type models, we reveal a new low-precision scaling law that quantifies\nperformance trade-offs across varying bit-widths and allows us to identify a\n\"near-optimal\" low-precision training technique in terms of\naccuracy-vs-computation, called Quartet. We implement Quartet using optimized\nCUDA kernels tailored for NVIDIA Blackwell GPUs, and show that it can achieve\nstate-of-the-art accuracy for FP4 precision, successfully training\nbillion-scale models. Our method demonstrates that fully FP4-based training is\na competitive alternative to standard-precision and FP8 training. Our code is\navailable at https://github.com/IST-DASLab/Quartet.",
+            "upvotes": 45,
+            "discussionId": "682da9d4781210358218a982",
+            "githubRepo": "https://github.com/IST-DASLab/Quartet",
+            "ai_summary": "Quartet, a hardware-supported FP4 training approach for large language models, demonstrates state-of-the-art accuracy while significantly reducing computational costs compared to standard or FP8 precision.",
+            "ai_keywords": [
+                "large language models",
+                "low-precision arithmetic",
+                "Blackwell architecture",
+                "FP4",
+                "mixed-precision",
+                "linear layers",
+                "low-precision scaling law",
+                "CUDA kernels"
+            ]
+        },
+        "translation_title": "Quartet: 네이티브 FP4 훈련이 대형 언어 모델에 최적일 수 있다",
+        "purpose": "대형 언어 모델의 훈련 비용을 줄이고 효율성을 개선하기 위해 네이티브 FP4 훈련 방식을 연구",
+        "method": [
+            "하드웨어 지원 FP4 훈련을 체계적으로 조사함(We systematically investigate hardware-supported FP4 training.)",
+            "정확한 end-to-end FP4 훈련을 가능하게 하는 Quartet 방법을 도입함(we introduce Quartet, a new approach enabling accurate, end-to-end FP4 training.)",
+            "Llama-type 모델에서 extensive evaluations을 수행하여 FP4 훈련의 성능 저하를 분석함(Through extensive evaluations on Llama-type models, we reveal a new low-precision scaling law.)"
+        ],
+        "conclusion": "Quartet 방법을 통해 FP4 기반 훈련이 표준 정밀도 및 FP8 훈련에 대한 경쟁력 있는 대안임을 입증함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Computer Vision"
+        ]
+    }
+]
