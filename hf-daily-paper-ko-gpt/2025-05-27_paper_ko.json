@@ -1,0 +1,665 @@
+[
+    {
+        "paper": {
+            "id": "2505.17894",
+            "authors": [
+                {
+                    "_id": "683577db7733c0f27e945847",
+                    "user": {
+                        "_id": "65276c7911a8a521c91bc10f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                        "isPro": false,
+                        "fullname": "Khalil Hennara",
+                        "user": "Hennara",
+                        "type": "user"
+                    },
+                    "name": "Khalil Hennara",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-05-27T09:23:49.563Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683577db7733c0f27e945848",
+                    "user": {
+                        "_id": "6496df4b3c64d75523a11973",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6496df4b3c64d75523a11973/I_Qn5-3Czngle-NsGmabO.jpeg",
+                        "isPro": false,
+                        "fullname": "Muhammad Hreden",
+                        "user": "hr99",
+                        "type": "user"
+                    },
+                    "name": "Muhammad Hreden",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T10:03:33.725Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683577db7733c0f27e945849",
+                    "user": {
+                        "_id": "63aa7667769a10efc404fbbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aa7667769a10efc404fbbc/tn8ZxUmTEMS0Gze7_F7JL.jpeg",
+                        "isPro": false,
+                        "fullname": "Mohamed Motasim Hamed",
+                        "user": "Moatasem444",
+                        "type": "user"
+                    },
+                    "name": "Mohamed Motaism Hamed",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-27T08:29:16.168Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683577db7733c0f27e94584a",
+                    "user": {
+                        "_id": "65704741e1cfce1764ce652e",
+                        "avatarUrl": "/avatars/9189aaf417426af4ebe381ed364a6c0e.svg",
+                        "isPro": false,
+                        "fullname": "Zeina Aldallal",
+                        "user": "ZeinaD",
+                        "type": "user"
+                    },
+                    "name": "Zeina Aldallal",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-27T08:29:16.168Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683577db7733c0f27e94584b",
+                    "name": "Sara Chrouf",
+                    "hidden": false
+                },
+                {
+                    "_id": "683577db7733c0f27e94584c",
+                    "name": "Safwan AlModhayan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-23T13:42:21.000Z",
+            "submittedOnDailyAt": "2025-05-27T07:07:04.517Z",
+            "title": "Mutarjim: Advancing Bidirectional Arabic-English Translation with a\n  Small Language Model",
+            "submittedOnDailyBy": {
+                "_id": "65276c7911a8a521c91bc10f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                "isPro": false,
+                "fullname": "Khalil Hennara",
+                "user": "Hennara",
+                "type": "user"
+            },
+            "summary": "We introduce Mutarjim, a compact yet powerful language model for\nbidirectional Arabic-English translation. While large-scale LLMs have shown\nimpressive progress in natural language processing tasks, including machine\ntranslation, smaller models. Leveraging this insight, we developed Mutarjim\nbased on Kuwain-1.5B , a language model tailored for both Arabic and English.\nDespite its modest size, Mutarjim outperforms much larger models on several\nestablished benchmarks, achieved through an optimized two-phase training\napproach and a carefully curated, high-quality training corpus.. Experimental\nresults show that Mutarjim rivals models up to 20 times larger while\nsignificantly reducing computational costs and training requirements. We also\nintroduce Tarjama-25, a new benchmark designed to overcome limitations in\nexisting Arabic-English benchmarking datasets, such as domain narrowness, short\nsentence lengths, and English-source bias. Tarjama-25 comprises 5,000\nexpert-reviewed sentence pairs and spans a wide range of domains, offering a\nmore comprehensive and balanced evaluation framework. Notably, Mutarjim\nachieves state-of-the-art performance on the English-to-Arabic task in\nTarjama-25, surpassing even significantly larger and proprietary models like\nGPT-4o mini. We publicly release Tarjama-25 to support future research and\nadvance the evaluation of Arabic-English translation systems.",
+            "upvotes": 149,
+            "discussionId": "683577dc7733c0f27e94588d",
+            "ai_summary": "Mutarjim is a compact Arabic-English translation model that outperforms larger models on established benchmarks and achieves state-of-the-art performance on a new comprehensive Tarjama-25 benchmark.",
+            "ai_keywords": [
+                "language model",
+                "bidirectional Arabic-English translation",
+                "LLMs",
+                "Kuwain-1.5B",
+                "two-phase training",
+                "high-quality training corpus",
+                "Tarjama-25",
+                "domain narrowness",
+                "English-source bias",
+                "GPT-4"
+            ]
+        },
+        "translation_title": "Mutarjim: 소형 언어 모델을 통한 아랍어-영어 양방향 번역 향상",
+        "purpose": "소형 언어 모델을 이용해 아랍어-영어 번역 성능을 개선하기 위한 연구",
+        "method": [
+            "Kuwain-1.5B를 기반으로 한 Mutarjim 모델을 개발함(We developed Mutarjim based on Kuwain-1.5B, a language model tailored for both Arabic and English.)",
+            "최적화된 2단계 훈련 방법과 고품질 훈련 코퍼스를 활용함(achieved through an optimized two-phase training approach and a carefully curated, high-quality training corpus.)",
+            "새로운 벤치마크 Tarjama-25를 도입하여 기존 데이터 세트의 한계를 극복함(We also introduce Tarjama-25, a new benchmark designed to overcome limitations in existing Arabic-English benchmarking datasets.)"
+        ],
+        "conclusion": "Mutarjim은 Tarjama-25에서 아랍어-영어 번역 작업에서 최신 성능을 달성하며, 대규모 모델에 비해 상당히 낮은 계산 비용과 훈련 요구 사항을 소모함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.19147",
+            "authors": [
+                {
+                    "_id": "68353258d005e45149d2d384",
+                    "user": {
+                        "_id": "66a0caa1a7a6ed88ad1c0ddf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a0caa1a7a6ed88ad1c0ddf/WoOP24-ruuHy4ryNhRp0D.jpeg",
+                        "isPro": false,
+                        "fullname": "Xuyang Liu",
+                        "user": "xuyang-liu16",
+                        "type": "user"
+                    },
+                    "name": "Xuyang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T08:23:05.932Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d385",
+                    "user": {
+                        "_id": "653b8c3e97a4d71d950e2f20",
+                        "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                        "isPro": false,
+                        "fullname": "Zichen Wen",
+                        "user": "zichenwen",
+                        "type": "user"
+                    },
+                    "name": "Zichen Wen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:50:45.710Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d386",
+                    "user": {
+                        "_id": "66968099c952e09a4cb29f78",
+                        "avatarUrl": "/avatars/bd3a361fe5315e26e9ae328071704eed.svg",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Steven-Shaobo",
+                        "type": "user"
+                    },
+                    "name": "Shaobo Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:50:41.853Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d387",
+                    "user": {
+                        "_id": "652f8642338c761caf474169",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/mq5jjqqNaFxVboWGDEocJ.jpeg",
+                        "isPro": false,
+                        "fullname": "Junjie Chen",
+                        "user": "coderchen01",
+                        "type": "user"
+                    },
+                    "name": "Junjie Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:50:48.148Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d388",
+                    "user": {
+                        "_id": "679f280ffb07d74f084520b6",
+                        "avatarUrl": "/avatars/b378000f68c7faf8d4fee8074dd2db5b.svg",
+                        "isPro": false,
+                        "fullname": "Zhishan Tao",
+                        "user": "Pppeach33",
+                        "type": "user"
+                    },
+                    "name": "Zhishan Tao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:50:43.758Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d389",
+                    "name": "Yubo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38a",
+                    "user": {
+                        "_id": "64abcbfde144ba0eb9bb8419",
+                        "avatarUrl": "/avatars/6ccea0e755bad384aaabd5c455bd962e.svg",
+                        "isPro": false,
+                        "fullname": "Xiangqi Jin",
+                        "user": "Lueci4er",
+                        "type": "user"
+                    },
+                    "name": "Xiangqi Jin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T08:21:21.961Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38b",
+                    "name": "Chang Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38c",
+                    "name": "Yiyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38d",
+                    "name": "Chenfei Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38e",
+                    "name": "Xu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d38f",
+                    "name": "Honggang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d390",
+                    "name": "Weijia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d391",
+                    "name": "Xuming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d392",
+                    "user": {
+                        "_id": "63f9fca8d4349b157a109eec",
+                        "avatarUrl": "/avatars/fa1f2ae7972d7cde99dab178136ccbb0.svg",
+                        "isPro": false,
+                        "fullname": "Conghui He",
+                        "user": "conghui",
+                        "type": "user"
+                    },
+                    "name": "Conghui He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T08:22:15.329Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68353258d005e45149d2d393",
+                    "user": {
+                        "_id": "642ec9831d1737803dc1c30a",
+                        "avatarUrl": "/avatars/c9ded838bad09004c15a27200e66a108.svg",
+                        "isPro": false,
+                        "fullname": "linfeng zhang",
+                        "user": "linfengZ",
+                        "type": "user"
+                    },
+                    "name": "Linfeng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T08:22:07.787Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-25T13:51:17.000Z",
+            "submittedOnDailyAt": "2025-05-27T02:06:05.849Z",
+            "title": "Shifting AI Efficiency From Model-Centric to Data-Centric Compression",
+            "submittedOnDailyBy": {
+                "_id": "653b8c3e97a4d71d950e2f20",
+                "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                "isPro": false,
+                "fullname": "Zichen Wen",
+                "user": "zichenwen",
+                "type": "user"
+            },
+            "summary": "The rapid advancement of large language models (LLMs) and multi-modal LLMs\n(MLLMs) has historically relied on model-centric scaling through increasing\nparameter counts from millions to hundreds of billions to drive performance\ngains. However, as we approach hardware limits on model size, the dominant\ncomputational bottleneck has fundamentally shifted to the quadratic cost of\nself-attention over long token sequences, now driven by ultra-long text\ncontexts, high-resolution images, and extended videos. In this position paper,\nwe argue that the focus of research for efficient AI is shifting from\nmodel-centric compression to data-centric compression. We position token\ncompression as the new frontier, which improves AI efficiency via reducing the\nnumber of tokens during model training or inference. Through comprehensive\nanalysis, we first examine recent developments in long-context AI across\nvarious domains and establish a unified mathematical framework for existing\nmodel efficiency strategies, demonstrating why token compression represents a\ncrucial paradigm shift in addressing long-context overhead. Subsequently, we\nsystematically review the research landscape of token compression, analyzing\nits fundamental benefits and identifying its compelling advantages across\ndiverse scenarios. Furthermore, we provide an in-depth analysis of current\nchallenges in token compression research and outline promising future\ndirections. Ultimately, our work aims to offer a fresh perspective on AI\nefficiency, synthesize existing research, and catalyze innovative developments\nto address the challenges that increasing context lengths pose to the AI\ncommunity's advancement.",
+            "upvotes": 116,
+            "discussionId": "68353259d005e45149d2d3c0",
+            "projectPage": "https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression",
+            "githubRepo": "https://github.com/xuyang-liu16/Awesome-Token-level-Model-Compression",
+            "ai_summary": "The focus in AI research is shifting from model-centric to data-centric compression, with token compression identified as key to improving efficiency in handling long-context scenarios.",
+            "ai_keywords": [
+                "large language models",
+                "multi-modal LLMs",
+                "self-attention",
+                "token compression",
+                "long-context AI",
+                "mathematical framework",
+                "model efficiency",
+                "long-context overhead",
+                "current challenges",
+                "future directions"
+            ]
+        },
+        "translation_title": "AI 효율성을 모델 중심에서 데이터 중심 압축으로 전환하기",
+        "purpose": "AI의 효율성을 향상시키기 위해 데이터 중심 압축으로의 연구 초점을 변경하는 것",
+        "method": [
+            "모델 크기 한계에 도달하며, self-attention에 대한 계산 병목 현상이 발생하는 원인 분석(However, as we approach hardware limits on model size, the dominant computational bottleneck has fundamentally shifted to the quadratic cost of self-attention.)",
+            "token 압축을 AI 효율성이 향상된 새로운 경계로 설정함(We position token compression as the new frontier, which improves AI efficiency via reducing the number of tokens during model training or inference.)",
+            "기존 모델 효율성 전략을 통합하는 수학적 프레임워크를 수립함(we establish a unified mathematical framework for existing model efficiency strategies, demonstrating why token compression represents a crucial paradigm shift.)"
+        ],
+        "conclusion": "우리의 연구는 AI 효율성에 대한 새로운 관점을 제공하고, 토큰 압축 연구의 현재 과제를 분석하여 AI 커뮤니티의 발전에 기여할 것으로 기대함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Data-Centric"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.19457",
+            "authors": [
+                {
+                    "_id": "683536ec70d215849adfc236",
+                    "user": {
+                        "_id": "6440f70f1a80f6d83cadfd16",
+                        "avatarUrl": "/avatars/04790922837dac81747e80bd0ee0a1cf.svg",
+                        "isPro": false,
+                        "fullname": "luguilong",
+                        "user": "guilong",
+                        "type": "user"
+                    },
+                    "name": "Guilong Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T08:23:29.797Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683536ec70d215849adfc237",
+                    "user": {
+                        "_id": "672b138db4215fd3888e0a8f",
+                        "avatarUrl": "/avatars/e90fe671a1db66401db88429fae9a763.svg",
+                        "isPro": false,
+                        "fullname": "guo",
+                        "user": "xuntao",
+                        "type": "user"
+                    },
+                    "name": "Xuntao Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T08:23:39.616Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683536ec70d215849adfc238",
+                    "user": {
+                        "_id": "6555df426947208b7741b637",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6555df426947208b7741b637/b7ply-HyaPKXrPvRNh21K.jpeg",
+                        "isPro": false,
+                        "fullname": "Rongjunchen Zhang",
+                        "user": "Tinker250",
+                        "type": "user"
+                    },
+                    "name": "Rongjunchen Zhang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-05-27T03:52:17.018Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683536ec70d215849adfc239",
+                    "user": {
+                        "_id": "648add6aff6123185eb185a8",
+                        "avatarUrl": "/avatars/e37dfa680c1bb86c721165f03eb79e97.svg",
+                        "isPro": false,
+                        "fullname": "WNQzhu",
+                        "user": "Qlisp",
+                        "type": "user"
+                    },
+                    "name": "Wenqiao Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:49:28.216Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683536ec70d215849adfc23a",
+                    "name": "Ji Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6555df426947208b7741b637/48jI0LlYjRwO4-0kHRV0V.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6555df426947208b7741b637/atuM30TNh72kJtm8zGxoc.png"
+            ],
+            "publishedAt": "2025-05-26T03:23:02.000Z",
+            "submittedOnDailyAt": "2025-05-27T02:28:08.336Z",
+            "title": "BizFinBench: A Business-Driven Real-World Financial Benchmark for\n  Evaluating LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6555df426947208b7741b637",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6555df426947208b7741b637/b7ply-HyaPKXrPvRNh21K.jpeg",
+                "isPro": false,
+                "fullname": "Rongjunchen Zhang",
+                "user": "Tinker250",
+                "type": "user"
+            },
+            "summary": "Large language models excel in general tasks, yet assessing their reliability\nin logic-heavy, precision-critical domains like finance, law, and healthcare\nremains challenging. To address this, we introduce BizFinBench, the first\nbenchmark specifically designed to evaluate LLMs in real-world financial\napplications. BizFinBench consists of 6,781 well-annotated queries in Chinese,\nspanning five dimensions: numerical calculation, reasoning, information\nextraction, prediction recognition, and knowledge-based question answering,\ngrouped into nine fine-grained categories. The benchmark includes both\nobjective and subjective metrics. We also introduce IteraJudge, a novel LLM\nevaluation method that reduces bias when LLMs serve as evaluators in objective\nmetrics. We benchmark 25 models, including both proprietary and open-source\nsystems. Extensive experiments show that no model dominates across all tasks.\nOur evaluation reveals distinct capability patterns: (1) In Numerical\nCalculation, Claude-3.5-Sonnet (63.18) and DeepSeek-R1 (64.04) lead, while\nsmaller models like Qwen2.5-VL-3B (15.92) lag significantly; (2) In Reasoning,\nproprietary models dominate (ChatGPT-o3: 83.58, Gemini-2.0-Flash: 81.15), with\nopen-source models trailing by up to 19.49 points; (3) In Information\nExtraction, the performance spread is the largest, with DeepSeek-R1 scoring\n71.46, while Qwen3-1.7B scores 11.23; (4) In Prediction Recognition,\nperformance variance is minimal, with top models scoring between 39.16 and\n50.00. We find that while current LLMs handle routine finance queries\ncompetently, they struggle with complex scenarios requiring cross-concept\nreasoning. BizFinBench offers a rigorous, business-aligned benchmark for future\nresearch. The code and dataset are available at\nhttps://github.com/HiThink-Research/BizFinBench.",
+            "upvotes": 53,
+            "discussionId": "683536f170d215849adfc35e",
+            "projectPage": "https://hithink-research.github.io/BizFinBench/",
+            "githubRepo": "https://github.com/HiThink-Research/BizFinBench",
+            "ai_summary": "BizFinBench is a benchmark for evaluating large language models in financial applications, revealing distinct performance patterns across various tasks.",
+            "ai_keywords": [
+                "large language models",
+                "BizFinBench",
+                "numerical calculation",
+                "reasoning",
+                "information extraction",
+                "prediction recognition",
+                "knowledge-based question answering",
+                "IteraJudge",
+                "Claude-3.5-Sonnet",
+                "DeepSeek-R1",
+                "Qwen2.5-VL-3B",
+                "ChatGPT-o3",
+                "Gemini-2.0-Flash",
+                "Qwen3-1.7B"
+            ]
+        },
+        "translation_title": "BizFinBench: LLM 평가를 위한 비즈니스 중심 실제 금융 벤치마크",
+        "purpose": "비즈니스 분야에서 LLM의 신뢰성을 평가하기 위한 첫 번째 벤치마크 개발",
+        "method": [
+            "6,781개의 주석이 잘 달린 쿼리로 구성된 BizFinBench를 소개함(we introduce BizFinBench, the first benchmark specifically designed to evaluate LLMs in real-world financial applications.)",
+            "변수를 숫자 계산, 추론, 정보 추출, 예측 인식, 지식 기반 질문 응답의 다섯 가지 차원으로 나누어 구성함(BizFinBench consists of 6,781 well-annotated queries in Chinese, spanning five dimensions: numerical calculation, reasoning, information extraction, prediction recognition, and knowledge-based question answering.)",
+            "LLM이 객관적인 메트릭의 평가자로 사용할 때 편견을 줄이는 IteraJudge라는 새로운 평가 방법을 도입함(We also introduce IteraJudge, a novel LLM evaluation method that reduces bias when LLMs serve as evaluators in objective metrics.)",
+            "25개의 모델을 벤치마킹하여 각 작업마다 우수한 성능 패턴을 관찰함(We benchmark 25 models, including both proprietary and open-source systems.)"
+        ],
+        "conclusion": "현재 LLM들은 일상적인 재무 쿼리 처리에는 능숙하지만, 복잡한 개념 간 추론이 필요한 시나리오에서 어려움을 겪는다는 것을 발견함.",
+        "keywords": [
+            "Large Language Models",
+            "Information Extraction",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.19297",
+            "authors": [
+                {
+                    "_id": "68354c05f7b44d5d505262c7",
+                    "user": {
+                        "_id": "63725a2eacef705233c62876",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63725a2eacef705233c62876/QlRm8oq7O8THzUhATYQlH.jpeg",
+                        "isPro": false,
+                        "fullname": "Valerii",
+                        "user": "sharfikeg",
+                        "type": "user"
+                    },
+                    "name": "Valerii Startsev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:51:23.082Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68354c05f7b44d5d505262c8",
+                    "user": {
+                        "_id": "682605d2a677fa26bd17440a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/682605d2a677fa26bd17440a/QiqSKhYiz7XIfKaXHcEX2.png",
+                        "isPro": false,
+                        "fullname": "Alexander Ustyuzhanin",
+                        "user": "a-ustyuzhanin",
+                        "type": "user"
+                    },
+                    "name": "Alexander Ustyuzhanin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T13:01:13.393Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68354c05f7b44d5d505262c9",
+                    "name": "Alexey Kirillov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68354c05f7b44d5d505262ca",
+                    "user": {
+                        "_id": "62b6cc49752323892323bc04",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b6cc49752323892323bc04/gGBld1KJIP9AIpd81L3PC.jpeg",
+                        "isPro": true,
+                        "fullname": "Dmitry Baranchuk",
+                        "user": "dbaranchuk",
+                        "type": "user"
+                    },
+                    "name": "Dmitry Baranchuk",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T13:01:25.481Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68354c05f7b44d5d505262cb",
+                    "user": {
+                        "_id": "64aeb6aa59d35c5f8180ba7c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64aeb6aa59d35c5f8180ba7c/udqEsHBhzjZl_ShvgjD5D.jpeg",
+                        "isPro": false,
+                        "fullname": "Sergey Kastryulin",
+                        "user": "snk4tr",
+                        "type": "user"
+                    },
+                    "name": "Sergey Kastryulin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T13:01:31.712Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-25T20:08:20.000Z",
+            "submittedOnDailyAt": "2025-05-27T07:55:09.983Z",
+            "title": "Alchemist: Turning Public Text-to-Image Data into Generative Gold",
+            "submittedOnDailyBy": {
+                "_id": "63725a2eacef705233c62876",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63725a2eacef705233c62876/QlRm8oq7O8THzUhATYQlH.jpeg",
+                "isPro": false,
+                "fullname": "Valerii",
+                "user": "sharfikeg",
+                "type": "user"
+            },
+            "summary": "Pre-training equips text-to-image (T2I) models with broad world knowledge,\nbut this alone is often insufficient to achieve high aesthetic quality and\nalignment. Consequently, supervised fine-tuning (SFT) is crucial for further\nrefinement. However, its effectiveness highly depends on the quality of the\nfine-tuning dataset. Existing public SFT datasets frequently target narrow\ndomains (e.g., anime or specific art styles), and the creation of high-quality,\ngeneral-purpose SFT datasets remains a significant challenge. Current curation\nmethods are often costly and struggle to identify truly impactful samples. This\nchallenge is further complicated by the scarcity of public general-purpose\ndatasets, as leading models often rely on large, proprietary, and poorly\ndocumented internal data, hindering broader research progress. This paper\nintroduces a novel methodology for creating general-purpose SFT datasets by\nleveraging a pre-trained generative model as an estimator of high-impact\ntraining samples. We apply this methodology to construct and release Alchemist,\na compact (3,350 samples) yet highly effective SFT dataset. Experiments\ndemonstrate that Alchemist substantially improves the generative quality of\nfive public T2I models while preserving diversity and style. Additionally, we\nrelease the fine-tuned models' weights to the public.",
+            "upvotes": 51,
+            "discussionId": "68354c07f7b44d5d50526322",
+            "ai_summary": "A new method using a pre-trained generative model helps construct a high-impact SFT dataset, Alchemist, which improves the generative quality of text-to-image models while maintaining diversity.",
+            "ai_keywords": [
+                "text-to-image",
+                "fine-tuning",
+                "pre-trained generative model",
+                "general-purpose datasets",
+                "aesthetic quality",
+                "alignment",
+                "curated datasets"
+            ]
+        },
+        "translation_title": "Alchemist: 공개 Text-to-Image 데이터를 생성적 금으로 전환하기",
+        "purpose": "높은 미적 품질과 일치를 달성하기 위한 일반 목적의 SFT 데이터셋 생성",
+        "method": [
+            "사전 훈련된 생성 모델을 이용해 고품질 훈련 샘플을 추정하는 새로운 방법론을 제시함(This paper introduces a novel methodology for creating general-purpose SFT datasets by leveraging a pre-trained generative model as an estimator of high-impact training samples.)",
+            "이 방법론을 사용해 3,350개의 샘플로 구성된 Alchemist라는 효과적인 SFT 데이터셋을 구축하고 공개함(We apply this methodology to construct and release Alchemist, a compact (3,350 samples) yet highly effective SFT dataset.)",
+            "다섯 개의 공개 T2I 모델의 생성 품질이 크게 향상됨을 실험을 통해 입증함(Experiments demonstrate that Alchemist substantially improves the generative quality of five public T2I models while preserving diversity and style.)"
+        ],
+        "conclusion": "Alchemist는 Text-to-Image 모델의 생성 품질을 높이고 다양성과 스타일을 유지하는 데 기여하며, 파인튜닝된 모델의 가중치도 공개함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.19250",
+            "authors": [
+                {
+                    "_id": "68355ce06a9c239ada09f97b",
+                    "user": {
+                        "_id": "66e0404662d6ab4f1107580f",
+                        "avatarUrl": "/avatars/ef71694fea5482078a637a3869e30d19.svg",
+                        "isPro": false,
+                        "fullname": "Yi Wang",
+                        "user": "Yi53",
+                        "type": "user"
+                    },
+                    "name": "Yi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:49:06.169Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68355ce06a9c239ada09f97c",
+                    "user": {
+                        "_id": "68356f5db243fb809813a715",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68356f5db243fb809813a715/grhHvANfDRp75rMJxWlQo.jpeg",
+                        "isPro": false,
+                        "fullname": "LiuJunxiao",
+                        "user": "master-lan",
+                        "type": "user"
+                    },
+                    "name": "Junxiao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-27T07:55:01.261Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68355ce06a9c239ada09f97d",
+                    "user": {
+                        "_id": "65080dc63fc966d1bbba485d",
+                        "avatarUrl": "/avatars/347890233f2316e7f7a04d652b2378bb.svg",
+                        "isPro": false,
+                        "fullname": "Shimao Zhang",
+                        "user": "Shimao-Zhang",
+                        "type": "user"
+                    },
+                    "name": "Shimao Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-05-27T12:34:46.475Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68355ce06a9c239ada09f97e",
+                    "name": "Jiajun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68355ce06a9c239ada09f97f",
+                    "name": "Shujian Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-25T17:58:50.000Z",
+            "submittedOnDailyAt": "2025-05-27T07:16:47.391Z",
+            "title": "PATS: Process-Level Adaptive Thinking Mode Switching",
+            "submittedOnDailyBy": {
+                "_id": "66e0404662d6ab4f1107580f",
+                "avatarUrl": "/avatars/ef71694fea5482078a637a3869e30d19.svg",
+                "isPro": false,
+                "fullname": "Yi Wang",
+                "user": "Yi53",
+                "type": "user"
+            },
+            "summary": "Current large-language models (LLMs) typically adopt a fixed reasoning\nstrategy, either simple or complex, for all questions, regardless of their\ndifficulty. This neglect of variation in task and reasoning process complexity\nleads to an imbalance between performance and efficiency. Existing methods\nattempt to implement training-free fast-slow thinking system switching to\nhandle problems of varying difficulty, but are limited by coarse-grained\nsolution-level strategy adjustments. To address this issue, we propose a novel\nreasoning paradigm: Process-Level Adaptive Thinking Mode Switching (PATS),\nwhich enables LLMs to dynamically adjust their reasoning strategy based on the\ndifficulty of each step, optimizing the balance between accuracy and\ncomputational efficiency. Our approach integrates Process Reward Models (PRMs)\nwith Beam Search, incorporating progressive mode switching and bad-step penalty\nmechanisms. Experiments on diverse mathematical benchmarks demonstrate that our\nmethodology achieves high accuracy while maintaining moderate token usage. This\nstudy emphasizes the significance of process-level, difficulty-aware reasoning\nstrategy adaptation, offering valuable insights into efficient inference for\nLLMs.",
+            "upvotes": 41,
+            "discussionId": "68355ce16a9c239ada09f9a9",
+            "githubRepo": "https://github.com/NJUNLP/PATS",
+            "ai_summary": "PATS enhances LLM efficiency by dynamically adjusting reasoning strategies based on task difficulty, leveraging PRMs and Beam Search.",
+            "ai_keywords": [
+                "large-language models (LLMs)",
+                "reasoning strategy",
+                "task and reasoning process complexity",
+                "training-free fast-slow thinking system switching",
+                "Process-Level Adaptive Thinking Mode Switching (PATS)",
+                "Process Reward Models (PRMs)",
+                "Beam Search",
+                "progressive mode switching",
+                "bad-step penalty mechanisms",
+                "mathematical benchmarks",
+                "process-level",
+                "difficulty-aware reasoning strategy adaptation"
+            ]
+        },
+        "translation_title": "PATS: 프로세스 수준 적응형 사고 모드 전환",
+        "purpose": "LLM이 각 단계의 난이도에 따라 사고 전략을 동적으로 조정하여 성능과 효율성의 균형을 최적화하기 위한 새로운 접근 방안 제안",
+        "method": [
+            "기존의 고정된 사고 전략 대신 각 질문의 난이도에 따라 적응형 사고 모드를 적용함을 제안함(To address this issue, we propose a novel reasoning paradigm: Process-Level Adaptive Thinking Mode Switching (PATS), which enables LLMs to dynamically adjust their reasoning strategy based on the difficulty of each step)",
+            "Process Reward Models(도움 선호 모델)과 Beam Search를 통합하여 прогressive mode switching(점진적 모드 전환) 및 bad-step penalty(잘못된 단계 패널티) 메커니즘을 포함시킴(Our approach integrates Process Reward Models (PRMs) with Beam Search, incorporating progressive mode switching and bad-step penalty mechanisms)",
+            "다양한 수학 벤치마크에서 실험을 통해 높은 정확도와 중간 수준의 토큰 사용량을 유지함을 증명함(Experiments on diverse mathematical benchmarks demonstrate that our methodology achieves high accuracy while maintaining moderate token usage)"
+        ],
+        "conclusion": "이 연구는 프로세스 수준에서 난이도 인식에 따른 사고 전략 조정의 중요성을 강조하며, LLM의 효율적인 추론에 대한 귀중한 통찰을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
