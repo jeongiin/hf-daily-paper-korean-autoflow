@@ -1,0 +1,191 @@
+[
+    {
+        "paper": {
+            "id": "2505.23747",
+            "authors": [
+                {
+                    "_id": "68391565d762b7c617b1ba81",
+                    "name": "Diankun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68391565d762b7c617b1ba82",
+                    "name": "Fangfu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68391565d762b7c617b1ba83",
+                    "name": "Yi-Hsin Hung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68391565d762b7c617b1ba84",
+                    "name": "Yueqi Duan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6505a02f9310ce8c400edc63/eb5xv9-rlab_DrHLk4BMq.mp4"
+            ],
+            "publishedAt": "2025-05-29T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-05-30T00:56:58.237Z",
+            "title": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial\n  Intelligence",
+            "submittedOnDailyBy": {
+                "_id": "6505a02f9310ce8c400edc63",
+                "avatarUrl": "/avatars/bbf781594fc8c812316711aa8e2797aa.svg",
+                "isPro": false,
+                "fullname": "Fangfu Liu",
+                "user": "Liuff23",
+                "type": "user"
+            },
+            "summary": "Recent advancements in Multimodal Large Language Models (MLLMs) have\nsignificantly enhanced performance on 2D visual tasks. However, improving their\nspatial intelligence remains a challenge. Existing 3D MLLMs always rely on\nadditional 3D or 2.5D data to incorporate spatial awareness, restricting their\nutility in scenarios with only 2D inputs, such as images or videos. In this\npaper, we present Spatial-MLLM, a novel framework for visual-based spatial\nreasoning from purely 2D observations. Unlike conventional video MLLMs which\nrely on CLIP-based visual encoders optimized for semantic understanding, our\nkey insight is to unleash the strong structure prior from the feed-forward\nvisual geometry foundation model. Specifically, we propose a dual-encoder\narchitecture: a pretrained 2D visual encoder to extract semantic features, and\na spatial encoder-initialized from the backbone of the visual geometry model-to\nextract 3D structure features. A connector then integrates both features into\nunified visual tokens for enhanced spatial understanding. Furthermore, we\npropose a space-aware frame sampling strategy at inference time, which selects\nthe spatially informative frames of a video sequence, ensuring that even under\nlimited token length, the model focuses on frames critical for spatial\nreasoning. Beyond architecture improvements, we construct the Spatial-MLLM-120k\ndataset and train the model on it using supervised fine-tuning and GRPO.\nExtensive experiments on various real-world datasets demonstrate that our\nspatial-MLLM achieves state-of-the-art performance in a wide range of\nvisual-based spatial understanding and reasoning tasks. Project page:\nhttps://diankun-wu.github.io/Spatial-MLLM/.",
+            "upvotes": 42,
+            "discussionId": "68391566d762b7c617b1bae5",
+            "projectPage": "https://diankun-wu.github.io/Spatial-MLLM/",
+            "githubRepo": "https://github.com/diankun-wu/Spatial-MLLM",
+            "ai_summary": "Spatial-MLLM improves spatial reasoning in multimodal large language models using a dual-encoder architecture with pretrained 2D and 3D structure encoders, achieving state-of-the-art performance on visual spatial tasks.",
+            "ai_keywords": [
+                "spatial-mllm",
+                "dual-encoder architecture",
+                "visual geometry foundation model",
+                "CLIP-based visual encoders",
+                "semantic features",
+                "3D structure features",
+                "unified visual tokens",
+                "space-aware frame sampling",
+                "supervised fine-tuning",
+                "GRPO",
+                "spatial understanding",
+                "spatial reasoning"
+            ]
+        },
+        "translation_title": "Spatial-MLLM: 시각 기반 공간 지능에서 MLLM 능력 향상",
+        "purpose": "2D 입력만으로 공간 지능을 향상시키기 위한 새로운 프레임워크 개발",
+        "method": [
+            "기존의 3D MLLM은 추가적인 3D 데이터에 의존하는 한계를 극복하기 위해 2D 관찰만으로 공간 추론을 수행하는 Spatial-MLLM 프레임워크를 제안함(we present Spatial-MLLM, a novel framework for visual-based spatial reasoning from purely 2D observations.)",
+            "2D 시각 인코더와 3D 구조 특징을 추출하는 공간 인코더로 구성된 이중 인코더 아키텍처를 도입함(we propose a dual-encoder architecture: a pretrained 2D visual encoder to extract semantic features, and a spatial encoder-initialized from the backbone of the visual geometry model to extract 3D structure features.)",
+            "정보가 풍부한 비디오 프레임을 선택하는 공간 인지형 샘플링 전략을 제안함(Furthermore, we propose a space-aware frame sampling strategy at inference time, which selects the spatially informative frames of a video sequence.)",
+            "Spatial-MLLM-120k 데이터셋을 구성하고 이를 기반으로 감독 학습 및 GRPO를 이용해 모델을 학습함(Beyond architecture improvements, we construct the Spatial-MLLM-120k dataset and train the model on it using supervised fine-tuning and GRPO.)"
+        ],
+        "conclusion": "Spatial-MLLM은 다양한 현실 세계 데이터셋에 대해 시각 기반 공간 이해 및 추론 작업에서 최첨단 성능을 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.23359",
+            "authors": [
+                {
+                    "_id": "683909a29deef11aa625817c",
+                    "name": "Yuanxin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa625817d",
+                    "user": {
+                        "_id": "62cd7aca7a036fc9941bb2b0",
+                        "avatarUrl": "/avatars/17a4d27af0243fd7dccf06066f671461.svg",
+                        "isPro": false,
+                        "fullname": "kun ouyang",
+                        "user": "RUBBISHLIKE",
+                        "type": "user"
+                    },
+                    "name": "Kun Ouyang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-30T06:54:22.290Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa625817e",
+                    "name": "Haoning Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa625817f",
+                    "name": "Yi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258180",
+                    "name": "Lin Sui",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258181",
+                    "name": "Xinhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258182",
+                    "name": "Yan Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258183",
+                    "name": "Y. Charles",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258184",
+                    "name": "Xinyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "683909a29deef11aa6258185",
+                    "name": "Xu Sun",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6489761dcaea79f577897f98/48SxCF6GVyMdnPR7vZSgC.mp4"
+            ],
+            "publishedAt": "2025-05-29T11:33:43.000Z",
+            "submittedOnDailyAt": "2025-05-30T01:03:01.950Z",
+            "title": "VideoReasonBench: Can MLLMs Perform Vision-Centric Complex Video\n  Reasoning?",
+            "submittedOnDailyBy": {
+                "_id": "6489761dcaea79f577897f98",
+                "avatarUrl": "/avatars/8f56dc9c08dc2b672555602d68509a03.svg",
+                "isPro": false,
+                "fullname": "Yuanxin Liu",
+                "user": "lyx97",
+                "type": "user"
+            },
+            "summary": "Recent studies have shown that long chain-of-thought (CoT) reasoning can\nsignificantly enhance the performance of large language models (LLMs) on\ncomplex tasks. However, this benefit is yet to be demonstrated in the domain of\nvideo understanding, since most existing benchmarks lack the reasoning depth\nrequired to demonstrate the advantages of extended CoT chains. While recent\nefforts have proposed benchmarks aimed at video reasoning, the tasks are often\nknowledge-driven and do not rely heavily on visual content. To bridge this gap,\nwe introduce VideoReasonBench, a benchmark designed to evaluate vision-centric,\ncomplex video reasoning. To ensure visual richness and high reasoning\ncomplexity, each video in VideoReasonBench depicts a sequence of fine-grained\noperations on a latent state that is only visible in part of the video. The\nquestions evaluate three escalating levels of video reasoning skills: recalling\nobserved visual information, inferring the content of latent states, and\npredicting information beyond the video. Under such task setting, models have\nto precisely recall multiple operations in the video, and perform step-by-step\nreasoning to get correct final answers for these questions. Using\nVideoReasonBench, we comprehensively evaluate 18 state-of-the-art multimodal\nLLMs (MLLMs), finding that most perform poorly on complex video reasoning,\ne.g., GPT-4o achieves only 6.9% accuracy, while the thinking-enhanced\nGemini-2.5-Pro significantly outperforms others with 56.0% accuracy. Our\ninvestigations on \"test-time scaling\" further reveal that extended thinking\nbudget, while offering none or minimal benefits on existing video benchmarks,\nis essential for improving the performance on VideoReasonBench.",
+            "upvotes": 22,
+            "discussionId": "683909a39deef11aa62581c2",
+            "projectPage": "https://llyx97.github.io/video_reason_bench/",
+            "githubRepo": "https://github.com/llyx97/video_reason_bench",
+            "ai_summary": "A new benchmark, VideoReasonBench, evaluates complex vision-centric video reasoning, finding that extended thinking budgets are crucial for improved performance compared to existing benchmarks.",
+            "ai_keywords": [
+                "long chain-of-thought reasoning",
+                "large language models",
+                "video understanding",
+                "VideoReasonBench",
+                "vision-centric",
+                "complex video reasoning",
+                "latent state",
+                "visual reasoning",
+                "step-by-step reasoning",
+                "multimodal language models",
+                "thinking-enhanced models",
+                "test-time scaling"
+            ]
+        },
+        "translation_title": "VideoReasonBench: MLLMs가 비전 중심의 복잡한 비디오 추리를 수행할 수 있는가?",
+        "purpose": "비주얼 중심의 복잡한 비디오 추리 평가를 위해 새로운 벤치마크를 제시하는 것",
+        "method": [
+            "VideoReasonBench를 도입해 비전 중심의 복잡한 비디오 추리 평가를 설계함(To bridge this gap, we introduce VideoReasonBench, a benchmark designed to evaluate vision-centric, complex video reasoning.)",
+            "비디오에 숨겨진 상태의 세밀한 변화를 포함해 시각적 풍부함과 높은 추리 복잡성을 보장함(To ensure visual richness and high reasoning complexity, each video in VideoReasonBench depicts a sequence of fine-grained operations on a latent state that is only visible in part of the video.)",
+            "비디오 추리 능력의 세 가지 단계로 질문을 평가함(The questions evaluate three escalating levels of video reasoning skills: recalling observed visual information, inferring the content of latent states, and predicting information beyond the video.)"
+        ],
+        "conclusion": "18개의 최신 멀티모달 LLM을 평가한 결과, 대부분이 복잡한 비디오 추리에서 낮은 성능을 보였으며, Gemini-2.5-Pro가 56.0%의 정확도로 뛰어난 성능을 발휘함.",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
