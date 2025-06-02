@@ -1,0 +1,495 @@
+[
+    {
+        "paper": {
+            "id": "2505.24864",
+            "authors": [
+                {
+                    "_id": "683d2d05ae87a04bca311b22",
+                    "name": "Mingjie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b23",
+                    "name": "Shizhe Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b24",
+                    "name": "Ximing Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b25",
+                    "name": "Jian Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b26",
+                    "name": "Xin Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b27",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b28",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d2d05ae87a04bca311b29",
+                    "name": "Yi Dong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-30T17:59:01.000Z",
+            "submittedOnDailyAt": "2025-06-02T03:18:21.654Z",
+            "title": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in\n  Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "633bd54b00732349209a18fe",
+                "avatarUrl": "/avatars/150aa5b8d9bcca24366402932bf2d049.svg",
+                "isPro": false,
+                "fullname": "Shizhe Diao",
+                "user": "shizhediao",
+                "type": "user"
+            },
+            "summary": "Recent advances in reasoning-centric language models have highlighted\nreinforcement learning (RL) as a promising method for aligning models with\nverifiable rewards. However, it remains contentious whether RL truly expands a\nmodel's reasoning capabilities or merely amplifies high-reward outputs already\nlatent in the base model's distribution, and whether continually scaling up RL\ncompute reliably leads to improved reasoning performance. In this work, we\nchallenge prevailing assumptions by demonstrating that prolonged RL (ProRL)\ntraining can uncover novel reasoning strategies that are inaccessible to base\nmodels, even under extensive sampling. We introduce ProRL, a novel training\nmethodology that incorporates KL divergence control, reference policy\nresetting, and a diverse suite of tasks. Our empirical analysis reveals that\nRL-trained models consistently outperform base models across a wide range of\npass@k evaluations, including scenarios where base models fail entirely\nregardless of the number of attempts. We further show that reasoning boundary\nimprovements correlates strongly with task competence of base model and\ntraining duration, suggesting that RL can explore and populate new regions of\nsolution space over time. These findings offer new insights into the conditions\nunder which RL meaningfully expands reasoning boundaries in language models and\nestablish a foundation for future work on long-horizon RL for reasoning. We\nrelease model weights to support further research:\nhttps://huggingface.co/nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
+            "upvotes": 64,
+            "discussionId": "683d2d08ae87a04bca311bd4",
+            "ai_summary": "Prolonged reinforcement learning training (ProRL) uncovers novel reasoning strategies in language models, outperforming base models and suggesting meaningful expansion of reasoning capabilities.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "RL",
+                "ProRL",
+                "KL divergence control",
+                "reference policy resetting",
+                "pass@k evaluations",
+                "reasoning boundary improvements",
+                "task competence",
+                "long-horizon RL"
+            ]
+        },
+        "translation_title": "ProRL: 강화 학습의 연장으로 대형 언어 모델의 추론 경계를 확장하다",
+        "purpose": "모델의 추론 능력을 향상시키기 위한 새로운 강화 학습 접근법 연구",
+        "method": [
+            "ProRL이라는 새로운 훈련 방법론을 도입하여 KL 발산 제어와 참조 정책 리셋, 다양한 작업을 포함함(We introduce ProRL, a novel training methodology that incorporates KL divergence control, reference policy resetting, and a diverse suite of tasks.)",
+            "실험 분석을 통해 RL로 훈련된 모델이 다양한 pass@k 평가에서 기본 모델에 비해 일관되게 우수한 성능을 발휘함(Our empirical analysis reveals that RL-trained models consistently outperform base models across a wide range of pass@k evaluations.)",
+            "RL 훈련에 따른 추론 경계 개선이 기본 모델의 작업 능력과 훈련 기간과 강한 상관관계를 보임(We further show that reasoning boundary improvements correlate strongly with task competence of base model and training duration.)"
+        ],
+        "conclusion": "ProRL은 대형 언어 모델의 추론 능력을 효과적으로 확장할 수 있는 조건을 제시하며, 추후 연구의 기초를 마련함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.24863",
+            "authors": [
+                {
+                    "_id": "683d0b3de2a7d8d9778bd141",
+                    "user": {
+                        "_id": "6719bfd07c6e6c83a388aeae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6719bfd07c6e6c83a388aeae/jHxryk04dzHo23TX5F5sz.png",
+                        "isPro": false,
+                        "fullname": "Junyu Zhang",
+                        "user": "jyzhang1208",
+                        "type": "user"
+                    },
+                    "name": "Junyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:40:59.716Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd142",
+                    "user": {
+                        "_id": "6201fc5d91d53938a6432fbf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6201fc5d91d53938a6432fbf/VLs8ZYaZrop4KBpZn53fH.jpeg",
+                        "isPro": false,
+                        "fullname": "Runpei Dong",
+                        "user": "RunpeiDong",
+                        "type": "user"
+                    },
+                    "name": "Runpei Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:41:03.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd143",
+                    "name": "Han Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd144",
+                    "name": "Xuying Ning",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd145",
+                    "name": "Haoran Geng",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd146",
+                    "name": "Peihao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd147",
+                    "name": "Xialin He",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd148",
+                    "name": "Yutong Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd149",
+                    "name": "Jitendra Malik",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd14a",
+                    "name": "Saurabh Gupta",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d0b3de2a7d8d9778bd14b",
+                    "name": "Huan Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6201fc5d91d53938a6432fbf/dBNLCtnWBtBclw0ZZsYBU.png"
+            ],
+            "publishedAt": "2025-05-30T17:58:36.000Z",
+            "submittedOnDailyAt": "2025-06-02T00:55:04.615Z",
+            "title": "AlphaOne: Reasoning Models Thinking Slow and Fast at Test Time",
+            "submittedOnDailyBy": {
+                "_id": "6201fc5d91d53938a6432fbf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6201fc5d91d53938a6432fbf/VLs8ZYaZrop4KBpZn53fH.jpeg",
+                "isPro": false,
+                "fullname": "Runpei Dong",
+                "user": "RunpeiDong",
+                "type": "user"
+            },
+            "summary": "This paper presents AlphaOne (alpha1), a universal framework for\nmodulating reasoning progress in large reasoning models (LRMs) at test time.\nalpha1 first introduces alpha moment, which represents the scaled\nthinking phase with a universal parameter alpha. Within this scaled\npre-alpha moment phase, it dynamically schedules slow thinking transitions\nby modeling the insertion of reasoning transition tokens as a Bernoulli\nstochastic process. After the alpha moment, alpha1 deterministically\nterminates slow thinking with the end-of-thinking token, thereby fostering fast\nreasoning and efficient answer generation. This approach unifies and\ngeneralizes existing monotonic scaling methods by enabling flexible and dense\nslow-to-fast reasoning modulation. Extensive empirical studies on various\nchallenging benchmarks across mathematical, coding, and scientific domains\ndemonstrate alpha1's superior reasoning capability and efficiency. Project\npage: https://alphaone-project.github.io/",
+            "upvotes": 37,
+            "discussionId": "683d0b3ee2a7d8d9778bd1ce",
+            "projectPage": "https://alphaone-project.github.io/",
+            "githubRepo": "https://github.com/ASTRAL-Group/AlphaOne",
+            "ai_summary": "AlphaOne dynamically modulates reasoning in large models by introducing $\\alpha$ moment and Bernoulli process for slow thinking, improving efficiency and capability across diverse domains.",
+            "ai_keywords": [
+                "AlphaOne",
+                "$\\alpha$ moment",
+                "Bernoulli stochastic process",
+                "large reasoning models",
+                "reasoning transition tokens",
+                "end-of-thinking token",
+                "monotonic scaling methods",
+                "fast reasoning",
+                "efficient answer generation"
+            ]
+        },
+        "translation_title": "AlphaOne: 테스트 시간에 느리고 빠른 사고를 하는 추론 모델",
+        "purpose": "대규모 추론 모델(LRM)의 테스트 시간 동안 사고 진행 방식 조정 및 효율성 향상",
+        "method": [
+            "alpha moment라는 개념을 도입하여 사고 단계를 조정하는 보편적인 파라미터 alpha를 설정함(This paper presents AlphaOne (alpha1), a universal framework for modulating reasoning progress in large reasoning models (LRMs) at test time.)",
+            "사고 전 단계에서 느린 사고 전환을 동적으로 스케줄링하여, 추론 전환 토큰의 삽입을 Bernoulli 확률 과정으로 모델링함(alpha1 first introduces alpha moment, which represents the scaled thinking phase with a universal parameter alpha.)",
+            "alpha moment 이후 느린 사고를 종료하고 빠른 사고 및 효율적인 답변 생성을 촉진함(After the alpha moment, alpha1 deterministically terminates slow thinking with the end-of-thinking token, thereby fostering fast reasoning and efficient answer generation.)"
+        ],
+        "conclusion": "alpha1은 다양한 벤치마크에서 우수한 추론 능력과 효율성을 보여주며, 기존 방법들을 통합하고 일반화함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.24867",
+            "authors": [
+                {
+                    "_id": "683d3d6f3f97feb881155aef",
+                    "user": {
+                        "_id": "5df7ca7cda6d0311fd3d53f2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5df7ca7cda6d0311fd3d53f2/dtAoDSqgNxeO9AYg9V3na.jpeg",
+                        "isPro": false,
+                        "fullname": "Ujjwal Upadhyay",
+                        "user": "ujjwal9",
+                        "type": "user"
+                    },
+                    "name": "Ujjwal Upadhyay",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-02T05:58:12.617Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d3d6f3f97feb881155af0",
+                    "user": {
+                        "_id": "65262a396b41932089fd7bae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65262a396b41932089fd7bae/6YIEoAfJojuTW1UOKlwZT.png",
+                        "isPro": true,
+                        "fullname": "Mukul Ranjan",
+                        "user": "mukul54",
+                        "type": "user"
+                    },
+                    "name": "Mukul Ranjan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:40:23.895Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d3d6f3f97feb881155af1",
+                    "name": "Zhiqiang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "683d3d6f3f97feb881155af2",
+                    "name": "Mohamed Elhoseiny",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-30T17:59:12.000Z",
+            "submittedOnDailyAt": "2025-06-02T04:31:40.253Z",
+            "title": "Time Blindness: Why Video-Language Models Can't See What Humans Can?",
+            "submittedOnDailyBy": {
+                "_id": "65262a396b41932089fd7bae",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65262a396b41932089fd7bae/6YIEoAfJojuTW1UOKlwZT.png",
+                "isPro": true,
+                "fullname": "Mukul Ranjan",
+                "user": "mukul54",
+                "type": "user"
+            },
+            "summary": "Recent advances in vision-language models (VLMs) have made impressive strides\nin understanding spatio-temporal relationships in videos. However, when spatial\ninformation is obscured, these models struggle to capture purely temporal\npatterns. We introduce SpookyBench, a benchmark where information is\nencoded solely in temporal sequences of noise-like frames, mirroring natural\nphenomena from biological signaling to covert communication. Interestingly,\nwhile humans can recognize shapes, text, and patterns in these sequences with\nover 98% accuracy, state-of-the-art VLMs achieve 0% accuracy. This performance\ngap highlights a critical limitation: an over-reliance on frame-level spatial\nfeatures and an inability to extract meaning from temporal cues. Furthermore,\nwhen trained in data sets with low spatial signal-to-noise ratios (SNR),\ntemporal understanding of models degrades more rapidly than human perception,\nespecially in tasks requiring fine-grained temporal reasoning. Overcoming this\nlimitation will require novel architectures or training paradigms that decouple\nspatial dependencies from temporal processing. Our systematic analysis shows\nthat this issue persists across model scales and architectures. We release\nSpookyBench to catalyze research in temporal pattern recognition and bridge the\ngap between human and machine video understanding. Dataset and code has been\nmade available on our project website: https://timeblindness.github.io/.",
+            "upvotes": 35,
+            "discussionId": "683d3d743f97feb881155c56",
+            "projectPage": "https://timeblindness.github.io",
+            "githubRepo": "https://github.com/TimeBlindness/time-blindness",
+            "ai_summary": "SpookyBench is a benchmark for temporal pattern recognition in videos that highlights the limitations of vision-language models in processing noise-like frames without spatial information.",
+            "ai_keywords": [
+                "vision-language models",
+                "VLMs",
+                "spatio-temporal relationships",
+                "temporal sequences",
+                "noise-like frames",
+                "biological signaling",
+                "covert communication",
+                "frame-level spatial features",
+                "temporal understanding",
+                "data sets",
+                "low spatial signal-to-noise ratios",
+                "SNR",
+                "temporal reasoning",
+                "novel architectures",
+                "training paradigms",
+                "systematic analysis"
+            ]
+        },
+        "translation_title": "시간 맹증: 왜 비디오-언어 모델은 인간이 볼 수 있는 것을 볼 수 없는가?",
+        "purpose": "비디오에서 시간 정보를 이해하는 데 있어 인간과 기계 간의 성능 차이를 해소하기 위한 연구",
+        "method": [
+            "SpookyBench라는 벤치마크를 소개하여, 정보가 노이즈 같은 프레임의 시간적 시퀀스에만 인코딩되도록 함(We introduce SpookyBench, a benchmark where information is encoded solely in temporal sequences of noise-like frames.)",
+            "인간은 이러한 시퀀스에서 98% 이상의 정확도로 형태와 패턴을 식별할 수 있지만, 최신 VLM은 0%의 정확도를 기록함(This performance gap highlights a critical limitation: an over-reliance on frame-level spatial features and an inability to extract meaning from temporal cues.)",
+            "모델이 저 신호 대 잡음 비율(SNR)의 데이터 세트에서 훈련될 때, 기계의 시간 이해력이 인간 인지보다 더 빠르게 저하된다는 것을 검사함(Furthermore, when trained in data sets with low spatial signal-to-noise ratios (SNR), temporal understanding of models degrades more rapidly than human perception.)"
+        ],
+        "conclusion": "비디오 이해에서 인간과 기계 간의 성능 격차를 해소하기 위해 공간 종속성과 시간 처리를 분리하는 새로운 아키텍처나 훈련 패러다임이 필요함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.18842",
+            "authors": [
+                {
+                    "_id": "6839543d6451d371f9e834ec",
+                    "name": "Jiwan Chung",
+                    "hidden": false
+                },
+                {
+                    "_id": "6839543d6451d371f9e834ed",
+                    "user": {
+                        "_id": "646aecb04c1cd18b497a50ee",
+                        "avatarUrl": "/avatars/de15c724056f36a41cb4f375d05ed836.svg",
+                        "isPro": false,
+                        "fullname": "Junhyeok Kim",
+                        "user": "kjunh",
+                        "type": "user"
+                    },
+                    "name": "Junhyeok Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:46:37.442Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6839543d6451d371f9e834ee",
+                    "user": {
+                        "_id": "67021743e4d49b157afd8260",
+                        "avatarUrl": "/avatars/2a22a18cd45f6d115e8a3a5d1e477dcb.svg",
+                        "isPro": false,
+                        "fullname": "Siyeol Kim",
+                        "user": "siyeolkim",
+                        "type": "user"
+                    },
+                    "name": "Siyeol Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:46:34.334Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6839543d6451d371f9e834ef",
+                    "user": {
+                        "_id": "64ca095f29d2f65419015fcb",
+                        "avatarUrl": "/avatars/722df32d9d99382fdc038ca8f1c15c65.svg",
+                        "isPro": false,
+                        "fullname": "Jaeyoung Lee",
+                        "user": "given131",
+                        "type": "user"
+                    },
+                    "name": "Jaeyoung Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T13:39:57.765Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6839543d6451d371f9e834f0",
+                    "name": "Min Soo Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6839543d6451d371f9e834f1",
+                    "name": "Youngjae Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-24T19:30:47.000Z",
+            "submittedOnDailyAt": "2025-06-02T02:58:04.513Z",
+            "title": "Don't Look Only Once: Towards Multimodal Interactive Reasoning with\n  Selective Visual Revisitation",
+            "submittedOnDailyBy": {
+                "_id": "646aecb04c1cd18b497a50ee",
+                "avatarUrl": "/avatars/de15c724056f36a41cb4f375d05ed836.svg",
+                "isPro": false,
+                "fullname": "Junhyeok Kim",
+                "user": "kjunh",
+                "type": "user"
+            },
+            "summary": "We present v1, a lightweight extension to Multimodal Large Language Models\n(MLLMs) that enables selective visual revisitation during inference. While\ncurrent MLLMs typically consume visual input only once and reason purely over\ninternal memory, v1 introduces a simple point-and-copy mechanism that allows\nthe model to dynamically retrieve relevant image regions throughout the\nreasoning process. This mechanism augments existing architectures with minimal\nmodifications, enabling contextual access to visual tokens based on the model's\nevolving hypotheses. To train this capability, we construct v1g, a dataset of\n300K multimodal reasoning traces with interleaved visual grounding annotations.\nExperiments on three multimodal mathematical reasoning benchmarks -- MathVista,\nMathVision, and MathVerse -- demonstrate that v1 consistently improves\nperformance over comparable baselines, particularly on tasks requiring\nfine-grained visual reference and multi-step reasoning. Our results suggest\nthat dynamic visual access is a promising direction for enhancing grounded\nmultimodal reasoning. Code, models, and data will be released to support future\nresearch.",
+            "upvotes": 26,
+            "discussionId": "6839543f6451d371f9e83544",
+            "githubRepo": "https://github.com/jun297/v1",
+            "ai_summary": "v1 enhances Multimodal Large Language Models by enabling selective and dynamic visual region retrieval during inference, improving performance on multimodal reasoning tasks.",
+            "ai_keywords": [
+                "Multimodal Large Language Models (MLLMs)",
+                "point-and-copy mechanism",
+                "visual tokens",
+                "multimodal reasoning traces",
+                "visual grounding annotations",
+                "MathVista",
+                "MathVision",
+                "MathVerse",
+                "grounded multimodal reasoning"
+            ]
+        },
+        "translation_title": "한 번만 보지 말고: 선택적 시각 재방문을 통한 다중모달 인터랙티브 추론",
+        "purpose": "다중모달 대형 언어 모델의 추론 과정에서 선택적으로 이미지를 재검토할 수 있는 기능을 개선하기 위함",
+        "method": [
+            "경량화된 MLLM 확장인 v1을 도입하여 추론 중 선택적 시각 재방문을 가능하게 함(We present v1, a lightweight extension to Multimodal Large Language Models (MLLMs) that enables selective visual revisitation during inference.)",
+            "시각 정보의 부분을 동적으로 재검색하는 간단한 포인트-앤-카피 메커니즘을 소개함(v1 introduces a simple point-and-copy mechanism that allows the model to dynamically retrieve relevant image regions throughout the reasoning process.)",
+            "300K 다중모달 추론 흔적을 포함하는 v1g 데이터셋을 구축하여 이 기능을 훈련시킴(To train this capability, we construct v1g, a dataset of 300K multimodal reasoning traces with interleaved visual grounding annotations.)",
+            "세 가지 다중모달 수학적 추론 벤치마크에서 v1의 성능을 평가함(Experiments on three multimodal mathematical reasoning benchmarks -- MathVista, MathVision, and MathVerse -- demonstrate that v1 consistently improves performance over comparable baselines.)"
+        ],
+        "conclusion": "동적 시각 접근은 기초가 튼튼한 다중모달 추론을 향상시키는 유망한 방향임을 제안하며, 연구를 지원하기 위한 코드, 모델 및 데이터를 공개할 예정임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.14752",
+            "authors": [
+                {
+                    "_id": "6832c2c8ba29b909f4013a6d",
+                    "user": {
+                        "_id": "67569b1860146dd8c9c8008f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67569b1860146dd8c9c8008f/f5Tz2yVTry4LGyQE2VC6-.jpeg",
+                        "isPro": false,
+                        "fullname": "Yihong Tang",
+                        "user": "HYTYH",
+                        "type": "user"
+                    },
+                    "name": "Yihong Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-26T08:12:00.941Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6832c2c8ba29b909f4013a6e",
+                    "name": "Menglin Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6832c2c8ba29b909f4013a6f",
+                    "name": "Lijun Sun",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/67569b1860146dd8c9c8008f/VaA9NxCa0ncxzh03aZE8c.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/67569b1860146dd8c9c8008f/oEgXPOzTQVTDfuTp5Z575.png"
+            ],
+            "publishedAt": "2025-05-20T13:35:38.000Z",
+            "submittedOnDailyAt": "2025-06-02T02:10:16.659Z",
+            "title": "Large Language Models for Data Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "67569b1860146dd8c9c8008f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67569b1860146dd8c9c8008f/f5Tz2yVTry4LGyQE2VC6-.jpeg",
+                "isPro": false,
+                "fullname": "Yihong Tang",
+                "user": "HYTYH",
+                "type": "user"
+            },
+            "summary": "Generating synthetic data that faithfully captures the statistical structure\nof real-world distributions is a fundamental challenge in data modeling.\nClassical approaches often depend on strong parametric assumptions or manual\nstructural design and struggle in high-dimensional or heterogeneous domains.\nRecent progress in Large Language Models (LLMs) reveals their potential as\nflexible, high-dimensional priors over real-world distributions. However, when\napplied to data synthesis, standard LLM-based sampling is inefficient,\nconstrained by fixed context limits, and fails to ensure statistical alignment.\nGiven this, we introduce LLMSynthor, a general framework for data synthesis\nthat transforms LLMs into structure-aware simulators guided by distributional\nfeedback. LLMSynthor treats the LLM as a nonparametric copula simulator for\nmodeling high-order dependencies and introduces LLM Proposal Sampling to\ngenerate grounded proposal distributions that improve sampling efficiency\nwithout requiring rejection. By minimizing discrepancies in the summary\nstatistics space, the iterative synthesis loop aligns real and synthetic data\nwhile gradually uncovering and refining the latent generative structure. We\nevaluate LLMSynthor in both controlled and real-world settings using\nheterogeneous datasets in privacy-sensitive domains (e.g., e-commerce,\npopulation, and mobility) that encompass both structured and unstructured\nformats. The synthetic data produced by LLMSynthor shows high statistical\nfidelity, practical utility, and cross-data adaptability, positioning it as a\nvaluable tool across economics, social science, urban studies, and beyond.",
+            "upvotes": 25,
+            "discussionId": "6832c2c9ba29b909f4013aea",
+            "projectPage": "https://yihongt.github.io/llmsynthor_web/",
+            "githubRepo": "https://github.com/YihongT/LLMSynthor",
+            "ai_summary": "LLMSynthor enhances LLMs for efficient and statistically accurate data synthesis through distributional feedback and proposal sampling.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMSynthor",
+                "nonparametric copula simulator",
+                "LLM Proposal Sampling",
+                "summary statistics space",
+                "synthetic data",
+                "statistical fidelity",
+                "practical utility",
+                "cross-data adaptability"
+            ]
+        },
+        "translation_title": "데이터 합성을 위한 대형 언어 모델",
+        "purpose": "실제 데이터 분포를 잘 포착한 합성 데이터를 생성하기 위한 새로운 방법 개발",
+        "method": [
+            "기존의 LLM을 구조 인식 시뮬레이터로 변환하는 LLMSynthor라는 일반 프레임워크를 제안함(we introduce LLMSynthor, a general framework for data synthesis that transforms LLMs into structure-aware simulators guided by distributional feedback.)",
+            "LLMSynthor는 초고차 의존성을 모델링하기 위해 LLM을 비모수적 카풀라 시뮬레이터로 취급함(LLMSynthor treats the LLM as a nonparametric copula simulator for modeling high-order dependencies.)",
+            "LLM Proposal Sampling을 도입하여 고정된 맥락 한계를 넘어서는 제안 분포를 생성함(LLM Proposal Sampling to generate grounded proposal distributions that improve sampling efficiency without requiring rejection.)",
+            "요약 통계 공간의 일치성을 최소화하여 실제 데이터와 합성 데이터를 조화롭게 정렬함(By minimizing discrepancies in the summary statistics space, the iterative synthesis loop aligns real and synthetic data.)"
+        ],
+        "conclusion": "LLMSynthor는 높은 통계적 신뢰성과 실용성을 지닌 합성 데이터를 생성하며, 다양한 분야에서 유용하게 활용될 수 있음.",
+        "keywords": [
+            "Large Language Models",
+            "Data Synthesis",
+            "Multimodal Learning"
+        ]
+    }
+]
