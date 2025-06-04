@@ -1,0 +1,502 @@
+[
+    {
+        "paper": {
+            "id": "2505.24726",
+            "authors": [
+                {
+                    "_id": "683ffca568402c738a947f4e",
+                    "name": "Shelly Bensal",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f4f",
+                    "name": "Umar Jamil",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f50",
+                    "name": "Christopher Bryant",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f51",
+                    "user": {
+                        "_id": "60e61b3969bd0df25c9375da",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625692968400-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Melisa Russak",
+                        "user": "melisa",
+                        "type": "user"
+                    },
+                    "name": "Melisa Russak",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T08:53:45.047Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f52",
+                    "user": {
+                        "_id": "621d6f532165dc431641e438",
+                        "avatarUrl": "/avatars/56ccef10a8426d7160ef3586a771bd63.svg",
+                        "isPro": false,
+                        "fullname": "Kiran Kamble",
+                        "user": "kiranr",
+                        "type": "user"
+                    },
+                    "name": "Kiran Kamble",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T15:03:25.497Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f53",
+                    "name": "Dmytro Mozolevskyi",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f54",
+                    "name": "Muayad Ali",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ffca568402c738a947f55",
+                    "user": {
+                        "_id": "60cd486d723acf5eb46fe8d3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60cd486d723acf5eb46fe8d3/Z1bD1kjvZ0QAOjZna41Xr.jpeg",
+                        "isPro": false,
+                        "fullname": "Waseem AlShikh",
+                        "user": "wassemgtk",
+                        "type": "user"
+                    },
+                    "name": "Waseem AlShikh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T15:03:22.388Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-30T15:49:42.000Z",
+            "submittedOnDailyAt": "2025-06-04T06:34:02.563Z",
+            "title": "Reflect, Retry, Reward: Self-Improving LLMs via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "60e61b3969bd0df25c9375da",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1625692968400-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Melisa Russak",
+                "user": "melisa",
+                "type": "user"
+            },
+            "summary": "We explore a method for improving the performance of large language models\nthrough self-reflection and reinforcement learning. By incentivizing the model\nto generate better self-reflections when it answers incorrectly, we demonstrate\nthat a model's ability to solve complex, verifiable tasks can be enhanced even\nwhen generating synthetic data is infeasible and only binary feedback is\navailable. Our framework operates in two stages: first, upon failing a given\ntask, the model generates a self-reflective commentary analyzing its previous\nattempt; second, the model is given another attempt at the task with the\nself-reflection in context. If the subsequent attempt succeeds, the tokens\ngenerated during the self-reflection phase are rewarded. Our experimental\nresults show substantial performance gains across a variety of model\narchitectures, as high as 34.7% improvement at math equation writing and 18.1%\nimprovement at function calling. Notably, smaller fine-tuned models (1.5\nbillion to 7 billion parameters) outperform models in the same family that are\n10 times larger. Our novel paradigm is thus an exciting pathway to more useful\nand reliable language models that can self-improve on challenging tasks with\nlimited external feedback.",
+            "upvotes": 92,
+            "discussionId": "683ffca568402c738a947f7b",
+            "ai_summary": "A method using self-reflection and reinforcement learning improves the performance of large language models, especially with limited feedback, by rewarding self-reflections that lead to better task performance.",
+            "ai_keywords": [
+                "self-reflection",
+                "reinforcement learning",
+                "self-reflective commentary",
+                "performance gains",
+                "math equation writing",
+                "function calling",
+                "parameter-efficient fine-tuning"
+            ]
+        },
+        "translation_title": "Reflect, Retry, Reward: 자기 개선을 위한 강화 학습을 통한 LLMs",
+        "purpose": "대형 언어 모델의 성능을 자기 반성과 강화 학습을 통해 향상시키는 방법을 연구함",
+        "method": [
+            "모델이 잘못된 답변을 했을 때 자기 반성의 내용을 생성하도록 유도함(we demonstrate that a model's ability to solve complex, verifiable tasks can be enhanced even when generating synthetic data is infeasible and only binary feedback is available)",
+            "모델이 이전 시도를 분석하는 자기 반성적인 주석을 생성함(first, upon failing a given task, the model generates a self-reflective commentary analyzing its previous attempt)",
+            "자기 반성을 바탕으로 새로운 시도에 도전하게 하며, 성공 시 해당 과정에서 생성된 토큰에 보상을 부여함(second, the model is given another attempt at the task with the self-reflection in context)"
+        ],
+        "conclusion": "실험 결과, 다양한 모델 아키텍처에서 성능이 향상되었으며, 34.7%의 수학 문제 작성을 개선하고, 18.1%의 함수 호출 성능 개선이 확인됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.02387",
+            "authors": [
+                {
+                    "_id": "683fa95ea0770843560c7ae3",
+                    "user": {
+                        "_id": "653a5b0f7c01c693a16dd184",
+                        "avatarUrl": "/avatars/4b43d88709dc8037250404452e81adcf.svg",
+                        "isPro": false,
+                        "fullname": "Zelai Xu",
+                        "user": "zelaix",
+                        "type": "user"
+                    },
+                    "name": "Zelai Xu",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-04T02:03:11.372Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae4",
+                    "name": "Zhexuan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae5",
+                    "name": "Xiangmin Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae6",
+                    "user": {
+                        "_id": "683fb7bb7c8d720be437948d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/pWekQrjYM6lw9bDjvLHg7.png",
+                        "isPro": false,
+                        "fullname": "Huining Yuan",
+                        "user": "HuiningYuan",
+                        "type": "user"
+                    },
+                    "name": "Huining Yuan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-04T10:26:15.430Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae7",
+                    "name": "Xinlei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae8",
+                    "name": "Yi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7ae9",
+                    "name": "Chao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fa95ea0770843560c7aea",
+                    "name": "Yu Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-03T02:57:38.000Z",
+            "submittedOnDailyAt": "2025-06-04T00:58:29.506Z",
+            "title": "VS-Bench: Evaluating VLMs for Strategic Reasoning and Decision-Making in\n  Multi-Agent Environments",
+            "submittedOnDailyBy": {
+                "_id": "653a5b0f7c01c693a16dd184",
+                "avatarUrl": "/avatars/4b43d88709dc8037250404452e81adcf.svg",
+                "isPro": false,
+                "fullname": "Zelai Xu",
+                "user": "zelaix",
+                "type": "user"
+            },
+            "summary": "Recent advancements in Vision Language Models (VLMs) have expanded their\ncapabilities to interactive agent tasks, yet existing benchmarks remain limited\nto single-agent or text-only environments. In contrast, real-world scenarios\noften involve multiple agents interacting within rich visual and linguistic\ncontexts, posing challenges with both multimodal observations and strategic\ninteractions. To bridge this gap, we introduce Visual Strategic Bench\n(VS-Bench), a multimodal benchmark that evaluates VLMs for strategic reasoning\nand decision-making in multi-agent environments. VS-Bench comprises eight\nvision-grounded environments spanning cooperative, competitive, and\nmixed-motive interactions, designed to assess agents' ability to predict\nothers' future moves and optimize for long-term objectives. We consider two\ncomplementary evaluation dimensions, including offline evaluation of strategic\nreasoning by next-action prediction accuracy and online evaluation of\ndecision-making by normalized episode return. Extensive experiments of fourteen\nleading VLMs reveal a significant gap between current models and optimal\nperformance, with the best models attaining 47.8% prediction accuracy and 24.3%\nnormalized return. We further conduct in-depth analyses on multimodal\nobservations, test-time scaling, social behaviors, and failure cases of VLM\nagents. By standardizing the evaluation and highlighting the limitations of\nexisting models, we envision VS-Bench as a foundation for future research on\nstrategic multimodal agents. Code and data are available at\nhttps://vs-bench.github.io.",
+            "upvotes": 45,
+            "discussionId": "683fa95fa0770843560c7b3d",
+            "projectPage": "https://vs-bench.github.io",
+            "githubRepo": "https://github.com/zelaix/VS-Bench",
+            "ai_summary": "VS-Bench is a multimodal benchmark designed to evaluate Vision Language Models' strategic reasoning and decision-making in complex multi-agent environments.",
+            "ai_keywords": [
+                "Vision Language Models",
+                "VS-Bench",
+                "multimodal benchmark",
+                "strategic reasoning",
+                "decision-making",
+                "multi-agent environments",
+                "vision-grounded environments",
+                "cooperative",
+                "competitive",
+                "mixed-motive interactions",
+                "next-action prediction",
+                "normalized episode return",
+                "multimodal observations",
+                "test-time scaling",
+                "social behaviors",
+                "failure cases"
+            ]
+        },
+        "translation_title": "VS-Bench: 다중 에이전트 환경에서 전략적 사고 및 의사결정을 위한 VLM 평가",
+        "purpose": "다중 에이전트 환경에서 전략적 사고 및 의사결정 평가를 위한 새로운 벤치마크 개발",
+        "method": [
+            "VS-Bench라는 멀티모달 벤치마크를 도입하여, VLM의 전략적 사고와 의사결정을 평가함.(To bridge this gap, we introduce Visual Strategic Bench (VS-Bench), a multimodal benchmark that evaluates VLMs for strategic reasoning and decision-making in multi-agent environments.)",
+            "협력적, 경쟁적 및 혼합 동기 상호작용을 포함하는 8개의 비전 기반 환경을 설계하여 에이전트의 미래 행동 예측 및 장기 목표 최적화를 평가함.(VS-Bench comprises eight vision-grounded environments spanning cooperative, competitive, and mixed-motive interactions, designed to assess agents' ability to predict others' future moves and optimize for long-term objectives.)"
+        ],
+        "conclusion": "현재 모델들이 최적 성능과 상당한 차이를 보이며, VS-Bench는 미래의 전략적 멀티모달 에이전트 연구를 위한 기초로 자리잡을 것으로 기대됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.03147",
+            "authors": [
+                {
+                    "_id": "683fae55c6b71c5994ccd4fe",
+                    "user": {
+                        "_id": "6367a8175bb06007ea099b8f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6367a8175bb06007ea099b8f/IjG7HyWyWRlVt_XwRbxRW.jpeg",
+                        "isPro": false,
+                        "fullname": "linbin",
+                        "user": "LanguageBind",
+                        "type": "user"
+                    },
+                    "name": "Bin Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T08:56:49.923Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd4ff",
+                    "user": {
+                        "_id": "646df3c04ad7f907279f14c3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646df3c04ad7f907279f14c3/WZjSDtAmezmjbczLtCP2B.jpeg",
+                        "isPro": false,
+                        "fullname": "Zongjian Li",
+                        "user": "chestnutlzj",
+                        "type": "user"
+                    },
+                    "name": "Zongjian Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T15:03:37.427Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd500",
+                    "name": "Xinhua Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd501",
+                    "name": "Yuwei Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd502",
+                    "name": "Yang Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd503",
+                    "name": "Xianyi He",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd504",
+                    "user": {
+                        "_id": "63468720dd6d90d82ccf3450",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+                        "isPro": false,
+                        "fullname": "YSH",
+                        "user": "BestWishYsh",
+                        "type": "user"
+                    },
+                    "name": "Shenghai Yuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T08:56:52.748Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd505",
+                    "name": "Wangbo Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd506",
+                    "name": "Shaodong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd507",
+                    "name": "Yunyang Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd508",
+                    "name": "Yatian Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fae55c6b71c5994ccd509",
+                    "name": "Li Yuan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-03T17:59:33.000Z",
+            "submittedOnDailyAt": "2025-06-04T00:55:35.016Z",
+            "title": "UniWorld: High-Resolution Semantic Encoders for Unified Visual\n  Understanding and Generation",
+            "submittedOnDailyBy": {
+                "_id": "63468720dd6d90d82ccf3450",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+                "isPro": false,
+                "fullname": "YSH",
+                "user": "BestWishYsh",
+                "type": "user"
+            },
+            "summary": "Although existing unified models deliver strong performance on\nvision-language understanding and text-to-image generation, their models are\nlimited in exploring image perception and manipulation tasks, which are\nurgently desired by users for wide applications. Recently, OpenAI released\ntheir powerful GPT-4o-Image model for comprehensive image perception and\nmanipulation, achieving expressive capability and attracting community\ninterests. By observing the performance of GPT-4o-Image in our carefully\nconstructed experiments, we infer that GPT-4o-Image leverages features\nextracted by semantic encoders instead of VAE, while VAEs are considered\nessential components in many image manipulation models. Motivated by such\ninspiring observations, we present a unified generative framework named\nUniWorld based on semantic features provided by powerful visual-language models\nand contrastive semantic encoders. As a result, we build a strong unified model\nusing only 1% amount of BAGEL's data, which consistently outperforms BAGEL on\nimage editing benchmarks. UniWorld also maintains competitive image\nunderstanding and generation capabilities, achieving strong performance across\nmultiple image perception tasks. We fully open-source our models, including\nmodel weights, training and evaluation scripts, and datasets.",
+            "upvotes": 44,
+            "discussionId": "683fae56c6b71c5994ccd548",
+            "githubRepo": "https://github.com/PKU-YuanGroup/UniWorld-V1",
+            "ai_summary": "A unified generative framework called UniWorld uses semantic features from visual-language models for image perception and manipulation, outperforming BAGEL with reduced data.",
+            "ai_keywords": [
+                "GPT-4o-Image",
+                "semantic encoders",
+                "VAE",
+                "UniWorld",
+                "visual-language models",
+                "contrastive semantic encoders",
+                "image editing benchmarks",
+                "image perception tasks"
+            ]
+        },
+        "translation_title": "UniWorld: 통합된 시각 이해 및 생성을 위한 고해상도 의미 인코더",
+        "purpose": "사용자들이 요구하는 이미지 인식 및 조작 작업을 탐색하는 능력을 개선하기 위해 통합된 생성 모델 연구",
+        "method": [
+            "GPT-4o-Image 모델의 성능을 관찰하여 의미 인코더에서 추출된 특징을 활용하는 방식 추론(GPT-4o-Image leverages features extracted by semantic encoders instead of VAE.)",
+            "강력한 시각-언어 모델과 대조적인 의미 인코더를 활용한 UniWorld라는 통합된 생성 프레임워크를 제시함(Motivated by such inspiring observations, we present a unified generative framework named UniWorld based on semantic features provided by powerful visual-language models and contrastive semantic encoders.)",
+            "BAGEL 데이터의 1%만 사용하여 UniWorld 모델을 구축하고 이미지 편집 기준에서 BAGEL을 지속적으로 초과 성능을 달성함(As a result, we build a strong unified model using only 1% amount of BAGEL's data, which consistently outperforms BAGEL on image editing benchmarks.)"
+        ],
+        "conclusion": "UniWorld는 경쟁력 있는 이미지 이해 및 생성 능력을 유지하며, 여러 이미지 인식 작업에서 우수한 성과를 달성함.",
+        "keywords": [
+            "Image Understanding",
+            "Image Generation",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.24120",
+            "authors": [
+                {
+                    "_id": "683fc08da33aeee1124887c4",
+                    "name": "Ai Jian",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887c5",
+                    "user": {
+                        "_id": "660aab2c878289c5b34f9e97",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660aab2c878289c5b34f9e97/yxx1-lR8x5o6KaEpZDXQq.jpeg",
+                        "isPro": false,
+                        "fullname": "weijie qiu",
+                        "user": "qiuwj",
+                        "type": "user"
+                    },
+                    "name": "Weijie Qiu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T09:56:39.772Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887c6",
+                    "user": {
+                        "_id": "62be9b5aae56e75e4d689e7c",
+                        "avatarUrl": "/avatars/6772bc09d6eeb4e86b1210481be91720.svg",
+                        "isPro": false,
+                        "fullname": "wangxiaokun",
+                        "user": "shawn0wang",
+                        "type": "user"
+                    },
+                    "name": "Xiaokun Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T08:55:01.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887c7",
+                    "name": "Peiyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887c8",
+                    "name": "Yunzhuo Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887c9",
+                    "name": "Jiangbo Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887ca",
+                    "user": {
+                        "_id": "66d3ff488da15c5151c372fb",
+                        "avatarUrl": "/avatars/4e3ed8b675c822e768e17def7604f0d9.svg",
+                        "isPro": false,
+                        "fullname": "Yichen Wei",
+                        "user": "rockman24",
+                        "type": "user"
+                    },
+                    "name": "Yichen Wei",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-04T10:25:28.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887cb",
+                    "name": "Yi Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "683fc08da33aeee1124887cc",
+                    "user": {
+                        "_id": "6462b241b438438da3c25a5d",
+                        "avatarUrl": "/avatars/606a67f1be639c9a5e36f293abd5f27a.svg",
+                        "isPro": false,
+                        "fullname": "Xuchen Song",
+                        "user": "xuchensong",
+                        "type": "user"
+                    },
+                    "name": "Xuchen Song",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-04T10:25:14.285Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/620f5a1c3f76c50e6458a9b6/l5zN70u8jAQBCjl41TWoi.png"
+            ],
+            "publishedAt": "2025-05-30T01:34:25.000Z",
+            "submittedOnDailyAt": "2025-06-04T05:57:36.826Z",
+            "title": "CSVQA: A Chinese Multimodal Benchmark for Evaluating STEM Reasoning\n  Capabilities of VLMs",
+            "submittedOnDailyBy": {
+                "_id": "620f5a1c3f76c50e6458a9b6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/620f5a1c3f76c50e6458a9b6/pXh_f5F0UvufxuUa-eS-v.jpeg",
+                "isPro": false,
+                "fullname": "Peiyu Wang",
+                "user": "OrlandoHugBot",
+                "type": "user"
+            },
+            "summary": "Vision-Language Models (VLMs) have demonstrated remarkable progress in\nmultimodal understanding, yet their capabilities for scientific reasoning\nremains inadequately assessed. Current multimodal benchmarks predominantly\nevaluate generic image comprehension or text-driven reasoning, lacking\nauthentic scientific contexts that require domain-specific knowledge\nintegration with visual evidence analysis. To fill this gap, we present CSVQA,\na diagnostic multimodal benchmark specifically designed for evaluating\nscientific reasoning through domain-grounded visual question answering.Our\nbenchmark features 1,378 carefully constructed question-answer pairs spanning\ndiverse STEM disciplines, each demanding domain knowledge, integration of\nvisual evidence, and higher-order reasoning. Compared to prior multimodal\nbenchmarks, CSVQA places greater emphasis on real-world scientific content and\ncomplex reasoning.We additionally propose a rigorous evaluation protocol to\nsystematically assess whether model predictions are substantiated by valid\nintermediate reasoning steps based on curated explanations. Our comprehensive\nevaluation of 15 VLMs on this benchmark reveals notable performance\ndisparities, as even the top-ranked proprietary model attains only 49.6\\%\naccuracy.This empirical evidence underscores the pressing need for advancing\nscientific reasoning capabilities in VLMs. Our CSVQA is released at\nhttps://huggingface.co/datasets/Skywork/CSVQA.",
+            "upvotes": 42,
+            "discussionId": "683fc091a33aeee1124888a8",
+            "ai_summary": "A new benchmark, CSVQA, evaluates scientific reasoning in vision-language models through domain-specific visual question answering, highlighting the need for improvement in these models.",
+            "ai_keywords": [
+                "Vision-Language Models",
+                "multimodal benchmark",
+                "scientific reasoning",
+                "domain-grounded",
+                "visual question answering",
+                "domain-specific knowledge",
+                "higher-order reasoning",
+                "evaluation protocol",
+                "intermediate reasoning steps",
+                "curated explanations"
+            ]
+        },
+        "translation_title": "CSVQA: STEM 추론 능력을 평가하기 위한 중국어 다중 모달 벤치마크",
+        "purpose": "과학적 추론 능력을 평가하기 위한 다중 모달 벤치마크 및 질문-답변 시스템 개발",
+        "method": [
+            "CSVQA는 도메인 지식과 시각적 증거 분석이 조화를 이루는 과학적 질문-답변을 평가하도록 설계됨(To fill this gap, we present CSVQA, a diagnostic multimodal benchmark specifically designed for evaluating scientific reasoning through domain-grounded visual question answering.)",
+            "1,378개의 질문-답변 쌍을 구성하여 다양한 STEM 분야를 아우름(Our benchmark features 1,378 carefully constructed question-answer pairs spanning diverse STEM disciplines.)",
+            "보다 복잡한 추론을 요구하고 실세계 과학 내용을 강조함(Compared to prior multimodal benchmarks, CSVQA places greater emphasis on real-world scientific content and complex reasoning.)",
+            "모델 예측이 유효한 중간 추론 단계에 의해 뒷받침되는지를 평가하는 엄격한 평가 프로토콜 제안함(We additionally propose a rigorous evaluation protocol to systematically assess whether model predictions are substantiated by valid intermediate reasoning steps based on curated explanations.)"
+        ],
+        "conclusion": "CSVQA를 통해 다중 모달 모델의 과학적 추론 능력에 대한 필요성이 강조되며, 상위 모델도 49.6% 정확도에 그침.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    }
+]
