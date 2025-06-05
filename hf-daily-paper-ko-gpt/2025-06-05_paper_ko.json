@@ -1,0 +1,946 @@
+[
+    {
+        "paper": {
+            "id": "2506.03569",
+            "authors": [
+                {
+                    "_id": "6841003e45e7d8a890731765",
+                    "name": "Xiaomi LLM-Core Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731767",
+                    "user": {
+                        "_id": "6517f0df593b3af3120d242e",
+                        "avatarUrl": "/avatars/bc28ceb48b206502d8cf9e1c2e130066.svg",
+                        "isPro": false,
+                        "fullname": "Zihao Yue",
+                        "user": "yuezih",
+                        "type": "user"
+                    },
+                    "name": "Zihao Yue",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T12:42:03.793Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731768",
+                    "name": "Zhenru Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731769",
+                    "name": "Yifan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176a",
+                    "name": "Weikun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176b",
+                    "user": {
+                        "_id": "60d2e681b8448e1785bbda06",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624434302056-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Shuhuai Ren",
+                        "user": "ShuhuaiRen",
+                        "type": "user"
+                    },
+                    "name": "Shuhuai Ren",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:27:00.497Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176c",
+                    "user": {
+                        "_id": "642e72cec1b0f8e4e76af16d",
+                        "avatarUrl": "/avatars/f900811d3c22a114c67283b646949f86.svg",
+                        "isPro": false,
+                        "fullname": "shuhao gu",
+                        "user": "gsh33",
+                        "type": "user"
+                    },
+                    "name": "Shuhao Gu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:27:04.948Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176d",
+                    "user": {
+                        "_id": "64539588fc2b5f69e8faac76",
+                        "avatarUrl": "/avatars/111441eeb0dd4d8ad2f0d3f28277952a.svg",
+                        "isPro": false,
+                        "fullname": "Li Shicheng",
+                        "user": "lscpku",
+                        "type": "user"
+                    },
+                    "name": "Shicheng Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T12:42:01.493Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176e",
+                    "name": "Peidian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073176f",
+                    "user": {
+                        "_id": "680caf5b11555c276d5bfa65",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/KQJTgmVZ1v3E4a9fQmbOp.png",
+                        "isPro": false,
+                        "fullname": "Liang Zhao",
+                        "user": "zhao1iang-mimo",
+                        "type": "user"
+                    },
+                    "name": "Liang Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T12:41:59.333Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731770",
+                    "user": {
+                        "_id": "6038d6d0612f5eef3cc05ea9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6038d6d0612f5eef3cc05ea9/ryhvAX5djQpD5OrIlZQ1f.jpeg",
+                        "isPro": false,
+                        "fullname": "Lei Li",
+                        "user": "tobiaslee",
+                        "type": "user"
+                    },
+                    "name": "Lei Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:27:07.044Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731771",
+                    "name": "Kainan Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731772",
+                    "name": "Hao Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731773",
+                    "name": "Hailin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731774",
+                    "name": "Gang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731775",
+                    "user": {
+                        "_id": "64d2fce8129a210e569e0c76",
+                        "avatarUrl": "/avatars/a79a832dc3a46ece1b9e542369fc4888.svg",
+                        "isPro": false,
+                        "fullname": "Dawei Zhu",
+                        "user": "dwzhu",
+                        "type": "user"
+                    },
+                    "name": "Dawei Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:27:02.720Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731776",
+                    "name": "Cici",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731777",
+                    "name": "Chenhong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731778",
+                    "name": "Bowen Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731779",
+                    "name": "Bowen Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177a",
+                    "name": "Zihan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177b",
+                    "name": "Zihan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177c",
+                    "name": "Zhixian Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177d",
+                    "name": "Zhichao Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177e",
+                    "name": "Zhenbo Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073177f",
+                    "name": "Yue Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731780",
+                    "name": "Yudong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731781",
+                    "name": "Yuanyuan Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731782",
+                    "name": "Yu Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731783",
+                    "name": "Yihan Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731784",
+                    "name": "Yi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731785",
+                    "name": "Xu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731786",
+                    "name": "Xinzhe Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731787",
+                    "name": "Xingchen Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731788",
+                    "name": "Xing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731789",
+                    "name": "Xing Yong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178a",
+                    "name": "Xin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178b",
+                    "name": "Xiangwei Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178c",
+                    "name": "Wenyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178d",
+                    "name": "Wenhan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178e",
+                    "name": "Weiwei Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073178f",
+                    "name": "Weiji Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731790",
+                    "name": "Wei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731791",
+                    "name": "Sirui Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731792",
+                    "name": "Shuo Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731793",
+                    "name": "Shimao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731794",
+                    "name": "Shihua Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731795",
+                    "name": "Shaohui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731796",
+                    "name": "Shande Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731797",
+                    "name": "Rui Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731798",
+                    "name": "Qiantong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a890731799",
+                    "name": "Peng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179a",
+                    "name": "Nuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179b",
+                    "name": "Menghang Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179c",
+                    "name": "Kangyang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179d",
+                    "name": "Kang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179e",
+                    "name": "Kai Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a89073179f",
+                    "name": "Jun Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a0",
+                    "name": "Jinhao Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a1",
+                    "name": "Jiebao Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a2",
+                    "name": "Jiaming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a3",
+                    "user": {
+                        "_id": "680e9a219e529f779991be0c",
+                        "avatarUrl": "/avatars/327b945649192b0881fe290298d10e23.svg",
+                        "isPro": false,
+                        "fullname": "Huaqiu Liu",
+                        "user": "Prestonprom",
+                        "type": "user"
+                    },
+                    "name": "Huaqiu Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:26:58.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a4",
+                    "name": "Hongshen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a5",
+                    "name": "Heng Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a6",
+                    "name": "Haochen Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a7",
+                    "name": "Hanglong Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a8",
+                    "name": "Guoan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317a9",
+                    "name": "Duo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317aa",
+                    "name": "Dong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317ab",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317ac",
+                    "name": "Chong Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317ad",
+                    "name": "Chang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317ae",
+                    "name": "Can Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6841003e45e7d8a8907317af",
+                    "name": "Bingquan Xia",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-04T04:32:54.000Z",
+            "submittedOnDailyAt": "2025-06-05T00:57:27.734Z",
+            "title": "MiMo-VL Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "6038d6d0612f5eef3cc05ea9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6038d6d0612f5eef3cc05ea9/ryhvAX5djQpD5OrIlZQ1f.jpeg",
+                "isPro": false,
+                "fullname": "Lei Li",
+                "user": "tobiaslee",
+                "type": "user"
+            },
+            "summary": "We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language\nmodels delivering state-of-the-art performance in both general visual\nunderstanding and multimodal reasoning. MiMo-VL-7B-RL outperforms Qwen2.5-VL-7B\non 35 out of 40 evaluated tasks, and scores 59.4 on OlympiadBench, surpassing\nmodels with up to 78B parameters. For GUI grounding applications, it sets a new\nstandard with 56.1 on OSWorld-G, even outperforming specialized models such as\nUI-TARS. Our training combines four-stage pre-training (2.4 trillion tokens)\nwith Mixed On-policy Reinforcement Learning (MORL) integrating diverse reward\nsignals. We identify the importance of incorporating high-quality reasoning\ndata with long Chain-of-Thought into pre-training stages, and the benefits of\nmixed RL despite challenges in simultaneous multi-domain optimization. We also\ncontribute a comprehensive evaluation suite covering 50+ tasks to promote\nreproducibility and advance the field. The model checkpoints and full\nevaluation suite are available at https://github.com/XiaomiMiMo/MiMo-VL.",
+            "upvotes": 52,
+            "discussionId": "6841004145e7d8a890731853",
+            "githubRepo": "https://github.com/XiaomiMiMo/MiMo-VL",
+            "ai_summary": "MiMo-VL-7B-SFT and MiMo-VL-7B-RL provide state-of-the-art general visual understanding and multimodal reasoning through four-stage pre-training and Mixed On-policy Reinforcement Learning, outperforming models with up to 78B parameters.",
+            "ai_keywords": [
+                "vision-language models",
+                "multimodal reasoning",
+                "four-stage pre-training",
+                "Mixed On-policy Reinforcement Learning",
+                "MORL",
+                "Chain-of-Thought",
+                "reproducibility"
+            ]
+        },
+        "translation_title": "MiMo-VL 기술 보고서",
+        "purpose": "일반적인 시각 이해와 다중 모달 추론에서 최첨단 성능을 제공하는 강력한 비전-언어 모델을 공개하는 것",
+        "method": [
+            "MiMo-VL-7B-SFT와 MiMo-VL-7B-RL이라는 두 모델을 오픈소스함(We open-source MiMo-VL-7B-SFT and MiMo-VL-7B-RL, two powerful vision-language models delivering state-of-the-art performance.)",
+            "Mixed On-policy Reinforcement Learning (MORL) 기법을 통해 다양한 보상 신호를 통합하여 훈련함(We combine four-stage pre-training with Mixed On-policy Reinforcement Learning (MORL) integrating diverse reward signals.)",
+            "고품질 reasoning 데이터를 포함하고 Chain-of-Thought을 활용해 훈련의 중요성을 강조함(We identify the importance of incorporating high-quality reasoning data with long Chain-of-Thought into pre-training stages.)",
+            "50개 이상의 작업을 커버하는 종합 평가 도구를 개발하여 재현성을 촉진하고 이 분야를 발전시킴(We also contribute a comprehensive evaluation suite covering 50+ tasks to promote reproducibility and advance the field.)"
+        ],
+        "conclusion": "MiMo-VL-7B-RL 모델은 다양한 작업에서 뛰어난 성능을 보이며, GUI 기초 응용 프로그램을 위한 새로운 표준을 설정함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.04207",
+            "authors": [
+                {
+                    "_id": "684117e22db29aa7b403af8d",
+                    "name": "Shuang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af8e",
+                    "name": "Yue Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af8f",
+                    "user": {
+                        "_id": "64264095ba51f8a2136946a0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64264095ba51f8a2136946a0/FR33boVpkDXcrvGMBmprF.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhaochen Su",
+                        "user": "Warrieryes",
+                        "type": "user"
+                    },
+                    "name": "Zhaochen Su",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:26:45.759Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af90",
+                    "name": "Yafu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af91",
+                    "name": "Yulun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af92",
+                    "user": {
+                        "_id": "65352acb7139c5dd8d9a8590",
+                        "avatarUrl": "/avatars/e2ff22b596aee45cdfb8f68dc15572f9.svg",
+                        "isPro": false,
+                        "fullname": "JiachengChen",
+                        "user": "JC-Chen",
+                        "type": "user"
+                    },
+                    "name": "Jiacheng Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T07:48:38.463Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af93",
+                    "name": "Jiayu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af94",
+                    "name": "Weijie Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af95",
+                    "name": "Xiaoye Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684117e22db29aa7b403af96",
+                    "name": "Yu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-04T17:51:08.000Z",
+            "submittedOnDailyAt": "2025-06-05T02:38:24.366Z",
+            "title": "Advancing Multimodal Reasoning: From Optimized Cold Start to Staged\n  Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "65352acb7139c5dd8d9a8590",
+                "avatarUrl": "/avatars/e2ff22b596aee45cdfb8f68dc15572f9.svg",
+                "isPro": false,
+                "fullname": "JiachengChen",
+                "user": "JC-Chen",
+                "type": "user"
+            },
+            "summary": "Inspired by the remarkable reasoning capabilities of Deepseek-R1 in complex\ntextual tasks, many works attempt to incentivize similar capabilities in\nMultimodal Large Language Models (MLLMs) by directly applying reinforcement\nlearning (RL). However, they still struggle to activate complex reasoning. In\nthis paper, rather than examining multimodal RL in isolation, we delve into\ncurrent training pipelines and identify three crucial phenomena: 1) Effective\ncold start initialization is critical for enhancing MLLM reasoning.\nIntriguingly, we find that initializing with carefully selected text data alone\ncan lead to performance surpassing many recent multimodal reasoning models,\neven before multimodal RL. 2) Standard GRPO applied to multimodal RL suffers\nfrom gradient stagnation, which degrades training stability and performance. 3)\nSubsequent text-only RL training, following the multimodal RL phase, further\nenhances multimodal reasoning. This staged training approach effectively\nbalances perceptual grounding and cognitive reasoning development. By\nincorporating the above insights and addressing multimodal RL issues, we\nintroduce ReVisual-R1, achieving a new state-of-the-art among open-source 7B\nMLLMs on challenging benchmarks including MathVerse, MathVision, WeMath,\nLogicVista, DynaMath, and challenging AIME2024 and AIME2025.",
+            "upvotes": 39,
+            "discussionId": "684117e32db29aa7b403afc2",
+            "githubRepo": "https://github.com/CSfufu/Revisual-R1"
+        },
+        "translation_title": "다중 모달 추론 발전: 최적화된 콜드 스타트에서 단계적 강화 학습으로",
+        "purpose": "다중 모달 대규모 언어 모델의 복잡한 추론 능력을 향상시키기 위한 새로운 학습 접근 방식 탐색",
+        "method": [
+            "기존 훈련 파이프라인을 분석하고, MLLM 추론을 향상시키기에 중요한 세 가지 현상을 규명함(we delve into current training pipelines and identify three crucial phenomena).",
+            "정확히 선택된 텍스트 데이터로 초기화하는 것이 MLLM 추론을 높이는 데 중요함을 발견함(We find that initializing with carefully selected text data alone can lead to performance surpassing many recent multimodal reasoning models).",
+            "다단계 훈련 접근 방식을 활용하여 인지적 추론 개발을 촉진함(This staged training approach effectively balances perceptual grounding and cognitive reasoning development)."
+        ],
+        "conclusion": "ReVisual-R1을 도입하여 공개된 7B MLLM 중 새로운 최첨단 성과를 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.04089",
+            "authors": [
+                {
+                    "_id": "684153cf911d1b3135fa5dfe",
+                    "name": "Anastasiia Ivanova",
+                    "hidden": false
+                },
+                {
+                    "_id": "684153cf911d1b3135fa5dff",
+                    "user": {
+                        "_id": "661af24d8328f43c6abc2d11",
+                        "avatarUrl": "/avatars/afe7eaf1f7a378dbcdba5cd3e86adf9c.svg",
+                        "isPro": false,
+                        "fullname": "Eva",
+                        "user": "tenebrissilvam",
+                        "type": "user"
+                    },
+                    "name": "Eva Bakaeva",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T10:00:02.435Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684153cf911d1b3135fa5e00",
+                    "user": {
+                        "_id": "64198f70ed725fef6442b37e",
+                        "avatarUrl": "/avatars/580ab07a3067a9deb2977b0894226fe3.svg",
+                        "isPro": false,
+                        "fullname": "Alexey Kovalev",
+                        "user": "AlexeyKov",
+                        "type": "user"
+                    },
+                    "name": "Zoya Volovikova",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-05T08:22:39.926Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684153cf911d1b3135fa5e01",
+                    "name": "Alexey K. Kovalev",
+                    "hidden": false
+                },
+                {
+                    "_id": "684153cf911d1b3135fa5e02",
+                    "name": "Aleksandr I. Panov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-04T15:47:07.000Z",
+            "submittedOnDailyAt": "2025-06-05T07:08:16.935Z",
+            "title": "AmbiK: Dataset of Ambiguous Tasks in Kitchen Environment",
+            "submittedOnDailyBy": {
+                "_id": "64198f70ed725fef6442b37e",
+                "avatarUrl": "/avatars/580ab07a3067a9deb2977b0894226fe3.svg",
+                "isPro": false,
+                "fullname": "Alexey Kovalev",
+                "user": "AlexeyKov",
+                "type": "user"
+            },
+            "summary": "As a part of an embodied agent, Large Language Models (LLMs) are typically\nused for behavior planning given natural language instructions from the user.\nHowever, dealing with ambiguous instructions in real-world environments remains\na challenge for LLMs. Various methods for task ambiguity detection have been\nproposed. However, it is difficult to compare them because they are tested on\ndifferent datasets and there is no universal benchmark. For this reason, we\npropose AmbiK (Ambiguous Tasks in Kitchen Environment), the fully textual\ndataset of ambiguous instructions addressed to a robot in a kitchen\nenvironment. AmbiK was collected with the assistance of LLMs and is\nhuman-validated. It comprises 1000 pairs of ambiguous tasks and their\nunambiguous counterparts, categorized by ambiguity type (Human Preferences,\nCommon Sense Knowledge, Safety), with environment descriptions, clarifying\nquestions and answers, user intents, and task plans, for a total of 2000 tasks.\nWe hope that AmbiK will enable researchers to perform a unified comparison of\nambiguity detection methods. AmbiK is available at\nhttps://github.com/cog-model/AmbiK-dataset.",
+            "upvotes": 37,
+            "discussionId": "684153cf911d1b3135fa5e2e",
+            "ai_summary": "AmbiK, a textual dataset of ambiguous instructions for kitchen robots, enables unified comparison of ambiguity detection methods.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMs",
+                "behavior planning",
+                "ambiguous instructions",
+                "task ambiguity detection",
+                "AmbiK",
+                "dataset",
+                "human-validated",
+                "ambiguity types",
+                "Human Preferences",
+                "Common Sense Knowledge",
+                "Safety",
+                "environment descriptions",
+                "clarifying questions",
+                "user intents",
+                "task plans"
+            ]
+        },
+        "translation_title": "AmbiK: 주방 환경에서의 모호한 작업 데이터 세트",
+        "purpose": "로봇을 위한 모호한 지시를 수집하여 LLMs의 모호함 처리 성능을 비교하기 위한 데이터 세트 제공",
+        "method": [
+            "LLMs의 도움을 받아 주방 환경에서 로봇에게 주어진 모호한 지시를 수집함(However, dealing with ambiguous instructions in real-world environments remains a challenge for LLMs.)",
+            "1000개의 모호한 작업과 그에 대한 명확한 작업 쌍을 수집하여 환경 설명 및 사용자 의도와 함께 정리함(AmbiK was collected with the assistance of LLMs and is human-validated.)",
+            "모호함 유형(인간의 선호, 상식 지식, 안전)에 따라 분류된 총 2000개의 작업으로 구성되어 있음."
+        ],
+        "conclusion": "AmbiK는 모호함 탐지 방법들의 통합 비교를 가능하게 하여 연구자들에게 유용한 자료가 될 것임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2505.16968",
+            "authors": [
+                {
+                    "_id": "683656aefd55e753bf26ed3e",
+                    "user": {
+                        "_id": "656864e12d73834278a8dea7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656864e12d73834278a8dea7/sfAWS2eyPtFHb_2GZIypp.jpeg",
+                        "isPro": true,
+                        "fullname": "Ahmed Heakl",
+                        "user": "ahmedheakl",
+                        "type": "user"
+                    },
+                    "name": "Ahmed Heakl",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-05-28T08:58:30.760Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683656aefd55e753bf26ed3f",
+                    "user": {
+                        "_id": "62676a94dacab364889bb36c",
+                        "avatarUrl": "/avatars/0ead41b44957eb30564ea685ed22781a.svg",
+                        "isPro": false,
+                        "fullname": "SARIM HASHMI",
+                        "user": "Sarim-Hash",
+                        "type": "user"
+                    },
+                    "name": "Sarim Hashmi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:49:01.879Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683656aefd55e753bf26ed40",
+                    "user": {
+                        "_id": "62eaadf4086bd1debb30a122",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62eaadf4086bd1debb30a122/wgxsPVnkOuEfq1oqlUhiB.jpeg",
+                        "isPro": false,
+                        "fullname": "Gustavo Stahl",
+                        "user": "GustavoStahl",
+                        "type": "user"
+                    },
+                    "name": "Gustavo Bertolo Stahl",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-05T08:31:48.782Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683656aefd55e753bf26ed41",
+                    "name": "Seung Hun Eddie Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "683656aefd55e753bf26ed42",
+                    "name": "Salman Khan",
+                    "hidden": false
+                },
+                {
+                    "_id": "683656aefd55e753bf26ed43",
+                    "name": "Abdulrahman Mahmoud",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/656864e12d73834278a8dea7/T4ESSrZsC7163P3I8p17C.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/656864e12d73834278a8dea7/WF-SJEyKKtpa3Zq0JvBXA.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/656864e12d73834278a8dea7/Hl8Dkgmc4QL_l9YKPhRvD.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/656864e12d73834278a8dea7/p-io7OU8TtxwvBp4_M1Hd.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/656864e12d73834278a8dea7/bu6bpeVfonZgrXopd9f79.png"
+            ],
+            "publishedAt": "2025-05-22T17:48:53.000Z",
+            "submittedOnDailyAt": "2025-06-05T06:33:02.615Z",
+            "title": "CASS: Nvidia to AMD Transpilation with Data, Models, and Benchmark",
+            "submittedOnDailyBy": {
+                "_id": "656864e12d73834278a8dea7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656864e12d73834278a8dea7/sfAWS2eyPtFHb_2GZIypp.jpeg",
+                "isPro": true,
+                "fullname": "Ahmed Heakl",
+                "user": "ahmedheakl",
+                "type": "user"
+            },
+            "summary": "We introduce CASS, the first large-scale dataset and model suite for\ncross-architecture GPU code transpilation, targeting both source-level (CUDA\nleftrightarrow HIP) and assembly-level (Nvidia SASS leftrightarrow AMD\nRDNA3) translation. The dataset comprises 70k verified code pairs across host\nand device, addressing a critical gap in low-level GPU code portability.\nLeveraging this resource, we train the CASS family of domain-specific language\nmodels, achieving 95% source translation accuracy and 37.5% assembly\ntranslation accuracy, substantially outperforming commercial baselines such as\nGPT-4o, Claude, and Hipify. Our generated code matches native performance in\nover 85% of test cases, preserving runtime and memory behavior. To support\nrigorous evaluation, we introduce CASS-Bench, a curated benchmark spanning 16\nGPU domains with ground-truth execution. All data, models, and evaluation tools\nare released as open source to foster progress in GPU compiler tooling, binary\ncompatibility, and LLM-guided hardware translation. Dataset and benchmark are\non\nhttps://huggingface.co/datasets/MBZUAI/cass{blue{HuggingFace}},\nwith code at\nhttps://github.com/GustavoStahl/CASS{blue{GitHub}}.",
+            "upvotes": 34,
+            "discussionId": "683656b0fd55e753bf26edf7",
+            "githubRepo": "https://github.com/GustavoStahl/CASS",
+            "ai_summary": "CASS is a dataset and model suite for GPU code transpilation at both source and assembly levels, achieving high accuracy and performance matching with native code.",
+            "ai_keywords": [
+                "cross-architecture GPU code transpilation",
+                "CASS",
+                "CUDA",
+                "HIP",
+                "Nvidia SASS",
+                "AMD RDNA3",
+                "domain-specific language models",
+                "source translation accuracy",
+                "assembly translation accuracy",
+                "native performance",
+                "CASS-Bench",
+                "GPU compiler tooling",
+                "binary compatibility",
+                "LLM-guided hardware translation"
+            ]
+        },
+        "translation_title": "CASS: Nvidia에서 AMD로의 데이터, 모델 및 벤치마크를 통한 전이",
+        "purpose": "Nvidia GPU 코드와 AMD GPU 코드 간의 전이를 지원하는 대규모 데이터셋과 모델 제공",
+        "method": [
+            "70,000개의 검증된 코드 쌍으로 구성된 데이터셋을 구축하여 GPU 코드의 이동성을 개선함 (The dataset comprises 70k verified code pairs across host and device.)",
+            "CASS 모델을 훈련하여 소스 번역 정확도 95% 및 어셈블리 번역 정확도 37.5% 달성함 (Leveraging this resource, we train the CASS family of domain-specific language models, achieving 95% source translation accuracy and 37.5% assembly translation accuracy.)",
+            "CASS-Bench라는 벤치마크를 도입하여 16개의 GPU 도메인에 대한 평가를 수행함 (To support rigorous evaluation, we introduce CASS-Bench, a curated benchmark spanning 16 GPU domains with ground-truth execution.)"
+        ],
+        "conclusion": "CASS는 상용 솔루션을 뛰어넘는 성능을 보여주며, CUDA와 AMD RDNA3 간의 코드 전이에 기여하고, 모든 데이터와 모델을 오픈 소스로 제공함.",
+        "keywords": [
+            "Computer Vision",
+            "Robotics",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.02921",
+            "authors": [
+                {
+                    "_id": "683ff4dcfbc9041ef7274c51",
+                    "user": {
+                        "_id": "657eea68f4f72f2c4c44640d",
+                        "avatarUrl": "/avatars/033bc4f063cd36a79a0b4761f6ebe32c.svg",
+                        "isPro": false,
+                        "fullname": "Yijun YANG",
+                        "user": "thomasyyj",
+                        "type": "user"
+                    },
+                    "name": "Yijun Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-04T08:53:47.455Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c52",
+                    "name": "Zeyu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c53",
+                    "user": {
+                        "_id": "649d7d8968586ca9bf7f5fe6",
+                        "avatarUrl": "/avatars/b444240770d4025dea41871cf38126dc.svg",
+                        "isPro": false,
+                        "fullname": "Wenhao Zhu",
+                        "user": "Wenhao97",
+                        "type": "user"
+                    },
+                    "name": "Wenhao Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-05T12:47:37.569Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c54",
+                    "user": {
+                        "_id": "647ccbd6e07cf9bb2d485244",
+                        "avatarUrl": "/avatars/e8915abaff04f6762247e196b7cf84df.svg",
+                        "isPro": false,
+                        "fullname": "Zihan Qiu",
+                        "user": "QwQZh",
+                        "type": "user"
+                    },
+                    "name": "Zihan Qiu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-05T12:47:15.684Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c55",
+                    "name": "Fei Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c56",
+                    "name": "Jeff Z. Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "683ff4dcfbc9041ef7274c57",
+                    "user": {
+                        "_id": "666f6375623133f1ce79c021",
+                        "avatarUrl": "/avatars/b57a457cff81d685fdd9eadee53445fc.svg",
+                        "isPro": false,
+                        "fullname": "Ivan Titov",
+                        "user": "Ivanchoo",
+                        "type": "user"
+                    },
+                    "name": "Ivan Titov",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-05T12:46:49.924Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-03T14:23:06.000Z",
+            "submittedOnDailyAt": "2025-06-05T02:04:55.586Z",
+            "title": "A Controllable Examination for Long-Context Language Models",
+            "submittedOnDailyBy": {
+                "_id": "657eea68f4f72f2c4c44640d",
+                "avatarUrl": "/avatars/033bc4f063cd36a79a0b4761f6ebe32c.svg",
+                "isPro": false,
+                "fullname": "Yijun YANG",
+                "user": "thomasyyj",
+                "type": "user"
+            },
+            "summary": "Existing frameworks for evaluating long-context language models (LCLM) can be\nbroadly categorized into real-world and synthetic tasks. Despite their utility,\nboth approaches are accompanied by certain intrinsic limitations. Real-world\ntasks are too complex to interpret or characterize and are susceptible to data\ncontamination. In contrast, synthetic tasks often adopt the\nneedle-in-the-haystack (NIAH) format, wherein a lack of coherence between the\n\"needle\" and the \"haystack\" compromises their validity as proxies for realistic\napplications. In response to these challenges, we posit that an ideal\nlong-context evaluation framework should be characterized by three essential\nfeatures: seamless context, controllable setting, and\nsound evaluation. This study introduces LongBioBench, a\nnovel benchmark that utilizes artificially generated biographies as a\ncontrolled environment for assessing LCLMs across dimensions of\nunderstanding, reasoning, and trustworthiness.\nOur experimental evaluation, which includes 18 LCLMs in total,\ndemonstrates that most models still exhibit deficiencies in semantic\nunderstanding and elementary reasoning over retrieved results and are less\ntrustworthy as context length increases. Our further analysis indicates some\ndesign choices employed by existing synthetic benchmarks, such as contextual\nnon-coherence, numerical needles, and the absence of distractors, rendering\nthem vulnerable to test the model long-context capabilities. Moreover, we also\nreveal that long-context continual pretraining primarily adjusts RoPE embedding\nto accommodate extended context lengths. To sum up, compared to previous\nsynthetic benchmarks, LongBioBench achieves a better trade-off between\nmirroring authentic language tasks and maintaining controllability, and is\nhighly interpretable and configurable.",
+            "upvotes": 29,
+            "discussionId": "683ff4ddfbc9041ef7274c73",
+            "githubRepo": "https://github.com/Thomasyyj/LongBio-Benchmark",
+            "ai_summary": "LongBioBench is a new benchmark using artificially generated biographies to evaluate long-context language models across understanding, reasoning, and trustworthiness dimensions, addressing limitations in existing frameworks.",
+            "ai_keywords": [
+                "long-context language models (LCLM)",
+                "real-world tasks",
+                "synthetic tasks",
+                "needle-in-the-haystack (NIAH)",
+                "seamless context",
+                "controllable setting",
+                "sound evaluation",
+                "LongBioBench",
+                "semantic understanding",
+                "elementary reasoning",
+                "trustworthiness",
+                "long-context continual pretraining",
+                "RoPE embedding"
+            ]
+        },
+        "translation_title": "장기 맥락 언어 모델을 위한 조절 가능한 평가",
+        "purpose": "장기 맥락 언어 모델(LCLM)의 성능을 효과적으로 평가하기 위한 기준 설계",
+        "method": [
+            "LongBioBench라는 새로운 벤치마크를 도입하여 인공적으로 생성된 전기를 활용해 이해, 추론, 신뢰성을 평가함(LongBioBench, a novel benchmark that utilizes artificially generated biographies as a controlled environment for assessing LCLMs across dimensions of understanding, reasoning, and trustworthiness.)",
+            "총 18개의 LCLM 모델을 실험 평가하여 대부분 모델들이 의미 이해와 기본적인 추론 능력에서 결함을 보임(Our experimental evaluation, which includes 18 LCLMs in total, demonstrates that most models still exhibit deficiencies in semantic understanding and elementary reasoning over retrieved results.)",
+            "기존 합성 벤치마크의 설계 문제를 분석하여 장기 맥락 기능 평가에 취약함을 발견하고, RoPE 임베딩의 조정으로 맥락 길이를 늘림을 확인함(Our further analysis indicates some design choices employed by existing synthetic benchmarks...Moreover, we also reveal that long-context continual pretraining primarily adjusts RoPE embedding to accommodate extended context lengths.)"
+        ],
+        "conclusion": "LongBioBench는 기존 합성 벤치마크보다 실제 언어 작업을 더 잘 반영하면서 조정 가능성을 유지하고 해석 가능성이 높은 평가 방법으로 효과적임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
