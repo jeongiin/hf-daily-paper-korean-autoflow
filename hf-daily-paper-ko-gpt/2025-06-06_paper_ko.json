@@ -1,0 +1,500 @@
+[
+    {
+        "paper": {
+            "id": "2506.05301",
+            "authors": [
+                {
+                    "_id": "68428f675738dda052f724d3",
+                    "name": "Jianyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d4",
+                    "name": "Shanchuan Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d5",
+                    "name": "Zhijie Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d6",
+                    "name": "Yuxi Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d7",
+                    "name": "Meng Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d8",
+                    "name": "Zongsheng Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724d9",
+                    "name": "Shangchen Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724da",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724db",
+                    "name": "Yang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724dc",
+                    "name": "Ceyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724dd",
+                    "name": "Xuefeng Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724de",
+                    "name": "Chen Change Loy",
+                    "hidden": false
+                },
+                {
+                    "_id": "68428f675738dda052f724df",
+                    "name": "Lu Jiang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63043db17373aacccd89f49d/OfOznZMmLTV2VmgcLA0fG.mp4"
+            ],
+            "publishedAt": "2025-06-05T17:51:05.000Z",
+            "submittedOnDailyAt": "2025-06-06T06:38:37.104Z",
+            "title": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial\n  Post-Training",
+            "submittedOnDailyBy": {
+                "_id": "63043db17373aacccd89f49d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63043db17373aacccd89f49d/jzP_fPCFXeYJvAD8uA_N7.jpeg",
+                "isPro": false,
+                "fullname": "JIANYI WANG",
+                "user": "Iceclear",
+                "type": "user"
+            },
+            "summary": "Recent advances in diffusion-based video restoration (VR) demonstrate\nsignificant improvement in visual quality, yet yield a prohibitive\ncomputational cost during inference. While several distillation-based\napproaches have exhibited the potential of one-step image restoration,\nextending existing approaches to VR remains challenging and underexplored,\nparticularly when dealing with high-resolution video in real-world settings. In\nthis work, we propose a one-step diffusion-based VR model, termed as SeedVR2,\nwhich performs adversarial VR training against real data. To handle the\nchallenging high-resolution VR within a single step, we introduce several\nenhancements to both model architecture and training procedures. Specifically,\nan adaptive window attention mechanism is proposed, where the window size is\ndynamically adjusted to fit the output resolutions, avoiding window\ninconsistency observed under high-resolution VR using window attention with a\npredefined window size. To stabilize and improve the adversarial post-training\ntowards VR, we further verify the effectiveness of a series of losses,\nincluding a proposed feature matching loss without significantly sacrificing\ntraining efficiency. Extensive experiments show that SeedVR2 can achieve\ncomparable or even better performance compared with existing VR approaches in a\nsingle step.",
+            "upvotes": 35,
+            "discussionId": "68428f6a5738dda052f72569",
+            "projectPage": "https://iceclear.github.io/projects/seedvr2/",
+            "githubRepo": "https://github.com/IceClear/SeedVR2",
+            "ai_summary": "SeedVR2 is a one-step diffusion-based video restoration model that uses adaptive window attention and feature matching loss to achieve high visual quality with reduced computational cost compared to existing methods.",
+            "ai_keywords": [
+                "diffusion-based video restoration",
+                "VR",
+                "adversarial VR training",
+                "adaptive window attention",
+                "feature matching loss"
+            ]
+        },
+        "translation_title": "SeedVR2: 확산 적대적 포스트 훈련을 통한 일괄 비디오 복원",
+        "purpose": "고해상도 비디오에서의 일괄 복원 작업을 수행하는 효율적인 방법 개발",
+        "method": [
+            "SeedVR2라는 일괄 복원 모델을 제안하여 실제 데이터에 대해 적대적 훈련을 수행함(we propose a one-step diffusion-based VR model, termed as SeedVR2, which performs adversarial VR training against real data.)",
+            "모델 아키텍처와 훈련 절차를 개선하여 고해상도 비디오 복원을 간소화함(To handle the challenging high-resolution VR within a single step, we introduce several enhancements to both model architecture and training procedures.)",
+            "입력 해상도에 맞춰 동적으로 조정되는 윈도우주의 메커니즘을 도입함(Specifically, an adaptive window attention mechanism is proposed, where the window size is dynamically adjusted to fit the output resolutions, avoiding window inconsistency.)"
+        ],
+        "conclusion": "SeedVR2는 단일 단계에서 기존 비디오 복원 접근 방식과 비교하여 동등하거나 더 나은 성능을 달성할 수 있음을 보여줌.",
+        "keywords": [
+            "Video Restoration",
+            "Computer Vision",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.04308",
+            "authors": [
+                {
+                    "_id": "68424dc48d0422fce0273e99",
+                    "user": {
+                        "_id": "63f08dc79cf89c9ed1bb89cd",
+                        "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+                        "isPro": false,
+                        "fullname": "Zhoues",
+                        "user": "Zhoues",
+                        "type": "user"
+                    },
+                    "name": "Enshen Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-06T07:41:21.339Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9a",
+                    "name": "Jingkun An",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9b",
+                    "name": "Cheng Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9c",
+                    "name": "Yi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9d",
+                    "name": "Shanyu Rong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9e",
+                    "name": "Chi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273e9f",
+                    "name": "Pengwei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273ea0",
+                    "name": "Zhongyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273ea1",
+                    "name": "Tiejun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273ea2",
+                    "name": "Lu Sheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68424dc48d0422fce0273ea3",
+                    "name": "Shanghang Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-04T17:59:27.000Z",
+            "submittedOnDailyAt": "2025-06-06T00:41:30.786Z",
+            "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language\n  Models for Robotics",
+            "submittedOnDailyBy": {
+                "_id": "63f08dc79cf89c9ed1bb89cd",
+                "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+                "isPro": false,
+                "fullname": "Zhoues",
+                "user": "Zhoues",
+                "type": "user"
+            },
+            "summary": "Spatial referring is a fundamental capability of embodied robots to interact\nwith the 3D physical world. However, even with the powerful pretrained vision\nlanguage models (VLMs), recent approaches are still not qualified to accurately\nunderstand the complex 3D scenes and dynamically reason about the\ninstruction-indicated locations for interaction. To this end, we propose\nRoboRefer, a 3D-aware VLM that can first achieve precise spatial understanding\nby integrating a disentangled but dedicated depth encoder via supervised\nfine-tuning (SFT). Moreover, RoboRefer advances generalized multi-step spatial\nreasoning via reinforcement fine-tuning (RFT), with metric-sensitive process\nreward functions tailored for spatial referring tasks. To support SFT and RFT\ntraining, we introduce RefSpatial, a large-scale dataset of 20M QA pairs (2x\nprior), covering 31 spatial relations (vs. 15 prior) and supporting complex\nreasoning processes (up to 5 steps). In addition, we introduce\nRefSpatial-Bench, a challenging benchmark filling the gap in evaluating spatial\nreferring with multi-step reasoning. Experiments show that SFT-trained\nRoboRefer achieves state-of-the-art spatial understanding, with an average\nsuccess rate of 89.6%. RFT-trained RoboRefer further outperforms all other\nbaselines by a large margin, even surpassing Gemini-2.5-Pro by 17.4% in average\naccuracy on RefSpatial-Bench. Notably, RoboRefer can be integrated with various\ncontrol policies to execute long-horizon, dynamic tasks across diverse robots\n(e,g., UR5, G1 humanoid) in cluttered real-world scenes.",
+            "upvotes": 32,
+            "discussionId": "68424dc88d0422fce0273fb5",
+            "githubRepo": "https://github.com/Zhoues/RoboRefer",
+            "ai_summary": "RoboRefer, a 3D-aware vision language model, enhances spatial understanding and multi-step reasoning in embodied robots through supervised and reinforcement fine-tuning, using the RefSpatial dataset and RefSpatial-Bench benchmark.",
+            "ai_keywords": [
+                "3D-aware VLM",
+                "disentangled depth encoder",
+                "supervised fine-tuning (SFT)",
+                "reinforcement fine-tuning (RFT)",
+                "metric-sensitive reward functions",
+                "RefSpatial",
+                "RefSpatial-Bench",
+                "spatial referring tasks",
+                "multi-step reasoning",
+                "state-of-the-art spatial understanding",
+                "long-horizon",
+                "dynamic tasks"
+            ]
+        },
+        "translation_title": "RoboRefer: 로봇을 위한 비주얼-언어 모델에서 논리적 사고를 통한 공간 지칭",
+        "purpose": "3D 물리 세계에서 상호작용을 위한 로봇의 공간 지칭 능력을 향상시키기 위한 새로운 접근법 개발",
+        "method": [
+            "정확한 공간 이해를 위한 제어된 깊이 인코더를 통합하여 지도 학습 세부 조정(Supervised Fine-Tuning, SFT)을 통해 RoboRefer를 개발함(Dedicated depth encoder via supervised fine-tuning).",
+            "공간 지칭 작업에 맞춤화된 보상 함수로 일반화된 다단계 공간 추론을 강화 학습 세부 조정(Reinforcement Fine-Tuning, RFT)을 통해 발전시킴(RFT with metric-sensitive process reward functions tailored for spatial referring tasks).",
+            "RefSpatial이라는 대규모 양질의 QA 쌍 데이터셋을 도입하여 SFT와 RFT 훈련을 지원함(RefSpatial, a large-scale dataset of 20M QA pairs covering 31 spatial relations).",
+            "공간 지칭 수행 평가를 위한 도전적인 벤치마크 RefSpatial-Bench를 소개함(RefSpatial-Bench, a challenging benchmark for evaluating spatial referring)."
+        ],
+        "conclusion": "SFT로 훈련된 RoboRefer는 89.6%의 성공률을 기록하며 공간 이해에서 최신 기술을 달성하고, RFT로 훈련된 RoboRefer는 모든 기준점보다 우수한 성과를 내며 Gemini-2.5-Pro보다 17.4% 더 높은 평균 정확도를 기록함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.05010",
+            "authors": [
+                {
+                    "_id": "6842632d542c9011f1bebf46",
+                    "user": {
+                        "_id": "639c379cdb7c5f35004066cb",
+                        "avatarUrl": "/avatars/3e435506ee85aa7d2d0ec2174a07462f.svg",
+                        "isPro": false,
+                        "fullname": "Zhenran Xu",
+                        "user": "imryanxu",
+                        "type": "user"
+                    },
+                    "name": "Zhenran Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-06T07:40:31.325Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf47",
+                    "name": "Xue Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf48",
+                    "name": "Yiyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf49",
+                    "name": "Qingli Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4a",
+                    "name": "Zijiao Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4b",
+                    "name": "Longyue Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4c",
+                    "name": "Weihua Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4d",
+                    "name": "Kaifu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4e",
+                    "name": "Baotian Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842632d542c9011f1bebf4f",
+                    "name": "Min Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/639c379cdb7c5f35004066cb/wG9VdZ8vQGyG76QYWS4NS.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/639c379cdb7c5f35004066cb/VrBvS8a9t6I462AYXI2uc.png"
+            ],
+            "publishedAt": "2025-06-05T13:20:50.000Z",
+            "submittedOnDailyAt": "2025-06-06T02:21:39.406Z",
+            "title": "ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow\n  Development",
+            "submittedOnDailyBy": {
+                "_id": "639c379cdb7c5f35004066cb",
+                "avatarUrl": "/avatars/3e435506ee85aa7d2d0ec2174a07462f.svg",
+                "isPro": false,
+                "fullname": "Zhenran Xu",
+                "user": "imryanxu",
+                "type": "user"
+            },
+            "summary": "We introduce ComfyUI-Copilot, a large language model-powered plugin designed\nto enhance the usability and efficiency of ComfyUI, an open-source platform for\nAI-driven art creation. Despite its flexibility and user-friendly interface,\nComfyUI can present challenges to newcomers, including limited documentation,\nmodel misconfigurations, and the complexity of workflow design. ComfyUI-Copilot\naddresses these challenges by offering intelligent node and model\nrecommendations, along with automated one-click workflow construction. At its\ncore, the system employs a hierarchical multi-agent framework comprising a\ncentral assistant agent for task delegation and specialized worker agents for\ndifferent usages, supported by our curated ComfyUI knowledge bases to\nstreamline debugging and deployment. We validate the effectiveness of\nComfyUI-Copilot through both offline quantitative evaluations and online user\nfeedback, showing that it accurately recommends nodes and accelerates workflow\ndevelopment. Additionally, use cases illustrate that ComfyUI-Copilot lowers\nentry barriers for beginners and enhances workflow efficiency for experienced\nusers. The ComfyUI-Copilot installation package and a demo video are available\nat https://github.com/AIDC-AI/ComfyUI-Copilot.",
+            "upvotes": 31,
+            "discussionId": "6842632e542c9011f1bebfa3",
+            "projectPage": "https://x.com/wangly0229/status/1923515826713526583",
+            "githubRepo": "https://github.com/AIDC-AI/ComfyUI-Copilot",
+            "ai_summary": "ComfyUI-Copilot uses a large language model and multi-agent system to enhance the usability and efficiency of the AI-driven art creation platform ComfyUI.",
+            "ai_keywords": [
+                "large language model",
+                "multi-agent framework",
+                "central assistant agent",
+                "specialized worker agents",
+                "knowledge bases"
+            ]
+        },
+        "translation_title": "ComfyUI-Copilot: 자동화된 워크플로우 개발을 위한 지능형 어시스턴트",
+        "purpose": "ComfyUI 플랫폼의 사용성을 높이고 자동화된 워크플로우를 효율적으로 개발할 수 있도록 지원하는 것",
+        "method": [
+            "ComfyUI의 유연성과 사용자 친화적인 인터페이스에도 불구하고 발생하는 문제들을 해결하기 위해 ComfyUI-Copilot을 도입함(Despite its flexibility and user-friendly interface, ComfyUI can present challenges to newcomers, including limited documentation, model misconfigurations, and the complexity of workflow design.)",
+            "Intelligent node 및 모델 추천과 자동화된 원클릭 워크플로우 구성을 제공함(ComfyUI-Copilot addresses these challenges by offering intelligent node and model recommendations, along with automated one-click workflow construction.)",
+            "계층적 다중 에이전트 프레임워크를 사용하여 업무 분배 및 다양한 용도로 사용되는 전문 에이전트를 구성함(At its core, the system employs a hierarchical multi-agent framework comprising a central assistant agent for task delegation and specialized worker agents for different usages.)"
+        ],
+        "conclusion": "ComfyUI-Copilot은 초보자 및 경험자 모두에게 진입 장벽을 낮추고 워크플로우 효율성을 향상시키는 데 기여함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Workflow Automation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.05284",
+            "authors": [
+                {
+                    "_id": "6842929c46106f29d78635ad",
+                    "name": "Tong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635ae",
+                    "name": "Shuai Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635af",
+                    "name": "Ryan Po",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635b0",
+                    "name": "Yinghao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635b1",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635b2",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842929c46106f29d78635b3",
+                    "name": "Gordon Wetzstein",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64b4eec4faa3181a5eab9c46/58qSYbX-_UzJE5ubWpM9W.mp4"
+            ],
+            "publishedAt": "2025-06-05T17:42:34.000Z",
+            "submittedOnDailyAt": "2025-06-06T05:48:31.006Z",
+            "title": "Video World Models with Long-term Spatial Memory",
+            "submittedOnDailyBy": {
+                "_id": "64b4eec4faa3181a5eab9c46",
+                "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                "isPro": true,
+                "fullname": "Jiaqi Wang",
+                "user": "myownskyW7",
+                "type": "user"
+            },
+            "summary": "Emerging world models autoregressively generate video frames in response to\nactions, such as camera movements and text prompts, among other control\nsignals. Due to limited temporal context window sizes, these models often\nstruggle to maintain scene consistency during revisits, leading to severe\nforgetting of previously generated environments. Inspired by the mechanisms of\nhuman memory, we introduce a novel framework to enhancing long-term consistency\nof video world models through a geometry-grounded long-term spatial memory. Our\nframework includes mechanisms to store and retrieve information from the\nlong-term spatial memory and we curate custom datasets to train and evaluate\nworld models with explicitly stored 3D memory mechanisms. Our evaluations show\nimproved quality, consistency, and context length compared to relevant\nbaselines, paving the way towards long-term consistent world generation.",
+            "upvotes": 30,
+            "discussionId": "684292a046106f29d7863732",
+            "ai_summary": "A new framework enhances video world models' long-term consistency by integrating a geometry-grounded long-term spatial memory mechanism.",
+            "ai_keywords": [
+                "world models",
+                "autoregressive generation",
+                "video frames",
+                "control signals",
+                "temporal context window",
+                "scene consistency",
+                "long-term spatial memory",
+                "custom datasets",
+                "3D memory mechanisms"
+            ]
+        },
+        "translation_title": "장기 공간 기억을 가진 비디오 월드 모델",
+        "purpose": "비디오 월드 모델이 장기적으로 일관성을 유지하면서 환경을 생성할 수 있도록 향상시키기 위한 연구",
+        "method": [
+            "인간의 기억 메커니즘에서 영감을 받아, 기하학적으로 연계된 장기 공간 기억을 통해 비디오 월드 모델의 일관성을 강화하는 새로운 프레임워크를 제안함(Inspired by the mechanisms of human memory, we introduce a novel framework to enhancing long-term consistency of video world models through a geometry-grounded long-term spatial memory.)",
+            "장기 공간 기억에서 정보를 저장하고 검색하는 메커니즘을 포함함(Our framework includes mechanisms to store and retrieve information from the long-term spatial memory.)",
+            "명시적으로 저장된 3D 기억 메커니즘으로 월드 모델을 학습하고 평가하기 위해 맞춤형 데이터 세트를 정리함(we curate custom datasets to train and evaluate world models with explicitly stored 3D memory mechanisms.)"
+        ],
+        "conclusion": "우리의 평가 결과는 기존 기준선에 비해 품질, 일관성 및 문맥 길이가 향상되었음을 보여주며, 장기적으로 일관된 세계 생성을 위한 방향을 제시함.",
+        "keywords": [
+            "Video Generation",
+            "3D Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.05229",
+            "authors": [
+                {
+                    "_id": "6842bc6855574a112d5733cc",
+                    "name": "Danil Sivtsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842bc6855574a112d5733cd",
+                    "name": "Ivan Rodkin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842bc6855574a112d5733ce",
+                    "name": "Gleb Kuzmin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842bc6855574a112d5733cf",
+                    "name": "Yuri Kuratov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6842bc6855574a112d5733d0",
+                    "name": "Ivan Oseledets",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-05T16:43:48.000Z",
+            "submittedOnDailyAt": "2025-06-06T08:35:33.323Z",
+            "title": "Diagonal Batching Unlocks Parallelism in Recurrent Memory Transformers\n  for Long Contexts",
+            "submittedOnDailyBy": {
+                "_id": "618b9540682ec1c38327e586",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/618b9540682ec1c38327e586/v_ZBkfh8O9Zh6C2YQpuBX.jpeg",
+                "isPro": false,
+                "fullname": "Yury Kuratov",
+                "user": "yurakuratov",
+                "type": "user"
+            },
+            "summary": "Transformer models struggle with long-context inference due to their\nquadratic time and linear memory complexity. Recurrent Memory Transformers\n(RMTs) offer a solution by reducing the asymptotic cost to linear time and\nconstant memory usage. However, their memory update mechanism leads to\nsequential execution, causing a performance bottleneck.\n  We introduce Diagonal Batching, a scheduling scheme that unlocks parallelism\nacross segments in RMTs while preserving exact recurrence. This approach\neliminates the sequential constraint, enabling efficient GPU inference even for\nsingle long-context inputs without complex batching and pipelining techniques.\nBecause the technique is purely a run-time computation reordering, existing RMT\nmodels adopt it with no retraining.\n  Applied to a LLaMA-1B ARMT model, Diagonal Batching yields a 3.3x speedup\nover standard full-attention LLaMA-1B and a 1.8x speedup over the sequential\nRMT implementation on 131,072-token sequences. By removing sequential\nbottleneck, Diagonal Batching reduces inference cost and latency, thereby\nstrengthening RMTs as a practical solution for real-world, long-context\napplications.",
+            "upvotes": 29,
+            "discussionId": "6842bc6955574a112d573421",
+            "ai_summary": "Diagonal Batching enables parallel inference in Recurrent Memory Transformers, significantly improving speed and efficiency for long-context tasks.",
+            "ai_keywords": [
+                "Transformer models",
+                "long-context inference",
+                "quadratic time complexity",
+                "linear memory complexity",
+                "Recurrent Memory Transformers",
+                "RMTs",
+                "memory update mechanism",
+                "sequential execution",
+                "Diagonal Batching",
+                "run-time computation reordering",
+                "parallelism",
+                "GPU inference",
+                "LLaMA-1B ARMT model",
+                "full-attention LLaMA-1B",
+                "inference cost",
+                "latency"
+            ]
+        },
+        "translation_title": "대각 배치 방식이 장기 컨텍스트를 위한 순환 메모리 트랜스포머의 병렬성을 해제하다",
+        "purpose": "장기 컨텍스트 입력에 대한 순환 메모리 트랜스포머의 성능 저하 문제를 해결하기 위해 효율적인 GPU 추론 방안을 모색함",
+        "method": [
+            "대각 배치 방식(Diagonal Batching)을 도입하여 RMT 내에서 세그먼트 간 병렬성을 이루게 함(This approach eliminates the sequential constraint, enabling efficient GPU inference even for single long-context inputs.)",
+            "이 기술은 기존 RMT 모델에 재훈련 없이 적용될 수 있도록 runtime computation을 재정렬하는 방식으로 구현됨(Because the technique is purely a run-time computation reordering, existing RMT models adopt it with no retraining.)",
+            "LLaMA-1B ARMT 모델에 대각 배치 방식을 적용하여 성과를 비교함(Applied to a LLaMA-1B ARMT model, Diagonal Batching yields a 3.3x speedup over standard full-attention LLaMA-1B and a 1.8x speedup over the sequential RMT implementation on 131,072-token sequences.)"
+        ],
+        "conclusion": "대각 배치 방식은 추론 비용과 지연 시간을 줄이는데 효과적이며, RMT를 현실 세계의 장기 컨텍스트 애플리케이션에 적합한 솔루션으로 발전시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
