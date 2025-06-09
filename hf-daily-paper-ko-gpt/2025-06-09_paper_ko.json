@@ -1,0 +1,538 @@
+[
+    {
+        "paper": {
+            "id": "2505.21115",
+            "authors": [
+                {
+                    "_id": "68372d97e4af3c39dcec8e65",
+                    "user": {
+                        "_id": "5dfa8e07da6d0311fd3d5430",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651090418656-5dfa8e07da6d0311fd3d5430.png",
+                        "isPro": false,
+                        "fullname": "Sergey Pletenev",
+                        "user": "memyprokotow",
+                        "type": "user"
+                    },
+                    "name": "Sergey Pletenev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:12:55.604Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e66",
+                    "user": {
+                        "_id": "660ee18e2dcd816ad14b3739",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660ee18e2dcd816ad14b3739/2pPMurtSOHMA96eVk0k7w.jpeg",
+                        "isPro": false,
+                        "fullname": "Maria Marina",
+                        "user": "zlatamaria",
+                        "type": "user"
+                    },
+                    "name": "Maria Marina",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:12:59.278Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e67",
+                    "user": {
+                        "_id": "6682607ece294ddc5e72f4fb",
+                        "avatarUrl": "/avatars/2a304bc3eb56ec7d13297d28fbb062ae.svg",
+                        "isPro": false,
+                        "fullname": "Ivanov",
+                        "user": "VirVen",
+                        "type": "user"
+                    },
+                    "name": "Nikolay Ivanov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-02T07:48:42.811Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e68",
+                    "name": "Daria Galimzianova",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e69",
+                    "user": {
+                        "_id": "643010b2ff56d6c2004699a6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/OYsf1Hp-KAievw_M8XBG9.jpeg",
+                        "isPro": false,
+                        "fullname": "Krayko Nikita",
+                        "user": "nakrayko",
+                        "type": "user"
+                    },
+                    "name": "Nikita Krayko",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:12:53.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e6a",
+                    "name": "Mikhail Salnikov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e6b",
+                    "name": "Vasily Konovalov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e6c",
+                    "name": "Alexander Panchenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "68372d97e4af3c39dcec8e6d",
+                    "user": {
+                        "_id": "63bbfd74141c7d395c471768",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673264437106-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Viktor Moskvoretskii",
+                        "user": "VityaVitalich",
+                        "type": "user"
+                    },
+                    "name": "Viktor Moskvoretskii",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:12:57.325Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-05-27T12:35:13.000Z",
+            "submittedOnDailyAt": "2025-06-09T07:27:12.232Z",
+            "title": "Will It Still Be True Tomorrow? Multilingual Evergreen Question\n  Classification to Improve Trustworthy QA",
+            "submittedOnDailyBy": {
+                "_id": "660ee18e2dcd816ad14b3739",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660ee18e2dcd816ad14b3739/2pPMurtSOHMA96eVk0k7w.jpeg",
+                "isPro": false,
+                "fullname": "Maria Marina",
+                "user": "zlatamaria",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) often hallucinate in question answering (QA)\ntasks. A key yet underexplored factor contributing to this is the temporality\nof questions -- whether they are evergreen (answers remain stable over time) or\nmutable (answers change). In this work, we introduce EverGreenQA, the first\nmultilingual QA dataset with evergreen labels, supporting both evaluation and\ntraining. Using EverGreenQA, we benchmark 12 modern LLMs to assess whether they\nencode question temporality explicitly (via verbalized judgments) or implicitly\n(via uncertainty signals). We also train EG-E5, a lightweight multilingual\nclassifier that achieves SoTA performance on this task. Finally, we demonstrate\nthe practical utility of evergreen classification across three applications:\nimproving self-knowledge estimation, filtering QA datasets, and explaining\nGPT-4o retrieval behavior.",
+            "upvotes": 71,
+            "discussionId": "68372d98e4af3c39dcec8e88",
+            "githubRepo": "https://github.com/s-nlp/Evergreen-classification",
+            "ai_summary": "EverGreenQA, a multilingual QA dataset with evergreen labels, is introduced to benchmark LLMs on temporality encoding and assess their performance through verbalized judgments and uncertainty signals.",
+            "ai_keywords": [
+                "Large Language Models",
+                "QA",
+                "evergreen",
+                "mutable",
+                "temporality",
+                "Multilingual QA dataset",
+                "EG-E5",
+                "lightweight multilingual classifier",
+                "SoTA performance",
+                "self-knowledge estimation",
+                "filtering QA datasets",
+                "GPT-4o retrieval behavior"
+            ]
+        },
+        "translation_title": "내일도 여전히 사실일까? 신뢰할 수 있는 QA 개선을 위한 다국어 Evergreen 질문 분류",
+        "purpose": "질문 응답(QA)에서 신뢰성을 높이기 위해 질문의 영속성을 분류하여 분석하고 개선하는 것",
+        "method": [
+            "EverGreenQA라는 첫 번째 다국어 QA 데이터셋을 도입하여 영속적 라벨을 지원함(we introduce EverGreenQA, the first multilingual QA dataset with evergreen labels, supporting both evaluation and training.)",
+            "12개의 최신 LLM들을 벤치마킹하여 질문의 영속성을 명시적(언어적 판단을 통한) 또는 암묵적(불확실성 신호를 통해)으로 인코딩하는지를 평가함(we benchmark 12 modern LLMs to assess whether they encode question temporality explicitly or implicitly.)",
+            "EG-E5라는 경량 다국어 분류기를 훈련시켜 이 과제에서 SoTA 성능을 달성함(we also train EG-E5, a lightweight multilingual classifier that achieves SoTA performance on this task.)"
+        ],
+        "conclusion": "EverGreenQA를 활용하여 신뢰할 수 있는 QA를 위해 질문의 영속성 분류의 실용성을 세 가지 응용에서 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.01111",
+            "authors": [
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da1b",
+                    "name": "Shunian Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da1c",
+                    "user": {
+                        "_id": "66440e86bfe15e84d369cb03",
+                        "avatarUrl": "/avatars/d15b3b3831bc74138206071612169f64.svg",
+                        "isPro": false,
+                        "fullname": "Xinyuan Xie",
+                        "user": "SatsukiVie",
+                        "type": "user"
+                    },
+                    "name": "Xinyuan Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:11:42.759Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da1d",
+                    "name": "Zheshu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da1e",
+                    "name": "Liyan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da1f",
+                    "name": "Owen Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da20",
+                    "name": "Zhan Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da21",
+                    "name": "Qilin Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6845b6a33ec10bdd8ab4da22",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-01T18:29:17.000Z",
+            "submittedOnDailyAt": "2025-06-09T01:59:54.914Z",
+            "title": "FusionAudio-1.2M: Towards Fine-grained Audio Captioning with Multimodal\n  Contextual Fusion",
+            "submittedOnDailyBy": {
+                "_id": "623be9e1d1eb227788764959",
+                "avatarUrl": "/avatars/b6521b795a59754dbb40123fd4f63b8c.svg",
+                "isPro": false,
+                "fullname": "Shunian Chen",
+                "user": "Shunian",
+                "type": "user"
+            },
+            "summary": "High-quality, large-scale audio captioning is crucial for advancing audio\nunderstanding, yet current automated methods often generate captions that lack\nfine-grained detail and contextual accuracy, primarily due to their reliance on\nlimited unimodal or superficial multimodal information. Drawing inspiration\nfrom human auditory perception, which adeptly integrates cross-modal cues and\nperforms sophisticated auditory scene analysis, we introduce a novel two-stage\nautomated pipeline. This pipeline first employs specialized pretrained models\nto extract diverse contextual cues (e.g., speech, music, general sounds, and\nvisual information from associated video). A large language model (LLM) then\nsynthesizes these rich, multimodal inputs to generate detailed and\ncontext-aware audio captions. Key contributions of this work include: (1) the\nproposed scalable method for fine-grained audio caption generation; (2)\nFusionAudio, a new large-scale dataset comprising 1.2 million such detailed\ncaptions, combined with 6 million QA pairs; and (3) enhanced audio models\ndeveloped using FusionAudio, specifically a CLAP-based audio encoder with\nsuperior audio-text alignment and instruction following. This paper paves the\nway for more nuanced and accurate automated understanding of complex audio\nenvironments. Code and data can be found in\nhttps://github.com/satsuki2486441738/FusionAudio.",
+            "upvotes": 23,
+            "discussionId": "6845b6a43ec10bdd8ab4da23",
+            "githubRepo": "https://github.com/FreedomIntelligence/FusionAudio",
+            "ai_summary": "A novel two-stage pipeline using specialized pretrained models and a large language model enhances audio caption quality by integrating diverse multimodal cues and contextual information.",
+            "ai_keywords": [
+                "audio captioning",
+                "auditory perception",
+                "auditory scene analysis",
+                "pretrained models",
+                "large language model",
+                "FusionAudio",
+                "CLAP-based audio encoder",
+                "audio-text alignment",
+                "instruction following"
+            ]
+        },
+        "translation_title": "FusionAudio-1.2M: 세분화된 오디오 캡션 생성을 위한 다중 모달 컨텍스트 융합",
+        "purpose": "세밀하고 정확한 오디오 캡션 생성을 위한 새로운 자동화된 방법론 개발",
+        "method": [
+            "두 단계의 자동화된 파이프라인을 통해 다양한 컨텍스트 단서를 추출함(we introduce a novel two-stage automated pipeline)",
+            "특화된 사전 훈련 모델을 사용해 음성, 음악, 일반 소리 및 관련 비디오의 시각 정보를 추출함(This pipeline first employs specialized pretrained models to extract diverse contextual cues)",
+            "대규모 언어 모델을 활용해 이러한 다중 모달 입력을 결합하여 세밀하고 맥락이 있는 오디오 캡션을 생성함(A large language model (LLM) then synthesizes these rich, multimodal inputs to generate detailed and context-aware audio captions)"
+        ],
+        "conclusion": "이 방법을 통해 복잡한 오디오 환경의 자동 이해가 보다 세분화되고 정확해질 수 있는 길을 열었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Audio Captioning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.01872",
+            "authors": [
+                {
+                    "_id": "683e77d41417d107337abf6e",
+                    "user": {
+                        "_id": "643f9e2288d9d4488fd81c52",
+                        "avatarUrl": "/avatars/e589c9cbd47022883cf33d7555bee89c.svg",
+                        "isPro": false,
+                        "fullname": "Tinghui Zhu",
+                        "user": "DarthZhu",
+                        "type": "user"
+                    },
+                    "name": "Tinghui Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:12:47.572Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "683e77d41417d107337abf6f",
+                    "name": "Kai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "683e77d41417d107337abf70",
+                    "name": "Muhao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "683e77d41417d107337abf71",
+                    "name": "Yu Su",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-02T17:01:40.000Z",
+            "submittedOnDailyAt": "2025-06-09T07:51:42.399Z",
+            "title": "Is Extending Modality The Right Path Towards Omni-Modality?",
+            "submittedOnDailyBy": {
+                "_id": "643f9e2288d9d4488fd81c52",
+                "avatarUrl": "/avatars/e589c9cbd47022883cf33d7555bee89c.svg",
+                "isPro": false,
+                "fullname": "Tinghui Zhu",
+                "user": "DarthZhu",
+                "type": "user"
+            },
+            "summary": "Omni-modal language models (OLMs) aim to integrate and reason over diverse\ninput modalities--such as text, images, video, and audio--while maintaining\nstrong language capabilities. Despite recent advancements, existing models,\nespecially open-source ones, remain far from true omni-modality, struggling to\ngeneralize beyond the specific modality pairs they are trained on or to achieve\nstrong performance when processing multi-modal inputs. We study the effect of\nextending modality, the dominant technique for training multimodal models,\nwhere an off-the-shelf language model is fine-tuned on target-domain and\nlanguage data. Specifically, we investigate three key questions: (1) Does\nmodality extension compromise core language abilities? (2) Can model merging\neffectively integrate independently fine-tuned modality-specific models to\nachieve omni-modality? (3) Does omni-modality extension lead to better\nknowledge sharing and generalization compared to sequential extension? Through\nextensive experiments, we analyze these trade-offs and provide insights into\nthe feasibility of achieving true omni-modality using current approaches.",
+            "upvotes": 14,
+            "discussionId": "683e77d41417d107337abf8f",
+            "projectPage": "https://darthzhu.github.io/lm-extend-page/",
+            "githubRepo": "https://github.com/DarthZhu/lm-extend",
+            "ai_summary": "Research investigates the impact of extending modality and model merging on maintaining language abilities and generalization in omni-modal language models.",
+            "ai_keywords": [
+                "omni-modal language models",
+                "modality extension",
+                "fine-tuning",
+                "language abilities",
+                "model merging",
+                "generalization",
+                "true omni-modality"
+            ]
+        },
+        "translation_title": "모달리티 확장이 올바른 경로인가? 옴니모달리티를 향하여",
+        "purpose": "다양한 입력 모달리티를 통합하고 reasoning하는 올바른 방법을 탐구하기 위해 옴니모달 언어 모델의 가능성을 분석",
+        "method": [
+            "모달리티 확장의 영향을 연구하며, 기존 기술의 한계를 평가함(We study the effect of extending modality, the dominant technique for training multimodal models.)",
+            "세 가지 주요 질문을 다루며 실험을 통해 결과를 분석함. (Specifically, we investigate three key questions: ...)"
+        ],
+        "conclusion": "현재 접근 방식을 통해 진정한 옴니모달리티를 달성하는 것이 가능함을 논의.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.05629",
+            "authors": [
+                {
+                    "_id": "68464b273ec10bdd8ab4da86",
+                    "user": {
+                        "_id": "64a6518132cf858d6386ac52",
+                        "avatarUrl": "/avatars/4cabf3dab8b1ba06245ad8024f334181.svg",
+                        "isPro": false,
+                        "fullname": "Ananth Muppidi",
+                        "user": "ananthmuppidi",
+                        "type": "user"
+                    },
+                    "name": "Ananth Muppidi",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-09T02:47:03.971Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68464b273ec10bdd8ab4da87",
+                    "user": {
+                        "_id": "5f89da6c5d083370c711f37c",
+                        "avatarUrl": "/avatars/c2f17a4a636973817fd5da2ae6dbaac3.svg",
+                        "isPro": false,
+                        "fullname": "Abhilash Nandy",
+                        "user": "abhi1nandy2",
+                        "type": "user"
+                    },
+                    "name": "Abhilash Nandy",
+                    "status": "extracted_confirmed",
+                    "statusLastChangedAt": "2025-06-09T03:49:29.446Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68464b273ec10bdd8ab4da88",
+                    "user": {
+                        "_id": "65238ea295df08170c93933d",
+                        "avatarUrl": "/avatars/8364301e324274a550d12f2b184ea10e.svg",
+                        "isPro": false,
+                        "fullname": "Sambaran Bandyopadhyay",
+                        "user": "sambaran",
+                        "type": "user"
+                    },
+                    "name": "Sambaran Bandyopadhyay",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-09T02:47:03.971Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-05T23:13:22.000Z",
+            "submittedOnDailyAt": "2025-06-09T01:27:41.831Z",
+            "title": "Leveraging Self-Attention for Input-Dependent Soft Prompting in LLMs",
+            "submittedOnDailyBy": {
+                "_id": "5f89da6c5d083370c711f37c",
+                "avatarUrl": "/avatars/c2f17a4a636973817fd5da2ae6dbaac3.svg",
+                "isPro": false,
+                "fullname": "Abhilash Nandy",
+                "user": "abhi1nandy2",
+                "type": "user"
+            },
+            "summary": "The performance of large language models in domain-specific tasks\nnecessitates fine-tuning, which is computationally expensive and technically\nchallenging. This paper focuses on parameter-efficient fine-tuning using soft\nprompting, a promising approach that adapts pre-trained models to downstream\ntasks by learning a small set of parameters. We propose a novel Input Dependent\nSoft Prompting technique with a self-Attention Mechanism (ID-SPAM) that\ngenerates soft prompts based on the input tokens and attends different tokens\nwith varying importance. Our method is simple and efficient, keeping the number\nof trainable parameters small. We show the merits of the proposed approach\ncompared to state-of-the-art techniques on various tasks and show the improved\nzero shot domain transfer capability.",
+            "upvotes": 13,
+            "discussionId": "68464b273ec10bdd8ab4da89",
+            "ai_summary": "A new method using input-dependent soft prompting with a self-attention mechanism improves parameter-efficient fine-tuning for large language models, enhancing zero-shot domain transfer.",
+            "ai_keywords": [
+                "soft prompting",
+                "parameter-efficient fine-tuning",
+                "pre-trained models",
+                "downstream tasks",
+                "Input Dependent Soft Prompting technique",
+                "self-Attention Mechanism",
+                "zero shot domain transfer"
+            ]
+        },
+        "translation_title": "자기 주의력을 활용한 입력 의존적 소프트 프롬프트 조정 기법 연구",
+        "purpose": "Large Language Model의 도메인 특화 작업에서 파라미터 효율적인 미세 조정 기법을 제안하기 위함",
+        "method": [
+            "소프트 프롬프트를 이용한 파라미터 효율적인 미세 조정 방안을 제안함(we propose a novel Input Dependent Soft Prompting technique with a self-Attention Mechanism (ID-SPAM) that generates soft prompts based on the input tokens and attends different tokens with varying importance.)",
+            "입력 토큰에 따라 조정하는 소프트 프롬프트를 생성하여, 훈련 가능한 파라미터 수를 최소화함(Our method is simple and efficient, keeping the number of trainable parameters small.)",
+            "다양한 작업에서 state-of-the-art 기법과 비교하여 제안한 방법의 장점을 보여줌(We show the merits of the proposed approach compared to state-of-the-art techniques on various tasks.)"
+        ],
+        "conclusion": "제안한 방법은 다양한 과제에서 성능을 향상시켰으며, 제로 샷 도메인 전이 능력이 개선됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.05984",
+            "authors": [
+                {
+                    "_id": "68463ee43ec10bdd8ab4da6f",
+                    "user": {
+                        "_id": "622326ae0129f2097d69a3e2",
+                        "avatarUrl": "/avatars/7665223e3fc8b820ce001e6003daf4d2.svg",
+                        "isPro": false,
+                        "fullname": "Cheng-Han Chiang",
+                        "user": "dcml0714",
+                        "type": "user"
+                    },
+                    "name": "Cheng-Han Chiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-09T10:11:26.041Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da70",
+                    "user": {
+                        "_id": "64dc191bc307ee5369fbcb04",
+                        "avatarUrl": "/avatars/5a8a0db63a187e85d4ae2fff93a838f0.svg",
+                        "isPro": false,
+                        "fullname": "Xiaofei Wang",
+                        "user": "xiaofei-wang",
+                        "type": "user"
+                    },
+                    "name": "Xiaofei Wang",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-09T01:54:46.319Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da71",
+                    "name": "Chung-Ching Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da72",
+                    "name": "Kevin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da73",
+                    "name": "Linjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da74",
+                    "name": "Radu Kopetz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da75",
+                    "name": "Yao Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da76",
+                    "name": "Zhendong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da77",
+                    "name": "Zhengyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da78",
+                    "name": "Hung-yi Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68463ee43ec10bdd8ab4da79",
+                    "name": "Lijuan Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-06T11:05:48.000Z",
+            "submittedOnDailyAt": "2025-06-09T00:28:11.753Z",
+            "title": "Audio-Aware Large Language Models as Judges for Speaking Styles",
+            "submittedOnDailyBy": {
+                "_id": "622326ae0129f2097d69a3e2",
+                "avatarUrl": "/avatars/7665223e3fc8b820ce001e6003daf4d2.svg",
+                "isPro": false,
+                "fullname": "Cheng-Han Chiang",
+                "user": "dcml0714",
+                "type": "user"
+            },
+            "summary": "Audio-aware large language models (ALLMs) can understand the textual and\nnon-textual information in the audio input. In this paper, we explore using\nALLMs as an automatic judge to assess the speaking styles of speeches. We use\nALLM judges to evaluate the speeches generated by SLMs on two tasks: voice\nstyle instruction following and role-playing. The speaking style we consider\nincludes emotion, volume, speaking pace, word emphasis, pitch control, and\nnon-verbal elements. We use four spoken language models (SLMs) to complete the\ntwo tasks and use humans and ALLMs to judge the SLMs' responses. We compare two\nALLM judges, GPT-4o-audio and Gemini-2.5-pro, with human evaluation results and\nshow that the agreement between Gemini and human judges is comparable to the\nagreement between human evaluators. These promising results show that ALLMs can\nbe used as a judge to evaluate SLMs. Our results also reveal that current SLMs,\neven GPT-4o-audio, still have room for improvement in controlling the speaking\nstyle and generating natural dialogues.",
+            "upvotes": 10,
+            "discussionId": "68463ee43ec10bdd8ab4da7a",
+            "ai_summary": "Audio-aware large language models can assess speaking styles in audio inputs, demonstrating performance comparable to human judges in evaluating synthesized speech along dimensions like emotion, volume, and pitch.",
+            "ai_keywords": [
+                "audio-aware large language models",
+                "ALLMs",
+                "speaking styles",
+                "SLMs",
+                "voice style instruction",
+                "role-playing",
+                "emotion",
+                "volume",
+                "speaking pace",
+                "word emphasis",
+                "pitch control",
+                "non-verbal elements",
+                "GPT-4o-audio",
+                "Gemini-2.5-pro",
+                "human evaluation",
+                "agreement",
+                "speaking style control",
+                "natural dialogues"
+            ]
+        },
+        "translation_title": "음성 스타일 평가를 위한 오디오 인식 대형 언어 모델",
+        "purpose": "자동 평가 체계를 통해 연설의 음성 스타일을 평가하려는 연구",
+        "method": [
+            "오디오 인식 대형 언어 모델(ALLM)을 사용하여 연설을 평가함(Audio-aware large language models (ALLMs) can understand the textual and non-textual information in the audio input.)",
+            "SLM(Spoken Language Model)들을 활용하여 두 가지 과제인 음성 스타일 지시 따르기와 역할극을 수행함(The speaking style we consider includes emotion, volume, speaking pace, word emphasis, pitch control, and non-verbal elements.)",
+            "ALLM 평가자인 GPT-4o-audio와 Gemini-2.5-pro를 사용해 SLM의 응답을 인간 평가 결과와 비교함(We compare two ALLM judges, GPT-4o-audio and Gemini-2.5-pro, with human evaluation results.)"
+        ],
+        "conclusion": "ALLM은 SLM을 평가하는 데 효과적이며, 현재 SLM은 아직 음성 스타일과 자연스러운 대화를 생성하는 데 개선의 여지가 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech Evaluation"
+        ]
+    }
+]
