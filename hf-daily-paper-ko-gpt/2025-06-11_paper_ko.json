@@ -1,0 +1,458 @@
+[
+    {
+        "paper": {
+            "id": "2506.06751",
+            "authors": [
+                {
+                    "_id": "6848fecf42e4f9106973f315",
+                    "user": {
+                        "_id": "62bd6c6baaf1480f1aa2222e",
+                        "avatarUrl": "/avatars/fd92ae2986d435a47eb1e382ac11d8e0.svg",
+                        "isPro": false,
+                        "fullname": "Mikhail Salnikov",
+                        "user": "msalnikov",
+                        "type": "user"
+                    },
+                    "name": "Mikhail Salnikov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-11T08:34:47.630Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f316",
+                    "name": "Dmitrii Korzh",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f317",
+                    "user": {
+                        "_id": "657c4a8dfb0285d857d86e4c",
+                        "avatarUrl": "/avatars/17635a4c2c804dd3837ae01833bb940d.svg",
+                        "isPro": false,
+                        "fullname": "Ivan",
+                        "user": "IvanLazichny",
+                        "type": "user"
+                    },
+                    "name": "Ivan Lazichny",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-11T09:26:44.876Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f318",
+                    "name": "Elvir Karimov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f319",
+                    "name": "Artyom Iudin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f31a",
+                    "name": "Ivan Oseledets",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f31b",
+                    "name": "Oleg Y. Rogov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f31c",
+                    "user": {
+                        "_id": "605473729d7c1d4d81b7e52b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662046050710-605473729d7c1d4d81b7e52b.jpeg",
+                        "isPro": false,
+                        "fullname": "Alexander Panchenko",
+                        "user": "apanc",
+                        "type": "user"
+                    },
+                    "name": "Alexander Panchenko",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-11T09:27:06.218Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f31d",
+                    "name": "Natalia Loukachevitch",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fecf42e4f9106973f31e",
+                    "user": {
+                        "_id": "662f8d645c4db70c77a203b0",
+                        "avatarUrl": "/avatars/72f9a3c39b3ba5114388d16a35524835.svg",
+                        "isPro": false,
+                        "fullname": "Elena Tutubalina",
+                        "user": "tlenusik",
+                        "type": "user"
+                    },
+                    "name": "Elena Tutubalina",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-11T09:26:55.840Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-07T10:45:17.000Z",
+            "submittedOnDailyAt": "2025-06-11T02:53:12.616Z",
+            "title": "Geopolitical biases in LLMs: what are the \"good\" and the \"bad\" countries\n  according to contemporary language models",
+            "submittedOnDailyBy": {
+                "_id": "62bd6c6baaf1480f1aa2222e",
+                "avatarUrl": "/avatars/fd92ae2986d435a47eb1e382ac11d8e0.svg",
+                "isPro": false,
+                "fullname": "Mikhail Salnikov",
+                "user": "msalnikov",
+                "type": "user"
+            },
+            "summary": "This paper evaluates geopolitical biases in LLMs with respect to various\ncountries though an analysis of their interpretation of historical events with\nconflicting national perspectives (USA, UK, USSR, and China). We introduce a\nnovel dataset with neutral event descriptions and contrasting viewpoints from\ndifferent countries. Our findings show significant geopolitical biases, with\nmodels favoring specific national narratives. Additionally, simple debiasing\nprompts had a limited effect in reducing these biases. Experiments with\nmanipulated participant labels reveal models' sensitivity to attribution,\nsometimes amplifying biases or recognizing inconsistencies, especially with\nswapped labels. This work highlights national narrative biases in LLMs,\nchallenges the effectiveness of simple debiasing methods, and offers a\nframework and dataset for future geopolitical bias research.",
+            "upvotes": 49,
+            "discussionId": "6848fed042e4f9106973f31f",
+            "projectPage": "https://airi-institute.github.io/geopolitical_llm_bias",
+            "githubRepo": "https://github.com/AIRI-Institute/geopolitical_llm_bias",
+            "ai_summary": "LLMs exhibit significant geopolitical biases in their interpretation of historical events, and simple debiasing methods have limited effectiveness; a novel dataset for further research is provided.",
+            "ai_keywords": [
+                "LLMs",
+                "geopolitical biases",
+                "historical events",
+                "national narratives",
+                "debiasing prompts"
+            ]
+        },
+        "translation_title": "LLM에서의 지정학적 편향: 현대 언어 모델이 보는 '좋은' 나라와 '나쁜' 나라",
+        "purpose": "지정학적 편향을 평가하고 국가 간의 역사적 사건 해석의 차이를 분석하기 위함",
+        "method": [
+            "중립적인 사건 설명과 다양한 국가의 상반된 관점을 포함한 새로운 데이터셋을 소개함(This paper evaluates geopolitical biases in LLMs with respect to various countries though an analysis of their interpretation of historical events with conflicting national perspectives.)",
+            "모델의 편향성을 조사하기 위해 조작된 참가자 레이블을 사용하여 실험을 수행함(Experiments with manipulated participant labels reveal models' sensitivity to attribution.)"
+        ],
+        "conclusion": "LLM에서의 국가 서사적 편향을 밝혔다고 평가하며, 간단한 디바이싱 방법의 효과가 제한적임을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.09040",
+            "authors": [
+                {
+                    "_id": "6848fff842e4f9106973f321",
+                    "name": "Dianyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f322",
+                    "name": "Wei Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f323",
+                    "name": "Yikun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f324",
+                    "name": "Siyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f325",
+                    "name": "Kaicheng Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f326",
+                    "name": "Zhongyu Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6848fff842e4f9106973f327",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-10T17:57:50.000Z",
+            "submittedOnDailyAt": "2025-06-11T05:55:58.221Z",
+            "title": "Autoregressive Semantic Visual Reconstruction Helps VLMs Understand\n  Better",
+            "submittedOnDailyBy": {
+                "_id": "64b4eec4faa3181a5eab9c46",
+                "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                "isPro": true,
+                "fullname": "Jiaqi Wang",
+                "user": "myownskyW7",
+                "type": "user"
+            },
+            "summary": "Typical large vision-language models (LVLMs) apply autoregressive supervision\nsolely to textual sequences, without fully incorporating the visual modality\ninto the learning process. This results in three key limitations: (1) an\ninability to utilize images without accompanying captions, (2) the risk that\ncaptions omit critical visual details, and (3) the challenge that certain\nvision-centric content cannot be adequately conveyed through text. As a result,\ncurrent LVLMs often prioritize vision-to-language alignment while potentially\noverlooking fine-grained visual information. While some prior works have\nexplored autoregressive image generation, effectively leveraging autoregressive\nvisual supervision to enhance image understanding remains an open challenge. In\nthis paper, we introduce Autoregressive Semantic Visual Reconstruction (ASVR),\nwhich enables joint learning of visual and textual modalities within a unified\nautoregressive framework. We show that autoregressively reconstructing the raw\nvisual appearance of images does not enhance and may even impair multimodal\nunderstanding. In contrast, autoregressively reconstructing the semantic\nrepresentation of images consistently improves comprehension. Notably, we find\nthat even when models are given continuous image features as input, they can\neffectively reconstruct discrete semantic tokens, resulting in stable and\nconsistent improvements across a wide range of multimodal understanding\nbenchmarks. Our approach delivers significant performance gains across varying\ndata scales (556k-2M) and types of LLM bacbones. Specifically, ASVR improves\nLLaVA-1.5 by 5% in average scores across 14 multimodal benchmarks. The code is\navailable at https://github.com/AlenjandroWang/ASVR.",
+            "upvotes": 22,
+            "discussionId": "6848fff842e4f9106973f328",
+            "ai_summary": "Autoregressive Semantic Visual Reconstruction (ASVR) improves multimodal understanding by focusing on semantic reconstruction rather than raw visual appearance, enhancing performance across various benchmarks.",
+            "ai_keywords": [
+                "autoregressive supervision",
+                "large vision-language models (LVLMs)",
+                "visual modality",
+                "image captions",
+                "autoregressive image generation",
+                "multimodal learning",
+                "semantic representation",
+                "discrete semantic tokens",
+                "multimodal understanding benchmarks",
+                "LLaVA-1.5"
+            ]
+        },
+        "translation_title": "자동회귀적 의미 시각 재구성이 VLM의 이해를 향상시킴",
+        "purpose": "시각적 및 텍스트 모달리티를 통합하여 LVLM의 이해도를 높이기 위한 방법 제시",
+        "method": [
+            "Autoregressive Semantic Visual Reconstruction(ASVR) 방법을 도입하여 시각적 및 텍스트 모달리티를 유도하는 방법을 제안함(We introduce Autoregressive Semantic Visual Reconstruction (ASVR), which enables joint learning of visual and textual modalities within a unified autoregressive framework.)",
+            "원시 시각적 외관을 재구성하는 방법은 인식 향상에 기여하지 못하며 오히려 해를 끼칠 수 있음을 보여줌(We show that autoregressively reconstructing the raw visual appearance of images does not enhance and may even impair multimodal understanding.)",
+            "상징적 표현(semantic representation) 재구성이 일관되게 이해를 개선함을 발견함(In contrast, autoregressively reconstructing the semantic representation of images consistently improves comprehension.)"
+        ],
+        "conclusion": "ASVR을 통해 LLaVA-1.5의 평균 점수가 14개 다중 모달 벤치마크에서 5% 향상되며, 다양한 데이터 규모와 LLM 기반에서 성능 개선이 보고됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.08672",
+            "authors": [
+                {
+                    "_id": "684936e842e4f9106973f45e",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684936e842e4f9106973f45f",
+                    "name": "Jiaqi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "684936e842e4f9106973f460",
+                    "user": {
+                        "_id": "63a95a6a7930fa8c7dd63d4e",
+                        "avatarUrl": "/avatars/d9d0420f7ddfe2f3a7e029fb05f1c89f.svg",
+                        "isPro": false,
+                        "fullname": "Zilong Zheng",
+                        "user": "zlzheng",
+                        "type": "user"
+                    },
+                    "name": "Zilong Zheng",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-11T07:57:29.119Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-10T10:31:21.000Z",
+            "submittedOnDailyAt": "2025-06-11T07:49:21.042Z",
+            "title": "RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic\n  Sampling",
+            "submittedOnDailyBy": {
+                "_id": "63a95a6a7930fa8c7dd63d4e",
+                "avatarUrl": "/avatars/d9d0420f7ddfe2f3a7e029fb05f1c89f.svg",
+                "isPro": false,
+                "fullname": "Zilong Zheng",
+                "user": "zlzheng",
+                "type": "user"
+            },
+            "summary": "Rule-based reasoning has been acknowledged as one of the fundamental problems\nin reasoning, while deviations in rule formats, types, and complexity in\nreal-world applications pose severe challenges. Recent studies have shown that\nlarge reasoning models (LRMs) have remarkable reasoning capabilities, and their\nperformance is substantially enhanced by reinforcement learning (RL). However,\nit remains an open question whether small reasoning models (SRMs) can learn\nrule-based reasoning effectively with robust generalization across diverse\ntasks and domains. To address this, we introduce Reinforced Rule-based\nReasoning, a.k.a. RuleReasoner, a simple yet effective method to conduct\nrule-based reasoning via a wide collection of curated tasks and a novel\ndomain-aware dynamic sampling approach. Specifically, RuleReasoner resamples\neach training batch by updating the sampling weights of different domains based\non historical rewards. This facilitates domain augmentation and flexible online\nlearning schedules for RL, obviating the need for pre-hoc human-engineered\nmix-training recipes used in existing methods. Empirical evaluations on\nin-distribution (ID) and out-of-distribution (OOD) benchmarks reveal that\nRuleReasoner outperforms frontier LRMs by a significant margin (Delta4.1%\naverage points on eight ID tasks and Delta10.4% average points on three OOD\ntasks over OpenAI-o1). Notably, our approach also exhibits higher computational\nefficiency compared to prior dynamic sampling methods for RL.",
+            "upvotes": 22,
+            "discussionId": "684936e842e4f9106973f461",
+            "githubRepo": "https://github.com/bigai-nlco/RuleReasoner",
+            "ai_summary": "RuleReasoner enhances rule-based reasoning in small models through dynamic domain sampling, achieving superior performance and efficiency compared to large models.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "rule-based reasoning",
+                "large reasoning models",
+                "small reasoning models",
+                "domain-aware dynamic sampling",
+                "historical rewards",
+                "in-distribution",
+                "out-of-distribution",
+                "computational efficiency"
+            ]
+        },
+        "translation_title": "RuleReasoner: 도메인 인지 동적 샘플링을 통한 강화된 규칙 기반 추론",
+        "purpose": "작고 다양한 작업과 도메인에 대해 강력한 일반화가 가능한 규칙 기반 추론 모델의 학습을 달성하기 위한 연구",
+        "method": [
+            "규칙 기반 추론을 위한 방법 RuleReasoner를 소개함(we introduce Reinforced Rule-based Reasoning, a.k.a. RuleReasoner, a simple yet effective method to conduct rule-based reasoning)",
+            "다양한 도메인에 대한 샘플링 가중치를 업데이트하여 각 훈련 배치를 재샘플링함(RuleReasoner resamples each training batch by updating the sampling weights of different domains based on historical rewards)",
+            "기존 방법에서 사용되는 사전 설계된 혼합 훈련 레시피의 필요성을 없앰(obviating the need for pre-hoc human-engineered mix-training recipes used in existing methods)"
+        ],
+        "conclusion": "RuleReasoner는 기존의 대규모 추론 모델을 큰 차이로 초월하며, 이전 동적 샘플링 방법보다 높은 계산 효율성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.08009",
+            "authors": [
+                {
+                    "_id": "68485e5b4fe3b60e21b258bd",
+                    "name": "Xun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68485e5b4fe3b60e21b258be",
+                    "name": "Zhengqi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68485e5b4fe3b60e21b258bf",
+                    "user": {
+                        "_id": "67492ee82ad3cfc108a41bbb",
+                        "avatarUrl": "/avatars/7ad03e55a8791c62f1271a5c9bf8cc60.svg",
+                        "isPro": false,
+                        "fullname": "Guande He",
+                        "user": "gdhe17",
+                        "type": "user"
+                    },
+                    "name": "Guande He",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-11T08:35:40.950Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68485e5b4fe3b60e21b258c0",
+                    "name": "Mingyuan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68485e5b4fe3b60e21b258c1",
+                    "name": "Eli Shechtman",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/67492ee82ad3cfc108a41bbb/bEQLc--MCz7a-4ZBIBbaJ.mp4"
+            ],
+            "publishedAt": "2025-06-09T17:59:55.000Z",
+            "submittedOnDailyAt": "2025-06-11T04:34:32.742Z",
+            "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video\n  Diffusion",
+            "submittedOnDailyBy": {
+                "_id": "67492ee82ad3cfc108a41bbb",
+                "avatarUrl": "/avatars/7ad03e55a8791c62f1271a5c9bf8cc60.svg",
+                "isPro": false,
+                "fullname": "Guande He",
+                "user": "gdhe17",
+                "type": "user"
+            },
+            "summary": "We introduce Self Forcing, a novel training paradigm for autoregressive video\ndiffusion models. It addresses the longstanding issue of exposure bias, where\nmodels trained on ground-truth context must generate sequences conditioned on\ntheir own imperfect outputs during inference. Unlike prior methods that denoise\nfuture frames based on ground-truth context frames, Self Forcing conditions\neach frame's generation on previously self-generated outputs by performing\nautoregressive rollout with key-value (KV) caching during training. This\nstrategy enables supervision through a holistic loss at the video level that\ndirectly evaluates the quality of the entire generated sequence, rather than\nrelying solely on traditional frame-wise objectives. To ensure training\nefficiency, we employ a few-step diffusion model along with a stochastic\ngradient truncation strategy, effectively balancing computational cost and\nperformance. We further introduce a rolling KV cache mechanism that enables\nefficient autoregressive video extrapolation. Extensive experiments demonstrate\nthat our approach achieves real-time streaming video generation with sub-second\nlatency on a single GPU, while matching or even surpassing the generation\nquality of significantly slower and non-causal diffusion models. Project\nwebsite: http://self-forcing.github.io/",
+            "upvotes": 12,
+            "discussionId": "68485e5b4fe3b60e21b258c2",
+            "projectPage": "https://self-forcing.github.io/",
+            "githubRepo": "https://github.com/guandeh17/Self-Forcing",
+            "ai_summary": "Self Forcing, a novel training method for autoregressive video diffusion models, reduces exposure bias and improves generation quality through holistic video-level supervision and efficient caching mechanisms.",
+            "ai_keywords": [
+                "Self Forcing",
+                "autoregressive video diffusion models",
+                "exposure bias",
+                "denoising",
+                "key-value (KV) caching",
+                "autoregressive rollout",
+                "holistic loss",
+                "few-step diffusion model",
+                "stochastic gradient truncation",
+                "rolling KV cache mechanism",
+                "video extrapolation"
+            ]
+        },
+        "translation_title": "Self Forcing: 자가 강제를 통한 자율 회귀 비디오 확산 모델에서의 학습-테스트 간극 해소",
+        "purpose": "Autoregressive video diffusion 모델의 노출 편향 문제를 해결하여 생성 품질을 향상시키는 새로운 학습 패러다임 제안",
+        "method": [
+            "Self Forcing은 각 프레임 생성을 이전 자기 생성 출력을 기반으로 하여 오토리그레시브 롤아웃을 수행함으로써 학습함(Unlike prior methods that denoise future frames based on ground-truth context frames, Self Forcing conditions each frame's generation on previously self-generated outputs by performing autoregressive rollout with key-value (KV) caching during training.)",
+            "비디오 수준에서 전체 생성 시퀀스의 품질을 직접 평가하는 총체적 손실을 통해 감독을 구현함(This strategy enables supervision through a holistic loss at the video level that directly evaluates the quality of the entire generated sequence.)",
+            "효율적인 훈련을 위해 몇 단계의 확산 모델과 확률적 경량화 전략을 사용하여 계산 비용과 성능의 균형을 맞춤(To ensure training efficiency, we employ a few-step diffusion model along with a stochastic gradient truncation strategy, effectively balancing computational cost and performance.)"
+        ],
+        "conclusion": "우리의 접근 방식은 단일 GPU에서 실시간 스트리밍 비디오 생성을 가능하게 하여 이전보다 더 높은 생성 품질을 달성하며, 속도가 느린 비인과적 확산 모델보다 뛰어난 성능을 보임.",
+        "keywords": [
+            "Video Generation",
+            "Autoregressive Models",
+            "Diffusion"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.07927",
+            "authors": [
+                {
+                    "_id": "684794003ec10bdd8ab4de11",
+                    "name": "Jiayi Sheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de12",
+                    "name": "Luna Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de13",
+                    "name": "Jikai Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de14",
+                    "name": "Tony Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de15",
+                    "name": "Alex Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de16",
+                    "name": "James Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "684794003ec10bdd8ab4de17",
+                    "name": "Pan Lu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/60f5f68fa7fd83d025749234/ahvR-ZmwDrUNm3-jcQ4o1.png"
+            ],
+            "publishedAt": "2025-06-09T16:43:38.000Z",
+            "submittedOnDailyAt": "2025-06-11T04:15:25.994Z",
+            "title": "Solving Inequality Proofs with Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "60f5f68fa7fd83d025749234",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f5f68fa7fd83d025749234/gCeJAZfzaANAcEvI6v5-P.jpeg",
+                "isPro": true,
+                "fullname": "Pan Lu",
+                "user": "lupantech",
+                "type": "user"
+            },
+            "summary": "Inequality proving, crucial across diverse scientific and mathematical\nfields, tests advanced reasoning skills such as discovering tight bounds and\nstrategic theorem application. This makes it a distinct, demanding frontier for\nlarge language models (LLMs), offering insights beyond general mathematical\nproblem-solving. Progress in this area is hampered by existing datasets that\nare often scarce, synthetic, or rigidly formal. We address this by proposing an\ninformal yet verifiable task formulation, recasting inequality proving into two\nautomatically checkable subtasks: bound estimation and relation prediction.\nBuilding on this, we release IneqMath, an expert-curated dataset of\nOlympiad-level inequalities, including a test set and training corpus enriched\nwith step-wise solutions and theorem annotations. We also develop a novel\nLLM-as-judge evaluation framework, combining a final-answer judge with four\nstep-wise judges designed to detect common reasoning flaws. A systematic\nevaluation of 29 leading LLMs on IneqMath reveals a surprising reality: even\ntop models like o1 achieve less than 10% overall accuracy under step-wise\nscrutiny; this is a drop of up to 65.5% from their accuracy considering only\nfinal answer equivalence. This discrepancy exposes fragile deductive chains and\na critical gap for current LLMs between merely finding an answer and\nconstructing a rigorous proof. Scaling model size and increasing test-time\ncomputation yield limited gains in overall proof correctness. Instead, our\nfindings highlight promising research directions such as theorem-guided\nreasoning and self-refinement. Code and data are available at\nhttps://ineqmath.github.io/.",
+            "upvotes": 11,
+            "discussionId": "684794013ec10bdd8ab4de18",
+            "ai_summary": "The investigation into inequality proving using large language models uncovers significant challenges in constructing rigorous proofs, revealing gaps between finding answers and generating valid step-wise solutions.",
+            "ai_keywords": [
+                "LLMs",
+                "IneqMath",
+                "bound estimation",
+                "relation prediction",
+                "theorem-guided reasoning",
+                "self-refinement"
+            ]
+        },
+        "translation_title": "대형 언어 모델을 활용한 부등식 증명 해결",
+        "purpose": "부등식 증명을 보다 효율적으로 처리하고 평가하기 위한 새로운 방법론 개발",
+        "method": [
+            "부등식 증명을 비공식적이지만 검증 가능한 두 개의 하위 작업, 즉 경계 추정(bound estimation)과 관계 예측(relation prediction)으로 재구성함(We address this by proposing an informal yet verifiable task formulation, recasting inequality proving into two automatically checkable subtasks: bound estimation and relation prediction.)",
+            "Olympiad 수준의 부등식 데이터세트인 IneqMath를 출시하고 단계별 솔루션과 정리 주석이 포함된 학습 말뭉치를 생성함(Building on this, we release IneqMath, an expert-curated dataset of Olympiad-level inequalities, including a test set and training corpus enriched with step-wise solutions and theorem annotations.)",
+            "대형 언어 모델을 판별자로 활용하는 새로운 평가 프레임워크를 개발하여 답안 평가를 위한 여러 단계별 검사지를 포함함(We also develop a novel LLM-as-judge evaluation framework, combining a final-answer judge with four step-wise judges designed to detect common reasoning flaws.)"
+        ],
+        "conclusion": "많은 최첨단 LLM들도 단계별 검토 하에 10% 미만의 정확도를 보였으며, 이는 기존의 최종 답변 평가 결과와 비교해 큰 격차가 있음을 보여줌. 이 결과는 LLM의 성능 향상과 함께 정당한 증명을 구성하는 데 있어 중요한 연구 방향을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Theorem-guided Reasoning"
+        ]
+    }
+]
