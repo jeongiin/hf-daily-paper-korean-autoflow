@@ -1,0 +1,567 @@
+[
+    {
+        "paper": {
+            "id": "2506.11924",
+            "authors": [
+                {
+                    "_id": "684faeba60b4a34dbe007ae2",
+                    "name": "Min-Seop Kwak",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae3",
+                    "name": "Junho Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae4",
+                    "name": "Sangdoo Yun",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae5",
+                    "name": "Dongyoon Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae6",
+                    "name": "Taekyoung Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae7",
+                    "name": "Seungryong Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "684faeba60b4a34dbe007ae8",
+                    "name": "Jin-Hwa Kim",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-13T16:19:00.000Z",
+            "submittedOnDailyAt": "2025-06-16T04:13:42.201Z",
+            "title": "Aligned Novel View Image and Geometry Synthesis via Cross-modal\n  Attention Instillation",
+            "submittedOnDailyBy": {
+                "_id": "642673f185f26ab94af4b422",
+                "avatarUrl": "/avatars/289d611e0907f02f72d4e489468e039c.svg",
+                "isPro": false,
+                "fullname": "Bracio",
+                "user": "bracio9623",
+                "type": "user"
+            },
+            "summary": "We introduce a diffusion-based framework that performs aligned novel view\nimage and geometry generation via a warping-and-inpainting methodology. Unlike\nprior methods that require dense posed images or pose-embedded generative\nmodels limited to in-domain views, our method leverages off-the-shelf geometry\npredictors to predict partial geometries viewed from reference images, and\nformulates novel-view synthesis as an inpainting task for both image and\ngeometry. To ensure accurate alignment between generated images and geometry,\nwe propose cross-modal attention distillation, where attention maps from the\nimage diffusion branch are injected into a parallel geometry diffusion branch\nduring both training and inference. This multi-task approach achieves\nsynergistic effects, facilitating geometrically robust image synthesis as well\nas well-defined geometry prediction. We further introduce proximity-based mesh\nconditioning to integrate depth and normal cues, interpolating between point\ncloud and filtering erroneously predicted geometry from influencing the\ngeneration process. Empirically, our method achieves high-fidelity\nextrapolative view synthesis on both image and geometry across a range of\nunseen scenes, delivers competitive reconstruction quality under interpolation\nsettings, and produces geometrically aligned colored point clouds for\ncomprehensive 3D completion. Project page is available at\nhttps://cvlab-kaist.github.io/MoAI.",
+            "upvotes": 26,
+            "discussionId": "684faebb60b4a34dbe007ae9",
+            "projectPage": "https://cvlab-kaist.github.io/MoAI/",
+            "githubRepo": "https://github.com/cvlab-kaist/MoAI",
+            "ai_summary": "A diffusion-based framework generates aligned novel views of images and geometry using warping-and-inpainting with cross-modal attention distillation and proximity-based mesh conditioning, achieving high-fidelity synthesis and 3D completion.",
+            "ai_keywords": [
+                "diffusion-based framework",
+                "warping-and-inpainting",
+                "off-the-shelf geometry predictors",
+                "cross-modal attention distillation",
+                "proximity-based mesh conditioning",
+                "novel-view synthesis",
+                "multi-task approach",
+                "geometrically robust image synthesis",
+                "well-defined geometry prediction",
+                "extrapolative view synthesis",
+                "3D completion"
+            ]
+        },
+        "translation_title": "Cross-modal Attention Instillation을 통한 정렬된 새로운 뷰 이미지 및 기하학 합성",
+        "purpose": "정확한 정렬을 통해 새로운 뷰의 이미지 및 기하학 생성 기술 개발",
+        "method": [
+            "기하학 예측기를 활용하여 참고 이미지에서 비계산적으로 기하학의 일부를 예측함(our method leverages off-the-shelf geometry predictors to predict partial geometries viewed from reference images.)",
+            "이미지와 기하학의 새로운 뷰 합성을 인페인팅 작업으로 변경함(formulates novel-view synthesis as an inpainting task for both image and geometry.)",
+            "크로스 모달 어텐션 증류(cross-modal attention distillation)를 도입하여 이미지와 기하학 간의 정렬을 보장함(where attention maps from the image diffusion branch are injected into a parallel geometry diffusion branch during both training and inference.)"
+        ],
+        "conclusion": "이 방법은 높은 충실도의 새로운 뷰 합성과 기하학적 정렬이 잘 이루어진 색상 점 구름을 생성하는 성과를 달성함.",
+        "keywords": [
+            "Image Generation",
+            "3D Vision",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.09600",
+            "authors": [
+                {
+                    "_id": "684fca8160b4a34dbe007b4f",
+                    "name": "Itay Nakash",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fca8160b4a34dbe007b50",
+                    "name": "George Kour",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fca8160b4a34dbe007b51",
+                    "name": "Koren Lazar",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fca8160b4a34dbe007b52",
+                    "user": {
+                        "_id": "6465fae8e9906a259f328032",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6465fae8e9906a259f328032/mOf1PEA_GhCY5N7v_vfb6.jpeg",
+                        "isPro": false,
+                        "fullname": "Matan Vetzler",
+                        "user": "matanvetzler",
+                        "type": "user"
+                    },
+                    "name": "Matan Vetzler",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-16T12:56:52.767Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fca8160b4a34dbe007b53",
+                    "name": "Guy Uziel",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fca8160b4a34dbe007b54",
+                    "name": "Ateret Anaby-Tavor",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/671f8106d677d3a764a6f9a5/99oCW2IrMaCeLyuyfgvbG.png"
+            ],
+            "publishedAt": "2025-06-11T10:59:47.000Z",
+            "submittedOnDailyAt": "2025-06-16T06:16:02.507Z",
+            "title": "Effective Red-Teaming of Policy-Adherent Agents",
+            "submittedOnDailyBy": {
+                "_id": "671f8106d677d3a764a6f9a5",
+                "avatarUrl": "/avatars/90b4b00058aac30c060c5eac8debb1c7.svg",
+                "isPro": false,
+                "fullname": "itay nakash",
+                "user": "itaynakash",
+                "type": "user"
+            },
+            "summary": "Task-oriented LLM-based agents are increasingly used in domains with strict\npolicies, such as refund eligibility or cancellation rules. The challenge lies\nin ensuring that the agent consistently adheres to these rules and policies,\nappropriately refusing any request that would violate them, while still\nmaintaining a helpful and natural interaction. This calls for the development\nof tailored design and evaluation methodologies to ensure agent resilience\nagainst malicious user behavior. We propose a novel threat model that focuses\non adversarial users aiming to exploit policy-adherent agents for personal\nbenefit. To address this, we present CRAFT, a multi-agent red-teaming system\nthat leverages policy-aware persuasive strategies to undermine a\npolicy-adherent agent in a customer-service scenario, outperforming\nconventional jailbreak methods such as DAN prompts, emotional manipulation, and\ncoercive. Building upon the existing tau-bench benchmark, we introduce\ntau-break, a complementary benchmark designed to rigorously assess the agent's\nrobustness against manipulative user behavior. Finally, we evaluate several\nstraightforward yet effective defense strategies. While these measures provide\nsome protection, they fall short, highlighting the need for stronger,\nresearch-driven safeguards to protect policy-adherent agents from adversarial\nattacks",
+            "upvotes": 22,
+            "discussionId": "684fca8160b4a34dbe007b55",
+            "ai_summary": "CRAFT, a multi-agent system using policy-aware persuasive strategies, challenges policy-adherent LLM-based agents in customer service to assess and improve their robustness against adversarial attacks.",
+            "ai_keywords": [
+                "LLM-based agents",
+                "policy-adherence",
+                "adversarial users",
+                "CRAFT",
+                "multi-agent red-teaming",
+                "policy-aware persuasive strategies",
+                "DAN prompts",
+                "emotional manipulation",
+                "coercive",
+                "tau-break",
+                "defense strategies",
+                "adversarial attacks"
+            ]
+        },
+        "translation_title": "정책 준수 에이전트의 효과적인 레드 팀ing",
+        "purpose": "정책을 준수하는 에이전트가 악의적 사용자 행동에 대해 저항력을 유지하도록 설계 및 평가 방법론 개발",
+        "method": [
+            "악의적인 사용자가 정책 준수 에이전트를 악용할 목표를 가진 새로운 위협 모델 제안(We propose a novel threat model that focuses on adversarial users aiming to exploit policy-adherent agents for personal benefit.)",
+            "CRAFT라는 멀티 에이전트 레드 팀 시스템을 제시하여 고객 서비스 시나리오에서 정책 준수 에이전트를 약화시키는 정책 인식 설득 전략 활용(CRAFT, a multi-agent red-teaming system that leverages policy-aware persuasive strategies to undermine a policy-adherent agent in a customer-service scenario.)",
+            "기존 tau-bench 벤치마크를 기반으로 조작적 사용자 행동에 대한 에이전트의 강건함을 엄격하게 평가하기 위해 tau-break라는 보조 벤치마크 도입(Building upon the existing tau-bench benchmark, we introduce tau-break, a complementary benchmark designed to rigorously assess the agent's robustness against manipulative user behavior.)"
+        ],
+        "conclusion": "일부 방어 전략이 보호를 제공하지만, 정책 준수 에이전트를 악의적 공격으로부터 보호하기 위한 더 강력한 연구 기반 안전 장치가 필요함을 강조.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.10892",
+            "authors": [
+                {
+                    "_id": "684fb2f060b4a34dbe007aeb",
+                    "name": "Subham Sekhar Sahoo",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fb2f060b4a34dbe007aec",
+                    "name": "Justin Deschenaux",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fb2f060b4a34dbe007aed",
+                    "name": "Aaron Gokaslan",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fb2f060b4a34dbe007aee",
+                    "name": "Guanghan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fb2f060b4a34dbe007aef",
+                    "name": "Justin Chiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fb2f060b4a34dbe007af0",
+                    "name": "Volodymyr Kuleshov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/661839d73b412cdc851299c1/GmIlLMVIuyWjydykQPOt2.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/661839d73b412cdc851299c1/TjIhoD3hxygzenitTi75x.qt"
+            ],
+            "publishedAt": "2025-06-12T16:55:35.000Z",
+            "submittedOnDailyAt": "2025-06-16T04:40:29.065Z",
+            "title": "The Diffusion Duality",
+            "submittedOnDailyBy": {
+                "_id": "661839d73b412cdc851299c1",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661839d73b412cdc851299c1/xicwANPQPTFdWfblisL2-.png",
+                "isPro": false,
+                "fullname": "Subham Sekhar Sahoo",
+                "user": "s-sahoo",
+                "type": "user"
+            },
+            "summary": "Uniform-state discrete diffusion models hold the promise of fast text\ngeneration due to their inherent ability to self-correct. However, they are\ntypically outperformed by autoregressive models and masked diffusion models. In\nthis work, we narrow this performance gap by leveraging a key insight:\nUniform-state diffusion processes naturally emerge from an underlying Gaussian\ndiffusion. Our method, Duo, transfers powerful techniques from Gaussian\ndiffusion to improve both training and sampling. First, we introduce a\ncurriculum learning strategy guided by the Gaussian process, doubling training\nspeed by reducing variance. Models trained with curriculum learning surpass\nautoregressive models in zero-shot perplexity on 3 of 7 benchmarks. Second, we\npresent Discrete Consistency Distillation, which adapts consistency\ndistillation from the continuous to the discrete setting. This algorithm\nunlocks few-step generation in diffusion language models by accelerating\nsampling by two orders of magnitude. We provide the code and model checkpoints\non the project page: http://s-sahoo.github.io/duo",
+            "upvotes": 17,
+            "discussionId": "684fb2f060b4a34dbe007af1",
+            "projectPage": "https://s-sahoo.com/duo/",
+            "githubRepo": "https://github.com/s-sahoo/duo",
+            "ai_summary": "Duo improves uniform-state discrete diffusion models by transferring techniques from Gaussian diffusion, enhancing training speed and enabling fast few-step text generation.",
+            "ai_keywords": [
+                "discrete diffusion models",
+                "Gaussian diffusion",
+                "curriculum learning",
+                "Discrete Consistency Distillation",
+                "zero-shot perplexity",
+                "few-step generation"
+            ]
+        },
+        "translation_title": "확산 이중성(The Diffusion Duality)",
+        "purpose": "고속 텍스트 생성을 위해 확산 모델의 성능을 개선하고자 함.",
+        "method": [
+            "가우시안 확산에서 파생된 uniform-state 확산 프로세스를 활용하여 모델 성능을 향상시킴(we narrow this performance gap by leveraging a key insight: Uniform-state diffusion processes naturally emerge from an underlying Gaussian diffusion.)",
+            "커리큘럼 학습 전략을 도입해 훈련 속도를 두 배로 증가시킴(First, we introduce a curriculum learning strategy guided by the Gaussian process, doubling training speed by reducing variance.)",
+            "일관성 증류 알고리즘을 통해 적은 단계의 생성이 가능하도록 함(Second, we present Discrete Consistency Distillation, which adapts consistency distillation from the continuous to the discrete setting.)"
+        ],
+        "conclusion": "Duo 방법을 통해 확산 언어 모델의 생성 속도를 크게 향상시켜 autoregressive 모델을 초월하는 성과를 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.11928",
+            "authors": [
+                {
+                    "_id": "684fae8d60b4a34dbe007acd",
+                    "name": "Zihan Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ace",
+                    "name": "Zerui Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007acf",
+                    "name": "Zeyu Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad0",
+                    "name": "Shang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad1",
+                    "name": "Kaiyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad2",
+                    "name": "Hansen He",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad3",
+                    "name": "Dongruixuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad4",
+                    "name": "Stanley Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad5",
+                    "name": "Hangyi Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad6",
+                    "name": "Jianzhu Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad7",
+                    "user": {
+                        "_id": "681e8c219afd4ecd3e2c19f8",
+                        "avatarUrl": "/avatars/2ddd4e0b5de7ffa060141243cbc2410a.svg",
+                        "isPro": false,
+                        "fullname": "Peiyao Sheng",
+                        "user": "peiyao-sentient",
+                        "type": "user"
+                    },
+                    "name": "Peiyao Sheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-16T13:00:36.911Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad8",
+                    "name": "Zixuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ad9",
+                    "name": "Wenhao Chai",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ada",
+                    "user": {
+                        "_id": "66aff5f4f0bb52918956631a",
+                        "avatarUrl": "/avatars/12dfc9b534e2dc5d0e98c3723af2ca97.svg",
+                        "isPro": false,
+                        "fullname": "Aleksandra Korolova",
+                        "user": "korolova",
+                        "type": "user"
+                    },
+                    "name": "Aleksandra Korolova",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-16T13:00:20.576Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007adb",
+                    "name": "Peter Henderson",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007adc",
+                    "name": "Sanjeev Arora",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007add",
+                    "name": "Pramod Viswanath",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007ade",
+                    "user": {
+                        "_id": "660655119e3555d648f6c6b5",
+                        "avatarUrl": "/avatars/ae1e2c97a08be39b77a9f1a5c2a718ef.svg",
+                        "isPro": false,
+                        "fullname": "Jingbo Shang",
+                        "user": "shangjingbo",
+                        "type": "user"
+                    },
+                    "name": "Jingbo Shang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-16T13:00:07.437Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684fae8d60b4a34dbe007adf",
+                    "user": {
+                        "_id": "6596422646624a86ff3b3bda",
+                        "avatarUrl": "/avatars/216e12b77e45ac5f1fa20932f5745411.svg",
+                        "isPro": false,
+                        "fullname": "Saining Xie",
+                        "user": "sainx",
+                        "type": "user"
+                    },
+                    "name": "Saining Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-16T13:00:01.691Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-13T16:29:09.000Z",
+            "submittedOnDailyAt": "2025-06-16T04:13:30.111Z",
+            "title": "LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive\n  Programming?",
+            "submittedOnDailyBy": {
+                "_id": "637c7503fe115289cfecbe6b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676361945047-637c7503fe115289cfecbe6b.jpeg",
+                "isPro": false,
+                "fullname": "Wenhao Chai",
+                "user": "wchai",
+                "type": "user"
+            },
+            "summary": "Recent reports claim that large language models (LLMs) now outperform elite\nhumans in competitive programming. Drawing on knowledge from a group of\nmedalists in international algorithmic contests, we revisit this claim,\nexamining how LLMs differ from human experts and where limitations still\nremain. We introduce LiveCodeBench Pro, a benchmark composed of problems from\nCodeforces, ICPC, and IOI that are continuously updated to reduce the\nlikelihood of data contamination. A team of Olympiad medalists annotates every\nproblem for algorithmic categories and conducts a line-by-line analysis of\nfailed model-generated submissions. Using this new data and benchmark, we find\nthat frontier models still have significant limitations: without external\ntools, the best model achieves only 53% pass@1 on medium-difficulty problems\nand 0% on hard problems, domains where expert humans still excel. We also find\nthat LLMs succeed at implementation-heavy problems but struggle with nuanced\nalgorithmic reasoning and complex case analysis, often generating confidently\nincorrect justifications. High performance appears largely driven by\nimplementation precision and tool augmentation, not superior reasoning.\nLiveCodeBench Pro thus highlights the significant gap to human grandmaster\nlevels, while offering fine-grained diagnostics to steer future improvements in\ncode-centric LLM reasoning.",
+            "upvotes": 10,
+            "discussionId": "684fae8d60b4a34dbe007ae0",
+            "ai_summary": "LLMs perform well on implementation-heavy competitive programming problems but struggle with nuanced algorithmic reasoning, as highlighted by LiveCodeBench Pro.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "competitive programming",
+                "LiveCodeBench Pro",
+                "Codeforces",
+                "ICPC",
+                "IOI",
+                "algorithmic categories",
+                "algorithmic reasoning",
+                "case analysis"
+            ]
+        },
+        "translation_title": "LiveCodeBench Pro: 올림픽 메달리스트는 경쟁 프로그래밍에서 LLM을 어떻게 평가하는가?",
+        "purpose": "LLM의 성능을 검토하고 인간 전문가와의 차이 및 한계를 이해하기 위한 벤치마크 개발",
+        "method": [
+            "LiveCodeBench Pro라는 벤치마크를 도입하여 Codeforces, ICPC 및 IOI 문제를 포함함(We introduce LiveCodeBench Pro, a benchmark composed of problems from Codeforces, ICPC, and IOI that are continuously updated to reduce the likelihood of data contamination.)",
+            "올림픽 메달리스트 팀이 모든 문제를 알고리즘 카테고리로 주석 처리하고 모델이 생성한 제출물의 실패를 분석함(A team of Olympiad medalists annotates every problem for algorithmic categories and conducts a line-by-line analysis of failed model-generated submissions.)",
+            "새로운 데이터와 벤치마크를 사용하여 LLM의 한계를 조사하고 구현이 중요한 문제에서 성능이 뛰어나지만 섬세한 알고리즘 추론에 어려움을 겪는다는 사실을 발견함(Using this new data and benchmark, we find that frontier models still have significant limitations...)."
+        ],
+        "conclusion": "LiveCodeBench Pro는 인간 수준의 전문가와의 격차를 강조하고, 향후 코드 중심 LLM 사고 개선을 위한 정밀한 진단 정보를 제공함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.08989",
+            "authors": [
+                {
+                    "_id": "684d3eb33b733ba333687407",
+                    "user": {
+                        "_id": "6560763e152b659e623865ae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6560763e152b659e623865ae/cTT2jGnPU_8XMrUTvqZ2h.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiao Liang",
+                        "user": "MasterVito",
+                        "type": "user"
+                    },
+                    "name": "Xiao Liang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-16T12:56:19.750Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba333687408",
+                    "user": {
+                        "_id": "6545f575650796837446afca",
+                        "avatarUrl": "/avatars/df9fab381e5d43af753b8fc2c7d35865.svg",
+                        "isPro": false,
+                        "fullname": "Zhongzhi Li",
+                        "user": "lizhongzhi2022",
+                        "type": "user"
+                    },
+                    "name": "Zhong-Zhi Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-16T12:56:21.547Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba333687409",
+                    "name": "Yeyun Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba33368740a",
+                    "name": "Yang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba33368740b",
+                    "name": "Hengyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba33368740c",
+                    "user": {
+                        "_id": "643f615aa16cd6d1f4c581de",
+                        "avatarUrl": "/avatars/47753a3e82b44f81881600c52e1e8495.svg",
+                        "isPro": false,
+                        "fullname": "Yeyun Gong",
+                        "user": "yegong",
+                        "type": "user"
+                    },
+                    "name": "Yelong Shen",
+                    "status": "extracted_pending",
+                    "statusLastChangedAt": "2025-06-14T09:19:48.976Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba33368740d",
+                    "name": "Ying Nian Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "684d3eb33b733ba33368740e",
+                    "name": "Weizhu Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-10T17:02:00.000Z",
+            "submittedOnDailyAt": "2025-06-16T10:06:05.425Z",
+            "title": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement\n  Learning for LLM Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "65407ba7a38390065750233f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65407ba7a38390065750233f/1_IPMZbk-S9u2t18PQgMp.jpeg",
+                "isPro": false,
+                "fullname": "Zirui Song",
+                "user": "Ziruibest",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective\nfor training large language models (LLMs) on complex reasoning tasks, such as\nmathematical problem solving. A prerequisite for the scalability of RLVR is a\nhigh-quality problem set with precise and verifiable answers. However, the\nscarcity of well-crafted human-labeled math problems and limited-verification\nanswers in existing distillation-oriented synthetic datasets limit their\neffectiveness in RL. Additionally, most problem synthesis strategies\nindiscriminately expand the problem set without considering the model's\ncapabilities, leading to low efficiency in generating useful questions. To\nmitigate this issue, we introduce a Self-aware Weakness-driven problem\nSynthesis framework (SwS) that systematically identifies model deficiencies and\nleverages them for problem augmentation. Specifically, we define weaknesses as\nquestions that the model consistently fails to learn through its iterative\nsampling during RL training. We then extract the core concepts from these\nfailure cases and synthesize new problems to strengthen the model's weak areas\nin subsequent augmented training, enabling it to focus on and gradually\novercome its weaknesses. Without relying on external knowledge distillation,\nour framework enables robust generalization byempowering the model to\nself-identify and address its weaknesses in RL, yielding average performance\ngains of 10.0% and 7.7% on 7B and 32B models across eight mainstream reasoning\nbenchmarks.",
+            "upvotes": 7,
+            "discussionId": "684d3eb43b733ba33368740f",
+            "ai_summary": "A self-aware problem synthesis framework that leverages model weaknesses enhances reinforcement learning with verifiable rewards, improving large language model performance on reasoning tasks.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "RLVR",
+                "large language models",
+                "LLMs",
+                "complex reasoning tasks",
+                "mathematical problem solving",
+                "problem set",
+                "verifiable answers",
+                "human-labeled math problems",
+                "synthetic datasets",
+                "problem synthesis",
+                "model capabilities",
+                "self-aware",
+                "weakness-driven",
+                "problem augmentation",
+                "iterative sampling",
+                "core concepts",
+                "synthesizing new problems",
+                "robust generalization",
+                "reasoning benchmarks"
+            ]
+        },
+        "translation_title": "SwS: 자기 인식을 통한 약점 기반 문제 합성 프레임워크",
+        "purpose": "대형 언어 모델(LLM)의 복잡한 추론 작업을 위한 고품질 문제 세트를 생성하고 모델의 약점을 보완하기 위함",
+        "method": [
+            "Self-aware Weakness-driven 문제 합성 프레임워크(SwS)를 도입하여 모델의 결함을 체계적으로 식별하고 이를 문제 증강에 활용함(To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation.)",
+            "모델이 반복 샘플링 과정에서 consistently 실패하는 질문들을 약점으로 정의하고 이를 바탕으로 새로운 문제를 합성함(Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training.)",
+            "이러한 실패 사례에서 핵심 개념을 추출하여 모델의 약한 영역을 강화하는 새로운 문제를 생성함(We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training.)"
+        ],
+        "conclusion": "이 프레임워크를 통해 모델은 스스로 약점을 식별하고 해결하여 7B 및 32B 모델에서 평균 10.0% 및 7.7%의 성능 향상을 달성함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Problem Synthesis"
+        ]
+    }
+]
