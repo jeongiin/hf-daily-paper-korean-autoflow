@@ -1,0 +1,727 @@
+[
+    {
+        "paper": {
+            "id": "2506.18882",
+            "authors": [
+                {
+                    "_id": "685a163c0e4ad7e219758569",
+                    "name": "Hong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856a",
+                    "name": "Houyuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856b",
+                    "name": "Chongjie Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856c",
+                    "name": "Zhaoxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856d",
+                    "name": "Bohan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856e",
+                    "name": "Shaocong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e21975856f",
+                    "name": "Xianda Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758570",
+                    "name": "Xuhui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758571",
+                    "name": "Yikai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758572",
+                    "name": "Baochang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758573",
+                    "user": {
+                        "_id": "64a7ec232431ebd64dd44cf4",
+                        "avatarUrl": "/avatars/26f811ade720ffbd671deaacc03ee4ba.svg",
+                        "isPro": false,
+                        "fullname": "Satoshi Ikehata",
+                        "user": "smyth",
+                        "type": "user"
+                    },
+                    "name": "Satoshi Ikehata",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T12:51:11.759Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758574",
+                    "name": "Boxin Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758575",
+                    "name": "Anyi Rao",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a163c0e4ad7e219758576",
+                    "name": "Hao Zhao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/643a1f5b58cb07c2a3745116/4JHMhL80xxrkPBOIt9-Cg.mp4"
+            ],
+            "publishedAt": "2025-06-23T17:53:11.000Z",
+            "submittedOnDailyAt": "2025-06-24T02:59:45.489Z",
+            "title": "Light of Normals: Unified Feature Representation for Universal\n  Photometric Stereo",
+            "submittedOnDailyBy": {
+                "_id": "643a1f5b58cb07c2a3745116",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643a1f5b58cb07c2a3745116/OiSDfgfcCUWu0X4-FiNm0.jpeg",
+                "isPro": false,
+                "fullname": "Hugo",
+                "user": "chongjie",
+                "type": "user"
+            },
+            "summary": "Universal photometric stereo (PS) aims to recover high-quality surface\nnormals from objects under arbitrary lighting conditions without relying on\nspecific illumination models. Despite recent advances such as SDM-UniPS and Uni\nMS-PS, two fundamental challenges persist: 1) the deep coupling between varying\nillumination and surface normal features, where ambiguity in observed intensity\nmakes it difficult to determine whether brightness variations stem from\nlighting changes or surface orientation; and 2) the preservation of\nhigh-frequency geometric details in complex surfaces, where intricate\ngeometries create self-shadowing, inter-reflections, and subtle normal\nvariations that conventional feature processing operations struggle to capture\naccurately.",
+            "upvotes": 66,
+            "discussionId": "685a163c0e4ad7e219758577",
+            "githubRepo": "https://github.com/houyuanchen111/LINO_UniPS",
+            "ai_summary": "Photometric stereo aims to recover high-quality surface normals under arbitrary lighting conditions, addressing challenges related to illumination-surface normal coupling and high-frequency geometric detail preservation.",
+            "ai_keywords": [
+                "photometric stereo",
+                "deep coupling",
+                "surface normals",
+                "illumination conditions",
+                "intensity variations",
+                "self-shadowing",
+                "inter-reflections",
+                "subtle normal variations"
+            ]
+        },
+        "translation_title": "법규를 위한 통합 특성 표현: 보편적 광학 스테레오",
+        "purpose": "특정 조명 모델에 의존하지 않고 다양한 조명 조건에서도 고품질 표면 노멀을 복구할 수 있는 방법을 제안하기",
+        "method": [
+            "보편적 광학 스테레오의 두 가지 주요 문제를 분석함(Despite recent advances such as SDM-UniPS and Uni MS-PS, two fundamental challenges persist)",
+            "조명 변화와 표면 노멀 특징 간의 깊은 결합 문제를 해결하기 위한 새로운 접근 방식을 제안함(1) the deep coupling between varying illumination and surface normal features에 대한 해결책 제시",
+            "복잡한 표면에서 고주파 기하학적 세부 사항을 보존하기 위한 방법을 연구함(2) the preservation of high-frequency geometric details in complex surfaces)에 대한 연구 진행"
+        ],
+        "conclusion": "제안한 방법을 통해 고품질 표면 노멀을 더욱 정확하게 복구할 수 있으며, 다양한 조명 조건에서도 효과적으로 작동함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.18871",
+            "authors": [
+                {
+                    "_id": "685a0be90e4ad7e2197584f4",
+                    "user": {
+                        "_id": "65f19fa7f591e4538b65dea5",
+                        "avatarUrl": "/avatars/a38e65701e1d2eb3eb93335d6d0b937c.svg",
+                        "isPro": false,
+                        "fullname": "Chenyuan Wu",
+                        "user": "wcyno23",
+                        "type": "user"
+                    },
+                    "name": "Chenyuan Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:41:49.563Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584f5",
+                    "name": "Pengfei Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584f6",
+                    "user": {
+                        "_id": "661ac5b53d7248a6f20080c1",
+                        "avatarUrl": "/avatars/26aef5944759c2e4366a71eb8c7fc50a.svg",
+                        "isPro": false,
+                        "fullname": "Ruiran Yan",
+                        "user": "Ruiran",
+                        "type": "user"
+                    },
+                    "name": "Ruiran Yan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:41:58.820Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584f7",
+                    "user": {
+                        "_id": "62612679bbcbd1c34f1638af",
+                        "avatarUrl": "/avatars/c0675d05a52192ee14e9ab1633353956.svg",
+                        "isPro": false,
+                        "fullname": "Xiao",
+                        "user": "Shitao",
+                        "type": "user"
+                    },
+                    "name": "Shitao Xiao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:42:07.997Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584f8",
+                    "user": {
+                        "_id": "641bd1737c21ab946bf69aff",
+                        "avatarUrl": "/avatars/83759075ad893a69a0c2cf5493d7e988.svg",
+                        "isPro": false,
+                        "fullname": "xin luo",
+                        "user": "sienna223",
+                        "type": "user"
+                    },
+                    "name": "Xin Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T08:08:42.720Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584f9",
+                    "user": {
+                        "_id": "6458b59c7a7e192202df8fa0",
+                        "avatarUrl": "/avatars/33ee716477e5686da8723d01e199cd27.svg",
+                        "isPro": false,
+                        "fullname": "Yueze Wang",
+                        "user": "yzwang",
+                        "type": "user"
+                    },
+                    "name": "Yueze Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T09:33:03.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584fa",
+                    "user": {
+                        "_id": "675bcb9ce16de4a95aac9950",
+                        "avatarUrl": "/avatars/a1d0a2fd96ddee9cdea4f97819233fe5.svg",
+                        "isPro": false,
+                        "fullname": "Wanli Li",
+                        "user": "liwanli",
+                        "type": "user"
+                    },
+                    "name": "Wanli Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:42:15.514Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584fb",
+                    "user": {
+                        "_id": "674972973dc92067bd606877",
+                        "avatarUrl": "/avatars/8366448b45baf7d7f3d3d2b8793479ed.svg",
+                        "isPro": false,
+                        "fullname": "Jiang Xiyan",
+                        "user": "Emilia515",
+                        "type": "user"
+                    },
+                    "name": "Xiyan Jiang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:42:29.622Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584fc",
+                    "name": "Yexin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584fd",
+                    "user": {
+                        "_id": "6564a2ceedae9c33b7654a1f",
+                        "avatarUrl": "/avatars/42f09356a1282896573ccb44830cd327.svg",
+                        "isPro": false,
+                        "fullname": "JUNJIE ZHOU",
+                        "user": "JUNJIE99",
+                        "type": "user"
+                    },
+                    "name": "Junjie Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T08:08:40.699Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584fe",
+                    "user": {
+                        "_id": "66164f6245336ca774679611",
+                        "avatarUrl": "/avatars/9baf0ab475bc8d5997abda9ffe8cfa28.svg",
+                        "isPro": false,
+                        "fullname": "Ze Liu",
+                        "user": "marsh123",
+                        "type": "user"
+                    },
+                    "name": "Ze Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T08:08:38.616Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e2197584ff",
+                    "user": {
+                        "_id": "6540617c7cadb2d1b42007c5",
+                        "avatarUrl": "/avatars/b1877fd0564c362a0d4a064d4ec43a73.svg",
+                        "isPro": false,
+                        "fullname": "Ziyi Xia",
+                        "user": "ZiyiXia",
+                        "type": "user"
+                    },
+                    "name": "Ziyi Xia",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:42:47.445Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758500",
+                    "name": "Chaofan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758501",
+                    "name": "Haoge Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758502",
+                    "name": "Jiahao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758503",
+                    "name": "Kun Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758504",
+                    "name": "Bo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758505",
+                    "user": {
+                        "_id": "66ed026076a8038cb4ae6053",
+                        "avatarUrl": "/avatars/99b6527da6b66c6b5df3fc8261587322.svg",
+                        "isPro": false,
+                        "fullname": "Defu Lian",
+                        "user": "dove-ustc",
+                        "type": "user"
+                    },
+                    "name": "Defu Lian",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:43:23.976Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758506",
+                    "name": "Xinlong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758507",
+                    "name": "Zhongyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758508",
+                    "name": "Tiejun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0be90e4ad7e219758509",
+                    "name": "Zheng Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-23T17:38:54.000Z",
+            "submittedOnDailyAt": "2025-06-24T01:06:04.763Z",
+            "title": "OmniGen2: Exploration to Advanced Multimodal Generation",
+            "submittedOnDailyBy": {
+                "_id": "6564a2ceedae9c33b7654a1f",
+                "avatarUrl": "/avatars/42f09356a1282896573ccb44830cd327.svg",
+                "isPro": false,
+                "fullname": "JUNJIE ZHOU",
+                "user": "JUNJIE99",
+                "type": "user"
+            },
+            "summary": "In this work, we introduce OmniGen2, a versatile and open-source generative\nmodel designed to provide a unified solution for diverse generation tasks,\nincluding text-to-image, image editing, and in-context generation. Unlike\nOmniGen v1, OmniGen2 features two distinct decoding pathways for text and image\nmodalities, utilizing unshared parameters and a decoupled image tokenizer. This\ndesign enables OmniGen2 to build upon existing multimodal understanding models\nwithout the need to re-adapt VAE inputs, thereby preserving the original text\ngeneration capabilities. To facilitate the training of OmniGen2, we developed\ncomprehensive data construction pipelines, encompassing image editing and\nin-context generation data. Additionally, we introduce a reflection mechanism\ntailored for image generation tasks and curate a dedicated reflection dataset\nbased on OmniGen2. Despite its relatively modest parameter size, OmniGen2\nachieves competitive results on multiple task benchmarks, including\ntext-to-image and image editing. To further evaluate in-context generation,\nalso referred to as subject-driven tasks, we introduce a new benchmark named\nOmniContext. OmniGen2 achieves state-of-the-art performance among open-source\nmodels in terms of consistency. We will release our models, training code,\ndatasets, and data construction pipeline to support future research in this\nfield. Project Page: https://vectorspacelab.github.io/OmniGen2; GitHub Link:\nhttps://github.com/VectorSpaceLab/OmniGen2",
+            "upvotes": 41,
+            "discussionId": "685a0be90e4ad7e21975850a",
+            "projectPage": "https://vectorspacelab.github.io/OmniGen2/",
+            "githubRepo": "https://github.com/VectorSpaceLab/OmniGen2",
+            "ai_summary": "OmniGen2, a versatile generative model, introduces dual decoding pathways for text and images, preserves original text generation, and achieves competitive results with a new subject-driven benchmark.",
+            "ai_keywords": [
+                "decoding pathways",
+                "unshared parameters",
+                "decoupled image tokenizer",
+                "multimodal understanding models",
+                "reflection mechanism",
+                "reflection dataset",
+                "OmniContext",
+                "state-of-the-art performance"
+            ]
+        },
+        "translation_title": "OmniGen2: 고급 다중 모달 생성을 위한 탐색",
+        "purpose": "텍스트-이미지, 이미지 편집 및 문맥 생성을 포함한 다양한 생성 작업에 대한 통합 솔루션 제공",
+        "method": [
+            "OmniGen2는 텍스트와 이미지 모달리티를 위한 두 가지 독립적인 디코딩 경로를 제공함(Unlike OmniGen v1, OmniGen2 features two distinct decoding pathways for text and image modalities.)",
+            "데이터 구성 파이프라인을 개발하여 이미지 편집 및 문맥 생성 데이터를 포함시킴(To facilitate the training of OmniGen2, we developed comprehensive data construction pipelines, encompassing image editing and in-context generation data.)",
+            "이미지 생성 작업을 위한 반사 메커니즘을 도입하고, 이를 기반으로 한 전용 반사 데이터셋을 큐레이션함(Additionally, we introduce a reflection mechanism tailored for image generation tasks and curate a dedicated reflection dataset based on OmniGen2.)"
+        ],
+        "conclusion": "OmniGen2는 비교적 적은 파라미터 수에도 불구하고 여러 작업 벤치마크에서 경쟁력 있는 성과를 달성하며, 오픈 소스 모델 중에서 일관성 측면에서 최첨단 성능을 나타냄.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Image Editing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.18841",
+            "authors": [
+                {
+                    "_id": "685a0f330e4ad7e219758514",
+                    "name": "Yuhao Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0f330e4ad7e219758515",
+                    "name": "Yushi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0f330e4ad7e219758516",
+                    "user": {
+                        "_id": "637f228152229c63921119c3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637f228152229c63921119c3/acwXorra1r9_7i3KlBFjS.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhiqiang Hu",
+                        "user": "Zhiqiang007",
+                        "type": "user"
+                    },
+                    "name": "Zhiqiang Hu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T08:08:35.954Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0f330e4ad7e219758517",
+                    "name": "Roy Ka-Wei Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0f330e4ad7e219758518",
+                    "name": "Juanzi Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-23T16:59:02.000Z",
+            "submittedOnDailyAt": "2025-06-24T01:08:07.123Z",
+            "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement\n  Learning",
+            "submittedOnDailyBy": {
+                "_id": "63369da91ba5d5ece24118a4",
+                "avatarUrl": "/avatars/67889e1ecadb04100a77bc8b5284c6fd.svg",
+                "isPro": false,
+                "fullname": "wuyuhao",
+                "user": "mozhu",
+                "type": "user"
+            },
+            "summary": "Ultra-long generation by large language models (LLMs) is a widely demanded\nscenario, yet it remains a significant challenge due to their maximum\ngeneration length limit and overall quality degradation as sequence length\nincreases. Previous approaches, exemplified by LongWriter, typically rely on\n''teaching'', which involves supervised fine-tuning (SFT) on synthetic\nlong-form outputs. However, this strategy heavily depends on synthetic SFT\ndata, which is difficult and costly to construct, often lacks coherence and\nconsistency, and tends to be overly artificial and structurally monotonous. In\nthis work, we propose an incentivization-based approach that, starting entirely\nfrom scratch and without relying on any annotated or synthetic data, leverages\nreinforcement learning (RL) to foster the emergence of ultra-long, high-quality\ntext generation capabilities in LLMs. We perform RL training starting from a\nbase model, similar to R1-Zero, guiding it to engage in reasoning that\nfacilitates planning and refinement during the writing process. To support\nthis, we employ specialized reward models that steer the LLM towards improved\nlength control, writing quality, and structural formatting. Experimental\nevaluations show that our LongWriter-Zero model, trained from Qwen2.5-32B,\nconsistently outperforms traditional SFT methods on long-form writing tasks,\nachieving state-of-the-art results across all metrics on WritingBench and\nArena-Write, and even surpassing 100B+ models such as DeepSeek R1 and\nQwen3-235B. We open-source our data and model checkpoints under\nhttps://huggingface.co/THU-KEG/LongWriter-Zero-32B",
+            "upvotes": 32,
+            "discussionId": "685a0f340e4ad7e219758519",
+            "ai_summary": "An incentivization-based reinforcement learning approach is used to develop a large language model capable of generating ultra-long, high-quality text without the need for synthetic data or supervised fine-tuning.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "reward models",
+                "long-form text generation",
+                "ultra-long generation",
+                "large language models",
+                "synthetic fine-tuning",
+                "length control",
+                "writing quality",
+                "structural formatting",
+                "WritingBench",
+                "Arena-Write"
+            ]
+        },
+        "translation_title": "LongWriter-Zero: 강화 학습을 통한 극장기 텍스트 생성 마스터하기",
+        "purpose": "기존의 데이터 의존 없이 LLMs의 극장기 텍스트 생성 능력을 향상시키기 위한 새로운 접근법 제안",
+        "method": [
+            "수집된 주석 데이터나 합성 데이터를 사용하지 않고, 강화 학습(RL)을 활용하여 LLMs가 고품질의 극장기 텍스트 생성을 이끌어내도록 교육함.(we propose an incentivization-based approach that, starting entirely from scratch and without relying on any annotated or synthetic data, leverages reinforcement learning (RL))",
+            "기반 모델에서 RL 훈련을 수행하고, 글쓰기 과정에서 계획 및 정제를 촉진하는 추론을 하도록 유도함.(We perform RL training starting from a base model, guiding it to engage in reasoning that facilitates planning and refinement during the writing process.)",
+            "특화된 보상 모델을 사용하여 LLM이 길이 조절, 작성 품질 및 구조적 형식을 향상시키도록 유도함.(we employ specialized reward models that steer the LLM towards improved length control, writing quality, and structural formatting.)"
+        ],
+        "conclusion": "LongWriter-Zero 모델은 전통적인 SFT 방법보다 극장기 작성 작업에서 일관되게 성능을 초과하며, WritingBench와 Arena-Write에서 모든 지표에서 최신 기술 결과를 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.18792",
+            "authors": [
+                {
+                    "_id": "685a72a00e4ad7e219758702",
+                    "user": {
+                        "_id": "66f44a3df9252e0f50b59fdb",
+                        "avatarUrl": "/avatars/4234203c77a0e6f594f3de26bfe8c649.svg",
+                        "isPro": false,
+                        "fullname": "Michal Nazarczuk",
+                        "user": "michaal94",
+                        "type": "user"
+                    },
+                    "name": "Michal Nazarczuk",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T12:43:11.760Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a72a00e4ad7e219758703",
+                    "name": "Sibi Catley-Chandar",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a72a00e4ad7e219758704",
+                    "name": "Thomas Tanay",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a72a00e4ad7e219758705",
+                    "name": "Zhensong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a72a00e4ad7e219758706",
+                    "name": "Gregory Slabaugh",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a72a00e4ad7e219758707",
+                    "name": "Eduardo Pérez-Pellitero",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-23T16:01:15.000Z",
+            "submittedOnDailyAt": "2025-06-24T08:15:41.084Z",
+            "title": "ViDAR: Video Diffusion-Aware 4D Reconstruction From Monocular Inputs",
+            "submittedOnDailyBy": {
+                "_id": "66f44a3df9252e0f50b59fdb",
+                "avatarUrl": "/avatars/4234203c77a0e6f594f3de26bfe8c649.svg",
+                "isPro": false,
+                "fullname": "Michal Nazarczuk",
+                "user": "michaal94",
+                "type": "user"
+            },
+            "summary": "Dynamic Novel View Synthesis aims to generate photorealistic views of moving\nsubjects from arbitrary viewpoints. This task is particularly challenging when\nrelying on monocular video, where disentangling structure from motion is\nill-posed and supervision is scarce. We introduce Video Diffusion-Aware\nReconstruction (ViDAR), a novel 4D reconstruction framework that leverages\npersonalised diffusion models to synthesise a pseudo multi-view supervision\nsignal for training a Gaussian splatting representation. By conditioning on\nscene-specific features, ViDAR recovers fine-grained appearance details while\nmitigating artefacts introduced by monocular ambiguity. To address the\nspatio-temporal inconsistency of diffusion-based supervision, we propose a\ndiffusion-aware loss function and a camera pose optimisation strategy that\naligns synthetic views with the underlying scene geometry. Experiments on\nDyCheck, a challenging benchmark with extreme viewpoint variation, show that\nViDAR outperforms all state-of-the-art baselines in visual quality and\ngeometric consistency. We further highlight ViDAR's strong improvement over\nbaselines on dynamic regions and provide a new benchmark to compare performance\nin reconstructing motion-rich parts of the scene. Project page:\nhttps://vidar-4d.github.io",
+            "upvotes": 24,
+            "discussionId": "685a72a10e4ad7e219758708",
+            "ai_summary": "ViDAR uses diffusion-aware reconstruction to generate high-quality novel views of dynamic scenes from monocular video, outperforming existing methods in visual quality and geometric consistency.",
+            "ai_keywords": [
+                "Video Diffusion-Aware Reconstruction",
+                "ViDAR",
+                "Gaussian splatting",
+                "diffusion models",
+                "spatio-temporal inconsistency",
+                "diffusion-aware loss function",
+                "camera pose optimisation",
+                "DyCheck benchmark"
+            ]
+        },
+        "translation_title": "ViDAR: 단안 입력으로부터의 비디오 확산 인식 4D 재구성",
+        "purpose": "단안 비디오를 이용해 움직이는 객체의 포토리얼리스틱한 동적 뷰를 생성하는 기술 개발",
+        "method": [
+            "개인화된 diffusion 모델을 활용하여 위상-다양성 있는 감독 신호를 합성하여 Gaussian splatting 표현을 학습함(we introduce Video Diffusion-Aware Reconstruction (ViDAR), a novel 4D reconstruction framework that leverages personalised diffusion models to synthesise a pseudo multi-view supervision signal for training a Gaussian splatting representation.)",
+            "장면 특화된 특징에 따라 ViDAR가 미세한 외관 세부 사항을 복구하고 단안 모호성으로 인해 발생하는 아티팩트를 줄이는 방법을 모색함(By conditioning on scene-specific features, ViDAR recovers fine-grained appearance details while mitigating artefacts introduced by monocular ambiguity.)",
+            "diffusion 기반 감독의 공간-시간 불일치를 해결하기 위한 새로운 손실 함수와 카메라 포즈 최적화 전략을 제안함(To address the spatio-temporal inconsistency of diffusion-based supervision, we propose a diffusion-aware loss function and a camera pose optimisation strategy that aligns synthetic views with the underlying scene geometry.)"
+        ],
+        "conclusion": "ViDAR는 시각 품질과 기하학적 일관성 면에서 모든 최신 기법들을 초월하는 성능을 보여주었으며, 움직임이 풍부한 장면을 재구성하는 데 강력한 개선을 달성함.",
+        "keywords": [
+            "Video Generation",
+            "3D Vision",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.18851",
+            "authors": [
+                {
+                    "_id": "685a0fb40e4ad7e219758528",
+                    "user": {
+                        "_id": "6304e2dabad6ce7fc0287d57",
+                        "avatarUrl": "/avatars/3fd4a9a62b0ef98db2573411463a9247.svg",
+                        "isPro": false,
+                        "fullname": "Zhuowei_Chen",
+                        "user": "ZhuoweiChen",
+                        "type": "user"
+                    },
+                    "name": "Zhuowei Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:44:49.590Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e219758529",
+                    "user": {
+                        "_id": "63b415037af2e415f2599c18",
+                        "avatarUrl": "/avatars/4afbe7d6d05a702f1beeed9c53e78153.svg",
+                        "isPro": false,
+                        "fullname": "Bingchuan Li",
+                        "user": "lbc402",
+                        "type": "user"
+                    },
+                    "name": "Bingchuan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:44:57.735Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852a",
+                    "user": {
+                        "_id": "6804ce31d205d72ddbeec8a0",
+                        "avatarUrl": "/avatars/772d20a653649063158cba166298801a.svg",
+                        "isPro": false,
+                        "fullname": "Tianxiang Ma",
+                        "user": "TianxiangMa",
+                        "type": "user"
+                    },
+                    "name": "Tianxiang Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:45:10.156Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852b",
+                    "name": "Lijie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852c",
+                    "user": {
+                        "_id": "619b404bab4c7b7f16a7d57d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/619b404bab4c7b7f16a7d57d/coT_UGRfBOUAeSxjyhdlG.jpeg",
+                        "isPro": false,
+                        "fullname": "Mingcong Liu",
+                        "user": "onion-liu",
+                        "type": "user"
+                    },
+                    "name": "Mingcong Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-24T08:08:23.740Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852d",
+                    "name": "Yi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852e",
+                    "name": "Gen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e21975852f",
+                    "user": {
+                        "_id": "6752cd83ffaeeb979db974ae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ci915Tdmv3uWbCqGy7LqL.png",
+                        "isPro": false,
+                        "fullname": "Xinghui Li",
+                        "user": "Crayon-Shinchan",
+                        "type": "user"
+                    },
+                    "name": "Xinghui Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:45:40.054Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e219758530",
+                    "name": "Siyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e219758531",
+                    "name": "Qian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0fb40e4ad7e219758532",
+                    "user": {
+                        "_id": "67bc6b515d9470ec64bdcc33",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/dttL8Fb3bKCVG5zjg_02q.png",
+                        "isPro": false,
+                        "fullname": "Xinglong Wu",
+                        "user": "Xingzhe-xlwu",
+                        "type": "user"
+                    },
+                    "name": "Xinglong Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-24T09:45:50.807Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-23T17:11:56.000Z",
+            "submittedOnDailyAt": "2025-06-24T01:12:12.451Z",
+            "title": "Phantom-Data : Towards a General Subject-Consistent Video Generation\n  Dataset",
+            "submittedOnDailyBy": {
+                "_id": "6304e2dabad6ce7fc0287d57",
+                "avatarUrl": "/avatars/3fd4a9a62b0ef98db2573411463a9247.svg",
+                "isPro": false,
+                "fullname": "Zhuowei_Chen",
+                "user": "ZhuoweiChen",
+                "type": "user"
+            },
+            "summary": "Subject-to-video generation has witnessed substantial progress in recent\nyears. However, existing models still face significant challenges in faithfully\nfollowing textual instructions. This limitation, commonly known as the\ncopy-paste problem, arises from the widely used in-pair training paradigm. This\napproach inherently entangles subject identity with background and contextual\nattributes by sampling reference images from the same scene as the target\nvideo. To address this issue, we introduce Phantom-Data, the first\ngeneral-purpose cross-pair subject-to-video consistency dataset, containing\napproximately one million identity-consistent pairs across diverse categories.\nOur dataset is constructed via a three-stage pipeline: (1) a general and\ninput-aligned subject detection module, (2) large-scale cross-context subject\nretrieval from more than 53 million videos and 3 billion images, and (3)\nprior-guided identity verification to ensure visual consistency under\ncontextual variation. Comprehensive experiments show that training with\nPhantom-Data significantly improves prompt alignment and visual quality while\npreserving identity consistency on par with in-pair baselines.",
+            "upvotes": 23,
+            "discussionId": "685a0fb40e4ad7e219758535",
+            "projectPage": "https://phantom-video.github.io/Phantom-Data/",
+            "githubRepo": "https://github.com/Phantom-video/Phantom-Data",
+            "ai_summary": "A cross-pair dataset called Phantom-Data improves subject-to-video generation by enhancing prompt alignment and visual quality while maintaining identity consistency.",
+            "ai_keywords": [
+                "Phantom-Data",
+                "subject-to-video generation",
+                "copy-paste problem",
+                "in-pair training paradigm",
+                "subject detection",
+                "cross-context subject retrieval",
+                "prior-guided identity verification"
+            ]
+        },
+        "translation_title": "Phantom-Data: 일반적인 주제 일관성 비디오 생성을 위한 데이터 세트",
+        "purpose": "주제-to-video 생성에서 텍스트 지침을 충실히 따르는 데 개선이 필요함",
+        "method": [
+            "Phantom-Data라는 첫 번째 일반 목적의 주제-to-video 일관성 데이터 세트를 소개함(we introduce Phantom-Data, the first general-purpose cross-pair subject-to-video consistency dataset)",
+            "이 데이터 세트는 주제 감지 모듈, 대규모 교차 문맥 주제 검색, 그리고 사전 안내식 신원 확인의 세 단계로 구성됨(Our dataset is constructed via a three-stage pipeline: (1) a general and input-aligned subject detection module, (2) large-scale cross-context subject retrieval from more than 53 million videos and 3 billion images, and (3) prior-guided identity verification to ensure visual consistency under contextual variation.)",
+            "포괄적인 실험을 통해 Phantom-Data로 훈련할 경우 프롬프트 정렬과 시각적 품질이 개선됨을 확인함(Comprehensive experiments show that training with Phantom-Data significantly improves prompt alignment and visual quality)."
+        ],
+        "conclusion": "Phantom-Data를 사용하면 비디오 생성에서 주제의 신원을 일관되게 유지하면서 시각적 품질을 높일 수 있음.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Computer Vision"
+        ]
+    }
+]
