@@ -1,0 +1,680 @@
+[
+    {
+        "paper": {
+            "id": "2506.19851",
+            "authors": [
+                {
+                    "_id": "685b5a46d2ee4fac76521dce",
+                    "user": {
+                        "_id": "6375d136dee28348a9c63cbf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6375d136dee28348a9c63cbf/gK465HBrQWIOZ-qtHb-Vh.jpeg",
+                        "isPro": false,
+                        "fullname": "zehuan-huang",
+                        "user": "huanngzh",
+                        "type": "user"
+                    },
+                    "name": "Zehuan Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T08:19:21.031Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b5a46d2ee4fac76521dcf",
+                    "user": {
+                        "_id": "65240d0ca801972b6eb12ed8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65240d0ca801972b6eb12ed8/hl2RAssBperb5JlgOIDvw.jpeg",
+                        "isPro": false,
+                        "fullname": "Haoran Feng",
+                        "user": "fenghora",
+                        "type": "user"
+                    },
+                    "name": "Haoran Feng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T09:19:31.409Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b5a46d2ee4fac76521dd0",
+                    "user": {
+                        "_id": "63a41cb584a6a25c65bd8316",
+                        "avatarUrl": "/avatars/1d474831c320c7f9ca9e6d88f68acc06.svg",
+                        "isPro": false,
+                        "fullname": "Yangtian Sun",
+                        "user": "Yang-Tian",
+                        "type": "user"
+                    },
+                    "name": "Yangtian Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T09:19:29.490Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b5a46d2ee4fac76521dd1",
+                    "name": "Yuanchen Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b5a46d2ee4fac76521dd2",
+                    "user": {
+                        "_id": "638066faf022c8a5803f7eb8",
+                        "avatarUrl": "/avatars/4cfd699c3f6c5461b12b7dc5e3fe183d.svg",
+                        "isPro": false,
+                        "fullname": "Yanpei Cao",
+                        "user": "pookiefoof",
+                        "type": "user"
+                    },
+                    "name": "Yanpei Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T08:21:27.467Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b5a46d2ee4fac76521dd3",
+                    "user": {
+                        "_id": "65b722dbe02a17f0f8d1cc6b",
+                        "avatarUrl": "/avatars/65f20601ef9b8ebfdddadd737f9153d6.svg",
+                        "isPro": false,
+                        "fullname": "Lu Sheng",
+                        "user": "lsheng2024",
+                        "type": "user"
+                    },
+                    "name": "Lu Sheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T09:19:33.186Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64a96a375a69e2ca889abdff/ttfXuQOJQmOqnO-_-F1op.mp4"
+            ],
+            "publishedAt": "2025-06-24T17:59:58.000Z",
+            "submittedOnDailyAt": "2025-06-25T01:12:40.364Z",
+            "title": "AnimaX: Animating the Inanimate in 3D with Joint Video-Pose Diffusion\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "64a96a375a69e2ca889abdff",
+                "avatarUrl": "/avatars/f288c66ace09d907f132a79a740a3701.svg",
+                "isPro": false,
+                "fullname": "fanhongxing",
+                "user": "fanhongxing",
+                "type": "user"
+            },
+            "summary": "We present AnimaX, a feed-forward 3D animation framework that bridges the\nmotion priors of video diffusion models with the controllable structure of\nskeleton-based animation. Traditional motion synthesis methods are either\nrestricted to fixed skeletal topologies or require costly optimization in\nhigh-dimensional deformation spaces. In contrast, AnimaX effectively transfers\nvideo-based motion knowledge to the 3D domain, supporting diverse articulated\nmeshes with arbitrary skeletons. Our method represents 3D motion as multi-view,\nmulti-frame 2D pose maps, and enables joint video-pose diffusion conditioned on\ntemplate renderings and a textual motion prompt. We introduce shared positional\nencodings and modality-aware embeddings to ensure spatial-temporal alignment\nbetween video and pose sequences, effectively transferring video priors to\nmotion generation task. The resulting multi-view pose sequences are\ntriangulated into 3D joint positions and converted into mesh animation via\ninverse kinematics. Trained on a newly curated dataset of 160,000 rigged\nsequences, AnimaX achieves state-of-the-art results on VBench in\ngeneralization, motion fidelity, and efficiency, offering a scalable solution\nfor category-agnostic 3D animation. Project page:\nhttps://anima-x.github.io/{https://anima-x.github.io/}.",
+            "upvotes": 36,
+            "discussionId": "685b5a47d2ee4fac76521dd4",
+            "projectPage": "https://anima-x.github.io/",
+            "githubRepo": "https://github.com/anima-x/anima-x",
+            "ai_summary": "AnimaX creates multi-skeleton 3D animations by blending video diffusion model priors with skeleton-based control, using joint video-pose diffusion and shared positional encodings.",
+            "ai_keywords": [
+                "feed-forward 3D animation framework",
+                "video diffusion models",
+                "skeleton-based animation",
+                "motion synthesis",
+                "high-dimensional deformation spaces",
+                "2D pose maps",
+                "joint video-pose diffusion",
+                "template renderings",
+                "textual motion prompt",
+                "shared positional encodings",
+                "modality-aware embeddings",
+                "spatial-temporal alignment",
+                "inverse kinematics",
+                "VBench",
+                "category-agnostic 3D animation"
+            ],
+            "githubStars": 44
+        },
+        "translation_title": "AnimaX: 조인트 비디오-포즈 확산 모델을 이용한 무생물 3D 애니메이션",
+        "purpose": "비디오 기반 동작 지식을 3D 애니메이션에 효과적으로 전이하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "AnimaX는 비디오 확산 모델의 동작 우선조건과 골격 기반 애니메이션의 제어 가능한 구조를 연결하는 피드포워드 3D 애니메이션 프레임워크임을 강조함(We present AnimaX, a feed-forward 3D animation framework that bridges the motion priors of video diffusion models with the controllable structure of skeleton-based animation.)",
+            "3D 동작을 다중 뷰, 다중 프레임 2D 포즈 맵으로 표현하여 조인트 비디오-포즈 확산을 가능하게 함(Our method represents 3D motion as multi-view, multi-frame 2D pose maps, and enables joint video-pose diffusion conditioned on template renderings and a textual motion prompt.)",
+            "영상과 포즈 시퀀스 간의 공간-시간 정렬을 보장하기 위해 공유 위치 인코딩과 모달리티 인식 임베딩을 도입함(We introduce shared positional encodings and modality-aware embeddings to ensure spatial-temporal alignment between video and pose sequences.)"
+        ],
+        "conclusion": "AnimaX는 3D 애니메이션 생성 작업에서 비디오 우선조건을 효과적으로 전이하며, VBench에서 동작 충실도와 효율성 면에서 최첨단 결과를 달성함.",
+        "keywords": [
+            "3D Vision",
+            "Video Generation",
+            "Pose Estimation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.18701",
+            "authors": [
+                {
+                    "_id": "685a14da0e4ad7e21975854d",
+                    "user": {
+                        "_id": "63aed0e7f873109b112dbb1b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aed0e7f873109b112dbb1b/JkSkQ1a2SLq5eTTnz9F05.jpeg",
+                        "isPro": false,
+                        "fullname": "Yifan Zhang",
+                        "user": "Vanint",
+                        "type": "user"
+                    },
+                    "name": "Yifan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:09:21.431Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e21975854e",
+                    "user": {
+                        "_id": "68378e584ed6982099b1a1aa",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68378e584ed6982099b1a1aa/B23K1b3EoRYPDTbYYbPzY.jpeg",
+                        "isPro": false,
+                        "fullname": "CHUNLI PENG",
+                        "user": "chunli-peng",
+                        "type": "user"
+                    },
+                    "name": "Chunli Peng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T13:32:40.141Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e21975854f",
+                    "name": "Boyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758550",
+                    "user": {
+                        "_id": "664717a50860c78e7c7b7c52",
+                        "avatarUrl": "/avatars/ca17216b6d73234e1a68510f87653b3a.svg",
+                        "isPro": false,
+                        "fullname": "Puyi Wang",
+                        "user": "Puyiiii",
+                        "type": "user"
+                    },
+                    "name": "Puyi Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T13:33:20.411Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758551",
+                    "name": "Qingcheng Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758552",
+                    "name": "Fei Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758553",
+                    "name": "Biao Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758554",
+                    "name": "Zedong Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758555",
+                    "name": "Eric Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758556",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a14da0e4ad7e219758557",
+                    "name": "Yahui Zhou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63aed0e7f873109b112dbb1b/2AbnZSPpuvFOad20XamiG.mp4"
+            ],
+            "publishedAt": "2025-06-23T14:40:49.000Z",
+            "submittedOnDailyAt": "2025-06-25T07:50:07.299Z",
+            "title": "Matrix-Game: Interactive World Foundation Model",
+            "submittedOnDailyBy": {
+                "_id": "63aed0e7f873109b112dbb1b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aed0e7f873109b112dbb1b/JkSkQ1a2SLq5eTTnz9F05.jpeg",
+                "isPro": false,
+                "fullname": "Yifan Zhang",
+                "user": "Vanint",
+                "type": "user"
+            },
+            "summary": "We introduce Matrix-Game, an interactive world foundation model for\ncontrollable game world generation. Matrix-Game is trained using a two-stage\npipeline that first performs large-scale unlabeled pretraining for environment\nunderstanding, followed by action-labeled training for interactive video\ngeneration. To support this, we curate Matrix-Game-MC, a comprehensive\nMinecraft dataset comprising over 2,700 hours of unlabeled gameplay video clips\nand over 1,000 hours of high-quality labeled clips with fine-grained keyboard\nand mouse action annotations. Our model adopts a controllable image-to-world\ngeneration paradigm, conditioned on a reference image, motion context, and user\nactions. With over 17 billion parameters, Matrix-Game enables precise control\nover character actions and camera movements, while maintaining high visual\nquality and temporal coherence. To evaluate performance, we develop GameWorld\nScore, a unified benchmark measuring visual quality, temporal quality, action\ncontrollability, and physical rule understanding for Minecraft world\ngeneration. Extensive experiments show that Matrix-Game consistently\noutperforms prior open-source Minecraft world models (including Oasis and\nMineWorld) across all metrics, with particularly strong gains in\ncontrollability and physical consistency. Double-blind human evaluations\nfurther confirm the superiority of Matrix-Game, highlighting its ability to\ngenerate perceptually realistic and precisely controllable videos across\ndiverse game scenarios. To facilitate future research on interactive\nimage-to-world generation, we will open-source the Matrix-Game model weights\nand the GameWorld Score benchmark at https://github.com/SkyworkAI/Matrix-Game.",
+            "upvotes": 30,
+            "discussionId": "685a14da0e4ad7e219758558",
+            "projectPage": "https://matrix-game-homepage.github.io",
+            "githubRepo": "https://github.com/SkyworkAI/Matrix-Game",
+            "ai_summary": "Matrix-Game, a controllable game world generation model trained in a two-stage process, outperforms existing models by producing high-quality, action-controllable, and physically consistent Minecraft world videos.",
+            "ai_keywords": [
+                "Matrix-Game",
+                "interactive world foundation model",
+                "large-scale unlabeled pretraining",
+                "action-labeled training",
+                "contrrollable image-to-world generation",
+                "Matrix-Game-MC",
+                "motion context",
+                "character actions",
+                "camera movements",
+                "visual quality",
+                "temporal coherence",
+                "GameWorld Score",
+                "double-blind human evaluations",
+                "interactive image-to-world generation",
+                "Oasis",
+                "MineWorld",
+                "perceptually realistic"
+            ],
+            "githubStars": 749
+        },
+        "translation_title": "Matrix-Game: 상호작용 가능한 세계 기초 모델",
+        "purpose": "게임 세계 생성을 제어할 수 있는 상호작용 가능한 기초 모델 개발",
+        "method": [
+            "무수한 환경 인식을 위해 대규모 비지도 사전 학습을 수행하고, 그 후 행동 레이블링된 학습을 통해 상호작용 비디오 생성을 진행함(To support this, we curate Matrix-Game-MC, a comprehensive Minecraft dataset comprising over 2,700 hours of unlabeled gameplay video clips and over 1,000 hours of high-quality labeled clips with fine-grained keyboard and mouse action annotations.)",
+            "참조 이미지와 사용자 행동에 따라 제어 가능한 이미지-세계 생성 패러다임을採用함(Our model adopts a controllable image-to-world generation paradigm, conditioned on a reference image, motion context, and user actions.)",
+            "GameWorld Score라는 통합 벤치마크를 개발하여 성능 평가를 진행함(To evaluate performance, we develop GameWorld Score, a unified benchmark measuring visual quality, temporal quality, action controllability, and physical rule understanding for Minecraft world generation.)"
+        ],
+        "conclusion": "Matrix-Game는 이전의 오픈 소스 Minecraft 모델보다 모든 지표에서 우수한 성능을 보였으며, 다양한 게임 시나리오에서 현실감 있고 정밀하게 제어 가능한 비디오 생성을 가능하게 함.",
+        "keywords": [
+            "Video Generation",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.19290",
+            "authors": [
+                {
+                    "_id": "685b6640d2ee4fac76521e42",
+                    "user": {
+                        "_id": "6621efe1a6eec3ad03e38759",
+                        "avatarUrl": "/avatars/c35acce69f244ec0833dffd53eedf6a3.svg",
+                        "isPro": false,
+                        "fullname": "Liang Zeng",
+                        "user": "zengliangcs",
+                        "type": "user"
+                    },
+                    "name": "Liang Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:08:30.529Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e43",
+                    "user": {
+                        "_id": "612cfc6e1f69b222aacf831b",
+                        "avatarUrl": "/avatars/b6c7d15ebc7b5dd4b56620bfab324c77.svg",
+                        "isPro": false,
+                        "fullname": "lycfight",
+                        "user": "lycfight",
+                        "type": "user"
+                    },
+                    "name": "Yongcong Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:08:28.275Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e44",
+                    "name": "Yuzhen Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e45",
+                    "name": "Changshi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e46",
+                    "user": {
+                        "_id": "658229ef5f6d83438257fce5",
+                        "avatarUrl": "/avatars/b4417de9a338e95dc69cc547a46348e8.svg",
+                        "isPro": false,
+                        "fullname": "Chris (Yuhao) Liu",
+                        "user": "chrisliu298",
+                        "type": "user"
+                    },
+                    "name": "Chris Yuhao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:08:22.815Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e47",
+                    "name": "Rui Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e48",
+                    "name": "Tianwen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e49",
+                    "name": "Jujie He",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e4a",
+                    "name": "Xuchen Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e4b",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b6640d2ee4fac76521e4c",
+                    "name": "Yahui Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-24T03:53:36.000Z",
+            "submittedOnDailyAt": "2025-06-25T01:35:02.603Z",
+            "title": "Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in\n  LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6621efe1a6eec3ad03e38759",
+                "avatarUrl": "/avatars/c35acce69f244ec0833dffd53eedf6a3.svg",
+                "isPro": false,
+                "fullname": "Liang Zeng",
+                "user": "zengliangcs",
+                "type": "user"
+            },
+            "summary": "Software engineering (SWE) has recently emerged as a crucial testbed for\nnext-generation LLM agents, demanding inherent capabilities in two critical\ndimensions: sustained iterative problem-solving (e.g., >50 interaction rounds)\nand long-context dependency resolution (e.g., >32k tokens). However, the data\ncuration process in SWE remains notoriously time-consuming, as it heavily\nrelies on manual annotation for code file filtering and the setup of dedicated\nruntime environments to execute and validate unit tests. Consequently, most\nexisting datasets are limited to only a few thousand GitHub-sourced instances.\nTo this end, we propose an incremental, automated data-curation pipeline that\nsystematically scales both the volume and diversity of SWE datasets. Our\ndataset comprises 10,169 real-world Python task instances from 2,531 distinct\nGitHub repositories, each accompanied by a task specified in natural language\nand a dedicated runtime-environment image for automated unit-test validation.\nWe have carefully curated over 8,000 successfully runtime-validated training\ntrajectories from our proposed SWE dataset. When fine-tuning the Skywork-SWE\nmodel on these trajectories, we uncover a striking data scaling phenomenon: the\ntrained model's performance for software engineering capabilities in LLMs\ncontinues to improve as the data size increases, showing no signs of\nsaturation. Notably, our Skywork-SWE model achieves 38.0% pass@1 accuracy on\nthe SWE-bench Verified benchmark without using verifiers or multiple rollouts,\nestablishing a new state-of-the-art (SOTA) among the Qwen2.5-Coder-32B-based\nLLMs built on the OpenHands agent framework. Furthermore, with the\nincorporation of test-time scaling techniques, the performance further improves\nto 47.0% accuracy, surpassing the previous SOTA results for sub-32B parameter\nmodels. We release the Skywork-SWE-32B model checkpoint to accelerate future\nresearch.",
+            "upvotes": 24,
+            "discussionId": "685b6641d2ee4fac76521e4d",
+            "projectPage": "https://quixotic-sting-239.notion.site/eb17f379610040ceb54da5d5d24065bd",
+            "ai_summary": "An automated data-curation pipeline for software engineering improves large language model performance on SWE tasks, achieving state-of-the-art results with and without test-time scaling techniques.",
+            "ai_keywords": [
+                "LLM agents",
+                "iterative problem-solving",
+                "long-context dependency resolution",
+                "code file filtering",
+                "unit tests",
+                "runtime environments",
+                "data-curation pipeline",
+                "software engineering capabilities",
+                "Skywork-SWE model",
+                "SWE-bench Verified",
+                "pass@1 accuracy",
+                "OpenHands agent framework",
+                "test-time scaling techniques",
+                "parameter-efficient fine-tuning"
+            ]
+        },
+        "translation_title": "Skywork-SWE: LLM에서 소프트웨어 공학을 위한 데이터 스케일링 법칙 공개",
+        "purpose": "LLM에서 소프트웨어 공학(SWE) 데이터셋의 규모와 다양성을 체계적으로 증대시키기 위한 목표",
+        "method": [
+            "자동화된 데이터 커리레이션 파이프라인을 통해 SWE 데이터셋의 양과 다양성을 확장함.(we propose an incremental, automated data-curation pipeline that systematically scales both the volume and diversity of SWE datasets.)",
+            "2,531개의 GitHub 저장소에서 10,169개의 실제 Python 작업 인스턴스를 수집하여 각 작업을 자연어로 정의하고 자동화된 단위 테스트 검증을 위한 전용 런타임 환경 이미지를 제공함.(Our dataset comprises 10,169 real-world Python task instances from 2,531 distinct GitHub repositories, each accompanied by a task specified in natural language and a dedicated runtime-environment image for automated unit-test validation.)",
+            "SWE 데이터셋에서 8,000개 이상의 성공적으로 런타임 검증된 학습 경로를 세심하게 관리함.(We have carefully curated over 8,000 successfully runtime-validated training trajectories from our proposed SWE dataset.)"
+        ],
+        "conclusion": "Skywork-SWE 모델은 데이터 크기가 증가할수록 성능이 향상되어 소프트웨어 공학 능력에 대한 새로운 최첨단 성과를 달성하였으며, 이를 통해 향후 연구의 기초를 마련함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.16141",
+            "authors": [
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c18",
+                    "name": "Yi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c19",
+                    "user": {
+                        "_id": "6455cc8f654d8bccae50e4d4",
+                        "avatarUrl": "/avatars/506a9992e5bf52e06d37cc22e4b307c0.svg",
+                        "isPro": false,
+                        "fullname": "Yuying Ge",
+                        "user": "tttoaster",
+                        "type": "user"
+                    },
+                    "name": "Yuying Ge",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T13:34:16.831Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c1a",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c1b",
+                    "user": {
+                        "_id": "640e9762b03f4cd29f58d982",
+                        "avatarUrl": "/avatars/81da37d628163fe3e094b247c7c3a3b5.svg",
+                        "isPro": false,
+                        "fullname": "Yixiao Ge",
+                        "user": "yxgeee",
+                        "type": "user"
+                    },
+                    "name": "Yixiao Ge",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T13:34:24.360Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c1c",
+                    "user": {
+                        "_id": "6496f2bb33611fb4330455bd",
+                        "avatarUrl": "/avatars/1bc94098010145d302c7bea3c221b39a.svg",
+                        "isPro": false,
+                        "fullname": "Junhao Cheng",
+                        "user": "RefineMe",
+                        "type": "user"
+                    },
+                    "name": "Junhao Cheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-06-25T13:34:30.450Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c1d",
+                    "name": "Ying Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6858b1fac0c8e29df8ea3c1e",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-19T08:49:13.000Z",
+            "submittedOnDailyAt": "2025-06-25T01:50:33.428Z",
+            "title": "GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal\n  Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "60d045c4778bafd0fbcfa3f5",
+                "avatarUrl": "/avatars/0cc0c2739c1934430ea09df7e9668c80.svg",
+                "isPro": false,
+                "fullname": "Yi Chen",
+                "user": "ChenYi99",
+                "type": "user"
+            },
+            "summary": "Recent reinforcement learning approaches, such as outcome-supervised GRPO,\nhave advanced Chain-of-Thought reasoning in large language models (LLMs), yet\ntheir adaptation to multimodal LLMs (MLLMs) is unexplored. To address the lack\nof rigorous evaluation for MLLM post-training methods, we introduce\nSEED-Bench-R1, a benchmark with complex real-world videos requiring balanced\nperception and reasoning. It offers a large training set and evaluates\ngeneralization across three escalating challenges: in-distribution,\ncross-environment, and cross-environment-task scenarios. Using SEED-Bench-R1,\nwe find that standard GRPO, while improving answer accuracy, often reduces\nlogical coherence between reasoning steps and answers, with only a 57.9%\nconsistency rate. This stems from reward signals focusing solely on final\nanswers, encouraging shortcuts, and strict KL penalties limiting exploration.To\naddress this, we propose GRPO-CARE, a consistency-aware RL framework optimizing\nboth answer correctness and reasoning coherence without explicit supervision.\nGRPO-CARE introduces a two-tiered reward: (1) a base reward for answer\ncorrectness, and (2) an adaptive consistency bonus, computed by comparing the\nmodel's reasoning-to-answer likelihood (via a slowly-evolving reference model)\nagainst group peers.This dual mechanism amplifies rewards for reasoning paths\nthat are both correct and logically consistent. Replacing KL penalties with\nthis adaptive bonus, GRPO-CARE outperforms standard GRPO on SEED-Bench-R1,\nachieving a 6.7% performance gain on the hardest evaluation level and a 24.5%\nimprovement in consistency. It also shows strong transferability, improving\nmodel performance across diverse video understanding benchmarks. Our work\ncontributes a systematically designed benchmark and a generalizable\npost-training framework, advancing the development of more interpretable and\nrobust MLLMs.",
+            "upvotes": 24,
+            "discussionId": "6858b1fac0c8e29df8ea3c1f",
+            "githubRepo": "https://github.com/TencentARC/GRPO-CARE",
+            "ai_summary": "GRPO-CARE, a reinforcement learning framework optimizing for consistency and correctness, outperforms standard GRPO on a new video understanding benchmark, SEED-Bench-R1, improving both performance and logical coherence in multimodal large language models.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "outcome-supervised GRPO",
+                "Chain-of-Thought reasoning",
+                "large language models",
+                "multimodal large language models",
+                "SEED-Bench-R1",
+                "in-distribution",
+                "cross-environment",
+                "cross-environment-task",
+                "logical coherence",
+                "reasoning steps",
+                "answer accuracy",
+                "reward signals",
+                "shortcuts",
+                "KL penalties",
+                "exploration",
+                "consistency-aware RL framework",
+                "two-tiered reward",
+                "reasoning-to-answer likelihood",
+                "adaptive consistency bonus",
+                "video understanding benchmarks",
+                "transferability",
+                "interpretable models",
+                "robust models"
+            ],
+            "githubStars": 26
+        },
+        "translation_title": "GRPO-CARE: 일관성 인식을 고려한 멀티모달 추론을 위한 강화 학습",
+        "purpose": "멀티모달 LLM의 후속 훈련 방법을 rigorously 평가하기 위한 기준 마련과 일관성 높은 대답을 위한 접근법 개발",
+        "method": [
+            "복잡한 실제 영상으로 구성된 SEED-Bench-R1이라는 벤치마크를 도입함(we introduce SEED-Bench-R1, a benchmark with complex real-world videos requiring balanced perception and reasoning.)",
+            "기본 보상 외에 모델의 추론과 응답 가능성을 비교하여 적응형 일관성 보상을 도입함(GRPO-CARE introduces a two-tiered reward: (1) a base reward for answer correctness, and (2) an adaptive consistency bonus, computed by comparing the model's reasoning-to-answer likelihood.)",
+            "KL 패널티 대신 적응형 보상 메커니즘을 적용하여 GRPO-CARE가 표준 GRPO보다 성능이 우수함을 확인함(Replacing KL penalties with this adaptive bonus, GRPO-CARE outperforms standard GRPO on SEED-Bench-R1.)"
+        ],
+        "conclusion": "GRPO-CARE는 멀티모달 LLM의 일관성과 성능을 크게 향상시키며, 더 해석 가능하고 견고한 모델 개발에 기여함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.19848",
+            "authors": [
+                {
+                    "_id": "685b7cc2d2ee4fac76521e83",
+                    "name": "Long Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e84",
+                    "user": {
+                        "_id": "656f1b21b075b63c90ba02ee",
+                        "avatarUrl": "/avatars/d6856815ef06261394178161e4d511b4.svg",
+                        "isPro": false,
+                        "fullname": "Huang Qidong",
+                        "user": "shikiw",
+                        "type": "user"
+                    },
+                    "name": "Qidong Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:07:23.757Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e85",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e86",
+                    "name": "Pan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e87",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/mCgynEtoXdILvzyoPexii.png",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-25T08:07:21.449Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e88",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e89",
+                    "name": "Jinsong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8a",
+                    "name": "Shuangrui Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8b",
+                    "name": "Weiming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8c",
+                    "name": "Nenghai Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8d",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8e",
+                    "name": "Feng Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685b7cc2d2ee4fac76521e8f",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-24T17:59:55.000Z",
+            "submittedOnDailyAt": "2025-06-25T03:07:04.508Z",
+            "title": "ScaleCap: Inference-Time Scalable Image Captioning via Dual-Modality\n  Debiasing",
+            "submittedOnDailyBy": {
+                "_id": "64b4eec4faa3181a5eab9c46",
+                "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                "isPro": true,
+                "fullname": "Jiaqi Wang",
+                "user": "myownskyW7",
+                "type": "user"
+            },
+            "summary": "This paper presents ScaleCap, an inference-time scalable image captioning\nstrategy that generates comprehensive and detailed image captions. The key\nchallenges of high-quality image captioning lie in the inherent biases of\nLVLMs: multimodal bias resulting in imbalanced descriptive granularity,\noffering detailed accounts of some elements while merely skimming over others;\nlinguistic bias leading to hallucinated descriptions of non-existent objects.\nTo address these issues, we propose a scalable debiased captioning strategy,\nwhich continuously enriches and calibrates the caption with increased inference\nbudget. Specifically, we propose two novel components: heuristic question\nanswering and contrastive sentence rating. The former generates\ncontent-specific questions based on the image and answers them to progressively\ninject relevant information into the caption. The latter employs sentence-level\noffline contrastive decoding to effectively identify and eliminate\nhallucinations caused by linguistic biases. With increased inference cost, more\nheuristic questions are raised by ScaleCap to progressively capture additional\nvisual details, generating captions that are more accurate, balanced, and\ninformative. Extensive modality alignment experiments demonstrate the\neffectiveness of ScaleCap. Annotating 450K images with ScaleCap and using them\nfor LVLM pretraining leads to consistent performance gains across 11 widely\nused benchmarks. Furthermore, ScaleCap showcases superb richness and fidelity\nof generated captions with two additional tasks: replacing images with captions\nin VQA task, and reconstructing images from captions to assess semantic\ncoverage. Code is available at https://github.com/Cooperx521/ScaleCap.",
+            "upvotes": 22,
+            "discussionId": "685b7cc2d2ee4fac76521e90",
+            "githubRepo": "https://github.com/Cooperx521/ScaleCap",
+            "ai_summary": "ScaleCap enhances image captioning by iteratively enriching and calibrating captions using heuristic question answering and contrastive sentence rating, addressing multimodal and linguistic biases to improve accuracy, balance, and informativeness.",
+            "ai_keywords": [
+                "LVLMs",
+                "multimodal bias",
+                "linguistic bias",
+                "heuristic question answering",
+                "contrastive sentence rating",
+                "VQA task"
+            ],
+            "githubStars": 25
+        },
+        "translation_title": "ScaleCap: 이펜스 시간 확장 가능한 이미지 캡션 생성 전략을 통한 이중 모달리티 디바이싱",
+        "purpose": "높은 품질의 이미지 캡션 생성을 위한 편향 문제를 해결하고 세부적이고 종합적인 이미지 캡션을 생성하기 위함.",
+        "method": [
+            "새로운 디바이즈 캡션 생성 전략을 제안하여 추론 예산 증가에 맞춰 캡션을 지속적으로 풍부하게 하고 조정함(To address these issues, we propose a scalable debiased captioning strategy, which continuously enriches and calibrates the caption with increased inference budget.)",
+            "이미지 기반의 콘텐츠 특정 질문을 생성하고 그 질문에 답변하여 캡션에 관련 정보를 점진적으로 주입함(Specifically, we propose two novel components: heuristic question answering and contrastive sentence rating. The former generates content-specific questions based on the image and answers them to progressively inject relevant information into the caption.)",
+            "언어적 편향으로 인해 발생한 환각을 효과적으로 식별하고 제거하기 위해 문장 수준의 오프라인 대조적 디코딩을 사용함(The latter employs sentence-level offline contrastive decoding to effectively identify and eliminate hallucinations caused by linguistic biases.)"
+        ],
+        "conclusion": "ScaleCap을 통해 더 정확하고 균형 잡힌 캡션을 생성하고, 450K 이미지를 주석 처리하여 LVLM 사전 학습 시 성능 향상을 이루었음.",
+        "keywords": [
+            "Image Captioning",
+            "Multimodal Learning",
+            "Video Understanding"
+        ]
+    }
+]
