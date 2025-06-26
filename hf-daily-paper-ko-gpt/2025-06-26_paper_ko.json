@@ -1,0 +1,444 @@
+[
+    {
+        "paper": {
+            "id": "2506.18095",
+            "authors": [
+                {
+                    "_id": "685a0ac20e4ad7e2197584ea",
+                    "name": "Junying Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584eb",
+                    "name": "Zhenyang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584ec",
+                    "user": {
+                        "_id": "675130185d873b8ed24d964a",
+                        "avatarUrl": "/avatars/30ee8ce21f95423db8ced7db4df3112b.svg",
+                        "isPro": false,
+                        "fullname": "Pengcheng Chen",
+                        "user": "cppppppc",
+                        "type": "user"
+                    },
+                    "name": "Pengcheng Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-26T09:33:07.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584ed",
+                    "name": "Shunian Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584ee",
+                    "name": "Ke Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584ef",
+                    "name": "Xidong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584f0",
+                    "name": "Yunjin Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685a0ac20e4ad7e2197584f1",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-22T16:51:09.000Z",
+            "submittedOnDailyAt": "2025-06-26T02:58:42.859Z",
+            "title": "ShareGPT-4o-Image: Aligning Multimodal Models with GPT-4o-Level Image\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "64097dd1b6a334f53e2b3e4c",
+                "avatarUrl": "/avatars/18d036aab5e096054a8706bc78027126.svg",
+                "isPro": false,
+                "fullname": "Junying Chen",
+                "user": "jymcc",
+                "type": "user"
+            },
+            "summary": "Recent advances in multimodal generative models have unlocked photorealistic,\ninstruction-aligned image generation, yet leading systems like GPT-4o-Image\nremain proprietary and inaccessible. To democratize these capabilities, we\npresent ShareGPT-4o-Image, the first dataset comprising 45K text-to-image and\n46K text-and-image-to-image data, all synthesized using GPT-4o's image\ngeneration capabilities for distilling its advanced image generation abilities.\nLeveraging this dataset, we develop Janus-4o, a multimodal large language model\ncapable of both text-to-image and text-and-image-to-image generation. Janus-4o\nnot only significantly improves text-to-image generation over its predecessor,\nJanus-Pro, but also newly supports text-and-image-to-image generation. Notably,\nit achieves impressive performance in text-and-image-to-image generation from\nscratch, using only 91K synthetic samples and 6 hours of training on an 8\nA800-GPU machine. We hope the release of ShareGPT-4o-Image and Janus-4o will\nfoster open research in photorealistic, instruction-aligned image generation.",
+            "upvotes": 50,
+            "discussionId": "685a0ac30e4ad7e2197584f2",
+            "githubRepo": "https://github.com/FreedomIntelligence/ShareGPT-4o-Image",
+            "ai_summary": "ShareGPT-4o-Image and Janus-4o enable open research in photorealistic, instruction-aligned image generation through a large dataset and multimodal model.",
+            "ai_keywords": [
+                "multimodal generative models",
+                "text-to-image",
+                "text-and-image-to-image",
+                "photorealistic",
+                "instruction-aligned",
+                "dataset",
+                "large language model",
+                "synthetic samples"
+            ],
+            "githubStars": 77
+        },
+        "translation_title": "ShareGPT-4o-Image: GPT-4o 수준의 이미지 생성을 위한 다중 모달 모델 정렬",
+        "purpose": "다중 모달 이미지 생성을 민주화하고, 최신 모델의 이미지 생성 능력을 공개하기 위함",
+        "method": [
+            "GPT-4o의 이미지 생성 능력으로 45K의 텍스트-이미지 데이터와 46K의 텍스트-이미지-이미지 데이터를 생성한 ShareGPT-4o-Image 데이터셋을 발표함(To democratize these capabilities, we present ShareGPT-4o-Image, the first dataset comprising 45K text-to-image and 46K text-and-image-to-image data, all synthesized using GPT-4o's image generation capabilities.)",
+            "이 데이터셋을 활용해 텍스트-이미지 및 텍스트-이미지-이미지 생성을 지원하는 다중 모달 대형 언어 모델 Janus-4o를 개발함(Leveraging this dataset, we develop Janus-4o, a multimodal large language model capable of both text-to-image and text-and-image-to-image generation.)",
+            "Janus-4o는 이전 모델인 Janus-Pro에 비해 텍스트-이미지 생성 성능을 크게 향상시킴(Notably, it achieves impressive performance in text-and-image-to-image generation from scratch, using only 91K synthetic samples and 6 hours of training on an 8 A800-GPU machine.)"
+        ],
+        "conclusion": "ShareGPT-4o-Image와 Janus-4o의 발매가 포토리얼리스틱하며 지침에 맞는 이미지 생성 연구를 촉진할 것이라고 기대함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.19697",
+            "authors": [
+                {
+                    "_id": "685c1546df8a0d6c70bbf94e",
+                    "user": {
+                        "_id": "60f8435644e75317cc02ed51",
+                        "avatarUrl": "/avatars/68b7fc077fe2bda6607b1c470add8140.svg",
+                        "isPro": false,
+                        "fullname": "Jungwoo Park",
+                        "user": "affjljoo3581",
+                        "type": "user"
+                    },
+                    "name": "Jungwoo Park",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-26T09:32:38.469Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c1546df8a0d6c70bbf94f",
+                    "name": "Taewhoo Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c1546df8a0d6c70bbf950",
+                    "name": "Chanwoong Yoon",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c1546df8a0d6c70bbf951",
+                    "name": "Hyeon Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c1546df8a0d6c70bbf952",
+                    "name": "Jaewoo Kang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-24T15:03:57.000Z",
+            "submittedOnDailyAt": "2025-06-26T02:17:13.263Z",
+            "title": "Outlier-Safe Pre-Training for Robust 4-Bit Quantization of Large\n  Language Models",
+            "submittedOnDailyBy": {
+                "_id": "60f8435644e75317cc02ed51",
+                "avatarUrl": "/avatars/68b7fc077fe2bda6607b1c470add8140.svg",
+                "isPro": false,
+                "fullname": "Jungwoo Park",
+                "user": "affjljoo3581",
+                "type": "user"
+            },
+            "summary": "Extreme activation outliers in Large Language Models (LLMs) critically\ndegrade quantization performance, hindering efficient on-device deployment.\nWhile channel-wise operations and adaptive gradient scaling are recognized\ncauses, practical mitigation remains challenging. We introduce Outlier-Safe\nPre-Training (OSP), a practical guideline that proactively prevents outlier\nformation rather than relying on post-hoc mitigation. OSP combines three key\ninnovations: (1) the Muon optimizer, eliminating privileged bases while\nmaintaining training efficiency; (2) Single-Scale RMSNorm, preventing\nchannel-wise amplification; and (3) a learnable embedding projection,\nredistributing activation magnitudes originating from embedding matrices. We\nvalidate OSP by training a 1.4B-parameter model on 1 trillion tokens, which is\nthe first production-scale LLM trained without such outliers. Under aggressive\n4-bit quantization, our OSP model achieves a 35.7 average score across 10\nbenchmarks (compared to 26.5 for an Adam-trained model), with only a 2%\ntraining overhead. Remarkably, OSP models exhibit near-zero excess kurtosis\n(0.04) compared to extreme values (1818.56) in standard models, fundamentally\naltering LLM quantization behavior. Our work demonstrates that outliers are not\ninherent to LLMs but are consequences of training strategies, paving the way\nfor more efficient LLM deployment. The source code and pretrained checkpoints\nare available at https://github.com/dmis-lab/Outlier-Safe-Pre-Training.",
+            "upvotes": 31,
+            "discussionId": "685c1546df8a0d6c70bbf953",
+            "githubRepo": "https://github.com/dmis-lab/Outlier-Safe-Pre-Training",
+            "ai_summary": "Outlier-Safe Pre-Training improves large language model quantization performance by preventing extreme activation outliers through innovative training techniques.",
+            "ai_keywords": [
+                "Muon optimizer",
+                "Single-Scale RMSNorm",
+                "learnable embedding projection",
+                "outlier formation",
+                "quantization performance",
+                "LLM deployment",
+                "excess kurtosis"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "강력한 4비트 양자화를 위한 아웃라이어 안전 사전 학습",
+        "purpose": "Large Language Models(LLM)의 양자화 성능을 저하시키는 아웃라이어를 예방하여 효율적인 운영을 목표로 함.",
+        "method": [
+            "Outlier-Safe Pre-Training(OSP)이라는 가이드라인을 도입해 아웃라이어 형성을 사전에 방지함(We introduce Outlier-Safe Pre-Training (OSP), a practical guideline that proactively prevents outlier formation rather than relying on post-hoc mitigation.)",
+            "Muon 옵티마이저를 사용해 훈련 효율성을 유지하며 우선 기준을 제거함(OSP combines three key innovations: (1) the Muon optimizer, eliminating privileged bases while maintaining training efficiency.)",
+            "Single-Scale RMSNorm을 통해 채널-wise 증폭을 방지함; learnable embedding projection을 통해 임베딩 행렬에서 발생하는 활성화 크기를 재분배함.(2) Single-Scale RMSNorm, preventing channel-wise amplification; and (3) a learnable embedding projection, redistributing activation magnitudes originating from embedding matrices.)"
+        ],
+        "conclusion": "OSP 방식으로 훈련된 모델은 10개의 벤치마크에서 평균 35.7점을 기록하며, 아웃라이어가 훈련 전략의 결과임을 보여주어 더 효율적인 LLM 배포의 길을 열었다.",
+        "keywords": [
+            "Large Language Models",
+            "Quantization",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.19103",
+            "authors": [
+                {
+                    "_id": "685d2a3d696820ba1f28f39d",
+                    "name": "Ilia Beletskii",
+                    "hidden": false
+                },
+                {
+                    "_id": "685d2a3d696820ba1f28f39e",
+                    "name": "Andrey Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "685d2a3d696820ba1f28f39f",
+                    "name": "Aibek Alanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-23T20:34:43.000Z",
+            "submittedOnDailyAt": "2025-06-26T09:43:22.948Z",
+            "title": "Inverse-and-Edit: Effective and Fast Image Editing by Cycle Consistency\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "66680c6451545a8b46c6fd21",
+                "avatarUrl": "/avatars/03707f5ea4e2aa8dc825a9782b00ed85.svg",
+                "isPro": false,
+                "fullname": "Aibek Alanov",
+                "user": "ai-alanov",
+                "type": "user"
+            },
+            "summary": "Recent advances in image editing with diffusion models have achieved\nimpressive results, offering fine-grained control over the generation process.\nHowever, these methods are computationally intensive because of their iterative\nnature. While distilled diffusion models enable faster inference, their editing\ncapabilities remain limited, primarily because of poor inversion quality.\nHigh-fidelity inversion and reconstruction are essential for precise image\nediting, as they preserve the structural and semantic integrity of the source\nimage. In this work, we propose a novel framework that enhances image inversion\nusing consistency models, enabling high-quality editing in just four steps. Our\nmethod introduces a cycle-consistency optimization strategy that significantly\nimproves reconstruction accuracy and enables a controllable trade-off between\neditability and content preservation. We achieve state-of-the-art performance\nacross various image editing tasks and datasets, demonstrating that our method\nmatches or surpasses full-step diffusion models while being substantially more\nefficient. The code of our method is available on GitHub at\nhttps://github.com/ControlGenAI/Inverse-and-Edit.",
+            "upvotes": 28,
+            "discussionId": "685d2a3e696820ba1f28f3a0",
+            "ai_summary": "A new framework using consistency models enhances image inversion and editing efficiency, achieving top performance with fewer steps.",
+            "ai_keywords": [
+                "diffusion models",
+                "high-fidelity inversion",
+                "reconstruction accuracy",
+                "cycle-consistency optimization",
+                "state-of-the-art performance",
+                "image editing tasks",
+                "full-step diffusion models"
+            ]
+        },
+        "translation_title": "Inverse-and-Edit: 순환 일관성을 통한 효과적이고 빠른 이미지 편집",
+        "purpose": "이미지 편집의 효율성과 품질을 높이기 위한 새로운 방법론 제안",
+        "method": [
+            "순환 일관성 모델을 활용해 이미지 역전환을 개선함(we propose a novel framework that enhances image inversion using consistency models, enabling high-quality editing in just four steps.)",
+            "편집 가능성과 내용 보존 간의 조절 가능한 균형을 제공하는 최적화 전략을 도입함(Our method introduces a cycle-consistency optimization strategy that significantly improves reconstruction accuracy and enables a controllable trade-off between editability and content preservation.)",
+            "본 방법은 다양한 이미지 편집 작업에서 최첨단 성능을 달성함(We achieve state-of-the-art performance across various image editing tasks and datasets.)"
+        ],
+        "conclusion": "우리의 방법은 전체 단계의 diffusion 모델과 비교하여 더 효율적이며, 편집 품질과 속도에서 뛰어난 결과를 보임.",
+        "keywords": [
+            "Image Editing",
+            "Image Generation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.20512",
+            "authors": [
+                {
+                    "_id": "685cb8d7696820ba1f28f296",
+                    "name": "Zengzhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cb8d7696820ba1f28f297",
+                    "name": "Fan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cb8d7696820ba1f28f298",
+                    "name": "Xuefeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cb8d7696820ba1f28f299",
+                    "name": "Pengfei Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62cbeb2d72dfd24b86bdf977/cZoks9vqpXBnkpA9PgVRV.png"
+            ],
+            "publishedAt": "2025-06-25T14:58:13.000Z",
+            "submittedOnDailyAt": "2025-06-26T07:21:37.577Z",
+            "title": "OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling",
+            "submittedOnDailyBy": {
+                "_id": "62cbeb2d72dfd24b86bdf977",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62cbeb2d72dfd24b86bdf977/UcGYYSBNrCvPM5K9v-sro.png",
+                "isPro": false,
+                "fullname": "Zengzhi Wang",
+                "user": "SinclairWang",
+                "type": "user"
+            },
+            "summary": "Different base language model families, such as Llama and Qwen, exhibit\ndivergent behaviors during post-training with reinforcement learning (RL),\nespecially on reasoning-intensive tasks. What makes a base language model\nsuitable for reinforcement learning? Gaining deeper insight into this question\nis essential for developing RL-scalable foundation models of the next\ngeneration. In this work, we investigate how mid-training strategies shape RL\ndynamics, focusing on two representative model families: Qwen and Llama. Our\nstudy reveals that (1) high-quality mathematical corpora, such as\nMegaMath-Web-Pro, significantly improve both base model and RL performance,\nwhile existing alternatives (e.g., FineMath-4plus) fail to do so; (2) further\nadding QA-style data, particularly long chain-of-thought (CoT) reasoning\nexamples, enhances RL outcomes, and instruction data further unlocks this\neffect; (3) while long-CoT improves reasoning depth, it can also induce\nverbosity of model responses and unstability of RL training, underscoring the\nimportance of data formatting; (4) scaling mid-training consistently leads to\nstronger downstream RL performance. Building on these insights, we introduce a\ntwo-stage mid-training strategy, Stable-then-Decay, in which base models are\nfirst trained on 200B tokens with a constant learning rate, followed by 20B\ntokens across three CoT-focused branches with learning rate decay. This yields\nOctoThinker, a family of models demonstrating strong RL compatibility and\nclosing the performance gap with more RL-friendly model families, i.e., Qwen.\nWe hope our work will help shape pre-training strategies for foundation models\nin the RL era. To support further research, we release our open-source models\nalong with a curated math reasoning-intensive corpus of over 70 billion tokens\n(i.e., MegaMath-Web-Pro-Max).",
+            "upvotes": 17,
+            "discussionId": "685cb8d7696820ba1f28f29a",
+            "githubRepo": "https://github.com/GAIR-NLP/OctoThinker",
+            "ai_summary": "Investigating mid-training strategies reveals that high-quality mathematical corpora and well-formatted chain-of-thought reasoning examples enhance reinforcement learning performance in language models, leading to the development of OctoThinker.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "base language model",
+                "mid-training strategy",
+                "MegaMath-Web-Pro",
+                "QA-style data",
+                "chain-of-thought (CoT) reasoning",
+                "data formatting",
+                "learning rate decay",
+                "OctoThinker",
+                "MegaMath-Web-Pro-Max"
+            ],
+            "githubStars": 68
+        },
+        "translation_title": "OctoThinker: 중간 훈련이 강화 학습의 확장을 촉진한다",
+        "purpose": "강화 학습에 적합한 기본 언어 모델을 개발하기 위한 중간 훈련 전략의 이해와 그 효과 연구",
+        "method": [
+            "중간 훈련 전략이 강화 학습의 동력에 미치는 영향을 연구함(Qwen과 Llama 모델 패밀리를 집중적으로 분석함)",
+            "질 높은 수학 데이터 세트인 MegaMath-Web-Pro를 사용하여 모델 성능을 크게 향상시킴(Our study reveals that high-quality mathematical corpora, such as MegaMath-Web-Pro, significantly improve both base model and RL performance)",
+            "QA 스타일 데이터를 추가하여 강화 학습 성과를 더욱 향상시킴, 특히 긴 사고 과정(CoT) 예제가 효과적임(adding QA-style data, particularly long chain-of-thought reasoning examples, enhances RL outcomes)",
+            "Stable-then-Decay라는 두 단계의 중간 훈련 전략을 도입함, 이는 200B 토큰으로 기본 모델을 훈련한 후 학습률을 감소시키며 20B 토큰을 더 훈련함(Building on these insights, we introduce a two-stage mid-training strategy, Stable-then-Decay)"
+        ],
+        "conclusion": "OctoThinker는 강화 학습 호환성을 갖춘 모델 패밀리를 제공하며, Qwen과 같은 보다 강화 학습 친화적인 모델 패밀리와의 성능 격차를 줄임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.16012",
+            "authors": [
+                {
+                    "_id": "685cf7c0696820ba1f28f2ea",
+                    "name": "Boyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2eb",
+                    "name": "Siyuan He",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2ec",
+                    "name": "Hang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2ed",
+                    "name": "Haoqi Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2ee",
+                    "name": "Yu Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2ef",
+                    "name": "Liwei Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f0",
+                    "name": "Junpeng Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f1",
+                    "name": "Zhenxiong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f2",
+                    "name": "Pengbo Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f3",
+                    "user": {
+                        "_id": "61e52be53d6dbb1da842316a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                        "isPro": false,
+                        "fullname": "Börje Karlsson",
+                        "user": "tellarin",
+                        "type": "user"
+                    },
+                    "name": "Börje F. Karlsson",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-26T09:23:24.327Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f4",
+                    "user": {
+                        "_id": "63e5e3807f9730f523655c5d",
+                        "avatarUrl": "/avatars/3ded710049790d025e862861039d9df2.svg",
+                        "isPro": false,
+                        "fullname": "YehuiTang",
+                        "user": "WizardTY",
+                        "type": "user"
+                    },
+                    "name": "Yehui Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-26T09:23:21.125Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685cf7c0696820ba1f28f2f5",
+                    "name": "Zongqing Lu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-19T04:13:36.000Z",
+            "submittedOnDailyAt": "2025-06-26T06:05:04.111Z",
+            "title": "DualTHOR: A Dual-Arm Humanoid Simulation Platform for Contingency-Aware\n  Planning",
+            "submittedOnDailyBy": {
+                "_id": "61e52be53d6dbb1da842316a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                "isPro": false,
+                "fullname": "Börje Karlsson",
+                "user": "tellarin",
+                "type": "user"
+            },
+            "summary": "Developing embodied agents capable of performing complex interactive tasks in\nreal-world scenarios remains a fundamental challenge in embodied AI. Although\nrecent advances in simulation platforms have greatly enhanced task diversity to\ntrain embodied Vision Language Models (VLMs), most platforms rely on simplified\nrobot morphologies and bypass the stochastic nature of low-level execution,\nwhich limits their transferability to real-world robots. To address these\nissues, we present a physics-based simulation platform DualTHOR for complex\ndual-arm humanoid robots, built upon an extended version of AI2-THOR. Our\nsimulator includes real-world robot assets, a task suite for dual-arm\ncollaboration, and inverse kinematics solvers for humanoid robots. We also\nintroduce a contingency mechanism that incorporates potential failures through\nphysics-based low-level execution, bridging the gap to real-world scenarios.\nOur simulator enables a more comprehensive evaluation of the robustness and\ngeneralization of VLMs in household environments. Extensive evaluations reveal\nthat current VLMs struggle with dual-arm coordination and exhibit limited\nrobustness in realistic environments with contingencies, highlighting the\nimportance of using our simulator to develop more capable VLMs for embodied\ntasks. The code is available at https://github.com/ds199895/DualTHOR.git.",
+            "upvotes": 17,
+            "discussionId": "685cf7c1696820ba1f28f2f6",
+            "projectPage": "https://github.com/ds199895/DualTHOR",
+            "githubRepo": "https://github.com/ds199895/DualTHOR",
+            "ai_summary": "A simulator named DualTHOR for training dual-arm humanoid robots integrates real-world assets and physics to enhance the robustness and generalization of Vision Language Models.",
+            "ai_keywords": [
+                "embodied AI",
+                "Vision Language Models",
+                "VLMs",
+                "physics-based simulation",
+                "DualTHOR",
+                "AI2-THOR",
+                "dual-arm robots",
+                "real-world robot assets",
+                "task suite",
+                "inverse kinematics solvers",
+                "contingency mechanism",
+                "physics-based low-level execution"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "DualTHOR: 비상 상황 인식을 위한 이중 팔 휴머노이드 시뮬레이션 플랫폼",
+        "purpose": "복잡한 상호작용 작업을 수행할 수 있는 전신 AI 에이전트를 개발하기 위한 연구",
+        "method": [
+            "AI2-THOR의 확장 버전을 기반으로 물리 기반 시뮬레이션 플랫폼 DualTHOR를 개발함(we present a physics-based simulation platform DualTHOR for complex dual-arm humanoid robots, built upon an extended version of AI2-THOR.)",
+            "DualTHOR에 실제 로봇 자산, 이중 팔 협업을 위한 작업 세트, 그리고 휴머노이드 로봇을 위한 역기구학 솔버를 포함함(Our simulator includes real-world robot assets, a task suite for dual-arm collaboration, and inverse kinematics solvers for humanoid robots.)",
+            "물리 기반 저수준 실행을 통한 잠재적 실패를 포함하는 비상 메커니즘을 도입함(We also introduce a contingency mechanism that incorporates potential failures through physics-based low-level execution.)"
+        ],
+        "conclusion": "DualTHOR를 통해 현재의 VLM들이 이중 팔 조정에서 어려움을 겪고 있으며, 비상 상황이 있는 현실적인 환경에서 강건성이 제한적임을 보여주어, 더 능력 있는 VLM을 개발하는 데 필수적인 시뮬레이터임을 강조함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Image Understanding"
+        ]
+    }
+]
