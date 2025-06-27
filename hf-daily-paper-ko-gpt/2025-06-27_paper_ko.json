@@ -1,0 +1,309 @@
+[
+    {
+        "paper": {
+            "id": "2506.20670",
+            "authors": [
+                {
+                    "_id": "685c9ef4696820ba1f28f263",
+                    "user": {
+                        "_id": "652fbe8cb2acab0b82f855a6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652fbe8cb2acab0b82f855a6/lVpzeEoFRQ6dnGAoNS9b3.jpeg",
+                        "isPro": false,
+                        "fullname": "Jinming Wu",
+                        "user": "kimingng",
+                        "type": "user"
+                    },
+                    "name": "Jinming Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-26T09:24:03.068Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f264",
+                    "name": "Zihao Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f265",
+                    "name": "Wei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f266",
+                    "name": "Yiding Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f267",
+                    "name": "Bo You",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f268",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f269",
+                    "name": "Zejun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "685c9ef4696820ba1f28f26a",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-25T17:59:42.000Z",
+            "submittedOnDailyAt": "2025-06-27T00:45:57.876Z",
+            "title": "MMSearch-R1: Incentivizing LMMs to Search",
+            "submittedOnDailyBy": {
+                "_id": "652fbe8cb2acab0b82f855a6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652fbe8cb2acab0b82f855a6/lVpzeEoFRQ6dnGAoNS9b3.jpeg",
+                "isPro": false,
+                "fullname": "Jinming Wu",
+                "user": "kimingng",
+                "type": "user"
+            },
+            "summary": "Robust deployment of large multimodal models (LMMs) in real-world scenarios\nrequires access to external knowledge sources, given the complexity and dynamic\nnature of real-world information. Existing approaches such as\nretrieval-augmented generation (RAG) and prompt engineered search agents rely\non rigid pipelines, often leading to inefficient or excessive search behaviors.\nWe present MMSearch-R1, the first end-to-end reinforcement learning framework\nthat enables LMMs to perform on-demand, multi-turn search in real-world\nInternet environments. Our framework integrates both image and text search\ntools, allowing the model to reason about when and how to invoke them guided by\nan outcome-based reward with a search penalty. To support training, We collect\na multimodal search VQA dataset through a semi-automated pipeline that covers\ndiverse visual and textual knowledge needs and curate a search-balanced subset\nwith both search-required and search-free samples, which proves essential for\nshaping efficient and on-demand search behavior. Extensive experiments on\nknowledge-intensive and info-seeking VQA tasks show that our model not only\noutperforms RAG-based baselines of the same model size, but also matches the\nperformance of a larger RAG-based model while reducing search calls by over\n30%. We further analyze key empirical findings to offer actionable insights for\nadvancing research in multimodal search.",
+            "upvotes": 37,
+            "discussionId": "685c9ef5696820ba1f28f26b",
+            "githubRepo": "https://github.com/EvolvingLMMs-Lab/multimodal-search-r1",
+            "ai_summary": "MMSearch-R1, a reinforcement learning framework, enables large multimodal models to perform efficient, on-demand, multi-turn search in real-world environments, outperforming existing approaches.",
+            "ai_keywords": [
+                "multimodal models",
+                "retrieval-augmented generation",
+                "prompt engineered search agents",
+                "reinforcement learning",
+                "image search",
+                "text search",
+                "outcome-based reward",
+                "search penalty",
+                "multimodal search VQA dataset",
+                "knowledge-intensive VQA tasks",
+                "info-seeking VQA tasks"
+            ],
+            "githubStars": 153
+        },
+        "translation_title": "MMSearch-R1: LMM을 검색하도록 유도하기",
+        "purpose": "현실 세계에서 LMM의 검색 성능을 개선하기 위한 end-to-end reinforcement learning 프레임워크 개발",
+        "method": [
+            "이미지 및 텍스트 검색 도구를 통합하여 LMM이 검색을 실행하도록 유도하는 보상 메커니즘을 구축함(Our framework integrates both image and text search tools, allowing the model to reason about when and how to invoke them guided by an outcome-based reward with a search penalty.)",
+            "다양한 시각적 및 텍스트 지식 요구 사항을 포함하는 multimodal search VQA 데이터세트를 수집함(We collect a multimodal search VQA dataset through a semi-automated pipeline that covers diverse visual and textual knowledge needs.)",
+            "효율적인 검색 행동을 유도하는 search-balanced 샘플을 구성함(which proves essential for shaping efficient and on-demand search behavior.)"
+        ],
+        "conclusion": "MMSearch-R1은 동일한 모델 크기의 RAG 기반 모델을 초월하는 성능을 보이며, 검색 호출을 30% 이상 줄임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.21539",
+            "authors": [
+                {
+                    "_id": "685e06f771131fa43be08abe",
+                    "name": "Jun Cen",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08abf",
+                    "name": "Chaohui Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac0",
+                    "user": {
+                        "_id": "649d54b314afbb10ce2a9eeb",
+                        "avatarUrl": "/avatars/15c325d8c2273ff63569f23015e98486.svg",
+                        "isPro": false,
+                        "fullname": "Hangjie Yuan",
+                        "user": "JacobYuan",
+                        "type": "user"
+                    },
+                    "name": "Hangjie Yuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-27T08:56:57.326Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac1",
+                    "name": "Yuming Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac2",
+                    "name": "Siteng Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac3",
+                    "name": "Jiayan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac4",
+                    "name": "Xin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac5",
+                    "name": "Yibing Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac6",
+                    "name": "Hao Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac7",
+                    "name": "Fan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac8",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e06f771131fa43be08ac9",
+                    "name": "Hao Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-26T17:55:40.000Z",
+            "submittedOnDailyAt": "2025-06-27T01:21:09.686Z",
+            "title": "WorldVLA: Towards Autoregressive Action World Model",
+            "submittedOnDailyBy": {
+                "_id": "649d54b314afbb10ce2a9eeb",
+                "avatarUrl": "/avatars/15c325d8c2273ff63569f23015e98486.svg",
+                "isPro": false,
+                "fullname": "Hangjie Yuan",
+                "user": "JacobYuan",
+                "type": "user"
+            },
+            "summary": "We present WorldVLA, an autoregressive action world model that unifies action\nand image understanding and generation. Our WorldVLA intergrates\nVision-Language-Action (VLA) model and world model in one single framework. The\nworld model predicts future images by leveraging both action and image\nunderstanding, with the purpose of learning the underlying physics of the\nenvironment to improve action generation. Meanwhile, the action model generates\nthe subsequent actions based on image observations, aiding in visual\nunderstanding and in turn helps visual generation of the world model. We\ndemonstrate that WorldVLA outperforms standalone action and world models,\nhighlighting the mutual enhancement between the world model and the action\nmodel. In addition, we find that the performance of the action model\ndeteriorates when generating sequences of actions in an autoregressive manner.\nThis phenomenon can be attributed to the model's limited generalization\ncapability for action prediction, leading to the propagation of errors from\nearlier actions to subsequent ones. To address this issue, we propose an\nattention mask strategy that selectively masks prior actions during the\ngeneration of the current action, which shows significant performance\nimprovement in the action chunk generation task.",
+            "upvotes": 23,
+            "discussionId": "685e06f871131fa43be08aca",
+            "projectPage": "https://github.com/alibaba-damo-academy/WorldVLA",
+            "githubRepo": "https://github.com/alibaba-damo-academy/WorldVLA",
+            "ai_summary": "WorldVLA, an autoregressive action world model integrating vision-language-action (VLA) and world models, enhances performance through mutual understanding and generation, improving action prediction and sequence generation with an attention mask strategy.",
+            "ai_keywords": [
+                "autoregressive action world model",
+                "Vision-Language-Action (VLA) model",
+                "world model",
+                "action generation",
+                "action prediction",
+                "attention mask strategy"
+            ],
+            "githubStars": 64
+        },
+        "translation_title": "WorldVLA: 자율 회귀 액션 월드 모델을 향하여",
+        "purpose": "액션 생성 개선을 위한 환경의 물리학을 학습하기 위해 액션과 이미지 이해 및 생성을 통합하는 모델 개발",
+        "method": [
+            "Vision-Language-Action(VLA) 모델과 월드 모델을 하나의 프레임워크로 통합함(Our WorldVLA integrates Vision-Language-Action (VLA) model and world model in one single framework.)",
+            "월드 모델이 액션과 이미지 이해를 활용해 미래 이미지를 예측함(The world model predicts future images by leveraging both action and image understanding.)",
+            "액션 모델이 이미지 관찰을 기반으로 후속 액션을 생성하여 비주얼 이해를 돕고 월드 모델의 비주얼 생성을 지원함(Meanwhile, the action model generates the subsequent actions based on image observations, aiding in visual understanding and in turn helps visual generation of the world model.)",
+            "액션 생성 시 이전 액션을 선택적으로 마스킹하는 주의 마스크 전략을 제안하여 성능 개선을 이루었음(To address this issue, we propose an attention mask strategy that selectively masks prior actions during the generation of the current action, which shows significant performance improvement in the action chunk generation task.)"
+        ],
+        "conclusion": "WorldVLA는 단독 액션 모델 및 월드 모델보다 성능이 우수하며, 주의 마스크 전략이 액션 생성의 성능을 크게 개선함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.21551",
+            "authors": [
+                {
+                    "_id": "685e12a171131fa43be08af1",
+                    "name": "Ziyue Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e12a171131fa43be08af2",
+                    "user": {
+                        "_id": "64a8121e35fab7cd04c30ed0",
+                        "avatarUrl": "/avatars/48849b84703158772f1022932331b143.svg",
+                        "isPro": false,
+                        "fullname": "Chenrui Fan",
+                        "user": "Fcr09",
+                        "type": "user"
+                    },
+                    "name": "Chenrui Fan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-27T08:56:55.357Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "685e12a171131fa43be08af3",
+                    "user": {
+                        "_id": "647f5af5b0e96764589f3b2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Zhou",
+                        "user": "zhoutianyi",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-06-27T08:56:53.481Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/647f5af5b0e96764589f3b2a/B_SAKrX_CUkbOy_G2Utsz.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/647f5af5b0e96764589f3b2a/GMugplIqsF3q7PFg2Ywia.png"
+            ],
+            "publishedAt": "2025-06-26T17:59:58.000Z",
+            "submittedOnDailyAt": "2025-06-27T02:17:48.590Z",
+            "title": "Where to find Grokking in LLM Pretraining? Monitor\n  Memorization-to-Generalization without Test",
+            "submittedOnDailyBy": {
+                "_id": "647f5af5b0e96764589f3b2a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                "isPro": false,
+                "fullname": "Tianyi Zhou",
+                "user": "zhoutianyi",
+                "type": "user"
+            },
+            "summary": "Grokking, i.e., test performance keeps improving long after training loss\nconverged, has been recently witnessed in neural network training, making the\nmechanism of generalization and other emerging capabilities such as reasoning\nmysterious. While prior studies usually train small models on a few toy or\nhighly-specific tasks for thousands of epochs, we conduct the first study of\ngrokking on checkpoints during one-pass pretraining of a 7B large language\nmodel (LLM), i.e., OLMoE. We compute the training loss and evaluate\ngeneralization on diverse benchmark tasks, including math reasoning, code\ngeneration, and commonsense/domain-specific knowledge retrieval tasks.\n  Our study, for the first time, verifies that grokking still happens in the\npretraining of large-scale foundation models, though different data may enter\ngrokking stages asynchronously. We further demystify grokking's \"emergence of\ngeneralization\" by investigating LLM internal dynamics. Specifically, we find\nthat training samples' pathways (i.e., expert choices across layers) evolve\nfrom random, instance-specific to more structured and shareable between samples\nduring grokking. Also, the complexity of a sample's pathway reduces despite the\nconverged loss. These indicate a memorization-to-generalization conversion,\nproviding a mechanistic explanation of delayed generalization. In the study, we\ndevelop two novel metrics to quantify pathway distance and the complexity of a\nsingle pathway. We show their ability to predict the generalization improvement\non diverse downstream tasks. They are efficient, simple to compute and solely\ndependent on training data. Hence, they have practical value for pretraining,\nenabling us to monitor the generalization performance without finetuning and\ntest. Theoretically, we show that more structured pathways reduce model\ncomplexity and improve the generalization bound.",
+            "upvotes": 16,
+            "discussionId": "685e12a271131fa43be08af4",
+            "ai_summary": "Grokking, or continued test performance improvement after training loss convergence, is observed during pretraining of a large language model, showcasing a memorization-to-generalization process.",
+            "ai_keywords": [
+                "grokking",
+                "training loss",
+                "generalization",
+                "pretraining",
+                "large language model",
+                "OLMoE",
+                "math reasoning",
+                "code generation",
+                "knowledge retrieval",
+                "expert choices",
+                "pathway distance",
+                "pathway complexity",
+                "generalization bound"
+            ]
+        },
+        "translation_title": "Grokking을 LLM 사전훈련에서 찾는 위치? 테스트 없이 기억에서 일반화로",
+        "purpose": "대규모 언어 모델 사전훈련에서 grokking 현상을 조사하고 일반화 성능을 모니터링하기 위한 연구",
+        "method": [
+            "7B 대규모 언어 모델 OLMoE의 한 번 사전훈련 중 체크포인트를 사용해 grokking을 첫 번째로 연구함(we conduct the first study of grokking on checkpoints during one-pass pretraining of a 7B large language model (LLM), i.e., OLMoE.)",
+            "훈련 손실을 계산하고 다양한 벤치마크 작업에서 일반화를 평가함(We compute the training loss and evaluate generalization on diverse benchmark tasks, including math reasoning, code generation, and commonsense/domain-specific knowledge retrieval tasks.)",
+            "llm 내부의 동역학을 조사하여 grokking의 '일반화의 출현'을 밝힐 수 있도록 수행함(We further demystify grokking's 'emergence of generalization' by investigating LLM internal dynamics.)",
+            "새로운 메트릭을 개발해 경로 거리와 경로 복잡도를 정량화하여 일반화 성능을 예측함(In the study, we develop two novel metrics to quantify pathway distance and the complexity of a single pathway.)"
+        ],
+        "conclusion": "연구를 통해 grokking이 대규모 모델에서 발생하며, 경로의 구조와 복잡성 감소가 일반화 성능 향상에 기여하는 것을 입증함.",
+        "keywords": [
+            "Large Language Models",
+            "Generalization",
+            "Natural Language Processing"
+        ]
+    }
+]
