@@ -1,0 +1,592 @@
+[
+    {
+        "paper": {
+            "id": "2506.23044",
+            "authors": [
+                {
+                    "_id": "686347cd588cea0da970c87a",
+                    "user": {
+                        "_id": "636f4c6b5d2050767e4a1491",
+                        "avatarUrl": "/avatars/630c2ae12937fdb16ccd3280bc05729d.svg",
+                        "isPro": false,
+                        "fullname": "Guo-Hua Wang",
+                        "user": "Flourish",
+                        "type": "user"
+                    },
+                    "name": "Guo-Hua Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:13:51.516Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c87b",
+                    "name": "Shanshan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c87c",
+                    "name": "Xinjie Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c87d",
+                    "name": "Liangfu Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c87e",
+                    "name": "Pengxin Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c87f",
+                    "name": "Lunhao Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c880",
+                    "name": "Shiyin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c881",
+                    "name": "Minghao Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c882",
+                    "name": "Xiaohao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c883",
+                    "name": "Jianshan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c884",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347cd588cea0da970c885",
+                    "name": "Qing-Guo Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-29T00:40:17.000Z",
+            "submittedOnDailyAt": "2025-07-01T04:30:09.856Z",
+            "title": "Ovis-U1 Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "636f4c6b5d2050767e4a1491",
+                "avatarUrl": "/avatars/630c2ae12937fdb16ccd3280bc05729d.svg",
+                "isPro": false,
+                "fullname": "Guo-Hua Wang",
+                "user": "Flourish",
+                "type": "user"
+            },
+            "summary": "In this report, we introduce Ovis-U1, a 3-billion-parameter unified model\nthat integrates multimodal understanding, text-to-image generation, and image\nediting capabilities. Building on the foundation of the Ovis series, Ovis-U1\nincorporates a diffusion-based visual decoder paired with a bidirectional token\nrefiner, enabling image generation tasks comparable to leading models like\nGPT-4o. Unlike some previous models that use a frozen MLLM for generation\ntasks, Ovis-U1 utilizes a new unified training approach starting from a\nlanguage model. Compared to training solely on understanding or generation\ntasks, unified training yields better performance, demonstrating the\nenhancement achieved by integrating these two tasks. Ovis-U1 achieves a score\nof 69.6 on the OpenCompass Multi-modal Academic Benchmark, surpassing recent\nstate-of-the-art models such as Ristretto-3B and SAIL-VL-1.5-2B. In\ntext-to-image generation, it excels with scores of 83.72 and 0.89 on the\nDPG-Bench and GenEval benchmarks, respectively. For image editing, it achieves\n4.00 and 6.42 on the ImgEdit-Bench and GEdit-Bench-EN, respectively. As the\ninitial version of the Ovis unified model series, Ovis-U1 pushes the boundaries\nof multimodal understanding, generation, and editing.",
+            "upvotes": 36,
+            "discussionId": "686347cd588cea0da970c886",
+            "githubRepo": "https://github.com/AIDC-AI/Ovis-U1",
+            "ai_summary": "Ovis-U1, a 3-billion-parameter model, combines multimodal understanding, text-to-image generation, and image editing, achieving state-of-the-art performance in various benchmarks.",
+            "ai_keywords": [
+                "diffusion-based visual decoder",
+                "bidirectional token refiner",
+                "unified training",
+                "OpenCompass",
+                "DPG-Bench",
+                "GenEval",
+                "ImgEdit-Bench",
+                "GEdit-Bench-EN"
+            ],
+            "githubStars": 150
+        },
+        "translation_title": "Ovis-U1 기술 보고서",
+        "purpose": "Multimodal 이해, Text-to-Image 생성 및 이미지 편집 기능을 통합한 통합 모델 개발",
+        "method": [
+            "3억 개의 매개변수를 가진 Ovis-U1 모델을 소개하여 multimodal understanding과 image generation을 통합함(In this report, we introduce Ovis-U1, a 3-billion-parameter unified model that integrates multimodal understanding, text-to-image generation, and image editing capabilities.)",
+            "새로운 통합 훈련 접근 방식을 사용하여 언어 모델에서 시작함(Unlike some previous models that use a frozen MLLM for generation tasks, Ovis-U1 utilizes a new unified training approach starting from a language model.)",
+            "Ovis-U1이 편집 및 생성 작업을 통합하여 향상된 성능을 보여줌(Compared to training solely on understanding or generation tasks, unified training yields better performance, demonstrating the enhancement achieved by integrating these two tasks.)"
+        ],
+        "conclusion": "Ovis-U1은 multimodal understanding, generation, 및 editing의 경계를 확장하며, OpenCompass에서 69.6 점을 기록하여 최신 모델들을 초월한 성과를 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Image Editing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.23858",
+            "authors": [
+                {
+                    "_id": "686347d3588cea0da970c888",
+                    "name": "Jianzong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c889",
+                    "user": {
+                        "_id": "64560a2aaaaf85a98fa9a4b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64560a2aaaaf85a98fa9a4b9/2Kp0S0sMVpKqo81s-l_Yt.png",
+                        "isPro": false,
+                        "fullname": "Liang Hou",
+                        "user": "lianghou",
+                        "type": "user"
+                    },
+                    "name": "Liang Hou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:13:49.312Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88a",
+                    "name": "Haotian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88b",
+                    "name": "Xin Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88c",
+                    "name": "Ye Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88d",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88e",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686347d3588cea0da970c88f",
+                    "name": "Yunhai Tong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-30T13:52:31.000Z",
+            "submittedOnDailyAt": "2025-07-01T00:59:37.837Z",
+            "title": "VMoBA: Mixture-of-Block Attention for Video Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "657a6eed1ccc3c2a5ea7b585",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/RIQIF-JJdNI0SwJEq_9z7.jpeg",
+                "isPro": true,
+                "fullname": "Jianzong Wu",
+                "user": "jianzongwu",
+                "type": "user"
+            },
+            "summary": "The quadratic complexity of full attention mechanisms poses a significant\nbottleneck for Video Diffusion Models (VDMs) aiming to generate long-duration,\nhigh-resolution videos. While various sparse attention methods have been\nproposed, many are designed as training-free inference accelerators or do not\noptimally capture the unique spatio-temporal characteristics inherent in video\ndata when trained natively. This paper introduces Video Mixture of Block\nAttention (VMoBA), a novel sparse attention mechanism specifically adapted for\nVDMs. Motivated by an in-depth analysis of attention patterns within\npre-trained video transformers, which revealed strong spatio-temporal locality,\nvarying query importance, and head-specific concentration levels, VMoBA\nenhances the original MoBA framework with three key modifications: (1) a\nlayer-wise recurrent block partition scheme (1D-2D-3D) to dynamically adapt to\ndiverse spatio-temporal attention patterns and improve efficiency; (2) global\nblock selection to prioritize the most salient query-key block interactions\nacross an entire attention head; and (3) threshold-based block selection to\ndynamically determine the number of attended blocks based on their cumulative\nsimilarity. Extensive experiments demonstrate that VMoBA significantly\naccelerates the training of VDMs on longer sequences, achieving 2.92x FLOPs and\n1.48x latency speedup, while attaining comparable or even superior generation\nquality to full attention. Furthermore, VMoBA exhibits competitive performance\nin training-free inference, offering 2.40x FLOPs and 1.35x latency speedup for\nhigh-res video generation.",
+            "upvotes": 23,
+            "discussionId": "686347d3588cea0da970c890",
+            "projectPage": "https://github.com/KwaiVGI/VMoBA",
+            "githubRepo": "https://github.com/KwaiVGI/VMoBA",
+            "ai_summary": "VMoBA, a novel sparse attention mechanism for Video Diffusion Models (VDMs), accelerates training and inference by addressing the quadratic complexity of full attention mechanisms while maintaining or improving video generation quality.",
+            "ai_keywords": [
+                "quadartic complexity",
+                "full attention mechanisms",
+                "Video Diffusion Models",
+                "VDMs",
+                "sparse attention methods",
+                "in-depth analysis",
+                "attention patterns",
+                "video transformers",
+                "spatio-temporal locality",
+                "query importance",
+                "head-specific concentration",
+                "layer-wise recurrent block partition scheme",
+                "global block selection",
+                "threshold-based block selection",
+                "FLOPs",
+                "latency",
+                "high-res video generation"
+            ],
+            "githubStars": 16
+        },
+        "translation_title": "VMoBA: 비디오 확산 모델을 위한 혼합 블록 주의 메커니즘",
+        "purpose": "긴 시간의 고해상도 비디오 생성을 위해 비디오 확산 모델의 효율성을 개선하는 것",
+        "method": [
+            "기존 MoBA 프레임워크를 세 가지 주요 수정과 함께 강화함(이 논문은 Video Mixture of Block Attention (VMoBA)라는 새로운 희소 주의 메커니즘을 소개함).",
+            "계층별 반복 블록 분할 방식(1D-2D-3D)을 사용하여 다양한 주의 패턴에 적응하고 효율성을 개선함(이 논문에서는 층별 반복 블록 분할 방식인 1D-2D-3D를 사용하여 다양한 시공간 주의 패턴에 동적으로 적응하도록 함).",
+            "글로벌 블록 선택 및 임계값 기반 블록 선택 방법을 통해 가장 중요한 쿼리-키 상호작용을 우선시하고, 주의가 필요한 블록 수를 동적으로 결정함(VMoBA는 전역 블록 선택 기능을 통해 가장 두드러진 쿼리-키 블록 상호작용을 우선시키고, 임계값 기반 블록 선택 기능으로 블록 수를 결정함)."
+        ],
+        "conclusion": "VMoBA는 긴 시퀀스에서 비디오 확산 모델 훈련을 크게 가속화하며, 비슷한 또는 우수한 생성 품질을 유지하면서 2.92배의 FLOPs와 1.48배의 지연 속도 향상을 달성함.",
+        "keywords": [
+            "Video Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.24123",
+            "authors": [
+                {
+                    "_id": "68634673588cea0da970c862",
+                    "name": "Yue Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c863",
+                    "name": "Qingyan Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c864",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c865",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c866",
+                    "name": "Qiuyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c867",
+                    "name": "Hongyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c868",
+                    "name": "Zichen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c869",
+                    "name": "Haofan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c86a",
+                    "user": {
+                        "_id": "6478a982256b62e219917d67",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/PUJ-N2cQxgEmDGfyjajyA.jpeg",
+                        "isPro": false,
+                        "fullname": "JingyeChen22",
+                        "user": "JingyeChen22",
+                        "type": "user"
+                    },
+                    "name": "Jingye Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:14:05.849Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c86b",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634673588cea0da970c86c",
+                    "name": "Qifeng Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-30T17:59:06.000Z",
+            "submittedOnDailyAt": "2025-07-01T01:00:32.385Z",
+            "title": "Calligrapher: Freestyle Text Image Customization",
+            "submittedOnDailyBy": {
+                "_id": "63f0baf66309c84d5f4a2226",
+                "avatarUrl": "/avatars/a122f7d92441bd2feef7d4eda993fab7.svg",
+                "isPro": false,
+                "fullname": "Meme155",
+                "user": "Meme145",
+                "type": "user"
+            },
+            "summary": "We introduce Calligrapher, a novel diffusion-based framework that\ninnovatively integrates advanced text customization with artistic typography\nfor digital calligraphy and design applications. Addressing the challenges of\nprecise style control and data dependency in typographic customization, our\nframework incorporates three key technical contributions. First, we develop a\nself-distillation mechanism that leverages the pre-trained text-to-image\ngenerative model itself alongside the large language model to automatically\nconstruct a style-centric typography benchmark. Second, we introduce a\nlocalized style injection framework via a trainable style encoder, which\ncomprises both Qformer and linear layers, to extract robust style features from\nreference images. An in-context generation mechanism is also employed to\ndirectly embed reference images into the denoising process, further enhancing\nthe refined alignment of target styles. Extensive quantitative and qualitative\nevaluations across diverse fonts and design contexts confirm Calligrapher's\naccurate reproduction of intricate stylistic details and precise glyph\npositioning. By automating high-quality, visually consistent typography,\nCalligrapher surpasses traditional models, empowering creative practitioners in\ndigital art, branding, and contextual typographic design.",
+            "upvotes": 21,
+            "discussionId": "68634673588cea0da970c86d",
+            "projectPage": "https://calligrapher2025.github.io/Calligrapher/",
+            "githubRepo": "https://github.com/Calligrapher2025/Calligrapher",
+            "ai_summary": "Calligrapher uses a diffusion-based framework with self-distillation and localized style injection to generate high-quality, stylistically consistent digital typography.",
+            "ai_keywords": [
+                "diffusion-based framework",
+                "self-distillation mechanism",
+                "text-to-image generative model",
+                "large language model",
+                "localized style injection",
+                "Qformer",
+                "linear layers",
+                "style encoder",
+                "in-context generation mechanism",
+                "denoising process",
+                "stylistic details",
+                "glyph positioning"
+            ],
+            "githubStars": 45
+        },
+        "translation_title": "Calligrapher: 자유형 텍스트 이미지 맞춤화",
+        "purpose": "디지털 캘리그래피와 디자인 응용을 위한 고급 텍스트 맞춤화와 예술적 타이포그래피의 혁신적인 통합",
+        "method": [
+            "자체 증류 메커니즘을 개발하여 사전 훈련된 text-to-image 생성 모델과 대형 언어 모델을 활용해 스타일 중심의 타이포그래피 기준을 자동 구축함(First, we develop a self-distillation mechanism that leverages the pre-trained text-to-image generative model itself alongside the large language model to automatically construct a style-centric typography benchmark.)",
+            "훈련 가능한 스타일 인코더를 통한 지역화된 스타일 주입 프레임워크를 소개하여 참고 이미지에서 강력한 스타일 특징을 추출함(Second, we introduce a localized style injection framework via a trainable style encoder, which comprises both Qformer and linear layers, to extract robust style features from reference images.)",
+            "참고 이미지를 직접적으로 디노이징 과정에 포함시키는 인-컨텍스트 생성 메커니즘을 활용하여 목표 스타일을 더욱 정교하게 정렬함(An in-context generation mechanism is also employed to directly embed reference images into the denoising process, further enhancing the refined alignment of target styles.)"
+        ],
+        "conclusion": "Calligrapher는 다양한 글꼴과 디자인 맥락에서 복잡한 스타일적 세부사항과 정밀한 글리프 위치를 정확히 재현하며, 고품질의 일관된 타이포그래피를 자동화하여 디지털 아트, 브랜딩, 맥락적 타이포그래픽 디자인에서 창의적인 실무자들에게 힘을 줌.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.24119",
+            "authors": [
+                {
+                    "_id": "68634850588cea0da970c892",
+                    "user": {
+                        "_id": "635e3a76106f984574c36409",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+                        "isPro": false,
+                        "fullname": "Bo Liu",
+                        "user": "Benjamin-eecs",
+                        "type": "user"
+                    },
+                    "name": "Bo Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:13:46.740Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c893",
+                    "name": "Leon Guertler",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c894",
+                    "user": {
+                        "_id": "636681feaa6a4af6073ba73e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/636681feaa6a4af6073ba73e/u_0moYNu6as9Sszp-ej95.png",
+                        "isPro": true,
+                        "fullname": "Simon Yu",
+                        "user": "simonycl",
+                        "type": "user"
+                    },
+                    "name": "Simon Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:13:44.863Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c895",
+                    "user": {
+                        "_id": "65f5392c68b8e0cb3c9977a2",
+                        "avatarUrl": "/avatars/aa64772475098e8a135c13072fde6744.svg",
+                        "isPro": false,
+                        "fullname": "Zichen",
+                        "user": "lkevinzc",
+                        "type": "user"
+                    },
+                    "name": "Zichen Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:13:42.588Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c896",
+                    "name": "Penghui Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c897",
+                    "name": "Daniel Balcells",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c898",
+                    "name": "Mickel Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c899",
+                    "name": "Cheston Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c89a",
+                    "name": "Weiyan Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c89b",
+                    "name": "Min Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c89c",
+                    "name": "Wee Sun Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68634850588cea0da970c89d",
+                    "name": "Natasha Jaques",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-06-30T17:58:13.000Z",
+            "submittedOnDailyAt": "2025-07-01T01:11:49.104Z",
+            "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via\n  Multi-Agent Multi-Turn Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "635e3a76106f984574c36409",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+                "isPro": false,
+                "fullname": "Bo Liu",
+                "user": "Benjamin-eecs",
+                "type": "user"
+            },
+            "summary": "Recent advances in reinforcement learning have shown that language models can\ndevelop sophisticated reasoning through training on tasks with verifiable\nrewards, but these approaches depend on human-curated problem-answer pairs and\ndomain-specific reward engineering. We introduce SPIRAL, a self-play framework\nwhere models learn by playing multi-turn, zero-sum games against continuously\nimproving versions of themselves, eliminating the need for human supervision.\nThrough self-play, SPIRAL generates an infinite curriculum of progressively\nchallenging problems as models must constantly adapt to stronger opponents. To\nenable this self-play training at scale, We implement a fully online,\nmulti-turn, multi-agent reinforcement learning system for LLMs and propose\nrole-conditioned advantage estimation (RAE) to stabilize multi-agent training.\nUsing SPIRAL, self-play on zero-sum games produces reasoning capabilities that\ntransfer broadly. Training Qwen3-4B-Base on Kuhn Poker alone achieves 8.6%\nimprovement on math and 8.4% on general reasoning, outperforming SFT on 25,000\nexpert game trajectories. Analysis reveals that this transfer occurs through\nthree cognitive patterns: systematic decomposition, expected value calculation,\nand case-by-case analysis. Multi-game training (TicTacToe, Kuhn Poker, Simple\nNegotiation) further enhances performance as each game develops distinct\nreasoning strengths. Applying SPIRAL to a strong reasoning model\n(DeepSeek-R1-Distill-Qwen-7B) can still lead to 2.0% average improvement. These\nresults demonstrate that zero-sum games naturally develop transferable\nreasoning capabilities, highlighting a promising direction for autonomous\nreasoning development.",
+            "upvotes": 17,
+            "discussionId": "68634850588cea0da970c89e",
+            "projectPage": "https://github.com/spiral-rl/spiral",
+            "githubRepo": "https://github.com/spiral-rl/spiral",
+            "ai_summary": "Self-play in zero-sum games using SPIRAL enhances reasoning capabilities in language models through self-improvement and transfer learning.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "language models",
+                "self-play framework",
+                "multi-turn games",
+                "zero-sum games",
+                "reward engineering",
+                "role-conditioned advantage estimation",
+                "Kuhn Poker",
+                "TicTacToe",
+                "Simple Negotiation",
+                "transferable reasoning"
+            ],
+            "githubStars": 19
+        },
+        "translation_title": "SPIRAL: 제로섬 게임에서 자기 플레이를 통한 추론 유도",
+        "purpose": "인간의 감독 없이 제로섬 게임에서 모델들이 스스로 학습하도록 하여 향상된 추론 능력을 개발하는 것을 목표로 함.",
+        "method": [
+            "자기 플레이 프레임워크 SPIRAL을 도입하여 모델들이 지속적으로 발전하는 자신의 버전과 다자간 제로섬 게임을 통해 학습하도록 함(we introduce SPIRAL, a self-play framework where models learn by playing multi-turn, zero-sum games against continuously improving versions of themselves.)",
+            "무한 커리큘럼을 생성하여 점차적으로 도전적인 문제를 제공하도록 함(Through self-play, SPIRAL generates an infinite curriculum of progressively challenging problems as models must constantly adapt to stronger opponents.)",
+            "온라인, 다회차, 다중 에이전트 강화학습 시스템을 구현하고, 역할 조건화된 이점 추정(RAE)을 통해 다중 에이전트 학습을 안정화함(To enable this self-play training at scale, we implement a fully online, multi-turn, multi-agent reinforcement learning system for LLMs and propose role-conditioned advantage estimation (RAE) to stabilize multi-agent training.)"
+        ],
+        "conclusion": "제로섬 게임을 통한 SPIRAL에서는 다양한 인지 패턴을 통해 전이 가능한 추론 능력이 개발되며, 자율적 추론 개발의 유망한 방향성을 제시함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2506.22832",
+            "authors": [
+                {
+                    "_id": "6863989c588cea0da970c985",
+                    "user": {
+                        "_id": "6192657ba9638054a9818f04",
+                        "avatarUrl": "/avatars/35f6f6eb2e8f6b283034632a141c2670.svg",
+                        "isPro": false,
+                        "fullname": "Alexander Gambashidze",
+                        "user": "alexgambashidze",
+                        "type": "user"
+                    },
+                    "name": "Alexander Gambashidze",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:12:55.879Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c986",
+                    "name": "Li Pengyi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c987",
+                    "user": {
+                        "_id": "6626c5d0a329de26e7eb16fa",
+                        "avatarUrl": "/avatars/124f389f768fb666efd8b5a9b54c3b3c.svg",
+                        "isPro": false,
+                        "fullname": "Matvey Skripkin",
+                        "user": "barracuda049",
+                        "type": "user"
+                    },
+                    "name": "Matvey Skripkin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-01T10:12:51.866Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c988",
+                    "name": "Andrey Galichin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c989",
+                    "name": "Anton Gusarov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c98a",
+                    "name": "Konstantin Sobolev",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c98b",
+                    "name": "Andrey Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6863989c588cea0da970c98c",
+                    "name": "Ivan Oseledets",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6192657ba9638054a9818f04/IpysW0QkLzIgzWognSV7n.png"
+            ],
+            "publishedAt": "2025-06-28T09:53:17.000Z",
+            "submittedOnDailyAt": "2025-07-01T06:44:35.487Z",
+            "title": "Listener-Rewarded Thinking in VLMs for Image Preferences",
+            "submittedOnDailyBy": {
+                "_id": "6192657ba9638054a9818f04",
+                "avatarUrl": "/avatars/35f6f6eb2e8f6b283034632a141c2670.svg",
+                "isPro": false,
+                "fullname": "Alexander Gambashidze",
+                "user": "alexgambashidze",
+                "type": "user"
+            },
+            "summary": "Training robust and generalizable reward models for human visual preferences\nis essential for aligning text-to-image and text-to-video generative models\nwith human intent. However, current reward models often fail to generalize, and\nsupervised fine-tuning leads to memorization, demanding complex annotation\npipelines. While reinforcement learning (RL), specifically Group Relative\nPolicy Optimization (GRPO), improves generalization, we uncover a key failure\nmode: a significant drop in reasoning accuracy occurs when a model's reasoning\ntrace contradicts that of an independent, frozen vision-language model\n(\"listener\") evaluating the same output. To address this, we introduce a\nlistener-augmented GRPO framework. Here, the listener re-evaluates the\nreasoner's chain-of-thought to provide a dense, calibrated confidence score,\nshaping the RL reward signal. This encourages the reasoner not only to answer\ncorrectly, but to produce explanations that are persuasive to an independent\nmodel. Our listener-shaped reward scheme achieves best accuracy on the\nImageReward benchmark (67.4%), significantly improves out-of-distribution (OOD)\nperformance on a large-scale human preference dataset (1.2M votes, up to +6%\nover naive reasoner), and reduces reasoning contradictions compared to strong\nGRPO and SFT baselines. These results demonstrate that listener-based rewards\nprovide a scalable, data-efficient path to aligning vision-language models with\nnuanced human preferences. We will release our reasoning model here:\nhttps://huggingface.co/alexgambashidze/qwen2.5vl_image_preference_reasoner.",
+            "upvotes": 17,
+            "discussionId": "6863989c588cea0da970c98d",
+            "ai_summary": "A listener-augmented Group Relative Policy Optimization framework improves reward models by re-evaluating reasoning processes, leading to enhanced accuracy and out-of-distribution performance in aligning vision-language models with human preferences.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "Group Relative Policy Optimization (GRPO)",
+                "listener-augmented GRPO",
+                "vision-language model",
+                "chain-of-thought",
+                "image preference reasoning",
+                "ImageReward benchmark",
+                "out-of-distribution (OOD) performance"
+            ]
+        },
+        "translation_title": "이미지 선호도를 위한 VLM의 Listener-Rewarded Thinking",
+        "purpose": "텍스트-이미지 및 텍스트-비디오 생성 모델을 인간의 의도와 일치시키기 위한 안정적이고 일반화 가능한 보상 모델 개발",
+        "method": [
+            "강화 학습(RL)을 통한 Group Relative Policy Optimization (GRPO) 기법 적용에 의해 일반화 성능 향상.(While reinforcement learning (RL), specifically Group Relative Policy Optimization (GRPO), improves generalization)",
+            "리스너 모델이 추론 모델의 사고 과정을 재평가하여 신뢰 점수를 제공하고 RL 보상 신호를 형성함.(we introduce a listener-augmented GRPO framework. Here, the listener re-evaluates the reasoner's chain-of-thought to provide a dense, calibrated confidence score, shaping the RL reward signal.)",
+            "리스너에 의해 형성된 보상 체계를 통해 모델이 정확한 답변 뿐 아니라 독립 모델에 설득력 있는 설명을 생성하도록 유도함.(This encourages the reasoner not only to answer correctly, but to produce explanations that are persuasive to an independent model.)"
+        ],
+        "conclusion": "리스너 기반의 보상 체계는 Vision-Language 모델을 인간의 복잡한 선호에 맞추는 효율적이고 확장 가능한 방법임을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    }
+]
