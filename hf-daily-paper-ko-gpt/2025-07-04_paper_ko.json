@@ -1,0 +1,561 @@
+[
+    {
+        "paper": {
+            "id": "2507.02592",
+            "authors": [
+                {
+                    "_id": "686732329db35afc9c304cb4",
+                    "name": "Kuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cb5",
+                    "name": "Zhongwang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cb6",
+                    "name": "Huifeng Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cb7",
+                    "name": "Liwen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cb8",
+                    "name": "Litu Ou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cb9",
+                    "name": "Jialong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cba",
+                    "name": "Wenbiao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cbb",
+                    "name": "Baixuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cbc",
+                    "name": "Zhengwei Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cbd",
+                    "name": "Xinyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cbe",
+                    "name": "Weizhou Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cbf",
+                    "name": "Junkai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc0",
+                    "name": "Dingchu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc1",
+                    "user": {
+                        "_id": "6622132f63598534f96ca29d",
+                        "avatarUrl": "/avatars/34e61fc3101f8ebce1ef7041f761e108.svg",
+                        "isPro": false,
+                        "fullname": "Xixi Wu",
+                        "user": "xxwu",
+                        "type": "user"
+                    },
+                    "name": "Xixi Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-04T07:49:47.564Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc2",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc3",
+                    "name": "Ming Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc4",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc5",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686732329db35afc9c304cc6",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/622f2feea32d46b4be9ed8c4/9sUyYbIYfR5wDQMMft1io.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/622f2feea32d46b4be9ed8c4/FLz6T05o_NbbQKrOQyTuL.png"
+            ],
+            "publishedAt": "2025-07-03T12:59:07.000Z",
+            "submittedOnDailyAt": "2025-07-04T00:20:59.450Z",
+            "title": "WebSailor: Navigating Super-human Reasoning for Web Agent",
+            "submittedOnDailyBy": {
+                "_id": "622f2feea32d46b4be9ed8c4",
+                "avatarUrl": "/avatars/ba25eb941a7c9a414b7fd4818adfa26b.svg",
+                "isPro": false,
+                "fullname": "Litu Ou",
+                "user": "learn3r",
+                "type": "user"
+            },
+            "summary": "Transcending human cognitive limitations represents a critical frontier in\nLLM training. Proprietary agentic systems like DeepResearch have demonstrated\nsuperhuman capabilities on extremely complex information-seeking benchmarks\nsuch as BrowseComp, a feat previously unattainable. We posit that their success\nhinges on a sophisticated reasoning pattern absent in open-source models: the\nability to systematically reduce extreme uncertainty when navigating vast\ninformation landscapes. Based on this insight, we introduce WebSailor, a\ncomplete post-training methodology designed to instill this crucial capability.\nOur approach involves generating novel, high-uncertainty tasks through\nstructured sampling and information obfuscation, RFT cold start, and an\nefficient agentic RL training algorithm, Duplicating Sampling Policy\nOptimization (DUPO). With this integrated pipeline, WebSailor significantly\noutperforms all opensource agents in complex information-seeking tasks,\nmatching proprietary agents' performance and closing the capability gap.",
+            "upvotes": 47,
+            "discussionId": "686732339db35afc9c304cc7",
+            "projectPage": "https://github.com/Alibaba-NLP/WebAgent",
+            "githubRepo": "https://github.com/Alibaba-NLP/WebAgent/",
+            "ai_summary": "WebSailor, a post-training methodology involving structured sampling, information obfuscation, and an efficient RL algorithm, enhances LLMs by improving their reasoning capabilities in complex information-seeking tasks to match proprietary agents.",
+            "ai_keywords": [
+                "LLM",
+                "DeepResearch",
+                "BrowseComp",
+                "reasoning pattern",
+                "high-uncertainty tasks",
+                "structured sampling",
+                "information obfuscation",
+                "RFT cold start",
+                "agentic RL",
+                "Duplicating Sampling Policy Optimization",
+                "DUPO",
+                "opensource agents",
+                "complex information-seeking tasks",
+                "capability gap"
+            ],
+            "githubStars": 1265
+        },
+        "translation_title": "WebSailor: 웹 에이전트를 위한 초인적 추론 탐색",
+        "purpose": "복잡한 정보 탐색 작업에서 고급 추론 능력을 기르기 위한 방법론 개발",
+        "method": [
+            "정보의 불확실성을 줄이는 방법을 바탕으로 WebSailor라는 방법론을 제안함(we introduce WebSailor, a complete post-training methodology designed to instill this crucial capability.)",
+            "구조화된 샘플링 및 정보 난독화를 통해 새로운 고불확실성 작업을 생성함(our approach involves generating novel, high-uncertainty tasks through structured sampling and information obfuscation.)",
+            "효율적인 강화학습 알고리즘인 Duplicating Sampling Policy Optimization (DUPO)을 적용함(we employed an efficient agentic RL training algorithm, Duplicating Sampling Policy Optimization (DUPO).)"
+        ],
+        "conclusion": "WebSailor는 복잡한 정보 탐색 작업에서 오픈소스 에이전트를 능가하며, 기존 전문 에이전트의 성과에 가까운 결과를 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.02813",
+            "authors": [
+                {
+                    "_id": "686735e69db35afc9c304ce1",
+                    "name": "Fangfu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce2",
+                    "name": "Hao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce3",
+                    "name": "Jiawei Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce4",
+                    "user": {
+                        "_id": "65c38f6c137aba2aee524989",
+                        "avatarUrl": "/avatars/a93e29f55876df3e65e2532972e057e4.svg",
+                        "isPro": false,
+                        "fullname": "Hanyang Wang",
+                        "user": "hanyang-21",
+                        "type": "user"
+                    },
+                    "name": "Hanyang Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-04T07:49:31.644Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce5",
+                    "name": "Minghui Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce6",
+                    "name": "Fudong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686735e69db35afc9c304ce7",
+                    "name": "Yueqi Duan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6505a02f9310ce8c400edc63/GMjqJ0RyCYifjpsev_YPY.mp4"
+            ],
+            "publishedAt": "2025-07-03T17:21:23.000Z",
+            "submittedOnDailyAt": "2025-07-04T00:35:47.996Z",
+            "title": "LangScene-X: Reconstruct Generalizable 3D Language-Embedded Scenes with\n  TriMap Video Diffusion",
+            "submittedOnDailyBy": {
+                "_id": "6505a02f9310ce8c400edc63",
+                "avatarUrl": "/avatars/bbf781594fc8c812316711aa8e2797aa.svg",
+                "isPro": false,
+                "fullname": "Fangfu Liu",
+                "user": "Liuff23",
+                "type": "user"
+            },
+            "summary": "Recovering 3D structures with open-vocabulary scene understanding from 2D\nimages is a fundamental but daunting task. Recent developments have achieved\nthis by performing per-scene optimization with embedded language information.\nHowever, they heavily rely on the calibrated dense-view reconstruction\nparadigm, thereby suffering from severe rendering artifacts and implausible\nsemantic synthesis when limited views are available. In this paper, we\nintroduce a novel generative framework, coined LangScene-X, to unify and\ngenerate 3D consistent multi-modality information for reconstruction and\nunderstanding. Powered by the generative capability of creating more consistent\nnovel observations, we can build generalizable 3D language-embedded scenes from\nonly sparse views. Specifically, we first train a TriMap video diffusion model\nthat can generate appearance (RGBs), geometry (normals), and semantics\n(segmentation maps) from sparse inputs through progressive knowledge\nintegration. Furthermore, we propose a Language Quantized Compressor (LQC),\ntrained on large-scale image datasets, to efficiently encode language\nembeddings, enabling cross-scene generalization without per-scene retraining.\nFinally, we reconstruct the language surface fields by aligning language\ninformation onto the surface of 3D scenes, enabling open-ended language\nqueries. Extensive experiments on real-world data demonstrate the superiority\nof our LangScene-X over state-of-the-art methods in terms of quality and\ngeneralizability. Project Page: https://liuff19.github.io/LangScene-X.",
+            "upvotes": 41,
+            "discussionId": "686735e69db35afc9c304ce8",
+            "projectPage": "https://liuff19.github.io/LangScene-X/",
+            "githubRepo": "https://github.com/liuff19/LangScene-X/",
+            "ai_summary": "A novel generative framework named LangScene-X unifies and generates 3D consistent information from sparse views using a TriMap video diffusion model and Language Quantized Compressor for high-quality scene reconstruction and understanding.",
+            "ai_keywords": [
+                "TriMap video diffusion model",
+                "appearance (RGBs)",
+                "geometry (normals)",
+                "semantics (segmentation maps)",
+                "progressive knowledge integration",
+                "Language Quantized Compressor",
+                "language surface fields",
+                "open-ended language queries"
+            ],
+            "githubStars": 62
+        },
+        "translation_title": "LangScene-X: 일반화 가능한 3D 언어 임베디드 장면 재구성을 위한 TriMap 비디오 확산",
+        "purpose": "2D 이미지로부터 3D 구조를 회복하고 언어 정보를 활용한 장면 이해 향상",
+        "method": [
+            "LangScene-X라는 새로운 생성 프레임워크를 도입하여 3D 일관성 있는 다중 모달 정보를 통합하고 생성함(This paper introduces a novel generative framework, coined LangScene-X, to unify and generate 3D consistent multi-modality information for reconstruction and understanding.)",
+            "TriMap 비디오 확산 모델을 훈련시켜서 희소 입력으로부터 외관(RGB), 기하학(노말), 의미(세그멘테이션 맵)을 생성함(Specifically, we first train a TriMap video diffusion model that can generate appearance (RGBs), geometry (normals), and semantics (segmentation maps) from sparse inputs through progressive knowledge integration.)",
+            "대규모 이미지 데이터셋에서 훈련된 Language Quantized Compressor(LQC)를 제안하여 언어 임베딩을 효율적으로 인코딩함(Furthermore, we propose a Language Quantized Compressor (LQC), trained on large-scale image datasets, to efficiently encode language embeddings, enabling cross-scene generalization without per-scene retraining.)"
+        ],
+        "conclusion": "LangScene-X는 품질과 일반화 가능성 측면에서 기존의 최고 성능 방법들을 초월하는 것으로 입증됨.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.02321",
+            "authors": [
+                {
+                    "_id": "68679bf1213f123a1f88b8bd",
+                    "name": "Nina Konovalova",
+                    "hidden": false
+                },
+                {
+                    "_id": "68679bf1213f123a1f88b8be",
+                    "name": "Maxim Nikolaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68679bf1213f123a1f88b8bf",
+                    "name": "Andrey Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68679bf1213f123a1f88b8c0",
+                    "name": "Aibek Alanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-03T05:25:53.000Z",
+            "submittedOnDailyAt": "2025-07-04T07:48:56.769Z",
+            "title": "Heeding the Inner Voice: Aligning ControlNet Training via Intermediate\n  Features Feedback",
+            "submittedOnDailyBy": {
+                "_id": "66680c6451545a8b46c6fd21",
+                "avatarUrl": "/avatars/03707f5ea4e2aa8dc825a9782b00ed85.svg",
+                "isPro": false,
+                "fullname": "Aibek Alanov",
+                "user": "ai-alanov",
+                "type": "user"
+            },
+            "summary": "Despite significant progress in text-to-image diffusion models, achieving\nprecise spatial control over generated outputs remains challenging. ControlNet\naddresses this by introducing an auxiliary conditioning module, while\nControlNet++ further refines alignment through a cycle consistency loss applied\nonly to the final denoising steps. However, this approach neglects intermediate\ngeneration stages, limiting its effectiveness. We propose InnerControl, a\ntraining strategy that enforces spatial consistency across all diffusion steps.\nOur method trains lightweight convolutional probes to reconstruct input control\nsignals (e.g., edges, depth) from intermediate UNet features at every denoising\nstep. These probes efficiently extract signals even from highly noisy latents,\nenabling pseudo ground truth controls for training. By minimizing the\ndiscrepancy between predicted and target conditions throughout the entire\ndiffusion process, our alignment loss improves both control fidelity and\ngeneration quality. Combined with established techniques like ControlNet++,\nInnerControl achieves state-of-the-art performance across diverse conditioning\nmethods (e.g., edges, depth).",
+            "upvotes": 30,
+            "discussionId": "68679bf2213f123a1f88b8c1",
+            "ai_summary": "InnerControl enforces spatial consistency across all diffusion steps by training lightweight convolutional probes to improve control fidelity and generation quality in text-to-image diffusion models.",
+            "ai_keywords": [
+                "ControlNet",
+                "diffusion models",
+                "auxiliary conditioning module",
+                "cycle consistency loss",
+                "latent spatial consistency",
+                "convolutional probes",
+                "UNet features",
+                "alignment loss",
+                "state-of-the-art performance",
+                "conditioning methods",
+                "control fidelity",
+                "generation quality"
+            ]
+        },
+        "translation_title": "내부 음성에 귀 기울이기: 중간 피드백을 통한 ControlNet 훈련 정렬",
+        "purpose": "생성 과정 전반에 걸쳐 공간적 일관성을 유지하여 text-to-image diffusion 모델의 출력 품질을 향상시키기 위한 훈련 전략 제안",
+        "method": [
+            "InnerControl이라는 훈련 전략을 제안하여 모든 diffusion 단계에서 공간적 일관성을 유지하도록 함(We propose InnerControl, a training strategy that enforces spatial consistency across all diffusion steps.)",
+            "경량화된 컨볼루션 프로브를 훈련하여 중간 UNet 특징에서 입력 제어 신호를 재구성함(Our method trains lightweight convolutional probes to reconstruct input control signals from intermediate UNet features at every denoising step.)",
+            "예측된 조건과 목표 조건 간의 불일치를 최소화하여 제어 충실도와 생성 품질을 향상시킴(By minimizing the discrepancy between predicted and target conditions throughout the entire diffusion process, our alignment loss improves both control fidelity and generation quality.)"
+        ],
+        "conclusion": "InnerControl은 ControlNet++와 결합하여 다양한 조건부 방법에서 최첨단 성능을 달성함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.02025",
+            "authors": [
+                {
+                    "_id": "686738019db35afc9c304cf3",
+                    "name": "The IntFold Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "686738019db35afc9c304cf4",
+                    "name": "Leon Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686738019db35afc9c304cf5",
+                    "name": "Wayne Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "686738019db35afc9c304cf6",
+                    "name": "He Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686738019db35afc9c304cf7",
+                    "user": {
+                        "_id": "63dd2bacea4d39995f581222",
+                        "avatarUrl": "/avatars/c117b66fdc1bcf3eed218b0b66e958cb.svg",
+                        "isPro": false,
+                        "fullname": "Liu",
+                        "user": "FuxuLiu",
+                        "type": "user"
+                    },
+                    "name": "Gary Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-04T07:49:15.140Z",
+                    "hidden": true
+                },
+                {
+                    "_id": "686738019db35afc9c304cf8",
+                    "name": "Nova Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "686738019db35afc9c304cf9",
+                    "name": "Xiang Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-02T16:09:47.000Z",
+            "submittedOnDailyAt": "2025-07-04T03:52:28.488Z",
+            "title": "IntFold: A Controllable Foundation Model for General and Specialized\n  Biomolecular Structure Prediction",
+            "submittedOnDailyBy": {
+                "_id": "67d3a1a5943a965360fcae51",
+                "avatarUrl": "/avatars/165ed684b0750e7f57b9f2babfb47a8c.svg",
+                "isPro": false,
+                "fullname": "Siqi Sun",
+                "user": "siqisun",
+                "type": "user"
+            },
+            "summary": "We introduce IntFold, a controllable foundation model for both general and\nspecialized biomolecular structure prediction. IntFold demonstrates predictive\naccuracy comparable to the state-of-the-art AlphaFold3, while utilizing a\nsuperior customized attention kernel. Beyond standard structure prediction,\nIntFold can be adapted to predict allosteric states, constrained structures,\nand binding affinity through the use of individual adapters. Furthermore, we\nintroduce a novel confidence head to estimate docking quality, offering a more\nnuanced assessment for challenging targets such as antibody-antigen complexes.\nFinally, we share insights gained during the training process of this\ncomputationally intensive model.",
+            "upvotes": 30,
+            "discussionId": "686738029db35afc9c304cfa",
+            "projectPage": "https://server.intfold.com/",
+            "githubRepo": "https://github.com/IntelliGen-AI/IntFold",
+            "ai_summary": "IntFold uses a customized attention kernel for biomolecular structure prediction, surpassing AlphaFold3, and includes adapters and a novel confidence head for specialized predictions and docking assessments.",
+            "ai_keywords": [
+                "controllable foundation model",
+                "biomolecular structure prediction",
+                "AlphaFold3",
+                "attention kernel",
+                "allosteric states",
+                "constrained structures",
+                "binding affinity",
+                "adapters",
+                "confidence head",
+                "docking quality",
+                "antibody-antigen complexes"
+            ],
+            "githubStars": 29
+        },
+        "translation_title": "IntFold: 일반 및 특수 생체 분자 구조 예측을 위한 조절 가능한 기초 모델",
+        "purpose": "일반 및 특수 생체 분자 구조 예측을 위한 모델 개발 및 정확도 개선",
+        "method": [
+            "IntFold는 AlphaFold3와 비슷한 예측 정확도를 보이며 개선된 맞춤형 attention kernel을 활용함(While utilizing a superior customized attention kernel, IntFold demonstrates predictive accuracy comparable to the state-of-the-art AlphaFold3.)",
+            "개별 어댑터를 통해 allosteric 상태, 제약 구조 및 결합 친화력 예측을 할 수 있도록 조정 가능함(IntFold can be adapted to predict allosteric states, constrained structures, and binding affinity through the use of individual adapters.)",
+            "새로운 confidence head를 도입하여 docking 품질을 추정함(Furthermore, we introduce a novel confidence head to estimate docking quality, offering a more nuanced assessment for challenging targets such as antibody-antigen complexes.)"
+        ],
+        "conclusion": "IntFold는 복잡한 생체 분자 구조 예측에서 뛰어난 성능을 보여주고, 훈련 과정에서의 통찰을 공유함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.01352",
+            "authors": [
+                {
+                    "_id": "6865cdc28c83dab5f72d1e18",
+                    "user": {
+                        "_id": "658229ef5f6d83438257fce5",
+                        "avatarUrl": "/avatars/b4417de9a338e95dc69cc547a46348e8.svg",
+                        "isPro": false,
+                        "fullname": "Chris (Yuhao) Liu",
+                        "user": "chrisliu298",
+                        "type": "user"
+                    },
+                    "name": "Chris Yuhao Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-04T07:50:33.676Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e19",
+                    "user": {
+                        "_id": "6621efe1a6eec3ad03e38759",
+                        "avatarUrl": "/avatars/c35acce69f244ec0833dffd53eedf6a3.svg",
+                        "isPro": false,
+                        "fullname": "Liang Zeng",
+                        "user": "zengliangcs",
+                        "type": "user"
+                    },
+                    "name": "Liang Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-03T16:19:08.221Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1a",
+                    "user": {
+                        "_id": "658ceb595a8f8a309ea417a1",
+                        "avatarUrl": "/avatars/43bfa8c919aa802f2611439ebb7430b8.svg",
+                        "isPro": false,
+                        "fullname": "Ricky Shaw",
+                        "user": "RickyShaw999",
+                        "type": "user"
+                    },
+                    "name": "Yuzhen Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-04T07:50:29.586Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1b",
+                    "name": "Jujie He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1c",
+                    "name": "Jiacai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1d",
+                    "name": "Chaojie Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1e",
+                    "name": "Rui Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e1f",
+                    "name": "Wei Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e20",
+                    "name": "Fuxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e21",
+                    "name": "Jiacheng Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e22",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6865cdc28c83dab5f72d1e23",
+                    "name": "Yahui Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-02T04:40:29.000Z",
+            "submittedOnDailyAt": "2025-07-04T00:12:17.371Z",
+            "title": "Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy",
+            "submittedOnDailyBy": {
+                "_id": "658229ef5f6d83438257fce5",
+                "avatarUrl": "/avatars/b4417de9a338e95dc69cc547a46348e8.svg",
+                "isPro": false,
+                "fullname": "Chris (Yuhao) Liu",
+                "user": "chrisliu298",
+                "type": "user"
+            },
+            "summary": "Despite the critical role of reward models (RMs) in reinforcement learning\nfrom human feedback (RLHF), current state-of-the-art open RMs perform poorly on\nmost existing evaluation benchmarks, failing to capture the spectrum of nuanced\nand sophisticated human preferences. Even approaches that incorporate advanced\ntraining techniques have not yielded meaningful performance improvements. We\nhypothesize that this brittleness stems primarily from limitations in\npreference datasets, which are often narrowly scoped, synthetically labeled, or\nlack rigorous quality control. To address these challenges, we present a\nlarge-scale preference dataset comprising 40 million preference pairs, named\nSynPref-40M. To enable data curation at scale, we design a human-AI synergistic\ntwo-stage pipeline that leverages the complementary strengths of human\nannotation quality and AI scalability. In this pipeline, humans provide\nverified annotations, while large language models perform automatic curation\nbased on human guidance. Training on this preference mixture, we introduce\nSkywork-Reward-V2, a suite of eight reward models ranging from 0.6B to 8B\nparameters, trained on a carefully curated subset of 26 million preference\npairs from SynPref-40M. We demonstrate that Skywork-Reward-V2 is versatile\nacross a wide range of capabilities, including alignment with human\npreferences, objective correctness, safety, resistance to stylistic biases, and\nbest-of-N scaling, achieving state-of-the-art performance across seven major\nreward model benchmarks. Ablation studies confirm that the effectiveness of our\napproach stems not only from data scale but also from high-quality curation.\nThe Skywork-Reward-V2 series represents substantial progress in open reward\nmodels, highlighting the untapped potential of existing preference datasets and\ndemonstrating how human-AI curation synergy can unlock significantly higher\ndata quality.",
+            "upvotes": 29,
+            "discussionId": "6865cdc28c83dab5f72d1e24",
+            "githubRepo": "https://github.com/SkyworkAI/Skywork-Reward-V2",
+            "ai_summary": "A large-scale preference dataset and synergistic human-AI curation pipeline improve the quality and performance of open reward models in reinforcement learning from human feedback.",
+            "ai_keywords": [
+                "reward models",
+                "RLHF",
+                "preference datasets",
+                "human-AI synergistic pipeline",
+                "large language models",
+                "best-of-N scaling"
+            ],
+            "githubStars": 18
+        },
+        "translation_title": "Skywork-Reward-V2: 인간-AI 시너지를 통한 선호 데이터 수집의 확장",
+        "purpose": "보상 모델의 성능 향상을 위해 고품질의 대규모 선호 데이터셋을 구축하는 것.",
+        "method": [
+            "40백만 개의 선호 쌍으로 구성된 대규모 선호 데이터셋인 SynPref-40M을 생성함(To address these challenges, we present a large-scale preference dataset comprising 40 million preference pairs, named SynPref-40M.)",
+            "인간의 주석 품질과 AI의 확장성을 결합한 두 단계의 파이프라인을 설계함(we design a human-AI synergistic two-stage pipeline that leverages the complementary strengths of human annotation quality and AI scalability.)",
+            "26백만 개의 선호 쌍을 기반으로 하는 Skywork-Reward-V2라는 여러 개의 보상 모델을 훈련시키고, 이 모델들이 다양한 능력에서 우수성을 보여줌(Training on this preference mixture, we introduce Skywork-Reward-V2, a suite of eight reward models ranging from 0.6B to 8B parameters.)"
+        ],
+        "conclusion": "Skywork-Reward-V2는 현재의 보상 모델 벤치마크에서 최신 성능을 달성하며, 인간-AI 데이터 수집의 시너지를 통해 높은 데이터 품질을 확보하는 가능성을 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    }
+]
