@@ -1,0 +1,755 @@
+[
+    {
+        "paper": {
+            "id": "2507.05566",
+            "authors": [
+                {
+                    "_id": "686e0a5dcb5725779c60b4e6",
+                    "name": "David Bensaïd",
+                    "hidden": false
+                },
+                {
+                    "_id": "686e0a5dcb5725779c60b4e7",
+                    "user": {
+                        "_id": "62b3e85bcbd2a402fc7804b1",
+                        "avatarUrl": "/avatars/63125ce8a1e20b8c6e836f223d24284f.svg",
+                        "isPro": false,
+                        "fullname": "noam rotstein",
+                        "user": "noamrot",
+                        "type": "user"
+                    },
+                    "name": "Noam Rotstein",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:36.311Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686e0a5dcb5725779c60b4e8",
+                    "user": {
+                        "_id": "63ecaf7460ff4b318ad03ebb",
+                        "avatarUrl": "/avatars/7a5bf1854f1eae9cc5fd8392a3f9fba3.svg",
+                        "isPro": false,
+                        "fullname": "Roy Velich",
+                        "user": "royve",
+                        "type": "user"
+                    },
+                    "name": "Roy Velich",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:33.313Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686e0a5dcb5725779c60b4e9",
+                    "name": "Daniel Bensaïd",
+                    "hidden": false
+                },
+                {
+                    "_id": "686e0a5dcb5725779c60b4ea",
+                    "name": "Ron Kimmel",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T01:11:30.000Z",
+            "submittedOnDailyAt": "2025-07-09T04:55:03.373Z",
+            "title": "SingLoRA: Low Rank Adaptation Using a Single Matrix",
+            "submittedOnDailyBy": {
+                "_id": "62b3e85bcbd2a402fc7804b1",
+                "avatarUrl": "/avatars/63125ce8a1e20b8c6e836f223d24284f.svg",
+                "isPro": false,
+                "fullname": "noam rotstein",
+                "user": "noamrot",
+                "type": "user"
+            },
+            "summary": "Low-Rank Adaptation (LoRA) has significantly advanced parameter-efficient\nfine-tuning of large pretrained models. LoRA augments the pre-trained weights\nof a model by adding the product of two smaller matrices that together form a\nlow-rank matrix update. Recent research has shown that scale disparities\nbetween these two matrices often cause unstable training dynamics, leading to\nsuboptimal performance. In this paper, we propose SingLoRA, which reformulates\nlow-rank adaptation by learning the weights update as a decomposition of a\nsingle low-rank matrix multiplied by its transpose. This simple design\ninherently removes inter-matrix scale conflicts, ensuring stable optimization,\nand roughly halves the parameter count. We analyze SingLoRA within the\ninfinite-width neural network framework, showing that it guarantees stable\nfeature learning by construction. Extensive experiments on multiple tasks\nvalidate these benefits. In common sense reasoning, fine-tuning LLama 7B on\nMNLI with SingLoRA achieves 91.3% accuracy - surpassing LoRA (89.1%) and LoRA+\n(90.2%) - while using only 60% of their parameter budget. In image generation,\nfine-tuning Stable Diffusion with SingLoRA significantly improves image\nfidelity on DreamBooth, achieving a DINO similarity score of 0.151, compared to\nscores of 0.148 and 0.143 for DoRA and LoRA, respectively.",
+            "upvotes": 53,
+            "discussionId": "686e0a5dcb5725779c60b4eb",
+            "ai_summary": "SingLoRA, a reformulated low-rank adaptation method, enhances parameter-efficient fine-tuning by learning a single low-rank matrix update, ensuring stable optimization and reduced parameter count.",
+            "ai_keywords": [
+                "Low-Rank Adaptation",
+                "LoRA",
+                "SingLoRA",
+                "low-rank matrix",
+                "infinite-width neural network",
+                "feature learning",
+                "common sense reasoning",
+                "fine-tuning",
+                "LLama 7B",
+                "MNLI",
+                "image generation",
+                "Stable Diffusion",
+                "DreamBooth",
+                "DINO similarity score",
+                "DoRA"
+            ]
+        },
+        "translation_title": "SingLoRA: 단일 행렬을 이용한 저랭크 적응",
+        "purpose": "대규모 사전 훈련 모델의 파라미터 효율적인 미세 조정을 개선하기 위한 방법 제안",
+        "method": [
+            "단일 저랭크 행렬의 가중치 업데이트를 학습하는 방식으로 저랭크 적응을 재구성함(SingLoRA, which reformulates low-rank adaptation by learning the weights update as a decomposition of a single low-rank matrix multiplied by its transpose.)",
+            "이 간단한 설계를 통해 행렬 간의 스케일 충돌을 제거하고 안정적인 최적화를 보장함(This simple design inherently removes inter-matrix scale conflicts, ensuring stable optimization.)",
+            "여러 작업에서의 광범위한 실험으로 이점들을 검증함(Extensive experiments on multiple tasks validate these benefits.)"
+        ],
+        "conclusion": "SingLoRA는 지각적 안정성과 이미지 생성에서의 품질 향상에 기여하며, 기존 방식보다 더 적은 파라미터로 우수한 성능을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06203",
+            "authors": [
+                {
+                    "_id": "686ddd7fcb5725779c60b444",
+                    "user": {
+                        "_id": "63ff09f24852102d4871c19c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
+                        "isPro": false,
+                        "fullname": "Rui-Jie Zhu",
+                        "user": "ridger",
+                        "type": "user"
+                    },
+                    "name": "Rui-Jie Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:55.890Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b445",
+                    "name": "Tianhao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b446",
+                    "name": "Tianhao Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b447",
+                    "name": "Xingwei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b448",
+                    "user": {
+                        "_id": "63f37af60be81bdc5d92eebb",
+                        "avatarUrl": "/avatars/b8dfdff4ab36988ec9a8643e82a3d2db.svg",
+                        "isPro": false,
+                        "fullname": "Huang",
+                        "user": "Jinfa",
+                        "type": "user"
+                    },
+                    "name": "Jinfa Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:54.002Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b449",
+                    "name": "Dawei Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44a",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44b",
+                    "name": "Kaiwen Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44c",
+                    "name": "Xuanliang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44d",
+                    "name": "Yong Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44e",
+                    "name": "Tianle Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b44f",
+                    "name": "Taylor Kergan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b450",
+                    "name": "Assel Kembay",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b451",
+                    "name": "Andrew Smith",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b452",
+                    "name": "Chenghua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b453",
+                    "name": "Binh Nguyen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b454",
+                    "name": "Yuqi Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b455",
+                    "name": "Yuhong Chou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b456",
+                    "name": "Zefan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b457",
+                    "name": "Zhenhe Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b458",
+                    "name": "Yongchi Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b459",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45a",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45b",
+                    "name": "Wangchunshu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45c",
+                    "user": {
+                        "_id": "610b70452719facd4ea85e28",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/610b70452719facd4ea85e28/S7nMy7D0Rxq0VIVblhYDG.jpeg",
+                        "isPro": false,
+                        "fullname": "Chujie Zheng",
+                        "user": "chujiezheng",
+                        "type": "user"
+                    },
+                    "name": "Chujie Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:58.017Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45d",
+                    "name": "Chongxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45e",
+                    "name": "Yuyin Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b45f",
+                    "name": "Zhoujun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b460",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b461",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b462",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b463",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd7fcb5725779c60b464",
+                    "user": {
+                        "_id": "63047063bad6ce7fc02438c1",
+                        "avatarUrl": "/avatars/8729cccbb15da682458d323eb8dc528b.svg",
+                        "isPro": false,
+                        "fullname": "Jason",
+                        "user": "jeshragh",
+                        "type": "user"
+                    },
+                    "name": "Jason Eshraghian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:47.907Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T17:29:07.000Z",
+            "submittedOnDailyAt": "2025-07-09T01:45:08.087Z",
+            "title": "A Survey on Latent Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "63ff09f24852102d4871c19c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
+                "isPro": false,
+                "fullname": "Rui-Jie Zhu",
+                "user": "ridger",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have demonstrated impressive reasoning\ncapabilities, especially when guided by explicit chain-of-thought (CoT)\nreasoning that verbalizes intermediate steps. While CoT improves both\ninterpretability and accuracy, its dependence on natural language reasoning\nlimits the model's expressive bandwidth. Latent reasoning tackles this\nbottleneck by performing multi-step inference entirely in the model's\ncontinuous hidden state, eliminating token-level supervision. To advance latent\nreasoning research, this survey provides a comprehensive overview of the\nemerging field of latent reasoning. We begin by examining the foundational role\nof neural network layers as the computational substrate for reasoning,\nhighlighting how hierarchical representations support complex transformations.\nNext, we explore diverse latent reasoning methodologies, including\nactivation-based recurrence, hidden state propagation, and fine-tuning\nstrategies that compress or internalize explicit reasoning traces. Finally, we\ndiscuss advanced paradigms such as infinite-depth latent reasoning via masked\ndiffusion models, which enable globally consistent and reversible reasoning\nprocesses. By unifying these perspectives, we aim to clarify the conceptual\nlandscape of latent reasoning and chart future directions for research at the\nfrontier of LLM cognition. An associated GitHub repository collecting the\nlatest papers and repos is available at:\nhttps://github.com/multimodal-art-projection/LatentCoT-Horizon/.",
+            "upvotes": 49,
+            "discussionId": "686ddd7fcb5725779c60b465",
+            "githubRepo": "https://github.com/multimodal-art-projection/LatentCoT-Horizon/",
+            "ai_summary": "Latent reasoning enhances large language models by performing multi-step inference in continuous hidden states, improving efficiency and expressiveness beyond token-level supervision.",
+            "ai_keywords": [
+                "chain-of-thought reasoning",
+                "latent reasoning",
+                "neural network layers",
+                "hierarchical representations",
+                "activation-based recurrence",
+                "hidden state propagation",
+                "fine-tuning strategies",
+                "infinite-depth latent reasoning",
+                "masked diffusion models",
+                "globally consistent reasoning",
+                "reversible reasoning processes"
+            ],
+            "githubStars": 44
+        },
+        "translation_title": "잠재적 추론에 관한 조사",
+        "purpose": "잠재적 추론 연구를 발전시키고 LLM 인지의 최전선에서 연구의 방향을 제시하기 위한 포괄적인 개요 제공",
+        "method": [
+            "신경망 층의 기초적 역할을 조사하여 추론을 위한 계산 기반을 강조함(We begin by examining the foundational role of neural network layers as the computational substrate for reasoning.)",
+            "다양한 잠재적 추론 방법론을 탐구함(Next, we explore diverse latent reasoning methodologies.)",
+            "마스크된 확산 모델을 통한 무한 깊이의 잠재적 추론과 같은 고급 패러다임을 논의함.Finally, we discuss advanced paradigms such as infinite-depth latent reasoning via masked diffusion models.)"
+        ],
+        "conclusion": "이러한 관점을 통합하여 잠재적 추론의 개념적 경관을 명확히 하고, 향후 연구 방향을 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06165",
+            "authors": [
+                {
+                    "_id": "686ddd5ccb5725779c60b430",
+                    "name": "Yunhan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b431",
+                    "name": "Yufan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b432",
+                    "name": "Yuan-Chen Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b433",
+                    "name": "Zi-Xin Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b434",
+                    "name": "Yukun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b435",
+                    "name": "Ying-Tian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b436",
+                    "name": "Hao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b437",
+                    "name": "Ding Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b438",
+                    "name": "Yan-Pei Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686ddd5ccb5725779c60b439",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6427e08288215cee63b1c44d/Y9wAFEXtYiDmbh7rRZDoz.mp4"
+            ],
+            "publishedAt": "2025-07-08T16:46:15.000Z",
+            "submittedOnDailyAt": "2025-07-09T02:05:05.139Z",
+            "title": "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and\n  Structural Cohesion",
+            "submittedOnDailyBy": {
+                "_id": "6427e08288215cee63b1c44d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6427e08288215cee63b1c44d/rzaG978FF-ywzicWNl_xl.jpeg",
+                "isPro": false,
+                "fullname": "yao teng",
+                "user": "tytyt",
+                "type": "user"
+            },
+            "summary": "The creation of 3D assets with explicit, editable part structures is crucial\nfor advancing interactive applications, yet most generative methods produce\nonly monolithic shapes, limiting their utility. We introduce OmniPart, a novel\nframework for part-aware 3D object generation designed to achieve high semantic\ndecoupling among components while maintaining robust structural cohesion.\nOmniPart uniquely decouples this complex task into two synergistic stages: (1)\nan autoregressive structure planning module generates a controllable,\nvariable-length sequence of 3D part bounding boxes, critically guided by\nflexible 2D part masks that allow for intuitive control over part decomposition\nwithout requiring direct correspondences or semantic labels; and (2) a\nspatially-conditioned rectified flow model, efficiently adapted from a\npre-trained holistic 3D generator, synthesizes all 3D parts simultaneously and\nconsistently within the planned layout. Our approach supports user-defined part\ngranularity, precise localization, and enables diverse downstream applications.\nExtensive experiments demonstrate that OmniPart achieves state-of-the-art\nperformance, paving the way for more interpretable, editable, and versatile 3D\ncontent.",
+            "upvotes": 36,
+            "discussionId": "686ddd5ccb5725779c60b43a",
+            "ai_summary": "OmniPart generates part-aware 3D objects with high semantic decoupling and robust structural cohesion using an autoregressive structure planning module and a spatially-conditioned rectified flow model.",
+            "ai_keywords": [
+                "autoregressive structure planning module",
+                "3D part bounding boxes",
+                "2D part masks",
+                "spatially-conditioned rectified flow model",
+                "holistic 3D generator"
+            ]
+        },
+        "translation_title": "OmniPart: 구조적 응집력과 의미적 분리를 통한 부품 인식 3D 생성",
+        "purpose": "부품 구조를 명확하게 편집할 수 있는 3D 자산을 생성하여 인터랙티브 애플리케이션의 발전을 도모하기 위함",
+        "method": [
+            "OmniPart 프레임워크는 부품 인식 3D 객체 생성을 위한 두 가지 상호보완적인 단계로 구성됨, 즉(OmniPart uniquely decouples this complex task into two synergistic stages)",
+            "첫 번째 단계로, 오토 회귀적 구조 계획 모듈이 제어 가능한 변동 길이의 3D 부품 경계 상자를 생성함(1 an autoregressive structure planning module generates a controllable, variable-length sequence of 3D part bounding boxes)",
+            "두 번째 단계로, 공간 조건화된 정정 흐름 모델이 계획된 레이아웃 내에서 모든 3D 부품을 동시에 생성함(2 a spatially-conditioned rectified flow model, efficiently adapted from a pre-trained holistic 3D generator, synthesizes all 3D parts simultaneously and consistently within the planned layout)"
+        ],
+        "conclusion": "OmniPart는 사용자가 정의한 부품 세분화, 정확한 위치 지정 및 다양한 하위 응용 프로그램을 지원하며, 최첨단 성능을 달성하여 보다 해석 가능하고 편집이 가능하며 다재다능한 3D 콘텐츠 생성을 가능케 함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06181",
+            "authors": [
+                {
+                    "_id": "686dcc36cb5725779c60b393",
+                    "user": {
+                        "_id": "63299f93688ad82b783aaf20",
+                        "avatarUrl": "/avatars/7c11e60e551ef1c62aa2862529e357f5.svg",
+                        "isPro": false,
+                        "fullname": "zhongyuan peng",
+                        "user": "happzy2633",
+                        "type": "user"
+                    },
+                    "name": "Zhongyuan Peng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T14:41:00.582Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b394",
+                    "name": "Yifan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b395",
+                    "name": "Kaijing Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b396",
+                    "name": "Shuyue Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b397",
+                    "name": "Yizhe Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b398",
+                    "name": "Yichi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b399",
+                    "name": "Chenchen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39a",
+                    "user": {
+                        "_id": "647bf082aba7062fe5c51ca9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647bf082aba7062fe5c51ca9/p4lY9IjHiWZETKmFq1mtU.jpeg",
+                        "isPro": false,
+                        "fullname": "Yifan Zhang",
+                        "user": "yifAI",
+                        "type": "user"
+                    },
+                    "name": "Yifan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:50:21.463Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39b",
+                    "user": {
+                        "_id": "62a80fe3ac97233f1625235a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a80fe3ac97233f1625235a/_rGtpqdY7OEBz3pyqb6fE.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhouliang Yu",
+                        "user": "zhouliang",
+                        "type": "user"
+                    },
+                    "name": "Zhouliang Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:50:19.408Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39c",
+                    "name": "Luming Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39d",
+                    "name": "Minghao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39e",
+                    "name": "Yihang Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b39f",
+                    "name": "Jiawei Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a0",
+                    "name": "Yuchen Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a1",
+                    "name": "Yixin Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a2",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a3",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a4",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686dcc36cb5725779c60b3a5",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:50:23.532Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T17:03:39.000Z",
+            "submittedOnDailyAt": "2025-07-09T00:45:12.634Z",
+            "title": "CriticLean: Critic-Guided Reinforcement Learning for Mathematical\n  Formalization",
+            "submittedOnDailyBy": {
+                "_id": "63299f93688ad82b783aaf20",
+                "avatarUrl": "/avatars/7c11e60e551ef1c62aa2862529e357f5.svg",
+                "isPro": false,
+                "fullname": "zhongyuan peng",
+                "user": "happzy2633",
+                "type": "user"
+            },
+            "summary": "Translating natural language mathematical statements into formal, executable\ncode is a fundamental challenge in automated theorem proving. While prior work\nhas focused on generation and compilation success, little attention has been\npaid to the critic phase-the evaluation of whether generated formalizations\ntruly capture the semantic intent of the original problem. In this paper, we\nintroduce CriticLean, a novel critic-guided reinforcement learning framework\nthat elevates the role of the critic from a passive validator to an active\nlearning component. Specifically, first, we propose the CriticLeanGPT, trained\nvia supervised fine-tuning and reinforcement learning, to rigorously assess the\nsemantic fidelity of Lean 4 formalizations. Then, we introduce CriticLeanBench,\na benchmark designed to measure models' ability to distinguish semantically\ncorrect from incorrect formalizations, and demonstrate that our trained\nCriticLeanGPT models can significantly outperform strong open- and\nclosed-source baselines. Building on the CriticLean framework, we construct\nFineLeanCorpus, a dataset comprising over 285K problems that exhibits rich\ndomain diversity, broad difficulty coverage, and high correctness based on\nhuman evaluation. Overall, our findings highlight that optimizing the critic\nphase is essential for producing reliable formalizations, and we hope our\nCriticLean will provide valuable insights for future advances in formal\nmathematical reasoning.",
+            "upvotes": 34,
+            "discussionId": "686dcc36cb5725779c60b3a6",
+            "githubRepo": "https://github.com/multimodal-art-projection/CriticLean",
+            "ai_summary": "CriticLean, a reinforcement learning framework with CriticLeanGPT and CriticLeanBench, enhances semantic evaluation in automated theorem proving by actively learning to distinguish correct from incorrect formalizations.",
+            "ai_keywords": [
+                "critic phase",
+                "reinforcement learning",
+                "CriticLeanGPT",
+                "supervised fine-tuning",
+                "semantic fidelity",
+                "Lean 4 formalizations",
+                "CriticLeanBench",
+                "FineLeanCorpus",
+                "formal mathematical reasoning"
+            ],
+            "githubStars": 16
+        },
+        "translation_title": "CriticLean: 수학적 공식화를 위한 비평자 안내 강화 학습",
+        "purpose": "자연어 수학 진술을 형식적이고 실행 가능한 코드로 번역하는 과정을 개선하고, 생성된 공식화의 의미적 의도를 평가하기 위한 시스템 개발",
+        "method": [
+            "CriticLean이라는 새로운 비평자 가이드 강화 학습 프레임워크를 소개함(we introduce CriticLean, a novel critic-guided reinforcement learning framework)",
+            "CriticLeanGPT를 제안하여 Lean 4 공식화의 의미적 정확성을 엄격하게 평가함(we propose the CriticLeanGPT, trained via supervised fine-tuning and reinforcement learning, to rigorously assess the semantic fidelity of Lean 4 formalizations.)",
+            "비평자의 역할을 능동적인 학습 구성 요소로 전환함을 설명함(we elevate the role of the critic from a passive validator to an active learning component)",
+            "CriticLeanBench라는 벤치마크를 소개해 모델의 의미적으로 올바른 공식화와 잘못된 공식화를 구분하는 능력을 측정함(we introduce CriticLeanBench, a benchmark designed to measure models' ability to distinguish semantically correct from incorrect formalizations.)"
+        ],
+        "conclusion": "CriticLean 프레임워크는 신뢰할 수 있는 공식화를 위한 비평자 단계 최적화의 중요성을 강조하며, 향후 형식 수학적 추론의 발전에 기여할 것으로 기대됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Formalization"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.05240",
+            "authors": [
+                {
+                    "_id": "686de9d4cb5725779c60b487",
+                    "name": "Meng Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b488",
+                    "user": {
+                        "_id": "66bb5e6573ce3e3ef046615a",
+                        "avatarUrl": "/avatars/cbfb4b4114dc3afd0eb63b43a809ba09.svg",
+                        "isPro": false,
+                        "fullname": "Chenyang Wan",
+                        "user": "cywan",
+                        "type": "user"
+                    },
+                    "name": "Chenyang Wan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-09T08:49:45.781Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b489",
+                    "name": "Xiqian Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48a",
+                    "name": "Tai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48b",
+                    "name": "Yuqiang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48c",
+                    "name": "Xiaohan Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48d",
+                    "name": "Chenming Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48e",
+                    "name": "Wenzhe Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b48f",
+                    "name": "Hanqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b490",
+                    "name": "Yilun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b491",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686de9d4cb5725779c60b492",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64e6d9d229a548f66aff6e5b/Vpc-LLN2y02mgIeZu43Mv.mp4"
+            ],
+            "publishedAt": "2025-07-07T17:49:41.000Z",
+            "submittedOnDailyAt": "2025-07-09T03:18:43.255Z",
+            "title": "StreamVLN: Streaming Vision-and-Language Navigation via SlowFast Context\n  Modeling",
+            "submittedOnDailyBy": {
+                "_id": "64e6d9d229a548f66aff6e5b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e6d9d229a548f66aff6e5b/yQ9E2TyzM4CfSjMPigcey.jpeg",
+                "isPro": false,
+                "fullname": "Tai Wang",
+                "user": "taiwang",
+                "type": "user"
+            },
+            "summary": "Vision-and-Language Navigation (VLN) in real-world settings requires agents\nto process continuous visual streams and generate actions with low latency\ngrounded in language instructions. While Video-based Large Language Models\n(Video-LLMs) have driven recent progress, current VLN methods based on\nVideo-LLM often face trade-offs among fine-grained visual understanding,\nlong-term context modeling and computational efficiency. We introduce\nStreamVLN, a streaming VLN framework that employs a hybrid slow-fast context\nmodeling strategy to support multi-modal reasoning over interleaved vision,\nlanguage and action inputs. The fast-streaming dialogue context facilitates\nresponsive action generation through a sliding-window of active dialogues,\nwhile the slow-updating memory context compresses historical visual states\nusing a 3D-aware token pruning strategy. With this slow-fast design, StreamVLN\nachieves coherent multi-turn dialogue through efficient KV cache reuse,\nsupporting long video streams with bounded context size and inference cost.\nExperiments on VLN-CE benchmarks demonstrate state-of-the-art performance with\nstable low latency, ensuring robustness and efficiency in real-world\ndeployment. The project page is:\nhttps://streamvln.github.io/{https://streamvln.github.io/}.",
+            "upvotes": 32,
+            "discussionId": "686de9d4cb5725779c60b493",
+            "projectPage": "https://streamvln.github.io/",
+            "githubRepo": "https://github.com/OpenRobotLab/StreamVLN",
+            "ai_summary": "StreamVLN, a streaming VLN framework, uses a hybrid slow-fast context modeling strategy to balance fine-grained visual understanding, long-term context modeling, and computational efficiency in real-world settings.",
+            "ai_keywords": [
+                "Video-LLMs",
+                "StreamVLN",
+                "hybrid slow-fast context modeling",
+                "multi-modal reasoning",
+                "fast-streaming dialogue context",
+                "slow-updating memory context",
+                "3D-aware token pruning",
+                "KV cache reuse",
+                "VLN-CE benchmarks"
+            ],
+            "githubStars": 76
+        },
+        "translation_title": "StreamVLN: 슬로우패스트 컨텍스트 모델링을 통한 비전-언어 내비게이션",
+        "purpose": "비전-언어 내비게이션에서 효율적이고 빠른 행동 생성을 위한 새로운 프레임워크 개발",
+        "method": [
+            "슬로우-패스트 컨텍스트 모델링 전략을 사용하여 시각, 언어 및 행동 입력을 통합적으로 처리하도록 함(We introduce StreamVLN, a streaming VLN framework that employs a hybrid slow-fast context modeling strategy to support multi-modal reasoning over interleaved vision, language and action inputs.)",
+            "빠른 스트리밍 대화 컨텍스트를 통해 능동적인 대화의 슬라이딩 윈도우를 사용하여 반응적인 행동 생성을 지원함(The fast-streaming dialogue context facilitates responsive action generation through a sliding-window of active dialogues.)",
+            "느린 업데이트 메모리 컨텍스트를 사용하여 과거의 시각 상태를 압축하는 3D 인식 기반 토큰 프루닝 전략을 적용함(while the slow-updating memory context compresses historical visual states using a 3D-aware token pruning strategy.)"
+        ],
+        "conclusion": "StreamVLN은 긴 비디오 스트림에서도 안정적이고 낮은 지연 시간을 유지하며, 현실 세계 배치에서 강인성과 효율성을 보장함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    }
+]
