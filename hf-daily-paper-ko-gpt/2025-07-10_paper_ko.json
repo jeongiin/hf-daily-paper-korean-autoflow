@@ -1,0 +1,600 @@
+[
+    {
+        "paper": {
+            "id": "2507.07095",
+            "authors": [
+                {
+                    "_id": "686f2579d938c25d68441b43",
+                    "name": "Ke Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b44",
+                    "name": "Shunlin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b45",
+                    "user": {
+                        "_id": "6853b71ec1be83a29eb5ba36",
+                        "avatarUrl": "/avatars/ae205c2ec2c421a0d7851755b4f123a2.svg",
+                        "isPro": false,
+                        "fullname": "Minyue Dai",
+                        "user": "Jixi111",
+                        "type": "user"
+                    },
+                    "name": "Minyue Dai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T07:09:19.845Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b46",
+                    "name": "Runyi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b47",
+                    "name": "Lixing Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b48",
+                    "name": "Zhiyang Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b49",
+                    "name": "Junting Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b4a",
+                    "name": "Lizhuang Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2579d938c25d68441b4b",
+                    "name": "Jingbo Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-09T17:52:04.000Z",
+            "submittedOnDailyAt": "2025-07-10T01:12:54.854Z",
+            "title": "Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data",
+            "submittedOnDailyBy": {
+                "_id": "66d59dc9b005ad82ca6fc61d",
+                "avatarUrl": "/avatars/0ba424690afd1144a89665c5bacdfde7.svg",
+                "isPro": false,
+                "fullname": "Runyi YU",
+                "user": "IngridYU",
+                "type": "user"
+            },
+            "summary": "Generating diverse and natural human motion sequences based on textual\ndescriptions constitutes a fundamental and challenging research area within the\ndomains of computer vision, graphics, and robotics. Despite significant\nadvancements in this field, current methodologies often face challenges\nregarding zero-shot generalization capabilities, largely attributable to the\nlimited size of training datasets. Moreover, the lack of a comprehensive\nevaluation framework impedes the advancement of this task by failing to\nidentify directions for improvement. In this work, we aim to push\ntext-to-motion into a new era, that is, to achieve the generalization ability\nof zero-shot. To this end, firstly, we develop an efficient annotation pipeline\nand introduce MotionMillion-the largest human motion dataset to date, featuring\nover 2,000 hours and 2 million high-quality motion sequences. Additionally, we\npropose MotionMillion-Eval, the most comprehensive benchmark for evaluating\nzero-shot motion generation. Leveraging a scalable architecture, we scale our\nmodel to 7B parameters and validate its performance on MotionMillion-Eval. Our\nresults demonstrate strong generalization to out-of-domain and complex\ncompositional motions, marking a significant step toward zero-shot human motion\ngeneration. The code is available at\nhttps://github.com/VankouF/MotionMillion-Codes.",
+            "upvotes": 37,
+            "discussionId": "686f2579d938c25d68441b4c",
+            "githubRepo": "https://github.com/VankouF/MotionMillion-Codes",
+            "ai_summary": "A new dataset and evaluation framework improve zero-shot text-to-motion generation through a large-scale, high-quality dataset and a scalable model architecture.",
+            "ai_keywords": [
+                "MotionMillion",
+                "MotionMillion-Eval",
+                "zero-shot motion generation",
+                "scalable architecture"
+            ],
+            "githubStars": 71
+        },
+        "translation_title": "제로샷 모션 생성을 향한 진책: 백만 규모 데이터와 함께하는 접근",
+        "purpose": "텍스트 설명 기반으로 다양한 자연스러운 인간 모션 시퀀스를 생성하는 것의 제로샷 일반화 능력을 향상시키기 위한 연구",
+        "method": [
+            "효율적인 주석 파이프라인을 개발하고, 2,000시간과 200만 개의 고품질 모션 시퀀스를 포함하는 MotionMillion라는 대규모 인간 모션 데이터셋을 소개함(we develop an efficient annotation pipeline and introduce MotionMillion-the largest human motion dataset to date, featuring over 2,000 hours and 2 million high-quality motion sequences.)",
+            "제로샷 모션 생성을 평가하기 위한 가장 포괄적인 벤치마크인 MotionMillion-Eval을 제안함(we propose MotionMillion-Eval, the most comprehensive benchmark for evaluating zero-shot motion generation.)",
+            "7B 파라미터로 모델을 확장하고 MotionMillion-Eval에서 성능을 검증함(Leveraging a scalable architecture, we scale our model to 7B parameters and validate its performance on MotionMillion-Eval.)"
+        ],
+        "conclusion": "이 연구는 제로샷 인간 모션 생성에서 중요한 진전을 이루었으며, 다양한 복합 모션에 대한 강력한 일반화 능력을 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "Robotics",
+            "Motion Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.07105",
+            "authors": [
+                {
+                    "_id": "686f5cbad938c25d68441bb2",
+                    "user": {
+                        "_id": "643e9efa2263cdc630f88f5c",
+                        "avatarUrl": "/avatars/96cea51f17e7d41ffb6a4b438e05f5cb.svg",
+                        "isPro": false,
+                        "fullname": "Yushen Zuo",
+                        "user": "YSZuo",
+                        "type": "user"
+                    },
+                    "name": "Yushen Zuo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T09:12:43.813Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb3",
+                    "name": "Qi Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb4",
+                    "user": {
+                        "_id": "6736d289c8a9bf8f86936201",
+                        "avatarUrl": "/avatars/ca56298f9db458ba65c469b1baabda2c.svg",
+                        "isPro": false,
+                        "fullname": "MingyangWu",
+                        "user": "mingyang-wu",
+                        "type": "user"
+                    },
+                    "name": "Mingyang Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T13:14:02.465Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb5",
+                    "name": "Xinrui Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb6",
+                    "name": "Renjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb7",
+                    "name": "Jian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb8",
+                    "name": "Yide Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bb9",
+                    "name": "Gengchen Mai",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bba",
+                    "name": "Lihong V. Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bbb",
+                    "name": "James Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bbc",
+                    "name": "Xiaoyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bbd",
+                    "name": "Ming-Hsuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f5cbad938c25d68441bbe",
+                    "user": {
+                        "_id": "62548d5fef3debb2ddf91217",
+                        "avatarUrl": "/avatars/14975b45568f9c399c92c3986b6ce83e.svg",
+                        "isPro": false,
+                        "fullname": "Zhengzhong Tu",
+                        "user": "vztu",
+                        "type": "user"
+                    },
+                    "name": "Zhengzhong Tu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T09:12:41.972Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62548d5fef3debb2ddf91217/ESnx_PS3_HUQoNDY5cSqI.png"
+            ],
+            "publishedAt": "2025-07-09T17:59:19.000Z",
+            "submittedOnDailyAt": "2025-07-10T04:56:36.746Z",
+            "title": "4KAgent: Agentic Any Image to 4K Super-Resolution",
+            "submittedOnDailyBy": {
+                "_id": "62548d5fef3debb2ddf91217",
+                "avatarUrl": "/avatars/14975b45568f9c399c92c3986b6ce83e.svg",
+                "isPro": false,
+                "fullname": "Zhengzhong Tu",
+                "user": "vztu",
+                "type": "user"
+            },
+            "summary": "We present 4KAgent, a unified agentic super-resolution generalist system\ndesigned to universally upscale any image to 4K resolution (and even higher, if\napplied iteratively). Our system can transform images from extremely low\nresolutions with severe degradations, for example, highly distorted inputs at\n256x256, into crystal-clear, photorealistic 4K outputs. 4KAgent comprises three\ncore components: (1) Profiling, a module that customizes the 4KAgent pipeline\nbased on bespoke use cases; (2) A Perception Agent, which leverages\nvision-language models alongside image quality assessment experts to analyze\nthe input image and make a tailored restoration plan; and (3) A Restoration\nAgent, which executes the plan, following a recursive execution-reflection\nparadigm, guided by a quality-driven mixture-of-expert policy to select the\noptimal output for each step. Additionally, 4KAgent embeds a specialized face\nrestoration pipeline, significantly enhancing facial details in portrait and\nselfie photos. We rigorously evaluate our 4KAgent across 11 distinct task\ncategories encompassing a total of 26 diverse benchmarks, setting new\nstate-of-the-art on a broad spectrum of imaging domains. Our evaluations cover\nnatural images, portrait photos, AI-generated content, satellite imagery,\nfluorescence microscopy, and medical imaging like fundoscopy, ultrasound, and\nX-ray, demonstrating superior performance in terms of both perceptual (e.g.,\nNIQE, MUSIQ) and fidelity (e.g., PSNR) metrics. By establishing a novel agentic\nparadigm for low-level vision tasks, we aim to catalyze broader interest and\ninnovation within vision-centric autonomous agents across diverse research\ncommunities. We will release all the code, models, and results at:\nhttps://4kagent.github.io.",
+            "upvotes": 30,
+            "discussionId": "686f5cbbd938c25d68441bbf",
+            "projectPage": "https://4kagent.github.io/",
+            "githubRepo": "https://github.com/taco-group/4KAgent",
+            "ai_summary": "4KAgent, a unified agentic super-resolution system, enhances low-resolution images to 4K using profiling, perception, and restoration agents, achieving state-of-the-art performance across various imaging domains.",
+            "ai_keywords": [
+                "agentic super-resolution",
+                "Profiling",
+                "Perception Agent",
+                "vision-language models",
+                "image quality assessment",
+                "Restoration Agent",
+                "recursive execution-reflection",
+                "quality-driven mixture-of-experts",
+                "face restoration pipeline",
+                "NIQE",
+                "MUSIQ",
+                "PSNR",
+                "low-level vision tasks",
+                "autonomous agents"
+            ],
+            "githubStars": 21
+        },
+        "translation_title": "4KAgent: 에이전틱 이미지의 4K 초고해상도 변환 시스템",
+        "purpose": "어떠한 이미지를 4K 초고해상도로 변환하기 위한 통합 시스템 개발",
+        "method": [
+            "사용자 맞춤형 케이스에 따라 4KAgent 파이프라인을 맞춤화하는 Profiling 모듈을 포함함(Our system comprises three core components: (1) Profiling, a module that customizes the 4KAgent pipeline based on bespoke use cases;)",
+            "입력 이미지를 분석하고 맞춤형 복원 계획을 세우기 위해 vision-language 모델과 이미지 품질 평가 전문가를 활용하는 Perception Agent를 사용함(Perception Agent, which leverages vision-language models alongside image quality assessment experts to analyze the input image and make a tailored restoration plan;)",
+            "복원 계획을 실행하고 최적의 출력을 선택하는 Restoration Agent를 운영함(A Restoration Agent, which executes the plan, following a recursive execution-reflection paradigm, guided by a quality-driven mixture-of-expert policy to select the optimal output for each step.)"
+        ],
+        "conclusion": "다양한 이미징 분야에서 새로운 최첨단 성능을 달성하여 비전 중심 자율 에이전트에 대한 관심과 혁신을 촉진하고자 함.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06448",
+            "authors": [
+                {
+                    "_id": "686f326dd938c25d68441b6a",
+                    "name": "Zhenhailong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b6b",
+                    "name": "Xuehang Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b6c",
+                    "name": "Sofia Stoica",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b6d",
+                    "user": {
+                        "_id": "645b10e80c73ea27d13f7aca",
+                        "avatarUrl": "/avatars/95e565306472a15067440b5b43e07a6f.svg",
+                        "isPro": false,
+                        "fullname": "xuhaiyang",
+                        "user": "xhyandwyy",
+                        "type": "user"
+                    },
+                    "name": "Haiyang Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T07:09:17.834Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b6e",
+                    "name": "Hongru Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b6f",
+                    "name": "Hyeonjeong Ha",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b70",
+                    "name": "Xiusi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b71",
+                    "name": "Yangyi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b72",
+                    "name": "Ming Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b73",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f326dd938c25d68441b74",
+                    "name": "Heng Ji",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T23:22:34.000Z",
+            "submittedOnDailyAt": "2025-07-10T01:56:27.555Z",
+            "title": "Perception-Aware Policy Optimization for Multimodal Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "628d7265db4cd1d1717c884f",
+                "avatarUrl": "/avatars/dff2a3dd10d84b4a73fa486402de7219.svg",
+                "isPro": false,
+                "fullname": "Zhenhailong Wang",
+                "user": "mikewang",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has proven to be a\nhighly effective strategy for endowing Large Language Models (LLMs) with robust\nmulti-step reasoning abilities. However, its design and optimizations remain\ntailored to purely textual domains, resulting in suboptimal performance when\napplied to multimodal reasoning tasks. In particular, we observe that a major\nsource of error in current multimodal reasoning lies in the perception of\nvisual inputs. To address this bottleneck, we propose Perception-Aware Policy\nOptimization (PAPO), a simple yet effective extension of GRPO that encourages\nthe model to learn to perceive while learning to reason, entirely from internal\nsupervision signals. Notably, PAPO does not rely on additional data curation,\nexternal reward models, or proprietary models. Specifically, we introduce the\nImplicit Perception Loss in the form of a KL divergence term to the GRPO\nobjective, which, despite its simplicity, yields significant overall\nimprovements (4.4%) on diverse multimodal benchmarks. The improvements are more\npronounced, approaching 8.0%, on tasks with high vision dependency. We also\nobserve a substantial reduction (30.5%) in perception errors, indicating\nimproved perceptual capabilities with PAPO. We conduct comprehensive analysis\nof PAPO and identify a unique loss hacking issue, which we rigorously analyze\nand mitigate through a Double Entropy Loss. Overall, our work introduces a\ndeeper integration of perception-aware supervision into RLVR learning\nobjectives and lays the groundwork for a new RL framework that encourages\nvisually grounded reasoning. Project page: https://mikewangwzhl.github.io/PAPO.",
+            "upvotes": 26,
+            "discussionId": "686f326dd938c25d68441b75",
+            "projectPage": "https://mikewangwzhl.github.io/PAPO",
+            "githubRepo": "https://github.com/MikeWangWZHL/PAPO",
+            "ai_summary": "Perception-Aware Policy Optimization (PAPO) enhances reinforcement learning with verifiable rewards for multimodal reasoning by integrating implicit perception loss, improving visual perception and reasoning.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards (RLVR)",
+                "Large Language Models (LLMs)",
+                "multimodal reasoning tasks",
+                "Perception-Aware Policy Optimization (PAPO)",
+                "GRPO",
+                "Implicit Perception Loss",
+                "KL divergence",
+                "Double Entropy Loss",
+                "visually grounded reasoning"
+            ],
+            "githubStars": 20
+        },
+        "translation_title": "다중 모달 추론을 위한 인식 기반 정책 최적화",
+        "purpose": "다중 모달 추론에서 시각 입력 인식을 향상시키기 위한 정책 최적화 방법 개발",
+        "method": [
+            "행동 정책에 내부 감독 신호를 활용해 모델이 추론하면서 인식하도록 유도하는 Perception-Aware Policy Optimization(PAPO) 방법을 제안함(To address this bottleneck, we propose Perception-Aware Policy Optimization (PAPO), a simple yet effective extension of GRPO that encourages the model to learn to perceive while learning to reason, entirely from internal supervision signals.)",
+            "KL divergence 항을 이용한 Implicit Perception Loss를 GRPO 목표에 추가함(Specifically, we introduce the Implicit Perception Loss in the form of a KL divergence term to the GRPO objective.)",
+            "다양한 다중 모달 벤치마크에서 성능 개선(4.4%)을 달성하고, 시각 의존성이 높은 작업에서는 향상된 성능(8.0%)을 기록함(Notably, PAPO does not rely on additional data curation, external reward models, or proprietary models.)"
+        ],
+        "conclusion": "PAPO를 통한 인식 기반 감독을 RLVR 학습 목표에 통합하여 시각적으로 기반한 추론을 촉진하는 새로운 RL 프레임워크의 기초를 마련함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06920",
+            "authors": [
+                {
+                    "_id": "686f1da1d938c25d68441b1b",
+                    "user": {
+                        "_id": "677e869467f3bb8d8215eec6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/677e869467f3bb8d8215eec6/kEC6JOKObgLHA22jRcP4H.jpeg",
+                        "isPro": false,
+                        "fullname": "Zihan Ma",
+                        "user": "MichaelErchi",
+                        "type": "user"
+                    },
+                    "name": "Zihan Ma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T07:09:33.413Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b1c",
+                    "user": {
+                        "_id": "64c8835a4cc48498134364be",
+                        "avatarUrl": "/avatars/a26120216483c6bf3b830c0cf9c4008e.svg",
+                        "isPro": false,
+                        "fullname": "TaolinZhang",
+                        "user": "iridescentttt",
+                        "type": "user"
+                    },
+                    "name": "Taolin Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T13:14:31.682Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b1d",
+                    "name": "Maosong Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b1e",
+                    "name": "Wenwei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b1f",
+                    "name": "Minnan Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b20",
+                    "user": {
+                        "_id": "630716d11801ecc7d2595021",
+                        "avatarUrl": "/avatars/2d36a880ce4a3cf7efc5ff3987dbeaf3.svg",
+                        "isPro": false,
+                        "fullname": "Songyang Zhang",
+                        "user": "zsytony",
+                        "type": "user"
+                    },
+                    "name": "Songyang Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T13:14:29.511Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f1da1d938c25d68441b21",
+                    "name": "Kai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-09T14:58:47.000Z",
+            "submittedOnDailyAt": "2025-07-10T00:31:10.862Z",
+            "title": "Rethinking Verification for LLM Code Generation: From Generation to\n  Testing",
+            "submittedOnDailyBy": {
+                "_id": "677e869467f3bb8d8215eec6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/677e869467f3bb8d8215eec6/kEC6JOKObgLHA22jRcP4H.jpeg",
+                "isPro": false,
+                "fullname": "Zihan Ma",
+                "user": "MichaelErchi",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) have recently achieved notable success in\ncode-generation benchmarks such as HumanEval and LiveCodeBench. However, a\ndetailed examination reveals that these evaluation suites often comprise only a\nlimited number of homogeneous test cases, resulting in subtle faults going\nundetected. This not only artificially inflates measured performance but also\ncompromises accurate reward estimation in reinforcement learning frameworks\nutilizing verifiable rewards (RLVR). To address these critical shortcomings, we\nsystematically investigate the test-case generation (TCG) task by proposing\nmulti-dimensional metrics designed to rigorously quantify test-suite\nthoroughness. Furthermore, we introduce a human-LLM collaborative method\n(SAGA), leveraging human programming expertise with LLM reasoning capability,\naimed at significantly enhancing both the coverage and the quality of generated\ntest cases. In addition, we develop a TCGBench to facilitate the study of the\nTCG task. Experiments show that SAGA achieves a detection rate of 90.62% and a\nverifier accuracy of 32.58% on TCGBench. The Verifier Accuracy (Verifier Acc)\nof the code generation evaluation benchmark synthesized by SAGA is 10.78%\nhigher than that of LiveCodeBench-v6. These results demonstrate the\neffectiveness of our proposed method. We hope this work contributes to building\na scalable foundation for reliable LLM code evaluation, further advancing RLVR\nin code generation, and paving the way for automated adversarial test synthesis\nand adaptive benchmark integration.",
+            "upvotes": 21,
+            "discussionId": "686f1da1d938c25d68441b22",
+            "ai_summary": "A human-LLM collaborative method enhances code generation test case generation, improving reliability and detection rates in code evaluation benchmarks.",
+            "ai_keywords": [
+                "large language models",
+                "code-generation",
+                "HumanEval",
+                "LiveCodeBench",
+                "test-case generation",
+                "multi-dimensional metrics",
+                "human-LLM collaboration",
+                "SAGA",
+                "TCGBench",
+                "reinforcement learning frameworks",
+                "verifiable rewards",
+                "RLVR",
+                "verifier accuracy",
+                "adversarial test synthesis",
+                "adaptive benchmark integration"
+            ]
+        },
+        "translation_title": "LLM 코드 생성을 위한 검증 재고: 생성에서 테스트로",
+        "purpose": "코드 생성 평가에서 발생하는 문제를 해결하고 검증 가능한 보상을 활용한 정확한 보상 추정 개선",
+        "method": [
+            "테스트 사례 생성(TCG) 작업에 대한 다차원 지표를 개발하여 테스트 수트의 철저함을 정량적으로 평가함 (we systematically investigate the test-case generation (TCG) task by proposing multi-dimensional metrics designed to rigorously quantify test-suite thoroughness.)",
+            "인간의 프로그래밍 전문성과 LLM의 추론 능력을 활용한 협력적 방법(SAGA)을 도입하여 생성된 테스트 사례의 범위와 품질을 향상시킴 (we introduce a human-LLM collaborative method (SAGA), leveraging human programming expertise with LLM reasoning capability.)",
+            "TCG 작업을 연구하기 위한 TCGBench를 개발함 (we develop a TCGBench to facilitate the study of the TCG task.)"
+        ],
+        "conclusion": "제안한 방법을 통해 SAGA는 TCGBench에서 90.62%의 탐지율과 32.58%의 검증자 정확도를 달성하였으며, LiveCodeBench-v6보다 평가 기준의 검증자 정확도가 10.78% 높아짐을 보여줍니다.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.06457",
+            "authors": [
+                {
+                    "_id": "686f2371d938c25d68441b36",
+                    "name": "Dustin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b37",
+                    "user": {
+                        "_id": "63ff09f24852102d4871c19c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
+                        "isPro": false,
+                        "fullname": "Rui-Jie Zhu",
+                        "user": "ridger",
+                        "type": "user"
+                    },
+                    "name": "Rui-Jie Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-10T07:09:30.737Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b38",
+                    "name": "Steven Abreu",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b39",
+                    "name": "Yong Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3a",
+                    "name": "Taylor Kergan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3b",
+                    "name": "Yuqi Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3c",
+                    "name": "Yuhong Chou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3d",
+                    "name": "Zheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3e",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b3f",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f2371d938c25d68441b40",
+                    "name": "Jason Eshraghian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T23:54:11.000Z",
+            "submittedOnDailyAt": "2025-07-10T02:04:35.136Z",
+            "title": "A Systematic Analysis of Hybrid Linear Attention",
+            "submittedOnDailyBy": {
+                "_id": "63ff09f24852102d4871c19c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
+                "isPro": false,
+                "fullname": "Rui-Jie Zhu",
+                "user": "ridger",
+                "type": "user"
+            },
+            "summary": "Transformers face quadratic complexity and memory issues with long sequences,\nprompting the adoption of linear attention mechanisms using fixed-size hidden\nstates. However, linear models often suffer from limited recall performance,\nleading to hybrid architectures that combine linear and full attention layers.\nDespite extensive hybrid architecture research, the choice of linear attention\ncomponent has not been deeply explored. We systematically evaluate various\nlinear attention models across generations - vector recurrences to advanced\ngating mechanisms - both standalone and hybridized. To enable this\ncomprehensive analysis, we trained and open-sourced 72 models: 36 at 340M\nparameters (20B tokens) and 36 at 1.3B parameters (100B tokens), covering six\nlinear attention variants across five hybridization ratios. Benchmarking on\nstandard language modeling and recall tasks reveals that superior standalone\nlinear models do not necessarily excel in hybrids. While language modeling\nremains stable across linear-to-full attention ratios, recall significantly\nimproves with increased full attention layers, particularly below a 3:1 ratio.\nOur study highlights selective gating, hierarchical recurrence, and controlled\nforgetting as critical for effective hybrid models. We recommend architectures\nsuch as HGRN-2 or GatedDeltaNet with a linear-to-full ratio between 3:1 and 6:1\nto achieve Transformer-level recall efficiently. Our models are open-sourced at\nhttps://huggingface.co/collections/m-a-p/hybrid-linear-attention-research-686c488a63d609d2f20e2b1e.",
+            "upvotes": 16,
+            "discussionId": "686f2371d938c25d68441b41",
+            "projectPage": "https://huggingface.co/collections/m-a-p/hybrid-linear-attention-research-686c488a63d609d2f20e2b1e",
+            "ai_summary": "Research evaluates various linear attention models and their integration with full attention in Transformers, identifying key mechanisms like selective gating and hierarchical recurrence for enhanced recall performance.",
+            "ai_keywords": [
+                "quadratic complexity",
+                "linear attention mechanisms",
+                "full attention layers",
+                "hybrid architectures",
+                "vector recurrences",
+                "gating mechanisms",
+                "recall performance",
+                "language modeling",
+                "recall tasks",
+                "selective gating",
+                "hierarchical recurrence",
+                "controlled forgetting",
+                "HGRN-2",
+                "GatedDeltaNet"
+            ]
+        },
+        "translation_title": "하이브리드 선형 주의 메커니즘에 대한 체계적 분석",
+        "purpose": "하이브리드 아키텍처에서 선형 주의 모델 선택을 깊이 있게 탐구하고 성능을 비교하기 위함",
+        "method": [
+            "72개의 다양한 모델을 훈련하고 공개함(We trained and open-sourced 72 models: 36 at 340M parameters and 36 at 1.3B parameters.)",
+            "비교 분석을 통해 독립형 및 하이브리드화된 모델의 성능을 평가함(We systematically evaluate various linear attention models... both standalone and hybridized.)",
+            "언어 모델링 및 회상 작업에서 성능을 벤치마킹하고 분석함(Benchmarking on standard language modeling and recall tasks reveals that superior standalone linear models do not necessarily excel in hybrids.)"
+        ],
+        "conclusion": "선형 주의 모델과 전체 주의 모델의 조합에서 하이브리드 모델의 효과적인 성능을 위해 HGRN-2 또는 GatedDeltaNet 아키텍처를 추천함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
