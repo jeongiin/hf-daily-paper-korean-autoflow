@@ -1,0 +1,581 @@
+[
+    {
+        "paper": {
+            "id": "2507.07966",
+            "authors": [
+                {
+                    "_id": "68706bdcc8391850d60977eb",
+                    "name": "Yukang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977ec",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977ed",
+                    "name": "Baifeng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977ee",
+                    "name": "Qinghao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977ef",
+                    "name": "Hanrong Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f0",
+                    "name": "Ligeng Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f1",
+                    "name": "Zhijian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f2",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f3",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f4",
+                    "name": "Xiaojuan Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f5",
+                    "name": "Sifei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f6",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f7",
+                    "name": "Yao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706bdcc8391850d60977f8",
+                    "name": "Song Han",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62919485a29097b211bc7b83/Tu__SuWZeWyCBPoK8YUyh.mp4"
+            ],
+            "publishedAt": "2025-07-10T17:47:40.000Z",
+            "submittedOnDailyAt": "2025-07-11T00:13:53.988Z",
+            "title": "Scaling RL to Long Videos",
+            "submittedOnDailyBy": {
+                "_id": "62919485a29097b211bc7b83",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653710384819-62919485a29097b211bc7b83.png",
+                "isPro": false,
+                "fullname": "YukangChen",
+                "user": "Yukang",
+                "type": "user"
+            },
+            "summary": "We introduce a full-stack framework that scales up reasoning in\nvision-language models (VLMs) to long videos, leveraging reinforcement\nlearning. We address the unique challenges of long video reasoning by\nintegrating three critical components: (1) a large-scale dataset,\nLongVideo-Reason, comprising 52K long video QA pairs with high-quality\nreasoning annotations across diverse domains such as sports, games, and vlogs;\n(2) a two-stage training pipeline that extends VLMs with chain-of-thought\nsupervised fine-tuning (CoT-SFT) and reinforcement learning (RL); and (3) a\ntraining infrastructure for long video RL, named Multi-modal Reinforcement\nSequence Parallelism (MR-SP), which incorporates sequence parallelism and a\nvLLM-based engine tailored for long video, using cached video embeddings for\nefficient rollout and prefilling. In experiments, LongVILA-R1-7B achieves\nstrong performance on long video QA benchmarks such as VideoMME. It also\noutperforms Video-R1-7B and even matches Gemini-1.5-Pro across temporal\nreasoning, goal and purpose reasoning, spatial reasoning, and plot reasoning on\nour LongVideo-Reason-eval benchmark. Notably, our MR-SP system achieves up to\n2.1x speedup on long video RL training. LongVILA-R1 demonstrates consistent\nperformance gains as the number of input video frames scales. LongVILA-R1 marks\na firm step towards long video reasoning in VLMs. In addition, we release our\ntraining system for public availability that supports RL training on various\nmodalities (video, text, and audio), various models (VILA and Qwen series), and\neven image and video generation models. On a single A100 node (8 GPUs), it\nsupports RL training on hour-long videos (e.g., 3,600 frames / around 256k\ntokens).",
+            "upvotes": 78,
+            "discussionId": "68706bdcc8391850d60977f9",
+            "projectPage": "https://github.com/NVlabs/Long-RL",
+            "githubRepo": "https://github.com/NVlabs/Long-RL",
+            "ai_summary": "A framework for scaling vision-language models to long videos using reinforcement learning, achieving strong performance on various reasoning tasks with a specialized training infrastructure.",
+            "ai_keywords": [
+                "vision-language models",
+                "reinforcement learning",
+                "chain-of-thought supervised fine-tuning",
+                "CoT-SFT",
+                "Multi-modal Reinforcement Sequence Parallelism",
+                "MR-SP",
+                "sequence parallelism",
+                "vLLM",
+                "long video QA",
+                "VideoMME",
+                "LongVideo-Reason-eval",
+                "temporal reasoning",
+                "goal and purpose reasoning",
+                "spatial reasoning",
+                "plot reasoning",
+                "RL training",
+                "image and video generation models"
+            ],
+            "githubStars": 241
+        },
+        "translation_title": "긴 비디오를 위한 RL 확장",
+        "purpose": "긴 비디오에서의 비전-언어 모델(reasoning) 성능 향상을 위한 프레임워크 개발",
+        "method": [
+            "LongVideo-Reason이라는 52,000개의 긴 비디오 QA 쌍을 포함한 대규모 데이터 세트를 구축함 (comprising 52K long video QA pairs with high-quality reasoning annotations across diverse domains such as sports, games, and vlogs;)",
+            "CoT-SFT(Chain-of-thought Supervised Fine-tuning)와 RL(강화 학습)을 사용해 VLMs를 확장하는 두 단계의 훈련 파이프라인을 구성함 (a two-stage training pipeline that extends VLMs with chain-of-thought supervised fine-tuning and reinforcement learning;)",
+            "긴 비디오를 위한 RL 훈련 인프라인 MR-SP(Multi-modal Reinforcement Sequence Parallelism)를 개발하여 효율적 rollout 및 prefilling을 지원함 (a training infrastructure for long video RL, named Multi-modal Reinforcement Sequence Parallelism, which incorporates sequence parallelism and a vLLM-based engine tailored for long video)"
+        ],
+        "conclusion": "LongVILA-R1-7B 모델이 긴 비디오 QA 벤치마크에서 강력한 성능을 달성하여, VLMs에서 긴 비디오 추론을 향한 중요한 진전을 이루었다.",
+        "keywords": [
+            "Video Generation",
+            "Vision-Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.05964",
+            "authors": [
+                {
+                    "_id": "6870b8b5c8391850d60978e0",
+                    "name": "Vera Soboleva",
+                    "hidden": false
+                },
+                {
+                    "_id": "6870b8b5c8391850d60978e1",
+                    "user": {
+                        "_id": "66680c6451545a8b46c6fd21",
+                        "avatarUrl": "/avatars/03707f5ea4e2aa8dc825a9782b00ed85.svg",
+                        "isPro": false,
+                        "fullname": "Aibek Alanov",
+                        "user": "ai-alanov",
+                        "type": "user"
+                    },
+                    "name": "Aibek Alanov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T07:59:56.813Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6870b8b5c8391850d60978e2",
+                    "user": {
+                        "_id": "643984dceb7c5616ef3f5d54",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643984dceb7c5616ef3f5d54/10JRkblrRIEVci6UJwvPz.jpeg",
+                        "isPro": false,
+                        "fullname": "Andrey Kuznetsov",
+                        "user": "kuznetsoffandrey",
+                        "type": "user"
+                    },
+                    "name": "Andrey Kuznetsov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T13:12:36.562Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6870b8b5c8391850d60978e3",
+                    "name": "Konstantin Sobolev",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-08T13:14:10.000Z",
+            "submittedOnDailyAt": "2025-07-11T05:42:42.057Z",
+            "title": "T-LoRA: Single Image Diffusion Model Customization Without Overfitting",
+            "submittedOnDailyBy": {
+                "_id": "66680c6451545a8b46c6fd21",
+                "avatarUrl": "/avatars/03707f5ea4e2aa8dc825a9782b00ed85.svg",
+                "isPro": false,
+                "fullname": "Aibek Alanov",
+                "user": "ai-alanov",
+                "type": "user"
+            },
+            "summary": "While diffusion model fine-tuning offers a powerful approach for customizing\npre-trained models to generate specific objects, it frequently suffers from\noverfitting when training samples are limited, compromising both generalization\ncapability and output diversity. This paper tackles the challenging yet most\nimpactful task of adapting a diffusion model using just a single concept image,\nas single-image customization holds the greatest practical potential. We\nintroduce T-LoRA, a Timestep-Dependent Low-Rank Adaptation framework\nspecifically designed for diffusion model personalization. In our work we show\nthat higher diffusion timesteps are more prone to overfitting than lower ones,\nnecessitating a timestep-sensitive fine-tuning strategy. T-LoRA incorporates\ntwo key innovations: (1) a dynamic fine-tuning strategy that adjusts\nrank-constrained updates based on diffusion timesteps, and (2) a weight\nparametrization technique that ensures independence between adapter components\nthrough orthogonal initialization. Extensive experiments show that T-LoRA and\nits individual components outperform standard LoRA and other diffusion model\npersonalization techniques. They achieve a superior balance between concept\nfidelity and text alignment, highlighting the potential of T-LoRA in\ndata-limited and resource-constrained scenarios. Code is available at\nhttps://github.com/ControlGenAI/T-LoRA.",
+            "upvotes": 76,
+            "discussionId": "6870b8b5c8391850d60978e4",
+            "githubRepo": "https://github.com/ControlGenAI/T-LoRA",
+            "ai_summary": "T-LoRA, a timestep-dependent low-rank adaptation framework, enhances diffusion model personalization with a dynamic fine-tuning strategy and orthogonal initialization, achieving better concept fidelity and text alignment in data-limited settings.",
+            "ai_keywords": [
+                "diffusion model fine-tuning",
+                "overfitting",
+                "generalization capability",
+                "output diversity",
+                "single-image customization",
+                "T-LoRA",
+                "timestep-dependent low-rank adaptation",
+                "dynamic fine-tuning strategy",
+                "rank-constrained updates",
+                "diffusion timesteps",
+                "weight parametrization",
+                "orthogonal initialization",
+                "concept fidelity",
+                "text alignment",
+                "data-limited scenarios"
+            ],
+            "githubStars": 30
+        },
+        "translation_title": "T-LoRA: 단일 이미지 확산 모델 커스터마이징 오버피팅 없이",
+        "purpose": "단일 이미지로 확산 모델을 커스터마이즈하여 오버피팅 문제를 해결하고 출력 다양성을 유지하는 것",
+        "method": [
+            "T-LoRA라는 Timestep-Dependent Low-Rank Adaptation 프레임워크를 제안하여 확산 모델의 개인화를 위해 설계함(We introduce T-LoRA, a Timestep-Dependent Low-Rank Adaptation framework specifically designed for diffusion model personalization.)",
+            "더 높은 확산 타임스텝이 오버피팅에 더 취약하다는 사실을 발견하고, 타임스텝에 민감한 파인튜닝 전략의 필요성을 보여줌(In our work we show that higher diffusion timesteps are more prone to overfitting than lower ones, necessitating a timestep-sensitive fine-tuning strategy.)",
+            "동적 파인튜닝 전략과 정방향 초기화를 통해 어댑터 구성 요소 간의 독립성을 보장하는 가중치 파라메트라이제이션 기법을 통합함(T-LoRA incorporates two key innovations: a dynamic fine-tuning strategy that adjusts rank-constrained updates based on diffusion timesteps, and a weight parametrization technique that ensures independence between adapter components through orthogonal initialization.)"
+        ],
+        "conclusion": "T-LoRA는 단일 이미지로 모델을 개인화할 때 컨셉 충실도와 텍스트 정렬의 우수한 균형을 이뤄 데이터가 제한적이고 자원이 부족한 상황에서도 효과적임을 입증함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.07999",
+            "authors": [
+                {
+                    "_id": "68706dcdc8391850d60977fb",
+                    "user": {
+                        "_id": "6499809cf19fc795e7724e43",
+                        "avatarUrl": "/avatars/4b3adce8c85e2f3ef05318ded6c89c3e.svg",
+                        "isPro": false,
+                        "fullname": "HaochenWang",
+                        "user": "HaochenWang",
+                        "type": "user"
+                    },
+                    "name": "Haochen Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:00:30.986Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d60977fc",
+                    "user": {
+                        "_id": "63958b4414513eaf9029ebf1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/U1g5H071pWRswGAG9UTpo.png",
+                        "isPro": false,
+                        "fullname": "Xiangtai Li",
+                        "user": "LXT",
+                        "type": "user"
+                    },
+                    "name": "Xiangtai Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:00:28.856Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d60977fd",
+                    "name": "Zilong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d60977fe",
+                    "name": "Anran Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d60977ff",
+                    "user": {
+                        "_id": "64d201b1c2bd235422fb1d14",
+                        "avatarUrl": "/avatars/e50581aa66391cedae94e116e759b9ec.svg",
+                        "isPro": false,
+                        "fullname": "wang",
+                        "user": "stormthunder",
+                        "type": "user"
+                    },
+                    "name": "Jiacong Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:00:26.581Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097800",
+                    "name": "Tao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097801",
+                    "user": {
+                        "_id": "64531f631a57e1179c203e6b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64531f631a57e1179c203e6b/C_J7pXFLqoJoHYPPhK3J9.jpeg",
+                        "isPro": false,
+                        "fullname": "zjn",
+                        "user": "garlicisnotmyfavor",
+                        "type": "user"
+                    },
+                    "name": "Jiani Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:00:33.749Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097802",
+                    "name": "Sule Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097803",
+                    "name": "Zijian Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097804",
+                    "name": "Jiashi Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097805",
+                    "name": "Zhuochen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68706dcdc8391850d6097806",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-10T17:59:58.000Z",
+            "submittedOnDailyAt": "2025-07-11T00:29:18.339Z",
+            "title": "Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and\n  Methodology",
+            "submittedOnDailyBy": {
+                "_id": "6499809cf19fc795e7724e43",
+                "avatarUrl": "/avatars/4b3adce8c85e2f3ef05318ded6c89c3e.svg",
+                "isPro": false,
+                "fullname": "HaochenWang",
+                "user": "HaochenWang",
+                "type": "user"
+            },
+            "summary": "Models like OpenAI-o3 pioneer visual grounded reasoning by dynamically\nreferencing visual regions, just like human \"thinking with images\". However, no\nbenchmark exists to evaluate these capabilities holistically. To bridge this\ngap, we propose TreeBench (Traceable Evidence Evaluation Benchmark), a\ndiagnostic benchmark built on three principles: (1) focused visual perception\nof subtle targets in complex scenes, (2) traceable evidence via bounding box\nevaluation, and (3) second-order reasoning to test object interactions and\nspatial hierarchies beyond simple object localization. Prioritizing images with\ndense objects, we initially sample 1K high-quality images from SA-1B, and\nincorporate eight LMM experts to manually annotate questions, candidate\noptions, and answers for each image. After three stages of quality control,\nTreeBench consists of 405 challenging visual question-answering pairs, even the\nmost advanced models struggle with this benchmark, where none of them reach 60%\naccuracy, e.g., OpenAI-o3 scores only 54.87. Furthermore, we introduce TreeVGR\n(Traceable Evidence Enhanced Visual Grounded Reasoning), a training paradigm to\nsupervise localization and reasoning jointly with reinforcement learning,\nenabling accurate localizations and explainable reasoning pathways. Initialized\nfrom Qwen2.5-VL-7B, it improves V* Bench (+16.8), MME-RealWorld (+12.6), and\nTreeBench (+13.4), proving traceability is key to advancing vision-grounded\nreasoning. The code is available at https://github.com/Haochen-Wang409/TreeVGR.",
+            "upvotes": 33,
+            "discussionId": "68706dcec8391850d6097807",
+            "projectPage": "https://github.com/Haochen-Wang409/TreeVGR",
+            "githubRepo": "https://github.com/Haochen-Wang409/TreeVGR",
+            "ai_summary": "TreeBench evaluates visual grounded reasoning through subtle target detection, traceable evidence, and second-order reasoning, while TreeVGR enhances this with joint localization and reasoning using reinforcement learning.",
+            "ai_keywords": [
+                "visual grounded reasoning",
+                "bounding box evaluation",
+                "second-order reasoning",
+                "TreeBench",
+                "TreeVGR",
+                "reinforcement learning",
+                "localization",
+                "reasoning pathways",
+                "V* Bench",
+                "MME-RealWorld"
+            ],
+            "githubStars": 21
+        },
+        "translation_title": "추적 가능한 증거 강화 시각 기반 추론: 평가 및 방법론",
+        "purpose": "시각 기반 추론 능력을 포괄적으로 평가하기 위한 벤치마크 개발",
+        "method": [
+            "TreeBench라는 진단 벤치마크를 제안함(We propose TreeBench (Traceable Evidence Evaluation Benchmark), a diagnostic benchmark built on three principles:)",
+            "고품질 이미지 1K개를 샘플링하고, 전문가들이 질문과 후보 옵션, 답변을 수동으로 주석 처리함(we initially sample 1K high-quality images from SA-1B, and incorporate eight LMM experts to manually annotate questions, candidate options, and answers for each image.)",
+            "리인포스먼트 러닝을 통해 지역화 및 추론을 공동으로 감독하는 TreeVGR 훈련 패러다임을 도입함(Furthermore, we introduce TreeVGR (Traceable Evidence Enhanced Visual Grounded Reasoning), a training paradigm to supervise localization and reasoning jointly with reinforcement learning.)"
+        ],
+        "conclusion": "TreeVGR는 정확한 지역화와 설명 가능한 추론을 가능하게 하며, 시각 기반 추론의 발전을 위한 주요 요소로 추적성을 입증함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.07984",
+            "authors": [
+                {
+                    "_id": "687088a6c8391850d6097874",
+                    "name": "JingLi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d6097875",
+                    "user": {
+                        "_id": "6433aba4546e16f17a0f19f6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6433aba4546e16f17a0f19f6/3hlNy4_Suy0bO__Qa9amL.jpeg",
+                        "isPro": false,
+                        "fullname": "Chenming Zhu",
+                        "user": "ChaimZhu",
+                        "type": "user"
+                    },
+                    "name": "Chenming Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T13:12:39.911Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d6097876",
+                    "name": "Runsen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d6097877",
+                    "name": "Xiaohan Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d6097878",
+                    "name": "Xihui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d6097879",
+                    "name": "Tai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687088a6c8391850d609787a",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6433aba4546e16f17a0f19f6/pNjo9cepo_BTSUgc_ZLsg.mp4"
+            ],
+            "publishedAt": "2025-07-10T17:56:07.000Z",
+            "submittedOnDailyAt": "2025-07-11T04:12:08.963Z",
+            "title": "OST-Bench: Evaluating the Capabilities of MLLMs in Online\n  Spatio-temporal Scene Understanding",
+            "submittedOnDailyBy": {
+                "_id": "6433aba4546e16f17a0f19f6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6433aba4546e16f17a0f19f6/3hlNy4_Suy0bO__Qa9amL.jpeg",
+                "isPro": false,
+                "fullname": "Chenming Zhu",
+                "user": "ChaimZhu",
+                "type": "user"
+            },
+            "summary": "Recent advances in multimodal large language models (MLLMs) have shown\nremarkable capabilities in integrating vision and language for complex\nreasoning. While most existing benchmarks evaluate models under offline\nsettings with a fixed set of pre-recorded inputs, we introduce OST-Bench, a\nbenchmark designed to evaluate Online Spatio-Temporal understanding from the\nperspective of an agent actively exploring a scene. The Online aspect\nemphasizes the need to process and reason over incrementally acquired\nobservations, while the Spatio-Temporal component requires integrating current\nvisual inputs with historical memory to support dynamic spatial reasoning.\nOST-Bench better reflects the challenges of real-world embodied perception.\nBuilt on an efficient data collection pipeline, OST-Bench consists of 1.4k\nscenes and 10k question-answer pairs collected from ScanNet, Matterport3D, and\nARKitScenes. We evaluate several leading MLLMs on OST-Bench and observe that\nthey fall short on tasks requiring complex spatio-temporal reasoning. Under the\nonline setting, their accuracy declines as the exploration horizon extends and\nthe memory grows. Through further experimental analysis, we identify common\nerror patterns across models and find that both complex clue-based spatial\nreasoning demands and long-term memory retrieval requirements significantly\ndrop model performance along two separate axes, highlighting the core\nchallenges that must be addressed to improve online embodied reasoning. To\nfoster further research and development in the field, our codes, dataset, and\nbenchmark are available. Our project page is:\nhttps://rbler1234.github.io/OSTBench.github.io/",
+            "upvotes": 27,
+            "discussionId": "687088a6c8391850d609787b",
+            "projectPage": "https://rbler1234.github.io/OSTBench.github.io/",
+            "githubRepo": "https://github.com/OpenRobotLab/OST-Bench",
+            "ai_summary": "OST-Bench evaluates multimodal large language models in online spatio-temporal reasoning tasks, revealing challenges in handling complex spatial cues and long-term memory in real-world scenarios.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "MLLMs",
+                "OST-Bench",
+                "Online Spatio-Temporal understanding",
+                "ScanNet",
+                "Matterport3D",
+                "ARKitScenes",
+                "complex spatio-temporal reasoning",
+                "long-term memory retrieval"
+            ],
+            "githubStars": 37
+        },
+        "translation_title": "OST-Bench: 온라인 공간-시간 장면 이해에서 MLLM의 능력 평가",
+        "purpose": "온라인에서 탐색하는 에이전트 관점에서 공간-시간 이해를 평가할 수 있는 벤치마크 구축",
+        "method": [
+            "OST-Bench는 에이전트가 장면을 탐색하는 과정에서 점진적으로 수집된 관찰을 처리하고 추론하는 능력을 강조함 (The Online aspect emphasizes the need to process and reason over incrementally acquired observations.)",
+            "효율적인 데이터 수집 파이프라인 위에 구축되어 1.4k 장면과 10k 질문-답변 쌍으로 구성됨 (Built on an efficient data collection pipeline, OST-Bench consists of 1.4k scenes and 10k question-answer pairs collected from ScanNet, Matterport3D, and ARKitScenes.)",
+            "여러 MLLM을 OST-Bench에서 평가하고 복잡한 공간-시간 추론 작업에서 부족함을 발견함 (We evaluate several leading MLLMs on OST-Bench and observe that they fall short on tasks requiring complex spatio-temporal reasoning.)",
+            "모델이 탐색 범위가 확장되고 메모리가 커짐에 따라 정확도가 떨어지는 것을 관찰함 (Under the online setting, their accuracy declines as the exploration horizon extends and the memory grows.)"
+        ],
+        "conclusion": "이 연구는 온라인 환경에서의 복잡한 공간-시간 추론에서의 주요 도전 과제를 강조하고, 이를 개선하기 위해 필요한 연구 개발을 촉진하기 위해 데이터셋과 벤치마크를 공개함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.07990",
+            "authors": [
+                {
+                    "_id": "68708156c8391850d6097869",
+                    "user": {
+                        "_id": "6513030fb3a463e17df56edd",
+                        "avatarUrl": "/avatars/867bd4316b2de758654ad3a84ea868c1.svg",
+                        "isPro": false,
+                        "fullname": "Hyun, Jeongseok",
+                        "user": "js-hyun",
+                        "type": "user"
+                    },
+                    "name": "Jeongseok Hyun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:00:01.307Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786a",
+                    "name": "Sukjun Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786b",
+                    "name": "Su Ho Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786c",
+                    "name": "Taeoh Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786d",
+                    "name": "Inwoong Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786e",
+                    "name": "Dongyoon Wee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d609786f",
+                    "name": "Joon-Young Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d6097870",
+                    "name": "Seon Joo Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68708156c8391850d6097871",
+                    "name": "Minho Shim",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-10T17:59:02.000Z",
+            "submittedOnDailyAt": "2025-07-11T05:04:15.008Z",
+            "title": "Multi-Granular Spatio-Temporal Token Merging for Training-Free\n  Acceleration of Video LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6513030fb3a463e17df56edd",
+                "avatarUrl": "/avatars/867bd4316b2de758654ad3a84ea868c1.svg",
+                "isPro": false,
+                "fullname": "Hyun, Jeongseok",
+                "user": "js-hyun",
+                "type": "user"
+            },
+            "summary": "Video large language models (LLMs) achieve strong video understanding by\nleveraging a large number of spatio-temporal tokens, but suffer from quadratic\ncomputational scaling with token count. To address this, we propose a\ntraining-free spatio-temporal token merging method, named STTM. Our key insight\nis to exploit local spatial and temporal redundancy in video data which has\nbeen overlooked in prior work. STTM first transforms each frame into\nmulti-granular spatial tokens using a coarse-to-fine search over a quadtree\nstructure, then performs directed pairwise merging across the temporal\ndimension. This decomposed merging approach outperforms existing token\nreduction methods across six video QA benchmarks. Notably, STTM achieves a\n2times speed-up with only a 0.5% accuracy drop under a 50% token budget, and\na 3times speed-up with just a 2% drop under a 30% budget. Moreover, STTM is\nquery-agnostic, allowing KV cache reuse across different questions for the same\nvideo. The project page is available at https://www.jshyun.me/projects/sttm.",
+            "upvotes": 22,
+            "discussionId": "68708157c8391850d6097872",
+            "projectPage": "https://www.jshyun.me/projects/sttm",
+            "githubRepo": "https://github.com/HYUNJS/STTM",
+            "ai_summary": "A spatio-temporal token merging method improves video LLM efficiency by exploiting redundancy, achieving significant speed-ups with minimal accuracy loss.",
+            "ai_keywords": [
+                "spatio-temporal tokens",
+                "quadratic computational scaling",
+                "token merging method",
+                "STTM",
+                "multi-granular spatial tokens",
+                "quadtree structure",
+                "directed pairwise merging",
+                "video QA benchmarks",
+                "token budget",
+                "query-agnostic",
+                "KV cache reuse"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "훈련 없이 비디오 LLM 가속을 위한 다중 밀도 시공간 토큰 병합",
+        "purpose": "비디오 이해 성능을 높이기 위해 기존 방법의 한계를 극복하고 비디오 LLM의 속도를 향상시키기 위한 방법 개발",
+        "method": [
+            "토큰 수로 인한 계산량 증가 문제를 해결하기 위해 훈련 없이 시공간 토큰 병합 방법인 STTM 제안(we propose a training-free spatio-temporal token merging method, named STTM.)",
+            "프레임을 다중 밀도의 시각적 토큰으로 변환한 후 쿼드트리 구조를 통해 정교하게 검색하여 병합 수행(STTM first transforms each frame into multi-granular spatial tokens using a coarse-to-fine search over a quadtree structure.)",
+            "시간적 차원에서의 정방향 쌍 병합을 수행함(then performs directed pairwise merging across the temporal dimension.)",
+            "STTM이 기존 토큰 축소 방법보다 여러 비디오 QA 벤치마크에서 성능이 우수함을 입증함(This decomposed merging approach outperforms existing token reduction methods across six video QA benchmarks.)"
+        ],
+        "conclusion": "STTM은 50% 토큰 예산에서 0.5% 정확도 손실로 2배, 30% 토큰 예산에서 2% 정확도 손실로 3배의 속도 향상을 달성하며, 질문 무관성을 통해 KV 캐시 재사용이 가능함.",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
