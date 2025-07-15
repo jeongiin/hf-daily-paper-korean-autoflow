@@ -1,0 +1,425 @@
+[
+    {
+        "paper": {
+            "id": "2507.09862",
+            "authors": [
+                {
+                    "_id": "6875c14a257d4f043537056b",
+                    "name": "Youliang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f043537056c",
+                    "name": "Zhaoyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f043537056d",
+                    "name": "Duomin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f043537056e",
+                    "name": "Jiahe Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f043537056f",
+                    "name": "Deyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f0435370570",
+                    "name": "Zixin Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f0435370571",
+                    "name": "Xili Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f0435370572",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875c14a257d4f0435370573",
+                    "name": "Xiu Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-14T02:22:47.000Z",
+            "submittedOnDailyAt": "2025-07-15T01:26:49.276Z",
+            "title": "SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual\n  Dyadic Interactive Human Generation",
+            "submittedOnDailyBy": {
+                "_id": "64ae9b88a22a179fc4d07992",
+                "avatarUrl": "/avatars/c9065f04a1188ea3129e56a90328ffd3.svg",
+                "isPro": false,
+                "fullname": "wang",
+                "user": "dorni",
+                "type": "user"
+            },
+            "summary": "The rapid development of large-scale models has catalyzed significant\nbreakthroughs in the digital human domain. These advanced methodologies offer\nhigh-fidelity solutions for avatar driving and rendering, leading academia to\nfocus on the next major challenge: audio-visual dyadic interactive virtual\nhuman. To facilitate research in this emerging area, we present SpeakerVid-5M\ndataset, the first large-scale, high-quality dataset designed for audio-visual\ndyadic interactive virtual human generation. Totaling over 8,743 hours,\nSpeakerVid-5M contains more than 5.2 million video clips of human portraits. It\ncovers diverse scales and interaction types, including monadic talking,\nlistening, and dyadic conversations. Crucially, the dataset is structured along\ntwo key dimensions: interaction type and data quality. First, it is categorized\ninto four types (dialogue branch, single branch, listening branch and\nmulti-turn branch) based on the interaction scenario. Second, it is stratified\ninto a large-scale pre-training subset and a curated, high-quality subset for\nSupervised Fine-Tuning (SFT). This dual structure accommodates a wide array of\n2D virtual human tasks. In addition, we provide an autoregressive (AR)-based\nvideo chat baseline trained on this data, accompanied by a dedicated set of\nmetrics and test data to serve as a benchmark VidChatBench for future work.\nBoth the dataset and the corresponding data processing code will be publicly\nreleased. Project page: https://dorniwang.github.io/SpeakerVid-5M/",
+            "upvotes": 36,
+            "discussionId": "6875c14a257d4f0435370574",
+            "projectPage": "https://dorniwang.github.io/SpeakerVid-5M/",
+            "ai_summary": "A large-scale dataset named SpeakerVid-5M is introduced for audio-visual dyadic interactive virtual human generation, featuring diverse interactions and high-quality data for various virtual human tasks.",
+            "ai_keywords": [
+                "audio-visual dyadic interactive virtual human",
+                "SpeakerVid-5M",
+                "video clips",
+                "monadic talking",
+                "listening",
+                "dyadic conversations",
+                "dialogue branch",
+                "single branch",
+                "listening branch",
+                "multi-turn branch",
+                "pre-training subset",
+                "Supervised Fine-Tuning",
+                "autoregressive",
+                "video chat baseline",
+                "VidChatBench"
+            ]
+        },
+        "translation_title": "SpeakerVid-5M: 오디오-비주얼 쌍방향 인적인 생성에 대한 대규모 고품질 데이터 세트",
+        "purpose": "오디오-비주얼 쌍방향 가상 인간 생성을 위한 연구 촉진을 위하여 고품질의 대규모 데이터 세트를 제공하는 것",
+        "method": [
+            "SpeakerVid-5M 데이터 세트를 최초로 구축하여 8,743시간 이상의 520만 개의 비디오 클립을 포함함(Totaling over 8,743 hours, SpeakerVid-5M contains more than 5.2 million video clips of human portraits.)",
+            "데이터를 네 가지 상호작용 시나리오에 따라 분류하고, 대규모 사전 훈련 및 고품질 데이터 세트로 나누어 구조화함(Categorized into four types based on the interaction scenario and stratified into a large-scale pre-training subset and a curated, high-quality subset for Supervised Fine-Tuning.)",
+            "비디오 챗을 위한 오토리그레시브(AR) 기반의 기준선을 제공하고, 이를 뒷받침할 메트릭 및 테스트 데이터 세트를 제안함(Providing an autoregressive (AR)-based video chat baseline trained on this data, accompanied by a dedicated set of metrics and test data.)"
+        ],
+        "conclusion": "제공된 데이터 세트와 처리 코드는 공개되며, 앞으로의 연구를 위한 벤치마크인 VidChatBench를 제공함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.10532",
+            "authors": [
+                {
+                    "_id": "6875f107257d4f0435370613",
+                    "name": "Mingqi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370614",
+                    "name": "Zhihao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370615",
+                    "name": "Qiaole Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370616",
+                    "name": "Zhiheng Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370617",
+                    "name": "Jun Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370618",
+                    "name": "Senjie Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f0435370619",
+                    "name": "Xiaoran Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f043537061a",
+                    "name": "Yuhao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f043537061b",
+                    "name": "Yanwei Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f043537061c",
+                    "name": "Qin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f043537061d",
+                    "name": "Songyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875f107257d4f043537061e",
+                    "name": "Qi Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-14T17:55:15.000Z",
+            "submittedOnDailyAt": "2025-07-15T04:41:41.806Z",
+            "title": "Reasoning or Memorization? Unreliable Results of Reinforcement Learning\n  Due to Data Contamination",
+            "submittedOnDailyBy": {
+                "_id": "630716d11801ecc7d2595021",
+                "avatarUrl": "/avatars/2d36a880ce4a3cf7efc5ff3987dbeaf3.svg",
+                "isPro": false,
+                "fullname": "Songyang Zhang",
+                "user": "zsytony",
+                "type": "user"
+            },
+            "summary": "The reasoning capabilities of large language models (LLMs) have been a\nlongstanding focus of research. Recent works have further enhanced these\ncapabilities using reinforcement learning (RL), with many new methods claiming\nsignificant improvements with minimal or no external supervision. Surprisingly,\nsome studies even suggest that random or incorrect reward signals can enhance\nreasoning performance. However, these breakthroughs are mostly reported on the\nQwen2.5 model family and evaluated on well-known benchmarks such as MATH-500,\nAMC, and AIME, while failing to achieve similar gains on other models like\nLlama, which warrants further investigation. Our analysis shows that although\nQwen2.5 achieves strong mathematical reasoning performance, its pretraining on\nlarge-scale web corpora makes it vulnerable to data contamination in popular\nbenchmarks. As a result, results derived from these benchmarks may be\nunreliable. To address this, we introduce a generator that produces fully\nsynthetic arithmetic problems of arbitrary length and difficulty, yielding a\nclean dataset we call RandomCalculation. Using these leakage-free datasets, we\nshow that only accurate reward signals consistently improve performance, while\nnoisy or incorrect signals do not. We advocate for evaluating RL methods on\nuncontaminated benchmarks and across diverse model families to ensure\ntrustworthy conclusions.",
+            "upvotes": 28,
+            "discussionId": "6875f107257d4f043537061f",
+            "ai_summary": "Research on enhancing LLM reasoning through RL reveals that accurate reward signals are crucial for performance improvement, and current benchmarks may be unreliable due to data contamination.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "reinforcement learning",
+                "RL",
+                "Qwen2.5",
+                "MATH-500",
+                "AMC",
+                "AIME",
+                "Llama",
+                "pretraining",
+                "large-scale web corpora",
+                "data contamination",
+                "synthetic arithmetic problems",
+                "RandomCalculation",
+                "leakage-free datasets",
+                "reward signals"
+            ]
+        },
+        "translation_title": "추론인가 기억인가? 데이터 오염으로 인한 강화 학습의 신뢰할 수 없는 결과",
+        "purpose": "강화 학습에서의 성과 향상을 확인하고 신뢰할 수 있는 결과를 도출하기 위해 데이터 오염 문제를 해결할 필요성 제기",
+        "method": [
+            "여러 모델에서의 성능을 비교하고 Qwen2.5 모델이 벤치마크에서 신뢰할 수 없는 결과를 도출하는 이유를 분석함(Our analysis shows that although Qwen2.5 achieves strong mathematical reasoning performance, its pretraining on large-scale web corpora makes it vulnerable to data contamination in popular benchmarks.)",
+            "무작위로 생성된 산술 문제를 포함하는 RandomCalculation이라는 깨끗한 데이터셋을 도입함(To address this, we introduce a generator that produces fully synthetic arithmetic problems of arbitrary length and difficulty, yielding a clean dataset we call RandomCalculation.)",
+            "무작위로 생성된 데이터셋을 활용해 정확한 보상 신호만이 성능을 일관되게 향상시킨다는 것을 보여줌(Using these leakage-free datasets, we show that only accurate reward signals consistently improve performance.)"
+        ],
+        "conclusion": "강화 학습 방법을 평가할 때 오염되지 않은 벤치마크와 다양한 모델 세트를 사용해야 신뢰할 수 있는 결론을 도출할 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.10548",
+            "authors": [
+                {
+                    "_id": "6875d6e7257d4f04353705b5",
+                    "name": "Mingxian Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705b6",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705b7",
+                    "name": "Yitang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705b8",
+                    "name": "Chengjie Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705b9",
+                    "name": "Kui Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705ba",
+                    "name": "Fangwei Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705bb",
+                    "name": "Shengju Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705bc",
+                    "name": "Xin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875d6e7257d4f04353705bd",
+                    "name": "Xiaojuan Qi",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/656db3f53dc1d277e5a64410/sVJXSwN-mBG1ahHjfHx7V.gif"
+            ],
+            "publishedAt": "2025-07-14T17:59:46.000Z",
+            "submittedOnDailyAt": "2025-07-15T03:13:21.491Z",
+            "title": "EmbRACE-3K: Embodied Reasoning and Action in Complex Environments",
+            "submittedOnDailyBy": {
+                "_id": "656db3f53dc1d277e5a64410",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656db3f53dc1d277e5a64410/9kiY2K3MCRcBDk7MrkTBK.png",
+                "isPro": false,
+                "fullname": "Wei Huang",
+                "user": "AaronHuangWei",
+                "type": "user"
+            },
+            "summary": "Recent advanced vision-language models(VLMs) have demonstrated strong\nperformance on passive, offline image and video understanding tasks. However,\ntheir effectiveness in embodied settings, which require online interaction and\nactive scene understanding remains limited. In such scenarios, an agent\nperceives the environment from a first-person perspective, with each action\ndynamically shaping subsequent observations. Even state-of-the-art models such\nas GPT-4o, Claude 3.5 Sonnet, and Gemini 2.5 Pro struggle in open-environment\ninteractions, exhibiting clear limitations in spatial reasoning and\nlong-horizon planning. To address this gap, we introduce EmRACE-3K, a dataset\nof over 3,000 language-guided tasks situated in diverse, photorealistic\nenvironments constructed using Unreal Engine and the UnrealCV-Zoo framework.\nThe tasks encompass a wide range of embodied challenges, including navigation,\nobject manipulation, and multi-stage goal execution. Each task unfolds as a\nmulti-step trajectory, pairing first-person visual observations with high-level\ninstructions, grounded actions, and natural language rationales that express\nthe agent's intent at every step. Using EmRACE-3K, we establish a benchmark to\nevaluate the embodied reasoning capabilities of VLMs across three key\ndimensions: Exploration, Dynamic Spatial-Semantic Reasoning, and Multi-stage\nGoal Execution. In zero-shot settings, all models achieve success rates below\n20%, underscoring the challenge posed by our benchmark and the current\nlimitations of VLMs in interactive environments. To demonstrate the utility of\nEmRACE-3K, we further fine-tune Qwen2.5-VL-7B using supervised learning\nfollowed by reinforcement learning. This approach yields substantial\nimprovements across all three challenge categories, highlighting the dataset's\neffectiveness in enabling the development of embodied reasoning capabilities.",
+            "upvotes": 24,
+            "discussionId": "6875d6e7257d4f04353705be",
+            "projectPage": "https://mxllc.github.io/EmbRACE-3K/",
+            "githubRepo": "https://github.com/mxllc/EmbRACE-3K",
+            "ai_summary": "A new dataset, EmRACE-3K, evaluates vision-language models in embodied settings, showing limitations in spatial reasoning and long-horizon planning, and demonstrates improvements through supervised and reinforcement learning fine-tuning.",
+            "ai_keywords": [
+                "vision-language models",
+                "embodied settings",
+                "first-person perspective",
+                "dynamic spatial reasoning",
+                "long-horizon planning",
+                "EmRACE-3K",
+                "Unreal Engine",
+                "UnrealCV-Zoo",
+                "navigation",
+                "object manipulation",
+                "multi-stage goal execution",
+                "zero-shot settings",
+                "supervised learning",
+                "reinforcement learning"
+            ],
+            "githubStars": 11
+        },
+        "translation_title": "EmRACE-3K: 복잡한 환경에서의 구현된 추론과 행동",
+        "purpose": "비교적 제한적인 구현 환경에서의 비전-언어 모델 성능 향상 목표",
+        "method": [
+            "3,000개 이상의 언어 안내 작업으로 구성된 EmRACE-3K 데이터셋을 소개하여 다양한 환경에서의 구현된 도전 과제를 제시함(To address this gap, we introduce EmRACE-3K, a dataset of over 3,000 language-guided tasks situated in diverse, photorealistic environments).",
+            "각 작업은 1인칭 시각 관찰과 함께 진행되며, 고수준 지침과 행동, 자연어 설명을 결합하여 에이전트의 의도를 표현함(The tasks encompass a wide range of embodied challenges, including navigation, object manipulation, and multi-stage goal execution.).",
+            "EmRACE-3K를 사용하여 비전-언어 모델의 구현된 추론 능력을 평가하는 기준을 설정함(Using EmRACE-3K, we establish a benchmark to evaluate the embodied reasoning capabilities of VLMs across three key dimensions)."
+        ],
+        "conclusion": "Qwen2.5-VL-7B 모델을 미세 조정하여 모든 도전에서 성과를 크게 높였으며, 데이터셋이 구현 추론 능력 개발에 효과적임을 입증함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.10524",
+            "authors": [
+                {
+                    "_id": "6875e531257d4f04353705d1",
+                    "name": "Sangmin Bae",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d2",
+                    "name": "Yujin Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d3",
+                    "name": "Reza Bayat",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d4",
+                    "name": "Sungnyun Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d5",
+                    "name": "Jiyoun Ha",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d6",
+                    "name": "Tal Schuster",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d7",
+                    "name": "Adam Fisch",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d8",
+                    "name": "Hrayr Harutyunyan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705d9",
+                    "name": "Ziwei Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705da",
+                    "name": "Aaron Courville",
+                    "hidden": false
+                },
+                {
+                    "_id": "6875e531257d4f04353705db",
+                    "name": "Se-Young Yun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-14T17:49:00.000Z",
+            "submittedOnDailyAt": "2025-07-15T03:52:43.642Z",
+            "title": "Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive\n  Token-Level Computation",
+            "submittedOnDailyBy": {
+                "_id": "6602ca1e10a1441af41637be",
+                "avatarUrl": "/avatars/5880e699def320beb352cbed77495b2f.svg",
+                "isPro": false,
+                "fullname": "Sangmin Bae",
+                "user": "raymin0223",
+                "type": "user"
+            },
+            "summary": "Scaling language models unlocks impressive capabilities, but the accompanying\ncomputational and memory demands make both training and deployment expensive.\nExisting efficiency efforts typically target either parameter sharing or\nadaptive computation, leaving open the question of how to attain both\nsimultaneously. We introduce Mixture-of-Recursions (MoR), a unified framework\nthat combines the two axes of efficiency inside a single Recursive Transformer.\nMoR reuses a shared stack of layers across recursion steps to achieve parameter\nefficiency, while lightweight routers enable adaptive token-level thinking by\ndynamically assigning different recursion depths to individual tokens. This\nallows MoR to focus quadratic attention computation only among tokens still\nactive at a given recursion depth, further improving memory access efficiency\nby selectively caching only their key-value pairs. Beyond these core\nmechanisms, we also propose a KV sharing variant that reuses KV pairs from the\nfirst recursion, specifically designed to decrease prefill latency and memory\nfootprint. Across model scales ranging from 135M to 1.7B parameters, MoR forms\na new Pareto frontier: at equal training FLOPs and smaller model sizes, it\nsignificantly lowers validation perplexity and improves few-shot accuracy,\nwhile delivering higher throughput compared with vanilla and existing recursive\nbaselines. These gains demonstrate that MoR is an effective path towards\nlarge-model quality without incurring large-model cost.",
+            "upvotes": 20,
+            "discussionId": "6875e531257d4f04353705dc",
+            "githubRepo": "https://github.com/raymin0223/mixture_of_recursions",
+            "ai_summary": "Mixture-of-Recursions (MoR) achieves parameter and computational efficiency in large language models through shared layers and adaptive recursion depths, improving performance metrics and throughput.",
+            "ai_keywords": [
+                "Mixture-of-Recursions",
+                "MoR",
+                "Recursive Transformer",
+                "parameter efficiency",
+                "adaptive computation",
+                "lightweight routers",
+                "token-level thinking",
+                "recursion depth",
+                "quadratic attention computation",
+                "key-value pairs",
+                "KV sharing",
+                "prefill latency",
+                "memory footprint",
+                "validation perplexity",
+                "few-shot accuracy",
+                "throughput"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "Mixture-of-Recursions: 적응형 Token-Level 계산을 위한 동적 재귀 깊이 학습",
+        "purpose": "기존 언어 모델의 효율성을 증가시키면서 계산 비용과 메모리 수요를 동시에 개선하려는 목표.",
+        "method": [
+            "Mixture-of-Recursions (MoR)라는 통합 프레임워크를 소개하여 재귀 Transformer 내에서 효율성을 결합함(We introduce Mixture-of-Recursions (MoR), a unified framework that combines the two axes of efficiency inside a single Recursive Transformer.)",
+            "공유 레이어 스택을 재사용하여 파라미터 효율성을 달성하고, 경량 라우터를 사용해 개별 토큰에 다른 재귀 깊이를 동적으로 할당함(MoR reuses a shared stack of layers across recursion steps to achieve parameter efficiency, while lightweight routers enable adaptive token-level thinking by dynamically assigning different recursion depths to individual tokens.)",
+            "메모리 접근 효율성을 개선하기 위해 선택적으로 활성 토큰의 키-값 쌍만 캐시하는 방식으로 주의 계산을 집중시킴(This allows MoR to focus quadratic attention computation only among tokens still active at a given recursion depth, further improving memory access efficiency by selectively caching only their key-value pairs.)"
+        ],
+        "conclusion": "MoR는 모델 크기에서 작은 비용으로 높은 품질을 달성할 수 있는 효과적인 경로임을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Adaptive Computation"
+        ]
+    }
+]
