@@ -1,0 +1,654 @@
+[
+    {
+        "paper": {
+            "id": "2507.07104",
+            "authors": [
+                {
+                    "_id": "686f95e9706a6ea4654189ff",
+                    "user": {
+                        "_id": "66e0b013733965882099cc37",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66e0b013733965882099cc37/CkTK2kV2v-TfdYiwsW6Tx.jpeg",
+                        "isPro": true,
+                        "fullname": "Tiezheng Zhang",
+                        "user": "PatZhang11",
+                        "type": "user"
+                    },
+                    "name": "Tiezheng Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:03:27.231Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a00",
+                    "name": "Yitong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a01",
+                    "name": "Yu-cheng Chou",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a02",
+                    "name": "Jieneng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a03",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a04",
+                    "name": "Chen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "686f95e9706a6ea465418a05",
+                    "user": {
+                        "_id": "64b5ba6060274cbb296d6288",
+                        "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                        "isPro": true,
+                        "fullname": "Junfei Xiao",
+                        "user": "lambertxiao",
+                        "type": "user"
+                    },
+                    "name": "Junfei Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-11T08:03:25.003Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-09T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-07-16T04:05:40.175Z",
+            "title": "Vision-Language-Vision Auto-Encoder: Scalable Knowledge Distillation\n  from Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "64b5ba6060274cbb296d6288",
+                "avatarUrl": "/avatars/67e0343954dda6e92ed3f6e7976f9f87.svg",
+                "isPro": true,
+                "fullname": "Junfei Xiao",
+                "user": "lambertxiao",
+                "type": "user"
+            },
+            "summary": "Building state-of-the-art Vision-Language Models (VLMs) with strong\ncaptioning capabilities typically necessitates training on billions of\nhigh-quality image-text pairs, requiring millions of GPU hours. This paper\nintroduces the Vision-Language-Vision (VLV) auto-encoder framework, which\nstrategically leverages key pretrained components: a vision encoder, the\ndecoder of a Text-to-Image (T2I) diffusion model, and subsequently, a Large\nLanguage Model (LLM). Specifically, we establish an information bottleneck by\nregularizing the language representation space, achieved through freezing the\npretrained T2I diffusion decoder. Our VLV pipeline effectively distills\nknowledge from the text-conditioned diffusion model using continuous\nembeddings, demonstrating comprehensive semantic understanding via high-quality\nreconstructions. Furthermore, by fine-tuning a pretrained LLM to decode the\nintermediate language representations into detailed descriptions, we construct\na state-of-the-art (SoTA) captioner comparable to leading models like GPT-4o\nand Gemini 2.0 Flash. Our method demonstrates exceptional cost-efficiency and\nsignificantly reduces data requirements; by primarily utilizing single-modal\nimages for training and maximizing the utility of existing pretrained models\n(image encoder, T2I diffusion model, and LLM), it circumvents the need for\nmassive paired image-text datasets, keeping the total training expenditure\nunder $1,000 USD.",
+            "upvotes": 20,
+            "discussionId": "686f95e9706a6ea465418a06",
+            "projectPage": "https://lambert-x.github.io/Vision-Language-Vision/",
+            "githubRepo": "https://github.com/Tiezheng11/Vision-Language-Vision",
+            "ai_summary": "The VLV auto-encoder framework uses pretrained vision and text models to create a cost-effective and data-efficient captioning system.",
+            "ai_keywords": [
+                "Vision-Language Models",
+                "VLV auto-encoder",
+                "vision encoder",
+                "Text-to-Image diffusion model",
+                "Large Language Model",
+                "information bottleneck",
+                "continuous embeddings",
+                "semantic understanding",
+                "captioning",
+                "fine-tuning",
+                "GPT-4o",
+                "Gemini 2.0 Flash"
+            ],
+            "githubStars": 25
+        },
+        "translation_title": "Vision-Language-Vision 오토인코더: 확장 가능한 지식 증류",
+        "purpose": "고품질 이미지-텍스트 쌍의 대규모 학습 없이 성능이 뛰어난 Vision-Language 모델을 구축하기 위해 비용 효율적인 방법 개발",
+        "method": [
+            "Vision-Language-Vision(VLV) 오토인코더 프레임워크를 소개함(This paper introduces the Vision-Language-Vision (VLV) auto-encoder framework.)",
+            "사전 학습된 T2I 디퓨전 모델의 디코더를 동 freezing 하여 언어 표현 공간을 조정함(we establish an information bottleneck by regularizing the language representation space, achieved through freezing the pretrained T2I diffusion decoder.)",
+            "기존의 사전 학습된 모델을 활용하여 훈련 데이터 요구 사항을 최소화함(we maximize the utility of existing pretrained models (image encoder, T2I diffusion model, and LLM), it circumvents the need for massive paired image-text datasets.)"
+        ],
+        "conclusion": "VLV 파이프라인은 비용 효율적이며, 고품질 재구성을 통한 포괄적인 의미 이해를 보여줌.",
+        "keywords": [
+            "Vision-Language Models",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.11407",
+            "authors": [
+                {
+                    "_id": "68774564257d4f04353707dc",
+                    "name": "LG AI Research",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707de",
+                    "name": "Kyunghoon Bae",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707df",
+                    "name": "Eunbi Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e0",
+                    "name": "Kibong Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e1",
+                    "name": "Stanley Jungkyu Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e2",
+                    "name": "Yemuk Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e3",
+                    "name": "Kyubeen Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e4",
+                    "name": "Seokhee Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e5",
+                    "name": "Junwon Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e6",
+                    "name": "Taewan Hwang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e7",
+                    "user": {
+                        "_id": "64bf77338e051085ba405d66",
+                        "avatarUrl": "/avatars/dd8b1f976c67c8b592f7d1e88573fa8b.svg",
+                        "isPro": false,
+                        "fullname": "Joonwon",
+                        "user": "lainshower",
+                        "type": "user"
+                    },
+                    "name": "Joonwon Jang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:16:04.357Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e8",
+                    "user": {
+                        "_id": "6578953c1e4ac8627fb0fca9",
+                        "avatarUrl": "/avatars/e64a4c288424c38f3af0c299ff35fa93.svg",
+                        "isPro": false,
+                        "fullname": "jeon",
+                        "user": "gywlssww",
+                        "type": "user"
+                    },
+                    "name": "Hyojin Jeon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:02.499Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707e9",
+                    "name": "Kijeong Jeon",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ea",
+                    "name": "Gerrard Jeongwon Jo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707eb",
+                    "name": "Hyunjik Jo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ec",
+                    "name": "Jiyeon Jung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ed",
+                    "name": "Euisoon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ee",
+                    "name": "Hyosang Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ef",
+                    "name": "Jihoon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f0",
+                    "name": "Joonkee Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f1",
+                    "name": "Seonghwan Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f2",
+                    "name": "Soyeon Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f3",
+                    "user": {
+                        "_id": "628efeff6d8dcc7ab5263881",
+                        "avatarUrl": "/avatars/1e894ccd7ba206a755b0b9af9f22ead1.svg",
+                        "isPro": false,
+                        "fullname": "Sunkyoung Kim",
+                        "user": "Sunkyoung",
+                        "type": "user"
+                    },
+                    "name": "Sunkyoung Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:06.683Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f4",
+                    "user": {
+                        "_id": "660260cf1737e5cd4a826550",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660260cf1737e5cd4a826550/AlSfoM2WtqPjLtYR6x7Wf.jpeg",
+                        "isPro": false,
+                        "fullname": "Yireun Kim",
+                        "user": "yireun",
+                        "type": "user"
+                    },
+                    "name": "Yireun Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:08.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f5",
+                    "name": "Yongil Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f6",
+                    "name": "Youchul Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f7",
+                    "name": "Edward Hwayoung Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f8",
+                    "name": "Gwangho Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707f9",
+                    "name": "Haeju Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fa",
+                    "name": "Honglak Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fb",
+                    "name": "Jinsik Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fc",
+                    "user": {
+                        "_id": "6241349b9d7bad9474ed254a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6241349b9d7bad9474ed254a/b09yztloFKapHBFPlhkQD.jpeg",
+                        "isPro": false,
+                        "fullname": "Kyungmin Lee",
+                        "user": "lkm2835",
+                        "type": "user"
+                    },
+                    "name": "Kyungmin Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T15:06:04.788Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fd",
+                    "name": "Sangha Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707fe",
+                    "name": "Young Min Paik",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f04353707ff",
+                    "name": "Yongmin Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370800",
+                    "name": "Youngyong Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370801",
+                    "name": "Sanghyun Seo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370802",
+                    "name": "Sihoon Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370803",
+                    "name": "Heuiyeen Yeen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370804",
+                    "name": "Sihyuk Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774564257d4f0435370805",
+                    "name": "Hyeongu Yun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-15T15:24:51.000Z",
+            "submittedOnDailyAt": "2025-07-16T07:04:54.982Z",
+            "title": "EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and\n  Reasoning Modes",
+            "submittedOnDailyBy": {
+                "_id": "660260cf1737e5cd4a826550",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/660260cf1737e5cd4a826550/AlSfoM2WtqPjLtYR6x7Wf.jpeg",
+                "isPro": false,
+                "fullname": "Yireun Kim",
+                "user": "yireun",
+                "type": "user"
+            },
+            "summary": "This technical report introduces EXAONE 4.0, which integrates a Non-reasoning\nmode and a Reasoning mode to achieve both the excellent usability of EXAONE 3.5\nand the advanced reasoning abilities of EXAONE Deep. To pave the way for the\nagentic AI era, EXAONE 4.0 incorporates essential features such as agentic tool\nuse, and its multilingual capabilities are extended to support Spanish in\naddition to English and Korean. The EXAONE 4.0 model series consists of two\nsizes: a mid-size 32B model optimized for high performance, and a small-size\n1.2B model designed for on-device applications. The EXAONE 4.0 demonstrates\nsuperior performance compared to open-weight models in its class and remains\ncompetitive even against frontier-class models. The models are publicly\navailable for research purposes and can be easily downloaded via\nhttps://huggingface.co/LGAI-EXAONE.",
+            "upvotes": 17,
+            "discussionId": "68774564257d4f0435370806",
+            "ai_summary": "EXAONE 4.0 integrates non-reasoning and reasoning modes, supports multilingualism, and offers models optimized for high performance and on-device use, demonstrating superior performance compared to open-weight models.",
+            "ai_keywords": [
+                "Non-reasoning mode",
+                "Reasoning mode",
+                "agentic tool use",
+                "multilingual capabilities",
+                "mid-size model",
+                "small-size model",
+                "high performance",
+                "on-device applications",
+                "open-weight models",
+                "frontier-class models"
+            ]
+        },
+        "translation_title": "EXAONE 4.0: 비추론 및 추론 모드를 통합한 통합 대형 언어 모델",
+        "purpose": "EXAONE 3.5의 뛰어난 사용자성 및 EXAONE Deep의 고급 추론 능력을 결합하여 에이전트 AI 시대를 준비하는 것",
+        "method": [
+            "Non-reasoning 모드와 Reasoning 모드를 통합하여 모델의 유용성을 높인다.(EXAONE 4.0 integrates a Non-reasoning mode and a Reasoning mode to achieve both the excellent usability of EXAONE 3.5 and the advanced reasoning abilities of EXAONE Deep.)",
+            "스페인어를 지원하도록 다국어 기능을 확장하여 다양한 사용자에게 접근성을 제공한다.(its multilingual capabilities are extended to support Spanish in addition to English and Korean.)",
+            "중간 크기 32B 모델과 작은 크기 1.2B 모델 두 가지 크기로 제공하여 다양한 용도에 맞춘 최적화를 진행한다.(The EXAONE 4.0 model series consists of two sizes: a mid-size 32B model optimized for high performance and a small-size 1.2B model designed for on-device applications.)"
+        ],
+        "conclusion": "EXAONE 4.0은 동급의 오픈무게 모델들보다 우수한 성능을 보이며, 최전선 클래스 모델들에 대해서도 경쟁력을 유지함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.09404",
+            "authors": [
+                {
+                    "_id": "68774155257d4f04353707d3",
+                    "name": "Mustafa Shukor",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d4",
+                    "name": "Louis Bethune",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d5",
+                    "name": "Dan Busbridge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d6",
+                    "name": "David Grangier",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d7",
+                    "name": "Enrico Fini",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d8",
+                    "name": "Alaaeldin El-Nouby",
+                    "hidden": false
+                },
+                {
+                    "_id": "68774155257d4f04353707d9",
+                    "name": "Pierre Ablin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-12T21:16:08.000Z",
+            "submittedOnDailyAt": "2025-07-16T04:39:10.654Z",
+            "title": "Scaling Laws for Optimal Data Mixtures",
+            "submittedOnDailyBy": {
+                "_id": "62bdeedd01dc22b4d22a371e",
+                "avatarUrl": "/avatars/3cc0643feb53bf2e895ec12c275d5483.svg",
+                "isPro": false,
+                "fullname": "Mustafa Shukor",
+                "user": "mshukor",
+                "type": "user"
+            },
+            "summary": "Large foundation models are typically trained on data from multiple domains,\nwith the data mixture--the proportion of each domain used--playing a critical\nrole in model performance. The standard approach to selecting this mixture\nrelies on trial and error, which becomes impractical for large-scale\npretraining. We propose a systematic method to determine the optimal data\nmixture for any target domain using scaling laws. Our approach accurately\npredicts the loss of a model of size N trained with D tokens and a specific\ndomain weight vector h. We validate the universality of these scaling laws by\ndemonstrating their predictive power in three distinct and large-scale\nsettings: large language model (LLM), native multimodal model (NMM), and large\nvision models (LVM) pretraining. We further show that these scaling laws can\nextrapolate to new data mixtures and across scales: their parameters can be\naccurately estimated using a few small-scale training runs, and used to\nestimate the performance at larger scales and unseen domain weights. The\nscaling laws allow to derive the optimal domain weights for any target domain\nunder a given training budget (N,D), providing a principled alternative to\ncostly trial-and-error methods.",
+            "upvotes": 13,
+            "discussionId": "68774156257d4f04353707da",
+            "ai_summary": "Scaling laws predict optimal data mixtures for large foundation models, improving performance across different domains and scales.",
+            "ai_keywords": [
+                "scaling laws",
+                "large language model",
+                "native multimodal model",
+                "large vision models",
+                "domain weights",
+                "parameter estimation",
+                "performance prediction",
+                "training budget"
+            ]
+        },
+        "translation_title": "최적 데이터 혼합을 위한 스케일링 법칙",
+        "purpose": "대규모 사전 훈련에서 데이터 혼합 비율을 효과적으로 결정하기 위한 체계적인 방법 제안",
+        "method": [
+            "스케일링 법칙을 사용하여 특정 도메인에 대한 최적의 데이터 혼합을 결정하는 방법을 제안함(We propose a systematic method to determine the optimal data mixture for any target domain using scaling laws.)",
+            "모델 크기 N, D 토큰 및 특정 도메인 가중치 벡터 h를 이용해 모델 손실 예측함(Our approach accurately predicts the loss of a model of size N trained with D tokens and a specific domain weight vector h.)",
+            "세 가지 대규모 설정에서 스케일링 법칙의 보편성을 검증함(We validate the universality of these scaling laws by demonstrating their predictive power in three distinct and large-scale settings: large language model (LLM), native multimodal model (NMM), and large vision models (LVM) pretraining.)"
+        ],
+        "conclusion": "스케일링 법칙을 통해 특정 훈련 예산 하에서 최적의 도메인 가중치를 파악할 수 있어 비싼 시행착오 방법 대신 효과적인 대안을 제공함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.10787",
+            "authors": [
+                {
+                    "_id": "68771a98257d4f04353707b2",
+                    "user": {
+                        "_id": "62f662bcc58915315c4eccea",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                        "isPro": true,
+                        "fullname": "Yilun Zhao",
+                        "user": "yilunzhao",
+                        "type": "user"
+                    },
+                    "name": "Yilun Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:45.442Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b3",
+                    "name": "Chengye Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b4",
+                    "name": "Chuhan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68771a98257d4f04353707b5",
+                    "name": "Arman Cohan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-14T20:35:25.000Z",
+            "submittedOnDailyAt": "2025-07-16T01:51:11.312Z",
+            "title": "Can Multimodal Foundation Models Understand Schematic Diagrams? An\n  Empirical Study on Information-Seeking QA over Scientific Papers",
+            "submittedOnDailyBy": {
+                "_id": "62f662bcc58915315c4eccea",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62f662bcc58915315c4eccea/zOAQLONfMP88zr70sxHK-.jpeg",
+                "isPro": true,
+                "fullname": "Yilun Zhao",
+                "user": "yilunzhao",
+                "type": "user"
+            },
+            "summary": "This paper introduces MISS-QA, the first benchmark specifically designed to\nevaluate the ability of models to interpret schematic diagrams within\nscientific literature. MISS-QA comprises 1,500 expert-annotated examples over\n465 scientific papers. In this benchmark, models are tasked with interpreting\nschematic diagrams that illustrate research overviews and answering\ncorresponding information-seeking questions based on the broader context of the\npaper. We assess the performance of 18 frontier multimodal foundation models,\nincluding o4-mini, Gemini-2.5-Flash, and Qwen2.5-VL. We reveal a significant\nperformance gap between these models and human experts on MISS-QA. Our analysis\nof model performance on unanswerable questions and our detailed error analysis\nfurther highlight the strengths and limitations of current models, offering key\ninsights to enhance models in comprehending multimodal scientific literature.",
+            "upvotes": 6,
+            "discussionId": "68771a98257d4f04353707b6",
+            "githubRepo": "https://github.com/yilunzhao/MISS-QA",
+            "ai_summary": "A benchmark evaluates multimodal models' ability to interpret scientific schematic diagrams and answer related questions, revealing performance gaps and insights for improvement.",
+            "ai_keywords": [
+                "multimodal foundation models",
+                "schematic diagrams",
+                "scientific literature",
+                "information-seeking questions",
+                "error analysis"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "멀티모달 기초 모델은 도식 다이어그램을 이해할 수 있는가? 과학 논문에서 정보 탐색 QA에 대한 실증 연구",
+        "purpose": "과학 문헌 내 도식 다이어그램을 해석할 수 있는 모델의 능력을 평가하기 위한 기준을 설정",
+        "method": [
+            "MISS-QA라는 첫 번째 벤치마크를 도입하여 1,500개의 전문가 주석 예제를 포함하고 과학 논문 465편에 대해 평가함(This paper introduces MISS-QA, the first benchmark specifically designed to evaluate the ability of models to interpret schematic diagrams within scientific literature.)",
+            "모델들이 도식 다이어그램을 해석하고 관련된 정보 탐색 질문에 답하도록 하는 작업을 부여함(In this benchmark, models are tasked with interpreting schematic diagrams that illustrate research overviews and answering corresponding information-seeking questions based on the broader context of the paper.)",
+            "18개의 최신 멀티모달 기초 모델의 성능을 평가함(We assess the performance of 18 frontier multimodal foundation models, including o4-mini, Gemini-2.5-Flash, and Qwen2.5-VL.)"
+        ],
+        "conclusion": "현재 모델들이 전문가와 비교했을 때 성능 차이가 크다는 것을 발견하였고, 모델의 강점과 한계를 분석하여 멀티모달 과학 문헌 이해를 향상시킬 수 있는 통찰을 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.09075",
+            "authors": [
+                {
+                    "_id": "687731d0257d4f04353707be",
+                    "name": "Wasi Uddin Ahmad",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707bf",
+                    "user": {
+                        "_id": "6254f8e5d21e4cc386b881ad",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649899774659-6254f8e5d21e4cc386b881ad.jpeg",
+                        "isPro": false,
+                        "fullname": "Somshubra Majumdar",
+                        "user": "smajumdar94",
+                        "type": "user"
+                    },
+                    "name": "Somshubra Majumdar",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-16T08:15:41.697Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c0",
+                    "name": "Aleksander Ficek",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c1",
+                    "name": "Sean Narenthiran",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c2",
+                    "name": "Mehrzad Samadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c3",
+                    "name": "Jocelyn Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c4",
+                    "name": "Siddhartha Jain",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c5",
+                    "name": "Vahid Noroozi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687731d0257d4f04353707c6",
+                    "name": "Boris Ginsburg",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-11T23:35:54.000Z",
+            "submittedOnDailyAt": "2025-07-16T03:31:02.680Z",
+            "title": "OpenCodeReasoning-II: A Simple Test Time Scaling Approach via\n  Self-Critique",
+            "submittedOnDailyBy": {
+                "_id": "6254f8e5d21e4cc386b881ad",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1649899774659-6254f8e5d21e4cc386b881ad.jpeg",
+                "isPro": false,
+                "fullname": "Somshubra Majumdar",
+                "user": "smajumdar94",
+                "type": "user"
+            },
+            "summary": "Recent advancements in reasoning-based Large Language Models (LLMs),\nparticularly their potential through test-time scaling, have created\nsignificant opportunities for distillation in code generation and critique.\nHowever, progress in both areas fundamentally depends on large-scale,\nhigh-quality datasets. In this work, we introduce OpenCodeReasoning-II, a\ndataset consists of 2.5M question-solution-critique triples (approx. 35K unique\nprogramming questions), making it nearly twice the size of the previous largest\npublicly available code reasoning dataset. In this work, we employ a two-stage\nsupervised fine-tuning strategy. The first stage focuses on fine-tuning for\ncode generation, while the second stage involves the joint training of models\nfor both code generation and critique. Our resulting finetuned Qwen2.5-Instruct\nmodels achieve performance in code generation that either exceeds or equals the\nbest prior open-weight distilled models. Notably, the integration of our code\ngeneration and critique models leads to significant improvements in competitive\ncoding performance. Furthermore, we present an extension of the LiveCodeBench\nbenchmark to specifically support the C++ programming language, thereby\nfacilitating more comprehensive LLM evaluation using this benchmark.",
+            "upvotes": 4,
+            "discussionId": "687731d0257d4f04353707c7"
+        },
+        "translation_title": "OpenCodeReasoning-II: 자가 비판을 통한 간단한 테스트 타임 스케일링 접근법",
+        "purpose": "코드 생성 및 비판을 위한 고품질 데이터셋 구축",
+        "method": [
+            "2.5M의 질문-해답-비판 삼중 항목으로 이루어진 OpenCodeReasoning-II 데이터셋을 도입함(we introduce OpenCodeReasoning-II, a dataset consists of 2.5M question-solution-critique triples).",
+            "두 단계 감독 세부 조정을 통해 코드 생성 및 비판 모델을 공동으로 학습함(we employ a two-stage supervised fine-tuning strategy).",
+            "세부 조정된 Qwen2.5-Instruct 모델이 이전의 최고 모델과 동등하거나 초과하는 성능을 달성함(our resulting finetuned Qwen2.5-Instruct models achieve performance in code generation that either exceeds or equals the best prior open-weight distilled models)."
+        ],
+        "conclusion": "코드 생성과 비판 모델의 통합을 통해 경쟁 코딩 성능에서 상당한 개선을 이루었으며, C++ 프로그래밍 언어를 지원하는 LiveCodeBench 벤치마크를 확장함으로써 LLM 평가를 보다 포괄적으로 수행할 수 있게 되었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
