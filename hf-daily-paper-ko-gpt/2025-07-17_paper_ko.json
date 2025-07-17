@@ -1,0 +1,637 @@
+[
+    {
+        "paper": {
+            "id": "2507.09477",
+            "authors": [
+                {
+                    "_id": "68787030001546c83aa4f9ae",
+                    "name": "Yangning Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9af",
+                    "user": {
+                        "_id": "6667e801fd95ddf66cac84ff",
+                        "avatarUrl": "/avatars/b75f6253160c81f558e6b40ed2ca1755.svg",
+                        "isPro": false,
+                        "fullname": "Weizhi Zhang",
+                        "user": "WZDavid",
+                        "type": "user"
+                    },
+                    "name": "Weizhi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:22:48.379Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b0",
+                    "name": "Yuyao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b1",
+                    "name": "Wei-Chieh Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b2",
+                    "name": "Yaozu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b3",
+                    "name": "Junyu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b4",
+                    "name": "Yuanchen Bei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b5",
+                    "user": {
+                        "_id": "633f112013e836a0fc4fa567",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1665077519962-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Henry Peng Zou",
+                        "user": "TreeForest",
+                        "type": "user"
+                    },
+                    "name": "Henry Peng Zou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:22:46.466Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b6",
+                    "name": "Xiao Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b7",
+                    "name": "Yusheng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b8",
+                    "name": "Chunkit Chan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9b9",
+                    "name": "Yankai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9ba",
+                    "name": "Zhongfen Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9bb",
+                    "name": "Yinghui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9bc",
+                    "name": "Hai-Tao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9bd",
+                    "name": "Dongyuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9be",
+                    "name": "Renhe Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9bf",
+                    "name": "Ming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9c0",
+                    "name": "Yangqiu Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68787030001546c83aa4f9c1",
+                    "name": "Philip S. Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-13T03:29:41.000Z",
+            "submittedOnDailyAt": "2025-07-17T02:27:52.541Z",
+            "title": "Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning\n  Systems in LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6667e801fd95ddf66cac84ff",
+                "avatarUrl": "/avatars/b75f6253160c81f558e6b40ed2ca1755.svg",
+                "isPro": false,
+                "fullname": "Weizhi Zhang",
+                "user": "WZDavid",
+                "type": "user"
+            },
+            "summary": "Retrieval-Augmented Generation (RAG) lifts the factuality of Large Language\nModels (LLMs) by injecting external knowledge, yet it falls short on problems\nthat demand multi-step inference; conversely, purely reasoning-oriented\napproaches often hallucinate or mis-ground facts. This survey synthesizes both\nstrands under a unified reasoning-retrieval perspective. We first map how\nadvanced reasoning optimizes each stage of RAG (Reasoning-Enhanced RAG). Then,\nwe show how retrieved knowledge of different type supply missing premises and\nexpand context for complex inference (RAG-Enhanced Reasoning). Finally, we\nspotlight emerging Synergized RAG-Reasoning frameworks, where (agentic) LLMs\niteratively interleave search and reasoning to achieve state-of-the-art\nperformance across knowledge-intensive benchmarks. We categorize methods,\ndatasets, and open challenges, and outline research avenues toward deeper\nRAG-Reasoning systems that are more effective, multimodally-adaptive,\ntrustworthy, and human-centric. The collection is available at\nhttps://github.com/DavidZWZ/Awesome-RAG-Reasoning.",
+            "upvotes": 42,
+            "discussionId": "68787031001546c83aa4f9c2",
+            "githubRepo": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning",
+            "ai_summary": "This survey integrates reasoning and retrieval in Large Language Models to improve factuality and multi-step inference, highlighting Synergized RAG-Reasoning frameworks and outlining future research directions.",
+            "ai_keywords": [
+                "Retrieval-Augmented Generation",
+                "Large Language Models",
+                "Reasoning-Enhanced RAG",
+                "RAG-Enhanced Reasoning",
+                "Synergized RAG-Reasoning",
+                "knowledge-intensive benchmarks",
+                "multimodally-adaptive",
+                "trustworthy",
+                "human-centric"
+            ],
+            "githubStars": 59
+        },
+        "translation_title": "Deep Reasoning을 활용한 Agentic RAG: LLM에서의 RAG-Reasoning 시스템 조사",
+        "purpose": "RAG-Reasoning 시스템을 통합하여 더 효과적이고 신뢰할 수 있는 지식 기반 모델을 개발하기 위한 연구",
+        "method": [
+            "진화된 Reasoning이 RAG의 각 단계를 최적화하는 방법을 기술함(We first map how advanced reasoning optimizes each stage of RAG.)",
+            "다양한 유형의 정보 검색 지식이 복잡한 추론을 위해 필요한 전제를 제공하는 방식을 설명함(Then, we show how retrieved knowledge of different type supply missing premises.)",
+            "지식 집약적인 벤치마크에서 최첨단 성능을 달성하기 위해 탐색과 추론을 반복적으로 협력하는 Synergized RAG-Reasoning 프레임워크를 강조함(Finally, we spotlight emerging Synergized RAG-Reasoning frameworks.)"
+        ],
+        "conclusion": "이 연구를 통해 RAG-Reasoning 시스템의 방법론과 도전 과제를 정리하고, 인간 중심의 더 효과적인 시스템 개발 방향을 제시한것이다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.12465",
+            "authors": [
+                {
+                    "_id": "6878635e001546c83aa4f979",
+                    "user": {
+                        "_id": "65af6f6b52e1b2aae437af2e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65af6f6b52e1b2aae437af2e/sFC98zLL_ZPS9fvZFi01W.jpeg",
+                        "isPro": false,
+                        "fullname": "Ziang Cao",
+                        "user": "Caoza",
+                        "type": "user"
+                    },
+                    "name": "Ziang Cao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:22:44.605Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6878635e001546c83aa4f97a",
+                    "user": {
+                        "_id": "62fc8cf7ee999004b5a8b982",
+                        "avatarUrl": "/avatars/6c5dda9e58747054a989f077a078f3dc.svg",
+                        "isPro": false,
+                        "fullname": "Zhaoxi Chen",
+                        "user": "FrozenBurning",
+                        "type": "user"
+                    },
+                    "name": "Zhaoxi Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-17T09:22:11.615Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6878635e001546c83aa4f97b",
+                    "name": "Linag Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6878635e001546c83aa4f97c",
+                    "user": {
+                        "_id": "62ab1ac1d48b4d8b048a3473",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1656826685333-62ab1ac1d48b4d8b048a3473.png",
+                        "isPro": false,
+                        "fullname": "Ziwei Liu",
+                        "user": "liuziwei7",
+                        "type": "user"
+                    },
+                    "name": "Ziwei Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-17T09:21:56.595Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65af6f6b52e1b2aae437af2e/nrL7wGaZ1Z5FZWuu0GTbg.mp4"
+            ],
+            "publishedAt": "2025-07-16T17:59:35.000Z",
+            "submittedOnDailyAt": "2025-07-17T01:26:11.001Z",
+            "title": "PhysX: Physical-Grounded 3D Asset Generation",
+            "submittedOnDailyBy": {
+                "_id": "65af6f6b52e1b2aae437af2e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65af6f6b52e1b2aae437af2e/sFC98zLL_ZPS9fvZFi01W.jpeg",
+                "isPro": false,
+                "fullname": "Ziang Cao",
+                "user": "Caoza",
+                "type": "user"
+            },
+            "summary": "3D modeling is moving from virtual to physical. Existing 3D generation\nprimarily emphasizes geometries and textures while neglecting physical-grounded\nmodeling. Consequently, despite the rapid development of 3D generative models,\nthe synthesized 3D assets often overlook rich and important physical\nproperties, hampering their real-world application in physical domains like\nsimulation and embodied AI. As an initial attempt to address this challenge, we\npropose PhysX, an end-to-end paradigm for physical-grounded 3D asset\ngeneration. 1) To bridge the critical gap in physics-annotated 3D datasets, we\npresent PhysXNet - the first physics-grounded 3D dataset systematically\nannotated across five foundational dimensions: absolute scale, material,\naffordance, kinematics, and function description. In particular, we devise a\nscalable human-in-the-loop annotation pipeline based on vision-language models,\nwhich enables efficient creation of physics-first assets from raw 3D assets.2)\nFurthermore, we propose PhysXGen, a feed-forward framework for\nphysics-grounded image-to-3D asset generation, injecting physical knowledge\ninto the pre-trained 3D structural space. Specifically, PhysXGen employs a\ndual-branch architecture to explicitly model the latent correlations between 3D\nstructures and physical properties, thereby producing 3D assets with plausible\nphysical predictions while preserving the native geometry quality. Extensive\nexperiments validate the superior performance and promising generalization\ncapability of our framework. All the code, data, and models will be released to\nfacilitate future research in generative physical AI.",
+            "upvotes": 20,
+            "discussionId": "6878635e001546c83aa4f97d",
+            "projectPage": "https://physx-3d.github.io/",
+            "githubRepo": "https://github.com/ziangcao0312/PhysX",
+            "ai_summary": "PhysX addresses the lack of physical properties in 3D generative models by introducing PhysXNet, a physics-annotated dataset, and PhysXGen, a framework that integrates physical knowledge into 3D asset generation.",
+            "ai_keywords": [
+                "physics-grounded 3D asset generation",
+                "PhysXNet",
+                "physics-annotated 3D datasets",
+                "vision-language models",
+                "human-in-the-loop annotation pipeline",
+                "PhysXGen",
+                "feed-forward framework",
+                "dual-branch architecture",
+                "latent correlations",
+                "physical predictions",
+                "geometry quality"
+            ],
+            "githubStars": 54
+        },
+        "translation_title": "PhysX: 물리 기반 3D 자산 생성",
+        "purpose": "물리적 속성을 반영한 3D 자산 생성을 위한 새로운 패러다임 제안과 연구",
+        "method": [
+            "물리적 속성에 대한 주석이 추가된 3D 데이터셋 PhysXNet을 제시하여 중요한 차이를 줄임(we present PhysXNet - the first physics-grounded 3D dataset systematically annotated across five foundational dimensions: absolute scale, material, affordance, kinematics, and function description.)",
+            "비전-언어 모델 기반의 주석 파이프라인을 통해 3D 자산에서 물리적 속성을 가진 자산으로 효율적으로 변환함(we devise a scalable human-in-the-loop annotation pipeline based on vision-language models, which enables efficient creation of physics-first assets from raw 3D assets.)",
+            "물리적 지식을 주입하여 이미지에서 3D 자산으로의 생성 프레임워크 PhysXGen을 제안함(we propose PhysXGen, a feed-forward framework for physics-grounded image-to-3D asset generation, injecting physical knowledge into the pre-trained 3D structural space.)",
+            "물리적 특성과 3D 구조 간의 관계를 모델링하여 실제 물리적 예측을 생성함(PhysXGen employs a dual-branch architecture to explicitly model the latent correlations between 3D structures and physical properties, thereby producing 3D assets with plausible physical predictions while preserving the native geometry quality.)"
+        ],
+        "conclusion": "우리의 프레임워크는 우수한 성능과 일반화 능력을 입증하며, 향후 연구를 위한 코드, 데이터 및 모델을 공개할 예정임.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.12463",
+            "authors": [
+                {
+                    "_id": "68788789001546c83aa4f9e4",
+                    "user": {
+                        "_id": "686fe2365998cd8af12fc8ba",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/GQbxskSw-98mdjbM3szaC.png",
+                        "isPro": false,
+                        "fullname": "Renjie Li",
+                        "user": "renjie-li",
+                        "type": "user"
+                    },
+                    "name": "Renjie Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T14:59:16.875Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9e5",
+                    "user": {
+                        "_id": "6825fc0e58cf56d164cb339d",
+                        "avatarUrl": "/avatars/4ade4a5bbb0a805a92a83bfb233f805f.svg",
+                        "isPro": false,
+                        "fullname": "Ruijie Ye",
+                        "user": "jerryye0110",
+                        "type": "user"
+                    },
+                    "name": "Ruijie Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:17:53.937Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9e6",
+                    "name": "Mingyang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9e7",
+                    "name": "Hao Frank Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9e8",
+                    "user": {
+                        "_id": "63b354bb7091e602f1a0e2e8",
+                        "avatarUrl": "/avatars/a388d93c0af2f57eadb6fa60d6789041.svg",
+                        "isPro": false,
+                        "fullname": "wayne",
+                        "user": "waynefan",
+                        "type": "user"
+                    },
+                    "name": "Zhiwen Fan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:23:18.102Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9e9",
+                    "name": "Hezhen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788789001546c83aa4f9ea",
+                    "user": {
+                        "_id": "62548d5fef3debb2ddf91217",
+                        "avatarUrl": "/avatars/14975b45568f9c399c92c3986b6ce83e.svg",
+                        "isPro": false,
+                        "fullname": "Zhengzhong Tu",
+                        "user": "vztu",
+                        "type": "user"
+                    },
+                    "name": "Zhengzhong Tu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:23:16.047Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62548d5fef3debb2ddf91217/ARblfCBCEmNaS2zzbTJLm.jpeg"
+            ],
+            "publishedAt": "2025-07-16T17:59:30.000Z",
+            "submittedOnDailyAt": "2025-07-17T03:48:41.381Z",
+            "title": "MMHU: A Massive-Scale Multimodal Benchmark for Human Behavior\n  Understanding",
+            "submittedOnDailyBy": {
+                "_id": "62548d5fef3debb2ddf91217",
+                "avatarUrl": "/avatars/14975b45568f9c399c92c3986b6ce83e.svg",
+                "isPro": false,
+                "fullname": "Zhengzhong Tu",
+                "user": "vztu",
+                "type": "user"
+            },
+            "summary": "Humans are integral components of the transportation ecosystem, and\nunderstanding their behaviors is crucial to facilitating the development of\nsafe driving systems. Although recent progress has explored various aspects of\nhuman behaviorx2014such as motion, trajectories, and\nintentionx2014a comprehensive benchmark for evaluating human\nbehavior understanding in autonomous driving remains unavailable. In this work,\nwe propose MMHU, a large-scale benchmark for human behavior analysis\nfeaturing rich annotations, such as human motion and trajectories, text\ndescription for human motions, human intention, and critical behavior labels\nrelevant to driving safety. Our dataset encompasses 57k human motion clips and\n1.73M frames gathered from diverse sources, including established driving\ndatasets such as Waymo, in-the-wild videos from YouTube, and self-collected\ndata. A human-in-the-loop annotation pipeline is developed to generate rich\nbehavior captions. We provide a thorough dataset analysis and benchmark\nmultiple tasksx2014ranging from motion prediction to motion\ngeneration and human behavior question answeringx2014thereby\noffering a broad evaluation suite. Project page :\nhttps://MMHU-Benchmark.github.io.",
+            "upvotes": 12,
+            "discussionId": "6878878a001546c83aa4f9eb",
+            "projectPage": "https://mmhu-benchmark.github.io/",
+            "ai_summary": "A large-scale benchmark, MMHU, is proposed for human behavior analysis in autonomous driving, featuring rich annotations and diverse data sources, and benchmarking multiple tasks including motion prediction and behavior question answering.",
+            "ai_keywords": [
+                "human behavior analysis",
+                "motion prediction",
+                "motion generation",
+                "human behavior question answering",
+                "human-in-the-loop annotation",
+                "Waymo",
+                "YouTube",
+                "self-collected data"
+            ]
+        },
+        "translation_title": "MMHU: 인간 행동 이해를 위한 대규모 멀티모달 벤치마크",
+        "purpose": "안전한 운전 시스템 개발을 위한 인간 행동 이해를 평가할 수 있는 포괄적인 기준 마련",
+        "method": [
+            "인간 행동 분석을 위한 대규모 벤치마크인 MMHU를 제안함(we propose MMHU, a large-scale benchmark for human behavior analysis).",
+            "57,000개의 인간 동작 클립과 1.73M 프레임으로 구성된 데이터 세트를 수집하고, 다양한 소스에서 다채로운 주석을 포함함(Our dataset encompasses 57k human motion clips and 1.73M frames gathered from diverse sources).",
+            "인간 행동 캡션 생성을 위한 인간 참여 주석 파이프라인을 개발함(A human-in-the-loop annotation pipeline is developed to generate rich behavior captions).",
+            "모션 예측, 모션 생성, 인간 행동 질문 응답 등 여러 과제를 평가하기 위한 종합적인 벤치마크를 제공함(we provide a thorough dataset analysis and benchmark multiple tasks)."
+        ],
+        "conclusion": "MMHU는 안전 운전을 위한 인간 행동 이해의 폭넓은 평가를 가능하게 하여 향후 연구에 기여할 수 있음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Computer Vision",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.11949",
+            "authors": [
+                {
+                    "_id": "687872c3001546c83aa4f9cf",
+                    "user": {
+                        "_id": "683d94e5ba11bab2cc848aab",
+                        "avatarUrl": "/avatars/4a1915ad48c78b3a71733b3282f2f93c.svg",
+                        "isPro": false,
+                        "fullname": "Shuyang Xu",
+                        "user": "JimSYXu",
+                        "type": "user"
+                    },
+                    "name": "Shuyang Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-17T09:22:22.253Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d0",
+                    "user": {
+                        "_id": "645223fb01d7bd9555ea399a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645223fb01d7bd9555ea399a/fVR7XmGg6pMSRKx9sEdvT.png",
+                        "isPro": false,
+                        "fullname": "Zhiyang Dou",
+                        "user": "frankzydou",
+                        "type": "user"
+                    },
+                    "name": "Zhiyang Dou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:22:59.825Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d1",
+                    "name": "Mingyi Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d2",
+                    "name": "Liang Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d3",
+                    "name": "Leo Ho",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d4",
+                    "name": "Jingbo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d5",
+                    "name": "Yuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d6",
+                    "name": "Cheng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d7",
+                    "name": "Yuexin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d8",
+                    "name": "Wenping Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687872c3001546c83aa4f9d9",
+                    "name": "Taku Komura",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/645223fb01d7bd9555ea399a/KoPBJkGwyft7hfVmM8ikZ.mp4"
+            ],
+            "publishedAt": "2025-07-16T06:33:11.000Z",
+            "submittedOnDailyAt": "2025-07-17T02:48:15.112Z",
+            "title": "MOSPA: Human Motion Generation Driven by Spatial Audio",
+            "submittedOnDailyBy": {
+                "_id": "645223fb01d7bd9555ea399a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645223fb01d7bd9555ea399a/fVR7XmGg6pMSRKx9sEdvT.png",
+                "isPro": false,
+                "fullname": "Zhiyang Dou",
+                "user": "frankzydou",
+                "type": "user"
+            },
+            "summary": "Enabling virtual humans to dynamically and realistically respond to diverse\nauditory stimuli remains a key challenge in character animation, demanding the\nintegration of perceptual modeling and motion synthesis. Despite its\nsignificance, this task remains largely unexplored. Most previous works have\nprimarily focused on mapping modalities like speech, audio, and music to\ngenerate human motion. As of yet, these models typically overlook the impact of\nspatial features encoded in spatial audio signals on human motion. To bridge\nthis gap and enable high-quality modeling of human movements in response to\nspatial audio, we introduce the first comprehensive Spatial Audio-Driven Human\nMotion (SAM) dataset, which contains diverse and high-quality spatial audio and\nmotion data. For benchmarking, we develop a simple yet effective\ndiffusion-based generative framework for human MOtion generation driven by\nSPatial Audio, termed MOSPA, which faithfully captures the relationship between\nbody motion and spatial audio through an effective fusion mechanism. Once\ntrained, MOSPA could generate diverse realistic human motions conditioned on\nvarying spatial audio inputs. We perform a thorough investigation of the\nproposed dataset and conduct extensive experiments for benchmarking, where our\nmethod achieves state-of-the-art performance on this task. Our model and\ndataset will be open-sourced upon acceptance. Please refer to our supplementary\nvideo for more details.",
+            "upvotes": 12,
+            "discussionId": "687872c9001546c83aa4f9da",
+            "ai_summary": "A diffusion-based generative framework, MOSPA, is introduced to model human motion in response to spatial audio, achieving state-of-the-art performance using the newly created SAM dataset.",
+            "ai_keywords": [
+                "diffusion-based generative framework",
+                "spatial audio",
+                "human motion",
+                "SAM dataset",
+                "MOSPA",
+                "spatial features",
+                "perceptual modeling",
+                "motion synthesis"
+            ]
+        },
+        "translation_title": "MOSPA: 공간 오디오에 의해 주도되는 인간 동작 생성",
+        "purpose": "공간 오디오에 반응하는 인간의 동작을 고품질로 모델링하기 위한 데이터셋과 방법론 연구",
+        "method": [
+            "Spatial Audio-Driven Human Motion (SAM) 데이터셋을 최초로 제공하여 공간 오디오와 동작 데이터의 다양성을 확보함(we introduce the first comprehensive Spatial Audio-Driven Human Motion (SAM) dataset, which contains diverse and high-quality spatial audio and motion data.)",
+            "MOSPA라는 확산 기반 생성 프레임워크를 개발하여 공간 오디오에 의해 동작 생성과 그 관계를 효과적으로 캡처함(we develop a simple yet effective diffusion-based generative framework for human motion generation driven by spatial audio, termed MOSPA, which faithfully captures the relationship between body motion and spatial audio through an effective fusion mechanism.)",
+            "다양한 공간 오디오 입력에 조건화된 현실적인 인간 동작을 생성할 수 있도록 함(Once trained, MOSPA could generate diverse realistic human motions conditioned on varying spatial audio inputs.)"
+        ],
+        "conclusion": "MOSPA는 공간 오디오와의 관계를 잘 모델링하고, 해당 작업에서 최첨단 성능을 달성함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.12415",
+            "authors": [
+                {
+                    "_id": "68788b9b001546c83aa4f9ed",
+                    "name": "Xinyi He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9ee",
+                    "user": {
+                        "_id": "612ee6a7b960e78c6d2319d4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/612ee6a7b960e78c6d2319d4/2Hu9BaAyXbyh1vt0v1Qui.jpeg",
+                        "isPro": false,
+                        "fullname": "Qian Liu",
+                        "user": "SivilTaram",
+                        "type": "user"
+                    },
+                    "name": "Qian Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T08:17:46.375Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9ef",
+                    "user": {
+                        "_id": "61711f02e0b1ddb56eb9b526",
+                        "avatarUrl": "/avatars/3e2fdf774f5bc1f73b450486d6da42d4.svg",
+                        "isPro": true,
+                        "fullname": "Mingzhe Du",
+                        "user": "Elfsong",
+                        "type": "user"
+                    },
+                    "name": "Mingzhe Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-17T09:08:30.259Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9f0",
+                    "name": "Lin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9f1",
+                    "name": "Zhijie Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9f2",
+                    "name": "Yiming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9f3",
+                    "name": "Zejian Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68788b9b001546c83aa4f9f4",
+                    "name": "Zejun Ma",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/612ee6a7b960e78c6d2319d4/_XkK-c8Xm-G1Ui5AwtGdu.png"
+            ],
+            "publishedAt": "2025-07-16T17:05:17.000Z",
+            "submittedOnDailyAt": "2025-07-17T04:10:30.408Z",
+            "title": "SWE-Perf: Can Language Models Optimize Code Performance on Real-World\n  Repositories?",
+            "submittedOnDailyBy": {
+                "_id": "612ee6a7b960e78c6d2319d4",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/612ee6a7b960e78c6d2319d4/2Hu9BaAyXbyh1vt0v1Qui.jpeg",
+                "isPro": false,
+                "fullname": "Qian Liu",
+                "user": "SivilTaram",
+                "type": "user"
+            },
+            "summary": "Code performance optimization is paramount in real-world software engineering\nand critical for production-level systems. While Large Language Models (LLMs)\nhave demonstrated impressive capabilities in code generation and bug fixing,\ntheir proficiency in enhancing code performance at the repository level remains\nlargely unexplored. To address this gap, we introduce SWE-Perf, the first\nbenchmark specifically designed to systematically evaluate LLMs on code\nperformance optimization tasks within authentic repository contexts. SWE-Perf\ncomprises 140 carefully curated instances, each derived from\nperformance-improving pull requests from popular GitHub repositories. Each\nbenchmark instance includes the relevant codebase, target functions,\nperformance-related tests, expert-authored patches, and executable\nenvironments. Through a comprehensive evaluation of representative methods that\nspan file-level and repo-level approaches (e.g., Agentless and OpenHands), we\nreveal a substantial capability gap between existing LLMs and expert-level\noptimization performance, highlighting critical research opportunities in this\nemerging field.",
+            "upvotes": 11,
+            "discussionId": "68788b9b001546c83aa4f9f5",
+            "projectPage": "https://swe-perf.github.io/",
+            "githubRepo": "https://github.com/SWE-Perf/SWE-Perf",
+            "ai_summary": "SWE-Perf is a benchmark for evaluating Large Language Models in code performance optimization using real-world repository data.",
+            "ai_keywords": [
+                "Large Language Models",
+                "code performance optimization",
+                "benchmark",
+                "performance-improving pull requests",
+                "codebase",
+                "target functions",
+                "performance-related tests",
+                "expert-authored patches",
+                "executable environments",
+                "Agentless",
+                "OpenHands"
+            ],
+            "githubStars": 5
+        },
+        "translation_title": "SWE-Perf: 언어 모델이 실제 리포지토리에서 코드 성능을 최적화할 수 있는가?",
+        "purpose": "실제 소프트웨어 엔지니어링에서 코드 성능 최적화를 평가하기 위한 기준을 설정하고, LLM의 성능을 검토하는 것.",
+        "method": [
+            "SWE-Perf라는 첫 번째 벤치마크를 소개하여 LLM의 코드 성능 최적화 작업을 평가함(To address this gap, we introduce SWE-Perf, the first benchmark specifically designed to systematically evaluate LLMs on code performance optimization tasks within authentic repository contexts.)",
+            "140개의 신중하게 선별된 인스턴스를 포함하고, 각 인스턴스는 인기 있는 GitHub 리포지토리에서의 성능 개선 풀 리퀘스트에서 파생됨(SWE-Perf comprises 140 carefully curated instances, each derived from performance-improving pull requests from popular GitHub repositories.)",
+            "파일 수준 및 리포지토리 수준 접근 방식을 아우르는 방법들을 포괄적으로 평가하여 기존 LLM과 전문가 수준 최적화 성능 간의 격차를 드러냄(Through a comprehensive evaluation of representative methods that span file-level and repo-level approaches, we reveal a substantial capability gap between existing LLMs and expert-level optimization performance.)"
+        ],
+        "conclusion": "SWE-Perf는 LLM의 코드 성능 최적화 능력을 평가할 수 있는 기준을 제공하며, 향후 연구 기회를 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
