@@ -1,0 +1,529 @@
+[
+    {
+        "paper": {
+            "id": "2507.11097",
+            "authors": [
+                {
+                    "_id": "687dd6672e8db0930be6f115",
+                    "user": {
+                        "_id": "653b8c3e97a4d71d950e2f20",
+                        "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                        "isPro": false,
+                        "fullname": "Zichen Wen",
+                        "user": "zichenwen",
+                        "type": "user"
+                    },
+                    "name": "Zichen Wen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T14:21:58.863Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f116",
+                    "user": {
+                        "_id": "66b980d66d490d845f8a697e",
+                        "avatarUrl": "/avatars/6ab2d08436851063f55baaadae8c4bc0.svg",
+                        "isPro": false,
+                        "fullname": "Joshua Qu",
+                        "user": "Joshua999",
+                        "type": "user"
+                    },
+                    "name": "Jiashu Qu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T08:29:23.761Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f117",
+                    "name": "Dongrui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f118",
+                    "name": "Zhiyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f119",
+                    "name": "Ruixi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11a",
+                    "name": "Yicun Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11b",
+                    "name": "Xiangqi Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11c",
+                    "name": "Haoyun Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11d",
+                    "name": "Xuyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11e",
+                    "name": "Weijia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f11f",
+                    "name": "Chaochao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f120",
+                    "name": "Jing Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f121",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd6672e8db0930be6f122",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-15T08:44:46.000Z",
+            "submittedOnDailyAt": "2025-07-21T04:29:32.691Z",
+            "title": "The Devil behind the mask: An emergent safety vulnerability of Diffusion\n  LLMs",
+            "submittedOnDailyBy": {
+                "_id": "653b8c3e97a4d71d950e2f20",
+                "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                "isPro": false,
+                "fullname": "Zichen Wen",
+                "user": "zichenwen",
+                "type": "user"
+            },
+            "summary": "Diffusion-based large language models (dLLMs) have recently emerged as a\npowerful alternative to autoregressive LLMs, offering faster inference and\ngreater interactivity via parallel decoding and bidirectional modeling.\nHowever, despite strong performance in code generation and text infilling, we\nidentify a fundamental safety concern: existing alignment mechanisms fail to\nsafeguard dLLMs against context-aware, masked-input adversarial prompts,\nexposing novel vulnerabilities. To this end, we present DIJA, the first\nsystematic study and jailbreak attack framework that exploits unique safety\nweaknesses of dLLMs. Specifically, our proposed DIJA constructs adversarial\ninterleaved mask-text prompts that exploit the text generation mechanisms of\ndLLMs, i.e., bidirectional modeling and parallel decoding. Bidirectional\nmodeling drives the model to produce contextually consistent outputs for masked\nspans, even when harmful, while parallel decoding limits model dynamic\nfiltering and rejection sampling of unsafe content. This causes standard\nalignment mechanisms to fail, enabling harmful completions in alignment-tuned\ndLLMs, even when harmful behaviors or unsafe instructions are directly exposed\nin the prompt. Through comprehensive experiments, we demonstrate that DIJA\nsignificantly outperforms existing jailbreak methods, exposing a previously\noverlooked threat surface in dLLM architectures. Notably, our method achieves\nup to 100% keyword-based ASR on Dream-Instruct, surpassing the strongest prior\nbaseline, ReNeLLM, by up to 78.5% in evaluator-based ASR on JailbreakBench and\nby 37.7 points in StrongREJECT score, while requiring no rewriting or hiding of\nharmful content in the jailbreak prompt. Our findings underscore the urgent\nneed for rethinking safety alignment in this emerging class of language models.\nCode is available at https://github.com/ZichenWen1/DIJA.",
+            "upvotes": 36,
+            "discussionId": "687dd6672e8db0930be6f123",
+            "githubRepo": "https://github.com/ZichenWen1/DIJA",
+            "ai_summary": "DIJA is a framework that exploits safety weaknesses in diffusion-based large language models by constructing adversarial prompts, demonstrating significant vulnerabilities in their alignment mechanisms.",
+            "ai_keywords": [
+                "diffusion-based large language models",
+                "dLLMs",
+                "autoregressive LLMs",
+                "parallel decoding",
+                "bidirectional modeling",
+                "adversarial prompts",
+                "DIJA",
+                "jailbreak attack framework",
+                "context-aware",
+                "masked-input",
+                "text generation mechanisms",
+                "dynamic filtering",
+                "rejection sampling",
+                "harmful completions",
+                "alignment-tuned dLLMs",
+                "keyword-based ASR",
+                "evaluator-based ASR",
+                "JailbreakBench",
+                "StrongREJECT score"
+            ],
+            "githubStars": 35
+        },
+        "translation_title": "가면 뒤의 악마: 확산 기반 LLM의 새로운 안전 취약성",
+        "purpose": "Diffusion-based LLM의 고유한 안전 취약점을 연구하고 이를 악용하는 공격 방법론을 제시하는 것",
+        "method": [
+            "DIJA라는 체계적인 연구 및 jailbreak 공격 프레임워크 제안(we present DIJA, the first systematic study and jailbreak attack framework that exploits unique safety weaknesses of dLLMs.)",
+            "사전 대칭적으로 입력된 마스크-텍스트 프롬프트를 생성하여 LLM의 텍스트 생성 메커니즘을 악용함(our proposed DIJA constructs adversarial interleaved mask-text prompts that exploit the text generation mechanisms of dLLMs, i.e., bidirectional modeling and parallel decoding.)",
+            "Comprehensive experiments를 통해 기존 jailbreak 방법들에 비해 훨씬 우수한 성능을 보임(Through comprehensive experiments, we demonstrate that DIJA significantly outperforms existing jailbreak methods, exposing a previously overlooked threat surface in dLLM architectures.)"
+        ],
+        "conclusion": "DIJA는 기존 모델보다 훨씬 더 뛰어난 성능을 나타내며, 안전성을 재정립할 필요성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.13563",
+            "authors": [
+                {
+                    "_id": "687e0fa92e8db0930be6f1b5",
+                    "name": "Kirill Borodin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1b6",
+                    "name": "Nikita Vasiliev",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1b7",
+                    "name": "Vasiliy Kudryavtsev",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1b8",
+                    "name": "Maxim Maslov",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1b9",
+                    "name": "Mikhail Gorodnichev",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1ba",
+                    "name": "Oleg Rogov",
+                    "hidden": false
+                },
+                {
+                    "_id": "687e0fa92e8db0930be6f1bb",
+                    "name": "Grach Mkrtchian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-17T22:41:40.000Z",
+            "submittedOnDailyAt": "2025-07-21T08:36:55.760Z",
+            "title": "A Data-Centric Framework for Addressing Phonetic and Prosodic Challenges\n  in Russian Speech Generative Models",
+            "submittedOnDailyBy": {
+                "_id": "66d01df0f16d96c3ec3c38ce",
+                "avatarUrl": "/avatars/3d908e6e92736b38c85e352c77ba0102.svg",
+                "isPro": false,
+                "fullname": "kiril",
+                "user": "korallll",
+                "type": "user"
+            },
+            "summary": "Russian speech synthesis presents distinctive challenges, including vowel\nreduction, consonant devoicing, variable stress patterns, homograph ambiguity,\nand unnatural intonation. This paper introduces Balalaika, a novel dataset\ncomprising more than 2,000 hours of studio-quality Russian speech with\ncomprehensive textual annotations, including punctuation and stress markings.\nExperimental results show that models trained on Balalaika significantly\noutperform those trained on existing datasets in both speech synthesis and\nenhancement tasks. We detail the dataset construction pipeline, annotation\nmethodology, and results of comparative evaluations.",
+            "upvotes": 34,
+            "discussionId": "687e0faa2e8db0930be6f1bc",
+            "githubRepo": "https://github.com/mtuciru/balalaika",
+            "ai_summary": "Balalaika, a large Russian speech dataset with detailed annotations, improves performance in speech synthesis and enhancement tasks.",
+            "ai_keywords": [
+                "speech synthesis",
+                "vowel reduction",
+                "consonant devoicing",
+                "stress patterns",
+                "homograph ambiguity",
+                "intonation",
+                "dataset",
+                "textual annotations",
+                "punctuation",
+                "stress markings",
+                "comparative evaluations"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "음성 합성 모델의 음소 및 운율 문제 해결을 위한 데이터 중심 프레임워크",
+        "purpose": "러시아어 음성 합성의 다양한 문제를 해결하기 위한 대규모 데이터셋 구축",
+        "method": [
+            "2,000시간 이상의 스튜디오 품질 러시아어 음성을 포함한 Balalaika 데이터셋을 소개함(This paper introduces Balalaika, a novel dataset comprising more than 2,000 hours of studio-quality Russian speech with comprehensive textual annotations.)",
+            "데이터셋에 대한 점검 및 주석 방법론을 상세히 설명함(We detail the dataset construction pipeline, annotation methodology, and results of comparative evaluations.)",
+            "Balalaika를 기반으로 훈련된 모델이 기존 데이터셋보다 음성 합성과 향상 작업에서 뛰어난 성능을 발휘함(Experimental results show that models trained on Balalaika significantly outperform those trained on existing datasets in both speech synthesis and enhancement tasks.)"
+        ],
+        "conclusion": "Balalaika 데이터셋을 활용하면 러시아어 음성 합성 모델의 성능이 크게 향상됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Speech Synthesis",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.14137",
+            "authors": [
+                {
+                    "_id": "687de5df2e8db0930be6f14b",
+                    "name": "Shashanka Venkataramanan",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f14c",
+                    "name": "Valentinos Pariza",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f14d",
+                    "name": "Mohammadreza Salehi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f14e",
+                    "name": "Lukas Knobel",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f14f",
+                    "name": "Spyros Gidaris",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f150",
+                    "name": "Elias Ramzi",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f151",
+                    "name": "Andrei Bursuc",
+                    "hidden": false
+                },
+                {
+                    "_id": "687de5df2e8db0930be6f152",
+                    "name": "Yuki M. Asano",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-18T17:59:55.000Z",
+            "submittedOnDailyAt": "2025-07-21T05:31:52.139Z",
+            "title": "Franca: Nested Matryoshka Clustering for Scalable Visual Representation\n  Learning",
+            "submittedOnDailyBy": {
+                "_id": "637d21239a5217b88b7549c3",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637d21239a5217b88b7549c3/LrIGPiva5VGVZG87rTAJz.jpeg",
+                "isPro": false,
+                "fullname": "Yuki Asano",
+                "user": "yukimasano",
+                "type": "user"
+            },
+            "summary": "We present Franca (pronounced Fran-ka): free one; the first fully open-source\n(data, code, weights) vision foundation model that matches and in many cases\nsurpasses the performance of state-of-the-art proprietary models, e.g., DINOv2,\nCLIP, SigLIPv2, etc. Our approach is grounded in a transparent training\npipeline inspired by Web-SSL and uses publicly available data: ImageNet-21K and\na subset of ReLAION-2B. Beyond model release, we tackle critical limitations in\nSSL clustering methods. While modern models rely on assigning image features to\nlarge codebooks via clustering algorithms like Sinkhorn-Knopp, they fail to\naccount for the inherent ambiguity in clustering semantics. To address this, we\nintroduce a parameter-efficient, multi-head clustering projector based on\nnested Matryoshka representations. This design progressively refines features\ninto increasingly fine-grained clusters without increasing the model size,\nenabling both performance and memory efficiency. Additionally, we propose a\nnovel positional disentanglement strategy that explicitly removes positional\nbiases from dense representations, thereby improving the encoding of semantic\ncontent. This leads to consistent gains on several downstream benchmarks,\ndemonstrating the utility of cleaner feature spaces. Our contributions\nestablish a new standard for transparent, high-performance vision models and\nopen a path toward more reproducible and generalizable foundation models for\nthe broader AI community. The code and model checkpoints are available at\nhttps://github.com/valeoai/Franca.",
+            "upvotes": 11,
+            "discussionId": "687de5df2e8db0930be6f153",
+            "githubRepo": "https://github.com/valeoai/Franca",
+            "ai_summary": "Franca, an open-source vision foundation model, achieves high performance using a transparent training pipeline and novel clustering and disentanglement techniques.",
+            "ai_keywords": [
+                "Web-SSL",
+                "ImageNet-21K",
+                "ReLAION-2B",
+                "Sinkhorn-Knopp",
+                "parameter-efficient",
+                "multi-head clustering projector",
+                "nested Matryoshka representations",
+                "positional disentanglement strategy",
+                "semantic content",
+                "downstream benchmarks"
+            ],
+            "githubStars": 25
+        },
+        "translation_title": "Franca: 확장 가능한 시각적 표현 학습을 위한 중첩 마트료시카 클러스터링",
+        "purpose": "최신 상용 모델을 초월하는 첫 번째 완전 오픈 소스 비전 파운데이션 모델 개발",
+        "method": [
+            "Web-SSL에서 영감을 받은 투명한 학습 파이프라인을 기반으로 하는 접근 방식 사용(Our approach is grounded in a transparent training pipeline inspired by Web-SSL)",
+            "공개 데이터인 ImageNet-21K 및 ReLAION-2B의 일부를 활용해 학습함(uses publicly available data: ImageNet-21K and a subset of ReLAION-2B)",
+            "중첩 마트료시카 표현을 바탕으로 한 다중 헤드 클러스터링 프로젝터를 도입하여 이미지 특징을 점진적으로 정제하여 클러스터화함(To address this, we introduce a parameter-efficient, multi-head clustering projector based on nested Matryoshka representations)",
+            "위치 바이어스를 제거하는 새로운 위치 분리 전략을 통해 의미적 콘텐츠의 인코딩을 개선함(we propose a novel positional disentanglement strategy that explicitly removes positional biases from dense representations)"
+        ],
+        "conclusion": "Franca는 투명하고 고성능 비전 모델의 새로운 기준을 세우고, 더 재현 가능하고 일반화 가능한 파운데이션 모델로의 길을 열었다.",
+        "keywords": [
+            "Computer Vision",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.12566",
+            "authors": [
+                {
+                    "_id": "687dd61e2e8db0930be6f107",
+                    "name": "Gen Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f108",
+                    "name": "Wenhan Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f109",
+                    "name": "Wenhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10a",
+                    "user": {
+                        "_id": "665d4b515fdfe8f923e347a7",
+                        "avatarUrl": "/avatars/d114b24c02dadfca0a8aee104755a8ec.svg",
+                        "isPro": false,
+                        "fullname": "Zhaokai Wang",
+                        "user": "wzk1015",
+                        "type": "user"
+                    },
+                    "name": "Zhaokai Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T08:29:25.907Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10b",
+                    "name": "Xue Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10c",
+                    "name": "Changyao Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10d",
+                    "name": "Hao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10e",
+                    "name": "Weiyun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f10f",
+                    "name": "Wenhai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f110",
+                    "name": "Xizhou Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f111",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dd61e2e8db0930be6f112",
+                    "name": "Jifeng Dai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-16T18:31:23.000Z",
+            "submittedOnDailyAt": "2025-07-21T04:27:04.470Z",
+            "title": "Mono-InternVL-1.5: Towards Cheaper and Faster Monolithic Multimodal\n  Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "665d4b515fdfe8f923e347a7",
+                "avatarUrl": "/avatars/d114b24c02dadfca0a8aee104755a8ec.svg",
+                "isPro": false,
+                "fullname": "Zhaokai Wang",
+                "user": "wzk1015",
+                "type": "user"
+            },
+            "summary": "This paper focuses on monolithic Multimodal Large Language Models (MLLMs),\nwhich integrate visual encoding and language decoding into a single model.\nExisting structures and pre-training strategies for monolithic MLLMs often\nsuffer from unstable optimization and catastrophic forgetting. To address these\nchallenges, our key idea is to embed a new visual parameter space into a\npre-trained LLM, enabling stable learning of visual knowledge from noisy data\nvia delta tuning. Based on this principle, we first introduce Mono-InternVL, an\nadvanced monolithic MLLM that incorporates a set of visual experts through a\nmultimodal mixture-of-experts architecture. In addition, we design an\ninnovative Endogenous Visual Pre-training (EViP) for Mono-InternVL to maximize\nits visual capabilities via progressive learning. Mono-InternVL achieves\ncompetitive performance against existing MLLMs but also leads to relatively\nexpensive data cost. Therefore, we further present Mono-InternVL-1.5, a cheaper\nand stronger monolithic MLLM equipped with an improved EViP (EViP++). EViP++\nintroduces additional visual attention experts to Mono-InternVL-1.5 and\nre-organizes the pre-training process in an efficient manner. During inference,\nit includes a fused CUDA kernel to speed up its MoE operations. With these\ndesigns, Mono-InternVL-1.5 significantly reduces training and inference costs,\nwhile still maintaining competitive performance with Mono-InternVL. To evaluate\nour approach, we conduct extensive experiments across 15 benchmarks. Results\ndemonstrate that Mono-InternVL outperforms existing monolithic MLLMs on 12 out\nof 15 benchmarks, e.g., +114-point improvement over Emu3 on OCRBench. Compared\nto its modular counterpart, i.e., InternVL-1.5, Mono-InternVL-1.5 achieves\nsimilar multimodal performance while reducing first-token latency by up to 69%.\nCode and models are released at https://github.com/OpenGVLab/Mono-InternVL.",
+            "upvotes": 8,
+            "discussionId": "687dd61e2e8db0930be6f113",
+            "githubRepo": "https://github.com/OpenGVLab/Mono-InternVL",
+            "ai_summary": "Mono-InternVL, an advanced monolithic Multimodal Large Language Model, integrates visual experts and improved pre-training strategies to enhance visual learning and reduce computational costs while maintaining competitive performance.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "monolithic MLLMs",
+                "visual parameter space",
+                "delta tuning",
+                "multimodal mixture-of-experts architecture",
+                "Endogenous Visual Pre-training",
+                "EViP",
+                "EViP++",
+                "visual attention experts",
+                "fused CUDA kernel",
+                "MoE operations",
+                "OCRBench",
+                "first-token latency"
+            ],
+            "githubStars": 53
+        },
+        "translation_title": "Mono-InternVL-1.5: 더 저렴하고 빠른 단일 모듈 다중 모달 대형 언어 모델",
+        "purpose": "단일 모듈 Multimodal Large Language Model의 안정적인 학습 환경을 구축하고 비용을 절감하기 위한 연구",
+        "method": [
+            "기존의 데이터 불안정성과 기억상실 문제를 해결하기 위해 새로운 시각적 파라미터 공간을 기존 LLM에 삽입해 안정적인 학습을 지원함(To address these challenges, our key idea is to embed a new visual parameter space into a pre-trained LLM.)",
+            "Mono-InternVL이라는 단일 모듈 MLLM을 도입하고, 다중 모달 전문가 아키텍처를 통해 시각적 전문 지식을 통합함(Based on this principle, we first introduce Mono-InternVL, an advanced monolithic MLLM that incorporates a set of visual experts through a multimodal mixture-of-experts architecture.)",
+            "EViP++를 사용하여 보다 나은 성능을 제공하고, 효율적인 Pre-training 프로세스로 비용을 절감함(Therefore, we further present Mono-InternVL-1.5, a cheaper and stronger monolithic MLLM equipped with an improved EViP (EViP++).)"
+        ],
+        "conclusion": "Mono-InternVL-1.5는 기존 모델보다 훈련 및 추론 비용을 크게 줄이면서도 경쟁력 있는 성능을 유지함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.13984",
+            "authors": [
+                {
+                    "_id": "687d9e422e8db0930be6f0a3",
+                    "user": {
+                        "_id": "637ce55e43fec4c21633f9ad",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637ce55e43fec4c21633f9ad/yZTBQbvTatUw2zuxpp0nq.jpeg",
+                        "isPro": false,
+                        "fullname": "Quang-Binh Nguyen",
+                        "user": "nqbinh",
+                        "type": "user"
+                    },
+                    "name": "Quang-Binh Nguyen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T08:29:38.282Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687d9e422e8db0930be6f0a4",
+                    "name": "Minh Luu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687d9e422e8db0930be6f0a5",
+                    "name": "Quang Nguyen",
+                    "hidden": false
+                },
+                {
+                    "_id": "687d9e422e8db0930be6f0a6",
+                    "name": "Anh Tran",
+                    "hidden": false
+                },
+                {
+                    "_id": "687d9e422e8db0930be6f0a7",
+                    "name": "Khoi Nguyen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/637ce55e43fec4c21633f9ad/0i972bwXyZ3xS6RUc9xYw.qt"
+            ],
+            "publishedAt": "2025-07-18T14:45:48.000Z",
+            "submittedOnDailyAt": "2025-07-21T08:02:36.514Z",
+            "title": "CSD-VAR: Content-Style Decomposition in Visual Autoregressive Models",
+            "submittedOnDailyBy": {
+                "_id": "637ce55e43fec4c21633f9ad",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637ce55e43fec4c21633f9ad/yZTBQbvTatUw2zuxpp0nq.jpeg",
+                "isPro": false,
+                "fullname": "Quang-Binh Nguyen",
+                "user": "nqbinh",
+                "type": "user"
+            },
+            "summary": "Disentangling content and style from a single image, known as content-style\ndecomposition (CSD), enables recontextualization of extracted content and\nstylization of extracted styles, offering greater creative flexibility in\nvisual synthesis. While recent personalization methods have explored the\ndecomposition of explicit content style, they remain tailored for diffusion\nmodels. Meanwhile, Visual Autoregressive Modeling (VAR) has emerged as a\npromising alternative with a next-scale prediction paradigm, achieving\nperformance comparable to that of diffusion models. In this paper, we explore\nVAR as a generative framework for CSD, leveraging its scale-wise generation\nprocess for improved disentanglement. To this end, we propose CSD-VAR, a novel\nmethod that introduces three key innovations: (1) a scale-aware alternating\noptimization strategy that aligns content and style representation with their\nrespective scales to enhance separation, (2) an SVD-based rectification method\nto mitigate content leakage into style representations, and (3) an Augmented\nKey-Value (K-V) memory enhancing content identity preservation. To benchmark\nthis task, we introduce CSD-100, a dataset specifically designed for\ncontent-style decomposition, featuring diverse subjects rendered in various\nartistic styles. Experiments demonstrate that CSD-VAR outperforms prior\napproaches, achieving superior content preservation and stylization fidelity.",
+            "upvotes": 6,
+            "discussionId": "687d9e422e8db0930be6f0a8",
+            "ai_summary": "CSD-VAR, a Visual Autoregressive Modeling approach, enhances content-style decomposition by introducing scale-aware optimization, SVD-based rectification, and augmented K-V memory, outperforming diffusion models in content preservation and stylization.",
+            "ai_keywords": [
+                "content-style decomposition",
+                "Visual Autoregressive Modeling",
+                "scale-aware alternating optimization",
+                "SVD-based rectification",
+                "Augmented Key-Value memory",
+                "CSD-100 dataset"
+            ]
+        },
+        "translation_title": "CSD-VAR: 시각적 자기 회귀 모델에서 콘텐츠-스타일 분해",
+        "purpose": "콘텐츠와 스타일을 분리하여 비주얼 합성에서 더 큰 창의적 유연성을 제공하기 위한 방법론 연구",
+        "method": [
+            "VAR(Visual Autoregressive Modeling)를 CSD(Content-Style Decomposition) 생성을 위한 프레임워크로 탐색함(we explore VAR as a generative framework for CSD),",
+            "콘텐츠와 스타일의 표현을 각자의 스케일에 맞춰 정렬하는 스케일 인식 교대 최적화 전략을 도입함(to enhance separation),",
+            "콘텐츠가 스타일 표현으로 누출되는 것을 완화하기 위한 SVD 기반 정정 방법을 제안함(we propose an SVD-based rectification method),",
+            "콘텐츠 아이덴티티 보존을 강화하기 위한 Augmented Key-Value 메모리를 도입함(and an Augmented Key-Value (K-V) memory enhancing content identity preservation)."
+        ],
+        "conclusion": "CSD-VAR는 이전의 방법보다 뛰어난 콘텐츠 보존과 스타일 충실도를 달성하며 성능이 개선됨을 입증함.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    }
+]
