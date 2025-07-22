@@ -1,0 +1,696 @@
+[
+    {
+        "paper": {
+            "id": "2507.14683",
+            "authors": [
+                {
+                    "_id": "687eece833947f780d9b4a56",
+                    "user": {
+                        "_id": "6362a77dd3be91534c2e9213",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6362a77dd3be91534c2e9213/3uUM3B1m2CFMukbkA0yDv.png",
+                        "isPro": false,
+                        "fullname": "Xingxuan Li",
+                        "user": "veggiebird",
+                        "type": "user"
+                    },
+                    "name": "Xingxuan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:57:41.590Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a57",
+                    "name": "Yao Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a58",
+                    "name": "Dianwen Ng",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a59",
+                    "name": "Hai Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5a",
+                    "name": "Yue Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5b",
+                    "name": "Xiang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5c",
+                    "user": {
+                        "_id": "5e49e8cf37cb5b49818287ae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e49e8cf37cb5b49818287ae/IV9b5Z70NhgmBNfAlc_co.jpeg",
+                        "isPro": false,
+                        "fullname": "Bin Wang",
+                        "user": "binwang",
+                        "type": "user"
+                    },
+                    "name": "Bin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:54:16.103Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5d",
+                    "name": "Zhanfeng Mo",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5e",
+                    "name": "Chong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a5f",
+                    "name": "Yueyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a60",
+                    "user": {
+                        "_id": "646a11791556443f24b582e9",
+                        "avatarUrl": "/avatars/b54d416ddca2f124492ba51bc4b95fd2.svg",
+                        "isPro": false,
+                        "fullname": "Zonglin Yang",
+                        "user": "ZonglinY",
+                        "type": "user"
+                    },
+                    "name": "Zonglin Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:22.809Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a61",
+                    "name": "Ruilin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a62",
+                    "name": "Lei Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a63",
+                    "name": "Shihao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a64",
+                    "name": "Han Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a65",
+                    "name": "Weiling Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a66",
+                    "name": "Feng Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "687eece833947f780d9b4a67",
+                    "user": {
+                        "_id": "6454685a548f22be598414c4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/eMjMWKJ-AouF7eY1-RzGF.jpeg",
+                        "isPro": false,
+                        "fullname": "Lidong Bing",
+                        "user": "LidongBing",
+                        "type": "user"
+                    },
+                    "name": "Lidong Bing",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:24.709Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-19T16:21:23.000Z",
+            "submittedOnDailyAt": "2025-07-22T01:41:01.897Z",
+            "title": "MiroMind-M1: An Open-Source Advancement in Mathematical Reasoning via\n  Context-Aware Multi-Stage Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "6362a77dd3be91534c2e9213",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6362a77dd3be91534c2e9213/3uUM3B1m2CFMukbkA0yDv.png",
+                "isPro": false,
+                "fullname": "Xingxuan Li",
+                "user": "veggiebird",
+                "type": "user"
+            },
+            "summary": "Large language models have recently evolved from fluent text generation to\nadvanced reasoning across diverse domains, giving rise to reasoning language\nmodels. Among these domains, mathematical reasoning serves as a representative\nbenchmark as it requires precise multi-step logic and abstract reasoning, which\ncan be generalized to other tasks. While closed-source RLMs such as GPT-o3\ndemonstrate impressive reasoning capabilities, their proprietary nature limits\ntransparency and reproducibility. Although many open-source projects aim to\nclose this gap, most of them lack sufficient openness by omitting critical\nresources such as datasets and detailed training configurations, which hinders\nreproducibility. To contribute toward greater transparency in RLM development,\nwe introduce the MiroMind-M1 series, a set of fully open-source RLMs built on\nthe Qwen-2.5 backbone that match or exceed the performance of existing\nopen-source RLMs. Specifically, our models are trained in two stages: SFT on a\ncarefully curated corpus of 719K math-reasoning problems with verified CoT\ntrajectories, followed by RLVR on 62K challenging and verifiable problems. To\nenhance the robustness and efficiency of the RLVR process, we introduce\nContext-Aware Multi-Stage Policy Optimization, an algorithm that integrates\nlength-progressive training with an adaptive repetition penalty to encourage\ncontext-aware RL training. Our model achieves state-of-the-art or competitive\nperformance and superior token efficiency among Qwen-2.5-based open-source 7B\nand 32B models on the AIME24, AIME25, and MATH benchmarks. To facilitate\nreproducibility, we release the complete stack: models (MiroMind-M1-SFT-7B,\nMiroMind-M1-RL-7B, MiroMind-M1-RL-32B); datasets (MiroMind-M1-SFT-719K,\nMiroMind-M1-RL-62K); and all training and evaluation configurations. We hope\nthese resources will support further research and foster community advancement.",
+            "upvotes": 73,
+            "discussionId": "687eece933947f780d9b4a68",
+            "githubRepo": "https://github.com/MiroMindAsia/MiroMind-M1",
+            "ai_summary": "The MiroMind-M1 series of open-source reasoning language models achieves state-of-the-art performance on mathematical reasoning benchmarks through a two-stage training process and Context-Aware Multi-Stage Policy Optimization.",
+            "ai_keywords": [
+                "reasoning language models",
+                "mathematical reasoning",
+                "Qwen-2.5",
+                "SFT",
+                "RLVR",
+                "Context-Aware Multi-Stage Policy Optimization",
+                "length-progressive training",
+                "adaptive repetition penalty",
+                "AIME24",
+                "AIME25",
+                "MATH benchmarks",
+                "token efficiency"
+            ],
+            "githubStars": 38
+        },
+        "translation_title": "MiroMind-M1: 문맥 인식 다단계 정책 최적화를 통한 수학적 추론의 오픈 소스 발전",
+        "purpose": "RLM 개발의 투명성을 높이고, 다양한 수학적 문제에 대한 모델의 성능을 향상시키기 위함",
+        "method": [
+            "MiroMind-M1 시리즈는 Qwen-2.5 기반으로 구축된 완전 오픈 소스 RLM으로, 기존 오픈 소스 RLM의 성능과 동등하거나 이를 초과하는 성능을 발휘함(we introduce the MiroMind-M1 series, a set of fully open-source RLMs built on the Qwen-2.5 backbone that match or exceed the performance of existing open-source RLMs.)",
+            "모델은 엄선된 719K 수학적 문제 코퍼스에서의 SFT 훈련과 62K의 도전적이고 검증 가능한 문제에서의 RLVR 훈련을 두 단계로 진행함(Specifically, our models are trained in two stages: SFT on a carefully curated corpus of 719K math-reasoning problems followed by RLVR on 62K challenging and verifiable problems.)",
+            "Context-Aware Multi-Stage Policy Optimization 알고리즘을 통해 문맥 인식 RL 훈련을 촉진함(To enhance the robustness and efficiency of the RLVR process, we introduce Context-Aware Multi-Stage Policy Optimization.)"
+        ],
+        "conclusion": "MiroMind-M1는 AIME24, AIME25 및 MATH 벤치마크에서 최첨단 성능을 달성하며, 모든 모델과 데이터셋, 훈련 및 평가 구성 파일을 공개하여 재현성을 지원함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.15846",
+            "authors": [
+                {
+                    "_id": "687ef89633947f780d9b4aad",
+                    "name": "Fei Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4aae",
+                    "name": "Zhangxuan Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4aaf",
+                    "user": {
+                        "_id": "676127cf11b19ea602bb202a",
+                        "avatarUrl": "/avatars/dfd802a24bd63e509728159ebb1769f6.svg",
+                        "isPro": false,
+                        "fullname": "Zhengxi Lu",
+                        "user": "LZXzju",
+                        "type": "user"
+                    },
+                    "name": "Zhengxi Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:15.897Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab0",
+                    "name": "Xuyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab1",
+                    "name": "Shuheng Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab2",
+                    "name": "Changhua Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab3",
+                    "name": "Wen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab4",
+                    "name": "Wenqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab5",
+                    "user": {
+                        "_id": "5e1058e9fcf41d740b69966d",
+                        "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+                        "isPro": false,
+                        "fullname": "Yongliang Shen",
+                        "user": "tricktreat",
+                        "type": "user"
+                    },
+                    "name": "Yongliang Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:12.501Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab6",
+                    "name": "Weiming Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab7",
+                    "name": "Jun Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef89633947f780d9b4ab8",
+                    "name": "Yueting Zhuang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-21T17:53:42.000Z",
+            "submittedOnDailyAt": "2025-07-22T01:05:30.910Z",
+            "title": "GUI-G^2: Gaussian Reward Modeling for GUI Grounding",
+            "submittedOnDailyBy": {
+                "_id": "5e1058e9fcf41d740b69966d",
+                "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+                "isPro": false,
+                "fullname": "Yongliang Shen",
+                "user": "tricktreat",
+                "type": "user"
+            },
+            "summary": "Graphical User Interface (GUI) grounding maps natural language instructions\nto precise interface locations for autonomous interaction. Current\nreinforcement learning approaches use binary rewards that treat elements as\nhit-or-miss targets, creating sparse signals that ignore the continuous nature\nof spatial interactions. Motivated by human clicking behavior that naturally\nforms Gaussian distributions centered on target elements, we introduce GUI\nGaussian Grounding Rewards (GUI-G^2), a principled reward framework that\nmodels GUI elements as continuous Gaussian distributions across the interface\nplane. GUI-G^2 incorporates two synergistic mechanisms: Gaussian point\nrewards model precise localization through exponentially decaying distributions\ncentered on element centroids, while coverage rewards assess spatial alignment\nby measuring the overlap between predicted Gaussian distributions and target\nregions. To handle diverse element scales, we develop an adaptive variance\nmechanism that calibrates reward distributions based on element dimensions.\nThis framework transforms GUI grounding from sparse binary classification to\ndense continuous optimization, where Gaussian distributions generate rich\ngradient signals that guide models toward optimal interaction positions.\nExtensive experiments across ScreenSpot, ScreenSpot-v2, and ScreenSpot-Pro\nbenchmarks demonstrate that GUI-G^2, substantially outperforms\nstate-of-the-art method UI-TARS-72B, with the most significant improvement of\n24.7% on ScreenSpot-Pro. Our analysis reveals that continuous modeling provides\nsuperior robustness to interface variations and enhanced generalization to\nunseen layouts, establishing a new paradigm for spatial reasoning in GUI\ninteraction tasks.",
+            "upvotes": 58,
+            "discussionId": "687ef89633947f780d9b4ab9",
+            "projectPage": "https://zju-real.github.io/GUI-G2/",
+            "githubRepo": "https://github.com/ZJU-REAL/GUI-G2",
+            "githubStars": 43
+        },
+        "translation_title": "GUI-G^2: GUI 그라운딩을 위한 가우시안 보상 모델링",
+        "purpose": "자율 상호작용을 위한 GUI 그라운딩의 성능 향상 및 지속적인 최적화 필요성 해결",
+        "method": [
+            "기존의 이진 보상을 가우시안 분포를 활용해 모델링한 GUI-K^2라는 새로운 보상 프레임워크를 도입함.(we introduce GUI Gaussian Grounding Rewards (GUI-G^2), a principled reward framework that models GUI elements as continuous Gaussian distributions across the interface plane.)",
+            "정확한 로컬라이제이션을 위한 Gaussian 포인트 보상과 공간 정렬을 평가하는 커버리지 보상을 통합함.(GUI-G^2 incorporates two synergistic mechanisms: Gaussian point rewards model precise localization through exponentially decaying distributions centered on element centroids, while coverage rewards assess spatial alignment .)",
+            "다양한 요소 범위를 처리하기 위해 적응형 분산 메커니즘을 개발하여 보상 분포를 조정함.(To handle diverse element scales, we develop an adaptive variance mechanism that calibrates reward distributions based on element dimensions.)"
+        ],
+        "conclusion": "GUI-G^2는 기존의 이진 분류 방식을 밀집한 연속 최적화로 전환하여 GUI 상호작용에서 새로운 패러다임을 확립하고, 최신 방법보다 현저한 성과를 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.14843",
+            "authors": [
+                {
+                    "_id": "687f22ec33947f780d9b4b62",
+                    "name": "Fang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687f22ec33947f780d9b4b63",
+                    "user": {
+                        "_id": "65b8909c89eb3dfbe8d26780",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65b8909c89eb3dfbe8d26780/aJExXsCN9oQOdd9bsQOEO.jpeg",
+                        "isPro": false,
+                        "fullname": "Weihao XUAN",
+                        "user": "weihao1115",
+                        "type": "user"
+                    },
+                    "name": "Weihao Xuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:47:39.731Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687f22ec33947f780d9b4b64",
+                    "name": "Ximing Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687f22ec33947f780d9b4b65",
+                    "name": "Zaid Harchaoui",
+                    "hidden": false
+                },
+                {
+                    "_id": "687f22ec33947f780d9b4b66",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-20T07:04:08.000Z",
+            "submittedOnDailyAt": "2025-07-22T04:06:35.535Z",
+            "title": "The Invisible Leash: Why RLVR May Not Escape Its Origin",
+            "submittedOnDailyBy": {
+                "_id": "675e0d5cdd3e9eeed6954f5a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7oMEoBmaFiCR9K2q9Z_7q.png",
+                "isPro": false,
+                "fullname": "Fang Wu",
+                "user": "fangwu97",
+                "type": "user"
+            },
+            "summary": "Recent advances in large reasoning models highlight Reinforcement Learning\nwith Verifiable Rewards (RLVR) as a promising method for enhancing AI's\ncapabilities, particularly in solving complex logical tasks. However, it\nremains unclear whether RLVR truly expands a model's reasoning boundary or\nmerely amplifies high-reward outputs that the base model already knows for\nimproved precision. This study presents a theoretical and empirical\ninvestigation that provides fresh insights into the potential limits of RLVR.\nFirst, we offer a new theoretical perspective that RLVR is constrained by the\nbase model's support-unable to sample solutions with zero initial\nprobability-and operates as a conservative reweighting mechanism that may\nrestrict the discovery of entirely original solutions. We also identify an\nentropy-reward tradeoff: while RLVR reliably enhances precision, it may\nprogressively narrow exploration and potentially overlook correct yet\nunderrepresented solutions. Extensive empirical experiments validate that while\nRLVR consistently improves pass@1, the shrinkage of empirical support generally\noutweighs the expansion of empirical support under larger sampling budgets,\nfailing to recover correct answers that were previously accessible to the base\nmodel. Interestingly, we also observe that while RLVR sometimes increases\ntoken-level entropy, resulting in greater uncertainty at each generation step,\nanswer-level entropy declines, indicating that these seemingly more uncertain\npaths ultimately converge onto a smaller set of distinct answers. Taken\ntogether, these findings reveal potential limits of RLVR in extending reasoning\nhorizons. Breaking this invisible leash may require future algorithmic\ninnovations such as explicit exploration mechanisms or hybrid strategies that\nseed probability mass into underrepresented solution regions.",
+            "upvotes": 45,
+            "discussionId": "687f22ed33947f780d9b4b67",
+            "ai_summary": "Theoretical and empirical analysis reveals that Reinforcement Learning with Verifiable Rewards (RLVR) enhances precision but narrows exploration, limiting its ability to discover novel solutions.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "RLVR",
+                "base model",
+                "support",
+                "conservative reweighting",
+                "entropy-reward tradeoff",
+                "pass@1",
+                "token-level entropy",
+                "answer-level entropy",
+                "explicit exploration mechanisms",
+                "hybrid strategies"
+            ]
+        },
+        "translation_title": "보이지 않는 줄: RLVR이 그 기원을 탈출하지 못하는 이유",
+        "purpose": "RLVR이 모델의 추론 경계를 실제로 확장하는지 또는 단순히 이미 알고 있는 고보상 출력을 증폭시키는지를 조사하기 위한 연구",
+        "method": [
+            "이론적 관점에서 RLVR은 기반 모델의 지원에 의해 제한되며, 제로 초기 확률로 해결책을 샘플링할 수 없는 제약을 설명함(First, we offer a new theoretical perspective that RLVR is constrained by the base model's support-unable to sample solutions with zero initial probability.)",
+            "RLVR이 자신이 탐색하는 것을 점진적으로 좁히고 후에 더 적은 대표 솔루션을 놓쳐버릴 수 있음을 확인함(we also identify an entropy-reward tradeoff: while RLVR reliably enhances precision, it may progressively narrow exploration and potentially overlook correct yet underrepresented solutions.)",
+            "실험을 통해 RLVR이 pass@1을 지속적으로 개선하는 것이 사실이나, 더 큰 샘플링 예산에서 현실적 지원의 축소가 일반적으로 확장을 초월한다는 것을 확인함(Extensive empirical experiments validate that while RLVR consistently improves pass@1, the shrinkage of empirical support generally outweighs the expansion of empirical support under larger sampling budgets.)"
+        ],
+        "conclusion": "RLVR의 한계는 추론 호라이즌을 넓히는 데 장애가 될 수 있으며, 이를 타개하기 위해서는 미래의 알고리즘 혁신이 필요할 수 있음을 알게 되었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.15061",
+            "authors": [
+                {
+                    "_id": "687ef39133947f780d9b4a7f",
+                    "name": "Zhengwei Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a80",
+                    "user": {
+                        "_id": "644a4fbc2166258fccc664bc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                        "isPro": false,
+                        "fullname": "Jialong Wu",
+                        "user": "callanwu",
+                        "type": "user"
+                    },
+                    "name": "Jialong Wu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:08:42.255Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a81",
+                    "user": {
+                        "_id": "63fc4c00a3c067e62899d32b",
+                        "avatarUrl": "/avatars/b54f2a406afdbbe2cd305d4d9f88ced2.svg",
+                        "isPro": false,
+                        "fullname": "Wenbiao Yin",
+                        "user": "NLPblue",
+                        "type": "user"
+                    },
+                    "name": "Wenbiao Yin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:08:48.253Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a82",
+                    "name": "Junkai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a83",
+                    "user": {
+                        "_id": "6538bdfdf5f5016df35f5faf",
+                        "avatarUrl": "/avatars/054fc6f8cb46805e66de5c3c856d4fb9.svg",
+                        "isPro": false,
+                        "fullname": "Baixuan Li",
+                        "user": "MuBai2001",
+                        "type": "user"
+                    },
+                    "name": "Baixuan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:09:05.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a84",
+                    "user": {
+                        "_id": "67dd1d084004b2f0de087fad",
+                        "avatarUrl": "/avatars/e6d9142d66271405d2062fa24177a11e.svg",
+                        "isPro": false,
+                        "fullname": "Shen HaiYang",
+                        "user": "seaforestshen",
+                        "type": "user"
+                    },
+                    "name": "Haiyang Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:09:16.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a85",
+                    "name": "Kuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a86",
+                    "name": "Liwen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a87",
+                    "user": {
+                        "_id": "646495dc802bcd26c3b92851",
+                        "avatarUrl": "/avatars/23448c9a3b12aabdf61d2b874eecfd54.svg",
+                        "isPro": false,
+                        "fullname": "Xinyu Wang",
+                        "user": "XinyuWang",
+                        "type": "user"
+                    },
+                    "name": "Xinyu Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:09:31.152Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a88",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a89",
+                    "user": {
+                        "_id": "63a091e42fabbbb89991f5ce",
+                        "avatarUrl": "/avatars/d55485b06461764c36c9edf9d6e8892c.svg",
+                        "isPro": false,
+                        "fullname": "pengjun xie",
+                        "user": "xpjandy",
+                        "type": "user"
+                    },
+                    "name": "Pengjun Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:09:37.774Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a8a",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef39133947f780d9b4a8b",
+                    "user": {
+                        "_id": "602f88f5e8149a962412a667",
+                        "avatarUrl": "/avatars/b78f0e583df8e5d5e3365934fe5f4900.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "Jingren",
+                        "type": "user"
+                    },
+                    "name": "Jingren Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:09:49.501Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-20T17:53:37.000Z",
+            "submittedOnDailyAt": "2025-07-22T01:17:25.547Z",
+            "title": "WebShaper: Agentically Data Synthesizing via Information-Seeking\n  Formalization",
+            "submittedOnDailyBy": {
+                "_id": "644a4fbc2166258fccc664bc",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                "isPro": false,
+                "fullname": "Jialong Wu",
+                "user": "callanwu",
+                "type": "user"
+            },
+            "summary": "The advent of Large Language Model (LLM)-powered agents has revolutionized\nartificial intelligence by enabling solutions to complex, open-ended tasks\nthrough web-based information-seeking (IS) capabilities. The scarcity of\nhigh-quality training data has limited the development of IS agents. Existing\napproaches typically adopt an information-driven paradigm that first collects\nweb data and then generates questions based on the retrieval. However, this may\nlead to inconsistency between information structure and reasoning structure,\nquestion and answer. To mitigate, we propose a formalization-driven IS data\nsynthesis framework WebShaper to construct a dataset. WebShaper systematically\nformalizes IS tasks through set theory. Central to the formalization is the\nconcept of Knowledge Projections (KP), which enables precise control over\nreasoning structure by KP operation compositions. During synthesis, we begin by\ncreating seed tasks, then use a multi-step expansion process. At each step, an\nagentic Expander expands the current formal question more complex with\nretrieval and validation tools based on our formalization. We train our model\non the synthesized dataset. Experiment results demonstrate that WebShaper\nachieves state-of-the-art performance among open-sourced IS agents on GAIA and\nWebWalkerQA benchmarks.",
+            "upvotes": 29,
+            "discussionId": "687ef39133947f780d9b4a8c",
+            "githubRepo": "https://github.com/Alibaba-NLP/WebWalker",
+            "ai_summary": "A formalization-driven framework called WebShaper synthesizes information-seeking datasets using set theory and Knowledge Projections, enhancing the performance of LLM-powered agents on open-ended tasks.",
+            "ai_keywords": [
+                "Large Language Model",
+                "LLM-powered agents",
+                "information-seeking",
+                "web-based information-seeking",
+                "set theory",
+                "Knowledge Projections",
+                "KP operation compositions",
+                "agentic Expander",
+                "GAIA benchmark",
+                "WebWalkerQA benchmark"
+            ],
+            "githubStars": 4858
+        },
+        "translation_title": "WebShaper: 정보 탐색을 통한 데이터 합성 방법 연구",
+        "purpose": "정보 탐색(Information-Seeking) 에이전트를 개선하기 위해 정형화된 데이터 합성 프레임워크 개발",
+        "method": [
+            "정보 탐색 작업을 집합론을 통해 체계적으로 정형화함(We propose a formalization-driven IS data synthesis framework WebShaper to construct a dataset.)",
+            "Knowledge Projections(KP) 개념을 통해 추론 구조를 정확하게 제어함(Central to the formalization is the concept of Knowledge Projections (KP), which enables precise control over reasoning structure.)",
+            "에이전트인 Expander가 정형화된 질문을 복잡하게 확장하는 다단계 확장 과정을 수행함(At each step, an agentic Expander expands the current formal question more complex with retrieval and validation tools based on our formalization.)"
+        ],
+        "conclusion": "WebShaper는 생성된 데이터셋을 기반으로 훈련되어 GAIA와 WebWalkerQA 벤치마크에서 최신 성능을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.14119",
+            "authors": [
+                {
+                    "_id": "687dfaed2e8db0930be6f18d",
+                    "user": {
+                        "_id": "6416d8ef8f689506e70dd2e5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679218871593-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Maksim Kuprashevich",
+                        "user": "WildChlamydia",
+                        "type": "user"
+                    },
+                    "name": "Maksim Kuprashevich",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-22T14:10:51.469Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f18e",
+                    "user": {
+                        "_id": "65e7151ef7c2e46887e225b1",
+                        "avatarUrl": "/avatars/48072931ca24cc13ca177cfff656450f.svg",
+                        "isPro": false,
+                        "fullname": "Grigorii Alekseenko",
+                        "user": "Riko0",
+                        "type": "user"
+                    },
+                    "name": "Grigorii Alekseenko",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T14:01:03.228Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f18f",
+                    "user": {
+                        "_id": "6498095fce9190ebb8699113",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6498095fce9190ebb8699113/ZQi6EFxaiz6IreEda3uf2.png",
+                        "isPro": true,
+                        "fullname": "Irina Tolstykh",
+                        "user": "iitolstykh",
+                        "type": "user"
+                    },
+                    "name": "Irina Tolstykh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T14:21:55.176Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f190",
+                    "user": {
+                        "_id": "65c5f74e3cf0b5c5f3965354",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/tICFxe6taWxC6CrOSuDI5.jpeg",
+                        "isPro": false,
+                        "fullname": "Georgii Fedorov",
+                        "user": "geobatch",
+                        "type": "user"
+                    },
+                    "name": "Georgii Fedorov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T13:05:51.980Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f191",
+                    "name": "Bulat Suleimanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f192",
+                    "name": "Vladimir Dokholyan",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dfaed2e8db0930be6f193",
+                    "user": {
+                        "_id": "65ae526111a0a3ff61d7d726",
+                        "avatarUrl": "/avatars/2637edd5136dd166cc0f52f40ad46fb1.svg",
+                        "isPro": false,
+                        "fullname": "Aleksandr",
+                        "user": "grac20101",
+                        "type": "user"
+                    },
+                    "name": "Aleksandr Gordeev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T13:05:47.852Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-18T17:50:00.000Z",
+            "submittedOnDailyAt": "2025-07-22T08:19:18.210Z",
+            "title": "NoHumansRequired: Autonomous High-Quality Image Editing Triplet Mining",
+            "submittedOnDailyBy": {
+                "_id": "6498095fce9190ebb8699113",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6498095fce9190ebb8699113/ZQi6EFxaiz6IreEda3uf2.png",
+                "isPro": true,
+                "fullname": "Irina Tolstykh",
+                "user": "iitolstykh",
+                "type": "user"
+            },
+            "summary": "Recent advances in generative modeling enable image editing assistants that\nfollow natural language instructions without additional user input. Their\nsupervised training requires millions of triplets: original image, instruction,\nedited image. Yet mining pixel-accurate examples is hard. Each edit must affect\nonly prompt-specified regions, preserve stylistic coherence, respect physical\nplausibility, and retain visual appeal. The lack of robust automated\nedit-quality metrics hinders reliable automation at scale. We present an\nautomated, modular pipeline that mines high-fidelity triplets across domains,\nresolutions, instruction complexities, and styles. Built on public generative\nmodels and running without human intervention, our system uses a task-tuned\nGemini validator to score instruction adherence and aesthetics directly,\nremoving any need for segmentation or grounding models. Inversion and\ncompositional bootstrapping enlarge the mined set by approximately 2.2x,\nenabling large-scale high-fidelity training data. By automating the most\nrepetitive annotation steps, the approach allows a new scale of training\nwithout human labeling effort. To democratize research in this\nresource-intensive area, we release NHR-Edit: an open dataset of 358k\nhigh-quality triplets. In the largest cross-dataset evaluation, it surpasses\nall public alternatives. We also release Bagel-NHR-Edit, an open-source\nfine-tuned Bagel model, which achieves state-of-the-art metrics in our\nexperiments.",
+            "upvotes": 27,
+            "discussionId": "687dfaee2e8db0930be6f194",
+            "projectPage": "https://riko0.github.io/No-Humans-Required/",
+            "ai_summary": "An automated pipeline mines high-fidelity image editing triplets using generative models and a task-tuned validator, enabling large-scale training without human labeling.",
+            "ai_keywords": [
+                "Gemini validator",
+                "inversion",
+                "compositional bootstrapping",
+                "NHR-Edit",
+                "Bagel-NHR-Edit",
+                "Bagel model"
+            ]
+        },
+        "translation_title": "NoHumansRequired: 자율 고품질 이미지 편집 트리플 마이닝",
+        "purpose": "사람 개입 없이 자연어 지침을 따르는 이미지 편집 도우미를 위한 고품질 이미지 편집 트리플 수집 자동화",
+        "method": [
+            "자동화된 모듈식 파이프라인을 통해 다양한 도메인, 해상도, 복잡성 및 스타일의 고충실도 트리플을 마이닝함(We present an automated, modular pipeline that mines high-fidelity triplets across domains, resolutions, instruction complexities, and styles.)",
+            "작업 조정된 Gemini validator를 사용해 지침 준수와 심미성을 직접 평가함(Built on public generative models and running without human intervention, our system uses a task-tuned Gemini validator to score instruction adherence and aesthetics directly.)",
+            "Inversion과 조합 부트스트래핑을 통해 마이닝된 세트를 약 2.2배 확대하여 대규모 고충실도 훈련 데이터를 생성함(Inversion and compositional bootstrapping enlarge the mined set by approximately 2.2x, enabling large-scale high-fidelity training data.)"
+        ],
+        "conclusion": "이 접근 방식은 사람이 필요 없는 대규모 훈련을 가능하게 하여 NHR-Edit라는 358k 고품질 트리플 공개 데이터셋을 제공하며, 큰 규모의 평가에서 모든 공개 대안들을 초월함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Computer Vision"
+        ]
+    }
+]
