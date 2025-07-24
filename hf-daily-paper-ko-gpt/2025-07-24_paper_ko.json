@@ -1,0 +1,491 @@
+[
+    {
+        "paper": {
+            "id": "2507.16863",
+            "authors": [
+                {
+                    "_id": "6881be07df7c5aafaf37f0e1",
+                    "name": "Hongcheng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e2",
+                    "name": "Zihao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e3",
+                    "name": "Lin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e4",
+                    "name": "Jingyi Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e5",
+                    "name": "Xinhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e6",
+                    "name": "Yue Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e7",
+                    "name": "Haoyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e8",
+                    "name": "Taihang Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0e9",
+                    "name": "Minhua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0ea",
+                    "name": "Xinlong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0eb",
+                    "name": "Ge Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0ec",
+                    "name": "Balong Bi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0ed",
+                    "name": "Hongyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881be07df7c5aafaf37f0ee",
+                    "name": "Wentao Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-21T21:50:16.000Z",
+            "submittedOnDailyAt": "2025-07-24T03:31:48.243Z",
+            "title": "Pixels, Patterns, but No Poetry: To See The World like Humans",
+            "submittedOnDailyBy": {
+                "_id": "62728f4f6253fe2068da1021",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62728f4f6253fe2068da1021/KZ65X0EH98AF3zXemPiap.jpeg",
+                "isPro": false,
+                "fullname": "Hongcheng Gao",
+                "user": "HongchengGao",
+                "type": "user"
+            },
+            "summary": "Achieving human-like perception and reasoning in Multimodal Large Language\nModels (MLLMs) remains a central challenge in artificial intelligence. While\nrecent research has primarily focused on enhancing reasoning capabilities in\nMLLMs, a fundamental question persists: Can Multimodal Large Language Models\ntruly perceive the world as humans do? This paper shifts focus from reasoning\nto perception. Rather than constructing benchmarks specifically for reasoning,\nwe introduce the Turing Eye Test (TET), a challenging perception-oriented\nbenchmark comprising four diagnostic tasks that evaluate MLLMs' performance on\nsynthetic images that humans process intuitively. Our findings reveal that\nstate-of-the-art MLLMs exhibit catastrophic failures on our perceptual tasks\ntrivial for humans. Both in-context learning and training on language\nbackbone-effective for previous benchmarks-fail to improve performance on our\ntasks, while fine-tuning the vision tower enables rapid adaptation, suggesting\nthat our benchmark poses challenges for vision tower generalization rather than\nfor the knowledge and reasoning capabilities of the language backbone-a key gap\nbetween current MLLMs and human perception. We release a representative subset\nof TET tasks in this version, and will introduce more diverse tasks and methods\nto enhance visual generalization in future work.",
+            "upvotes": 40,
+            "discussionId": "6881be08df7c5aafaf37f0ef",
+            "projectPage": "https://turingeyetest.github.io/",
+            "ai_summary": "The Turing Eye Test evaluates MLLMs' perceptual abilities through synthetic images, revealing that vision tower generalization is a significant gap compared to human perception.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "Turing Eye Test",
+                "in-context learning",
+                "fine-tuning",
+                "vision tower",
+                "visual generalization"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "픽셀, 패턴, 그러나 시가 없음: 인간처럼 세상을 보는 방법",
+        "purpose": "인간과 유사한 인식 및 추론을 달성하기 위해, MLLMs의 지각 능력을 평가하고 향상시키려는 목표",
+        "method": [
+            "MLLMs의 성능을 평가하기 위해 Turing Eye Test(TET)라는 지각 중심의 벤치마크를 도입함(we introduce the Turing Eye Test (TET), a challenging perception-oriented benchmark comprising four diagnostic tasks).",
+            "TET는 인간이 직관적으로 처리하는 합성 이미지를 기반으로 하여 MLLMs의 성능을 평가함(we evaluate MLLMs' performance on synthetic images that humans process intuitively).",
+            "비전 타워를 미세 조정하여 빠른 적응을 가능하게 하며, 이는 우리의 벤치마크가 언어 백본의 지식 및 추론 능력이 아니라 비전 타워의 일반화에 도전 과제를 제시함을 시사함(while fine-tuning the vision tower enables rapid adaptation, suggesting that our benchmark poses challenges for vision tower generalization)."
+        ],
+        "conclusion": "우리의 연구는 최신 MLLMs가 인간에게는 쉬운 지각 작업에서 심각한 실패를 많이 보이며, 이는 비전 타워와 인간 지각 간의 주요 격차를 나타냄.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.17744",
+            "authors": [
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0d5",
+                    "name": "Xiaofeng Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0d6",
+                    "name": "Shaoheng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0d7",
+                    "name": "Zhen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0d8",
+                    "name": "Chuanhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0d9",
+                    "name": "Wenshuo Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0da",
+                    "name": "Tong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0db",
+                    "user": {
+                        "_id": "65783ee6ee33d547aecc3ffc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65783ee6ee33d547aecc3ffc/lWZX88c-0dCsN-yB9Jhlf.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiangmiao Pang",
+                        "user": "Jiangmiao",
+                        "type": "user"
+                    },
+                    "name": "Jiangmiao Pang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-24T12:00:40.580Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0dc",
+                    "name": "Mingmin Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0dd",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881b7d1df7c5aafaf37f0de",
+                    "user": {
+                        "_id": "63527f4e7d071f23d085ad45",
+                        "avatarUrl": "/avatars/99a51adef5673b3ac1a8c02eb47759c4.svg",
+                        "isPro": false,
+                        "fullname": "KAIPENG ZHANG",
+                        "user": "kpzhang",
+                        "type": "user"
+                    },
+                    "name": "Kaipeng Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-24T12:00:46.757Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65f1713552c38a91e0a445e8/l3pzwBZRLJ2_T_7faBEK6.mp4"
+            ],
+            "publishedAt": "2025-07-23T17:57:09.000Z",
+            "submittedOnDailyAt": "2025-07-24T04:38:47.770Z",
+            "title": "Yume: An Interactive World Generation Model",
+            "submittedOnDailyBy": {
+                "_id": "65f1713552c38a91e0a445e8",
+                "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+                "isPro": false,
+                "fullname": "kaipeng",
+                "user": "kpzhang996",
+                "type": "user"
+            },
+            "summary": "Yume aims to use images, text, or videos to create an interactive, realistic,\nand dynamic world, which allows exploration and control using peripheral\ndevices or neural signals. In this report, we present a preview version of\n\\method, which creates a dynamic world from an input image and allows\nexploration of the world using keyboard actions. To achieve this high-fidelity\nand interactive video world generation, we introduce a well-designed framework,\nwhich consists of four main components, including camera motion quantization,\nvideo generation architecture, advanced sampler, and model acceleration. First,\nwe quantize camera motions for stable training and user-friendly interaction\nusing keyboard inputs. Then, we introduce the Masked Video Diffusion\nTransformer~(MVDT) with a memory module for infinite video generation in an\nautoregressive manner. After that, training-free Anti-Artifact Mechanism (AAM)\nand Time Travel Sampling based on Stochastic Differential Equations (TTS-SDE)\nare introduced to the sampler for better visual quality and more precise\ncontrol. Moreover, we investigate model acceleration by synergistic\noptimization of adversarial distillation and caching mechanisms. We use the\nhigh-quality world exploration dataset \\sekai to train \\method, and it achieves\nremarkable results in diverse scenes and applications. All data, codebase, and\nmodel weights are available on https://github.com/stdstu12/YUME. Yume will\nupdate monthly to achieve its original goal. Project page:\nhttps://stdstu12.github.io/YUME-Project/.",
+            "upvotes": 36,
+            "discussionId": "6881b7d1df7c5aafaf37f0df",
+            "projectPage": "https://stdstu12.github.io/YUME-Project/",
+            "githubRepo": "https://github.com/stdstu12/YUME",
+            "ai_summary": "A framework for generating and exploring interactive video worlds from images using Masked Video Diffusion Transformer, Anti-Artifact Mechanism, Time Travel Sampling, and model acceleration techniques.",
+            "ai_keywords": [
+                "camera motion quantization",
+                "Masked Video Diffusion Transformer",
+                "MVDT",
+                "memory module",
+                "infinite video generation",
+                "autoregressive",
+                "Anti-Artifact Mechanism",
+                "AAM",
+                "Time Travel Sampling",
+                "TTS-SDE",
+                "stochastic differential equations",
+                "model acceleration",
+                "adversarial distillation",
+                "caching mechanisms"
+            ],
+            "githubStars": 71
+        },
+        "translation_title": "Yume: 인터랙티브 세계 생성 모델",
+        "purpose": "이미지, 텍스트 또는 비디오를 활용하여 탐험하고 제어할 수 있는 인터랙티브하고 현실적인 동적 세계 생성",
+        "method": [
+            "입력 이미지로부터 동적 세계를 생성하고 키보드로 탐험할 수 있는 프레임워크를 설계함(To achieve this high-fidelity and interactive video world generation, we introduce a well-designed framework.)",
+            "카메라 모션을 정량화하여 안정적인 학습과 사용자 친화적인 상호작용을 가능하게 함(First, we quantize camera motions for stable training and user-friendly interaction using keyboard inputs.)",
+            "Masked Video Diffusion Transformer (MVDT)와 메모리 모듈을 도입하여 자율적으로 비디오 생성(Masked Video Diffusion Transformer~(MVDT) with a memory module for infinite video generation in an autoregressive manner.)"
+        ],
+        "conclusion": "다양한 장면과 응용에서 뛰어난 성능을 보이며, Yume는 매월 업데이트되어 원래 목표를 달성할 예정임.",
+        "keywords": [
+            "Video Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.17202",
+            "authors": [
+                {
+                    "_id": "6881cb17df7c5aafaf37f0f1",
+                    "user": {
+                        "_id": "6369f693bf21b20c5692937b",
+                        "avatarUrl": "/avatars/e937dc8234b3e456149882bfce34841f.svg",
+                        "isPro": false,
+                        "fullname": "Jooyeol Yun",
+                        "user": "YeolJoo",
+                        "type": "user"
+                    },
+                    "name": "Jooyeol Yun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-24T09:13:01.588Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881cb17df7c5aafaf37f0f2",
+                    "name": "Heng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881cb17df7c5aafaf37f0f3",
+                    "name": "Yotaro Shimose",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881cb17df7c5aafaf37f0f4",
+                    "name": "Jaegul Choo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881cb17df7c5aafaf37f0f5",
+                    "name": "Shingo Takamatsu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-23T04:49:48.000Z",
+            "submittedOnDailyAt": "2025-07-24T04:33:49.250Z",
+            "title": "DesignLab: Designing Slides Through Iterative Detection and Correction",
+            "submittedOnDailyBy": {
+                "_id": "6369f693bf21b20c5692937b",
+                "avatarUrl": "/avatars/e937dc8234b3e456149882bfce34841f.svg",
+                "isPro": false,
+                "fullname": "Jooyeol Yun",
+                "user": "YeolJoo",
+                "type": "user"
+            },
+            "summary": "Designing high-quality presentation slides can be challenging for non-experts\ndue to the complexity involved in navigating various design choices. Numerous\nautomated tools can suggest layouts and color schemes, yet often lack the\nability to refine their own output, which is a key aspect in real-world\nworkflows. We propose DesignLab, which separates the design process into two\nroles, the design reviewer, who identifies design-related issues, and the\ndesign contributor who corrects them. This decomposition enables an iterative\nloop where the reviewer continuously detects issues and the contributor\ncorrects them, allowing a draft to be further polished with each iteration,\nreaching qualities that were unattainable. We fine-tune large language models\nfor these roles and simulate intermediate drafts by introducing controlled\nperturbations, enabling the design reviewer learn design errors and the\ncontributor learn how to fix them. Our experiments show that DesignLab\noutperforms existing design-generation methods, including a commercial tool, by\nembracing the iterative nature of designing which can result in polished,\nprofessional slides.",
+            "upvotes": 32,
+            "discussionId": "6881cb17df7c5aafaf37f0f6",
+            "projectPage": "https://yeolj00.github.io/personal-projects/designlab/",
+            "ai_summary": "DesignLab uses fine-tuned large language models to iteratively improve presentation slides through a design reviewer and contributor system, outperforming existing tools.",
+            "ai_keywords": [
+                "large language models",
+                "design reviewer",
+                "design contributor",
+                "iterative loop",
+                "controlled perturbations",
+                "design errors"
+            ]
+        },
+        "translation_title": "DesignLab: 반복적인 탐지와 교정을 통한 슬라이드 디자인",
+        "purpose": "비전문가가 고품질 프레젠테이션 슬라이드를 설계할 수 있도록 반복적인 검토와 수정 프로세스를 구현하는 것",
+        "method": [
+            "디자인 프로세스를 디자인 검사자와 디자인 기여자로 구분하여 설계함(This decomposition enables an iterative loop where the reviewer continuously detects issues and the contributor corrects them.)",
+            "대형 언어 모델을 이 두 가지 역할에 맞게 세밀하게 조정하고, 제어된 변화를 통해 중간 초안을 시뮬레이션함(We fine-tune large language models for these roles and simulate intermediate drafts by introducing controlled perturbations.)",
+            "검사자가 디자인 오류를 배우고 기여자가 이를 수정하는 방법을 학습하도록 유도함(enabling the design reviewer learn design errors and the contributor learn how to fix them.)"
+        ],
+        "conclusion": "DesignLab은 기존 디자인 생성 방법보다 뛰어난 성과를 보여주며, 반복적인 디자인 프로세스 덕분에 더욱 세련되고 전문적인 슬라이드를 생성할 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.17512",
+            "authors": [
+                {
+                    "_id": "6881a669df7c5aafaf37f0bc",
+                    "user": {
+                        "_id": "671b852aa4fa4f8f5fb5404c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/671b852aa4fa4f8f5fb5404c/TDLsgP8WgKW-qaA8Ys-iJ.jpeg",
+                        "isPro": false,
+                        "fullname": "YU LI",
+                        "user": "yu0226",
+                        "type": "user"
+                    },
+                    "name": "Yu Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-24T12:02:03.468Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881a669df7c5aafaf37f0bd",
+                    "name": "Zhuoshi Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881a669df7c5aafaf37f0be",
+                    "name": "Honglin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881a669df7c5aafaf37f0bf",
+                    "user": {
+                        "_id": "67ad790c2b28204981be8e24",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ad790c2b28204981be8e24/KstE5e5bUXXIvgPJqMO2B.jpeg",
+                        "isPro": false,
+                        "fullname": "Mengyuan Sun",
+                        "user": "blue01223",
+                        "type": "user"
+                    },
+                    "name": "Mengyuan Sun",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-24T12:01:39.741Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881a669df7c5aafaf37f0c0",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6881a669df7c5aafaf37f0c1",
+                    "name": "Lijun Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-23T13:51:04.000Z",
+            "submittedOnDailyAt": "2025-07-24T01:51:17.747Z",
+            "title": "Can One Domain Help Others? A Data-Centric Study on Multi-Domain\n  Reasoning via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "671b852aa4fa4f8f5fb5404c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/671b852aa4fa4f8f5fb5404c/TDLsgP8WgKW-qaA8Ys-iJ.jpeg",
+                "isPro": false,
+                "fullname": "YU LI",
+                "user": "yu0226",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a\npowerful paradigm for enhancing the reasoning capabilities of LLMs. Existing\nresearch has predominantly concentrated on isolated reasoning domains such as\nmathematical problem-solving, coding tasks, or logical reasoning. However, real\nworld reasoning scenarios inherently demand an integrated application of\nmultiple cognitive skills. Despite this, the interplay among these reasoning\nskills under reinforcement learning remains poorly understood. To bridge this\ngap, we present a systematic investigation of multi-domain reasoning within the\nRLVR framework, explicitly focusing on three primary domains: mathematical\nreasoning, code generation, and logical puzzle solving. We conduct a\ncomprehensive study comprising four key components: (1) Leveraging the GRPO\nalgorithm and the Qwen-2.5-7B model family, our study thoroughly evaluates the\nmodels' in-domain improvements and cross-domain generalization capabilities\nwhen trained on single-domain datasets. (2) Additionally, we examine the\nintricate interactions including mutual enhancements and conflicts that emerge\nduring combined cross-domain training. (3) To further understand the influence\nof SFT on RL, we also analyze and compare performance differences between base\nand instruct models under identical RL configurations. (4) Furthermore, we\ndelve into critical RL training details, systematically exploring the impacts\nof curriculum learning strategies, variations in reward design, and\nlanguage-specific factors. Through extensive experiments, our results offer\nsignificant insights into the dynamics governing domain interactions, revealing\nkey factors influencing both specialized and generalizable reasoning\nperformance. These findings provide valuable guidance for optimizing RL\nmethodologies to foster comprehensive, multi-domain reasoning capabilities in\nLLMs.",
+            "upvotes": 22,
+            "discussionId": "6881a669df7c5aafaf37f0c2"
+        },
+        "translation_title": "하나의 도메인이 다른 도메인에 도움을 줄 수 있을까? 강화 학습을 통한 다중 도메인 추론 중심 연구",
+        "purpose": "다중 도메인 추론에서의 상호작용과 강화 학습의 영향을 이해하기 위한 체계적인 연구",
+        "method": [
+            "GRPO 알고리즘과 Qwen-2.5-7B 모델을 활용하여 단일 도메인 데이터셋에서 모델의 개선 및 교차 도메인 일반화 능력을 평가함(Leveraging the GRPO algorithm and the Qwen-2.5-7B model family, our study thoroughly evaluates the models' in-domain improvements and cross-domain generalization capabilities when trained on single-domain datasets.)",
+            "다양한 도메인 훈련 중 발생하는 상호 개선 및 충돌을 조사함(Additionally, we examine the intricate interactions including mutual enhancements and conflicts that emerge during combined cross-domain training.)",
+            "기본 모델과 지시 모델 간의 성능 차이를 분석하여 SFT가 RL에 미치는 영향을 연구함(To further understand the influence of SFT on RL, we also analyze and compare performance differences between base and instruct models under identical RL configurations.)"
+        ],
+        "conclusion": "다중 도메인 상호작용의 동역학을 이해하고, LLM의 전반적인 다중 도메인 추론 능력을 향상시키기 위한 강화 학습 최적화에 대한 중요한 통찰을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.16725",
+            "authors": [
+                {
+                    "_id": "68807c5900f4b5a05f2fbeab",
+                    "user": {
+                        "_id": "643a587fe2b979ae6141b193",
+                        "avatarUrl": "/avatars/1726b6a1629d800795f9bdf6d03ad190.svg",
+                        "isPro": false,
+                        "fullname": "yilong xu",
+                        "user": "sapphirex",
+                        "type": "user"
+                    },
+                    "name": "Yilong Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-07-24T12:08:21.488Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68807c5900f4b5a05f2fbeac",
+                    "name": "Xiang Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "68807c5900f4b5a05f2fbead",
+                    "name": "Zhi Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68807c5900f4b5a05f2fbeae",
+                    "name": "Jinhua Gao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-22T16:08:12.000Z",
+            "submittedOnDailyAt": "2025-07-24T08:54:42.339Z",
+            "title": "RAVine: Reality-Aligned Evaluation for Agentic Search",
+            "submittedOnDailyBy": {
+                "_id": "643a587fe2b979ae6141b193",
+                "avatarUrl": "/avatars/1726b6a1629d800795f9bdf6d03ad190.svg",
+                "isPro": false,
+                "fullname": "yilong xu",
+                "user": "sapphirex",
+                "type": "user"
+            },
+            "summary": "Agentic search, as a more autonomous and adaptive paradigm of retrieval\naugmentation, is driving the evolution of intelligent search systems. However,\nexisting evaluation frameworks fail to align well with the goals of agentic\nsearch. First, the complex queries commonly used in current benchmarks often\ndeviate from realistic user search scenarios. Second, prior approaches tend to\nintroduce noise when extracting ground truth for end-to-end evaluations,\nleading to distorted assessments at a fine-grained level. Third, most current\nframeworks focus solely on the quality of final answers, neglecting the\nevaluation of the iterative process inherent to agentic search. To address\nthese limitations, we propose RAVine -- a Reality-Aligned eValuation framework\nfor agentic LLMs with search. RAVine targets multi-point queries and long-form\nanswers that better reflect user intents, and introduces an attributable ground\ntruth construction strategy to enhance the accuracy of fine-grained evaluation.\nMoreover, RAVine examines model's interaction with search tools throughout the\niterative process, and accounts for factors of efficiency. We benchmark a\nseries of models using RAVine and derive several insights, which we hope will\ncontribute to advancing the development of agentic search systems. The code and\ndatasets are available at https://github.com/SwordFaith/RAVine.",
+            "upvotes": 22,
+            "discussionId": "68807c5900f4b5a05f2fbeaf",
+            "githubRepo": "https://github.com/SwordFaith/RAVine",
+            "ai_summary": "A new evaluation framework called RAVine is proposed to assess agentic search systems by focusing on realistic queries, accurate ground truth, and iterative process efficiency.",
+            "ai_keywords": [
+                "agentic search",
+                "retrieval augmentation",
+                "intelligent search systems",
+                "evaluation frameworks",
+                "complex queries",
+                "ground truth extraction",
+                "end-to-end evaluations",
+                "multi-point queries",
+                "long-form answers",
+                "user intents",
+                "attributable ground truth",
+                "search tools",
+                "iterative process",
+                "efficiency"
+            ],
+            "githubStars": 2
+        },
+        "translation_title": "RAVine: 현실 정렬 평가를 위한 주도적 검색 방법",
+        "purpose": "주도적 검색 시스템의 목표와 일치하는 평가 프레임워크를 제안하기 위한 연구",
+        "method": [
+            "RAVine이라는 Reality-Aligned eValuation 프레임워크를 제안함(we propose RAVine -- a Reality-Aligned eValuation framework for agentic LLMs with search.)",
+            "사용자 의도를 더 잘 반영하는 멀티 포인트 쿼리와 긴 형식의 답변에 주목함(RAVine targets multi-point queries and long-form answers that better reflect user intents.)",
+            "정밀한 평가의 정확성을 높이기 위해 귀속 가능한 정답 생성 전략을 도입함(introduces an attributable ground truth construction strategy to enhance the accuracy of fine-grained evaluation.)",
+            "모델의 검색 도구와의 상호작용을 평가하여 효율성 요소도 고려함(RAVine examines model's interaction with search tools throughout the iterative process, and accounts for factors of efficiency.)"
+        ],
+        "conclusion": "RAVine을 사용해 여러 모델을 평가하고, 주도적 검색 시스템 발전에 기여할 통찰을 얻음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
