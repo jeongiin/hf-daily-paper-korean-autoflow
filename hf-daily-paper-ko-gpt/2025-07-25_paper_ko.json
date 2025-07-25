@@ -1,0 +1,552 @@
+[
+    {
+        "paper": {
+            "id": "2507.13546",
+            "authors": [
+                {
+                    "_id": "6883427a846d2e78b7548bce",
+                    "name": "Dmitrii Mikhailov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bcf",
+                    "name": "Aleksey Letunovskiy",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd0",
+                    "name": "Maria Kovaleva",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd1",
+                    "name": "Vladimir Arkhipkin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd2",
+                    "user": {
+                        "_id": "67bcb1012906865678a11f91",
+                        "avatarUrl": "/avatars/80fb0cc24f0d16c4740f9115b680df0f.svg",
+                        "isPro": false,
+                        "fullname": "Vladimir Korviakov",
+                        "user": "korviakov",
+                        "type": "user"
+                    },
+                    "name": "Vladimir Korviakov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-25T13:36:18.497Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd3",
+                    "name": "Vladimir Polovnikov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd4",
+                    "name": "Viacheslav Vasilev",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd5",
+                    "name": "Evelina Sidorova",
+                    "hidden": false
+                },
+                {
+                    "_id": "6883427a846d2e78b7548bd6",
+                    "user": {
+                        "_id": "6669a678465d1d802181e456",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6669a678465d1d802181e456/ZCthBBhDFQnh0bBkgUQUU.png",
+                        "isPro": false,
+                        "fullname": "Denis Dimitrov",
+                        "user": "dendimitrov",
+                        "type": "user"
+                    },
+                    "name": "Denis Dimitrov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-25T13:36:20.344Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-17T21:36:36.000Z",
+            "submittedOnDailyAt": "2025-07-25T12:40:28.103Z",
+            "title": "nablaNABLA: Neighborhood Adaptive Block-Level Attention",
+            "submittedOnDailyBy": {
+                "_id": "67bcb1012906865678a11f91",
+                "avatarUrl": "/avatars/80fb0cc24f0d16c4740f9115b680df0f.svg",
+                "isPro": false,
+                "fullname": "Vladimir Korviakov",
+                "user": "korviakov",
+                "type": "user"
+            },
+            "summary": "Recent progress in transformer-based architectures has demonstrated\nremarkable success in video generation tasks. However, the quadratic complexity\nof full attention mechanisms remains a critical bottleneck, particularly for\nhigh-resolution and long-duration video sequences. In this paper, we propose\nNABLA, a novel Neighborhood Adaptive Block-Level Attention mechanism that\ndynamically adapts to sparsity patterns in video diffusion transformers (DiTs).\nBy leveraging block-wise attention with adaptive sparsity-driven threshold,\nNABLA reduces computational overhead while preserving generative quality. Our\nmethod does not require custom low-level operator design and can be seamlessly\nintegrated with PyTorch's Flex Attention operator. Experiments demonstrate that\nNABLA achieves up to 2.7x faster training and inference compared to baseline\nalmost without compromising quantitative metrics (CLIP score, VBench score,\nhuman evaluation score) and visual quality drop. The code and model weights are\navailable here: https://github.com/gen-ai-team/Wan2.1-NABLA",
+            "upvotes": 55,
+            "discussionId": "6883427a846d2e78b7548bd7",
+            "githubRepo": "https://github.com/gen-ai-team/Wan2.1-NABLA",
+            "ai_summary": "NABLA, a dynamic block-level attention mechanism, improves video diffusion transformers by enhancing computational efficiency without sacrificing generative quality.",
+            "ai_keywords": [
+                "transformer-based architectures",
+                "full attention mechanisms",
+                "quadratic complexity",
+                "Neighborhood Adaptive Block-Level Attention",
+                "NABLA",
+                "sparsity patterns",
+                "video diffusion transformers",
+                "DiTs",
+                "block-wise attention",
+                "adaptive sparsity-driven threshold",
+                "CLIP score",
+                "VBench score",
+                "human evaluation score"
+            ],
+            "githubStars": 6
+        },
+        "translation_title": "nablaNABLA: 이웃 적응형 블록 수준 주의 메커니즘",
+        "purpose": "비디오 생성 작업에서 고해상도 및 긴 기간 비디오 시퀀스를 처리할 수 있는 효율적인 방법 개발",
+        "method": [
+            "Neighborhood Adaptive Block-Level Attention 메커니즘을 제안하여 비디오 확산 변환기(DiTs)의 희소성 패턴에 맞춰 동적으로 조정함(we propose NABLA, a novel Neighborhood Adaptive Block-Level Attention mechanism that dynamically adapts to sparsity patterns in video diffusion transformers (DiTs).)",
+            "블록 단위 주의를 활용하고 적응형 희소성 임계값을 적용해 계산 비용을 줄이고 생성 품질을 유지함(By leveraging block-wise attention with adaptive sparsity-driven threshold, NABLA reduces computational overhead while preserving generative quality.)",
+            "PyTorch의 Flex Attention 연산자와 쉽게 통합될 수 있도록 설계함(Our method does not require custom low-level operator design and can be seamlessly integrated with PyTorch's Flex Attention operator.)"
+        ],
+        "conclusion": "NABLA는 훈련 및 추론 속도를 2.7배 향상시키고, 품질 저하 없이 여러 평가 지표에서도 개선된 성과를 보임.",
+        "keywords": [
+            "Video Generation",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.18071",
+            "authors": [
+                {
+                    "_id": "68831fe6846d2e78b7548ac8",
+                    "user": {
+                        "_id": "610b70452719facd4ea85e28",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/610b70452719facd4ea85e28/S7nMy7D0Rxq0VIVblhYDG.jpeg",
+                        "isPro": false,
+                        "fullname": "Chujie Zheng",
+                        "user": "chujiezheng",
+                        "type": "user"
+                    },
+                    "name": "Chujie Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-25T13:36:28.634Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ac9",
+                    "name": "Shixuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548aca",
+                    "name": "Mingze Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548acb",
+                    "user": {
+                        "_id": "63f30b870a16587ea970edfe",
+                        "avatarUrl": "/avatars/059491b33fecec69032e6d481229ee31.svg",
+                        "isPro": false,
+                        "fullname": "Xiong-Hui Chen",
+                        "user": "xionghuichen",
+                        "type": "user"
+                    },
+                    "name": "Xiong-Hui Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-25T13:36:26.841Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548acc",
+                    "name": "Bowen Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548acd",
+                    "name": "Chang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ace",
+                    "name": "Kai Dang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548acf",
+                    "name": "Yuqiong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ad0",
+                    "name": "Rui Men",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ad1",
+                    "name": "An Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ad2",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68831fe6846d2e78b7548ad3",
+                    "name": "Junyang Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-24T03:50:32.000Z",
+            "submittedOnDailyAt": "2025-07-25T08:54:57.629Z",
+            "title": "Group Sequence Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "610b70452719facd4ea85e28",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/610b70452719facd4ea85e28/S7nMy7D0Rxq0VIVblhYDG.jpeg",
+                "isPro": false,
+                "fullname": "Chujie Zheng",
+                "user": "chujiezheng",
+                "type": "user"
+            },
+            "summary": "This paper introduces Group Sequence Policy Optimization (GSPO), our stable,\nefficient, and performant reinforcement learning algorithm for training large\nlanguage models. Unlike previous algorithms that adopt token-level importance\nratios, GSPO defines the importance ratio based on sequence likelihood and\nperforms sequence-level clipping, rewarding, and optimization. We demonstrate\nthat GSPO achieves superior training efficiency and performance compared to the\nGRPO algorithm, notably stabilizes Mixture-of-Experts (MoE) RL training, and\nhas the potential for simplifying the design of RL infrastructure. These merits\nof GSPO have contributed to the remarkable improvements in the latest Qwen3\nmodels.",
+            "upvotes": 39,
+            "discussionId": "68831fe7846d2e78b7548ad4"
+        },
+        "translation_title": "그룹 시퀀스 정책 최적화",
+        "purpose": "대규모 언어 모델을 훈련하기 위한 안정적이고 효율적인 강화 학습 알고리즘 개발",
+        "method": [
+            "GSPO는 시퀀스의 가능성을 기반으로 중요 비율을 정의하고 시퀀스 수준에서 클리핑, 보상 및 최적화를 수행함(Unlike previous algorithms that adopt token-level importance ratios, GSPO defines the importance ratio based on sequence likelihood and performs sequence-level clipping, rewarding, and optimization.)",
+            "GSPO는 GRPO 알고리즘에 비해 훈련 효율성과 성능이 우수함을 입증함(We demonstrate that GSPO achieves superior training efficiency and performance compared to the GRPO algorithm.)",
+            "MoE RL 훈련을 안정화시키고 RL 인프라 설계를 간소화할 수 있는 잠재력이 있음."
+        ],
+        "conclusion": "GSPO는 최신 Qwen3 모델의 성능을 크게 향상시키는 데 기여함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.14958",
+            "authors": [
+                {
+                    "_id": "688332d5846d2e78b7548b6f",
+                    "name": "Hang Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b70",
+                    "name": "Fangzhi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b71",
+                    "name": "Rongman Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b72",
+                    "name": "Yifei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b73",
+                    "name": "Jian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b74",
+                    "name": "Haoran Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b75",
+                    "name": "Xiaobao Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b76",
+                    "name": "Luu Anh Tuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b77",
+                    "name": "Haiteng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b78",
+                    "name": "Qika Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "688332d5846d2e78b7548b79",
+                    "name": "Jun Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-20T13:36:19.000Z",
+            "submittedOnDailyAt": "2025-07-25T06:03:00.614Z",
+            "title": "MUR: Momentum Uncertainty guided Reasoning for Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "64e6cf78ecce34cb442dc889",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e6cf78ecce34cb442dc889/qVZFiUEpBpSkmH8SQeinm.jpeg",
+                "isPro": false,
+                "fullname": "Fangzhi Xu",
+                "user": "xufangzhi",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have achieved impressive performance on\nreasoning-intensive tasks, yet optimizing their reasoning efficiency remains an\nopen challenge. While Test-Time Scaling (TTS) improves reasoning quality, it\noften leads to overthinking, wasting tokens on redundant computations. This\nwork investigates how to efficiently and adaptively guide LLM test-time scaling\nwithout additional training. Inspired by the concept of momentum in physics, we\npropose Momentum Uncertainty-guided Reasoning (MUR), which dynamically\nallocates thinking budgets to critical reasoning steps by tracking and\naggregating stepwise uncertainty over time. To support flexible inference-time\ncontrol, we introduce gamma-control, a simple mechanism that tunes the\nreasoning budget via a single hyperparameter. We provide in-depth theoretical\nproof to support the superiority of MUR in terms of stability and biases. MUR\nis comprehensively evaluated against various TTS methods across four\nchallenging benchmarks (MATH-500, AIME24, AIME25, and GPQA-diamond) using\ndifferent sizes of recent Qwen3 models (1.7B, 4B, and 8B). Results demonstrate\nthat MUR reduces computation by over 50% on average while improving accuracy by\n0.62-3.37%.",
+            "upvotes": 27,
+            "discussionId": "688332d6846d2e78b7548b7a",
+            "projectPage": "https://github.com/yayayacc/MUR",
+            "githubRepo": "https://github.com/yayayacc/MUR",
+            "ai_summary": "Momentum Uncertainty-guided Reasoning (MUR) dynamically optimizes reasoning budgets in Large Language Models during inference, reducing computation and enhancing accuracy.",
+            "ai_keywords": [
+                "Large Language Models",
+                "Test-Time Scaling",
+                "Momentum Uncertainty-guided Reasoning",
+                "reasoning budgets",
+                "stepwise uncertainty",
+                "gamma-control",
+                "MATH-500",
+                "AIME24",
+                "AIME25",
+                "GPQA-diamond",
+                "Qwen3"
+            ],
+            "githubStars": 26
+        },
+        "translation_title": "MUR: 대형 언어 모델을 위한 모멘텀 불확실성 기반 추론",
+        "purpose": "대형 언어 모델의 추론 효율성을 향상시키기 위한 새로운 방법 연구",
+        "method": [
+            "모멘텀 개념에 영감을 받아 Momentum Uncertainty-guided Reasoning (MUR) 제안(We propose Momentum Uncertainty-guided Reasoning (MUR), which dynamically allocates thinking budgets to critical reasoning steps by tracking and aggregating stepwise uncertainty over time.)",
+            "단일 하이퍼파라미터를 사용하는 gamma-control 메커니즘을 도입하여 유연한 추론 시간 제어를 지원함(To support flexible inference-time control, we introduce gamma-control, a simple mechanism that tunes the reasoning budget via a single hyperparameter.)",
+            "MUR의 안정성과 편향에 대한 이론적 증명 제공(We provide in-depth theoretical proof to support the superiority of MUR in terms of stability and biases.)"
+        ],
+        "conclusion": "MUR 방법을 통해 평균 50% 이상의 계산량 감소와 0.62-3.37%의 정확도 향상을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.15758",
+            "authors": [
+                {
+                    "_id": "687ef94833947f780d9b4ac7",
+                    "user": {
+                        "_id": "674d103d2d93658f850151a6",
+                        "avatarUrl": "/avatars/e221d43d3d8601d94cb6a44610054e23.svg",
+                        "isPro": false,
+                        "fullname": "wuxingyu",
+                        "user": "wuxingyu",
+                        "type": "user"
+                    },
+                    "name": "Xingyu Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-25T13:36:33.856Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4ac8",
+                    "user": {
+                        "_id": "64098738342c26884c792c93",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/SxBUd-wLrl-PjQsrVYJte.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuchen Yan",
+                        "user": "yanyc",
+                        "type": "user"
+                    },
+                    "name": "Yuchen Yan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:07.023Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4ac9",
+                    "name": "Shangke Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4aca",
+                    "name": "Linjuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4acb",
+                    "name": "Yiwen Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4acc",
+                    "user": {
+                        "_id": "5e1058e9fcf41d740b69966d",
+                        "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+                        "isPro": false,
+                        "fullname": "Yongliang Shen",
+                        "user": "tricktreat",
+                        "type": "user"
+                    },
+                    "name": "Yongliang Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-22T07:49:05.190Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4acd",
+                    "name": "Weiming Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4ace",
+                    "name": "Jian Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4acf",
+                    "name": "Jun Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "687ef94833947f780d9b4ad0",
+                    "name": "Yueting Zhuang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-21T16:14:41.000Z",
+            "submittedOnDailyAt": "2025-07-25T02:07:25.946Z",
+            "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy\n  Optimization",
+            "submittedOnDailyBy": {
+                "_id": "5e1058e9fcf41d740b69966d",
+                "avatarUrl": "/avatars/ce74839ba871f2b54313a670a233ba82.svg",
+                "isPro": false,
+                "fullname": "Yongliang Shen",
+                "user": "tricktreat",
+                "type": "user"
+            },
+            "summary": "Large reasoning models have achieved remarkable performance through extended\nchain-of-thought sequences, yet this computational freedom leads to excessive\ntoken generation even for simple problems. We present Length-Adaptive Policy\nOptimization (LAPO), a novel framework that transforms reasoning length control\nfrom an external constraint into an intrinsic model capability. Unlike existing\napproaches that impose rigid limits or rely on post-hoc interventions, LAPO\nenables models to internalize an understanding of appropriate reasoning depth\nthrough a two-stage reinforcement learning process. In the first stage, models\nlearn natural reasoning patterns by discovering the statistical distribution of\nsuccessful solution lengths. The second stage leverages these patterns as\nmeta-cognitive guidance, embedding them directly within the model's reasoning\ncontext to ensure inference-time flexibility. Experiments on mathematical\nreasoning benchmarks demonstrate that LAPO reduces token usage by up to 40.9\\%\nwhile improving accuracy by 2.3\\%. Our analysis reveals that models trained\nwith LAPO develop emergent abilities to allocate computational resources based\non problem complexity, achieving efficient reasoning without sacrificing\nquality.",
+            "upvotes": 23,
+            "discussionId": "687ef94833947f780d9b4ad1",
+            "githubRepo": "https://github.com/ZJU-REAL/HBPO",
+            "githubStars": 13
+        },
+        "translation_title": "LAPO: 길이에 적응하는 정책 최적화를 통한 추론 효율성 내재화",
+        "purpose": "효율적인 추론을 위해 모델이 적절한 추론 깊이를 이해하도록 돕는 방법 연구",
+        "method": [
+            "Length-Adaptive Policy Optimization(LAPO)라는 새로운 프레임워크를 제안함(We present Length-Adaptive Policy Optimization (LAPO), a novel framework that transforms reasoning length control from an external constraint into an intrinsic model capability.)",
+            "모델이 성공적인 해결 길이의 통계적 분포를 발견하여 자연스러운 추론 패턴을 학습하도록 함(In the first stage, models learn natural reasoning patterns by discovering the statistical distribution of successful solution lengths.)",
+            "이러한 패턴을 메타-인지적 안내로 활용하여 모델의 추론 맥락 내에 직접 포함시킴(The second stage leverages these patterns as meta-cognitive guidance, embedding them directly within the model's reasoning context to ensure inference-time flexibility.)"
+        ],
+        "conclusion": "LAPO는 토큰 사용량을 최대 40.9% 줄이면서 정확도를 2.3% 향상시켰으며, 문제의 복잡도에 따라 계산 자원을 할당하는 능력을 개발하도록 도와준다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.18634",
+            "authors": [
+                {
+                    "_id": "6882f472846d2e78b7548a58",
+                    "name": "Junfei Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a59",
+                    "name": "Ceyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5a",
+                    "name": "Lvmin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5b",
+                    "name": "Shengqu Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5c",
+                    "name": "Yang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5d",
+                    "name": "Yuwei Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5e",
+                    "name": "Gordon Wetzstein",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a5f",
+                    "name": "Maneesh Agrawala",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a60",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "6882f472846d2e78b7548a61",
+                    "name": "Lu Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-24T17:59:56.000Z",
+            "submittedOnDailyAt": "2025-07-25T01:35:44.053Z",
+            "title": "Captain Cinema: Towards Short Movie Generation",
+            "submittedOnDailyBy": {
+                "_id": "63468720dd6d90d82ccf3450",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63468720dd6d90d82ccf3450/tVBFlmZNz8FRMkOrDaDID.jpeg",
+                "isPro": false,
+                "fullname": "YSH",
+                "user": "BestWishYsh",
+                "type": "user"
+            },
+            "summary": "We present Captain Cinema, a generation framework for short movie generation.\nGiven a detailed textual description of a movie storyline, our approach firstly\ngenerates a sequence of keyframes that outline the entire narrative, which\nensures long-range coherence in both the storyline and visual appearance (e.g.,\nscenes and characters). We refer to this step as top-down keyframe planning.\nThese keyframes then serve as conditioning signals for a video synthesis model,\nwhich supports long context learning, to produce the spatio-temporal dynamics\nbetween them. This step is referred to as bottom-up video synthesis. To support\nstable and efficient generation of multi-scene long narrative cinematic works,\nwe introduce an interleaved training strategy for Multimodal Diffusion\nTransformers (MM-DiT), specifically adapted for long-context video data. Our\nmodel is trained on a specially curated cinematic dataset consisting of\ninterleaved data pairs. Our experiments demonstrate that Captain Cinema\nperforms favorably in the automated creation of visually coherent and narrative\nconsistent short movies in high quality and efficiency. Project page:\nhttps://thecinema.ai",
+            "upvotes": 16,
+            "discussionId": "6882f473846d2e78b7548a62",
+            "projectPage": "https://thecinema.ai/",
+            "ai_summary": "Captain Cinema generates high-quality short movies from textual descriptions using top-down keyframe planning and bottom-up video synthesis with interleaved training of Multimodal Diffusion Transformers.",
+            "ai_keywords": [
+                "top-down keyframe planning",
+                "bottom-up video synthesis",
+                "Multimodal Diffusion Transformers",
+                "MM-DiT",
+                "long-context learning",
+                "interleaved training strategy",
+                "cinematic dataset",
+                "visually coherent",
+                "narrative consistent"
+            ]
+        },
+        "translation_title": "Captain Cinema: 짧은 영화 생성을 위한 연구",
+        "purpose": "자세한 텍스트 설명을 바탕으로 시나리오에 맞는 짧은 영화를 자동 생성하기 위한 프레임워크 개발",
+        "method": [
+            "텍스트 설명에 따라 전체 이야기를 개략적으로 보여주는 키프레임 시퀀스를 생성함(our approach firstly generates a sequence of keyframes that outline the entire narrative)",
+            "이 키프레임을 비디오 합성 모델의 조건 신호로 사용하여 장면 간의 시공간적 동역학을 생성함(these keyframes then serve as conditioning signals for a video synthesis model)",
+            "다양한 장면을 포함한 긴 내러티브를 안정적이고 효율적으로 생성하기 위해 Multimodal Diffusion Transformers를 위한 훈련 전략을 도입함(we introduce an interleaved training strategy for Multimodal Diffusion Transformers (MM-DiT))"
+        ],
+        "conclusion": "Captain Cinema는 시각적으로 일관되고 내러티브가 일치하는 고품질 짧은 영화를 효율적으로 생성하는 데 좋은 성능을 보임.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    }
+]
