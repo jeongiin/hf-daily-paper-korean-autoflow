@@ -1,0 +1,622 @@
+[
+    {
+        "paper": {
+            "id": "2507.19849",
+            "authors": [
+                {
+                    "_id": "688836e8af872d625c10c60d",
+                    "user": {
+                        "_id": "61cd4b833dd34ba1985e0753",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                        "isPro": false,
+                        "fullname": "KABI",
+                        "user": "dongguanting",
+                        "type": "user"
+                    },
+                    "name": "Guanting Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T12:51:05.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c60e",
+                    "name": "Hangyu Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c60f",
+                    "name": "Kai Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c610",
+                    "name": "Licheng Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c611",
+                    "name": "Yifei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c612",
+                    "name": "Zhongyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c613",
+                    "name": "Zhongxia Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c614",
+                    "name": "Jiazhen Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c615",
+                    "name": "Huiyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c616",
+                    "name": "Fuzheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c617",
+                    "name": "Guorui Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c618",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c619",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "688836e8af872d625c10c61a",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-26T07:53:11.000Z",
+            "submittedOnDailyAt": "2025-07-29T01:41:53.469Z",
+            "title": "Agentic Reinforced Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "61cd4b833dd34ba1985e0753",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                "isPro": false,
+                "fullname": "KABI",
+                "user": "dongguanting",
+                "type": "user"
+            },
+            "summary": "Large-scale reinforcement learning with verifiable rewards (RLVR) has\ndemonstrated its effectiveness in harnessing the potential of large language\nmodels (LLMs) for single-turn reasoning tasks. In realistic reasoning\nscenarios, LLMs can often utilize external tools to assist in task-solving\nprocesses. However, current RL algorithms inadequately balance the models'\nintrinsic long-horizon reasoning capabilities and their proficiency in\nmulti-turn tool interactions. To bridge this gap, we propose Agentic Reinforced\nPolicy Optimization (ARPO), a novel agentic RL algorithm tailored for training\nmulti-turn LLM-based agents. Through preliminary experiments, we observe that\nLLMs tend to exhibit highly uncertain behavior, characterized by an increase in\nthe entropy distribution of generated tokens, immediately following\ninteractions with external tools. Motivated by this observation, ARPO\nincorporates an entropy-based adaptive rollout mechanism, dynamically balancing\nglobal trajectory sampling and step-level sampling, thereby promoting\nexploration at steps with high uncertainty after tool usage. By integrating an\nadvantage attribution estimation, ARPO enables LLMs to internalize advantage\ndifferences in stepwise tool-use interactions. Our experiments across 13\nchallenging benchmarks in computational reasoning, knowledge reasoning, and\ndeep search domains demonstrate ARPO's superiority over trajectory-level RL\nalgorithms. Remarkably, ARPO achieves improved performance using only half of\nthe tool-use budget required by existing methods, offering a scalable solution\nfor aligning LLM-based agents with real-time dynamic environments. Our code and\ndatasets are released at https://github.com/dongguanting/ARPO",
+            "upvotes": 63,
+            "discussionId": "688836e9af872d625c10c61b",
+            "projectPage": "https://github.com/dongguanting/ARPO",
+            "githubRepo": "https://github.com/dongguanting/ARPO",
+            "ai_summary": "Agentic Reinforced Policy Optimization (ARPO) is a novel RL algorithm that enhances multi-turn LLM-based agents by adaptive uncertainty management and advantage attribution, outperforming trajectory-level RL algorithms with reduced resource usage.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "verifiable rewards",
+                "LLMs",
+                "agentic RL",
+                "Agentic Reinforced Policy Optimization",
+                "entropy-based adaptive rollout mechanism",
+                "advantage attribution estimation",
+                "computational reasoning",
+                "knowledge reasoning",
+                "deep search domains",
+                "global trajectory sampling",
+                "step-level sampling",
+                "trajectory-level RL algorithms"
+            ],
+            "githubStars": 97
+        },
+        "translation_title": "Agentic Reinforced Policy Optimization",
+        "purpose": "다중 턴 LLM 기반 에이전트를 훈련하기 위한 새로운 RL 알고리즘 개발",
+        "method": [
+            "Agentic Reinforced Policy Optimization(ARPO)이라는 새로운 에이전틱 RL 알고리즘을 제안함(To bridge this gap, we propose Agentic Reinforced Policy Optimization (ARPO), a novel agentic RL algorithm tailored for training multi-turn LLM-based agents.)",
+            "상대적으로 불확실한 행동을 관찰하고 이를 바탕으로 엔트로피 기반 적응 롤아웃 메커니즘을 통합하여 불확실성이 높은 단계에서 탐험을 촉진함(Motivated by this observation, ARPO incorporates an entropy-based adaptive rollout mechanism, dynamically balancing global trajectory sampling and step-level sampling, thereby promoting exploration at steps with high uncertainty after tool usage.)",
+            "LLM의 도구 사용 상호작용에서 이점 차이를 내부화할 수 있도록 Advantage Attribution Estimation을 통합함(By integrating an advantage attribution estimation, ARPO enables LLMs to internalize advantage differences in stepwise tool-use interactions.)"
+        ],
+        "conclusion": "ARPO는 기존 방법이 요구하는 도구 사용 예산의 절반만으로도 향상된 성능을 달성하며, LLM 기반 에이전트를 실시간 동적 환경에 맞추는 확장 가능한 솔루션을 제공함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.20939",
+            "authors": [
+                {
+                    "_id": "68882c7eaf872d625c10c5c0",
+                    "name": "Yuying Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c1",
+                    "name": "Yixiao Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c2",
+                    "name": "Chen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c3",
+                    "name": "Teng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c4",
+                    "name": "Junfu Pu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c5",
+                    "name": "Yizhuo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c6",
+                    "name": "Lu Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c7",
+                    "name": "Jin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c8",
+                    "name": "Lisheng Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5c9",
+                    "name": "Xinyu Zuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5ca",
+                    "name": "Jinwen Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5cb",
+                    "name": "Weibo Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5cc",
+                    "name": "Zexuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5cd",
+                    "name": "Xiaojing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5ce",
+                    "name": "Yangyu Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5cf",
+                    "name": "Han Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5d0",
+                    "name": "Di Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882c7eaf872d625c10c5d1",
+                    "name": "Ying Shan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-28T15:52:36.000Z",
+            "submittedOnDailyAt": "2025-07-29T00:45:07.316Z",
+            "title": "ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World\n  Shorts",
+            "submittedOnDailyBy": {
+                "_id": "6455cc8f654d8bccae50e4d4",
+                "avatarUrl": "/avatars/506a9992e5bf52e06d37cc22e4b307c0.svg",
+                "isPro": false,
+                "fullname": "Yuying Ge",
+                "user": "tttoaster",
+                "type": "user"
+            },
+            "summary": "Real-world user-generated short videos, especially those distributed on\nplatforms such as WeChat Channel and TikTok, dominate the mobile internet.\nHowever, current large multimodal models lack essential temporally-structured,\ndetailed, and in-depth video comprehension capabilities, which are the\ncornerstone of effective video search and recommendation, as well as emerging\nvideo applications. Understanding real-world shorts is actually challenging due\nto their complex visual elements, high information density in both visuals and\naudio, and fast pacing that focuses on emotional expression and viewpoint\ndelivery. This requires advanced reasoning to effectively integrate multimodal\ninformation, including visual, audio, and text. In this work, we introduce\nARC-Hunyuan-Video, a multimodal model that processes visual, audio, and textual\nsignals from raw video inputs end-to-end for structured comprehension. The\nmodel is capable of multi-granularity timestamped video captioning and\nsummarization, open-ended video question answering, temporal video grounding,\nand video reasoning. Leveraging high-quality data from an automated annotation\npipeline, our compact 7B-parameter model is trained through a comprehensive\nregimen: pre-training, instruction fine-tuning, cold start, reinforcement\nlearning (RL) post-training, and final instruction fine-tuning. Quantitative\nevaluations on our introduced benchmark ShortVid-Bench and qualitative\ncomparisons demonstrate its strong performance in real-world video\ncomprehension, and it supports zero-shot or fine-tuning with a few samples for\ndiverse downstream applications. The real-world production deployment of our\nmodel has yielded tangible and measurable improvements in user engagement and\nsatisfaction, a success supported by its remarkable efficiency, with stress\ntests indicating an inference time of just 10 seconds for a one-minute video on\nH20 GPU.",
+            "upvotes": 44,
+            "discussionId": "68882c7eaf872d625c10c5d2",
+            "projectPage": "https://tencentarc.github.io/posts/arc-video-announcement/",
+            "githubRepo": "https://github.com/TencentARC/ARC-Hunyuan-Video-7B",
+            "ai_summary": "A multimodal model that processes visual, audio, and textual signals for structured comprehension of real-world short videos improves video search, recommendation, and engagement.",
+            "ai_keywords": [
+                "multimodal model",
+                "timestamped video captioning",
+                "summarization",
+                "video question answering",
+                "temporal video grounding",
+                "video reasoning",
+                "instruction fine-tuning",
+                "reinforcement learning",
+                "ShortVid-Bench",
+                "zero-shot learning",
+                "H20 GPU"
+            ],
+            "githubStars": 67
+        },
+        "translation_title": "ARC-Hunyuan-Video-7B: 현실 세계의 구조적 비디오 이해",
+        "purpose": "사용자 생성 짧은 비디오에 대한 효과적인 검색 및 추천을 위한 고급 비디오 이해 능력 향상",
+        "method": [
+            "ARC-Hunyuan-Video라는 멀티모달 모델을 도입하여 비주얼, 오디오, 텍스트 신호를 원시 비디오 입력에서 종합적으로 처리하도록 함(This work introduces ARC-Hunyuan-Video, a multimodal model that processes visual, audio, and textual signals from raw video inputs end-to-end for structured comprehension.)",
+            "고품질 데이터를 활용하고 7B 파라미터 모델을 다양한 훈련 과정을 통해 학습시킴(Leveraging high-quality data from an automated annotation pipeline, our compact 7B-parameter model is trained through a comprehensive regimen: pre-training, instruction fine-tuning, cold start, reinforcement learning (RL) post-training, and final instruction fine-tuning.)",
+            "짧은 비디오에 대한 정량적 및 정성적 평가를 통해 모델의 강력한 성능을 입증함(Quantitative evaluations on our introduced benchmark ShortVid-Bench and qualitative comparisons demonstrate its strong performance in real-world video comprehension.)"
+        ],
+        "conclusion": "모델은 사용자 참여 및 만족도를 개선시켰으며, 1분 비디오에 대한 추론 시간이 10초에 불과한 효율성을 보여줌.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.21049",
+            "authors": [
+                {
+                    "_id": "68884427af872d625c10c66b",
+                    "user": {
+                        "_id": "6594d390674349122ce6f368",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6594d390674349122ce6f368/KdWz6lZyGYQpjAgBDeiC1.jpeg",
+                        "isPro": false,
+                        "fullname": "Zedong Wang (Jacky)",
+                        "user": "ZedongWangAI",
+                        "type": "user"
+                    },
+                    "name": "Zedong Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T07:07:39.228Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68884427af872d625c10c66c",
+                    "user": {
+                        "_id": "640f7083208821a59b74c757",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678735253848-640f7083208821a59b74c757.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyuan Li",
+                        "user": "Lupin1998",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T07:07:42.285Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68884427af872d625c10c66d",
+                    "name": "Dan Xu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-28T17:59:28.000Z",
+            "submittedOnDailyAt": "2025-07-29T02:28:08.749Z",
+            "title": "Rep-MTL: Unleashing the Power of Representation-level Task Saliency for\n  Multi-Task Learning",
+            "submittedOnDailyBy": {
+                "_id": "6594d390674349122ce6f368",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6594d390674349122ce6f368/KdWz6lZyGYQpjAgBDeiC1.jpeg",
+                "isPro": false,
+                "fullname": "Zedong Wang (Jacky)",
+                "user": "ZedongWangAI",
+                "type": "user"
+            },
+            "summary": "Despite the promise of Multi-Task Learning in leveraging complementary\nknowledge across tasks, existing multi-task optimization (MTO) techniques\nremain fixated on resolving conflicts via optimizer-centric loss scaling and\ngradient manipulation strategies, yet fail to deliver consistent gains. In this\npaper, we argue that the shared representation space, where task interactions\nnaturally occur, offers rich information and potential for operations\ncomplementary to existing optimizers, especially for facilitating the\ninter-task complementarity, which is rarely explored in MTO. This intuition\nleads to Rep-MTL, which exploits the representation-level task saliency to\nquantify interactions between task-specific optimization and shared\nrepresentation learning. By steering these saliencies through entropy-based\npenalization and sample-wise cross-task alignment, Rep-MTL aims to mitigate\nnegative transfer by maintaining the effective training of individual tasks\ninstead pure conflict-solving, while explicitly promoting complementary\ninformation sharing. Experiments are conducted on four challenging MTL\nbenchmarks covering both task-shift and domain-shift scenarios. The results\nshow that Rep-MTL, even paired with the basic equal weighting policy, achieves\ncompetitive performance gains with favorable efficiency. Beyond standard\nperformance metrics, Power Law exponent analysis demonstrates Rep-MTL's\nefficacy in balancing task-specific learning and cross-task sharing. The\nproject page is available at HERE.",
+            "upvotes": 28,
+            "discussionId": "68884427af872d625c10c66e",
+            "projectPage": "https://jacky1128.github.io/RepMTL/",
+            "githubRepo": "https://github.com/Jacky1128/Rep-MTL",
+            "ai_summary": "Rep-MTL optimizes multi-task learning by leveraging task saliency in shared representations to promote complementarity and reduce negative transfer.",
+            "ai_keywords": [
+                "Multi-Task Learning",
+                "MTO",
+                "shared representation space",
+                "task-specific optimization",
+                "entropy-based penalization",
+                "sample-wise cross-task alignment",
+                "negative transfer",
+                "task-shift",
+                "domain-shift",
+                "Power Law exponent analysis"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "Rep-MTL: 다중 과제 학습을 위한 표현 수준의 과제 중요성 발휘",
+        "purpose": "다중 과제 학습에서 과제 간 상호작용을 활용하여 기존의 최적화 기법의 한계를 극복하고자 함",
+        "method": [
+            "다중 과제 최적화의 한계점을 지적하고, 과제 간 상호작용 정보에 기초하여 Rep-MTL을 제안함(This intuition leads to Rep-MTL, which exploits the representation-level task saliency to quantify interactions between task-specific optimization and shared representation learning.)",
+            "엔트로피 기반 벌점과 샘플-별 교차 과제 정렬을 통해 과제 중요성을 조정함(By steering these saliencies through entropy-based penalization and sample-wise cross-task alignment, Rep-MTL aims to mitigate negative transfer)."
+        ],
+        "conclusion": "Rep-MTL은 과제 간 정보 공유를 촉진하며, 기존 접근 방법에 비해 더 나은 성과를 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Classification"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.20984",
+            "authors": [
+                {
+                    "_id": "68883e4aaf872d625c10c63f",
+                    "user": {
+                        "_id": "642924f916d4d8293c93af08",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642924f916d4d8293c93af08/Olp4zFPgGu2E6mFFPXfQO.jpeg",
+                        "isPro": false,
+                        "fullname": "Yixin Song",
+                        "user": "yixinsong",
+                        "type": "user"
+                    },
+                    "name": "Yixin Song",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T07:07:50.992Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c640",
+                    "name": "Zhenliang Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c641",
+                    "name": "Dongliang Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c642",
+                    "user": {
+                        "_id": "631df1a5e207d8fe9563c9fb",
+                        "avatarUrl": "/avatars/d4f13755944f24a9c7aff25b97565325.svg",
+                        "isPro": false,
+                        "fullname": "Feiyang",
+                        "user": "smallscientist1",
+                        "type": "user"
+                    },
+                    "name": "Feiyang Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T12:51:01.127Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c643",
+                    "name": "Jianxiang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c644",
+                    "user": {
+                        "_id": "666a8735f5d8ceba613494b9",
+                        "avatarUrl": "/avatars/3feec27d0b041d28af0fcc3426d1bd82.svg",
+                        "isPro": false,
+                        "fullname": "Junchen",
+                        "user": "Sorrymaker2024",
+                        "type": "user"
+                    },
+                    "name": "Junchen Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T07:07:44.672Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c645",
+                    "name": "Hangyu Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c646",
+                    "user": {
+                        "_id": "6709d31dbb2498474f4b11ad",
+                        "avatarUrl": "/avatars/e507fb237ed9f0b098e494e75127988e.svg",
+                        "isPro": false,
+                        "fullname": "Guangshuo Qin",
+                        "user": "qsstcl",
+                        "type": "user"
+                    },
+                    "name": "Guangshuo Qin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-29T07:07:53.325Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c647",
+                    "name": "Chengrong Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c648",
+                    "name": "Bo Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c649",
+                    "name": "Longyu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c64a",
+                    "name": "Xinrui Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c64b",
+                    "name": "Zeyu Mi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68883e4aaf872d625c10c64c",
+                    "name": "Haibo Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-28T16:45:14.000Z",
+            "submittedOnDailyAt": "2025-07-29T01:52:55.485Z",
+            "title": "SmallThinker: A Family of Efficient Large Language Models Natively\n  Trained for Local Deployment",
+            "submittedOnDailyBy": {
+                "_id": "642924f916d4d8293c93af08",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642924f916d4d8293c93af08/Olp4zFPgGu2E6mFFPXfQO.jpeg",
+                "isPro": false,
+                "fullname": "Yixin Song",
+                "user": "yixinsong",
+                "type": "user"
+            },
+            "summary": "While frontier large language models (LLMs) continue to push capability\nboundaries, their deployment remains confined to GPU-powered cloud\ninfrastructure. We challenge this paradigm with SmallThinker, a family of LLMs\nnatively designed - not adapted - for the unique constraints of local devices:\nweak computational power, limited memory, and slow storage. Unlike traditional\napproaches that mainly compress existing models built for clouds, we architect\nSmallThinker from the ground up to thrive within these limitations. Our\ninnovation lies in a deployment-aware architecture that transforms constraints\ninto design principles. First, We introduce a two-level sparse structure\ncombining fine-grained Mixture-of-Experts (MoE) with sparse feed-forward\nnetworks, drastically reducing computational demands without sacrificing model\ncapacity. Second, to conquer the I/O bottleneck of slow storage, we design a\npre-attention router that enables our co-designed inference engine to prefetch\nexpert parameters from storage while computing attention, effectively hiding\nstorage latency that would otherwise cripple on-device inference. Third, for\nmemory efficiency, we utilize NoPE-RoPE hybrid sparse attention mechanism to\nslash KV cache requirements. We release SmallThinker-4B-A0.6B and\nSmallThinker-21B-A3B, which achieve state-of-the-art performance scores and\neven outperform larger LLMs. Remarkably, our co-designed system mostly\neliminates the need for expensive GPU hardware: with Q4_0 quantization, both\nmodels exceed 20 tokens/s on ordinary consumer CPUs, while consuming only 1GB\nand 8GB of memory respectively. SmallThinker is publicly available at\nhf.co/PowerInfer/SmallThinker-4BA0.6B-Instruct and\nhf.co/PowerInfer/SmallThinker-21BA3B-Instruct.",
+            "upvotes": 27,
+            "discussionId": "68883e4aaf872d625c10c64d",
+            "ai_summary": "SmallThinker, designed for localdevices with limited resources, uses advanced architectural innovations to achieve high performance without requiring GPU hardware.",
+            "ai_keywords": [
+                "Mixture-of-Experts",
+                "MoE",
+                "sparse feed-forward networks",
+                "pre-attention router",
+                "NoPE-RoPE hybrid sparse attention mechanism",
+                "KV cache"
+            ]
+        },
+        "translation_title": "SmallThinker: 로컬 배포를 위해 본래 설계된 효율적인 대형 언어 모델의 가족",
+        "purpose": "로컬 장치의 제한적 환경에서도 효율적으로 작동하는 대형 언어 모델을 개발하는 것",
+        "method": [
+            "전통적인 모델을 단순히 압축하는 것이 아닌, 로컬 장치의 제약에 맞춰 새롭게 설계함(Unlike traditional approaches that mainly compress existing models built for clouds, we architect SmallThinker from the ground up to thrive within these limitations.)",
+            "미세한 Mixture-of-Experts (MoE)와 희소 피드포워드 네트워크를 조합하여 계산 요구 사항을 대폭 줄임(we introduce a two-level sparse structure combining fine-grained Mixture-of-Experts (MoE) with sparse feed-forward networks, drastically reducing computational demands without sacrificing model capacity.)",
+            "사전 인식을 위한 라우터를 설계해 느린 저장소의 I/O 병목 문제를 해결함(we design a pre-attention router that enables our co-designed inference engine to prefetch expert parameters from storage while computing attention.)"
+        ],
+        "conclusion": "SmallThinker는 뛰어난 성능을 자랑하며, 일반 소비자 CPU에서 효율적으로 작동하면서도 비싼 GPU 하드웨어의 필요성을 대부분 제거함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.21045",
+            "authors": [
+                {
+                    "_id": "68882eddaf872d625c10c5d4",
+                    "name": "Yukang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5d5",
+                    "name": "Jiahao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5d6",
+                    "name": "Zhisheng Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5d7",
+                    "name": "Zhuowei Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5d8",
+                    "name": "Chengfeng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5d9",
+                    "name": "Fangzhou Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5da",
+                    "name": "Zhaoxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5db",
+                    "name": "Xin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5dc",
+                    "name": "Wenping Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5dd",
+                    "name": "Yuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68882eddaf872d625c10c5de",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-28T17:59:02.000Z",
+            "submittedOnDailyAt": "2025-07-29T00:46:42.998Z",
+            "title": "Reconstructing 4D Spatial Intelligence: A Survey",
+            "submittedOnDailyBy": {
+                "_id": "63a07c3ab5515dccd40fdb71",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a07c3ab5515dccd40fdb71/ly3pwhjWVge25LAeVgriV.png",
+                "isPro": false,
+                "fullname": "Yukang Cao",
+                "user": "yukangcao",
+                "type": "user"
+            },
+            "summary": "Reconstructing 4D spatial intelligence from visual observations has long been\na central yet challenging task in computer vision, with broad real-world\napplications. These range from entertainment domains like movies, where the\nfocus is often on reconstructing fundamental visual elements, to embodied AI,\nwhich emphasizes interaction modeling and physical realism. Fueled by rapid\nadvances in 3D representations and deep learning architectures, the field has\nevolved quickly, outpacing the scope of previous surveys. Additionally,\nexisting surveys rarely offer a comprehensive analysis of the hierarchical\nstructure of 4D scene reconstruction. To address this gap, we present a new\nperspective that organizes existing methods into five progressive levels of 4D\nspatial intelligence: (1) Level 1 -- reconstruction of low-level 3D attributes\n(e.g., depth, pose, and point maps); (2) Level 2 -- reconstruction of 3D scene\ncomponents (e.g., objects, humans, structures); (3) Level 3 -- reconstruction\nof 4D dynamic scenes; (4) Level 4 -- modeling of interactions among scene\ncomponents; and (5) Level 5 -- incorporation of physical laws and constraints.\nWe conclude the survey by discussing the key challenges at each level and\nhighlighting promising directions for advancing toward even richer levels of 4D\nspatial intelligence. To track ongoing developments, we maintain an up-to-date\nproject page: https://github.com/yukangcao/Awesome-4D-Spatial-Intelligence.",
+            "upvotes": 25,
+            "discussionId": "68882eddaf872d625c10c5df",
+            "githubRepo": "https://github.com/yukangcao/Awesome-4D-Spatial-Intelligence",
+            "ai_summary": "A survey organizes methods for reconstructing 4D spatial intelligence from visual observations into five progressive levels, offering analysis and identifying future research directions.",
+            "ai_keywords": [
+                "3D representations",
+                "deep learning architectures",
+                "4D scene reconstruction",
+                "3D attributes",
+                "depth",
+                "pose",
+                "point maps",
+                "3D scene components",
+                "objects",
+                "humans",
+                "structures",
+                "4D dynamic scenes",
+                "modeling of interactions",
+                "physical laws",
+                "constraints"
+            ],
+            "githubStars": 95
+        },
+        "translation_title": "4D 공간 지능 재구성: 문헌 조사",
+        "purpose": "4D 공간 지능 재구성을 위한 기존 방법들을 체계적으로 정리하여 발전 방향을 제시하는 것",
+        "method": [
+            "4D 공간 지능을 다섯 가지 단계로 나누어 정리함(we present a new perspective that organizes existing methods into five progressive levels of 4D spatial intelligence: ...)",
+            "각 단계에서 필요한 3D 속성, 장면 구성요소, 4D 동적 장면 등을 포함함(1. Level 1 -- reconstruction of low-level 3D attributes; 2. Level 2 -- reconstruction of 3D scene components; ...)",
+            "각 단계마다 주요 도전 과제를 논의하고 향후 발전 방향을 강조함(We conclude the survey by discussing the key challenges at each level and highlighting promising directions for advancing toward even richer levels of 4D spatial intelligence.)"
+        ],
+        "conclusion": "4D 공간 지능의 각 단계에서 겪는 도전 과제를 제시하고, 향후 발전 방향을 제안하였다.",
+        "keywords": [
+            "Computer Vision",
+            "3D Vision",
+            "Robotics"
+        ]
+    }
+]
