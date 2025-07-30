@@ -1,0 +1,406 @@
+[
+    {
+        "paper": {
+            "id": "2507.22058",
+            "authors": [
+                {
+                    "_id": "6889746631e1218a08928182",
+                    "name": "Zigang Geng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928183",
+                    "name": "Yibing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928184",
+                    "name": "Yeyao Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928185",
+                    "name": "Chen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928186",
+                    "name": "Yongming Rao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928187",
+                    "name": "Shuyang Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928188",
+                    "name": "Zhao Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a08928189",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a0892818a",
+                    "name": "Han Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a0892818b",
+                    "name": "Xiaosong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a0892818c",
+                    "name": "Linus",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a0892818d",
+                    "name": "Di Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889746631e1218a0892818e",
+                    "name": "Jie Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-29T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-07-30T01:00:10.830Z",
+            "title": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image\n  Generative Models Great Again",
+            "submittedOnDailyBy": {
+                "_id": "64e473f0b78bc92221ab1883",
+                "avatarUrl": "/avatars/85dd02c2b4879d7696b552f0f9dc2680.svg",
+                "isPro": true,
+                "fullname": "Xiaosong Zhang",
+                "user": "zhangxiaosong18",
+                "type": "user"
+            },
+            "summary": "Numerous efforts have been made to extend the ``next token prediction''\nparadigm to visual contents, aiming to create a unified approach for both image\ngeneration and understanding. Nevertheless, attempts to generate images through\nautoregressive modeling with discrete tokens have been plagued by issues such\nas low visual fidelity, distorted outputs, and failure to adhere to complex\ninstructions when rendering intricate details. These shortcomings are likely\nattributed to cumulative errors during autoregressive inference or information\nloss incurred during the discretization process. Probably due to this\nchallenge, recent research has increasingly shifted toward jointly training\nimage generation with diffusion objectives and language generation with\nautoregressive objectives, moving away from unified modeling approaches. In\nthis work, we demonstrate that reinforcement learning can effectively mitigate\nartifacts and largely enhance the generation quality of a discrete\nautoregressive modeling method, thereby enabling seamless integration of image\nand language generation. Our framework comprises a semantic image tokenizer, a\nunified autoregressive model for both language and images, and an offline\ndiffusion decoder for image generation, termed X-Omni. X-Omni achieves\nstate-of-the-art performance in image generation tasks using a 7B language\nmodel, producing images with high aesthetic quality while exhibiting strong\ncapabilities in following instructions and rendering long texts.",
+            "upvotes": 20,
+            "discussionId": "6889746631e1218a0892818f",
+            "projectPage": "https://x-omni-team.github.io",
+            "githubRepo": "https://github.com/X-Omni-Team/X-Omni",
+            "ai_summary": "Reinforcement learning enhances discrete autoregressive modeling for image and language generation, achieving high-quality image generation and instruction-following capabilities.",
+            "ai_keywords": [
+                "autoregressive modeling",
+                "discrete tokens",
+                "visual fidelity",
+                "distorted outputs",
+                "cumulative errors",
+                "information loss",
+                "diffusion objectives",
+                "language generation",
+                "reinforcement learning",
+                "semantic image tokenizer",
+                "unified autoregressive model",
+                "offline diffusion decoder",
+                "X-Omni",
+                "image generation",
+                "aesthetic quality",
+                "instruction-following"
+            ],
+            "githubStars": 103
+        },
+        "translation_title": "X-Omni: 강화 학습이 이산 자기 회귀 이미지 생성 모델을 다시 뛰어나게 만들다",
+        "purpose": "이산 자기 회귀 모델을 이용한 이미지 생성 품질을 향상시키고 언어 및 이미지 생성을 통합하기 위한 연구",
+        "method": [
+            "강화 학습을 통해 이미지 생성 품질을 향상시키고 생성 아티팩트를 완화시킴(we demonstrate that reinforcement learning can effectively mitigate artifacts and largely enhance the generation quality of a discrete autoregressive modeling method.)",
+            "의미적인 이미지 토크나이저와 언어 및 이미지를 위한 통합 자기 회귀 모델을 포함한 프레임워크를 개발함(Our framework comprises a semantic image tokenizer, a unified autoregressive model for both language and images.)",
+            "오프라인 확산 디코더를 통해 이미지 생성을 진행하며, 이를 X-Omni라는 이름으로 명명함(and an offline diffusion decoder for image generation, termed X-Omni.)"
+        ],
+        "conclusion": "X-Omni는 7B 언어 모델을 사용하여 이미지 생성 작업에서 최첨단 성능을 달성하며, 높은 미적 품질의 이미지를 생성하고 긴 텍스트를 잘 따르는 능력을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.14111",
+            "authors": [
+                {
+                    "_id": "687dcba52e8db0930be6f0fc",
+                    "user": {
+                        "_id": "6803ddda5c044d396d02f03a",
+                        "avatarUrl": "/avatars/ec583f6560d3d82fbd3bf95fb83c9356.svg",
+                        "isPro": false,
+                        "fullname": "Xiaoya Li",
+                        "user": "xxiaoyali",
+                        "type": "user"
+                    },
+                    "name": "Xiaoya Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-21T08:29:30.038Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dcba52e8db0930be6f0fd",
+                    "name": "Xiaofei Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dcba52e8db0930be6f0fe",
+                    "name": "Albert Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dcba52e8db0930be6f0ff",
+                    "name": "Jiwei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "687dcba52e8db0930be6f100",
+                    "name": "Chris Shum",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6803ddda5c044d396d02f03a/hoz_EU0XjHay8KuqruSsw.png"
+            ],
+            "publishedAt": "2025-07-18T17:43:56.000Z",
+            "submittedOnDailyAt": "2025-07-30T06:10:17.267Z",
+            "title": "CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement\n  Learning",
+            "submittedOnDailyBy": {
+                "_id": "6803ddda5c044d396d02f03a",
+                "avatarUrl": "/avatars/ec583f6560d3d82fbd3bf95fb83c9356.svg",
+                "isPro": false,
+                "fullname": "Xiaoya Li",
+                "user": "xxiaoyali",
+                "type": "user"
+            },
+            "summary": "The exponential growth in demand for GPU computing resources, driven by the\nrapid advancement of Large Language Models, has created an urgent need for\nautomated CUDA optimization strategies. While recent advances in LLMs show\npromise for code generation, current SOTA models (e.g. R1, o1) achieve low\nsuccess rates in improving CUDA speed. In this paper, we introduce CUDA-L1, an\nautomated reinforcement learning framework for CUDA optimization.\n  CUDA-L1 achieves performance improvements on the CUDA optimization task:\ntrained on NVIDIA A100, it delivers an average speedup of x17.7 across all 250\nCUDA kernels of KernelBench, with peak speedups reaching x449. Furthermore, the\nmodel also demonstrates excellent portability across GPU architectures,\nachieving average speedups of x17.8 on H100, x19.0 on RTX 3090, x16.5 on L40,\nx14.7 on H800, and x13.9 on H20 despite being optimized specifically for A100.\nBeyond these benchmark results, CUDA-L1 demonstrates several remarkable\nproperties: 1) Discovers a variety of CUDA optimization techniques and learns\nto combine them strategically to achieve optimal performance; 2) Uncovers\nfundamental principles of CUDA optimization; 3) Identifies non-obvious\nperformance bottlenecks and rejects seemingly beneficial optimizations that\nharm performance.\n  The capabilities of CUDA-L1 demonstrate that reinforcement learning can\ntransform an initially poor-performing LLM into an effective CUDA optimizer\nthrough speedup-based reward signals alone, without human expertise or domain\nknowledge. More importantly, the trained RL model extend the acquired reasoning\nabilities to new kernels. This paradigm opens possibilities for automated\noptimization of CUDA operations, and holds promise to substantially promote GPU\nefficiency and alleviate the rising pressure on GPU computing resources.",
+            "upvotes": 13,
+            "discussionId": "687dcba52e8db0930be6f101",
+            "ai_summary": "CUDA-L1, an automated reinforcement learning framework, significantly improves CUDA optimization across various GPU architectures, achieving substantial speedups without human expertise.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "CUDA optimization",
+                "CUDA-L1",
+                "KernelBench",
+                "GPU architectures",
+                "NVIDIA A100",
+                "H100",
+                "RTX 3090",
+                "L40",
+                "H800",
+                "H20",
+                "speedup",
+                "performance bottlenecks"
+            ]
+        },
+        "translation_title": "CUDA-L1: 대조 강화 학습을 통한 CUDA 최적화 향상",
+        "purpose": "GPU 컴퓨팅 자원에 대한 수요 증가에 따라 CUDA 최적화를 자동화하려는 연구",
+        "method": [
+            "CUDA 최적화를 위한 자동화된 강화 학습 프레임워크인 CUDA-L1을 소개함(To address the urgent need for automated CUDA optimization strategies, we introduce CUDA-L1, an automated reinforcement learning framework for CUDA optimization.)",
+            "NVIDIA A100에서 훈련되어 KernelBench의 250개 CUDA 커널에서 평균 x17.7의 속도 향상을 달성함(CUDA-L1 achieves performance improvements on the CUDA optimization task: trained on NVIDIA A100, it delivers an average speedup of x17.7 across all 250 CUDA kernels of KernelBench.)",
+            "CUDA 최적화에 관한 다양한 기술을 발견하고 이를 전략적으로 결합하여 최적 성능을 달성함(cuda-L1 discovers a variety of CUDA optimization techniques and learns to combine them strategically to achieve optimal performance.)"
+        ],
+        "conclusion": "CUDA-L1은 CUDA 작업의 자동 최적화 가능성을 열어주며, GPU 효율성을 크게 향상시키고 GPU 컴퓨팅 자원에 대한 압력을 완화할 가능성을 지님.",
+        "keywords": [
+            "Computer Vision",
+            "Robotics",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.21183",
+            "authors": [
+                {
+                    "_id": "68897f3631e1218a08928196",
+                    "user": {
+                        "_id": "64ff4b1a0e8369f6a8c47c7e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+                        "isPro": false,
+                        "fullname": "Eric Lan",
+                        "user": "Eric-Lan",
+                        "type": "user"
+                    },
+                    "name": "Guangchen Lan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-30T09:04:39.297Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a08928197",
+                    "name": "Sipeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a08928198",
+                    "name": "Tianle Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a08928199",
+                    "user": {
+                        "_id": "663187c1a2354b0f50ab10a0",
+                        "avatarUrl": "/avatars/bef0fd9d2afa6a4990bc32bd55cbe163.svg",
+                        "isPro": false,
+                        "fullname": "Yuwei Zhang",
+                        "user": "YWZBrandon",
+                        "type": "user"
+                    },
+                    "name": "Yuwei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-30T09:04:34.994Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819a",
+                    "name": "Daoan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819b",
+                    "name": "Xinpeng Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819c",
+                    "name": "Xiaoman Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819d",
+                    "name": "Hongming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819e",
+                    "name": "Dong-Jun Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68897f3631e1218a0892819f",
+                    "name": "Christopher G. Brinton",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-27T05:26:50.000Z",
+            "submittedOnDailyAt": "2025-07-30T00:41:59.921Z",
+            "title": "MaPPO: Maximum a Posteriori Preference Optimization with Prior Knowledge",
+            "submittedOnDailyBy": {
+                "_id": "64ff4b1a0e8369f6a8c47c7e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ff4b1a0e8369f6a8c47c7e/X8ocOagj89gexSa253q_8.png",
+                "isPro": false,
+                "fullname": "Eric Lan",
+                "user": "Eric-Lan",
+                "type": "user"
+            },
+            "summary": "As the era of large language models (LLMs) on behalf of users unfolds,\nPreference Optimization (PO) methods have become a central approach to aligning\nLLMs with human preferences and improving performance. We propose Maximum a\nPosteriori Preference Optimization (MaPPO), a framework for learning from\npreferences that explicitly incorporates prior reward knowledge into the\noptimization objective. While existing methods such as Direct Preference\nOptimization (DPO) and its variants treat preference learning as a Maximum\nLikelihood Estimation (MLE) problem, MaPPO extends this paradigm by integrating\nprior reward estimates into a principled Maximum a Posteriori (MaP) objective.\nThis not only generalizes DPO and its variants, but also enhances alignment by\nmitigating the oversimplified binary classification of responses. More\nimportantly, MaPPO introduces no additional hyperparameter, and supports\npreference optimization in both offline and online settings. In addition, MaPPO\ncan be used as a plugin with consistent improvement on DPO variants, including\nwidely used SimPO, IPO, and CPO. Extensive empirical evaluations of different\nmodel sizes and model series on three standard benchmarks, including MT-Bench,\nAlpacaEval 2.0, and Arena-Hard, demonstrate consistent improvements in\nalignment performance without sacrificing computational efficiency.",
+            "upvotes": 6,
+            "discussionId": "68897f3731e1218a089281a0",
+            "ai_summary": "MaPPO, a framework for preference optimization, enhances alignment of large language models with human preferences by integrating prior reward knowledge into a Maximum a Posteriori objective, improving performance across various benchmarks.",
+            "ai_keywords": [
+                "Maximum a Posteriori Preference Optimization",
+                "MaPPO",
+                "Preference Optimization",
+                "Direct Preference Optimization",
+                "DPO",
+                "Maximum Likelihood Estimation",
+                "MLE",
+                "Maximum a Posteriori",
+                "MaP",
+                "SimPO",
+                "IPO",
+                "CPO",
+                "MT-Bench",
+                "AlpacaEval 2.0",
+                "Arena-Hard"
+            ]
+        },
+        "translation_title": "MaPPO: 사전 지식을 활용한 최대 사후 선호 최적화",
+        "purpose": "대형 언어 모델과 인간의 선호를 정렬하고 성능을 향상시키기 위한 새로운 최적화 프레임워크 개발",
+        "method": [
+            "선호를 학습하기 위해 기존의 보상 지식을 최적화 목표에 명시적으로 통합함(we propose Maximum a Posteriori Preference Optimization (MaPPO), a framework for learning from preferences that explicitly incorporates prior reward knowledge into the optimization objective.)",
+            "기존 방법(DPO)에서 선호 학습을 최대 우도 추정(MLE) 문제로 간주하는 대신, MaPPO는 사전 보상 추정을 통합한 최대 사후(MaP) 목표로 확장함(This not only generalizes DPO and its variants, but also enhances alignment by mitigating the oversimplified binary classification of responses.)",
+            "MaPPO는 추가 하이퍼파라미터 없이 오프라인 및 온라인 환경 모두에서 선호 최적화를 지원함(MaPPO introduces no additional hyperparameter, and supports preference optimization in both offline and online settings.)"
+        ],
+        "conclusion": "MaPPO는 다양한 모델 크기와 모델 시리즈에 대해 일관된 정렬 성능 향상을 보여주며, 계산 효율성을 유지하면서 DPO 변형을 지속적으로 개선하는 데 유용함.",
+        "keywords": [
+            "Large Language Models",
+            "Preference Optimization",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.20240",
+            "authors": [
+                {
+                    "_id": "6889915e31e1218a089281c3",
+                    "name": "Risa Shinoda",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889915e31e1218a089281c4",
+                    "name": "Nakamasa Inoue",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889915e31e1218a089281c5",
+                    "name": "Iro Laina",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889915e31e1218a089281c6",
+                    "name": "Christian Rupprecht",
+                    "hidden": false
+                },
+                {
+                    "_id": "6889915e31e1218a089281c7",
+                    "name": "Hirokatsu Kataoka",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/651a7684a1a5e5d617e28f84/kRNGOtlujvozkvra7doeL.png"
+            ],
+            "publishedAt": "2025-07-27T11:48:03.000Z",
+            "submittedOnDailyAt": "2025-07-30T02:01:13.370Z",
+            "title": "AnimalClue: Recognizing Animals by their Traces",
+            "submittedOnDailyBy": {
+                "_id": "651a7684a1a5e5d617e28f84",
+                "avatarUrl": "/avatars/f484ae7c8d980818cd2ba3ffa682b781.svg",
+                "isPro": true,
+                "fullname": "Risa Shinoda",
+                "user": "risashinoda",
+                "type": "user"
+            },
+            "summary": "Wildlife observation plays an important role in biodiversity conservation,\nnecessitating robust methodologies for monitoring wildlife populations and\ninterspecies interactions. Recent advances in computer vision have\nsignificantly contributed to automating fundamental wildlife observation tasks,\nsuch as animal detection and species identification. However, accurately\nidentifying species from indirect evidence like footprints and feces remains\nrelatively underexplored, despite its importance in contributing to wildlife\nmonitoring. To bridge this gap, we introduce AnimalClue, the first large-scale\ndataset for species identification from images of indirect evidence. Our\ndataset consists of 159,605 bounding boxes encompassing five categories of\nindirect clues: footprints, feces, eggs, bones, and feathers. It covers 968\nspecies, 200 families, and 65 orders. Each image is annotated with\nspecies-level labels, bounding boxes or segmentation masks, and fine-grained\ntrait information, including activity patterns and habitat preferences. Unlike\nexisting datasets primarily focused on direct visual features (e.g., animal\nappearances), AnimalClue presents unique challenges for classification,\ndetection, and instance segmentation tasks due to the need for recognizing more\ndetailed and subtle visual features. In our experiments, we extensively\nevaluate representative vision models and identify key challenges in animal\nidentification from their traces. Our dataset and code are available at\nhttps://dahlian00.github.io/AnimalCluePage/",
+            "upvotes": 5,
+            "discussionId": "6889915f31e1218a089281c8",
+            "projectPage": "https://dahlian00.github.io/AnimalCluePage/",
+            "githubRepo": "https://github.com/dahlian00/AnimalClue",
+            "ai_summary": "AnimalClue is a large-scale dataset for species identification from indirect evidence images, addressing challenges in classification and segmentation tasks.",
+            "ai_keywords": [
+                "bounding boxes",
+                "segmentation masks",
+                "classification",
+                "detection",
+                "instance segmentation"
+            ],
+            "githubStars": 2
+        },
+        "translation_title": "AnimalClue: 발자국으로 동물 인식하기",
+        "purpose": "간접 증거를 통한 동물 종 식별을 위한 대규모 데이터셋 구축 및 연구",
+        "method": [
+            "159,605개의 경계 상자와 5가지 카테고리(발자국, 배설물, 알, 뼈, 깃털)의 이미지를 포함하는 데이터셋을 생성함(Our dataset consists of 159,605 bounding boxes encompassing five categories of indirect clues: footprints, feces, eggs, bones, and feathers.)",
+            "968 종, 200 가족, 65 목의 정보를 담고 있으며 각 이미지는 종 레이블 및 세부 속성 정보로 주석을 달음(It covers 968 species, 200 families, and 65 orders, and each image is annotated with species-level labels and fine-grained trait information.)",
+            "기존 데이터셋이 정적인 시각적 특징에 중점을 둔 것과 달리 AnimalClue는 더 미세한 시각적 특징을 인식해야 하며 고유한 도전을 제공함(Unlike existing datasets primarily focused on direct visual features, AnimalClue presents unique challenges for classification and detection tasks.)"
+        ],
+        "conclusion": "AnimalClue 데이터셋을 통해 동물 인식의 주요 도전 과제를 실험적으로 평가하였으며, 이 데이터셋은 종 식별 연구에 기여할 것으로 기대됨.",
+        "keywords": [
+            "Computer Vision",
+            "Image Classification",
+            "Image Segmentation"
+        ]
+    }
+]
