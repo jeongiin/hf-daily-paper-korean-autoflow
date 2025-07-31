@@ -1,0 +1,659 @@
+[
+    {
+        "paper": {
+            "id": "2507.22827",
+            "authors": [
+                {
+                    "_id": "688abfb98b724c8c7187dd3c",
+                    "name": "Yilei Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd3d",
+                    "name": "Yaozhi Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd3e",
+                    "name": "Yuxuan Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd3f",
+                    "user": {
+                        "_id": "62318c0386753f5f41d0e261",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62318c0386753f5f41d0e261/xO_5PvOf7lXhQPnQLcmnq.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiaming Han",
+                        "user": "csuhan",
+                        "type": "user"
+                    },
+                    "name": "Jiaming Han",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:15:11.876Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd40",
+                    "name": "Qunzhong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd41",
+                    "name": "Michael R. Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688abfb98b724c8c7187dd42",
+                    "name": "Xiangyu Yue",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-30T16:41:21.000Z",
+            "submittedOnDailyAt": "2025-07-31T01:37:19.365Z",
+            "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End\n  Automation via Modular Multimodal Agents",
+            "submittedOnDailyBy": {
+                "_id": "62318c0386753f5f41d0e261",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62318c0386753f5f41d0e261/xO_5PvOf7lXhQPnQLcmnq.jpeg",
+                "isPro": false,
+                "fullname": "Jiaming Han",
+                "user": "csuhan",
+                "type": "user"
+            },
+            "summary": "Automating the transformation of user interface (UI) designs into front-end\ncode holds significant promise for accelerating software development and\ndemocratizing design workflows. While recent large language models (LLMs) have\ndemonstrated progress in text-to-code generation, many existing approaches rely\nsolely on natural language prompts, limiting their effectiveness in capturing\nspatial layout and visual design intent. In contrast, UI development in\npractice is inherently multimodal, often starting from visual sketches or\nmockups. To address this gap, we introduce a modular multi-agent framework that\nperforms UI-to-code generation in three interpretable stages: grounding,\nplanning, and generation. The grounding agent uses a vision-language model to\ndetect and label UI components, the planning agent constructs a hierarchical\nlayout using front-end engineering priors, and the generation agent produces\nHTML/CSS code via adaptive prompt-based synthesis. This design improves\nrobustness, interpretability, and fidelity over end-to-end black-box methods.\nFurthermore, we extend the framework into a scalable data engine that\nautomatically produces large-scale image-code pairs. Using these synthetic\nexamples, we fine-tune and reinforce an open-source VLM, yielding notable gains\nin UI understanding and code quality. Extensive experiments demonstrate that\nour approach achieves state-of-the-art performance in layout accuracy,\nstructural coherence, and code correctness. Our code is made publicly available\nat https://github.com/leigest519/ScreenCoder.",
+            "upvotes": 55,
+            "discussionId": "688abfb98b724c8c7187dd43",
+            "projectPage": "https://huggingface.co/spaces/Jimmyzheng-10/ScreenCoder",
+            "githubRepo": "https://github.com/leigest519/ScreenCoder",
+            "ai_summary": "A modular multi-agent framework improves UI-to-code generation by integrating vision-language models, hierarchical layout planning, and adaptive prompt-based synthesis, achieving state-of-the-art performance.",
+            "ai_keywords": [
+                "vision-language model",
+                "hierarchical layout",
+                "adaptive prompt-based synthesis",
+                "UI-to-code generation",
+                "multimodal",
+                "grounding agent",
+                "planning agent",
+                "generation agent",
+                "data engine",
+                "fine-tuning",
+                "reinforcement"
+            ],
+            "githubStars": 84
+        },
+        "translation_title": "ScreenCoder: 프론트엔드 자동화를 위한 시각-코드 생성의 발전",
+        "purpose": "사용자 인터페이스(UI) 디자인을 프론트엔드 코드로 자동 변환하여 소프트웨어 개발 속도를 높이고 디자인 워크플로우를 민주화하는 것.",
+        "method": [
+            "모듈형 다중 에이전트 프레임워크를 도입하여 UI-코드 생성을 세 가지 해석 가능 단계인 기초 설정, 계획, 생성으로 수행함(To address this gap, we introduce a modular multi-agent framework that performs UI-to-code generation in three interpretable stages: grounding, planning, and generation.)",
+            "기초 설정 에이전트는 비전-언어 모델을 사용하여 UI 구성 요소를 감지하고 라벨을 붙임(The grounding agent uses a vision-language model to detect and label UI components.)",
+            "계획 에이전트는 프론트엔드 엔지니어링 우선순위를 사용하여 계층적 레이아웃을 구축하고, 생성 에이전트는 적응형 프롬프트 기반 합성을 통해 HTML/CSS 코드를 생성함(The planning agent constructs a hierarchical layout using front-end engineering priors, and the generation agent produces HTML/CSS code via adaptive prompt-based synthesis.)"
+        ],
+        "conclusion": "이 방법을 통해 레이아웃 정확성, 구조적 일관성, 코드 정확도에서 최첨단 성능을 달성함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.21493",
+            "authors": [
+                {
+                    "_id": "688ad3c18b724c8c7187dd67",
+                    "user": {
+                        "_id": "636d12455aaed143cd665607",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679399015950-636d12455aaed143cd665607.png",
+                        "isPro": false,
+                        "fullname": "ZLW",
+                        "user": "ZarkLngeW",
+                        "type": "user"
+                    },
+                    "name": "Longwen Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:15:02.207Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd68",
+                    "name": "Qixuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd69",
+                    "name": "Haoran Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd6a",
+                    "name": "Yinuo Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd6b",
+                    "name": "Wei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd6c",
+                    "name": "Lan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688ad3c18b724c8c7187dd6d",
+                    "name": "Jingyi Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-29T04:21:21.000Z",
+            "submittedOnDailyAt": "2025-07-31T00:56:30.360Z",
+            "title": "BANG: Dividing 3D Assets via Generative Exploded Dynamics",
+            "submittedOnDailyBy": {
+                "_id": "636d12455aaed143cd665607",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1679399015950-636d12455aaed143cd665607.png",
+                "isPro": false,
+                "fullname": "ZLW",
+                "user": "ZarkLngeW",
+                "type": "user"
+            },
+            "summary": "3D creation has always been a unique human strength, driven by our ability to\ndeconstruct and reassemble objects using our eyes, mind and hand. However,\ncurrent 3D design tools struggle to replicate this natural process, requiring\nconsiderable artistic expertise and manual labor. This paper introduces BANG, a\nnovel generative approach that bridges 3D generation and reasoning, allowing\nfor intuitive and flexible part-level decomposition of 3D objects. At the heart\nof BANG is \"Generative Exploded Dynamics\", which creates a smooth sequence of\nexploded states for an input geometry, progressively separating parts while\npreserving their geometric and semantic coherence.\n  BANG utilizes a pre-trained large-scale latent diffusion model, fine-tuned\nfor exploded dynamics with a lightweight exploded view adapter, allowing\nprecise control over the decomposition process. It also incorporates a temporal\nattention module to ensure smooth transitions and consistency across time. BANG\nenhances control with spatial prompts, such as bounding boxes and surface\nregions, enabling users to specify which parts to decompose and how. This\ninteraction can be extended with multimodal models like GPT-4, enabling\n2D-to-3D manipulations for more intuitive and creative workflows.\n  The capabilities of BANG extend to generating detailed part-level geometry,\nassociating parts with functional descriptions, and facilitating\ncomponent-aware 3D creation and manufacturing workflows. Additionally, BANG\noffers applications in 3D printing, where separable parts are generated for\neasy printing and reassembly. In essence, BANG enables seamless transformation\nfrom imaginative concepts to detailed 3D assets, offering a new perspective on\ncreation that resonates with human intuition.",
+            "upvotes": 39,
+            "discussionId": "688ad3c18b724c8c7187dd6e",
+            "projectPage": "https://sites.google.com/view/bang7355608",
+            "ai_summary": "BANG is a generative approach that uses latent diffusion models and temporal attention to enable intuitive part-level decomposition and manipulation of 3D objects, enhancing 3D creation workflows.",
+            "ai_keywords": [
+                "Generative Exploded Dynamics",
+                "latent diffusion model",
+                "exploded view adapter",
+                "temporal attention module",
+                "spatial prompts",
+                "multimodal models",
+                "GPT-4",
+                "2D-to-3D manipulations",
+                "component-aware 3D creation",
+                "3D printing"
+            ]
+        },
+        "translation_title": "BANG: 생성적 폭발 동적을 통한 3D 자산 분할",
+        "purpose": "3D 디자인의 직관적이고 유연한 부분 분해를 가능하게 하기 위한 새로운 접근법 구축",
+        "method": [
+            "BANG이라는 생생한 생성적 접근법을 도입하여 3D 생성과 추론을 연결함(This paper introduces BANG, a novel generative approach that bridges 3D generation and reasoning.)",
+            "사전 학습된 대규모 잠재적 확산 모델을 사용하여 폭발 동적을 위한 미세 조정을 수행함(BANG utilizes a pre-trained large-scale latent diffusion model, fine-tuned for exploded dynamics.)",
+            "사용자가 어떤 부분을 분해할지 선택할 수 있도록 공간적 프롬프트를 포함함(BANG enhances control with spatial prompts, such as bounding boxes and surface regions.)",
+            "2D에서 3D로의 변환을 위한 다중 모달 모델과의 상호 작용을 확장함(This interaction can be extended with multimodal models like GPT-4.)"
+        ],
+        "conclusion": "BANG은 상상력 있는 개념을 상세한 3D 자산으로 seamless하게 변환할 수 있는 새로운 관점을 제공함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.22448",
+            "authors": [
+                {
+                    "_id": "688adbb28b724c8c7187dd70",
+                    "user": {
+                        "_id": "6460c3811db65f878513bcaf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6460c3811db65f878513bcaf/CRdJ8lXixDku3k8Rm5Stn.jpeg",
+                        "isPro": false,
+                        "fullname": "Jingwei Zuo",
+                        "user": "JingweiZuo",
+                        "type": "user"
+                    },
+                    "name": "Jingwei Zuo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:55.282Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd71",
+                    "name": "Maksim Velikanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd72",
+                    "name": "Ilyas Chahed",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd73",
+                    "user": {
+                        "_id": "62441d1d9fdefb55a0b7d12c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1648631057413-noauth.png",
+                        "isPro": false,
+                        "fullname": "Younes B",
+                        "user": "ybelkada",
+                        "type": "user"
+                    },
+                    "name": "Younes Belkada",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:53.389Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd74",
+                    "name": "Dhia Eddine Rhayem",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd75",
+                    "name": "Guillaume Kunsch",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd76",
+                    "name": "Hakim Hacid",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd77",
+                    "name": "Hamza Yous",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd78",
+                    "user": {
+                        "_id": "664c3101d1ba9237d34ae972",
+                        "avatarUrl": "/avatars/a830c0ee4c95571419770f1ffb41ef11.svg",
+                        "isPro": false,
+                        "fullname": "BrahimFarhat",
+                        "user": "ifarhat1993",
+                        "type": "user"
+                    },
+                    "name": "Brahim Farhat",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:59.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd79",
+                    "name": "Ibrahim Khadraoui",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7a",
+                    "name": "Mugariya Farooq",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7b",
+                    "name": "Giulia Campesan",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7c",
+                    "name": "Ruxandra Cojocaru",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7d",
+                    "name": "Yasser Djilali",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7e",
+                    "name": "Shi Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd7f",
+                    "user": {
+                        "_id": "660bd11884eca4537c4aeedd",
+                        "avatarUrl": "/avatars/10fab6ec552f3d34ceac2bf01df32975.svg",
+                        "isPro": false,
+                        "fullname": "Iheb Chaabane",
+                        "user": "Iheb-Chaabane",
+                        "type": "user"
+                    },
+                    "name": "Iheb Chaabane",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:57.046Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd80",
+                    "name": "Puneesh Khanna",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd81",
+                    "name": "Mohamed El Amine Seddik",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd82",
+                    "name": "Ngoc Dung Huynh",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd83",
+                    "name": "Phuc Le Khac",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd84",
+                    "name": "Leen AlQadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd85",
+                    "name": "Billel Mokeddem",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd86",
+                    "name": "Mohamed Chami",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd87",
+                    "name": "Abdalgader Abubaker",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd88",
+                    "name": "Mikhail Lubinets",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd89",
+                    "name": "Kacper Piskorski",
+                    "hidden": false
+                },
+                {
+                    "_id": "688adbb28b724c8c7187dd8a",
+                    "name": "Slim Frikha",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6460c3811db65f878513bcaf/qdWzn2RRJ-qgCk6E3H4-u.png"
+            ],
+            "publishedAt": "2025-07-30T07:55:33.000Z",
+            "submittedOnDailyAt": "2025-07-31T01:30:54.022Z",
+            "title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency\n  and Performance",
+            "submittedOnDailyBy": {
+                "_id": "6460c3811db65f878513bcaf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6460c3811db65f878513bcaf/CRdJ8lXixDku3k8Rm5Stn.jpeg",
+                "isPro": false,
+                "fullname": "Jingwei Zuo",
+                "user": "JingweiZuo",
+                "type": "user"
+            },
+            "summary": "In this report, we introduce Falcon-H1, a new series of large language models\n(LLMs) featuring hybrid architecture designs optimized for both high\nperformance and efficiency across diverse use cases. Unlike earlier Falcon\nmodels built solely on Transformer or Mamba architectures, Falcon-H1 adopts a\nparallel hybrid approach that combines Transformer-based attention with State\nSpace Models (SSMs), known for superior long-context memory and computational\nefficiency. We systematically revisited model design, data strategy, and\ntraining dynamics, challenging conventional practices in the field. Falcon-H1\nis released in multiple configurations, including base and instruction-tuned\nvariants at 0.5B, 1.5B, 1.5B-deep, 3B, 7B, and 34B parameters. Quantized\ninstruction-tuned models are also available, totaling over 30 checkpoints on\nHugging Face Hub. Falcon-H1 models demonstrate state-of-the-art performance and\nexceptional parameter and training efficiency. The flagship Falcon-H1-34B\nmatches or outperforms models up to 70B scale, such as Qwen3-32B, Qwen2.5-72B,\nand Llama3.3-70B, while using fewer parameters and less data. Smaller models\nshow similar trends: the Falcon-H1-1.5B-Deep rivals current leading 7B-10B\nmodels, and Falcon-H1-0.5B performs comparably to typical 7B models from 2024.\nThese models excel across reasoning, mathematics, multilingual tasks,\ninstruction following, and scientific knowledge. With support for up to 256K\ncontext tokens and 18 languages, Falcon-H1 is suitable for a wide range of\napplications. All models are released under a permissive open-source license,\nunderscoring our commitment to accessible and impactful AI research.",
+            "upvotes": 36,
+            "discussionId": "688adbb28b724c8c7187dd8b",
+            "projectPage": "https://tiiuae.github.io/Falcon-H1/",
+            "githubRepo": "https://github.com/tiiuae/Falcon-H1/",
+            "ai_summary": "Falcon-H1, a new series of large language models with a hybrid architecture combining Transformer-based attention and State Space Models, achieves state-of-the-art performance and efficiency across various tasks and sizes.",
+            "ai_keywords": [
+                "large language models",
+                "hybrid architecture",
+                "Transformer-based attention",
+                "State Space Models",
+                "long-context memory",
+                "computational efficiency",
+                "model design",
+                "data strategy",
+                "training dynamics",
+                "instruction-tuned",
+                "quantized models",
+                "parameter efficiency",
+                "training efficiency",
+                "context tokens",
+                "multilingual tasks",
+                "instruction following",
+                "scientific knowledge",
+                "open-source license"
+            ],
+            "githubStars": 48
+        },
+        "translation_title": "Falcon-H1: 효율성과 성능을 재정의하는 하이브리드 헤드 언어 모델 시리즈",
+        "purpose": "효율성을 높이면서도 다양한 용도에 맞는 높은 성능의 대형 언어 모델(Large Language Models, LLMs)을 설계하고 출시하는 것.",
+        "method": [
+            "Transformer와 State Space Models (SSMs)를 결합한 병렬 하이브리드 접근법을 사용하여 모델 아키텍처를 최적화함(In this report, we introduce Falcon-H1, a new series of large language models featuring hybrid architecture designs optimized for both high performance and efficiency across diverse use cases.)",
+            "모델 설계, 데이터 전략, 훈련 동역학을 체계적으로 재검토하여 기존 관행에 도전함(We systematically revisited model design, data strategy, and training dynamics, challenging conventional practices in the field.)",
+            "여러 가지 구성으로 모델을 출시하고 각 모델의 성능과 훈련 효율성을 구체적으로 평가함(Falcon-H1 is released in multiple configurations, including base and instruction-tuned variants...)"
+        ],
+        "conclusion": "Falcon-H1 모델들은 최신 성능을 발휘하며, 효율적이고 적은 데이터로 훈련되었으며, 다양한 어플리케이션에 적합함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.22607",
+            "authors": [
+                {
+                    "_id": "688b17b78b724c8c7187de81",
+                    "name": "Ruifeng Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de82",
+                    "name": "Chenghao Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de83",
+                    "name": "Sicong Leng",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de84",
+                    "name": "Jianyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de85",
+                    "name": "Long Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de86",
+                    "name": "Weiwen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de87",
+                    "user": {
+                        "_id": "604f67ef0fe8ff3ec13d71ef",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/604f67ef0fe8ff3ec13d71ef/KhUwWvZ3OJ9nEee3B-SXO.png",
+                        "isPro": false,
+                        "fullname": "Hou Pong (Ken) Chan",
+                        "user": "kenchan0226",
+                        "type": "user"
+                    },
+                    "name": "Hou Pong Chan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:42.264Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de88",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de89",
+                    "name": "Tingyang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de8a",
+                    "name": "Zhongyu Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de8b",
+                    "user": {
+                        "_id": "64b7cd74ff6d81ae297feded",
+                        "avatarUrl": "/avatars/880fbc96cc093f5e901ce84f32a1d21d.svg",
+                        "isPro": false,
+                        "fullname": "ZHANG HAO",
+                        "user": "26hzhang",
+                        "type": "user"
+                    },
+                    "name": "Hao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:14:40.297Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "688b17b78b724c8c7187de8c",
+                    "name": "Yu Rong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-30T12:23:21.000Z",
+            "submittedOnDailyAt": "2025-07-31T05:46:56.595Z",
+            "title": "VL-Cogito: Progressive Curriculum Reinforcement Learning for Advanced\n  Multimodal Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "604f67ef0fe8ff3ec13d71ef",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/604f67ef0fe8ff3ec13d71ef/KhUwWvZ3OJ9nEee3B-SXO.png",
+                "isPro": false,
+                "fullname": "Hou Pong (Ken) Chan",
+                "user": "kenchan0226",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning has proven its effectiveness in enhancing the\nreasoning capabilities of large language models. Recent research efforts have\nprogressively extended this paradigm to multimodal reasoning tasks. Due to the\ninherent complexity and diversity of multimodal tasks, especially in semantic\ncontent and problem formulations, existing models often exhibit unstable\nperformance across various domains and difficulty levels. To address these\nlimitations, we propose VL-Cogito, an advanced multimodal reasoning model\ntrained via a novel multi-stage Progressive Curriculum Reinforcement Learning\n(PCuRL) framework. PCuRL systematically guides the model through tasks of\ngradually increasing difficulty, substantially improving its reasoning\nabilities across diverse multimodal contexts. The framework introduces two key\ninnovations: (1) an online difficulty soft weighting mechanism, dynamically\nadjusting training difficulty across successive RL training stages; and (2) a\ndynamic length reward mechanism, which encourages the model to adaptively\nregulate its reasoning path length according to task complexity, thus balancing\nreasoning efficiency with correctness. Experimental evaluations demonstrate\nthat VL-Cogito consistently matches or surpasses existing reasoning-oriented\nmodels across mainstream multimodal benchmarks spanning mathematics, science,\nlogic, and general understanding, validating the effectiveness of our approach.",
+            "upvotes": 25,
+            "discussionId": "688b17b88b724c8c7187de8d",
+            "ai_summary": "VL-Cogito, a multimodal reasoning model, uses a Progressive Curriculum Reinforcement Learning framework to improve performance across diverse tasks by dynamically adjusting difficulty and reasoning path length.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "multimodal reasoning",
+                "Progressive Curriculum Reinforcement Learning",
+                "PCuRL",
+                "online difficulty soft weighting",
+                "dynamic length reward mechanism"
+            ]
+        },
+        "translation_title": "VL-Cogito: 고급 다중 모달 추론을 위한 점진적 커리큘럼 강화 학습",
+        "purpose": "다중 모달 과제를 해결하고 모델의 추론 능력을 안정적으로 향상하기 위한 새로운 방법론 제안",
+        "method": [
+            "Progressive Curriculum Reinforcement Learning(PCuRL) 프레임워크를 도입하여 점진적으로 난이도를 높이는 방식으로 모델을 훈련함(To address these limitations, we propose VL-Cogito, an advanced multimodal reasoning model trained via a novel multi-stage Progressive Curriculum Reinforcement Learning (PCuRL) framework.)",
+            "온라인 난이도 소프트 가중치 메커니즘을 통해 훈련 난이도를 동적으로 조정함(The framework introduces two key innovations: (1) an online difficulty soft weighting mechanism, dynamically adjusting training difficulty across successive RL training stages.)",
+            "동적 길이 보상 메커니즘을 활용하여 모델이 작업 복잡도에 따라 추론 경로 길이를 조절하도록 유도함(and (2) a dynamic length reward mechanism, which encourages the model to adaptively regulate its reasoning path length according to task complexity, thus balancing reasoning efficiency with correctness.)"
+        ],
+        "conclusion": "VL-Cogito는 수학, 과학, 논리 및 일반 이해를 포함한 다양한 다중 모달 벤치마크에서 기존 모델을 지속적으로 초월하는 성과를 보여줌으로써 접근법의 효과를 입증함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.20976",
+            "authors": [
+                {
+                    "_id": "6888dca266e37b2a6b291f63",
+                    "user": {
+                        "_id": "6697d30fbfec78c1bf6a4962",
+                        "avatarUrl": "/avatars/17cfd7d7eb2b89b5051bd912e41e5a62.svg",
+                        "isPro": false,
+                        "fullname": "Xiao Fang",
+                        "user": "xiaofanghf",
+                        "type": "user"
+                    },
+                    "name": "Xiao Fang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-30T09:05:02.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f64",
+                    "user": {
+                        "_id": "65b53aa41e45f6ee8bc63e28",
+                        "avatarUrl": "/avatars/09ee1059cbb3e48f4fb30d84e8c4e809.svg",
+                        "isPro": false,
+                        "fullname": "Minhyek Jeon",
+                        "user": "Min0326",
+                        "type": "user"
+                    },
+                    "name": "Minhyek Jeon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-07-31T08:16:05.128Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f65",
+                    "name": "Zheyang Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f66",
+                    "name": "Stanislav Panev",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f67",
+                    "name": "Celso de Melo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f68",
+                    "name": "Shuowen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f69",
+                    "name": "Shayok Chakraborty",
+                    "hidden": false
+                },
+                {
+                    "_id": "6888dca266e37b2a6b291f6a",
+                    "name": "Fernando De la Torre",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-28T16:38:06.000Z",
+            "submittedOnDailyAt": "2025-07-31T02:46:45.983Z",
+            "title": "Adapting Vehicle Detectors for Aerial Imagery to Unseen Domains with\n  Weak Supervision",
+            "submittedOnDailyBy": {
+                "_id": "6697d30fbfec78c1bf6a4962",
+                "avatarUrl": "/avatars/17cfd7d7eb2b89b5051bd912e41e5a62.svg",
+                "isPro": false,
+                "fullname": "Xiao Fang",
+                "user": "xiaofanghf",
+                "type": "user"
+            },
+            "summary": "Detecting vehicles in aerial imagery is a critical task with applications in\ntraffic monitoring, urban planning, and defense intelligence. Deep learning\nmethods have provided state-of-the-art (SOTA) results for this application.\nHowever, a significant challenge arises when models trained on data from one\ngeographic region fail to generalize effectively to other areas. Variability in\nfactors such as environmental conditions, urban layouts, road networks, vehicle\ntypes, and image acquisition parameters (e.g., resolution, lighting, and angle)\nleads to domain shifts that degrade model performance. This paper proposes a\nnovel method that uses generative AI to synthesize high-quality aerial images\nand their labels, improving detector training through data augmentation. Our\nkey contribution is the development of a multi-stage, multi-modal knowledge\ntransfer framework utilizing fine-tuned latent diffusion models (LDMs) to\nmitigate the distribution gap between the source and target environments.\nExtensive experiments across diverse aerial imagery domains show consistent\nperformance improvements in AP50 over supervised learning on source domain\ndata, weakly supervised adaptation methods, unsupervised domain adaptation\nmethods, and open-set object detectors by 4-23%, 6-10%, 7-40%, and more than\n50%, respectively. Furthermore, we introduce two newly annotated aerial\ndatasets from New Zealand and Utah to support further research in this field.\nProject page is available at: https://humansensinglab.github.io/AGenDA",
+            "upvotes": 7,
+            "discussionId": "6888dca366e37b2a6b291f6b",
+            "projectPage": "https://humansensinglab.github.io/AGenDA",
+            "githubRepo": "https://github.com/humansensinglab/AGenDA",
+            "ai_summary": "A multi-stage, multi-modal knowledge transfer framework using fine-tuned latent diffusion models improves vehicle detection in aerial imagery across different domains.",
+            "ai_keywords": [
+                "latent diffusion models",
+                "data augmentation",
+                "domain adaptation",
+                "aerial imagery",
+                "vehicle detection",
+                "distribution gap",
+                "knowledge transfer",
+                "AP50",
+                "open-set object detectors"
+            ],
+            "githubStars": 3
+        },
+        "translation_title": "약한 감독하에 보지 못한 도메인을 위한 항공 이미지에서 차량 탐지기 조정",
+        "purpose": "항공 이미지에서 차량을 정확하게 탐지하는 모델의 성능을 개선하기 위한 방법을 제안함",
+        "method": [
+            "Generative AI를 활용하여 고품질 항공 이미지와 레이블을 합성하여 자료 보강을 통해 탐지기 학습을 개선함(Our key contribution is the development of a multi-stage, multi-modal knowledge transfer framework utilizing fine-tuned latent diffusion models (LDMs) to mitigate the distribution gap between the source and target environments.)",
+            "미세 조정된 LDM을 사용해 출발지와 목표 환경 간의 분포 차이를 완화함(Extensive experiments across diverse aerial imagery domains show consistent performance improvements in AP50 over supervised learning on source domain data.)"
+        ],
+        "conclusion": "우리의 방법을 통해 AP50 성능이 기존 방법들보다 4-50% 이상 향상되었음을 확인하고, 뉴질랜드와 유타에 대한 신규 주석 항공 데이터셋 두 개를 소개함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Video Understanding"
+        ]
+    }
+]
