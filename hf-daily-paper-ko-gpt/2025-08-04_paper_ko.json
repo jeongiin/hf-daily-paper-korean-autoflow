@@ -1,0 +1,394 @@
+[
+    {
+        "paper": {
+            "id": "2508.00819",
+            "authors": [
+                {
+                    "_id": "689020e10a411b3b8d28d67f",
+                    "name": "Jinsong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689020e10a411b3b8d28d680",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "689020e10a411b3b8d28d681",
+                    "name": "Yuhang Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689020e10a411b3b8d28d682",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689020e10a411b3b8d28d683",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689020e10a411b3b8d28d684",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-01T17:56:07.000Z",
+            "submittedOnDailyAt": "2025-08-04T01:25:12.035Z",
+            "title": "Beyond Fixed: Variable-Length Denoising for Diffusion Large Language\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "64b4eec4faa3181a5eab9c46",
+                "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                "isPro": true,
+                "fullname": "Jiaqi Wang",
+                "user": "myownskyW7",
+                "type": "user"
+            },
+            "summary": "Diffusion Large Language Models (DLLMs) are emerging as a powerful\nalternative to the dominant Autoregressive Large Language Models, offering\nefficient parallel generation and capable global context modeling. However, the\npractical application of DLLMs is hindered by a critical architectural\nconstraint: the need for a statically predefined generation length. This static\nlength allocation leads to a problematic trade-off: insufficient lengths\ncripple performance on complex tasks, while excessive lengths incur significant\ncomputational overhead and sometimes result in performance degradation. While\nthe inference framework is rigid, we observe that the model itself possesses\ninternal signals that correlate with the optimal response length for a given\ntask. To bridge this gap, we leverage these latent signals and introduce\nDAEDAL, a novel training-free denoising strategy that enables Dynamic Adaptive\nLength Expansion for Diffusion Large Language Models. DAEDAL operates in two\nphases: 1) Before the denoising process, DAEDAL starts from a short initial\nlength and iteratively expands it to a coarse task-appropriate length, guided\nby a sequence completion metric. 2) During the denoising process, DAEDAL\ndynamically intervenes by pinpointing and expanding insufficient generation\nregions through mask token insertion, ensuring the final output is fully\ndeveloped. Extensive experiments on DLLMs demonstrate that DAEDAL achieves\nperformance comparable, and in some cases superior, to meticulously tuned\nfixed-length baselines, while simultaneously enhancing computational efficiency\nby achieving a higher effective token ratio. By resolving the static length\nconstraint, DAEDAL unlocks new potential for DLLMs, bridging a critical gap\nwith their Autoregressive counterparts and paving the way for more efficient\nand capable generation.",
+            "upvotes": 32,
+            "discussionId": "689020e20a411b3b8d28d685",
+            "githubRepo": "https://github.com/Li-Jinsong/DAEDAL",
+            "ai_summary": "DAEDAL, a novel training-free denoising strategy, enables dynamic length adaptation in Diffusion Large Language Models, improving performance and computational efficiency.",
+            "ai_keywords": [
+                "Diffusion Large Language Models",
+                "DLLMs",
+                "Autoregressive Large Language Models",
+                "denoising strategy",
+                "Dynamic Adaptive Length Expansion",
+                "sequence completion metric",
+                "mask token insertion",
+                "effective token ratio"
+            ],
+            "githubStars": 43
+        },
+        "translation_title": "고정 길이를 넘어: 확산 대형 언어 모델을 위한 가변 길이 디노이징",
+        "purpose": "확산 대형 언어 모델(DLLMs)의 고정된 생성 길이 제약을 극복하여 더 효율적이고 유능한 생성을 가능하게 하고자 함.",
+        "method": [
+            "내부 신호를 활용하여 Dynamic Adaptive Length Expansion을 가능하게 하는 새로운 디노이징 전략인 DAEDAL을 제안함(we leverage these latent signals and introduce DAEDAL, a novel training-free denoising strategy that enables Dynamic Adaptive Length Expansion for Diffusion Large Language Models.)",
+            "디노이징이 시작되기 전에 짧은 초기 길이에서부터 시작하여 적합한 길이로 반복적으로 확장함(DAEDAL starts from a short initial length and iteratively expands it to a coarse task-appropriate length).",
+            "디노이징 과정 중에 불충분한 생성 영역을 발견하고 확장하여 최종 출력이 완전히 발전되도록 함(DAEDAL dynamically intervenes by pinpointing and expanding insufficient generation regions through mask token insertion.)"
+        ],
+        "conclusion": "DAEDAL은 고정 길이 기준 모델과 비교하여 동등하거나 더 나은 성능을 발휘하며, 계산 효율성을 높임으로써 DLLMs의 가능성을 확장함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.23268",
+            "authors": [
+                {
+                    "_id": "688c1ec68c434640078cc386",
+                    "name": "Shuai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c1ec68c434640078cc387",
+                    "name": "Ziteng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c1ec68c434640078cc388",
+                    "name": "Chenhui Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c1ec68c434640078cc389",
+                    "name": "Weilin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c1ec68c434640078cc38a",
+                    "name": "Limin Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-31T06:07:20.000Z",
+            "submittedOnDailyAt": "2025-08-04T00:45:14.702Z",
+            "title": "PixNerd: Pixel Neural Field Diffusion",
+            "submittedOnDailyBy": {
+                "_id": "66615c855fd9d736e670e0a9",
+                "avatarUrl": "/avatars/0ff3127b513552432a7c651e21d7f283.svg",
+                "isPro": false,
+                "fullname": "wangshuai",
+                "user": "wangsssssss",
+                "type": "user"
+            },
+            "summary": "The current success of diffusion transformers heavily depends on the\ncompressed latent space shaped by the pre-trained variational autoencoder(VAE).\nHowever, this two-stage training paradigm inevitably introduces accumulated\nerrors and decoding artifacts. To address the aforementioned problems,\nresearchers return to pixel space at the cost of complicated cascade pipelines\nand increased token complexity. In contrast to their efforts, we propose to\nmodel the patch-wise decoding with neural field and present a single-scale,\nsingle-stage, efficient, end-to-end solution, coined as pixel neural field\ndiffusion~(PixelNerd). Thanks to the efficient neural field representation in\nPixNerd, we directly achieved 2.15 FID on ImageNet 256times256 and 2.84 FID\non ImageNet 512times512 without any complex cascade pipeline or VAE. We also\nextend our PixNerd framework to text-to-image applications. Our PixNerd-XXL/16\nachieved a competitive 0.73 overall score on the GenEval benchmark and 80.9\noverall score on the DPG benchmark.",
+            "upvotes": 27,
+            "discussionId": "688c1ec68c434640078cc38b",
+            "projectPage": "https://huggingface.co/spaces/MCG-NJU/PixNerd",
+            "githubRepo": "https://github.com/MCG-NJU/PixNerd",
+            "ai_summary": "Pixel Neural Field Diffusion (PixNerd) achieves high-quality image generation in a single-scale, single-stage process without VAEs or complex pipelines, and extends to text-to-image applications with competitive performance.",
+            "ai_keywords": [
+                "diffusion transformers",
+                "compressed latent space",
+                "pre-trained variational autoencoder",
+                "pixel space",
+                "patch-wise decoding",
+                "neural field",
+                "single-scale",
+                "single-stage",
+                "end-to-end solution",
+                "pixel neural field diffusion",
+                "PixNerd",
+                "FID",
+                "ImageNet",
+                "text-to-image",
+                "GenEval benchmark",
+                "DPG benchmark"
+            ],
+            "githubStars": 28
+        },
+        "translation_title": "PixNerd: 픽셀 신경 필드 확산",
+        "purpose": "복잡한 파이프라인 없이 효율적으로 픽셀 공간에서 이미지를 생성하기 위한 새로운 방법 개발",
+        "method": [
+            "픽셀 신경 필드로 패치 단위 디코딩을 모델링함으로써 단일 단계의 효율적인 솔루션을 제안함(In contrast to their efforts, we propose to model the patch-wise decoding with neural field and present a single-scale, single-stage, efficient, end-to-end solution, coined as pixel neural field diffusion~(PixelNerd).)",
+            "PixNerd를 통해 ImageNet에서 256x256 해상도에서 2.15 FID, 512x512 해상도에서 2.84 FID를 도달함(Thanks to the efficient neural field representation in PixNerd, we directly achieved 2.15 FID on ImageNet 256times256 and 2.84 FID on ImageNet 512times512 without any complex cascade pipeline or VAE.)",
+            "텍스트-이미지 애플리케이션을 위한 PixNerd-XXL/16을 확장하여 GenEval 벤치마크에서 0.73 점을, DPG 벤치마크에서 80.9 점을 달성함(We also extend our PixNerd framework to text-to-image applications. Our PixNerd-XXL/16 achieved a competitive 0.73 overall score on the GenEval benchmark and 80.9 overall score on the DPG benchmark.)"
+        ],
+        "conclusion": "PixNerd는 복잡한 파이프라인 없이도 높은 품질의 이미지 생성을 가능하게 하며, 텍스트-이미지 작업에서 경쟁력 있는 성능을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.23361",
+            "authors": [
+                {
+                    "_id": "688c53f38c434640078cc47c",
+                    "name": "Silin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc47d",
+                    "name": "Shaoxin Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc47e",
+                    "name": "Xiaodong Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc47f",
+                    "name": "Yuling Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc480",
+                    "name": "Heng Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc481",
+                    "name": "Longfei Yun",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc482",
+                    "name": "Dong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc483",
+                    "name": "Weiguo Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc484",
+                    "name": "Lin Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "688c53f38c434640078cc485",
+                    "name": "Qianxiang Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-31T09:13:42.000Z",
+            "submittedOnDailyAt": "2025-08-04T01:12:58.702Z",
+            "title": "SWE-Exp: Experience-Driven Software Issue Resolution",
+            "submittedOnDailyBy": {
+                "_id": "645b0c3ec35da9c7afd95421",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+                "isPro": false,
+                "fullname": "Yuling",
+                "user": "YerbaPage",
+                "type": "user"
+            },
+            "summary": "Recent advances in large language model (LLM) agents have shown remarkable\nprogress in software issue resolution, leveraging advanced techniques such as\nmulti-agent collaboration and Monte Carlo Tree Search (MCTS). However, current\nagents act as memoryless explorers - treating each problem separately without\nretaining or reusing knowledge from previous repair experiences. This leads to\nredundant exploration of failed trajectories and missed chances to adapt\nsuccessful issue resolution methods to similar problems. To address this\nproblem, we introduce SWE-Exp, an experience - enhanced approach that distills\nconcise and actionable experience from prior agent trajectories, enabling\ncontinuous learning across issues. Our method introduces a multi-faceted\nexperience bank that captures both successful and failed repair attempts.\nSpecifically, it extracts reusable issue resolution knowledge at different\nlevels - from high-level problem comprehension to specific code changes.\nExperiments show that SWE-Exp achieves state-of-the-art resolution rate (41.6%\nPass@1) on SWE-bench-Verified under open-source agent frameworks. Our approach\nestablishes a new paradigm in which automated software engineering agents\nsystematically accumulate and leverage repair expertise, fundamentally shifting\nfrom trial-and-error exploration to strategic, experience-driven issue\nresolution.",
+            "upvotes": 6,
+            "discussionId": "688c53f38c434640078cc486",
+            "githubRepo": "https://github.com/YerbaPage/SWE-Exp",
+            "ai_summary": "SWE-Exp enhances software issue resolution by systematically accumulating and leveraging repair expertise from past agent experiences, improving resolution rates.",
+            "ai_keywords": [
+                "large language model (LLM)",
+                "multi-agent collaboration",
+                "Monte Carlo Tree Search (MCTS)",
+                "experience bank",
+                "issue resolution knowledge",
+                "SWE-bench-Verified",
+                "open-source agent frameworks"
+            ],
+            "githubStars": 7
+        },
+        "translation_title": "SWE-Exp: 경험 기반 소프트웨어 문제 해결",
+        "purpose": "소프트웨어 문제 해결에서의 경험을 활용해 지속적으로 학습할 수 있는 방법을 제시하기 위함",
+        "method": [
+            "기존 에이전트 경로에서 간결하고 실행 가능한 경험을 추출하기 위해 경험 기반 접근법인 SWE-Exp를 도입함(To address this problem, we introduce SWE-Exp, an experience-enhanced approach that distills concise and actionable experience from prior agent trajectories.)",
+            "성공적인 수리 시도와 실패한 수리 시도를 모두 기록하는 다면적 경험 은행을 생성함(Our method introduces a multi-faceted experience bank that captures both successful and failed repair attempts.)",
+            "재사용 가능한 문제 해결 지식을 다양한 수준에서 추출함(Specifically, it extracts reusable issue resolution knowledge at different levels - from high-level problem comprehension to specific code changes.)"
+        ],
+        "conclusion": "SWE-Exp는 기존 에이전트 프레임워크에서 41.6%의 최신 해결률을 기록하며, 자동화된 소프트웨어 엔지니어링 에이전트의 문제 해결 방법을 전략적이고 경험 기반으로 전환함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.00265",
+            "authors": [
+                {
+                    "_id": "6890159b0a411b3b8d28d650",
+                    "name": "Henghui Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890159b0a411b3b8d28d651",
+                    "name": "Song Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890159b0a411b3b8d28d652",
+                    "name": "Shuting He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890159b0a411b3b8d28d653",
+                    "name": "Chang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890159b0a411b3b8d28d654",
+                    "name": "Zuxuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890159b0a411b3b8d28d655",
+                    "name": "Yu-Gang Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-01T02:14:00.000Z",
+            "submittedOnDailyAt": "2025-08-04T00:37:52.118Z",
+            "title": "Multimodal Referring Segmentation: A Survey",
+            "submittedOnDailyBy": {
+                "_id": "67ff29ecbf6889a333c69c7a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/fYIJFtF0uciB-1wb0lmTY.png",
+                "isPro": false,
+                "fullname": "Henghui Ding",
+                "user": "HenghuiDing",
+                "type": "user"
+            },
+            "summary": "Multimodal referring segmentation aims to segment target objects in visual\nscenes, such as images, videos, and 3D scenes, based on referring expressions\nin text or audio format. This task plays a crucial role in practical\napplications requiring accurate object perception based on user instructions.\nOver the past decade, it has gained significant attention in the multimodal\ncommunity, driven by advances in convolutional neural networks, transformers,\nand large language models, all of which have substantially improved multimodal\nperception capabilities. This paper provides a comprehensive survey of\nmultimodal referring segmentation. We begin by introducing this field's\nbackground, including problem definitions and commonly used datasets. Next, we\nsummarize a unified meta architecture for referring segmentation and review\nrepresentative methods across three primary visual scenes, including images,\nvideos, and 3D scenes. We further discuss Generalized Referring Expression\n(GREx) methods to address the challenges of real-world complexity, along with\nrelated tasks and practical applications. Extensive performance comparisons on\nstandard benchmarks are also provided. We continually track related works at\nhttps://github.com/henghuiding/Awesome-Multimodal-Referring-Segmentation.",
+            "upvotes": 5,
+            "discussionId": "6890159b0a411b3b8d28d656",
+            "ai_summary": "A survey of multimodal referring segmentation techniques, covering advancements in convolutional neural networks, transformers, and large language models for segmenting objects in images, videos, and 3D scenes based on text or audio instructions.",
+            "ai_keywords": [
+                "convolutional neural networks",
+                "transformers",
+                "large language models",
+                "multimodal referring segmentation",
+                "Generalized Referring Expression (GREx)"
+            ]
+        },
+        "translation_title": "다중모달 지칭 분할: 종합 조사",
+        "purpose": "다중모달 지칭 분할의 현재 상태와 방법을 조사하여 실용적 응용 분야를 위한 정확한 객체 인식을 돕는 것을 목표로 함.",
+        "method": [
+            "다중모달 지칭 분할의 배경과 문제 정의, 일반적인 데이터셋을 소개함(Paper provides a comprehensive survey of multimodal referring segmentation and introduces this field's background, including problem definitions and commonly used datasets.)",
+            "지칭 분할을 위한 통합 메타 아키텍처를 요약하고 이미지, 비디오, 3D 씬 등 세 가지 주요 시나리오에서 대표적인 방법을 검토함(Next, we summarize a unified meta architecture for referring segmentation and review representative methods across three primary visual scenes, including images, videos, and 3D scenes.)",
+            "현실 세계의 복잡성을 해결하기 위한 일반화된 지칭 표현(GREx) 방법을 논의함(We further discuss Generalized Referring Expression (GREx) methods to address the challenges of real-world complexity)."
+        ],
+        "conclusion": "다중모달 지칭 분할에 대한 포괄적인 이해를 제공하고, 성능 비교를 통해 다양한 방법의 효과성을 평가함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Segmentation",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2507.23478",
+            "authors": [
+                {
+                    "_id": "6890356a0a411b3b8d28d6c3",
+                    "name": "Ting Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890356a0a411b3b8d28d6c4",
+                    "name": "Zeyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6890356a0a411b3b8d28d6c5",
+                    "name": "Hao Tang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-07-31T11:59:06.000Z",
+            "submittedOnDailyAt": "2025-08-04T02:53:23.346Z",
+            "title": "3D-R1: Enhancing Reasoning in 3D VLMs for Unified Scene Understanding",
+            "submittedOnDailyBy": {
+                "_id": "64ec877bb93654d4ca5c92e9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/GvHk_KSdE9Rhnk_o-NaZX.jpeg",
+                "isPro": false,
+                "fullname": "Zeyu Zhang",
+                "user": "SteveZeyuZhang",
+                "type": "user"
+            },
+            "summary": "Large vision-language models (VLMs) have made significant strides in 2D\nvisual understanding tasks, sparking interest in extending these capabilities\nto 3D scene understanding. However, current 3D VLMs often struggle with robust\nreasoning and generalization due to limitations in high-quality spatial data\nand the static nature of viewpoint assumptions. To address these challenges, we\npropose 3D-R1, a foundation model that enhances the reasoning capabilities of\n3D VLMs. Specifically, we first construct a high-quality synthetic dataset with\nCoT, named Scene-30K, leveraging existing 3D-VL datasets and a data engine\nbased on Gemini 2.5 Pro. It serves as cold-start initialization data for 3D-R1.\nMoreover, we leverage RLHF policy such as GRPO in the reinforcement learning\ntraining process to enhance reasoning capabilities and introduce three reward\nfunctions: a perception reward, a semantic similarity reward and a format\nreward to maintain detection accuracy and answer semantic precision.\nFurthermore, we introduce a dynamic view selection strategy that adaptively\nchooses the most informative perspectives for 3D scene understanding. Extensive\nexperiments demonstrate that 3D-R1 delivers an average improvement of 10%\nacross various 3D scene benchmarks, highlighting its effectiveness in enhancing\nreasoning and generalization in 3D scene understanding. Code:\nhttps://github.com/AIGeeksGroup/3D-R1. Website:\nhttps://aigeeksgroup.github.io/3D-R1.",
+            "upvotes": 5,
+            "discussionId": "6890356b0a411b3b8d28d6c6",
+            "projectPage": "https://aigeeksgroup.github.io/3D-R1",
+            "githubRepo": "https://github.com/AIGeeksGroup/3D-R1",
+            "ai_summary": "3D-R1 enhances 3D scene understanding through a high-quality synthetic dataset, reinforcement learning with GRPO, and dynamic view selection, achieving significant improvements in reasoning and generalization.",
+            "ai_keywords": [
+                "3D-R1",
+                "VLMs",
+                "3D scene understanding",
+                "Scene-30K",
+                "Gemini 2.5 Pro",
+                "RLHF policy",
+                "GRPO",
+                "perception reward",
+                "semantic similarity reward",
+                "format reward",
+                "dynamic view selection"
+            ],
+            "githubStars": 45
+        },
+        "translation_title": "3D-R1: 통합 장면 이해를 위한 3D VLM의 추론 향상",
+        "purpose": "3D 장면 이해에서의 추론 능력을 향상시키기 위한 모델 개발",
+        "method": [
+            "고품질의 합성 데이터셋 Scene-30K를 구축하여 3D-R1의 초기 데이터로 사용함(we first construct a high-quality synthetic dataset with CoT, named Scene-30K, leveraging existing 3D-VL datasets and a data engine based on Gemini 2.5 Pro.)",
+            "강화 학습 과정에서 GRPO와 같은 RLHF 정책을 활용하여 추론 능력을 향상시킴(we leverage RLHF policy such as GRPO in the reinforcement learning training process to enhance reasoning capabilities).",
+            "세 가지 보상 함수(감지 정확도를 유지하기 위한 인식 보상, 의미적 유사성을 위한 보상, 형식 보상)를 도입함(we introduce three reward functions: a perception reward, a semantic similarity reward and a format reward to maintain detection accuracy and answer semantic precision.)"
+        ],
+        "conclusion": "3D-R1은 3D 장면 이해에서 추론 및 일반화 능력을 10% 이상 향상시키는 성과를 보임.",
+        "keywords": [
+            "3D Vision",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    }
+]
