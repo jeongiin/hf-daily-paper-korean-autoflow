@@ -1,0 +1,502 @@
+[
+    {
+        "paper": {
+            "id": "2508.05629",
+            "authors": [
+                {
+                    "_id": "6895566648b0ae5ca2710d05",
+                    "name": "Yongliang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d06",
+                    "name": "Yizhou Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d07",
+                    "name": "Zhou Ziheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d08",
+                    "name": "Yingzhe Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d09",
+                    "name": "Xinyu Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d0a",
+                    "name": "Xinting Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d0b",
+                    "name": "Wenbo Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d0c",
+                    "name": "Lu Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d0d",
+                    "name": "Ming-Hsuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895566648b0ae5ca2710d0e",
+                    "name": "Xu Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-07T17:59:04.000Z",
+            "submittedOnDailyAt": "2025-08-08T00:15:11.093Z",
+            "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with\n  Reward Rectification",
+            "submittedOnDailyBy": {
+                "_id": "66f6bc97980d52c75c300511",
+                "avatarUrl": "/avatars/f7c23c4b09701580b533212ec9b6e306.svg",
+                "isPro": false,
+                "fullname": "Yongliang Wu",
+                "user": "Liang0223",
+                "type": "user"
+            },
+            "summary": "We present a simple yet theoretically motivated improvement to Supervised\nFine-Tuning (SFT) for the Large Language Model (LLM), addressing its limited\ngeneralization compared to reinforcement learning (RL). Through mathematical\nanalysis, we reveal that standard SFT gradients implicitly encode a problematic\nreward structure that may severely restrict the generalization capabilities of\nmodel. To rectify this, we propose Dynamic Fine-Tuning (DFT), stabilizing\ngradient updates for each token by dynamically rescaling the objective function\nwith the probability of this token. Remarkably, this single-line code change\nsignificantly outperforms standard SFT across multiple challenging benchmarks\nand base models, demonstrating greatly improved generalization. Additionally,\nour approach shows competitive results in offline RL settings, offering an\neffective yet simpler alternative. This work bridges theoretical insight and\npractical solutions, substantially advancing SFT performance. The code will be\navailable at https://github.com/yongliang-wu/DFT.",
+            "upvotes": 71,
+            "discussionId": "6895566648b0ae5ca2710d0f",
+            "githubRepo": "https://github.com/yongliang-wu/DFT",
+            "ai_summary": "Dynamic Fine-Tuning (DFT) improves the generalization of Large Language Models (LLMs) by dynamically rescaling gradients, outperforming standard Supervised Fine-Tuning (SFT) and showing competitive results in offline reinforcement learning.",
+            "ai_keywords": [
+                "Supervised Fine-Tuning",
+                "Large Language Model",
+                "reinforcement learning",
+                "gradient updates",
+                "token probability",
+                "Dynamic Fine-Tuning",
+                "offline RL"
+            ],
+            "githubStars": 19
+        },
+        "translation_title": "SFT의 일반화: 보상 수정의 강화 학습 관점",
+        "purpose": "Supervised Fine-Tuning(SFT) 기법의 일반화 성능을 강화하기 위한 방법 연구",
+        "method": [
+            "SFT의 제한된 일반화 문제를 수학적으로 분석하여 보상의 문제 구조를 밝혀냄(Through mathematical analysis, we reveal that standard SFT gradients implicitly encode a problematic reward structure that may severely restrict the generalization capabilities of model.)",
+            "보상 구조를 수정하기 위해, 각 토큰에 대한 목표 함수를 동적으로 조정하는 Dynamic Fine-Tuning(DFT) 기법을 제안함(To rectify this, we propose Dynamic Fine-Tuning (DFT), stabilizing gradient updates for each token by dynamically rescaling the objective function with the probability of this token.)",
+            "단일 코드 변경으로 여러 기준점에서도 SFT의 성능을 크게 향상시킴(Remarkably, this single-line code change significantly outperforms standard SFT across multiple challenging benchmarks and base models.)"
+        ],
+        "conclusion": "이 연구는 SFT 성능을 크게 향상시키고 이론적 통찰과 실용적 솔루션을 연결함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.05004",
+            "authors": [
+                {
+                    "_id": "68955cff48b0ae5ca2710d2b",
+                    "name": "Chengsong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d2c",
+                    "name": "Wenhao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d2d",
+                    "name": "Xiaoyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d2e",
+                    "name": "Hongming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d2f",
+                    "name": "Zongxia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d30",
+                    "name": "Ruosen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d31",
+                    "name": "Jiaxin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d32",
+                    "name": "Haitao Mi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68955cff48b0ae5ca2710d33",
+                    "name": "Dong Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-07T03:38:16.000Z",
+            "submittedOnDailyAt": "2025-08-08T00:42:59.915Z",
+            "title": "R-Zero: Self-Evolving Reasoning LLM from Zero Data",
+            "submittedOnDailyBy": {
+                "_id": "62ea79dd01ed9b0e8f61ccd3",
+                "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                "isPro": false,
+                "fullname": "Chengsong Huang",
+                "user": "ChengsongHuang",
+                "type": "user"
+            },
+            "summary": "Self-evolving Large Language Models (LLMs) offer a scalable path toward\nsuper-intelligence by autonomously generating, refining, and learning from\ntheir own experiences. However, existing methods for training such models still\nrely heavily on vast human-curated tasks and labels, typically via fine-tuning\nor reinforcement learning, which poses a fundamental bottleneck to advancing AI\nsystems toward capabilities beyond human intelligence. To overcome this\nlimitation, we introduce R-Zero, a fully autonomous framework that generates\nits own training data from scratch. Starting from a single base LLM, R-Zero\ninitializes two independent models with distinct roles, a Challenger and a\nSolver. These models are optimized separately and co-evolve through\ninteraction: the Challenger is rewarded for proposing tasks near the edge of\nthe Solver capability, and the Solver is rewarded for solving increasingly\nchallenging tasks posed by the Challenger. This process yields a targeted,\nself-improving curriculum without any pre-existing tasks and labels.\nEmpirically, R-Zero substantially improves reasoning capability across\ndifferent backbone LLMs, e.g., boosting the Qwen3-4B-Base by +6.49 on\nmath-reasoning benchmarks and +7.54 on general-domain reasoning benchmarks.",
+            "upvotes": 55,
+            "discussionId": "68955cff48b0ae5ca2710d34",
+            "projectPage": "https://chengsong-huang.github.io/R-Zero.github.io/",
+            "githubRepo": "https://github.com/Chengsong-Huang/R-Zero",
+            "ai_summary": "R-Zero is a self-evolving framework that autonomously generates and learns from its own training data, improving reasoning capabilities in LLMs without human-curated tasks.",
+            "ai_keywords": [
+                "Self-evolving Large Language Models",
+                "LLMs",
+                "R-Zero",
+                "Challenger",
+                "Solver",
+                "co-evolve",
+                "math-reasoning benchmarks",
+                "general-domain reasoning benchmarks"
+            ],
+            "githubStars": 25
+        },
+        "translation_title": "R-Zero: 제로 데이터에서 자가 진화하는 추론 LLM",
+        "purpose": "인간의 세부 작업과 레이블에 의존하지 않고 자체적으로 학습할 수 있는 AI 시스템 개발",
+        "method": [
+            "R-Zero는 자체적으로 훈련 데이터를 생성하는 완전 자율 프레임워크를 도입함(To overcome this limitation, we introduce R-Zero, a fully autonomous framework that generates its own training data from scratch.)",
+            "기본 LLM에서 시작하여 Challenger와 Solver라는 두 개의 독립적인 모델을 초기화함(Start from a single base LLM, R-Zero initializes two independent models with distinct roles, a Challenger and a Solver.)",
+            "Challenger와 Solver 간의 상호작용을 통해 각각의 모델이 별도로 최적화되며 공진화하는 방식으로 작동함(These models are optimized separately and co-evolve through interaction.)",
+            "Challenger는 Solver의 능력에 근접한 작업을 제안하고, Solver는 제안된 작업을 해결하며 보상을 받음(The Challenger is rewarded for proposing tasks near the edge of the Solver capability, and the Solver is rewarded for solving increasingly challenging tasks posed by the Challenger.)"
+        ],
+        "conclusion": "R-Zero는 다양한 LLM의 추론 능력을 크게 향상시켰으며, 예를 들어 Qwen3-4B-Base의 수학 추론 벤치마크에서 +6.49, 일반 도메인 추론 벤치마크에서 +7.54의 향상을 보임.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.05635",
+            "authors": [
+                {
+                    "_id": "689554ee48b0ae5ca2710ce7",
+                    "name": "Yue Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710ce8",
+                    "name": "Pengfei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710ce9",
+                    "name": "Siyuan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cea",
+                    "name": "Donglin Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710ceb",
+                    "name": "Shengcong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cec",
+                    "name": "Yuxin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710ced",
+                    "name": "Yue Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cee",
+                    "name": "Jingbin Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cef",
+                    "name": "Si Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cf0",
+                    "name": "Jianlan Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cf1",
+                    "name": "Liliang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cf2",
+                    "name": "Shuicheng Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cf3",
+                    "name": "Maoqing Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689554ee48b0ae5ca2710cf4",
+                    "name": "Guanghui Ren",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-07T17:59:44.000Z",
+            "submittedOnDailyAt": "2025-08-08T02:24:08.299Z",
+            "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic\n  Manipulation",
+            "submittedOnDailyBy": {
+                "_id": "646ec9b135f55eb49e405faa",
+                "avatarUrl": "/avatars/a17194be585d20e2a021e77a5a20e213.svg",
+                "isPro": false,
+                "fullname": "Guanghui Ren",
+                "user": "sundrops",
+                "type": "user"
+            },
+            "summary": "We introduce Genie Envisioner (GE), a unified world foundation platform for\nrobotic manipulation that integrates policy learning, evaluation, and\nsimulation within a single video-generative framework. At its core, GE-Base is\na large-scale, instruction-conditioned video diffusion model that captures the\nspatial, temporal, and semantic dynamics of real-world robotic interactions in\na structured latent space. Built upon this foundation, GE-Act maps latent\nrepresentations to executable action trajectories through a lightweight,\nflow-matching decoder, enabling precise and generalizable policy inference\nacross diverse embodiments with minimal supervision. To support scalable\nevaluation and training, GE-Sim serves as an action-conditioned neural\nsimulator, producing high-fidelity rollouts for closed-loop policy development.\nThe platform is further equipped with EWMBench, a standardized benchmark suite\nmeasuring visual fidelity, physical consistency, and instruction-action\nalignment. Together, these components establish Genie Envisioner as a scalable\nand practical foundation for instruction-driven, general-purpose embodied\nintelligence. All code, models, and benchmarks will be released publicly.",
+            "upvotes": 51,
+            "discussionId": "689554ee48b0ae5ca2710cf5",
+            "projectPage": "https://genie-envisioner.github.io/",
+            "githubRepo": "https://github.com/AgibotTech/Genie-Envisioner",
+            "ai_summary": "Genie Envisioner integrates policy learning, evaluation, and simulation using a video diffusion model and neural simulator for instruction-driven robotic manipulation.",
+            "ai_keywords": [
+                "video diffusion model",
+                "latent space",
+                "flow-matching decoder",
+                "action trajectories",
+                "neural simulator",
+                "high-fidelity rollouts",
+                "EWMBench",
+                "visual fidelity",
+                "physical consistency",
+                "instruction-action alignment"
+            ],
+            "githubStars": 23
+        },
+        "translation_title": "Genie Envisioner: 로봇 조작을 위한 통합 세계 기반 플랫폼",
+        "purpose": "로봇 조작을 위한 정책 학습, 평가 및 시뮬레이션을 통합한 플랫폼 개발",
+        "method": [
+            "Genie Envisioner(GE)는 정책 학습, 평가 및 시뮬레이션을 통합한 비디오 생성 프레임워크를 제안함(We introduce Genie Envisioner (GE), a unified world foundation platform for robotic manipulation that integrates policy learning, evaluation, and simulation within a single video-generative framework.)",
+            "GE-Base는 실제 로봇 상호작용의 공간적, 시간적, 의미적 동력을 포착하는 대규모 비디오 확산 모델임(At its core, GE-Base is a large-scale, instruction-conditioned video diffusion model that captures the spatial, temporal, and semantic dynamics of real-world robotic interactions in a structured latent space.)",
+            "GE-Act는 잠재 표현을 실행 가능한 행동 궤도로 매핑하여 최소한의 감독으로 정확한 정책 추론을 가능하게 함(Built upon this foundation, GE-Act maps latent representations to executable action trajectories through a lightweight, flow-matching decoder, enabling precise and generalizable policy inference across diverse embodiments with minimal supervision.)",
+            "GE-Sim은 고충실도의 롤아웃을 생성하는 신경 시뮬레이터 역할을 수행하여 평가 및 훈련을 지원함(To support scalable evaluation and training, GE-Sim serves as an action-conditioned neural simulator, producing high-fidelity rollouts for closed-loop policy development.)"
+        ],
+        "conclusion": "Genie Envisioner는 지시 기반 일반 목적의 체화된 지능을 위한 확장 가능하고 실용적인 기반을 제공함.",
+        "keywords": [
+            "Robotics",
+            "Video Generation",
+            "Policy Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.05405",
+            "authors": [
+                {
+                    "_id": "68956dc548b0ae5ca2710dc1",
+                    "name": "Xinrun Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc2",
+                    "name": "Pi Bu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc3",
+                    "name": "Ye Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc4",
+                    "name": "Börje F. Karlsson",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc5",
+                    "name": "Ziming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc6",
+                    "name": "Tengtao Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc7",
+                    "name": "Qi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc8",
+                    "name": "Jun Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dc9",
+                    "name": "Zhiming Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68956dc548b0ae5ca2710dca",
+                    "name": "Bo Zheng",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/61e52be53d6dbb1da842316a/g9vIa19LQudehpP9m9rEs.png"
+            ],
+            "publishedAt": "2025-08-07T13:58:19.000Z",
+            "submittedOnDailyAt": "2025-08-08T01:55:08.314Z",
+            "title": "DeepPHY: Benchmarking Agentic VLMs on Physical Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "61e52be53d6dbb1da842316a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                "isPro": false,
+                "fullname": "Börje Karlsson",
+                "user": "tellarin",
+                "type": "user"
+            },
+            "summary": "Although Vision Language Models (VLMs) exhibit strong perceptual abilities\nand impressive visual reasoning, they struggle with attention to detail and\nprecise action planning in complex, dynamic environments, leading to subpar\nperformance. Real-world tasks typically require complex interactions, advanced\nspatial reasoning, long-term planning, and continuous strategy refinement,\nusually necessitating understanding the physics rules of the target scenario.\nHowever, evaluating these capabilities in real-world scenarios is often\nprohibitively expensive. To bridge this gap, we introduce DeepPHY, a novel\nbenchmark framework designed to systematically evaluate VLMs' understanding and\nreasoning about fundamental physical principles through a series of challenging\nsimulated environments. DeepPHY integrates multiple physical reasoning\nenvironments of varying difficulty levels and incorporates fine-grained\nevaluation metrics. Our evaluation finds that even state-of-the-art VLMs\nstruggle to translate descriptive physical knowledge into precise, predictive\ncontrol.",
+            "upvotes": 47,
+            "discussionId": "68956dc648b0ae5ca2710dcb",
+            "projectPage": "https://github.com/XinrunXu/DeepPHY",
+            "githubRepo": "https://github.com/XinrunXu/DeepPHY",
+            "ai_summary": "DeepPHY evaluates Vision Language Models' physical reasoning and control through simulated environments with varying difficulty levels.",
+            "ai_keywords": [
+                "Vision Language Models",
+                "DeepPHY",
+                "physical reasoning",
+                "simulated environments",
+                "evaluation metrics"
+            ],
+            "githubStars": 19
+        },
+        "translation_title": "DeepPHY: 물리적 추론에서 에이전틱 VLM 성능 벤치마킹",
+        "purpose": "복잡한 환경에서 Vision Language Models (VLMs)의 물리적 이해 및 추론 능력을 평가하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "DeepPHY라는 새로운 벤치마크 프레임워크를 도입해 VLMs의 물리적 원리에 대한 이해와 추론을 평가함(we introduce DeepPHY, a novel benchmark framework designed to systematically evaluate VLMs' understanding and reasoning about fundamental physical principles.)",
+            "다양한 난이도의 여러 물리적 추론 환경을 통합하고 세밀한 평가 지표를 포함함(DeepPHY integrates multiple physical reasoning environments of varying difficulty levels and incorporates fine-grained evaluation metrics.)",
+            "상태-최고 VLM조차 기술적 지식을 정확한 예측 제어로 변환하는데 어려움을 겪는다는 평가 결과를 도출함(Our evaluation finds that even state-of-the-art VLMs struggle to translate descriptive physical knowledge into precise, predictive control.)"
+        ],
+        "conclusion": "DeepPHY를 통해 VLMs의 물리적 원리에 대한 이해와 추론 능력을 체계적으로 평가할 수 있으며, 현재 상태의 VLM은 여전히 정확한 제어에 어려움을 겪고 있음을 확인함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Physical Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.05609",
+            "authors": [
+                {
+                    "_id": "6895575348b0ae5ca2710d11",
+                    "name": "Yuhan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d12",
+                    "name": "Long Zhuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d13",
+                    "name": "Ziyang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d14",
+                    "name": "Tong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d15",
+                    "name": "Zhibing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d16",
+                    "name": "Liang Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d17",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6895575348b0ae5ca2710d18",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-07T17:50:13.000Z",
+            "submittedOnDailyAt": "2025-08-08T00:28:08.152Z",
+            "title": "Hi3DEval: Advancing 3D Generation Evaluation with Hierarchical Validity",
+            "submittedOnDailyBy": {
+                "_id": "604599a0e6aa3e130cb9286c",
+                "avatarUrl": "/avatars/c9c723a4911b1a1b8870f44595fc9ca6.svg",
+                "isPro": false,
+                "fullname": "Zyh",
+                "user": "ZhangYuhan",
+                "type": "user"
+            },
+            "summary": "Despite rapid advances in 3D content generation, quality assessment for the\ngenerated 3D assets remains challenging. Existing methods mainly rely on\nimage-based metrics and operate solely at the object level, limiting their\nability to capture spatial coherence, material authenticity, and high-fidelity\nlocal details. 1) To address these challenges, we introduce Hi3DEval, a\nhierarchical evaluation framework tailored for 3D generative content. It\ncombines both object-level and part-level evaluation, enabling holistic\nassessments across multiple dimensions as well as fine-grained quality\nanalysis. Additionally, we extend texture evaluation beyond aesthetic\nappearance by explicitly assessing material realism, focusing on attributes\nsuch as albedo, saturation, and metallicness. 2) To support this framework, we\nconstruct Hi3DBench, a large-scale dataset comprising diverse 3D assets and\nhigh-quality annotations, accompanied by a reliable multi-agent annotation\npipeline. We further propose a 3D-aware automated scoring system based on\nhybrid 3D representations. Specifically, we leverage video-based\nrepresentations for object-level and material-subject evaluations to enhance\nmodeling of spatio-temporal consistency and employ pretrained 3D features for\npart-level perception. Extensive experiments demonstrate that our approach\noutperforms existing image-based metrics in modeling 3D characteristics and\nachieves superior alignment with human preference, providing a scalable\nalternative to manual evaluations. The project page is available at\nhttps://zyh482.github.io/Hi3DEval/.",
+            "upvotes": 21,
+            "discussionId": "6895575348b0ae5ca2710d19",
+            "projectPage": "https://zyh482.github.io/Hi3DEval/",
+            "ai_summary": "Hi3DEval is a hierarchical evaluation framework for 3D generative content that combines object-level and part-level assessments, including material realism, using a large-scale dataset and hybrid 3D representations.",
+            "ai_keywords": [
+                "Hi3DEval",
+                "hierarchical evaluation framework",
+                "object-level evaluation",
+                "part-level evaluation",
+                "material realism",
+                "Hi3DBench",
+                "multi-agent annotation pipeline",
+                "3D-aware automated scoring system",
+                "video-based representations",
+                "pretrained 3D features",
+                "spatio-temporal consistency",
+                "part-level perception"
+            ]
+        },
+        "translation_title": "Hi3DEval: 계층적 유효성으로 3D 생성 평가 강화하기",
+        "purpose": "3D 자산의 품질 평가를 보다 정밀하고 포괄적으로 수행하기 위한 새로운 평가 프레임워크 개발",
+        "method": [
+            "Hi3DEval이라는 계층적 평가 프레임워크를 도입하여 3D 생성 콘텐츠에 맞춘 평가 방식 제공(we introduce Hi3DEval, a hierarchical evaluation framework tailored for 3D generative content)",
+            "객체 수준과 부품 수준의 평가를 결합하여 다차원적이고 세밀한 품질 분석 가능하게 함(it combines both object-level and part-level evaluation, enabling holistic assessments across multiple dimensions as well as fine-grained quality analysis)",
+            "Hi3DBench라는 대규모 데이터셋을 구축하여 다양한 3D 자산과 고품질 주석을 제공함(To support this framework, we construct Hi3DBench, a large-scale dataset comprising diverse 3D assets and high-quality annotations)",
+            "비디오 기반 표현을 활용하여 객체 수준과 소재 평가를 개선하고 세밀한 일관성 모델링을 지원함(we leverage video-based representations for object-level and material-subject evaluations to enhance modeling of spatio-temporal consistency)"
+        ],
+        "conclusion": "우리의 방법은 3D 특성을 모델링하는 데 있어 기존 이미지 기반 지표를 능가하고, 인간 선호와 우수한 일치를 달성함으로써 수작업 평가의 확장 가능한 대안을 제공함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Evaluation Metrics"
+        ]
+    }
+]
