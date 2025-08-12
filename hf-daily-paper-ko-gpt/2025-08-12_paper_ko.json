@@ -1,0 +1,522 @@
+[
+    {
+        "paper": {
+            "id": "2508.07050",
+            "authors": [
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a2",
+                    "name": "Wenhan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a3",
+                    "name": "Xinyu Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a4",
+                    "name": "Weiwei Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a5",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a6",
+                    "name": "Yuchen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a7",
+                    "name": "Dawei Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab8b6fab6fdd2e52ac4a8",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-09T17:26:18.000Z",
+            "submittedOnDailyAt": "2025-08-12T02:16:23.014Z",
+            "title": "ReasonRank: Empowering Passage Ranking with Strong Reasoning Ability",
+            "submittedOnDailyBy": {
+                "_id": "62cd2f13979d883655cd5377",
+                "avatarUrl": "/avatars/400c252d20d68aca56e0d0280498ce17.svg",
+                "isPro": false,
+                "fullname": "Xinyu Ma",
+                "user": "xyma",
+                "type": "user"
+            },
+            "summary": "Large Language Model (LLM) based listwise ranking has shown superior\nperformance in many passage ranking tasks. With the development of Large\nReasoning Models, many studies have demonstrated that step-by-step reasoning\nduring test-time helps improve listwise ranking performance. However, due to\nthe scarcity of reasoning-intensive training data, existing rerankers perform\npoorly in many complex ranking scenarios and the ranking ability of\nreasoning-intensive rerankers remains largely underdeveloped. In this paper, we\nfirst propose an automated reasoning-intensive training data synthesis\nframework, which sources training queries and passages from diverse domains and\napplies DeepSeek-R1 to generate high-quality training labels. A\nself-consistency data filtering mechanism is designed to ensure the data\nquality. To empower the listwise reranker with strong reasoning ability, we\nfurther propose a two-stage post-training approach, which includes a cold-start\nsupervised fine-tuning (SFT) stage for reasoning pattern learning and a\nreinforcement learning (RL) stage for further ranking ability enhancement.\nDuring the RL stage, based on the nature of listwise ranking, we design a\nmulti-view ranking reward, which is more effective than a ranking metric-based\nreward. Extensive experiments demonstrate that our trained reasoning-intensive\nreranker ReasonRank outperforms existing baselines significantly and\nalso achieves much lower latency than pointwise reranker Rank1. Through\nfurther experiments, our ReasonRank has achieved state-of-the-art (SOTA)\nperformance 40.6 on the BRIGHT\nleaderboard\\footnote{https://brightbenchmark.github.io/.} Our codes are\navailable at https://github.com/8421BCD/ReasonRank.",
+            "upvotes": 83,
+            "discussionId": "689ab8b6fab6fdd2e52ac4a9",
+            "projectPage": "https://github.com/8421BCD/ReasonRank",
+            "githubRepo": "https://github.com/8421BCD/ReasonRank",
+            "ai_summary": "A reasoning-intensive reranker, ReasonRank, achieves state-of-the-art performance in passage ranking tasks by using synthesized training data and a two-stage post-training approach with reinforcement learning.",
+            "ai_keywords": [
+                "Large Language Model",
+                "listwise ranking",
+                "Large Reasoning Models",
+                "step-by-step reasoning",
+                "DeepSeek-R1",
+                "self-consistency data filtering",
+                "cold-start supervised fine-tuning",
+                "reinforcement learning",
+                "multi-view ranking reward",
+                "BRIGHT leaderboard"
+            ],
+            "githubStars": 76
+        },
+        "translation_title": "ReasonRank: 강력한 추론 능력을 갖춘 문서 순위 평가 방법",
+        "purpose": "추론에 기반한 Reranker의 성능을 향상시키기 위한 훈련 데이터와 방법론 개발",
+        "method": [
+            "자동화된 추론 강화를 위한 훈련 데이터 생성 프레임워크를 제안함(we first propose an automated reasoning-intensive training data synthesis framework, which sources training queries and passages from diverse domains)",
+            "DeepSeek-R1을 통해 고품질 훈련 레이블을 생성함(and applies DeepSeek-R1 to generate high-quality training labels.)",
+            "추론 패턴 학습을 위한 감독적 미세 조정(SFT) 단계와 순위 향상을 위한 강화 학습(RL) 단계를 포함한 2단계 사후 훈련 접근법을 제안함(we further propose a two-stage post-training approach, which includes a cold-start supervised fine-tuning (SFT) stage for reasoning pattern learning and a reinforcement learning (RL) stage for further ranking ability enhancement.)"
+        ],
+        "conclusion": "ReasonRank는 기존 Rerankers보다 뛰어난 성능을 보여주며, 더 낮은 지연 시간으로 문서 순위 평가를 수행함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07999",
+            "authors": [
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac459",
+                    "name": "Ryan Wong",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45a",
+                    "name": "Jiawei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45b",
+                    "name": "Junjie Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45c",
+                    "name": "Li Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45d",
+                    "name": "Yan Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45e",
+                    "name": "Long Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac45f",
+                    "name": "Xuan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac460",
+                    "name": "Zuo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac461",
+                    "name": "Kai Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac462",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac463",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac464",
+                    "name": "Yang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aa9c6fab6fdd2e52ac465",
+                    "name": "Ke Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T14:03:09.000Z",
+            "submittedOnDailyAt": "2025-08-12T01:13:47.675Z",
+            "title": "WideSearch: Benchmarking Agentic Broad Info-Seeking",
+            "submittedOnDailyBy": {
+                "_id": "64060b49a577649430bf6974",
+                "avatarUrl": "/avatars/74d0d6ed656b593e4c101b09edf18c7a.svg",
+                "isPro": false,
+                "fullname": "Jiawei Wang",
+                "user": "Jarvis1111",
+                "type": "user"
+            },
+            "summary": "From professional research to everyday planning, many tasks are bottlenecked\nby wide-scale information seeking, which is more repetitive than cognitively\ncomplex. With the rapid development of Large Language Models (LLMs), automated\nsearch agents powered by LLMs offer a promising solution to liberate humans\nfrom this tedious work. However, the capability of these agents to perform such\n\"wide-context\" collection reliably and completely remains largely unevaluated\ndue to a lack of suitable benchmarks. To bridge this gap, we introduce\nWideSearch, a new benchmark engineered to evaluate agent reliability on these\nlarge-scale collection tasks. The benchmark features 200 manually curated\nquestions (100 in English, 100 in Chinese) from over 15 diverse domains,\ngrounded in real user queries. Each task requires agents to collect large-scale\natomic information, which could be verified one by one objectively, and arrange\nit into a well-organized output. A rigorous five-stage quality control pipeline\nensures the difficulty, completeness, and verifiability of the dataset. We\nbenchmark over 10 state-of-the-art agentic search systems, including\nsingle-agent, multi-agent frameworks, and end-to-end commercial systems. Most\nsystems achieve overall success rates near 0\\%, with the best performer\nreaching just 5\\%. However, given sufficient time, cross-validation by multiple\nhuman testers can achieve a near 100\\% success rate. These results demonstrate\nthat present search agents have critical deficiencies in large-scale\ninformation seeking, underscoring urgent areas for future research and\ndevelopment in agentic search. Our dataset, evaluation pipeline, and benchmark\nresults have been publicly released at https://widesearch-seed.github.io/",
+            "upvotes": 77,
+            "discussionId": "689aa9c6fab6fdd2e52ac466",
+            "projectPage": "https://widesearch-seed.github.io/",
+            "githubRepo": "https://github.com/ByteDance-Seed/WideSearch",
+            "ai_summary": "WideSearch is a new benchmark evaluating the reliability of automated search agents in large-scale information collection tasks, revealing significant deficiencies in current systems.",
+            "ai_keywords": [
+                "Large Language Models",
+                "automated search agents",
+                "WideSearch",
+                "benchmark",
+                "quality control pipeline",
+                "agentic search systems",
+                "single-agent",
+                "multi-agent frameworks",
+                "end-to-end commercial systems"
+            ],
+            "githubStars": 35
+        },
+        "translation_title": "WideSearch: 에이전트의 폭넓은 정보 탐색 성능 평가",
+        "purpose": "폭넓은 정보 탐색 작업을 평가할 수 있는 새로운 벤치마크를 개발하여 LLM 기반 검색 에이전트의 신뢰성을 검증하기 위함.",
+        "method": [
+            "WideSearch라는 새로운 벤치마크를 도입하여 에이전트의 신뢰성을 평가함(To bridge this gap, we introduce WideSearch, a new benchmark engineered to evaluate agent reliability on these large-scale collection tasks.)",
+            "200개의 수동으로 선별된 질문(영어 100개, 중국어 100개)을 다양한 분야에서 수집하여 평가함(The benchmark features 200 manually curated questions (100 in English, 100 in Chinese) from over 15 diverse domains).",
+            "엄격한 품질 관리 과정으로 데이터셋의 난이도, 완전성, 검증 가능성을 확보함(A rigorous five-stage quality control pipeline ensures the difficulty, completeness, and verifiability of the dataset.)",
+            "10개 이상의 최첨단 검색 시스템을 평가하여 성능을 비교함(We benchmark over 10 state-of-the-art agentic search systems, including single-agent, multi-agent frameworks, and end-to-end commercial systems.)"
+        ],
+        "conclusion": "현재의 검색 에이전트들은 대규모 정보 탐색에서 중대한 결함이 있으며, 이는 향후 연구와 개발의 긴급한 필요성을 강조함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07981",
+            "authors": [
+                {
+                    "_id": "689ac656fab6fdd2e52ac504",
+                    "name": "Fangyuan Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac505",
+                    "name": "Aiming Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac506",
+                    "name": "Jintao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac507",
+                    "name": "Dongxia Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac508",
+                    "name": "Xiaokun Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac509",
+                    "name": "Jiashu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac50a",
+                    "name": "Meiqi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac50b",
+                    "name": "Chubin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac50c",
+                    "name": "Jiahong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ac656fab6fdd2e52ac50d",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T13:41:24.000Z",
+            "submittedOnDailyAt": "2025-08-12T04:36:46.480Z",
+            "title": "Omni-Effects: Unified and Spatially-Controllable Visual Effects\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Visual effects (VFX) are essential visual enhancements fundamental to modern\ncinematic production. Although video generation models offer cost-efficient\nsolutions for VFX production, current methods are constrained by per-effect\nLoRA training, which limits generation to single effects. This fundamental\nlimitation impedes applications that require spatially controllable composite\neffects, i.e., the concurrent generation of multiple effects at designated\nlocations. However, integrating diverse effects into a unified framework faces\nmajor challenges: interference from effect variations and spatial\nuncontrollability during multi-VFX joint training. To tackle these challenges,\nwe propose Omni-Effects, a first unified framework capable of generating\nprompt-guided effects and spatially controllable composite effects. The core of\nour framework comprises two key innovations: (1) LoRA-based Mixture of Experts\n(LoRA-MoE), which employs a group of expert LoRAs, integrating diverse effects\nwithin a unified model while effectively mitigating cross-task interference.\n(2) Spatial-Aware Prompt (SAP) incorporates spatial mask information into the\ntext token, enabling precise spatial control. Furthermore, we introduce an\nIndependent-Information Flow (IIF) module integrated within the SAP, isolating\nthe control signals corresponding to individual effects to prevent any unwanted\nblending. To facilitate this research, we construct a comprehensive VFX dataset\nOmni-VFX via a novel data collection pipeline combining image editing and\nFirst-Last Frame-to-Video (FLF2V) synthesis, and introduce a dedicated VFX\nevaluation framework for validating model performance. Extensive experiments\ndemonstrate that Omni-Effects achieves precise spatial control and diverse\neffect generation, enabling users to specify both the category and location of\ndesired effects.",
+            "upvotes": 45,
+            "discussionId": "689ac657fab6fdd2e52ac50e",
+            "projectPage": "https://amap-ml.github.io/Omni-Effects.github.io/",
+            "githubRepo": "https://github.com/AMAP-ML/Omni-Effects",
+            "ai_summary": "Omni-Effects is a unified framework that enables the generation of prompt-guided and spatially controllable composite visual effects using LoRA-based Mixture of Experts and Spatial-Aware Prompt with Independent-Information Flow.",
+            "ai_keywords": [
+                "LoRA",
+                "Mixture of Experts",
+                "LoRA-MoE",
+                "Spatial-Aware Prompt",
+                "SAP",
+                "Independent-Information Flow",
+                "IIF",
+                "Omni-VFX",
+                "First-Last Frame-to-Video",
+                "FLF2V"
+            ],
+            "githubStars": 73
+        },
+        "translation_title": "Omni-Effects: 통합되고 공간적으로 제어 가능한 시각 효과 생성",
+        "purpose": "공간적으로 제어 가능한 복합 효과 생성을 위한 통합된 시각 효과 생성 프레임워크 개발",
+        "method": [
+            "LoRA 기반의 전문가 혼합 모델(LoRA-MoE)을 통해 다양한 효과를 통합하되, 크로스 태스크 간섭을 효과적으로 완화함(LoRA-based Mixture of Experts (LoRA-MoE) employs a group of expert LoRAs, integrating diverse effects while effectively mitigating cross-task interference.)",
+            "공간 마스크 정보를 텍스트 토큰에 통합하여 정밀한 공간 제어를 가능하게 하는 Spatial-Aware Prompt(SAP)를 도입함(Spatial-Aware Prompt (SAP) incorporates spatial mask information into the text token, enabling precise spatial control.)",
+            "개별 효과에 대한 제어 신호를 분리해 혼합을 방지하는 Independent-Information Flow(IIF) 모듈을 SAP에 통합함(Independent-Information Flow (IIF) module integrated within the SAP isolates the control signals corresponding to individual effects to prevent blending.)"
+        ],
+        "conclusion": "Omni-Effects는 사용자가 원하는 효과의 범주와 위치를 지정할 수 있는 정확한 공간 제어와 다양한 효과 생성을 달성함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07629",
+            "authors": [
+                {
+                    "_id": "689ab4aefab6fdd2e52ac483",
+                    "name": "Zhenpeng Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac484",
+                    "name": "Leiyu Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac485",
+                    "name": "Xue Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac486",
+                    "name": "Dening Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac487",
+                    "name": "Guanting Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac488",
+                    "name": "Jiaming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac489",
+                    "name": "Wenping Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ab4aefab6fdd2e52ac48a",
+                    "name": "Guorui Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T05:17:51.000Z",
+            "submittedOnDailyAt": "2025-08-12T01:59:54.855Z",
+            "title": "Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving\n  Clipping Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "61c2cf8d1172fa7969904d99",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61c2cf8d1172fa7969904d99/R10G5h3d9Q_YQ__Hc-H4k.jpeg",
+                "isPro": false,
+                "fullname": "suu",
+                "user": "Suu",
+                "type": "user"
+            },
+            "summary": "We present Klear-Reasoner, a model with long reasoning capabilities that\ndemonstrates careful deliberation during problem solving, achieving outstanding\nperformance across multiple benchmarks. Although there are already many\nexcellent works related to inference models in the current community, there are\nstill many problems with reproducing high-performance inference models due to\nincomplete disclosure of training details. This report provides an in-depth\nanalysis of the reasoning model, covering the entire post-training workflow\nfrom data preparation and long Chain-of-Thought supervised fine-tuning (long\nCoT SFT) to reinforcement learning (RL), along with detailed ablation studies\nfor each experimental component. For SFT data, our experiments show that a\nsmall number of high-quality data sources are more effective than a large\nnumber of diverse data sources, and that difficult samples can achieve better\nresults without accuracy filtering. In addition, we investigate two key issues\nwith current clipping mechanisms in RL: Clipping suppresses critical\nexploration signals and ignores suboptimal trajectories. To address these\nchallenges, we propose Gradient-Preserving clipping Policy Optimization (GPPO)\nthat gently backpropagates gradients from clipped tokens. GPPO not only\nenhances the model's exploration capacity but also improves its efficiency in\nlearning from negative samples. Klear-Reasoner exhibits exceptional reasoning\nabilities in mathematics and programming, scoring 90.5\\% on AIME 2024, 83.2\\%\non AIME 2025, 66.0\\% on LiveCodeBench V5 and 58.1\\% on LiveCodeBench V6.",
+            "upvotes": 25,
+            "discussionId": "689ab4affab6fdd2e52ac48b",
+            "projectPage": "https://github.com/suu990901/KlearReasoner",
+            "githubRepo": "https://github.com/suu990901/KlearReasoner",
+            "ai_summary": "Klear-Reasoner, a model with long reasoning capabilities, achieves high performance across benchmarks through detailed post-training workflows, including long Chain-of-Thought supervised fine-tuning and reinforcement learning with Gradient-Preserving clipping Policy Optimization.",
+            "ai_keywords": [
+                "long reasoning",
+                "Chain-of-Thought supervised fine-tuning",
+                "long CoT SFT",
+                "reinforcement learning",
+                "RL",
+                "Gradient-Preserving clipping Policy Optimization",
+                "GPPO",
+                "exploration signals",
+                "suboptimal trajectories",
+                "backpropagation",
+                "gradients",
+                "clipped tokens",
+                "AIME",
+                "LiveCodeBench"
+            ],
+            "githubStars": 18
+        },
+        "translation_title": "Klear-Reasoner: Gradient-Preserving Clipping Policy Optimization을 통한 추론 능력 향상",
+        "purpose": "고성능 추론 모델의 재현성을 높이기 위한 훈련 세부사항을 정확하게 공개하고, 모델의 사고 능력을 개선하기 위한 연구",
+        "method": [
+            "데이터 준비와 긴 Chain-of-Thought 감독 세밀 조정(long CoT SFT)부터 강화 학습(RL)까지의 전체 훈련 후 작업 흐름 분석(This report provides an in-depth analysis of the reasoning model, covering the entire post-training workflow from data preparation and long Chain-of-Thought supervised fine-tuning (long CoT SFT) to reinforcement learning (RL))",
+            "소수의 고품질 데이터 소스가 다양한 데이터 소스보다 더 효과적임을 보여주었고(our experiments show that a small number of high-quality data sources are more effective than a large number of diverse data sources)",
+            "클리핑 메커니즘의 두 가지 주요 문제를 조사하고 이를 해결하기 위해 Gradient-Preserving clipping Policy Optimization(GPPO)를 제안함(To address these challenges, we propose Gradient-Preserving clipping Policy Optimization (GPPO) that gently backpropagates gradients from clipped tokens.)"
+        ],
+        "conclusion": "Klear-Reasoner는 수학과 프로그래밍에서 뛰어난 추론 능력을 보여주며, 여러 벤치마크에서 우수한 성과를 기록함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07407",
+            "authors": [
+                {
+                    "_id": "689af4a3fab6fdd2e52ac609",
+                    "name": "Jinyuan Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60a",
+                    "name": "Yanwen Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60b",
+                    "name": "Xi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60c",
+                    "name": "Yingxu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60d",
+                    "name": "Xinhao Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60e",
+                    "name": "Guibin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac60f",
+                    "name": "Yi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac610",
+                    "name": "Bin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac611",
+                    "name": "Siwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac612",
+                    "name": "Zihao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac613",
+                    "name": "Zhaochun Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac614",
+                    "name": "Nikos Aletras",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac615",
+                    "name": "Xi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac616",
+                    "name": "Han Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689af4a3fab6fdd2e52ac617",
+                    "name": "Zaiqiao Meng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-10T16:07:32.000Z",
+            "submittedOnDailyAt": "2025-08-12T08:07:33.316Z",
+            "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm\n  Bridging Foundation Models and Lifelong Agentic Systems",
+            "submittedOnDailyBy": {
+                "_id": "652ebdcc76365388909b06cf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652ebdcc76365388909b06cf/MnIVVuTphX8buEER9EkCY.jpeg",
+                "isPro": false,
+                "fullname": "Xi Zhang",
+                "user": "X-iZhang",
+                "type": "user"
+            },
+            "summary": "Recent advances in large language models have sparked growing interest in AI\nagents capable of solving complex, real-world tasks. However, most existing\nagent systems rely on manually crafted configurations that remain static after\ndeployment, limiting their ability to adapt to dynamic and evolving\nenvironments. To this end, recent research has explored agent evolution\ntechniques that aim to automatically enhance agent systems based on interaction\ndata and environmental feedback. This emerging direction lays the foundation\nfor self-evolving AI agents, which bridge the static capabilities of foundation\nmodels with the continuous adaptability required by lifelong agentic systems.\nIn this survey, we provide a comprehensive review of existing techniques for\nself-evolving agentic systems. Specifically, we first introduce a unified\nconceptual framework that abstracts the feedback loop underlying the design of\nself-evolving agentic systems. The framework highlights four key components:\nSystem Inputs, Agent System, Environment, and Optimisers, serving as a\nfoundation for understanding and comparing different strategies. Based on this\nframework, we systematically review a wide range of self-evolving techniques\nthat target different components of the agent system. We also investigate\ndomain-specific evolution strategies developed for specialised fields such as\nbiomedicine, programming, and finance, where optimisation objectives are\ntightly coupled with domain constraints. In addition, we provide a dedicated\ndiscussion on the evaluation, safety, and ethical considerations for\nself-evolving agentic systems, which are critical to ensuring their\neffectiveness and reliability. This survey aims to provide researchers and\npractitioners with a systematic understanding of self-evolving AI agents,\nlaying the foundation for the development of more adaptive, autonomous, and\nlifelong agentic systems.",
+            "upvotes": 23,
+            "discussionId": "689af4a3fab6fdd2e52ac618",
+            "projectPage": "https://github.com/EvoAgentX",
+            "githubRepo": "https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents",
+            "ai_summary": "A survey of self-evolving AI agents that adapt to dynamic environments through automatic enhancement based on interaction data and feedback.",
+            "ai_keywords": [
+                "agent evolution",
+                "self-evolving agentic systems",
+                "feedback loop",
+                "System Inputs",
+                "Agent System",
+                "Environment",
+                "Optimisers",
+                "domain-specific evolution strategies",
+                "evaluation",
+                "safety",
+                "ethical considerations"
+            ],
+            "githubStars": 18
+        },
+        "translation_title": "자기 진화 AI 에이전트의 포괄적 조사: 새로운 패러다임",
+        "purpose": "다양하게 변화하는 환경에 적응할 수 있는 자기 진화 AI 에이전트 개발을 위한 기초 마련",
+        "method": [
+            "기존의 자기 진화 에이전트 시스템에 대한 기술을 포괄적으로 검토함(we provide a comprehensive review of existing techniques for self-evolving agentic systems.)",
+            "자기 진화 에이전트 시스템 설계를 위한 피드백 루프의 통합 개념적 프레임워크를 소개함(we first introduce a unified conceptual framework that abstracts the feedback loop underlying the design of self-evolving agentic systems.)",
+            "대상 분야에 따른 진화 전략을 조사하고 특정 분야에 적합한 최적화 목표를 논의함(we also investigate domain-specific evolution strategies developed for specialised fields such as biomedicine, programming, and finance.)"
+        ],
+        "conclusion": "이 조사는 연구자와 실무자에게 자기 진화 AI 에이전트에 대한 체계적인 이해를 제공하고 더 적응적이고 자율적이며 평생 에이전트 시스템 개발의 기반을 마련함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
