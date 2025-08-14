@@ -1,0 +1,487 @@
+[
+    {
+        "paper": {
+            "id": "2508.08401",
+            "authors": [
+                {
+                    "_id": "689d51fdb083e610d741e9ef",
+                    "user": {
+                        "_id": "6438e55cb2ea24b52ebc45ec",
+                        "avatarUrl": "/avatars/e13c7398f77e7e0bd5eed03102aa5c36.svg",
+                        "isPro": false,
+                        "fullname": "Jiatong LI",
+                        "user": "phenixace",
+                        "type": "user"
+                    },
+                    "name": "Jiatong Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:39.481Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f0",
+                    "user": {
+                        "_id": "661b9d96c153e4a0a25adc3e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661b9d96c153e4a0a25adc3e/VRt7kCQ0KdJp-lhPLOajO.jpeg",
+                        "isPro": false,
+                        "fullname": "Weida Wang",
+                        "user": "weidawang",
+                        "type": "user"
+                    },
+                    "name": "Weida Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:37.341Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f1",
+                    "name": "Qinggang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f2",
+                    "user": {
+                        "_id": "656ae4088fb1ddf0d5ec9ac5",
+                        "avatarUrl": "/avatars/e38468d2c0274f3c0f5732f30a2e3436.svg",
+                        "isPro": false,
+                        "fullname": "Junxian Li",
+                        "user": "Duke-de-Artois",
+                        "type": "user"
+                    },
+                    "name": "Junxian Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:33.168Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f3",
+                    "user": {
+                        "_id": "64bce15bafd1e46c5504ad38",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bce15bafd1e46c5504ad38/vkEjiu-mIagKlrXzDH75o.png",
+                        "isPro": false,
+                        "fullname": "Di Zhang",
+                        "user": "di-zhang-fdu",
+                        "type": "user"
+                    },
+                    "name": "Di Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:35.471Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f4",
+                    "name": "Changmeng Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f5",
+                    "name": "Shufei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f6",
+                    "name": "Xiaoyong Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d51fdb083e610d741e9f7",
+                    "name": "Qing Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T18:50:05.000Z",
+            "submittedOnDailyAt": "2025-08-14T01:40:24.947Z",
+            "title": "Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery",
+            "submittedOnDailyBy": {
+                "_id": "661b9d96c153e4a0a25adc3e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661b9d96c153e4a0a25adc3e/VRt7kCQ0KdJp-lhPLOajO.jpeg",
+                "isPro": false,
+                "fullname": "Weida Wang",
+                "user": "weidawang",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs), especially Explicit Long Chain-of-Thought (CoT)\nreasoning models like DeepSeek-R1 and QWQ, have demonstrated powerful reasoning\ncapabilities, achieving impressive performance in commonsense reasoning and\nmathematical inference. Despite their effectiveness, Long-CoT reasoning models\nare often criticized for their limited ability and low efficiency in\nknowledge-intensive domains such as molecule discovery. Success in this field\nrequires a precise understanding of domain knowledge, including molecular\nstructures and chemical principles, which is challenging due to the inherent\ncomplexity of molecular data and the scarcity of high-quality expert\nannotations. To bridge this gap, we introduce Mol-R1, a novel framework\ndesigned to improve explainability and reasoning performance of R1-like\nExplicit Long-CoT reasoning LLMs in text-based molecule generation. Our\napproach begins with a high-quality reasoning dataset curated through Prior\nRegulation via In-context Distillation (PRID), a dedicated distillation\nstrategy to effectively generate paired reasoning traces guided by prior\nregulations. Building upon this, we introduce MoIA, Molecular Iterative\nAdaptation, a sophisticated training strategy that iteratively combines\nSupervised Fine-tuning (SFT) with Reinforced Policy Optimization (RPO),\ntailored to boost the reasoning performance of R1-like reasoning models for\nmolecule discovery. Finally, we examine the performance of Mol-R1 in the\ntext-based molecule reasoning generation task, showing superior performance\nagainst existing baselines.",
+            "upvotes": 26,
+            "discussionId": "689d51feb083e610d741e9f8",
+            "ai_summary": "Mol-R1 framework enhances molecule discovery by improving reasoning performance and explainability through PRID and MoIA strategies.",
+            "ai_keywords": [
+                "Large language models",
+                "Explicit Long Chain-of-Thought",
+                "DeepSeek-R1",
+                "QWQ",
+                "commonsense reasoning",
+                "mathematical inference",
+                "knowledge-intensive domains",
+                "molecule discovery",
+                "molecular structures",
+                "chemical principles",
+                "high-quality reasoning dataset",
+                "Prior Regulation via In-context Distillation",
+                "PRID",
+                "MoIA",
+                "Molecular Iterative Adaptation",
+                "Supervised Fine-tuning",
+                "SFT",
+                "Reinforced Policy Optimization",
+                "RPO",
+                "text-based molecule generation"
+            ]
+        },
+        "translation_title": "Mol-R1: 분자 발견에서 명시적 Long-CoT 추론을 향하여",
+        "purpose": "분자 발견 분야에서 More Effective Long-CoT 추론 모델의 성능을 개선하며 설명 가능성을 높이기 위한 연구",
+        "method": [
+            "고품질의 추론 데이터셋을 Prior Regulation via In-context Distillation (PRID) 전략을 통해 생성함(Our approach begins with a high-quality reasoning dataset curated through Prior Regulation via In-context Distillation (PRID), a dedicated distillation strategy to effectively generate paired reasoning traces guided by prior regulations.)",
+            "Supervised Fine-tuning (SFT)과 Reinforced Policy Optimization (RPO)를 결합한 Molecular Iterative Adaptation (MoIA) 훈련 전략을 도입함(Building upon this, we introduce MoIA, Molecular Iterative Adaptation, a sophisticated training strategy that iteratively combines Supervised Fine-tuning (SFT) with Reinforced Policy Optimization (RPO).)",
+            "Mol-R1의 성능을 평가하여 기존 모델보다 우수한 성능을 보여줌(Finally, we examine the performance of Mol-R1 in the text-based molecule reasoning generation task, showing superior performance against existing baselines.)"
+        ],
+        "conclusion": "Mol-R1은 분자 발견에서의 추론 성능 향상에 기여하며, 기존 모델에 비해 더 나은 결과를 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07901",
+            "authors": [
+                {
+                    "_id": "689aaeabfab6fdd2e52ac47c",
+                    "user": {
+                        "_id": "6899c1c4c8d32e4cdea87215",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8plwumYYJa1TNkZvF1xoj.jpeg",
+                        "isPro": false,
+                        "fullname": "Bowen Xue",
+                        "user": "BowenXue",
+                        "type": "user"
+                    },
+                    "name": "Bowen Xue",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:39:40.376Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aaeabfab6fdd2e52ac47d",
+                    "name": "Qixin Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aaeabfab6fdd2e52ac47e",
+                    "name": "Wenjing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aaeabfab6fdd2e52ac47f",
+                    "name": "Hao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689aaeabfab6fdd2e52ac480",
+                    "name": "Chen Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T12:17:38.000Z",
+            "submittedOnDailyAt": "2025-08-14T06:10:24.567Z",
+            "title": "Stand-In: A Lightweight and Plug-and-Play Identity Control for Video\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "6683a05e74fb1736a4b7c934",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6683a05e74fb1736a4b7c934/eiz6qlqIUjAWGy5zfg8Cs.jpeg",
+                "isPro": false,
+                "fullname": "QRQ",
+                "user": "RichardQRQ",
+                "type": "user"
+            },
+            "summary": "Generating high-fidelity human videos that match user-specified identities is\nimportant yet challenging in the field of generative AI. Existing methods often\nrely on an excessive number of training parameters and lack compatibility with\nother AIGC tools. In this paper, we propose Stand-In, a lightweight and\nplug-and-play framework for identity preservation in video generation.\nSpecifically, we introduce a conditional image branch into the pre-trained\nvideo generation model. Identity control is achieved through restricted\nself-attentions with conditional position mapping, and can be learned quickly\nwith only 2000 pairs. Despite incorporating and training just sim1\\%\nadditional parameters, our framework achieves excellent results in video\nquality and identity preservation, outperforming other full-parameter training\nmethods. Moreover, our framework can be seamlessly integrated for other tasks,\nsuch as subject-driven video generation, pose-referenced video generation,\nstylization, and face swapping.",
+            "upvotes": 25,
+            "discussionId": "689aaeabfab6fdd2e52ac481",
+            "projectPage": "https://stand-in-video.github.io/",
+            "githubRepo": "https://github.com/WeChatCV/Stand-In",
+            "ai_summary": "A lightweight framework for identity preservation in video generation using conditional image branches and restricted self-attentions outperforms full-parameter methods with minimal additional parameters.",
+            "ai_keywords": [
+                "conditional image branch",
+                "pre-trained video generation model",
+                "restricted self-attentions",
+                "conditional position mapping",
+                "subject-driven video generation",
+                "pose-referenced video generation",
+                "stylization",
+                "face swapping"
+            ],
+            "githubStars": 160
+        },
+        "translation_title": "Stand-In: 비디오 생성을 위한 경량의 플러그 앤 플레이 아이덴티티 제어 방법",
+        "purpose": "사용자가 지정한 아이덴티티에 맞는 고선명 인간 비디오를 생성하기 위한 효율적 프레임워크 개발",
+        "method": [
+            "사전 훈련된 비디오 생성 모델에 조건부 이미지 분기를 도입함(we introduce a conditional image branch into the pre-trained video generation model.)",
+            "조건부 위치 매핑을 통한 제한된 셀프 어텐션으로 아이덴티티 제어를 수행함(identity control is achieved through restricted self-attentions with conditional position mapping.)",
+            "단 2000 쌍의 데이터로 빠르게 학습할 수 있도록 설계함(can be learned quickly with only 2000 pairs.)"
+        ],
+        "conclusion": "우리의 프레임워크는 비디오 품질과 아이덴티티 보존에서 우수한 성과를 달성하였으며, 다른 작업들과도 원활하게 통합될 수 있음.",
+        "keywords": [
+            "Video Generation",
+            "Identity Preservation",
+            "Generative AI"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.09983",
+            "authors": [
+                {
+                    "_id": "689d7a76b083e610d741ea88",
+                    "user": {
+                        "_id": "67c46a82a8ec9d71bf3df5bd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Wl5TdJCHm6bTsMeACA0x3.png",
+                        "isPro": false,
+                        "fullname": "David D",
+                        "user": "daviddink",
+                        "type": "user"
+                    },
+                    "name": "David Dinkevich",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:16.494Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d7a76b083e610d741ea89",
+                    "name": "Matan Levy",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d7a76b083e610d741ea8a",
+                    "user": {
+                        "_id": "62f6ab4fc3372328414c8689",
+                        "avatarUrl": "/avatars/4f728a5b70c9fe4a64e80e2b643ca620.svg",
+                        "isPro": false,
+                        "fullname": "Omri Avrahami",
+                        "user": "omriav",
+                        "type": "user"
+                    },
+                    "name": "Omri Avrahami",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:18.821Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d7a76b083e610d741ea8b",
+                    "name": "Dvir Samuel",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d7a76b083e610d741ea8c",
+                    "name": "Dani Lischinski",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62f6ab4fc3372328414c8689/PmghfKC-KB0_hrcZIsBwo.webp"
+            ],
+            "publishedAt": "2025-08-13T17:56:26.000Z",
+            "submittedOnDailyAt": "2025-08-14T04:28:00.139Z",
+            "title": "Story2Board: A Training-Free Approach for Expressive Storyboard\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "62f6ab4fc3372328414c8689",
+                "avatarUrl": "/avatars/4f728a5b70c9fe4a64e80e2b643ca620.svg",
+                "isPro": false,
+                "fullname": "Omri Avrahami",
+                "user": "omriav",
+                "type": "user"
+            },
+            "summary": "We present Story2Board, a training-free framework for expressive storyboard\ngeneration from natural language. Existing methods narrowly focus on subject\nidentity, overlooking key aspects of visual storytelling such as spatial\ncomposition, background evolution, and narrative pacing. To address this, we\nintroduce a lightweight consistency framework composed of two components:\nLatent Panel Anchoring, which preserves a shared character reference across\npanels, and Reciprocal Attention Value Mixing, which softly blends visual\nfeatures between token pairs with strong reciprocal attention. Together, these\nmechanisms enhance coherence without architectural changes or fine-tuning,\nenabling state-of-the-art diffusion models to generate visually diverse yet\nconsistent storyboards. To structure generation, we use an off-the-shelf\nlanguage model to convert free-form stories into grounded panel-level prompts.\nTo evaluate, we propose the Rich Storyboard Benchmark, a suite of open-domain\nnarratives designed to assess layout diversity and background-grounded\nstorytelling, in addition to consistency. We also introduce a new Scene\nDiversity metric that quantifies spatial and pose variation across storyboards.\nOur qualitative and quantitative results, as well as a user study, show that\nStory2Board produces more dynamic, coherent, and narratively engaging\nstoryboards than existing baselines.",
+            "upvotes": 22,
+            "discussionId": "689d7a76b083e610d741ea8d",
+            "projectPage": "https://daviddinkevich.github.io/Story2Board/",
+            "githubRepo": "https://github.com/daviddinkevich/Story2Board",
+            "ai_summary": "Story2Board generates expressive storyboards from natural language using a consistency framework that enhances coherence and diversity without fine-tuning.",
+            "ai_keywords": [
+                "Latent Panel Anchoring",
+                "Reciprocal Attention Value Mixing",
+                "diffusion models",
+                "Rich Storyboard Benchmark",
+                "Scene Diversity metric"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "Story2Board: 표현력 있는 스토리보드 생성을 위한 트레이닝 없는 접근법",
+        "purpose": "자연어를 사용하여 표현력 있는 스토리보드를 생성하기 위해 기존 방법의 한계를 극복하고자 함.",
+        "method": [
+            "Latent Panel Anchoring을 통해 패널 간의 캐릭터 참조를 유지함(we introduce a lightweight consistency framework composed of two components: Latent Panel Anchoring, which preserves a shared character reference across panels.)",
+            "Reciprocal Attention Value Mixing을 활용하여 강한 상호 주의력을 가진 토큰 쌍 간의 시각적 특징을 부드럽게 혼합함(and Reciprocal Attention Value Mixing, which softly blends visual features between token pairs with strong reciprocal attention.)",
+            "기존 언어 모델을 활용해 자유 형식의 이야기를 패널 수준의 프롬프트로 변환함(To structure generation, we use an off-the-shelf language model to convert free-form stories into grounded panel-level prompts.)"
+        ],
+        "conclusion": "Story2Board는 기존 방식보다 더 동적이고 일관되며 서사가 뛰어난 스토리보드를 생성함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.09889",
+            "authors": [
+                {
+                    "_id": "689d4a16b083e610d741e9c1",
+                    "name": "Zhitian Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d4a16b083e610d741e9c2",
+                    "name": "Qintong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d4a16b083e610d741e9c3",
+                    "name": "Chengyue Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d4a16b083e610d741e9c4",
+                    "name": "Chenyi Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d4a16b083e610d741e9c5",
+                    "name": "Jinjie Gu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-13T15:46:25.000Z",
+            "submittedOnDailyAt": "2025-08-14T01:13:03.061Z",
+            "title": "AWorld: Dynamic Multi-Agent System with Stable Maneuvering for Robust\n  GAIA Problem Solving",
+            "submittedOnDailyBy": {
+                "_id": "64e847ab5ddcace745b8f5b1",
+                "avatarUrl": "/avatars/89525e66ff2900f86f66a11043a298f9.svg",
+                "isPro": true,
+                "fullname": "chenyi zhuang",
+                "user": "chengle",
+                "type": "user"
+            },
+            "summary": "The rapid advancement of large language models (LLMs) has empowered\nintelligent agents to leverage diverse external tools for solving complex\nreal-world problems. However, as agents increasingly depend on multiple tools,\nthey encounter new challenges: extended contexts from disparate sources and\nnoisy or irrelevant tool outputs can undermine system reliability and accuracy.\nThese challenges underscore the necessity for enhanced stability in agent-based\nsystems. To address this, we introduce dynamic supervision and maneuvering\nmechanisms, constructing a robust and dynamic Multi-Agent System (MAS)\narchitecture within the AWorld framework. In our approach, the Execution Agent\ninvokes the Guard Agent at critical steps to verify and correct the reasoning\nprocess, effectively reducing errors arising from noise and bolstering\nproblem-solving robustness. Extensive experiments on the GAIA test dataset\nreveal that our dynamic maneuvering mechanism significantly improves both the\neffectiveness and stability of solutions, outperforming single-agent system\n(SAS) and standard tool-augmented systems. As a result, our dynamic MAS system\nachieved first place among open-source projects on the prestigious GAIA\nleaderboard. These findings highlight the practical value of collaborative\nagent roles in developing more reliable and trustworthy intelligent systems.",
+            "upvotes": 20,
+            "discussionId": "689d4a17b083e610d741e9c6",
+            "githubRepo": "https://github.com/inclusionAI/AWorld",
+            "ai_summary": "A dynamic Multi-Agent System (MAS) with Execution and Guard Agents improves the reliability and effectiveness of intelligent agents using external tools, outperforming single-agent systems on the GAIA leaderboard.",
+            "ai_keywords": [
+                "large language models",
+                "Multi-Agent System",
+                "Execution Agent",
+                "Guard Agent",
+                "dynamic supervision",
+                "maneuvering mechanisms",
+                "GAIA test dataset",
+                "single-agent system",
+                "tool-augmented systems",
+                "GAIA leaderboard"
+            ],
+            "githubStars": 557
+        },
+        "translation_title": "AWorld: 안정적인 조작을 통한 강력한 GAIA 문제 해결을 위한 동적 다중 에이전트 시스템",
+        "purpose": "다양한 외부 도구를 활용하는 지능형 에이전트의 안정성을 높이기 위한 연구",
+        "method": [
+            "다이나믹 감독 및 조작 메커니즘을 도입하여 AWorld 프레임워크 내에서 robust하고 동적인 Multi-Agent System(MAS) 아키텍처를 구성함.(To address this, we introduce dynamic supervision and maneuvering mechanisms, constructing a robust and dynamic Multi-Agent System (MAS) architecture within the AWorld framework.)",
+            "Execution Agent가 Guard Agent를 호출하여 비판적 단계에서 추론 과정의 확인 및 수정 역할을 수행하게 함.(In our approach, the Execution Agent invokes the Guard Agent at critical steps to verify and correct the reasoning process.)",
+            "GAIA 테스트 데이터셋을 사용해 동적 조작 메커니즘의 효과성과 안정성을 실험적으로 검증함.(Extensive experiments on the GAIA test dataset reveal that our dynamic maneuvering mechanism significantly improves both the effectiveness and stability of solutions.)"
+        ],
+        "conclusion": "결과적으로 우리의 동적 MAS 시스템은 GAIA 리더보드에서 오픈소스 프로젝트 중 1위를 기록하며, 협업 에이전트 역할의 실질적인 가치를 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.09192",
+            "authors": [
+                {
+                    "_id": "689d3293b083e610d741e992",
+                    "name": "Xu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d3293b083e610d741e993",
+                    "name": "Chenkai Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d3293b083e610d741e994",
+                    "user": {
+                        "_id": "66d05337e62d6bbf50186c2f",
+                        "avatarUrl": "/avatars/f5be15e754f0fbbb37d2cc5ea417f729.svg",
+                        "isPro": false,
+                        "fullname": "Yijie Jin",
+                        "user": "DrewJin0827",
+                        "type": "user"
+                    },
+                    "name": "Yijie Jin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:37:50.550Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d3293b083e610d741e995",
+                    "name": "Jiachun Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d3293b083e610d741e996",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689d3293b083e610d741e997",
+                    "name": "Zhijie Deng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-08T04:51:37.000Z",
+            "submittedOnDailyAt": "2025-08-14T02:37:01.874Z",
+            "title": "Diffusion LLMs Can Do Faster-Than-AR Inference via Discrete Diffusion\n  Forcing",
+            "submittedOnDailyBy": {
+                "_id": "65708920806dee337da0eef5",
+                "avatarUrl": "/avatars/945e328dedc8e1e3111f48c344ad5b03.svg",
+                "isPro": false,
+                "fullname": "xuchenkai",
+                "user": "UnhurriedDawn",
+                "type": "user"
+            },
+            "summary": "Diffusion Large Language Models (dLLMs) have emerged as a promising\nalternative to autoregressive (AR) LLMs for text generation, with the potential\nto decode multiple tokens in a single iteration. However, none of the existing\nopen-source dLLMs have achieved superior inference speed over AR LLMs of\nsimilar size. This paper breaks this barrier based on a simple and effective\nstrategy named discrete diffusion forcing (D2F). D2F equips dLLMs with two key\ncapabilities: (1) block-wise autoregressive generation to enable KV cache\nutilization; (2) prediction of following tokens without requiring completion of\nprior blocks for inter-block parallel decoding. In this way, the vanilla dLLMs\nare refurbished into an AR-diffusion hybrid paradigm for efficient inference.\nD2F can be implemented with an asymmetric distillation process based on\npre-trained dLLMs. We further propose a pipelined parallel decoding algorithm,\nwhich enables a trade-off between efficiency and efficacy. Empirically, D2F\ndLLMs achieve more than 2.5times inference speed than LLaMA3 and\nQwen2.5 on GSM8K. Compared to vanilla dLLMs like LLaDA and Dream, the\nacceleration can be more than 50times while maintaining comparable\noutput quality. The code is available at\nhttps://github.com/zhijie-group/Discrete-Diffusion-Forcing.",
+            "upvotes": 19,
+            "discussionId": "689d3294b083e610d741e998",
+            "projectPage": "https://zhijie-group.github.io/Discrete-Diffusion-Forcing/",
+            "githubRepo": "https://github.com/zhijie-group/Discrete-Diffusion-Forcing",
+            "ai_summary": "Discrete diffusion forcing enhances diffusion large language models with block-wise autoregressive generation and inter-block parallel decoding, significantly improving inference speed while maintaining quality.",
+            "ai_keywords": [
+                "diffusion large language models",
+                "autoregressive LLMs",
+                "discrete diffusion forcing",
+                "block-wise autoregressive generation",
+                "KV cache",
+                "inter-block parallel decoding",
+                "asymmetric distillation",
+                "pipelined parallel decoding",
+                "GSM8K",
+                "LLaMA3",
+                "Qwen2.5",
+                "LLaDA",
+                "Dream"
+            ],
+            "githubStars": 30
+        },
+        "translation_title": "Diffusion LLMs는 Discrete Diffusion Forcing를 통해 Faster-Than-AR 추론을 수행할 수 있다",
+        "purpose": "Discrete Diffusion Forcing(D2F)를 통해 기존 autoregressive LLM보다 빠른 추론 속도를 가진 모델 개발",
+        "method": [
+            "D2F가 두 가지 주요 기능을 추가하여 dLLMs를 개조함: 블록 단위 autoregressive 생성을 통해 KV 캐시 활용 가능하게 함(1. block-wise autoregressive generation to enable KV cache utilization.)",
+            "이전 블록의 완료 없이 다음 토큰을 예측할 수 있도록 함(2. prediction of following tokens without requiring completion of prior blocks for inter-block parallel decoding.)",
+            "비대칭 증류 과정을 통해 D2F를 구현함(implemented with an asymmetric distillation process based on pre-trained dLLMs.)"
+        ],
+        "conclusion": "D2F를 적용한 dLLMs는 LLaMA3 및 Qwen2.5보다 2.5배 이상의 추론 속도를 달성했으며, 기존 dLLMs보다 50배 이상 빠른 성능을 보이면서 출력 품질을 유지함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
