@@ -1,0 +1,794 @@
+[
+    {
+        "paper": {
+            "id": "2508.10433",
+            "authors": [
+                {
+                    "_id": "689e8afda4caabb4320e5cca",
+                    "name": "Runqi Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5ccb",
+                    "name": "Qiuna Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5ccc",
+                    "name": "Peiqing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5ccd",
+                    "name": "Yanzi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cce",
+                    "name": "Xiaowan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5ccf",
+                    "name": "Enhui Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd0",
+                    "name": "Sitong Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd1",
+                    "name": "Guanting Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd2",
+                    "name": "Yuchen Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd3",
+                    "name": "Yida Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd4",
+                    "name": "Jie Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd5",
+                    "name": "Chong Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd6",
+                    "name": "Chen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e8afda4caabb4320e5cd7",
+                    "name": "Honggang Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/ByDtHPTXv1Xt6pmngd3no.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6683a05e74fb1736a4b7c934/dzhRhIcGJYT-gHIG0J9JU.png"
+            ],
+            "publishedAt": "2025-08-14T08:15:41.000Z",
+            "submittedOnDailyAt": "2025-08-15T01:02:46.436Z",
+            "title": "We-Math 2.0: A Versatile MathBook System for Incentivizing Visual\n  Mathematical Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "6683a05e74fb1736a4b7c934",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6683a05e74fb1736a4b7c934/eiz6qlqIUjAWGy5zfg8Cs.jpeg",
+                "isPro": false,
+                "fullname": "QRQ",
+                "user": "RichardQRQ",
+                "type": "user"
+            },
+            "summary": "Multimodal Large Language Models (MLLMs) have demonstrated impressive\ncapabilities across various tasks, but still struggle with complex mathematical\nreasoning. Existing research primarily focuses on dataset construction and\nmethod optimization, often overlooking two critical aspects: comprehensive\nknowledge-driven design and model-centric data space modeling. In this paper,\nwe introduce We-Math 2.0, a unified system that integrates a structured\nmathematical knowledge system, model-centric data space modeling, and a\nreinforcement learning (RL)-based training paradigm to comprehensively enhance\nthe mathematical reasoning abilities of MLLMs. The key contributions of We-Math\n2.0 are fourfold: (1) MathBook Knowledge System: We construct a five-level\nhierarchical system encompassing 491 knowledge points and 1,819 fundamental\nprinciples. (2) MathBook-Standard & Pro: We develop MathBook-Standard, a\ndataset that ensures broad conceptual coverage and flexibility through dual\nexpansion. Additionally, we define a three-dimensional difficulty space and\ngenerate 7 progressive variants per problem to build MathBook-Pro, a\nchallenging dataset for robust training. (3) MathBook-RL: We propose a\ntwo-stage RL framework comprising: (i) Cold-Start Fine-tuning, which aligns the\nmodel with knowledge-oriented chain-of-thought reasoning; and (ii) Progressive\nAlignment RL, leveraging average-reward learning and dynamic data scheduling to\nachieve progressive alignment across difficulty levels. (4) MathBookEval: We\nintroduce a comprehensive benchmark covering all 491 knowledge points with\ndiverse reasoning step distributions. Experimental results show that\nMathBook-RL performs competitively with existing baselines on four widely-used\nbenchmarks and achieves strong results on MathBookEval, suggesting promising\ngeneralization in mathematical reasoning.",
+            "upvotes": 111,
+            "discussionId": "689e8afea4caabb4320e5cd8",
+            "projectPage": "https://we-math2.github.io/",
+            "githubRepo": "https://github.com/We-Math/We-Math2.0",
+            "ai_summary": "We-Math 2.0 enhances MLLMs' mathematical reasoning through a structured knowledge system, model-centric data space modeling, and reinforcement learning, demonstrating competitive performance on benchmarks.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "MLLMs",
+                "mathematical reasoning",
+                "MathBook Knowledge System",
+                "MathBook-Standard",
+                "MathBook-Pro",
+                "MathBook-RL",
+                "Cold-Start Fine-tuning",
+                "Progressive Alignment RL",
+                "MathBookEval",
+                "chain-of-thought reasoning",
+                "average-reward learning",
+                "dynamic data scheduling"
+            ],
+            "githubStars": 100
+        },
+        "translation_title": "We-Math 2.0: 시각적 수학적 추리를 촉진하는 다재다능한 MathBook 시스템",
+        "purpose": "MLLM의 수학적 추리 능력을 종합적으로 향상시키기 위한 체계적인 방법론 개발",
+        "method": [
+            "5단계 계층 구조의 MathBook Knowledge System을 구축하여 491개의 지식 포인트와 1,819개의 기본 원리를 포함함(We construct a five-level hierarchical system encompassing 491 knowledge points and 1,819 fundamental principles.)",
+            "개념적 범위와 유연성을 보장하는 MathBook-Standard 데이터셋과 난이도 공간을 정의하여 7개의 점진적 변형을 생성하는 MathBook-Pro를 개발함(We develop MathBook-Standard, a dataset that ensures broad conceptual coverage and flexibility through dual expansion.)",
+            "지식 중심의 추론을 위해 두 단계의 RL 프레임워크인 MathBook-RL을 제안하고, 동적인 데이터 스케줄링을 통해 다양한 난이도에 맞춰 모델을 정렬함(We propose a two-stage RL framework comprising: Cold-Start Fine-tuning and Progressive Alignment RL.)",
+            "모든 491개 지식 포인트를 포괄하는 종합 벤치마크 MathBookEval을 도입함(We introduce a comprehensive benchmark covering all 491 knowledge points with diverse reasoning step distributions.)"
+        ],
+        "conclusion": "MathBook-RL은 기존의 기준선과 경쟁력을 가지고 있으며, MathBookEval에서 강력한 성과를 보임으로써 수학적 추리의 일반화 가능성이 높음을 시사함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10711",
+            "authors": [
+                {
+                    "_id": "689ea023a4caabb4320e5d43",
+                    "name": "NextStep Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d44",
+                    "name": "Chunrui Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d45",
+                    "name": "Guopeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d46",
+                    "name": "Jingwei Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d47",
+                    "name": "Quan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d48",
+                    "name": "Yan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d49",
+                    "name": "Yuang Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4a",
+                    "name": "Zheng Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4b",
+                    "name": "Deyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4c",
+                    "name": "Haomiao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4d",
+                    "name": "Hongyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4e",
+                    "name": "Kenkun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d4f",
+                    "name": "Ailin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d50",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d51",
+                    "name": "Changxin Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d52",
+                    "name": "Deshan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d53",
+                    "name": "En Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d54",
+                    "name": "Fukun Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d55",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d56",
+                    "name": "Hao Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d57",
+                    "name": "Haoran Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d58",
+                    "name": "Hanpeng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d59",
+                    "name": "Jia Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5a",
+                    "name": "Jian Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5b",
+                    "name": "Jianjian Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5c",
+                    "name": "Kaijun Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5d",
+                    "name": "Kang An",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5e",
+                    "name": "Kangheng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d5f",
+                    "name": "Liang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d60",
+                    "name": "Mei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d61",
+                    "name": "Peng Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d62",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d63",
+                    "name": "Shiyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d64",
+                    "name": "Shutao Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d65",
+                    "name": "Tianhao You",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d66",
+                    "name": "Wei Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d67",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d68",
+                    "name": "Xin Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d69",
+                    "name": "Xuelin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6a",
+                    "name": "Yana Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6b",
+                    "name": "Yanming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6c",
+                    "name": "Yimin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6d",
+                    "name": "Yingming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6e",
+                    "name": "Yu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d6f",
+                    "name": "Yucheng Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d70",
+                    "name": "Ziyang Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d71",
+                    "name": "Binxing Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d72",
+                    "name": "Daxin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d73",
+                    "name": "Xiangyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ea023a4caabb4320e5d74",
+                    "name": "Yibo Zhu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T14:54:22.000Z",
+            "submittedOnDailyAt": "2025-08-15T01:41:51.831Z",
+            "title": "NextStep-1: Toward Autoregressive Image Generation with Continuous\n  Tokens at Scale",
+            "submittedOnDailyBy": {
+                "_id": "631ee086c1a8269da39265c6",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/631ee086c1a8269da39265c6/wUa1epGtTGcUv2mvrLUcD.png",
+                "isPro": false,
+                "fullname": "Yuang Peng",
+                "user": "yuangpeng",
+                "type": "user"
+            },
+            "summary": "Prevailing autoregressive (AR) models for text-to-image generation either\nrely on heavy, computationally-intensive diffusion models to process continuous\nimage tokens, or employ vector quantization (VQ) to obtain discrete tokens with\nquantization loss. In this paper, we push the autoregressive paradigm forward\nwith NextStep-1, a 14B autoregressive model paired with a 157M flow matching\nhead, training on discrete text tokens and continuous image tokens with\nnext-token prediction objectives. NextStep-1 achieves state-of-the-art\nperformance for autoregressive models in text-to-image generation tasks,\nexhibiting strong capabilities in high-fidelity image synthesis. Furthermore,\nour method shows strong performance in image editing, highlighting the power\nand versatility of our unified approach. To facilitate open research, we will\nrelease our code and models to the community.",
+            "upvotes": 93,
+            "discussionId": "689ea024a4caabb4320e5d75",
+            "projectPage": "https://stepfun.ai/research/en/nextstep1",
+            "githubRepo": "https://github.com/stepfun-ai/NextStep-1",
+            "ai_summary": "NextStep-1, a 14B autoregressive model with a 157M flow matching head, achieves state-of-the-art performance in text-to-image generation and image editing by processing discrete text tokens and continuous image tokens.",
+            "ai_keywords": [
+                "autoregressive models",
+                "diffusion models",
+                "vector quantization",
+                "flow matching",
+                "next-token prediction",
+                "high-fidelity image synthesis",
+                "image editing"
+            ],
+            "githubStars": 244
+        },
+        "translation_title": "NextStep-1: 연속적인 토큰을 이용한 대규모 자율 회귀 이미지 생성 방향",
+        "purpose": "연속 이미지 토큰 처리에서의 계산 부담을 줄이면서 높은 품질의 이미지를 생성하는 자율 회귀 모델 개발",
+        "method": [
+            "NextStep-1은 14B 자율 회귀 모델과 157M 흐름 매칭 헤드를 결합하여 훈련됨(we push the autoregressive paradigm forward with NextStep-1, a 14B autoregressive model paired with a 157M flow matching head, training on discrete text tokens and continuous image tokens with next-token prediction objectives.)",
+            "NextStep-1은 텍스트-이미지 생성 태스크에서 최신 성능을 달성함(NextStep-1 achieves state-of-the-art performance for autoregressive models in text-to-image generation tasks.)",
+            "고품질 이미지 합성을 보여주는 이미지 편집에서도 뛰어난 성능을 보임(our method shows strong performance in image editing, highlighting the power and versatility of our unified approach.)"
+        ],
+        "conclusion": "NextStep-1은 고품질 이미지를 효과적으로 생성하며, 코드와 모델을 공개하여 연구 커뮤니티에 기여할 예정.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10881",
+            "authors": [
+                {
+                    "_id": "689ede65a4caabb4320e5e36",
+                    "name": "Lingen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e37",
+                    "name": "Guangzhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e38",
+                    "name": "Zhaoyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e39",
+                    "name": "Yaowei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e3a",
+                    "name": "Xiaoyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e3b",
+                    "name": "Qi Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e3c",
+                    "name": "Jinwei Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e3d",
+                    "name": "Tianfan Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "689ede65a4caabb4320e5e3e",
+                    "name": "Ying Shan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T17:50:11.000Z",
+            "submittedOnDailyAt": "2025-08-15T06:05:45.449Z",
+            "title": "ToonComposer: Streamlining Cartoon Production with Generative\n  Post-Keyframing",
+            "submittedOnDailyBy": {
+                "_id": "66837d3c48edefb453b0640a",
+                "avatarUrl": "/avatars/b16385eaa612578728e2c6460a76b38f.svg",
+                "isPro": false,
+                "fullname": "Lingen Li",
+                "user": "l-li",
+                "type": "user"
+            },
+            "summary": "Traditional cartoon and anime production involves keyframing, inbetweening,\nand colorization stages, which require intensive manual effort. Despite recent\nadvances in AI, existing methods often handle these stages separately, leading\nto error accumulation and artifacts. For instance, inbetweening approaches\nstruggle with large motions, while colorization methods require dense per-frame\nsketches. To address this, we introduce ToonComposer, a generative model that\nunifies inbetweening and colorization into a single post-keyframing stage.\nToonComposer employs a sparse sketch injection mechanism to provide precise\ncontrol using keyframe sketches. Additionally, it uses a cartoon adaptation\nmethod with the spatial low-rank adapter to tailor a modern video foundation\nmodel to the cartoon domain while keeping its temporal prior intact. Requiring\nas few as a single sketch and a colored reference frame, ToonComposer excels\nwith sparse inputs, while also supporting multiple sketches at any temporal\nlocation for more precise motion control. This dual capability reduces manual\nworkload and improves flexibility, empowering artists in real-world scenarios.\nTo evaluate our model, we further created PKBench, a benchmark featuring\nhuman-drawn sketches that simulate real-world use cases. Our evaluation\ndemonstrates that ToonComposer outperforms existing methods in visual quality,\nmotion consistency, and production efficiency, offering a superior and more\nflexible solution for AI-assisted cartoon production.",
+            "upvotes": 30,
+            "discussionId": "689ede65a4caabb4320e5e3f",
+            "projectPage": "https://lg-li.github.io/project/tooncomposer",
+            "githubRepo": "https://github.com/TencentARC/ToonComposer",
+            "ai_summary": "ToonComposer is a generative model that unifies inbetweening and colorization in cartoon production, using sparse sketches and a cartoon adaptation method to improve visual quality and efficiency.",
+            "ai_keywords": [
+                "sparse sketch injection",
+                "cartoon adaptation",
+                "spatial low-rank adapter",
+                "video foundation model",
+                "PKBench",
+                "visual quality",
+                "motion consistency",
+                "production efficiency"
+            ],
+            "githubStars": 46
+        },
+        "translation_title": "ToonComposer: 생성적 포스트 키프레임으로 만화 제작 간소화하기",
+        "purpose": "만화와 애니메이션 제작의 수작업을 줄이고 효율성을 높이기 위한 통합 모델 개발",
+        "method": [
+            "ToonComposer라는 생성 모델을 소개하여 인비트윈(inbetweening)과 색칠(colorization) 단계를 통합함(To address this, we introduce ToonComposer, a generative model that unifies inbetweening and colorization into a single post-keyframing stage.)",
+            "희소 스케치 주입 메커니즘을 활용해 키프레임 스케치를 기반으로 정확한 제어를 제공함(ToonComposer employs a sparse sketch injection mechanism to provide precise control using keyframe sketches.)",
+            "현대 비디오 기반 모델을 만화 도메인에 맞추기 위해 저차원 공간 적응 방법을 사용함(Additionally, it uses a cartoon adaptation method with the spatial low-rank adapter to tailor a modern video foundation model to the cartoon domain while keeping its temporal prior intact.)",
+            "PKBench라는 벤치마크를 만들어 실제 사용 사례를 시뮬레이션한 인간이 그린 스케치를 평가에 사용함(To evaluate our model, we further created PKBench, a benchmark featuring human-drawn sketches that simulate real-world use cases.)"
+        ],
+        "conclusion": "ToonComposer는 시각적 품질, 동작 일관성, 제작 효율성 면에서 기존 방법보다 우수한 성능을 보여주며, AI 지원 만화 제작을 위한 보다 유연한 해결책을 제공함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.09848",
+            "authors": [
+                {
+                    "_id": "689dc868b083e610d741eb30",
+                    "name": "Mo Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb31",
+                    "name": "Tsz Ting Chung",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb32",
+                    "name": "Chulun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb33",
+                    "name": "Tong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb34",
+                    "name": "Rui Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb35",
+                    "name": "Jiangnan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb36",
+                    "name": "Liyan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb37",
+                    "name": "Haoshu Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb38",
+                    "name": "Ning Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb39",
+                    "name": "Jing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "689dc868b083e610d741eb3a",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-13T14:28:25.000Z",
+            "submittedOnDailyAt": "2025-08-15T01:12:28.551Z",
+            "title": "PRELUDE: A Benchmark Designed to Require Global Comprehension and\n  Reasoning over Long Contexts",
+            "submittedOnDailyBy": {
+                "_id": "60ab6b2ee3de7c7440abb845",
+                "avatarUrl": "/avatars/22916bece3b5b951c016bf2ddd8dda1c.svg",
+                "isPro": false,
+                "fullname": "Cindy",
+                "user": "ttchungc",
+                "type": "user"
+            },
+            "summary": "We introduce PRELUDE, a benchmark for evaluating long-context understanding\nthrough the task of determining whether a character's prequel story is\nconsistent with the canonical narrative of the original book. Our task poses a\nstronger demand for global comprehension and deep reasoning than existing\nbenchmarks -- as the prequels are not part of the original story, assessing\ntheir plausibility typically requires searching and integrating information\nthat is only indirectly related. Empirically, 88% of instances require evidence\nfrom multiple parts of the narrative. Experimental results highlight the\nchallenge of our task: in-context learning, RAG and in-domain training with\nstate-of-the-art LLMs, and commercial DeepResearch services, lag behind humans\nby >15%. A further human study reveals that models often produce correct\nanswers with flawed reasoning, leading to an over 30% gap in reasoning accuracy\ncompared to humans. These findings underscore the substantial room for\nimprovement in long-context understanding and reasoning.",
+            "upvotes": 28,
+            "discussionId": "689dc869b083e610d741eb3b",
+            "projectPage": "https://gorov.github.io/prelude",
+            "ai_summary": "A benchmark called PRELUDE evaluates long-context understanding by assessing the consistency of prequel stories with original books, revealing significant challenges for models compared to humans.",
+            "ai_keywords": [
+                "PRELUDE",
+                "long-context understanding",
+                "in-context learning",
+                "RAG",
+                "state-of-the-art LLMs",
+                "DeepResearch",
+                "reasoning accuracy"
+            ]
+        },
+        "translation_title": "PRELUDE: 글로벌 이해 및 긴 맥락에 대한 추론을 요구하는 벤치마크",
+        "purpose": "문맥을 이해하고 긴 이야기에서의 일관성을 평가하기 위한 벤치마크 개발",
+        "method": [
+            "PRELUDE라는 벤치마크를 통해 캐릭터의 전작 이야기가 원작 내러티브와 일치하는지를 평가하는 작업을 제안함(We introduce PRELUDE, a benchmark for evaluating long-context understanding through the task of determining whether a character's prequel story is consistent with the canonical narrative of the original book.)",
+            "이 작업은 기존 벤치마크보다 글로벌 이해와 심층 추론을 더 요구함(Our task poses a stronger demand for global comprehension and deep reasoning than existing benchmarks.)",
+            "실험적 결과는 모델들이 인간보다 15% 이상 낮은 성과를 보이며, 정확한 답변을 주지만 불완전한 추론을 하여 30%의 차이를 보임으로써 개선이 필요하다는 것을 강조함(Experimental results highlight the challenge of our task: ... leading to an over 30% gap in reasoning accuracy compared to humans.)"
+        ],
+        "conclusion": "긴 맥락에 대한 이해와 추론에서 상당한 개선 여지가 있다는 것을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10833",
+            "authors": [
+                {
+                    "_id": "689e97cda4caabb4320e5ce7",
+                    "name": "Zhangxuan Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5ce8",
+                    "name": "Zhengwen Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5ce9",
+                    "name": "Zhenyu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cea",
+                    "name": "Xingran Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5ceb",
+                    "name": "Shuheng Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cec",
+                    "name": "Yunfei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5ced",
+                    "name": "Beitong Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cee",
+                    "name": "Changhua Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cef",
+                    "name": "Tianyu Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf0",
+                    "name": "Weizhi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf1",
+                    "name": "Yue Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf2",
+                    "name": "Jingya Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf3",
+                    "name": "Fei Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf4",
+                    "name": "Jinzhen Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf5",
+                    "name": "Yulin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf6",
+                    "name": "Zhenlin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf7",
+                    "name": "Yichen Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf8",
+                    "name": "Heng Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cf9",
+                    "name": "Changlong Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cfa",
+                    "name": "Yuan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cfb",
+                    "name": "Yong Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cfc",
+                    "name": "Zhenyu Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cfd",
+                    "name": "Liang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "689e97cda4caabb4320e5cfe",
+                    "name": "Weiqiang Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T16:58:07.000Z",
+            "submittedOnDailyAt": "2025-08-15T01:21:22.553Z",
+            "title": "UI-Venus Technical Report: Building High-performance UI Agents with RFT",
+            "submittedOnDailyBy": {
+                "_id": "60d2a2984956988b63753371",
+                "avatarUrl": "/avatars/412879e82a5bfc88431d8aa561acf26a.svg",
+                "isPro": false,
+                "fullname": "zhangxgu",
+                "user": "zhangxgu",
+                "type": "user"
+            },
+            "summary": "We present UI-Venus, a native UI agent that takes only screenshots as input\nbased on a multimodal large language model. UI-Venus achieves SOTA performance\non both UI grounding and navigation tasks using only several hundred thousand\nhigh-quality training samples through reinforcement finetune (RFT) based on\nQwen2.5-VL. Specifically, the 7B and 72B variants of UI-Venus obtain 94.1% /\n50.8% and 95.3% / 61.9% on the standard grounding benchmarks, i.e.,\nScreenspot-V2 / Pro, surpassing the previous SOTA baselines including\nopen-source GTA1 and closed-source UI-TARS-1.5.To show UI-Venus's summary and\nplaning ability, we also evaluate it on the AndroidWorld, an online UI\nnavigation arena, on which our 7B and 72B variants achieve 49.1% and 65.9%\nsuccess rate, also beating existing models.To achieve this, we introduce\ncarefully designed reward functions for both UI grounding and navigation tasks\nand corresponding efficient data cleaning strategies.To further boost\nnavigation performance, we propose Self-Evolving Trajectory History Alignment\n\\& Sparse Action Enhancement that refine historical reasoning traces and\nbalances the distribution of sparse but critical actions, leading to more\ncoherent planning and better generalization in complex UI tasks. Our\ncontributions include the publish of SOTA open-source UI agents, comprehensive\ndata cleaning protocols and a novel self-evolving framework for improving\nnavigation performance, which encourage further research and development in the\ncommunity. Code is available at https://github.com/antgroup/UI-Venus.",
+            "upvotes": 18,
+            "discussionId": "689e97cda4caabb4320e5cff",
+            "projectPage": "https://github.com/inclusionAI/UI-Venus",
+            "githubRepo": "https://github.com/inclusionAI/UI-Venus",
+            "ai_summary": "UI-Venus, a multimodal large language model-based UI agent, achieves state-of-the-art performance in UI grounding and navigation tasks using reinforcement fine-tuning and novel self-evolving frameworks.",
+            "ai_keywords": [
+                "multimodal large language model",
+                "reinforcement finetune",
+                "Qwen2.5-VL",
+                "UI grounding",
+                "navigation tasks",
+                "Screenspot-V2",
+                "Pro",
+                "AndroidWorld",
+                "reward functions",
+                "data cleaning strategies",
+                "Self-Evolving Trajectory History Alignment",
+                "Sparse Action Enhancement"
+            ],
+            "githubStars": 0
+        },
+        "translation_title": "UI-Venus 기술 보고서: RFT로 고성능 UI 에이전트 구축하기",
+        "purpose": "UI grounding 및 내비게이션 작업에서 최고의 성능을 갖춘 UI 에이전트를 개발하기 위한 연구",
+        "method": [
+            "멀티모달 대형 언어 모델을 기반으로 스크린샷만을 입력으로 사용하는 UI-Venus를 개발함(We present UI-Venus, a native UI agent that takes only screenshots as input based on a multimodal large language model.)",
+            "Qwen2.5-VL을 기반으로 한 강화 학습(RFT)으로 고품질 훈련 샘플 수십만 개를 사용하여 SOTA 성능을 달성함(UI-Venus achieves SOTA performance on both UI grounding and navigation tasks using only several hundred thousand high-quality training samples through reinforcement finetune (RFT) based on Qwen2.5-VL.)",
+            "UI grounding 및 내비게이션 작업을 위한 세심하게 설계된 보상 함수와 효율적인 데이터 정제 전략을 도입함(To achieve this, we introduce carefully designed reward functions for both UI grounding and navigation tasks and corresponding efficient data cleaning strategies.)",
+            "자기 발전하는 궤적 역사 정렬(Self-Evolving Trajectory History Alignment) 및 드문 행동 강화(Sparse Action Enhancement) 기법을 통해 내비게이션 성능을 향상시킴(To further boost navigation performance, we propose Self-Evolving Trajectory History Alignment & Sparse Action Enhancement...)"
+        ],
+        "conclusion": "UI-Venus는 SOTA 오픈 소스 UI 에이전트를 출판하고, 내비게이션 성능 향상을 위한 새로운 자기 발전 프레임워크를 제안하여 커뮤니티의 연구 및 개발을 촉진함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    }
+]
