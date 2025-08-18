@@ -1,0 +1,661 @@
+[
+    {
+        "paper": {
+            "id": "2508.11630",
+            "authors": [
+                {
+                    "_id": "68a286afa4caabb4320e63b6",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63b7",
+                    "name": "Xingyu Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63b8",
+                    "name": "Shukang Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63b9",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63ba",
+                    "name": "Wei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63bb",
+                    "name": "Xiao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63bc",
+                    "name": "Bin Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63bd",
+                    "name": "Kaiyu Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63be",
+                    "name": "Changyi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63bf",
+                    "name": "Tianke Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c0",
+                    "name": "Haonan Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c1",
+                    "name": "Kaibing Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c2",
+                    "name": "Jiankang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c3",
+                    "name": "Haojie Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c4",
+                    "name": "Kaiyu Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c5",
+                    "name": "Zhang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c6",
+                    "name": "Liang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c7",
+                    "name": "Fan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c8",
+                    "name": "Tingting Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a286afa4caabb4320e63c9",
+                    "name": "Guorui Zhou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/623d8ca4c29adf5ef6175615/EugCupc41u3ZdJyP6uqWm.png"
+            ],
+            "publishedAt": "2025-08-15T17:59:49.000Z",
+            "submittedOnDailyAt": "2025-08-18T00:21:09.935Z",
+            "title": "Thyme: Think Beyond Images",
+            "submittedOnDailyBy": {
+                "_id": "623d8ca4c29adf5ef6175615",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+                "isPro": false,
+                "fullname": "Yi-Fan Zhang",
+                "user": "yifanzhang114",
+                "type": "user"
+            },
+            "summary": "Following OpenAI's introduction of the ``thinking with images'' concept,\nrecent efforts have explored stimulating the use of visual information in the\nreasoning process to enhance model performance in perception and reasoning\ntasks. However, to the best of our knowledge, no open-source work currently\noffers a feature set as rich as proprietary models (O3), which can perform\ndiverse image manipulations and simultaneously enhance logical reasoning\ncapabilities through code. In this paper, we make a preliminary attempt in this\ndirection by introducing Thyme (Think Beyond Images), a novel paradigm for\nenabling MLLMs to transcend existing ``think with images'' approaches by\nautonomously generating and executing diverse image processing and\ncomputational operations via executable code. This approach not only\nfacilitates a rich, on-the-fly set of image manipulations (e.g., cropping,\nrotation, contrast enhancement) but also allows for mathematical computations,\nall while maintaining high autonomy in deciding when and how to apply these\noperations. We activate this capability through a two-stage training strategy:\nan initial SFT on a curated dataset of 500K samples to teach code generation,\nfollowed by a RL phase to refine decision-making. For the RL stage, we manually\ncollect and design high-resolution question-answer pairs to increase the\nlearning difficulty, and we propose GRPO-ATS (Group Relative Policy\nOptimization with Adaptive Temperature Sampling), an algorithm that applies\ndistinct temperatures to text and code generation to balance reasoning\nexploration with code execution precision. We conduct extensive experimental\nanalysis and ablation studies. Comprehensive evaluations on nearly 20\nbenchmarks show that Thyme yields significant and consistent performance gains,\nparticularly in challenging high-resolution perception and complex reasoning\ntasks.",
+            "upvotes": 49,
+            "discussionId": "68a286afa4caabb4320e63ca",
+            "projectPage": "https://thyme-vl.github.io/",
+            "githubRepo": "https://github.com/yfzhang114/Thyme",
+            "ai_summary": "Thyme, a novel paradigm, enables MLLMs to autonomously perform image manipulations and computations, enhancing performance in perception and reasoning tasks through a two-stage training strategy and GRPO-ATS algorithm.",
+            "ai_keywords": [
+                "MLLMs",
+                "think with images",
+                "image processing",
+                "computational operations",
+                "executable code",
+                "SFT",
+                "RL",
+                "GRPO-ATS",
+                "Group Relative Policy Optimization",
+                "Adaptive Temperature Sampling"
+            ],
+            "githubStars": 97
+        },
+        "translation_title": "Thyme: 이미지를 넘어서 생각하기",
+        "purpose": "MLLM이 기존의 '이미지로 생각하기' 접근 방식을 초월하여 다양한 이미지 처리 및 계산 작업을 자동으로 생성하고 실행할 수 있도록 지원함.",
+        "method": [
+            "500K 샘플의 데이터셋으로 코드 생성을 가르치는 초기 SFT(Supervised Fine-Tuning)를 수행함(We activate this capability through a two-stage training strategy: an initial SFT on a curated dataset of 500K samples to teach code generation.)",
+            "결정력을 향상시키기 위한 RL(Reinforcement Learning) 단계를 진행함(followed by a RL phase to refine decision-making).",
+            "GRPO-ATS 알고리즘을 통해 텍스트와 코드 생성을 균형 있게 조절함(we propose GRPO-ATS (Group Relative Policy Optimization with Adaptive Temperature Sampling), an algorithm that applies distinct temperatures to text and code generation to balance reasoning exploration with code execution precision.)"
+        ],
+        "conclusion": "Thyme은 고해상도 인식 및 복잡한 추론 작업에서 상당한 성능 개선을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10874",
+            "authors": [
+                {
+                    "_id": "68a2e369a4caabb4320e64da",
+                    "name": "Yuchen Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64db",
+                    "name": "Kaiyan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64dc",
+                    "name": "Heng Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64dd",
+                    "name": "Yuxin Zuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64de",
+                    "name": "Yanxu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64df",
+                    "name": "Yu Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e0",
+                    "name": "Xinwei Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e1",
+                    "name": "Xuekai Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e2",
+                    "name": "Che Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e3",
+                    "name": "Yuchen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e4",
+                    "name": "Li Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e5",
+                    "name": "Gang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e6",
+                    "name": "Cheng Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e7",
+                    "name": "Zhizhou He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e8",
+                    "name": "Bingning Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64e9",
+                    "name": "Lei Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64ea",
+                    "name": "Ning Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a2e369a4caabb4320e64eb",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T17:46:01.000Z",
+            "submittedOnDailyAt": "2025-08-18T07:21:52.685Z",
+            "title": "SSRL: Self-Search Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "672c2d7816766a76a747b7b5",
+                "avatarUrl": "/avatars/12c7b26d2b81721ccac3a5c71e32a1a1.svg",
+                "isPro": false,
+                "fullname": "Yuchen Fan",
+                "user": "yuchenFan",
+                "type": "user"
+            },
+            "summary": "We investigate the potential of large language models (LLMs) to serve as\nefficient simulators for agentic search tasks in reinforcement learning (RL),\nthereby reducing dependence on costly interactions with external search\nengines. To this end, we first quantify the intrinsic search capability of LLMs\nvia structured prompting and repeated sampling, which we term Self-Search. Our\nresults reveal that LLMs exhibit strong scaling behavior with respect to the\ninference budget, achieving high pass@k on question-answering benchmarks,\nincluding the challenging BrowseComp task. Building on these observations, we\nintroduce Self-Search RL (SSRL), which enhances LLMs' Self-Search capability\nthrough format-based and rule-based rewards. SSRL enables models to iteratively\nrefine their knowledge utilization internally, without requiring access to\nexternal tools. Empirical evaluations demonstrate that SSRL-trained policy\nmodels provide a cost-effective and stable environment for search-driven RL\ntraining, reducing reliance on external search engines and facilitating robust\nsim-to-real transfer. We draw the following conclusions: 1) LLMs possess world\nknowledge that can be effectively elicited to achieve high performance; 2) SSRL\ndemonstrates the potential of leveraging internal knowledge to reduce\nhallucination; 3) SSRL-trained models integrate seamlessly with external search\nengines without additional effort. Our findings highlight the potential of LLMs\nto support more scalable RL agent training.",
+            "upvotes": 45,
+            "discussionId": "68a2e369a4caabb4320e64ec",
+            "projectPage": "https://huggingface.co/collections/TsinghuaC3I/ssrl-6899957a64d4a31f7f43bc88",
+            "githubRepo": "https://github.com/TsinghuaC3I/SSRL",
+            "ai_summary": "LLMs can serve as efficient simulators for RL tasks by leveraging internal knowledge, reducing reliance on external search engines and improving sim-to-real transfer.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "reinforcement learning",
+                "RL",
+                "Self-Search",
+                "pass@k",
+                "BrowseComp",
+                "Self-Search RL",
+                "SSRL",
+                "format-based rewards",
+                "rule-based rewards",
+                "hallucination"
+            ],
+            "githubStars": 31
+        },
+        "translation_title": "SSRL: Self-Search 강화 학습",
+        "purpose": "비용이 많이 드는 외부 검색 엔진의 의존도를 줄이기 위해 LLMs를 효율적인 시뮬레이터로 활용하기 위한 연구",
+        "method": [
+            "구조화된 프롬프트와 반복 샘플링을 통해 LLMs의 내재적 검색 능력을 정량화함(Self-Search).",
+            "Self-Search 기능을 강화하기 위해 포맷 기반 및 규칙 기반 보상을 도입하여 Self-Search RL(SSRL)을 개발함.",
+            "SSRL 훈련된 정책 모델이 검색 기반 RL 훈련을 위한 비용 효율적이고 안정적인 환경을 제공함을 실험적으로 입증함."
+        ],
+        "conclusion": "LLMs는 강력한 세계 지식을 가지며 이를 통해 높은 성능을 달성할 수 있고, SSRL은 내부 지식을 활용하여 환각을 줄이는 데 도움을 주며, 외부 검색 엔진과의 통합도 원활하게 지원함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10104",
+            "authors": [
+                {
+                    "_id": "689efc0ba4caabb4320e5e86",
+                    "name": "Oriane Siméoni",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e87",
+                    "name": "Huy V. Vo",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e88",
+                    "name": "Maximilian Seitzer",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e89",
+                    "name": "Federico Baldassarre",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8a",
+                    "name": "Maxime Oquab",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8b",
+                    "name": "Cijo Jose",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8c",
+                    "name": "Vasil Khalidov",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8d",
+                    "name": "Marc Szafraniec",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8e",
+                    "name": "Seungeun Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e8f",
+                    "name": "Michaël Ramamonjisoa",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e90",
+                    "name": "Francisco Massa",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e91",
+                    "name": "Daniel Haziza",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e92",
+                    "name": "Luca Wehrstedt",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e93",
+                    "name": "Jianyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e94",
+                    "name": "Timothée Darcet",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e95",
+                    "name": "Théo Moutakanni",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e96",
+                    "name": "Leonel Sentana",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e97",
+                    "name": "Claire Roberts",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e98",
+                    "name": "Andrea Vedaldi",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e99",
+                    "name": "Jamie Tolan",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9a",
+                    "name": "John Brandt",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9b",
+                    "name": "Camille Couprie",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9c",
+                    "name": "Julien Mairal",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9d",
+                    "name": "Hervé Jégou",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9e",
+                    "name": "Patrick Labatut",
+                    "hidden": false
+                },
+                {
+                    "_id": "689efc0ba4caabb4320e5e9f",
+                    "name": "Piotr Bojanowski",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-13T18:00:55.000Z",
+            "submittedOnDailyAt": "2025-08-18T07:19:00.667Z",
+            "title": "DINOv3",
+            "submittedOnDailyBy": {
+                "_id": "5f1158120c833276f61f1a84",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg",
+                "isPro": true,
+                "fullname": "Niels Rogge",
+                "user": "nielsr",
+                "type": "user"
+            },
+            "summary": "Self-supervised learning holds the promise of eliminating the need for manual\ndata annotation, enabling models to scale effortlessly to massive datasets and\nlarger architectures. By not being tailored to specific tasks or domains, this\ntraining paradigm has the potential to learn visual representations from\ndiverse sources, ranging from natural to aerial images -- using a single\nalgorithm. This technical report introduces DINOv3, a major milestone toward\nrealizing this vision by leveraging simple yet effective strategies. First, we\nleverage the benefit of scaling both dataset and model size by careful data\npreparation, design, and optimization. Second, we introduce a new method called\nGram anchoring, which effectively addresses the known yet unsolved issue of\ndense feature maps degrading during long training schedules. Finally, we apply\npost-hoc strategies that further enhance our models' flexibility with respect\nto resolution, model size, and alignment with text. As a result, we present a\nversatile vision foundation model that outperforms the specialized state of the\nart across a broad range of settings, without fine-tuning. DINOv3 produces\nhigh-quality dense features that achieve outstanding performance on various\nvision tasks, significantly surpassing previous self- and weakly-supervised\nfoundation models. We also share the DINOv3 suite of vision models, designed to\nadvance the state of the art on a wide spectrum of tasks and data by providing\nscalable solutions for diverse resource constraints and deployment scenarios.",
+            "upvotes": 34,
+            "discussionId": "689efc0ba4caabb4320e5ea0",
+            "projectPage": "https://ai.meta.com/blog/dinov3-self-supervised-vision-model/",
+            "githubRepo": "https://github.com/facebookresearch/dinov3",
+            "ai_summary": "DINOv3, a self-supervised learning model, achieves superior performance across various vision tasks by scaling datasets and models, addressing dense feature degradation, and enhancing flexibility with post-hoc strategies.",
+            "ai_keywords": [
+                "self-supervised learning",
+                "DINOv3",
+                "data preparation",
+                "design",
+                "optimization",
+                "Gram anchoring",
+                "dense feature maps",
+                "post-hoc strategies",
+                "vision foundation model",
+                "high-quality dense features",
+                "vision tasks",
+                "weakly-supervised foundation models",
+                "scalable solutions",
+                "deployment scenarios"
+            ],
+            "githubStars": 4601
+        },
+        "translation_title": "DINOv3",
+        "purpose": "수동 데이터 주석 없이 대규모 데이터셋과 모델 크기를 손쉽게 확장할 수 있는 모델 개발",
+        "method": [
+            "데이터 준비, 설계 및 최적화를 통해 데이터셋과 모델 크기 확장 이점을 활용함.(First, we leverage the benefit of scaling both dataset and model size by careful data preparation, design, and optimization.)",
+            "Gram anchoring이라는 새로운 방법을 도입하여 긴 훈련 일정 중 밀집 특성 맵의 감소 문제를 효과적으로 해결함.(Second, we introduce a new method called Gram anchoring, which effectively addresses the known yet unsolved issue of dense feature maps degrading during long training schedules.)",
+            "모델의 해상도, 크기 및 텍스트 정렬에 관한 유연성을 더욱 향상시키는 후속 전략을 적용함.(Finally, we apply post-hoc strategies that further enhance our models' flexibility with respect to resolution, model size, and alignment with text.)"
+        ],
+        "conclusion": "DINOv3는 다양한 비전 작업에서 뛰어난 성능을 제공하며, 이전의 자가 및 약한 감독 기초 모델보다 월등한 성과를 달성함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.11116",
+            "authors": [
+                {
+                    "_id": "68a28285a4caabb4320e63ae",
+                    "user": {
+                        "_id": "63664c8fa2abcdf2fd6425ed",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63664c8fa2abcdf2fd6425ed/IywpB0DXZ_twkmZmVSCCD.jpeg",
+                        "isPro": false,
+                        "fullname": "Li Zhuoqun",
+                        "user": "lzq2021",
+                        "type": "user"
+                    },
+                    "name": "Zhuoqun Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-18T06:54:00.985Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a28285a4caabb4320e63af",
+                    "name": "Xuanang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a28285a4caabb4320e63b0",
+                    "name": "Hongyu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a28285a4caabb4320e63b1",
+                    "name": "Yaojie Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a28285a4caabb4320e63b2",
+                    "name": "Xianpei Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a28285a4caabb4320e63b3",
+                    "name": "Le Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T23:43:46.000Z",
+            "submittedOnDailyAt": "2025-08-18T00:02:29.714Z",
+            "title": "PaperRegister: Boosting Flexible-grained Paper Search via Hierarchical\n  Register Indexing",
+            "submittedOnDailyBy": {
+                "_id": "63664c8fa2abcdf2fd6425ed",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63664c8fa2abcdf2fd6425ed/IywpB0DXZ_twkmZmVSCCD.jpeg",
+                "isPro": false,
+                "fullname": "Li Zhuoqun",
+                "user": "lzq2021",
+                "type": "user"
+            },
+            "summary": "Paper search is an important activity for researchers, typically involving\nusing a query with description of a topic to find relevant papers. As research\ndeepens, paper search requirements may become more flexible, sometimes\ninvolving specific details such as module configuration rather than being\nlimited to coarse-grained topics. However, previous paper search systems are\nunable to meet these flexible-grained requirements, as these systems mainly\ncollect paper abstracts to construct index of corpus, which lack detailed\ninformation to support retrieval by finer-grained queries. In this work, we\npropose PaperRegister, consisted of offline hierarchical indexing and online\nadaptive retrieval, transforming traditional abstract-based index into\nhierarchical index tree for paper search, thereby supporting queries at\nflexible granularity. Experiments on paper search tasks across a range of\ngranularity demonstrate that PaperRegister achieves the state-of-the-art\nperformance, and particularly excels in fine-grained scenarios, highlighting\nthe good potential as an effective solution for flexible-grained paper search\nin real-world applications. Code for this work is in\nhttps://github.com/Li-Z-Q/PaperRegister.",
+            "upvotes": 18,
+            "discussionId": "68a28285a4caabb4320e63b4",
+            "githubRepo": "https://github.com/Li-Z-Q/PaperRegister",
+            "ai_summary": "PaperRegister enhances paper search by using hierarchical indexing and adaptive retrieval, supporting flexible and fine-grained queries beyond traditional abstract-based systems.",
+            "ai_keywords": [
+                "hierarchical indexing",
+                "adaptive retrieval",
+                "fine-grained queries"
+            ],
+            "githubStars": 2
+        },
+        "translation_title": "PaperRegister: 계층적 색인화를 통한 유연한 논문 검색 향상",
+        "purpose": "유연한 질의를 지원하는 효과적인 논문 검색 솔루션 개발",
+        "method": [
+            "전통적인 초록 기반 색인을 계층적 색인 트리로 변환함(we propose PaperRegister, consisted of offline hierarchical indexing and online adaptive retrieval, transforming traditional abstract-based index into hierarchical index tree for paper search)",
+            "오프라인 계층적 색인 및 온라인 적응 검색을 통해 세부 질의 지원(Improvements include offline hierarchical indexing and online adaptive retrieval to support queries at flexible granularity)",
+            "다양한 세부 사항을 포함한 논문 검색 실험을 통해 성능을 평가함(Experiments on paper search tasks across a range of granularity demonstrate that PaperRegister achieves the state-of-the-art performance)"
+        ],
+        "conclusion": "PaperRegister는 유연한 세부 수준의 논문 검색에서 최첨단 성능을 달성하며, 실제 응용 프로그램에서 효과적인 솔루션으로서의 가능성을 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Document Parsing",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.10395",
+            "authors": [
+                {
+                    "_id": "68a1e494a4caabb4320e6268",
+                    "name": "Aditya Tomar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e6269",
+                    "name": "Coleman Hooper",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626a",
+                    "name": "Minjae Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626b",
+                    "name": "Haocheng Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626c",
+                    "name": "Rishabh Tiwari",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626d",
+                    "name": "Wonjun Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626e",
+                    "name": "Luca Manolache",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e626f",
+                    "name": "Michael W. Mahoney",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e6270",
+                    "name": "Kurt Keutzer",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a1e494a4caabb4320e6271",
+                    "name": "Amir Gholami",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-14T06:52:38.000Z",
+            "submittedOnDailyAt": "2025-08-18T07:38:37.485Z",
+            "title": "XQuant: Breaking the Memory Wall for LLM Inference with KV Cache\n  Rematerialization",
+            "submittedOnDailyBy": {
+                "_id": "65fe49de871b36bf84c0ba05",
+                "avatarUrl": "/avatars/0fe082518fb9ea40e23414c83ee5043e.svg",
+                "isPro": false,
+                "fullname": "Aditya Tomar",
+                "user": "adityastomar",
+                "type": "user"
+            },
+            "summary": "Although LLM inference has emerged as a critical workload for many downstream\napplications, efficiently inferring LLMs is challenging due to the substantial\nmemory footprint and bandwidth requirements. In parallel, compute capabilities\nhave steadily outpaced both memory capacity and bandwidth over the last few\ndecades, a trend that remains evident in modern GPU hardware and exacerbates\nthe challenge of LLM inference. As such, new algorithms are emerging that trade\nincreased computation for reduced memory operations. To that end, we present\nXQuant, which takes advantage of this trend, enabling an order-of-magnitude\nreduction in memory consumption through low-bit quantization with substantial\naccuracy benefits relative to state-of-the-art KV cache quantization methods.\nWe accomplish this by quantizing and caching the layer input activations X,\ninstead of using standard KV caching, and then rematerializing the Keys and\nValues on-the-fly during inference. This results in an immediate 2times\nmemory savings compared to KV caching. By applying XQuant, we achieve up to\nsim 7.7times memory savings with <0.1 perplexity degradation compared to\nthe FP16 baseline. Furthermore, our approach leverages the fact that X values\nare similar across layers. Building on this observation, we introduce\nXQuant-CL, which exploits the cross-layer similarity in the X embeddings for\nextreme compression. Across different models, XQuant-CL attains up to\n10times memory savings relative to the FP16 baseline with only 0.01\nperplexity degradation, and 12.5times memory savings with only 0.1\nperplexity degradation. XQuant exploits the rapidly increasing compute\ncapabilities of hardware platforms to eliminate the memory bottleneck, while\nsurpassing state-of-the-art KV cache quantization methods and achieving\nnear-FP16 accuracy across a wide range of models.",
+            "upvotes": 13,
+            "discussionId": "68a1e495a4caabb4320e6272",
+            "ai_summary": "XQuant and XQuant-CL reduce memory consumption in LLM inference through low-bit quantization and cross-layer similarity exploitation, achieving significant memory savings with minimal accuracy loss.",
+            "ai_keywords": [
+                "LLM inference",
+                "low-bit quantization",
+                "KV cache quantization",
+                "layer input activations",
+                "rematerialization",
+                "XQuant",
+                "XQuant-CL",
+                "cross-layer similarity",
+                "memory savings",
+                "perplexity degradation",
+                "FP16 baseline"
+            ]
+        },
+        "translation_title": "XQuant: KV Cache를 활용한 LLM 추론 시 메모리 벽을 깨다",
+        "purpose": "LLM 추론 시 메모리 소모를 대폭 줄이기 위한 효율적인 방법 제시",
+        "method": [
+            "기존 KV 캐싱 대신 레이어 입력 활성화 X를 양자화하고 캐싱함으로써 메모리 절약함(we present XQuant, which takes advantage of this trend, enabling an order-of-magnitude reduction in memory consumption through low-bit quantization with substantial accuracy benefits relative to state-of-the-art KV cache quantization methods.)",
+            "추론 중 실시간으로 Keys와 Values를 재재료화(rematerializing the Keys and Values on-the-fly during inference).",
+            "X 값이 레이어 간 유사하다는 점을 활용하여 XQuant-CL을 소개하고 극단적인 압축을 달성함(Building on this observation, we introduce XQuant-CL, which exploits the cross-layer similarity in the X embeddings for extreme compression.)"
+        ],
+        "conclusion": "XQuant는 메모리 병목 현상을 없애면서 최신 KV 캐시 양자화 방법을 초월해 다양한 모델에서 거의 FP16 정확도를 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
