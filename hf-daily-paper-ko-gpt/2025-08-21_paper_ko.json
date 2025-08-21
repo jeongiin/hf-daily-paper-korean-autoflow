@@ -1,0 +1,845 @@
+[
+    {
+        "paper": {
+            "id": "2508.13491",
+            "authors": [
+                {
+                    "_id": "68a685519e4b49496aac6938",
+                    "name": "Ziyan Kuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac6939",
+                    "name": "Feiyu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693a",
+                    "name": "Maowei Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693b",
+                    "user": {
+                        "_id": "6880eca712035d59e50ba716",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/-6sPgohq0n_-oxFmyAvmr.png",
+                        "isPro": false,
+                        "fullname": "Yanzhao Lai",
+                        "user": "2083L",
+                        "type": "user"
+                    },
+                    "name": "Yanzhao Lai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:58:05.932Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693c",
+                    "name": "Zelin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693d",
+                    "name": "Zhitong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693e",
+                    "name": "Meikang Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac693f",
+                    "user": {
+                        "_id": "66f3c0f97a2d332b0d81d18f",
+                        "avatarUrl": "/avatars/a8283846b8b104af0c2d3566455b2004.svg",
+                        "isPro": false,
+                        "fullname": "Jiajia Huang",
+                        "user": "hugai101",
+                        "type": "user"
+                    },
+                    "name": "Jiajia Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:57:35.753Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac6940",
+                    "name": "Min Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac6941",
+                    "user": {
+                        "_id": "6479f4317c18dca75e9a9324",
+                        "avatarUrl": "/avatars/9aa709230b057f57ee4415c04a622c63.svg",
+                        "isPro": false,
+                        "fullname": "Xie",
+                        "user": "QianqianXie1994",
+                        "type": "user"
+                    },
+                    "name": "Qianqian Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:57:19.006Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a685519e4b49496aac6942",
+                    "user": {
+                        "_id": "66f6cb352c5d4ef3578a9c3f",
+                        "avatarUrl": "/avatars/0a70c94072bc5e1d018cf12da0904ff0.svg",
+                        "isPro": false,
+                        "fullname": "Sophia Ananiadou",
+                        "user": "Effoula",
+                        "type": "user"
+                    },
+                    "name": "Sophia Ananiadou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:57:04.485Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-19T03:52:15.000Z",
+            "submittedOnDailyAt": "2025-08-21T02:04:42.491Z",
+            "title": "From Scores to Skills: A Cognitive Diagnosis Framework for Evaluating\n  Financial Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "663adb42e14047f710dc1d29",
+                "avatarUrl": "/avatars/7ca49d67a4a8b4cf0ee896e07646715f.svg",
+                "isPro": false,
+                "fullname": "Mengxi Xiao",
+                "user": "ElsaShaw",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have shown promise for financial applications,\nyet their suitability for this high-stakes domain remains largely unproven due\nto inadequacies in existing benchmarks. Existing benchmarks solely rely on\nscore-level evaluation, summarizing performance with a single score that\nobscures the nuanced understanding of what models truly know and their precise\nlimitations. They also rely on datasets that cover only a narrow subset of\nfinancial concepts, while overlooking other essentials for real-world\napplications. To address these gaps, we introduce FinCDM, the first cognitive\ndiagnosis evaluation framework tailored for financial LLMs, enabling the\nevaluation of LLMs at the knowledge-skill level, identifying what financial\nskills and knowledge they have or lack based on their response patterns across\nskill-tagged tasks, rather than a single aggregated number. We construct\nCPA-QKA, the first cognitively informed financial evaluation dataset derived\nfrom the Certified Public Accountant (CPA) examination, with comprehensive\ncoverage of real-world accounting and financial skills. It is rigorously\nannotated by domain experts, who author, validate, and annotate questions with\nhigh inter-annotator agreement and fine-grained knowledge labels. Our extensive\nexperiments on 30 proprietary, open-source, and domain-specific LLMs show that\nFinCDM reveals hidden knowledge gaps, identifies under-tested areas such as tax\nand regulatory reasoning overlooked by traditional benchmarks, and uncovers\nbehavioral clusters among models. FinCDM introduces a new paradigm for\nfinancial LLM evaluation by enabling interpretable, skill-aware diagnosis that\nsupports more trustworthy and targeted model development, and all datasets and\nevaluation scripts will be publicly released to support further research.",
+            "upvotes": 52,
+            "discussionId": "68a685529e4b49496aac6943",
+            "ai_summary": "FinCDM, a cognitive diagnosis framework, evaluates financial LLMs at the knowledge-skill level using a comprehensive dataset, revealing hidden knowledge gaps and supporting more trustworthy model development.",
+            "ai_keywords": [
+                "Large Language Models",
+                "FinCDM",
+                "cognitive diagnosis evaluation framework",
+                "CPA-QKA",
+                "Certified Public Accountant",
+                "accounting and financial skills",
+                "knowledge-skill level",
+                "knowledge gaps",
+                "tax and regulatory reasoning",
+                "behavioral clusters",
+                "skill-aware diagnosis"
+            ]
+        },
+        "translation_title": "점수에서 기술로: 재무 대규모 언어 모델 평가를 위한 인지 진단 프레임워크",
+        "purpose": "재무 분야에 적합한 LLM의 성능을 보다 면밀히 평가할 수 있는 방법론 개발",
+        "method": [
+            "재무 LLM을 위해 지식-기술 수준에서 평가할 수 있는 인지 진단 평가 프레임워크인 FinCDM을 도입함(To address these gaps, we introduce FinCDM, the first cognitive diagnosis evaluation framework tailored for financial LLMs.)",
+            "재무와 회계 기술을 종합적으로 포함한 CPA-QKA라는 평가 데이터셋을 구축하여 전반적인 기술을 평가할 수 있도록 함(We construct CPA-QKA, the first cognitively informed financial evaluation dataset derived from the Certified Public Accountant (CPA) examination.)",
+            "30개의 LLM에 대한 실험을 통해 FinCDM이 기존 기준에서 간과된 지식 격차를 드러내고, 숨겨진 기술 분야를 확인함(Our extensive experiments on 30 proprietary, open-source, and domain-specific LLMs show that FinCDM reveals hidden knowledge gaps.)"
+        ],
+        "conclusion": "FinCDM은 재무 LLM 평가에서 해석 가능하고 기술 기반의 진단을 제공하여 보다 신뢰할 수 있는 모델 개발을 지원함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Cognitive Diagnosis"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.14460",
+            "authors": [
+                {
+                    "_id": "68a69c4a9e4b49496aac699d",
+                    "user": {
+                        "_id": "61a9ccca3e8d72e791476614",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61a9ccca3e8d72e791476614/icULFDp3dPKgwUePllNly.png",
+                        "isPro": false,
+                        "fullname": "Shuaijie She",
+                        "user": "kevinpro",
+                        "type": "user"
+                    },
+                    "name": "Shuaijie She",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:54:56.836Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac699e",
+                    "user": {
+                        "_id": "6142f4041fbcc4d3c42020fa",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/51c_M6rDZoJvnuC3eauqZ.png",
+                        "isPro": false,
+                        "fullname": "Yu Bao",
+                        "user": "baoy",
+                        "type": "user"
+                    },
+                    "name": "Yu Bao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-21T13:32:14.025Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac699f",
+                    "user": {
+                        "_id": "65e56e44e8b017ee13408589",
+                        "avatarUrl": "/avatars/f9a8a7f7d2ff4474cad752a66452ce1e.svg",
+                        "isPro": false,
+                        "fullname": "Yu Lu",
+                        "user": "YuLu0713",
+                        "type": "user"
+                    },
+                    "name": "Yu Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-21T13:32:09.682Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a0",
+                    "name": "Lu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a1",
+                    "name": "Tao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a2",
+                    "user": {
+                        "_id": "649d7d8968586ca9bf7f5fe6",
+                        "avatarUrl": "/avatars/b444240770d4025dea41871cf38126dc.svg",
+                        "isPro": false,
+                        "fullname": "Wenhao Zhu",
+                        "user": "Wenhao97",
+                        "type": "user"
+                    },
+                    "name": "Wenhao Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-21T13:32:11.842Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a3",
+                    "user": {
+                        "_id": "687ba59e595ea10fe729316e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/mHa4lsl7glwop3S9lq4BP.png",
+                        "isPro": false,
+                        "fullname": "Shujian Huang",
+                        "user": "ShujianHuang",
+                        "type": "user"
+                    },
+                    "name": "Shujian Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:55:13.771Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a4",
+                    "user": {
+                        "_id": "632ab0407fb39c2b6350c10a",
+                        "avatarUrl": "/avatars/fb02cad2a017654965486418bf370157.svg",
+                        "isPro": false,
+                        "fullname": "Cheng",
+                        "user": "Shanbo",
+                        "type": "user"
+                    },
+                    "name": "Shanbo Cheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:55:07.743Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a5",
+                    "name": "Lu Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a69c4a9e4b49496aac69a6",
+                    "name": "Yuxuan Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-20T06:31:18.000Z",
+            "submittedOnDailyAt": "2025-08-21T02:41:01.130Z",
+            "title": "DuPO: Enabling Reliable LLM Self-Verification via Dual Preference\n  Optimization",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We present DuPO, a dual learning-based preference optimization framework that\ngenerates annotation-free feedback via a generalized duality. DuPO addresses\ntwo key limitations: Reinforcement Learning with Verifiable Rewards (RLVR)'s\nreliance on costly labels and applicability restricted to verifiable tasks, and\ntraditional dual learning's restriction to strictly dual task pairs (e.g.,\ntranslation and back-translation). Specifically, DuPO decomposes a primal\ntask's input into known and unknown components, then constructs its dual task\nto reconstruct the unknown part using the primal output and known information\n(e.g., reversing math solutions to recover hidden variables), broadening\napplicability to non-invertible tasks. The quality of this reconstruction\nserves as a self-supervised reward to optimize the primal task, synergizing\nwith LLMs' ability to instantiate both tasks via a single model. Empirically,\nDuPO achieves substantial gains across diverse tasks: it enhances the average\ntranslation quality by 2.13 COMET over 756 directions, boosts the mathematical\nreasoning accuracy by an average of 6.4 points on three challenge benchmarks,\nand enhances performance by 9.3 points as an inference-time reranker (trading\ncomputation for accuracy). These results position DuPO as a scalable, general,\nand annotation-free paradigm for LLM optimization.",
+            "upvotes": 46,
+            "discussionId": "68a69c4b9e4b49496aac69a7",
+            "ai_summary": "DuPO is a dual learning framework that generates annotation-free feedback using a generalized duality, enhancing performance across various tasks without relying on costly labels.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "dual learning",
+                "primal task",
+                "dual task",
+                "self-supervised reward",
+                "LLMs",
+                "translation quality",
+                "mathematical reasoning accuracy",
+                "inference-time reranker"
+            ]
+        },
+        "translation_title": "DuPO: 이중 선호 최적화를 통한 LLM 신뢰성 자가 검증 가능화",
+        "purpose": "비용이 많이 드는 라벨에 의존하지 않고 LLM의 최적화 성능을 향상시키기 위한 이중 학습 기반의 프레임워크 연구",
+        "method": [
+            "기존의 강화 학습 개선 방안 중 하나인 RLVR의 한계를 해결함(RLVR의 의존성을 줄이고 적용 가능성을 넓히기 위해 DuPO를 개발함.)",
+            "프라이멀 작업의 입력을 알려진 구성요소와 알려지지 않은 구성요소로 나누고, 이를 이용해 이중 작업을 구성함(DuPO는 프라이멀 작업의 입력을 알 수 있는 부분과 알 수 없는 부분으로 분해함.)",
+            "구성된 이중 작업의 품질을 자가 지도 보상으로 활용하여 프라이멀 작업을 최적화함(The quality of this reconstruction serves as a self-supervised reward to optimize the primal task.)"
+        ],
+        "conclusion": "DuPO는 다양한 작업에서 상당한 성과를 달성하며, LLM 최적화를 위한 확장 가능하고 라벨이 필요 없는 패러다임으로 자리잡음.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.11987",
+            "authors": [
+                {
+                    "_id": "68a43789b65388761d0745dc",
+                    "name": "Zhiyuan Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745dd",
+                    "user": {
+                        "_id": "6842e440d029f9bcf58077b4",
+                        "avatarUrl": "/avatars/bbdc6c603c38849d762055ae10d41d03.svg",
+                        "isPro": false,
+                        "fullname": "jiashuo liu",
+                        "user": "liujiashuo77",
+                        "type": "user"
+                    },
+                    "name": "Jiashuo Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:54:09.753Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745de",
+                    "name": "Siyuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745df",
+                    "user": {
+                        "_id": "68a6b767fddc160a09aa883d",
+                        "avatarUrl": "/avatars/0d8e94727f0e2298174c724afccf8c01.svg",
+                        "isPro": false,
+                        "fullname": "Tianci He",
+                        "user": "Tianci-He",
+                        "type": "user"
+                    },
+                    "name": "Tianci He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:53:54.777Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e0",
+                    "name": "Yali Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e1",
+                    "name": "Jinpeng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e2",
+                    "name": "Zaiyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e3",
+                    "name": "Yang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e4",
+                    "user": {
+                        "_id": "68a6d4bf99ba7d66206e2ce5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/f29nNljyQNHSkovNqXBDy.png",
+                        "isPro": false,
+                        "fullname": "Yin",
+                        "user": "YinLingyue",
+                        "type": "user"
+                    },
+                    "name": "Lingyue Yin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:54:47.013Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e5",
+                    "name": "Mingren Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e6",
+                    "user": {
+                        "_id": "6178b6a62be97faa212726ba",
+                        "avatarUrl": "/avatars/07e216aeb6e45f6f9779238339ba8eec.svg",
+                        "isPro": false,
+                        "fullname": "ZHENWEI ZHU",
+                        "user": "Nuori",
+                        "type": "user"
+                    },
+                    "name": "Zhenwei Zhu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:55:03.392Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e7",
+                    "user": {
+                        "_id": "64459357c525660aa20be337",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/1fryBXRuSvAgMIDkpWBpI.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianle Cai",
+                        "user": "tianlecai",
+                        "type": "user"
+                    },
+                    "name": "Tianle Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:55:10.542Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e8",
+                    "user": {
+                        "_id": "64892d31cbda0d1cdb956897",
+                        "avatarUrl": "/avatars/3cdafe03a8295124636347d15a099aaf.svg",
+                        "isPro": false,
+                        "fullname": "Zehui Chen",
+                        "user": "lovesnowbest",
+                        "type": "user"
+                    },
+                    "name": "Zehui Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:55:16.941Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745e9",
+                    "user": {
+                        "_id": "66df70fe5a0c5910d663160d",
+                        "avatarUrl": "/avatars/980ca32bd0049ef5bbf002e7dc9f911c.svg",
+                        "isPro": false,
+                        "fullname": "jiecao.chen",
+                        "user": "xmerge123",
+                        "type": "user"
+                    },
+                    "name": "Jiecao Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:55:23.724Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745ea",
+                    "name": "Yantao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745eb",
+                    "name": "Xiang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745ec",
+                    "name": "Jiacheng Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745ed",
+                    "name": "Liang Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745ee",
+                    "name": "Jianpeng Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745ef",
+                    "user": {
+                        "_id": "61a883b0d4b1c264b4b668d9",
+                        "avatarUrl": "/avatars/87d569aaf821fda56e32849b728f021c.svg",
+                        "isPro": false,
+                        "fullname": "Xiangsheng Li",
+                        "user": "lixsh6",
+                        "type": "user"
+                    },
+                    "name": "Xiangsheng Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T09:55:53.652Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f0",
+                    "name": "Jingkai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f1",
+                    "name": "Shuang Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f2",
+                    "name": "Zhoufutu Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f3",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-20T08:52:32.340Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f4",
+                    "name": "Kaiyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f5",
+                    "name": "Xin Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f6",
+                    "name": "Jose Blanchet",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f7",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f8",
+                    "name": "Mengdi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a43789b65388761d0745f9",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6842e440d029f9bcf58077b4/zDuiKey8NEonyLxc5XC_d.png"
+            ],
+            "publishedAt": "2025-08-16T08:54:08.000Z",
+            "submittedOnDailyAt": "2025-08-21T01:39:14.470Z",
+            "title": "FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction",
+            "submittedOnDailyBy": {
+                "_id": "6842e440d029f9bcf58077b4",
+                "avatarUrl": "/avatars/bbdc6c603c38849d762055ae10d41d03.svg",
+                "isPro": false,
+                "fullname": "jiashuo liu",
+                "user": "liujiashuo77",
+                "type": "user"
+            },
+            "summary": "Future prediction is a complex task for LLM agents, requiring a high level of\nanalytical thinking, information gathering, contextual understanding, and\ndecision-making under uncertainty. Agents must not only gather and interpret\nvast amounts of dynamic information but also integrate diverse data sources,\nweigh uncertainties, and adapt predictions based on emerging trends, just as\nhuman experts do in fields like politics, economics, and finance. Despite its\nimportance, no large-scale benchmark exists for evaluating agents on future\nprediction, largely due to challenges in handling real-time updates and\nretrieving timely, accurate answers. To address this, we introduce\nFutureX, a dynamic and live evaluation benchmark specifically\ndesigned for LLM agents performing future prediction tasks. FutureX is the\nlargest and most diverse live benchmark for future prediction, supporting\nreal-time daily updates and eliminating data contamination through an automated\npipeline for question gathering and answer collection. We evaluate 25 LLM/agent\nmodels, including those with reasoning, search capabilities, and integration of\nexternal tools such as the open-source Deep Research Agent and closed-source\nDeep Research models. This comprehensive evaluation assesses agents' adaptive\nreasoning and performance in dynamic environments. Additionally, we provide\nin-depth analyses of agents' failure modes and performance pitfalls in\nfuture-oriented tasks, including the vulnerability to fake web pages and the\ntemporal validity. Our goal is to establish a dynamic, contamination-free\nevaluation standard that drives the development of LLM agents capable of\nperforming at the level of professional human analysts in complex reasoning and\npredictive thinking.",
+            "upvotes": 42,
+            "discussionId": "68a4378ab65388761d0745fa",
+            "projectPage": "https://futurex-ai.github.io/",
+            "ai_summary": "FutureX is a dynamic, live benchmark for evaluating LLM agents in future prediction tasks, addressing challenges in real-time updates and data contamination.",
+            "ai_keywords": [
+                "LLM agents",
+                "future prediction",
+                "adaptive reasoning",
+                "real-time updates",
+                "data contamination",
+                "automated pipeline",
+                "question gathering",
+                "answer collection",
+                "failure modes",
+                "performance pitfalls",
+                "fake web pages",
+                "temporal validity"
+            ]
+        },
+        "translation_title": "FutureX: 미래 예측을 위한 LLM 에이전트를 위한 고급 실시간 벤치마크",
+        "purpose": "LLM 에이전트가 미래 예측 작업을 수행할 수 있도록 지원하는 실시간 평가 기준을 개발하기 위함",
+        "method": [
+            "FutureX라는 동적 실시간 평가 벤치마크를 설계함(To address this, we introduce FutureX, a dynamic and live evaluation benchmark specifically designed for LLM agents performing future prediction tasks.)",
+            "일상적인 실시간 업데이트를 지원하고 질문 수집 및 답변 수집을 위한 자동화된 파이프라인을 통해 데이터 오염을 방지함(FutureX is the largest and most diverse live benchmark for future prediction, supporting real-time daily updates and eliminating data contamination through an automated pipeline for question gathering and answer collection.)",
+            "25개의 LLM/에이전트 모델을 평가하며, 에이전트의 적응적 추론 능력과 동적 환경에서의 성능을 종합적으로 분석함(This comprehensive evaluation assesses agents' adaptive reasoning and performance in dynamic environments.)"
+        ],
+        "conclusion": "FutureX를 통해 LLM 에이전트의 미래 예측 능력에 대한 새로운 평가 기준을 확립하여 전문적인 인간 분석가 수준의 복잡한 추론과 예측 사고를 수행할 수 있는 에이전트를 발전시키는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.14879",
+            "authors": [
+                {
+                    "_id": "68a68c549e4b49496aac696e",
+                    "name": "Bingquan Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac696f",
+                    "name": "Li Ray Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6970",
+                    "user": {
+                        "_id": "673dbb45df154a60e3aed0f1",
+                        "avatarUrl": "/avatars/4a6f8996193d115ba3e5eae43be4c80e.svg",
+                        "isPro": false,
+                        "fullname": "Qihong Tang",
+                        "user": "tangqh",
+                        "type": "user"
+                    },
+                    "name": "Qihong Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-21T09:15:56.638Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6971",
+                    "name": "Jie Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6972",
+                    "name": "Xinyu Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6973",
+                    "name": "Hao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6974",
+                    "user": {
+                        "_id": "642002b51ccd411979d72b18",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642002b51ccd411979d72b18/JO9e0o8fAFNC-eYFbx_JW.png",
+                        "isPro": false,
+                        "fullname": "Minghan Qin",
+                        "user": "Qmh",
+                        "type": "user"
+                    },
+                    "name": "Minghan Qin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:31:54.784Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6975",
+                    "name": "Xudong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6976",
+                    "user": {
+                        "_id": "678be86f2ef23c3cae684a1f",
+                        "avatarUrl": "/avatars/1dc09d5a8dfbf777bf85077e1739b197.svg",
+                        "isPro": false,
+                        "fullname": "Bo Dai",
+                        "user": "asrnline",
+                        "type": "user"
+                    },
+                    "name": "Bo Dai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:31:48.784Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6977",
+                    "name": "Haoqian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6978",
+                    "user": {
+                        "_id": "63f2ec797ddf724fbcc75aee",
+                        "avatarUrl": "/avatars/e93432ad11da703d46fe5e594d69f8c0.svg",
+                        "isPro": false,
+                        "fullname": "Zhaoyang Lyu",
+                        "user": "ZhaoyangLyu",
+                        "type": "user"
+                    },
+                    "name": "Zhaoyang Lyu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:31:20.817Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a68c549e4b49496aac6979",
+                    "user": {
+                        "_id": "65783ee6ee33d547aecc3ffc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65783ee6ee33d547aecc3ffc/lWZX88c-0dCsN-yB9Jhlf.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiangmiao Pang",
+                        "user": "Jiangmiao",
+                        "type": "user"
+                    },
+                    "name": "Jiangmiao Pang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:31:27.829Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63f2ec797ddf724fbcc75aee/Ol5wGXJbiZPqL_OGDddxv.mp4"
+            ],
+            "publishedAt": "2025-08-20T17:50:15.000Z",
+            "submittedOnDailyAt": "2025-08-21T01:50:57.946Z",
+            "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+            "submittedOnDailyBy": {
+                "_id": "63f2ec797ddf724fbcc75aee",
+                "avatarUrl": "/avatars/e93432ad11da703d46fe5e594d69f8c0.svg",
+                "isPro": false,
+                "fullname": "Zhaoyang Lyu",
+                "user": "ZhaoyangLyu",
+                "type": "user"
+            },
+            "summary": "Reconstructing 3D objects into editable programs is pivotal for applications\nlike reverse engineering and shape editing. However, existing methods often\nrely on limited domain-specific languages (DSLs) and small-scale datasets,\nrestricting their ability to model complex geometries and structures. To\naddress these challenges, we introduce MeshCoder, a novel framework that\nreconstructs complex 3D objects from point clouds into editable Blender Python\nscripts. We develop a comprehensive set of expressive Blender Python APIs\ncapable of synthesizing intricate geometries. Leveraging these APIs, we\nconstruct a large-scale paired object-code dataset, where the code for each\nobject is decomposed into distinct semantic parts. Subsequently, we train a\nmultimodal large language model (LLM) that translates 3D point cloud into\nexecutable Blender Python scripts. Our approach not only achieves superior\nperformance in shape-to-code reconstruction tasks but also facilitates\nintuitive geometric and topological editing through convenient code\nmodifications. Furthermore, our code-based representation enhances the\nreasoning capabilities of LLMs in 3D shape understanding tasks. Together, these\ncontributions establish MeshCoder as a powerful and flexible solution for\nprogrammatic 3D shape reconstruction and understanding.",
+            "upvotes": 23,
+            "discussionId": "68a68c549e4b49496aac697a",
+            "projectPage": "https://daibingquan.github.io/MeshCoder",
+            "githubRepo": "https://github.com/ZhaoyangLyu/MeshCoder",
+            "ai_summary": "MeshCoder reconstructs complex 3D objects from point clouds into editable Blender Python scripts, enhancing shape-to-code reconstruction and 3D shape understanding through a multimodal large language model.",
+            "ai_keywords": [
+                "MeshCoder",
+                "Blender Python APIs",
+                "multimodal large language model",
+                "point clouds",
+                "shape-to-code reconstruction",
+                "3D shape understanding"
+            ],
+            "githubStars": 63
+        },
+        "translation_title": "MeshCoder: 포인트 클라우드로부터 구조화된 메쉬 코드 생성을 위한 LLM 기반 시스템",
+        "purpose": "복잡한 3D 물체를 편집 가능한 프로그램으로 재구성하여 역공학 및 형태 편집 응용 프로그램에 사용할 수 있도록 하는 것",
+        "method": [
+            "MeshCoder라는 새로운 프레임워크를 소개하여 복잡한 3D 물체를 포인트 클라우드에서 Blender Python 스크립트로 재구성함(we introduce MeshCoder, a novel framework that reconstructs complex 3D objects from point clouds into editable Blender Python scripts.)",
+            "정교한 기하학을 합성할 수 있는 Blender Python API 세트를 개발하고, 각 객체의 코드를 의미론적 부분으로 분해하여 대규모 객체-코드 쌍 데이터셋을 구성함(We develop a comprehensive set of expressive Blender Python APIs capable of synthesizing intricate geometries. Leveraging these APIs, we construct a large-scale paired object-code dataset, where the code for each object is decomposed into distinct semantic parts.)",
+            "3D 포인트 클라우드를 실행 가능한 Blender Python 스크립트로 변환하는 멀티모달 대형 언어 모델(LLM)을 훈련함(we train a multimodal large language model (LLM) that translates 3D point cloud into executable Blender Python scripts.)"
+        ],
+        "conclusion": "MeshCoder는 형태-코드 재구성 작업에서 우수한 성능을 발휘하며, 코드 수정을 통해 직관적인 기하학적 및 위상 편집을 가능하게 하고, 3D 형태 이해 작업에서 LLM의 추론 능력을 향상시킴.",
+        "keywords": [
+            "3D Vision",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.14811",
+            "authors": [
+                {
+                    "_id": "68a690589e4b49496aac698a",
+                    "user": {
+                        "_id": "646efd223dd912a539e0bd46",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EOFAv5xvOgJOzuDgh4nSb.png",
+                        "isPro": false,
+                        "fullname": "Canyu Zhao",
+                        "user": "Canyu",
+                        "type": "user"
+                    },
+                    "name": "Canyu Zhao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-08-21T10:29:26.094Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a690589e4b49496aac698b",
+                    "name": "Xiaoman Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a690589e4b49496aac698c",
+                    "name": "Tianjian Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a690589e4b49496aac698d",
+                    "name": "Zhiyue Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a690589e4b49496aac698e",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a690589e4b49496aac698f",
+                    "name": "Chunhua Shen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/646efd223dd912a539e0bd46/Rk_JTxNPyxfOwly7MC3Wc.mp4"
+            ],
+            "publishedAt": "2025-08-20T16:02:59.000Z",
+            "submittedOnDailyAt": "2025-08-21T01:50:49.884Z",
+            "title": "Tinker: Diffusion's Gift to 3D--Multi-View Consistent Editing From\n  Sparse Inputs without Per-Scene Optimization",
+            "submittedOnDailyBy": {
+                "_id": "646efd223dd912a539e0bd46",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/EOFAv5xvOgJOzuDgh4nSb.png",
+                "isPro": false,
+                "fullname": "Canyu Zhao",
+                "user": "Canyu",
+                "type": "user"
+            },
+            "summary": "We introduce Tinker, a versatile framework for high-fidelity 3D editing that\noperates in both one-shot and few-shot regimes without any per-scene\nfinetuning. Unlike prior techniques that demand extensive per-scene\noptimization to ensure multi-view consistency or to produce dozens of\nconsistent edited input views, Tinker delivers robust, multi-view consistent\nedits from as few as one or two images. This capability stems from repurposing\npretrained diffusion models, which unlocks their latent 3D awareness. To drive\nresearch in this space, we curate the first large-scale multi-view editing\ndataset and data pipeline, spanning diverse scenes and styles. Building on this\ndataset, we develop our framework capable of generating multi-view consistent\nedited views without per-scene training, which consists of two novel\ncomponents: (1) Referring multi-view editor: Enables precise, reference-driven\nedits that remain coherent across all viewpoints. (2) Any-view-to-video\nsynthesizer: Leverages spatial-temporal priors from video diffusion to perform\nhigh-quality scene completion and novel-view generation even from sparse\ninputs. Through extensive experiments, Tinker significantly reduces the barrier\nto generalizable 3D content creation, achieving state-of-the-art performance on\nediting, novel-view synthesis, and rendering enhancement tasks. We believe that\nTinker represents a key step towards truly scalable, zero-shot 3D editing.\nProject webpage: https://aim-uofa.github.io/Tinker",
+            "upvotes": 22,
+            "discussionId": "68a690599e4b49496aac6990",
+            "projectPage": "https://aim-uofa.github.io/Tinker/",
+            "githubRepo": "https://github.com/aim-uofa/Tinker",
+            "ai_summary": "Tinker is a framework for high-fidelity 3D editing using pretrained diffusion models, enabling multi-view consistency with minimal per-scene training.",
+            "ai_keywords": [
+                "diffusion models",
+                "latent 3D awareness",
+                "multi-view editing",
+                "referring multi-view editor",
+                "any-view-to-video synthesizer",
+                "video diffusion",
+                "scene completion",
+                "novel-view generation",
+                "zero-shot 3D editing"
+            ],
+            "githubStars": 42
+        },
+        "translation_title": "Tinker: Diffusion의 3D 편집에 대한 기여 - 희소 입력으로부터의 다중 뷰 일관된 편집",
+        "purpose": "다중 뷰 일관성을 유지하면서도 희소 입력으로부터 고화질 3D 편집을 가능하게 하는 프레임워크 개발",
+        "method": [
+            "Per-scene 최적화 없이 1~2개의 이미지로부터 다중 뷰 일관된 편집을 수행하는 프레임워크를 구축함(Unlike prior techniques that demand extensive per-scene optimization to ensure multi-view consistency or to produce dozens of consistent edited input views, Tinker delivers robust, multi-view consistent edits from as few as one or two images.)",
+            "사전 훈련된 diffusion 모델을 재활용하여 3D 인식을 가능하게 함(This capability stems from repurposing pretrained diffusion models, which unlocks their latent 3D awareness.)",
+            "다양한 장면과 스타일을 포함한 최초의 대규모 다중 뷰 편집 데이터세트와 데이터를 수집하는 파이프라인을 만듦(Building on this dataset, we develop our framework capable of generating multi-view consistent edited views without per-scene training.)"
+        ],
+        "conclusion": "Tinker는 일반화 가능한 3D 콘텐츠 생성 장벽을 크게 낮추고, 편집, 새로운 뷰 합성, 렌더링 향상 작업에서 최첨단 성능을 달성함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
