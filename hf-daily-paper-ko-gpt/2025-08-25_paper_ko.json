@@ -1,0 +1,521 @@
+[
+    {
+        "paper": {
+            "id": "2508.16153",
+            "authors": [
+                {
+                    "_id": "68abe23f86b21a0e2e358af8",
+                    "user": {
+                        "_id": "645d7f107c7258d904e82749",
+                        "avatarUrl": "/avatars/a4e9d47b281f18616c522c1a8b8ee7e5.svg",
+                        "isPro": false,
+                        "fullname": "HuichiZhou",
+                        "user": "Zhouhc",
+                        "type": "user"
+                    },
+                    "name": "Huichi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:29:38.720Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358af9",
+                    "user": {
+                        "_id": "66996ea912210698d6fb453b",
+                        "avatarUrl": "/avatars/d898f7967d4d0785e0c7a1e94b7a237c.svg",
+                        "isPro": false,
+                        "fullname": "Yihang Chen",
+                        "user": "scyyc9",
+                        "type": "user"
+                    },
+                    "name": "Yihang Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T12:37:49.106Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358afa",
+                    "name": "Siyuan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358afb",
+                    "name": "Xue Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358afc",
+                    "name": "Kin Hei Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358afd",
+                    "name": "Zihan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358afe",
+                    "name": "Ka Yiu Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358aff",
+                    "name": "Guchun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358b00",
+                    "name": "Kun Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358b01",
+                    "user": {
+                        "_id": "64895683f534abe18eec264b",
+                        "avatarUrl": "/avatars/73cc9e6db6db86793787750776b57c63.svg",
+                        "isPro": false,
+                        "fullname": "Linyi Yang",
+                        "user": "linyiyang2023",
+                        "type": "user"
+                    },
+                    "name": "Linyi Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:18:49.407Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68abe23f86b21a0e2e358b02",
+                    "name": "Jun Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-22T07:25:30.000Z",
+            "submittedOnDailyAt": "2025-08-25T02:40:51.791Z",
+            "title": "AgentFly: Fine-tuning LLM Agents without Fine-tuning LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "In this paper, we introduce a novel learning paradigm for adaptive Large\nLanguage Model (LLM) agents that eliminates the need for fine-tuning the\nunderlying LLMs. Existing approaches are often either rigid, relying on static,\nhandcrafted reflection workflows, or computationally intensive, requiring\ngradient updates of LLM model parameters. In contrast, our method enables\nlow-cost continual adaptation via memory-based online reinforcement learning.\nWe formalise this as a Memory-augmented Markov Decision Process (M-MDP),\nequipped with a neural case-selection policy to guide action decisions. Past\nexperiences are stored in an episodic memory, either differentiable or\nnon-parametric. The policy is continually updated based on environmental\nfeedback through a memory rewriting mechanism, whereas policy improvement is\nachieved through efficient memory reading (retrieval). We instantiate our agent\nmodel in the deep research setting, namely AgentFly, which attains top-1 on\nGAIA validation (87.88% Pass@3) and 79.40% on the test set. It reaches\n66.6% F1 and 80.4% PM on the DeepResearcher dataset, outperforming the\nstate-of-the-art training-based method, while case-based memory adds 4.7% to\n9.6% absolute points on out-of-distribution tasks. Our approach offers a\nscalable and efficient pathway for developing generalist LLM agents capable of\ncontinuous, real-time learning without gradient updates, advancing machine\nlearning towards open-ended skill acquisition and deep research scenarios. The\ncode is available at https://github.com/Agent-on-the-Fly/AgentFly.",
+            "upvotes": 43,
+            "discussionId": "68abe23f86b21a0e2e358b03",
+            "githubRepo": "https://github.com/Agent-on-the-Fly/AgentFly",
+            "ai_summary": "A novel memory-augmented reinforcement learning paradigm enables adaptive LLM agents to continually learn without fine-tuning, using episodic memory and a neural case-selection policy.",
+            "ai_keywords": [
+                "Large Language Model (LLM)",
+                "memory-based online reinforcement learning",
+                "Memory-augmented Markov Decision Process (M-MDP)",
+                "neural case-selection policy",
+                "episodic memory",
+                "differentiable memory",
+                "non-parametric memory",
+                "memory rewriting mechanism",
+                "memory reading",
+                "AgentFly",
+                "GAIA validation",
+                "DeepResearcher dataset",
+                "open-ended skill acquisition",
+                "deep research scenarios"
+            ],
+            "githubStars": 101
+        },
+        "translation_title": "AgentFly: LLM을 미세 조정하지 않고 LLM 에이전트를 미세 조정하는 방법",
+        "purpose": "기존의 LLM 미세 조정 과정 없이 저비용으로 지속적인 적응이 가능한 에이전트 개발",
+        "method": [
+            "메모리 기반 온라인 강화 학습을 통해 저렴한 지속적 적응을 가능하게 함(In contrast, our method enables low-cost continual adaptation via memory-based online reinforcement learning.)",
+            "메모리 보강 마르코프 결정 과정(M-MDP)을 통해 경험을 저장하고 행동 결정을 위한 신경 케이스 선택 정책을 구성함(We formalise this as a Memory-augmented Markov Decision Process (M-MDP), equipped with a neural case-selection policy to guide action decisions.)",
+            "환경 피드백을 기반으로 정책을 지속적으로 업데이트하고 기억을 효율적으로 읽어 정책 개선을 달성함(The policy is continually updated based on environmental feedback through a memory rewriting mechanism, whereas policy improvement is achieved through efficient memory reading (retrieval).)"
+        ],
+        "conclusion": "AgentFly는 기존 기술보다 우수한 성능을 보이며, 기계 학습의 지속적이고 실시간 학습을 가능하게 하는 확장 가능하고 효율적인 경로를 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.08240",
+            "authors": [
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8a",
+                    "user": {
+                        "_id": "664497116ed556326833b214",
+                        "avatarUrl": "/avatars/729db0cd64c77030a5d8b2749fce084b.svg",
+                        "isPro": false,
+                        "fullname": "Kaijun Wang",
+                        "user": "Ka12un",
+                        "type": "user"
+                    },
+                    "name": "Kaijun Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:18:39.940Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8b",
+                    "name": "Liqin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8c",
+                    "user": {
+                        "_id": "652e25d2e647b0ee0a024f26",
+                        "avatarUrl": "/avatars/b5c65cf6c8d0ddc9b8ef0226e0295d56.svg",
+                        "isPro": false,
+                        "fullname": "Mingyu Liu",
+                        "user": "MingyuLiu",
+                        "type": "user"
+                    },
+                    "name": "Mingyu Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T12:37:47.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8d",
+                    "name": "Jianuo Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8e",
+                    "name": "Zeju Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b8f",
+                    "name": "Bolin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b90",
+                    "name": "Wancai Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b91",
+                    "name": "Xinyi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b92",
+                    "name": "Hao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ac10cd86b21a0e2e358b93",
+                    "name": "Chunhua Shen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T17:54:31.000Z",
+            "submittedOnDailyAt": "2025-08-25T06:03:40.605Z",
+            "title": "ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for\n  Long-Horizon Tasks",
+            "submittedOnDailyBy": {
+                "_id": "652e25d2e647b0ee0a024f26",
+                "avatarUrl": "/avatars/b5c65cf6c8d0ddc9b8ef0226e0295d56.svg",
+                "isPro": false,
+                "fullname": "Mingyu Liu",
+                "user": "MingyuLiu",
+                "type": "user"
+            },
+            "summary": "Language-guided long-horizon mobile manipulation has long been a grand\nchallenge in embodied semantic reasoning, generalizable manipulation, and\nadaptive locomotion. Three fundamental limitations hinder progress: First,\nalthough large language models have improved spatial reasoning and task\nplanning through semantic priors, existing implementations remain confined to\ntabletop scenarios, failing to address the constrained perception and limited\nactuation ranges of mobile platforms. Second, current manipulation strategies\nexhibit insufficient generalization when confronted with the diverse object\nconfigurations encountered in open-world environments. Third, while crucial for\npractical deployment, the dual requirement of maintaining high platform\nmaneuverability alongside precise end-effector control in unstructured settings\nremains understudied.\n  In this work, we present ODYSSEY, a unified mobile manipulation framework for\nagile quadruped robots equipped with manipulators, which seamlessly integrates\nhigh-level task planning with low-level whole-body control. To address the\nchallenge of egocentric perception in language-conditioned tasks, we introduce\na hierarchical planner powered by a vision-language model, enabling\nlong-horizon instruction decomposition and precise action execution. At the\ncontrol level, our novel whole-body policy achieves robust coordination across\nchallenging terrains. We further present the first benchmark for long-horizon\nmobile manipulation, evaluating diverse indoor and outdoor scenarios. Through\nsuccessful sim-to-real transfer, we demonstrate the system's generalization and\nrobustness in real-world deployments, underscoring the practicality of legged\nmanipulators in unstructured environments. Our work advances the feasibility of\ngeneralized robotic assistants capable of complex, dynamic tasks. Our project\npage: https://kaijwang.github.io/odyssey.github.io/",
+            "upvotes": 33,
+            "discussionId": "68ac10cd86b21a0e2e358b94",
+            "projectPage": "https://kaijwang.github.io/odyssey.github.io/",
+            "ai_summary": "ODYSSEY is a unified mobile manipulation framework for quadruped robots that integrates high-level task planning with low-level whole-body control, addressing challenges in egocentric perception, generalization, and coordination in unstructured environments.",
+            "ai_keywords": [
+                "hierarchical planner",
+                "vision-language model",
+                "long-horizon instruction decomposition",
+                "whole-body policy",
+                "sim-to-real transfer",
+                "benchmark for long-horizon mobile manipulation"
+            ]
+        },
+        "translation_title": "ODYSSEY: 오픈 월드에서 4족 탐색 및 조작을 위한 장기 과제 프레임워크",
+        "purpose": "언어 안내를 통한 장기 모바일 조작 문제 해결을 위한 통합 프레임워크 개발",
+        "method": [
+            "고급 작업 계획과 저급 전신 제어를 통합한 4족 로봇을 위한 모바일 조작 프레임워크를 제시함(we present ODYSSEY, a unified mobile manipulation framework for agile quadruped robots equipped with manipulators)",
+            "비전-언어 모델을 활용한 계층적 계획자를 도입하여 장기 지시 분해 및 정확한 행동 실행을 지원함(To address the challenge of egocentric perception in language-conditioned tasks, we introduce a hierarchical planner powered by a vision-language model)",
+            "다양한 실내외 시나리오를 평가하는 장기 모바일 조작을 위한 첫 번째 벤치마크를 제시함(We further present the first benchmark for long-horizon mobile manipulation, evaluating diverse indoor and outdoor scenarios)"
+        ],
+        "conclusion": "본 연구를 통해 실세계에서의 일반화 및 강인성을 입증하며, 비구조적 환경에서 복잡하고 동적인 작업을 수행할 수 있는 로봇 보조기의 가능성을 향상시킴.",
+        "keywords": [
+            "Robotics",
+            "Vision-Language Models",
+            "Mobile Manipulation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.14029",
+            "authors": [
+                {
+                    "_id": "68a93fc286b21a0e2e358862",
+                    "user": {
+                        "_id": "6560763e152b659e623865ae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6560763e152b659e623865ae/cTT2jGnPU_8XMrUTvqZ2h.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiao Liang",
+                        "user": "MasterVito",
+                        "type": "user"
+                    },
+                    "name": "Xiao Liang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:20:26.427Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358863",
+                    "name": "Zhongzhi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358864",
+                    "name": "Yeyun Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358865",
+                    "name": "Yelong Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358866",
+                    "name": "Ying Nian Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358867",
+                    "name": "Zhijiang Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a93fc286b21a0e2e358868",
+                    "name": "Weizhu Chen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6560763e152b659e623865ae/N7Jg4_JHEXLgA-ObNb-WO.png"
+            ],
+            "publishedAt": "2025-08-19T17:42:45.000Z",
+            "submittedOnDailyAt": "2025-08-25T03:49:31.546Z",
+            "title": "Beyond Pass@1: Self-Play with Variational Problem Synthesis Sustains\n  RLVR",
+            "submittedOnDailyBy": {
+                "_id": "6560763e152b659e623865ae",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6560763e152b659e623865ae/cTT2jGnPU_8XMrUTvqZ2h.jpeg",
+                "isPro": false,
+                "fullname": "Xiao Liang",
+                "user": "MasterVito",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as\na key paradigm for post-training Large Language Models (LLMs), particularly for\ncomplex reasoning tasks. However, vanilla RLVR training has been shown to\nimprove Pass@1 performance at the expense of policy entropy, leading to reduced\ngeneration diversity and limiting the Pass@k performance, which typically\nrepresents the upper bound of LLM reasoning capability. In this paper, we\nsystematically analyze the policy's generation diversity from the perspective\nof training problems and find that augmenting and updating training problems\nhelps mitigate entropy collapse during training. Based on these observations,\nwe propose an online Self-play with Variational problem Synthesis (SvS)\nstrategy for RLVR training, which uses the policy's correct solutions to\nsynthesize variational problems while ensuring their reference answers remain\nidentical to the originals. This self-improving strategy effectively maintains\npolicy entropy during training and substantially improves Pass@k compared with\nstandard RLVR, sustaining prolonged improvements and achieving absolute gains\nof 18.3% and 22.8% in Pass@32 performance on the competition-level AIME24 and\nAIME25 benchmarks. Experiments on 12 reasoning benchmarks across varying model\nsizes from 3B to 32B consistently demonstrate the generalizability and\nrobustness of SvS.",
+            "upvotes": 27,
+            "discussionId": "68a93fc286b21a0e2e358869",
+            "projectPage": "https://mastervito.github.io/SvS.github.io/",
+            "githubRepo": "https://github.com/MasterVito/SvS",
+            "ai_summary": "An online self-play strategy with variational problem synthesis for RLVR training maintains policy entropy and improves Pass@k performance on reasoning benchmarks.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards (RLVR)",
+                "Large Language Models (LLMs)",
+                "policy entropy",
+                "generation diversity",
+                "Pass@1",
+                "Pass@k",
+                "self-play",
+                "variational problem synthesis",
+                "AIME24",
+                "AIME25"
+            ],
+            "githubStars": 15
+        },
+        "translation_title": "Pass@1을 넘어서: 변별적 문제 합성을 통한 자기 플레이로 RLVR 지속",
+        "purpose": "강화학습에 있어 정책의 생성 다양성을 향상시키고, LLM의 Pass@k 성능을 높이기 위한 전략 개발",
+        "method": [
+            "훈련 문제를 증가 및 업데이트하여 훈련 중 엔트로피 붕괴를 완화함.(we systematically analyze the policy's generation diversity from the perspective of training problems and find that augmenting and updating training problems helps mitigate entropy collapse during training.)",
+            "정책의 올바른 솔루션을 사용해 변별적 문제를 합성하는 온라인 자기 플레이 전략인 SvS를 제안함.(we propose an online Self-play with Variational problem Synthesis (SvS) strategy for RLVR training, which uses the policy's correct solutions to synthesize variational problems while ensuring their reference answers remain identical to the originals.)",
+            "훈련 중 정책 엔트로피를 유지하면서 Pass@k 성능을 대폭 개선함.(This self-improving strategy effectively maintains policy entropy during training and substantially improves Pass@k compared with standard RLVR.)"
+        ],
+        "conclusion": "SvS 전략은 RLVR 훈련에서 정책 엔트로피를 유지하며, 경쟁 수준의 벤치마크에서 Pass@32 성능을 18.3%와 22.8% 향상시킴.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.13650",
+            "authors": [
+                {
+                    "_id": "68a6fc7d9e4b49496aac6b8c",
+                    "user": {
+                        "_id": "638dbf006b5c2ccc6240d6fc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638dbf006b5c2ccc6240d6fc/7jZlE4S35f15PLSN3_bVD.jpeg",
+                        "isPro": false,
+                        "fullname": "Tomer Ashuach",
+                        "user": "Tomertech",
+                        "type": "user"
+                    },
+                    "name": "Tomer Ashuach",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:27:35.955Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a6fc7d9e4b49496aac6b8d",
+                    "name": "Dana Arad",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a6fc7d9e4b49496aac6b8e",
+                    "name": "Aaron Mueller",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a6fc7d9e4b49496aac6b8f",
+                    "name": "Martin Tutek",
+                    "hidden": false
+                },
+                {
+                    "_id": "68a6fc7d9e4b49496aac6b90",
+                    "name": "Yonatan Belinkov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/638dbf006b5c2ccc6240d6fc/3OA3H9GFY6pp8pUSR7xDw.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/638dbf006b5c2ccc6240d6fc/MMdJ5csxXnZv2oBebcFaH.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/638dbf006b5c2ccc6240d6fc/bDb3zdZ5G3MGxXlPMlDun.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/638dbf006b5c2ccc6240d6fc/BxcOXuE5LQALsW4grj77I.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/638dbf006b5c2ccc6240d6fc/U0RaUICyGlw-BdBHVO3TK.png"
+            ],
+            "publishedAt": "2025-08-19T09:01:22.000Z",
+            "submittedOnDailyAt": "2025-08-25T04:21:32.618Z",
+            "title": "CRISP: Persistent Concept Unlearning via Sparse Autoencoders",
+            "submittedOnDailyBy": {
+                "_id": "638dbf006b5c2ccc6240d6fc",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/638dbf006b5c2ccc6240d6fc/7jZlE4S35f15PLSN3_bVD.jpeg",
+                "isPro": false,
+                "fullname": "Tomer Ashuach",
+                "user": "Tomertech",
+                "type": "user"
+            },
+            "summary": "As large language models (LLMs) are increasingly deployed in real-world\napplications, the need to selectively remove unwanted knowledge while\npreserving model utility has become paramount. Recent work has explored sparse\nautoencoders (SAEs) to perform precise interventions on monosemantic features.\nHowever, most SAE-based methods operate at inference time, which does not\ncreate persistent changes in the model's parameters. Such interventions can be\nbypassed or reversed by malicious actors with parameter access. We introduce\nCRISP, a parameter-efficient method for persistent concept unlearning using\nSAEs. CRISP automatically identifies salient SAE features across multiple\nlayers and suppresses their activations. We experiment with two LLMs and show\nthat our method outperforms prior approaches on safety-critical unlearning\ntasks from the WMDP benchmark, successfully removing harmful knowledge while\npreserving general and in-domain capabilities. Feature-level analysis reveals\nthat CRISP achieves semantically coherent separation between target and benign\nconcepts, allowing precise suppression of the target features.",
+            "upvotes": 10,
+            "discussionId": "68a6fc7d9e4b49496aac6b91",
+            "ai_summary": "CRISP is a parameter-efficient method using sparse autoencoders to permanently remove unwanted knowledge from large language models while preserving their utility.",
+            "ai_keywords": [
+                "sparse autoencoders",
+                "parameter-efficient",
+                "concept unlearning",
+                "salient features",
+                "feature-level analysis",
+                "WMDP benchmark",
+                "semantically coherent separation"
+            ]
+        },
+        "translation_title": "CRISP: 희소 자동 인코더를 이용한 지속적인 개념 삭제",
+        "purpose": "불필요한 지식을 선택적으로 제거하되 모델의 유용성을 유지하기 위한 방법 개발",
+        "method": [
+            "희소 자동 인코더(SAE)를 활용하여 여러 층에서 중요한 SAE 특징을 식별하고 그 활성화를 억제함(CRISP automatically identifies salient SAE features across multiple layers and suppresses their activations.)",
+            "두 개의 대형 언어 모델(LLMs)에서 실험을 통해 우리의 방법이 이전 접근법보다 안전성이 중요한 작업에서 향상된 성능을 보임(We experiment with two LLMs and show that our method outperforms prior approaches on safety-critical unlearning tasks from the WMDP benchmark.)",
+            "해당 기능 수준 분석을 통해 CRISP가 목표 개념과 일반 개념 간의 의미적으로 일관된 분리를 달성함(Feature-level analysis reveals that CRISP achieves semantically coherent separation between target and benign concepts.)"
+        ],
+        "conclusion": "CRISP는 유해한 지식을 성공적으로 제거하면서도 일반적인 기능과 도메인 내 기능을 유지하는 데 효과적임.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.07877",
+            "authors": [
+                {
+                    "_id": "689c9309fab6fdd2e52ac9fe",
+                    "user": {
+                        "_id": "637b9711086af1cb122e99b3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ZyMIY8L2AmE7tE07A7gS9.png",
+                        "isPro": false,
+                        "fullname": "WonJun Moon",
+                        "user": "WJ0830",
+                        "type": "user"
+                    },
+                    "name": "WonJun Moon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-25T08:27:59.549Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689c9309fab6fdd2e52ac9ff",
+                    "user": {
+                        "_id": "689b448ed7a19791dd3c7912",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/8GZpAYFVtAB9u0YSuRKl2.png",
+                        "isPro": false,
+                        "fullname": "Hyun Seok Seong",
+                        "user": "hynnsk",
+                        "type": "user"
+                    },
+                    "name": "Hyun Seok Seong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-14T13:38:24.925Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "689c9309fab6fdd2e52aca00",
+                    "name": "Jae-Pil Heo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-11T11:49:37.000Z",
+            "submittedOnDailyAt": "2025-08-25T04:46:33.566Z",
+            "title": "Selective Contrastive Learning for Weakly Supervised Affordance\n  Grounding",
+            "submittedOnDailyBy": {
+                "_id": "689b448ed7a19791dd3c7912",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/8GZpAYFVtAB9u0YSuRKl2.png",
+                "isPro": false,
+                "fullname": "Hyun Seok Seong",
+                "user": "hynnsk",
+                "type": "user"
+            },
+            "summary": "Facilitating an entity's interaction with objects requires accurately\nidentifying parts that afford specific actions. Weakly supervised affordance\ngrounding (WSAG) seeks to imitate human learning from third-person\ndemonstrations, where humans intuitively grasp functional parts without needing\npixel-level annotations. To achieve this, grounding is typically learned using\na shared classifier across images from different perspectives, along with\ndistillation strategies incorporating part discovery process. However, since\naffordance-relevant parts are not always easily distinguishable, models\nprimarily rely on classification, often focusing on common class-specific\npatterns that are unrelated to affordance. To address this limitation, we move\nbeyond isolated part-level learning by introducing selective prototypical and\npixel contrastive objectives that adaptively learn affordance-relevant cues at\nboth the part and object levels, depending on the granularity of the available\ninformation. Initially, we find the action-associated objects in both\negocentric (object-focused) and exocentric (third-person example) images by\nleveraging CLIP. Then, by cross-referencing the discovered objects of\ncomplementary views, we excavate the precise part-level affordance clues in\neach perspective. By consistently learning to distinguish affordance-relevant\nregions from affordance-irrelevant background context, our approach effectively\nshifts activation from irrelevant areas toward meaningful affordance cues.\nExperimental results demonstrate the effectiveness of our method. Codes are\navailable at github.com/hynnsk/SelectiveCL.",
+            "upvotes": 10,
+            "discussionId": "689c9309fab6fdd2e52aca01",
+            "githubRepo": "https://github.com/hynnsk/SelectiveCL",
+            "ai_summary": "The method uses selective prototypical and pixel contrastive objectives to learn affordance-relevant cues from third-person demonstrations, improving upon traditional weakly supervised affordance grounding by focusing on both part and object levels.",
+            "ai_keywords": [
+                "weakly supervised affordance grounding",
+                "WSAG",
+                "CLIP",
+                "prototypical objectives",
+                "pixel contrastive objectives",
+                "affordance-relevant cues",
+                "affordance-irrelevant background context",
+                "egocentric images",
+                "exocentric images"
+            ],
+            "githubStars": 7
+        },
+        "translation_title": "약한 감독 하의 어포던스 그라운딩을 위한 선택적 대조 학습",
+        "purpose": "기능적인 부위를 정확하게 식별하여 객체와의 상호작용을 용이하게 하기 위해 약한 감독 하의 어포던스 그라운딩(WSAG) 기술 개발",
+        "method": [
+            "CLIP을 활용하여 에고센트릭(객체 중심) 및 외고센트릭(제삼자 예시) 이미지에서 행동과 연관된 객체를 찾음(Initially, we find the action-associated objects in both egocentric and exocentric images by leveraging CLIP.)",
+            "상보적 시각의 발견된 객체를 서로 비교하여 각 관점에서 정확한 부분 수준의 어포던스 단서를 발굴함(Then, by cross-referencing the discovered objects of complementary views, we excavate the precise part-level affordance clues in each perspective.)",
+            "어포던스와 관련 없는 배경 맥락에서 어포던스와 관련된 지역을 구별하도록 지속적으로 학습함(By consistently learning to distinguish affordance-relevant regions from affordance-irrelevant background context, our approach effectively shifts activation from irrelevant areas toward meaningful affordance cues.)"
+        ],
+        "conclusion": "우리의 방법은 어포던스와 관련된 단서를 효과적으로 학습하며, 실험 결과에서 그 효과를 입증함.",
+        "keywords": [
+            "Image Understanding",
+            "Robotics",
+            "Computer Vision"
+        ]
+    }
+]
