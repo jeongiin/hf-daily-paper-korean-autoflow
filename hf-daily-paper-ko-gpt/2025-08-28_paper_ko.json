@@ -1,0 +1,563 @@
+[
+    {
+        "paper": {
+            "id": "2508.15882",
+            "authors": [
+                {
+                    "_id": "68af59ed245176306494caee",
+                    "user": {
+                        "_id": "62659a1d24a066c92d76d2ee",
+                        "avatarUrl": "/avatars/9ac398922f67350e7be6121f2cbcebcb.svg",
+                        "isPro": false,
+                        "fullname": "glazer",
+                        "user": "netag",
+                        "type": "user"
+                    },
+                    "name": "Neta Glazer",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:55:33.796Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caef",
+                    "name": "Yael Segal-Feldman",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf0",
+                    "name": "Hilit Segev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf1",
+                    "name": "Aviv Shamsian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf2",
+                    "name": "Asaf Buchnick",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf3",
+                    "name": "Gill Hetz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf4",
+                    "name": "Ethan Fetaya",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf5",
+                    "name": "Joseph Keshet",
+                    "hidden": false
+                },
+                {
+                    "_id": "68af59ed245176306494caf6",
+                    "user": {
+                        "_id": "63563ac12d14fcd7d83729d6",
+                        "avatarUrl": "/avatars/4e78baf7edb286b2518fb4a2fa6dbe04.svg",
+                        "isPro": false,
+                        "fullname": "Aviv Navon",
+                        "user": "AvivNavon",
+                        "type": "user"
+                    },
+                    "name": "Aviv Navon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:55:31.653Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-21T15:42:53.000Z",
+            "submittedOnDailyAt": "2025-08-28T08:27:39.741Z",
+            "title": "Beyond Transcription: Mechanistic Interpretability in ASR",
+            "submittedOnDailyBy": {
+                "_id": "62659a1d24a066c92d76d2ee",
+                "avatarUrl": "/avatars/9ac398922f67350e7be6121f2cbcebcb.svg",
+                "isPro": false,
+                "fullname": "glazer",
+                "user": "netag",
+                "type": "user"
+            },
+            "summary": "Interpretability methods have recently gained significant attention,\nparticularly in the context of large language models, enabling insights into\nlinguistic representations, error detection, and model behaviors such as\nhallucinations and repetitions. However, these techniques remain underexplored\nin automatic speech recognition (ASR), despite their potential to advance both\nthe performance and interpretability of ASR systems. In this work, we adapt and\nsystematically apply established interpretability methods such as logit lens,\nlinear probing, and activation patching, to examine how acoustic and semantic\ninformation evolves across layers in ASR systems. Our experiments reveal\npreviously unknown internal dynamics, including specific encoder-decoder\ninteractions responsible for repetition hallucinations and semantic biases\nencoded deep within acoustic representations. These insights demonstrate the\nbenefits of extending and applying interpretability techniques to speech\nrecognition, opening promising directions for future research on improving\nmodel transparency and robustness.",
+            "upvotes": 58,
+            "discussionId": "68af59ed245176306494caf7",
+            "ai_summary": "Interpretability methods like logit lens, linear probing, and activation patching are applied to ASR to uncover internal dynamics, repetition hallucinations, and semantic biases, enhancing model transparency and robustness.",
+            "ai_keywords": [
+                "logit lens",
+                "linear probing",
+                "activation patching",
+                "encoder-decoder interactions",
+                "repetition hallucinations",
+                "semantic biases"
+            ]
+        },
+        "translation_title": "전사 이상의 기계적 해석 가능성: ASR에서의 접근",
+        "purpose": "자동 음성 인식(ASR) 시스템의 성능과 해석 가능성을 향상시키기 위한 해석 가능성 기법 연구",
+        "method": [
+            "기존 해석 가능성 기법인 logit lens, linear probing, activation patching을 ASR 시스템에 적용함(we adapt and systematically apply established interpretability methods such as logit lens, linear probing, and activation patching, to examine how acoustic and semantic information evolves across layers in ASR systems.)",
+            "실험을 통해 ASR 시스템 내에서의 내부 동역학, 인코더-디코더 상호작용 및 음향 표현에 내재된 의미적 편향을 조사함(our experiments reveal previously unknown internal dynamics, including specific encoder-decoder interactions responsible for repetition hallucinations and semantic biases encoded deep within acoustic representations.)"
+        ],
+        "conclusion": "해석 가능성 기법을 음성 인식에 적용함으로써 모델의 투명성과 강건성을 향상시킬 수 있는 유망한 방향을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech Recognition"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.19652",
+            "authors": [
+                {
+                    "_id": "68afb491245176306494cbb0",
+                    "name": "Zongxia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb1",
+                    "name": "Wenhao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb2",
+                    "user": {
+                        "_id": "62ea79dd01ed9b0e8f61ccd3",
+                        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                        "isPro": false,
+                        "fullname": "Chengsong Huang",
+                        "user": "ChengsongHuang",
+                        "type": "user"
+                    },
+                    "name": "Chengsong Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:55:08.595Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb3",
+                    "name": "Rui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb4",
+                    "name": "Zhenwen Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb5",
+                    "name": "Fuxiao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb6",
+                    "name": "Jingxi Che",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb7",
+                    "name": "Dian Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb8",
+                    "name": "Jordan Boyd-Graber",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbb9",
+                    "name": "Haitao Mi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afb491245176306494cbba",
+                    "name": "Dong Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-27T08:01:03.000Z",
+            "submittedOnDailyAt": "2025-08-28T00:15:36.833Z",
+            "title": "Self-Rewarding Vision-Language Model via Reasoning Decomposition",
+            "submittedOnDailyBy": {
+                "_id": "5feab3a28a3201f8e554c969",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660795228685-5feab3a28a3201f8e554c969.png",
+                "isPro": false,
+                "fullname": "Wenhao Yu",
+                "user": "wyu1",
+                "type": "user"
+            },
+            "summary": "Vision-Language Models (VLMs) often suffer from visual hallucinations, saying\nthings that are not actually in the image, and language shortcuts, where they\nskip the visual part and just rely on text priors. These issues arise because\nmost post-training methods for VLMs rely on simple verifiable answer matching\nand supervise only final outputs, leaving intermediate visual reasoning without\nexplicit guidance. As a result, VLMs receive sparse visual signals and often\nlearn to prioritize language-based reasoning over visual perception. To\nmitigate this, some existing methods add visual supervision using human\nannotations or distilled labels from external large models. However, human\nannotations are labor-intensive and costly, and because external signals cannot\nadapt to the evolving policy, they cause distributional shifts that can lead to\nreward hacking. In this paper, we introduce Vision-SR1, a self-rewarding method\nthat improves visual reasoning without relying on external visual supervisions\nvia reinforcement learning. Vision-SR1 decomposes VLM reasoning into two\nstages: visual perception and language reasoning. The model is first prompted\nto produce self-contained visual perceptions that are sufficient to answer the\nquestion without referring back the input image. To validate this\nself-containment, the same VLM model is then re-prompted to perform language\nreasoning using only the generated perception as input to compute reward. This\nself-reward is combined with supervision on final outputs, providing a balanced\ntraining signal that strengthens both visual perception and language reasoning.\nOur experiments demonstrate that Vision-SR1 improves visual reasoning,\nmitigates visual hallucinations, and reduces reliance on language shortcuts\nacross diverse vision-language tasks.",
+            "upvotes": 54,
+            "discussionId": "68afb491245176306494cbbb",
+            "githubRepo": "https://github.com/zli12321/Vision-SR1",
+            "ai_summary": "Vision-SR1 uses reinforcement learning to enhance visual reasoning in vision-language models by decomposing the process into visual perception and language reasoning stages, improving accuracy and reducing hallucinations.",
+            "ai_keywords": [
+                "vision-language models",
+                "visual hallucinations",
+                "language shortcuts",
+                "visual reasoning",
+                "reinforcement learning",
+                "self-rewarding method",
+                "visual perception",
+                "language reasoning",
+                "self-containment",
+                "reward hacking"
+            ],
+            "githubStars": 39
+        },
+        "translation_title": "추론 분해를 통한 자가 보상 비전-언어 모델",
+        "purpose": "비전-언어 모델의 시각적 추론 개선 및 언어 기반 단축 의존성 감소",
+        "method": [
+            "Vision-SR1이라는 자가 보상 방법을 도입하여 외부 시각적 감독 없이 강화 학습을 통해 시각적 추론을 개선함(we introduce Vision-SR1, a self-rewarding method that improves visual reasoning without relying on external visual supervisions via reinforcement learning.)",
+            "모델이 자가 포함된 시각적 인식을 생성하도록 유도하고, 이를 바탕으로 언어 추론을 수행하여 보상을 계산함(The model is first prompted to produce self-contained visual perceptions that are sufficient to answer the question without referring back the input image.)",
+            "자가 보상과 최종 출력의 감독을 결합하여 균형 잡힌 학습 신호를 제공함(This self-reward is combined with supervision on final outputs, providing a balanced training signal that strengthens both visual perception and language reasoning.)"
+        ],
+        "conclusion": "Vision-SR1은 다양한 비전-언어 작업에서 시각적 추론을 개선하고, 시각적 환각을 완화하며, 언어 기반 단축 의존성을 줄이는 성과를 달성함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.20072",
+            "authors": [
+                {
+                    "_id": "68afcafd245176306494cc2d",
+                    "name": "Zhixuan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc2e",
+                    "name": "Yizhuo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc2f",
+                    "name": "Tianshuo Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc30",
+                    "name": "Chengyue Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc31",
+                    "name": "Sitong Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc32",
+                    "name": "Liuao Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc33",
+                    "name": "Xiaokang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc34",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc35",
+                    "name": "Yao Mu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afcafd245176306494cc36",
+                    "name": "Ping Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-27T17:39:11.000Z",
+            "submittedOnDailyAt": "2025-08-28T01:51:55.123Z",
+            "title": "Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding\n  in Vision-Language-Action Policies",
+            "submittedOnDailyBy": {
+                "_id": "662a471e94baa018b00c0f5c",
+                "avatarUrl": "/avatars/62a67a2ee6e4b9a7124f8b02b9b3f280.svg",
+                "isPro": false,
+                "fullname": "Zhixuan Liang",
+                "user": "Liang-ZX",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models adapt large vision-language backbones to\nmap images and instructions to robot actions. However, prevailing VLA decoders\neither generate actions autoregressively in a fixed left-to-right order or\nattach continuous diffusion or flow matching heads outside the backbone,\ndemanding specialized training and iterative sampling that hinder a unified,\nscalable architecture. We present Discrete Diffusion VLA, a single-transformer\npolicy that models discretized action chunks with discrete diffusion and is\ntrained with the same cross-entropy objective as the VLM backbone. The design\nretains diffusion's progressive refinement paradigm while remaining natively\ncompatible with the discrete token interface of VLMs. Our method achieves an\nadaptive decoding order that resolves easy action elements before harder ones\nand uses secondary remasking to revisit uncertain predictions across refinement\nrounds, which improves consistency and enables robust error correction. This\nunified decoder preserves pretrained vision language priors, supports parallel\ndecoding, breaks the autoregressive bottleneck, and reduces the number of\nfunction evaluations. Discrete Diffusion VLA achieves 96.3% avg. SR on LIBERO,\n71.2% visual matching on SimplerEnv Fractal and 49.3% overall on SimplerEnv\nBridge, improving over both autoregressive and continuous diffusion baselines.\nThese findings indicate that discrete-diffusion action decoder supports precise\naction modeling and consistent training, laying groundwork for scaling VLA to\nlarger models and datasets.",
+            "upvotes": 17,
+            "discussionId": "68afcafd245176306494cc37",
+            "ai_summary": "Discrete Diffusion VLA uses a single-transformer policy with discrete diffusion to model actions, improving decoding order, consistency, and performance over autoregressive and continuous diffusion methods.",
+            "ai_keywords": [
+                "vision-language-action models",
+                "VLA decoders",
+                "autoregressive",
+                "continuous diffusion",
+                "flow matching",
+                "single-transformer policy",
+                "discrete diffusion",
+                "cross-entropy objective",
+                "discrete token interface",
+                "adaptive decoding order",
+                "secondary remasking",
+                "pretrained vision language priors",
+                "parallel decoding",
+                "autoregressive bottleneck",
+                "function evaluations",
+                "LIBERO",
+                "SimplerEnv Fractal",
+                "SimplerEnv Bridge"
+            ]
+        },
+        "translation_title": "Discrete Diffusion VLA: 행동 디코딩을 위한 이산 확산 적용",
+        "purpose": "이산 확산 방법을 사용하여 Vision-Language-Action 모델의 행동 디코딩 성능을 개선하려는 목표",
+        "method": [
+            "Discrete Diffusion VLA라는 단일 트랜스포머 정책을 제안함(We present Discrete Diffusion VLA, a single-transformer policy that models discretized action chunks with discrete diffusion.)",
+            "장치가 VLM 백본과 동일한 크로스 엔트로피 목표로 훈련됨(The design retains diffusion's progressive refinement paradigm while remaining natively compatible with the discrete token interface of VLMs.)",
+            "행동 요소의 쉬운 요소부터 어려운 요소까지 적응형 디코딩 순서를 사용함(This adaptive decoding order resolves easy action elements before harder ones.)"
+        ],
+        "conclusion": "Discrete Diffusion VLA는 높은 행동 모형화 정확도를 달성하여 VLA 모델을 더 큰 모델과 데이터셋으로 확장할 수 있는 기초를 마련함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.19320",
+            "authors": [
+                {
+                    "_id": "68b008c3245176306494cd22",
+                    "user": {
+                        "_id": "6507fbecffc738079ca592bf",
+                        "avatarUrl": "/avatars/1cb0f39ac6dc2dba2292846a8d7746da.svg",
+                        "isPro": false,
+                        "fullname": "Ming Chen",
+                        "user": "ChenMing-thu14",
+                        "type": "user"
+                    },
+                    "name": "Ming Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:49:49.732Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd23",
+                    "name": "Liyuan Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd24",
+                    "name": "Wenyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd25",
+                    "name": "Haoxian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd26",
+                    "name": "Yan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd27",
+                    "name": "Xiaohan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd28",
+                    "name": "Xiaoqiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b008c3245176306494cd29",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64d0528459503263d9fb2a2d/87eJrFXOT9FcO6PwV0D2g.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/64d0528459503263d9fb2a2d/czZyZzMlIrsIgv_mVI_ez.mp4"
+            ],
+            "publishedAt": "2025-08-26T14:00:16.000Z",
+            "submittedOnDailyAt": "2025-08-28T06:48:47.053Z",
+            "title": "MIDAS: Multimodal Interactive Digital-human Synthesis via Real-time\n  Autoregressive Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "64d0528459503263d9fb2a2d",
+                "avatarUrl": "/avatars/902b44ccbc5074fcf1fa7da373b38f9f.svg",
+                "isPro": false,
+                "fullname": "Zhang Wenyuan",
+                "user": "zParquet",
+                "type": "user"
+            },
+            "summary": "Recently, interactive digital human video generation has attracted widespread\nattention and achieved remarkable progress. However, building such a practical\nsystem that can interact with diverse input signals in real time remains\nchallenging to existing methods, which often struggle with high latency, heavy\ncomputational cost, and limited controllability. In this work, we introduce an\nautoregressive video generation framework that enables interactive multimodal\ncontrol and low-latency extrapolation in a streaming manner. With minimal\nmodifications to a standard large language model (LLM), our framework accepts\nmultimodal condition encodings including audio, pose, and text, and outputs\nspatially and semantically coherent representations to guide the denoising\nprocess of a diffusion head. To support this, we construct a large-scale\ndialogue dataset of approximately 20,000 hours from multiple sources, providing\nrich conversational scenarios for training. We further introduce a deep\ncompression autoencoder with up to 64times reduction ratio, which\neffectively alleviates the long-horizon inference burden of the autoregressive\nmodel. Extensive experiments on duplex conversation, multilingual human\nsynthesis, and interactive world model highlight the advantages of our approach\nin low latency, high efficiency, and fine-grained multimodal controllability.",
+            "upvotes": 15,
+            "discussionId": "68b008c3245176306494cd2a",
+            "projectPage": "https://chenmingthu.github.io/milm/",
+            "ai_summary": "An autoregressive video generation framework with multimodal control and low-latency extrapolation uses a modified large language model and a deep compression autoencoder to achieve high efficiency and fine-grained controllability.",
+            "ai_keywords": [
+                "autoregressive video generation",
+                "multimodal control",
+                "low-latency extrapolation",
+                "large language model",
+                "multimodal condition encodings",
+                "denoising process",
+                "diffusion head",
+                "deep compression autoencoder",
+                "duplex conversation",
+                "multilingual human synthesis",
+                "interactive world model"
+            ]
+        },
+        "translation_title": "MIDAS: 실시간 자율 회귀 비디오 생성을 통한 멀티모달 대화형 디지털 휴먼 합성",
+        "purpose": "다양한 입력 신호와 실시간으로 상호작용할 수 있는 디지털 휴먼 비디오 생성 시스템 개발",
+        "method": [
+            "자율 회귀 비디오 생성 프레임워크를 도입하여 인터랙티브 멀티모달 제어 및 저지연 스트리밍을 가능하게 함(we introduce an autoregressive video generation framework that enables interactive multimodal control and low-latency extrapolation in a streaming manner.)",
+            "표준 대형 언어 모델(LLM)에 최소한의 수정으로 오디오, 포즈, 텍스트를 포함한 멀티모달 조건 인코딩을 수용함(our framework accepts multimodal condition encodings including audio, pose, and text.)",
+            "약 20,000시간의 대화 데이터 세트를 구축하여 훈련을 위한 풍부한 대화 시나리오를 제공함(we construct a large-scale dialogue dataset of approximately 20,000 hours from multiple sources, providing rich conversational scenarios for training.)"
+        ],
+        "conclusion": "저지연, 고효율, 세밀한 멀티모달 제어가 가능한 디지털 휴먼 생성 시스템을 성공적으로 개발하였음.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.20096",
+            "authors": [
+                {
+                    "_id": "68afc826245176306494cbed",
+                    "user": {
+                        "_id": "63fda3fced9eead590ff6918",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677566802735-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Zeyi Sun",
+                        "user": "Zery",
+                        "type": "user"
+                    },
+                    "name": "Zeyi Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:54:59.726Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbee",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbef",
+                    "name": "Jianze Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf0",
+                    "name": "Qiushi Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf1",
+                    "name": "Ziyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf2",
+                    "user": {
+                        "_id": "65ab5332043d53781a115475",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ab5332043d53781a115475/UaxSFDWteYsByzx7G_KKy.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhixiong Zhang",
+                        "user": "rookiexiong",
+                        "type": "user"
+                    },
+                    "name": "Zhixiong Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:54:53.634Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf3",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/mCgynEtoXdILvzyoPexii.png",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-08-28T08:54:56.689Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf4",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf5",
+                    "name": "Kai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf6",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68afc826245176306494cbf7",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-27T17:59:50.000Z",
+            "submittedOnDailyAt": "2025-08-28T01:40:23.357Z",
+            "title": "CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer\n  Use Agent with Decoupled Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "63fda3fced9eead590ff6918",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677566802735-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Zeyi Sun",
+                "user": "Zery",
+                "type": "user"
+            },
+            "summary": "Autonomous agents for Graphical User Interfaces (GUIs) face significant\nchallenges in specialized domains such as scientific computing, where both\nlong-horizon planning and precise execution are required. Existing approaches\nsuffer from a trade-off: generalist agents excel at planning but perform poorly\nin execution, while specialized agents demonstrate the opposite weakness.\nRecent compositional frameworks attempt to bridge this gap by combining a\nplanner and an actor, but they are typically static and non-trainable, which\nprevents adaptation from experience. This is a critical limitation given the\nscarcity of high-quality data in scientific domains. To address these\nlimitations, we introduce CODA, a novel and trainable compositional framework\nthat integrates a generalist planner (Cerebrum) with a specialist executor\n(Cerebellum), trained via a dedicated two-stage pipeline. In the first stage,\nSpecialization, we apply a decoupled GRPO approach to train an expert planner\nfor each scientific application individually, bootstrapping from a small set of\ntask trajectories. In the second stage, Generalization, we aggregate all\nsuccessful trajectories from the specialized experts to build a consolidated\ndataset, which is then used for supervised fine-tuning of the final planner.\nThis equips CODA with both robust execution and cross-domain generalization.\nEvaluated on four challenging applications from the ScienceBoard benchmark,\nCODA significantly outperforms baselines and establishes a new state of the art\namong open-source models.",
+            "upvotes": 13,
+            "discussionId": "68afc826245176306494cbf8",
+            "projectPage": "https://github.com/OpenIXCLab/CODA",
+            "githubRepo": "https://github.com/OpenIXCLab/CODA",
+            "ai_summary": "CODA, a trainable compositional framework, combines a generalist planner and specialist executor to achieve robust execution and cross-domain generalization in scientific computing GUIs.",
+            "ai_keywords": [
+                "compositional frameworks",
+                "planner",
+                "actor",
+                "long-horizon planning",
+                "precise execution",
+                "GRPO",
+                "ScienceBoard benchmark"
+            ],
+            "githubStars": 15
+        },
+        "translation_title": "CODA: 이중 뇌 컴퓨터용 대뇌와 소뇌의 조화",
+        "purpose": "과학 분야에서 자율 에이전트의 장기 계획 및 정확한 실행을 향상시키기 위한 새로운 접근 방안 연구",
+        "method": [
+            "기존의 정적이고 비훈련 가능한 조합 프레임워크의 한계를 극복하기 위해 CODA라는 새로운 훈련 가능한 조합 프레임워크를 제안함(To address these limitations, we introduce CODA, a novel and trainable compositional framework that integrates a generalist planner (Cerebrum) with a specialist executor (Cerebellum).)",
+            "특정 과학 응용프로그램을 위해 개별적으로 전문가 플래너를 훈련하는 분리된 두 단계 파이프라인을 사용함(In the first stage, Specialization, we apply a decoupled GRPO approach to train an expert planner for each scientific application individually.)",
+            "전문가의 성공적인 경로를 집계하여 최종 플래너의 감독식 미세 조정을 위해 사용할 통합된 데이터셋을 구축함(In the second stage, Generalization, we aggregate all successful trajectories from the specialized experts to build a consolidated dataset.)"
+        ],
+        "conclusion": "CODA는 실행력이 우수하고 다양한 분야에서 일반화된 성능을 가지며, 기존 모델보다 뛰어난 성능을 발휘함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Multimodal Learning"
+        ]
+    }
+]
