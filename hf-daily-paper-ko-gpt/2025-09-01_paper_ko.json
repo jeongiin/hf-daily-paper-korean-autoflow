@@ -1,0 +1,674 @@
+[
+    {
+        "paper": {
+            "id": "2508.21113",
+            "authors": [
+                {
+                    "_id": "68b4f36d851c6e7b001ec9c5",
+                    "name": "Jie Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4f36d851c6e7b001ec9c6",
+                    "name": "Qi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4f36d851c6e7b001ec9c7",
+                    "name": "Bolin Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4f36d851c6e7b001ec9c8",
+                    "name": "Shiming Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4f36d851c6e7b001ec9c9",
+                    "name": "Han Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4f36d851c6e7b001ec9ca",
+                    "name": "Houwen Peng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-28T17:48:19.000Z",
+            "submittedOnDailyAt": "2025-09-01T00:10:31.599Z",
+            "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs\n  via Bi-Mode Annealing and Reinforce Learning",
+            "submittedOnDailyBy": {
+                "_id": "643e45c4c639f8bc9727810a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643e45c4c639f8bc9727810a/BJR1cvSCxcqxr08iS7GsI.jpeg",
+                "isPro": false,
+                "fullname": "YannQi",
+                "user": "YannQi",
+                "type": "user"
+            },
+            "summary": "Multimodal Large Language Models (MLLMs) equipped with step-by-step thinking\ncapabilities have demonstrated remarkable performance on complex reasoning\nproblems. However, this thinking process is redundant for simple problems\nsolvable without complex reasoning. To address this inefficiency, we propose\nR-4B, an auto-thinking MLLM, which can adaptively decide when to think based on\nproblem complexity. The central idea of R-4B is to empower the model with both\nthinking and non-thinking capabilities using bi-mode annealing, and apply\nBi-mode Policy Optimization~(BPO) to improve the model's accuracy in\ndetermining whether to activate the thinking process. Specifically, we first\ntrain the model on a carefully curated dataset spanning various topics, which\ncontains samples from both thinking and non-thinking modes. Then it undergoes a\nsecond phase of training under an improved GRPO framework, where the policy\nmodel is forced to generate responses from both modes for each input query.\nExperimental results show that R-4B achieves state-of-the-art performance\nacross 25 challenging benchmarks. It outperforms Qwen2.5-VL-7B in most tasks\nand achieves performance comparable to larger models such as\nKimi-VL-A3B-Thinking-2506 (16B) on reasoning-intensive benchmarks with lower\ncomputational cost.",
+            "upvotes": 79,
+            "discussionId": "68b4f36d851c6e7b001ec9cb",
+            "githubRepo": "https://github.com/yannqi/R-4B",
+            "ai_summary": "R-4B, an auto-thinking multimodal large language model, uses bi-mode annealing and Bi-mode Policy Optimization to adaptively decide on problem-solving strategies, achieving state-of-the-art performance with lower computational cost.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "step-by-step thinking",
+                "auto-thinking",
+                "bi-mode annealing",
+                "Bi-mode Policy Optimization",
+                "GRPO framework",
+                "policy model",
+                "reasoning-intensive benchmarks"
+            ],
+            "githubStars": 32
+        },
+        "translation_title": "R-4B: MLLM에서 일반적인 자동 사고 능력을 유도하는 방법",
+        "purpose": "간단한 문제 해결 시 비효율성을 줄이고, 문제의 복잡도에 따라 사고할지를 능동적으로 결정하는 MLLM 개발",
+        "method": [
+            "R-4B 모델에 사고와 비사고 능력을 모두 부여하기 위해 bi-mode annealing 기법을 사용함(The central idea of R-4B is to empower the model with both thinking and non-thinking capabilities using bi-mode annealing.)",
+            "다양한 주제를 아우르는 세심하게 선별된 데이터셋에서 모델을 훈련시키고, 사고 및 비사고 모드 샘플을 포함함(Specifically, we first train the model on a carefully curated dataset spanning various topics, which contains samples from both thinking and non-thinking modes.)",
+            "개선된 GRPO 프레임워크 아래에서 각 입력 쿼리에 대해 두 모드에서 반응을 생성하도록 정책 모델을 훈련함(Then it undergoes a second phase of training under an improved GRPO framework, where the policy model is forced to generate responses from both modes for each input query.)"
+        ],
+        "conclusion": "R-4B는 25개의 도전적 벤치마크에서 최첨단 성능을 달성하며, 대부분의 작업에서 Qwen2.5-VL-7B를 초과하고 더 낮은 계산 비용으로 Kimi-VL-A3B-Thinking-2506과 유사한 성능을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.21112",
+            "authors": [
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9a7",
+                    "user": {
+                        "_id": "64daecec888b7e9c400f59b5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+                        "isPro": false,
+                        "fullname": "Delin Qu",
+                        "user": "delinqu",
+                        "type": "user"
+                    },
+                    "name": "Delin Qu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T07:50:50.399Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9a8",
+                    "name": "Haoming Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9a9",
+                    "name": "Qizhi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9aa",
+                    "name": "Zhaoqing Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9ab",
+                    "name": "Xianqiang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9ac",
+                    "name": "Xinyi Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9ad",
+                    "name": "Qi Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9ae",
+                    "name": "Modi Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9af",
+                    "user": {
+                        "_id": "646ec9b135f55eb49e405faa",
+                        "avatarUrl": "/avatars/a17194be585d20e2a021e77a5a20e213.svg",
+                        "isPro": false,
+                        "fullname": "Guanghui Ren",
+                        "user": "sundrops",
+                        "type": "user"
+                    },
+                    "name": "Guanghui Ren",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T07:50:48.188Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b0",
+                    "name": "Cheng Ruan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b1",
+                    "name": "Maoqing Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b2",
+                    "name": "Haoran Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b3",
+                    "name": "Jiacheng Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b4",
+                    "name": "Bin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b4e4e7851c6e7b001ec9b5",
+                    "name": "Dong Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-28T17:26:15.000Z",
+            "submittedOnDailyAt": "2025-09-01T00:04:28.519Z",
+            "title": "EmbodiedOneVision: Interleaved Vision-Text-Action Pretraining for\n  General Robot Control",
+            "submittedOnDailyBy": {
+                "_id": "64daecec888b7e9c400f59b5",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64daecec888b7e9c400f59b5/f4pfOfWk6jYJX-Nf2-qHn.png",
+                "isPro": false,
+                "fullname": "Delin Qu",
+                "user": "delinqu",
+                "type": "user"
+            },
+            "summary": "The human ability to seamlessly perform multimodal reasoning and physical\ninteraction in the open world is a core goal for general-purpose embodied\nintelligent systems. Recent vision-language-action (VLA) models, which are\nco-trained on large-scale robot and visual-text data, have demonstrated notable\nprogress in general robot control. However, they still fail to achieve\nhuman-level flexibility in interleaved reasoning and interaction. In this work,\nintroduce EO-Robotics, consists of EO-1 model and EO-Data1.5M dataset. EO-1 is\na unified embodied foundation model that achieves superior performance in\nmultimodal embodied reasoning and robot control through interleaved\nvision-text-action pre-training. The development of EO-1 is based on two key\npillars: (i) a unified architecture that processes multimodal inputs\nindiscriminately (image, text, video, and action), and (ii) a massive,\nhigh-quality multimodal embodied reasoning dataset, EO-Data1.5M, which contains\nover 1.5 million samples with emphasis on interleaved vision-text-action\ncomprehension. EO-1 is trained through synergies between auto-regressive\ndecoding and flow matching denoising on EO-Data1.5M, enabling seamless robot\naction generation and multimodal embodied reasoning. Extensive experiments\ndemonstrate the effectiveness of interleaved vision-text-action learning for\nopen-world understanding and generalization, validated through a variety of\nlong-horizon, dexterous manipulation tasks across multiple embodiments. This\npaper details the architecture of EO-1, the data construction strategy of\nEO-Data1.5M, and the training methodology, offering valuable insights for\ndeveloping advanced embodied foundation models.",
+            "upvotes": 51,
+            "discussionId": "68b4e4e7851c6e7b001ec9b6",
+            "projectPage": "https://eo-robotics.ai/eo-1",
+            "githubRepo": "https://github.com/EO-Robotics/EO-1",
+            "ai_summary": "EO-Robotics, comprising EO-1 model and EO-Data1.5M dataset, advances multimodal embodied reasoning and robot control through interleaved vision-text-action pre-training.",
+            "ai_keywords": [
+                "vision-language-action (VLA) models",
+                "embodied foundation model",
+                "multimodal inputs",
+                "auto-regressive decoding",
+                "flow matching denoising",
+                "interleaved vision-text-action comprehension",
+                "long-horizon tasks",
+                "dexterous manipulation"
+            ],
+            "githubStars": 108
+        },
+        "translation_title": "EmbodiedOneVision: 일반 로봇 제어를 위한 상호 연계된 비전-텍스트-액션 사전 학습",
+        "purpose": "일반 목적의 로봇 시스템에서 멀티모달 추론 및 물리적 상호작용을 원활하게 수행할 수 있는 능력 개발",
+        "method": [
+            "EO-1 모델과 EO-Data1.5M 데이터셋을 소개함(we introduce EO-Robotics, consists of EO-1 model and EO-Data1.5M dataset.)",
+            "EO-1은 멀티모달 입력을 처리하는 통합 아키텍처를 기반으로 함(a unified architecture that processes multimodal inputs indiscriminately).",
+            "자동 회귀 디코딩과 흐름 매칭 노이즈 제거를 활용하여 EO-Data1.5M에서 훈련함(EO-1 is trained through synergies between auto-regressive decoding and flow matching denoising on EO-Data1.5M.)",
+            "상호 연계된 비전-텍스트-액션 학습의 효과성을 실험을 통해 검증함(Extensive experiments demonstrate the effectiveness of interleaved vision-text-action learning for open-world understanding and generalization.)"
+        ],
+        "conclusion": "EO-1은 열린 세계 이해 및 일반화에 효과적이며, 다양한 조작 작업에서 성능을 입증함.",
+        "keywords": [
+            "Robotics",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.18106",
+            "authors": [
+                {
+                    "_id": "68b50b5f851c6e7b001eca21",
+                    "user": {
+                        "_id": "67ca63c1e10c4e1bf8262576",
+                        "avatarUrl": "/avatars/adfc102d8d3b9222eab7e912cf707076.svg",
+                        "isPro": false,
+                        "fullname": "Keke Lian",
+                        "user": "KekeLian",
+                        "type": "user"
+                    },
+                    "name": "Keke Lian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T07:50:36.564Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca22",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca23",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca24",
+                    "name": "Libo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca25",
+                    "user": {
+                        "_id": "62579c55b98dcaa7e0de285d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62579c55b98dcaa7e0de285d/0YUd5nloul_bW9yolDGGo.jpeg",
+                        "isPro": false,
+                        "fullname": "wangjunjie",
+                        "user": "wanng",
+                        "type": "user"
+                    },
+                    "name": "Junjie Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T07:50:42.819Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca26",
+                    "name": "Ziming Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca27",
+                    "name": "Yujiu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca28",
+                    "name": "Haotong Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca29",
+                    "name": "Haoran Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2a",
+                    "name": "Shuang Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2b",
+                    "name": "Mingda Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2c",
+                    "user": {
+                        "_id": "68b51853a494ea3733e4e851",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68b51853a494ea3733e4e851/-j-nJWeZZpmKzqHsIl7UN.png",
+                        "isPro": false,
+                        "fullname": "Jiazheng Quan",
+                        "user": "jzquan",
+                        "type": "user"
+                    },
+                    "name": "Jiazheng Quan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T13:51:34.413Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2d",
+                    "name": "Yilu Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2e",
+                    "name": "Chenhao He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca2f",
+                    "name": "Zichuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca30",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca31",
+                    "name": "Haoling Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca32",
+                    "name": "Zhaoxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca33",
+                    "name": "Jiongchi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca34",
+                    "name": "Hui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50b5f851c6e7b001eca35",
+                    "name": "Dong Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-25T15:11:11.000Z",
+            "submittedOnDailyAt": "2025-09-01T01:33:35.016Z",
+            "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in\n  AI-Generated Code",
+            "submittedOnDailyBy": {
+                "_id": "62579c55b98dcaa7e0de285d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62579c55b98dcaa7e0de285d/0YUd5nloul_bW9yolDGGo.jpeg",
+                "isPro": false,
+                "fullname": "wangjunjie",
+                "user": "wanng",
+                "type": "user"
+            },
+            "summary": "The increasing adoption of large language models (LLMs) in software\nengineering necessitates rigorous security evaluation of their generated code.\nHowever, existing benchmarks are inadequate, as they focus on isolated code\nsnippets, employ unstable evaluation methods that lack reproducibility, and\nfail to connect the quality of input context with the security of the output.\nTo address these gaps, we introduce A.S.E (AI Code Generation Security\nEvaluation), a benchmark for repository-level secure code generation. A.S.E\nconstructs tasks from real-world repositories with documented CVEs, preserving\nfull repository context like build systems and cross-file dependencies. Its\nreproducible, containerized evaluation framework uses expert-defined rules to\nprovide stable, auditable assessments of security, build quality, and\ngeneration stability. Our evaluation of leading LLMs on A.S.E reveals three key\nfindings: (1) Claude-3.7-Sonnet achieves the best overall performance. (2) The\nsecurity gap between proprietary and open-source models is narrow;\nQwen3-235B-A22B-Instruct attains the top security score. (3) Concise,\n``fast-thinking'' decoding strategies consistently outperform complex,\n``slow-thinking'' reasoning for security patching.",
+            "upvotes": 46,
+            "discussionId": "68b50b60851c6e7b001eca36",
+            "githubRepo": "https://github.com/Tencent/AICGSecEval",
+            "ai_summary": "A.S.E is a benchmark for evaluating the security of code generated by large language models using real-world repositories and expert-defined rules, revealing insights into model performance and decoding strategies.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "software engineering",
+                "security evaluation",
+                "generated code",
+                "benchmarks",
+                "code snippets",
+                "evaluation methods",
+                "reproducibility",
+                "input context",
+                "repository-level",
+                "secure code generation",
+                "CVEs",
+                "build systems",
+                "cross-file dependencies",
+                "containerized evaluation",
+                "expert-defined rules",
+                "security",
+                "build quality",
+                "generation stability",
+                "Claude-3.7-Sonnet",
+                "Qwen3-235B-A22B-Instruct",
+                "decoding strategies",
+                "security patching"
+            ],
+            "githubStars": 133
+        },
+        "translation_title": "A.S.E: AI 생성 코드의 보안을 평가하기 위한 저장소 수준 벤치마크",
+        "purpose": "AI 생성 코드의 보안성을 엄격하게 평가하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "실제 저장소에서 문서화된 CVE를 바탕으로 과제를 구성하고 전체 저장소 맥락을 보존함(we introduce A.S.E (AI Code Generation Security Evaluation), a benchmark for repository-level secure code generation.)",
+            "컨테이너화된 평가 프레임워크를 사용하여 보안, 빌드 품질, 생성 안정성에 대한 안정적이고 감사 가능한 평가를 제공함(Its reproducible, containerized evaluation framework uses expert-defined rules to provide stable, auditable assessments of security, build quality, and generation stability.)",
+            "주요 LLM을 A.S.E에서 평가하여 세 가지 주요 발견을 도출함(Our evaluation of leading LLMs on A.S.E reveals three key findings:)"
+        ],
+        "conclusion": "A.S.E는 AI 생성 코드의 보안을 효과적으로 평가할 수 있으며, 성능이 우수한 모델과 보안 점수를 확인할 수 있었다.",
+        "keywords": [
+            "Large Language Models",
+            "Security Evaluation",
+            "Code Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.20470",
+            "authors": [
+                {
+                    "_id": "68b50e02851c6e7b001eca38",
+                    "user": {
+                        "_id": "66b01dc4e48856bb718f2ba8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66b01dc4e48856bb718f2ba8/MHZyIDd3BEtsnH9M2BvzM.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiaochuan Li",
+                        "user": "lixiaochuan",
+                        "type": "user"
+                    },
+                    "name": "Xiaochuan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-01T07:50:33.701Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca39",
+                    "name": "Guoguang Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3a",
+                    "name": "Runze Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3b",
+                    "name": "Liang Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3c",
+                    "name": "Qi Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3d",
+                    "name": "Lihua Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3e",
+                    "name": "Zhenhua Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca3f",
+                    "name": "Yaqian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca40",
+                    "name": "Haiyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca41",
+                    "name": "Tianqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca42",
+                    "name": "Changsheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca43",
+                    "name": "Xiaoli Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca44",
+                    "name": "Rengang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b50e02851c6e7b001eca45",
+                    "name": "Baoyu Fan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-28T06:39:41.000Z",
+            "submittedOnDailyAt": "2025-09-01T05:34:52.494Z",
+            "title": "Droplet3D: Commonsense Priors from Videos Facilitate 3D Generation",
+            "submittedOnDailyBy": {
+                "_id": "66b01dc4e48856bb718f2ba8",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66b01dc4e48856bb718f2ba8/MHZyIDd3BEtsnH9M2BvzM.jpeg",
+                "isPro": false,
+                "fullname": "Xiaochuan Li",
+                "user": "lixiaochuan",
+                "type": "user"
+            },
+            "summary": "Scaling laws have validated the success and promise of large-data-trained\nmodels in creative generation across text, image, and video domains. However,\nthis paradigm faces data scarcity in the 3D domain, as there is far less of it\navailable on the internet compared to the aforementioned modalities.\nFortunately, there exist adequate videos that inherently contain commonsense\npriors, offering an alternative supervisory signal to mitigate the\ngeneralization bottleneck caused by limited native 3D data. On the one hand,\nvideos capturing multiple views of an object or scene provide a spatial\nconsistency prior for 3D generation. On the other hand, the rich semantic\ninformation contained within the videos enables the generated content to be\nmore faithful to the text prompts and semantically plausible. This paper\nexplores how to apply the video modality in 3D asset generation, spanning\ndatasets to models. We introduce Droplet3D-4M, the first large-scale video\ndataset with multi-view level annotations, and train Droplet3D, a generative\nmodel supporting both image and dense text input. Extensive experiments\nvalidate the effectiveness of our approach, demonstrating its ability to\nproduce spatially consistent and semantically plausible content. Moreover, in\ncontrast to the prevailing 3D solutions, our approach exhibits the potential\nfor extension to scene-level applications. This indicates that the commonsense\npriors from the videos significantly facilitate 3D creation. We have\nopen-sourced all resources including the dataset, code, technical framework,\nand model weights: https://dropletx.github.io/.",
+            "upvotes": 31,
+            "discussionId": "68b50e03851c6e7b001eca46",
+            "ai_summary": "Using video data to provide commonsense priors enhances 3D asset generation, enabling spatial consistency and semantic plausibility in 3D content creation.",
+            "ai_keywords": [
+                "scaling laws",
+                "large-data-trained models",
+                "creative generation",
+                "3D domain",
+                "data scarcity",
+                "commonsense priors",
+                "supervisory signal",
+                "generalization bottleneck",
+                "spatial consistency prior",
+                "semantic information",
+                "Droplet3D-4M",
+                "Droplet3D",
+                "generative model",
+                "image input",
+                "dense text input",
+                "scene-level applications"
+            ]
+        },
+        "translation_title": "Droplet3D: 비디오에서의 상식 선행지식이 3D 생성을 촉진함",
+        "purpose": "3D 자산 생성을 위한 비디오 모달리티 적용 방법 연구",
+        "method": [
+            "한 물체나 장면의 여러 시점을 캡처한 비디오가 3D 생성을 위한 공간 일관성 선행지식을 제공함(On the one hand, videos capturing multiple views of an object or scene provide a spatial consistency prior for 3D generation.)",
+            "풍부한 의미적 정보를 포함한 비디오가 생성된 콘텐츠가 텍스트 프롬프트에 더 충실하고 의미적으로 타당하게 만드는 데 도움이 됨(On the other hand, the rich semantic information contained within the videos enables the generated content to be more faithful to the text prompts and semantically plausible.)",
+            "Droplet3D-4M이라는 다중 시점 레벨 주석이 있는 대규모 비디오 데이터세트를 소개하고, 이미지 및 밀집 텍스트 입력을 지원하는 생성 모델인 Droplet3D를 학습함(We introduce Droplet3D-4M, the first large-scale video dataset with multi-view level annotations, and train Droplet3D, a generative model supporting both image and dense text input.)",
+            "다양한 실험을 통해 공간적으로 일관되고 의미적으로 타당한 콘텐츠를 생성하는 능력을 검증함(Extensive experiments validate the effectiveness of our approach, demonstrating its ability to produce spatially consistent and semantically plausible content.)"
+        ],
+        "conclusion": "비디오에서의 상식 선행지식이 3D 생성에 크게 기여하며, 기존 3D 솔루션과는 달리 장면 수준의 애플리케이션으로 확장 가능성을 보임.",
+        "keywords": [
+            "3D Vision",
+            "Video Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2508.13618",
+            "authors": [
+                {
+                    "_id": "68b510b7851c6e7b001eca5a",
+                    "name": "Shunian Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca5b",
+                    "name": "Hejin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca5c",
+                    "name": "Yexin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca5d",
+                    "name": "Zihan Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca5e",
+                    "name": "Pengcheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca5f",
+                    "name": "Chenghao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca60",
+                    "name": "Michael Guan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca61",
+                    "name": "Rongsheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca62",
+                    "name": "Junying Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca63",
+                    "name": "Guanbin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca64",
+                    "name": "Ser-Nam Lim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca65",
+                    "name": "Harry Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b510b7851c6e7b001eca66",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-19T08:31:15.000Z",
+            "submittedOnDailyAt": "2025-09-01T01:53:13.364Z",
+            "title": "TalkVid: A Large-Scale Diversified Dataset for Audio-Driven Talking Head\n  Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "623be9e1d1eb227788764959",
+                "avatarUrl": "/avatars/b6521b795a59754dbb40123fd4f63b8c.svg",
+                "isPro": false,
+                "fullname": "Shunian Chen",
+                "user": "Shunian",
+                "type": "user"
+            },
+            "summary": "Audio-driven talking head synthesis has achieved remarkable photorealism, yet\nstate-of-the-art (SOTA) models exhibit a critical failure: they lack\ngeneralization to the full spectrum of human diversity in ethnicity, language,\nand age groups. We argue that this generalization gap is a direct symptom of\nlimitations in existing training data, which lack the necessary scale, quality,\nand diversity. To address this challenge, we introduce TalkVid, a new\nlarge-scale, high-quality, and diverse dataset containing 1244 hours of video\nfrom 7729 unique speakers. TalkVid is curated through a principled, multi-stage\nautomated pipeline that rigorously filters for motion stability, aesthetic\nquality, and facial detail, and is validated against human judgments to ensure\nits reliability. Furthermore, we construct and release TalkVid-Bench, a\nstratified evaluation set of 500 clips meticulously balanced across key\ndemographic and linguistic axes. Our experiments demonstrate that a model\ntrained on TalkVid outperforms counterparts trained on previous datasets,\nexhibiting superior cross-dataset generalization. Crucially, our analysis on\nTalkVid-Bench reveals performance disparities across subgroups that are\nobscured by traditional aggregate metrics, underscoring its necessity for\nfuture research. Code and data can be found in\nhttps://github.com/FreedomIntelligence/TalkVid",
+            "upvotes": 14,
+            "discussionId": "68b510b7851c6e7b001eca67",
+            "projectPage": "https://freedomintelligence.github.io/talk-vid/",
+            "githubRepo": "https://github.com/FreedomIntelligence/TalkVid",
+            "ai_summary": "TalkVid, a large-scale, high-quality, and diverse dataset, improves audio-driven talking head synthesis by enhancing generalization across human diversity and revealing subgroup performance disparities.",
+            "ai_keywords": [
+                "audio-driven talking head synthesis",
+                "photorealism",
+                "generalization",
+                "training data",
+                "large-scale dataset",
+                "high-quality dataset",
+                "diverse dataset",
+                "motion stability",
+                "aesthetic quality",
+                "facial detail",
+                "stratified evaluation set",
+                "cross-dataset generalization",
+                "performance disparities",
+                "aggregate metrics"
+            ],
+            "githubStars": 69
+        },
+        "translation_title": "TalkVid: 오디오 기반의 말하는 얼굴 합성을 위한 대규모 다각화 데이터셋",
+        "purpose": "인종, 언어, 연령 그룹의 다양성을 반영한 오디오 기반 합성 성능 개선을 위한 데이터셋 개발",
+        "method": [
+            "7729명의 고유 연설자로부터 1244시간의 비디오를 포함하는 TalkVid 데이터셋을 새롭게 구축함(To address this challenge, we introduce TalkVid, a new large-scale, high-quality, and diverse dataset containing 1244 hours of video from 7729 unique speakers.)",
+            "다양한 기준에 따라 비디오의 안정성, 미적 품질 및 얼굴 세부 정보를 필터링하는 다단계 자동 파이프라인을 통해 데이터를 선별함(TalkVid is curated through a principled, multi-stage automated pipeline that rigorously filters for motion stability, aesthetic quality, and facial detail.)",
+            "500개의 클립으로 구성된 TalkVid-Bench 평가 세트를 구축하여 주요 인구 통계적 및 언어적 축에 걸쳐 균형을 맞춤(we construct and release TalkVid-Bench, a stratified evaluation set of 500 clips meticulously balanced across key demographic and linguistic axes.)"
+        ],
+        "conclusion": "TalkVid 데이터로 학습한 모델은 이전 데이터셋으로 학습한 모델보다 뛰어난 성능을 보여주며, 특정 하위 그룹 간 성능 차이를 밝힘으로써 미래 연구에 필요성을 강조함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
