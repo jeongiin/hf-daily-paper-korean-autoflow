@@ -1,0 +1,450 @@
+[
+    {
+        "paper": {
+            "id": "2509.01106",
+            "authors": [
+                {
+                    "_id": "68b8f795d43cadaf7a688b04",
+                    "name": "Huang Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b05",
+                    "name": "Mengxi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b06",
+                    "name": "Heng Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b07",
+                    "name": "Wei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b08",
+                    "name": "Zixuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b09",
+                    "name": "Qifeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b0a",
+                    "name": "Xueyun Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b0b",
+                    "name": "Yucheng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f795d43cadaf7a688b0c",
+                    "name": "Hang Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-01T03:53:47.000Z",
+            "submittedOnDailyAt": "2025-09-04T00:57:07.946Z",
+            "title": "Robix: A Unified Model for Robot Interaction, Reasoning and Planning",
+            "submittedOnDailyBy": {
+                "_id": "63044e025c70c21d0eaf08bc",
+                "avatarUrl": "/avatars/a2d39973d7fbcbe9d4cce5648b3149c2.svg",
+                "isPro": false,
+                "fullname": "Wei Li",
+                "user": "Wiley085",
+                "type": "user"
+            },
+            "summary": "We introduce Robix, a unified model that integrates robot reasoning, task\nplanning, and natural language interaction within a single vision-language\narchitecture. Acting as the high-level cognitive layer in a hierarchical robot\nsystem, Robix dynamically generates atomic commands for the low-level\ncontroller and verbal responses for human interaction, enabling robots to\nfollow complex instructions, plan long-horizon tasks, and interact naturally\nwith human within an end-to-end framework. Robix further introduces novel\ncapabilities such as proactive dialogue, real-time interruption handling, and\ncontext-aware commonsense reasoning during task execution. At its core, Robix\nleverages chain-of-thought reasoning and adopts a three-stage training\nstrategy: (1) continued pretraining to enhance foundational embodied reasoning\nabilities including 3D spatial understanding, visual grounding, and\ntask-centric reasoning; (2) supervised finetuning to model human-robot\ninteraction and task planning as a unified reasoning-action sequence; and (3)\nreinforcement learning to improve reasoning-action consistency and long-horizon\ntask coherence. Extensive experiments demonstrate that Robix outperforms both\nopen-source and commercial baselines (e.g., GPT-4o and Gemini 2.5 Pro) in\ninteractive task execution, demonstrating strong generalization across diverse\ninstruction types (e.g., open-ended, multi-stage, constrained, invalid, and\ninterrupted) and various user-involved tasks such as table bussing, grocery\nshopping, and dietary filtering.",
+            "upvotes": 29,
+            "discussionId": "68b8f796d43cadaf7a688b0d",
+            "projectPage": "https://robix-seed.github.io/robix/",
+            "ai_summary": "Robix, a unified vision-language model, integrates robot reasoning, task planning, and natural language interaction, demonstrating superior performance in interactive task execution through chain-of-thought reasoning and a three-stage training strategy.",
+            "ai_keywords": [
+                "chain-of-thought reasoning",
+                "three-stage training strategy",
+                "continued pretraining",
+                "supervised finetuning",
+                "reinforcement learning",
+                "embodied reasoning",
+                "3D spatial understanding",
+                "visual grounding",
+                "task-centric reasoning",
+                "human-robot interaction",
+                "task planning",
+                "reasoning-action sequence",
+                "reasoning-action consistency",
+                "long-horizon task coherence"
+            ]
+        },
+        "translation_title": "Robix: 로봇 상호작용, 추론 및 계획을 위한 통합 모델",
+        "purpose": "로봇의 추론, 작업 계획, 자연어 상호작용 기능을 통합하기 위한 모델 개발",
+        "method": [
+            "로봇 시스템의 고수준 인지 계층으로 작동하는 Robix 모델을 소개함(Acting as the high-level cognitive layer in a hierarchical robot system, Robix dynamically generates atomic commands for the low-level controller and verbal responses for human interaction.)",
+            "Robix가 복잡한 지시를 따르고 장기 과제를 계획하며 인간과 자연스럽게 상호작용할 수 있도록 함(enabling robots to follow complex instructions, plan long-horizon tasks, and interact naturally with human within an end-to-end framework.)",
+            "Chain-of-thought reasoning을 활용하고 세 단계 학습 전략을 채택함(Robix at its core, leverages chain-of-thought reasoning and adopts a three-stage training strategy: )."
+        ],
+        "conclusion": "Robix는 다양한 지시 유형에 대해 강력한 일반화를 보여주며, 상호작용 과제 수행에서 기존 모델보다 우수한 성능을 나타냄.",
+        "keywords": [
+            "Robotics",
+            "Natural Language Processing",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.00375",
+            "authors": [
+                {
+                    "_id": "68b902b5d43cadaf7a688b4c",
+                    "user": {
+                        "_id": "6540617c7cadb2d1b42007c5",
+                        "avatarUrl": "/avatars/b1877fd0564c362a0d4a064d4ec43a73.svg",
+                        "isPro": false,
+                        "fullname": "Ziyi Xia",
+                        "user": "ZiyiXia",
+                        "type": "user"
+                    },
+                    "name": "Ziyi Xia",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-04T08:43:56.322Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b902b5d43cadaf7a688b4d",
+                    "name": "Kun Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b902b5d43cadaf7a688b4e",
+                    "name": "Hongjin Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b902b5d43cadaf7a688b4f",
+                    "name": "Zheng Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-08-30T06:02:56.000Z",
+            "submittedOnDailyAt": "2025-09-04T01:42:16.942Z",
+            "title": "Open Data Synthesis For Deep Research",
+            "submittedOnDailyBy": {
+                "_id": "6540617c7cadb2d1b42007c5",
+                "avatarUrl": "/avatars/b1877fd0564c362a0d4a064d4ec43a73.svg",
+                "isPro": false,
+                "fullname": "Ziyi Xia",
+                "user": "ZiyiXia",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) are increasingly expected to go beyond simple\nfactual queries toward Deep Research-tasks that require decomposing questions\ninto sub-problems, coordinating multi-step reasoning, and synthesizing evidence\nfrom diverse sources. We formalize Deep Research tasks with verifiable answers\nas Hierarchical Constraint Satisfaction Problems (HCSPs), which are\nfundamentally different from single-constraint, multi-hop, or flat CSP\nformulations. However, existing benchmarks (e.g., Natural Questions, HotpotQA)\nfail to capture this complexity, while recent synthetic datasets often\nintroduce shortcut reasoning, knowledge leakage, or lack sufficient structural\ndepth. To address this gap, we introduce InfoSeek, a scalable framework for\nsynthesizing complex Deep Research tasks. InfoSeek uses a dual-agent system to\nrecursively build a Research Tree from large-scale webpages, blurring\nintermediate nodes into valid sub-problems, and converting these trees into\nnatural language questions that require traversing the full hierarchy. It also\nenables rapid scaling, yielding over 50K training examples, a curated test set,\nand reasoning trajectories generated via reject sampling. Experiments show that\nmodels trained on InfoSeek consistently outperform strong baselines. On a\nchallenging benchmark BrowseComp-Plus, 3B LLMs optimized with InfoSeek surpass\nmuch larger 32B models and lightweight commercial APIs (e.g., Gemini2.5-Flash),\nwhile achieving performance comparable to stronger APIs (e.g., Gemini2.5-Pro).\nBy preserving meta-information such as intermediate steps and retrieval labels,\nInfoSeek further supports advanced optimization strategies, including compound\nreward design and trajectory-level exploration. We provide our codes and\ndatasets in https://github.com/VectorSpaceLab/InfoSeek{this repository}.",
+            "upvotes": 26,
+            "discussionId": "68b902b5d43cadaf7a688b50",
+            "ai_summary": "InfoSeek is a scalable framework for generating complex Deep Research tasks by synthesizing hierarchical constraint satisfaction problems, enabling models to outperform larger baselines on challenging benchmarks.",
+            "ai_keywords": [
+                "Hierarchical Constraint Satisfaction Problems",
+                "HCSPs",
+                "dual-agent system",
+                "Research Tree",
+                "natural language questions",
+                "reasoning trajectories",
+                "reject sampling",
+                "compound reward design",
+                "trajectory-level exploration"
+            ]
+        },
+        "translation_title": "딥 리서치를 위한 공개 데이터 합성",
+        "purpose": "다양한 출처의 증거를 종합하고 질문을 하위 문제로 분해하는 것과 같은 딥 리서치 작업을 위한 데이터셋을 개발하기 위함.",
+        "method": [
+            "Hierarchical Constraint Satisfaction Problems (HCSPs)로 딥 리서치 작업을 형식화함(We formalize Deep Research tasks with verifiable answers as Hierarchical Constraint Satisfaction Problems (HCSPs).)",
+            "InfoSeek라는 프레임워크를 사용해 다단계 리서치 트리를 구축하고 이를 자연어 질문으로 변환함(InfoSeek uses a dual-agent system to recursively build a Research Tree from large-scale webpages.)",
+            "50K 이상의 훈련 예제와 테스트 세트를 생성하고 거부 샘플링을 통해 추론 경로를 생성함(It also enables rapid scaling, yielding over 50K training examples, a curated test set, and reasoning trajectories generated via reject sampling.)"
+        ],
+        "conclusion": "InfoSeek로 훈련된 모델은 기존 강력한 기준선보다 일관되게 우수한 성능을 보이며, 대규모 API와의 성능이 비교 가능함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.03405",
+            "authors": [
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0a",
+                    "name": "Daniela Gottesman",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0b",
+                    "name": "Alon Gilae-Dotan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0c",
+                    "name": "Ido Cohen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0d",
+                    "name": "Yoav Gur-Arieh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0e",
+                    "name": "Marius Mosbach",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c0f",
+                    "name": "Ori Yoran",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b94c5ed43cadaf7a688c10",
+                    "user": {
+                        "_id": "610b729f9da682cd54ad9adf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1628140189042-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Mor Geva",
+                        "user": "mega",
+                        "type": "user"
+                    },
+                    "name": "Mor Geva",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-04T08:42:49.827Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-03T15:31:18.000Z",
+            "submittedOnDailyAt": "2025-09-04T07:03:36.263Z",
+            "title": "LMEnt: A Suite for Analyzing Knowledge in Language Models from\n  Pretraining Data to Representations",
+            "submittedOnDailyBy": {
+                "_id": "637f37b5b3cb8158e1725697",
+                "avatarUrl": "/avatars/18780d63b12aa8a5171130d09e214b25.svg",
+                "isPro": false,
+                "fullname": "Daniela",
+                "user": "dhgottesman",
+                "type": "user"
+            },
+            "summary": "Language models (LMs) increasingly drive real-world applications that require\nworld knowledge. However, the internal processes through which models turn data\ninto representations of knowledge and beliefs about the world, are poorly\nunderstood. Insights into these processes could pave the way for developing LMs\nwith knowledge representations that are more consistent, robust, and complete.\nTo facilitate studying these questions, we present LMEnt, a suite for analyzing\nknowledge acquisition in LMs during pretraining. LMEnt introduces: (1) a\nknowledge-rich pretraining corpus, fully annotated with entity mentions, based\non Wikipedia, (2) an entity-based retrieval method over pretraining data that\noutperforms previous approaches by as much as 80.4%, and (3) 12 pretrained\nmodels with up to 1B parameters and 4K intermediate checkpoints, with\ncomparable performance to popular open-sourced models on knowledge benchmarks.\nTogether, these resources provide a controlled environment for analyzing\nconnections between entity mentions in pretraining and downstream performance,\nand the effects of causal interventions in pretraining data. We show the\nutility of LMEnt by studying knowledge acquisition across checkpoints, finding\nthat fact frequency is key, but does not fully explain learning trends. We\nrelease LMEnt to support studies of knowledge in LMs, including knowledge\nrepresentations, plasticity, editing, attribution, and learning dynamics.",
+            "upvotes": 14,
+            "discussionId": "68b94c5fd43cadaf7a688c11",
+            "ai_summary": "LMEnt is a suite for analyzing knowledge acquisition in language models during pretraining, providing annotated corpora, retrieval methods, and pretrained models to study knowledge representations and learning dynamics.",
+            "ai_keywords": [
+                "language models",
+                "knowledge acquisition",
+                "pretraining",
+                "knowledge-rich pretraining corpus",
+                "entity mentions",
+                "entity-based retrieval",
+                "pretrained models",
+                "knowledge benchmarks",
+                "knowledge representations",
+                "knowledge plasticity",
+                "knowledge editing",
+                "knowledge attribution",
+                "learning dynamics"
+            ]
+        },
+        "translation_title": "LMEnt: 프리트레이닝 데이터에서 언어 모델의 지식 분석을 위한 모음",
+        "purpose": "언어 모델이 지식을 어떻게 획득하는지 이해하기 위한 패키지를 제공하여, 일관되고 강력하며 완전한 지식 표현을 갖춘 모델 개발을 지원하는 것",
+        "method": [
+            "Wikipedia를 기반으로 엔티티 언급이 완전히 주석된 지식 풍부한 프리트레이닝 코퍼스를 도입함(We present LMEnt, a suite for analyzing knowledge acquisition in LMs during pretraining.)",
+            "프리트레이닝 데이터에 대한 엔티티 기반 검색 방법을 도입하여 이전 접근 방식보다 성능이 80.4% 향상됨(LMEnt introduces: (1) a knowledge-rich pretraining corpus, fully annotated with entity mentions, based on Wikipedia, (2) an entity-based retrieval method over pretraining data that outperforms previous approaches by as much as 80.4%)",
+            "최대 10억 파라미터와 4K 중간 체크포인트를 가진 12개의 사전 학습 모델을 제공하여, 지식 벤치마크에서 인기 있는 오픈 소스 모델과 비교 가능한 성능을 나타냄(and (3) 12 pretrained models with up to 1B parameters and 4K intermediate checkpoints, with comparable performance to popular open-sourced models on knowledge benchmarks.)"
+        ],
+        "conclusion": "LMEnt는 프리트레이닝에서의 엔티티 언급과 다운스트림 성능 사이의 연결을 분석하기 위한 통제된 환경을 제공하며, 텍스트 모델 연구에 유용한 자료로 드러났음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.01977",
+            "authors": [
+                {
+                    "_id": "68b8f158d43cadaf7a688afb",
+                    "name": "Dong She",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688afc",
+                    "name": "Siming Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688afd",
+                    "name": "Mushui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688afe",
+                    "name": "Qiaoqiao Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688aff",
+                    "name": "Hualiang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688b00",
+                    "name": "Mu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b8f158d43cadaf7a688b01",
+                    "name": "Jidong Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-02T05:40:07.000Z",
+            "submittedOnDailyAt": "2025-09-04T05:05:42.538Z",
+            "title": "MOSAIC: Multi-Subject Personalized Generation via Correspondence-Aware\n  Alignment and Disentanglement",
+            "submittedOnDailyBy": {
+                "_id": "6485dd6d07a2c1915060f603",
+                "avatarUrl": "/avatars/8594d647359a7d19ab29b8ec91d1444e.svg",
+                "isPro": false,
+                "fullname": "fu",
+                "user": "simingfu",
+                "type": "user"
+            },
+            "summary": "Multi-subject personalized generation presents unique challenges in\nmaintaining identity fidelity and semantic coherence when synthesizing images\nconditioned on multiple reference subjects. Existing methods often suffer from\nidentity blending and attribute leakage due to inadequate modeling of how\ndifferent subjects should interact within shared representation spaces. We\npresent MOSAIC, a representation-centric framework that rethinks multi-subject\ngeneration through explicit semantic correspondence and orthogonal feature\ndisentanglement. Our key insight is that multi-subject generation requires\nprecise semantic alignment at the representation level - knowing exactly which\nregions in the generated image should attend to which parts of each reference.\nTo enable this, we introduce SemAlign-MS, a meticulously annotated dataset\nproviding fine-grained semantic correspondences between multiple reference\nsubjects and target images, previously unavailable in this domain. Building on\nthis foundation, we propose the semantic correspondence attention loss to\nenforce precise point-to-point semantic alignment, ensuring high consistency\nfrom each reference to its designated regions. Furthermore, we develop the\nmulti-reference disentanglement loss to push different subjects into orthogonal\nattention subspaces, preventing feature interference while preserving\nindividual identity characteristics. Extensive experiments demonstrate that\nMOSAIC achieves state-of-the-art performance on multiple benchmarks. Notably,\nwhile existing methods typically degrade beyond 3 subjects, MOSAIC maintains\nhigh fidelity with 4+ reference subjects, opening new possibilities for complex\nmulti-subject synthesis applications.",
+            "upvotes": 7,
+            "discussionId": "68b8f158d43cadaf7a688b02",
+            "projectPage": "https://bytedance-fanqie-ai.github.io/MOSAIC/",
+            "githubRepo": "https://github.com/bytedance-fanqie-ai/MOSAIC",
+            "ai_summary": "MOSAIC framework enhances multi-subject image generation by ensuring precise semantic alignment and orthogonal feature disentanglement, achieving high fidelity even with multiple references.",
+            "ai_keywords": [
+                "representation-centric framework",
+                "semantic correspondence",
+                "orthogonal feature disentanglement",
+                "SemAlign-MS",
+                "semantic correspondence attention loss",
+                "multi-reference disentanglement loss"
+            ],
+            "githubStars": 274
+        },
+        "translation_title": "MOSAIC: 다중 주체 개인화 생성을 위한 일치 인식 정렬 및 분리 방법",
+        "purpose": "다중 주체 개인화 생성에서 정체성과 의미의 일관성을 유지하기 위한 방법론 개발",
+        "method": [
+            "세밀한 의미적 일치를 보장하기 위해 SemAlign-MS라는 주석 데이터세트를 도입하여 여러 참조 주체와 생성 이미지 간의 의미적 일치를 제공함(To enable this, we introduce SemAlign-MS, a meticulously annotated dataset providing fine-grained semantic correspondences between multiple reference subjects and target images.)",
+            "정확한 의미 정렬을 강제하기 위한 의미적 일치 주의 손실을 제안함(Building on this foundation, we propose the semantic correspondence attention loss to enforce precise point-to-point semantic alignment.)",
+            "각각의 주체들을 서로 독립적인 주의 서브 공간으로 밀어내기 위한 다중 참조 분리 손실을 개발함(Furthermore, we develop the multi-reference disentanglement loss to push different subjects into orthogonal attention subspaces.)"
+        ],
+        "conclusion": "MOSAIC은 여러 벤치마크에서 최첨단 성능을 달성하며, 4개 이상의 참조 주체를 사용할 때에도 높은 충실도를 유지하여 복잡한 다중 주체 합성 응용의 새로운 가능성을 열어줌.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.00428",
+            "authors": [
+                {
+                    "_id": "68b93229d43cadaf7a688bc6",
+                    "name": "Xuechao Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bc7",
+                    "name": "Shun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bc8",
+                    "name": "Xing Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bc9",
+                    "name": "Yue Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bca",
+                    "name": "Kai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bcb",
+                    "name": "Yushe Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bcc",
+                    "name": "Congyan Lang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bcd",
+                    "name": "Pin Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b93229d43cadaf7a688bce",
+                    "name": "Junliang Xing",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6617af2beab5eef6b1e8bb9e/sJrvZF6pJNPec1coRwsLz.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/6617af2beab5eef6b1e8bb9e/9Chxv_NqnjXFhIVDrKyK3.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6617af2beab5eef6b1e8bb9e/Q6nmMSG1YTJDEfG8ySInJ.png"
+            ],
+            "publishedAt": "2025-08-30T09:21:07.000Z",
+            "submittedOnDailyAt": "2025-09-04T05:17:48.471Z",
+            "title": "Mixture of Global and Local Experts with Diffusion Transformer for\n  Controllable Face Generation",
+            "submittedOnDailyBy": {
+                "_id": "6617af2beab5eef6b1e8bb9e",
+                "avatarUrl": "/avatars/d939c02027916331d4c44119565f2ca6.svg",
+                "isPro": false,
+                "fullname": "XavierJiezou",
+                "user": "XavierJiezou",
+                "type": "user"
+            },
+            "summary": "Controllable face generation poses critical challenges in generative modeling\ndue to the intricate balance required between semantic controllability and\nphotorealism. While existing approaches struggle with disentangling semantic\ncontrols from generation pipelines, we revisit the architectural potential of\nDiffusion Transformers (DiTs) through the lens of expert specialization. This\npaper introduces Face-MoGLE, a novel framework featuring: (1)\nSemantic-decoupled latent modeling through mask-conditioned space\nfactorization, enabling precise attribute manipulation; (2) A mixture of global\nand local experts that captures holistic structure and region-level semantics\nfor fine-grained controllability; (3) A dynamic gating network producing\ntime-dependent coefficients that evolve with diffusion steps and spatial\nlocations. Face-MoGLE provides a powerful and flexible solution for\nhigh-quality, controllable face generation, with strong potential in generative\nmodeling and security applications. Extensive experiments demonstrate its\neffectiveness in multimodal and monomodal face generation settings and its\nrobust zero-shot generalization capability. Project page is available at\nhttps://github.com/XavierJiezou/Face-MoGLE.",
+            "upvotes": 7,
+            "discussionId": "68b93229d43cadaf7a688bcf",
+            "projectPage": "https://xavierjiezou.github.io/Face-MoGLE/",
+            "githubRepo": "https://github.com/XavierJiezou/Face-MoGLE",
+            "ai_summary": "Face-MoGLE, a novel framework using Diffusion Transformers, achieves high-quality, controllable face generation through semantic-decoupled latent modeling, expert specialization, and dynamic gating.",
+            "ai_keywords": [
+                "Diffusion Transformers",
+                "Semantic-decoupled latent modeling",
+                "mask-conditioned space factorization",
+                "global experts",
+                "local experts",
+                "dynamic gating network",
+                "multimodal face generation",
+                "monomodal face generation",
+                "zero-shot generalization"
+            ],
+            "githubStars": 5
+        },
+        "translation_title": "Diffusion Transformer를 이용한 조절 가능한 얼굴 생성을 위한 글로벌 및 로컬 전문가의 혼합",
+        "purpose": "조절 가능한 얼굴 생성 분야의 복잡한 과제를 해결하기 위해, 의미적 조절성과 사진 리얼리즘 간의 균형을 맞추고자 함",
+        "method": [
+            "Diffusion Transformers(DiTs)의 구조적 가능성을 재조명함으로써 전문화된 전문가의 개념을 도입함(we revisit the architectural potential of Diffusion Transformers (DiTs) through the lens of expert specialization.)",
+            "마스크 조건부 공간 분해를 통한 의미 분리된 잠재 모델링으로 정밀한 속성 조작을 가능하게 함(semantic-decoupled latent modeling through mask-conditioned space factorization, enabling precise attribute manipulation.)",
+            "전역 및 지역 전문가의 혼합을 통한 전체 구조 및 지역 수준 의미 캡처로 세밀한 조절 가능성을 높임(A mixture of global and local experts that captures holistic structure and region-level semantics for fine-grained controllability.)"
+        ],
+        "conclusion": "Face-MoGLE는 고품질의 조절 가능한 얼굴 생성을 위한 강력하고 유연한 솔루션을 제공하며, 생성 모델링 및 보안 응용 분야에서 강력한 가능성을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    }
+]
