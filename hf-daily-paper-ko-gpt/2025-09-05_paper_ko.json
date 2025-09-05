@@ -1,0 +1,779 @@
+[
+    {
+        "paper": {
+            "id": "2509.03867",
+            "authors": [
+                {
+                    "_id": "68ba3302736018af705e8e25",
+                    "user": {
+                        "_id": "60f313f4adf471cbdf8bb66a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f313f4adf471cbdf8bb66a/5NJFqnldE_0fdE_mEvz9V.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang Wang",
+                        "user": "yangwang825",
+                        "type": "user"
+                    },
+                    "name": "Yang Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T14:16:16.939Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e26",
+                    "user": {
+                        "_id": "63108cc834c7d77420b0fd68",
+                        "avatarUrl": "/avatars/2721e573a417a8ec0b81ee048c4b42ba.svg",
+                        "isPro": false,
+                        "fullname": "chenghao xiao",
+                        "user": "gowitheflow",
+                        "type": "user"
+                    },
+                    "name": "Chenghao Xiao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:29:05.255Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e27",
+                    "name": "Chia-Yi Hsiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e28",
+                    "user": {
+                        "_id": "68baafd4074aa57dade0f63e",
+                        "avatarUrl": "/avatars/cd8befad1ac9952e854d7b00590a82cc.svg",
+                        "isPro": false,
+                        "fullname": "Zi Yan Chang",
+                        "user": "ZYC101",
+                        "type": "user"
+                    },
+                    "name": "Zi Yan Chang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:29:14.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e29",
+                    "user": {
+                        "_id": "68baa91c4d1376777b5c946a",
+                        "avatarUrl": "/avatars/f2d7392e2d52d57d531420f87803c875.svg",
+                        "isPro": false,
+                        "fullname": "Chi Li Chen",
+                        "user": "Chilly0105",
+                        "type": "user"
+                    },
+                    "name": "Chi-Li Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:29:21.489Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e2a",
+                    "user": {
+                        "_id": "634e94582cd84978c49089c1",
+                        "avatarUrl": "/avatars/c41640cda7a8a76555e3410b67ef064a.svg",
+                        "isPro": false,
+                        "fullname": "Tyler Loakman",
+                        "user": "tylerl404",
+                        "type": "user"
+                    },
+                    "name": "Tyler Loakman",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:29:27.470Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba3302736018af705e8e2b",
+                    "name": "Chenghua Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-04T03:58:55.000Z",
+            "submittedOnDailyAt": "2025-09-05T06:33:17.605Z",
+            "title": "Drivel-ology: Challenging LLMs with Interpreting Nonsense with Depth",
+            "submittedOnDailyBy": {
+                "_id": "60f313f4adf471cbdf8bb66a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f313f4adf471cbdf8bb66a/5NJFqnldE_0fdE_mEvz9V.jpeg",
+                "isPro": false,
+                "fullname": "Yang Wang",
+                "user": "yangwang825",
+                "type": "user"
+            },
+            "summary": "We introduce Drivelology, a unique linguistic phenomenon characterised as\n\"nonsense with depth\", utterances that are syntactically coherent yet\npragmatically paradoxical, emotionally loaded, or rhetorically subversive.\nWhile such expressions may resemble surface-level nonsense, they encode\nimplicit meaning requiring contextual inference, moral reasoning, or emotional\ninterpretation. We find that current large language models (LLMs), despite\nexcelling at many natural language processing (NLP) tasks, consistently fail to\ngrasp the layered semantics of Drivelological text. To investigate this, we\nconstruct a small but diverse benchmark dataset of over 1,200 meticulously\ncurated examples, with select instances in English, Mandarin, Spanish, French,\nJapanese, and Korean. Annotation was especially challenging: each of the\nexamples required careful expert review to verify that it truly reflected\nDrivelological characteristics. The process involved multiple rounds of\ndiscussion and adjudication to address disagreements, highlighting the subtle\nand subjective nature of the Drivelology. We evaluate a range of LLMs on\nclassification, generation, and reasoning tasks. Our results reveal clear\nlimitations of LLMs: models often confuse Drivelology with shallow nonsense,\nproduce incoherent justifications, or miss the implied rhetorical function\naltogether. These findings highlight a deeper representational gap in LLMs'\npragmatic understanding and challenge the assumption that statistical fluency\nimplies cognitive comprehension. We release our dataset and code to facilitate\nfurther research in modelling linguistic depth beyond surface-level coherence.",
+            "upvotes": 84,
+            "discussionId": "68ba3303736018af705e8e2c",
+            "projectPage": "https://huggingface.co/datasets/extraordinarylab/drivel-hub",
+            "githubRepo": "https://github.com/ExtraOrdinaryLab/drivelology",
+            "ai_summary": "LLMs struggle with understanding the nuanced, context-dependent meanings of Drivelological text, which appears nonsensical but contains deeper semantic layers.",
+            "ai_keywords": [
+                "Drivelology",
+                "large language models",
+                "LLMs",
+                "natural language processing",
+                "NLP",
+                "benchmark dataset",
+                "Drivelological text",
+                "classification",
+                "generation",
+                "reasoning tasks",
+                "pragmatic understanding",
+                "cognitive comprehension"
+            ],
+            "githubStars": 2
+        },
+        "translation_title": "드리벌로지: 심층적 의미 해석으로 LLM 도전하기",
+        "purpose": "Drivelology라는 독특한 언어 현상을 탐구하여 대형 언어 모델(LLM)이 이를 이해하는 데 있어 한계를 조사하고자 함",
+        "method": [
+            "1,200개 이상의 다양하고 세심하게 선별된 예시로 구성된 작은 벤치마크 데이터세트를 구축함(we construct a small but diverse benchmark dataset of over 1,200 meticulously curated examples).",
+            "각 예시는 Drivelological 특성을 반영하는지 전문가 리뷰를 통해 검증하기 위해 다수의 논의 및 결정을 거침(annotation was especially challenging)",
+            "LLM의 분류, 생성 및 추론 작업을 평가함(We evaluate a range of LLMs on classification, generation, and reasoning tasks)."
+        ],
+        "conclusion": "LLM은 Drivelology를 얕은 난해함과 혼동하거나, 일관성 없는 정당화를 하거나, 암시된 수사적 기능을 놓치고 있다. 이는 LLM의 실용적 이해에 있어 깊은 표현적 격차를 나타내며, 통계적 유창성이 인지적 이해를 의미하지 않는다는 가정에 도전한다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.04338",
+            "authors": [
+                {
+                    "_id": "68ba64a6736018af705e8ea9",
+                    "user": {
+                        "_id": "63cf4ceb7332dafae2b9884c",
+                        "avatarUrl": "/avatars/652255476e1898c175c28f7a1d67cc06.svg",
+                        "isPro": false,
+                        "fullname": "JiYuan Wang",
+                        "user": "exander",
+                        "type": "user"
+                    },
+                    "name": "JiYuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T08:01:34.119Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eaa",
+                    "user": {
+                        "_id": "67aea8aabdb9354439534e49",
+                        "avatarUrl": "/avatars/79d245ab62aae59279ccd366d7f1de5e.svg",
+                        "isPro": false,
+                        "fullname": "Chris Lin",
+                        "user": "chunyulin",
+                        "type": "user"
+                    },
+                    "name": "Chunyu Lin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:30:01.810Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eab",
+                    "name": "Lei Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eac",
+                    "user": {
+                        "_id": "68288895682a9738b93b1d2b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/w_nnDk938berOQvlZsByM.jpeg",
+                        "isPro": false,
+                        "fullname": "Rongying Liu",
+                        "user": "Roinnnn11",
+                        "type": "user"
+                    },
+                    "name": "Rongying Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:30:07.625Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8ead",
+                    "name": "Lang Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eae",
+                    "user": {
+                        "_id": "6513a0f14f1682e4407758a9",
+                        "avatarUrl": "/avatars/b2a6886114492944cfa235363817565f.svg",
+                        "isPro": false,
+                        "fullname": "Mingxing Li",
+                        "user": "MingxingLi",
+                        "type": "user"
+                    },
+                    "name": "Mingxing Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:30:32.021Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eaf",
+                    "user": {
+                        "_id": "65bc98383b879593a5a2f5e5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bc98383b879593a5a2f5e5/p2ZtoTFN6tW-QkcPJf7YT.jpeg",
+                        "isPro": true,
+                        "fullname": "Kang Liao",
+                        "user": "KangLiao",
+                        "type": "user"
+                    },
+                    "name": "Kang Liao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:30:13.569Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eb0",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba64a6736018af705e8eb1",
+                    "name": "Yao Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-04T15:58:50.000Z",
+            "submittedOnDailyAt": "2025-09-05T02:49:35.984Z",
+            "title": "From Editor to Dense Geometry Estimator",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Leveraging visual priors from pre-trained text-to-image (T2I) generative\nmodels has shown success in dense prediction. However, dense prediction is\ninherently an image-to-image task, suggesting that image editing models, rather\nthan T2I generative models, may be a more suitable foundation for fine-tuning.\n  Motivated by this, we conduct a systematic analysis of the fine-tuning\nbehaviors of both editors and generators for dense geometry estimation. Our\nfindings show that editing models possess inherent structural priors, which\nenable them to converge more stably by ``refining\" their innate features, and\nultimately achieve higher performance than their generative counterparts.\n  Based on these findings, we introduce FE2E, a framework that\npioneeringly adapts an advanced editing model based on Diffusion Transformer\n(DiT) architecture for dense geometry prediction. Specifically, to tailor the\neditor for this deterministic task, we reformulate the editor's original flow\nmatching loss into the ``consistent velocity\" training objective. And we use\nlogarithmic quantization to resolve the precision conflict between the editor's\nnative BFloat16 format and the high precision demand of our tasks.\nAdditionally, we leverage the DiT's global attention for a cost-free joint\nestimation of depth and normals in a single forward pass, enabling their\nsupervisory signals to mutually enhance each other.\n  Without scaling up the training data, FE2E achieves impressive performance\nimprovements in zero-shot monocular depth and normal estimation across multiple\ndatasets. Notably, it achieves over 35\\% performance gains on the ETH3D dataset\nand outperforms the DepthAnything series, which is trained on 100times data.\nThe project page can be accessed https://amap-ml.github.io/FE2E/{here}.",
+            "upvotes": 60,
+            "discussionId": "68ba64a7736018af705e8eb2",
+            "projectPage": "https://amap-ml.github.io/FE2E/",
+            "githubRepo": "https://github.com/AMAP-ML/FE2E/",
+            "ai_summary": "FE2E, a framework using a Diffusion Transformer for dense geometry prediction, outperforms generative models in zero-shot monocular depth and normal estimation with improved performance and efficiency.",
+            "ai_keywords": [
+                "text-to-image",
+                "dense prediction",
+                "image editing models",
+                "generative models",
+                "fine-tuning",
+                "dense geometry estimation",
+                "structural priors",
+                "flow matching loss",
+                "consistent velocity",
+                "logarithmic quantization",
+                "BFloat16",
+                "global attention",
+                "ETH3D",
+                "DepthAnything"
+            ],
+            "githubStars": 15
+        },
+        "translation_title": "편집기를 통한 밀집 기하학 추정기",
+        "purpose": "밀집 예측을 위한 튜닝에 적합한 모델을 찾아 성능 향상을 목표로 함",
+        "method": [
+            "편집기와 생성기 모델의 밀집 기하학 추정 방식의 시스템 분석 수행(We conduct a systematic analysis of the fine-tuning behaviors of both editors and generators for dense geometry estimation.)",
+            "Diffusion Transformer(DiT) 구조를 적용한 고급 편집 모델을 밀집 기하학 예측에 적합하게 조정함(Based on these findings, we introduce FE2E, a framework that pioneeringly adapts an advanced editing model based on Diffusion Transformer (DiT) architecture for dense geometry prediction.)",
+            "편집기의 원래 손실을 '일관된 속도' 훈련 목표로 재구성함(we reformulate the editor's original flow matching loss into the 'consistent velocity' training objective.)"
+        ],
+        "conclusion": "FE2E는 여러 데이터셋에서 제로샷 단안 깊이 및 법선 추정 성능을 크게 향상시켰으며, 특히 ETH3D 데이터셋에서 35% 이상의 성능 향상을 이뤘음.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.04419",
+            "authors": [
+                {
+                    "_id": "68ba4a27736018af705e8e47",
+                    "user": {
+                        "_id": "663f07d029be04778ba97871",
+                        "avatarUrl": "/avatars/fb7c9d4a2c537d918a3267e7cbc03f04.svg",
+                        "isPro": false,
+                        "fullname": "Xingtai Lv",
+                        "user": "XingtaiHF",
+                        "type": "user"
+                    },
+                    "name": "Xingtai Lv",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T15:21:46.656Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e48",
+                    "name": "Yuxin Zuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e49",
+                    "name": "Youbang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4a",
+                    "name": "Hongyi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4b",
+                    "name": "Yuntian Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4c",
+                    "name": "Zhekai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4d",
+                    "name": "Lixuan He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4e",
+                    "name": "Xuekai Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e4f",
+                    "user": {
+                        "_id": "60bc94cd85a3ab33829b6211",
+                        "avatarUrl": "/avatars/b57d36c7577fbbb42ea5b963eef4144a.svg",
+                        "isPro": false,
+                        "fullname": "Kaiyan Zhang",
+                        "user": "iseesaw",
+                        "type": "user"
+                    },
+                    "name": "Kaiyan Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T08:01:42.328Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e50",
+                    "name": "Bingning Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e51",
+                    "name": "Ning Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba4a27736018af705e8e52",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-04T17:40:33.000Z",
+            "submittedOnDailyAt": "2025-09-05T01:00:55.060Z",
+            "title": "Towards a Unified View of Large Language Model Post-Training",
+            "submittedOnDailyBy": {
+                "_id": "663f07d029be04778ba97871",
+                "avatarUrl": "/avatars/fb7c9d4a2c537d918a3267e7cbc03f04.svg",
+                "isPro": false,
+                "fullname": "Xingtai Lv",
+                "user": "XingtaiHF",
+                "type": "user"
+            },
+            "summary": "Two major sources of training data exist for post-training modern language\nmodels: online (model-generated rollouts) data, and offline (human or\nother-model demonstrations) data. These two types of data are typically used by\napproaches like Reinforcement Learning (RL) and Supervised Fine-Tuning (SFT),\nrespectively. In this paper, we show that these approaches are not in\ncontradiction, but are instances of a single optimization process. We derive a\nUnified Policy Gradient Estimator, and present the calculations of a wide\nspectrum of post-training approaches as the gradient of a common objective\nunder different data distribution assumptions and various bias-variance\ntradeoffs. The gradient estimator is constructed with four interchangeable\nparts: stabilization mask, reference policy denominator, advantage estimate,\nand likelihood gradient. Motivated by our theoretical findings, we propose\nHybrid Post-Training (HPT), an algorithm that dynamically selects different\ntraining signals. HPT is designed to yield both effective exploitation of\ndemonstration and stable exploration without sacrificing learned reasoning\npatterns. We provide extensive experiments and ablation studies to verify the\neffectiveness of our unified theoretical framework and HPT. Across six\nmathematical reasoning benchmarks and two out-of-distribution suites, HPT\nconsistently surpasses strong baselines across models of varying scales and\nfamilies.",
+            "upvotes": 38,
+            "discussionId": "68ba4a27736018af705e8e53",
+            "githubRepo": "https://github.com/TsinghuaC3I/Unify-Post-Training",
+            "ai_summary": "A unified policy gradient estimator and Hybrid Post-Training algorithm effectively combine online and offline data for post-training language models, improving performance across various benchmarks.",
+            "ai_keywords": [
+                "Reinforcement Learning",
+                "Supervised Fine-Tuning",
+                "Unified Policy Gradient Estimator",
+                "stabilization mask",
+                "reference policy denominator",
+                "advantage estimate",
+                "likelihood gradient",
+                "Hybrid Post-Training",
+                "mathematical reasoning benchmarks",
+                "out-of-distribution suites"
+            ],
+            "githubStars": 32
+        },
+        "translation_title": "통합된 시각에서의 대규모 언어 모델 후속 훈련",
+        "purpose": "후속 훈련을 위한 언어 모델 최적화 과정의 통합적 이해 및 효율적인 훈련 신호 선택",
+        "method": [
+            "현대 언어 모델의 후속 훈련에 사용되는 온라인 및 오프라인 데이터 사용 방식을 탐구함(These two types of data are typically used by approaches like Reinforcement Learning (RL) and Supervised Fine-Tuning (SFT), respectively.)",
+            "최적화 과정의 통합성을 보여주기 위해 통합 정책 그래디언트 추정기를 도출함(We derive a Unified Policy Gradient Estimator, and present the calculations of a wide spectrum of post-training approaches as the gradient of a common objective...).",
+            "Hybrid Post-Training(HPT) 알고리즘을 제안하여 다양한 훈련 신호를 동적으로 선택하도록 설계함(HPT is designed to yield both effective exploitation of demonstration and stable exploration without sacrificing learned reasoning patterns.)",
+            "포괄적인 실험과 기초 연구를 통해 제안된 프레임워크와 HPT의 효과를 검증함(We provide extensive experiments and ablation studies to verify the effectiveness of our unified theoretical framework and HPT.)"
+        ],
+        "conclusion": "HPT는 다양한 규모와 모델 계열에서 강력한 기본 모델을 지속적으로 능가하며, 후속 훈련을 위한 새로운 통합 이론적 프레임워크를 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.04292",
+            "authors": [
+                {
+                    "_id": "68ba6843736018af705e8eb4",
+                    "user": {
+                        "_id": "68ba81e3d389ea993bf35893",
+                        "avatarUrl": "/avatars/67a790f8cd8423de63196adda1ec12a3.svg",
+                        "isPro": false,
+                        "fullname": "Qinyan Zhang",
+                        "user": "zqyzqyzqy",
+                        "type": "user"
+                    },
+                    "name": "Qinyan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:20:01.213Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eb5",
+                    "user": {
+                        "_id": "646319712538819c72a1b699",
+                        "avatarUrl": "/avatars/19ace41095877f5a485d9100b393ca13.svg",
+                        "isPro": false,
+                        "fullname": "lei xin ping",
+                        "user": "leixp",
+                        "type": "user"
+                    },
+                    "name": "Xinping Lei",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:20:17.772Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eb6",
+                    "user": {
+                        "_id": "66cd5ebadbfa8dff219acb70",
+                        "avatarUrl": "/avatars/fd4225dca0d4c3ba7d86304bd1d826b3.svg",
+                        "isPro": false,
+                        "fullname": "Ruijie Miao",
+                        "user": "Baton6257",
+                        "type": "user"
+                    },
+                    "name": "Ruijie Miao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:20:24.037Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eb7",
+                    "name": "Yu Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eb8",
+                    "name": "Haojie Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eb9",
+                    "name": "Le Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8eba",
+                    "name": "Jiafan Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ebb",
+                    "name": "Dingling Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ebc",
+                    "name": "Zhongfei Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ebd",
+                    "user": {
+                        "_id": "68a00f7b5140d6d8305ea065",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ShETxmglZOsaHN7q9Gzfv.png",
+                        "isPro": false,
+                        "fullname": "杨子强",
+                        "user": "ziqiangyang",
+                        "type": "user"
+                    },
+                    "name": "Ziqiang Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:20:51.949Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ebe",
+                    "name": "Changxin Pu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ebf",
+                    "name": "Fei Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec0",
+                    "name": "Jingkai Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec1",
+                    "user": {
+                        "_id": "665929223498a9ef525d7b1c",
+                        "avatarUrl": "/avatars/445f5298228d54ed5cfc27b6a92a339e.svg",
+                        "isPro": false,
+                        "fullname": "Mengyun Liu",
+                        "user": "liumengyun",
+                        "type": "user"
+                    },
+                    "name": "Mengyun Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:21:17.429Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec2",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec3",
+                    "name": "Xiang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec4",
+                    "user": {
+                        "_id": "65377c30e48353201e6fdda0",
+                        "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+                        "isPro": false,
+                        "fullname": "Jiaheng Liu",
+                        "user": "CheeryLJH",
+                        "type": "user"
+                    },
+                    "name": "Jiaheng Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:21:09.876Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec5",
+                    "name": "Tong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec6",
+                    "name": "Zaiyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec7",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T08:01:32.173Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ba6843736018af705e8ec8",
+                    "user": {
+                        "_id": "686c983f8c812deb40e83270",
+                        "avatarUrl": "/avatars/7d1e4a38929b7ac79004463fd0060e9b.svg",
+                        "isPro": false,
+                        "fullname": "Wenhao Huang",
+                        "user": "WenhaoHuang",
+                        "type": "user"
+                    },
+                    "name": "Wenhao Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-05T14:19:54.443Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-04T15:03:02.000Z",
+            "submittedOnDailyAt": "2025-09-05T03:04:17.131Z",
+            "title": "Inverse IFEval: Can LLMs Unlearn Stubborn Training Conventions to Follow\n  Real Instructions?",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) achieve strong performance on diverse tasks but\noften exhibit cognitive inertia, struggling to follow instructions that\nconflict with the standardized patterns learned during supervised fine-tuning\n(SFT). To evaluate this limitation, we propose Inverse IFEval, a benchmark that\nmeasures models Counter-intuitive Abilitytheir capacity to override\ntraining-induced biases and comply with adversarial instructions. Inverse\nIFEval introduces eight types of such challenges, including Question\nCorrection, Intentional Textual Flaws, Code without Comments, and\nCounterfactual Answering. Using a human-in-the-loop pipeline, we construct a\ndataset of 1012 high-quality Chinese and English questions across 23 domains,\nevaluated under an optimized LLM-as-a-Judge framework. Experiments on existing\nleading LLMs demonstrate the necessity of our proposed Inverse IFEval\nbenchmark. Our findings emphasize that future alignment efforts should not only\npursue fluency and factual correctness but also account for adaptability under\nunconventional contexts. We hope that Inverse IFEval serves as both a\ndiagnostic tool and a foundation for developing methods that mitigate cognitive\ninertia, reduce overfitting to narrow patterns, and ultimately enhance the\ninstruction-following reliability of LLMs in diverse and unpredictable\nreal-world scenarios.",
+            "upvotes": 37,
+            "discussionId": "68ba6844736018af705e8ec9",
+            "projectPage": "https://huggingface.co/datasets/m-a-p/Inverse_IFEval",
+            "ai_summary": "Inverse IFEval evaluates Large Language Models' ability to override training biases and follow unconventional instructions, highlighting the need for adaptability in diverse contexts.",
+            "ai_keywords": [
+                "Large Language Models",
+                "cognitive inertia",
+                "supervised fine-tuning",
+                "Inverse IFEval",
+                "Counter-intuitive Ability",
+                "Question Correction",
+                "Intentional Textual Flaws",
+                "Code without Comments",
+                "Counterfactual Answering",
+                "LLM-as-a-Judge"
+            ]
+        },
+        "translation_title": "Inverse IFEval: LLM이 고정된 훈련 관습을 잊고 실제 지침을 따를 수 있을까?",
+        "purpose": "LLM의 훈련된 편향을 극복하고 반대 지침을 따르는 능력을 평가하기 위한 벤치마크 개발",
+        "method": [
+            "Inverse IFEval이라는 벤치마크를 제안해 모델의 반직관적인 능력을 측정함(we propose Inverse IFEval, a benchmark that measures models' Counter-intuitive Ability)",
+            "23개 도메인에서 1012개의 고품질 질문으로 구성된 데이터셋을 인간이 포함된 파이프라인을 통해 구축함(we construct a dataset of 1012 high-quality Chinese and English questions across 23 domains, evaluated under an optimized LLM-as-a-Judge framework)",
+            "기존 LLM을 실험해 Inverse IFEval 벤치마크의 필요성을 입증함(Experiments on existing leading LLMs demonstrate the necessity of our proposed Inverse IFEval benchmark)"
+        ],
+        "conclusion": "Inverse IFEval은 LLM의 인 instruction-following 신뢰성을 향상시키기 위한 진단 도구 및 방법 개발의 기초가 될 것으로 기대됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.01396",
+            "authors": [
+                {
+                    "_id": "68b98e69736018af705e8d41",
+                    "user": {
+                        "_id": "65a8bcb717d869bb7487c2a1",
+                        "avatarUrl": "/avatars/261c28f7e616a8482970f50c1f8919fd.svg",
+                        "isPro": false,
+                        "fullname": "Haiyuan Wan",
+                        "user": "haiyuanwan",
+                        "type": "user"
+                    },
+                    "name": "Haiyuan Wan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-04T19:36:56.793Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d42",
+                    "name": "Chen Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d43",
+                    "name": "Junchi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d44",
+                    "name": "Meiqi Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d45",
+                    "name": "Jiaxuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d46",
+                    "name": "Di Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d47",
+                    "name": "Jianbao Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d48",
+                    "name": "Ben Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d49",
+                    "name": "Jiaqing Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d4a",
+                    "user": {
+                        "_id": "666839475ddf78d3bc5b80f4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/j4OBskJ_GMS2QGE_nEuEJ.jpeg",
+                        "isPro": false,
+                        "fullname": "Aoran Wang",
+                        "user": "RalfWang",
+                        "type": "user"
+                    },
+                    "name": "Aoran Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-05T14:16:19.262Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d4b",
+                    "name": "Wenlong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d4c",
+                    "name": "Philip Torr",
+                    "hidden": false
+                },
+                {
+                    "_id": "68b98e69736018af705e8d4d",
+                    "name": "Dongzhan Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-01T11:42:47.000Z",
+            "submittedOnDailyAt": "2025-09-05T00:41:12.849Z",
+            "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via\n  Seminar-Grounded Tasks",
+            "submittedOnDailyBy": {
+                "_id": "65a8bcb717d869bb7487c2a1",
+                "avatarUrl": "/avatars/261c28f7e616a8482970f50c1f8919fd.svg",
+                "isPro": false,
+                "fullname": "Haiyuan Wan",
+                "user": "haiyuanwan",
+                "type": "user"
+            },
+            "summary": "Deep research agents have attracted growing attention for their potential to\norchestrate multi-stage research workflows, spanning literature synthesis,\nmethodological design, and empirical verification. Despite these strides,\nevaluating their research capability faithfully is rather challenging due to\nthe difficulty of collecting frontier research questions that genuinely capture\nresearchers' attention and intellectual curiosity. To address this gap, we\nintroduce DeepResearch Arena, a benchmark grounded in academic seminars that\ncapture rich expert discourse and interaction, better reflecting real-world\nresearch environments and reducing the risk of data leakage. To automatically\nconstruct DeepResearch Arena, we propose a Multi-Agent Hierarchical Task\nGeneration (MAHTG) system that extracts research-worthy inspirations from\nseminar transcripts. The MAHTG system further translates research-worthy\ninspirations into high-quality research tasks, ensuring the traceability of\nresearch task formulation while filtering noise. With the MAHTG system, we\ncurate DeepResearch Arena with over 10,000 high-quality research tasks from\nover 200 academic seminars, spanning 12 disciplines, such as literature,\nhistory, and science. Our extensive evaluation shows that DeepResearch Arena\npresents substantial challenges for current state-of-the-art agents, with clear\nperformance gaps observed across different models.",
+            "upvotes": 37,
+            "discussionId": "68b98e6a736018af705e8d4e",
+            "ai_summary": "DeepResearch Arena, a benchmark using academic seminar transcripts, provides high-quality research tasks to evaluate deep research agents across multiple disciplines.",
+            "ai_keywords": [
+                "DeepResearch Arena",
+                "Multi-Agent Hierarchical Task Generation",
+                "MAHTG",
+                "research tasks",
+                "academic seminars",
+                "research agents"
+            ]
+        },
+        "translation_title": "DeepResearch Arena: LLM의 연구 능력을 시험하는 첫 번째 평가",
+        "purpose": "DeepResearch Arena를 통해 LLM의 연구 능력을 보다 신뢰성 있게 평가하기 위한 연구",
+        "method": [
+            "학술 세미나를 기반으로 한 벤치마크를 도입하여 실제 연구 환경을 반영함(we introduce DeepResearch Arena, a benchmark grounded in academic seminars that capture rich expert discourse and interaction.)",
+            "Multi-Agent Hierarchical Task Generation (MAHTG) 시스템을 통해 세미나 전사에서 연구-worthy 영감을 추출함(we propose a Multi-Agent Hierarchical Task Generation (MAHTG) system that extracts research-worthy inspirations from seminar transcripts.)",
+            "MAHTG 시스템을 사용해 200개 이상의 학술 세미나에서 10,000개 이상의 고품질 연구 과제를 선별함(with the MAHTG system, we curate DeepResearch Arena with over 10,000 high-quality research tasks from over 200 academic seminars.)"
+        ],
+        "conclusion": "DeepResearch Arena는 현재의 첨단 AI 에이전트에 상당한 도전을 제공하며, 명확한 성과 격차를 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
