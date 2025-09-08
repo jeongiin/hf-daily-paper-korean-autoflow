@@ -1,0 +1,456 @@
+[
+    {
+        "paper": {
+            "id": "2509.04664",
+            "authors": [
+                {
+                    "_id": "68be5810c123124955ef60ac",
+                    "name": "Adam Tauman Kalai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be5810c123124955ef60ad",
+                    "name": "Ofir Nachum",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be5810c123124955ef60ae",
+                    "name": "Santosh S. Vempala",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be5810c123124955ef60af",
+                    "name": "Edwin Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-04T21:26:31.000Z",
+            "submittedOnDailyAt": "2025-09-08T02:44:20.973Z",
+            "title": "Why Language Models Hallucinate",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Like students facing hard exam questions, large language models sometimes\nguess when uncertain, producing plausible yet incorrect statements instead of\nadmitting uncertainty. Such \"hallucinations\" persist even in state-of-the-art\nsystems and undermine trust. We argue that language models hallucinate because\nthe training and evaluation procedures reward guessing over acknowledging\nuncertainty, and we analyze the statistical causes of hallucinations in the\nmodern training pipeline. Hallucinations need not be mysterious -- they\noriginate simply as errors in binary classification. If incorrect statements\ncannot be distinguished from facts, then hallucinations in pretrained language\nmodels will arise through natural statistical pressures. We then argue that\nhallucinations persist due to the way most evaluations are graded -- language\nmodels are optimized to be good test-takers, and guessing when uncertain\nimproves test performance. This \"epidemic\" of penalizing uncertain responses\ncan only be addressed through a socio-technical mitigation: modifying the\nscoring of existing benchmarks that are misaligned but dominate leaderboards,\nrather than introducing additional hallucination evaluations. This change may\nsteer the field toward more trustworthy AI systems.",
+            "upvotes": 57,
+            "discussionId": "68be5810c123124955ef60b0",
+            "ai_summary": "Language models produce incorrect statements due to training and evaluation procedures that reward guessing over acknowledging uncertainty, leading to a need for socio-technical changes in benchmark scoring.",
+            "ai_keywords": [
+                "hallucinations",
+                "binary classification",
+                "uncertain responses",
+                "trustworthy AI systems"
+            ]
+        },
+        "translation_title": "언어 모델이 환각을 일으키는 이유",
+        "purpose": "언어 모델의 환각 현상을 분석하고, 이를 줄이기 위한 방법을 제안",
+        "method": [
+            "언어 모델이 불확실할 때 추측하는 경향과 그로 인한 결과를 분석함 (We argue that language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty.)",
+            "환각이 이진 분류 오류에서 비롯된다는 것을 확인하고 통계적 원인을 분석함 (Hallucinations need not be mysterious -- they originate simply as errors in binary classification.)",
+            "기존 벤치마크의 점수 체계를 수정하여 불확실한 응답에 대한 처벌을 줄이도록 하여 문제를 해결할 수 있음을 제안함 (This 'epidemic' of penalizing uncertain responses can only be addressed through a socio-technical mitigation.)"
+        ],
+        "conclusion": "이러한 방법을 통해 언어 모델의 신뢰도를 높일 수 있는 방향으로 발전할 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.05208",
+            "authors": [
+                {
+                    "_id": "68be49a7c123124955ef5fd0",
+                    "name": "Yamei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd1",
+                    "name": "Haoquan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd2",
+                    "user": {
+                        "_id": "630461923926de1f7ec7a93a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/GoUU2qRfLB2wlcciwVBrz.png",
+                        "isPro": false,
+                        "fullname": "Yangyi, Huang",
+                        "user": "YangyiH",
+                        "type": "user"
+                    },
+                    "name": "Yangyi Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-08T07:01:53.437Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd3",
+                    "name": "Zeju Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd4",
+                    "name": "Kaipeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd5",
+                    "name": "Yandong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be49a7c123124955ef5fd6",
+                    "name": "Weiyang Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-05T16:10:53.000Z",
+            "submittedOnDailyAt": "2025-09-08T07:41:47.549Z",
+            "title": "Symbolic Graphics Programming with Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "630461923926de1f7ec7a93a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/GoUU2qRfLB2wlcciwVBrz.png",
+                "isPro": false,
+                "fullname": "Yangyi, Huang",
+                "user": "YangyiH",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) excel at program synthesis, yet their ability to\nproduce symbolic graphics programs (SGPs) that render into precise visual\ncontent remains underexplored. We study symbolic graphics programming, where\nthe goal is to generate an SGP from a natural-language description. This task\nalso serves as a lens into how LLMs understand the visual world by prompting\nthem to generate images rendered from SGPs. Among various SGPs, our paper\nsticks to scalable vector graphics (SVGs). We begin by examining the extent to\nwhich LLMs can generate SGPs. To this end, we introduce SGP-GenBench, a\ncomprehensive benchmark covering object fidelity, scene fidelity, and\ncompositionality (attribute binding, spatial relations, numeracy). On\nSGP-GenBench, we discover that frontier proprietary models substantially\noutperform open-source models, and performance correlates well with general\ncoding capabilities. Motivated by this gap, we aim to improve LLMs' ability to\ngenerate SGPs. We propose a reinforcement learning (RL) with verifiable rewards\napproach, where a format-validity gate ensures renderable SVG, and a\ncross-modal reward aligns text and the rendered image via strong vision\nencoders (e.g., SigLIP for text-image and DINO for image-image). Applied to\nQwen-2.5-7B, our method substantially improves SVG generation quality and\nsemantics, achieving performance on par with frontier systems. We further\nanalyze training dynamics, showing that RL induces (i) finer decomposition of\nobjects into controllable primitives and (ii) contextual details that improve\nscene coherence. Our results demonstrate that symbolic graphics programming\noffers a precise and interpretable lens on cross-modal grounding.",
+            "upvotes": 24,
+            "discussionId": "68be49a8c123124955ef5fd7",
+            "projectPage": "https://spherelab.ai/SGP-Gen/",
+            "githubRepo": "https://github.com/Sphere-AI-Lab/SGP-RL",
+            "ai_summary": "LLMs generate SVGs from natural-language descriptions using a reinforcement learning approach with verifiable rewards, improving performance and scene coherence.",
+            "ai_keywords": [
+                "symbolic graphics programs",
+                "SGPs",
+                "scalable vector graphics",
+                "SVGs",
+                "SGP-GenBench",
+                "reinforcement learning",
+                "RL",
+                "format-validity gate",
+                "cross-modal reward",
+                "SigLIP",
+                "DINO",
+                "Qwen-2.5-7B",
+                "cross-modal grounding"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "대형 언어 모델을 활용한 기호 그래픽 프로그래밍",
+        "purpose": "자연어 설명으로부터 기호 그래픽 프로그램(SGP)을 생성하는 능력을 향상시키기 위한 연구",
+        "method": [
+            "LLM이 SGP를 생성할 수 있는 능력을 평가하기 위해 SGP-GenBench라는 포괄적인 벤치마크를 도입함(SGP-GenBench, a comprehensive benchmark covering object fidelity, scene fidelity, and compositionality를 통해 평가)",
+            "강화 학습(RL)을 적용하여 형식 유효성 게이트와 교차 모달 보상을 통해 텍스트와 렌더링된 이미지를 정렬하는 방법을 제안함(we propose a reinforcement learning (RL) with verifiable rewards approach)",
+            "이 방법을 Qwen-2.5-7B 모델에 적용하여 SVG 생성 품질과 의미에서 큰 개선을 이룸(Applied to Qwen-2.5-7B, our method substantially improves SVG generation quality and semantics)"
+        ],
+        "conclusion": "기호 그래픽 프로그래밍은 교차 모달 기초에 대한 정밀하고 해석 가능한 관점을 제공하며, LLM의 SGP 생성 능력을 크게 향상시킴을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Image Generation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.04185",
+            "authors": [
+                {
+                    "_id": "68beb7f7c123124955ef61b5",
+                    "name": "Itai Gat",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61b6",
+                    "name": "Heli Ben-Hamu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61b7",
+                    "name": "Marton Havasi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61b8",
+                    "name": "Daniel Haziza",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61b9",
+                    "name": "Jeremy Reizenstein",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61ba",
+                    "name": "Gabriel Synnaeve",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61bb",
+                    "name": "David Lopez-Paz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61bc",
+                    "name": "Brian Karrer",
+                    "hidden": false
+                },
+                {
+                    "_id": "68beb7f7c123124955ef61bd",
+                    "name": "Yaron Lipman",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62a8fa984d933c74bf410c16/VDDCsutVgInVtJlvVV2WJ.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/62a8fa984d933c74bf410c16/dGa0ikEOY5Ove2n2-DnKH.qt"
+            ],
+            "publishedAt": "2025-09-04T13:02:39.000Z",
+            "submittedOnDailyAt": "2025-09-08T09:44:37.535Z",
+            "title": "Set Block Decoding is a Language Model Inference Accelerator",
+            "submittedOnDailyBy": {
+                "_id": "62a8fa984d933c74bf410c16",
+                "avatarUrl": "/avatars/73519deba3176be9c23d49f749aee5da.svg",
+                "isPro": false,
+                "fullname": "Itai Gat",
+                "user": "itaigat",
+                "type": "user"
+            },
+            "summary": "Autoregressive next token prediction language models offer powerful\ncapabilities but face significant challenges in practical deployment due to the\nhigh computational and memory costs of inference, particularly during the\ndecoding stage. We introduce Set Block Decoding (SBD), a simple and flexible\nparadigm that accelerates generation by integrating standard next token\nprediction (NTP) and masked token prediction (MATP) within a single\narchitecture. SBD allows the model to sample multiple, not necessarily\nconsecutive, future tokens in parallel, a key distinction from previous\nacceleration methods. This flexibility allows the use of advanced solvers from\nthe discrete diffusion literature, offering significant speedups without\nsacrificing accuracy. SBD requires no architectural changes or extra training\nhyperparameters, maintains compatibility with exact KV-caching, and can be\nimplemented by fine-tuning existing next token prediction models. By\nfine-tuning Llama-3.1 8B and Qwen-3 8B, we demonstrate that SBD enables a 3-5x\nreduction in the number of forward passes required for generation while\nachieving same performance as equivalent NTP training.",
+            "upvotes": 17,
+            "discussionId": "68beb7f7c123124955ef61be",
+            "ai_summary": "Set Block Decoding accelerates language model generation by integrating next token prediction and masked token prediction, enabling parallel sampling of future tokens and reducing computational cost without sacrificing accuracy.",
+            "ai_keywords": [
+                "autoregressive next token prediction",
+                "masked token prediction",
+                "Set Block Decoding",
+                "discrete diffusion",
+                "forward passes",
+                "Llama-3.1 8B",
+                "Qwen-3 8B"
+            ]
+        },
+        "translation_title": "Set Block Decoding: 언어 모델 추론 가속기",
+        "purpose": "언어 모델의 추론 과정에서의 계산 및 메모리 비용 절감을 통한 성능 향상",
+        "method": [
+            "Set Block Decoding(SBD)이라는 단순하고 유연한 패러다임을 도입하여, NTP와 MATP를 통합함(We introduce Set Block Decoding (SBD), a simple and flexible paradigm that accelerates generation by integrating standard next token prediction (NTP) and masked token prediction (MATP) within a single architecture.)",
+            "모델이 여러 개의 미래 토큰을 병렬로 샘플링할 수 있도록 하여, 이전 가속화 방법들과 차별화됨(SBD allows the model to sample multiple, not necessarily consecutive, future tokens in parallel, a key distinction from previous acceleration methods.)",
+            "기존의 next token prediction 모델을 미세 조정하여 구현 가능함(SBD can be implemented by fine-tuning existing next token prediction models.)"
+        ],
+        "conclusion": "SBD를 통해 생성에 필요한 전방 패스 수를 3-5배 줄이고, NTP와 동등한 성능을 유지함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.04744",
+            "authors": [
+                {
+                    "_id": "68be3e13c123124955ef5f99",
+                    "name": "Gagan Mundada",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9a",
+                    "name": "Yash Vishe",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9b",
+                    "name": "Amit Namburi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9c",
+                    "user": {
+                        "_id": "6190ab805ca89a28e9f66873",
+                        "avatarUrl": "/avatars/3c7ecc398fbf851acd2a132e947a92be.svg",
+                        "isPro": false,
+                        "fullname": "Xin Xu",
+                        "user": "XinXuNLPer",
+                        "type": "user"
+                    },
+                    "name": "Xin Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-08T07:01:58.002Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9d",
+                    "user": {
+                        "_id": "643060c6cb3fe707b24c53a2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643060c6cb3fe707b24c53a2/MIoM9hrX0vV4XRyrm-4Kz.jpeg",
+                        "isPro": false,
+                        "fullname": "Zachary Novack",
+                        "user": "ZacharyNovack",
+                        "type": "user"
+                    },
+                    "name": "Zachary Novack",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-08T07:02:00.032Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9e",
+                    "name": "Julian McAuley",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be3e13c123124955ef5f9f",
+                    "name": "Junda Wu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/643060c6cb3fe707b24c53a2/i7xvFhvJz98DfSA92HH8z.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/643060c6cb3fe707b24c53a2/jb9rmpc4sKJdwj48aO16M.png"
+            ],
+            "publishedAt": "2025-09-05T01:54:50.000Z",
+            "submittedOnDailyAt": "2025-09-08T00:59:18.510Z",
+            "title": "WildScore: Benchmarking MLLMs in-the-Wild Symbolic Music Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "643060c6cb3fe707b24c53a2",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643060c6cb3fe707b24c53a2/MIoM9hrX0vV4XRyrm-4Kz.jpeg",
+                "isPro": false,
+                "fullname": "Zachary Novack",
+                "user": "ZacharyNovack",
+                "type": "user"
+            },
+            "summary": "Recent advances in Multimodal Large Language Models (MLLMs) have demonstrated\nimpressive capabilities across various vision-language tasks. However, their\nreasoning abilities in the multimodal symbolic music domain remain largely\nunexplored. We introduce WildScore, the first in-the-wild multimodal symbolic\nmusic reasoning and analysis benchmark, designed to evaluate MLLMs' capacity to\ninterpret real-world music scores and answer complex musicological queries.\nEach instance in WildScore is sourced from genuine musical compositions and\naccompanied by authentic user-generated questions and discussions, capturing\nthe intricacies of practical music analysis. To facilitate systematic\nevaluation, we propose a systematic taxonomy, comprising both high-level and\nfine-grained musicological ontologies. Furthermore, we frame complex music\nreasoning as multiple-choice question answering, enabling controlled and\nscalable assessment of MLLMs' symbolic music understanding. Empirical\nbenchmarking of state-of-the-art MLLMs on WildScore reveals intriguing patterns\nin their visual-symbolic reasoning, uncovering both promising directions and\npersistent challenges for MLLMs in symbolic music reasoning and analysis. We\nrelease the dataset and code.",
+            "upvotes": 8,
+            "discussionId": "68be3e13c123124955ef5fa0",
+            "ai_summary": "WildScore evaluates MLLMs' symbolic music reasoning through a benchmark of real-world music scores and user-generated queries, revealing both strengths and challenges.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "MLLMs",
+                "multimodal symbolic music reasoning",
+                "WildScore",
+                "musicological queries",
+                "musicological ontologies",
+                "multiple-choice question answering",
+                "visual-symbolic reasoning"
+            ]
+        },
+        "translation_title": "WildScore: 야외에서 MLLMs의 상징적 음악 추론 벤치마킹",
+        "purpose": "상징적 음악 도메인에서 MLLMs의 추론 능력을 평가하기 위한 기준 마련",
+        "method": [
+            "상징적 음악 추론 및 분석 벤치마크 WildScore를 소개함(We introduce WildScore, the first in-the-wild multimodal symbolic music reasoning and analysis benchmark).",
+            "진정한 음악 작곡에서 가져온 실제 사례와 사용자 생성 질문 및 논의를 포함하여 실제 음악 분석의 복잡성을 포착함(Each instance in WildScore is sourced from genuine musical compositions and accompanied by authentic user-generated questions and discussions).",
+            "복잡한 음악 추론을 선택형 질문 답변 형식으로 구성하여 MLLMs의 음악 이해를 체계적으로 평가함(Furthermore, we frame complex music reasoning as multiple-choice question answering).",
+            "최신 MLLMs의 성능을 WildScore에서 평가하면서 비주얼-상징적 추론의 흥미로운 패턴을 발견함(Empirical benchmarking of state-of-the-art MLLMs on WildScore reveals intriguing patterns in their visual-symbolic reasoning)."
+        ],
+        "conclusion": "WildScore 벤치마크는 MLLMs의 상징적 음악 추론 및 분석의 발전 방향과 지속적인 문제를 밝혀냄.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Music Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.05263",
+            "authors": [
+                {
+                    "_id": "68be4a9dc123124955ef5fd9",
+                    "name": "Yinglin Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fda",
+                    "name": "Zhengxia Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fdb",
+                    "name": "Tongwei Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fdc",
+                    "name": "Wei Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fdd",
+                    "name": "Zhan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fde",
+                    "name": "Luyi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fdf",
+                    "name": "Xinzhu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fe0",
+                    "name": "Hao Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fe1",
+                    "name": "Kang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68be4a9dc123124955ef5fe2",
+                    "name": "Shuang Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-05T17:22:33.000Z",
+            "submittedOnDailyAt": "2025-09-08T01:46:57.372Z",
+            "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for\n  Interactive Complex World Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent research has been increasingly focusing on developing 3D world models\nthat simulate complex real-world scenarios. World models have found broad\napplications across various domains, including embodied AI, autonomous driving,\nentertainment, etc. A more realistic simulation with accurate physics will\neffectively narrow the sim-to-real gap and allow us to gather rich information\nabout the real world conveniently. While traditional manual modeling has\nenabled the creation of virtual 3D scenes, modern approaches have leveraged\nadvanced machine learning algorithms for 3D world generation, with most recent\nadvances focusing on generative methods that can create virtual worlds based on\nuser instructions. This work explores such a research direction by proposing\nLatticeWorld, a simple yet effective 3D world generation framework that\nstreamlines the industrial production pipeline of 3D environments. LatticeWorld\nleverages lightweight LLMs (LLaMA-2-7B) alongside the industry-grade rendering\nengine (e.g., Unreal Engine 5) to generate a dynamic environment. Our proposed\nframework accepts textual descriptions and visual instructions as multimodal\ninputs and creates large-scale 3D interactive worlds with dynamic agents,\nfeaturing competitive multi-agent interaction, high-fidelity physics\nsimulation, and real-time rendering. We conduct comprehensive experiments to\nevaluate LatticeWorld, showing that it achieves superior accuracy in scene\nlayout generation and visual fidelity. Moreover, LatticeWorld achieves over a\n90times increase in industrial production efficiency while maintaining high\ncreative quality compared with traditional manual production methods. Our demo\nvideo is available at https://youtu.be/8VWZXpERR18",
+            "upvotes": 4,
+            "discussionId": "68be4a9dc123124955ef5fe3",
+            "ai_summary": "LatticeWorld, a 3D world generation framework using lightweight LLMs and Unreal Engine 5, creates dynamic, interactive environments from textual and visual inputs, achieving high accuracy and efficiency.",
+            "ai_keywords": [
+                "LLMs",
+                "LLaMA-2-7B",
+                "Unreal Engine 5",
+                "multimodal inputs",
+                "dynamic agents",
+                "multi-agent interaction",
+                "high-fidelity physics simulation",
+                "real-time rendering",
+                "scene layout generation",
+                "visual fidelity"
+            ]
+        },
+        "translation_title": "LatticeWorld: 대화형 복합 세계 생성을 위한 멀티모달 대형 언어 모델 기반 프레임워크",
+        "purpose": "더욱 사실적인 3D 세계 생성을 통해 시뮬레이션과 현실 간의 격차를 줄이고, 복잡한 현실 세계 시나리오를 효과적으로 모사하려는 목표.",
+        "method": [
+            "LatticeWorld라는 3D 세계 생성 프레임워크를 제안하여 3D 환경의 산업 생산 파이프라인을 간소화함.(This work explores such a research direction by proposing LatticeWorld, a simple yet effective 3D world generation framework that streamlines the industrial production pipeline of 3D environments.)",
+            "경량 LLM(LLaMA-2-7B)과 산업급 렌더링 엔진(Unreal Engine 5 등)을 활용하여 동적 환경을 생성함.(LatticeWorld leverages lightweight LLMs (LLaMA-2-7B) alongside the industry-grade rendering engine (e.g., Unreal Engine 5) to generate a dynamic environment.)",
+            "텍스트 설명과 시각적 지침을 멀티모달 입력으로 받아 대규모 3D 대화형 세계를 생성함.(Our proposed framework accepts textual descriptions and visual instructions as multimodal inputs and creates large-scale 3D interactive worlds with dynamic agents.)"
+        ],
+        "conclusion": "LatticeWorld는 실내 배치 생성 및 시각적 충실도에서 우수한 정확도를 보이며, 전통적인 수작업 생산 방법과 비교할 때 90배 이상의 산업 생산 효율성을 달성함.",
+        "keywords": [
+            "3D Vision",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
