@@ -1,0 +1,474 @@
+[
+    {
+        "paper": {
+            "id": "2509.07980",
+            "authors": [
+                {
+                    "_id": "68c0d8e13912ed54cf543209",
+                    "name": "Tong Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320a",
+                    "name": "Hongming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320b",
+                    "name": "Wenhao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320c",
+                    "name": "Xiaoyang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320d",
+                    "name": "Xinyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320e",
+                    "name": "Runpeng Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf54320f",
+                    "name": "Rui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf543210",
+                    "name": "Huiwen Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf543211",
+                    "name": "Chengsong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf543212",
+                    "name": "Heng Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8e13912ed54cf543213",
+                    "name": "Dong Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-09T17:59:35.000Z",
+            "submittedOnDailyAt": "2025-09-10T00:20:34.994Z",
+            "title": "Parallel-R1: Towards Parallel Thinking via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "64f58b970b24e548a85522bc",
+                "avatarUrl": "/avatars/c8ca1294b5a1edd609694877e335b22f.svg",
+                "isPro": false,
+                "fullname": "Xinyu Yang",
+                "user": "Hanyuezhuohua",
+                "type": "user"
+            },
+            "summary": "Parallel thinking has emerged as a novel approach for enhancing the reasoning\ncapabilities of large language models (LLMs) by exploring multiple reasoning\npaths concurrently. However, activating such capabilities through training\nremains challenging, as existing methods predominantly rely on supervised\nfine-tuning (SFT) over synthetic data, which encourages teacher-forced\nimitation rather than exploration and generalization. Different from them, we\npropose Parallel-R1, the first reinforcement learning (RL) framework\nthat enables parallel thinking behaviors for complex real-world reasoning\ntasks. Our framework employs a progressive curriculum that explicitly addresses\nthe cold-start problem in training parallel thinking with RL. We first use SFT\non prompt-generated trajectories from easier tasks to instill the parallel\nthinking ability, then transition to RL to explore and generalize this skill on\nharder problems. Experiments on various math benchmarks, including MATH, AMC23,\nand AIME, show that Parallel-R1 successfully instills parallel thinking,\nleading to 8.4% accuracy improvements over the sequential thinking model\ntrained directly on challenging tasks with RL. Further analysis reveals a clear\nshift in the model's thinking behavior: at an early stage, it uses parallel\nthinking as an exploration strategy, while in a later stage, it uses the same\ncapability for multi-perspective verification. Most significantly, we validate\nparallel thinking as a mid-training exploration scaffold, where this\ntemporary exploratory phase unlocks a higher performance ceiling after RL,\nyielding a 42.9% improvement over the baseline on AIME25. Our model, data, and\ncode will be open-source at https://github.com/zhengkid/Parallel-R1.",
+            "upvotes": 65,
+            "discussionId": "68c0d8e23912ed54cf543214",
+            "githubRepo": "https://github.com/zhengkid/Parallel-R1",
+            "ai_summary": "Parallel-R1, a reinforcement learning framework, enhances large language models' reasoning capabilities by enabling parallel thinking through a progressive curriculum, leading to significant performance improvements on math benchmarks.",
+            "ai_keywords": [
+                "parallel thinking",
+                "reinforcement learning",
+                "progressive curriculum",
+                "cold-start problem",
+                "supervised fine-tuning",
+                "prompt-generated trajectories",
+                "sequential thinking",
+                "multi-perspective verification",
+                "mid-training exploration scaffold"
+            ],
+            "githubStars": 31
+        },
+        "translation_title": "Parallel-R1: 강화 학습을 통한 병렬적 사고 접근 방식",
+        "purpose": "복잡한 실제 문제 해결을 위한 병렬적 사고 능력을 강화하는 방법을 제안함",
+        "method": [
+            "병렬적 사고 행동을 활성화하기 위해 첫 번째로 강화 학습(RL) 프레임워크인 Parallel-R1을 제안함(we propose Parallel-R1, the first reinforcement learning (RL) framework that enables parallel thinking behaviors for complex real-world reasoning tasks.)",
+            "보다 쉬운 작업에서 생성된 경로(prompt-generated trajectories)에 대해 감독 세부 조정(SFT)을 먼저 수행하여 병렬적 사고 능력을 주입한 후, 더 어려운 문제에 대해 RL로 탐색하고 일반화함(we first use SFT on prompt-generated trajectories from easier tasks to instill the parallel thinking ability, then transition to RL to explore and generalize this skill on harder problems.)",
+            "다양한 수학 벤치마크(MATH, AMC23, AIME)를 통해 Parallel-R1이 병렬적 사고를 효과적으로 주입하고, 순차적 사고 모델에 비해 8.4%의 정확도 향상을 달성함(Experiments on various math benchmarks, including MATH, AMC23, and AIME, show that Parallel-R1 successfully instills parallel thinking, leading to 8.4% accuracy improvements over the sequential thinking model trained directly on challenging tasks with RL.)"
+        ],
+        "conclusion": "병렬적 사고는 강화 학습 후 높은 성능 한계를 열어주는 탐색 스캐폴드로 작용하며, AIME25에서 기준선 대비 42.9% 향상을 달성함",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.07979",
+            "authors": [
+                {
+                    "_id": "68c0d8f13912ed54cf543216",
+                    "name": "Heeji Yoon",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543217",
+                    "name": "Jaewoo Jung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543218",
+                    "name": "Junwan Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543219",
+                    "name": "Hyungyu Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321a",
+                    "name": "Heeseong Shin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321b",
+                    "name": "Sangbeom Lim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321c",
+                    "name": "Honggyu An",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321d",
+                    "name": "Chaehyun Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321e",
+                    "name": "Jisang Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf54321f",
+                    "name": "Donghyun Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543220",
+                    "name": "Chanho Eom",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543221",
+                    "name": "Sunghwan Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d8f13912ed54cf543222",
+                    "name": "Seungryong Kim",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-09T17:59:14.000Z",
+            "submittedOnDailyAt": "2025-09-10T00:18:48.073Z",
+            "title": "Visual Representation Alignment for Multimodal Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Multimodal large language models (MLLMs) trained with visual instruction\ntuning have achieved strong performance across diverse tasks, yet they remain\nlimited in vision-centric tasks such as object counting or spatial reasoning.\nWe attribute this gap to the prevailing text-only supervision paradigm, which\nprovides only indirect guidance for the visual pathway and often leads MLLMs to\ndiscard fine-grained visual details during training. In this paper, we present\nVIsual Representation ALignment (VIRAL), a simple yet effective regularization\nstrategy that aligns the internal visual representations of MLLMs with those of\npre-trained vision foundation models (VFMs). By explicitly enforcing this\nalignment, VIRAL enables the model not only to retain critical visual details\nfrom the input vision encoder but also to complement additional visual\nknowledge from VFMs, thereby enhancing its ability to reason over complex\nvisual inputs. Our experiments demonstrate consistent improvements across all\ntasks on widely adopted multimodal benchmarks. Furthermore, we conduct\ncomprehensive ablation studies to validate the key design choices underlying\nour framework. We believe this simple finding opens up an important direction\nfor the effective integration of visual information in training MLLMs.",
+            "upvotes": 48,
+            "discussionId": "68c0d8f23912ed54cf543223",
+            "projectPage": "https://cvlab-kaist.github.io/VIRAL/",
+            "githubRepo": "https://github.com/cvlab-kaist/VIRAL",
+            "ai_summary": "VIRAL, a regularization strategy, aligns MLLMs' visual representations with pre-trained VFMs, enhancing performance on vision-centric tasks.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "MLLMs",
+                "visual instruction tuning",
+                "vision-centric tasks",
+                "object counting",
+                "spatial reasoning",
+                "text-only supervision",
+                "visual pathway",
+                "fine-grained visual details",
+                "Visual Representation ALignment",
+                "VIRAL",
+                "pre-trained vision foundation models",
+                "VFMs",
+                "internal visual representations",
+                "visual encoder",
+                "visual knowledge",
+                "reasoning over complex visual inputs",
+                "multimodal benchmarks",
+                "ablation studies"
+            ],
+            "githubStars": 57
+        },
+        "translation_title": "다중 모달 대형 언어 모델을 위한 시각적 표현 정렬",
+        "purpose": "다중 모달 대형 언어 모델의 비전 중심 작업 성능 향상을 위한 정렬 전략 제안",
+        "method": [
+            "VIRAL이라는 정규화 전략을 통해 대형 언어 모델의 내부 시각적 표현을 사전 학습된 비전 기초 모델과 정렬함(we present VIsual Representation ALignment (VIRAL), a simple yet effective regularization strategy that aligns the internal visual representations of MLLMs with those of pre-trained vision foundation models).",
+            "정렬을 명시적으로 강화하여 모델이 입력 시각 인코더로부터 중요한 시각 세부정보를 유지하고 추가적인 비주얼 지식을 통합하도록 돕는 방법을 사용함(By explicitly enforcing this alignment, VIRAL enables the model not only to retain critical visual details from the input vision encoder but also to complement additional visual knowledge from VFMs).",
+            "포괄적인 제거 연구를 통해 프레임워크의 주요 설계 선택을 검증함(we conduct comprehensive ablation studies to validate the key design choices underlying our framework)."
+        ],
+        "conclusion": "VIRAL은 다중 모달 벤치마크에서 모든 작업에서 일관된 개선을 보이고, 시각 정보의 효과적인 통합을 위한 중요한 방향을 제시함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.07969",
+            "authors": [
+                {
+                    "_id": "68c0d77d3912ed54cf543201",
+                    "name": "Xin Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d77d3912ed54cf543202",
+                    "name": "Junyi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d77d3912ed54cf543203",
+                    "name": "Wei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d77d3912ed54cf543204",
+                    "name": "Tao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d77d3912ed54cf543205",
+                    "name": "Tianjian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0d77d3912ed54cf543206",
+                    "name": "Hengshuang Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-09T17:54:21.000Z",
+            "submittedOnDailyAt": "2025-09-10T00:12:34.256Z",
+            "title": "Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual\n  Search",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent advances in large multimodal models have leveraged image-based tools\nwith reinforcement learning to tackle visual problems. However, existing\nopen-source approaches often exhibit monotonous reasoning patterns and allow\nonly a limited number of interaction turns, making them inadequate for\ndifficult tasks that require trial-and-error exploration. In this work, we\naddress this limitation by scaling up tool-based interactions and introduce\nMini-o3, a system that executes deep, multi-turn reasoning -- spanning tens of\nsteps -- and achieves state-of-the-art performance on challenging visual search\ntasks. Our recipe for reproducing OpenAI o3-style behaviors comprises three key\ncomponents. First, we construct the Visual Probe Dataset, a collection of\nthousands of challenging visual search problems designed for exploratory\nreasoning. Second, we develop an iterative data collection pipeline to obtain\ncold-start trajectories that exhibit diverse reasoning patterns, including\ndepth-first search, trial-and-error, and goal maintenance. Third, we propose an\nover-turn masking strategy that prevents penalization of over-turn responses\n(those that hit the maximum number of turns) during reinforcement learning,\nthereby balancing training-time efficiency with test-time scalability. Despite\ntraining with an upper bound of only six interaction turns, our model generates\ntrajectories that naturally scale to tens of turns at inference time, with\naccuracy improving as the number of turns increases. Extensive experiments\ndemonstrate that Mini-o3 produces rich reasoning patterns and deep thinking\npaths, effectively solving challenging visual search problems.",
+            "upvotes": 43,
+            "discussionId": "68c0d77d3912ed54cf543207",
+            "projectPage": "https://mini-o3.github.io/",
+            "githubRepo": "https://github.com/Mini-o3/Mini-o3",
+            "ai_summary": "Mini-o3, a system for deep, multi-turn reasoning in visual search tasks, uses an iterative data collection pipeline and over-turn masking strategy to achieve state-of-the-art performance with rich reasoning patterns.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "Visual Probe Dataset",
+                "iterative data collection pipeline",
+                "depth-first search",
+                "trial-and-error",
+                "goal maintenance",
+                "over-turn masking strategy"
+            ],
+            "githubStars": 104
+        },
+        "translation_title": "Mini-o3: 시각 검색을 위한 추론 패턴 및 상호작용 턴 확대",
+        "purpose": "어려운 시각 문제를 해결하기 위해 다단계 추론 및 도구 기반 상호작용을 확장하기",
+        "method": [
+            "Visual Probe Dataset를 구축하여 탐색적 추론을 위한 수천 개의 도전적인 시각 검색 문제를 포함시킴(First, we construct the Visual Probe Dataset, a collection of thousands of challenging visual search problems designed for exploratory reasoning.)",
+            "다양한 추론 패턴을 포함하는 초기 데이터 수집 파이프라인을 개발함(Second, we develop an iterative data collection pipeline to obtain cold-start trajectories that exhibit diverse reasoning patterns, including depth-first search, trial-and-error, and goal maintenance.)",
+            "과도한 턴 응답에 대한 처벌을 방지하는 오버 턴 마스킹 전략을 제안함(Third, we propose an over-turn masking strategy that prevents penalization of over-turn responses during reinforcement learning.)"
+        ],
+        "conclusion": "Mini-o3는 깊은 사고 경로와 풍부한 추론 패턴을 생성하며, 어려운 시각 검색 문제를 효과적으로 해결함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Visual Search"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.07295",
+            "authors": [
+                {
+                    "_id": "68c0e2033912ed54cf543276",
+                    "name": "Ji Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0e2033912ed54cf543277",
+                    "name": "Trevor Darrell",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0e2033912ed54cf543278",
+                    "name": "Luke Zettlemoyer",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c0e2033912ed54cf543279",
+                    "name": "XuDong Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-08T23:59:32.000Z",
+            "submittedOnDailyAt": "2025-09-10T00:59:36.913Z",
+            "title": "Reconstruction Alignment Improves Unified Multimodal Models",
+            "submittedOnDailyBy": {
+                "_id": "64e99fc07e2ec711a7138262",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64e99fc07e2ec711a7138262/FmP3F8_UXgh9K-0gwS99A.jpeg",
+                "isPro": true,
+                "fullname": "Ji Xie",
+                "user": "sanaka87",
+                "type": "user"
+            },
+            "summary": "Unified multimodal models (UMMs) unify visual understanding and generation\nwithin a single architecture. However, conventional training relies on\nimage-text pairs (or sequences) whose captions are typically sparse and miss\nfine-grained visual details--even when they use hundreds of words to describe a\nsimple image. We introduce Reconstruction Alignment (RecA), a\nresource-efficient post-training method that leverages visual understanding\nencoder embeddings as dense \"text prompts,\" providing rich supervision without\ncaptions. Concretely, RecA conditions a UMM on its own visual understanding\nembeddings and optimizes it to reconstruct the input image with a\nself-supervised reconstruction loss, thereby realigning understanding and\ngeneration. Despite its simplicity, RecA is broadly applicable: across\nautoregressive, masked-autoregressive, and diffusion-based UMMs, it\nconsistently improves generation and editing fidelity. With only 27 GPU-hours,\npost-training with RecA substantially improves image generation performance on\nGenEval (0.73rightarrow0.90) and DPGBench (80.93rightarrow88.15), while\nalso boosting editing benchmarks (ImgEdit 3.38rightarrow3.75, GEdit\n6.94rightarrow7.25). Notably, RecA surpasses much larger open-source models\nand applies broadly across diverse UMM architectures, establishing it as an\nefficient and general post-training alignment strategy for UMMs",
+            "upvotes": 28,
+            "discussionId": "68c0e2033912ed54cf54327a",
+            "projectPage": "https://reconstruction-alignment.github.io/",
+            "githubRepo": "https://github.com/HorizonWind2004/reconstruction-alignment",
+            "ai_summary": "Reconstruction Alignment (RecA) is a post-training method that enhances multimodal models by using visual embeddings as dense prompts, improving image generation and editing fidelity.",
+            "ai_keywords": [
+                "Unified multimodal models",
+                "Reconstruction Alignment",
+                "visual understanding encoder embeddings",
+                "self-supervised reconstruction loss",
+                "autoregressive",
+                "masked-autoregressive",
+                "diffusion-based",
+                "GenEval",
+                "DPGBench",
+                "ImgEdit",
+                "GEdit"
+            ],
+            "githubStars": 57
+        },
+        "translation_title": "재구성 정렬이 통합 다중모달 모델을 향상시킨다",
+        "purpose": "통합 다중모달 모델(UMMs)의 시각적 이해와 생성을 개선하기 위한 방법 연구",
+        "method": [
+            "재구성 정렬(RecA)이라는 자원 효율적인 후속 훈련 방법을 도입하여 비주얼 이해 인코더 임베딩을 밀집한 '텍스트 프롬프트'로 활용함(We introduce Reconstruction Alignment (RecA), a resource-efficient post-training method that leverages visual understanding encoder embeddings as dense 'text prompts.')",
+            "RecA는 UMM을 비주얼 이해 임베딩에 조건화하고 입력 이미지를 재구성하는 자기 감독 재구성 손실을 최적화함.(RecA conditions a UMM on its own visual understanding embeddings and optimizes it to reconstruct the input image with a self-supervised reconstruction loss.)",
+            "RecA는 다양한 UMM 아키텍처 전반에 걸쳐 생성 및 편집 충실도를 일관되게 향상시킴(Despite its simplicity, RecA is broadly applicable: across autoregressive, masked-autoregressive, and diffusion-based UMMs, it consistently improves generation and editing fidelity.)"
+        ],
+        "conclusion": "RecA는 이미지 생성 성능을 크게 향상시키고, 효율적이며 일반적인 후속 훈련 정렬 전략으로 자리잡음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.06818",
+            "authors": [
+                {
+                    "_id": "68bfa87b207285de11b07c7e",
+                    "user": {
+                        "_id": "66a0aed210de1ccd3d409721",
+                        "avatarUrl": "/avatars/bc6e6c1d60b6601dfb3fe3a697e02ce9.svg",
+                        "isPro": false,
+                        "fullname": "Yufeng Cheng",
+                        "user": "cb1cyf",
+                        "type": "user"
+                    },
+                    "name": "Yufeng Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-09T13:47:18.629Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfa87b207285de11b07c7f",
+                    "name": "Wenxu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfa87b207285de11b07c80",
+                    "user": {
+                        "_id": "660114b38ae190912a61be5d",
+                        "avatarUrl": "/avatars/abc4ab10d6f9769d2b5e697ccbf3fb70.svg",
+                        "isPro": false,
+                        "fullname": "ShaojinWu",
+                        "user": "fenfan",
+                        "type": "user"
+                    },
+                    "name": "Shaojin Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-09T13:47:20.947Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfa87b207285de11b07c81",
+                    "name": "Mengqi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfa87b207285de11b07c82",
+                    "name": "Fei Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfa87b207285de11b07c83",
+                    "name": "Qian He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-08T15:54:55.000Z",
+            "submittedOnDailyAt": "2025-09-10T01:45:26.368Z",
+            "title": "UMO: Scaling Multi-Identity Consistency for Image Customization via\n  Matching Reward",
+            "submittedOnDailyBy": {
+                "_id": "660114b38ae190912a61be5d",
+                "avatarUrl": "/avatars/abc4ab10d6f9769d2b5e697ccbf3fb70.svg",
+                "isPro": false,
+                "fullname": "ShaojinWu",
+                "user": "fenfan",
+                "type": "user"
+            },
+            "summary": "Recent advancements in image customization exhibit a wide range of\napplication prospects due to stronger customization capabilities. However,\nsince we humans are more sensitive to faces, a significant challenge remains in\npreserving consistent identity while avoiding identity confusion with\nmulti-reference images, limiting the identity scalability of customization\nmodels. To address this, we present UMO, a Unified Multi-identity Optimization\nframework, designed to maintain high-fidelity identity preservation and\nalleviate identity confusion with scalability. With \"multi-to-multi matching\"\nparadigm, UMO reformulates multi-identity generation as a global assignment\noptimization problem and unleashes multi-identity consistency for existing\nimage customization methods generally through reinforcement learning on\ndiffusion models. To facilitate the training of UMO, we develop a scalable\ncustomization dataset with multi-reference images, consisting of both\nsynthesised and real parts. Additionally, we propose a new metric to measure\nidentity confusion. Extensive experiments demonstrate that UMO not only\nimproves identity consistency significantly, but also reduces identity\nconfusion on several image customization methods, setting a new\nstate-of-the-art among open-source methods along the dimension of identity\npreserving. Code and model: https://github.com/bytedance/UMO",
+            "upvotes": 22,
+            "discussionId": "68bfa87b207285de11b07c84",
+            "projectPage": "https://bytedance.github.io/UMO/",
+            "githubRepo": "https://github.com/bytedance/UMO",
+            "ai_summary": "UMO, a Unified Multi-identity Optimization framework, enhances identity consistency and reduces confusion in multi-reference image customization using reinforcement learning on diffusion models.",
+            "ai_keywords": [
+                "Unified Multi-identity Optimization",
+                "multi-to-multi matching",
+                "global assignment optimization",
+                "reinforcement learning",
+                "diffusion models",
+                "identity consistency",
+                "identity confusion"
+            ],
+            "githubStars": 39
+        },
+        "translation_title": "UMO: 매칭 보상을 통한 이미지 커스터마이제이션의 다중 정체성 일관성 확대",
+        "purpose": "다중 참조 이미지와의 정체성 혼동을 피하고 높은 충실도의 정체성 보존을 유지하며 커스터마이제이션 모델의 정체성 확장을 이루기 위한 방법 제시",
+        "method": [
+            "UMO라는 통합 다중 정체성 최적화 프레임워크를 개발하여 이미지 커스터마이제이션을 위한 다중 정체성 생성을 글로벌 할당 최적화 문제로 재구성함(we present UMO, a Unified Multi-identity Optimization framework, designed to maintain high-fidelity identity preservation and alleviate identity confusion with scalability.)",
+            "강화 학습을 통해 기존의 이미지 커스터마이제이션 방법에서 다중 정체성 일관성을 발휘함(UMO reformulates multi-identity generation as a global assignment optimization problem and unleashes multi-identity consistency for existing image customization methods generally through reinforcement learning on diffusion models.)",
+            "확장 가능한 커스터마이제이션 데이터셋을 개발하여 학습을 용이하게 함(we develop a scalable customization dataset with multi-reference images, consisting of both synthesised and real parts.)"
+        ],
+        "conclusion": "UMO는 여러 이미지 커스터마이제이션 방법에서 정체성 일관성을 크게 향상시키고 정체성 혼동을 줄여주어 새로운 최첨단 성과를 이룩함.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Large Language Models"
+        ]
+    }
+]
