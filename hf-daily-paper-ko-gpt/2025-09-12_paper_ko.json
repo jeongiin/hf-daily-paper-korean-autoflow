@@ -1,0 +1,601 @@
+[
+    {
+        "paper": {
+            "id": "2509.09372",
+            "authors": [
+                {
+                    "_id": "68c3cc49fc1747b912403b06",
+                    "name": "Yihao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b07",
+                    "name": "Pengxiang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b08",
+                    "name": "Lingxiao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b09",
+                    "name": "Can Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0a",
+                    "name": "Zirui Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0b",
+                    "name": "Xinyang Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0c",
+                    "name": "Wenxuan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0d",
+                    "name": "Han Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0e",
+                    "name": "Wei Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b0f",
+                    "name": "Pengxu Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b10",
+                    "name": "Siteng Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b11",
+                    "name": "Yifan Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b12",
+                    "name": "Wenhui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b13",
+                    "name": "Ru Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b14",
+                    "name": "Jianyi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c3cc49fc1747b912403b15",
+                    "name": "Donglin Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-11T11:42:21.000Z",
+            "submittedOnDailyAt": "2025-09-12T06:04:56.756Z",
+            "title": "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action\n  Model",
+            "submittedOnDailyBy": {
+                "_id": "65fd82762bf2cd20ddaa193f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/yBYbWp_mT7UusYdkqtAvw.png",
+                "isPro": false,
+                "fullname": "Siteng Huang",
+                "user": "huangsiteng",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models typically bridge the gap between\nperceptual and action spaces by pre-training a large-scale Vision-Language\nModel (VLM) on robotic data. While this approach greatly enhances performance,\nit also incurs significant training costs. In this paper, we investigate how to\neffectively bridge vision-language (VL) representations to action (A). We\nintroduce VLA-Adapter, a novel paradigm designed to reduce the reliance of VLA\nmodels on large-scale VLMs and extensive pre-training. To this end, we first\nsystematically analyze the effectiveness of various VL conditions and present\nkey findings on which conditions are essential for bridging perception and\naction spaces. Based on these insights, we propose a lightweight Policy module\nwith Bridge Attention, which autonomously injects the optimal condition into\nthe action space. In this way, our method achieves high performance using only\na 0.5B-parameter backbone, without any robotic data pre-training. Extensive\nexperiments on both simulated and real-world robotic benchmarks demonstrate\nthat VLA-Adapter not only achieves state-of-the-art level performance, but also\noffers the fast inference speed reported to date. Furthermore, thanks to the\nproposed advanced bridging paradigm, VLA-Adapter enables the training of a\npowerful VLA model in just 8 hours on a single consumer-grade GPU, greatly\nlowering the barrier to deploying the VLA model. Project page:\nhttps://vla-adapter.github.io/.",
+            "upvotes": 98,
+            "discussionId": "68c3cc4afc1747b912403b16",
+            "projectPage": "https://vla-adapter.github.io/",
+            "ai_summary": "VLA-Adapter reduces reliance on large-scale VLMs and extensive pre-training by using a lightweight Policy module with Bridge Attention, achieving state-of-the-art performance and fast inference speed with minimal computational resources.",
+            "ai_keywords": [
+                "VLA models",
+                "Vision-Language Model (VLM)",
+                "robotic data",
+                "VL conditions",
+                "Policy module",
+                "Bridge Attention",
+                "parameter backbone",
+                "simulated benchmarks",
+                "real-world benchmarks",
+                "inference speed",
+                "consumer-grade GPU"
+            ]
+        },
+        "translation_title": "VLA-Adapter: 소형 Vision-Language-Action 모델을 위한 효과적인 패러다임",
+        "purpose": "Vision-Language-Action(VLA) 모델의 대규모 Vision-Language Model(VLM)에 대한 의존도를 줄이고, 보다 효율적으로 인지와 행동 공간을 연결하기 위한 방법 연구",
+        "method": [
+            "다양한 Vision-Language(VL) 조건의 효과성을 체계적으로 분석함(we first systematically analyze the effectiveness of various VL conditions).",
+            "Bridge Attention이 적용된 경량 정책 모듈을 제안함(based on these insights, we propose a lightweight Policy module with Bridge Attention).",
+            "로봇 데이터 사전 학습 없이 0.5B 파라미터 백본만으로 높은 성능을 달성함(our method achieves high performance using only a 0.5B-parameter backbone, without any robotic data pre-training)."
+        ],
+        "conclusion": "VLA-Adapter는 최첨단 성능을 달성하며, 단일 소비자급 GPU에서 8시간 만에 강력한 VLA 모델 훈련이 가능해 VLA 모델 배포의 장벽을 크게 낮춤.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.08519",
+            "authors": [
+                {
+                    "_id": "68c2624629b8ec9932cd09ea",
+                    "name": "Liyang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09eb",
+                    "name": "Tianxiang Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09ec",
+                    "name": "Jiawei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09ed",
+                    "name": "Bingchuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09ee",
+                    "name": "Zhuowei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09ef",
+                    "name": "Lijie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09f0",
+                    "name": "Xu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09f1",
+                    "name": "Gen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09f2",
+                    "name": "Qian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c2624629b8ec9932cd09f3",
+                    "name": "Zhiyong Wu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6804ce31d205d72ddbeec8a0/fw6mAAW3nySgkfKJ1DiH2.mp4"
+            ],
+            "publishedAt": "2025-09-10T11:54:29.000Z",
+            "submittedOnDailyAt": "2025-09-12T03:41:05.784Z",
+            "title": "HuMo: Human-Centric Video Generation via Collaborative Multi-Modal\n  Conditioning",
+            "submittedOnDailyBy": {
+                "_id": "6804ce31d205d72ddbeec8a0",
+                "avatarUrl": "/avatars/772d20a653649063158cba166298801a.svg",
+                "isPro": false,
+                "fullname": "Tianxiang Ma",
+                "user": "TianxiangMa",
+                "type": "user"
+            },
+            "summary": "Human-Centric Video Generation (HCVG) methods seek to synthesize human videos\nfrom multimodal inputs, including text, image, and audio. Existing methods\nstruggle to effectively coordinate these heterogeneous modalities due to two\nchallenges: the scarcity of training data with paired triplet conditions and\nthe difficulty of collaborating the sub-tasks of subject preservation and\naudio-visual sync with multimodal inputs. In this work, we present HuMo, a\nunified HCVG framework for collaborative multimodal control. For the first\nchallenge, we construct a high-quality dataset with diverse and paired text,\nreference images, and audio. For the second challenge, we propose a two-stage\nprogressive multimodal training paradigm with task-specific strategies. For the\nsubject preservation task, to maintain the prompt following and visual\ngeneration abilities of the foundation model, we adopt the minimal-invasive\nimage injection strategy. For the audio-visual sync task, besides the commonly\nadopted audio cross-attention layer, we propose a focus-by-predicting strategy\nthat implicitly guides the model to associate audio with facial regions. For\njoint learning of controllabilities across multimodal inputs, building on\npreviously acquired capabilities, we progressively incorporate the audio-visual\nsync task. During inference, for flexible and fine-grained multimodal control,\nwe design a time-adaptive Classifier-Free Guidance strategy that dynamically\nadjusts guidance weights across denoising steps. Extensive experimental results\ndemonstrate that HuMo surpasses specialized state-of-the-art methods in\nsub-tasks, establishing a unified framework for collaborative\nmultimodal-conditioned HCVG. Project Page:\nhttps://phantom-video.github.io/HuMo.",
+            "upvotes": 83,
+            "discussionId": "68c2624629b8ec9932cd09f4",
+            "projectPage": "https://phantom-video.github.io/HuMo/",
+            "githubRepo": "https://github.com/Phantom-video/HuMo",
+            "ai_summary": "HuMo is a unified framework for human-centric video generation that addresses challenges in multimodal control through a two-stage training paradigm and novel strategies for subject preservation and audio-visual synchronization.",
+            "ai_keywords": [
+                "human-centric video generation",
+                "multimodal inputs",
+                "text",
+                "image",
+                "audio",
+                "high-quality dataset",
+                "two-stage progressive multimodal training",
+                "minimal-invasive image injection",
+                "audio cross-attention layer",
+                "focus-by-predicting strategy",
+                "time-adaptive Classifier-Free Guidance",
+                "denoising steps"
+            ],
+            "githubStars": 145
+        },
+        "translation_title": "HuMo: 협업 다중 모달 조정을 통한 인간 중심 비디오 생성",
+        "purpose": "비디오 생성 시 다양한 모달(텍스트, 이미지, 오디오)을 효과적으로 조정하기 위한 framework을 마련",
+        "method": [
+            "다양한 쌍으로 이루어진 텍스트, 참조 이미지, 오디오의 고품질 데이터셋을 구축함(For the first challenge, we construct a high-quality dataset with diverse and paired text, reference images, and audio.)",
+            "주제 보존 작업을 위해 최소한의 침습적인 이미지 주입 전략을 채택함(For the subject preservation task, we adopt the minimal-invasive image injection strategy.)",
+            "시간 적응형 Classifier-Free Guidance 전략을 설계하여 여러 모달 제어를 유연하게 조정함(During inference, we design a time-adaptive Classifier-Free Guidance strategy that dynamically adjusts guidance weights across denoising steps.)"
+        ],
+        "conclusion": "HuMo는 인간 중심 비디오 생성을 위한 협업 다중 모달 제어를 위한 통합 프레임워크로서 기존의 전문화된 최첨단 방법들을 초월하는 성능을 보여줌.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.09674",
+            "authors": [
+                {
+                    "_id": "68c37bb3fc1747b912403994",
+                    "name": "Haozhan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b912403995",
+                    "name": "Yuxin Zuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b912403996",
+                    "name": "Jiale Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b912403997",
+                    "name": "Yuhao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b912403998",
+                    "name": "Zhaohui Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b912403999",
+                    "name": "Kaiyan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399a",
+                    "name": "Xuekai Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399b",
+                    "name": "Yuchen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399c",
+                    "name": "Tianxing Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399d",
+                    "name": "Ganqu Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399e",
+                    "name": "Dehui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b91240399f",
+                    "name": "Dingxiang Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a0",
+                    "name": "Yuchen Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a1",
+                    "name": "Youbang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a2",
+                    "name": "Jia Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a3",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a4",
+                    "name": "Shanghang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a5",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a6",
+                    "name": "Yao Mu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a7",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37bb3fc1747b9124039a8",
+                    "name": "Ning Ding",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-11T17:59:17.000Z",
+            "submittedOnDailyAt": "2025-09-12T00:32:42.595Z",
+            "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "662f638ba9891e43cc4c5125",
+                "avatarUrl": "/avatars/77c22de5511f9b85d98ec75fb0b5e9be.svg",
+                "isPro": true,
+                "fullname": "Li Haozhan",
+                "user": "Haozhan72",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models have recently emerged as a powerful\nparadigm for robotic manipulation. Despite substantial progress enabled by\nlarge-scale pretraining and supervised fine-tuning (SFT), these models face two\nfundamental challenges: (i) the scarcity and high cost of large-scale\nhuman-operated robotic trajectories required for SFT scaling, and (ii) limited\ngeneralization to tasks involving distribution shift. Recent breakthroughs in\nLarge Reasoning Models (LRMs) demonstrate that reinforcement learning (RL) can\ndramatically enhance step-by-step reasoning capabilities, raising a natural\nquestion: Can RL similarly improve the long-horizon step-by-step action\nplanning of VLA? In this work, we introduce SimpleVLA-RL, an efficient RL\nframework tailored for VLA models. Building upon veRL, we introduce\nVLA-specific trajectory sampling, scalable parallelization, multi-environment\nrendering, and optimized loss computation. When applied to OpenVLA-OFT,\nSimpleVLA-RL achieves SoTA performance on LIBERO and even outperforms pi_0\non RoboTwin 1.0\\&2.0 with the exploration-enhancing strategies we introduce.\nSimpleVLA-RL not only reduces dependence on large-scale data and enables robust\ngeneralization, but also remarkably surpasses SFT in real-world tasks.\nMoreover, we identify a novel phenomenon ``pushcut'' during RL training,\nwherein the policy discovers previously unseen patterns beyond those seen in\nthe previous training process. Github: https://github.com/PRIME-RL/SimpleVLA-RL",
+            "upvotes": 52,
+            "discussionId": "68c37bb3fc1747b9124039a9",
+            "githubRepo": "https://github.com/PRIME-RL/SimpleVLA-RL",
+            "ai_summary": "SimpleVLA-RL, an RL framework for VLA models, enhances long-horizon action planning, achieves state-of-the-art performance, and discovers novel patterns during training.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "RL",
+                "VLA models",
+                "trajectory sampling",
+                "parallelization",
+                "multi-environment rendering",
+                "loss computation",
+                "LIBERO",
+                "RoboTwin",
+                "step-by-step reasoning",
+                "distribution shift",
+                "pushcut"
+            ],
+            "githubStars": 486
+        },
+        "translation_title": "SimpleVLA-RL: 강화 학습을 통한 VLA 훈련 확장",
+        "purpose": "로봇 조작을 위한 Vision-Language-Action 모델의 훈련 문제를 해결하고 성능을 개선하기 위한 연구",
+        "method": [
+            "효율적인 RL 프레임워크인 SimpleVLA-RL을 도입함(we introduce SimpleVLA-RL, an efficient RL framework tailored for VLA models.)",
+            "VLA 전용 경로 샘플링과 병렬화, 멀티 환경 렌더링 및 최적화된 손실 계산을 사용하여 성능을 향상시킴(Building upon veRL, we introduce VLA-specific trajectory sampling, scalable parallelization, multi-environment rendering, and optimized loss computation.)",
+            "OpenVLA-OFT에 적용하여 LIBERO에서 SoTA 성능을 달성하고 RoboTwin 1.0&2.0에서 기존 모델을 초과 성능 기록함(When applied to OpenVLA-OFT, SimpleVLA-RL achieves SoTA performance on LIBERO and even outperforms pi_0 on RoboTwin 1.0&2.0.)"
+        ],
+        "conclusion": "SimpleVLA-RL은 대규모 데이터 종속성을 줄이고 강력한 일반화를 가능하게 하며, 실제 작업에서 SFT를 크게 초과하는 성과를 달성함.",
+        "keywords": [
+            "Robotics",
+            "Reinforcement Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.09174",
+            "authors": [
+                {
+                    "_id": "68c38053fc1747b9124039ea",
+                    "name": "Yuhao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039eb",
+                    "name": "Yuhao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039ec",
+                    "name": "Zhanchen Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039ed",
+                    "name": "Xiangnan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039ee",
+                    "name": "Kaiqi Kou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039ef",
+                    "name": "Benyou Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38053fc1747b9124039f0",
+                    "name": "Haizhou Li",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66975b9f8031bf92b428e138/fpbLmvS4cUyXEqNZlqSY3.mp4"
+            ],
+            "publishedAt": "2025-09-11T06:17:59.000Z",
+            "submittedOnDailyAt": "2025-09-12T00:46:24.478Z",
+            "title": "EchoX: Towards Mitigating Acoustic-Semantic Gap via Echo Training for\n  Speech-to-Speech LLMs",
+            "submittedOnDailyBy": {
+                "_id": "66975b9f8031bf92b428e138",
+                "avatarUrl": "/avatars/3254281a7bac1c8ddde1d6bc7e518b2f.svg",
+                "isPro": false,
+                "fullname": "Yuhao Zhang",
+                "user": "Yoohao",
+                "type": "user"
+            },
+            "summary": "Speech-to-speech large language models (SLLMs) are attracting increasing\nattention. Derived from text-based large language models (LLMs), SLLMs often\nexhibit degradation in knowledge and reasoning capabilities. We hypothesize\nthat this limitation arises because current training paradigms for SLLMs fail\nto bridge the acoustic-semantic gap in the feature representation space. To\naddress this issue, we propose EchoX, which leverages semantic representations\nand dynamically generates speech training targets. This approach integrates\nboth acoustic and semantic learning, enabling EchoX to preserve strong\nreasoning abilities as a speech LLM. Experimental results demonstrate that\nEchoX, with about six thousand hours of training data, achieves advanced\nperformance on multiple knowledge-based question-answering benchmarks. The\nproject is available at https://github.com/FreedomIntelligence/EchoX.",
+            "upvotes": 50,
+            "discussionId": "68c38053fc1747b9124039f1",
+            "projectPage": "https://freedomintelligence.github.io/EchoX/",
+            "githubRepo": "https://github.com/FreedomIntelligence/EchoX",
+            "ai_summary": "EchoX, a speech-to-speech large language model, addresses the acoustic-semantic gap by integrating semantic representations, preserving reasoning abilities, and achieving advanced performance on knowledge-based benchmarks.",
+            "ai_keywords": [
+                "speech-to-speech large language models",
+                "SLLMs",
+                "text-based large language models",
+                "LLMs",
+                "acoustic-semantic gap",
+                "semantic representations",
+                "speech training targets",
+                "acoustic learning",
+                "semantic learning",
+                "knowledge-based question-answering benchmarks"
+            ],
+            "githubStars": 9
+        },
+        "translation_title": "EchoX: 음향-의미 간극 완화를 위한 스피치-투-스피치 LLMs 훈련 방법",
+        "purpose": "스피치-투-스피치 LLMs의 지식 및 추론 능력 향상을 목표로 음향-의미 간극 문제를 해결하기 위함",
+        "method": [
+            "EchoX를 제안하여 의미 표현을 활용하고 음성을 동적으로 생성함으로써 훈련 목표를 설정함(To address this issue, we propose EchoX, which leverages semantic representations and dynamically generates speech training targets.)",
+            "음향 학습과 의미 학습을 통합하여 EchoX가 스피치 LLM으로서 강력한 추론 능력을 유지하도록 함(This approach integrates both acoustic and semantic learning, enabling EchoX to preserve strong reasoning abilities as a speech LLM.)",
+            "약 6천 시간의 훈련 데이터를 사용하여 EchoX가 여러 지식 기반 질문-답변 벤치마크에서 성능을 높임(Experimental results demonstrate that EchoX, with about six thousand hours of training data, achieves advanced performance on multiple knowledge-based question-answering benchmarks.)"
+        ],
+        "conclusion": "EchoX는 지식 기반 질문-답변에서 뛰어난 성과를 달성하며, 음향과 의미의 통합 학습이 중요함을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech-to-Speech"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.09595",
+            "authors": [
+                {
+                    "_id": "68c37f08fc1747b9124039ce",
+                    "name": "Yikang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039cf",
+                    "name": "Jiwen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d0",
+                    "name": "Wenyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d1",
+                    "name": "Zekun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d2",
+                    "name": "Wentao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d3",
+                    "name": "Liyuan Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d4",
+                    "name": "Mingming Lao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d5",
+                    "name": "Yingchao Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d6",
+                    "name": "Hui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d7",
+                    "name": "Xiaohan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d8",
+                    "name": "Ming Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039d9",
+                    "name": "Xiaoqiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039da",
+                    "name": "Yu-Shen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c37f08fc1747b9124039db",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-11T16:34:57.000Z",
+            "submittedOnDailyAt": "2025-09-12T00:31:52.896Z",
+            "title": "Kling-Avatar: Grounding Multimodal Instructions for Cascaded\n  Long-Duration Avatar Animation Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent advances in audio-driven avatar video generation have significantly\nenhanced audio-visual realism. However, existing methods treat instruction\nconditioning merely as low-level tracking driven by acoustic or visual cues,\nwithout modeling the communicative purpose conveyed by the instructions. This\nlimitation compromises their narrative coherence and character expressiveness.\nTo bridge this gap, we introduce Kling-Avatar, a novel cascaded framework that\nunifies multimodal instruction understanding with photorealistic portrait\ngeneration. Our approach adopts a two-stage pipeline. In the first stage, we\ndesign a multimodal large language model (MLLM) director that produces a\nblueprint video conditioned on diverse instruction signals, thereby governing\nhigh-level semantics such as character motion and emotions. In the second\nstage, guided by blueprint keyframes, we generate multiple sub-clips in\nparallel using a first-last frame strategy. This global-to-local framework\npreserves fine-grained details while faithfully encoding the high-level intent\nbehind multimodal instructions. Our parallel architecture also enables fast and\nstable generation of long-duration videos, making it suitable for real-world\napplications such as digital human livestreaming and vlogging. To\ncomprehensively evaluate our method, we construct a benchmark of 375 curated\nsamples covering diverse instructions and challenging scenarios. Extensive\nexperiments demonstrate that Kling-Avatar is capable of generating vivid,\nfluent, long-duration videos at up to 1080p and 48 fps, achieving superior\nperformance in lip synchronization accuracy, emotion and dynamic\nexpressiveness, instruction controllability, identity preservation, and\ncross-domain generalization. These results establish Kling-Avatar as a new\nbenchmark for semantically grounded, high-fidelity audio-driven avatar\nsynthesis.",
+            "upvotes": 33,
+            "discussionId": "68c37f08fc1747b9124039dc",
+            "ai_summary": "Kling-Avatar, a cascaded framework, enhances audio-driven avatar video generation by integrating multimodal instruction understanding with photorealistic portrait generation, resulting in high-fidelity, semantically grounded videos.",
+            "ai_keywords": [
+                "multimodal large language model",
+                "blueprint video",
+                "high-level semantics",
+                "character motion",
+                "emotions",
+                "blueprint keyframes",
+                "first-last frame strategy",
+                "global-to-local framework",
+                "parallel architecture",
+                "lip synchronization accuracy",
+                "emotion and dynamic expressiveness",
+                "instruction controllability",
+                "identity preservation",
+                "cross-domain generalization"
+            ]
+        },
+        "translation_title": "Kling-Avatar: 다중 모드 명령 기반의 계단식 장기 아바타 애니메이션 합성",
+        "purpose": "다양한 명령 신호를 이해하고 포토리얼리스틱 초상화를 생성하기 위한 새로운 접근 방식 개발",
+        "method": [
+            "다중 모달 대형 언어 모델(MLLM) 디렉터를 설계하여 다양한 명령 신호에 따라 블루프린트 비디오를 생성함(we design a multimodal large language model (MLLM) director that produces a blueprint video conditioned on diverse instruction signals.)",
+            "블루프린트 키프레임에 따라 여러 서브 클립을 병렬로 생성함(we generate multiple sub-clips in parallel using a first-last frame strategy.)",
+            "375개의 다양한 명령과 도전적인 시나리오를 아우르는 벤치마크를 구축하여 방법의 효과를 종합적으로 평가함(we construct a benchmark of 375 curated samples covering diverse instructions and challenging scenarios.)"
+        ],
+        "conclusion": "Kling-Avatar는 고해상도와 48fps의 긴 지속 영상을 생성할 수 있으며, 입술 동기화 정확도와 감정 표현, 명령 제어에서 뛰어난 성능을 보임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Video Generation",
+            "Image Understanding"
+        ]
+    }
+]
