@@ -1,0 +1,469 @@
+[
+    {
+        "paper": {
+            "id": "2509.06652",
+            "authors": [
+                {
+                    "_id": "68bfe4ea207285de11b07e16",
+                    "user": {
+                        "_id": "643d0a4d8a55b2bbf4f2a90e",
+                        "avatarUrl": "/avatars/9534aaf81cbf12f015c6826b682fdb84.svg",
+                        "isPro": false,
+                        "fullname": "Xingwei Tan",
+                        "user": "XingweiT",
+                        "type": "user"
+                    },
+                    "name": "Xingwei Tan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-09T13:46:14.706Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfe4ea207285de11b07e17",
+                    "name": "Mahathi Parvatham",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfe4ea207285de11b07e18",
+                    "name": "Chiara Gambi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68bfe4ea207285de11b07e19",
+                    "name": "Gabriele Pergola",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-08T13:07:35.000Z",
+            "submittedOnDailyAt": "2025-09-15T06:47:15.805Z",
+            "title": "IntrEx: A Dataset for Modeling Engagement in Educational Conversations",
+            "submittedOnDailyBy": {
+                "_id": "643d0a4d8a55b2bbf4f2a90e",
+                "avatarUrl": "/avatars/9534aaf81cbf12f015c6826b682fdb84.svg",
+                "isPro": false,
+                "fullname": "Xingwei Tan",
+                "user": "XingweiT",
+                "type": "user"
+            },
+            "summary": "Engagement and motivation are crucial for second-language acquisition, yet\nmaintaining learner interest in educational conversations remains a challenge.\nWhile prior research has explored what makes educational texts interesting,\nstill little is known about the linguistic features that drive engagement in\nconversations. To address this gap, we introduce IntrEx, the first large\ndataset annotated for interestingness and expected interestingness in\nteacher-student interactions. Built upon the Teacher-Student Chatroom Corpus\n(TSCC), IntrEx extends prior work by incorporating sequence-level annotations,\nallowing for the study of engagement beyond isolated turns to capture how\ninterest evolves over extended dialogues. We employ a rigorous annotation\nprocess with over 100 second-language learners, using a comparison-based rating\napproach inspired by reinforcement learning from human feedback (RLHF) to\nimprove agreement. We investigate whether large language models (LLMs) can\npredict human interestingness judgments. We find that LLMs (7B/8B parameters)\nfine-tuned on interestingness ratings outperform larger proprietary models like\nGPT-4o, demonstrating the potential for specialised datasets to model\nengagement in educational settings. Finally, we analyze how linguistic and\ncognitive factors, such as concreteness, comprehensibility (readability), and\nuptake, influence engagement in educational dialogues.",
+            "upvotes": 19,
+            "discussionId": "68bfe4ea207285de11b07e1a",
+            "githubRepo": "https://github.com/Xingwei-Tan/IntrEx",
+            "ai_summary": "IntrEx, a large dataset annotated for interestingness in educational conversations, shows that fine-tuned LLMs can predict human judgments of interestingness better than larger proprietary models, highlighting the role of linguistic and cognitive factors in engagement.",
+            "ai_keywords": [
+                "large language models",
+                "fine-tuning",
+                "reinforcement learning from human feedback",
+                "RLHF",
+                "IntrEx",
+                "Teacher-Student Chatroom Corpus",
+                "TSCC",
+                "sequence-level annotations",
+                "concreteness",
+                "comprehensibility",
+                "uptake"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "IntrEx: 교육 대화에서의 참여도 모델링을 위한 데이터셋",
+        "purpose": "교육 대화에서 학습자의 관심을 유지하기 위한 언어적 특징 연구",
+        "method": [
+            "IntrEx라는 대규모 데이터셋을 처음으로 소개하고 주석을 통해 흥미로운 대화 요소를 분석함(we introduce IntrEx, the first large dataset annotated for interestingness and expected interestingness in teacher-student interactions.)",
+            "TSCC를 기반으로 하여 대화가 진행됨에 따라 흥미가 어떻게 진화하는지 연구할 수 있는 시퀀스 수준 주석을 추가함(Built upon the Teacher-Student Chatroom Corpus (TSCC), IntrEx extends prior work by incorporating sequence-level annotations.)",
+            "100명 이상의 제2외국어 학습자가 참여한 엄격한 주석 프로세스를 통해 인간 피드백 기반의 비교 평가 접근 방식을 사용하여 합의도 향상(We employ a rigorous annotation process with over 100 second-language learners, using a comparison-based rating approach inspired by reinforcement learning from human feedback (RLHF) to improve agreement.)",
+            "대형 언어 모델(LLMs)이 인간의 흥미 판단을 예측할 수 있는지 조사하고, 흥미도 평가에 대해 미세 조정된 LLMs가 더욱 뛰어난 성능을 보임(We investigate whether large language models (LLMs) can predict human interestingness judgments. We find that LLMs (7B/8B parameters) fine-tuned on interestingness ratings outperform larger proprietary models like GPT-4o.)"
+        ],
+        "conclusion": "전문 데이터셋이 교육 환경에서의 참여 모델링 잠재력을 보여주며, 언어적 및 인지적 요소들이 교육 대화에서 참여에 미치는 영향을 분석함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.09677",
+            "authors": [
+                {
+                    "_id": "68c38a6afc1747b912403a3c",
+                    "user": {
+                        "_id": "651c184bdea81981d51158dd",
+                        "avatarUrl": "/avatars/8afe17fcbd15d8ee767f24e4e8f34bbb.svg",
+                        "isPro": false,
+                        "fullname": "Akshit Sinha",
+                        "user": "viciousa3gis",
+                        "type": "user"
+                    },
+                    "name": "Akshit Sinha",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-12T16:08:01.121Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38a6afc1747b912403a3d",
+                    "user": {
+                        "_id": "62cd4dd7c5cc157be82f287a",
+                        "avatarUrl": "/avatars/eb2e819dcdb67bafecbe0db3b1302c61.svg",
+                        "isPro": false,
+                        "fullname": "Arvindh Arun",
+                        "user": "arvindh75",
+                        "type": "user"
+                    },
+                    "name": "Arvindh Arun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-12T16:07:57.509Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38a6afc1747b912403a3e",
+                    "name": "Shashwat Goel",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38a6afc1747b912403a3f",
+                    "name": "Steffen Staab",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c38a6afc1747b912403a40",
+                    "name": "Jonas Geiping",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-11T17:59:34.000Z",
+            "submittedOnDailyAt": "2025-09-15T00:05:27.675Z",
+            "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in\n  LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6506832221ac448013f94995",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6506832221ac448013f94995/sVUI1JV4Dxan5l-MqNze4.jpeg",
+                "isPro": false,
+                "fullname": "Shashwat Goel",
+                "user": "shash42",
+                "type": "user"
+            },
+            "summary": "Does continued scaling of large language models (LLMs) yield diminishing\nreturns? Real-world value often stems from the length of task an agent can\ncomplete. We start this work by observing the simple but counterintuitive fact\nthat marginal gains in single-step accuracy can compound into exponential\nimprovements in the length of a task a model can successfully complete. Then,\nwe argue that failures of LLMs when simple tasks are made longer arise from\nmistakes in execution, rather than an inability to reason. We propose isolating\nexecution capability, by explicitly providing the knowledge and plan needed to\nsolve a long-horizon task. We find that larger models can correctly execute\nsignificantly more turns even when small models have 100\\% single-turn\naccuracy. We observe that the per-step accuracy of models degrades as the\nnumber of steps increases. This is not just due to long-context limitations --\ncuriously, we observe a self-conditioning effect -- models become more likely\nto make mistakes when the context contains their errors from prior turns.\nSelf-conditioning does not reduce by just scaling the model size. In contrast,\nrecent thinking models do not self-condition, and can also execute much longer\ntasks in a single turn. We conclude by benchmarking frontier thinking models on\nthe length of task they can execute in a single turn. Overall, by focusing on\nthe ability to execute, we hope to reconcile debates on how LLMs can solve\ncomplex reasoning problems yet fail at simple tasks when made longer, and\nhighlight the massive benefits of scaling model size and sequential test-time\ncompute for long-horizon tasks.",
+            "upvotes": 17,
+            "discussionId": "68c38a6afc1747b912403a41",
+            "githubRepo": "https://github.com/long-horizon-execution/measuring-execution",
+            "ai_summary": "Scaling large language models improves their ability to execute longer tasks by isolating execution capability and mitigating self-conditioning effects, despite diminishing single-step accuracy.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "single-step accuracy",
+                "long-horizon tasks",
+                "execution capability",
+                "self-conditioning",
+                "thinking models",
+                "sequential test-time compute"
+            ],
+            "githubStars": 19
+        },
+        "translation_title": "수익률 감소의 착각: LLM에서 긴 지평 실행 측정",
+        "purpose": "LLMs의 긴 지평 실행 능력을 개선하고, 간단한 작업의 연장이 왜 실패로 이어지는지를 탐구하기 위함",
+        "method": [
+            "LLMs의 실행 능력을 고립시키기 위해 필요한 지식과 계획을 제공함(We propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task.)",
+            "모델이 올바르게 여러 단계를 실행할 수 있는지 확인하기 위해 대형 모델과 소형 모델을 비교 검토함(We find that larger models can correctly execute significantly more turns even when small models have 100% single-turn accuracy.)",
+            "모델의 단계별 정확도가 증가하는 단계 수에 따라 감소하는 현상을 관찰함(We observe that the per-step accuracy of models degrades as the number of steps increases.)"
+        ],
+        "conclusion": "LLMs의 단순한 작업에서의 실패를 실행 능력의 한계로 설명하며, 모델 크기와 순차적인 테스트 시간이 긴 지평 작업에 미치는 이점을 강조함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.08643",
+            "authors": [
+                {
+                    "_id": "68c23e6829b8ec9932cd0974",
+                    "user": {
+                        "_id": "6434f9bfdf32a2296635f88d",
+                        "avatarUrl": "/avatars/dc19ba1080b0b17a220d7e52bd514f13.svg",
+                        "isPro": false,
+                        "fullname": "Xinhao Yan",
+                        "user": "HowieYan",
+                        "type": "user"
+                    },
+                    "name": "Xinhao Yan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-12T16:13:12.403Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd0975",
+                    "name": "Jiachen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd0976",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd0977",
+                    "name": "Changfeng Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd0978",
+                    "name": "Yunhan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd0979",
+                    "name": "Chunshi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd097a",
+                    "name": "Zibo Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd097b",
+                    "name": "Zeqiang Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd097c",
+                    "name": "Yunfei Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd097d",
+                    "name": "Zhuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c23e6829b8ec9932cd097e",
+                    "name": "Chunchao Guo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-10T14:37:02.000Z",
+            "submittedOnDailyAt": "2025-09-15T04:35:09.673Z",
+            "title": "X-Part: high fidelity and structure coherent shape decomposition",
+            "submittedOnDailyBy": {
+                "_id": "6434f9bfdf32a2296635f88d",
+                "avatarUrl": "/avatars/dc19ba1080b0b17a220d7e52bd514f13.svg",
+                "isPro": false,
+                "fullname": "Xinhao Yan",
+                "user": "HowieYan",
+                "type": "user"
+            },
+            "summary": "Generating 3D shapes at part level is pivotal for downstream applications\nsuch as mesh retopology, UV mapping, and 3D printing. However, existing\npart-based generation methods often lack sufficient controllability and suffer\nfrom poor semantically meaningful decomposition. To this end, we introduce\nX-Part, a controllable generative model designed to decompose a holistic 3D\nobject into semantically meaningful and structurally coherent parts with high\ngeometric fidelity. X-Part exploits the bounding box as prompts for the part\ngeneration and injects point-wise semantic features for meaningful\ndecomposition. Furthermore, we design an editable pipeline for interactive part\ngeneration. Extensive experimental results show that X-Part achieves\nstate-of-the-art performance in part-level shape generation. This work\nestablishes a new paradigm for creating production-ready, editable, and\nstructurally sound 3D assets. Codes will be released for public research.",
+            "upvotes": 15,
+            "discussionId": "68c23e6829b8ec9932cd097f",
+            "ai_summary": "X-Part is a generative model that decomposes 3D objects into semantically meaningful parts with high fidelity, using bounding boxes and point-wise semantic features, and supports interactive editing.",
+            "ai_keywords": [
+                "generative model",
+                "part-level shape generation",
+                "bounding box",
+                "point-wise semantic features",
+                "interactive part generation"
+            ]
+        },
+        "translation_title": "X-Part: 고충실도 및 구조적 일관성을 갖춘 형태 분해",
+        "purpose": "3D 객체를 의미론적으로 유의미하고 구조적으로 일관된 부분으로 분해하는 것을 목표로 하며, 이를 통해 다양한 응용 프로그램에 활용할 수 있도록 함.",
+        "method": [
+            "X-Part라는 생성 모델을 도입하여 전체 3D 객체를 의미론적으로 유의미하고 구조적으로 일관된 부분으로 분해하도록 설계함(To this end, we introduce X-Part, a controllable generative model designed to decompose a holistic 3D object into semantically meaningful and structurally coherent parts with high geometric fidelity.)",
+            "부분 생성을 위해 바운딩 박스를 프롬프트로 활용하고, 의미 있는 분해를 위해 포인트별 의미 론적 특징을 주입함(X-Part exploits the bounding box as prompts for the part generation and injects point-wise semantic features for meaningful decomposition.)",
+            "인터랙티브한 부분 생성을 위한 편집 가능한 파이프라인을 설계함(Furthermore, we design an editable pipeline for interactive part generation.)"
+        ],
+        "conclusion": "X-Part는 3D 형태 생성에서 최첨단 성능을 달성하며, 생산 준비가 완료된 편집 가능한 구조적 3D 자산을 생성하는 새로운 패러다임을 확립함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.10441",
+            "authors": [
+                {
+                    "_id": "68c76c47ee0eed1697d6b662",
+                    "name": "Tao Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b663",
+                    "user": {
+                        "_id": "65f3f43fc9940817ca9a427b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65f3f43fc9940817ca9a427b/02NN3XjSsbgWDhjrJWtVL.jpeg",
+                        "isPro": false,
+                        "fullname": "Wanghan Xu",
+                        "user": "CoCoOne",
+                        "type": "user"
+                    },
+                    "name": "Wanghan Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-15T15:07:54.551Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b664",
+                    "name": "Junchao Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b665",
+                    "name": "Xiaoyu Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b666",
+                    "name": "Song Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b667",
+                    "name": "Luping Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c76c47ee0eed1697d6b668",
+                    "name": "Lei Bai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-12T17:48:57.000Z",
+            "submittedOnDailyAt": "2025-09-15T00:01:05.617Z",
+            "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Arbitrary resolution image generation provides a consistent visual experience\nacross devices, having extensive applications for producers and consumers.\nCurrent diffusion models increase computational demand quadratically with\nresolution, causing 4K image generation delays over 100 seconds. To solve this,\nwe explore the second generation upon the latent diffusion models, where the\nfixed latent generated by diffusion models is regarded as the content\nrepresentation and we propose to decode arbitrary resolution images with a\ncompact generated latent using a one-step generator. Thus, we present the\nInfGen, replacing the VAE decoder with the new generator, for\ngenerating images at any resolution from a fixed-size latent without retraining\nthe diffusion models, which simplifies the process, reducing computational\ncomplexity and can be applied to any model using the same latent space.\nExperiments show InfGen is capable of improving many models into the arbitrary\nhigh-resolution era while cutting 4K image generation time to under 10 seconds.",
+            "upvotes": 14,
+            "discussionId": "68c76c48ee0eed1697d6b669",
+            "ai_summary": "InfGen, a one-step generator replacing the VAE decoder, enables arbitrary high-resolution image generation from a fixed-size latent, significantly reducing computational complexity and generation time.",
+            "ai_keywords": [
+                "diffusion models",
+                "latent diffusion models",
+                "VAE decoder",
+                "one-step generator",
+                "arbitrary resolution",
+                "computational complexity",
+                "image generation time"
+            ]
+        },
+        "translation_title": "InfGen: 확장 가능한 이미지 합성을 위한 해상도 무관 패러다임",
+        "purpose": "임의의 해상도로 이미지를 생성하여 다양한 장치에서 일관된 시각적 경험을 제공하기 위한 방안 모색",
+        "method": [
+            "잠재 확산 모델의 두 번째 세대를 탐구하고, 고정된 잠재력을 콘텐츠 표현으로 간주함으로써 이미지를 생성하는 새로운 접근법 제안(we explore the second generation upon the latent diffusion models, where the fixed latent generated by diffusion models is regarded as the content representation)",
+            "하나의 단계를 통해 임의의 해상도 이미지를 디코딩하는 컴팩트한 생성 잠재력을 사용하는 제너레이터 개발(we propose to decode arbitrary resolution images with a compact generated latent using a one-step generator)",
+            "VAE 디코더를 새로운 제너레이터로 대체하여 고정 크기의 잠재력으로부터 해상도에 구애받지 않고 이미지를 생성함(we present the InfGen, replacing the VAE decoder with the new generator, for generating images at any resolution from a fixed-size latent without retraining the diffusion models)"
+        ],
+        "conclusion": "InfGen을 통해 4K 이미지 생성 시간을 10초 이하로 줄이고, 여러 모델이 임의의 고해상도 시대에 적응할 수 있도록 개선함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.09713",
+            "authors": [
+                {
+                    "_id": "68c78f3cee0eed1697d6b74b",
+                    "name": "Duolin Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b74c",
+                    "name": "Dan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b74d",
+                    "name": "Yue Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b74e",
+                    "name": "Yihan Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b74f",
+                    "name": "Zhehao Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b750",
+                    "name": "Jie Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b751",
+                    "name": "Lianzhen Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b752",
+                    "name": "Jian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b753",
+                    "name": "Peng Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c78f3cee0eed1697d6b754",
+                    "name": "Jinjie Gu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-08T06:22:38.000Z",
+            "submittedOnDailyAt": "2025-09-15T02:33:05.785Z",
+            "title": "HANRAG: Heuristic Accurate Noise-resistant Retrieval-Augmented\n  Generation for Multi-hop Question Answering",
+            "submittedOnDailyBy": {
+                "_id": "63f87b14b0ae1748524a8f50",
+                "avatarUrl": "/avatars/e6543d75d115bd34edbd80f322457b75.svg",
+                "isPro": false,
+                "fullname": "dan",
+                "user": "prayerdan",
+                "type": "user"
+            },
+            "summary": "The Retrieval-Augmented Generation (RAG) approach enhances question-answering\nsystems and dialogue generation tasks by integrating information retrieval (IR)\ntechnologies with large language models (LLMs). This strategy, which retrieves\ninformation from external knowledge bases to bolster the response capabilities\nof generative models, has achieved certain successes. However, current RAG\nmethods still face numerous challenges when dealing with multi-hop queries. For\ninstance, some approaches overly rely on iterative retrieval, wasting too many\nretrieval steps on compound queries. Additionally, using the original complex\nquery for retrieval may fail to capture content relevant to specific\nsub-queries, resulting in noisy retrieved content. If the noise is not managed,\nit can lead to the problem of noise accumulation. To address these issues, we\nintroduce HANRAG, a novel heuristic-based framework designed to efficiently\ntackle problems of varying complexity. Driven by a powerful revelator, HANRAG\nroutes queries, decomposes them into sub-queries, and filters noise from\nretrieved documents. This enhances the system's adaptability and noise\nresistance, making it highly capable of handling diverse queries. We compare\nthe proposed framework against other leading industry methods across various\nbenchmarks. The results demonstrate that our framework obtains superior\nperformance in both single-hop and multi-hop question-answering tasks.",
+            "upvotes": 12,
+            "discussionId": "68c78f3dee0eed1697d6b755",
+            "ai_summary": "HANRAG, a heuristic-based framework, improves question-answering systems by efficiently handling multi-hop queries and reducing noise through query decomposition and filtering.",
+            "ai_keywords": [
+                "Retrieval-Augmented Generation (RAG)",
+                "information retrieval (IR)",
+                "large language models (LLMs)",
+                "multi-hop queries",
+                "iterative retrieval",
+                "sub-queries",
+                "noise accumulation",
+                "heuristic-based framework",
+                "revelator",
+                "query decomposition",
+                "noise filtering"
+            ]
+        },
+        "translation_title": "HANRAG: 다중 홉 질문 응답을 위한 휴리스틱 정확도 노이즈 저항 검색 증강 생성",
+        "purpose": "다중 홉 질문에 대한 응답의 정확도를 높이기 위한 새로운 검색 증강 생성 프레임워크 개발",
+        "method": [
+            "강력한 revelator를 통해 질문을 라우팅하고 서브 질문으로 분해함(To address these issues, we introduce HANRAG, a novel heuristic-based framework designed to efficiently tackle problems of varying complexity.)",
+            "검색된 문서에서 노이즈를 필터링하여 시스템의 적응력과 노이즈 저항성을 강화함(This enhances the system's adaptability and noise resistance, making it highly capable of handling diverse queries.)",
+            "HANRAG 프레임워크를 다른 산업 표준 방법과 비교하여 다양한 벤치마크에서 성과를 검증함(We compare the proposed framework against other leading industry methods across various benchmarks.)"
+        ],
+        "conclusion": "HANRAG 프레임워크는 단일 홉 및 다중 홉 질문 응답 작업에서 우수한 성능을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
