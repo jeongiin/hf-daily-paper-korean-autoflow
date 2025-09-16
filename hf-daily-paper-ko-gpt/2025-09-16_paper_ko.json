@@ -1,0 +1,614 @@
+[
+    {
+        "paper": {
+            "id": "2509.12201",
+            "authors": [
+                {
+                    "_id": "68c8cece733e345e52ac1e82",
+                    "name": "Yang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e83",
+                    "name": "Yifan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e84",
+                    "user": {
+                        "_id": "667e81565934c9fae29207ef",
+                        "avatarUrl": "/avatars/431e777c71fccf7cf48ce013e5f6f1cb.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "ZhouTimeMachine",
+                        "type": "user"
+                    },
+                    "name": "Jianjun Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:41:56.867Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e85",
+                    "name": "Wenzheng Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e86",
+                    "name": "Haoyu Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e87",
+                    "user": {
+                        "_id": "65e7eb86c7a0617cc71d3df4",
+                        "avatarUrl": "/avatars/01020b6b5ccb08bf8aa10fd5f8b2701d.svg",
+                        "isPro": false,
+                        "fullname": "lizizun",
+                        "user": "lizizun",
+                        "type": "user"
+                    },
+                    "name": "Zizun Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:41:59.507Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e88",
+                    "name": "Kaijing Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e89",
+                    "user": {
+                        "_id": "66aba287b0f0b7411f511a47",
+                        "avatarUrl": "/avatars/1450f182c38e80066ae5ea5df4fa218f.svg",
+                        "isPro": false,
+                        "fullname": "Xinyue Li",
+                        "user": "Xxxy13",
+                        "type": "user"
+                    },
+                    "name": "Xinyue Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:42:01.933Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8a",
+                    "name": "Yating Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8b",
+                    "name": "Haoyi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8c",
+                    "user": {
+                        "_id": "652e25d2e647b0ee0a024f26",
+                        "avatarUrl": "/avatars/b5c65cf6c8d0ddc9b8ef0226e0295d56.svg",
+                        "isPro": false,
+                        "fullname": "Mingyu Liu",
+                        "user": "MingyuLiu",
+                        "type": "user"
+                    },
+                    "name": "Mingyu Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:41:53.915Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8d",
+                    "name": "Dingning Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8e",
+                    "name": "Jiange Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e8f",
+                    "name": "Zhoujie Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e90",
+                    "name": "Junyi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e91",
+                    "name": "Chunhua Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e92",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e93",
+                    "name": "Kaipeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cece733e345e52ac1e94",
+                    "name": "Tong He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-15T17:59:19.000Z",
+            "submittedOnDailyAt": "2025-09-16T01:13:36.945Z",
+            "title": "OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The field of 4D world modeling - aiming to jointly capture spatial geometry\nand temporal dynamics - has witnessed remarkable progress in recent years,\ndriven by advances in large-scale generative models and multimodal learning.\nHowever, the development of truly general 4D world models remains fundamentally\nconstrained by the availability of high-quality data. Existing datasets and\nbenchmarks often lack the dynamic complexity, multi-domain diversity, and\nspatial-temporal annotations required to support key tasks such as 4D geometric\nreconstruction, future prediction, and camera-control video generation. To\naddress this gap, we introduce OmniWorld, a large-scale, multi-domain,\nmulti-modal dataset specifically designed for 4D world modeling. OmniWorld\nconsists of a newly collected OmniWorld-Game dataset and several curated public\ndatasets spanning diverse domains. Compared with existing synthetic datasets,\nOmniWorld-Game provides richer modality coverage, larger scale, and more\nrealistic dynamic interactions. Based on this dataset, we establish a\nchallenging benchmark that exposes the limitations of current state-of-the-art\n(SOTA) approaches in modeling complex 4D environments. Moreover, fine-tuning\nexisting SOTA methods on OmniWorld leads to significant performance gains\nacross 4D reconstruction and video generation tasks, strongly validating\nOmniWorld as a powerful resource for training and evaluation. We envision\nOmniWorld as a catalyst for accelerating the development of general-purpose 4D\nworld models, ultimately advancing machines' holistic understanding of the\nphysical world.",
+            "upvotes": 70,
+            "discussionId": "68c8cece733e345e52ac1e95",
+            "projectPage": "https://yangzhou24.github.io/OmniWorld/",
+            "githubRepo": "https://github.com/yangzhou24/OmniWorld",
+            "ai_summary": "OmniWorld, a large-scale, multi-domain, multi-modal dataset, addresses the limitations of existing 4D world modeling datasets and benchmarks, enabling significant performance improvements in 4D reconstruction and video generation.",
+            "ai_keywords": [
+                "4D world modeling",
+                "spatial geometry",
+                "temporal dynamics",
+                "large-scale generative models",
+                "multimodal learning",
+                "OmniWorld",
+                "OmniWorld-Game",
+                "4D geometric reconstruction",
+                "future prediction",
+                "camera-control video generation",
+                "state-of-the-art (SOTA)"
+            ],
+            "githubStars": 148
+        },
+        "translation_title": "OmniWorld: 4D 세계 모델링을 위한 다중 도메인 및 다중 모달 데이터셋",
+        "purpose": "4D 세계 모델링을 위한 고품질 데이터 수집 및 복잡한 동적 데이터를 지원하기 위한 데이터셋 개발",
+        "method": [
+            "4D 세계 모델링을 위해 설계된 대규모 데이터셋인 OmniWorld를 소개함(To address this gap, we introduce OmniWorld, a large-scale, multi-domain, multi-modal dataset specifically designed for 4D world modeling.)",
+            "OmniWorld-Game이라는 새로운 데이터셋과 여러 공개 데이터셋을 포함하여 다양한 도메인을 포괄함(OmniWorld consists of a newly collected OmniWorld-Game dataset and several curated public datasets spanning diverse domains.)",
+            "OmniWorld 데이터셋에 기반하여 현재 SOTA 접근 방식의 한계를 드러내는 벤치마크를 설정함(Based on this dataset, we establish a challenging benchmark that exposes the limitations of current state-of-the-art (SOTA) approaches in modeling complex 4D environments.)"
+        ],
+        "conclusion": "OmniWorld는 4D 세계 모델링의 발전을 가속화할 수 있는 강력한 자원으로, 기계의 물리적 세계에 대한 포괄적인 이해를 향상시킬 수 있음.",
+        "keywords": [
+            "Multimodal Learning",
+            "4D World Modeling",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.11543",
+            "authors": [
+                {
+                    "_id": "68c8c9b3733e345e52ac1e66",
+                    "user": {
+                        "_id": "676127cf11b19ea602bb202a",
+                        "avatarUrl": "/avatars/dfd802a24bd63e509728159ebb1769f6.svg",
+                        "isPro": false,
+                        "fullname": "Zhengxi Lu",
+                        "user": "LZXzju",
+                        "type": "user"
+                    },
+                    "name": "Zhengxi Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:42:11.100Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e67",
+                    "user": {
+                        "_id": "63cd1e04ff7cd335f0ddfa66",
+                        "avatarUrl": "/avatars/8cca4ed96c699f53d4daabff0f6d6b56.svg",
+                        "isPro": false,
+                        "fullname": "Jiabo Ye",
+                        "user": "Mizukiluke",
+                        "type": "user"
+                    },
+                    "name": "Jiabo Ye",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:42:37.393Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e68",
+                    "name": "Fei Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e69",
+                    "name": "Yongliang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6a",
+                    "user": {
+                        "_id": "645b10e80c73ea27d13f7aca",
+                        "avatarUrl": "/avatars/95e565306472a15067440b5b43e07a6f.svg",
+                        "isPro": false,
+                        "fullname": "xuhaiyang",
+                        "user": "xhyandwyy",
+                        "type": "user"
+                    },
+                    "name": "Haiyang Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:42:34.060Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6b",
+                    "name": "Ziwei Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6c",
+                    "name": "Weiming Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6d",
+                    "name": "Ming Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6e",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e6f",
+                    "name": "Jun Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8c9b3733e345e52ac1e70",
+                    "name": "Yueting Zhuang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/645b10e80c73ea27d13f7aca/Im2ESDVPPQMlHP6L5owuo.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/645b10e80c73ea27d13f7aca/NchaoNZMIP1fSvmDtQ95e.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/645b10e80c73ea27d13f7aca/_A1UZfDw0U9K7cycraLFv.png"
+            ],
+            "publishedAt": "2025-09-15T03:24:08.000Z",
+            "submittedOnDailyAt": "2025-09-16T00:55:54.867Z",
+            "title": "UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "645b10e80c73ea27d13f7aca",
+                "avatarUrl": "/avatars/95e565306472a15067440b5b43e07a6f.svg",
+                "isPro": false,
+                "fullname": "xuhaiyang",
+                "user": "xhyandwyy",
+                "type": "user"
+            },
+            "summary": "Graphical User Interface (GUI) agents have demonstrated remarkable progress\nin automating complex user interface interactions through reinforcement\nlearning. However, current approaches face a fundamental dilemma: offline RL\nenables stable training on pre-collected trajectories, but struggles with\nmulti-step task execution for lack of trajectory-level reward signals; online\nRL captures these signals through environment interaction, but suffers from\nsparse rewards and prohibitive deployment costs. To address it, we present\nSemi-online Reinforcement Learning, a novel paradigm that simulates online RL\non offline trajectories. During each rollout process, we preserve the original\nmodel output within the multi-turn dialogue, where a Patch Module adaptively\nrecovers the divergence between rollout and expert trajectories. To capture\nlong-term training signals, Semi-online RL introduces discounted future returns\ninto the reward computation and optimizes the policy with weighted step-level\nand episode-level advantages. We further introduce Semi-Online Performance\n(SOP), a metric that aligns better with true online performance, serving as a\npractical and effective proxy for real-world evaluation. Experiments show that\nours Semi-online RL achieves SOTA performance among 7B models across four\ndynamic benchmarks, with significant gains over the base model (e.g., +12.0% on\nAndroidWorld, +23.8% on AITW), demonstrating significant progress in bridging\nthe gap between offline training efficiency and online multi-turn reasoning.\nThe code is available at https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1.",
+            "upvotes": 33,
+            "discussionId": "68c8c9b4733e345e52ac1e71",
+            "githubRepo": "https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1",
+            "ai_summary": "Semi-online Reinforcement Learning addresses the limitations of offline and online RL by simulating online RL on offline trajectories, achieving state-of-the-art performance in dynamic benchmarks.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "offline RL",
+                "online RL",
+                "multi-step task execution",
+                "trajectory-level reward signals",
+                "sparse rewards",
+                "deployment costs",
+                "Patch Module",
+                "discounted future returns",
+                "step-level advantages",
+                "episode-level advantages",
+                "Semi-Online Performance (SOP)",
+                "dynamic benchmarks",
+                "AndroidWorld",
+                "AITW"
+            ],
+            "githubStars": 5640
+        },
+        "translation_title": "UI-S1: 준온라인 강화 학습을 통한 GUI 자동화 발전",
+        "purpose": "오프라인 강화 학습의 안정성과 온라인 강화 학습의 적시성을 모두 활용하여 GUI 자동화를 개선하기 위한 연구",
+        "method": [
+            "Semi-online Reinforcement Learning이라는 새로운 패러다임을 제안하여 오프라인 궤적에서 온라인 RL을 시뮬레이션함(To address it, we present Semi-online Reinforcement Learning, a novel paradigm that simulates online RL on offline trajectories.)",
+            "멀티 턴 대화동안 원래 모델 출력을 보존하고, Patch Module을 사용해 롤아웃과 전문가 궤적 간의 차이를 회복함(During each rollout process, we preserve the original model output within the multi-turn dialogue, where a Patch Module adaptively recovers the divergence between rollout and expert trajectories.)",
+            "보상 계산에 할인된 미래 수익을 도입하고 정책을 weighted step-level 및 episode-level에서 최적화함(Semi-online RL introduces discounted future returns into the reward computation and optimizes the policy with weighted step-level and episode-level advantages.)"
+        ],
+        "conclusion": "Semi-online RL은 7B 모델 중에서 SOTA 성능을 달성하였으며, 오프라인 학습의 효율성과 온라인 멀티 턴 추론 간의 간극을 해소하는 데 큰 진전을 보였음.",
+        "keywords": [
+            "Reinforcement Learning",
+            "GUI Automation",
+            "Performance Evaluation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.10813",
+            "authors": [
+                {
+                    "_id": "68c8d095733e345e52ac1e97",
+                    "name": "Weipeng Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e98",
+                    "name": "Peizhou Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e99",
+                    "name": "Yichen Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9a",
+                    "name": "Li Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9b",
+                    "name": "Wenzhe Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9c",
+                    "name": "Jingli Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9d",
+                    "name": "Hanqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9e",
+                    "name": "Zhaoyang Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1e9f",
+                    "name": "Tai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1ea0",
+                    "name": "Bo Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1ea1",
+                    "name": "Xudong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8d095733e345e52ac1ea2",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-13T14:25:17.000Z",
+            "submittedOnDailyAt": "2025-09-16T01:21:15.577Z",
+            "title": "InternScenes: A Large-scale Simulatable Indoor Scene Dataset with\n  Realistic Layouts",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The advancement of Embodied AI heavily relies on large-scale, simulatable 3D\nscene datasets characterized by scene diversity and realistic layouts. However,\nexisting datasets typically suffer from limitations in data scale or diversity,\nsanitized layouts lacking small items, and severe object collisions. To address\nthese shortcomings, we introduce InternScenes, a novel large-scale\nsimulatable indoor scene dataset comprising approximately 40,000 diverse scenes\nby integrating three disparate scene sources, real-world scans, procedurally\ngenerated scenes, and designer-created scenes, including 1.96M 3D objects and\ncovering 15 common scene types and 288 object classes. We particularly preserve\nmassive small items in the scenes, resulting in realistic and complex layouts\nwith an average of 41.5 objects per region. Our comprehensive data processing\npipeline ensures simulatability by creating real-to-sim replicas for real-world\nscans, enhances interactivity by incorporating interactive objects into these\nscenes, and resolves object collisions by physical simulations. We demonstrate\nthe value of InternScenes with two benchmark applications: scene layout\ngeneration and point-goal navigation. Both show the new challenges posed by the\ncomplex and realistic layouts. More importantly, InternScenes paves the way for\nscaling up the model training for both tasks, making the generation and\nnavigation in such complex scenes possible. We commit to open-sourcing the\ndata, models, and benchmarks to benefit the whole community.",
+            "upvotes": 21,
+            "discussionId": "68c8d095733e345e52ac1ea3",
+            "projectPage": "https://marjordcpz.github.io/InternScenes.github.io/",
+            "githubRepo": "https://github.com/InternRobotics/InternScenes",
+            "ai_summary": "InternScenes is a large-scale, diverse, and realistic indoor scene dataset that addresses limitations in existing datasets, enabling better scene layout generation and point-goal navigation.",
+            "ai_keywords": [
+                "Embodied AI",
+                "3D scene datasets",
+                "scene diversity",
+                "realistic layouts",
+                "real-world scans",
+                "procedurally generated scenes",
+                "designer-created scenes",
+                "3D objects",
+                "scene types",
+                "object classes",
+                "small items",
+                "real-to-sim replicas",
+                "interactive objects",
+                "physical simulations",
+                "scene layout generation",
+                "point-goal navigation"
+            ],
+            "githubStars": 120
+        },
+        "translation_title": "InternScenes: 현실적인 레이아웃을 가진 대규모 시뮬레이션 가능한 실내 장면 데이터 세트",
+        "purpose": "Embodied AI 연구를 위해 다양한 시뮬레이션 가능한 3D 장면 데이터 세트의 필요성을 해결하기 위한 데이터 세트 개발",
+        "method": [
+            "3개의 서로 다른 장면 소스(실제 스캔, 절차적으로 생성된 장면, 디자이너가 만든 장면)를 통합하여 약 40,000개의 다양한 장면을 포함하는 데이터 세트를 생성함(we introduce InternScenes, a novel large-scale simulatable indoor scene dataset comprising approximately 40,000 diverse scenes by integrating three disparate scene sources)",
+            "장면에 작은 물체를 많이 포함시켜 평균 41.5개의 물체가 있는 복잡한 레이아웃을 보존함(we particularly preserve massive small items in the scenes, resulting in realistic and complex layouts with an average of 41.5 objects per region)",
+            "실제 스캔에 대한 현실적인 시뮬레이션 복제를 생성하고, 상호 작용이 가능한 물체를 포함하는 데이터 처리 파이프라인을 구축함(Our comprehensive data processing pipeline ensures simulatability by creating real-to-sim replicas for real-world scans, enhances interactivity by incorporating interactive objects into these scenes)"
+        ],
+        "conclusion": "InternScenes는 복잡하고 현실적인 레이아웃에서 생성 및 탐색의 가능성을 열어주며, 데이터와 모델, 벤치마크를 오픈 소스화하여 커뮤니티에 기여할 것입니다.",
+        "keywords": [
+            "3D Vision",
+            "Robotics",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.10708",
+            "authors": [
+                {
+                    "_id": "68c8f911733e345e52ac1f20",
+                    "user": {
+                        "_id": "654a90ab55ecd2d37ac99965",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/654a90ab55ecd2d37ac99965/8lmXmiY0feZ9ORbkMrjJm.jpeg",
+                        "isPro": false,
+                        "fullname": "Iman Barati",
+                        "user": "Iman998",
+                        "type": "user"
+                    },
+                    "name": "Iman Barati",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:41:39.161Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8f911733e345e52ac1f21",
+                    "name": "Mostafa Amiri",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8f911733e345e52ac1f22",
+                    "name": "Heshaam Faili",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-12T21:50:39.000Z",
+            "submittedOnDailyAt": "2025-09-16T11:14:39.321Z",
+            "title": "SearchInstruct: Enhancing Domain Adaptation via Retrieval-Based\n  Instruction Dataset Creation",
+            "submittedOnDailyBy": {
+                "_id": "654a90ab55ecd2d37ac99965",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/654a90ab55ecd2d37ac99965/8lmXmiY0feZ9ORbkMrjJm.jpeg",
+                "isPro": false,
+                "fullname": "Iman Barati",
+                "user": "Iman998",
+                "type": "user"
+            },
+            "summary": "Supervised Fine-Tuning (SFT) is essential for training large language models\n(LLMs), significantly enhancing critical capabilities such as instruction\nfollowing and in-context learning. Nevertheless, creating suitable training\ndatasets tailored for specific domains remains challenging due to unique domain\nconstraints and data scarcity. In this paper, we propose SearchInstruct, an\ninnovative method explicitly designed to construct high quality instruction\ndatasets for SFT. Our approach begins with a limited set of domain specific,\nhuman generated questions, which are systematically expanded using a large\nlanguage model. Subsequently, domain relevant resources are dynamically\nretrieved to generate accurate and contextually appropriate answers for each\naugmented question. Experimental evaluation demonstrates that SearchInstruct\nenhances both the diversity and quality of SFT datasets, leading to measurable\nimprovements in LLM performance within specialized domains. Additionally, we\nshow that beyond dataset generation, the proposed method can also effectively\nfacilitate tasks such as model editing, enabling efficient updates to existing\nmodels. To facilitate reproducibility and community adoption, we provide full\nimplementation details, the complete set of generated instruction response\npairs, and the source code in a publicly accessible Git repository:\n[https://github.com/mostafaamiri/SearchInstruct](https://github.com/mostafaamiri/SearchInstruct)",
+            "upvotes": 9,
+            "discussionId": "68c8f911733e345e52ac1f23",
+            "githubRepo": "https://github.com/mostafaamiri/SearchInstruct",
+            "ai_summary": "SearchInstruct enhances supervised fine-tuning datasets for large language models by expanding domain-specific questions and retrieving accurate answers, improving model performance and enabling efficient model editing.",
+            "ai_keywords": [
+                "supervised fine-tuning",
+                "large language models",
+                "instruction datasets",
+                "domain-specific",
+                "human-generated questions",
+                "large language model",
+                "domain relevant resources",
+                "instruction response pairs",
+                "model editing"
+            ],
+            "githubStars": 2
+        },
+        "translation_title": "SearchInstruct: 검색 기반의 지침 데이터셋 생성을 통한 도메인 적응 향상",
+        "purpose": "특정 도메인에 적합한 훈련 데이터셋을 생성하여 대형 언어 모델(LLMs)의 성능을 향상시키기 위한 연구",
+        "method": [
+            "도메인 특정의 제한된 질문 세트부터 시작하여 대형 언어 모델을 활용해 체계적으로 질문을 확장함(Our approach begins with a limited set of domain specific, human generated questions, which are systematically expanded using a large language model.)",
+            "각 보강된 질문에 대한 정확하고 맥락에 적합한 답변을 생성하기 위해 도메인 관련 자료를 동적으로 검색함( Subsequently, domain relevant resources are dynamically retrieved to generate accurate and contextually appropriate answers for each augmented question.)",
+            "실험 평가를 통해 SearchInstruct가 SFT 데이터셋의 다양성과 품질을 모두 향상시킴을 입증함(Experimental evaluation demonstrates that SearchInstruct enhances both the diversity and quality of SFT datasets.)"
+        ],
+        "conclusion": "SearchInstruct는 전문화된 도메인에서 LLM 성능을 개선하며, 모델 편집과 같은 작업을 쉽게 할 수 있도록 도와줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Domain Adaptation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.12203",
+            "authors": [
+                {
+                    "_id": "68c8cea2733e345e52ac1e79",
+                    "name": "Zixin Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7a",
+                    "name": "Xili Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7b",
+                    "user": {
+                        "_id": "64ae9b88a22a179fc4d07992",
+                        "avatarUrl": "/avatars/c9065f04a1188ea3129e56a90328ffd3.svg",
+                        "isPro": false,
+                        "fullname": "wang",
+                        "user": "dorni",
+                        "type": "user"
+                    },
+                    "name": "Duomin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-16T09:42:04.461Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7c",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7d",
+                    "name": "Lionel M. Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7e",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68c8cea2733e345e52ac1e7f",
+                    "name": "Heung-Yeung Shum",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-15T17:59:47.000Z",
+            "submittedOnDailyAt": "2025-09-16T01:13:01.794Z",
+            "title": "LazyDrag: Enabling Stable Drag-Based Editing on Multi-Modal Diffusion\n  Transformers via Explicit Correspondence",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The reliance on implicit point matching via attention has become a core\nbottleneck in drag-based editing, resulting in a fundamental compromise on\nweakened inversion strength and costly test-time optimization (TTO). This\ncompromise severely limits the generative capabilities of diffusion models,\nsuppressing high-fidelity inpainting and text-guided creation. In this paper,\nwe introduce LazyDrag, the first drag-based image editing method for\nMulti-Modal Diffusion Transformers, which directly eliminates the reliance on\nimplicit point matching. In concrete terms, our method generates an explicit\ncorrespondence map from user drag inputs as a reliable reference to boost the\nattention control. This reliable reference opens the potential for a stable\nfull-strength inversion process, which is the first in the drag-based editing\ntask. It obviates the necessity for TTO and unlocks the generative capability\nof models. Therefore, LazyDrag naturally unifies precise geometric control with\ntext guidance, enabling complex edits that were previously out of reach:\nopening the mouth of a dog and inpainting its interior, generating new objects\nlike a ``tennis ball'', or for ambiguous drags, making context-aware changes\nlike moving a hand into a pocket. Additionally, LazyDrag supports multi-round\nworkflows with simultaneous move and scale operations. Evaluated on the\nDragBench, our method outperforms baselines in drag accuracy and perceptual\nquality, as validated by VIEScore and human evaluation. LazyDrag not only\nestablishes new state-of-the-art performance, but also paves a new way to\nediting paradigms.",
+            "upvotes": 8,
+            "discussionId": "68c8cea2733e345e52ac1e80",
+            "projectPage": "https://zxyin.github.io/LazyDrag",
+            "ai_summary": "LazyDrag, a drag-based image editing method for Multi-Modal Diffusion Transformers, eliminates implicit point matching, enabling precise geometric control and text guidance without test-time optimization.",
+            "ai_keywords": [
+                "attention",
+                "drag-based editing",
+                "Multi-Modal Diffusion Transformers",
+                "explicit correspondence map",
+                "full-strength inversion",
+                "test-time optimization",
+                "high-fidelity inpainting",
+                "text-guided creation",
+                "DragBench",
+                "VIEScore"
+            ]
+        },
+        "translation_title": "LazyDrag: 명시적 대응을 통한 멀티모달 디퓨전 트랜스포머에서 안정적인 드래그 기반 편집 가능화",
+        "purpose": "드래그 기반 편집의 한계를 극복하고 멀티모달 디퓨전 트랜스포머의 생성 능력을 증대시키기 위한 방법 제안",
+        "method": [
+            "사용자 드래그 입력에서 명시적 대응 맵을 생성하여 주의 제어를 강화함(The method generates an explicit correspondence map from user drag inputs as a reliable reference to boost the attention control.)",
+            "TTO 없이 안정적인 전체 강도 반전 과정을 구현함(We achieve a stable full-strength inversion process without the necessity for TTO.)",
+            "DragBench에서 드래그 정확성과 지각 품질에서 기존 방법들을 초월함(Evaluated on the DragBench, our method outperforms baselines in drag accuracy and perceptual quality.)"
+        ],
+        "conclusion": "LazyDrag는 최신 성능을 세우며, 복잡한 편집 작업을 가능하게 하고 새로운 편집 패러다임을 제시함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Computer Vision"
+        ]
+    }
+]
