@@ -1,0 +1,560 @@
+[
+    {
+        "paper": {
+            "id": "2509.14008",
+            "authors": [
+                {
+                    "_id": "68cbb58d5a7803ff3be42ecc",
+                    "name": "Hasan Abed Al Kader Hammoud",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbb58d5a7803ff3be42ecd",
+                    "user": {
+                        "_id": "665ee96b9f29909d03abfa37",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/665ee96b9f29909d03abfa37/ipctrsDzM-3_s8GTzWsd2.png",
+                        "isPro": false,
+                        "fullname": "Mohammad Zbeeb",
+                        "user": "zbeeb",
+                        "type": "user"
+                    },
+                    "name": "Mohammad Zbeeb",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:25:47.410Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbb58d5a7803ff3be42ece",
+                    "name": "Bernard Ghanem",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-17T14:19:28.000Z",
+            "submittedOnDailyAt": "2025-09-18T06:07:38.010Z",
+            "title": "Hala Technical Report: Building Arabic-Centric Instruction & Translation\n  Models at Scale",
+            "submittedOnDailyBy": {
+                "_id": "642b51385bf2355d02a23d15",
+                "avatarUrl": "/avatars/87985347643b2647555f2453fa4d94fb.svg",
+                "isPro": true,
+                "fullname": "Hasan Abed Al Kader Hammoud",
+                "user": "hammh0a",
+                "type": "user"
+            },
+            "summary": "We present Hala, a family of Arabic-centric instruction and translation\nmodels built with our translate-and-tune pipeline. We first compress a strong\nARleftrightarrowEN teacher to FP8 (yielding sim2times higher\nthroughput with no quality loss) and use it to create high-fidelity bilingual\nsupervision. A lightweight language model LFM2-1.2B is then fine-tuned on this\ndata and used to translate high-quality English instruction sets into Arabic,\nproducing a million-scale corpus tailored to instruction following. We train\nHala models at 350M, 700M, 1.2B, and 9B parameters, and apply slerp merging to\nbalance Arabic specialization with base-model strengths. On Arabic-centric\nbenchmarks, Hala achieves state-of-the-art results within both the \"nano\"\n(leq2B) and \"small\" (7-9B) categories, outperforming their bases. We release\nmodels, data, evaluation, and recipes to accelerate research in Arabic NLP.",
+            "upvotes": 52,
+            "discussionId": "68cbb58d5a7803ff3be42ecf",
+            "ai_summary": "Hala, a family of Arabic-centric instruction and translation models, achieves state-of-the-art results using a translate-and-tune pipeline, slerp merging, and fine-tuning on high-quality bilingual supervision.",
+            "ai_keywords": [
+                "translate-and-tune pipeline",
+                "FP8",
+                "bilingual supervision",
+                "lightweight language model",
+                "fine-tuning",
+                "slerp merging",
+                "Arabic-centric benchmarks",
+                "nano category",
+                "small category"
+            ]
+        },
+        "translation_title": "Hala 기술 보고서: 아랍어 중심의 교육 및 번역 모델 구축",
+        "purpose": "아랍어 교육 및 번역을 위한 대규모 모델을 개발하여 아랍어 자연어 처리(NLP) 연구를 촉진하기 위함",
+        "method": [
+            "강력한 ARleftrightarrowEN 모델을 FP8로 압축하여 품질 손실 없이 처리량을 두 배로 증가시킴(We first compress a strong ARleftrightarrowEN teacher to FP8 yielding sim2times higher throughput with no quality loss)",
+            "압축된 모델을 사용하여 고충실도의 이중 언어 감독 데이터를 생성하고, 이를 기반으로 경량 언어 모델 LFM2-1.2B를 미세 조정함(A lightweight language model LFM2-1.2B is then fine-tuned on this data and used to translate high-quality English instruction sets into Arabic)",
+            "Hala 모델을 350M, 700M, 1.2B, 9B 파라미터로 훈련하고, slerp 병합을 적용하여 아랍어 전문성과 기본 모델의 강점을 조절함(We train Hala models at 350M, 700M, 1.2B, and 9B parameters, and apply slerp merging to balance Arabic specialization with base-model strengths)"
+        ],
+        "conclusion": "Hala 모델은 아랍어 중심의 벤치마크에서 최신 기술을 달성하고, 연구를 가속화하기 위해 모델, 데이터, 평가 및 레시피를 공개함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.14033",
+            "authors": [
+                {
+                    "_id": "68cb69b55a7803ff3be42dcd",
+                    "name": "Weijie Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dce",
+                    "name": "Yongjie Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dcf",
+                    "user": {
+                        "_id": "6491b1b2c1741666238f8a0f",
+                        "avatarUrl": "/avatars/9246c9ef06d80bd8628426375c95d4be.svg",
+                        "isPro": false,
+                        "fullname": "JackShu",
+                        "user": "Shuhuhuhu",
+                        "type": "user"
+                    },
+                    "name": "Fangxun Shu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:26:50.598Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd0",
+                    "name": "Yue Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd1",
+                    "name": "Zijian Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd2",
+                    "name": "Hongyuan Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd3",
+                    "user": {
+                        "_id": "64a02fbafab664ac3186f1fd",
+                        "avatarUrl": "/avatars/ccda4d04490d5b456a51d523917e227a.svg",
+                        "isPro": false,
+                        "fullname": "Haiyang Yu",
+                        "user": "hyyu20",
+                        "type": "user"
+                    },
+                    "name": "Haiyang Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:26:48.039Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd4",
+                    "name": "Dingkang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd5",
+                    "user": {
+                        "_id": "64d201b1c2bd235422fb1d14",
+                        "avatarUrl": "/avatars/e50581aa66391cedae94e116e759b9ec.svg",
+                        "isPro": false,
+                        "fullname": "wang",
+                        "user": "stormthunder",
+                        "type": "user"
+                    },
+                    "name": "Jiacong Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:26:53.059Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd6",
+                    "name": "Han Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd7",
+                    "name": "Wenzhuo Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd8",
+                    "name": "Xiao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dd9",
+                    "name": "Shuicheng Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb69b55a7803ff3be42dda",
+                    "name": "Chao Feng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-17T14:34:02.000Z",
+            "submittedOnDailyAt": "2025-09-18T00:39:01.459Z",
+            "title": "SAIL-VL2 Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce SAIL-VL2, an open-suite vision-language foundation model (LVM)\nfor comprehensive multimodal understanding and reasoning. As the successor to\nSAIL-VL, SAIL-VL2 achieves state-of-the-art performance at the 2B and 8B\nparameter scales across diverse image and video benchmarks, demonstrating\nstrong capabilities from fine-grained perception to complex reasoning. Three\ncore innovations drive its effectiveness. First, a large-scale data curation\npipeline with scoring and filtering strategies enhances both quality and\ndistribution across captioning, OCR, QA, and video data, improving training\nefficiency. Second, a progressive training framework begins with a powerful\npre-trained vision encoder (SAIL-ViT), advances through multimodal\npre-training, and culminates in a thinking-fusion SFT-RL hybrid paradigm that\nsystematically strengthens model capabilities. Third, architectural advances\nextend beyond dense LLMs to efficient sparse Mixture-of-Experts (MoE) designs.\nWith these contributions, SAIL-VL2 demonstrates competitive performance across\n106 datasets and achieves state-of-the-art results on challenging reasoning\nbenchmarks such as MMMU and MathVista. Furthermore, on the OpenCompass\nleaderboard, SAIL-VL2-2B ranks first among officially released open-source\nmodels under the 4B parameter scale, while serving as an efficient and\nextensible foundation for the open-source multimodal community.",
+            "upvotes": 26,
+            "discussionId": "68cb69b55a7803ff3be42ddb",
+            "ai_summary": "SAIL-VL2, a vision-language foundation model, achieves state-of-the-art performance across diverse benchmarks through data curation, progressive training, and sparse MoE architecture.",
+            "ai_keywords": [
+                "vision-language foundation model",
+                "SAIL-VL2",
+                "SAIL-VL",
+                "parameter scales",
+                "image and video benchmarks",
+                "fine-grained perception",
+                "complex reasoning",
+                "large-scale data curation",
+                "scoring and filtering strategies",
+                "training efficiency",
+                "progressive training framework",
+                "powerful pre-trained vision encoder",
+                "SAIL-ViT",
+                "multimodal pre-training",
+                "thinking-fusion SFT-RL hybrid paradigm",
+                "dense LLMs",
+                "efficient sparse Mixture-of-Experts",
+                "MoE designs",
+                "challenging reasoning benchmarks",
+                "MMMU",
+                "MathVista",
+                "OpenCompass leaderboard"
+            ]
+        },
+        "translation_title": "SAIL-VL2 기술 보고서",
+        "purpose": "포괄적인 멀티모달 이해와 추론을 위한 비전-언어 기반 모델 개발",
+        "method": [
+            "대규모 데이터 관리 파이프라인을 통해 캡셔닝, OCR, QA, 비디오 데이터의 품질과 분포를 개선하다(First, a large-scale data curation pipeline with scoring and filtering strategies enhances both quality and distribution across captioning, OCR, QA, and video data, improving training efficiency.)",
+            "강력한 사전 훈련된 비전 인코더(SAIL-ViT)로 시작하여 멀티모달 사전 훈련을 거치고, 마지막으로 사고 융합 SFT-RL 하이브리드 패러다임으로 모델 기능을 강화하다(Second, a progressive training framework begins with a powerful pre-trained vision encoder (SAIL-ViT), advances through multimodal pre-training, and culminates in a thinking-fusion SFT-RL hybrid paradigm that systematically strengthens model capabilities.)",
+            "효율적인 희소 Mixture-of-Experts (MoE) 설계로 아키텍처 향상(Third, architectural advances extend beyond dense LLMs to efficient sparse Mixture-of-Experts (MoE) designs.)"
+        ],
+        "conclusion": "SAIL-VL2는 106개 데이터 세트에서 경쟁력 있는 성능을 보이며, MMMU와 MathVista와 같은 어려운 추론 벤치마크에서 최첨단 결과를 달성하였다.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.12989",
+            "authors": [
+                {
+                    "_id": "68cbc9354d15e6fae7acb379",
+                    "name": "Xu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37a",
+                    "name": "Chenfei Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37b",
+                    "name": "Ziqiao Weng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37c",
+                    "name": "Kaiyu Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37d",
+                    "name": "Zihao Dongfang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37e",
+                    "name": "Haocong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb37f",
+                    "name": "Yuanhuiyi Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb380",
+                    "user": {
+                        "_id": "65d61d8fd484956b5acc89fe",
+                        "avatarUrl": "/avatars/47954232c90780ffe898a5a445f7fb0a.svg",
+                        "isPro": false,
+                        "fullname": "Lutao Jiang",
+                        "user": "LutaoJiang",
+                        "type": "user"
+                    },
+                    "name": "Lutao Jiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:25:42.443Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb381",
+                    "name": "Lu Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb382",
+                    "name": "Li Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb383",
+                    "name": "Danda Pani Paudel",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb384",
+                    "name": "Kailun Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb385",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb386",
+                    "name": "Luc Van Gool",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cbc9354d15e6fae7acb387",
+                    "name": "Xuming Hu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-16T11:54:37.000Z",
+            "submittedOnDailyAt": "2025-09-18T07:28:34.074Z",
+            "title": "PANORAMA: The Rise of Omnidirectional Vision in the Embodied AI Era",
+            "submittedOnDailyBy": {
+                "_id": "6806464ed918f6d2fee2bc8b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6806464ed918f6d2fee2bc8b/rgpG2oO0m6PT0KltCF_Wf.jpeg",
+                "isPro": false,
+                "fullname": "Chenfei Liao",
+                "user": "Chenfei-Liao",
+                "type": "user"
+            },
+            "summary": "Omnidirectional vision, using 360-degree vision to understand the\nenvironment, has become increasingly critical across domains like robotics,\nindustrial inspection, and environmental monitoring. Compared to traditional\npinhole vision, omnidirectional vision provides holistic environmental\nawareness, significantly enhancing the completeness of scene perception and the\nreliability of decision-making. However, foundational research in this area has\nhistorically lagged behind traditional pinhole vision. This talk presents an\nemerging trend in the embodied AI era: the rapid development of omnidirectional\nvision, driven by growing industrial demand and academic interest. We highlight\nrecent breakthroughs in omnidirectional generation, omnidirectional perception,\nomnidirectional understanding, and related datasets. Drawing on insights from\nboth academia and industry, we propose an ideal panoramic system architecture\nin the embodied AI era, PANORAMA, which consists of four key subsystems.\nMoreover, we offer in-depth opinions related to emerging trends and\ncross-community impacts at the intersection of panoramic vision and embodied\nAI, along with the future roadmap and open challenges. This overview\nsynthesizes state-of-the-art advancements and outlines challenges and\nopportunities for future research in building robust, general-purpose\nomnidirectional AI systems in the embodied AI era.",
+            "upvotes": 20,
+            "discussionId": "68cbc9364d15e6fae7acb388",
+            "ai_summary": "Recent advancements in omnidirectional vision, driven by industrial and academic interest, have led to breakthroughs in generation, perception, and understanding, with the proposal of a new system architecture called PANORAMA.",
+            "ai_keywords": [
+                "omnidirectional vision",
+                "360-degree vision",
+                "pinhole vision",
+                "omnidirectional generation",
+                "omnidirectional perception",
+                "omnidirectional understanding",
+                "panoramic system architecture",
+                "PANORAMA",
+                "embodied AI"
+            ]
+        },
+        "translation_title": "PANORAMA: 구체적 AI 시대의 전 방향 시각의 부상",
+        "purpose": "전 방향 시각 기술의 발전을 통해 로봇 및 환경 모니터링 분야에서의 환경 인식을 향상시키기 위한 연구",
+        "method": [
+            "구체적 AI 시대의 전 방향 시각의 발전 추세를 제시하고, 이 기술의 산업 수요와 학술적 관심이 증가하고 있음을 강조함(we propose an ideal panoramic system architecture in the embodied AI era)",
+            "전 방향 생성, 인식 및 이해와 관련된 최근 breakthroughs를 강조함(We highlight recent breakthroughs in omnidirectional generation, omnidirectional perception, omnidirectional understanding, and related datasets.)",
+            "PANORAMA라는 4개의 주요 하위 시스템으로 구성된 이상적인 전 방향 시스템 구조를 제안함(we propose an ideal panoramic system architecture)."
+        ],
+        "conclusion": "구체적 AI 시대의 전 방향 AI 시스템 구축을 위한 최신 발전을 종합하고, 향후 연구의 과제와 기회를 제시함.",
+        "keywords": [
+            "Robotics",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.14232",
+            "authors": [
+                {
+                    "_id": "68cb67a45a7803ff3be42d1e",
+                    "user": {
+                        "_id": "665d4b515fdfe8f923e347a7",
+                        "avatarUrl": "/avatars/d114b24c02dadfca0a8aee104755a8ec.svg",
+                        "isPro": false,
+                        "fullname": "Zhaokai Wang",
+                        "user": "wzk1015",
+                        "type": "user"
+                    },
+                    "name": "Zhaokai Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-18T13:27:10.361Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d1f",
+                    "name": "Penghao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d20",
+                    "name": "Xiangyu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d21",
+                    "name": "Changyao Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d22",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d23",
+                    "name": "Wenhai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d24",
+                    "name": "Jifeng Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb67a45a7803ff3be42d25",
+                    "name": "Gen Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-17T17:59:14.000Z",
+            "submittedOnDailyAt": "2025-09-18T00:30:14.725Z",
+            "title": "GenExam: A Multidisciplinary Text-to-Image Exam",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Exams are a fundamental test of expert-level intelligence and require\nintegrated understanding, reasoning, and generation. Existing exam-style\nbenchmarks mainly focus on understanding and reasoning tasks, and current\ngeneration benchmarks emphasize the illustration of world knowledge and visual\nconcepts, neglecting the evaluation of rigorous drawing exams. We introduce\nGenExam, the first benchmark for multidisciplinary text-to-image exams,\nfeaturing 1,000 samples across 10 subjects with exam-style prompts organized\nunder a four-level taxonomy. Each problem is equipped with ground-truth images\nand fine-grained scoring points to enable a precise evaluation of semantic\ncorrectness and visual plausibility. Experiments show that even\nstate-of-the-art models such as GPT-Image-1 and Gemini-2.5-Flash-Image achieve\nless than 15% strict scores, and most models yield almost 0%, suggesting the\ngreat challenge of our benchmark. By framing image generation as an exam,\nGenExam offers a rigorous assessment of models' ability to integrate knowledge,\nreasoning, and generation, providing insights on the path to general AGI.",
+            "upvotes": 15,
+            "discussionId": "68cb67a45a7803ff3be42d26",
+            "githubRepo": "https://github.com/OpenGVLab/GenExam",
+            "ai_summary": "GenExam is a benchmark for evaluating text-to-image generation in exam-style settings across multiple disciplines, highlighting the challenges in integrating knowledge, reasoning, and generation.",
+            "ai_keywords": [
+                "text-to-image",
+                "GenExam",
+                "multidisciplinary",
+                "exam-style prompts",
+                "ground-truth images",
+                "fine-grained scoring",
+                "semantic correctness",
+                "visual plausibility",
+                "GPT-Image-1",
+                "Gemini-2.5-Flash-Image",
+                "general AGI"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "GenExam: 다학제적인 텍스트-이미지 시험",
+        "purpose": "Text-to-Image 생성에서 지식 통합, 추론, 생성 능력을 평가하기 위한 기준 개발",
+        "method": [
+            "1,000개의 샘플을 포함한 10개 과목의 시험 스타일 프롬프트를 구성하여 GenExam을 제안함(We introduce GenExam, the first benchmark for multidisciplinary text-to-image exams, featuring 1,000 samples across 10 subjects with exam-style prompts organized under a four-level taxonomy.)",
+            "각 문제마다 진실 이미지와 세부 평점 제공하여 의미적 정확성과 시각적 신뢰성 평가 가능하도록 함(Each problem is equipped with ground-truth images and fine-grained scoring points to enable a precise evaluation of semantic correctness and visual plausibility.)",
+            "국내외 다양한 모델에 대해 실험을 진행하고, GenExam에서의 도전성을 보여줌(Experiments show that even state-of-the-art models such as GPT-Image-1 and Gemini-2.5-Flash-Image achieve less than 15% strict scores.)"
+        ],
+        "conclusion": "GenExam은 이미지 생성 과정을 시험으로 재구성함으로써 모델의 지식, 추론 및 생성 능력을 엄격히 평가하고 AGI를 향한 통찰을 제공함.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.13755",
+            "authors": [
+                {
+                    "_id": "68cb88205a7803ff3be42e43",
+                    "name": "Zhaoyang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e44",
+                    "name": "Yao Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e45",
+                    "name": "Zhikun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e46",
+                    "name": "Di Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e47",
+                    "name": "Zhou Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e48",
+                    "name": "Hongyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e49",
+                    "name": "Pan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e4a",
+                    "name": "Xuanhua Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e4b",
+                    "name": "Hai Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68cb88205a7803ff3be42e4c",
+                    "name": "David Lo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-17T07:12:35.000Z",
+            "submittedOnDailyAt": "2025-09-18T06:10:10.968Z",
+            "title": "Scrub It Out! Erasing Sensitive Memorization in Code Language Models via\n  Machine Unlearning",
+            "submittedOnDailyBy": {
+                "_id": "64fb128552e82dd432682b06",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64fb128552e82dd432682b06/GYcOiwa4R3RrgcM2tSuV_.png",
+                "isPro": false,
+                "fullname": "Zhaoyang Chu",
+                "user": "chuzy",
+                "type": "user"
+            },
+            "summary": "While Code Language Models (CLMs) have demonstrated superior performance in\nsoftware engineering tasks such as code generation and summarization, recent\nempirical studies reveal a critical privacy vulnerability: these models exhibit\nunintended memorization of sensitive training data, enabling verbatim\nreproduction of confidential information when specifically prompted. To address\nthis issue, several approaches, including training data de-duplication and\ndifferential privacy augmentation, have been proposed. However, these methods\nrequire full-model retraining for deployed CLMs, which incurs substantial\ncomputational costs. In this paper, we aim to answer the following research\nquestion: Can sensitive information memorized by CLMs be erased effectively and\nefficiently?\n  We conduct a pioneering investigation into erasing sensitive memorization in\nCLMs through machine unlearning - a post-hoc modification method that removes\nspecific information from trained models without requiring full retraining.\nSpecifically, we first quantify the memorization risks of sensitive data within\nCLM training datasets and curate a high-risk dataset of 50,000 sensitive\nmemorized samples as unlearning targets. We study two widely used gradient\nascent-based unlearning approaches: the vanilla and constraint-based methods,\nand introduce CodeEraser, an advanced variant that selectively unlearns\nsensitive memorized segments in code while preserving the structural integrity\nand functional correctness of the surrounding code. Extensive experiments on\nthree families of CLMs, i.e., CodeParrot, CodeGen-Mono, and Qwen2.5-Coder,\nvalidate the effectiveness and efficiency of CodeEraser in erasing targeted\nsensitive memorization while maintaining model utility.",
+            "upvotes": 11,
+            "discussionId": "68cb88205a7803ff3be42e4d",
+            "githubRepo": "https://github.com/Zhaoyang-Chu/code-unlearning",
+            "ai_summary": "CodeEraser effectively and efficiently removes sensitive memorized information from Code Language Models using machine unlearning techniques without full retraining.",
+            "ai_keywords": [
+                "Code Language Models",
+                "CLMs",
+                "machine unlearning",
+                "gradient ascent",
+                "CodeParrot",
+                "CodeGen-Mono",
+                "Qwen2.5-Coder",
+                "CodeEraser"
+            ],
+            "githubStars": 14
+        },
+        "translation_title": "지워버리기! 코드 언어 모델에서 민감한 기억 삭제를 위한 머신 언러닝",
+        "purpose": "코드 언어 모델(CLMs)의 민감한 기억을 효과적이고 효율적으로 삭제하기 위한 방법 연구",
+        "method": [
+            "CLM의 민감한 데이터 기억 위험을 평가하고 50,000개의 민감한 기억 샘플을 수집하여 언러닝의 목표로 삼음(We first quantify the memorization risks of sensitive data within CLM training datasets and curate a high-risk dataset of 50,000 sensitive memorized samples as unlearning targets.)",
+            "일반적인 경량 언러닝 방법과 제약 기반 방법을 연구하고, 처리 능력과 기능적 정확성을 유지하면서 민감한 기억을 선택적으로 삭제하는 CodeEraser를 소개함(We study two widely used gradient ascent-based unlearning approaches: the vanilla and constraint-based methods, and introduce CodeEraser, an advanced variant that selectively unlearns sensitive memorized segments in code while preserving the structural integrity and functional correctness of the surrounding code.)",
+            "CodeEraser의 효과와 효율성을 검증하기 위해 세 가지 CLM 계열(CodeParrot, CodeGen-Mono, Qwen2.5-Coder)에 대한 광범위한 실험을 수행함(Extensive experiments on three families of CLMs, i.e., CodeParrot, CodeGen-Mono, and Qwen2.5-Coder, validate the effectiveness and efficiency of CodeEraser in erasing targeted sensitive memorization while maintaining model utility.)"
+        ],
+        "conclusion": "CodeEraser는 코드 언어 모델에서 민감한 기억을 효과적으로 삭제하면서 모델의 유용성을 유지하는 데 성공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Machine Learning",
+            "Document Parsing"
+        ]
+    }
+]
