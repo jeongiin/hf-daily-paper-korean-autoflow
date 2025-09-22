@@ -1,0 +1,824 @@
+[
+    {
+        "paper": {
+            "id": "2509.16198",
+            "authors": [
+                {
+                    "_id": "68d0a4e08adc5cd018d15a70",
+                    "user": {
+                        "_id": "66adf5cc0c6056d9f4dc308f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66adf5cc0c6056d9f4dc308f/mVKo06P7M1qf6RYNG-c2i.jpeg",
+                        "isPro": false,
+                        "fullname": "Jane Luo",
+                        "user": "Luo2003",
+                        "type": "user"
+                    },
+                    "name": "Jane Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:51.371Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a71",
+                    "name": "Xin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a72",
+                    "name": "Steven Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a73",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a74",
+                    "name": "Yiming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a75",
+                    "name": "Yangyu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a76",
+                    "user": {
+                        "_id": "68088b850a4295fe95b4c798",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/sGikPWke7wL3f7t4LUBwL.png",
+                        "isPro": false,
+                        "fullname": "ChengYu Yin",
+                        "user": "Cipherxzc",
+                        "type": "user"
+                    },
+                    "name": "Chengyu Yin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:53:31.177Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a77",
+                    "name": "Ying Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a78",
+                    "name": "Jianfeng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a79",
+                    "user": {
+                        "_id": "686502ec00ecb8d1658f86fd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Aa2Qhgey5yoONDGo8R_YL.png",
+                        "isPro": false,
+                        "fullname": "Yuefeng Zhang",
+                        "user": "Kyleraha",
+                        "type": "user"
+                    },
+                    "name": "Yuefeng Zhan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:53:40.027Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a7a",
+                    "name": "Hao Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a7b",
+                    "name": "Qi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a7c",
+                    "name": "Scarlett Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a4e08adc5cd018d15a7d",
+                    "name": "Mao Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-19T17:58:14.000Z",
+            "submittedOnDailyAt": "2025-09-22T00:53:42.762Z",
+            "title": "RPG: A Repository Planning Graph for Unified and Scalable Codebase\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "66adf5cc0c6056d9f4dc308f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66adf5cc0c6056d9f4dc308f/mVKo06P7M1qf6RYNG-c2i.jpeg",
+                "isPro": false,
+                "fullname": "Jane Luo",
+                "user": "Luo2003",
+                "type": "user"
+            },
+            "summary": "Large language models excel at function- and file-level code generation, yet\ngenerating complete repositories from scratch remains a fundamental challenge.\nThis process demands coherent and reliable planning across proposal- and\nimplementation-level stages, while natural language, due to its ambiguity and\nverbosity, is ill-suited for faithfully representing complex software\nstructures. To address this, we introduce the Repository Planning Graph (RPG),\na persistent representation that unifies proposal- and implementation-level\nplanning by encoding capabilities, file structures, data flows, and functions\nin one graph. RPG replaces ambiguous natural language with an explicit\nblueprint, enabling long-horizon planning and scalable repository generation.\nBuilding on RPG, we develop ZeroRepo, a graph-driven framework for repository\ngeneration from scratch. It operates in three stages: proposal-level planning\nand implementation-level refinement to construct the graph, followed by\ngraph-guided code generation with test validation. To evaluate this setting, we\nconstruct RepoCraft, a benchmark of six real-world projects with 1,052 tasks.\nOn RepoCraft, ZeroRepo produces repositories averaging nearly 36K LOC, roughly\n3.9times the strongest baseline (Claude Code) and about 64times other\nbaselines. It attains 81.5% functional coverage and a 69.7% pass rate,\nexceeding Claude Code by 27.3 and 35.8 percentage points, respectively. Further\nanalysis shows that RPG models complex dependencies, enables progressively more\nsophisticated planning through near-linear scaling, and enhances LLM\nunderstanding of repositories, thereby accelerating agent localization.",
+            "upvotes": 83,
+            "discussionId": "68d0a4e08adc5cd018d15a7e",
+            "ai_summary": "A graph-driven framework called ZeroRepo uses the Repository Planning Graph (RPG) to generate complete software repositories from scratch, significantly outperforming existing baselines in terms of code size, functional coverage, and test pass rate.",
+            "ai_keywords": [
+                "Repository Planning Graph",
+                "RPG",
+                "ZeroRepo",
+                "graph-driven framework",
+                "proposal-level planning",
+                "implementation-level refinement",
+                "graph-guided code generation",
+                "RepoCraft",
+                "functional coverage",
+                "test pass rate",
+                "agent localization"
+            ]
+        },
+        "translation_title": "RPG: 통합 및 확장 가능한 코드베이스 생성을 위한 저장소 계획 그래프",
+        "purpose": "자연어의 모호성과 장황함을 해결하고, 신뢰할 수 있는 계획을 통해 전체 저장소 생성을 가능하게 하기 위한 방법을 제시함.",
+        "method": [
+            "Repository Planning Graph (RPG)라는 지속적인 표현을 도입하여 제안 및 구현 수준의 계획을 통합함(we introduce the Repository Planning Graph (RPG), a persistent representation that unifies proposal- and implementation-level planning.)",
+            "ZeroRepo라는 그래프 기반 프레임워크를 개발하여 저장소 생성을 수행함(Building on RPG, we develop ZeroRepo, a graph-driven framework for repository generation from scratch.)",
+            "세 가지 단계(제안 수준 계획, 구현 수준 정제, 그래프 기반 코드 생성)를 통해 저장소를 생성함(It operates in three stages: proposal-level planning and implementation-level refinement to construct the graph, followed by graph-guided code generation with test validation.)"
+        ],
+        "conclusion": "ZeroRepo는 평균 36K LOC의 저장소를 생성하며, 이전의 강력한 기준보다 약 3.9배, 다른 기준보다 약 64배 높은 성능을 보여주며, LLM의 저장소 이해도를 향상시키는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.16197",
+            "authors": [
+                {
+                    "_id": "68d0a9f68adc5cd018d15a85",
+                    "user": {
+                        "_id": "65dad3870af7e21ba473439f",
+                        "avatarUrl": "/avatars/da542e7d68ae937bbdb791f17096bb1c.svg",
+                        "isPro": false,
+                        "fullname": "Yanghao Li",
+                        "user": "FrozzZen",
+                        "type": "user"
+                    },
+                    "name": "Yanghao Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:56:15.401Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a86",
+                    "name": "Rui Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a87",
+                    "user": {
+                        "_id": "640e3a753830fd441c2c768d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/640e3a753830fd441c2c768d/qztg6ML-c87VD8HajREsH.jpeg",
+                        "isPro": false,
+                        "fullname": "Bowen Pan",
+                        "user": "bpan",
+                        "type": "user"
+                    },
+                    "name": "Bowen Pan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:56:52.401Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a88",
+                    "user": {
+                        "_id": "631516348d85ad332fa47b2c",
+                        "avatarUrl": "/avatars/100f5ae3cf3c52faaecdaecd5d8f2881.svg",
+                        "isPro": false,
+                        "fullname": "Haotian Zhang",
+                        "user": "haotiz",
+                        "type": "user"
+                    },
+                    "name": "Haotian Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:49.518Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a89",
+                    "user": {
+                        "_id": "68d0cd691a9bcb17ad2bd300",
+                        "avatarUrl": "/avatars/9711605539215f4db38335fc7f9f2f7c.svg",
+                        "isPro": false,
+                        "fullname": "Haoshuo Huang",
+                        "user": "haosoul122",
+                        "type": "user"
+                    },
+                    "name": "Haoshuo Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:47.450Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8a",
+                    "name": "Bowen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8b",
+                    "user": {
+                        "_id": "652592ff6905057617ff5ddf",
+                        "avatarUrl": "/avatars/d8105671a489407941b11d989810de45.svg",
+                        "isPro": false,
+                        "fullname": "Jialing Tong",
+                        "user": "jialingt",
+                        "type": "user"
+                    },
+                    "name": "Jialing Tong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:57:07.822Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8c",
+                    "name": "Haoxuan You",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8d",
+                    "user": {
+                        "_id": "65cc30b80390fce6291d03cf",
+                        "avatarUrl": "/avatars/7e774270d1cca48f43f0b379af87003e.svg",
+                        "isPro": false,
+                        "fullname": "Xianzhi Du",
+                        "user": "xianzhi-du",
+                        "type": "user"
+                    },
+                    "name": "Xianzhi Du",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:57:24.942Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8e",
+                    "name": "Zhe Gan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a8f",
+                    "user": {
+                        "_id": "68b27646a9ed991404721fe3",
+                        "avatarUrl": "/avatars/1e80be53b57cb9a4d4ede47acc3c0835.svg",
+                        "isPro": false,
+                        "fullname": "Hyunjik Kim",
+                        "user": "hyunjik11",
+                        "type": "user"
+                    },
+                    "name": "Hyunjik Kim",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:57:17.892Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a90",
+                    "name": "Chao Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a91",
+                    "name": "Zhenbang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a92",
+                    "name": "Yinfei Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a93",
+                    "user": {
+                        "_id": "64388d5f1efe72ba48071c52",
+                        "avatarUrl": "/avatars/2653fba13e71f471e9d55c134fe25efc.svg",
+                        "isPro": false,
+                        "fullname": "Mingfei Gao",
+                        "user": "fly6464",
+                        "type": "user"
+                    },
+                    "name": "Mingfei Gao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:57:44.368Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a94",
+                    "user": {
+                        "_id": "6266e8afe14b376cb73c460d",
+                        "avatarUrl": "/avatars/dccb08791896527745682bcb4ee71a48.svg",
+                        "isPro": false,
+                        "fullname": "Zi-Yi Dou",
+                        "user": "zdou0830",
+                        "type": "user"
+                    },
+                    "name": "Zi-Yi Dou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:57:52.988Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a95",
+                    "name": "Wenze Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a96",
+                    "name": "Chang Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a97",
+                    "name": "Dongxu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a98",
+                    "name": "Philipp Dufter",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a99",
+                    "name": "Zirui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9a",
+                    "user": {
+                        "_id": "605b7f42935268bc086131ba",
+                        "avatarUrl": "/avatars/a55109f714b33f9d59d69011ddeb0b9f.svg",
+                        "isPro": false,
+                        "fullname": "Guoli Yin",
+                        "user": "gyin94",
+                        "type": "user"
+                    },
+                    "name": "Guoli Yin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:58:09.764Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9b",
+                    "name": "Zhengdong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9c",
+                    "name": "Chen Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9d",
+                    "name": "Yang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9e",
+                    "user": {
+                        "_id": "654ef8ad3fe6c0b1f871942f",
+                        "avatarUrl": "/avatars/8d3689b9bf57c7c8060ac510a1839158.svg",
+                        "isPro": false,
+                        "fullname": "Ruoming Pang",
+                        "user": "ruoming",
+                        "type": "user"
+                    },
+                    "name": "Ruoming Pang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:58:17.855Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0a9f68adc5cd018d15a9f",
+                    "name": "Zhifeng Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-19T17:58:00.000Z",
+            "submittedOnDailyAt": "2025-09-22T00:14:30.542Z",
+            "title": "MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid\n  Vision Tokenizer",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Unified multimodal Large Language Models (LLMs) that can both understand and\ngenerate visual content hold immense potential. However, existing open-source\nmodels often suffer from a performance trade-off between these capabilities. We\npresent Manzano, a simple and scalable unified framework that substantially\nreduces this tension by coupling a hybrid image tokenizer with a well-curated\ntraining recipe. A single shared vision encoder feeds two lightweight adapters\nthat produce continuous embeddings for image-to-text understanding and discrete\ntokens for text-to-image generation within a common semantic space. A unified\nautoregressive LLM predicts high-level semantics in the form of text and image\ntokens, with an auxiliary diffusion decoder subsequently translating the image\ntokens into pixels. The architecture, together with a unified training recipe\nover understanding and generation data, enables scalable joint learning of both\ncapabilities. Manzano achieves state-of-the-art results among unified models,\nand is competitive with specialist models, particularly on text-rich\nevaluation. Our studies show minimal task conflicts and consistent gains from\nscaling model size, validating our design choice of a hybrid tokenizer.",
+            "upvotes": 31,
+            "discussionId": "68d0a9f68adc5cd018d15aa0",
+            "ai_summary": "Manzano is a unified multimodal LLM framework that integrates image and text processing using a hybrid tokenizer and diffusion decoder, achieving state-of-the-art performance in both understanding and generating visual content.",
+            "ai_keywords": [
+                "multimodal Large Language Models",
+                "hybrid image tokenizer",
+                "vision encoder",
+                "lightweight adapters",
+                "continuous embeddings",
+                "discrete tokens",
+                "semantic space",
+                "unified autoregressive LLM",
+                "diffusion decoder",
+                "joint learning",
+                "text-rich evaluation",
+                "task conflicts"
+            ]
+        },
+        "translation_title": "MANZANO: 하이브리드 비전 토크나이저를 갖춘 간단하고 확장 가능한 통합 멀티모달 모델",
+        "purpose": "시각적 내용을 이해하고 생성할 수 있는 통합 멀티모달 모델의 성능을 향상시키기 위한 새로운 접근 방식 개발",
+        "method": [
+            "하이브리드 이미지 토크나이저와 잘 설계된 학습 레시피를 결합한 간단하고 확장 가능한 프레임워크를 제시함(We present Manzano, a simple and scalable unified framework that substantially reduces this tension by coupling a hybrid image tokenizer with a well-curated training recipe.)",
+            "단일 비전 인코더가 이미지-텍스트 이해를 위한 연속 임베딩과 텍스트-이미지 생성을 위한 불연속 토큰을 생성하는 두 개의 경량 어댑터로 피드를 제공함(A single shared vision encoder feeds two lightweight adapters that produce continuous embeddings for image-to-text understanding and discrete tokens for text-to-image generation within a common semantic space.)",
+            "통합된 자가 회귀 LLM이 텍스트와 이미지 토큰의 고수준 의미를 예측하고, 보조 확산 디코더가 이미지 토큰을 픽셀로 변환함(A unified autoregressive LLM predicts high-level semantics in the form of text and image tokens, with an auxiliary diffusion decoder subsequently translating the image tokens into pixels.)"
+        ],
+        "conclusion": "Manzano는 통합 모델 중 최첨단 결과를 달성하며, 특히 텍스트가 풍부한 평가에서 전문 모델과 경쟁력이 있음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.15591",
+            "authors": [
+                {
+                    "_id": "68d0d1828adc5cd018d15b5e",
+                    "user": {
+                        "_id": "64c832a8c547ed5243d29630",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c832a8c547ed5243d29630/a46V0xOVRVknM9mUjKkTf.jpeg",
+                        "isPro": false,
+                        "fullname": "Zinan Lin",
+                        "user": "fjxmlzn",
+                        "type": "user"
+                    },
+                    "name": "Zinan Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:24.239Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0d1828adc5cd018d15b5f",
+                    "name": "Enshu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0d1828adc5cd018d15b60",
+                    "name": "Xuefei Ning",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0d1828adc5cd018d15b61",
+                    "name": "Junyi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0d1828adc5cd018d15b62",
+                    "name": "Wenyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0d1828adc5cd018d15b63",
+                    "name": "Sergey Yekhanin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-19T04:47:16.000Z",
+            "submittedOnDailyAt": "2025-09-22T03:06:55.213Z",
+            "title": "Latent Zoning Network: A Unified Principle for Generative Modeling,\n  Representation Learning, and Classification",
+            "submittedOnDailyBy": {
+                "_id": "64c832a8c547ed5243d29630",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c832a8c547ed5243d29630/a46V0xOVRVknM9mUjKkTf.jpeg",
+                "isPro": false,
+                "fullname": "Zinan Lin",
+                "user": "fjxmlzn",
+                "type": "user"
+            },
+            "summary": "Generative modeling, representation learning, and classification are three\ncore problems in machine learning (ML), yet their state-of-the-art (SoTA)\nsolutions remain largely disjoint. In this paper, we ask: Can a unified\nprinciple address all three? Such unification could simplify ML pipelines and\nfoster greater synergy across tasks. We introduce Latent Zoning Network (LZN)\nas a step toward this goal. At its core, LZN creates a shared Gaussian latent\nspace that encodes information across all tasks. Each data type (e.g., images,\ntext, labels) is equipped with an encoder that maps samples to disjoint latent\nzones, and a decoder that maps latents back to data. ML tasks are expressed as\ncompositions of these encoders and decoders: for example, label-conditional\nimage generation uses a label encoder and image decoder; image embedding uses\nan image encoder; classification uses an image encoder and label decoder. We\ndemonstrate the promise of LZN in three increasingly complex scenarios: (1) LZN\ncan enhance existing models (image generation): When combined with the SoTA\nRectified Flow model, LZN improves FID on CIFAR10 from 2.76 to 2.59-without\nmodifying the training objective. (2) LZN can solve tasks independently\n(representation learning): LZN can implement unsupervised representation\nlearning without auxiliary loss functions, outperforming the seminal MoCo and\nSimCLR methods by 9.3% and 0.2%, respectively, on downstream linear\nclassification on ImageNet. (3) LZN can solve multiple tasks simultaneously\n(joint generation and classification): With image and label encoders/decoders,\nLZN performs both tasks jointly by design, improving FID and achieving SoTA\nclassification accuracy on CIFAR10. The code and trained models are available\nat https://github.com/microsoft/latent-zoning-networks. The project website is\nat https://zinanlin.me/blogs/latent_zoning_networks.html.",
+            "upvotes": 23,
+            "discussionId": "68d0d1828adc5cd018d15b64",
+            "projectPage": "https://zinanlin.me/blogs/latent_zoning_networks.html",
+            "githubRepo": "https://github.com/microsoft/latent-zoning-networks",
+            "ai_summary": "Latent Zoning Network (LZN) unifies generative modeling, representation learning, and classification by creating a shared latent space for diverse data types.",
+            "ai_keywords": [
+                "Latent Zoning Network",
+                "Gaussian latent space",
+                "encoders",
+                "decoders",
+                "label-conditional image generation",
+                "image embedding",
+                "classification",
+                "Rectified Flow",
+                "FID",
+                "MoCo",
+                "SimCLR",
+                "unsupervised representation learning",
+                "joint generation and classification"
+            ],
+            "githubStars": 18
+        },
+        "translation_title": "잠재 구역 네트워크: 생성 모델링, 표현 학습, 분류를 위한 통합 원칙",
+        "purpose": "생성 모델링, 표현 학습, 분류의 통합을 통해 ML 파이프라인을 간소화하고 작업 간 시너지를 높이는 것을 목표로 함.",
+        "method": [
+            "Latent Zoning Network (LZN)를 소개하여 모든 작업을 아우르는 공유 가우시안 잠재 공간을 생성함.(We introduce Latent Zoning Network (LZN) as a step toward this goal.)",
+            "각 데이터 유형에 대해 샘플을 분리된 잠재 영역으로 매핑하는 인코더와 데이터를 다시 매핑하는 디코더를 배치함.(Each data type (e.g., images, text, labels) is equipped with an encoder that maps samples to disjoint latent zones, and a decoder that maps latents back to data.)",
+            "LZN은 세 가지 복잡한 시나리오에서 그 가능성을 입증함.(We demonstrate the promise of LZN in three increasingly complex scenarios:)"
+        ],
+        "conclusion": "LZN은 기존 모델을 향상시키고, 독립적인 작업을 해결하며, 여러 작업을 동시에 처리하여 뛰어난 성능을 달성함.",
+        "keywords": [
+            "Generative Modeling",
+            "Representation Learning",
+            "Classification"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.16127",
+            "authors": [
+                {
+                    "_id": "68d0b6548adc5cd018d15aea",
+                    "user": {
+                        "_id": "623d8ca4c29adf5ef6175615",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+                        "isPro": false,
+                        "fullname": "Yi-Fan Zhang",
+                        "user": "yifanzhang114",
+                        "type": "user"
+                    },
+                    "name": "Yi-Fan Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:55:31.189Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15aeb",
+                    "name": "Haihua Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15aec",
+                    "name": "Huanyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15aed",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15aee",
+                    "name": "Zezhou Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15aef",
+                    "user": {
+                        "_id": "651762c3a1a5e5d6177f65b3",
+                        "avatarUrl": "/avatars/4f4ab3eebf279f90186d9020b94f8764.svg",
+                        "isPro": false,
+                        "fullname": "Haochen Tian",
+                        "user": "achernarcursa",
+                        "type": "user"
+                    },
+                    "name": "Haochen Tian",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:54:42.544Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af0",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af1",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af2",
+                    "user": {
+                        "_id": "64c636b94c9bebfa6ac80ae4",
+                        "avatarUrl": "/avatars/0162c1da6ba8257075c8d68ee0a122cc.svg",
+                        "isPro": false,
+                        "fullname": "wu",
+                        "user": "KaiWu123",
+                        "type": "user"
+                    },
+                    "name": "Kai Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:45.420Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af3",
+                    "name": "Bo Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af4",
+                    "user": {
+                        "_id": "63058fb180bc5e03dad44526",
+                        "avatarUrl": "/avatars/675eef729fa2b9305a19dc3d9dcbb6c7.svg",
+                        "isPro": false,
+                        "fullname": "Xu Wang",
+                        "user": "xuwang",
+                        "type": "user"
+                    },
+                    "name": "Xu Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:55:55.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af5",
+                    "user": {
+                        "_id": "66db03df9e955e0e5dc3d727",
+                        "avatarUrl": "/avatars/0c9c4bdaf05f02613f8a33f0b21b43e8.svg",
+                        "isPro": false,
+                        "fullname": "panjianfei",
+                        "user": "jianfeipan",
+                        "type": "user"
+                    },
+                    "name": "Jianfei Pan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-22T02:55:47.563Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af6",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af7",
+                    "name": "Zhang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0b6548adc5cd018d15af8",
+                    "name": "Liang Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-19T16:25:26.000Z",
+            "submittedOnDailyAt": "2025-09-22T01:08:51.696Z",
+            "title": "BaseReward: A Strong Baseline for Multimodal Reward Model",
+            "submittedOnDailyBy": {
+                "_id": "623d8ca4c29adf5ef6175615",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+                "isPro": false,
+                "fullname": "Yi-Fan Zhang",
+                "user": "yifanzhang114",
+                "type": "user"
+            },
+            "summary": "The rapid advancement of Multimodal Large Language Models (MLLMs) has made\naligning them with human preferences a critical challenge. Reward Models (RMs)\nare a core technology for achieving this goal, but a systematic guide for\nbuilding state-of-the-art Multimodal Reward Models (MRMs) is currently lacking\nin both academia and industry. Through exhaustive experimental analysis, this\npaper aims to provide a clear ``recipe'' for constructing high-performance\nMRMs. We systematically investigate every crucial component in the MRM\ndevelopment pipeline, including reward modeling paradigms (e.g.,\nNaive-RM, Critic-based RM, and Generative RM), reward head\narchitecture, training strategies, data curation (covering\nover ten multimodal and text-only preference datasets), backbone model\nand model scale, and ensemble methods.\n  Based on these experimental insights, we introduce BaseReward, a\npowerful and efficient baseline for multimodal reward modeling. BaseReward\nadopts a simple yet effective architecture, built upon a {Qwen2.5-VL} backbone,\nfeaturing an optimized two-layer reward head, and is trained on a carefully\ncurated mixture of high-quality multimodal and text-only preference data. Our\nresults show that BaseReward establishes a new SOTA on major benchmarks such as\nMM-RLHF-Reward Bench, VL-Reward Bench, and Multimodal Reward Bench,\noutperforming previous models. Furthermore, to validate its practical utility\nbeyond static benchmarks, we integrate BaseReward into a real-world\nreinforcement learning pipeline, successfully enhancing an MLLM's performance\nacross various perception, reasoning, and conversational tasks. This work not\nonly delivers a top-tier MRM but, more importantly, provides the community with\na clear, empirically-backed guide for developing robust reward models for the\nnext generation of MLLMs.",
+            "upvotes": 16,
+            "discussionId": "68d0b6558adc5cd018d15af9",
+            "ai_summary": "The paper provides a comprehensive guide and introduces BaseReward, a state-of-the-art multimodal reward model, which outperforms existing models across various benchmarks and real-world tasks.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "Reward Models",
+                "Multimodal Reward Models",
+                "reward modeling paradigms",
+                "reward head architecture",
+                "training strategies",
+                "data curation",
+                "backbone model",
+                "model scale",
+                "ensemble methods",
+                "Qwen2.5-VL",
+                "MM-RLHF-Reward Bench",
+                "VL-Reward Bench",
+                "Multimodal Reward Bench",
+                "reinforcement learning pipeline"
+            ]
+        },
+        "translation_title": "BaseReward: 멀티모달 보상 모델을 위한 강력한 기준선",
+        "purpose": "멀티모달 보상 모델(MRM)을 효과적으로 구축하기 위한 체계적인 가이드를 제공하고자 함",
+        "method": [
+            "보상 모델링 패러다임, 보상 헤드 아키텍처, 훈련 전략 및 데이터 큐레이션을 포함한 MRM 개발 파이프라인의 모든 중요한 구성 요소를 체계적으로 조사함.(We systematically investigate every crucial component in the MRM development pipeline.)",
+            "Qwen2.5-VL 백본을 기반으로 한 단순하면서도 효과적인 아키텍처로 BaseReward를 구축함.(BaseReward adopts a simple yet effective architecture, built upon a {Qwen2.5-VL} backbone.)",
+            "고품질의 멀티모달 및 텍스트 전용 선호 데이터 혼합을 사용해 교육함.(and is trained on a carefully curated mixture of high-quality multimodal and text-only preference data.)"
+        ],
+        "conclusion": "BaseReward는 주요 벤치마크에서 새로운 SOTA를 설정하고, 실제 강화 학습 파이프라인에 통합하여 MLLM의 성능 향상에 성공했으며, 신뢰할 수 있는 보상 모델 개발을 위한 명확한 가이드를 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.14981",
+            "authors": [
+                {
+                    "_id": "68d0c1a98adc5cd018d15b1f",
+                    "name": "Chuan Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b20",
+                    "name": "Heng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b21",
+                    "name": "Yixun Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b22",
+                    "user": {
+                        "_id": "6437c0ead38ce48bdd4b0067",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6437c0ead38ce48bdd4b0067/9HdcjbD0ugiPypLDtQl8E.png",
+                        "isPro": false,
+                        "fullname": "Jia Zheng",
+                        "user": "bertjiazheng",
+                        "type": "user"
+                    },
+                    "name": "Jia Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-22T10:31:43.211Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b23",
+                    "name": "Yongsen Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b24",
+                    "name": "Yuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b25",
+                    "name": "Rui Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b26",
+                    "name": "Zihan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d0c1a98adc5cd018d15b27",
+                    "name": "Ping Tan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6437c0ead38ce48bdd4b0067/08y8kCojsFDgE2fVzwH_9.mp4"
+            ],
+            "publishedAt": "2025-09-18T14:12:32.000Z",
+            "submittedOnDailyAt": "2025-09-22T01:58:35.411Z",
+            "title": "SPATIALGEN: Layout-guided 3D Indoor Scene Generation",
+            "submittedOnDailyBy": {
+                "_id": "6437c0ead38ce48bdd4b0067",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6437c0ead38ce48bdd4b0067/9HdcjbD0ugiPypLDtQl8E.png",
+                "isPro": false,
+                "fullname": "Jia Zheng",
+                "user": "bertjiazheng",
+                "type": "user"
+            },
+            "summary": "Creating high-fidelity 3D models of indoor environments is essential for\napplications in design, virtual reality, and robotics. However, manual 3D\nmodeling remains time-consuming and labor-intensive. While recent advances in\ngenerative AI have enabled automated scene synthesis, existing methods often\nface challenges in balancing visual quality, diversity, semantic consistency,\nand user control. A major bottleneck is the lack of a large-scale, high-quality\ndataset tailored to this task. To address this gap, we introduce a\ncomprehensive synthetic dataset, featuring 12,328 structured annotated scenes\nwith 57,440 rooms, and 4.7M photorealistic 2D renderings. Leveraging this\ndataset, we present SpatialGen, a novel multi-view multi-modal diffusion model\nthat generates realistic and semantically consistent 3D indoor scenes. Given a\n3D layout and a reference image (derived from a text prompt), our model\nsynthesizes appearance (color image), geometry (scene coordinate map), and\nsemantic (semantic segmentation map) from arbitrary viewpoints, while\npreserving spatial consistency across modalities. SpatialGen consistently\ngenerates superior results to previous methods in our experiments. We are\nopen-sourcing our data and models to empower the community and advance the\nfield of indoor scene understanding and generation.",
+            "upvotes": 13,
+            "discussionId": "68d0c1a98adc5cd018d15b28",
+            "projectPage": "https://manycore-research.github.io/SpatialGen",
+            "githubRepo": "https://github.com/manycore-research/SpatialGen",
+            "ai_summary": "SpatialGen, a multi-view multi-modal diffusion model, generates realistic and semantically consistent 3D indoor scenes using a large synthetic dataset, outperforming previous methods.",
+            "ai_keywords": [
+                "diffusion model",
+                "3D indoor scenes",
+                "synthetic dataset",
+                "3D layout",
+                "reference image",
+                "text prompt",
+                "appearance",
+                "geometry",
+                "semantic segmentation map",
+                "spatial consistency",
+                "multi-view",
+                "multi-modal"
+            ],
+            "githubStars": 227
+        },
+        "translation_title": "SPATIALGEN: 레이아웃 기반 3D 실내 장면 생성",
+        "purpose": "디자인, 가상 현실 및 로봇 공학에 필요한 고품질의 3D 실내 모델 생성을 위한 데이터 세트 및 모델 개선",
+        "method": [
+            "고품질의 3D 모델 생성을 위해 12,328개의 구조화된 주석이 있는 장면, 57,440개의 방, 4.7M의 포토리얼리스틱 2D 렌더링을 포함하는 종합적인 합성 데이터세트를 생성함(we introduce a comprehensive synthetic dataset, featuring 12,328 structured annotated scenes with 57,440 rooms, and 4.7M photorealistic 2D renderings.)",
+            "SpatialGen이라는 새로운 다중 시점 다중 모달 확산 모델을 제안함(we present SpatialGen, a novel multi-view multi-modal diffusion model)",
+            "모델은 3D 레이아웃과 참조 이미지를 기반으로 실제적이고 의미론적으로 일관된 3D 실내 장면을 생성함(given a 3D layout and a reference image, our model synthesizes appearance, geometry, and semantic from arbitrary viewpoints.)"
+        ],
+        "conclusion": "SpatialGen은 이전 방법들보다 일관되게 우수한 결과를 생성하며, 데이터를 오픈소스로 제공하여 실내 장면 이해 및 생성 분야 발전에 기여할 예정임.",
+        "keywords": [
+            "Computer Vision",
+            "3D Vision",
+            "Image Generation"
+        ]
+    }
+]
