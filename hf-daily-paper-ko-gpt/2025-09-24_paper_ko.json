@@ -1,0 +1,779 @@
+[
+    {
+        "paper": {
+            "id": "2509.18174",
+            "authors": [
+                {
+                    "_id": "68d38bec0e215259d193b388",
+                    "user": {
+                        "_id": "65276c7911a8a521c91bc10f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                        "isPro": false,
+                        "fullname": "Khalil Hennara",
+                        "user": "Hennara",
+                        "type": "user"
+                    },
+                    "name": "Khalil Hennara",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:41.543Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b389",
+                    "user": {
+                        "_id": "6496df4b3c64d75523a11973",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6496df4b3c64d75523a11973/I_Qn5-3Czngle-NsGmabO.jpeg",
+                        "isPro": false,
+                        "fullname": "Muhammad Hreden",
+                        "user": "muhammad0-0hreden",
+                        "type": "user"
+                    },
+                    "name": "Muhammad Hreden",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:34.689Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b38a",
+                    "user": {
+                        "_id": "63aa7667769a10efc404fbbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63aa7667769a10efc404fbbc/tn8ZxUmTEMS0Gze7_F7JL.jpeg",
+                        "isPro": false,
+                        "fullname": "Mohamed Motasim Hamed",
+                        "user": "Moatasem444",
+                        "type": "user"
+                    },
+                    "name": "Mohamed Motasim Hamed",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:31.754Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b38b",
+                    "user": {
+                        "_id": "662a4615cf541c92cf0062b9",
+                        "avatarUrl": "/avatars/1f0e4307edb6b441c3a807de317a6953.svg",
+                        "isPro": false,
+                        "fullname": "Ahmad Bastati",
+                        "user": "Bastati",
+                        "type": "user"
+                    },
+                    "name": "Ahmad Bastati",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:25:38.733Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b38c",
+                    "user": {
+                        "_id": "65704741e1cfce1764ce652e",
+                        "avatarUrl": "/avatars/9189aaf417426af4ebe381ed364a6c0e.svg",
+                        "isPro": false,
+                        "fullname": "Zeina Aldallal",
+                        "user": "ZeinaD",
+                        "type": "user"
+                    },
+                    "name": "Zeina Aldallal",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:37.383Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b38d",
+                    "name": "Sara Chrouf",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d38bec0e215259d193b38e",
+                    "name": "Safwan AlModhayan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-17T15:07:29.000Z",
+            "submittedOnDailyAt": "2025-09-24T04:44:39.971Z",
+            "title": "Baseer: A Vision-Language Model for Arabic Document-to-Markdown OCR",
+            "submittedOnDailyBy": {
+                "_id": "65276c7911a8a521c91bc10f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                "isPro": false,
+                "fullname": "Khalil Hennara",
+                "user": "Hennara",
+                "type": "user"
+            },
+            "summary": "Arabic document OCR remains a challenging task due to the language's cursive\nscript, diverse fonts, diacritics, and right-to-left orientation. While modern\nMultimodal Large Language Models (MLLMs) have advanced document understanding\nfor high-resource languages, their performance on Arabic remains limited. In\nthis work, we introduce Baseer, a vision-language model fine- tuned\nspecifically for Arabic document OCR. Leveraging a large-scale dataset\ncombining synthetic and real-world documents, Baseer is trained using a\ndecoder-only fine-tuning strategy to adapt a pre-trained MLLM while preserving\ngeneral visual features. We also present Misraj-DocOCR, a high-quality,\nexpert-verified benchmark designed for rigorous evaluation of Arabic OCR\nsystems. Our experiments show that Baseer significantly outperforms existing\nopen-source and commercial solutions, achieving a WER of 0.25 and establishing\na new state-of-the-art in the domain of Arabic document OCR. Our results\nhighlight the benefits of domain-specific adaptation of general-purpose MLLMs\nand establish a strong baseline for high-accuracy OCR on morphologically rich\nlanguages like Arabic.",
+            "upvotes": 77,
+            "discussionId": "68d38bec0e215259d193b38f",
+            "ai_summary": "Baseer, a vision-language model fine-tuned for Arabic document OCR, achieves state-of-the-art performance using a decoder-only strategy and a large-scale dataset, outperforming existing solutions with a WER of 0.25.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "vision-language model",
+                "decoder-only fine-tuning",
+                "Misraj-DocOCR",
+                "WER",
+                "Arabic document OCR"
+            ]
+        },
+        "translation_title": "Baseer: 아랍어 문서에서 Markdown으로의 OCR을 위한 비전-언어 모델",
+        "purpose": "아랍어 문서 OCR 성능 향상을 위한 비전-언어 모델 개발",
+        "method": [
+            "대규모 합성 및 실제 문서 데이터를 활용하여 아랍어 문서 OCR에 특화된 Baseer 모델을 학습함(Leveraging a large-scale dataset combining synthetic and real-world documents, Baseer is trained.)",
+            "미리 훈련된 MLLM을 조정하기 위한 decoder-only fine-tuning 전략을 사용함(Baseer is trained using a decoder-only fine-tuning strategy to adapt a pre-trained MLLM while preserving general visual features.)",
+            "아랍어 OCR 시스템을 엄격하게 평가하기 위한 고품질 기준인 Misraj-DocOCR을 제시함(We also present Misraj-DocOCR, a high-quality, expert-verified benchmark designed for rigorous evaluation of Arabic OCR systems.)"
+        ],
+        "conclusion": "Baseer는 기존 솔루션을 크게 초월하는 성능을 달성하며, 아랍어 문서 OCR 분야에서 새로운 최첨단 결과를 수립함.",
+        "keywords": [
+            "Document Parsing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.18644",
+            "authors": [
+                {
+                    "_id": "68d387b50e215259d193b364",
+                    "user": {
+                        "_id": "63217b064b3a874743797fa5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63217b064b3a874743797fa5/FBaU2EiZFO2R_6alDcox8.png",
+                        "isPro": false,
+                        "fullname": "JT Zhao",
+                        "user": "JTZhaoSJTU",
+                        "type": "user"
+                    },
+                    "name": "Juntu Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:57.974Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b365",
+                    "name": "Wenbo Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b366",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b367",
+                    "user": {
+                        "_id": "65d72c946a36b5b354f80cf8",
+                        "avatarUrl": "/avatars/2cfc99ccd4f52f4a60c7fa40fe4313b7.svg",
+                        "isPro": false,
+                        "fullname": "lyfeng",
+                        "user": "lyfeng001",
+                        "type": "user"
+                    },
+                    "name": "Yufeng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:54.957Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b368",
+                    "user": {
+                        "_id": "683fb536ef97de05eb2b62f2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/cAO8ffm_uin1me1zVdTuk.png",
+                        "isPro": false,
+                        "fullname": "Yushen Liang",
+                        "user": "Mirage415",
+                        "type": "user"
+                    },
+                    "name": "Yushen Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:26:00.067Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b369",
+                    "name": "Tianluo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36a",
+                    "user": {
+                        "_id": "68d38f3398cf2f221b971293",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/xk5Ew0vVsPyEY0fqirsSO.png",
+                        "isPro": false,
+                        "fullname": "Yifeng Cao",
+                        "user": "MattC401",
+                        "type": "user"
+                    },
+                    "name": "Yifeng Cao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:26:18.034Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36b",
+                    "user": {
+                        "_id": "67cfea72ad91643b5cb92b26",
+                        "avatarUrl": "/avatars/11937ee700bf6a743cb627928bebd214.svg",
+                        "isPro": false,
+                        "fullname": "Junyuan Xie",
+                        "user": "piiswrong",
+                        "type": "user"
+                    },
+                    "name": "Junyuan Xie",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:26:25.322Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36c",
+                    "name": "Yingdong Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36d",
+                    "name": "Shengjie Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36e",
+                    "user": {
+                        "_id": "66868659ccb9539da85c4e14",
+                        "avatarUrl": "/avatars/515a49363872c23d57a6f75063606348.svg",
+                        "isPro": false,
+                        "fullname": "Junliang Guo",
+                        "user": "leo-guo",
+                        "type": "user"
+                    },
+                    "name": "Junliang Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:26:42.060Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b36f",
+                    "user": {
+                        "_id": "61ad24836da53246bd6ac410",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61ad24836da53246bd6ac410/o-FL-C6B77iB94wyAtTuO.png",
+                        "isPro": false,
+                        "fullname": "Dequan Wang",
+                        "user": "dqwang",
+                        "type": "user"
+                    },
+                    "name": "Dequan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:52:50.291Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d387b50e215259d193b370",
+                    "name": "Yang Gao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-23T04:56:59.000Z",
+            "submittedOnDailyAt": "2025-09-24T04:41:47.105Z",
+            "title": "Do You Need Proprioceptive States in Visuomotor Policies?",
+            "submittedOnDailyBy": {
+                "_id": "66d01e4401f2a6b4cd93ad87",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d01e4401f2a6b4cd93ad87/qxEUHyO8WauOCLcHXfiOS.png",
+                "isPro": false,
+                "fullname": "Mohan Jiang",
+                "user": "mhjiang0408",
+                "type": "user"
+            },
+            "summary": "Imitation-learning-based visuomotor policies have been widely used in robot\nmanipulation, where both visual observations and proprioceptive states are\ntypically adopted together for precise control. However, in this study, we find\nthat this common practice makes the policy overly reliant on the proprioceptive\nstate input, which causes overfitting to the training trajectories and results\nin poor spatial generalization. On the contrary, we propose the State-free\nPolicy, removing the proprioceptive state input and predicting actions only\nconditioned on visual observations. The State-free Policy is built in the\nrelative end-effector action space, and should ensure the full task-relevant\nvisual observations, here provided by dual wide-angle wrist cameras. Empirical\nresults demonstrate that the State-free policy achieves significantly stronger\nspatial generalization than the state-based policy: in real-world tasks such as\npick-and-place, challenging shirt-folding, and complex whole-body manipulation,\nspanning multiple robot embodiments, the average success rate improves from 0\\%\nto 85\\% in height generalization and from 6\\% to 64\\% in horizontal\ngeneralization. Furthermore, they also show advantages in data efficiency and\ncross-embodiment adaptation, enhancing their practicality for real-world\ndeployment.",
+            "upvotes": 39,
+            "discussionId": "68d387b50e215259d193b371",
+            "projectPage": "https://statefreepolicy.github.io",
+            "ai_summary": "A state-free policy using only visual observations achieves better spatial generalization and data efficiency in robot manipulation tasks compared to state-based policies.",
+            "ai_keywords": [
+                "imitation-learning-based visuomotor policies",
+                "proprioceptive state input",
+                "overfitting",
+                "spatial generalization",
+                "relative end-effector action space",
+                "dual wide-angle wrist cameras",
+                "pick-and-place",
+                "shirt-folding",
+                "whole-body manipulation",
+                "cross-embodiment adaptation"
+            ]
+        },
+        "translation_title": "비주얼 모터 정책에서 고유 수용 상태가 필요한가?",
+        "purpose": "로봇 조작에서 비주얼 모터 정책의 일반화 성능을 개선하기 위해 고유 수용 상태 없이 작동하는 방법을 제안",
+        "method": [
+            "전통적인 방식에서 고유 수용 상태 입력을 제거하고 비주얼 관찰만으로 행동을 예측하는 State-free Policy를 제안함(we propose the State-free Policy, removing the proprioceptive state input and predicting actions only conditioned on visual observations.)",
+            "이 정책은 상대적인 최종 효과기 행동 공간에서 구축되어야 하며, 이를 위해 이중 광각 손목 카메라로 제공된 모든 작업 관련 시각적 관찰을 보장함(The State-free Policy is built in the relative end-effector action space, and should ensure the full task-relevant visual observations, here provided by dual wide-angle wrist cameras.)",
+            "경험적 결과를 통해 State-free Policy가 고유 수용 상태 기반 정책보다 더 강력한 공간 일반화를 달성함(Empirical results demonstrate that the State-free policy achieves significantly stronger spatial generalization than the state-based policy.)"
+        ],
+        "conclusion": "State-free Policy는 실제 환경에서의 로봇 조작 과제에서 평균 성공률을 크게 향상시키고, 데이터 효율성과 크로스 임바디먼트 적응성에서도 장점을 보여 실용성을 높임.",
+        "keywords": [
+            "Robotics",
+            "Image Understanding",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.18154",
+            "authors": [
+                {
+                    "_id": "68d351d70e215259d193b1d6",
+                    "name": "Tianyu Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1d7",
+                    "user": {
+                        "_id": "669e50bc5bc23a062865b4e4",
+                        "avatarUrl": "/avatars/22f046a3806b0940bc9b0250c0678efd.svg",
+                        "isPro": false,
+                        "fullname": "Zefan Wang",
+                        "user": "ZefanW",
+                        "type": "user"
+                    },
+                    "name": "Zefan Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:21:00.236Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1d8",
+                    "user": {
+                        "_id": "6350fa8385bdb764f6a9aa82",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6350fa8385bdb764f6a9aa82/QBp92D7x9_XImYTigBHsu.jpeg",
+                        "isPro": false,
+                        "fullname": "chongyi",
+                        "user": "yuzaa",
+                        "type": "user"
+                    },
+                    "name": "Chongyi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:53:26.793Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1d9",
+                    "name": "Fuwei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1da",
+                    "name": "Wenshuo Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1db",
+                    "user": {
+                        "_id": "659fa38f83abded48e3fd315",
+                        "avatarUrl": "/avatars/0daeaafc96306e061db411fec62ce40a.svg",
+                        "isPro": false,
+                        "fullname": "Zhihui He",
+                        "user": "HwwwH",
+                        "type": "user"
+                    },
+                    "name": "Zhihui He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:21:38.844Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1dc",
+                    "user": {
+                        "_id": "65164295d467ffdc05278d1f",
+                        "avatarUrl": "/avatars/37a7fe0088e5b9eca5479a4538242073.svg",
+                        "isPro": false,
+                        "fullname": "Cai",
+                        "user": "tianchicai",
+                        "type": "user"
+                    },
+                    "name": "Tianchi Cai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:22:32.319Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1dd",
+                    "user": {
+                        "_id": "648312243b7fe59c876c0dca",
+                        "avatarUrl": "/avatars/c26ad76cd213529e4670bb599b8199bb.svg",
+                        "isPro": false,
+                        "fullname": "weize",
+                        "user": "weizechen",
+                        "type": "user"
+                    },
+                    "name": "Weize Chen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:22:41.186Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1de",
+                    "name": "Yuxiang Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1df",
+                    "name": "Yuanqian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e0",
+                    "user": {
+                        "_id": "6415818a986557e8cac252bf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6415818a986557e8cac252bf/T4u9qjRt8P4clF4nOTA4W.jpeg",
+                        "isPro": false,
+                        "fullname": "Bokai Xu",
+                        "user": "bokesyo",
+                        "type": "user"
+                    },
+                    "name": "Bokai Xu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:23:33.165Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e1",
+                    "name": "Junbo Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e2",
+                    "name": "Yingjing Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e3",
+                    "user": {
+                        "_id": "64cb89c4aa31c5d4ec59468f",
+                        "avatarUrl": "/avatars/a2ceea672f263aeba195a231b9276522.svg",
+                        "isPro": false,
+                        "fullname": "Liqing Ruan",
+                        "user": "LiqingRuan",
+                        "type": "user"
+                    },
+                    "name": "Liqing Ruan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:23:54.623Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e4",
+                    "name": "Luoyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e5",
+                    "name": "Hanyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e6",
+                    "name": "Jingkun Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e7",
+                    "name": "Hongyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e8",
+                    "user": {
+                        "_id": "6697679343d9faa413b14a89",
+                        "avatarUrl": "/avatars/8f99d284696850285b4dbfe5d18d0035.svg",
+                        "isPro": false,
+                        "fullname": "Qining Guo",
+                        "user": "CGQN",
+                        "type": "user"
+                    },
+                    "name": "Qining Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:24:40.938Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1e9",
+                    "user": {
+                        "_id": "6497f9d0a9a46fd69e17b8de",
+                        "avatarUrl": "/avatars/d497ed3bc1c339cc6afc6c836e7954c8.svg",
+                        "isPro": false,
+                        "fullname": "Wenhao Hu",
+                        "user": "fumihwh",
+                        "type": "user"
+                    },
+                    "name": "Wenhao Hu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:24:49.196Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1ea",
+                    "user": {
+                        "_id": "64c5e944979493279b700cb2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/vjFuPWw8Vl7b7gXB19Sk-.jpeg",
+                        "isPro": false,
+                        "fullname": "Bingxiang He",
+                        "user": "hbx",
+                        "type": "user"
+                    },
+                    "name": "Bingxiang He",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:24:56.273Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1eb",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1ec",
+                    "name": "Jie Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1ed",
+                    "name": "Ji Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1ee",
+                    "user": {
+                        "_id": "6491af36c1741666238f3bff",
+                        "avatarUrl": "/avatars/0ee7d2ec1566e2cc5e8f144140e17f00.svg",
+                        "isPro": false,
+                        "fullname": "Zonghao Guo",
+                        "user": "guozonghao96",
+                        "type": "user"
+                    },
+                    "name": "Zonghao Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:25:03.767Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1ef",
+                    "name": "Chi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f0",
+                    "user": {
+                        "_id": "60cd679ef3c0385f86cb07c2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1624074137194-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Guoyang Zeng",
+                        "user": "losfen",
+                        "type": "user"
+                    },
+                    "name": "Guoyang Zeng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:25:11.023Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f1",
+                    "name": "Yuxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f2",
+                    "user": {
+                        "_id": "650eba9555dc1e841746f132",
+                        "avatarUrl": "/avatars/af6f5ee78f161d25ec0afc45d2def8eb.svg",
+                        "isPro": false,
+                        "fullname": "Ganqu Cui",
+                        "user": "ganqu",
+                        "type": "user"
+                    },
+                    "name": "Ganqu Cui",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:25:18.654Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f3",
+                    "name": "Ning Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f4",
+                    "name": "Xu Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f5",
+                    "name": "Yuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f6",
+                    "name": "Zhiyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d351d70e215259d193b1f7",
+                    "name": "Maosong Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-16T19:41:48.000Z",
+            "submittedOnDailyAt": "2025-09-24T00:35:18.789Z",
+            "title": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and\n  Training Recipe",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Multimodal Large Language Models (MLLMs) are undergoing rapid progress and\nrepresent the frontier of AI development. However, their training and inference\nefficiency have emerged as a core bottleneck in making MLLMs more accessible\nand scalable. To address the challenges, we present MiniCPM-V 4.5, an 8B\nparameter model designed for high efficiency and strong performance. We\nintroduce three core improvements in model architecture, data strategy and\ntraining method: a unified 3D-Resampler model architecture for highly compact\nencoding over images and videos, a unified learning paradigm for document\nknowledge and text recognition without heavy data engineering, and a hybrid\nreinforcement learning strategy for proficiency in both short and long\nreasoning modes. Comprehensive experimental results in OpenCompass evaluation\nshow that MiniCPM-V 4.5 surpasses widely used proprietary models such as\nGPT-4o-latest, and significantly larger open-source models such as Qwen2.5-VL\n72B. Notably, the strong performance is achieved with remarkable efficiency.\nFor example, on the widely adopted VideoMME benchmark, MiniCPM-V 4.5 achieves\nstate-of-the-art performance among models under 30B size, using just 46.7\\% GPU\nmemory cost and 8.7\\% inference time of Qwen2.5-VL 7B.",
+            "upvotes": 28,
+            "discussionId": "68d351d80e215259d193b1f8",
+            "githubRepo": "https://github.com/OpenBMB/MiniCPM-V",
+            "ai_summary": "MiniCPM-V 4.5, a 8B parameter multimodal large language model, achieves high performance and efficiency through a unified 3D-Resampler architecture, a unified learning paradigm, and a hybrid reinforcement learning strategy.",
+            "ai_keywords": [
+                "3D-Resampler",
+                "unified learning paradigm",
+                "hybrid reinforcement learning strategy",
+                "multimodal large language models",
+                "OpenCompass evaluation",
+                "VideoMME benchmark"
+            ],
+            "githubStars": 21944
+        },
+        "translation_title": "MiniCPM-V 4.5: 아키텍처, 데이터 및 훈련 레시피를 통한 효율적인 MLLMs 요리법",
+        "purpose": "MLLMs의 훈련 및 추론 효율성을 개선해 더 접근 가능하고 확장 가능하게 만들기 위해 노력함.",
+        "method": [
+            "8B 파라미터로 설계된 MiniCPM-V 4.5 모델을 도입함(we present MiniCPM-V 4.5, an 8B parameter model designed for high efficiency and strong performance.)",
+            "3D-Resampler 모델 아키텍처, 통합 학습 패러다임, 하이브리드 강화학습 전략을 통해 3가지 핵심 개선점을 제시함(we introduce three core improvements in model architecture, data strategy and training method: a unified 3D-Resampler model architecture for highly compact encoding over images and videos, a unified learning paradigm for document knowledge and text recognition without heavy data engineering, and a hybrid reinforcement learning strategy for proficiency in both short and long reasoning modes.)",
+            "OpenCompass 평가에서 MiniCPM-V 4.5가 여러 기존 모델을 초과하는 성과를 보임(Comprehensive experimental results in OpenCompass evaluation show that MiniCPM-V 4.5 surpasses widely used proprietary models such as GPT-4o-latest, and significantly larger open-source models such as Qwen2.5-VL 72B.)"
+        ],
+        "conclusion": "MiniCPM-V 4.5는 30B 크기 미만의 모델 중에서 최고의 성능을 달성하며, 우수한 효율성을 가지고 있음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.18824",
+            "authors": [
+                {
+                    "_id": "68d350cf0e215259d193b1c4",
+                    "user": {
+                        "_id": "6614cbd40bbea65e71db4e1f",
+                        "avatarUrl": "/avatars/ca8ff74887bbf8eb3f5b04ae9bb6d05b.svg",
+                        "isPro": false,
+                        "fullname": "Yanzuo Lu",
+                        "user": "oliveryanzuolu",
+                        "type": "user"
+                    },
+                    "name": "Yanzuo Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:53:29.233Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1c5",
+                    "user": {
+                        "_id": "63089a78ff78e2aead8d10e7",
+                        "avatarUrl": "/avatars/f326fd08abee7e31599a78923be30003.svg",
+                        "isPro": false,
+                        "fullname": "XinXia",
+                        "user": "XiaXin-Aloys",
+                        "type": "user"
+                    },
+                    "name": "Xin Xia",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-24T13:53:32.477Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1c6",
+                    "user": {
+                        "_id": "670dd3b3488201d7944325b9",
+                        "avatarUrl": "/avatars/25f2db41615f3ed87907a8735acc1249.svg",
+                        "isPro": false,
+                        "fullname": "Manlin Zhang",
+                        "user": "cclim",
+                        "type": "user"
+                    },
+                    "name": "Manlin Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:26:55.019Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1c7",
+                    "name": "Huafeng Kuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1c8",
+                    "user": {
+                        "_id": "641870135d6f3d15c64d074e",
+                        "avatarUrl": "/avatars/35f4b33fd1d4db326e4ee4300b26db72.svg",
+                        "isPro": false,
+                        "fullname": "Jianbin Zheng",
+                        "user": "jabir-zheng",
+                        "type": "user"
+                    },
+                    "name": "Jianbin Zheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-24T15:27:11.042Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1c9",
+                    "name": "Yuxi Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d350cf0e215259d193b1ca",
+                    "name": "Xuefeng Xiao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-23T09:12:46.000Z",
+            "submittedOnDailyAt": "2025-09-24T00:30:55.687Z",
+            "title": "Hyper-Bagel: A Unified Acceleration Framework for Multimodal\n  Understanding and Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Unified multimodal models have recently attracted considerable attention for\ntheir remarkable abilities in jointly understanding and generating diverse\ncontent. However, as contexts integrate increasingly numerous interleaved\nmultimodal tokens, the iterative processes of diffusion denoising and\nautoregressive decoding impose significant computational overhead. To address\nthis, we propose Hyper-Bagel, a unified acceleration framework designed to\nsimultaneously speed up both multimodal understanding and generation tasks. Our\napproach uses a divide-and-conquer strategy, employing speculative decoding for\nnext-token prediction and a multi-stage distillation process for diffusion\ndenoising. The framework delivers substantial performance gains, achieving over\na 2x speedup in multimodal understanding. For generative tasks, our resulting\nlossless 6-NFE model yields a 16.67x speedup in text-to-image generation and a\n22x speedup in image editing, all while preserving the high-quality output of\nthe original model. We further develop a highly efficient 1-NFE model that\nenables near real-time interactive editing and generation. By combining\nadvanced adversarial distillation with human feedback learning, this model\nachieves ultimate cost-effectiveness and responsiveness, making complex\nmultimodal interactions seamless and instantaneous.",
+            "upvotes": 16,
+            "discussionId": "68d350cf0e215259d193b1cb",
+            "projectPage": "https://hyper-bagel.github.io/",
+            "ai_summary": "Hyper-Bagel accelerates multimodal understanding and generation tasks using speculative decoding and multi-stage distillation, achieving significant speedups while maintaining high-quality outputs.",
+            "ai_keywords": [
+                "diffusion denoising",
+                "autoregressive decoding",
+                "speculative decoding",
+                "multi-stage distillation",
+                "text-to-image generation",
+                "image editing",
+                "adversarial distillation",
+                "human feedback learning"
+            ]
+        },
+        "translation_title": "Hyper-Bagel: 다중 모달 이해 및 생성을 위한 통합 가속화 프레임워크",
+        "purpose": "다중 모달 이해 및 생성 작업에서의 속도를 높이기 위한 통합 가속화 프레임워크 개발",
+        "method": [
+            "다중 모달 작업의 속도를 높이기 위해 분할 정복 전략을 사용함(To address this, we propose Hyper-Bagel, a unified acceleration framework designed to simultaneously speed up both multimodal understanding and generation tasks.)",
+            "다음 토큰 예측을 위한 추측적 디코딩을 사용하고, 확산 잡음 제거를 위한 다단계 증류 과정을 시행함(Our approach uses a divide-and-conquer strategy, employing speculative decoding for next-token prediction and a multi-stage distillation process for diffusion denoising.)",
+            "모델 성능을 크게 향상시키고, 다중 모달 이해에서 2배 이상의 속도를 달성함(The framework delivers substantial performance gains, achieving over a 2x speedup in multimodal understanding.)"
+        ],
+        "conclusion": "Hyper-Bagel은 text-to-image 생성에서 16.67배, 이미지 편집에서 22배의 속도 향상을 이루며, 높은 품질의 출력을 유지함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    }
+]
