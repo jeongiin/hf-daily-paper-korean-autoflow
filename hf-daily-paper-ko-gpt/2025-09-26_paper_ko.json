@@ -1,0 +1,582 @@
+[
+    {
+        "paper": {
+            "id": "2509.19803",
+            "authors": [
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe04",
+                    "user": {
+                        "_id": "644a1dbb9c340e5e1e713153",
+                        "avatarUrl": "/avatars/21cb93ad067a798a39829ef7e67c70b8.svg",
+                        "isPro": false,
+                        "fullname": "JGC",
+                        "user": "Nothing2Say",
+                        "type": "user"
+                    },
+                    "name": "Guochao Jiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:16:44.222Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe05",
+                    "name": "Wenfeng Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe06",
+                    "name": "Guofeng Quan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe07",
+                    "user": {
+                        "_id": "64ae631b58bd9e9cc2f5a749",
+                        "avatarUrl": "/avatars/ce6426ec3bdb618a9e449297e7f147e0.svg",
+                        "isPro": false,
+                        "fullname": "Chuzhan HAO",
+                        "user": "Chuzhan",
+                        "type": "user"
+                    },
+                    "name": "Chuzhan Hao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:16:38.565Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe08",
+                    "name": "Yuewei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe09",
+                    "name": "Guohua Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d607ad8ccd91bdd39ffe0a",
+                    "name": "Hao Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-24T06:38:58.000Z",
+            "submittedOnDailyAt": "2025-09-26T01:56:20.925Z",
+            "title": "VCRL: Variance-based Curriculum Reinforcement Learning for Large\n  Language Models",
+            "submittedOnDailyBy": {
+                "_id": "644a1dbb9c340e5e1e713153",
+                "avatarUrl": "/avatars/21cb93ad067a798a39829ef7e67c70b8.svg",
+                "isPro": false,
+                "fullname": "JGC",
+                "user": "Nothing2Say",
+                "type": "user"
+            },
+            "summary": "Policy-based reinforcement learning currently plays an important role in\nimproving LLMs on mathematical reasoning tasks. However, existing rollout-based\nreinforcement learning methods (GRPO, DAPO, GSPO, etc.) fail to explicitly\nconsider LLMs' learning ability for samples of different difficulty levels,\nwhich is contrary to the human cognitive process of mathematical reasoning\ntasks from easy to difficult. Intuitively, we find that the variance of the\nrollout group's reward in RLVR partly reflects the difficulty of the current\nsample for LLMs. Samples that are too easy or too difficult have a lower\nvariance, while samples with moderate difficulty have a higher variance. Based\non this, we propose VCRL, a curriculum reinforcement learning framework that\ndynamically controls the difficulty of training samples based on the variance\nof group rewards. Experiments on five mathematical benchmarks and two models\nreveal the advantages of VCRL over the current LLM RL baselines.",
+            "upvotes": 84,
+            "discussionId": "68d607ad8ccd91bdd39ffe0b",
+            "ai_summary": "A curriculum reinforcement learning framework dynamically adjusts training sample difficulty based on reward variance, improving LLM performance on mathematical reasoning tasks.",
+            "ai_keywords": [
+                "policy-based reinforcement learning",
+                "rollout-based reinforcement learning",
+                "GRPO",
+                "DAPO",
+                "GSPO",
+                "RLVR",
+                "curriculum reinforcement learning",
+                "VCRL",
+                "mathematical reasoning tasks",
+                "reward variance"
+            ]
+        },
+        "translation_title": "VCRL: 대형 언어 모델을 위한 분산 기반 커리큘럼 강화 학습",
+        "purpose": "다양한 난이도에 대한 LLM의 학습 능력을 고려하여 강화 학습 성능을 개선하기 위한 연구",
+        "method": [
+            "기존의 강화 학습 방법들이 LLM의 난이도에 따른 학습 능력을 고려하지 못함(However, existing rollout-based reinforcement learning methods fail to explicitly consider LLMs' learning ability for samples of different difficulty levels.)",
+            "보상 그룹의 분산을 기반으로 샘플의 난이도를 동적으로 조절하는 VCRL 커리큘럼 강화 학습 프레임워크를 제안함(Based on this, we propose VCRL, a curriculum reinforcement learning framework that dynamically controls the difficulty of training samples based on the variance of group rewards.)",
+            "다섯 개의 수학적 벤치마크와 두 개의 모델에서 VCRL의 이점을 입증함(Experiments on five mathematical benchmarks and two models reveal the advantages of VCRL over the current LLM RL baselines.)"
+        ],
+        "conclusion": "VCRL은 LLM의 수학적 추론 작업에서 기존 강화 학습 기준보다 뛰어난 성능을 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.21320",
+            "authors": [
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd60",
+                    "user": {
+                        "_id": "65dc5e84139bc4eee375a839",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65dc5e84139bc4eee375a839/jXun3fxP3uXoA7TnZ3dGI.jpeg",
+                        "isPro": false,
+                        "fullname": "Yizhou Wang",
+                        "user": "Cohesion98",
+                        "type": "user"
+                    },
+                    "name": "Yizhou Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:19:52.127Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd61",
+                    "name": "Chen Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd62",
+                    "name": "Han Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd63",
+                    "name": "Jiabei Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd64",
+                    "name": "Jiaqi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd65",
+                    "user": {
+                        "_id": "65cd955637be1841d0b75397",
+                        "avatarUrl": "/avatars/9f39725cb42d9276899fd58a91468d6a.svg",
+                        "isPro": false,
+                        "fullname": "Jianyu Wu",
+                        "user": "Uanu",
+                        "type": "user"
+                    },
+                    "name": "Jianyu Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:19:55.496Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd66",
+                    "name": "Jun Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd67",
+                    "name": "Pengze Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd68",
+                    "name": "Encheng Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd69",
+                    "name": "Lintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6a",
+                    "name": "Guohang Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6b",
+                    "name": "Yuchen Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6c",
+                    "name": "Ben Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6d",
+                    "name": "Ming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6e",
+                    "name": "Xin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd6f",
+                    "name": "Dongzhan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd70",
+                    "name": "Junjun He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd71",
+                    "name": "Xiangyu Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd72",
+                    "name": "Zhenfei Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd73",
+                    "name": "Jiamin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd74",
+                    "name": "Qihao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd75",
+                    "name": "Yuhao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd76",
+                    "name": "Huihui Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd77",
+                    "name": "Chenglong Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd78",
+                    "name": "Yan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd79",
+                    "name": "Wenlong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7a",
+                    "name": "Chunfeng Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7b",
+                    "name": "Philip Torr",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7c",
+                    "name": "Shixiang Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7d",
+                    "name": "Xinzhu Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7e",
+                    "name": "Wanli Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f2f98ccd91bdd39ffd7f",
+                    "name": "Lei Bai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-25T17:52:06.000Z",
+            "submittedOnDailyAt": "2025-09-26T00:45:16.820Z",
+            "title": "SciReasoner: Laying the Scientific Reasoning Ground Across Disciplines",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We present a scientific reasoning foundation model that aligns natural\nlanguage with heterogeneous scientific representations. The model is pretrained\non a 206B-token corpus spanning scientific text, pure sequences, and\nsequence-text pairs, then aligned via SFT on 40M instructions, annealed\ncold-start bootstrapping to elicit long-form chain-of-thought, and\nreinforcement learning with task-specific reward shaping, which instills\ndeliberate scientific reasoning. It supports four capability families, covering\nup to 103 tasks across workflows: (i) faithful translation between text and\nscientific formats, (ii) text/knowledge extraction, (iii) property prediction,\n(iv) property classification, (v) unconditional and conditional sequence\ngeneration and design. Compared with specialist systems, our approach broadens\ninstruction coverage, improves cross-domain generalization, and enhances\nfidelity. We detail data curation and training and show that cross-discipline\nlearning strengthens transfer and downstream reliability. The model, instruct\ntuning datasets and the evaluation code are open-sourced at\nhttps://huggingface.co/SciReason and\nhttps://github.com/open-sciencelab/SciReason.",
+            "upvotes": 71,
+            "discussionId": "68d5f2f98ccd91bdd39ffd80",
+            "githubRepo": "https://github.com/open-sciencelab/SciReason",
+            "ai_summary": "A scientific reasoning foundation model pre-trained on diverse scientific data supports multiple tasks and enhances cross-domain generalization and fidelity through specialized training techniques.",
+            "ai_keywords": [
+                "scientific reasoning foundation model",
+                "SFT",
+                "cold-start bootstrapping",
+                "reinforcement learning",
+                "task-specific reward shaping",
+                "chain-of-thought",
+                "translation",
+                "text/knowledge extraction",
+                "property prediction",
+                "property classification",
+                "sequence generation",
+                "sequence design",
+                "cross-discipline learning",
+                "transfer",
+                "downstream reliability"
+            ],
+            "githubStars": 35
+        },
+        "translation_title": "SciReasoner: 다양한 분야의 과학적 추론 기초 다지기",
+        "purpose": "자연어와 다양한 과학적 표현 사이의 정렬을 통해 과학적 추론을 지원하는 모델 개발",
+        "method": [
+            "206B 토큰의 과학 텍스트, 순수 시퀀스 및 시퀀스-텍스트 쌍으로 구성된 데이터로 모델을 사전 훈련함(We present a scientific reasoning foundation model that aligns natural language with heterogeneous scientific representations.)",
+            "40M 지침에 대해 SFT로 정렬하고, 장기간의 사고 과정을 이끌어내기 위해 찬화 추론을 적용함(then aligned via SFT on 40M instructions, annealed cold-start bootstrapping to elicit long-form chain-of-thought)",
+            "작업별 보상 조정으로 과학적 추론 능력을 강화함(and reinforcement learning with task-specific reward shaping, which instills deliberate scientific reasoning.)"
+        ],
+        "conclusion": "모델은 다양한 과학적 작업을 아우르며, 특별한 시스템 대비 지침 범위를 넓히고 교차 도메인 일반화를 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Scientific Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.21268",
+            "authors": [
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd93",
+                    "name": "Sicong Leng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd94",
+                    "name": "Jing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd95",
+                    "user": {
+                        "_id": "64c90edf0986bd6fa23f3c2d",
+                        "avatarUrl": "/avatars/de778ea9ef17397f3839fc4d4bbf6c06.svg",
+                        "isPro": true,
+                        "fullname": "Jiaxi",
+                        "user": "jxjessieli",
+                        "type": "user"
+                    },
+                    "name": "Jiaxi Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:19:42.255Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd96",
+                    "user": {
+                        "_id": "64b7cd74ff6d81ae297feded",
+                        "avatarUrl": "/avatars/880fbc96cc093f5e901ce84f32a1d21d.svg",
+                        "isPro": false,
+                        "fullname": "ZHANG HAO",
+                        "user": "26hzhang",
+                        "type": "user"
+                    },
+                    "name": "Hao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:19:48.387Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd97",
+                    "name": "Zhiqiang Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd98",
+                    "name": "Boqiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd99",
+                    "name": "Yuming Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9a",
+                    "name": "Hang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9b",
+                    "name": "Xin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9c",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9d",
+                    "name": "Deli Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9e",
+                    "name": "Wei Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffd9f",
+                    "user": {
+                        "_id": "642eecbf9b2484d7d8526781",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642eecbf9b2484d7d8526781/4IvGbd66s49Wx5pZyZGHA.png",
+                        "isPro": false,
+                        "fullname": "Yu Rong",
+                        "user": "Swrooy",
+                        "type": "user"
+                    },
+                    "name": "Yu Rong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:19:37.968Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffda0",
+                    "name": "Aixin Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d5f4108ccd91bdd39ffda1",
+                    "name": "Shijian Lu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-25T14:58:29.000Z",
+            "submittedOnDailyAt": "2025-09-26T00:35:18.352Z",
+            "title": "MMR1: Enhancing Multimodal Reasoning with Variance-Aware Sampling and\n  Open Resources",
+            "submittedOnDailyBy": {
+                "_id": "609115c79a8bcaa437b234a9",
+                "avatarUrl": "/avatars/1631a91030703d8397133363cf82c863.svg",
+                "isPro": true,
+                "fullname": "Leng Sicong",
+                "user": "Sicong",
+                "type": "user"
+            },
+            "summary": "Large multimodal reasoning models have achieved rapid progress, but their\nadvancement is constrained by two major limitations: the absence of open,\nlarge-scale, high-quality long chain-of-thought (CoT) data, and the instability\nof reinforcement learning (RL) algorithms in post-training. Group Relative\nPolicy Optimization (GRPO), the standard framework for RL fine-tuning, is prone\nto gradient vanishing when reward variance is low, which weakens optimization\nsignals and impairs convergence. This work makes three contributions: (1) We\npropose Variance-Aware Sampling (VAS), a data selection strategy guided by\nVariance Promotion Score (VPS) that combines outcome variance and trajectory\ndiversity to promote reward variance and stabilize policy optimization. (2) We\nrelease large-scale, carefully curated resources containing ~1.6M long CoT\ncold-start data and ~15k RL QA pairs, designed to ensure quality, difficulty,\nand diversity, along with a fully reproducible end-to-end training codebase.\n(3) We open-source a family of multimodal reasoning models in multiple scales,\nestablishing standardized baselines for the community. Experiments across\nmathematical reasoning benchmarks demonstrate the effectiveness of both the\ncurated data and the proposed VAS. Comprehensive ablation studies and analyses\nprovide further insight into the contributions of each component. In addition,\nwe theoretically establish that reward variance lower-bounds the expected\npolicy gradient magnitude, with VAS serving as a practical mechanism to realize\nthis guarantee. Our code, data, and checkpoints are available at\nhttps://github.com/LengSicong/MMR1.",
+            "upvotes": 63,
+            "discussionId": "68d5f4218ccd91bdd39ffda2",
+            "githubRepo": "https://github.com/LengSicong/MMR1",
+            "ai_summary": "Variance-Aware Sampling and large-scale CoT data improve multimodal reasoning models by stabilizing RL fine-tuning and enhancing performance on benchmarks.",
+            "ai_keywords": [
+                "Variance-Aware Sampling",
+                "Variance Promotion Score",
+                "Group Relative Policy Optimization",
+                "gradient vanishing",
+                "reward variance",
+                "policy optimization",
+                "long chain-of-thought data",
+                "multimodal reasoning models",
+                "reinforcement learning fine-tuning",
+                "mathematical reasoning benchmarks"
+            ],
+            "githubStars": 177
+        },
+        "translation_title": "MMR1: 분산 인식을 통한 멀티모달 추론 향상 및 공개 자원",
+        "purpose": "고품질의 긴 연쇄 사고(Chain-of-Thought) 데이터 부족과 강화 학습 알고리즘의 불안정성을 해결하여 멀티모달 추론 모델의 성능을 향상시키기 위한 연구",
+        "method": [
+            "분산 촉진 점수(Variance Promotion Score, VPS)를 기반으로 결과 분산과 경로 다양성을 결합한 분산 인식 샘플링(Variance-Aware Sampling, VAS) 기법을 제안하여 보상 분산을 촉진하고 정책 최적화를 안정화함(We propose Variance-Aware Sampling (VAS), a data selection strategy guided by Variance Promotion Score (VPS) that combines outcome variance and trajectory diversity to promote reward variance and stabilize policy optimization.)",
+            "약 160만 개의 긴 CoT 초기 데이터와 15,000개 RL QA 쌍으로 구성된 대규모 공개 자원을 제공하고, 품질과 다양성을 확보하기 위해 신중하게 선별함(We release large-scale, carefully curated resources containing ~1.6M long CoT cold-start data and ~15k RL QA pairs, designed to ensure quality, difficulty, and diversity.)",
+            "여러 규모의 멀티모달 추론 모델을 오픈 소싱하여 커뮤니티를 위한 표준화된 기준을 설정함(We open-source a family of multimodal reasoning models in multiple scales, establishing standardized baselines for the community.)"
+        ],
+        "conclusion": "제안된 데이터와 VAS 기법은 수학적 추론 벤치마크에서 효과성을 보여주며, 코드, 데이터 및 체크포인트가 공개되어 연구자들이 활용할 수 있도록 제공됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.21240",
+            "authors": [
+                {
+                    "_id": "68d6011f8ccd91bdd39ffdfc",
+                    "user": {
+                        "_id": "666a83e9b2d8397c1e545785",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/666a83e9b2d8397c1e545785/7PxrVl38zWUbjAsZThHHb.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuxiang Ji",
+                        "user": "Yux1ang",
+                        "type": "user"
+                    },
+                    "name": "Yuxiang Ji",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-26T12:16:47.611Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d6011f8ccd91bdd39ffdfd",
+                    "name": "Ziyu Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d6011f8ccd91bdd39ffdfe",
+                    "name": "Yong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d6011f8ccd91bdd39ffdff",
+                    "name": "Guanhua Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d6011f8ccd91bdd39ffe00",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d6011f8ccd91bdd39ffe01",
+                    "name": "Liaoni Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-25T14:37:09.000Z",
+            "submittedOnDailyAt": "2025-09-26T01:30:31.981Z",
+            "title": "Tree Search for LLM Agent Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Recent advances in reinforcement learning (RL) have significantly enhanced\nthe agentic capabilities of large language models (LLMs). In long-term and\nmulti-turn agent tasks, existing approaches driven solely by outcome rewards\noften suffer from the problem of sparse supervision. To address the challenge,\nwe propose Tree-based Group Relative Policy Optimization (Tree-GRPO), a grouped\nagent RL method based on tree search, where each tree node represents the\ncomplete agent interaction step. By sharing common prefixes, the tree search\nsampling increases the number of rollouts achievable within a fixed budget of\ntokens or tool calls. Moreover, we find that the tree-structured trajectory\nnaturally allows the construction of step-wise process supervised signals even\nusing only the outcome reward. Based on this, Tree-GRPO estimates the grouped\nrelative advantages both on intra-tree and inter-tree levels. Through\ntheoretical analysis, we demonstrate that the objective of intra-tree level\ngroup relative policy optimization is equivalent to that of step-level direct\npreference learning. Experiments across 11 datasets and 3 types of QA tasks\ndemonstrate the superiority of the proposed tree-based RL over the chain-based\nRL method.",
+            "upvotes": 51,
+            "discussionId": "68d6011f8ccd91bdd39ffe02",
+            "githubRepo": "https://github.com/AMAP-ML/Tree-GRPO",
+            "ai_summary": "Tree-based Group Relative Policy Optimization (Tree-GRPO) enhances reinforcement learning for large language models by using tree search to improve rollouts and estimate grouped relative advantages, outperforming chain-based methods.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "large language models",
+                "sparse supervision",
+                "Tree-based Group Relative Policy Optimization",
+                "tree search",
+                "rollouts",
+                "step-wise process supervised signals",
+                "intra-tree level",
+                "inter-tree level",
+                "step-level direct preference learning"
+            ],
+            "githubStars": 44
+        },
+        "translation_title": "LLM 에이전트를 위한 트리 탐색 강화 학습",
+        "purpose": "장기 및 다중 턴 에이전트 작업에서 sparse supervision 문제를 해결하기 위한 새로운 RL 방법 제안",
+        "method": [
+            "Tree-GRPO라는 트리 기반 그룹 상대 정책 최적화 방법을 제안함(we propose Tree-based Group Relative Policy Optimization (Tree-GRPO), a grouped agent RL method based on tree search)",
+            "트리 노드가 전체 에이전트 상호작용 단계를 나타내며, 공통 접두사를 공유하여 샘플링의 효율성을 높임(By sharing common prefixes, the tree search sampling increases the number of rollouts achievable within a fixed budget of tokens or tool calls)",
+            "트리 구조가 outcome reward만으로도 단계별 감독 신호를 구성할 수 있게 해줌(moreover, we find that the tree-structured trajectory naturally allows the construction of step-wise process supervised signals even using only the outcome reward)",
+            "이론적 분석을 통해 intra-tree 수준의 상대 정책 최적화 목표가 단계별 직접 선호 학습과 동등함을 증명함(through theoretical analysis, we demonstrate that the objective of intra-tree level group relative policy optimization is equivalent to that of step-level direct preference learning)"
+        ],
+        "conclusion": "제안된 트리 기반 RL 방법이 체인 기반 RL 방법보다 우수하다는 것을 11개의 데이터 세트와 3종의 QA 작업을 통해 입증함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
