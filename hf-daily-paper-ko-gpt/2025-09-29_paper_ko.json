@@ -1,0 +1,912 @@
+[
+    {
+        "paper": {
+            "id": "2509.22622",
+            "authors": [
+                {
+                    "_id": "68d9e2a20177a6054b013a05",
+                    "name": "Shuai Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a06",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a07",
+                    "name": "Ruihang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a08",
+                    "name": "Yicheng Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a09",
+                    "name": "Yuyang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0a",
+                    "name": "Xianbang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0b",
+                    "user": {
+                        "_id": "63129589bbaa385279d1826e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63129589bbaa385279d1826e/0AUs3q4ngRZ-wXuY1jP9G.jpeg",
+                        "isPro": true,
+                        "fullname": "Muyang Li",
+                        "user": "Lmxyy",
+                        "type": "user"
+                    },
+                    "name": "Muyang Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:59:10.279Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0c",
+                    "name": "Enze Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0d",
+                    "name": "Yingcong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0e",
+                    "name": "Yao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a0f",
+                    "name": "Song Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e2a20177a6054b013a10",
+                    "name": "Yukang Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T17:48:24.000Z",
+            "submittedOnDailyAt": "2025-09-29T00:52:38.341Z",
+            "title": "LongLive: Real-time Interactive Long Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "634ce90e741a5e37886a19e3",
+                "avatarUrl": "/avatars/0d1579039136b37db5b67282b0a34c33.svg",
+                "isPro": false,
+                "fullname": "Syang",
+                "user": "Andyson",
+                "type": "user"
+            },
+            "summary": "We present LongLive, a frame-level autoregressive (AR) framework for\nreal-time and interactive long video generation. Long video generation presents\nchallenges in both efficiency and quality. Diffusion and Diffusion-Forcing\nmodels can produce high-quality videos but suffer from low efficiency due to\nbidirectional attention. Causal attention AR models support KV caching for\nfaster inference, but often degrade in quality on long videos due to memory\nchallenges during long-video training. In addition, beyond static prompt-based\ngeneration, interactive capabilities, such as streaming prompt inputs, are\ncritical for dynamic content creation, enabling users to guide narratives in\nreal time. This interactive requirement significantly increases complexity,\nespecially in ensuring visual consistency and semantic coherence during prompt\ntransitions. To address these challenges, LongLive adopts a causal, frame-level\nAR design that integrates a KV-recache mechanism that refreshes cached states\nwith new prompts for smooth, adherent switches; streaming long tuning to enable\nlong video training and to align training and inference (train-long-test-long);\nand short window attention paired with a frame-level attention sink, shorten as\nframe sink, preserving long-range consistency while enabling faster generation.\nWith these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model\nto minute-long generation in just 32 GPU-days. At inference, LongLive sustains\n20.7 FPS on a single NVIDIA H100, achieves strong performance on VBench in both\nshort and long videos. LongLive supports up to 240-second videos on a single\nH100 GPU. LongLive further supports INT8-quantized inference with only marginal\nquality loss.",
+            "upvotes": 122,
+            "discussionId": "68d9e2a20177a6054b013a11",
+            "projectPage": "https://nvlabs.github.io/LongLive/",
+            "githubRepo": "https://github.com/NVlabs/LongLive",
+            "ai_summary": "LongLive is a frame-level autoregressive framework for real-time and interactive long video generation, addressing efficiency and quality challenges through causal attention, KV-recache, streaming long tuning, and short window attention.",
+            "ai_keywords": [
+                "frame-level autoregressive",
+                "diffusion models",
+                "diffusion-forcing models",
+                "bidirectional attention",
+                "causal attention",
+                "KV caching",
+                "interactive capabilities",
+                "streaming prompt inputs",
+                "KV-recache mechanism",
+                "streaming long tuning",
+                "short window attention",
+                "frame-level attention sink",
+                "frame sink",
+                "long-range consistency",
+                "VBench",
+                "INT8-quantized inference"
+            ],
+            "githubStars": 315
+        },
+        "translation_title": "LongLive: 실시간 인터랙티브 긴 비디오 생성",
+        "purpose": "실시간으로 상호작용할 수 있는 긴 비디오를 효율적이고 고품질로 생성하기 위한 프레임 레벨 오토회귀(AR) 프레임워크 개발",
+        "method": [
+            "LongLive는 상호작용을 위한 프레임 레벨 AR 디자인을 채택하고, 새로운 프롬프트로 캐시된 상태를 갱신하는 KV-recache 메커니즘을 통합함으로써 비디오 전환 시 부드럽고 일관된 변화를 지원함(To address these challenges, LongLive adopts a causal, frame-level AR design that integrates a KV-recache mechanism that refreshes cached states with new prompts for smooth, adherent switches.)",
+            "스트리밍 긴 조정을 통해 긴 비디오 훈련과 추론을 일치시키고, 짧은 창 주의와 프레임 레벨 주의 싱크를 결합하여 긴 범위의 일관성을 유지하며 빠른 생성을 가능하게 함(… streaming long tuning to enable long video training and to align training and inference (train-long-test-long); and short window attention paired with a frame-level attention sink, shortening as frame sink, preserving long-range consistency while enabling faster generation.)",
+            "LongLive는 1.3B-파라미터의 짧은 클립 모델을 미세 조정하여 단 32 GPU 일 만에 길이가 긴 비디오 생성을 달성함(With these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model to minute-long generation in just 32 GPU-days.)"
+        ],
+        "conclusion": "LongLive는 단일 NVIDIA H100에서 20.7 FPS를 유지하며 짧은 비디오와 긴 비디오에서 모두 강력한 성능을 발휘하며, INT8-양자화 추론을 지원하면서 품질 손실을 최소화함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.22611",
+            "authors": [
+                {
+                    "_id": "68d9ecb50177a6054b013a97",
+                    "user": {
+                        "_id": "664764e5d834283e7ff96d37",
+                        "avatarUrl": "/avatars/ac1d0d2c0ece1fc572e8c43f869bfdc6.svg",
+                        "isPro": false,
+                        "fullname": "Junkang Wu",
+                        "user": "junkang0909",
+                        "type": "user"
+                    },
+                    "name": "Junkang Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:39.458Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ecb50177a6054b013a98",
+                    "user": {
+                        "_id": "6547a247dbce6bd2be168d33",
+                        "avatarUrl": "/avatars/23ae384f7c4fc1a89a556a37f5e75acf.svg",
+                        "isPro": false,
+                        "fullname": "Kexin Huang",
+                        "user": "737443h",
+                        "type": "user"
+                    },
+                    "name": "Kexin Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:26:45.936Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ecb50177a6054b013a99",
+                    "name": "Jiancan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ecb50177a6054b013a9a",
+                    "name": "An Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ecb50177a6054b013a9b",
+                    "user": {
+                        "_id": "65fca775fa59bdf4737b1a84",
+                        "avatarUrl": "/avatars/a161b510bde8f57e7686cbb0b4aa6a52.svg",
+                        "isPro": false,
+                        "fullname": "Xiang Wang",
+                        "user": "xiangwang1223",
+                        "type": "user"
+                    },
+                    "name": "Xiang Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:37.188Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ecb50177a6054b013a9c",
+                    "name": "Xiangnan He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T17:37:52.000Z",
+            "submittedOnDailyAt": "2025-09-29T00:55:10.422Z",
+            "title": "Quantile Advantage Estimation for Entropy-Safe Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "664764e5d834283e7ff96d37",
+                "avatarUrl": "/avatars/ac1d0d2c0ece1fc572e8c43f869bfdc6.svg",
+                "isPro": false,
+                "fullname": "Junkang Wu",
+                "user": "junkang0909",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) strengthens LLM\nreasoning, but training often oscillates between {entropy collapse} and\n{entropy explosion}. We trace both hazards to the mean baseline used in\nvalue-free RL (e.g., GRPO and DAPO), which improperly penalizes\nnegative-advantage samples under reward outliers. We propose {Quantile\nAdvantage Estimation} (QAE), replacing the mean with a group-wise K-quantile\nbaseline. QAE induces a response-level, two-regime gate: on hard queries (p <=\n1 - K) it reinforces rare successes, while on easy queries (p > 1 - K) it\ntargets remaining failures. Under first-order softmax updates, we prove\n{two-sided entropy safety}, giving lower and upper bounds on one-step entropy\nchange that curb explosion and prevent collapse. Empirically, this minimal\nmodification stabilizes entropy, sparsifies credit assignment (with tuned K,\nroughly 80% of responses receive zero advantage), and yields sustained pass@1\ngains on Qwen3-8B/14B-Base across AIME 2024/2025 and AMC 2023. These results\nidentify {baseline design} -- rather than token-level heuristics -- as the\nprimary mechanism for scaling RLVR.",
+            "upvotes": 97,
+            "discussionId": "68d9ecb60177a6054b013a9d",
+            "githubRepo": "https://github.com/junkangwu/QAE",
+            "ai_summary": "Quantile Advantage Estimation stabilizes reinforcement learning with verifiable rewards by addressing entropy issues and improving performance on large language models.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "entropy collapse",
+                "entropy explosion",
+                "value-free RL",
+                "GRPO",
+                "DAPO",
+                "Quantile Advantage Estimation",
+                "K-quantile baseline",
+                "two-sided entropy safety",
+                "pass@1",
+                "AIME",
+                "AMC",
+                "baseline design"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "엔트로피 안전 추론을 위한 분위수 이점 추정",
+        "purpose": "Reinforcement Learning에서 훈련의 안정성을 높이기 위한 새로운 방법 연구",
+        "method": [
+            "기존의 평균 기반 접근법 대신 K-분위수 기준을 사용하는 분위수 이점 추정(QAE)을 제안함(We propose {Quantile Advantage Estimation} (QAE), replacing the mean with a group-wise K-quantile baseline.)",
+            "어려운 쿼리에서는 드문 성공을 강화하고 쉬운 쿼리에서는 남아있는 실패를 타겟팅하는 두 가지 방식의 게이트를 설정함(QAE induces a response-level, two-regime gate: on hard queries (p <= 1 - K) it reinforces rare successes, while on easy queries (p > 1 - K) it targets remaining failures.)",
+            "첫 번째 차수 softmax 업데이트 하에 두 측면의 엔트로피 안전성을 증명함(Under first-order softmax updates, we prove {two-sided entropy safety}.)"
+        ],
+        "conclusion": "QAE는 엔트로피를 안정화하고, 신뢰할 수 있는 성과를 지속적으로 올릴 수 있는 효과적인 방법임.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Entropy Safety"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.22186",
+            "authors": [
+                {
+                    "_id": "68d9ebf80177a6054b013a58",
+                    "name": "Junbo Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a59",
+                    "user": {
+                        "_id": "6625ef13605f46d05c1d0031",
+                        "avatarUrl": "/avatars/22f201dca35e43013cb593884516e96c.svg",
+                        "isPro": false,
+                        "fullname": "Zheng Liu",
+                        "user": "starriver030515",
+                        "type": "user"
+                    },
+                    "name": "Zheng Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:26:48.737Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5a",
+                    "name": "Zhuangcheng Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5b",
+                    "user": {
+                        "_id": "63ae9ff5557befe297a76f90",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1672388558183-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Bin Wang",
+                        "user": "wanderkid",
+                        "type": "user"
+                    },
+                    "name": "Bin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:46.158Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5c",
+                    "user": {
+                        "_id": "66753c556f2ac48ee625d7d1",
+                        "avatarUrl": "/avatars/8f7c252675fd8a096794d12971903722.svg",
+                        "isPro": false,
+                        "fullname": "Linke Ouyang",
+                        "user": "ouyanglinke",
+                        "type": "user"
+                    },
+                    "name": "Linke Ouyang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:26:51.347Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5d",
+                    "name": "Zhiyuan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5e",
+                    "name": "Tao Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a5f",
+                    "user": {
+                        "_id": "65b8c55130839a0db8cdc496",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65b8c55130839a0db8cdc496/REpRsa1ts84yjk1GyyfnT.png",
+                        "isPro": false,
+                        "fullname": "Tianyao He",
+                        "user": "hotelll",
+                        "type": "user"
+                    },
+                    "name": "Tianyao He",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:27:08.370Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a60",
+                    "name": "Fan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a61",
+                    "name": "Qintong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a62",
+                    "name": "Zhenjiang Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a63",
+                    "name": "Guang Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a64",
+                    "name": "Rui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a65",
+                    "name": "Wenzheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a66",
+                    "name": "Yuan Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a67",
+                    "name": "Zhifei Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a68",
+                    "user": {
+                        "_id": "68231f20feab9d28e37f17e1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68231f20feab9d28e37f17e1/hikWkWYg1zmKfU3kLSKeu.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuefeng Sun",
+                        "user": "SunYuefeng",
+                        "type": "user"
+                    },
+                    "name": "Yuefeng Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:27:04.835Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a69",
+                    "name": "Yuanhong Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6a",
+                    "name": "Dongsheng Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6b",
+                    "name": "Zirui Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6c",
+                    "name": "Boyu Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6d",
+                    "name": "Ziyang Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6e",
+                    "name": "Hejun Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a6f",
+                    "name": "Siyi Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a70",
+                    "name": "Junyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a71",
+                    "name": "Jingzhou Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a72",
+                    "name": "Fangdong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a73",
+                    "name": "Xiaomeng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a74",
+                    "name": "Liqun Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a75",
+                    "name": "Wei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a76",
+                    "name": "Shasha Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a77",
+                    "name": "Ruiliang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a78",
+                    "name": "Yuanyuan Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a79",
+                    "name": "Lu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7a",
+                    "name": "Qianqian Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7b",
+                    "name": "Huaiyu Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7c",
+                    "name": "Lindong Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7d",
+                    "name": "Keming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7e",
+                    "name": "Dechen Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a7f",
+                    "name": "Guanlin Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a80",
+                    "name": "Xuanhe Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a81",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a82",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/kajwuVzd4pDucSPlwghxo.png",
+                        "isPro": false,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:52.431Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a83",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a84",
+                    "user": {
+                        "_id": "64b4eec4faa3181a5eab9c46",
+                        "avatarUrl": "/avatars/bcc9bf5cbf67546ad2b4c9ec8b96ac96.svg",
+                        "isPro": true,
+                        "fullname": "Jiaqi Wang",
+                        "user": "myownskyW7",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:49.303Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a85",
+                    "name": "Bo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a86",
+                    "name": "Lei Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a87",
+                    "user": {
+                        "_id": "64c9beb2904317f42de06dd8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c9beb2904317f42de06dd8/he3rxfyzfwEd1vLuK6_o2.jpeg",
+                        "isPro": false,
+                        "fullname": "Pei Chu",
+                        "user": "chupei",
+                        "type": "user"
+                    },
+                    "name": "Pei Chu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:41.995Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a88",
+                    "name": "Weijia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a89",
+                    "name": "Jiang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8a",
+                    "name": "Lijun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8b",
+                    "name": "Zhenxiang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8c",
+                    "name": "Guangyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8d",
+                    "name": "Zhongying Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8e",
+                    "name": "Chao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a8f",
+                    "name": "Kai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a90",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a91",
+                    "name": "Bowen Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a92",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a93",
+                    "name": "Wentao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ebf80177a6054b013a94",
+                    "name": "Conghui He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T10:45:48.000Z",
+            "submittedOnDailyAt": "2025-09-29T00:46:33.156Z",
+            "title": "MinerU2.5: A Decoupled Vision-Language Model for Efficient\n  High-Resolution Document Parsing",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language\nmodel that achieves state-of-the-art recognition accuracy while maintaining\nexceptional computational efficiency. Our approach employs a coarse-to-fine,\ntwo-stage parsing strategy that decouples global layout analysis from local\ncontent recognition. In the first stage, the model performs efficient layout\nanalysis on downsampled images to identify structural elements, circumventing\nthe computational overhead of processing high-resolution inputs. In the second\nstage, guided by the global layout, it performs targeted content recognition on\nnative-resolution crops extracted from the original image, preserving\nfine-grained details in dense text, complex formulas, and tables. To support\nthis strategy, we developed a comprehensive data engine that generates diverse,\nlarge-scale training corpora for both pretraining and fine-tuning. Ultimately,\nMinerU2.5 demonstrates strong document parsing ability, achieving\nstate-of-the-art performance on multiple benchmarks, surpassing both\ngeneral-purpose and domain-specific models across various recognition tasks,\nwhile maintaining significantly lower computational overhead.",
+            "upvotes": 74,
+            "discussionId": "68d9ebf80177a6054b013a95",
+            "projectPage": "https://opendatalab.github.io/MinerU/",
+            "githubRepo": "https://github.com/opendatalab/MinerU",
+            "ai_summary": "MinerU2.5, a 1.2B-parameter document parsing vision-language model, achieves state-of-the-art recognition accuracy with computational efficiency through a coarse-to-fine parsing strategy.",
+            "ai_keywords": [
+                "document parsing",
+                "vision-language model",
+                "coarse-to-fine",
+                "two-stage parsing",
+                "layout analysis",
+                "content recognition",
+                "downsampled images",
+                "native-resolution crops",
+                "data engine",
+                "pretraining",
+                "fine-tuning",
+                "state-of-the-art performance",
+                "computational overhead"
+            ],
+            "githubStars": 44920
+        },
+        "translation_title": "MinerU2.5: 효율적인 고해상도 문서 파싱을 위한 분리형 비전-언어 모델",
+        "purpose": "문서 파싱의 인식 정확도를 높이면서도 계산 효율성을 유지하기 위한 모델 개발",
+        "method": [
+            "1.2B 매개변수를 가진 비전-언어 모델 MinerU2.5를 제안함(We introduce MinerU2.5, a 1.2B-parameter document parsing vision-language model...)",
+            "두 단계의 분리된 파싱 전략을 적용하여 전역 레이아웃 분석과 지역 콘텐츠 인식을 분리함(Our approach employs a coarse-to-fine, two-stage parsing strategy that decouples global layout analysis from local content recognition.)",
+            "첫 단계에서 다운샘플링된 이미지를 사용하여 효율적인 레이아웃 분석을 수행하고( In the first stage, the model performs efficient layout analysis on downsampled images...)",
+            "두 번째 단계에서는 전역 레이아웃을 바탕으로 원본 이미지에서 추출된 고해상도 이미지에 대한 정밀한 콘텐츠 인식을 수행함(In the second stage, guided by the global layout, it performs targeted content recognition on native-resolution crops...)."
+        ],
+        "conclusion": "MinerU2.5는 여러 벤치마크에서 최고의 성과를 내며, 다양한 인식 작업에서 일반 모델과 도메인 특화 모델을 초월하면서도 계산 비용을 크게 줄임.",
+        "keywords": [
+            "Document Parsing",
+            "Vision-Language Models",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.22576",
+            "authors": [
+                {
+                    "_id": "68d9e47c0177a6054b013a13",
+                    "user": {
+                        "_id": "678523aee670c62966974feb",
+                        "avatarUrl": "/avatars/0a0619232f170e517e05657e0ca84699.svg",
+                        "isPro": false,
+                        "fullname": "Wujiang Xu",
+                        "user": "Iscarrot",
+                        "type": "user"
+                    },
+                    "name": "Xu Wujiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:59:06.613Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a14",
+                    "name": "Wentian Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a15",
+                    "user": {
+                        "_id": "64dfcc62e8b6f3f3baa950e0",
+                        "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+                        "isPro": false,
+                        "fullname": "Zhenting Wang",
+                        "user": "ztwang",
+                        "type": "user"
+                    },
+                    "name": "Zhenting Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T11:27:35.286Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a16",
+                    "name": "Li Yu-Jhe",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a17",
+                    "name": "Jin Can",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a18",
+                    "name": "Jin Mingyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a19",
+                    "name": "Mei Kai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a1a",
+                    "user": {
+                        "_id": "66274e02348a5304435dc9cc",
+                        "avatarUrl": "/avatars/bda87559cd497c310597c2fc8430b31f.svg",
+                        "isPro": false,
+                        "fullname": "Kun Wan",
+                        "user": "timecuriosity",
+                        "type": "user"
+                    },
+                    "name": "Wan Kun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:59:02.080Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9e47c0177a6054b013a1b",
+                    "name": "Metaxas Dimitris",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T16:51:44.000Z",
+            "submittedOnDailyAt": "2025-09-29T00:52:23.571Z",
+            "title": "EPO: Entropy-regularized Policy Optimization for LLM Agents\n  Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "64dfcc62e8b6f3f3baa950e0",
+                "avatarUrl": "/avatars/21bbff67d46c08044efe2406575aa77e.svg",
+                "isPro": false,
+                "fullname": "Zhenting Wang",
+                "user": "ztwang",
+                "type": "user"
+            },
+            "summary": "Training LLM agents in multi-turn environments with sparse rewards, where\ncompleting a single task requires 30+ turns of interaction within an episode,\npresents a fundamental challenge for reinforcement learning. We identify a\ncritical failure mode unique to this setting: the exploration-exploitation\ncascade failure. This cascade begins with early-stage policy premature\nconvergence, where sparse feedback causes agents to commit to flawed,\nlow-entropy strategies. Subsequently, agents enter late-stage policy collapse,\nwhere conventional entropy regularization becomes counterproductive, promoting\nchaotic exploration that destabilizes training. We propose Entropy-regularized\nPolicy Optimization (EPO), a general framework that breaks this failure cycle\nthrough three synergistic mechanisms: (1) adopting entropy regularization in\nmulti-turn settings to enhance exploration, (2) an entropy smoothing\nregularizer that bounds policy entropy within historical averages to prevent\nabrupt fluctuations, and (3) adaptive phase-based weighting that balances\nexploration and exploitation across training. Our analysis justifies that EPO\nguarantees monotonically decreasing entropy variance while maintaining\nconvergence. EPO achieves up to 152% performance improvement on ScienceWorld\nand up to 19.8% on ALFWorld. Our work demonstrates that multi-turn\nsparse-reward settings require fundamentally different entropy control than\ntraditional RL, with broad implications for LLM agent training.",
+            "upvotes": 66,
+            "discussionId": "68d9e47c0177a6054b013a1c",
+            "ai_summary": "Entropy-regularized Policy Optimization (EPO) addresses exploration-exploitation challenges in multi-turn environments with sparse rewards, improving performance in tasks like ScienceWorld and ALFWorld.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "exploration-exploitation cascade failure",
+                "premature convergence",
+                "policy collapse",
+                "entropy regularization",
+                "entropy smoothing regularizer",
+                "adaptive phase-based weighting",
+                "entropy variance",
+                "ScienceWorld",
+                "ALFWorld"
+            ]
+        },
+        "translation_title": "EPO: LLM 에이전트를 위한 엔트로피 정규화 정책 최적화",
+        "purpose": "Sparse rewards 환경에서 multi-turn 작업을 수행하는 LLM 에이전트의 강화 학습 문제 해결",
+        "method": [
+            "Sparse reward 환경에서 policy의 premature convergence를 방지하기 위한 엔트로피 정규화 적용(We propose Entropy-regularized Policy Optimization (EPO), a general framework that breaks this failure cycle through three synergistic mechanisms:  adopting entropy regularization in multi-turn settings to enhance exploration.)",
+            "정책 엔트로피를 안정적으로 유지하기 위한 엔트로피 스무딩 정규화기 도입(2) an entropy smoothing regularizer that bounds policy entropy within historical averages to prevent abrupt fluctuations)",
+            "탐색과 활용의 균형을 맞추기 위한 적응형 단계 기반 가중치 적용(3) adaptive phase-based weighting that balances exploration and exploitation across training.)"
+        ],
+        "conclusion": "EPO는 강화 학습에서 엔트로피 변동성을 지속적으로 감소시키며, LLM 에이전트 훈련을 위한 새로운 접근 방식을 제시함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.22637",
+            "authors": [
+                {
+                    "_id": "68d9ef7a0177a6054b013ad7",
+                    "user": {
+                        "_id": "66129c7b50350afe76757262",
+                        "avatarUrl": "/avatars/a2f4fac076b9d658a0d904ed54960f6f.svg",
+                        "isPro": false,
+                        "fullname": "Xiangxin Zhou",
+                        "user": "zhouxiangxin",
+                        "type": "user"
+                    },
+                    "name": "Xiangxin Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-29T05:58:24.272Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013ad8",
+                    "name": "Zichen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013ad9",
+                    "name": "Haonan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013ada",
+                    "name": "Chao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013adb",
+                    "name": "Min Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013adc",
+                    "user": {
+                        "_id": "64c07b488e2612254361153b",
+                        "avatarUrl": "/avatars/ade0f783cc4c2d3e73f402637f595471.svg",
+                        "isPro": false,
+                        "fullname": "chongxuan li",
+                        "user": "zhenxuan00",
+                        "type": "user"
+                    },
+                    "name": "Chongxuan Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-09-29T13:10:55.814Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013add",
+                    "name": "Liang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68d9ef7a0177a6054b013ade",
+                    "name": "Tianyu Pang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T17:58:10.000Z",
+            "submittedOnDailyAt": "2025-09-29T01:02:16.493Z",
+            "title": "Variational Reasoning for Language Models",
+            "submittedOnDailyBy": {
+                "_id": "63d91b6d255ef6add20e1b38",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1675921369867-63d91b6d255ef6add20e1b38.jpeg",
+                "isPro": false,
+                "fullname": "Tianyu Pang",
+                "user": "P2333",
+                "type": "user"
+            },
+            "summary": "We introduce a variational reasoning framework for language models that\ntreats thinking traces as latent variables and optimizes them through\nvariational inference. Starting from the evidence lower bound (ELBO), we extend\nit to a multi-trace objective for tighter bounds and propose a forward-KL\nformulation that stabilizes the training of the variational posterior. We\nfurther show that rejection sampling finetuning and binary-reward RL, including\nGRPO, can be interpreted as local forward-KL objectives, where an implicit\nweighting by model accuracy naturally arises from the derivation and reveals a\npreviously unnoticed bias toward easier questions. We empirically validate our\nmethod on the Qwen 2.5 and Qwen 3 model families across a wide range of\nreasoning tasks. Overall, our work provides a principled probabilistic\nperspective that unifies variational inference with RL-style methods and yields\nstable objectives for improving the reasoning ability of language models. Our\ncode is available at https://github.com/sail-sg/variational-reasoning.",
+            "upvotes": 50,
+            "discussionId": "68d9ef7b0177a6054b013adf",
+            "githubRepo": "https://github.com/sail-sg/variational-reasoning",
+            "ai_summary": "A variational reasoning framework treats thinking traces as latent variables, optimizing them through variational inference to improve language model reasoning.",
+            "ai_keywords": [
+                "variational reasoning framework",
+                "latent variables",
+                "variational inference",
+                "evidence lower bound (ELBO)",
+                "multi-trace objective",
+                "forward-KL formulation",
+                "rejection sampling finetuning",
+                "binary-reward RL",
+                "GRPO",
+                "implicit weighting",
+                "model accuracy",
+                "probabilistic perspective",
+                "RL-style methods"
+            ]
+        },
+        "translation_title": "언어 모델을 위한 변분 추론",
+        "purpose": "언어 모델의 추론 능력을 향상시키기 위한 안정적인 목적 함수 개발",
+        "method": [
+            "변분 추론을 통해 생각의 흔적을 잠재 변수로 취급하고 이를 최적화하는 변분 추론 프레임워크를 제안함(We introduce a variational reasoning framework for language models that treats thinking traces as latent variables and optimizes them through variational inference.)",
+            "증거 하한(ELBO)을 다중 추적 목표로 확장하여 더 타이트한 한계를 제안함(Starting from the evidence lower bound (ELBO), we extend it to a multi-trace objective for tighter bounds.)",
+            "Qwen 2.5 및 Qwen 3 모델 패밀리를 대상으로 다양한 추론 작업에서 이 방법을 경험적으로 검증함(We empirically validate our method on the Qwen 2.5 and Qwen 3 model families across a wide range of reasoning tasks.)"
+        ],
+        "conclusion": "이 연구는 변분 추론과 RL 스타일 방법을 통합하여 언어 모델의 추론 능력을 향상시키기 위한 원리적인 확률적 관점을 제공합니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
