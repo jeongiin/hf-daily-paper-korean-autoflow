@@ -1,0 +1,675 @@
+[
+    {
+        "paper": {
+            "id": "2509.24006",
+            "authors": [
+                {
+                    "_id": "68db424ed2bf1f4b15ec730a",
+                    "user": {
+                        "_id": "66c0a08bac74db25de8427ec",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c0a08bac74db25de8427ec/9D-piDBZqSt6KNkHImmkv.jpeg",
+                        "isPro": false,
+                        "fullname": "Jintao Zhang",
+                        "user": "jt-zhang",
+                        "type": "user"
+                    },
+                    "name": "Jintao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T06:32:43.935Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec730b",
+                    "name": "Haoxu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec730c",
+                    "name": "Kai Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec730d",
+                    "name": "Shuo Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec730e",
+                    "name": "Kaiwen Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec730f",
+                    "name": "Haocheng Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7310",
+                    "name": "Ziteng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7311",
+                    "name": "Hongzhou Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7312",
+                    "name": "Min Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7313",
+                    "name": "Ion Stoica",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7314",
+                    "name": "Joseph E. Gonzalez",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7315",
+                    "name": "Jun Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db424ed2bf1f4b15ec7316",
+                    "name": "Jianfei Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-28T17:58:59.000Z",
+            "submittedOnDailyAt": "2025-09-30T01:13:12.259Z",
+            "title": "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable\n  Sparse-Linear Attention",
+            "submittedOnDailyBy": {
+                "_id": "66c0a08bac74db25de8427ec",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c0a08bac74db25de8427ec/9D-piDBZqSt6KNkHImmkv.jpeg",
+                "isPro": false,
+                "fullname": "Jintao Zhang",
+                "user": "jt-zhang",
+                "type": "user"
+            },
+            "summary": "In Diffusion Transformer (DiT) models, particularly for video generation,\nattention latency is a major bottleneck due to the long sequence length and the\nquadratic complexity. We find that attention weights can be separated into two\nparts: a small fraction of large weights with high rank and the remaining\nweights with very low rank. This naturally suggests applying sparse\nacceleration to the first part and low-rank acceleration to the second. Based\non this finding, we propose SLA (Sparse-Linear Attention), a trainable\nattention method that fuses sparse and linear attention to accelerate diffusion\nmodels. SLA classifies attention weights into critical, marginal, and\nnegligible categories, applying O(N^2) attention to critical weights, O(N)\nattention to marginal weights, and skipping negligible ones. SLA combines these\ncomputations into a single GPU kernel and supports both forward and backward\npasses. With only a few fine-tuning steps using SLA, DiT models achieve a 20x\nreduction in attention computation, resulting in significant acceleration\nwithout loss of generation quality. Experiments show that SLA reduces attention\ncomputation by 95% without degrading end-to-end generation quality,\noutperforming baseline methods. In addition, we implement an efficient GPU\nkernel for SLA, which yields a 13.7x speedup in attention computation and a\n2.2x end-to-end speedup in video generation on Wan2.1-1.3B.",
+            "upvotes": 93,
+            "discussionId": "68db424fd2bf1f4b15ec7317",
+            "ai_summary": "SLA, a trainable attention method combining sparse and linear attention, accelerates Diffusion Transformer models for video generation with minimal quality loss.",
+            "ai_keywords": [
+                "Diffusion Transformer",
+                "attention latency",
+                "sequence length",
+                "quadratic complexity",
+                "sparse acceleration",
+                "low-rank acceleration",
+                "SLA",
+                "critical weights",
+                "marginal weights",
+                "negligible weights",
+                "GPU kernel",
+                "fine-tuning",
+                "attention computation",
+                "generation quality",
+                "end-to-end speedup"
+            ]
+        },
+        "translation_title": "SLA: 미세 조정 가능한 희소-선형 주의를 통한 확산 변환기에서의 희소성 초월",
+        "purpose": "비디오 생성에 있어 주의(latency) 문제를 해결하고 확산 모델을 가속화하기 위한 방법 제안",
+        "method": [
+            "희소한 가속 적용을 위해 주의 가중치를 중요, 주변, 무시 가능한 카테고리로 분류함(We find that attention weights can be separated into two parts: a small fraction of large weights with high rank and the remaining weights with very low rank.)",
+            "희소-선형 주의(SLA) 방법을 제안하여, 희소성과 선형 주의를 융합하여 확산 모델을 가속화함(Based on this finding, we propose SLA (Sparse-Linear Attention), a trainable attention method that fuses sparse and linear attention to accelerate diffusion models.)",
+            "SLA를 사용하여 몇 번의 미세 조정을 통해 주의 계산을 20배 감소시킴(With only a few fine-tuning steps using SLA, DiT models achieve a 20x reduction in attention computation)."
+        ],
+        "conclusion": "SLA는 주의 계산을 95% 줄이고 생성 품질을 유지하며, 주의 계산을 위한 효율적인 GPU 커널을 구현하여 비디오 생성 속도를 2.2배 가속화함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.22220",
+            "authors": [
+                {
+                    "_id": "68dba222d2bf1f4b15ec792e",
+                    "user": {
+                        "_id": "62b076f6bcd06fe282983c36",
+                        "avatarUrl": "/avatars/0086306236782ac1ce241b296ad215b2.svg",
+                        "isPro": false,
+                        "fullname": "Yuhan SONG",
+                        "user": "QbethQ",
+                        "type": "user"
+                    },
+                    "name": "Yuhan Song",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T10:17:34.115Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec792f",
+                    "name": "Linhao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec7930",
+                    "name": "Chuhan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec7931",
+                    "name": "Aiwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec7932",
+                    "name": "Wei Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec7933",
+                    "name": "Houfeng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dba222d2bf1f4b15ec7934",
+                    "name": "Xiao Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-26T11:32:51.000Z",
+            "submittedOnDailyAt": "2025-09-30T09:11:35.111Z",
+            "title": "StableToken: A Noise-Robust Semantic Speech Tokenizer for Resilient\n  SpeechLLMs",
+            "submittedOnDailyBy": {
+                "_id": "62b076f6bcd06fe282983c36",
+                "avatarUrl": "/avatars/0086306236782ac1ce241b296ad215b2.svg",
+                "isPro": false,
+                "fullname": "Yuhan SONG",
+                "user": "QbethQ",
+                "type": "user"
+            },
+            "summary": "Prevalent semantic speech tokenizers, designed to capture linguistic content,\nare surprisingly fragile. We find they are not robust to meaning-irrelevant\nacoustic perturbations; even at high Signal-to-Noise Ratios (SNRs) where speech\nis perfectly intelligible, their output token sequences can change drastically,\nincreasing the learning burden for downstream LLMs. This instability stems from\ntwo flaws: a brittle single-path quantization architecture and a distant\ntraining signal indifferent to intermediate token stability. To address this,\nwe introduce StableToken, a tokenizer that achieves stability through a\nconsensus-driven mechanism. Its multi-branch architecture processes audio in\nparallel, and these representations are merged via a powerful bit-wise voting\nmechanism to form a single, stable token sequence. StableToken sets a new\nstate-of-the-art in token stability, drastically reducing Unit Edit Distance\n(UED) under diverse noise conditions. This foundational stability translates\ndirectly to downstream benefits, significantly improving the robustness of\nSpeechLLMs on a variety of tasks.",
+            "upvotes": 56,
+            "discussionId": "68dba222d2bf1f4b15ec7935",
+            "ai_summary": "StableToken, a multi-branch consensus-driven tokenizer, enhances token stability and robustness in speech processing, improving SpeechLLMs' performance under noisy conditions.",
+            "ai_keywords": [
+                "semantic speech tokenizers",
+                "acoustic perturbations",
+                "Signal-to-Noise Ratios",
+                "SNRs",
+                "learning burden",
+                "downstream LLMs",
+                "brittle single-path quantization",
+                "training signal",
+                "multi-branch architecture",
+                "bit-wise voting mechanism",
+                "token stability",
+                "Unit Edit Distance",
+                "UED",
+                "SpeechLLMs"
+            ]
+        },
+        "translation_title": "StableToken: 강건한 음성 LLM을 위한 소음 저항 의미 음성 토크나이저",
+        "purpose": "소음에 강한 의미 음성 토크나이저를 개발하여 음성 LLM의 안정성을 높이는 것",
+        "method": [
+            "새로운 StableToken을 소개하여 합의 기반의 메커니즘을 통해 안정성을 달성함(we introduce StableToken, a tokenizer that achieves stability through a consensus-driven mechanism.)",
+            "다중 분기 아키텍처를 사용하여 오디오를 병렬로 처리하고, 강력한 비트 단위 투표 메커니즘을 통해 단일의 안정적인 토큰 시퀀스 생성함(Its multi-branch architecture processes audio in parallel, and these representations are merged via a powerful bit-wise voting mechanism to form a single, stable token sequence.)",
+            "다양한 소음 조건에서 단위 편집 거리(UED)를 크게 줄이며 토큰 안정성에서 새로운 최첨단 성과를 세움(StableToken sets a new state-of-the-art in token stability, drastically reducing Unit Edit Distance (UED) under diverse noise conditions.)"
+        ],
+        "conclusion": "StableToken은 다양한 작업에서 SpeechLLMs의 강건성을 크게 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Speech Recognition"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.23102",
+            "authors": [
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7323",
+                    "name": "Fang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7324",
+                    "name": "Xu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7325",
+                    "user": {
+                        "_id": "65b8909c89eb3dfbe8d26780",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65b8909c89eb3dfbe8d26780/aJExXsCN9oQOdd9bsQOEO.jpeg",
+                        "isPro": false,
+                        "fullname": "Weihao XUAN",
+                        "user": "weihao1115",
+                        "type": "user"
+                    },
+                    "name": "Weihao Xuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T06:32:41.015Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7326",
+                    "name": "Zhiwei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7327",
+                    "name": "Yijia Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7328",
+                    "name": "Guancheng Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec7329",
+                    "name": "Xiaomin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec732a",
+                    "name": "Bing Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec732b",
+                    "name": "Peng Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec732c",
+                    "name": "Jure Leskovec",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db42f2d2bf1f4b15ec732d",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-27T04:18:33.000Z",
+            "submittedOnDailyAt": "2025-09-30T01:12:14.832Z",
+            "title": "Multiplayer Nash Preference Optimization",
+            "submittedOnDailyBy": {
+                "_id": "675e0d5cdd3e9eeed6954f5a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7oMEoBmaFiCR9K2q9Z_7q.png",
+                "isPro": false,
+                "fullname": "Fang Wu",
+                "user": "fangwu97",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning from human feedback (RLHF) has emerged as the standard\nparadigm for aligning large language models (LLMs) with human preferences.\nHowever, reward-based methods built on the Bradley-Terry assumption struggle to\ncapture the non-transitive and heterogeneous nature of real-world preferences.\nTo address this, recent studies have reframed alignment as a two-player Nash\ngame, giving rise to Nash learning from human feedback (NLHF). While this\nperspective has inspired algorithms such as INPO, ONPO, and EGPO with strong\ntheoretical and empirical guarantees, they remain fundamentally restricted to\ntwo-player interactions, creating a single-opponent bias that fails to capture\nthe full complexity of realistic preference structures. In this work, we\nintroduce Multiplayer Nash Preference Optimization (MNPO), a novel framework\nthat generalizes NLHF to the multiplayer regime. It formulates alignment as an\nn-player game, where each policy competes against a population of opponents\nwhile being regularized toward a reference model. Our framework establishes\nwell-defined Nash equilibria in multiplayer settings and extends the concept of\nduality gap to quantify approximation quality. We demonstrate that MNPO\ninherits the equilibrium guarantees of two-player methods while enabling richer\ncompetitive dynamics and improved coverage of diverse preference structures.\nThrough comprehensive empirical evaluation, we show that MNPO consistently\noutperforms existing NLHF baselines on instruction-following benchmarks,\nachieving superior alignment quality under heterogeneous annotator conditions\nand mixed-policy evaluation scenarios. Together, these results establish MNPO\nas a principled and scalable framework for aligning LLMs with complex,\nnon-transitive human preferences. Code is available at\nhttps://github.com/smiles724/MNPO.",
+            "upvotes": 50,
+            "discussionId": "68db42f3d2bf1f4b15ec732e",
+            "ai_summary": "Multiplayer Nash Preference Optimization (MNPO) extends Nash learning from human feedback to handle complex, non-transitive human preferences by formulating alignment as an n-player game.",
+            "ai_keywords": [
+                "Reinforcement learning from human feedback",
+                "RLHF",
+                "large language models",
+                "LLMs",
+                "Bradley-Terry assumption",
+                "Nash learning from human feedback",
+                "NLHF",
+                "INPO",
+                "ONPO",
+                "EGPO",
+                "Multiplayer Nash Preference Optimization",
+                "MNPO",
+                "Nash equilibria",
+                "duality gap",
+                "instruction-following benchmarks",
+                "heterogeneous annotator conditions",
+                "mixed-policy evaluation"
+            ]
+        },
+        "translation_title": "멀티플레이어 내시 선호 최적화",
+        "purpose": "대규모 언어 모델(LLMs)을 인간의 복잡하고 비전이적 선호에 맞추기 위한 새로운 최적화 프레임워크 개발",
+        "method": [
+            "두 플레이어의 내시 게임 관점을 확장하여 다중 플레이어 환경에서의 선호 최적화를 위한 MNPO 프레임워크를 도입함(Multiplayer Nash Preference Optimization (MNPO), a novel framework that generalizes NLHF to the multiplayer regime.)",
+            "다수의 정책이 상대 모델 집단과 경쟁하며 정규화되는 n인 게임으로 정립함(It formulates alignment as an n-player game, where each policy competes against a population of opponents while being regularized toward a reference model.)",
+            "다중 플레이어 설정에서 잘 정의된 내시 균형을 수립하고 근사 품질을 정량화하는 듀얼리티 간격 개념을 확장함(Our framework establishes well-defined Nash equilibria in multiplayer settings and extends the concept of duality gap to quantify approximation quality.)"
+        ],
+        "conclusion": "MNPO는 강력한 이론적 보장과 더불어 기존 NLHF 기준을 일관되게 능가하며, 복잡하고 비전이적 인간 선호와의 정렬을 위한 원칙 있는 스케일러블 프레임워크로 자리잡음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.24897",
+            "authors": [
+                {
+                    "_id": "68db4c16d2bf1f4b15ec744e",
+                    "user": {
+                        "_id": "673c7319d11b1c2e246ead9c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang Shi",
+                        "user": "DogNeverSleep",
+                        "type": "user"
+                    },
+                    "name": "Yang Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T06:29:34.746Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec744f",
+                    "user": {
+                        "_id": "652965773a416e1f2173443b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652965773a416e1f2173443b/y9MB8YgHzbwCXAc4EI9T3.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuhao Dong",
+                        "user": "THUdyh",
+                        "type": "user"
+                    },
+                    "name": "Yuhao Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T10:18:06.242Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7450",
+                    "name": "Yue Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7451",
+                    "name": "Yuran Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7452",
+                    "name": "Xuanyu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7453",
+                    "name": "Sheng Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7454",
+                    "name": "Wenting Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7455",
+                    "name": "Haochen Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7456",
+                    "name": "Rundong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7457",
+                    "name": "Huanqian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7458",
+                    "name": "Zuyan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7459",
+                    "name": "Bohan Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745a",
+                    "name": "Ruizhe Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745b",
+                    "name": "Qixun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745c",
+                    "name": "Zhuoran Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745d",
+                    "name": "Xinlong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745e",
+                    "name": "Chengzhuo Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec745f",
+                    "user": {
+                        "_id": "661e62c6bac5d981f886f77b",
+                        "avatarUrl": "/avatars/f1eb51ed4499ca434c8939573dfbd5e2.svg",
+                        "isPro": false,
+                        "fullname": "Bozhou Li",
+                        "user": "zooblastlbz",
+                        "type": "user"
+                    },
+                    "name": "Bozhou Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T07:12:22.595Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7460",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7461",
+                    "name": "Qiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7462",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7463",
+                    "name": "Wenjing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7464",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7465",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7466",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4c16d2bf1f4b15ec7467",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-29T15:07:28.000Z",
+            "submittedOnDailyAt": "2025-09-30T01:50:34.924Z",
+            "title": "RealUnify: Do Unified Models Truly Benefit from Unification? A\n  Comprehensive Benchmark",
+            "submittedOnDailyBy": {
+                "_id": "673c7319d11b1c2e246ead9c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+                "isPro": false,
+                "fullname": "Yang Shi",
+                "user": "DogNeverSleep",
+                "type": "user"
+            },
+            "summary": "The integration of visual understanding and generation into unified\nmultimodal models represents a significant stride toward general-purpose AI.\nHowever, a fundamental question remains unanswered by existing benchmarks: does\nthis architectural unification actually enable synergetic interaction between\nthe constituent capabilities? Existing evaluation paradigms, which primarily\nassess understanding and generation in isolation, are insufficient for\ndetermining whether a unified model can leverage its understanding to enhance\nits generation, or use generative simulation to facilitate deeper\ncomprehension. To address this critical gap, we introduce RealUnify, a\nbenchmark specifically designed to evaluate bidirectional capability synergy.\nRealUnify comprises 1,000 meticulously human-annotated instances spanning 10\ncategories and 32 subtasks. It is structured around two core axes: 1)\nUnderstanding Enhances Generation, which requires reasoning (e.g., commonsense,\nlogic) to guide image generation, and 2) Generation Enhances Understanding,\nwhich necessitates mental simulation or reconstruction (e.g., of transformed or\ndisordered visual inputs) to solve reasoning tasks. A key contribution is our\ndual-evaluation protocol, which combines direct end-to-end assessment with a\ndiagnostic stepwise evaluation that decomposes tasks into distinct\nunderstanding and generation phases. This protocol allows us to precisely\ndiscern whether performance bottlenecks stem from deficiencies in core\nabilities or from a failure to integrate them. Through large-scale evaluations\nof 12 leading unified models and 6 specialized baselines, we find that current\nunified models still struggle to achieve effective synergy, indicating that\narchitectural unification alone is insufficient. These results highlight the\nneed for new training strategies and inductive biases to fully unlock the\npotential of unified modeling.",
+            "upvotes": 41,
+            "discussionId": "68db4c17d2bf1f4b15ec7468",
+            "githubRepo": "https://github.com/FrankYang-17/RealUnify",
+            "ai_summary": "RealUnify evaluates the bidirectional synergy between understanding and generation in unified multimodal models, revealing that current models lack effective integration despite architectural unification.",
+            "ai_keywords": [
+                "multimodal models",
+                "RealUnify",
+                "bidirectional capability synergy",
+                "understanding enhances generation",
+                "generation enhances understanding",
+                "dual-evaluation protocol",
+                "unified models",
+                "specialized baselines"
+            ],
+            "githubStars": 11
+        },
+        "translation_title": "RealUnify: 통합 모델이 정말로 통합의 이점을 얻는가? 포괄적 벤치마크",
+        "purpose": "시각적 이해와 생성의 통합이 상호작용의 시너지를 이끌어내는지 평가하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "RealUnify라는 벤치마크를 도입하여 상호 능력 시너지를 평가함(To address this critical gap, we introduce RealUnify, a benchmark specifically designed to evaluate bidirectional capability synergy.)",
+            "1,000개의 정교하게 인 annotation 된 예제와 10개 카테고리, 32개 하위 작업으로 구성됨(RealUnify comprises 1,000 meticulously human-annotated instances spanning 10 categories and 32 subtasks.)",
+            "이중 평가 프로토콜을 통해 이해와 생성을 각각 평가하여 성능 저하의 원인을 더 명확히 파악함(A key contribution is our dual-evaluation protocol, which combines direct end-to-end assessment with a diagnostic stepwise evaluation that decomposes tasks into distinct understanding and generation phases.)"
+        ],
+        "conclusion": "현재의 통합 모델들은 여전히 효과적인 시너지를 달성하기 힘들며, 이는 구조적 통합만으로는 충분하지 않음을 나타냄.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.24900",
+            "authors": [
+                {
+                    "_id": "68db4e25d2bf1f4b15ec747c",
+                    "name": "Zhihong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec747d",
+                    "name": "Xuehai Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec747e",
+                    "user": {
+                        "_id": "673c7319d11b1c2e246ead9c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang Shi",
+                        "user": "DogNeverSleep",
+                        "type": "user"
+                    },
+                    "name": "Yang Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-09-30T06:34:34.223Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec747f",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7480",
+                    "name": "Huanyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7481",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7482",
+                    "name": "Xiaoyan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7483",
+                    "name": "Zhang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7484",
+                    "name": "Liang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7485",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7486",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db4e25d2bf1f4b15ec7487",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-29T15:11:09.000Z",
+            "submittedOnDailyAt": "2025-09-30T01:57:57.108Z",
+            "title": "OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation\n  and Editing",
+            "submittedOnDailyBy": {
+                "_id": "673c7319d11b1c2e246ead9c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+                "isPro": false,
+                "fullname": "Yang Shi",
+                "user": "DogNeverSleep",
+                "type": "user"
+            },
+            "summary": "The performance of unified multimodal models for image generation and editing\nis fundamentally constrained by the quality and comprehensiveness of their\ntraining data. While existing datasets have covered basic tasks like style\ntransfer and simple object manipulation, they often lack the systematic\nstructure and challenging scenarios required for real-world applications. To\naddress this bottleneck, we introduce OpenGPT-4o-Image, a large-scale dataset\nconstructed using a novel methodology that combines hierarchical task taxonomy\nwith automated data generation. Our taxonomy not only includes fundamental\ncapabilities such as text rendering and style control but also introduces\nhighly practical yet challenging categories like scientific imagery for\nchemistry illustrations and complex instruction editing requiring simultaneous\nexecution of multiple operations. Through an automated pipeline leveraging\nstructured resource pools and GPT-4o, we generate 80k high-quality\ninstruction-image pairs with controlled diversity, covering 11 major domains\nand 51 subtasks. Extensive experiments show that fine-tuning leading models on\nour dataset achieves significant performance gains across multiple benchmarks,\nwith improvements of up to 18\\% on editing tasks (UniWorld-V1 on ImgEdit-Bench)\nand 13% on generation tasks (Harmon on GenEval). Our work demonstrates that\nsystematic data construction is key to advancing multimodal AI capabilities.",
+            "upvotes": 37,
+            "discussionId": "68db4e25d2bf1f4b15ec7488",
+            "ai_summary": "OpenGPT-4o-Image, a large-scale dataset with hierarchical task taxonomy and automated generation, significantly improves performance in image generation and editing tasks.",
+            "ai_keywords": [
+                "unified multimodal models",
+                "image generation",
+                "image editing",
+                "training data",
+                "hierarchical task taxonomy",
+                "automated data generation",
+                "text rendering",
+                "style control",
+                "scientific imagery",
+                "complex instruction editing",
+                "instruction-image pairs",
+                "controlled diversity",
+                "fine-tuning",
+                "UniWorld-V1",
+                "ImgEdit-Bench",
+                "Harmon",
+                "GenEval"
+            ]
+        },
+        "translation_title": "OpenGPT-4o-Image: 고급 이미지 생성 및 편집을 위한 종합 데이터세트",
+        "purpose": "고급 이미지 생성 및 편집을 위한 훈련 데이터의 질과 포괄성을 높이기 위한 데이터세트 개발",
+        "method": [
+            "계층적 작업 분류법과 자동 데이터 생성을 결합하여 OpenGPT-4o-Image라는 대규모 데이터세트를 구축함(To address this bottleneck, we introduce OpenGPT-4o-Image, a large-scale dataset constructed using a novel methodology that combines hierarchical task taxonomy with automated data generation.)",
+            "기본적인 능력뿐만 아니라 화학 일러스트와 복잡한 지시 편집과 같은 도전적인 범주를 포함함(Our taxonomy not only includes fundamental capabilities such as text rendering and style control but also introduces highly practical yet challenging categories like scientific imagery for chemistry illustrations and complex instruction editing requiring simultaneous execution of multiple operations.)",
+            "자동화된 파이프라인을 통해 8만 개의 고품질 지시-이미지 쌍을 생성하고, 11개 주요 도메인과 51개 하위 작업을 커버함(Through an automated pipeline leveraging structured resource pools and GPT-4o, we generate 80k high-quality instruction-image pairs with controlled diversity, covering 11 major domains and 51 subtasks.)"
+        ],
+        "conclusion": "데이터세트를 이용해 최첨단 모델을 미세 조정하면 여러 평가에서 성능이 크게 향상되며, 핵심은 체계적인 데이터 생성이 다중 모달 AI 능력을 발전시키는 데 중요하다는 것을 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Image Editing",
+            "Multimodal Learning"
+        ]
+    }
+]
