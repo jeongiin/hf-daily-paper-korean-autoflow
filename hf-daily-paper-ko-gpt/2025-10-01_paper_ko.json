@@ -1,0 +1,644 @@
+[
+    {
+        "paper": {
+            "id": "2509.26507",
+            "authors": [
+                {
+                    "_id": "68dc87954159d1f2418f9a13",
+                    "name": "Adrian Kosowski",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc87954159d1f2418f9a14",
+                    "name": "Przemysław Uznański",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc87954159d1f2418f9a15",
+                    "user": {
+                        "_id": "651310e3b7994cff61d71320",
+                        "avatarUrl": "/avatars/161cb412c7cb284fa7483e790807e4d3.svg",
+                        "isPro": false,
+                        "fullname": "Jan Chorowski",
+                        "user": "janchorowski",
+                        "type": "user"
+                    },
+                    "name": "Jan Chorowski",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:22:24.524Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc87954159d1f2418f9a16",
+                    "name": "Zuzanna Stamirowska",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc87954159d1f2418f9a17",
+                    "name": "Michał Bartoszkiewicz",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-30T16:49:01.000Z",
+            "submittedOnDailyAt": "2025-10-01T09:46:19.334Z",
+            "title": "The Dragon Hatchling: The Missing Link between the Transformer and\n  Models of the Brain",
+            "submittedOnDailyBy": {
+                "_id": "651310e3b7994cff61d71320",
+                "avatarUrl": "/avatars/161cb412c7cb284fa7483e790807e4d3.svg",
+                "isPro": false,
+                "fullname": "Jan Chorowski",
+                "user": "janchorowski",
+                "type": "user"
+            },
+            "summary": "The relationship between computing systems and the brain has served as\nmotivation for pioneering theoreticians since John von Neumann and Alan Turing.\nUniform, scale-free biological networks, such as the brain, have powerful\nproperties, including generalizing over time, which is the main barrier for\nMachine Learning on the path to Universal Reasoning Models.\n  We introduce `Dragon Hatchling' (BDH), a new Large Language Model\narchitecture based on a scale-free biologically inspired network of \\n\nlocally-interacting neuron particles. BDH couples strong theoretical\nfoundations and inherent interpretability without sacrificing Transformer-like\nperformance.\n  BDH is a practical, performant state-of-the-art attention-based state space\nsequence learning architecture. In addition to being a graph model, BDH admits\na GPU-friendly formulation. It exhibits Transformer-like scaling laws:\nempirically BDH rivals GPT2 performance on language and translation tasks, at\nthe same number of parameters (10M to 1B), for the same training data.\n  BDH can be represented as a brain model. The working memory of BDH during\ninference entirely relies on synaptic plasticity with Hebbian learning using\nspiking neurons. We confirm empirically that specific, individual synapses\nstrengthen connection whenever BDH hears or reasons about a specific concept\nwhile processing language inputs. The neuron interaction network of BDH is a\ngraph of high modularity with heavy-tailed degree distribution. The BDH model\nis biologically plausible, explaining one possible mechanism which human\nneurons could use to achieve speech.\n  BDH is designed for interpretability. Activation vectors of BDH are sparse\nand positive. We demonstrate monosemanticity in BDH on language tasks.\nInterpretability of state, which goes beyond interpretability of neurons and\nmodel parameters, is an inherent feature of the BDH architecture.",
+            "upvotes": 68,
+            "discussionId": "68dc87954159d1f2418f9a18",
+            "githubRepo": "https://github.com/pathwaycom/bdh",
+            "ai_summary": "BDH, a biologically inspired Large Language Model, combines scale-free network architecture with Hebbian learning to achieve Transformer-like performance while maintaining interpretability.",
+            "ai_keywords": [
+                "Large Language Model",
+                "scale-free network",
+                "Hebbian learning",
+                "synaptic plasticity",
+                "spiking neurons",
+                "graph model",
+                "GPU-friendly",
+                "Transformer-like scaling laws",
+                "monosemanticity",
+                "interpretability"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "드래곤 해칭: 변환기와 뇌 모델 간의 잃어버린 연결 고리",
+        "purpose": "뇌와 컴퓨터 시스템 간의 관계를 바탕으로 한 새로운 Large Language Model 아키텍처를 제안하기 위해",
+        "method": [
+            "‘드래곤 해칭’이라는 이름의 새로운 Large Language Model 아키텍처를 소개함(We introduce `Dragon Hatchling' (BDH), a new Large Language Model architecture based on a scale-free biologically inspired network of locally-interacting neuron particles.)",
+            "BDH는 변환기와 유사한 성능을 유지하면서 강력한 이론적 기초와 내재적 해석 가능성을 결합함(BDH couples strong theoretical foundations and inherent interpretability without sacrificing Transformer-like performance.)",
+            "BDH는 고성능의 주의 기반 순차 학습 아키텍처로, 그래프 모델이자 GPU 친화적 설계를 가짐(BDH is a practical, performant state-of-the-art attention-based state space sequence learning architecture.)",
+            "BDH가 특정 개념을 언어 입력 처리 중에 다룰 때 시냅스 강화를 실증적으로 확인함(We confirm empirically that specific, individual synapses strengthen connection whenever BDH hears or reasons about a specific concept while processing language inputs.)"
+        ],
+        "conclusion": "BDH는 생물학적으로 그럴듯하며, 인간 신경 세포가 말을 생성하는 데 사용할 수 있는 한 가지 메커니즘을 설명함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.25541",
+            "authors": [
+                {
+                    "_id": "68dc90f34159d1f2418f9abf",
+                    "name": "Qinsi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac0",
+                    "user": {
+                        "_id": "635e3a76106f984574c36409",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+                        "isPro": false,
+                        "fullname": "Bo Liu",
+                        "user": "Benjamin-eecs",
+                        "type": "user"
+                    },
+                    "name": "Bo Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:49.246Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac1",
+                    "user": {
+                        "_id": "647f5af5b0e96764589f3b2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/VJ4cDyjp5M3V5WmI5gPIU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Zhou",
+                        "user": "zhoutianyi",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:44.939Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac2",
+                    "name": "Jing Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac3",
+                    "name": "Yueqian Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac4",
+                    "name": "Yiran Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac5",
+                    "name": "Hai Helen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac6",
+                    "user": {
+                        "_id": "66274e02348a5304435dc9cc",
+                        "avatarUrl": "/avatars/bda87559cd497c310597c2fc8430b31f.svg",
+                        "isPro": false,
+                        "fullname": "Kun Wan",
+                        "user": "timecuriosity",
+                        "type": "user"
+                    },
+                    "name": "Kun Wan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:47.064Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90f34159d1f2418f9ac7",
+                    "name": "Wentian Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-29T21:55:55.000Z",
+            "submittedOnDailyAt": "2025-10-01T00:55:06.135Z",
+            "title": "Vision-Zero: Scalable VLM Self-Improvement via Strategic Gamified\n  Self-Play",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Although reinforcement learning (RL) can effectively enhance the reasoning\ncapabilities of vision-language models (VLMs), current methods remain heavily\ndependent on labor-intensive datasets that require extensive manual\nconstruction and verification, leading to extremely high training costs and\nconsequently constraining the practical deployment of VLMs. To address this\nchallenge, we propose Vision-Zero, a domain-agnostic framework enabling VLM\nself-improvement through competitive visual games generated from arbitrary\nimage pairs. Specifically, Vision-Zero encompasses three main attributes: (1)\nStrategic Self-Play Framework: Vision-Zero trains VLMs in \"Who Is the\nSpy\"-style games, where the models engage in strategic reasoning and actions\nacross multiple roles. Through interactive gameplay, models autonomously\ngenerate their training data without human annotation. (2) Gameplay from\nArbitrary Images: Unlike existing gamified frameworks, Vision-Zero can generate\ngames from arbitrary images, thereby enhancing the model's reasoning ability\nacross diverse domains and showing strong generalization to different tasks. We\ndemonstrate this versatility using three distinct types of image datasets:\nCLEVR-based synthetic scenes, charts, and real-world images. (3) Sustainable\nPerformance Gain: We introduce Iterative Self-Play Policy Optimization\n(Iterative-SPO), a novel training algorithm that alternates between Self-Play\nand reinforcement learning with verifiable rewards (RLVR), mitigating the\nperformance plateau often seen in self-play-only training and achieving\nsustained long-term improvements. Despite using label-free data, Vision-Zero\nachieves state-of-the-art performance on reasoning, chart question answering,\nand vision-centric understanding tasks, surpassing other annotation-based\nmethods. Models and code has been released at\nhttps://github.com/wangqinsi1/Vision-Zero.",
+            "upvotes": 68,
+            "discussionId": "68dc90f34159d1f2418f9ac8",
+            "githubRepo": "https://github.com/wangqinsi1/Vision-Zero",
+            "ai_summary": "Vision-Zero is a domain-agnostic framework that enhances vision-language models through self-improvement in competitive visual games, using Iterative Self-Play Policy Optimization and achieving state-of-the-art performance without human annotation.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "vision-language models",
+                "strategic self-play framework",
+                "self-play",
+                "reinforcement learning with verifiable rewards",
+                "Iterative Self-Play Policy Optimization"
+            ],
+            "githubStars": 9
+        },
+        "translation_title": "Vision-Zero: 전략적 게임화 자가 학습을 통한 VLM의 확장 가능한 자기 개선",
+        "purpose": "Vision-Language 모델의 훈련 비용을 줄이고, 데이터 생성의 자동화를 통해 성능을 개선하기 위한 방법 개발",
+        "method": [
+            "Vision-Zero는 '누가 스파이인가' 게임에서 VLM을 훈련시키며, 모델이 다양한 역할을 수행하면서 전략적 추론과 행동을 하도록 함(Through interactive gameplay, models autonomously generate their training data without human annotation.)",
+            "기존의 게임화된 프레임워크와 달리, Vision-Zero는 임의의 이미지에서 게임을 생성하여 다양한 도메인에서 모델의 추론 능력을 향상시킴(Unlike existing gamified frameworks, Vision-Zero can generate games from arbitrary images, thereby enhancing the model's reasoning ability across diverse domains.)",
+            "Iterative Self-Play Policy Optimization(Iterative-SPO)라는 새로운 훈련 알고리즘을 도입하여 Self-Play와 강화학습을 번갈아 진행함(We introduce Iterative Self-Play Policy Optimization (Iterative-SPO), a novel training algorithm that alternates between Self-Play and reinforcement learning with verifiable rewards (RLVR).)"
+        ],
+        "conclusion": "Vision-Zero는 주석이 없는 데이터로도 뛰어난 성능을 달성하며, 다른 주석 기반 방법들을 초월하는 결과를 보여줌.",
+        "keywords": [
+            "Vision-Language Models",
+            "Reinforcement Learning",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.24002",
+            "authors": [
+                {
+                    "_id": "68dc9eff4159d1f2418f9b97",
+                    "user": {
+                        "_id": "626d268d5f7327906f05cad1",
+                        "avatarUrl": "/avatars/18bda74612a3ee63a17f991bcc695106.svg",
+                        "isPro": true,
+                        "fullname": "Zijian Wu",
+                        "user": "Jakumetsu",
+                        "type": "user"
+                    },
+                    "name": "Zijian Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:21.979Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b98",
+                    "name": "Xiangyan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b99",
+                    "name": "Xinyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9a",
+                    "name": "Lingjun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9b",
+                    "name": "Fanqing Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9c",
+                    "user": {
+                        "_id": "666fe1a5b07525f0bde69c27",
+                        "avatarUrl": "/avatars/bb98ab0b974c8fe011739baa8dadd91a.svg",
+                        "isPro": false,
+                        "fullname": "Lingxiao Du",
+                        "user": "Cierra0506",
+                        "type": "user"
+                    },
+                    "name": "Lingxiao Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:32.767Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9d",
+                    "name": "Yiran Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9e",
+                    "name": "Fanshi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9b9f",
+                    "name": "Yaoqi Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba0",
+                    "name": "Jiawei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba1",
+                    "name": "Zirui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba2",
+                    "name": "Jinjie Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba3",
+                    "name": "Yufan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba4",
+                    "name": "Arvin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc9eff4159d1f2418f9ba5",
+                    "name": "Michael Qizhe Shieh",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-28T17:53:27.000Z",
+            "submittedOnDailyAt": "2025-10-01T01:58:54.337Z",
+            "title": "MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP\n  Use",
+            "submittedOnDailyBy": {
+                "_id": "626d268d5f7327906f05cad1",
+                "avatarUrl": "/avatars/18bda74612a3ee63a17f991bcc695106.svg",
+                "isPro": true,
+                "fullname": "Zijian Wu",
+                "user": "Jakumetsu",
+                "type": "user"
+            },
+            "summary": "MCP standardizes how LLMs interact with external systems, forming the\nfoundation for general agents. However, existing MCP benchmarks remain narrow\nin scope: they focus on read-heavy tasks or tasks with limited interaction\ndepth, and fail to capture the complexity and realism of real-world workflows.\nTo address this gap, we propose MCPMark, a benchmark designed to evaluate MCP\nuse in a more realistic and comprehensive manner. It consists of 127\nhigh-quality tasks collaboratively created by domain experts and AI agents.\nEach task begins with a curated initial state and includes a programmatic\nscript for automatic verification. These tasks demand richer and more diverse\ninteractions with the environment, involving a broad range of create, read,\nupdate, and delete (CRUD) operations. We conduct a comprehensive evaluation of\ncutting-edge LLMs using a minimal agent framework that operates in a\ntool-calling loop. Empirical results show that the best-performing model,\ngpt-5-medium, reaches only 52.56\\% pass@1 and 33.86\\% pass^4, while other\nwidely regarded strong models, including claude-sonnet-4 and o3, fall below\n30\\% pass@1 and 15\\% pass^4. On average, LLMs require 16.2 execution\nturns and 17.4 tool calls per task, significantly surpassing those in\nprevious MCP benchmarks and highlighting the stress-testing nature of MCPMark.",
+            "upvotes": 53,
+            "discussionId": "68dc9eff4159d1f2418f9ba6",
+            "projectPage": "https://mcpmark.ai/",
+            "githubRepo": "https://github.com/eval-sys/mcpmark",
+            "ai_summary": "MCPMark is a comprehensive benchmark for evaluating MCP use in real-world workflows, featuring diverse tasks that require richer interactions with the environment, and reveals that current LLMs perform poorly on these tasks.",
+            "ai_keywords": [
+                "MCP",
+                "LLMs",
+                "general agents",
+                "MCP benchmarks",
+                "MCPMark",
+                "high-quality tasks",
+                "domain experts",
+                "AI agents",
+                "initial state",
+                "programmatic script",
+                "automatic verification",
+                "CRUD operations",
+                "minimal agent framework",
+                "tool-calling loop",
+                "gpt-5-medium",
+                "claude-sonnet-4",
+                "o3",
+                "pass@1",
+                "pass^4",
+                "execution turns",
+                "tool calls"
+            ],
+            "githubStars": 178
+        },
+        "translation_title": "MCPMark: 현실적이고 포괄적인 MCP 사용에 대한 벤치마크",
+        "purpose": "MCP을 더 현실적이고 포괄적으로 평가하기 위한 벤치마크 개발",
+        "method": [
+            "127개의 고품질 작업을 도메인 전문가와 AI 에이전트가 협력하여 생성하여 벤치마크를 구성함(MCPMark, a benchmark designed to evaluate MCP use in a more realistic and comprehensive manner. It consists of 127 high-quality tasks collaboratively created by domain experts and AI agents.)",
+            "각 작업은 엄선된 초기 상태에서 시작되며 자동 검증을 위한 프로그래밍 스크립트를 포함함(Each task begins with a curated initial state and includes a programmatic script for automatic verification.)",
+            "다양한 CRUD 작업을 포함 시켜 환경과의 풍부하고 다양한 상호작용을 요구함(These tasks demand richer and more diverse interactions with the environment, involving a broad range of create, read, update, and delete (CRUD) operations.)",
+            "최신 LLM을 최소한의 에이전트 프레임워크를 사용하여 종합적으로 평가함(We conduct a comprehensive evaluation of cutting-edge LLMs using a minimal agent framework that operates in a tool-calling loop.)"
+        ],
+        "conclusion": "가장 성능이 좋은 모델인 gpt-5-medium이 52.56%의 pass@1과 33.86%의 pass^4에 도달했으며, 이는 이전 MCP 벤치마크에 비해 훨씬 높은 상호작용 횟수를 요구함을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.23873",
+            "authors": [
+                {
+                    "_id": "68dbf6444159d1f2418f9822",
+                    "user": {
+                        "_id": "66968099c952e09a4cb29f78",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66968099c952e09a4cb29f78/n90NI2R3E9_RqCyMjDCQF.webp",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Steven-Shaobo",
+                        "type": "user"
+                    },
+                    "name": "Shaobo Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:23:24.707Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9823",
+                    "user": {
+                        "_id": "68355c5ec0003bc40230b3f2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/WZQ5f8oqpni0i-D3a5R-P.png",
+                        "isPro": false,
+                        "fullname": "jasmineWang",
+                        "user": "Jessamine",
+                        "type": "user"
+                    },
+                    "name": "Jiaming Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:23:32.506Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9824",
+                    "user": {
+                        "_id": "67bc471acda19f7ad35a2f20",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67bc471acda19f7ad35a2f20/_dbTYE3f4XF9_OY1qXHhw.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiajun Zhang",
+                        "user": "JiajunZhang",
+                        "type": "user"
+                    },
+                    "name": "Jiajun Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:23:16.205Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9825",
+                    "name": "Cong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9826",
+                    "name": "Yue Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9827",
+                    "name": "Zichen Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9828",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f9829",
+                    "name": "Huiqiang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f982a",
+                    "name": "Junyang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f982b",
+                    "name": "Dayiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dbf6444159d1f2418f982c",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-28T13:27:38.000Z",
+            "submittedOnDailyAt": "2025-10-01T09:12:46.902Z",
+            "title": "Winning the Pruning Gamble: A Unified Approach to Joint Sample and Token\n  Pruning for Efficient Supervised Fine-Tuning",
+            "submittedOnDailyBy": {
+                "_id": "68355c5ec0003bc40230b3f2",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/WZQ5f8oqpni0i-D3a5R-P.png",
+                "isPro": false,
+                "fullname": "jasmineWang",
+                "user": "Jessamine",
+                "type": "user"
+            },
+            "summary": "As supervised fine-tuning (SFT) evolves from a lightweight post-training step\ninto a compute-intensive phase rivaling mid-training in scale, data efficiency\nhas become critical for aligning large language models (LLMs) under tight\nbudgets. Existing data pruning methods suffer from a fragmented design: they\noperate either at the sample level or the token level in isolation, failing to\njointly optimize both dimensions. This disconnect leads to significant\ninefficiencies--high-value samples may still contain redundant tokens, while\ntoken-level pruning often discards crucial instructional or corrective signals\nembedded in individual examples. To address this bottleneck, we introduce the\nError-Uncertainty (EU) Plane, a diagnostic framework that jointly characterizes\nthe heterogeneous utility of training data across samples and tokens. Guided by\nthis insight, we propose Quadrant-based Tuning (Q-Tuning), a unified framework\nthat strategically coordinates sample pruning and token pruning. Q-Tuning\nemploys a two-stage strategy: first, it performs sample-level triage to retain\nexamples rich in informative misconceptions or calibration signals; second, it\napplies an asymmetric token-pruning policy, using a context-aware scoring\nmechanism to trim less salient tokens exclusively from misconception samples\nwhile preserving calibration samples in their entirety. Our method sets a new\nstate of the art across five diverse benchmarks. Remarkably, on SmolLM2-1.7B,\nQ-Tuning achieves a +38\\% average improvement over the full-data SFT baseline\nusing only 12.5\\% of the original training data. As the first dynamic pruning\napproach to consistently outperform full-data training, Q-Tuning provides a\npractical and scalable blueprint for maximizing data utilization in\nbudget-constrained LLM SFT.",
+            "upvotes": 46,
+            "discussionId": "68dbf6454159d1f2418f982d",
+            "projectPage": "https://gszfwsb.github.io/Q-tuning/",
+            "ai_summary": "Quadrant-based Tuning (Q-Tuning) optimizes both sample and token pruning in supervised fine-tuning of large language models, achieving superior performance with reduced data.",
+            "ai_keywords": [
+                "supervised fine-tuning",
+                "data efficiency",
+                "large language models",
+                "data pruning",
+                "sample-level pruning",
+                "token-level pruning",
+                "Error-Uncertainty (EU) Plane",
+                "Quadrant-based Tuning",
+                "sample-level triage",
+                "asymmetric token-pruning",
+                "context-aware scoring mechanism",
+                "misconception samples",
+                "calibration samples",
+                "dynamic pruning"
+            ]
+        },
+        "translation_title": "Pruning Gamble의 승리: 효율적인 감독 학습을 위한 샘플 및 토큰 동시 가지치기 통합 접근법",
+        "purpose": "대규모 언어 모델(LLMs)를 예산에 맞춰 효율적으로 조정하기 위한 데이터 효율성 개선",
+        "method": [
+            "기존의 데이터 가지치기 방법은 샘플 수준 또는 토큰 수준에서 각각 독립적으로 작업하여 두 차원을 동시에 최적화하지 못함(This disconnect leads to significant inefficiencies.)",
+            "Error-Uncertainty (EU) Plane이라는 진단 프레임워크를 도입하여 샘플과 토큰 전반에 걸친 훈련 데이터의 이질적인 유용성을 동시에 특성화함(To address this bottleneck, we introduce the Error-Uncertainty (EU) Plane.)",
+            "Q-Tuning이라는 통합 프레임워크를 제안하여 샘플 가지치기와 토큰 가지치를 전략적으로 조정함(Guided by this insight, we propose Quadrant-based Tuning (Q-Tuning), a unified framework.)",
+            "샘플 개수로 중요한 신호가 포함된 예제를 보존하고, 비대칭 토큰 가지치기 정책을 적용하여 중요하지 않은 토큰을 제거함(Q-Tuning employs a two-stage strategy: first, it performs sample-level triage to retain examples rich in informative misconceptions or calibration signals.)"
+        ],
+        "conclusion": "Q-Tuning은 가용 데이터만으로도 성과를 극대화하여 새로운 최첨단을 설정하며, 예산이 제한된 LLM SFT에서 데이터 활용을 극대화하는 실용적이고 확장 가능한 청사진을 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "Data Pruning",
+            "Supervised Fine-Tuning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.25760",
+            "authors": [
+                {
+                    "_id": "68dc90b84159d1f2418f9aa7",
+                    "name": "Zhepei Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aa8",
+                    "name": "Xiao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aa9",
+                    "name": "Kai Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aaa",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aab",
+                    "name": "Rulin Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aac",
+                    "name": "Sean Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aad",
+                    "name": "Mohammad Kachuee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aae",
+                    "user": {
+                        "_id": "62bcdae6e75a73c22a18b031",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62bcdae6e75a73c22a18b031/2jkNvSxIzXtpfMNfFaj9i.png",
+                        "isPro": false,
+                        "fullname": "Teja Gollapudi",
+                        "user": "Teja-Gollapudi",
+                        "type": "user"
+                    },
+                    "name": "Teja Gollapudi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:21:59.364Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9aaf",
+                    "name": "Tony Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab0",
+                    "name": "Nicolas Scheffer",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab1",
+                    "name": "Rakesh Wanga",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab2",
+                    "name": "Anuj Kumar",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab3",
+                    "name": "Yu Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab4",
+                    "name": "Wen-tau Yih",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dc90b84159d1f2418f9ab5",
+                    "name": "Xin Luna Dong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-30T04:25:17.000Z",
+            "submittedOnDailyAt": "2025-10-01T00:56:26.188Z",
+            "title": "TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "6526307af06ac0cf9a922e86",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/nchCipX-XWw2cnzYsU_Cv.jpeg",
+                "isPro": false,
+                "fullname": "Zhepei Wei",
+                "user": "weizhepei",
+                "type": "user"
+            },
+            "summary": "While large language models (LLMs) have demonstrated strong performance on\nfactoid question answering, they are still prone to hallucination and\nuntruthful responses, particularly when tasks demand information outside their\nparametric knowledge. Indeed, truthfulness requires more than accuracy --\nmodels must also recognize uncertainty and abstain when unsure to avoid\nhallucinations. This presents a fundamental challenge for existing methods:\napproaches that optimize for accuracy often amplify hallucinations, while those\nthat encourage abstention can become overly conservative, sacrificing correct\nanswers. Both extremes ultimately compromise truthfulness. In this work, we\npresent TruthRL, a general reinforcement learning (RL) framework that directly\noptimizes the truthfulness of LLMs. Specifically, we implement TruthRL using\nGRPO with a simple yet effective ternary reward that distinguishes correct\nanswers, hallucinations, and abstentions. It incentivizes models to reduce\nhallucinations not only by providing correct responses, but also by enabling\nabstention when uncertain, thereby improving truthfulness. Extensive\nexperiments across four knowledge-intensive benchmarks show that, compared to\nvanilla RL, TruthRL significantly reduces hallucinations by 28.9% and improves\ntruthfulness by 21.1%, with consistent gains across various backbone models\n(e.g., Qwen, Llama) under both retrieval and non-retrieval setups. In-depth\nablation study demonstrates that vanilla accuracy-driven methods, such as\nsupervised fine-tuning or RL with a binary reward, struggle to balance factual\ncorrectness and uncertainty. In contrast, our proposed truthfulness-driven\nTruthRL achieves strong performance in both accuracy and truthfulness,\nunderscoring the importance of learning objective design for developing\ntruthful LLMs.",
+            "upvotes": 41,
+            "discussionId": "68dc90b84159d1f2418f9ab6",
+            "ai_summary": "TruthRL, a reinforcement learning framework, enhances the truthfulness of large language models by balancing accuracy and abstention, significantly reducing hallucinations and improving performance across benchmarks.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "hallucination",
+                "untruthful responses",
+                "parametric knowledge",
+                "truthfulness",
+                "reinforcement learning",
+                "RL",
+                "GRPO",
+                "ternary reward",
+                "abstention",
+                "accuracy-driven methods",
+                "supervised fine-tuning",
+                "binary reward",
+                "knowledge-intensive benchmarks",
+                "Qwen",
+                "Llama",
+                "retrieval",
+                "non-retrieval setups",
+                "ablation study"
+            ]
+        },
+        "translation_title": "TruthRL: 강화 학습을 통한 진실한 LLM 유도하기",
+        "purpose": "기존 방법의 한계를 극복하고 LLM의 진실성을 높이기 위한 강화 학습 프레임워크 개발",
+        "method": [
+            "TruthRL 프레임워크를 사용해 LLM의 진실성을 직접 최적화함(In this work, we present TruthRL, a general reinforcement learning (RL) framework that directly optimizes the truthfulness of LLMs.)",
+            "대응성 있는 3가지 보상을 활용해 올바른 답변, 착각, 망설임을 구분하도록 함(Specifically, we implement TruthRL using GRPO with a simple yet effective ternary reward that distinguishes correct answers, hallucinations, and abstentions.)",
+            "다양한 벤치마크에서 TruthRL이 착각을 28.9% 줄이고 진실성을 21.1% 향상시키는 결과를 보여줌(Extensive experiments across four knowledge-intensive benchmarks show that, compared to vanilla RL, TruthRL significantly reduces hallucinations by 28.9% and improves truthfulness by 21.1.%)."
+        ],
+        "conclusion": "TruthRL은 진실성과 정확성을 모두 만족시키며, 진실한 LLM 개발을 위한 학습 목표 설계의 중요성을 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    }
+]
