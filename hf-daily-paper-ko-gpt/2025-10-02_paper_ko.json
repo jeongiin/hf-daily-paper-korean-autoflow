@@ -1,0 +1,620 @@
+[
+    {
+        "paper": {
+            "id": "2509.25454",
+            "authors": [
+                {
+                    "_id": "68ddfdad6024653e8a3ed13a",
+                    "user": {
+                        "_id": "675e0d5cdd3e9eeed6954f5a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7oMEoBmaFiCR9K2q9Z_7q.png",
+                        "isPro": false,
+                        "fullname": "Fang Wu",
+                        "user": "fangwu97",
+                        "type": "user"
+                    },
+                    "name": "Fang Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:54:54.837Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed13b",
+                    "user": {
+                        "_id": "65b8909c89eb3dfbe8d26780",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65b8909c89eb3dfbe8d26780/aJExXsCN9oQOdd9bsQOEO.jpeg",
+                        "isPro": false,
+                        "fullname": "Weihao XUAN",
+                        "user": "weihao1115",
+                        "type": "user"
+                    },
+                    "name": "Weihao Xuan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:54:58.316Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed13c",
+                    "name": "Heli Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed13d",
+                    "name": "Ximing Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed13e",
+                    "name": "Aaron Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed13f",
+                    "name": "Li Erran Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddfdad6024653e8a3ed140",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-29T20:00:29.000Z",
+            "submittedOnDailyAt": "2025-10-02T02:53:24.628Z",
+            "title": "DeepSearch: Overcome the Bottleneck of Reinforcement Learning with\n  Verifiable Rewards via Monte Carlo Tree Search",
+            "submittedOnDailyBy": {
+                "_id": "675e0d5cdd3e9eeed6954f5a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/7oMEoBmaFiCR9K2q9Z_7q.png",
+                "isPro": false,
+                "fullname": "Fang Wu",
+                "user": "fangwu97",
+                "type": "user"
+            },
+            "summary": "Although RLVR has become an essential component for developing advanced\nreasoning skills in LLMs, contemporary studies have documented training\nplateaus that emerge following thousands of optimization steps, demonstrating\nnotable decreases in performance gains despite increased computational\ninvestment. This limitation stems from the sparse exploration patterns inherent\nin current RLVR practices, where models rely on limited rollouts that often\nmiss critical reasoning paths and fail to provide systematic coverage of the\nsolution space. We present DeepSearch, a framework that integrates Monte Carlo\nTree Search directly into RLVR training. In contrast to existing methods that\nrely on tree search only at inference, DeepSearch embeds structured search into\nthe training loop, enabling systematic exploration and fine-grained credit\nassignment across reasoning steps. Through training-time exploration,\nDeepSearch addresses the fundamental bottleneck of insufficient exploration,\nwhich leads to diminishing performance improvements over prolonged training\nsteps. Our contributions include: (1) a global frontier selection strategy that\nprioritizes promising nodes across the search tree, (2) selection with\nentropy-based guidance that identifies confident paths for supervision, and (3)\nadaptive replay buffer training with solution caching for efficiency.\nExperiments on mathematical reasoning benchmarks show that DeepSearch achieves\n62.95% average accuracy and establishes a new state-of-the-art for 1.5B\nreasoning models - using 5.7x fewer GPU hours than extended training\napproaches. These results highlight the importance of strategic exploration\nover brute-force scaling and demonstrate the promise of algorithmic innovation\nfor advancing RLVR methodologies. DeepSearch establishes a new direction for\nscaling reasoning capabilities through systematic search rather than prolonged\ncomputation.",
+            "upvotes": 81,
+            "discussionId": "68ddfdad6024653e8a3ed141",
+            "ai_summary": "DeepSearch integrates Monte Carlo Tree Search into RLVR training to enhance exploration and credit assignment, achieving state-of-the-art performance with reduced computational cost.",
+            "ai_keywords": [
+                "RLVR",
+                "Monte Carlo Tree Search",
+                "training loop",
+                "systematic exploration",
+                "credit assignment",
+                "global frontier selection",
+                "entropy-based guidance",
+                "adaptive replay buffer",
+                "solution caching",
+                "mathematical reasoning benchmarks"
+            ]
+        },
+        "translation_title": "DeepSearch: 검증 가능한 보상을 통한 강화를 극복하는 방법 몬테카를로 트리 탐색을 이용한",
+        "purpose": "RLVR을 통해 고급 추론 기술을 발전시키기 위해 탐색의 한계를 극복하고 성능 향상을 달성하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "몬테카를로 트리 탐색을 RLVR 훈련에 직접 통합함(We present DeepSearch, a framework that integrates Monte Carlo Tree Search directly into RLVR training.)",
+            "훈련 루프에 구조화된 검색을 추가하여 체계적 탐색 및 세분화된 신용 할당을 가능하게 함(DeepSearch embeds structured search into the training loop, enabling systematic exploration and fine-grained credit assignment across reasoning steps.)",
+            "글로벌 경계 선택 전략으로 유망한 노드를 우선시하고, 엔트로피 기반 지침을 통해 신뢰할 수 있는 경로를 식별하며, 효율성을 위한 솔루션 캐싱으로 적응형 리플레이 버퍼 훈련을 시행함(Our contributions include: (1) a global frontier selection strategy that prioritizes promising nodes across the search tree, (2) selection with entropy-based guidance that identifies confident paths for supervision, and (3) adaptive replay buffer training with solution caching for efficiency.)"
+        ],
+        "conclusion": "DeepSearch는 수학적 추론 벤치마크에서 62.95%의 평균 정확도를 달성하며, 1.5B 추론 모델에 대해 새로운 최첨단 성능을 기록하였고, 연장 훈련 방법보다 5.7배 적은 GPU 시간을 사용함으로써 전략적 탐색의 중요성을 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Algorithmic Innovation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.00406",
+            "authors": [
+                {
+                    "_id": "68dddcb66024653e8a3ed095",
+                    "name": "Hengtao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed096",
+                    "name": "Pengxiang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed097",
+                    "name": "Runze Suo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed098",
+                    "user": {
+                        "_id": "68c429ef60f075cc46cc9cff",
+                        "avatarUrl": "/avatars/21d277a1b46eabc967121a111e270cdd.svg",
+                        "isPro": false,
+                        "fullname": "yh-wang",
+                        "user": "yh-wang",
+                        "type": "user"
+                    },
+                    "name": "Yihao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:55:32.098Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed099",
+                    "name": "Zirui Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09a",
+                    "name": "Dongyuan Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09b",
+                    "name": "Kexian Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09c",
+                    "name": "Mingyang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09d",
+                    "name": "Hongyin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09e",
+                    "name": "Donglin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dddcb66024653e8a3ed09f",
+                    "name": "Weihua Su",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T01:33:10.000Z",
+            "submittedOnDailyAt": "2025-10-02T00:30:41.593Z",
+            "title": "VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified\n  Rewards in World Simulators",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models enable embodied decision-making but rely\nheavily on imitation learning, leading to compounding errors and poor\nrobustness under distribution shift. Reinforcement learning (RL) can mitigate\nthese issues yet typically demands costly real-world interactions or suffers\nfrom sim-to-real gaps. We introduce VLA-RFT, a reinforcement fine-tuning\nframework that leverages a data-driven world model as a controllable simulator.\nTrained from real interaction data, the simulator predicts future visual\nobservations conditioned on actions, allowing policy rollouts with dense,\ntrajectory-level rewards derived from goal-achieving references. This design\ndelivers an efficient and action-aligned learning signal, drastically lowering\nsample requirements. With fewer than 400 fine-tuning steps, VLA-RFT surpasses\nstrong supervised baselines and achieves greater efficiency than\nsimulator-based RL. Moreover, it exhibits strong robustness under perturbed\nconditions, sustaining stable task execution. Our results establish\nworld-model-based RFT as a practical post-training paradigm to enhance the\ngeneralization and robustness of VLA models. For more details, please refer to\nhttps://vla-rft.github.io/.",
+            "upvotes": 46,
+            "discussionId": "68dddcb66024653e8a3ed0a0",
+            "projectPage": "https://vla-rft.github.io/",
+            "githubRepo": "https://github.com/OpenHelix-Team/VLA-RFT",
+            "ai_summary": "VLA-RFT uses a data-driven world model to fine-tune VLA models efficiently, reducing sample requirements and improving robustness under perturbations.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "imitation learning",
+                "distribution shift",
+                "world model",
+                "policy rollouts",
+                "trajectory-level rewards",
+                "goal-achieving references",
+                "sample requirements",
+                "generalization",
+                "robustness"
+            ],
+            "githubStars": 21
+        },
+        "translation_title": "VLA-RFT: 검증된 보상으로 비전-언어-행동 강화 학습 미세 조정",
+        "purpose": "VLA 모델의 일반화 및 강건성을 향상시키기 위한 효율적인 학습 신호 제공",
+        "method": [
+            "데이터 기반 월드 모델을 사용하여 통제 가능한 시뮬레이터를 개발하고(VLA-RFT, a reinforcement fine-tuning framework that leverages a data-driven world model as a controllable simulator.)",
+            "실제 상호작용 데이터를 통해 훈련된 시뮬레이터가 행동에 따라 미래 시각 관찰을 예측하도록 함(Trained from real interaction data, the simulator predicts future visual observations conditioned on actions.)",
+            "목표 달성을 위한 참조에서 유도된 밀도 높은 경로 보상을 포함한 정책 롤아웃을 수행함(allowing policy rollouts with dense, trajectory-level rewards derived from goal-achieving references.)"
+        ],
+        "conclusion": "VLA-RFT는 강력한 감독 기반 모델을 능가하며 시뮬레이터 기반 RL보다 더 높은 효율성을 달성함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Vision-Language Models",
+            "Action Alignment"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.01051",
+            "authors": [
+                {
+                    "_id": "68ddde806024653e8a3ed0a9",
+                    "user": {
+                        "_id": "65f5392c68b8e0cb3c9977a2",
+                        "avatarUrl": "/avatars/aa64772475098e8a135c13072fde6744.svg",
+                        "isPro": false,
+                        "fullname": "Zichen",
+                        "user": "lkevinzc",
+                        "type": "user"
+                    },
+                    "name": "Zichen Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T03:07:51.006Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0aa",
+                    "name": "Anya Sims",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0ab",
+                    "user": {
+                        "_id": "6336a11331efcb5647ef32c8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6336a11331efcb5647ef32c8/mM0eC0mIV4W4W7-R-cleV.png",
+                        "isPro": false,
+                        "fullname": "Keyu Duan",
+                        "user": "vermouthdky",
+                        "type": "user"
+                    },
+                    "name": "Keyu Duan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:55:22.843Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0ac",
+                    "user": {
+                        "_id": "64e416dc54e18f390ef79ba4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/5n01J00ZaVRrebsON8iYA.jpeg",
+                        "isPro": true,
+                        "fullname": "Changyu Chen",
+                        "user": "Cameron-Chen",
+                        "type": "user"
+                    },
+                    "name": "Changyu Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:55:16.488Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0ad",
+                    "name": "Simon Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0ae",
+                    "user": {
+                        "_id": "66129c7b50350afe76757262",
+                        "avatarUrl": "/avatars/a2f4fac076b9d658a0d904ed54960f6f.svg",
+                        "isPro": false,
+                        "fullname": "Xiangxin Zhou",
+                        "user": "zhouxiangxin",
+                        "type": "user"
+                    },
+                    "name": "Xiangxin Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:55:20.132Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0af",
+                    "name": "Haotian Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b0",
+                    "name": "Shaopan Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b1",
+                    "user": {
+                        "_id": "635e3a76106f984574c36409",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+                        "isPro": false,
+                        "fullname": "Bo Liu",
+                        "user": "Benjamin-eecs",
+                        "type": "user"
+                    },
+                    "name": "Bo Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T03:07:48.166Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b2",
+                    "name": "Chenmien Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b3",
+                    "name": "Chuen Yang Beh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b4",
+                    "name": "Weixun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b5",
+                    "name": "Hao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b6",
+                    "name": "Weiyan Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b7",
+                    "name": "Diyi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b8",
+                    "name": "Michael Shieh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0b9",
+                    "name": "Yee Whye Teh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0ba",
+                    "name": "Wee Sun Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddde806024653e8a3ed0bb",
+                    "name": "Min Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T15:55:57.000Z",
+            "submittedOnDailyAt": "2025-10-02T00:38:09.699Z",
+            "title": "GEM: A Gym for Agentic LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The training paradigm for large language models (LLMs) is moving from static\ndatasets to experience-based learning, where agents acquire skills via\ninteracting with complex environments. To facilitate this transition we\nintroduce GEM (General Experience Maker), an open-source environment simulator\ndesigned for the age of LLMs. Analogous to OpenAI-Gym for traditional\nreinforcement learning (RL), GEM provides a standardized framework for the\nenvironment-agent interface, including asynchronous vectorized execution for\nhigh throughput, and flexible wrappers for easy extensibility. GEM also\nfeatures a diverse suite of environments, robust integrated tools, and\nsingle-file example scripts demonstrating using GEM with five popular RL\ntraining frameworks. Along with this, we also provide a set of baselines across\n24 environments using REINFORCE with Return Batch Normalization (ReBN), which\n-- unlike GRPO -- is compatible with the full RL setting of dense per-turn\nrewards and offers better credit assignment. We further conduct apple-to-apple\nbenchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings\nusing GEM to shed light on the algorithmic designs. Lastly, GEM also functions\nas a convenient evaluation toolkit besides a training environment. We hope this\nframework can help accelerate future agentic LLM research.",
+            "upvotes": 42,
+            "discussionId": "68ddde806024653e8a3ed0bc",
+            "githubRepo": "https://github.com/axon-rl/gem",
+            "ai_summary": "GEM, an open-source environment simulator, facilitates experience-based learning for large language models by providing a standardized framework and diverse environments for training and benchmarking reinforcement learning algorithms.",
+            "ai_keywords": [
+                "large language models",
+                "experience-based learning",
+                "GEM",
+                "environment simulator",
+                "OpenAI-Gym",
+                "asynchronous vectorized execution",
+                "flexible wrappers",
+                "REINFORCE",
+                "Return Batch Normalization",
+                "ReBN",
+                "GRPO",
+                "PPO",
+                "benchmarking",
+                "agentic LLM research"
+            ],
+            "githubStars": 144
+        },
+        "translation_title": "GEM: 에이전틱 LLM을 위한 체계",
+        "purpose": "대형 언어 모델(LLM)의 경험 기반 학습을 통해 에이전트가 복잡한 환경에서 기술을 습득할 수 있도록 돕기 위한 새로운 환경 시뮬레이터 제공",
+        "method": [
+            "GEM이라는 오픈소스 환경 시뮬레이터를 소개함(we introduce GEM (General Experience Maker), an open-source environment simulator designed for the age of LLMs.)",
+            "전통적인 강화 학습(RL)의 OpenAI-Gym에 비유하여 접근 방식을 표준화한 환경-에이전트 인터페이스를 제공함(GEM provides a standardized framework for the environment-agent interface, including asynchronous vectorized execution for high throughput, and flexible wrappers for easy extensibility.)",
+            "24개 환경에서 REINFORCE와 Return Batch Normalization(ReBN)을 활용한 기준선 제공(we also provide a set of baselines across 24 environments using REINFORCE with Return Batch Normalization (ReBN))",
+            "GEM을 사용하여 PPO, GRPO, REINFORCE의 벤치마킹을 수행함(we further conduct apple-to-apple benchmarking of PPO, GRPO and REINFORCE in both single- and multi-turn settings using GEM to shed light on the algorithmic designs.)"
+        ],
+        "conclusion": "GEM은 에이전틱 LLM 연구의 가속화를 도울 수 있는 훈련 환경 및 평가 도구로 기능함.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Evaluation Toolkit"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.25849",
+            "authors": [
+                {
+                    "_id": "68de03246024653e8a3ed14f",
+                    "name": "Ziniu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed150",
+                    "name": "Congliang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed151",
+                    "name": "Tianyun Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed152",
+                    "name": "Tian Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed153",
+                    "name": "Ruoyu Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed154",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed155",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de03246024653e8a3ed156",
+                    "name": "Zhi-Quan Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-30T06:41:57.000Z",
+            "submittedOnDailyAt": "2025-10-02T03:25:18.339Z",
+            "title": "Knapsack RL: Unlocking Exploration of LLMs via Optimizing Budget\n  Allocation",
+            "submittedOnDailyBy": {
+                "_id": "647c4c901f878439e2fd34d6",
+                "avatarUrl": "/avatars/b4399d210d7239d4662b11a4ee7b527d.svg",
+                "isPro": false,
+                "fullname": "Ziniu Li",
+                "user": "ziniuli",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) can self-improve through reinforcement learning,\nwhere they generate trajectories to explore and discover better solutions.\nHowever, this exploration process is computationally expensive, often forcing\ncurrent methods to assign limited exploration budgets to each task. This\nuniform allocation creates problematic edge cases: easy tasks consistently\nsucceed while difficult tasks consistently fail, both producing zero gradients\nduring training updates for the widely used Group Relative Policy Optimization\n(GRPO). We address this problem from the lens of exploration budget allocation.\nViewing each task's exploration as an \"item\" with a distinct \"value\" and\n\"cost\", we establish a connection to the classical knapsack problem. This\nformulation allows us to derive an optimal assignment rule that adaptively\ndistributes resources based on the model's current learning status. When\napplied to GRPO, our method increases the effective ratio of non-zero policy\ngradients by 20-40% during training. Acting as a computational \"free lunch\",\nour approach could reallocate exploration budgets from tasks where learning is\nsaturated to those where it is most impactful. This enables significantly\nlarger budgets (e.g., 93 rollouts) for especially challenging problems, which\nwould be computationally prohibitive under a uniform allocation. These\nimprovements translate to meaningful gains on mathematical reasoning\nbenchmarks, with average improvements of 2-4 points and peak gains of 9 points\non specific tasks. Notably, achieving comparable performance with traditional\nhomogeneous allocation would require about 2x the computational resources.",
+            "upvotes": 27,
+            "discussionId": "68de03256024653e8a3ed157",
+            "ai_summary": "An adaptive exploration budget allocation method for reinforcement learning in Large Language Models improves training efficiency and performance on mathematical reasoning benchmarks.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "trajectories",
+                "Group Relative Policy Optimization (GRPO)",
+                "exploration budget allocation",
+                "knapsack problem",
+                "policy gradients",
+                "computational resources",
+                "mathematical reasoning benchmarks"
+            ]
+        },
+        "translation_title": "Knapsack RL: 예산 할당 최적화를 통한 LLM 탐색의 잠금 해제",
+        "purpose": "Reinforcement learning을 통해 LLM의 탐색 과정을 개선하여 더 나은 해결책을 찾기 위한 목표",
+        "method": [
+            "탐색 예산 할당 문제를 고전적인 knapsack 문제와 연결하여 해결책을 제시함(We address this problem from the lens of exploration budget allocation. Viewing each task's exploration as an 'item' with a distinct 'value' and 'cost', we establish a connection to the classical knapsack problem.)",
+            "효과적으로 자원을 분배하는 최적의 할당 규칙을 도출함(This formulation allows us to derive an optimal assignment rule that adaptively distributes resources based on the model's current learning status.)",
+            "GRPO에 적용하여 정책 그래디언트의 비율을 20-40% 증가시킴(When applied to GRPO, our method increases the effective ratio of non-zero policy gradients by 20-40% during training.)"
+        ],
+        "conclusion": "이 방법은 탐색 예산을 효율적으로 재분배하여 수학적 추론 벤치마크에서 평균 2-4점, 특정 작업에서 최대 9점을 향상시켰다.",
+        "keywords": [
+            "Large Language Models",
+            "Reinforcement Learning",
+            "Budget Allocation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.25455",
+            "authors": [
+                {
+                    "_id": "68dd50e30898d7e69e16c9c7",
+                    "user": {
+                        "_id": "63b2e4fb922f26a27e75b763",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b2e4fb922f26a27e75b763/o0txunjDifS2LOvsnxDHD.png",
+                        "isPro": false,
+                        "fullname": "Alexander Kovrigin",
+                        "user": "waleko",
+                        "type": "user"
+                    },
+                    "name": "Alexander Kovrigin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T03:08:27.923Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dd50e30898d7e69e16c9c8",
+                    "user": {
+                        "_id": "64a0539e7b57fab3a5d2905e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a0539e7b57fab3a5d2905e/4gZo0l51m_ztFjPkBPGq0.jpeg",
+                        "isPro": false,
+                        "fullname": "Aleksandra Eliseeva",
+                        "user": "saridormi",
+                        "type": "user"
+                    },
+                    "name": "Aleksandra Eliseeva",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T03:08:23.716Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dd50e30898d7e69e16c9c9",
+                    "user": {
+                        "_id": "6532abdb09179320406230e0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6532abdb09179320406230e0/fdjKr2lYnqP6RQECArkcl.jpeg",
+                        "isPro": false,
+                        "fullname": "Konstantin Grotov",
+                        "user": "konstantgr",
+                        "type": "user"
+                    },
+                    "name": "Konstantin Grotov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T03:08:31.102Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dd50e30898d7e69e16c9ca",
+                    "user": {
+                        "_id": "64380bed961bb61e463bf93d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64380bed961bb61e463bf93d/zsel0Dzv1yU9O8zAxvCBw.jpeg",
+                        "isPro": false,
+                        "fullname": "Egor Bogomolov",
+                        "user": "egor-bogomolov",
+                        "type": "user"
+                    },
+                    "name": "Egor Bogomolov",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:56:17.621Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68dd50e30898d7e69e16c9cb",
+                    "name": "Yaroslav Zharov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63b2e4fb922f26a27e75b763/e3UTEuQYvqf7R3_xYpZpC.png"
+            ],
+            "publishedAt": "2025-09-29T20:03:05.000Z",
+            "submittedOnDailyAt": "2025-10-02T07:31:37.963Z",
+            "title": "PIPer: On-Device Environment Setup via Online Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "63b2e4fb922f26a27e75b763",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b2e4fb922f26a27e75b763/o0txunjDifS2LOvsnxDHD.png",
+                "isPro": false,
+                "fullname": "Alexander Kovrigin",
+                "user": "waleko",
+                "type": "user"
+            },
+            "summary": "Environment setup-the process of configuring the system to work with a\nspecific software project-represents a persistent challenge in Software\nEngineering (SE). Automated environment setup methods could assist developers\nby providing fully configured environments for arbitrary repositories without\nmanual effort. This also helps SE researchers to scale execution-based\nbenchmarks. However, recent studies reveal that even state-of-the-art Large\nLanguage Models (LLMs) achieve limited success in automating this task. To\naddress this limitation, we tune a specialized model for environment setup. We\ncombine supervised fine-tuning for generating correct Bash scripts and\nReinforcement Learning with Verifiable Rewards (RLVR) to adapt it to the task\nof environment setup. On EnvBench-Python, our method enables Qwen3-8B (a model\nrunnable on consumer hardware) to perform on par with larger models-Qwen3-32B\nand GPT-4o. The training code and model checkpoints are available online:\nhttps://github.com/JetBrains-Research/PIPer.",
+            "upvotes": 19,
+            "discussionId": "68dd50e40898d7e69e16c9cc",
+            "githubRepo": "https://github.com/JetBrains-Research/PIPer",
+            "ai_summary": "A specialized model combining supervised fine-tuning and Reinforcement Learning with Verifiable Rewards achieves competitive performance in automated environment setup tasks.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMs",
+                "supervised fine-tuning",
+                "Reinforcement Learning with Verifiable Rewards",
+                "RLVR",
+                "Bash scripts",
+                "EnvBench-Python",
+                "Qwen3-8B",
+                "Qwen3-32B",
+                "GPT-4o"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "PIPer: 온라인 강화 학습을 통한 온디바이스 환경 설정",
+        "purpose": "개발자들이 수동 노력 없이 특정 소프트웨어 프로젝트를 위한 환경을 자동으로 설정할 수 있도록 지원하기 위한 연구",
+        "method": [
+            "환경 설정을 위한 전문 모델을 조정함으로써 이 문제를 해결함(To address this limitation, we tune a specialized model for environment setup.)",
+            "정확한 Bash 스크립트를 생성하기 위해 감독 하에 미세 조정을 수행하고, 강화 학습과 검증 가능한 보상을 결합함(We combine supervised fine-tuning for generating correct Bash scripts and Reinforcement Learning with Verifiable Rewards (RLVR) to adapt it to the task of environment setup.)",
+            "우리의 방법을 통해 Qwen3-8B 모델이 더 큰 모델들과 동등한 성과를 내도록 함(On EnvBench-Python, our method enables Qwen3-8B (a model runnable on consumer hardware) to perform on par with larger models-Qwen3-32B and GPT-4o.)"
+        ],
+        "conclusion": "PIPer는 소비자 하드웨어에서 실행 가능한 환경 설정을 자동으로 지원하는 효과적인 방법을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
