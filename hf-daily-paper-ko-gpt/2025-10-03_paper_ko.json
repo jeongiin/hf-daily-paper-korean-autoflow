@@ -1,0 +1,482 @@
+[
+    {
+        "paper": {
+            "id": "2510.00446",
+            "authors": [
+                {
+                    "_id": "68ddef306024653e8a3ed0e9",
+                    "user": {
+                        "_id": "645b0c3ec35da9c7afd95421",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuling",
+                        "user": "YerbaPage",
+                        "type": "user"
+                    },
+                    "name": "Yuling Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:55:10.013Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddef306024653e8a3ed0ea",
+                    "name": "Yichun Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddef306024653e8a3ed0eb",
+                    "name": "Hongyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddef306024653e8a3ed0ec",
+                    "name": "Beijun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ddef306024653e8a3ed0ed",
+                    "name": "Xiaodong Gu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T02:54:57.000Z",
+            "submittedOnDailyAt": "2025-10-03T00:37:13.283Z",
+            "title": "LongCodeZip: Compress Long Context for Code Language Models",
+            "submittedOnDailyBy": {
+                "_id": "645b0c3ec35da9c7afd95421",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+                "isPro": false,
+                "fullname": "Yuling",
+                "user": "YerbaPage",
+                "type": "user"
+            },
+            "summary": "Code generation under long contexts is becoming increasingly critical as\nLarge Language Models (LLMs) are required to reason over extensive information\nin the codebase. While recent advances enable code LLMs to process long inputs,\nhigh API costs and generation latency remain substantial bottlenecks. Existing\ncontext pruning techniques, such as LLMLingua, achieve promising results for\ngeneral text but overlook code-specific structures and dependencies, leading to\nsuboptimal performance in programming tasks. In this paper, we propose\nLongCodeZip, a novel plug-and-play code compression framework designed\nspecifically for code LLMs. LongCodeZip employs a dual-stage strategy: (1)\ncoarse-grained compression, which identifies and ranks function-level chunks\nusing conditional perplexity with respect to the instruction, retaining only\nthe most relevant functions; and (2) fine-grained compression, which segments\nretained functions into blocks based on perplexity and selects an optimal\nsubset under an adaptive token budget to maximize relevance. Evaluations across\nmultiple tasks, including code completion, summarization, and question\nanswering, show that LongCodeZip consistently outperforms baseline methods,\nachieving up to a 5.6x compression ratio without degrading task performance. By\neffectively reducing context size while preserving essential information,\nLongCodeZip enables LLMs to better scale to real-world, large-scale code\nscenarios, advancing the efficiency and capability of code intelligence\napplications.",
+            "upvotes": 64,
+            "discussionId": "68ddef316024653e8a3ed0ee",
+            "githubRepo": "https://github.com/YerbaPage/LongCodeZip",
+            "ai_summary": "LongCodeZip is a code compression framework for LLMs that uses dual-stage compression to reduce context size without degrading performance, improving efficiency in code intelligence applications.",
+            "ai_keywords": [
+                "Large Language Models",
+                "code LLMs",
+                "context pruning",
+                "LLMLingua",
+                "conditional perplexity",
+                "function-level chunks",
+                "fine-grained compression",
+                "token budget",
+                "code completion",
+                "code summarization",
+                "question answering",
+                "code intelligence applications"
+            ],
+            "githubStars": 42,
+            "organization": {
+                "_id": "6724d0b84c0a2bf36e39a226",
+                "name": "Stanford-University",
+                "fullname": "Stanford University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6724cfba409a4f96ce1d773b/BjPcf9AfmEU3WeSVb33s8.png"
+            }
+        },
+        "translation_title": "LongCodeZip: 코드 언어 모델을 위한 긴 컨텍스트 압축",
+        "purpose": "코드 언어 모델이 긴 컨텍스트를 효율적으로 처리할 수 있도록 하는 새로운 압축 프레임워크 개발",
+        "method": [
+            "LongCodeZip은 두 단계의 전략을 사용하여 긴 코드 컨텍스트를 압축함(We propose LongCodeZip, a novel plug-and-play code compression framework designed specifically for code LLMs.)",
+            "첫 번째 단계에서는 함수 수준의 청크를 식별하고 랭킹하기 위해 조건부 perplexity를 사용하며, 관련성이 높은 기능만을 유지함(coarse-grained compression, which identifies and ranks function-level chunks using conditional perplexity with respect to the instruction, retaining only the most relevant functions.)",
+            "두 번째 단계에서는 선택된 기능을 perplexity에 따라 블록으로 나누고, 적응형 토큰 예산 하에 최적의 하위 집합을 선택함(fine-grained compression, which segments retained functions into blocks based on perplexity and selects an optimal subset under an adaptive token budget to maximize relevance.)"
+        ],
+        "conclusion": "LongCodeZip은 여러 작업에서 기존 방법보다 우수한 성능을 보여주며, 최대 5.6배의 압축 비율을 달성하여 코드 인텔리전스 애플리케이션의 효율성과 능력을 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Code Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.02283",
+            "authors": [
+                {
+                    "_id": "68df2b55df49fb0df1e03be2",
+                    "name": "Justin Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be3",
+                    "user": {
+                        "_id": "6381c5d63680a7cf34e08ca9",
+                        "avatarUrl": "/avatars/731467e2d80d0ae163c4a00a9e3ff9e5.svg",
+                        "isPro": false,
+                        "fullname": "wujie10558@gmail.com",
+                        "user": "wujie10",
+                        "type": "user"
+                    },
+                    "name": "Jie Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-03T12:32:59.026Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be4",
+                    "user": {
+                        "_id": "637f0eb22438d7485b8ef5d7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637f0eb22438d7485b8ef5d7/70h7dekqj7LuBobOXckmJ.jpeg",
+                        "isPro": false,
+                        "fullname": "Ming Li",
+                        "user": "limingcv",
+                        "type": "user"
+                    },
+                    "name": "Ming Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-03T12:33:02.772Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be5",
+                    "name": "Tao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be6",
+                    "name": "Xiaojie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be7",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be8",
+                    "name": "Andrew Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03be9",
+                    "name": "Yuanhao Ban",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df2b55df49fb0df1e03bea",
+                    "name": "Cho-Jui Hsieh",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/Fb3ffDmXrslDcQSJH51MW.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/65862671e878be571bf9fc52/I0qCOZqF-XJo2Xg3i__RJ.mp4"
+            ],
+            "publishedAt": "2025-10-02T17:55:42.000Z",
+            "submittedOnDailyAt": "2025-10-03T00:21:50.292Z",
+            "title": "Self-Forcing++: Towards Minute-Scale High-Quality Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "65862671e878be571bf9fc52",
+                "avatarUrl": "/avatars/b2a1b939f3112b476e7641e0c5fd2dc7.svg",
+                "isPro": false,
+                "fullname": "cuijiaxing",
+                "user": "cuijiaxing",
+                "type": "user"
+            },
+            "summary": "Diffusion models have revolutionized image and video generation, achieving\nunprecedented visual quality. However, their reliance on transformer\narchitectures incurs prohibitively high computational costs, particularly when\nextending generation to long videos. Recent work has explored autoregressive\nformulations for long video generation, typically by distilling from\nshort-horizon bidirectional teachers. Nevertheless, given that teacher models\ncannot synthesize long videos, the extrapolation of student models beyond their\ntraining horizon often leads to pronounced quality degradation, arising from\nthe compounding of errors within the continuous latent space. In this paper, we\npropose a simple yet effective approach to mitigate quality degradation in\nlong-horizon video generation without requiring supervision from long-video\nteachers or retraining on long video datasets. Our approach centers on\nexploiting the rich knowledge of teacher models to provide guidance for the\nstudent model through sampled segments drawn from self-generated long videos.\nOur method maintains temporal consistency while scaling video length by up to\n20x beyond teacher's capability, avoiding common issues such as over-exposure\nand error-accumulation without recomputing overlapping frames like previous\nmethods. When scaling up the computation, our method shows the capability of\ngenerating videos up to 4 minutes and 15 seconds, equivalent to 99.9% of the\nmaximum span supported by our base model's position embedding and more than 50x\nlonger than that of our baseline model. Experiments on standard benchmarks and\nour proposed improved benchmark demonstrate that our approach substantially\noutperforms baseline methods in both fidelity and consistency. Our long-horizon\nvideos demo can be found at https://self-forcing-plus-plus.github.io/",
+            "upvotes": 52,
+            "discussionId": "68df2b56df49fb0df1e03beb",
+            "projectPage": "https://self-forcing-plus-plus.github.io/",
+            "githubRepo": "https://github.com/justincui03/Self-Forcing-Plus-Plus",
+            "ai_summary": "A method is proposed to enhance long-horizon video generation by using sampled segments from self-generated long videos to guide student models, maintaining quality and consistency without additional supervision or retraining.",
+            "ai_keywords": [
+                "diffusion models",
+                "transformer architectures",
+                "autoregressive formulations",
+                "bidirectional teachers",
+                "latent space",
+                "quality degradation",
+                "temporal consistency",
+                "position embedding"
+            ],
+            "githubStars": 15,
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "Self-Forcing++: 분 단위 고품질 비디오 생성을 위한 접근법",
+        "purpose": "우리는 장기간 비디오 생성에서 품질 저하를 완화하고자 하는 목표를 가지고 있습니다.",
+        "method": [
+            "교사 모델의 지식을 활용하여 자기 생성된 긴 비디오에서 샘플 세그먼트를 통해 학생 모델에 지침을 제공합니다.(Our approach centers on exploiting the rich knowledge of teacher models to provide guidance for the student model through sampled segments drawn from self-generated long videos.)",
+            "우리 방법은 교사의 능력을 넘어 20배까지 비디오 길이를 확장하며 시간적 일관성을 유지합니다.(Our method maintains temporal consistency while scaling video length by up to 20x beyond teacher's capability.)",
+            "우리 방법은 일반적인 문제인 과다 노출과 오류 누적을 피하는 동시에 겹치는 프레임을 다시 계산하지 않습니다.(avoiding common issues such as over-exposure and error-accumulation without recomputing overlapping frames like previous methods.)"
+        ],
+        "conclusion": "우리의 접근법은 충실성과 일관성 모두에서 기준 방법을 크게 초월하여 최대 4분 15초 길이의 비디오를 생성하는 능력을 보여줍니다.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.02245",
+            "authors": [
+                {
+                    "_id": "68df3b51df49fb0df1e03cd2",
+                    "user": {
+                        "_id": "62495cb96ee7ee6b646db130",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62495cb96ee7ee6b646db130/UwBXmvcMq7LMvBWUw0xo3.jpeg",
+                        "isPro": false,
+                        "fullname": "Runzhe Zhan",
+                        "user": "rzzhan",
+                        "type": "user"
+                    },
+                    "name": "Runzhe Zhan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-03T12:29:46.232Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd3",
+                    "name": "Yafu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd4",
+                    "name": "Zhi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd5",
+                    "name": "Xiaoye Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd6",
+                    "name": "Dongrui Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd7",
+                    "name": "Jing Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd8",
+                    "name": "Derek F. Wong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df3b51df49fb0df1e03cd9",
+                    "name": "Yu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-02T17:31:30.000Z",
+            "submittedOnDailyAt": "2025-10-03T01:31:39.660Z",
+            "title": "ExGRPO: Learning to Reason from Experience",
+            "submittedOnDailyBy": {
+                "_id": "62495cb96ee7ee6b646db130",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62495cb96ee7ee6b646db130/UwBXmvcMq7LMvBWUw0xo3.jpeg",
+                "isPro": false,
+                "fullname": "Runzhe Zhan",
+                "user": "rzzhan",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning from verifiable rewards (RLVR) is an emerging paradigm\nfor improving the reasoning ability of large language models. However, standard\non-policy training discards rollout experiences after a single update, leading\nto computational inefficiency and instability. While prior work on RL has\nhighlighted the benefits of reusing past experience, the role of experience\ncharacteristics in shaping learning dynamics of large reasoning models remains\nunderexplored. In this paper, we are the first to investigate what makes a\nreasoning experience valuable and identify rollout correctness and entropy as\neffective indicators of experience value. Based on these insights, we propose\nExGRPO (Experiential Group Relative Policy Optimization), a framework that\norganizes and prioritizes valuable experiences, and employs a mixed-policy\nobjective to balance exploration with experience exploitation. Experiments on\nfive backbone models (1.5B-8B parameters) show that ExGRPO consistently\nimproves reasoning performance on mathematical/general benchmarks, with an\naverage gain of +3.5/7.6 points over on-policy RLVR. Moreover, ExGRPO\nstabilizes training on both stronger and weaker models where on-policy methods\nfail. These results highlight principled experience management as a key\ningredient for efficient and scalable RLVR.",
+            "upvotes": 42,
+            "discussionId": "68df3b52df49fb0df1e03cda",
+            "ai_summary": "ExGRPO, a framework that prioritizes valuable reasoning experiences, improves and stabilizes reinforcement learning from verifiable rewards for large language models.",
+            "ai_keywords": [
+                "reinforcement learning from verifiable rewards",
+                "RLVR",
+                "on-policy training",
+                "rollout experiences",
+                "experience characteristics",
+                "rollout correctness",
+                "entropy",
+                "ExGRPO",
+                "Experiential Group Relative Policy Optimization",
+                "mixed-policy objective",
+                "exploration",
+                "experience exploitation",
+                "reasoning performance",
+                "mathematical benchmarks",
+                "general benchmarks"
+            ]
+        },
+        "translation_title": "ExGRPO: 경험에서 학습하여 추론하기",
+        "purpose": "대규모 언어 모델의 추론 능력을 향상시키기 위한 효과적인 경험 관리 기법 연구",
+        "method": [
+            "경험의 가치 측정을 위해 rollout correctness와 entropy를 효과적인 지표로 식별함(identify rollout correctness and entropy as effective indicators of experience value.)",
+            "경험을 조직하고 우선순위를 매기는 ExGRPO 프레임워크를 제안하고, 탐색과 경험 활용 간의 균형을 맞추기 위한 혼합 정책 목표를 사용함(based on these insights, we propose ExGRPO (Experiential Group Relative Policy Optimization), a framework that organizes and prioritizes valuable experiences, and employs a mixed-policy objective to balance exploration with experience exploitation.)",
+            "다섯 개의 모델에서 ExGRPO를 실험하여 평균 +3.5/7.6 포인트를 기록하며 추론 성능을 일관되게 향상시킴(Experiments on five backbone models show that ExGRPO consistently improves reasoning performance on mathematical/general benchmarks, with an average gain of +3.5/7.6 points over on-policy RLVR.)"
+        ],
+        "conclusion": "ExGRPO는 효율적이고 확장 가능한 RLVR을 위한 중요한 경험 관리 기법을 제공하여 훈련을 안정화하고 성능을 향상시킴.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.02314",
+            "authors": [
+                {
+                    "_id": "68df49acdf49fb0df1e03d51",
+                    "name": "Bo-Hsu Ke",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df49acdf49fb0df1e03d52",
+                    "name": "You-Zhe Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df49acdf49fb0df1e03d53",
+                    "name": "Yu-Lun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df49acdf49fb0df1e03d54",
+                    "name": "Wei-Chen Chiu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/N5QZmwAl2bgkGqsFR0liN.mp4"
+            ],
+            "publishedAt": "2025-10-02T17:59:57.000Z",
+            "submittedOnDailyAt": "2025-10-03T02:30:49.018Z",
+            "title": "StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided\n  Illusions",
+            "submittedOnDailyBy": {
+                "_id": "6459d5da3b6fafd9664807ab",
+                "avatarUrl": "/avatars/57430d1bbde3a2fe5586e5fbcafb0e74.svg",
+                "isPro": false,
+                "fullname": "Yu-Lun Liu",
+                "user": "yulunliu",
+                "type": "user"
+            },
+            "summary": "3D scene representation methods like Neural Radiance Fields (NeRF) and 3D\nGaussian Splatting (3DGS) have significantly advanced novel view synthesis. As\nthese methods become prevalent, addressing their vulnerabilities becomes\ncritical. We analyze 3DGS robustness against image-level poisoning attacks and\npropose a novel density-guided poisoning method. Our method strategically\ninjects Gaussian points into low-density regions identified via Kernel Density\nEstimation (KDE), embedding viewpoint-dependent illusory objects clearly\nvisible from poisoned views while minimally affecting innocent views.\nAdditionally, we introduce an adaptive noise strategy to disrupt multi-view\nconsistency, further enhancing attack effectiveness. We propose a KDE-based\nevaluation protocol to assess attack difficulty systematically, enabling\nobjective benchmarking for future research. Extensive experiments demonstrate\nour method's superior performance compared to state-of-the-art techniques.\nProject page: https://hentci.github.io/stealthattack/",
+            "upvotes": 35,
+            "discussionId": "68df49addf49fb0df1e03d55",
+            "projectPage": "https://hentci.github.io/stealthattack/",
+            "githubRepo": "https://github.com/Hentci/StealthAttack_official",
+            "ai_summary": "A novel density-guided poisoning method for 3D Gaussian Splatting enhances attack effectiveness by strategically injecting Gaussian points and disrupting multi-view consistency.",
+            "ai_keywords": [
+                "Neural Radiance Fields",
+                "3D Gaussian Splatting",
+                "image-level poisoning attacks",
+                "density-guided poisoning",
+                "Gaussian points",
+                "Kernel Density Estimation",
+                "viewpoint-dependent illusory objects",
+                "multi-view consistency",
+                "KDE-based evaluation protocol"
+            ],
+            "githubStars": 35,
+            "organization": {
+                "_id": "63e39e6499a032b1c950403d",
+                "name": "NYCU",
+                "fullname": "National Yang Ming Chiao Tung University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63e39df6c65f975b436bb6b8/WLWf1bSpvrXBYYKEdXbgU.png"
+            }
+        },
+        "translation_title": "StealthAttack: 밀집도 유도 환상을 통한 강력한 3D 가우시안 스플래팅 공격",
+        "purpose": "3DGS에 대한 이미지 수준의 잔여 공격을 분석하고 새로운 밀집도 유도 공격 방법을 제안하여 취약성 해결",
+        "method": [
+            "Kernel Density Estimation(KDE)를 통해 낮은 밀집도 영역에 가우시안 점을 주입하여 환상적 물체를 배치함(Our method strategically injects Gaussian points into low-density regions identified via Kernel Density Estimation (KDE), embedding viewpoint-dependent illusory objects clearly visible from poisoned views while minimally affecting innocent views.)",
+            "다양한 시점을 방해하는 적응형 노이즈 전략을 도입함(Additionally, we introduce an adaptive noise strategy to disrupt multi-view consistency, further enhancing attack effectiveness.)",
+            "KDE 기반 평가 프로토콜을 제안하여 공격 난이도를 체계적으로 평가함(We propose a KDE-based evaluation protocol to assess attack difficulty systematically, enabling objective benchmarking for future research.)"
+        ],
+        "conclusion": "우리 방법은 최신 기술과 비교하여 우수한 성능을 입증하며, 3DGS의 취약성을 강조하는 데 기여한다.",
+        "keywords": [
+            "3D Vision",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.02297",
+            "authors": [
+                {
+                    "_id": "68df29e3df49fb0df1e03bca",
+                    "name": "Wentao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df29e3df49fb0df1e03bcb",
+                    "name": "Yang Young Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68df29e3df49fb0df1e03bcc",
+                    "user": {
+                        "_id": "63081e15a670ed10f9d44229",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+                        "isPro": true,
+                        "fullname": "Yuntian Deng",
+                        "user": "yuntian-deng",
+                        "type": "user"
+                    },
+                    "name": "Yuntian Deng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-03T12:33:08.482Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/eATqBkbxrVSqsBzcMJ__-.png"
+            ],
+            "publishedAt": "2025-10-02T17:59:00.000Z",
+            "submittedOnDailyAt": "2025-10-03T00:14:16.738Z",
+            "title": "Interactive Training: Feedback-Driven Neural Network Optimization",
+            "submittedOnDailyBy": {
+                "_id": "63081e15a670ed10f9d44229",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63081e15a670ed10f9d44229/w1b9uq-9774bMMgJbSPsS.jpeg",
+                "isPro": true,
+                "fullname": "Yuntian Deng",
+                "user": "yuntian-deng",
+                "type": "user"
+            },
+            "summary": "Traditional neural network training typically follows fixed, predefined\noptimization recipes, lacking the flexibility to dynamically respond to\ninstabilities or emerging training issues. In this paper, we introduce\nInteractive Training, an open-source framework that enables real-time,\nfeedback-driven intervention during neural network training by human experts or\nautomated AI agents. At its core, Interactive Training uses a control server to\nmediate communication between users or agents and the ongoing training process,\nallowing users to dynamically adjust optimizer hyperparameters, training data,\nand model checkpoints. Through three case studies, we demonstrate that\nInteractive Training achieves superior training stability, reduced sensitivity\nto initial hyperparameters, and improved adaptability to evolving user needs,\npaving the way toward a future training paradigm where AI agents autonomously\nmonitor training logs, proactively resolve instabilities, and optimize training\ndynamics.",
+            "upvotes": 24,
+            "discussionId": "68df29e3df49fb0df1e03bcd",
+            "projectPage": "https://interactivetraining.ai/",
+            "githubRepo": "https://github.com/yuntian-group/interactive-training",
+            "ai_summary": "Interactive Training is a framework that allows real-time, feedback-driven intervention during neural network training, improving stability and adaptability.",
+            "ai_keywords": [
+                "Interactive Training",
+                "control server",
+                "optimizer hyperparameters",
+                "training data",
+                "model checkpoints",
+                "training stability",
+                "sensitivity to initial hyperparameters",
+                "adaptability",
+                "AI agents",
+                "training logs",
+                "training dynamics"
+            ],
+            "githubStars": 5,
+            "organization": {
+                "_id": "66e4ffb6caa240e5c2fa39e9",
+                "name": "yuntian-group",
+                "fullname": "Yuntian Group",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63081e15a670ed10f9d44229/6xB3f3moklDS6qrZAit3I.png"
+            }
+        },
+        "translation_title": "인터랙티브 훈련: 피드백 기반 신경망 최적화",
+        "purpose": "신경망 훈련 과정에서의 불안정성과 문제에 즉각적으로 대응할 수 있도록 하는 최적화 방법 개선",
+        "method": [
+            "인터랙티브 훈련이라는 오픈 소스 프레임워크를 도입하여 훈련 중 실시간 피드백 기반 개입을 가능하게 함(we introduce Interactive Training, an open-source framework that enables real-time, feedback-driven intervention during neural network training by human experts or automated AI agents.)",
+            "제어 서버를 사용하여 사용자 또는 에이전트와 훈련 과정 간의 소통을 중재함(At its core, Interactive Training uses a control server to mediate communication between users or agents and the ongoing training process.)",
+            "최적화 하이퍼파라미터, 훈련 데이터, 모델 체크포인트를 동적으로 조정할 수 있도록 함(allows users to dynamically adjust optimizer hyperparameters, training data, and model checkpoints.)"
+        ],
+        "conclusion": "인터랙티브 훈련은 훈련 안정성을 높이고 초기 하이퍼파라미터에 대한 민감성을 줄이며, 사용자 필요에 더 잘 적응하는 결과를 보여줌.",
+        "keywords": [
+            "Neural Networks",
+            "Optimization",
+            "Adaptability"
+        ]
+    }
+]
