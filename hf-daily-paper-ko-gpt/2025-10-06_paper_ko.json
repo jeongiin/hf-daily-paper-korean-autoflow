@@ -1,0 +1,705 @@
+[
+    {
+        "paper": {
+            "id": "2510.01141",
+            "authors": [
+                {
+                    "_id": "68de25d26024653e8a3ed204",
+                    "name": "Shruthan Radhakrishna",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed205",
+                    "user": {
+                        "_id": "62d913739a5353eef9d7edf3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d913739a5353eef9d7edf3/pRgen2izGJle3ahupOdC7.jpeg",
+                        "isPro": false,
+                        "fullname": "Aman Tiwari",
+                        "user": "amant555",
+                        "type": "user"
+                    },
+                    "name": "Aman Tiwari",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-02T13:54:38.519Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed206",
+                    "name": "Aanjaneya Shukla",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed207",
+                    "name": "Masoud Hashemi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed208",
+                    "name": "Rishabh Maheshwary",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed209",
+                    "name": "Shiva Krishna Reddy Malay",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20a",
+                    "name": "Jash Mehta",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20b",
+                    "name": "Pulkit Pattnaik",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20c",
+                    "name": "Saloni Mittal",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20d",
+                    "name": "Khalil Slimi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20e",
+                    "name": "Kelechi Ogueji",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed20f",
+                    "name": "Akintunde Oladipo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed210",
+                    "name": "Soham Parikh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed211",
+                    "name": "Oluwanifemi Bamgbose",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed212",
+                    "name": "Toby Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed213",
+                    "name": "Ahmed Masry",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed214",
+                    "name": "Khyati Mahajan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed215",
+                    "user": {
+                        "_id": "642f99079b2484d7d857341b",
+                        "avatarUrl": "/avatars/01965cc5a5dbe9c08025a51973462a6a.svg",
+                        "isPro": false,
+                        "fullname": "Sai Rajeswar",
+                        "user": "rajeswarsai",
+                        "type": "user"
+                    },
+                    "name": "Sai Rajeswar Mudumba",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-05T12:47:29.534Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed216",
+                    "name": "Vikas Yadav",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed217",
+                    "name": "Sathwik Tejaswi Madhusudhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed218",
+                    "name": "Torsten Scholak",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed219",
+                    "name": "Sagar Davasam",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed21a",
+                    "name": "Srinivas Sunkara",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de25d26024653e8a3ed21b",
+                    "name": "Nicholas Chapados",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T17:29:35.000Z",
+            "submittedOnDailyAt": "2025-10-06T07:20:15.592Z",
+            "title": "Apriel-1.5-15b-Thinker",
+            "submittedOnDailyBy": {
+                "_id": "62d913739a5353eef9d7edf3",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d913739a5353eef9d7edf3/pRgen2izGJle3ahupOdC7.jpeg",
+                "isPro": false,
+                "fullname": "Aman Tiwari",
+                "user": "amant555",
+                "type": "user"
+            },
+            "summary": "We present Apriel-1.5-15B-Thinker, a 15-billion parameter open-weights\nmultimodal reasoning model that achieves frontier-level performance through\ntraining design rather than sheer scale. Starting from Pixtral-12B, we apply a\nprogressive three-stage methodology: (1) depth upscaling to expand reasoning\ncapacity without pretraining from scratch, (2) staged continual pre-training\nthat first develops foundational text and vision understanding, then enhances\nvisual reasoning through targeted synthetic data generation addressing spatial\nstructure, compositional understanding, and fine-grained perception, and (3)\nhigh-quality text-only supervised fine-tuning on curated instruction-response\npairs with explicit reasoning traces spanning mathematics, coding, science, and\ntool use. Notably, our model achieves competitive results without reinforcement\nlearning or preference optimization, isolating the contribution of our\ndata-centric continual pre-training approach. On the Artificial Analysis\nIntelligence Index, Apriel-1.5-15B-Thinker attains a score of 52, matching\nDeepSeek-R1-0528 despite requiring significantly fewer computational resources.\nAcross ten image benchmarks, its performance is on average within five points\nof Gemini-2.5-Flash and Claude Sonnet-3.7, a key achievement for a model\noperating within single-GPU deployment constraints. Our results demonstrate\nthat thoughtful mid-training 2 design can close substantial capability gaps\nwithout massive scale, making frontier-level multimodal reasoning accessible to\norganizations with limited infrastructure. We release the model checkpoint, all\ntraining recipes, and evaluation protocols under the MIT license to to advance\nopen-source research.",
+            "upvotes": 72,
+            "discussionId": "68de25d26024653e8a3ed21c",
+            "ai_summary": "A 15-billion parameter multimodal reasoning model achieves competitive performance through a progressive training methodology without reinforcement learning, demonstrating efficient use of computational resources.",
+            "ai_keywords": [
+                "multimodal reasoning model",
+                "depth upscaling",
+                "staged continual pre-training",
+                "synthetic data generation",
+                "spatial structure",
+                "compositional understanding",
+                "fine-grained perception",
+                "text-only supervised fine-tuning",
+                "reasoning traces",
+                "Artificial Analysis Intelligence Index",
+                "single-GPU deployment"
+            ],
+            "organization": {
+                "_id": "65f4df5de83b55da5d79fbb6",
+                "name": "ServiceNow-AI",
+                "fullname": "ServiceNow-AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63d3095c2727d7888cbb54e2/Uv-Lx8PVGviqokfOyYlCN.png"
+            }
+        },
+        "translation_title": "Apriel-1.5-15B-Thinker: 15억 매개변수를 가진 다중모달 추론 모델",
+        "purpose": "대규모가 아닌 훈련 설계를 통해 최전선 수준의 성능을 달성하는 다중모달 추론 모델 개발",
+        "method": [
+            "Pixtral-12B에서 시작하여 심화 업스케일링을 통해 추론 능력을 확장함(Starting from Pixtral-12B, we apply a progressive three-stage methodology: (1) depth upscaling to expand reasoning capacity without pretraining from scratch.)",
+            "기본적인 텍스트 및 비전 이해를 개발한 후, 목표 지향적 합성 데이터 생성으로 시각적 추론을 향상시키는 단계적 지속적 사전 훈련을 실행함(2) staged continual pre-training that first develops foundational text and vision understanding, then enhances visual reasoning through targeted synthetic data generation addressing spatial structure, compositional understanding, and fine-grained perception.)",
+            "수학, 코딩, 과학, 도구 사용의 명시적 추론 흔적을 포함하는 최선의 텍스트 전용 감독 미세 조정을 수행함(3) high-quality text-only supervised fine-tuning on curated instruction-response pairs with explicit reasoning traces spanning mathematics, coding, science, and tool use."
+        ],
+        "conclusion": "Apriel-1.5-15B-Thinker는 경쟁력 있는 성능을 달성하였으며, 대규모 없이도 다중모달 추론의 최전선 수준의 접근성을 높였다.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.00515",
+            "authors": [
+                {
+                    "_id": "68e34f7173e20ab5778420bb",
+                    "name": "Zichen Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420bc",
+                    "name": "Shaobo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420bd",
+                    "name": "Yufa Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420be",
+                    "name": "Junyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420bf",
+                    "name": "Qintong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c0",
+                    "name": "Yifeng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c1",
+                    "name": "Zhaorun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c2",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c3",
+                    "name": "Weijia Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c4",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e34f7173e20ab5778420c5",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T04:56:40.000Z",
+            "submittedOnDailyAt": "2025-10-06T03:44:13.823Z",
+            "title": "Efficient Multi-modal Large Language Models via Progressive Consistency\n  Distillation",
+            "submittedOnDailyBy": {
+                "_id": "653b8c3e97a4d71d950e2f20",
+                "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                "isPro": false,
+                "fullname": "Zichen Wen",
+                "user": "zichenwen",
+                "type": "user"
+            },
+            "summary": "Visual tokens consume substantial computational resources in multi-modal\nlarge models (MLLMs), significantly compromising their efficiency. Recent works\nhave attempted to improve efficiency by compressing visual tokens during\ntraining, either through modifications to model components or by introducing\nadditional parameters. However, they often overlook the increased learning\ndifficulty caused by such compression, as the model's parameter space struggles\nto quickly adapt to the substantial perturbations in the feature space induced\nby token compression. In this work, we propose to develop Efficient MLLMs via\nProgressive Consistency Distillation (EPIC), a progressive learning framework.\nSpecifically, by decomposing the feature space perturbations introduced by\ntoken compression along the token-wise and layer-wise dimensions, we introduce\ntoken consistency distillation and layer consistency distillation,\nrespectively, aiming to reduce the training difficulty by leveraging guidance\nfrom a teacher model and following a progressive learning trajectory. Extensive\nexperiments demonstrate the superior effectiveness, robustness, and\ngeneralization capabilities of our proposed framework.",
+            "upvotes": 24,
+            "discussionId": "68e34f7173e20ab5778420c6",
+            "projectPage": "https://zichenwen1.github.io/EPIC",
+            "githubRepo": "https://github.com/ZichenWen1/EPIC",
+            "ai_summary": "EPIC, a progressive learning framework, improves the efficiency of multi-modal large models by reducing training difficulty through token and layer consistency distillation during visual token compression.",
+            "ai_keywords": [
+                "visual tokens",
+                "multi-modal large models",
+                "MLLMs",
+                "token compression",
+                "parameter space",
+                "feature space",
+                "progressive learning framework",
+                "token consistency distillation",
+                "layer consistency distillation",
+                "teacher model",
+                "progressive learning trajectory"
+            ],
+            "githubStars": 8,
+            "organization": {
+                "_id": "63e5ef7bf2e9a8f22c515654",
+                "name": "SJTU",
+                "fullname": "Shanghai Jiao Tong University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+            }
+        },
+        "translation_title": "점진적 일관성을 통한 효율적인 다중 모달 대규모 언어 모델",
+        "purpose": "Visual token의 효율성을 향상시키기 위해 training 과정에서의 학습 난이도를 줄이는 것이 목표",
+        "method": [
+            "다중 모달 대규모 모델의 학습 난이도를 줄이기 위한 Progressive Consistency Distillation (EPIC) 프레임워크를 개발함(In this work, we propose to develop Efficient MLLMs via Progressive Consistency Distillation (EPIC), a progressive learning framework.)",
+            "token 압축에 의해 야기된 feature space의 변화를 token-wise와 layer-wise 차원으로 분해함(Specifically, by decomposing the feature space perturbations introduced by token compression along the token-wise and layer-wise dimensions.)",
+            "teacher model의 도움을 받아 점진적인 학습 경로를 따름(introduce token consistency distillation and layer consistency distillation, respectively, aiming to reduce the training difficulty by leveraging guidance from a teacher model and following a progressive learning trajectory.)"
+        ],
+        "conclusion": "제안한 EPIC 프레임워크는 기존 방법들에 비해 효율성, 강건성 및 일반화 능력이 뛰어난 성과를 보임.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.00938",
+            "authors": [
+                {
+                    "_id": "68e15e0973e20ab577841d5e",
+                    "user": {
+                        "_id": "63756971b18c6b01497ca65f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63756971b18c6b01497ca65f/pNiAPL7NuPoHlTPl9huTP.jpeg",
+                        "isPro": false,
+                        "fullname": "Anthony Peng",
+                        "user": "AnthonyPeng",
+                        "type": "user"
+                    },
+                    "name": "ShengYun Peng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-05T12:45:28.147Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d5f",
+                    "name": "Eric Smith",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d60",
+                    "name": "Ivan Evtimov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d61",
+                    "name": "Song Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d62",
+                    "name": "Pin-Yu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d63",
+                    "name": "Hongyuan Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d64",
+                    "name": "Haozhu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d65",
+                    "name": "Duen Horng Chau",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d66",
+                    "name": "Mahesh Pasupuleti",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e15e0973e20ab577841d67",
+                    "name": "Jianfeng Chi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-01T14:15:43.000Z",
+            "submittedOnDailyAt": "2025-10-06T11:48:06.092Z",
+            "title": "Large Reasoning Models Learn Better Alignment from Flawed Thinking",
+            "submittedOnDailyBy": {
+                "_id": "63756971b18c6b01497ca65f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63756971b18c6b01497ca65f/pNiAPL7NuPoHlTPl9huTP.jpeg",
+                "isPro": false,
+                "fullname": "Anthony Peng",
+                "user": "AnthonyPeng",
+                "type": "user"
+            },
+            "summary": "Large reasoning models (LRMs) \"think\" by generating structured\nchain-of-thought (CoT) before producing a final answer, yet they still lack the\nability to reason critically about safety alignment and are easily biased when\na flawed premise is injected into their thought process. We propose RECAP\n(Robust Safety Alignment via Counter-Aligned Prefilling), a principled\nreinforcement learning (RL) method for post-training that explicitly teaches\nmodels to override flawed reasoning trajectories and reroute to safe and\nhelpful responses. RECAP trains on a mixture of synthetically generated\ncounter-aligned CoT prefills and standard prompts, requires no additional\ntraining cost or modifications beyond vanilla reinforcement learning from human\nfeedback (RLHF), and substantially improves safety and jailbreak robustness,\nreduces overrefusal, and preserves core reasoning capability -- all while\nmaintaining inference token budget. Extensive analysis shows that RECAP-trained\nmodels engage in self-reflection more frequently and remain robust under\nadaptive attacks, preserving safety even after repeated attempts to override\ntheir reasoning.",
+            "upvotes": 19,
+            "discussionId": "68e15e0a73e20ab577841d68",
+            "ai_summary": "RECAP, a reinforcement learning method, enhances the safety and robustness of large reasoning models by teaching them to override flawed reasoning and maintain safety without additional training costs.",
+            "ai_keywords": [
+                "chain-of-thought",
+                "reinforcement learning",
+                "counter-aligned prefills",
+                "standard prompts",
+                "reinforcement learning from human feedback",
+                "jailbreak robustness",
+                "overrefusal",
+                "self-reflection",
+                "adaptive attacks"
+            ],
+            "organization": {
+                "_id": "689f81c63080d12247c8f067",
+                "name": "MetaSuperintelligenceLab",
+                "fullname": "MetaSuperintelligenceLab"
+            }
+        },
+        "translation_title": "대규모 추론 모델이 결함 있는 사고로부터 더 나은 정렬을 배운다",
+        "purpose": "대규모 추론 모델이 안전 정렬 및 비판적 사고의 결여를 극복하고 보다 안전하고 유용한 응답을 생성할 수 있도록 개선하는 것",
+        "method": [
+            "RECAP이라는 원칙적인 RL 방법을 제안하여 결함이 있는 추론 경로를 우회하도록 모델을 교육함(We propose RECAP (Robust Safety Alignment via Counter-Aligned Prefilling), a principled reinforcement learning (RL) method for post-training that explicitly teaches models to override flawed reasoning trajectories and reroute to safe and helpful responses.)",
+            "합성 생성된 Counter-Aligned CoT prefills와 표준 프롬프트의 혼합으로 훈련하며 추가 비용 없이 일반적인 RLHF 방식으로 수행함(RECAP trains on a mixture of synthetically generated counter-aligned CoT prefills and standard prompts, requires no additional training cost or modifications beyond vanilla reinforcement learning from human feedback (RLHF).)",
+            "RECAP 훈련이 안전성과 응답의 저항성을 크게 개선함(Extensive analysis shows that RECAP-trained models engage in self-reflection more frequently and remain robust under adaptive attacks)."
+        ],
+        "conclusion": "RECAP 방법을 통해 모델은 자가 반성을 더 자주 수행하고, 지속적인 도전에도 불구하고 안전성을 유지하며 핵심 추론 능력을 보존함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.01068",
+            "authors": [
+                {
+                    "_id": "68de0d466024653e8a3ed16f",
+                    "user": {
+                        "_id": "64780ba6f32a4117fd182b81",
+                        "avatarUrl": "/avatars/85f01f4c6c745a04f04805462f9fe9c2.svg",
+                        "isPro": false,
+                        "fullname": "CAO",
+                        "user": "SAGE2000",
+                        "type": "user"
+                    },
+                    "name": "Jiahang Cao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-06T03:21:22.930Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed170",
+                    "name": "Yize Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed171",
+                    "name": "Hanzhong Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed172",
+                    "name": "Rui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed173",
+                    "name": "Mu Nan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed174",
+                    "name": "Weijian Mai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed175",
+                    "name": "Jiaxu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed176",
+                    "name": "Hao Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed177",
+                    "name": "Jingkai Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed178",
+                    "name": "Gang Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed179",
+                    "name": "Wen Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17a",
+                    "name": "Qiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17b",
+                    "name": "Yijie Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17c",
+                    "name": "Qihao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17d",
+                    "name": "Chunfeng Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17e",
+                    "name": "Xiao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed17f",
+                    "name": "Ping Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68de0d466024653e8a3ed180",
+                    "user": {
+                        "_id": "64b6ce23dbbd1f2cdb624d56",
+                        "avatarUrl": "/avatars/022738ce8f76fa9545b3e363d7264b53.svg",
+                        "isPro": false,
+                        "fullname": "Andrew Luo",
+                        "user": "aluo-x",
+                        "type": "user"
+                    },
+                    "name": "Andrew F. Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-06T03:21:20.592Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64780ba6f32a4117fd182b81/bsb_536O8r19Ocb6K03Ww.png"
+            ],
+            "publishedAt": "2025-10-01T16:05:53.000Z",
+            "submittedOnDailyAt": "2025-10-06T00:35:20.824Z",
+            "title": "Compose Your Policies! Improving Diffusion-based or Flow-based Robot\n  Policies via Test-time Distribution-level Composition",
+            "submittedOnDailyBy": {
+                "_id": "64780ba6f32a4117fd182b81",
+                "avatarUrl": "/avatars/85f01f4c6c745a04f04805462f9fe9c2.svg",
+                "isPro": false,
+                "fullname": "CAO",
+                "user": "SAGE2000",
+                "type": "user"
+            },
+            "summary": "Diffusion-based models for robotic control, including vision-language-action\n(VLA) and vision-action (VA) policies, have demonstrated significant\ncapabilities. Yet their advancement is constrained by the high cost of\nacquiring large-scale interaction datasets. This work introduces an alternative\nparadigm for enhancing policy performance without additional model training.\nPerhaps surprisingly, we demonstrate that the composed policies can exceed the\nperformance of either parent policy. Our contribution is threefold. First, we\nestablish a theoretical foundation showing that the convex composition of\ndistributional scores from multiple diffusion models can yield a superior\none-step functional objective compared to any individual score. A\nGr\\\"onwall-type bound is then used to show that this single-step improvement\npropagates through entire generation trajectories, leading to systemic\nperformance gains. Second, motivated by these results, we propose General\nPolicy Composition (GPC), a training-free method that enhances performance by\ncombining the distributional scores of multiple pre-trained policies via a\nconvex combination and test-time search. GPC is versatile, allowing for the\nplug-and-play composition of heterogeneous policies, including VA and VLA\nmodels, as well as those based on diffusion or flow-matching, irrespective of\ntheir input visual modalities. Third, we provide extensive empirical\nvalidation. Experiments on Robomimic, PushT, and RoboTwin benchmarks, alongside\nreal-world robotic evaluations, confirm that GPC consistently improves\nperformance and adaptability across a diverse set of tasks. Further analysis of\nalternative composition operators and weighting strategies offers insights into\nthe mechanisms underlying the success of GPC. These results establish GPC as a\nsimple yet effective method for improving control performance by leveraging\nexisting policies.",
+            "upvotes": 16,
+            "discussionId": "68de0d476024653e8a3ed181",
+            "projectPage": "https://sagecao1125.github.io/GPC-Site/",
+            "githubRepo": "https://github.com/SageCao1125/GPC",
+            "ai_summary": "General Policy Composition (GPC) enhances robotic control performance by combining pre-trained diffusion-based policies without additional training, leading to superior results across various benchmarks.",
+            "ai_keywords": [
+                "diffusion-based models",
+                "vision-language-action",
+                "vision-action",
+                "distributional scores",
+                "convex composition",
+                "Gr\\\"onwall-type bound",
+                "General Policy Composition",
+                "GPC",
+                "pre-trained policies",
+                "Robomimic",
+                "PushT",
+                "RoboTwin",
+                "real-world robotic evaluations"
+            ],
+            "githubStars": 7,
+            "organization": {
+                "_id": "67ea9ecfc234715db8dbf339",
+                "name": "hkuhk",
+                "fullname": "The University of Hong Kong",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+            }
+        },
+        "translation_title": "정책을 구성하라! 테스트 시간 분포 수준 조합을 통한 확산 기반 및 흐름 기반 로봇 정책 향상",
+        "purpose": "기존 모델 훈련 없이 로봇 제어 정책의 성능을 개선하기 위한 새로운 패러다임 제안",
+        "method": [
+            "다수의 변화 모델로부터의 분포 점수를 볼록 조합하여 더 우수한 한 단계 기능적 목표를 생성하는 이론적 기반을 설정함(First, we establish a theoretical foundation showing that the convex composition of distributional scores from multiple diffusion models can yield a superior one-step functional objective compared to any individual score.)",
+            "General Policy Composition (GPC)라는 훈련 없이 성능을 향상시키는 방법을 제안하고 여러 사전 훈련된 정책의 분포 점수를 결합함을 통해 성능을 높임(Second, motivated by these results, we propose General Policy Composition (GPC), a training-free method that enhances performance by combining the distributional scores of multiple pre-trained policies via a convex combination and test-time search.)",
+            "Robomimic, PushT, RoboTwin 벤치마크에서 실험을 수행하여 GPC가 다양한 작업에서 성능과 적응성을 일관되게 향상시킨다는 것을 확인함(Experiments on Robomimic, PushT, and RoboTwin benchmarks... confirm that GPC consistently improves performance and adaptability across a diverse set of tasks.)"
+        ],
+        "conclusion": "GPC는 기존 정책을 활용하여 제어 성능을 향상시키는 간단하면서도 효과적인 방법으로 자리 잡았다.",
+        "keywords": [
+            "Robot Policies",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.23202",
+            "authors": [
+                {
+                    "_id": "68e3c1fb73e20ab5778421db",
+                    "name": "Vage Egiazarian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421dc",
+                    "name": "Roberto L. Castro",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421dd",
+                    "name": "Denis Kuznedelev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421de",
+                    "name": "Andrei Panferov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421df",
+                    "name": "Eldar Kurtic",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e0",
+                    "name": "Shubhra Pandit",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e1",
+                    "name": "Alexandre Marques",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e2",
+                    "name": "Mark Kurtz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e3",
+                    "name": "Saleh Ashkboos",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e4",
+                    "name": "Torsten Hoefler",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e3c1fb73e20ab5778421e5",
+                    "name": "Dan Alistarh",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/629cf0475a13ba8233dd18c9/HV5zs2Leu_DQls_aRvb7-.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/629cf0475a13ba8233dd18c9/CZmWr2_hch4COTrvx-Odr.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/629cf0475a13ba8233dd18c9/q1lkv6XbDBI6xwmayCF5y.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/629cf0475a13ba8233dd18c9/TM5bxLhlQGEZJZsuzVaCn.jpeg"
+            ],
+            "publishedAt": "2025-09-27T09:22:21.000Z",
+            "submittedOnDailyAt": "2025-10-06T11:55:03.138Z",
+            "title": "Bridging the Gap Between Promise and Performance for Microscaling FP4\n  Quantization",
+            "submittedOnDailyBy": {
+                "_id": "629cf0475a13ba8233dd18c9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1654452258405-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Denis Kuznedelev",
+                "user": "SpiridonSunRotator",
+                "type": "user"
+            },
+            "summary": "The recent hardware-accelerated microscaling 4-bit floating-point formats\nsuch as MXFP4 and NVFP4, supported on NVIDIA and AMD GPUs, promise to\nrevolutionize large language model (LLM) inference. Yet, their practical\nbenefits remain unproven. We present the first comprehensive study of MXFP4 and\nNVFP4 for post-training quantization, revealing gaps between their promise and\nreal-world performance. Our analysis shows that state-of-the-art methods\nstruggle with FP4, due to two key issues: (1) NVFP4's small group size provably\nneutralizes traditional outlier mitigation techniques; (2) MXFP4's power-of-two\nscale quantization severely degrades accuracy due to high induced error. To\nbridge this gap, we introduce Micro-Rotated-GPTQ (MR-GPTQ), a variant of the\nclassic GPTQ quantization algorithm that tailors the quantization process to\nFP4's unique properties, by using block-wise Hadamard transforms and\nformat-specific optimizations. We support our proposal with a set of\nhigh-performance GPU kernels that enable the MR-GPTQ format with negligible\noverhead, by rotation fusion into the weights, and fast online computation of\nthe activations. This leads to speedups vs. FP16 of up to 3.6x layer-wise, and\n2.2x end-to-end on NVIDIA B200, and of 6x layer-wise and 4x end-to-end on\nRTX5090. Our extensive empirical evaluation demonstrates that MR-GPTQ matches\nor outperforms state-of-the-art accuracy, significantly boosting MXFP4, to the\npoint where it nears that of NVFP4. We conclude that, while FP4 is not an\nautomatic upgrade over INT4, format-specialized methods like MR-GPTQ can unlock\na new frontier of accuracy-performance trade-offs.",
+            "upvotes": 12,
+            "discussionId": "68e3c1fc73e20ab5778421e6",
+            "ai_summary": "A new quantization method, Micro-Rotated-GPTQ, addresses the challenges of 4-bit floating-point formats MXFP4 and NVFP4, achieving high performance and accuracy in large language model inference.",
+            "ai_keywords": [
+                "MXFP4",
+                "NVFP4",
+                "post-training quantization",
+                "GPTQ",
+                "block-wise Hadamard transforms",
+                "format-specific optimizations",
+                "GPU kernels",
+                "rotation fusion",
+                "online computation of activations",
+                "accuracy-performance trade-offs"
+            ],
+            "organization": {
+                "_id": "64d0ffde9cff738203a50e9b",
+                "name": "ISTA-DASLab",
+                "fullname": " IST Austria Distributed Algorithms and Systems Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/628e0ce4e53bbd334577fcb0/TRPtgtSavYjDJOK3S1I8M.png"
+            }
+        },
+        "translation_title": "약속과 성과의 격차를 메우기 위한 Microscaling FP4 양자화",
+        "purpose": "FP4 양자화 방식에서의 실제 성능을 개선하기 위한 연구",
+        "method": [
+            "MXFP4와 NVFP4의 포스트 트레이닝 양자화에 대한 포괄적 연구를 수행함(The first comprehensive study of MXFP4 and NVFP4 for post-training quantization is presented.)",
+            "FP4의 고유한 특성에 맞춘 Micro-Rotated-GPTQ(MR-GPTQ) 양자화 알고리즘을 소개함(We introduce Micro-Rotated-GPTQ (MR-GPTQ), a variant of the classic GPTQ quantization algorithm tailored to FP4.)",
+            "MR-GPTQ를 지원하는 고성능 GPU 커널을 개발함(We support our proposal with a set of high-performance GPU kernels that enable the MR-GPTQ format with negligible overhead.)"
+        ],
+        "conclusion": "MR-GPTQ는 기존의 최첨단 정확성을 일치하거나 초과하며, MXFP4의 성능을 크게 개선하여 NVFP4와 유사한 수준에 도달하도록 함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Quantization"
+        ]
+    }
+]
