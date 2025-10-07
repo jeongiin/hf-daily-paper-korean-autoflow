@@ -1,0 +1,608 @@
+[
+    {
+        "paper": {
+            "id": "2510.05096",
+            "authors": [
+                {
+                    "_id": "68e479bfe4e093a7044e4d04",
+                    "user": {
+                        "_id": "66c45954ab8f09b10b7ab6a8",
+                        "avatarUrl": "/avatars/f9946c775c4d70b8e044865ac34ef121.svg",
+                        "isPro": false,
+                        "fullname": "Zhu",
+                        "user": "ZaynZhu",
+                        "type": "user"
+                    },
+                    "name": "Zeyu Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:27:10.799Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e479bfe4e093a7044e4d05",
+                    "user": {
+                        "_id": "64440be5af034cdfd69ca3a7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                        "isPro": false,
+                        "fullname": "Qinghong (Kevin) Lin",
+                        "user": "KevinQHLin",
+                        "type": "user"
+                    },
+                    "name": "Kevin Qinghong Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:27:13.351Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e479bfe4e093a7044e4d06",
+                    "name": "Mike Zheng Shou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/7UBfF2Dt4zzFl8oAQsBrY.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/uG-WApKKWLDEPeMdC9z1I.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/M6UUqPDcw_dHIPQp4DelE.mp4"
+            ],
+            "publishedAt": "2025-10-06T17:58:02.000Z",
+            "submittedOnDailyAt": "2025-10-07T01:03:40.404Z",
+            "title": "Paper2Video: Automatic Video Generation from Scientific Papers",
+            "submittedOnDailyBy": {
+                "_id": "64440be5af034cdfd69ca3a7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                "isPro": false,
+                "fullname": "Qinghong (Kevin) Lin",
+                "user": "KevinQHLin",
+                "type": "user"
+            },
+            "summary": "Academic presentation videos have become an essential medium for research\ncommunication, yet producing them remains highly labor-intensive, often\nrequiring hours of slide design, recording, and editing for a short 2 to 10\nminutes video. Unlike natural video, presentation video generation involves\ndistinctive challenges: inputs from research papers, dense multi-modal\ninformation (text, figures, tables), and the need to coordinate multiple\naligned channels such as slides, subtitles, speech, and human talker. To\naddress these challenges, we introduce PaperTalker, the first benchmark of 101\nresearch papers paired with author-created presentation videos, slides, and\nspeaker metadata. We further design four tailored evaluation metrics--Meta\nSimilarity, PresentArena, PresentQuiz, and IP Memory--to measure how videos\nconvey the paper's information to the audience. Building on this foundation, we\npropose PaperTalker, the first multi-agent framework for academic presentation\nvideo generation. It integrates slide generation with effective layout\nrefinement by a novel effective tree search visual choice, cursor grounding,\nsubtitling, speech synthesis, and talking-head rendering, while parallelizing\nslide-wise generation for efficiency. Experiments on Paper2Video demonstrate\nthat the presentation videos produced by our approach are more faithful and\ninformative than existing baselines, establishing a practical step toward\nautomated and ready-to-use academic video generation. Our dataset, agent, and\ncode are available at https://github.com/showlab/Paper2Video.",
+            "upvotes": 40,
+            "discussionId": "68e479c0e4e093a7044e4d07",
+            "projectPage": "https://showlab.github.io/Paper2Video/",
+            "githubRepo": "https://github.com/showlab/Paper2Video",
+            "ai_summary": "PaperTalker is a multi-agent framework that automates academic presentation video generation by integrating slide generation, layout refinement, subtitling, speech synthesis, and talking-head rendering, outperforming existing methods.",
+            "ai_keywords": [
+                "multi-agent framework",
+                "slide generation",
+                "layout refinement",
+                "tree search visual choice",
+                "cursor grounding",
+                "subtitling",
+                "speech synthesis",
+                "talking-head rendering",
+                "parallelization",
+                "slide-wise generation"
+            ],
+            "githubStars": 51,
+            "organization": {
+                "_id": "63a553c4ce5763e06f78669c",
+                "name": "showlab",
+                "fullname": "Show Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1671779505215-63a55320ce5763e06f78519c.png"
+            }
+        },
+        "translation_title": "Paper2Video: 과학 논문으로부터의 자동 비디오 생성",
+        "purpose": "과학 발표 비디오 생성을 자동화하여 시간과 노력을 절약하기 위한 연구",
+        "method": [
+            "101개의 연구 논문과 저자가 만든 발표 비디오, 슬라이드 및 발표자 메타데이터를 짝지은 첫 번째 벤치마크인 PaperTalker를 소개함.(we introduce PaperTalker, the first benchmark of 101 research papers paired with author-created presentation videos, slides, and speaker metadata.)",
+            "비디오가 논문의 정보를 어떻게 전달하는지 측정하기 위해 Meta Similarity, PresentArena, PresentQuiz, IP Memory라는 네 가지 평가 지표를 설계함.(We further design four tailored evaluation metrics--Meta Similarity, PresentArena, PresentQuiz, and IP Memory--to measure how videos convey the paper's information to the audience.)",
+            "슬라이드 생성 및 레이아웃 개선, 자막 생성, 음성 합성 등 다양한 요소를 통합한 PaperTalker라는 다중 에이전트 프레임워크를 제안함.(we propose PaperTalker, the first multi-agent framework for academic presentation video generation.)"
+        ],
+        "conclusion": "우리의 방법으로 생성된 발표 비디오는 기존 기준선보다 더 충실하고 유익하여 자동화된 학술 비디오 생성의 실용적인 단계를 확립함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.05034",
+            "authors": [
+                {
+                    "_id": "68e47fd5e4e093a7044e4d3c",
+                    "user": {
+                        "_id": "6344c87f0f69ad8aa61dfcf6",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6344c87f0f69ad8aa61dfcf6/tTVHu2l2aiAnK160vgT6u.jpeg",
+                        "isPro": false,
+                        "fullname": "Yolo Y. Tang",
+                        "user": "yunlong10",
+                        "type": "user"
+                    },
+                    "name": "Yunlong Tang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:53.963Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d3d",
+                    "name": "Jing Bi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d3e",
+                    "name": "Pinxin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d3f",
+                    "user": {
+                        "_id": "669794c5813d96b4eb0b3fd6",
+                        "avatarUrl": "/avatars/b4e2bb7b07cc281932d783dcbb64f211.svg",
+                        "isPro": false,
+                        "fullname": "Zhenyu Pan",
+                        "user": "zhenyupan",
+                        "type": "user"
+                    },
+                    "name": "Zhenyu Pan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:51.453Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d40",
+                    "name": "Zhangyun Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d41",
+                    "name": "Qianxiang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d42",
+                    "name": "Jiani Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d43",
+                    "name": "Hang Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d44",
+                    "name": "Junjia Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d45",
+                    "name": "Yunzhong Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d46",
+                    "name": "Chao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d47",
+                    "name": "Zhiyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d48",
+                    "name": "Susan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d49",
+                    "name": "Xinyi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4a",
+                    "name": "Yizhi Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4b",
+                    "name": "Yuhe Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4c",
+                    "name": "Jia-Xing Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4d",
+                    "name": "Bozheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4e",
+                    "user": {
+                        "_id": "649e469cab5656f6acbd6d1d",
+                        "avatarUrl": "/avatars/774942d6268a9d3fadccb058bd9e8b90.svg",
+                        "isPro": false,
+                        "fullname": "Daiqing Qi",
+                        "user": "Daiqingq",
+                        "type": "user"
+                    },
+                    "name": "Daiqing Qi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:43.897Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d4f",
+                    "name": "Ziyun Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d50",
+                    "user": {
+                        "_id": "65c16eb788812bbe20224c75",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/P7xg4ryhWZrfOkHYRS1QI.jpeg",
+                        "isPro": false,
+                        "fullname": "Ali Vosoughi",
+                        "user": "ali-vosoughi",
+                        "type": "user"
+                    },
+                    "name": "Ali Vosoughi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:56.370Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d51",
+                    "name": "Luchuan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d52",
+                    "user": {
+                        "_id": "66805e103dd5f4c44c1c939a",
+                        "avatarUrl": "/avatars/ef2eebf1d61f86dde3397471ca180b95.svg",
+                        "isPro": false,
+                        "fullname": "Zeliang Zhang",
+                        "user": "zeliang0426",
+                        "type": "user"
+                    },
+                    "name": "Zeliang Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:49.355Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d53",
+                    "name": "Daiki Shimada",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d54",
+                    "name": "Han Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d55",
+                    "name": "Jiebo Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47fd5e4e093a7044e4d56",
+                    "name": "Chenliang Xu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-06T17:10:44.000Z",
+            "submittedOnDailyAt": "2025-10-07T01:20:07.507Z",
+            "title": "Video-LMM Post-Training: A Deep Dive into Video Reasoning with Large\n  Multimodal Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Video understanding represents the most challenging frontier in computer\nvision, requiring models to reason about complex spatiotemporal relationships,\nlong-term dependencies, and multimodal evidence. The recent emergence of\nVideo-Large Multimodal Models (Video-LMMs), which integrate visual encoders\nwith powerful decoder-based language models, has demonstrated remarkable\ncapabilities in video understanding tasks. However, the critical phase that\ntransforms these models from basic perception systems into sophisticated\nreasoning engines, post-training, remains fragmented across the literature.\nThis survey provides the first comprehensive examination of post-training\nmethodologies for Video-LMMs, encompassing three fundamental pillars:\nsupervised fine-tuning (SFT) with chain-of-thought, reinforcement learning (RL)\nfrom verifiable objectives, and test-time scaling (TTS) through enhanced\ninference computation. We present a structured taxonomy that clarifies the\nroles, interconnections, and video-specific adaptations of these techniques,\naddressing unique challenges such as temporal localization, spatiotemporal\ngrounding, long video efficiency, and multimodal evidence integration. Through\nsystematic analysis of representative methods, we synthesize key design\nprinciples, insights, and evaluation protocols while identifying critical open\nchallenges in reward design, scalability, and cost-performance optimization. We\nfurther curate essential benchmarks, datasets, and metrics to facilitate\nrigorous assessment of post-training effectiveness. This survey aims to provide\nresearchers and practitioners with a unified framework for advancing Video-LMM\ncapabilities. Additional resources and updates are maintained at:\nhttps://github.com/yunlong10/Awesome-Video-LMM-Post-Training",
+            "upvotes": 29,
+            "discussionId": "68e47fd5e4e093a7044e4d57",
+            "githubRepo": "https://github.com/yunlong10/Awesome-Video-LMM-Post-Training",
+            "ai_summary": "This survey examines post-training methodologies for Video-LMMs, focusing on supervised fine-tuning, reinforcement learning, and test-time scaling, while addressing challenges in video understanding.",
+            "ai_keywords": [
+                "Video-LMMs",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "test-time scaling",
+                "temporal localization",
+                "spatiotemporal grounding",
+                "long video efficiency",
+                "multimodal evidence integration",
+                "reward design",
+                "scalability",
+                "cost-performance optimization"
+            ],
+            "githubStars": 27
+        },
+        "translation_title": "Video-LMM 포스트 트레이닝: 대규모 멀티모달 모델을 통한 비디오 추론 심층 분석",
+        "purpose": "Video 이해를 위한 비디오-Large Multimodal Models의 포스트 트레이닝 기법을 체계적으로 조사하여 비디오 추론 능력을 향상시키는 것.",
+        "method": [
+            "Video-LMMs의 포스트 트레이닝 방법론을 감독된 미세 조정(Supervised Fine-Tuning, SFT), 강화 학습(Reinforcement Learning, RL), 테스트 시 스케일링(Test-Time Scaling, TTS)으로 구분하여 설명함.(This survey provides the first comprehensive examination of post-training methodologies for Video-LMMs, encompassing three fundamental pillars: supervised fine-tuning (SFT) with chain-of-thought, reinforcement learning (RL) from verifiable objectives, and test-time scaling (TTS) through enhanced inference computation.)",
+            "각 기법의 역할, 상호 연결성 및 비디오 특정 적응 방식에 대한 체계적인 분류를 제공함(We present a structured taxonomy that clarifies the roles, interconnections, and video-specific adaptations of these techniques).",
+            "대표적인 방법론에 대한 체계적인 분석을 통해 핵심 설계 원칙과 도전 과제를 식별함(Through systematic analysis of representative methods, we synthesize key design principles, insights, and evaluation protocols while identifying critical open challenges in reward design, scalability, and cost-performance optimization.)"
+        ],
+        "conclusion": "이 조사는 연구자들과 실무자들에게 비디오-LMM의 능력을 향상시키기 위한 통합된 프레임워크를 제공하며, 포스트 트레이닝 효과성 평가를 위한 기본 벤치마크와 데이터셋을 curated함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.05094",
+            "authors": [
+                {
+                    "_id": "68e47f85e4e093a7044e4d34",
+                    "user": {
+                        "_id": "60efe7fa0d920bc7805cada5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+                        "isPro": false,
+                        "fullname": "Ziqi Huang",
+                        "user": "Ziqi",
+                        "type": "user"
+                    },
+                    "name": "Ziqi Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:27:00.662Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47f85e4e093a7044e4d35",
+                    "name": "Ning Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47f85e4e093a7044e4d36",
+                    "user": {
+                        "_id": "65cf1549c1912289ca0b24cf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65cf1549c1912289ca0b24cf/kLCDspsG4HUjRTV6634nC.jpeg",
+                        "isPro": false,
+                        "fullname": "Gordon Chen",
+                        "user": "gchen019",
+                        "type": "user"
+                    },
+                    "name": "Gordon Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:58.557Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47f85e4e093a7044e4d37",
+                    "name": "Haonan Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47f85e4e093a7044e4d38",
+                    "name": "Paul Debevec",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e47f85e4e093a7044e4d39",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-06T17:57:59.000Z",
+            "submittedOnDailyAt": "2025-10-07T01:18:50.036Z",
+            "title": "VChain: Chain-of-Visual-Thought for Reasoning in Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent video generation models can produce smooth and visually appealing\nclips, but they often struggle to synthesize complex dynamics with a coherent\nchain of consequences. Accurately modeling visual outcomes and state\ntransitions over time remains a core challenge. In contrast, large language and\nmultimodal models (e.g., GPT-4o) exhibit strong visual state reasoning and\nfuture prediction capabilities. To bridge these strengths, we introduce VChain,\na novel inference-time chain-of-visual-thought framework that injects visual\nreasoning signals from multimodal models into video generation. Specifically,\nVChain contains a dedicated pipeline that leverages large multimodal models to\ngenerate a sparse set of critical keyframes as snapshots, which are then used\nto guide the sparse inference-time tuning of a pre-trained video generator only\nat these key moments. Our approach is tuning-efficient, introduces minimal\noverhead and avoids dense supervision. Extensive experiments on complex,\nmulti-step scenarios show that VChain significantly enhances the quality of\ngenerated videos.",
+            "upvotes": 25,
+            "discussionId": "68e47f86e4e093a7044e4d3a",
+            "projectPage": "https://eyeline-labs.github.io/VChain/",
+            "githubRepo": "https://github.com/Eyeline-Labs/VChain",
+            "ai_summary": "VChain enhances video generation by integrating visual reasoning from multimodal models to guide sparse tuning of a pre-trained video generator.",
+            "ai_keywords": [
+                "video generation",
+                "visual reasoning",
+                "multimodal models",
+                "keyframes",
+                "sparse inference-time tuning",
+                "pre-trained video generator"
+            ],
+            "githubStars": 21
+        },
+        "translation_title": "VChain: 비디오 생성에서의 시각적 사고 연쇄를 통한 추론",
+        "purpose": "복잡한 동적 상황을 더 잘 표현하는 비디오 생성 모델의 품질 향상",
+        "method": [
+            "대규모 멀티모달 모델에서 시각적 추론 신호를 주입하는 VChain 프레임워크를 도입함(To bridge these strengths, we introduce VChain, a novel inference-time chain-of-visual-thought framework that injects visual reasoning signals from multimodal models into video generation.)",
+            "VChain은 대규모 멀티모달 모델을 활용해 중요한 키프레임 세트를 생성하고, 이를 통해 사전 훈련된 비디오 생성기를 조정함(Specifically, VChain contains a dedicated pipeline that leverages large multimodal models to generate a sparse set of critical keyframes as snapshots, which are then used to guide the sparse inference-time tuning of a pre-trained video generator only at these key moments.)",
+            "이 접근 방식은 효율적인 튜닝을 제공하고 최소한의 오버헤드를 도입함(Our approach is tuning-efficient, introduces minimal overhead and avoids dense supervision.)"
+        ],
+        "conclusion": "VChain은 복잡한 다단계 시나리오에서 비디오 생성 품질을 크게 향상시킴.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.05025",
+            "authors": [
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e48",
+                    "name": "Kuofeng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e49",
+                    "name": "Yiming Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e4a",
+                    "name": "Chao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e4b",
+                    "name": "Xin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e4c",
+                    "name": "Xingjun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e4d",
+                    "name": "Shu-Tao Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4bd9ce4e093a7044e4e4e",
+                    "name": "Tianyu Pang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-06T17:03:50.000Z",
+            "submittedOnDailyAt": "2025-10-07T05:44:35.041Z",
+            "title": "Imperceptible Jailbreaking against Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "63d91b6d255ef6add20e1b38",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1675921369867-63d91b6d255ef6add20e1b38.jpeg",
+                "isPro": false,
+                "fullname": "Tianyu Pang",
+                "user": "P2333",
+                "type": "user"
+            },
+            "summary": "Jailbreaking attacks on the vision modality typically rely on imperceptible\nadversarial perturbations, whereas attacks on the textual modality are\ngenerally assumed to require visible modifications (e.g., non-semantic\nsuffixes). In this paper, we introduce imperceptible jailbreaks that exploit a\nclass of Unicode characters called variation selectors. By appending invisible\nvariation selectors to malicious questions, the jailbreak prompts appear\nvisually identical to original malicious questions on screen, while their\ntokenization is \"secretly\" altered. We propose a chain-of-search pipeline to\ngenerate such adversarial suffixes to induce harmful responses. Our experiments\nshow that our imperceptible jailbreaks achieve high attack success rates\nagainst four aligned LLMs and generalize to prompt injection attacks, all\nwithout producing any visible modifications in the written prompt. Our code is\navailable at https://github.com/sail-sg/imperceptible-jailbreaks.",
+            "upvotes": 24,
+            "discussionId": "68e4bd9de4e093a7044e4e4f",
+            "ai_summary": "Imperceptible jailbreaks using Unicode variation selectors enable high attack success rates against aligned LLMs without visible prompt modifications.",
+            "ai_keywords": [
+                "adversarial perturbations",
+                "Unicode characters",
+                "variation selectors",
+                "tokenization",
+                "chain-of-search pipeline",
+                "prompt injection attacks",
+                "aligned LLMs"
+            ],
+            "organization": {
+                "_id": "61f4e841c771e23a1abb61ff",
+                "name": "sail",
+                "fullname": "Sea AI Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1643440185801-5df833bdda6d0311fd3d5403.png"
+            }
+        },
+        "translation_title": "대형 언어 모델에 대한 감지 불가능한 Jailbreaking 공격",
+        "purpose": "대형 언어 모델(Large Language Models)에 대한 효과적인 Jailbreaking 공격 방법을 제시하고 감지 불가능한 변칙을 활용하려는 목표",
+        "method": [
+            "Unicode 문자 범주 중 하나인 variation selectors를 활용하여, 악의적인 질문에 감지되지 않는 변칙을 추가함(In this paper, we introduce imperceptible jailbreaks that exploit a class of Unicode characters called variation selectors.)",
+            "이러한 변칙을 사용해 공격을 촉발하는 악의적인 질문이 시각적으로 동일하게 보이도록 만들고, 토큰화는 '비밀스럽게' 변경함(By appending invisible variation selectors to malicious questions, the jailbreak prompts appear visually identical to original malicious questions on screen, while their tokenization is 'secretly' altered.)",
+            "체인-오브-서치 파이프라인을 제안하여 이러한 변칙 접미사를 생성함(We propose a chain-of-search pipeline to generate such adversarial suffixes to induce harmful responses.)",
+            "실험을 통해 감지 불가능한 Jailbreaks가 네 개의 정렬된 LLM에 대해 높은 공격 성공률을 보임(Our experiments show that our imperceptible jailbreaks achieve high attack success rates against four aligned LLMs.)"
+        ],
+        "conclusion": "결과적으로, 감지 불가능한 Jailbreaking 방법이 효과적으로 공격을 수행할 수 있음을 증명함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.03632",
+            "authors": [
+                {
+                    "_id": "68e48b8be4e093a7044e4d97",
+                    "user": {
+                        "_id": "63fac64d6b75d93aa13616e0",
+                        "avatarUrl": "/avatars/573be0f4fe4a206700aa972629e79abf.svg",
+                        "isPro": false,
+                        "fullname": "Jiaxi Li",
+                        "user": "plusn",
+                        "type": "user"
+                    },
+                    "name": "Jiaxi Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:32.513Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e48b8be4e093a7044e4d98",
+                    "user": {
+                        "_id": "64beb6b6140491ca9f803ebf",
+                        "avatarUrl": "/avatars/0daa2e813a13668b8b708cd8c12763d9.svg",
+                        "isPro": false,
+                        "fullname": "Yucheng SHi",
+                        "user": "YuchengShi",
+                        "type": "user"
+                    },
+                    "name": "Yucheng Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-07T12:26:29.686Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e48b8be4e093a7044e4d99",
+                    "name": "Jin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e48b8be4e093a7044e4d9a",
+                    "name": "Ninghao Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-04T02:30:40.000Z",
+            "submittedOnDailyAt": "2025-10-07T02:19:10.215Z",
+            "title": "MITS: Enhanced Tree Search Reasoning for LLMs via Pointwise Mutual\n  Information",
+            "submittedOnDailyBy": {
+                "_id": "64beb6b6140491ca9f803ebf",
+                "avatarUrl": "/avatars/0daa2e813a13668b8b708cd8c12763d9.svg",
+                "isPro": false,
+                "fullname": "Yucheng SHi",
+                "user": "YuchengShi",
+                "type": "user"
+            },
+            "summary": "Tree search has become as a representative framework for test-time reasoning\nwith large language models (LLMs), exemplified by methods such as\nTree-of-Thought and Monte Carlo Tree Search that explore multiple reasoning\npaths. However, it remains difficult to provide instant and reliable\nquantitative assessments of intermediate reasoning step quality, and extensive\npath exploration is computationally costly. To address this, we propose Mutual\nInformation Tree Search (MITS), a novel framework that guides reasoning with\ninformation-theoretic principles. MITS introduces an effective scoring function\nbased on pointwise mutual information (PMI), which enables step-wise evaluation\nof reasoning paths and search tree expansion via beam search without expensive\nlook-ahead simulations, achieving superior reasoning performances while\nmaintaining computational efficiency. The framework is complemented by an\nentropy-based dynamic sampling strategy that adaptively allocates computational\nresources to uncertain reasoning steps where exploration is most beneficial.\nFor final prediction, MITS employs a weighted voting scheme that combines PMI\nscores with prediction consensus. Through comprehensive experiments on diverse\nreasoning benchmarks, MITS consistently surpasses baseline methods,\nestablishing a principled and efficient framework for LLM reasoning.",
+            "upvotes": 23,
+            "discussionId": "68e48b8ce4e093a7044e4d9b",
+            "ai_summary": "Mutual Information Tree Search (MITS) uses information-theoretic principles to guide and evaluate reasoning paths in large language models, improving performance and efficiency.",
+            "ai_keywords": [
+                "Mutual Information Tree Search",
+                "MITS",
+                "pointwise mutual information",
+                "PMI",
+                "beam search",
+                "entropy-based dynamic sampling",
+                "weighted voting scheme",
+                "reasoning paths",
+                "search tree expansion",
+                "information-theoretic principles"
+            ],
+            "organization": {
+                "_id": "657e54cc3687559a676eba62",
+                "name": "UGA-AI",
+                "fullname": "University of Georgia",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/625de37b0bec31f086e32989/D64_Jh2Os7ZU4lrySuzvT.png"
+            }
+        },
+        "translation_title": "MITS: 포인트별 상호 정보를 통한 LLM을 위한 향상된 트리 검색 추론",
+        "purpose": "LLM의 추론 과정에서 정보 이론 원칙을 기반으로 하여 심플하고 신뢰성 있는 평가 방법을 제시하기",
+        "method": [
+            "Mutual Information Tree Search (MITS)라는 새로운 프레임워크를 제안함(we propose Mutual Information Tree Search (MITS), a novel framework that guides reasoning with information-theoretic principles.)",
+            "포인트별 상호 정보(PMI)를 기반으로 한 효과적인 점수 함수를 도입하여 단계별 추론 경로 평가를 가능하게 함(MITS introduces an effective scoring function based on pointwise mutual information (PMI), which enables step-wise evaluation of reasoning paths.)",
+            "불필요한 시뮬레이션 없이 빔 검색을 통해 검색 트리를 확장함(achieving superior reasoning performances while maintaining computational efficiency.)"
+        ],
+        "conclusion": "MITS는 다양한 추론 벤치마크에서 일관되게 기존 방법을 초과 달성하며, LLM 추론을 위한 원칙적이고 효율적인 프레임워크로 자리잡음.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
