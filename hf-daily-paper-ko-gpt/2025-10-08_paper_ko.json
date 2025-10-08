@@ -1,0 +1,556 @@
+[
+    {
+        "paper": {
+            "id": "2510.06217",
+            "authors": [
+                {
+                    "_id": "68e5bbf7975ac4c405ef200c",
+                    "name": "Jiaru Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef200d",
+                    "user": {
+                        "_id": "67c8c2526316c979bbfa2f3a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/1c8Jk7E-6BBPVoQ8nKe5N.png",
+                        "isPro": false,
+                        "fullname": "Soumya Roy",
+                        "user": "roy-soumya-work",
+                        "type": "user"
+                    },
+                    "name": "Soumya Roy",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-08T08:00:57.655Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef200e",
+                    "user": {
+                        "_id": "64c4c761958100e5bd302cfd",
+                        "avatarUrl": "/avatars/dec3f49fb3c78dd4e029e1937b0202de.svg",
+                        "isPro": false,
+                        "fullname": "Vinay Kumar Verma",
+                        "user": "vkvermaa",
+                        "type": "user"
+                    },
+                    "name": "Vinay Kumar Verma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-08T05:50:03.309Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef200f",
+                    "name": "Ziyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef2010",
+                    "name": "David Wipf",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef2011",
+                    "name": "Pan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef2012",
+                    "name": "Sumit Negi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef2013",
+                    "name": "James Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e5bbf7975ac4c405ef2014",
+                    "name": "Jingrui He",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-07T17:59:41.000Z",
+            "submittedOnDailyAt": "2025-10-08T00:00:51.373Z",
+            "title": "TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular\n  Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "65c288280aa2d53135734a42",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c288280aa2d53135734a42/5WHmau52EaRS01TOMI3Qg.jpeg",
+                "isPro": false,
+                "fullname": "Jiaru Zou",
+                "user": "jiaruz2",
+                "type": "user"
+            },
+            "summary": "Process Reward Models (PRMs) have recently emerged as a powerful framework\nfor enhancing the reasoning capabilities of large reasoning models (LRMs),\nparticularly in the context of test-time scaling (TTS). However, their\npotential for supervising LRMs on tabular reasoning domains remains\nunderexplored. Through detailed empirical analyses, we identify that existing\nPRMs, though widely adopted for supervising text-only reasoning steps, struggle\nwith table-specific operations such as sub-table retrieval and schema\ninteraction, leading to critical performance bottlenecks. To address this\nlimitation, we propose TaTToo, a novel table-grounded PRM framework that (i)\nreasons explicitly over tabular reasoning steps and (ii) integrates tool-based\nverification to provide precise reward supervision. Concretely, we first design\na scalable data curation pipeline that constructs over 60k high-quality\nstep-level annotations by integrating table verification rationales with\ntool-based executions. Building on the collected data, we train TaTToo with a\ndual-stage paradigm: cold-start supervised fine-tuning to capture tool-use\nreasoning patterns, followed by reinforcement learning with tool-grounded\nreward shaping to align our model with table-based verification. We provide a\ncomprehensive evaluation of the policy improvement induced by our newly\ndesigned PRM. Across 5 challenging tabular reasoning benchmarks covering\nnumerical reasoning, fact-checking, and data analysis, TaTToo improves\ndownstream policy LRMs by 30.9% at inference, surpasses strong PRM baselines\nsuch as Qwen-2.5-Math-PRM-72B with only 8B parameters, and demonstrates strong\ngeneralizability across diverse TTS strategies.",
+            "upvotes": 43,
+            "discussionId": "68e5bbf8975ac4c405ef2015",
+            "ai_summary": "TaTToo, a novel table-grounded Process Reward Model, enhances tabular reasoning by explicitly addressing table-specific operations and integrating tool-based verification, leading to significant performance improvements over existing PRMs.",
+            "ai_keywords": [
+                "Process Reward Models",
+                "large reasoning models",
+                "test-time scaling",
+                "tabular reasoning",
+                "sub-table retrieval",
+                "schema interaction",
+                "TaTToo",
+                "data curation pipeline",
+                "step-level annotations",
+                "tool-based verification",
+                "dual-stage paradigm",
+                "cold-start supervised fine-tuning",
+                "reinforcement learning",
+                "reward shaping",
+                "policy improvement",
+                "numerical reasoning",
+                "fact-checking",
+                "data analysis",
+                "generalizability"
+            ],
+            "organization": {
+                "_id": "5ffdfbadbba2ae614d771970",
+                "name": "amazon",
+                "fullname": "Amazon",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png"
+            }
+        },
+        "translation_title": "TaTToo: 테스트 시간 확장을 위한 도구 기반 사고 PRM",
+        "purpose": "테이블 기반 추론 도메인에서 LRM의 성능 향상을 위한 PRM 연구",
+        "method": [
+            "기존 PRM의 한계를 극복하기 위해 TaTToo라는 테이블 기반의 새로운 PRM 프레임워크를 제안함(To address this limitation, we propose TaTToo, a novel table-grounded PRM framework that)",
+            "60,000개 이상의 높은 품질의 단계별 주석을 구축하는 데이터 수집 파이프라인을 설계함(we first design a scalable data curation pipeline that constructs over 60k high-quality step-level annotations).",
+            "도구 사용 추론 패턴을 반영하는 감독 학습과 도구 기반 보상 조정으로 모델 훈련을 진행함(Building on the collected data, we train TaTToo with a dual-stage paradigm: cold-start supervised fine-tuning to capture tool-use reasoning patterns, followed by reinforcement learning with tool-grounded reward shaping)"
+        ],
+        "conclusion": "TaTToo는 5개의 도전적인 테이블 추론 벤치마크에서 LRM의 성능을 30.9% 향상시키며, 다양한 TTS 전략에 대한 강한 일반화 능력을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Tabular Reasoning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.04871",
+            "authors": [
+                {
+                    "_id": "68e527e27e1f41b92bf8e9f9",
+                    "name": "Alexia Jolicoeur-Martineau",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-06T14:58:08.000Z",
+            "submittedOnDailyAt": "2025-10-08T11:20:49.242Z",
+            "title": "Less is More: Recursive Reasoning with Tiny Networks",
+            "submittedOnDailyBy": {
+                "_id": "62f8ea1177b722f186611e8e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660479589894-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Alexia Jolicoeur-Martineau",
+                "user": "AlexiaJM",
+                "type": "user"
+            },
+            "summary": "Hierarchical Reasoning Model (HRM) is a novel approach using two small neural\nnetworks recursing at different frequencies. This biologically inspired method\nbeats Large Language models (LLMs) on hard puzzle tasks such as Sudoku, Maze,\nand ARC-AGI while trained with small models (27M parameters) on small data\n(around 1000 examples). HRM holds great promise for solving hard problems with\nsmall networks, but it is not yet well understood and may be suboptimal. We\npropose Tiny Recursive Model (TRM), a much simpler recursive reasoning approach\nthat achieves significantly higher generalization than HRM, while using a\nsingle tiny network with only 2 layers. With only 7M parameters, TRM obtains\n45% test-accuracy on ARC-AGI-1 and 8% on ARC-AGI-2, higher than most LLMs\n(e.g., Deepseek R1, o3-mini, Gemini 2.5 Pro) with less than 0.01% of the\nparameters.",
+            "upvotes": 31,
+            "discussionId": "68e527e27e1f41b92bf8e9fa",
+            "ai_summary": "Tiny Recursive Model (TRM) achieves high generalization on complex puzzle tasks using a small, two-layer network with minimal parameters, outperforming larger language models.",
+            "ai_keywords": [
+                "Hierarchical Reasoning Model",
+                "HRM",
+                "Tiny Recursive Model",
+                "TRM",
+                "recursive reasoning",
+                "neural networks",
+                "ARC-AGI",
+                "Deepseek R1",
+                "o3-mini",
+                "Gemini 2.5 Pro"
+            ],
+            "organization": {
+                "_id": "6406bcfea577649430c6c3ca",
+                "name": "SamsungSAILMontreal",
+                "fullname": "Samsung SAIT AI Lab, Montreal",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1678163236468-6406bcaca577649430c6bff4.png"
+            }
+        },
+        "translation_title": "Less is More: 작은 네트워크를 이용한 재귀적 추론",
+        "purpose": "작은 네트워크를 사용하여 어려운 문제를 더 잘 해결하기 위한 재귀적 추론 방법 제안",
+        "method": [
+            "Hierarchical Reasoning Model (HRM)을 사용하여 서로 다른 주기로 반복되는 두 개의 작은 신경망을 이용함(This biologically inspired method beats Large Language models (LLMs) on hard puzzle tasks such as Sudoku, Maze, and ARC-AGI while trained with small models (27M parameters) on small data).",
+            "더 간단한 재귀적 추론 접근법인 Tiny Recursive Model (TRM)을 제안하며, 하나의 작은 네트워크(2층)를 사용하여 HRM보다 더 높은 일반화 성능을 발휘함(we propose Tiny Recursive Model (TRM), a much simpler recursive reasoning approach that achieves significantly higher generalization than HRM)."
+        ],
+        "conclusion": "TRM은 7M의 매개변수로 ARC-AGI-1에서 45% 테스트 정확도와 ARC-AGI-2에서 8%를 달성하여, 대부분의 LLM보다 더 우수한 성능을 나타냄.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.26328",
+            "authors": [
+                {
+                    "_id": "68e1e6d873e20ab577841e18",
+                    "name": "Chengyue Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e19",
+                    "name": "Hao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1a",
+                    "name": "Shuchen Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1b",
+                    "name": "Shizhe Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1c",
+                    "name": "Yonggan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1d",
+                    "user": {
+                        "_id": "650dac79b959b0e1d41d7378",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/650dac79b959b0e1d41d7378/mzbN0MFk3k8b94FQ40I7L.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhijian Liu",
+                        "user": "zhijianliu",
+                        "type": "user"
+                    },
+                    "name": "Zhijian Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-08T08:03:25.561Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1e",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e1f",
+                    "name": "Ping Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e20",
+                    "name": "Song Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e1e6d873e20ab577841e21",
+                    "name": "Enze Xie",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-30T14:40:18.000Z",
+            "submittedOnDailyAt": "2025-10-08T00:26:14.372Z",
+            "title": "Fast-dLLM v2: Efficient Block-Diffusion LLM",
+            "submittedOnDailyBy": {
+                "_id": "617526c9de8feb54b0ce45ad",
+                "avatarUrl": "/avatars/7faf8c6f71fc318a0113d780d376c381.svg",
+                "isPro": false,
+                "fullname": "Wu Chengyue",
+                "user": "WuChengyue",
+                "type": "user"
+            },
+            "summary": "Autoregressive (AR) large language models (LLMs) have achieved remarkable\nperformance across a wide range of natural language tasks, yet their inherent\nsequential decoding limits inference efficiency. In this work, we propose\nFast-dLLM v2, a carefully designed block diffusion language model (dLLM) that\nefficiently adapts pretrained AR models into dLLMs for parallel text\ngeneration, requiring only approximately 1B tokens of fine-tuning. This\nrepresents a 500x reduction in training data compared to full-attention\ndiffusion LLMs such as Dream (580B tokens), while preserving the original\nmodel's performance. Our approach introduces a novel training recipe that\ncombines a block diffusion mechanism with a complementary attention mask,\nenabling blockwise bidirectional context modeling without sacrificing AR\ntraining objectives. To further accelerate decoding, we design a hierarchical\ncaching mechanism: a block-level cache that stores historical context\nrepresentations across blocks, and a sub-block cache that enables efficient\nparallel generation within partially decoded blocks. Coupled with our parallel\ndecoding pipeline, Fast-dLLM v2 achieves up to 2.5x speedup over standard AR\ndecoding without compromising generation quality. Extensive experiments across\ndiverse benchmarks demonstrate that Fast-dLLM v2 matches or surpasses AR\nbaselines in accuracy, while delivering state-of-the-art efficiency among dLLMs\n- marking a significant step toward the practical deployment of fast and\naccurate LLMs. Code and model will be publicly released.",
+            "upvotes": 30,
+            "discussionId": "68e1e6d873e20ab577841e22",
+            "projectPage": "https://nvlabs.github.io/Fast-dLLM/v2/",
+            "githubRepo": "https://github.com/NVlabs/Fast-dLLM",
+            "ai_summary": "Fast-dLLM v2, a block diffusion language model, efficiently converts pretrained autoregressive models for parallel text generation, achieving significant speedup without compromising accuracy.",
+            "ai_keywords": [
+                "autoregressive models",
+                "large language models",
+                "diffusion language models",
+                "block diffusion mechanism",
+                "attention mask",
+                "blockwise bidirectional context modeling",
+                "hierarchical caching",
+                "block-level cache",
+                "sub-block cache",
+                "parallel decoding pipeline"
+            ],
+            "githubStars": 520,
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "Fast-dLLM v2: 효율적인 블록 확산 언어 모델",
+        "purpose": "사전 훈련된 AR 모델을 블록 확산 언어 모델로 효과적으로 변환하여 텍스트 생성을 병렬 처리하는 방법 연구",
+        "method": [
+            "사전 훈련된 AR 모델을 블록 확산 구조로 변환하여 약 1B 토큰만으로 미세 조정이 가능함(we propose Fast-dLLM v2, a carefully designed block diffusion language model (dLLM) that efficiently adapts pretrained AR models into dLLMs for parallel text generation, requiring only approximately 1B tokens of fine-tuning.)",
+            "블록 확산 메커니즘 및 보완적 주의 마스크를 결합한 새로운 훈련 레시피를 도입함(Our approach introduces a novel training recipe that combines a block diffusion mechanism with a complementary attention mask.)",
+            "계층 캐싱 메커니즘을 설계하여 블록단위의 히스토리적 맥락 표현을 저장하고 부분적으로 디코드된 블록 내에서 효율적인 병렬 생성을 가능하게 함(To further accelerate decoding, we design a hierarchical caching mechanism: a block-level cache that stores historical context representations across blocks.)"
+        ],
+        "conclusion": "Fast-dLLM v2는 표준 AR 디코딩에 비해 최대 2.5배의 속도 향상을 이루었으며, 정확도에서 AR 기준을 초과하는 성과를 거두었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2509.24107",
+            "authors": [
+                {
+                    "_id": "68db773ad2bf1f4b15ec770e",
+                    "user": {
+                        "_id": "66bb4ba002fd8eb58bdb2b5c",
+                        "avatarUrl": "/avatars/47a624da769170d6d22a177a003a1f50.svg",
+                        "isPro": false,
+                        "fullname": "Shreyas Singh ",
+                        "user": "shreyess",
+                        "type": "user"
+                    },
+                    "name": "Shreyas Singh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-06T12:49:13.075Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db773ad2bf1f4b15ec770f",
+                    "user": {
+                        "_id": "64ccc06cf103036e23f0162f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ccc06cf103036e23f0162f/kLwjzbxNobLxwN_GUuPrP.jpeg",
+                        "isPro": false,
+                        "fullname": "Kunal Singh",
+                        "user": "Ogkunal",
+                        "type": "user"
+                    },
+                    "name": "Kunal Singh",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-01T10:24:35.967Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68db773ad2bf1f4b15ec7710",
+                    "name": "Pradeep Moturi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-09-28T22:58:11.000Z",
+            "submittedOnDailyAt": "2025-10-08T03:39:49.572Z",
+            "title": "Fathom-DeepResearch: Unlocking Long Horizon Information Retrieval and\n  Synthesis for SLMs",
+            "submittedOnDailyBy": {
+                "_id": "64ccc06cf103036e23f0162f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ccc06cf103036e23f0162f/kLwjzbxNobLxwN_GUuPrP.jpeg",
+                "isPro": false,
+                "fullname": "Kunal Singh",
+                "user": "Ogkunal",
+                "type": "user"
+            },
+            "summary": "Tool-integrated reasoning has emerged as a key focus for enabling agentic\napplications. Among these, DeepResearch Agents have gained significant\nattention for their strong performance on complex, open-ended\ninformation-seeking tasks. We introduce Fathom-DeepResearch, an agentic system\ncomposed of two specialized models. The first is Fathom-Search-4B, a DeepSearch\nmodel trained from Qwen3-4B and optimized for evidence-based investigation\nthrough live web search and targeted webpage querying. Its training combines\nthree advances: (i) DUETQA, a 5K-sample dataset generated via multi-agent\nself-play that enforces strict web-search dependence and heterogeneous source\ngrounding; (ii) RAPO, a zero-overhead extension of GRPO that stabilizes\nmulti-turn Reinforcement Learning with Verifiable Rewards through curriculum\npruning, reward-aware advantage scaling, and per-prompt replay buffers; and\n(iii) a steerable step-level reward that classifies each tool call by cognitive\nbehavior and marginal utility, enabling explicit control over search trajectory\nbreadth, depth, and horizon. These improvements enable reliable extension of\ntool-calling beyond 20 calls when warranted. The second is\nFathom-Synthesizer-4B, trained from Qwen3-4B, which converts multi-turn\nDeepSearch traces into structured, citation-dense DeepResearch Reports for\ncomprehensive synthesis. Evaluated on DeepSearch benchmarks (SimpleQA, FRAMES,\nWebWalker, Seal0, MuSiQue) and DeepResearch-Bench, the system achieves\nstate-of-the-art performance in the open-weights category while demonstrating\nstrong generalization to diverse reasoning tasks including HLE, AIME-25,\nGPQA-Diamond, and MedQA.",
+            "upvotes": 29,
+            "discussionId": "68db773ad2bf1f4b15ec7711",
+            "githubRepo": "https://github.com/FractalAIResearchLabs/Fathom-DeepResearch",
+            "ai_summary": "Fathom-DeepResearch, an agentic system with specialized models for web search and report synthesis, achieves state-of-the-art performance on open-ended information-seeking tasks and diverse reasoning tasks.",
+            "ai_keywords": [
+                "DeepResearch Agents",
+                "Fathom-DeepResearch",
+                "Fathom-Search-4B",
+                "DeepSearch",
+                "Qwen3-4B",
+                "DUETQA",
+                "RAPO",
+                "GRPO",
+                "curriculum pruning",
+                "reward-aware advantage scaling",
+                "per-prompt replay buffers",
+                "steerable step-level reward",
+                "Fathom-Synthesizer-4B",
+                "DeepResearch Reports",
+                "SimpleQA",
+                "FRAMES",
+                "WebWalker",
+                "Seal0",
+                "MuSiQue",
+                "DeepResearch-Bench",
+                "HLE",
+                "AIME-25",
+                "GPQA-Diamond",
+                "MedQA"
+            ],
+            "githubStars": 11,
+            "organization": {
+                "_id": "67ff911f97acbf357c65f129",
+                "name": "FractalAIResearch",
+                "fullname": "Fractal AI Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ff900add7320db615695bc/K01LCMcPGn6QppOlYlDjF.png"
+            }
+        },
+        "translation_title": "Fathom-DeepResearch: SLM을 위한 장기 정보 검색 및 합성의 해제",
+        "purpose": "DeepResearch 에이전트를 통해 정보 탐색 작업의 성능을 향상시키기 위한 시스템 개발",
+        "method": [
+            "Fathom-DeepResearch라는 두 가지 모델로 구성된 에이전트 시스템을 소개함(We introduce Fathom-DeepResearch, an agentic system composed of two specialized models.)",
+            "첫 번째 모델인 Fathom-Search-4B는 증거 기반 조사를 최적화하기 위해 실시간 웹 검색 및 특정 웹페이지 쿼리를 수행함(The first is Fathom-Search-4B, a DeepSearch model trained from Qwen3-4B and optimized for evidence-based investigation through live web search and targeted webpage querying.)",
+            "DUETQA, RAPO와 같은 여러 훈련 기법을 통해 20회 이상의 도구 호출을 신뢰성 있게 수행할 수 있도록 개선함(These improvements enable reliable extension of tool-calling beyond 20 calls when warranted.)",
+            "두 번째 모델인 Fathom-Synthesizer-4B는 DeepSearch의 결과를 구조화된 DeepResearch 보고서로 변환함(The second is Fathom-Synthesizer-4B, trained from Qwen3-4B, which converts multi-turn DeepSearch traces into structured, citation-dense DeepResearch Reports for comprehensive synthesis.)"
+        ],
+        "conclusion": "Fathom-DeepResearch 시스템은 다양한 추론 작업에서 우수한 일반화를 보여주며, 최신 성능을 기록함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Information Retrieval"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.03270",
+            "authors": [
+                {
+                    "_id": "68e4787be4e093a7044e4ceb",
+                    "name": "Haolin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cec",
+                    "name": "Shiyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4ced",
+                    "name": "Can Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cee",
+                    "name": "Bo Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cef",
+                    "name": "Zuxin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf0",
+                    "name": "Jielin Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf1",
+                    "name": "Jianguo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf2",
+                    "name": "Yingbo Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf3",
+                    "name": "Zeyuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf4",
+                    "name": "Ran Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf5",
+                    "name": "Shelby Heinecke",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf6",
+                    "name": "Silvio Savarese",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf7",
+                    "name": "Caiming Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf8",
+                    "name": "Huan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68e4787be4e093a7044e4cf9",
+                    "user": {
+                        "_id": "661573234c2f29635e93bb71",
+                        "avatarUrl": "/avatars/fba95e382454485766b6349d6281b715.svg",
+                        "isPro": false,
+                        "fullname": "Weiran Yao",
+                        "user": "weiranyao",
+                        "type": "user"
+                    },
+                    "name": "Weiran Yao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-08T08:03:10.713Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/632cdea254e2c512c8f95b12/Hce9DQBwDnat1pLoOeZk4.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/632cdea254e2c512c8f95b12/21y3b_qaKDlIi-Os-vaKD.png"
+            ],
+            "publishedAt": "2025-09-27T05:41:55.000Z",
+            "submittedOnDailyAt": "2025-10-08T00:27:46.813Z",
+            "title": "CoDA: Coding LM via Diffusion Adaptation",
+            "submittedOnDailyBy": {
+                "_id": "632cdea254e2c512c8f95b12",
+                "avatarUrl": "/avatars/a6d06cdd75861ae7d589f1343d81a5c5.svg",
+                "isPro": false,
+                "fullname": "Weiran Yao",
+                "user": "weirayao",
+                "type": "user"
+            },
+            "summary": "Diffusion language models promise bidirectional context and infilling\ncapabilities that autoregressive coders lack, yet practical systems remain\nheavyweight. We introduce CoDA, a 1.7B-parameter diffusion coder trained on TPU\nwith a fully open-source training pipeline. CoDA pairs large-scale diffusion\npre-training with code-centric mid-training and instruction tuning, enabling\nconfidence-guided sampling that keeps inference latency competitive. On\nHumaneval, MBPP, and EvalPlus, CoDA-1.7B-Instruct matches or surpasses\ndiffusion models up to 7B parameters. Our release includes model checkpoints,\nevaluation harnesses, and TPU training pipelines to accelerate research on\nlightweight diffusion-based coding assistants.",
+            "upvotes": 24,
+            "discussionId": "68e4787ce4e093a7044e4cfa",
+            "projectPage": "https://huggingface.co/Salesforce/CoDA-v0-Instruct",
+            "githubRepo": "https://github.com/SalesforceAIResearch/CoDA/",
+            "ai_summary": "CoDA, a 1.7B-parameter diffusion coder, achieves competitive performance with smaller models through confidence-guided sampling and is released with open-source tools.",
+            "ai_keywords": [
+                "diffusion language models",
+                "bidirectional context",
+                "infilling capabilities",
+                "autoregressive coders",
+                "diffusion coder",
+                "large-scale diffusion pre-training",
+                "code-centric mid-training",
+                "instruction tuning",
+                "confidence-guided sampling",
+                "inference latency",
+                "Humaneval",
+                "MBPP",
+                "EvalPlus",
+                "diffusion-based coding assistants"
+            ],
+            "githubStars": 15,
+            "organization": {
+                "_id": "5f6d64475e78cc6b0ed31e4c",
+                "name": "Salesforce",
+                "fullname": "Salesforce",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1602756670970-noauth.jpeg"
+            }
+        },
+        "translation_title": "CoDA: Diffusion 적응을 통한 코드 생성 언어 모델",
+        "purpose": "효율적이고 경량화된 diffusion 모델을 사용하여 코드 생성을 지원하는 시스템 개발",
+        "method": [
+            "1.7B 매개변수를 가진 CoDA를 TPU에서 학습하고 완전한 오픈 소스 훈련 파이프라인을 제공함(We introduce CoDA, a 1.7B-parameter diffusion coder trained on TPU with a fully open-source training pipeline.)",
+            "대규모 diffusion 사전 훈련, 코드 중심 미드 훈련 및 지침 튜닝을 결합하여 샘플링의 신뢰성을 높임(CoDA pairs large-scale diffusion pre-training with code-centric mid-training and instruction tuning, enabling confidence-guided sampling.)",
+            "Humaneval, MBPP 및 EvalPlus에서 CoDA-1.7B-Instruct가 최대 7B 파라미터의 diffusion 모델과 동등하거나 이를 초월하는 성능을 기록함(On Humaneval, MBPP, and EvalPlus, CoDA-1.7B-Instruct matches or surpasses diffusion models up to 7B parameters.)"
+        ],
+        "conclusion": "CoDA는 경량화된 diffusion 기반 코드 생성 보조 도구 연구를 가속화할 수 있는 체크포인트와 평가 도구를 포함하여 출시됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
