@@ -1,0 +1,719 @@
+[
+    {
+        "paper": {
+            "id": "2510.11696",
+            "authors": [
+                {
+                    "_id": "68edb7abde1fee572713a7df",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e0",
+                    "user": {
+                        "_id": "6698c7f6743d55b416bdc008",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6698c7f6743d55b416bdc008/pU6qbo6V4PYAqtMFOhrRm.jpeg",
+                        "isPro": false,
+                        "fullname": "Ge Yi",
+                        "user": "GY2233",
+                        "type": "user"
+                    },
+                    "name": "Yi Ge",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T10:23:44.636Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e1",
+                    "name": "Shuai Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e2",
+                    "name": "Yicheng Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e3",
+                    "name": "Huizi Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e4",
+                    "name": "Yujun Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e5",
+                    "name": "Hanrong Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e6",
+                    "name": "Sifei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e7",
+                    "name": "Ka Chun Cheung",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e8",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7e9",
+                    "name": "Yao Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7ea",
+                    "name": "Xiaojuan Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7eb",
+                    "name": "Song Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edb7abde1fee572713a7ec",
+                    "name": "Yukang Chen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/656db3f53dc1d277e5a64410/M3Wu6kYubMte0JBARLogc.qt"
+            ],
+            "publishedAt": "2025-10-13T17:55:09.000Z",
+            "submittedOnDailyAt": "2025-10-14T01:17:25.740Z",
+            "title": "QeRL: Beyond Efficiency -- Quantization-enhanced Reinforcement Learning\n  for LLMs",
+            "submittedOnDailyBy": {
+                "_id": "656db3f53dc1d277e5a64410",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656db3f53dc1d277e5a64410/9kiY2K3MCRcBDk7MrkTBK.png",
+                "isPro": false,
+                "fullname": "Wei Huang",
+                "user": "AaronHuangWei",
+                "type": "user"
+            },
+            "summary": "We propose QeRL, a Quantization-enhanced Reinforcement Learning framework for\nlarge language models (LLMs). While RL is essential for LLMs' reasoning\ncapabilities, it is resource-intensive, requiring substantial GPU memory and\nlong rollout durations. QeRL addresses these issues by combining NVFP4\nquantization with Low-Rank Adaptation (LoRA), accelerating rollout phase of RL\nwhile reducing memory overhead. Beyond efficiency, our findings show that\nquantization noise increases policy entropy, enhancing exploration, and\nenabling the discovery of better strategies during RL. To further optimize\nexploration, QeRL introduces an Adaptive Quantization Noise (AQN) mechanism,\nwhich dynamically adjusts noise during training. Experiments demonstrate that\nQeRL delivers over 1.5 times speedup in the rollout phase. Moreover, this is\nthe first framework to enable RL training of a 32B LLM on a single H100 80GB\nGPU, while delivering overall speedups for RL training. It also achieves faster\nreward growth and higher final accuracy than 16-bit LoRA and QLoRA, while\nmatching the performance of full-parameter fine-tuning on mathematical\nbenchmarks such as GSM8K (90.8%) and MATH 500 (77.4%) in the 7B model. These\nresults establish QeRL as an efficient and effective framework for RL training\nin LLMs.",
+            "upvotes": 91,
+            "discussionId": "68edb7abde1fee572713a7ed",
+            "projectPage": "https://github.com/NVlabs/QeRL",
+            "githubRepo": "https://github.com/NVlabs/QeRL",
+            "ai_summary": "QeRL, a quantization-enhanced reinforcement learning framework, accelerates RL training for large language models by combining NVFP4 quantization with Low-Rank Adaptation and an Adaptive Quantization Noise mechanism, achieving significant speedups and improved performance.",
+            "ai_keywords": [
+                "NVFP4 quantization",
+                "Low-Rank Adaptation (LoRA)",
+                "Adaptive Quantization Noise (AQN)",
+                "reinforcement learning",
+                "large language models (LLMs)",
+                "rollout phase",
+                "policy entropy",
+                "exploration",
+                "reward growth",
+                "GSM8K",
+                "MATH 500"
+            ],
+            "githubStars": 157,
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "QeRL: 효율성을 넘어서 -- 양자화 강화 강화 학습 프레임워크를 위한 LLMs",
+        "purpose": "대규모 언어 모델(LLM)의 강화 학습(RL) 과정에서 효율성을 개선하고 자원 소모를 줄이기 위한 방법 연구",
+        "method": [
+            "NVFP4 양자화와 Low-Rank Adaptation(LoRA)을 결합하여 RL의 롤아웃 단계를 가속화하고 메모리 오버헤드를 줄임(QeRL addresses these issues by combining NVFP4 quantization with Low-Rank Adaptation (LoRA), accelerating rollout phase of RL while reducing memory overhead.)",
+            "적응형 양자화 노이즈(AQN) 메커니즘을 도입하여 훈련 중 노이즈를 동적으로 조정함(QeRL introduces an Adaptive Quantization Noise (AQN) mechanism, which dynamically adjusts noise during training.)",
+            "QeRL이 32B LLM을 단일 H100 80GB GPU에서 강화 학습으로 훈련할 수 있도록 처음으로 가능하게 함(Moreover, this is the first framework to enable RL training of a 32B LLM on a single H100 80GB GPU.)"
+        ],
+        "conclusion": "QeRL은 강화 학습 훈련의 효율성과 효과성을 모두 갖추었으며, 여러 벤치마크에서 성능을 향상시키는 결과를 보여줌.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Quantization"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.11690",
+            "authors": [
+                {
+                    "_id": "68edbbccde1fee572713a848",
+                    "name": "Boyang Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edbbccde1fee572713a849",
+                    "name": "Nanye Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edbbccde1fee572713a84a",
+                    "name": "Shengbang Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edbbccde1fee572713a84b",
+                    "name": "Saining Xie",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-13T17:51:39.000Z",
+            "submittedOnDailyAt": "2025-10-14T01:43:32.670Z",
+            "title": "Diffusion Transformers with Representation Autoencoders",
+            "submittedOnDailyBy": {
+                "_id": "6374cbb7255276f3a22b4b35",
+                "avatarUrl": "/avatars/7cf1bbb83447441e5fa2e1e4fcf7617b.svg",
+                "isPro": true,
+                "fullname": "Peter Tong",
+                "user": "tsbpp",
+                "type": "user"
+            },
+            "summary": "Latent generative modeling, where a pretrained autoencoder maps pixels into a\nlatent space for the diffusion process, has become the standard strategy for\nDiffusion Transformers (DiT); however, the autoencoder component has barely\nevolved. Most DiTs continue to rely on the original VAE encoder, which\nintroduces several limitations: outdated backbones that compromise\narchitectural simplicity, low-dimensional latent spaces that restrict\ninformation capacity, and weak representations that result from purely\nreconstruction-based training and ultimately limit generative quality. In this\nwork, we explore replacing the VAE with pretrained representation encoders\n(e.g., DINO, SigLIP, MAE) paired with trained decoders, forming what we term\nRepresentation Autoencoders (RAEs). These models provide both high-quality\nreconstructions and semantically rich latent spaces, while allowing for a\nscalable transformer-based architecture. Since these latent spaces are\ntypically high-dimensional, a key challenge is enabling diffusion transformers\nto operate effectively within them. We analyze the sources of this difficulty,\npropose theoretically motivated solutions, and validate them empirically. Our\napproach achieves faster convergence without auxiliary representation alignment\nlosses. Using a DiT variant equipped with a lightweight, wide DDT head, we\nachieve strong image generation results on ImageNet: 1.51 FID at 256x256 (no\nguidance) and 1.13 at both 256x256 and 512x512 (with guidance). RAE offers\nclear advantages and should be the new default for diffusion transformer\ntraining.",
+            "upvotes": 71,
+            "discussionId": "68edbbccde1fee572713a84c",
+            "projectPage": "https://rae-dit.github.io/",
+            "githubRepo": "https://github.com/bytetriper/RAE",
+            "ai_summary": "Replacing VAEs with pretrained representation encoders in Diffusion Transformers enhances generative quality and convergence speed without auxiliary losses.",
+            "ai_keywords": [
+                "Latent generative modeling",
+                "Diffusion Transformers (DiT)",
+                "VAE encoder",
+                "Representation Autoencoders (RAEs)",
+                "pretrained representation encoders",
+                "DINO",
+                "SigLIP",
+                "MAE",
+                "high-dimensional latent spaces",
+                "transformer-based architecture",
+                "diffusion transformers",
+                "image generation",
+                "ImageNet",
+                "FID"
+            ],
+            "githubStars": 307,
+            "organization": {
+                "_id": "662741612ada5b77e310d171",
+                "name": "nyu-visionx",
+                "fullname": "NYU VisionX",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/626dc5105f7327906f0b2a4e/Kn-QtZjE6TJE-syTndXIW.jpeg"
+            }
+        },
+        "translation_title": "Representation Autoencoders 기반의 Diffusion Transformers",
+        "purpose": "Diffusion Transformers의 성능을 향상시키기 위해 VAE를 대체할 새로운 Autoencoder 구조 연구",
+        "method": [
+            "VAE 대신 사전 훈련된 Representation Encoders(DINO, SigLIP, MAE 등)와 훈련된 디코더를 결합하여 Representation Autoencoders(RAEs)라는 모델을 구성함.(we explore replacing the VAE with pretrained representation encoders paired with trained decoders, forming what we term Representation Autoencoders (RAEs).)",
+            "RAE 모델은 고품질 재구성과 의미론적으로 풍부한 잠재 공간을 제공하며, 확장 가능한 transformer 기반 아키텍처를 가능하게 함.(These models provide both high-quality reconstructions and semantically rich latent spaces, while allowing for a scalable transformer-based architecture.)",
+            "잠재 공간이 고차원인 경우 diffusion transformers가 효과적으로 작동할 수 있도록 하는 방법을 분석하고 이론적으로 동기화된 해결책을 제안함.(a key challenge is enabling diffusion transformers to operate effectively within them. We analyze the sources of this difficulty, propose theoretically motivated solutions.)"
+        ],
+        "conclusion": "RAE는 Diffusion Transformers 훈련에서 명확한 이점을 제공하며 새로운 기본 모델로 적용되어야 함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.10689",
+            "authors": [
+                {
+                    "_id": "68edc3cede1fee572713a8c7",
+                    "name": "Caorui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8c8",
+                    "name": "Yu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8c9",
+                    "name": "Yiyan Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ca",
+                    "name": "Jin Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8cb",
+                    "name": "Zhenyu Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8cc",
+                    "name": "Shihao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8cd",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ce",
+                    "name": "Jiafu Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8cf",
+                    "name": "Zhenghao Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d0",
+                    "name": "Dingling Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d1",
+                    "name": "Ying He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d2",
+                    "name": "Haoxiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d3",
+                    "name": "Yuxuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d4",
+                    "name": "Qiufeng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d5",
+                    "name": "Zhenhe Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d6",
+                    "name": "Jiehui Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d7",
+                    "name": "Zhiyu Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d8",
+                    "name": "Weihao Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8d9",
+                    "user": {
+                        "_id": "64b74b906ab5d14ca7f289cd",
+                        "avatarUrl": "/avatars/b131b7c4ce5216708ca4a678f35ead0a.svg",
+                        "isPro": false,
+                        "fullname": "Chenchen Zhang",
+                        "user": "xxzcc",
+                        "type": "user"
+                    },
+                    "name": "Chenchen Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T07:30:15.133Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8da",
+                    "name": "Zhaohui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8db",
+                    "name": "Jiayi Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8dc",
+                    "name": "Yanghai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8dd",
+                    "name": "Zhe Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8de",
+                    "name": "Minxin Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8df",
+                    "name": "Ke Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e0",
+                    "name": "Runzhe Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e1",
+                    "name": "Yinghao Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e2",
+                    "user": {
+                        "_id": "66f0cf3ee3f6b40485241301",
+                        "avatarUrl": "/avatars/75967726c0baa2228b13892fb8ef3d8c.svg",
+                        "isPro": false,
+                        "fullname": "panyaning",
+                        "user": "panyaning",
+                        "type": "user"
+                    },
+                    "name": "Yaning Pan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T14:24:17.947Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e3",
+                    "name": "Sungkyun Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e4",
+                    "name": "Termeh Taheri",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e5",
+                    "name": "Haiwen Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e6",
+                    "name": "Christos Plachouras",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e7",
+                    "name": "Emmanouil Benetos",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e8",
+                    "name": "Yizhi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8e9",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ea",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8eb",
+                    "name": "Tianhao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ec",
+                    "name": "Zili Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ed",
+                    "name": "Minghao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ee",
+                    "name": "Junran Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8ef",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edc3cede1fee572713a8f0",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-12T16:34:00.000Z",
+            "submittedOnDailyAt": "2025-10-14T02:01:14.736Z",
+            "title": "OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni\n  MLLMs",
+            "submittedOnDailyBy": {
+                "_id": "65377c30e48353201e6fdda0",
+                "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+                "isPro": false,
+                "fullname": "Jiaheng Liu",
+                "user": "CheeryLJH",
+                "type": "user"
+            },
+            "summary": "Recent advances in multimodal large language models (MLLMs) have demonstrated\nsubstantial potential in video understanding. However, existing benchmarks fail\nto comprehensively evaluate synergistic reasoning capabilities across audio and\nvisual modalities, often neglecting either one of the modalities or integrating\nthem in a logically inconsistent manner. To bridge this gap, we introduce\nOmniVideoBench, a large-scale and rigorously designed benchmark dedicated to\nassessing synergistic audio-visual understanding, with a strong emphasis on\nmodality complementarity and logical consistency. Specifically, OmniVideoBench\ncomprises 1000 high-quality question-answer(QA) pairs, each annotated with\nstep-by-step reasoning traces, derived from 628 diverse videos ranging from\nseveral seconds to 30 minutes, and manually verified to guarantee complete\ncorrectness and uniqueness. Moreover, OmniVideoBench encompasses 13 carefully\ndesigned question types, covering temporal reasoning, spatial localization,\ncounting, causal inference, summarization, and beyond, thereby capturing the\nessential challenges of video understanding. Evaluation of multiple MLLMs on\nOmniVideoBench reveals a pronounced gap between model performance and human\nreasoning, with open-source models lagging significantly behind their\nclosed-source counterparts, underscoring the inherent difficulty of genuine\naudio-visual reasoning. We will release OmniVideoBench to foster the\ndevelopment of MLLMs with stronger and more generalizable reasoning\ncapabilities.",
+            "upvotes": 37,
+            "discussionId": "68edc3cede1fee572713a8f1",
+            "projectPage": "https://omnivideobench.github.io/omnivideobench_home/",
+            "githubRepo": "https://github.com/NJU-LINK/OmniVideoBench",
+            "ai_summary": "OmniVideoBench is a comprehensive benchmark for evaluating audio-visual reasoning in multimodal large language models, addressing modality complementarity and logical consistency.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "video understanding",
+                "audio-visual understanding",
+                "modality complementarity",
+                "logical consistency",
+                "question-answer pairs",
+                "reasoning traces",
+                "temporal reasoning",
+                "spatial localization",
+                "counting",
+                "causal inference",
+                "summarization"
+            ],
+            "githubStars": 16,
+            "organization": {
+                "_id": "68edc767abe005ac1b354573",
+                "name": "NJU-LINK",
+                "fullname": "Large-scale Intelligence and Knowledge Lab, Nanjing University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+            }
+        },
+        "translation_title": "OmniVideoBench: 오디오-비주얼 이해 평가를 위한 새로운 기준",
+        "purpose": "오디오-비주얼 이해 능력을 종합적으로 평가할 수 있는 기준 개발",
+        "method": [
+            "기존의 기준이 하나의 모달리티만 다루거나 논리적으로 일관되지 않음을 해결하기 위해 OmniVideoBench라는 새로운 기준을 도입함(To bridge this gap, we introduce OmniVideoBench, a large-scale and rigorously designed benchmark dedicated to assessing synergistic audio-visual understanding.)",
+            "628개의 다양한 비디오에서 유래된 1000개의 고품질 질문-답변 쌍을 구성하고 단계별 추론 흔적을 포함함(OmniVideoBench comprises 1000 high-quality question-answer(QA) pairs, each annotated with step-by-step reasoning traces, derived from 628 diverse videos.)",
+            "비디오 이해의 주요 도전 과제를 포착하기 위해 13가지 설계된 질문 유형을 포함함(Moreover, OmniVideoBench encompasses 13 carefully designed question types, covering temporal reasoning, spatial localization, counting, causal inference, summarization, and beyond.)"
+        ],
+        "conclusion": "다양한 MLLM 모델들이 OmniVideoBench에서 평가받으며 모델 성능과 인간의 추론 사이에 큰 격차가 있음을 발견하였고, 이러한 기준을 통해 MLLM의 발전을 촉진할 예정이다.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.11052",
+            "authors": [
+                {
+                    "_id": "68ee23ca9b77b5223f666131",
+                    "name": "Qinglin Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666132",
+                    "name": "Yizhen Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666133",
+                    "name": "Runcong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666134",
+                    "name": "Yanzheng Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666135",
+                    "name": "Amrutha Saseendran",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666136",
+                    "name": "Chen Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666137",
+                    "name": "Philip Alexander Teare",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666138",
+                    "name": "Bin Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f666139",
+                    "name": "Yulan He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ee23ca9b77b5223f66613a",
+                    "name": "Lin Gui",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-13T06:38:13.000Z",
+            "submittedOnDailyAt": "2025-10-14T08:54:24.596Z",
+            "title": "Latent Refinement Decoding: Enhancing Diffusion-Based Language Models by\n  Refining Belief States",
+            "submittedOnDailyBy": {
+                "_id": "687facb9b27afe94a71b7455",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/hqrApQdsEufqXpXoKu_mn.jpeg",
+                "isPro": false,
+                "fullname": "Lin Gui",
+                "user": "Monta3Pt",
+                "type": "user"
+            },
+            "summary": "Autoregressive (AR) models remain the standard for natural language\ngeneration but still suffer from high latency due to strictly sequential\ndecoding. Recent diffusion-inspired approaches, such as LlaDA and Dream,\nmitigate this by generating in parallel, yet they suffer from two core\nlimitations: information loss, as predictive distributions for non-finalized\ntokens are discarded at each step, and premature commitment, where local\ndecisions are made without sufficient global coordination. We introduce Latent\nRefinement Decoding (LRD), a two-stage framework with Latent Refinement and a\nPredictive Feedback Loop. The first stage maintains masked positions as\ndistributional mixtures of predicted tokens and the mask embedding, allowing\nthe model to establish more globally consistent beliefs. The second stage\nprogressively finalizes confident tokens while retaining uncertain ones for\niterative feedback. KL-divergence dynamics provide a principled and reliable\ncriterion for convergence and early stopping. Experiments across coding\n(HumanEval +6.3, MBPP +2.6) and reasoning (GSM8K +2.9, MATH500 +3.8) show that\nLRD improves accuracy while delivering speedups of up to 10.6x, making it a\nstrong and versatile alternative for parallel sequence generation.",
+            "upvotes": 34,
+            "discussionId": "68ee23cb9b77b5223f66613b",
+            "ai_summary": "Latent Refinement Decoding (LRD) improves parallel sequence generation by maintaining global consistency and iterative refinement, enhancing accuracy and reducing latency.",
+            "ai_keywords": [
+                "autoregressive models",
+                "diffusion-inspired approaches",
+                "LlaDA",
+                "Dream",
+                "Latent Refinement Decoding",
+                "Latent Refinement",
+                "Predictive Feedback Loop",
+                "KL-divergence dynamics",
+                "HumanEval",
+                "MBPP",
+                "GSM8K",
+                "MATH500"
+            ],
+            "organization": {
+                "_id": "625fdeda6d8ef689b7269992",
+                "name": "KCL",
+                "fullname": "King's College London",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/5He0nBg7T_cCURqZnf4mi.png"
+            }
+        },
+        "translation_title": "잠재 정제 디코딩: 신념 상태를 정제하여 확산 기반 언어 모델 개선하기",
+        "purpose": "자연어 생성에서 시간 지연을 줄이고 accuracy를 향상시키기 위한 새로운 접근법 개발",
+        "method": [
+            "Latent Refinement와 Predictive Feedback Loop으로 구성된 두 단계의 프레임워크(LRD)를 제안함(We introduce Latent Refinement Decoding (LRD), a two-stage framework with Latent Refinement and a Predictive Feedback Loop.)",
+            "첫 번째 단계에서 모델이 더 글로벌하게 일관된 신념을 갖도록 토큰과 마스크 임베딩의 혼합을 유지함(The first stage maintains masked positions as distributional mixtures of predicted tokens and the mask embedding, allowing the model to establish more globally consistent beliefs.)",
+            "두 번째 단계에서는 확신이 있는 토큰을 점진적으로 최종화하면서 불확실한 토큰을 반복적인 피드백을 위해 유지함(The second stage progressively finalizes confident tokens while retaining uncertain ones for iterative feedback.)"
+        ],
+        "conclusion": "LRD는 accuracy를 개선하고 최대 10.6배의 속도 향상을 보여주어 병렬 시퀀스 생성의 강력하고 유연한 대안임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.10201",
+            "authors": [
+                {
+                    "_id": "68edab32de1fee572713a6eb",
+                    "user": {
+                        "_id": "64673258fc6f6da8b119cab8",
+                        "avatarUrl": "/avatars/36e025862984c7a86b97cee750ee2d04.svg",
+                        "isPro": false,
+                        "fullname": "SII-Jhao Zhang",
+                        "user": "JingHaoZ",
+                        "type": "user"
+                    },
+                    "name": "Jinghao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T07:31:05.248Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6ec",
+                    "name": "Naishan Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6ed",
+                    "name": "Ruilin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6ee",
+                    "name": "Dongzhou Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6ef",
+                    "name": "Zheming Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6f0",
+                    "name": "Feng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edab32de1fee572713a6f1",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-11T13:00:25.000Z",
+            "submittedOnDailyAt": "2025-10-14T02:17:56.665Z",
+            "title": "RLFR: Extending Reinforcement Learning for LLMs with Flow Environment",
+            "submittedOnDailyBy": {
+                "_id": "64673258fc6f6da8b119cab8",
+                "avatarUrl": "/avatars/36e025862984c7a86b97cee750ee2d04.svg",
+                "isPro": false,
+                "fullname": "SII-Jhao Zhang",
+                "user": "JingHaoZ",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as\na promising framework for improving reasoning abilities in Large Language\nModels (LLMs). However, policy optimized with binary verification prone to\noverlook potential valuable exploration in reasoning trajectory. In view of\nheavy annotation cost of golden Process Reward Models (PRMs), recent works\nattempt using auxiliary signals for reward shaping of process tokens, involving\nentropy and likelihood collected from logit space. In this work, we offer a\nnovel perspective on shaping RLVR with flow rewards derived from latent space,\nand propose RLFR, where the flow fields of model latents are constructed from\neither off-policy high-quality data and on-policy rejection sampling data, and\nthe velocity deviations of policy latents within it are quantified to serve as\na reward signal. RLFR first demonstrates that a well-established flow field can\nbe a sound environment for reward signal collection, highlighting the\nexpressive latent space is much underexplored. Moreover, RLFR is able to\ncompress any off-policy expert data as reference for constituting reward\nsignals, and we show that the efficient context dependence compressed within\nthe hidden states are utilized, rather than individual token-level denotation\nfor context comprehending. Experiments on both language and multimodal\nreasoning benchmarks demonstrate the reliability of flow rewards, and\nsuggesting a promising paradigm for reward shaping with auxiliary signals.",
+            "upvotes": 31,
+            "discussionId": "68edab32de1fee572713a6f2",
+            "projectPage": "https://jinghaoleven.github.io/RLFR/",
+            "githubRepo": "https://github.com/Jinghaoleven/RLFR",
+            "ai_summary": "RLFR uses flow rewards derived from latent space to improve reinforcement learning with verifiable rewards, demonstrating reliable reward shaping and efficient context comprehension.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "RLVR",
+                "Large Language Models",
+                "LLMs",
+                "Process Reward Models",
+                "PRMs",
+                "reward shaping",
+                "process tokens",
+                "logit space",
+                "flow rewards",
+                "latent space",
+                "flow fields",
+                "off-policy data",
+                "on-policy rejection sampling",
+                "velocity deviations",
+                "hidden states",
+                "context comprehension",
+                "language benchmarks",
+                "multimodal reasoning benchmarks"
+            ],
+            "githubStars": 32
+        },
+        "translation_title": "RLFR: 흐름 환경을 활용한 LLM을 위한 강화 학습 확장",
+        "purpose": "대형 언어 모델(LLM)의 추론 능력을 향상시키기 위한 새로운 보상 신호 형성 연구",
+        "method": [
+            "흐름 보상을 기반으로 RLVR을 형성하기 위한 새로운 관점을 제공함(In this work, we offer a novel perspective on shaping RLVR with flow rewards derived from latent space.)",
+            "모델의 잠재 공간에서 생성된 흐름 필드를 이용해 보상 신호를 측정함(We propose RLFR, where the flow fields of model latents are constructed from either off-policy high-quality data and on-policy rejection sampling data.)",
+            "실험을 통해 흐름 보상의 신뢰성을 입증하고 유망한 보상 신호 형성 패러다임을 제안함(Experiments on both language and multimodal reasoning benchmarks demonstrate the reliability of flow rewards.)"
+        ],
+        "conclusion": "RLFR은 흐름 보상을 통해 더 나은 보상 신호 수집 환경을 제공하며, 언어 및 다중 모드 추론 벤치마크 실험에서 효과를 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Multimodal Learning"
+        ]
+    }
+]
