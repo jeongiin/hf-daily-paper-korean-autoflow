@@ -1,0 +1,546 @@
+[
+    {
+        "paper": {
+            "id": "2510.12276",
+            "authors": [
+                {
+                    "_id": "68ef0057486b78128f0e33b0",
+                    "name": "Fuhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b1",
+                    "name": "Wenxuan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b2",
+                    "name": "Han Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b3",
+                    "user": {
+                        "_id": "66a4ed2a9ba24c30408441b0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a4ed2a9ba24c30408441b0/K9Z4MK3Do2CXjXr7XQDdu.png",
+                        "isPro": false,
+                        "fullname": "Jingbo Wang",
+                        "user": "hhhJB",
+                        "type": "user"
+                    },
+                    "name": "Jingbo Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T03:12:53.766Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b4",
+                    "name": "Pengxiang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b5",
+                    "name": "Donglin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b6",
+                    "name": "Long Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef0057486b78128f0e33b7",
+                    "name": "Haoang Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-14T08:27:10.000Z",
+            "submittedOnDailyAt": "2025-10-15T01:16:56.905Z",
+            "title": "Spatial Forcing: Implicit Spatial Representation Alignment for\n  Vision-language-action Model",
+            "submittedOnDailyBy": {
+                "_id": "66a0a3405c5e2a42a214c70f",
+                "avatarUrl": "/avatars/52b9ee7f899ee5431ed37fd1db378d9e.svg",
+                "isPro": false,
+                "fullname": "Wenxuan Song",
+                "user": "Wenxuan123",
+                "type": "user"
+            },
+            "summary": "Vision-language-action (VLA) models have recently shown strong potential in\nenabling robots to follow language instructions and execute precise actions.\nHowever, most VLAs are built upon vision-language models pretrained solely on\n2D data, which lack accurate spatial awareness and hinder their ability to\noperate in the 3D physical world. Existing solutions attempt to incorporate\nexplicit 3D sensor inputs such as depth maps or point clouds, but these\napproaches face challenges due to sensor noise, hardware heterogeneity, and\nincomplete depth coverage in existing datasets. Alternative methods that\nestimate 3D cues from 2D images also suffer from the limited performance of\ndepth estimators.We propose Spatial Forcing (SF), a simple yet effective\nalignment strategy that implicitly forces VLA models to develop spatial\ncomprehension capabilities without relying on explicit 3D inputs or depth\nestimators. SF aligns intermediate visual embeddings of VLAs with geometric\nrepresentations produced by pretrained 3D foundation models. By enforcing\nalignment at intermediate layers, SF guides VLAs to encode richer spatial\nrepresentations that enhance action precision.Extensive experiments in\nsimulation and real-world environments demonstrate that SF achieves\nstate-of-the-art results, surpassing both 2D- and 3D-based VLAs. SF further\naccelerates training by up to 3.8x and improves data efficiency across diverse\nrobotic tasks. Project page is at https://spatial-forcing.github.io/",
+            "upvotes": 126,
+            "discussionId": "68ef0057486b78128f0e33b8",
+            "projectPage": "https://spatial-forcing.github.io/",
+            "githubRepo": "https://github.com/OpenHelix-Team/Spatial-Forcing",
+            "githubStars": 24,
+            "organization": {
+                "_id": "65ad19cac14c3cf579ad9b68",
+                "name": "HKUSTGZ",
+                "fullname": "HKUSTGZ"
+            }
+        },
+        "translation_title": "Spatial Forcing: 비전-언어-행동 모델을 위한 암시적 공간 표현 정렬",
+        "purpose": "로봇이 언어 지시에 따라 정확한 행동을 할 수 있도록 공간 인식을 향상시키기 위한 방법 제안",
+        "method": [
+            "Spatial Forcing(SF)라는 정렬 전략을 제안하여 VLA 모델이 명시적 3D 입력이나 깊이 추정기 없이 공간 인식을 발전시키도록 유도함.(We propose Spatial Forcing (SF), a simple yet effective alignment strategy that implicitly forces VLA models to develop spatial comprehension capabilities without relying on explicit 3D inputs or depth estimators.)",
+            "SF는 중간 시각 임베딩을 미리 훈련된 3D 기초 모델이 생성한 기하학적 표현과 정렬시킴.(SF aligns intermediate visual embeddings of VLAs with geometric representations produced by pretrained 3D foundation models.)",
+            "중간 레이어에서의 정렬을 통해 SF가 VLA가 풍부한 공간 표현을 인코딩하게끔 유도함.(By enforcing alignment at intermediate layers, SF guides VLAs to encode richer spatial representations that enhance action precision.)"
+        ],
+        "conclusion": "SF는 기존 2D 및 3D 기반 VLA 모델보다 우수한 성능을 보이며, 훈련 속도를 최대 3.8배 향상시키고 다양한 로봇 작업에서 데이터 효율성을 개선함.",
+        "keywords": [
+            "Multimodal Learning",
+            "3D Vision",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.12586",
+            "authors": [
+                {
+                    "_id": "68eefdd0486b78128f0e3374",
+                    "user": {
+                        "_id": "648c6537aeff9347218f49f2",
+                        "avatarUrl": "/avatars/1891855926eec77f91a389755998212f.svg",
+                        "isPro": true,
+                        "fullname": "Jiachen Lei",
+                        "user": "jiachenlei",
+                        "type": "user"
+                    },
+                    "name": "Jiachen Lei",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T03:13:00.511Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e3375",
+                    "name": "Keli Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e3376",
+                    "name": "Julius Berner",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e3377",
+                    "name": "Haiming Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e3378",
+                    "name": "Hongkai Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e3379",
+                    "name": "Jiahong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefdd0486b78128f0e337a",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-14T14:41:16.000Z",
+            "submittedOnDailyAt": "2025-10-15T00:25:14.164Z",
+            "title": "Advancing End-to-End Pixel Space Generative Modeling via Self-supervised\n  Pre-training",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Pixel-space generative models are often more difficult to train and generally\nunderperform compared to their latent-space counterparts, leaving a persistent\nperformance and efficiency gap. In this paper, we introduce a novel two-stage\ntraining framework that closes this gap for pixel-space diffusion and\nconsistency models. In the first stage, we pre-train encoders to capture\nmeaningful semantics from clean images while aligning them with points along\nthe same deterministic sampling trajectory, which evolves points from the prior\nto the data distribution. In the second stage, we integrate the encoder with a\nrandomly initialized decoder and fine-tune the complete model end-to-end for\nboth diffusion and consistency models. Our training framework demonstrates\nstrong empirical performance on ImageNet dataset. Specifically, our diffusion\nmodel reaches an FID of 2.04 on ImageNet-256 and 2.35 on ImageNet-512 with 75\nnumber of function evaluations (NFE), surpassing prior pixel-space methods by a\nlarge margin in both generation quality and efficiency while rivaling leading\nVAE-based models at comparable training cost. Furthermore, on ImageNet-256, our\nconsistency model achieves an impressive FID of 8.82 in a single sampling step,\nsignificantly surpassing its latent-space counterpart. To the best of our\nknowledge, this marks the first successful training of a consistency model\ndirectly on high-resolution images without relying on pre-trained VAEs or\ndiffusion models.",
+            "upvotes": 85,
+            "discussionId": "68eefdd1486b78128f0e337b",
+            "githubRepo": "https://github.com/AMAP-ML/EPG",
+            "githubStars": 65,
+            "organization": {
+                "_id": "67d11771890254196d3174e5",
+                "name": "GD-ML",
+                "fullname": "AMAP-ML",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d116c47be76de1a40873ca/s5ukAx9E36ZZIKvbpBRi4.png"
+            }
+        },
+        "translation_title": "셀프 슈퍼바이즈드 사전 학습을 통한 엔드 투 엔드 픽셀 공간 생성 모델 개선",
+        "purpose": "픽셀 공간 생성 모델의 성능과 효율성을 개선하기 위한 새로운 훈련 프레임워크 연구",
+        "method": [
+            "두 단계 훈련 프레임워크를 도입하여 픽셀 공간 확산 및 일관성 모델을 위해 성능 격차를 줄임(In this paper, we introduce a novel two-stage training framework that closes this gap for pixel-space diffusion and consistency models.)",
+            "첫 번째 단계에서 인코더를 사전 훈련하여 깨끗한 이미지로부터 의미 있는 의미 캡처 및 샘플링 경로 정렬 수행(In the first stage, we pre-train encoders to capture meaningful semantics from clean images while aligning them with points along the same deterministic sampling trajectory.)",
+            "두 번째 단계에서는 인코더와 무작위로 초기화된 디코더를 통합하여 전체 모델을 최적화하여 성능을 향상시킴(In the second stage, we integrate the encoder with a randomly initialized decoder and fine-tune the complete model end-to-end for both diffusion and consistency models.)"
+        ],
+        "conclusion": "우리의 훈련 프레임워크는 ImageNet 데이터셋에서 강력한 성능을 보여줍니다. 확산 모델은 ImageNet-256에서 2.04의 FID를 달성하며, 이전 픽셀 공간 방법을 크게 초월했습니다.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.09116",
+            "authors": [
+                {
+                    "_id": "68edd273de1fee572713a963",
+                    "user": {
+                        "_id": "67e659905c1ed903debed72a",
+                        "avatarUrl": "/avatars/b112b1f5903806e55aabd16aafdeee10.svg",
+                        "isPro": false,
+                        "fullname": "zez",
+                        "user": "Everything-is-Ok",
+                        "type": "user"
+                    },
+                    "name": "Enze Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T07:29:47.167Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a964",
+                    "user": {
+                        "_id": "6852d8a124a68790bddff660",
+                        "avatarUrl": "/avatars/0c07abf23c1a099335a7fa0ca15db7ca.svg",
+                        "isPro": false,
+                        "fullname": "Jiaying Wang",
+                        "user": "winniwang",
+                        "type": "user"
+                    },
+                    "name": "Jiaying Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T07:29:42.425Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a965",
+                    "user": {
+                        "_id": "663adb42e14047f710dc1d29",
+                        "avatarUrl": "/avatars/7ca49d67a4a8b4cf0ee896e07646715f.svg",
+                        "isPro": false,
+                        "fullname": "Mengxi Xiao",
+                        "user": "ElsaShaw",
+                        "type": "user"
+                    },
+                    "name": "Mengxi Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-14T07:29:44.631Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a966",
+                    "user": {
+                        "_id": "6852d79ec084bc0658b7ec4c",
+                        "avatarUrl": "/avatars/1b68a590fd81b92f4860d6855409e31b.svg",
+                        "isPro": false,
+                        "fullname": "Liu jifei",
+                        "user": "whuviolet",
+                        "type": "user"
+                    },
+                    "name": "Jifei Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T15:25:11.506Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a967",
+                    "user": {
+                        "_id": "67fd030140e7539fcc5f6521",
+                        "avatarUrl": "/avatars/d79c0eed928d964c3b014a0cf1f01d72.svg",
+                        "isPro": false,
+                        "fullname": "Ziyan Kuang",
+                        "user": "plumjane",
+                        "type": "user"
+                    },
+                    "name": "Ziyan Kuang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T15:25:13.629Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a968",
+                    "name": "Rui Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a969",
+                    "name": "Eric Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a96a",
+                    "name": "Sophia Ananiadou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a96b",
+                    "name": "Min Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68edd273de1fee572713a96c",
+                    "name": "Qianqian Xie",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-10T08:10:10.000Z",
+            "submittedOnDailyAt": "2025-10-15T00:43:50.761Z",
+            "title": "DITING: A Multi-Agent Evaluation Framework for Benchmarking Web Novel\n  Translation",
+            "submittedOnDailyBy": {
+                "_id": "67e659905c1ed903debed72a",
+                "avatarUrl": "/avatars/b112b1f5903806e55aabd16aafdeee10.svg",
+                "isPro": false,
+                "fullname": "zez",
+                "user": "Everything-is-Ok",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) have substantially advanced machine translation\n(MT), yet their effectiveness in translating web novels remains unclear.\nExisting benchmarks rely on surface-level metrics that fail to capture the\ndistinctive traits of this genre. To address these gaps, we introduce DITING,\nthe first comprehensive evaluation framework for web novel translation,\nassessing narrative and cultural fidelity across six dimensions: idiom\ntranslation, lexical ambiguity, terminology localization, tense consistency,\nzero-pronoun resolution, and cultural safety, supported by over 18K\nexpert-annotated Chinese-English sentence pairs. We further propose AgentEval,\na reasoning-driven multi-agent evaluation framework that simulates expert\ndeliberation to assess translation quality beyond lexical overlap, achieving\nthe highest correlation with human judgments among seven tested automatic\nmetrics. To enable metric comparison, we develop MetricAlign, a meta-evaluation\ndataset of 300 sentence pairs annotated with error labels and scalar quality\nscores. Comprehensive evaluation of fourteen open, closed, and commercial\nmodels reveals that Chinese-trained LLMs surpass larger foreign counterparts,\nand that DeepSeek-V3 delivers the most faithful and stylistically coherent\ntranslations. Our work establishes a new paradigm for exploring LLM-based web\nnovel translation and provides public resources to advance future research.",
+            "upvotes": 84,
+            "discussionId": "68edd274de1fee572713a96d",
+            "githubRepo": "https://github.com/WHUNextGen/DITING",
+            "ai_summary": "A new evaluation framework, DITING, and a reasoning-driven multi-agent evaluation framework, AgentEval, are introduced to assess the quality of web novel translations, revealing that Chinese-trained LLMs outperform larger foreign models.",
+            "ai_keywords": [
+                "large language models",
+                "machine translation",
+                "web novels",
+                "DITING",
+                "narrative fidelity",
+                "cultural fidelity",
+                "idiom translation",
+                "lexical ambiguity",
+                "terminology localization",
+                "tense consistency",
+                "zero-pronoun resolution",
+                "cultural safety",
+                "AgentEval",
+                "reasoning-driven",
+                "multi-agent evaluation",
+                "MetricAlign",
+                "meta-evaluation",
+                "DeepSeek-V3",
+                "stylistic coherence"
+            ],
+            "githubStars": 5,
+            "organization": {
+                "_id": "6693770d0bf3f05db3017f31",
+                "name": "NextGenWhu",
+                "fullname": "CLAIN-WHU",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6479f4317c18dca75e9a9324/DydmQ18EutkpFraI3FGpy.png"
+            }
+        },
+        "translation_title": "DITING: 웹 소설을 평가하기 위한 다중 에이전트 평가 프레임워크",
+        "purpose": "웹 소설 번역의 내러티브 및 문화적 충실도를 평가하기 위한 포괄적인 평가 프레임워크 개발",
+        "method": [
+            "웹 소설 번역의 특성을 반영하여 DITING 프레임워크를 소개함(we introduce DITING, the first comprehensive evaluation framework for web novel translation, assessing narrative and cultural fidelity across six dimensions).",
+            "AgentEval이라는 사고 기반 다중 에이전트 평가 프레임워크를 제안하여 번역 품질을 평가함(we further propose AgentEval, a reasoning-driven multi-agent evaluation framework that simulates expert deliberation to assess translation quality).",
+            "MetricAlign이라는 메타 평가 데이터셋을 개발하여 평가 기준의 비교를 가능하게 함(to enable metric comparison, we develop MetricAlign, a meta-evaluation dataset of 300 sentence pairs annotated with error labels and scalar quality scores)."
+        ],
+        "conclusion": "중국어로 훈련된 LLM이 더 큰 외국 모델보다 우수한 성능을 보이며, DeepSeek-V3가 가장 충실하고 스타일적으로 일관된 번역을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.11693",
+            "authors": [
+                {
+                    "_id": "68ef04bc486b78128f0e33fc",
+                    "user": {
+                        "_id": "63108cc834c7d77420b0fd68",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63108cc834c7d77420b0fd68/taDnqEmcI9Rhe3uzcPEE3.jpeg",
+                        "isPro": false,
+                        "fullname": "Chenghao Xiao",
+                        "user": "gowitheflow",
+                        "type": "user"
+                    },
+                    "name": "Chenghao Xiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T03:12:42.130Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef04bc486b78128f0e33fd",
+                    "user": {
+                        "_id": "604f67ef0fe8ff3ec13d71ef",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/604f67ef0fe8ff3ec13d71ef/KhUwWvZ3OJ9nEee3B-SXO.png",
+                        "isPro": false,
+                        "fullname": "Hou Pong (Ken) Chan",
+                        "user": "kenchan0226",
+                        "type": "user"
+                    },
+                    "name": "Hou Pong Chan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T07:07:34.613Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef04bc486b78128f0e33fe",
+                    "user": {
+                        "_id": "64b7cd74ff6d81ae297feded",
+                        "avatarUrl": "/avatars/880fbc96cc093f5e901ce84f32a1d21d.svg",
+                        "isPro": false,
+                        "fullname": "ZHANG HAO",
+                        "user": "26hzhang",
+                        "type": "user"
+                    },
+                    "name": "Hao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T03:12:44.546Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef04bc486b78128f0e33ff",
+                    "name": "Weiwen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef04bc486b78128f0e3400",
+                    "name": "Mahani Aljunied",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ef04bc486b78128f0e3401",
+                    "user": {
+                        "_id": "642eecbf9b2484d7d8526781",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642eecbf9b2484d7d8526781/4IvGbd66s49Wx5pZyZGHA.png",
+                        "isPro": false,
+                        "fullname": "Yu Rong",
+                        "user": "Swrooy",
+                        "type": "user"
+                    },
+                    "name": "Yu Rong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-15T03:12:46.630Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-13T17:53:52.000Z",
+            "submittedOnDailyAt": "2025-10-15T00:59:38.833Z",
+            "title": "Scaling Language-Centric Omnimodal Representation Learning",
+            "submittedOnDailyBy": {
+                "_id": "63108cc834c7d77420b0fd68",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63108cc834c7d77420b0fd68/taDnqEmcI9Rhe3uzcPEE3.jpeg",
+                "isPro": false,
+                "fullname": "Chenghao Xiao",
+                "user": "gowitheflow",
+                "type": "user"
+            },
+            "summary": "Recent multimodal embedding approaches leveraging multimodal large language\nmodels (MLLMs) fine-tuned with contrastive learning (CL) have shown promising\nresults, yet the underlying reasons behind their superiority remain\nunderexplored. This work argues that a crucial advantage of MLLM-based\napproaches stems from implicit cross-modal alignment achieved during generative\npretraining, where the language decoder learns to exploit multimodal signals\nwithin a shared representation space for generating unimodal outputs. Through\nanalysis of anisotropy and kernel similarity structure, we empirically confirm\nthat latent alignment emerges within MLLM representations, allowing CL to serve\nas a lightweight refinement stage. Leveraging this insight, we propose a\nLanguage-Centric Omnimodal Embedding framework, termed LCO-Emb. Extensive\nexperiments across diverse backbones and benchmarks demonstrate its\neffectiveness, achieving state-of-the-art performance across modalities.\nFurthermore, we identify a Generation-Representation Scaling Law (GRSL),\nshowing that the representational capabilities gained through contrastive\nrefinement scales positively with the MLLM's generative capabilities. This\nsuggests that improving generative abilities evolves as an effective paradigm\nfor enhancing representation quality. We provide a theoretical explanation of\nGRSL, which formally links the MLLM's generative quality to the upper bound on\nits representation performance, and validate it on a challenging, low-resource\nvisual-document retrieval task, showing that continual generative pretraining\nbefore CL can further enhance the potential of a model's embedding\ncapabilities. Codes, models, and resources are available at\nhttps://github.com/LCO-Embedding/LCO-Embedding.",
+            "upvotes": 79,
+            "discussionId": "68ef04bc486b78128f0e3402",
+            "projectPage": "https://huggingface.co/LCO-Embedding",
+            "githubRepo": "https://github.com/LCO-Embedding/LCO-Embedding",
+            "githubStars": 12,
+            "organization": {
+                "_id": "6808e7522a4d69d5111da55f",
+                "name": "Alibaba-DAMO-Academy",
+                "fullname": "DAMO Academy",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6808e64de5dd22427c006e10/9J3vdB62CdeTOd_YrGh9w.jpeg"
+            }
+        },
+        "translation_title": "언어 중심의 오미모달 표현 학습 스케일링",
+        "purpose": "MLLM의 성능 향상의 메커니즘을 규명하고, 이를 토대로 효과적인 오미모달 표현 학습 방법을 제안하기 위함.",
+        "method": [
+            "MLLM의 Generative Pretraining 과정에서 크로스 모달 정렬이 이루어짐을 분석함.(This work argues that a crucial advantage of MLLM-based approaches stems from implicit cross-modal alignment achieved during generative pretraining.)",
+            "LCO-Emb라는 언어 중심의 오미모달 임베딩 프레임워크를 제안함.(Leveraging this insight, we propose a Language-Centric Omnimodal Embedding framework, termed LCO-Emb.)",
+            "다양한 벤치마크에서 LCO-Emb의 성능을 실험하고, 최첨단 결과를 달성함.(Extensive experiments across diverse backbones and benchmarks demonstrate its effectiveness, achieving state-of-the-art performance across modalities.)"
+        ],
+        "conclusion": "LCO-Emb는 다양한 모달리티에서 최첨단 성능을 달성하며, Generative Pretraining이 표현 품질을 향상시키는 효과적인 방식임을 입증함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.12798",
+            "authors": [
+                {
+                    "_id": "68eefe5c486b78128f0e337d",
+                    "name": "Qing Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e337e",
+                    "name": "Junan Huo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e337f",
+                    "name": "Xingyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3380",
+                    "name": "Yuda Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3381",
+                    "name": "Zhaoyang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3382",
+                    "name": "Yihao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3383",
+                    "name": "Tianhe Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3384",
+                    "name": "Junzhi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68eefe5c486b78128f0e3385",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-14T17:59:54.000Z",
+            "submittedOnDailyAt": "2025-10-15T00:22:45.065Z",
+            "title": "Detect Anything via Next Point Prediction",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Object detection has long been dominated by traditional coordinate\nregression-based models, such as YOLO, DETR, and Grounding DINO. Although\nrecent efforts have attempted to leverage MLLMs to tackle this task, they face\nchallenges like low recall rate, duplicate predictions, coordinate\nmisalignment, etc. In this work, we bridge this gap and propose Rex-Omni, a\n3B-scale MLLM that achieves state-of-the-art object perception performance. On\nbenchmarks like COCO and LVIS, Rex-Omni attains performance comparable to or\nexceeding regression-based models (e.g., DINO, Grounding DINO) in a zero-shot\nsetting. This is enabled by three key designs: 1) Task Formulation: we use\nspecial tokens to represent quantized coordinates from 0 to 999, reducing the\nmodel's learning difficulty and improving token efficiency for coordinate\nprediction; 2) Data Engines: we construct multiple data engines to generate\nhigh-quality grounding, referring, and pointing data, providing semantically\nrich supervision for training; \\3) Training Pipelines: we employ a two-stage\ntraining process, combining supervised fine-tuning on 22 million data with\nGRPO-based reinforcement post-training. This RL post-training leverages\ngeometry-aware rewards to effectively bridge the discrete-to-continuous\ncoordinate prediction gap, improve box accuracy, and mitigate undesirable\nbehaviors like duplicate predictions that stem from the teacher-guided nature\nof the initial SFT stage. Beyond conventional detection, Rex-Omni's inherent\nlanguage understanding enables versatile capabilities such as object referring,\npointing, visual prompting, GUI grounding, spatial referring, OCR and\nkey-pointing, all systematically evaluated on dedicated benchmarks. We believe\nthat Rex-Omni paves the way for more versatile and language-aware visual\nperception systems.",
+            "upvotes": 31,
+            "discussionId": "68eefe5c486b78128f0e3386",
+            "projectPage": "https://rex-omni.github.io/",
+            "githubRepo": "https://github.com/IDEA-Research/Rex-Omni",
+            "githubStars": 124,
+            "organization": {
+                "_id": "64390caac62f375ba47da58f",
+                "name": "IDEA-Research",
+                "fullname": "IDEA-Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6438ff69e1acfc375c693ab1/CSi9zEks9X2rRdCXoEeU_.png"
+            }
+        },
+        "translation_title": "다음 포인트 예측을 통한 모든 것의 탐지",
+        "purpose": "MLLM을 활용한 객체 탐지의 성능 향상을 위한 새로운 접근법 제안",
+        "method": [
+            "Rex-Omni라는 3B 규모의 MLLM을 개발하여 기존 모델들보다 높은 객체 인지 성능을 달성함(we propose Rex-Omni, a 3B-scale MLLM that achieves state-of-the-art object perception performance.)",
+            "특별한 토큰을 사용하여 0에서 999까지의 양자화된 좌표를 나타내는 작업 공식화를 통해 모델의 학습 난이도를 줄임(we use special tokens to represent quantized coordinates from 0 to 999, reducing the model's learning difficulty.)",
+            "다양한 데이터 엔진을 구축하여 고품질의 데이터 생성을 통해 훈련에 대한 의미적 감독을 제공함(we construct multiple data engines to generate high-quality grounding, referring, and pointing data, providing semantically rich supervision for training.)"
+        ],
+        "conclusion": "Rex-Omni는 객체 탐지 뿐만 아니라 다양한 언어 이해 능력을 갖춰 보다 다양한 시각적 인지 시스템의 가능성을 열어줌.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Robotics"
+        ]
+    }
+]
