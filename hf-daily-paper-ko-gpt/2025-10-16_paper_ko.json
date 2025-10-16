@@ -1,0 +1,500 @@
+[
+    {
+        "paper": {
+            "id": "2510.13554",
+            "authors": [
+                {
+                    "_id": "68f04b7636f8b025381e18bf",
+                    "user": {
+                        "_id": "6570587b44d0620d221c722b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/T-B6q6sqhWAyXM7Hk_qWp.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang Li (SJTU & SII)",
+                        "user": "yangcole",
+                        "type": "user"
+                    },
+                    "name": "Yang Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T10:38:35.110Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c0",
+                    "name": "Zhichen Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c1",
+                    "name": "Yuhan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c2",
+                    "name": "Weixun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c3",
+                    "name": "Shaopan Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c4",
+                    "user": {
+                        "_id": "6731715cacb365a5ccd14258",
+                        "avatarUrl": "/avatars/919bd7f51b0b7ac52e55846f8d78c293.svg",
+                        "isPro": false,
+                        "fullname": "YIJIALUO",
+                        "user": "YIJIALUO",
+                        "type": "user"
+                    },
+                    "name": "Yijia Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T10:38:37.247Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c5",
+                    "name": "Jiashun Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c6",
+                    "user": {
+                        "_id": "66825d697b0920f40d16c74d",
+                        "avatarUrl": "/avatars/0048c8865a8de94218cde580fe0f8bc9.svg",
+                        "isPro": false,
+                        "fullname": "Han Lu",
+                        "user": "SJTULH",
+                        "type": "user"
+                    },
+                    "name": "Han Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T06:39:32.455Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c7",
+                    "name": "Jiamang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c8",
+                    "name": "Wenbo Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18c9",
+                    "name": "Bo Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f04b7636f8b025381e18ca",
+                    "name": "Junchi Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-15T13:49:51.000Z",
+            "submittedOnDailyAt": "2025-10-16T01:50:37.335Z",
+            "title": "Attention Illuminates LLM Reasoning: The Preplan-and-Anchor Rhythm\n  Enables Fine-Grained Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "6570587b44d0620d221c722b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/T-B6q6sqhWAyXM7Hk_qWp.jpeg",
+                "isPro": false,
+                "fullname": "Yang Li (SJTU & SII)",
+                "user": "yangcole",
+                "type": "user"
+            },
+            "summary": "The reasoning pattern of Large language models (LLMs) remains opaque, and\nReinforcement learning (RL) typically applies uniform credit across an entire\ngeneration, blurring the distinction between pivotal and routine steps. This\nwork positions attention as a privileged substrate that renders the internal\nlogic of LLMs legible, not merely as a byproduct of computation, but as a\nmechanistic blueprint of reasoning itself. We first distinguish attention heads\nbetween locally and globally focused information processing and reveal that\nlocally focused heads produce a sawtooth pattern near the diagonal indicating\nphrasal chunks, while globally focused heads expose tokens that exert broad\ndownstream influence over future tokens. We formalize these with two metrics:\n1) Windowed Average Attention Distance, which measures the extent of backward\nattention within a clipped window; 2) Future Attention Influence, which\nquantifies a token's global importance as the average attention it receives\nfrom subsequent tokens. Taken together, these signals reveal a recurring\npreplan-and-anchor mechanism, where the model first performs a long-range\ncontextual reference to generate an introductory token, which is immediately\nfollowed by or coincides with a semantic anchor token that organizes subsequent\nreasoning. Leveraging these insights, we introduce three novel RL strategies\nthat dynamically perform targeted credit assignment to critical nodes (preplan\ntokens, anchor tokens, and their temporal coupling) and show consistent\nperformance gains across various reasoning tasks. By aligning optimization with\nthe model's intrinsic reasoning rhythm, we aim to transform opaque optimization\ninto an actionable structure-aware process, hoping to offer a potential step\ntoward more transparent and effective optimization of LLM reasoning.",
+            "upvotes": 45,
+            "discussionId": "68f04b7636f8b025381e18cb",
+            "ai_summary": "Attention mechanisms in LLMs are analyzed to reveal reasoning patterns, leading to novel RL strategies that improve performance by focusing on critical tokens.",
+            "ai_keywords": [
+                "Large language models",
+                "Reinforcement learning",
+                "attention heads",
+                "locally focused",
+                "globally focused",
+                "Windowed Average Attention Distance",
+                "Future Attention Influence",
+                "preplan tokens",
+                "anchor tokens",
+                "targeted credit assignment"
+            ],
+            "organization": {
+                "_id": "64488b334988ee01f2a8d856",
+                "name": "alibaba-inc",
+                "fullname": "alibaba-inc",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/MX4wxQVaFm1A1wqnrL2WU.jpeg"
+            }
+        },
+        "translation_title": "주의(attention)가 LLM 추론을 밝힌다: Preplan-and-Anchor 리듬이 미세한 정책 최적화를 가능하게 한다",
+        "purpose": "LLM의 추론을 더 투명하게 이해하고, 효과적인 최적화를 이루기 위한 새로운 접근법 연구",
+        "method": [
+            "주의(attention)를 LLM의 내부 논리를 이해하는 기계적 설계도로 활용함(This work positions attention as a privileged substrate that renders the internal logic of LLMs legible.)",
+            "지역적 및 전역적 정보 처리에 따라 주의 헤드를 구분하고, 지역 중심 헤드에서 발생하는 sawtooth 패턴을 발견함(We first distinguish attention heads between locally and globally focused information processing and reveal that locally focused heads produce a sawtooth pattern.)",
+            "두 가지 메트릭을 정립하여 주의 신호의 특성을 포착함(We formalize these with two metrics: Windowed Average Attention Distance, Future Attention Influence.)",
+            "세 가지 새로운 RL 전략을 소개하여 중요한 노드에 동적으로 신용 할당을 수행함(Leveraging these insights, we introduce three novel RL strategies that dynamically perform targeted credit assignment to critical nodes.)"
+        ],
+        "conclusion": "이 방법을 통해 LLM의 비투명한 최적화 과정을 구조 인식 과정으로 변환하며, LLM 추론의 투명하고 효과적인 최적화를 위한 가능성을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.13678",
+            "authors": [
+                {
+                    "_id": "68f051ed36f8b025381e1902",
+                    "name": "Xinyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f051ed36f8b025381e1903",
+                    "name": "Tengfei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f051ed36f8b025381e1904",
+                    "user": {
+                        "_id": "64b4b415a15d33a1bcc6ba6a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b4b415a15d33a1bcc6ba6a/vqxjy7NFiRJMK9gdtOaz_.jpeg",
+                        "isPro": false,
+                        "fullname": "Zixiao Gu",
+                        "user": "nightkiller",
+                        "type": "user"
+                    },
+                    "name": "Zixiao Gu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T06:39:05.791Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f051ed36f8b025381e1905",
+                    "name": "Shengchuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f051ed36f8b025381e1906",
+                    "name": "Chunchao Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f051ed36f8b025381e1907",
+                    "name": "Liujuan Cao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/629631565de6e0eb3292afed/WhnRuWrdLfTMHJ2hXMj_P.mp4"
+            ],
+            "publishedAt": "2025-10-15T15:35:48.000Z",
+            "submittedOnDailyAt": "2025-10-16T00:36:24.608Z",
+            "title": "FlashWorld: High-quality 3D Scene Generation within Seconds",
+            "submittedOnDailyBy": {
+                "_id": "629631565de6e0eb3292afed",
+                "avatarUrl": "/avatars/0ae1080eebce0f747f650bfc292c46ca.svg",
+                "isPro": false,
+                "fullname": "Xinyang Li",
+                "user": "imlixinyang",
+                "type": "user"
+            },
+            "summary": "We propose FlashWorld, a generative model that produces 3D scenes from a\nsingle image or text prompt in seconds, 10~100times faster than previous\nworks while possessing superior rendering quality. Our approach shifts from the\nconventional multi-view-oriented (MV-oriented) paradigm, which generates\nmulti-view images for subsequent 3D reconstruction, to a 3D-oriented approach\nwhere the model directly produces 3D Gaussian representations during multi-view\ngeneration. While ensuring 3D consistency, 3D-oriented method typically suffers\npoor visual quality. FlashWorld includes a dual-mode pre-training phase\nfollowed by a cross-mode post-training phase, effectively integrating the\nstrengths of both paradigms. Specifically, leveraging the prior from a video\ndiffusion model, we first pre-train a dual-mode multi-view diffusion model,\nwhich jointly supports MV-oriented and 3D-oriented generation modes. To bridge\nthe quality gap in 3D-oriented generation, we further propose a cross-mode\npost-training distillation by matching distribution from consistent 3D-oriented\nmode to high-quality MV-oriented mode. This not only enhances visual quality\nwhile maintaining 3D consistency, but also reduces the required denoising steps\nfor inference. Also, we propose a strategy to leverage massive single-view\nimages and text prompts during this process to enhance the model's\ngeneralization to out-of-distribution inputs. Extensive experiments demonstrate\nthe superiority and efficiency of our method.",
+            "upvotes": 44,
+            "discussionId": "68f051ed36f8b025381e1908",
+            "projectPage": "https://imlixinyang.github.io/FlashWorld-Project-Page/",
+            "githubRepo": "https://github.com/imlixinyang/FlashWorld",
+            "ai_summary": "FlashWorld generates 3D scenes from single images or text prompts quickly and with high quality by combining MV-oriented and 3D-oriented generation methods.",
+            "ai_keywords": [
+                "generative model",
+                "3D scenes",
+                "single image",
+                "text prompt",
+                "3D Gaussian representations",
+                "MV-oriented paradigm",
+                "3D-oriented approach",
+                "dual-mode pre-training",
+                "cross-mode post-training",
+                "video diffusion model",
+                "multi-view diffusion model",
+                "cross-mode post-training distillation",
+                "denoising steps",
+                "single-view images",
+                "out-of-distribution inputs"
+            ],
+            "githubStars": 87
+        },
+        "translation_title": "FlashWorld: 고품질 3D 장면 생성을 위한 초고속 모델",
+        "purpose": "단일 이미지 또는 텍스트 프롬프트로부터 빠르게 3D 장면을 생성하는 것",
+        "method": [
+            "기존의 다중 뷰 지향 방식을 벗어나 3D 지향 접근법을 사용하여 직접 3D Gaussian 표현을 생성함(Our approach shifts from the conventional multi-view-oriented (MV-oriented) paradigm to a 3D-oriented approach where the model directly produces 3D Gaussian representations during multi-view generation.)",
+            "양식의 장점을 통합하기 위해 이중 모드의 프리 트레이닝과 교차 모드 포스트 트레이닝을 포함함(FlashWorld includes a dual-mode pre-training phase followed by a cross-mode post-training phase, effectively integrating the strengths of both paradigms.)",
+            "고품질 다중 뷰 생성을 위해 일관된 3D 지향 모드의 분포를 활용함(To bridge the quality gap in 3D-oriented generation, we further propose a cross-mode post-training distillation by matching distribution from consistent 3D-oriented mode to high-quality MV-oriented mode.)"
+        ],
+        "conclusion": "FlashWorld는 빠르면서도 고품질의 3D 장면 생성을 가능하게 하여 기존 방법보다 우수함을 입증함.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.13626",
+            "authors": [
+                {
+                    "_id": "68f05beb36f8b025381e1995",
+                    "name": "Senyu Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e1996",
+                    "user": {
+                        "_id": "64c3c631e77ea9f28111172a",
+                        "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                        "isPro": false,
+                        "fullname": "Siyin Wang",
+                        "user": "sinwang",
+                        "type": "user"
+                    },
+                    "name": "Siyin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T06:38:33.758Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e1997",
+                    "name": "Junhao Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e1998",
+                    "name": "Zihao Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e1999",
+                    "name": "Jikun Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199a",
+                    "name": "Pengfang Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199b",
+                    "name": "Li Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199c",
+                    "name": "Xinzhe He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199d",
+                    "name": "Shiduo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199e",
+                    "name": "Zhaoye Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e199f",
+                    "name": "Jinlan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e19a0",
+                    "name": "Jingjing Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05beb36f8b025381e19a1",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-15T14:51:36.000Z",
+            "submittedOnDailyAt": "2025-10-16T01:20:05.695Z",
+            "title": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action\n  Models",
+            "submittedOnDailyBy": {
+                "_id": "64c3c631e77ea9f28111172a",
+                "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                "isPro": false,
+                "fullname": "Siyin Wang",
+                "user": "sinwang",
+                "type": "user"
+            },
+            "summary": "Visual-Language-Action (VLA) models report impressive success rates on\nrobotic manipulation benchmarks, yet these results may mask fundamental\nweaknesses in robustness. We perform a systematic vulnerability analysis by\nintroducing controlled perturbations across seven dimensions: objects layout,\ncamera viewpoints, robot initial states, language instructions, light\nconditions, background textures and sensor noise. We comprehensively analyzed\nmultiple state-of-the-art models and revealed consistent brittleness beneath\napparent competence. Our analysis exposes critical weaknesses: models exhibit\nextreme sensitivity to perturbation factors, including camera viewpoints and\nrobot initial states, with performance dropping from 95% to below 30% under\nmodest perturbations. Surprisingly, models are largely insensitive to language\nvariations, with further experiments revealing that models tend to ignore\nlanguage instructions completely. Our findings challenge the assumption that\nhigh benchmark scores equate to true competency and highlight the need for\nevaluation practices that assess reliability under realistic variation.",
+            "upvotes": 38,
+            "discussionId": "68f05beb36f8b025381e19a2",
+            "projectPage": "https://sylvestf.github.io/LIBERO-plus/",
+            "githubRepo": "https://github.com/sylvestf/LIBERO-plus",
+            "ai_summary": "State-of-the-art Visual-Language-Action models show high benchmark scores but are brittle to various perturbations, particularly in camera viewpoints and robot initial states, and often ignore language instructions.",
+            "ai_keywords": [
+                "Visual-Language-Action models",
+                "vulnerability analysis",
+                "perturbations",
+                "objects layout",
+                "camera viewpoints",
+                "robot initial states",
+                "language instructions",
+                "light conditions",
+                "background textures",
+                "sensor noise",
+                "brittleness",
+                "reliability"
+            ],
+            "githubStars": 23,
+            "organization": {
+                "_id": "613b0dee83ec35d460684607",
+                "name": "fnlp",
+                "fullname": "OpenMOSS (SII, Fudan NLP)",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61457b8deff2c9fdb4de4988/xM_PjniEZ9fmDKtJN7PAG.png"
+            }
+        },
+        "translation_title": "LIBERO-Plus: 비전-언어-행동 모델의 심층 견고성 분석",
+        "purpose": "로봇 조작 벤치마크에서의 모델 성능 평가 시 본질적인 약점과 견고성을 분석하고자 함.",
+        "method": [
+            "7가지 차원(객체 배치, 카메라 시점, 로봇 초기 상태, 언어 지침, 조명 조건, 배경 텍스처, 센서 노이즈)에 걸쳐 통제된 변화 요인을 도입하여 체계적인 취약성 분석을 수행함.(We perform a systematic vulnerability analysis by introducing controlled perturbations across seven dimensions: objects layout, camera viewpoints, robot initial states, language instructions, light conditions, background textures and sensor noise.)",
+            "최신 기술 모델을 여러 개 분석하여 겉으로 드러나는 능력 이면에 있는 일관된 취약성을 밝혀냄.(We comprehensively analyzed multiple state-of-the-art models and revealed consistent brittleness beneath apparent competence.)",
+            "모델이 perturbation 요인(특히 카메라 시점 및 로봇 초기 상태)에 대해 극도로 민감하며, 성능이 95%에서 30% 이하로 떨어짐을 관찰함.(Our analysis exposes critical weaknesses: models exhibit extreme sensitivity to perturbation factors, including camera viewpoints and robot initial states, with performance dropping from 95% to below 30% under modest perturbations.)"
+        ],
+        "conclusion": "높은 벤치마크 점수가 진정한 능력과 같지 않다는 점을 시사하며, 현실적인 변동성 하에서 신뢰성을 평가하기 위한 평가 관행의 필요성을 강조함.",
+        "keywords": [
+            "Robotics",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.13795",
+            "authors": [
+                {
+                    "_id": "68f05e7636f8b025381e19af",
+                    "user": {
+                        "_id": "63b2efb5922f26a27e76381c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b2efb5922f26a27e76381c/zOQAt_xywiY8eTvvQOrmQ.png",
+                        "isPro": false,
+                        "fullname": "Yi Zhang",
+                        "user": "uyzhang",
+                        "type": "user"
+                    },
+                    "name": "Yi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T06:35:15.644Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b0",
+                    "name": "Bolin Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b1",
+                    "name": "Xin-Sheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b2",
+                    "name": "Heng-Rui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b3",
+                    "name": "Yongming Rao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b4",
+                    "name": "Houwen Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b5",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b6",
+                    "name": "Han Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b7",
+                    "user": {
+                        "_id": "62145614b670cb63a38075ba",
+                        "avatarUrl": "/avatars/5e33debde75ae6c87640f63c48c560c6.svg",
+                        "isPro": false,
+                        "fullname": "MenghaoGuo",
+                        "user": "MenghaoGuo",
+                        "type": "user"
+                    },
+                    "name": "Meng-Hao Guo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-16T06:38:31.512Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f05e7636f8b025381e19b8",
+                    "name": "Shi-Min Hu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-15T17:52:59.000Z",
+            "submittedOnDailyAt": "2025-10-16T01:26:28.869Z",
+            "title": "Bee: A High-Quality Corpus and Full-Stack Suite to Unlock Advanced Fully\n  Open MLLMs",
+            "submittedOnDailyBy": {
+                "_id": "6571b51fd5c6a6d3b0ba68ad",
+                "avatarUrl": "/avatars/0ccd8fe8de857753b534356a90eb10f0.svg",
+                "isPro": false,
+                "fullname": "gmh",
+                "user": "menghao22",
+                "type": "user"
+            },
+            "summary": "Fully open multimodal large language models (MLLMs) currently lag behind\nproprietary counterparts, primarily due to a significant gap in data quality\nfor supervised fine-tuning (SFT). Existing open-source datasets are often\nplagued by widespread noise and a critical deficit in complex reasoning data,\nsuch as Chain-of-Thought (CoT), which hinders the development of advanced model\ncapabilities. Addressing these challenges, our work makes three primary\ncontributions. First, we introduce Honey-Data-15M, a new SFT dataset comprising\napproximately 15 million QA pairs, processed through multiple cleaning\ntechniques and enhanced with a novel dual-level (short and long) CoT enrichment\nstrategy. Second, we introduce HoneyPipe, the data curation pipeline, and its\nunderlying framework DataStudio, providing the community with a transparent and\nadaptable methodology for data curation that moves beyond static dataset\nreleases. Finally, to validate our dataset and pipeline, we train Bee-8B, an 8B\nmodel on Honey-Data-15M. Experiments show that Bee-8B establishes a new\nstate-of-the-art (SOTA) for fully open MLLMs, achieving performance that is\ncompetitive with, and in some cases surpasses, recent semi-open models such as\nInternVL3.5-8B. Our work delivers to the community a suite of foundational\nresources, including: the Honey-Data-15M corpus; the full-stack suite\ncomprising HoneyPipe and DataStudio; training recipes; an evaluation harness;\nand the model weights. This effort demonstrates that a principled focus on data\nquality is a key pathway to developing fully open MLLMs that are highly\ncompetitive with their semi-open counterparts.",
+            "upvotes": 34,
+            "discussionId": "68f05e7736f8b025381e19b9",
+            "projectPage": "https://open-bee.github.io/",
+            "ai_summary": "A new dataset and pipeline for data curation improve the performance of fully open multimodal large language models, achieving state-of-the-art results competitive with semi-open models.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "supervised fine-tuning",
+                "Chain-of-Thought",
+                "Honey-Data-15M",
+                "HoneyPipe",
+                "DataStudio",
+                "Bee-8B",
+                "state-of-the-art"
+            ],
+            "githubStars": 0,
+            "organization": {
+                "_id": "68e8c7928bba74b5f4ab0299",
+                "name": "Open-Bee",
+                "fullname": "Open-Bee",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63b2efb5922f26a27e76381c/PU469_PkFTS-Gs40EDprp.png"
+            }
+        },
+        "translation_title": "Bee: 고품질 말뭉치와 고급 Fully Open MLLMs를 위한 전방위 도구 모음",
+        "purpose": "고품질 데이터의 부족으로 인해 뒤쳐진 Fully Open MLLMs의 성능 향상",
+        "method": [
+            "Honey-Data-15M이라는 약 1,500만 QA 쌍으로 구성된 새로운 SFT 데이터셋을 소개하고, 여러 정제 기법으로 처리하여 CoT 데이터를 강화함(First, we introduce Honey-Data-15M, a new SFT dataset comprising approximately 15 million QA pairs, processed through multiple cleaning techniques and enhanced with a novel dual-level CoT enrichment strategy.)",
+            "데이터 정제 효율성을 높이기 위한 HoneyPipe와 그 기반 프레임워크 DataStudio를 도입함(Second, we introduce HoneyPipe, the data curation pipeline, and its underlying framework DataStudio, providing the community with a transparent and adaptable methodology for data curation.).",
+            "Honey-Data-15M을 사용하여 Bee-8B 모델을 훈련시켜 검증하며, 새로운 성능 기준을 세움(Finally, to validate our dataset and pipeline, we train Bee-8B, an 8B model on Honey-Data-15M.)"
+        ],
+        "conclusion": "Bee-8B는 Fully Open MLLMs의 새로운 SOTA를 달성하였으며, 전체 커뮤니티에 유용한 자원을 제공한다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
