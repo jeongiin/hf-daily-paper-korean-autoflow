@@ -1,0 +1,643 @@
+[
+    {
+        "paper": {
+            "id": "2510.14545",
+            "authors": [
+                {
+                    "_id": "68f1a44e6e0bef323a68fd02",
+                    "user": {
+                        "_id": "61cd4b833dd34ba1985e0753",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                        "isPro": false,
+                        "fullname": "KABI",
+                        "user": "dongguanting",
+                        "type": "user"
+                    },
+                    "name": "Guanting Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:10:43.546Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd03",
+                    "user": {
+                        "_id": "6690cf4c5d0a25eea5e3dfbc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6690cf4c5d0a25eea5e3dfbc/zqY3kl0uZaXrOPJvfmRAn.jpeg",
+                        "isPro": false,
+                        "fullname": "baolicheng",
+                        "user": "blc0910",
+                        "type": "user"
+                    },
+                    "name": "Licheng Bao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:10:38.484Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd04",
+                    "name": "Zhongyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd05",
+                    "name": "Kangzhi Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd06",
+                    "name": "Xiaoxi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd07",
+                    "name": "Jiajie Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd08",
+                    "name": "Jinghan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd09",
+                    "name": "Hangyu Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0a",
+                    "name": "Fuzheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0b",
+                    "name": "Kun Gai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0c",
+                    "name": "Guorui Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0d",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0e",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a44e6e0bef323a68fd0f",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-16T10:40:52.000Z",
+            "submittedOnDailyAt": "2025-10-17T00:37:49.509Z",
+            "title": "Agentic Entropy-Balanced Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "61cd4b833dd34ba1985e0753",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                "isPro": false,
+                "fullname": "KABI",
+                "user": "dongguanting",
+                "type": "user"
+            },
+            "summary": "Recently, Agentic Reinforcement Learning (Agentic RL) has made significant\nprogress in incentivizing the multi-turn, long-horizon tool-use capabilities of\nweb agents. While mainstream agentic RL algorithms autonomously explore\nhigh-uncertainty tool-call steps under the guidance of entropy, excessive\nreliance on entropy signals can impose further constraints, leading to the\ntraining collapse. In this paper, we delve into the challenges caused by\nentropy and propose the Agentic Entropy-Balanced Policy Optimization (AEPO), an\nagentic RL algorithm designed to balance entropy in both the rollout and policy\nupdate phases. AEPO comprises two core components: (1) a dynamic\nentropy-balanced rollout mechanism that adaptively allocate global and branch\nsampling budget through entropy pre-monitoring, while imposing a branch penalty\non consecutive high-entropy tool-call steps to prevent over-branching issues;\nand (2) Entropy-Balanced Policy Optimization that inserts a stop-gradient\noperation into the high-entropy clipping term to preserve and properly rescale\ngradients on high-entropy tokens, while incorporating entropy-aware advantage\nestimation to prioritize learning on high-uncertainty tokens. Results across 14\nchallenging datasets show that AEPO consistently outperforms 7 mainstream RL\nalgorithms. With just 1K RL samples, Qwen3-14B with AEPO achieves impressive\nresults: 47.6% on GAIA, 11.2% on Humanity's Last Exam, and 43.0% on WebWalker\nfor Pass@1; 65.0% on GAIA, 26.0% on Humanity's Last Exam, and 70.0% on\nWebWalker for Pass@5. Further analysis reveals that AEPO improves rollout\nsampling diversity while maintaining stable policy entropy, facilitating\nscalable web agent training.",
+            "upvotes": 72,
+            "discussionId": "68f1a44e6e0bef323a68fd10",
+            "githubRepo": "https://github.com/RUC-NLPIR/ARPO/blob/main/",
+            "ai_summary": "AEPO, an agentic RL algorithm, addresses entropy-related challenges in web agent training, enhancing performance and stability across various datasets.",
+            "ai_keywords": [
+                "Agentic Reinforcement Learning",
+                "AEPO",
+                "entropy",
+                "rollout",
+                "policy update",
+                "dynamic entropy-balanced rollout",
+                "branch penalty",
+                "stop-gradient operation",
+                "high-entropy clipping",
+                "entropy-aware advantage estimation",
+                "rollout sampling diversity",
+                "policy entropy"
+            ],
+            "githubStars": 670,
+            "organization": {
+                "_id": "622177ac43826d6f261f8208",
+                "name": "RUC",
+                "fullname": "Renmin University of China",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+            }
+        },
+        "translation_title": "Agentic 엔트로피 균형 정책 최적화",
+        "purpose": "Agentic RL의 훈련 중 발생하는 엔트로피 문제를 해결하고 안정적인 훈련을 지원하기 위한 알고리즘 개발",
+        "method": [
+            "전역 및 분기 샘플링 예산을 조정하는 동적 엔트로피 균형 롤아웃 메커니즘을 제안함( AEPO comprises two core components: (1) a dynamic entropy-balanced rollout mechanism that adaptively allocate global and branch sampling budget through entropy pre-monitoring)",
+            "고엔트로피 클리핑 항목에 정지 그래디언트 연산을 삽입하여 엔트로피가 높은 토큰의 그래디언트를 적절히 보존하고 재조정함(2) Entropy-Balanced Policy Optimization that inserts a stop-gradient operation into the high-entropy clipping term to preserve and properly rescale gradients on high-entropy tokens)",
+            "엔트로피 인식 장점 추정을 통합하여 고불확실성 토큰 학습을 우선시함(while incorporating entropy-aware advantage estimation to prioritize learning on high-uncertainty tokens)"
+        ],
+        "conclusion": "AEPO는 14개의 데이터셋에서 7개의 주요 RL 알고리즘보다 지속적으로 더 우수한 성능을 보여주며, 안정적인 정책 엔트로피를 유지하면서 롤아웃 샘플링 다양성을 개선하여 웹 에이전트 훈련을 용이하게 함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Entropy",
+            "Policy Optimization"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.14975",
+            "authors": [
+                {
+                    "_id": "68f1a2616e0bef323a68fcd1",
+                    "user": {
+                        "_id": "634bde123d11eaedd889e277",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1665916392312-noauth.png",
+                        "isPro": false,
+                        "fullname": "Hengyuan Xu",
+                        "user": "DobyXu",
+                        "type": "user"
+                    },
+                    "name": "Hengyuan Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T05:56:54.829Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd2",
+                    "user": {
+                        "_id": "64b914c8ace99c0723ad83a9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b914c8ace99c0723ad83a9/B4gxNByeVY_xaOcjwiN1j.jpeg",
+                        "isPro": false,
+                        "fullname": "Wei Cheng",
+                        "user": "wchengad",
+                        "type": "user"
+                    },
+                    "name": "Wei Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:11:13.677Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd3",
+                    "name": "Peng Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd4",
+                    "user": {
+                        "_id": "647469b9a51711a3b58bda2b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647469b9a51711a3b58bda2b/yeDf8Sa8IDEQyney1dGC9.jpeg",
+                        "isPro": false,
+                        "fullname": "Yixiao Fang",
+                        "user": "fangyixiao",
+                        "type": "user"
+                    },
+                    "name": "Yixiao Fang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:11:11.270Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd5",
+                    "name": "Shuhan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd6",
+                    "name": "Rui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd7",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd8",
+                    "name": "Daxin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcd9",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcda",
+                    "name": "Xingjun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a2616e0bef323a68fcdb",
+                    "name": "Yu-Gang Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-16T17:59:54.000Z",
+            "submittedOnDailyAt": "2025-10-17T00:27:22.105Z",
+            "title": "WithAnyone: Towards Controllable and ID Consistent Image Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Identity-consistent generation has become an important focus in text-to-image\nresearch, with recent models achieving notable success in producing images\naligned with a reference identity. Yet, the scarcity of large-scale paired\ndatasets containing multiple images of the same individual forces most\napproaches to adopt reconstruction-based training. This reliance often leads to\na failure mode we term copy-paste, where the model directly replicates the\nreference face rather than preserving identity across natural variations in\npose, expression, or lighting. Such over-similarity undermines controllability\nand limits the expressive power of generation. To address these limitations, we\n(1) construct a large-scale paired dataset MultiID-2M, tailored for\nmulti-person scenarios, providing diverse references for each identity; (2)\nintroduce a benchmark that quantifies both copy-paste artifacts and the\ntrade-off between identity fidelity and variation; and (3) propose a novel\ntraining paradigm with a contrastive identity loss that leverages paired data\nto balance fidelity with diversity. These contributions culminate in\nWithAnyone, a diffusion-based model that effectively mitigates copy-paste while\npreserving high identity similarity. Extensive qualitative and quantitative\nexperiments demonstrate that WithAnyone significantly reduces copy-paste\nartifacts, improves controllability over pose and expression, and maintains\nstrong perceptual quality. User studies further validate that our method\nachieves high identity fidelity while enabling expressive controllable\ngeneration.",
+            "upvotes": 62,
+            "discussionId": "68f1a2616e0bef323a68fcdc",
+            "projectPage": "https://doby-xu.github.io/WithAnyone/",
+            "githubRepo": "https://github.com/Doby-Xu/WithAnyone",
+            "ai_summary": "A diffusion-based model addresses copy-paste artifacts in text-to-image generation by using a large-scale paired dataset and a contrastive identity loss to balance identity fidelity and variation.",
+            "ai_keywords": [
+                "identity-consistent generation",
+                "text-to-image",
+                "reconstruction-based training",
+                "copy-paste",
+                "MultiID-2M",
+                "contrastive identity loss",
+                "diffusion-based model",
+                "identity fidelity",
+                "variation",
+                "perceptual quality"
+            ],
+            "githubStars": 71,
+            "organization": {
+                "_id": "66e43eae9d477f566f937935",
+                "name": "stepfun-ai",
+                "fullname": "StepFun",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+            }
+        },
+        "translation_title": "WithAnyone: 제어 가능하고 일관된 이미지 생성을 위한 연구",
+        "purpose": "정체성 일관성을 지닌 이미지를 생성하여 높은 표현력과 제어 가능성을 갖춘 모델 개발",
+        "method": [
+            "MultiID-2M이라는 대규모 쌍 데이터셋을 구축하여 다중 인물 시나리오에 적합한 다양한 참조를 제공함(we construct a large-scale paired dataset MultiID-2M, tailored for multi-person scenarios, providing diverse references for each identity.)",
+            "복사-붙여넣기 아티팩트를 정량화하고 정체성 충실도와 변동성 간의 균형을 측정하는 벤치마크를 도입함(we introduce a benchmark that quantifies both copy-paste artifacts and the trade-off between identity fidelity and variation.)",
+            "쌍 데이터를 활용하여 충실도와 다양성을 균형 있게 조정하는 대조적 정체성 손실을 포함한 새로운 훈련 패러다임을 제안함(we propose a novel training paradigm with a contrastive identity loss that leverages paired data to balance fidelity with diversity.)"
+        ],
+        "conclusion": "WithAnyone 모델은 copy-paste 아티팩트를 효과적으로 완화하며, 높은 정체성 유사성을 유지하면서도 포즈와 표현에 대한 제어 가능성을 향상시킴.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.14359",
+            "authors": [
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1a",
+                    "name": "Zichen Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1b",
+                    "name": "Yiyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1c",
+                    "user": {
+                        "_id": "6806464ed918f6d2fee2bc8b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6806464ed918f6d2fee2bc8b/rgpG2oO0m6PT0KltCF_Wf.jpeg",
+                        "isPro": false,
+                        "fullname": "Chenfei Liao",
+                        "user": "Chenfei-Liao",
+                        "type": "user"
+                    },
+                    "name": "Chenfei Liao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:34:38.296Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1d",
+                    "name": "Boxue Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1e",
+                    "user": {
+                        "_id": "656ae4088fb1ddf0d5ec9ac5",
+                        "avatarUrl": "/avatars/e38468d2c0274f3c0f5732f30a2e3436.svg",
+                        "isPro": false,
+                        "fullname": "Junxian Li",
+                        "user": "Duke-de-Artois",
+                        "type": "user"
+                    },
+                    "name": "Junxian Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:10:29.247Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd1f",
+                    "name": "Weifeng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd20",
+                    "name": "Haocong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd21",
+                    "user": {
+                        "_id": "68d3f778e41c80eb120e52e0",
+                        "avatarUrl": "/avatars/ad8de30deec15cf0f29134f3a1e73078.svg",
+                        "isPro": false,
+                        "fullname": "Bolong Feng",
+                        "user": "Fabulous1496",
+                        "type": "user"
+                    },
+                    "name": "Bolong Feng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-17T04:10:31.321Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd22",
+                    "name": "Xuyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd23",
+                    "name": "Yuanhuiyi Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd24",
+                    "name": "Xu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd25",
+                    "name": "Xuming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f1a6b16e0bef323a68fd26",
+                    "name": "Linfeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-16T06:55:28.000Z",
+            "submittedOnDailyAt": "2025-10-17T00:46:23.869Z",
+            "title": "AI for Service: Proactive Assistance with AI Glasses",
+            "submittedOnDailyBy": {
+                "_id": "653b8c3e97a4d71d950e2f20",
+                "avatarUrl": "/avatars/b68880022e14556d0be58c69615db3be.svg",
+                "isPro": false,
+                "fullname": "Zichen Wen",
+                "user": "zichenwen",
+                "type": "user"
+            },
+            "summary": "In an era where AI is evolving from a passive tool into an active and\nadaptive companion, we introduce AI for Service (AI4Service), a new paradigm\nthat enables proactive and real-time assistance in daily life. Existing AI\nservices remain largely reactive, responding only to explicit user commands. We\nargue that a truly intelligent and helpful assistant should be capable of\nanticipating user needs and taking actions proactively when appropriate. To\nrealize this vision, we propose Alpha-Service, a unified framework that\naddresses two fundamental challenges: Know When to intervene by detecting\nservice opportunities from egocentric video streams, and Know How to provide\nboth generalized and personalized services. Inspired by the von Neumann\ncomputer architecture and based on AI glasses, Alpha-Service consists of five\nkey components: an Input Unit for perception, a Central Processing Unit for\ntask scheduling, an Arithmetic Logic Unit for tool utilization, a Memory Unit\nfor long-term personalization, and an Output Unit for natural human\ninteraction. As an initial exploration, we implement Alpha-Service through a\nmulti-agent system deployed on AI glasses. Case studies, including a real-time\nBlackjack advisor, a museum tour guide, and a shopping fit assistant,\ndemonstrate its ability to seamlessly perceive the environment, infer user\nintent, and provide timely and useful assistance without explicit prompts.",
+            "upvotes": 60,
+            "discussionId": "68f1a6b16e0bef323a68fd27",
+            "ai_summary": "Alpha-Service, a unified framework for proactive AI assistance, uses a multi-agent system on AI glasses to detect service opportunities and provide timely, personalized assistance.",
+            "ai_keywords": [
+                "AI4Service",
+                "Alpha-Service",
+                "egocentric video streams",
+                "multi-agent system",
+                "AI glasses",
+                "Input Unit",
+                "Central Processing Unit",
+                "Arithmetic Logic Unit",
+                "Memory Unit",
+                "Output Unit",
+                "natural human interaction"
+            ],
+            "organization": {
+                "_id": "63e5ef7bf2e9a8f22c515654",
+                "name": "SJTU",
+                "fullname": "Shanghai Jiao Tong University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+            }
+        },
+        "translation_title": "서비스를 위한 AI: AI 안경을 통한 능동적 지원",
+        "purpose": "일상 생활에서 능동적이고 실시간 지원을 제공하기 위한 새로운 AI 패러다임 개발",
+        "method": [
+            "사용자의 요구를 예측하고 적절할 때 능동적으로 행동하도록 설계된 Alpha-Service라는 통합 프레임워크 제안(we propose Alpha-Service, a unified framework that addresses two fundamental challenges)",
+            "Egocentric 비디오 스트림에서 서비스 기회를 감지하고 개인화된 서비스를 제공하는 방법을 포함함(Know When to intervene by detecting service opportunities from egocentric video streams, and Know How to provide both generalized and personalized services)",
+            "AI 안경에 배포된 다중 에이전트 시스템을 통해 Alpha-Service를 구현함(we implement Alpha-Service through a multi-agent system deployed on AI glasses)"
+        ],
+        "conclusion": "사례 연구를 통해 환경을 인식하고 사용자 의도를 추론하며 적절한 도움을 제공할 수 있는 능력을 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.04849",
+            "authors": [
+                {
+                    "_id": "68ed33b8de1fee572713a5b2",
+                    "name": "Elisei Rykov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b3",
+                    "name": "Kseniia Petrushina",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b4",
+                    "name": "Maksim Savkin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b5",
+                    "name": "Valerii Olisov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b6",
+                    "name": "Artem Vazhentsev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b7",
+                    "name": "Kseniia Titova",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b8",
+                    "name": "Alexander Panchenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5b9",
+                    "name": "Vasily Konovalov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68ed33b8de1fee572713a5ba",
+                    "name": "Julia Belikova",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/622b1f6b9f6139daa8e998ce/-3FpmnPusd2upOiU67a_J.png"
+            ],
+            "publishedAt": "2025-10-06T14:36:30.000Z",
+            "submittedOnDailyAt": "2025-10-17T09:28:42.156Z",
+            "title": "When Models Lie, We Learn: Multilingual Span-Level Hallucination\n  Detection with PsiloQA",
+            "submittedOnDailyBy": {
+                "_id": "622b1f6b9f6139daa8e998ce",
+                "avatarUrl": "/avatars/842719c100a5969be75d04da97333675.svg",
+                "isPro": false,
+                "fullname": "Vasily Konovalov",
+                "user": "Vasily",
+                "type": "user"
+            },
+            "summary": "Hallucination detection remains a fundamental challenge for the safe and\nreliable deployment of large language models (LLMs), especially in applications\nrequiring factual accuracy. Existing hallucination benchmarks often operate at\nthe sequence level and are limited to English, lacking the fine-grained,\nmultilingual supervision needed for a comprehensive evaluation. In this work,\nwe introduce PsiloQA, a large-scale, multilingual dataset annotated with\nspan-level hallucinations across 14 languages. PsiloQA is constructed through\nan automated three-stage pipeline: generating question-answer pairs from\nWikipedia using GPT-4o, eliciting potentially hallucinated answers from diverse\nLLMs in a no-context setting, and automatically annotating hallucinated spans\nusing GPT-4o by comparing against golden answers and retrieved context. We\nevaluate a wide range of hallucination detection methods -- including\nuncertainty quantification, LLM-based tagging, and fine-tuned encoder models --\nand show that encoder-based models achieve the strongest performance across\nlanguages. Furthermore, PsiloQA demonstrates effective cross-lingual\ngeneralization and supports robust knowledge transfer to other benchmarks, all\nwhile being significantly more cost-efficient than human-annotated datasets.\nOur dataset and results advance the development of scalable, fine-grained\nhallucination detection in multilingual settings.",
+            "upvotes": 57,
+            "discussionId": "68ed33b8de1fee572713a5bb",
+            "githubRepo": "https://github.com/s-nlp/psiloqa",
+            "ai_summary": "PsiloQA, a multilingual dataset with span-level hallucinations, enhances hallucination detection in large language models across 14 languages using an automated pipeline and encoder-based models.",
+            "ai_keywords": [
+                "large language models",
+                "hallucination detection",
+                "PsiloQA",
+                "span-level hallucinations",
+                "multilingual",
+                "GPT-4o",
+                "uncertainty quantification",
+                "LLM-based tagging",
+                "encoder models",
+                "cross-lingual generalization",
+                "knowledge transfer"
+            ],
+            "githubStars": 0,
+            "organization": {
+                "_id": "62a1fefca12f9cb8a15a5219",
+                "name": "AIRI-Institute",
+                "fullname": " AIRI - Artificial Intelligence Research Institute",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1654783663739-62a1fdd62cfb273c7f41333e.png"
+            }
+        },
+        "translation_title": "모델이 거짓말할 때, 우리가 배운다: PsiloQA를 통한 다국어 스팬 수준의 환각 감지",
+        "purpose": "대규모 언어 모델(LLM)의 안전하고 신뢰할 수 있는 배포를 위해 다국어 환각 감지 방법의 개발",
+        "method": [
+            "PsiloQA라는 다국어 데이터셋을 구축하여 14개 언어에 걸쳐 스팬 수준의 환각을 주석 처리함(we introduce PsiloQA, a large-scale, multilingual dataset annotated with span-level hallucinations across 14 languages.)",
+            "Wikipedia에서 질문-답변 쌍을 생성하고 LLM에서 환각된 답변을 유도한 후, GPT-4o를 사용해 환각된 스팬을 자동으로 주석 처리함(PsiloQA is constructed through an automated three-stage pipeline: generating question-answer pairs from Wikipedia using GPT-4o, eliciting potentially hallucinated answers from diverse LLMs in a no-context setting, and automatically annotating hallucinated spans using GPT-4o by comparing against golden answers and retrieved context.)",
+            "다양한 환각 감지 방법을 평가하고 인코더 기반 모델이 가장 강력한 성능을 발휘함을 보여줌(We evaluate a wide range of hallucination detection methods -- including uncertainty quantification, LLM-based tagging, and fine-tuned encoder models -- and show that encoder-based models achieve the strongest performance across languages.)"
+        ],
+        "conclusion": "PsiloQA는 비용 효율성이 뛰어난 다국어 환각 감지에 있어 효과적인 교차 언어 일반화와 지식 이전을 지원하며, 데이터셋과 결과는 다국어 환경에서 환각 감지 기술의 발전에 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.14979",
+            "authors": [
+                {
+                    "_id": "68f19c5d6e0bef323a68fc30",
+                    "name": "Haiwen Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc31",
+                    "name": "Mingxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc32",
+                    "name": "Silei Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc33",
+                    "name": "Linjun Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc34",
+                    "name": "Xiaohua Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc35",
+                    "name": "Hanming Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc36",
+                    "name": "Lewei Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc37",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f19c5d6e0bef323a68fc38",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-16T17:59:58.000Z",
+            "submittedOnDailyAt": "2025-10-17T00:18:30.032Z",
+            "title": "From Pixels to Words -- Towards Native Vision-Language Primitives at\n  Scale",
+            "submittedOnDailyBy": {
+                "_id": "64b4a717aa03b6520839e9b8",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b4a717aa03b6520839e9b8/Rt3ERG-6BVEA4hAwOz0_I.jpeg",
+                "isPro": false,
+                "fullname": "Haiwen Diao",
+                "user": "Paranioar",
+                "type": "user"
+            },
+            "summary": "The edifice of native Vision-Language Models (VLMs) has emerged as a rising\ncontender to typical modular VLMs, shaped by evolving model architectures and\ntraining paradigms. Yet, two lingering clouds cast shadows over its widespread\nexploration and promotion: (-) What fundamental constraints set native VLMs\napart from modular ones, and to what extent can these barriers be overcome? (-)\nHow to make research in native VLMs more accessible and democratized, thereby\naccelerating progress in the field. In this paper, we clarify these challenges\nand outline guiding principles for constructing native VLMs. Specifically, one\nnative VLM primitive should: (i) effectively align pixel and word\nrepresentations within a shared semantic space; (ii) seamlessly integrate the\nstrengths of formerly separate vision and language modules; (iii) inherently\nembody various cross-modal properties that support unified vision-language\nencoding, aligning, and reasoning. Hence, we launch NEO, a novel family of\nnative VLMs built from first principles, capable of rivaling top-tier modular\ncounterparts across diverse real-world scenarios. With only 390M image-text\nexamples, NEO efficiently develops visual perception from scratch while\nmitigating vision-language conflicts inside a dense and monolithic model\ncrafted from our elaborate primitives. We position NEO as a cornerstone for\nscalable and powerful native VLMs, paired with a rich set of reusable\ncomponents that foster a cost-effective and extensible ecosystem. Our code and\nmodels are publicly available at: https://github.com/EvolvingLMMs-Lab/NEO.",
+            "upvotes": 49,
+            "discussionId": "68f19c5e6e0bef323a68fc39",
+            "githubRepo": "https://github.com/EvolvingLMMs-Lab/NEO",
+            "ai_summary": "NEO, a novel family of native Vision-Language Models, addresses fundamental constraints and integrates vision and language within a unified framework, achieving competitive performance with limited data.",
+            "ai_keywords": [
+                "Vision-Language Models",
+                "native VLMs",
+                "modular VLMs",
+                "pixel and word representations",
+                "semantic space",
+                "cross-modal properties",
+                "visual perception",
+                "vision-language conflicts",
+                "monolithic model",
+                "reusable components"
+            ],
+            "githubStars": 33,
+            "organization": {
+                "_id": "63203b617196f93bc94b73a2",
+                "name": "SenseTime",
+                "fullname": "SenseTime",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/No33gl22RKB0HXjo-qpLX.png"
+            }
+        },
+        "translation_title": "픽셀에서 단어로 -- 대규모 원주율 비전-언어 프리미티브 향상",
+        "purpose": "원주율 Vision-Language 모델의 연구를 더 접근 가능하고 민주화하여 이 분야의 발전을 가속화하기 위한 목표",
+        "method": [
+            "원주율 VLM이 모듈형 VLM과 차별되는 기본 제약 사항을 정리하고 이를 극복할 방안을 제시함(we clarify these challenges and outline guiding principles for constructing native VLMs.)",
+            "NEO라는 새로운 원주율 VLM 패밀리를 런칭하여 기본 원리에서 구축함(we launch NEO, a novel family of native VLMs built from first principles.)",
+            "390M의 이미지-텍스트 예제를 활용해 시각적 인식을 효율적으로 개발하고, 모델 내 비전-언어 충돌을 완화함(With only 390M image-text examples, NEO efficiently develops visual perception from scratch while mitigating vision-language conflicts inside a dense and monolithic model.)"
+        ],
+        "conclusion": "NEO는 대규모 원주율 VLM의 초석이 되며, 재사용 가능한 구성 요소 세트를 통해 비용 효과적이고 확장 가능한 생태계를 조성함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    }
+]
