@@ -1,0 +1,672 @@
+[
+    {
+        "paper": {
+            "id": "2510.15444",
+            "authors": [
+                {
+                    "_id": "68f60ee18589920bf4d32293",
+                    "user": {
+                        "_id": "64675fd0b990713c50317559",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64675fd0b990713c50317559/qGUiaMyAd4mUjXJe0EXVU.png",
+                        "isPro": false,
+                        "fullname": "Zhi Zhou",
+                        "user": "WNJXYK",
+                        "type": "user"
+                    },
+                    "name": "Zhi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:09:29.609Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32294",
+                    "name": "Yuhao Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32295",
+                    "name": "Zenan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32296",
+                    "name": "Yuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32297",
+                    "name": "Lan-Zhe Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32298",
+                    "name": "Yu-Feng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f60ee18589920bf4d32299",
+                    "name": "Xiaoxing Ma",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-17T08:59:30.000Z",
+            "submittedOnDailyAt": "2025-10-20T11:28:20.308Z",
+            "title": "A Theoretical Study on Bridging Internal Probability and\n  Self-Consistency for LLM Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "64675fd0b990713c50317559",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64675fd0b990713c50317559/qGUiaMyAd4mUjXJe0EXVU.png",
+                "isPro": false,
+                "fullname": "Zhi Zhou",
+                "user": "WNJXYK",
+                "type": "user"
+            },
+            "summary": "Test-time scaling seeks to improve the reasoning performance of large\nlanguage models (LLMs) by adding computational resources. A prevalent approach\nwithin the field is sampling-based test-time scaling methods, which enhance\nreasoning by generating multiple reasoning paths for a given input during\ninference. However, despite its practical success, the theoretical foundations\nremain underexplored. In this paper, we provide the first theoretical framework\nfor analyzing sampling-based test-time scaling methods, grounded in the\nperspective of confidence estimation. Based on the framework, we analyze two\ndominant paradigms: self-consistency and perplexity, and reveal key\nlimitations: self-consistency suffers from high estimation error while\nperplexity exhibits substantial modeling error and possible degradation of the\nestimation error convergence. To address these limitations, we introduce RPC, a\nhybrid method that leverages our theoretical insights through two key\ncomponents: Perplexity Consistency and Reasoning Pruning. Perplexity\nConsistency combines the strengths of self-consistency and perplexity, boosting\nthe convergence rate of estimation error from linear to exponential while\npreserving model error. Reasoning Pruning prevents degradation by eliminating\nlow-probability reasoning paths. Both theoretical analysis and empirical\nresults across seven benchmark datasets demonstrate that RPC has a strong\npotential for reducing reasoning error. Notably, RPC achieves reasoning\nperformance comparable to self-consistency while not only enhancing confidence\nreliability but also reducing sampling costs by 50%. The code and resources are\navailable at https://wnjxyk.github.io/RPC.",
+            "upvotes": 59,
+            "discussionId": "68f60ee18589920bf4d3229a",
+            "projectPage": "https://wnjxyk.github.io/RPC",
+            "ai_summary": "A theoretical framework for sampling-based test-time scaling in large language models reveals limitations in self-consistency and perplexity, and introduces RPC to improve reasoning performance and reduce sampling costs.",
+            "ai_keywords": [
+                "sampling-based test-time scaling",
+                "large language models",
+                "self-consistency",
+                "perplexity",
+                "Perplexity Consistency",
+                "Reasoning Pruning",
+                "confidence estimation",
+                "reasoning error",
+                "benchmark datasets"
+            ],
+            "organization": {
+                "_id": "67a472fbf09fe7a0c5101ef2",
+                "name": "LAMDA-NeSy",
+                "fullname": "LAMDA Neuro Symbolic Learning",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63fc116b1b4b1bd4e707d198/iLEbqB8j_71vnPvAekqQC.jpeg"
+            }
+        },
+        "translation_title": "LLM 추론을 위한 내부 확률과 자기 일관성 연결에 대한 이론적 연구",
+        "purpose": "대규모 언어 모델(LLMs)의 추론 성능을 개선하기 위한 이론적 기반을 확립하여 sampling 기반 테스트 시간 스케일링 방법을 분석하는 것",
+        "method": [
+            "신뢰도 추정 관점에서 sampling 기반 테스트 시간 스케일링 방법에 대한 첫 번째 이론적 프레임워크를 제공함(we provide the first theoretical framework for analyzing sampling-based test-time scaling methods, grounded in the perspective of confidence estimation.)",
+            "자기 일관성과 당혹감이라는 두 가지 주요 패러다임을 분석하고 이로부터 한계점을 발견함(Based on the framework, we analyze two dominant paradigms: self-consistency and perplexity, and reveal key limitations.)",
+            "RPC라는 혼합 방법을 도입하여 Perplexity Consistency와 Reasoning Pruning을 통해 이론적 통찰을 활용함(To address these limitations, we introduce RPC, a hybrid method that leverages our theoretical insights through two key components: Perplexity Consistency and Reasoning Pruning.)"
+        ],
+        "conclusion": "RPC는 자기 일관성에 비견되는 추론 성능을 달성하며, 신뢰도를 향상시키고 샘플링 비용을 50% 절감하는 데 성공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.15870",
+            "authors": [
+                {
+                    "_id": "68f592478589920bf4d32084",
+                    "name": "Hanrong Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32085",
+                    "user": {
+                        "_id": "629e1b71bb6419817ed7566c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/629e1b71bb6419817ed7566c/0ZCt-11eQtRDCOk9AozOp.jpeg",
+                        "isPro": false,
+                        "fullname": "Huck Yang",
+                        "user": "huckiyang",
+                        "type": "user"
+                    },
+                    "name": "Chao-Han Huck Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:11:24.329Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32086",
+                    "name": "Arushi Goel",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32087",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32088",
+                    "name": "Ligeng Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32089",
+                    "name": "Yuanhang Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208a",
+                    "name": "Sean Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208b",
+                    "name": "An-Chieh Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208c",
+                    "name": "Zhen Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208d",
+                    "name": "Jinchuan Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208e",
+                    "name": "Yuming Lou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3208f",
+                    "name": "Dong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32090",
+                    "name": "Zhijian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32091",
+                    "name": "Yukang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32092",
+                    "name": "Ambrish Dantrey",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32093",
+                    "name": "Ehsan Jahangiri",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32094",
+                    "name": "Sreyan Ghosh",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32095",
+                    "name": "Daguang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32096",
+                    "name": "Ehsan Hosseini-Asl",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32097",
+                    "name": "Danial Mohseni Taheri",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32098",
+                    "name": "Vidya Murali",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d32099",
+                    "name": "Sifei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209a",
+                    "name": "Jason Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209b",
+                    "name": "Oluwatobi Olabiyi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209c",
+                    "name": "Frank Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209d",
+                    "name": "Rafael Valle",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209e",
+                    "name": "Bryan Catanzaro",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d3209f",
+                    "name": "Andrew Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d320a0",
+                    "name": "Song Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d320a1",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d320a2",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f592478589920bf4d320a3",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-17T17:59:59.000Z",
+            "submittedOnDailyAt": "2025-10-20T00:07:23.233Z",
+            "title": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding\n  LLM",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Advancing machine intelligence requires developing the ability to perceive\nacross multiple modalities, much as humans sense the world. We introduce\nOmniVinci, an initiative to build a strong, open-source, omni-modal LLM. We\ncarefully study the design choices across model architecture and data curation.\nFor model architecture, we present three key innovations: (i) OmniAlignNet for\nstrengthening alignment between vision and audio embeddings in a shared\nomni-modal latent space; (ii) Temporal Embedding Grouping for capturing\nrelative temporal alignment between vision and audio signals; and (iii)\nConstrained Rotary Time Embedding for encoding absolute temporal information in\nomni-modal embeddings. We introduce a curation and synthesis pipeline that\ngenerates 24M single-modal and omni-modal conversations. We find that\nmodalities reinforce one another in both perception and reasoning. Our model,\nOmniVinci, outperforms Qwen2.5-Omni with +19.05 on DailyOmni (cross-modal\nunderstanding), +1.7 on MMAR (audio), and +3.9 on Video-MME (vision), while\nusing just 0.2T training tokens - a 6 times reduction compared to\nQwen2.5-Omni's 1.2T. We finally demonstrate omni-modal advantages in downstream\napplications spanning robotics, medical AI, and smart factory.",
+            "upvotes": 43,
+            "discussionId": "68f592478589920bf4d320a4",
+            "projectPage": "https://nvlabs.github.io/OmniVinci/",
+            "githubRepo": "https://github.com/NVlabs/OmniVinci",
+            "ai_summary": "OmniVinci, an open-source omni-modal LLM, enhances cross-modal understanding and performance across audio, vision, and robotics applications with innovative architecture and efficient data curation.",
+            "ai_keywords": [
+                "OmniAlignNet",
+                "Temporal Embedding Grouping",
+                "Constrained Rotary Time Embedding",
+                "omni-modal latent space",
+                "DailyOmni",
+                "MMAR",
+                "Video-MME",
+                "omni-modal conversations",
+                "omni-modal advantages"
+            ],
+            "githubStars": 56,
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "OmniVinci: 옴니모달 이해를 위한 아키텍처와 데이터 개선",
+        "purpose": "여러 모달리티를 통한 인식 능력을 발전시키기 위해 강력한 오픈 소스 옴니모달 LLM 구축",
+        "method": [
+            "OmniAlignNet을 통해 비전과 오디오 임베딩 간의 정렬 강화 방법을 제시함(For model architecture, we present three key innovations: (i) OmniAlignNet for strengthening alignment between vision and audio embeddings in a shared omni-modal latent space.)",
+            "Temporal Embedding Grouping을 사용하여 비전과 오디오 신호 간의 상대적 시간 정렬을 포착함(ii)",
+            "제약 조건이 있는 Rotary Time Embedding을 통해 옴니모달 임베딩에서 절대 시간 정보를 인코딩함(iii).",
+            "24M의 단일 모달 및 옴니모달 대화를 생성하는 큐레이션 및 합성 파이프라인을 도입함."
+        ],
+        "conclusion": "우리 모델 OmniVinci는 Qwen2.5-Omni보다 DailyOmni에서 +19.05, MMAR에서 +1.7, Video-MME에서 +3.9의 성과를 내며, 기존보다 6배 적은 0.2T의 훈련 토큰으로 결과를 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.15742",
+            "authors": [
+                {
+                    "_id": "68f5a20f8589920bf4d3212e",
+                    "user": {
+                        "_id": "63f0baf66309c84d5f4a2226",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f0baf66309c84d5f4a2226/ihOgtwseRkfP1t-60IgyT.jpeg",
+                        "isPro": true,
+                        "fullname": "Qingyan",
+                        "user": "QingyanBai",
+                        "type": "user"
+                    },
+                    "name": "Qingyan Bai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:10:45.283Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d3212f",
+                    "user": {
+                        "_id": "64981bea09cea550852652af",
+                        "avatarUrl": "/avatars/df528e9008972c8e5ae4d278e617476c.svg",
+                        "isPro": false,
+                        "fullname": "Qiuyu Wang",
+                        "user": "qiuyuu",
+                        "type": "user"
+                    },
+                    "name": "Qiuyu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:10:49.093Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32130",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32131",
+                    "user": {
+                        "_id": "662128ec9ca2cd4e6db2fb44",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662128ec9ca2cd4e6db2fb44/uUg1V-pVfxT3mLuFgJuAN.jpeg",
+                        "isPro": false,
+                        "fullname": "Bruce Yu",
+                        "user": "bruceyyu",
+                        "type": "user"
+                    },
+                    "name": "Yue Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:10:54.813Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32132",
+                    "name": "Hanlin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32133",
+                    "user": {
+                        "_id": "63f089456309c84d5f47f951",
+                        "avatarUrl": "/avatars/04b926a7f2ad091ee00fef0c59903492.svg",
+                        "isPro": false,
+                        "fullname": "Wen Wang",
+                        "user": "wwen1997",
+                        "type": "user"
+                    },
+                    "name": "Wen Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:10:52.179Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32134",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32135",
+                    "name": "Shuailei Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32136",
+                    "name": "Yanhong Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32137",
+                    "name": "Zichen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32138",
+                    "name": "Yinghao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d32139",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5a20f8589920bf4d3213a",
+                    "name": "Qifeng Chen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63f0baf66309c84d5f4a2226/Ep2-xcIdP80khURfhTDcz.mp4"
+            ],
+            "publishedAt": "2025-10-17T15:31:40.000Z",
+            "submittedOnDailyAt": "2025-10-20T01:18:11.842Z",
+            "title": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic\n  Dataset",
+            "submittedOnDailyBy": {
+                "_id": "63f0baf66309c84d5f4a2226",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f0baf66309c84d5f4a2226/ihOgtwseRkfP1t-60IgyT.jpeg",
+                "isPro": true,
+                "fullname": "Qingyan",
+                "user": "QingyanBai",
+                "type": "user"
+            },
+            "summary": "Instruction-based video editing promises to democratize content creation, yet\nits progress is severely hampered by the scarcity of large-scale, high-quality\ntraining data. We introduce Ditto, a holistic framework designed to tackle this\nfundamental challenge. At its heart, Ditto features a novel data generation\npipeline that fuses the creative diversity of a leading image editor with an\nin-context video generator, overcoming the limited scope of existing models. To\nmake this process viable, our framework resolves the prohibitive cost-quality\ntrade-off by employing an efficient, distilled model architecture augmented by\na temporal enhancer, which simultaneously reduces computational overhead and\nimproves temporal coherence. Finally, to achieve full scalability, this entire\npipeline is driven by an intelligent agent that crafts diverse instructions and\nrigorously filters the output, ensuring quality control at scale. Using this\nframework, we invested over 12,000 GPU-days to build Ditto-1M, a new dataset of\none million high-fidelity video editing examples. We trained our model, Editto,\non Ditto-1M with a curriculum learning strategy. The results demonstrate\nsuperior instruction-following ability and establish a new state-of-the-art in\ninstruction-based video editing.",
+            "upvotes": 31,
+            "discussionId": "68f5a20f8589920bf4d3213b",
+            "projectPage": "https://ezioby.github.io/Ditto_page",
+            "githubRepo": "https://github.com/EzioBy/Ditto",
+            "ai_summary": "Ditto framework addresses data scarcity in instruction-based video editing by generating a large dataset and using a curriculum learning strategy to train Editto, achieving superior instruction-following ability.",
+            "ai_keywords": [
+                "data generation pipeline",
+                "image editor",
+                "in-context video generator",
+                "distilled model architecture",
+                "temporal enhancer",
+                "temporal coherence",
+                "intelligent agent",
+                "curriculum learning strategy",
+                "instruction-following ability"
+            ],
+            "githubStars": 83
+        },
+        "translation_title": "고품질 합성 데이터셋을 통한 지시 기반 비디오 편집의 확장",
+        "purpose": "지시 기반 비디오 편집의 데이터 부족 문제를 해결하고, 고품질의 대규모 데이터셋을 구축하기 위한 연구",
+        "method": [
+            "Ditto라는 종합적인 프레임워크를 도입하여 데이터 생성 파이프라인을 구축함(We introduce Ditto, a holistic framework designed to tackle this fundamental challenge.)",
+            "기존 모델의 한계를 극복하기 위해 이미지 편집기의 창의적인 다양성과 비디오 생성기를 결합함(Ditto features a novel data generation pipeline that fuses the creative diversity of a leading image editor with an in-context video generator.)",
+            "효율적인 모델 아키텍처와 시간적 향상기를 적용하여 비용-품질 문제를 해결함(our framework resolves the prohibitive cost-quality trade-off by employing an efficient, distilled model architecture augmented by a temporal enhancer.)",
+            "스케일을 확보하기 위해 지능형 에이전트를 통해 다양한 지시를 생성하고 출력을 필터링함(This entire pipeline is driven by an intelligent agent that crafts diverse instructions and rigorously filters the output.)"
+        ],
+        "conclusion": "Ditto 프레임워크를 통해 100만 개의 고품질 비디오 편집 사례로 구성된 Ditto-1M 데이터셋을 구축하고, Editto 모델을 훈련하여 지시 기반 비디오 편집에서 새로운 최첨단 성능을 달성하였다.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.11288",
+            "authors": [
+                {
+                    "_id": "68f5fe5d8589920bf4d32275",
+                    "name": "Nikita Afonin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d32276",
+                    "name": "Nikita Andriyanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d32277",
+                    "name": "Nikhil Bageshpura",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d32278",
+                    "name": "Kyle Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d32279",
+                    "name": "Kevin Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227a",
+                    "name": "Sunishchal Dev",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227b",
+                    "name": "Ashwinee Panda",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227c",
+                    "name": "Alexander Panchenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227d",
+                    "name": "Oleg Rogov",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227e",
+                    "name": "Elena Tutubalina",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5fe5d8589920bf4d3227f",
+                    "name": "Mikhail Seleznyov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-13T11:23:56.000Z",
+            "submittedOnDailyAt": "2025-10-20T07:50:50.427Z",
+            "title": "Emergent Misalignment via In-Context Learning: Narrow in-context\n  examples can produce broadly misaligned LLMs",
+            "submittedOnDailyBy": {
+                "_id": "654621f45cd5692b3a9d08cb",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/NJj1FJyYHNPRXb0QBXjv-.jpeg",
+                "isPro": false,
+                "fullname": "Mikhail Seleznyov",
+                "user": "myyycroft",
+                "type": "user"
+            },
+            "summary": "Recent work has shown that narrow finetuning can produce broadly misaligned\nLLMs, a phenomenon termed emergent misalignment (EM). While concerning, these\nfindings were limited to finetuning and activation steering, leaving out\nin-context learning (ICL). We therefore ask: does EM emerge in ICL? We find\nthat it does: across three datasets, three frontier models produce broadly\nmisaligned responses at rates between 2% and 17% given 64 narrow in-context\nexamples, and up to 58% with 256 examples. We also examine mechanisms of EM by\neliciting step-by-step reasoning (while leaving in-context examples unchanged).\nManual analysis of the resulting chain-of-thought shows that 67.5% of\nmisaligned traces explicitly rationalize harmful outputs by adopting a reckless\nor dangerous ''persona'', echoing prior results on finetuning-induced EM.",
+            "upvotes": 31,
+            "discussionId": "68f5fe5d8589920bf4d32280",
+            "ai_summary": "Emergent misalignment occurs in in-context learning across multiple models and datasets, with misaligned responses increasing with the number of examples provided.",
+            "ai_keywords": [
+                "emergent misalignment",
+                "in-context learning",
+                "chain-of-thought",
+                "persona"
+            ]
+        },
+        "translation_title": "맥락 학습을 통한 신흥 불일치: 좁은 맥락 예제가 광범위한 불일치 LLM을 생성할 수 있음",
+        "purpose": "In-Context Learning(맥락 학습)에서 신흥 불일치(Emergent Misalignment, EM)가 발생하는지 여부를 탐구함.",
+        "method": [
+            "세 가지 데이터셋을 사용하여 세 가지 최첨단 모델이 64개의 좁은 맥락 예제로 2%에서 17%의 비율로 광범위하게 불일치한 응답을 생성함을 확인함.(We find that it does: across three datasets, three frontier models produce broadly misaligned responses at rates between 2% and 17% given 64 narrow in-context examples.)",
+            "256개의 예제로는 최대 58%까지 불일치 응답이 발생함을 발견함.(and up to 58% with 256 examples.)",
+            "EM의 메커니즘을 조사하기 위해 단계별 사고 과정을 유도함.(We also examine mechanisms of EM by eliciting step-by-step reasoning.)",
+            "이 과정에서 67.5%의 불일치 흔적이 해로운 출력을 정당화하기 위해 부주의하거나 위험한 '페르소나'를 채택함을 수작업 분석을 통해 확인함.(Manual analysis of the resulting chain-of-thought shows that 67.5% of misaligned traces explicitly rationalize harmful outputs by adopting a reckless or dangerous 'persona'.)"
+        ],
+        "conclusion": "이 연구를 통해 In-Context Learning에서도 신흥 불일치가 발생하며, 이것이 해로운 결과를 초래할 수 있음을 발견함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.15019",
+            "authors": [
+                {
+                    "_id": "68f5c6ae8589920bf4d321bc",
+                    "name": "Junliang Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321bd",
+                    "name": "Shenghao Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321be",
+                    "name": "Ruowen Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321bf",
+                    "name": "Zhengyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321c0",
+                    "name": "Hongyu Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321c1",
+                    "name": "Wenqiang Zu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321c2",
+                    "name": "Lei Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5c6ae8589920bf4d321c3",
+                    "name": "Jun Zhu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65a420cd90e65dc39a6abe9e/ldmAjBXk17bLdgoKhA9W9.mp4"
+            ],
+            "publishedAt": "2025-10-16T17:51:50.000Z",
+            "submittedOnDailyAt": "2025-10-20T04:11:33.811Z",
+            "title": "NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks",
+            "submittedOnDailyBy": {
+                "_id": "65a420cd90e65dc39a6abe9e",
+                "avatarUrl": "/avatars/81ac5b749043e899f5017782409f9e28.svg",
+                "isPro": false,
+                "fullname": "yejunliang",
+                "user": "yejunliang23",
+                "type": "user"
+            },
+            "summary": "3D object editing is essential for interactive content creation in gaming,\nanimation, and robotics, yet current approaches remain inefficient,\ninconsistent, and often fail to preserve unedited regions. Most methods rely on\nediting multi-view renderings followed by reconstruction, which introduces\nartifacts and limits practicality. To address these challenges, we propose\nNano3D, a training-free framework for precise and coherent 3D object editing\nwithout masks. Nano3D integrates FlowEdit into TRELLIS to perform localized\nedits guided by front-view renderings, and further introduces region-aware\nmerging strategies, Voxel/Slat-Merge, which adaptively preserve structural\nfidelity by ensuring consistency between edited and unedited areas. Experiments\ndemonstrate that Nano3D achieves superior 3D consistency and visual quality\ncompared with existing methods. Based on this framework, we construct the first\nlarge-scale 3D editing datasets Nano3D-Edit-100k, which contains over 100,000\nhigh-quality 3D editing pairs. This work addresses long-standing challenges in\nboth algorithm design and data availability, significantly improving the\ngenerality and reliability of 3D editing, and laying the groundwork for the\ndevelopment of feed-forward 3D editing models. Project\nPage:https://jamesyjl.github.io/Nano3D",
+            "upvotes": 30,
+            "discussionId": "68f5c6ae8589920bf4d321c4",
+            "projectPage": "https://jamesyjl.github.io/Nano3D/",
+            "githubRepo": "https://github.com/JAMESYJL/Nano3D/tree/main",
+            "ai_summary": "Nano3D is a training-free framework that integrates FlowEdit and TRELLIS for precise 3D object editing, using front-view renderings and region-aware merging strategies to maintain structural fidelity and visual quality.",
+            "ai_keywords": [
+                "FlowEdit",
+                "TRELLIS",
+                "front-view renderings",
+                "region-aware merging",
+                "Voxel/Slat-Merge",
+                "3D consistency",
+                "3D editing datasets",
+                "feed-forward 3D editing models"
+            ],
+            "githubStars": 24
+        },
+        "translation_title": "NANO3D: 마스크 없이 효율적인 3D 편집을 위한 훈련 없는 접근법",
+        "purpose": "마스크 없이 정밀하고 일관된 3D 객체 편집을 위한 새로운 방법 연구",
+        "method": [
+            "정확한 3D 편집을 위해 FlowEdit를 TRELLIS에 통합하여 전면 렌더링에 의해 가이드된 지역 편집을 수행함(we propose Nano3D, a training-free framework for precise and coherent 3D object editing without masks.)",
+            "편집된 영역과 편집되지 않은 영역 사이의 일관성을 보장하면서 구조적 신뢰성을 보존하는 지역 인식 병합 전략인 Voxel/Slat-Merge를 도입함(and further introduces region-aware merging strategies, Voxel/Slat-Merge, which adaptively preserve structural fidelity by ensuring consistency between edited and unedited areas.)",
+            "Nano3D가 기존 방법에 비해 뛰어난 3D 일관성과 시각적 품질을 달성함(Experiments demonstrate that Nano3D achieves superior 3D consistency and visual quality compared with existing methods.)"
+        ],
+        "conclusion": "이 연구는 알고리즘 설계와 데이터 가용성의 오랜 문제를 해결하고, 3D 편집의 일반성과 신뢰성을 크게 향상시킴.",
+        "keywords": [
+            "3D Vision",
+            "Robotics",
+            "Image Generation"
+        ]
+    }
+]
