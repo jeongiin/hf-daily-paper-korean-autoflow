@@ -1,0 +1,527 @@
+[
+    {
+        "paper": {
+            "id": "2510.16872",
+            "authors": [
+                {
+                    "_id": "68f6ed0424c4489363111848",
+                    "name": "Shaolei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0424c4489363111849",
+                    "name": "Ju Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0424c448936311184a",
+                    "name": "Meihao Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0424c448936311184b",
+                    "name": "Guoliang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0424c448936311184c",
+                    "name": "Xiaoyong Du",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-19T15:13:42.000Z",
+            "submittedOnDailyAt": "2025-10-21T00:48:17.032Z",
+            "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
+            "submittedOnDailyBy": {
+                "_id": "64803e5dc57f629056c601f1",
+                "avatarUrl": "/avatars/a9e9c97c70714e3a29bef2cf929ee6b3.svg",
+                "isPro": false,
+                "fullname": "Shaolei Zhang",
+                "user": "zhangshaolei",
+                "type": "user"
+            },
+            "summary": "Autonomous data science, from raw data sources to analyst-grade deep research\nreports, has been a long-standing challenge, and is now becoming feasible with\nthe emergence of powerful large language models (LLMs). Recent workflow-based\ndata agents have shown promising results on specific data tasks but remain\nfundamentally limited in achieving fully autonomous data science due to their\nreliance on predefined workflows. In this paper, we introduce DeepAnalyze-8B,\nthe first agentic LLM designed for autonomous data science, capable of\nautomatically completing the end-toend pipeline from data sources to\nanalyst-grade deep research reports. To tackle high-complexity data science\ntasks, we propose a curriculum-based agentic training paradigm that emulates\nthe learning trajectory of human data scientists, enabling LLMs to\nprogressively acquire and integrate multiple capabilities in real-world\nenvironments. We also introduce a data-grounded trajectory synthesis framework\nthat constructs high-quality training data. Through agentic training,\nDeepAnalyze learns to perform a broad spectrum of data tasks, ranging from data\nquestion answering and specialized analytical tasks to open-ended data\nresearch. Experiments demonstrate that, with only 8B parameters, DeepAnalyze\noutperforms previous workflow-based agents built on most advanced proprietary\nLLMs. The model, code, and training data of DeepAnalyze are open-sourced,\npaving the way toward autonomous data science.",
+            "upvotes": 51,
+            "discussionId": "68f6ed0424c448936311184d",
+            "projectPage": "https://ruc-deepanalyze.github.io/",
+            "githubRepo": "https://github.com/ruc-datalab/DeepAnalyze",
+            "ai_summary": "DeepAnalyze-8B, an agentic LLM, autonomously completes the data science pipeline from raw data to research reports using curriculum-based training and data-grounded trajectory synthesis.",
+            "ai_keywords": [
+                "large language models",
+                "LLMs",
+                "workflow-based data agents",
+                "agentic LLM",
+                "curriculum-based agentic training",
+                "data-grounded trajectory synthesis",
+                "data question answering",
+                "specialized analytical tasks",
+                "open-ended data research"
+            ],
+            "githubStars": 89,
+            "organization": {
+                "_id": "621a22353bae762bb9faaffb",
+                "name": "RUC-DataLab",
+                "fullname": "RUC-DataLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64803e5dc57f629056c601f1/tsYgFKBKYc4VNfO8g5zmP.png"
+            }
+        },
+        "translation_title": "DeepAnalyze: 자율 데이터 과학을 위한 에이전틱 대형 언어 모델",
+        "purpose": "자율 데이터 과학을 구현하기 위해 데이터 소스에서 심층 연구 보고서까지의 과정을 자동으로 완료할 수 있는 모델 개발",
+        "method": [
+            "DeepAnalyze-8B라는 자율 데이터 과학을 위한 최초의 에이전틱 LLM을 소개함(The first agentic LLM designed for autonomous data science, capable of automatically completing the end-to-end pipeline from data sources to analyst-grade deep research reports.)",
+            "인간 데이터 과학자의 학습 경로를 모방하는 커리큘럼 기반 훈련 패러다임을 제안함(to tackle high-complexity data science tasks, we propose a curriculum-based agentic training paradigm that emulates the learning trajectory of human data scientists.)",
+            "고품질 훈련 데이터를 구축하는 데이터 기반 경로 합성 프레임워크를 도입함(We also introduce a data-grounded trajectory synthesis framework that constructs high-quality training data.)"
+        ],
+        "conclusion": "DeepAnalyze는 8B 파라미터로도 이전의 워크플로우 기반 에이전트보다 뛰어난 성능을 보여주며, 자율 데이터 과학을 향한 길을 마련함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Autonomous Data Science"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.17681",
+            "authors": [
+                {
+                    "_id": "68f6ed0724c448936311184f",
+                    "user": {
+                        "_id": "625d5b9f0bec31f086e04cd9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "YuandongPu",
+                        "user": "Andrew613",
+                        "type": "user"
+                    },
+                    "name": "Yuandong Pu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-21T14:03:54.052Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111850",
+                    "name": "Le Zhuo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111851",
+                    "user": {
+                        "_id": "662885b9b87483ae5a9ee5c9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/662885b9b87483ae5a9ee5c9/fLzCrWizo_hy7zGuAqFwk.jpeg",
+                        "isPro": false,
+                        "fullname": "Songhao Han",
+                        "user": "hshjerry0315",
+                        "type": "user"
+                    },
+                    "name": "Songhao Han",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-21T14:03:50.886Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111852",
+                    "name": "Jinbo Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111853",
+                    "name": "Kaiwen Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111854",
+                    "name": "Shuo Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111855",
+                    "name": "Bin Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111856",
+                    "name": "Si Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111857",
+                    "name": "Hongsheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111858",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c4489363111859",
+                    "name": "Wenlong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c448936311185a",
+                    "name": "Xi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ed0724c448936311185b",
+                    "name": "Yihao Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-20T15:53:57.000Z",
+            "submittedOnDailyAt": "2025-10-21T00:48:55.230Z",
+            "title": "PICABench: How Far Are We from Physically Realistic Image Editing?",
+            "submittedOnDailyBy": {
+                "_id": "625d5b9f0bec31f086e04cd9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+                "isPro": false,
+                "fullname": "YuandongPu",
+                "user": "Andrew613",
+                "type": "user"
+            },
+            "summary": "Image editing has achieved remarkable progress recently. Modern editing\nmodels could already follow complex instructions to manipulate the original\ncontent. However, beyond completing the editing instructions, the accompanying\nphysical effects are the key to the generation realism. For example, removing\nan object should also remove its shadow, reflections, and interactions with\nnearby objects. Unfortunately, existing models and benchmarks mainly focus on\ninstruction completion but overlook these physical effects. So, at this moment,\nhow far are we from physically realistic image editing? To answer this, we\nintroduce PICABench, which systematically evaluates physical realism across\neight sub-dimension (spanning optics, mechanics, and state transitions) for\nmost of the common editing operations (add, remove, attribute change, etc). We\nfurther propose the PICAEval, a reliable evaluation protocol that uses\nVLM-as-a-judge with per-case, region-level human annotations and questions.\nBeyond benchmarking, we also explore effective solutions by learning physics\nfrom videos and construct a training dataset PICA-100K. After evaluating most\nof the mainstream models, we observe that physical realism remains a\nchallenging problem with large rooms to explore. We hope that our benchmark and\nproposed solutions can serve as a foundation for future work moving from naive\ncontent editing toward physically consistent realism.",
+            "upvotes": 50,
+            "discussionId": "68f6ed0724c448936311185c",
+            "projectPage": "https://picabench.github.io/",
+            "githubRepo": "https://github.com/Andrew0613/PICABench",
+            "ai_summary": "PICABench and PICAEval evaluate physical realism in image editing by assessing eight sub-dimensions and using VLM-as-a-judge with human annotations, highlighting the need for physics-based solutions.",
+            "ai_keywords": [
+                "PICABench",
+                "PICAEval",
+                "VLM-as-a-judge",
+                "physical realism",
+                "image editing",
+                "physics-based solutions",
+                "PICA-100K"
+            ],
+            "githubStars": 13
+        },
+        "translation_title": "PICABench: 물리적으로 현실적인 이미지 편집까지 얼마나 남았나?",
+        "purpose": "편집 모델이 물리적인 효과를 고려하는지 평가하기 위한 벤치마크 및 솔루션 연구",
+        "method": [
+            "PICABench를 도입하여 일반적인 편집 작업에 대해 물리적 현실성을 체계적으로 평가함(we introduce PICABench, which systematically evaluates physical realism across eight sub-dimension for most of the common editing operations).",
+            "신뢰할 수 있는 평가 프로토콜인 PICAEval을 제안하였고, 이를 통해 인간 주석과 질문을 활용함(we further propose the PICAEval, a reliable evaluation protocol that uses VLM-as-a-judge with per-case, region-level human annotations and questions).",
+            "비디오에서 물리를 학습하고, 훈련 데이터셋인 PICA-100K를 구축하여 효과적인 해결책을 탐색함(we also explore effective solutions by learning physics from videos and construct a training dataset PICA-100K)."
+        ],
+        "conclusion": "물리적 현실성은 여전히 도전적인 문제로, 모델 평가에서 많은 발전 가능성을 확인하였으며, 우리의 벤치마크와 제안된 솔루션이 물리적으로 일관된 현실로 나아가는 기초가 되기를 바랍니다.",
+        "keywords": [
+            "Image Understanding",
+            "Image Generation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.17800",
+            "authors": [
+                {
+                    "_id": "68f6f94824c4489363111924",
+                    "name": "Jiale Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111925",
+                    "name": "Yusen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111926",
+                    "name": "Xinyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111927",
+                    "name": "Yulin Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111928",
+                    "name": "Wenyi Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111929",
+                    "name": "Ruiliang Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192a",
+                    "name": "Weihan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192b",
+                    "name": "Zhe Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192c",
+                    "name": "Xiaotao Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192d",
+                    "name": "Xiao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192e",
+                    "name": "Yushi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c448936311192f",
+                    "name": "Jie Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111930",
+                    "name": "Hongning Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6f94824c4489363111931",
+                    "name": "Minlie Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-20T17:58:56.000Z",
+            "submittedOnDailyAt": "2025-10-21T02:00:03.910Z",
+            "title": "Glyph: Scaling Context Windows via Visual-Text Compression",
+            "submittedOnDailyBy": {
+                "_id": "627626d42d26ac639e56f565",
+                "avatarUrl": "/avatars/805c5f909f52656345b8bde486c9fa8f.svg",
+                "isPro": false,
+                "fullname": "Jiale Cheng",
+                "user": "CCCCCC",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) increasingly rely on long-context modeling for\ntasks such as document understanding, code analysis, and multi-step reasoning.\nHowever, scaling context windows to the million-token level brings prohibitive\ncomputational and memory costs, limiting the practicality of long-context LLMs.\nIn this work, we take a different perspective-visual context scaling-to tackle\nthis challenge. Instead of extending token-based sequences, we propose Glyph, a\nframework that renders long texts into images and processes them with\nvision-language models (VLMs). This approach substantially compresses textual\ninput while preserving semantic information, and we further design an\nLLM-driven genetic search to identify optimal visual rendering configurations\nfor balancing accuracy and compression. Through extensive experiments, we\ndemonstrate that our method achieves 3-4x token compression while maintaining\naccuracy comparable to leading LLMs such as Qwen3-8B on various long-context\nbenchmarks. This compression also leads to around 4x faster prefilling and\ndecoding, and approximately 2x faster SFT training. Furthermore, under extreme\ncompression, a 128K-context VLM could scale to handle 1M-token-level text\ntasks. In addition, the rendered text data benefits real-world multimodal\ntasks, such as document understanding. Our code and model are released at\nhttps://github.com/thu-coai/Glyph.",
+            "upvotes": 40,
+            "discussionId": "68f6f94824c4489363111932",
+            "ai_summary": "Glyph compresses long textual inputs into images using vision-language models, achieving significant token compression and improved performance in long-context tasks.",
+            "ai_keywords": [
+                "long-context modeling",
+                "large language models",
+                "token-based sequences",
+                "Glyph",
+                "vision-language models",
+                "genetic search",
+                "token compression",
+                "prefilling",
+                "decoding",
+                "SFT training",
+                "multimodal tasks",
+                "document understanding"
+            ]
+        },
+        "translation_title": "Glyph: 비주얼-텍스트 압축을 통한 컨텍스트 윈도우 확장",
+        "purpose": "긴 문서 이해 및 멀티스텝 추론과 같은 작업을 위한 LLM의 긴 컨텍스트 모델링 효율성 향상",
+        "method": [
+            "긴 텍스트를 이미지로 변환하고 비전-언어 모델(VLM)로 처리하는 Glyph 프레임워크를 제안함(we propose Glyph, a framework that renders long texts into images and processes them with vision-language models (VLMs).)",
+            "정확성과 압축을 균형 있게 유지하기 위해 LLM 기반의 유전자 검색을 설계함(we further design an LLM-driven genetic search to identify optimal visual rendering configurations for balancing accuracy and compression.)",
+            "광범위한 실험을 통해 3-4배의 토큰 압축을 달성했음을 입증함(Through extensive experiments, we demonstrate that our method achieves 3-4x token compression while maintaining accuracy comparable to leading LLMs such as Qwen3-8B on various long-context benchmarks.)"
+        ],
+        "conclusion": "Glyph는 긴 문서 작업에서 토큰 수를 4배 이상 줄이고, 속도 또한 4배 빨라졌으며, 실제 멀티모달 작업에서도 도움이 됨.",
+        "keywords": [
+            "Large Language Models",
+            "Vision-Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.17354",
+            "authors": [
+                {
+                    "_id": "68f6ebff24c448936311182d",
+                    "user": {
+                        "_id": "6710ac3fb4ee4920580a5f0e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+                        "isPro": false,
+                        "fullname": "Chenghao Zhang",
+                        "user": "SnowNation",
+                        "type": "user"
+                    },
+                    "name": "Chenghao Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-21T14:04:00.429Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ebff24c448936311182e",
+                    "user": {
+                        "_id": "61cd4b833dd34ba1985e0753",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                        "isPro": false,
+                        "fullname": "KABI",
+                        "user": "dongguanting",
+                        "type": "user"
+                    },
+                    "name": "Guanting Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-21T14:03:57.402Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ebff24c448936311182f",
+                    "name": "Xinyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f6ebff24c4489363111830",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-20T09:56:43.000Z",
+            "submittedOnDailyAt": "2025-10-21T00:50:13.474Z",
+            "title": "Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "6710ac3fb4ee4920580a5f0e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6710ac3fb4ee4920580a5f0e/OhQQFlZmkmLQpMYqKCGP6.jpeg",
+                "isPro": false,
+                "fullname": "Chenghao Zhang",
+                "user": "SnowNation",
+                "type": "user"
+            },
+            "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for\nenhancing large language models (LLMs) by retrieving relevant documents from an\nexternal corpus. However, existing RAG systems primarily focus on unimodal text\ndocuments, and often fall short in real-world scenarios where both queries and\ndocuments may contain mixed modalities (such as text and images). In this\npaper, we address the challenge of Universal Retrieval-Augmented Generation\n(URAG), which involves retrieving and reasoning over mixed-modal information to\nimprove vision-language generation. To this end, we propose Nyx, a unified\nmixed-modal to mixed-modal retriever tailored for URAG scenarios. To mitigate\nthe scarcity of realistic mixed-modal data, we introduce a four-stage automated\npipeline for generation and filtering, leveraging web documents to construct\nNyxQA, a dataset comprising diverse mixed-modal question-answer pairs that\nbetter reflect real-world information needs. Building on this high-quality\ndataset, we adopt a two-stage training framework for Nyx: we first perform\npre-training on NyxQA along with a variety of open-source retrieval datasets,\nfollowed by supervised fine-tuning using feedback from downstream\nvision-language models (VLMs) to align retrieval outputs with generative\npreferences. Experimental results demonstrate that Nyx not only performs\ncompetitively on standard text-only RAG benchmarks, but also excels in the more\ngeneral and realistic URAG setting, significantly improving generation quality\nin vision-language tasks.",
+            "upvotes": 28,
+            "discussionId": "68f6ec0024c4489363111831",
+            "githubRepo": "https://github.com/SnowNation101/Nyx",
+            "ai_summary": "Nyx, a unified mixed-modal retriever, enhances vision-language generation by retrieving and reasoning over mixed-modal data, outperforming existing RAG systems in real-world scenarios.",
+            "ai_keywords": [
+                "Retrieval-Augmented Generation",
+                "RAG",
+                "large language models",
+                "LLMs",
+                "mixed modalities",
+                "Universal Retrieval-Augmented Generation",
+                "URAG",
+                "Nyx",
+                "NyxQA",
+                "two-stage training framework",
+                "pre-training",
+                "supervised fine-tuning",
+                "vision-language models",
+                "VLMs",
+                "generation quality",
+                "vision-language tasks"
+            ],
+            "githubStars": 7,
+            "organization": {
+                "_id": "622177ac43826d6f261f8208",
+                "name": "RUC",
+                "fullname": "Renmin University of China",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+            }
+        },
+        "translation_title": "보편적 검색 증강 생성을 위한 혼합 모드 검색 접근 방식",
+        "purpose": "혼합 모달 정보를 검색하고 이를 바탕으로 vision-language 생성을 개선하기 위해 Universal Retrieval-Augmented Generation(URAG) 문제를 해결함.",
+        "method": [
+            "URAG 시나리오에 맞춘 혼합 모달 검색기 Nyx를 제안함(To this end, we propose Nyx, a unified mixed-modal to mixed-modal retriever tailored for URAG scenarios.)",
+            "현실적인 혼합 모달 데이터 부족 문제를 해결하기 위해 네 단계의 자동화된 파이프라인을 도입하고 NyxQA라는 다채로운 혼합 모달 질문-답변 페어 데이터셋을 생성함(To mitigate the scarcity of realistic mixed-modal data, we introduce a four-stage automated pipeline for generation and filtering, leveraging web documents to construct NyxQA.)",
+            "높은 품질의 데이터셋인 NyxQA를 기반으로 두 단계의 교육 프레임워크를 사용하여 Nyx를 학습함(Building on this high-quality dataset, we adopt a two-stage training framework for Nyx.)"
+        ],
+        "conclusion": "Nyx는 표준 텍스트 전용 RAG 벤치마크에서 경쟁력 있는 성능을 보여주며, 보다 일반적이고 현실적인 URAG 환경에서도 탁월한 성능을 발휘하여 vision-language 작업의 생성 품질을 상당히 개선함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.15346",
+            "authors": [
+                {
+                    "_id": "68f5cb858589920bf4d321c6",
+                    "user": {
+                        "_id": "67f778ddbb19958f5d96c2a8",
+                        "avatarUrl": "/avatars/49a3f119b456ff94f28f09b2fe78bb18.svg",
+                        "isPro": false,
+                        "fullname": "Heecheol Yun",
+                        "user": "yoon6503",
+                        "type": "user"
+                    },
+                    "name": "Heecheol Yun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-20T12:09:53.779Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5cb858589920bf4d321c7",
+                    "user": {
+                        "_id": "66e5476b8edfc6dc4461af24",
+                        "avatarUrl": "/avatars/7dbcc2465a6268ebeac118c396581fd1.svg",
+                        "isPro": false,
+                        "fullname": "Ki Kwang Min",
+                        "user": "kiikiik",
+                        "type": "user"
+                    },
+                    "name": "Kwangmin Ki",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-21T14:04:48.478Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5cb858589920bf4d321c8",
+                    "name": "Junghyun Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f5cb858589920bf4d321c9",
+                    "name": "Eunho Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-17T06:18:29.000Z",
+            "submittedOnDailyAt": "2025-10-21T03:22:40.496Z",
+            "title": "When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM\n  Ensembling",
+            "submittedOnDailyBy": {
+                "_id": "67f778ddbb19958f5d96c2a8",
+                "avatarUrl": "/avatars/49a3f119b456ff94f28f09b2fe78bb18.svg",
+                "isPro": false,
+                "fullname": "Heecheol Yun",
+                "user": "yoon6503",
+                "type": "user"
+            },
+            "summary": "Ensembling Large Language Models (LLMs) has gained attention as a promising\napproach to surpass the performance of individual models by leveraging their\ncomplementary strengths. In particular, aggregating models' next-token\nprobability distributions to select the next token has been shown to be\neffective in various tasks. However, while successful for short-form answers,\nits application to long-form generation remains underexplored. In this paper,\nwe show that using existing ensemble methods in long-form generation requires a\ncareful choice of ensembling positions, since the standard practice of\nensembling at every token often degrades performance. We identify two key\nfactors for determining these positions: tokenization mismatch across models\nand consensus in their next-token probability distributions. Based on this, we\npropose SAFE, (Stable And Fast LLM Ensembling), a framework that selectively\nensembles by jointly considering these factors. To further improve stability,\nwe introduce a probability sharpening strategy that consolidates probabilities\nspread across multiple sub-word tokens representing the same word into a single\nrepresentative token. Our experiments on diverse benchmarks, including MATH500\nand BBH, demonstrate that SAFE outperforms existing methods in both accuracy\nand efficiency, with gains achieved even when ensembling fewer than 1% of\ntokens.",
+            "upvotes": 24,
+            "discussionId": "68f5cb858589920bf4d321ca",
+            "ai_summary": "SAFE, a selective ensembling framework for large language models, improves long-form generation by considering tokenization mismatch and consensus in probability distributions, leading to better accuracy and efficiency.",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "ensembling",
+                "next-token probability distributions",
+                "long-form generation",
+                "tokenization mismatch",
+                "consensus",
+                "probability sharpening",
+                "MATH500",
+                "BBH"
+            ],
+            "organization": {
+                "_id": "6475760c33192631bad2bb38",
+                "name": "kaist-ai",
+                "fullname": "KAIST AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6469949654873f0043b09c22/aaZFiyXe1qR-Dmy_xq67m.png"
+            }
+        },
+        "translation_title": "언제 앙상블할까: 안정적이고 빠른 LLM 앙상블을 위한 토큰 수준 포인트 식별",
+        "purpose": "개별 모델의 성능을 초과하기 위한 LLM 앙상블의 효과적인 적용 방법 연구",
+        "method": [
+            "기존 앙상블 방법을 롱폼 생성에 적용할 때 앙상블 포지션을 신중하게 선택해야 한다는 점을 언급함(We show that using existing ensemble methods in long-form generation requires a careful choice of ensembling positions.)",
+            "모델 간의 토큰화 불일치와 다음 토큰 확률 분포의 합의 두 가지 주요 요인을 식별함(We identify two key factors for determining these positions: tokenization mismatch across models and consensus in their next-token probability distributions.)",
+            "이러한 요인을 종합적으로 고려하여 SAFE 프레임워크를 제안함(Based on this, we propose SAFE, (Stable And Fast LLM Ensembling), a framework that selectively ensembles by jointly considering these factors.)",
+            "확률을 통합하는 방법을 통해 안정성을 향상시키고 성능을 개선함(To further improve stability, we introduce a probability sharpening strategy that consolidates probabilities spread across multiple sub-word tokens into a single representative token.)"
+        ],
+        "conclusion": "SAFE는 MATH500 및 BBH와 같은 다양한 벤치마크에서 기존 방법보다 정확성과 효율성이 높음을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Ensembling"
+        ]
+    }
+]
