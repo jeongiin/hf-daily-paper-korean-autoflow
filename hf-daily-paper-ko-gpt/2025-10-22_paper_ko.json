@@ -1,0 +1,515 @@
+[
+    {
+        "paper": {
+            "id": "2510.18866",
+            "authors": [
+                {
+                    "_id": "68f838947669bcaeecce0c01",
+                    "name": "Jizhan Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c02",
+                    "name": "Xinle Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c03",
+                    "name": "Haoming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c04",
+                    "name": "Ziyan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c05",
+                    "name": "Yuqi Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c06",
+                    "name": "Ziwen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c07",
+                    "name": "Shumin Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c08",
+                    "name": "Yunzhi Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c09",
+                    "name": "Mengru Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c0a",
+                    "name": "Shuofei Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c0b",
+                    "name": "Huajun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f838947669bcaeecce0c0c",
+                    "name": "Ningyu Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/620b3bbb0668e435407c8d0a/M2oygkxDK_IQYqx0SE3VE.png"
+            ],
+            "publishedAt": "2025-10-21T17:58:17.000Z",
+            "submittedOnDailyAt": "2025-10-22T00:37:06.095Z",
+            "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+            "submittedOnDailyBy": {
+                "_id": "620b3bbb0668e435407c8d0a",
+                "avatarUrl": "/avatars/e0fccbb2577d76088e09f054c35cffbc.svg",
+                "isPro": true,
+                "fullname": "Ningyu Zhang",
+                "user": "Ningyu",
+                "type": "user"
+            },
+            "summary": "Despite their remarkable capabilities, Large Language Models (LLMs) struggle\nto effectively leverage historical interaction information in dynamic and\ncomplex environments. Memory systems enable LLMs to move beyond stateless\ninteractions by introducing persistent information storage, retrieval, and\nutilization mechanisms. However, existing memory systems often introduce\nsubstantial time and computational overhead. To this end, we introduce a new\nmemory system called LightMem, which strikes a balance between the performance\nand efficiency of memory systems. Inspired by the Atkinson-Shiffrin model of\nhuman memory, LightMem organizes memory into three complementary stages. First,\ncognition-inspired sensory memory rapidly filters irrelevant information\nthrough lightweight compression and groups information according to their\ntopics. Next, topic-aware short-term memory consolidates these topic-based\ngroups, organizing and summarizing content for more structured access. Finally,\nlong-term memory with sleep-time update employs an offline procedure that\ndecouples consolidation from online inference. Experiments on LongMemEval with\nGPT and Qwen backbones show that LightMem outperforms strong baselines in\naccuracy (up to 10.9% gains) while reducing token usage by up to 117x, API\ncalls by up to 159x, and runtime by over 12x. The code is available at\nhttps://github.com/zjunlp/LightMem.",
+            "upvotes": 72,
+            "discussionId": "68f838947669bcaeecce0c0d",
+            "githubRepo": "https://github.com/zjunlp/LightMem",
+            "ai_summary": "LightMem, a memory system inspired by human memory, enhances LLMs by efficiently managing historical interaction information, improving accuracy and reducing computational costs.",
+            "ai_keywords": [
+                "Large Language Models",
+                "LLMs",
+                "memory systems",
+                "LightMem",
+                "Atkinson-Shiffrin model",
+                "sensory memory",
+                "topic-aware short-term memory",
+                "long-term memory",
+                "sleep-time update",
+                "LongMemEval",
+                "GPT",
+                "Qwen",
+                "token usage",
+                "API calls",
+                "runtime"
+            ],
+            "githubStars": 62,
+            "organization": {
+                "_id": "6345aadf5efccdc07f1365a5",
+                "name": "ZhejiangUniversity",
+                "fullname": "Zhejiang University"
+            }
+        },
+        "translation_title": "LightMem: 경량화되고 효율적인 메모리 증강 생성",
+        "purpose": "동적이고 복잡한 환경에서 역사적 상호작용 정보를 효율적으로 활용하기 위한 새로운 메모리 시스템 개발",
+        "method": [
+            "LightMem이라는 새로운 메모리 시스템을 도입하여 메모리 시스템의 성능과 효율성 사이의 균형을 맞춤.(we introduce a new memory system called LightMem, which strikes a balance between the performance and efficiency of memory systems.)",
+            "LightMem은 인간 기억의 Atkinson-Shiffrin 모델에 영감을 받아 메모리를 세 가지 상호 보완적인 단계로 구성함.(Inspired by the Atkinson-Shiffrin model of human memory, LightMem organizes memory into three complementary stages.)",
+            "인지 기반의 감각 기억이 관련 없는 정보를 빠르게 필터링하고 주제에 따라 정보를 그룹화함.(First, cognition-inspired sensory memory rapidly filters irrelevant information through lightweight compression and groups information according to their topics.)",
+            "주제 인식을 통한 단기 기억이 이러한 주제 기반 그룹을 통합하여 더 체계적인 접근을 위한 내용을 정리하고 요약함.(Next, topic-aware short-term memory consolidates these topic-based groups, organizing and summarizing content for more structured access.)",
+            "장기 기억은 오프라인 절차를 통해 통합을 온라인 추론과 분리하여 업데이트함.(Finally, long-term memory with sleep-time update employs an offline procedure that decouples consolidation from online inference.)"
+        ],
+        "conclusion": "LightMem은 정확도를 최대 10.9% 향상시키면서도 토큰 사용량을 117배, API 호출을 159배, 실행 시간을 12배 이상 줄임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Memory Systems"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.18135",
+            "authors": [
+                {
+                    "_id": "68f847ed7669bcaeecce0d31",
+                    "name": "Jiahan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d32",
+                    "name": "Muqing Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d33",
+                    "name": "Nanru Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d34",
+                    "name": "Taiming Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d35",
+                    "name": "Arda Uzunoglu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d36",
+                    "name": "Shunchi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d37",
+                    "name": "Yana Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d38",
+                    "name": "Jiahao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d39",
+                    "name": "Vishal M. Patel",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3a",
+                    "name": "Paul Pu Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3b",
+                    "name": "Daniel Khashabi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3c",
+                    "name": "Cheng Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3d",
+                    "name": "Rama Chellappa",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3e",
+                    "name": "Tianmin Shu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d3f",
+                    "name": "Alan Yuille",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d40",
+                    "name": "Yilun Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f847ed7669bcaeecce0d41",
+                    "name": "Jieneng Chen",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/660c9ac4b202fcf3892f62fa/mwYURbjbGWRjhpOSMNbDT.png"
+            ],
+            "publishedAt": "2025-10-20T22:09:15.000Z",
+            "submittedOnDailyAt": "2025-10-22T01:30:11.531Z",
+            "title": "World-in-World: World Models in a Closed-Loop World",
+            "submittedOnDailyBy": {
+                "_id": "660c9ac4b202fcf3892f62fa",
+                "avatarUrl": "/avatars/7314fd5f3f642096d0e37d3194f1aa7e.svg",
+                "isPro": false,
+                "fullname": "Jieneng Chen",
+                "user": "jienengchen",
+                "type": "user"
+            },
+            "summary": "Generative world models (WMs) can now simulate worlds with striking visual\nrealism, which naturally raises the question of whether they can endow embodied\nagents with predictive perception for decision making. Progress on this\nquestion has been limited by fragmented evaluation: most existing benchmarks\nadopt open-loop protocols that emphasize visual quality in isolation, leaving\nthe core issue of embodied utility unresolved, i.e., do WMs actually help\nagents succeed at embodied tasks? To address this gap, we introduce\nWorld-in-World, the first open platform that benchmarks WMs in a closed-loop\nworld that mirrors real agent-environment interactions. World-in-World provides\na unified online planning strategy and a standardized action API, enabling\nheterogeneous WMs for decision making. We curate four closed-loop environments\nthat rigorously evaluate diverse WMs, prioritize task success as the primary\nmetric, and move beyond the common focus on visual quality; we also present the\nfirst data scaling law for world models in embodied settings. Our study\nuncovers three surprises: (1) visual quality alone does not guarantee task\nsuccess, controllability matters more; (2) scaling post-training with\naction-observation data is more effective than upgrading the pretrained video\ngenerators; and (3) allocating more inference-time compute allows WMs to\nsubstantially improve closed-loop performance.",
+            "upvotes": 62,
+            "discussionId": "68f847ed7669bcaeecce0d42",
+            "ai_summary": "World-in-World evaluates generative world models in closed-loop environments, emphasizing task success over visual quality and revealing insights into controllability, data scaling, and compute allocation.",
+            "ai_keywords": [
+                "generative world models",
+                "WM",
+                "visual realism",
+                "predictive perception",
+                "decision making",
+                "open-loop protocols",
+                "closed-loop world",
+                "agent-environment interactions",
+                "unified online planning strategy",
+                "action API",
+                "task success",
+                "visual quality",
+                "controllability",
+                "data scaling law",
+                "action-observation data",
+                "pretrained video generators",
+                "inference-time compute"
+            ]
+        },
+        "translation_title": "World-in-World: 닫힌 루프 세계에서의 월드 모델",
+        "purpose": "Closed-loop 세계에서 생성적 월드 모델이 에이전트의 의사결정을 지원하는지 평가하기 위한 기준 마련",
+        "method": [
+            "World-in-World라는 첫 번째 공개 플랫폼을 도입하여 코어 문제에 접근함(we introduce World-in-World, the first open platform that benchmarks WMs in a closed-loop world that mirrors real agent-environment interactions.)",
+            "네 개의 닫힌 루프 환경을 큐레이션하고 성과를 주 평가 지표로 삼음(We curate four closed-loop environments that rigorously evaluate diverse WMs, prioritize task success as the primary metric.)",
+            "작업 관찰 데이터로 포스트 훈련을 진행하는 것이 기존 비디오 생성기를 업그레이드하는 것보다 효과적임을 발견함.(scaling post-training with action-observation data is more effective than upgrading the pretrained video generators.)"
+        ],
+        "conclusion": "이 연구는 비주얼 품질만으로는 작업 성공을 보장할 수 없으며, 제어 가능성이 더 중요함을 밝혀냈고, 이를 통해 월드 모델의 성능을 향상할 수 있는 방법을 제시함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.18701",
+            "authors": [
+                {
+                    "_id": "68f839917669bcaeecce0c98",
+                    "name": "Yibin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c99",
+                    "name": "Zhimin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9a",
+                    "name": "Yuhang Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9b",
+                    "name": "Jiazi Bu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9c",
+                    "name": "Yujie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9d",
+                    "name": "Yi Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9e",
+                    "name": "Junjun He",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0c9f",
+                    "name": "Chunyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0ca0",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0ca1",
+                    "name": "Cheng Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839917669bcaeecce0ca2",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-21T14:56:46.000Z",
+            "submittedOnDailyAt": "2025-10-22T00:25:38.299Z",
+            "title": "UniGenBench++: A Unified Semantic Evaluation Benchmark for Text-to-Image\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent progress in text-to-image (T2I) generation underscores the importance\nof reliable benchmarks in evaluating how accurately generated images reflect\nthe semantics of their textual prompt. However, (1) existing benchmarks lack\nthe diversity of prompt scenarios and multilingual support, both essential for\nreal-world applicability; (2) they offer only coarse evaluations across primary\ndimensions, covering a narrow range of sub-dimensions, and fall short in\nfine-grained sub-dimension assessment. To address these limitations, we\nintroduce UniGenBench++, a unified semantic assessment benchmark for T2I\ngeneration. Specifically, it comprises 600 prompts organized hierarchically to\nensure both coverage and efficiency: (1) spans across diverse real-world\nscenarios, i.e., 5 main prompt themes and 20 subthemes; (2) comprehensively\nprobes T2I models' semantic consistency over 10 primary and 27 sub evaluation\ncriteria, with each prompt assessing multiple testpoints. To rigorously assess\nmodel robustness to variations in language and prompt length, we provide both\nEnglish and Chinese versions of each prompt in short and long forms. Leveraging\nthe general world knowledge and fine-grained image understanding capabilities\nof a closed-source Multi-modal Large Language Model (MLLM), i.e.,\nGemini-2.5-Pro, an effective pipeline is developed for reliable benchmark\nconstruction and streamlined model assessment. Moreover, to further facilitate\ncommunity use, we train a robust evaluation model that enables offline\nassessment of T2I model outputs. Through comprehensive benchmarking of both\nopen- and closed-sourced T2I models, we systematically reveal their strengths\nand weaknesses across various aspects.",
+            "upvotes": 57,
+            "discussionId": "68f839917669bcaeecce0ca3",
+            "projectPage": "https://codegoat24.github.io/UniGenBench/",
+            "githubRepo": "https://github.com/CodeGoat24/UniGenBench",
+            "ai_summary": "UniGenBench++ is a comprehensive benchmark for text-to-image generation that evaluates semantic consistency across diverse scenarios and languages using a hierarchical prompt structure and a robust evaluation pipeline.",
+            "ai_keywords": [
+                "text-to-image generation",
+                "semantic assessment",
+                "benchmark",
+                "prompt scenarios",
+                "multilingual support",
+                "semantic consistency",
+                "evaluation criteria",
+                "Multi-modal Large Language Model",
+                "MLLM",
+                "Gemini-2.5-Pro",
+                "offline assessment"
+            ],
+            "githubStars": 80
+        },
+        "translation_title": "UniGenBench++: 텍스트-이미지 생성을 위한 통합된 의미 평가 벤치마크",
+        "purpose": "텍스트 프롬프트의 의미를 얼마나 정확히 반영하는지를 평가하기 위한 신뢰할 수 있는 벤치마크 개발",
+        "method": [
+            "600개의 프롬프트를 계층적으로 구성하여 다양한 실제 시나리오를 포함함(we introduce UniGenBench++, a unified semantic assessment benchmark for T2I generation, comprising 600 prompts organized hierarchically to ensure both coverage and efficiency)",
+            "5개의 주요 프롬프트 테마와 20개의 하위 테마를 통해 모델의 의미적 일관성을 포괄적으로 조사함(it spans across diverse real-world scenarios, i.e., 5 main prompt themes and 20 subthemes)",
+            "영어와 중국어 버전을 제공해 모델의 견고성을 엄격하게 평가함(we provide both English and Chinese versions of each prompt in short and long forms)"
+        ],
+        "conclusion": "종합적인 벤치마킹을 통해 다양한 측면에서 열린 소스 및 폐쇄 소스 T2I 모델의 강점과 약점을 체계적으로 밝힘.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.16880",
+            "authors": [
+                {
+                    "_id": "68f839d57669bcaeecce0cbe",
+                    "name": "Weida Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cbf",
+                    "name": "Benteng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc0",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc1",
+                    "name": "Wanhao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc2",
+                    "name": "Shuchen Pu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc3",
+                    "name": "Ben Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc4",
+                    "name": "Jin Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc5",
+                    "name": "Lei Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc6",
+                    "name": "Wanli Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc7",
+                    "name": "Xiaoyong Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc8",
+                    "name": "Tianshu Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cc9",
+                    "name": "Tianfan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cca",
+                    "name": "Shuzhou Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0ccb",
+                    "name": "Jiatong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0ccc",
+                    "name": "Zifu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0ccd",
+                    "name": "Yuqiang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f839d57669bcaeecce0cce",
+                    "name": "Shufei Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-19T15:27:13.000Z",
+            "submittedOnDailyAt": "2025-10-22T00:28:55.434Z",
+            "title": "Chem-R: Learning to Reason as a Chemist",
+            "submittedOnDailyBy": {
+                "_id": "661b9d96c153e4a0a25adc3e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/661b9d96c153e4a0a25adc3e/VRt7kCQ0KdJp-lhPLOajO.jpeg",
+                "isPro": false,
+                "fullname": "Weida Wang",
+                "user": "weidawang",
+                "type": "user"
+            },
+            "summary": "Although large language models (LLMs) have significant potential to advance\nchemical discovery, current LLMs lack core chemical knowledge, produce\nunreliable reasoning trajectories, and exhibit suboptimal performance across\ndiverse chemical tasks. To address these challenges, we propose Chem-R, a\ngeneralizable Chemical Reasoning model designed to emulate the deliberative\nprocesses of chemists. Chem-R is trained through a three-phase framework that\nprogressively builds advanced reasoning capabilities, including: 1) Chemical\nFoundation Training, which establishes core chemical knowledge. 2) Chemical\nReasoning Protocol Distillation, incorporating structured, expert-like\nreasoning traces to guide systematic and reliable problem solving. 3)\nMulti-task Group Relative Policy Optimization that optimizes the model for\nbalanced performance across diverse molecular- and reaction-level tasks. This\nstructured pipeline enables Chem-R to achieve state-of-the-art performance on\ncomprehensive benchmarks, surpassing leading large language models, including\nGemini-2.5-Pro and DeepSeek-R1, by up to 46% on molecular tasks and 66% on\nreaction tasks. Meanwhile, Chem-R also consistently outperforms the existing\nchemical foundation models across both molecular and reaction level tasks.\nThese results highlight Chem-R's robust generalization, interpretability, and\npotential as a foundation for next-generation AI-driven chemical discovery.",
+            "upvotes": 42,
+            "discussionId": "68f839d67669bcaeecce0ccf",
+            "githubRepo": "https://github.com/davidweidawang/Chem-R",
+            "ai_summary": "Chem-R, a three-phase trained Chemical Reasoning model, achieves superior performance on chemical tasks by integrating core knowledge, expert reasoning, and multi-task optimization.",
+            "ai_keywords": [
+                "Chem-R",
+                "Chemical Foundation Training",
+                "Chemical Reasoning Protocol Distillation",
+                "Multi-task Group Relative Policy Optimization",
+                "state-of-the-art performance",
+                "molecular tasks",
+                "reaction tasks",
+                "Gemini-2.5-Pro",
+                "DeepSeek-R1",
+                "robust generalization",
+                "interpretability"
+            ],
+            "githubStars": 8,
+            "organization": {
+                "_id": "6747ee5decec679eafb90450",
+                "name": "ShanghaiAiLab",
+                "fullname": "shanghai ailab "
+            }
+        },
+        "translation_title": "Chem-R: 화학자처럼 추론하는 방법을 배우기",
+        "purpose": "화학 지식을 반영한 신뢰할 수 있는 추론을 통해 화학 발견을 향상시키기 위한 모델 개발",
+        "method": [
+            "Chem-R은 화학자들의 사고 과정을 모방하기 위해 설계된 일반화 가능한 Chemical Reasoning 모델임(we propose Chem-R, a generalizable Chemical Reasoning model designed to emulate the deliberative processes of chemists.)",
+            "세 가지 단계로 진행되는 프레임워크를 통해 훈련됨( Chem-R is trained through a three-phase framework that progressively builds advanced reasoning capabilities.)",
+            "화학 기초 훈련, 전문가처럼 구조화된 추론 흔적을 포함한 화학 추론 프로토콜 증류, 다양한 작업에 최적화된 다중 작업 그룹 상대 정책 최적화를 포함함.",
+            "이러한 구조화된 파이프라인을 통해 Chem-R은 포괄적인 벤치마크에서 최고 성능을 달성함(This structured pipeline enables Chem-R to achieve state-of-the-art performance on comprehensive benchmarks.)"
+        ],
+        "conclusion": "Chem-R은 다양한 화학 작업에서 기존 모델을 초과하는 성능을 보이며, 차세대 AI 기반 화학 발견의 기초로서의 가능성을 강조함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
