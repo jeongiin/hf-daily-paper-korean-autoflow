@@ -1,0 +1,513 @@
+[
+    {
+        "paper": {
+            "id": "2510.19600",
+            "authors": [
+                {
+                    "_id": "68faed18f158a71c5a2f5883",
+                    "name": "Qianli Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5884",
+                    "name": "Siyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5885",
+                    "name": "Yilin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5886",
+                    "name": "Yinhao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5887",
+                    "name": "Yixiang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5888",
+                    "name": "Chang Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f5889",
+                    "name": "Bingjie Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f588a",
+                    "name": "Zhening Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f588b",
+                    "name": "Yanan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "68faed18f158a71c5a2f588c",
+                    "name": "Zhipeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-22T13:53:57.000Z",
+            "submittedOnDailyAt": "2025-10-24T01:37:25.642Z",
+            "title": "Human-Agent Collaborative Paper-to-Page Crafting for Under $0.1",
+            "submittedOnDailyBy": {
+                "_id": "6448b2f53e7b3c11be684348",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6448b2f53e7b3c11be684348/QvlUQG3pWf8ZyEVBV6F7w.jpeg",
+                "isPro": true,
+                "fullname": "Qianli Ma",
+                "user": "Mqleet",
+                "type": "user"
+            },
+            "summary": "In the quest for scientific progress, communicating research is as vital as\nthe discovery itself. Yet, researchers are often sidetracked by the manual,\nrepetitive chore of building project webpages to make their dense papers\naccessible. While automation has tackled static slides and posters, the\ndynamic, interactive nature of webpages has remained an unaddressed challenge.\nTo bridge this gap, we reframe the problem, arguing that the solution lies not\nin a single command, but in a collaborative, hierarchical process. We introduce\nAutoPage, a novel multi-agent system that embodies this philosophy.\nAutoPage deconstructs paper-to-page creation into a coarse-to-fine pipeline\nfrom narrative planning to multimodal content generation and interactive\nrendering. To combat AI hallucination, dedicated \"Checker\" agents verify each\nstep against the source paper, while optional human checkpoints ensure the\nfinal product aligns perfectly with the author's vision, transforming the\nsystem from a mere tool into a powerful collaborative assistant. To rigorously\nvalidate our approach, we also construct PageBench, the first\nbenchmark for this new task. Experiments show AutoPage not only generates\nhigh-quality, visually appealing pages but does so with remarkable efficiency\nin under 15 minutes for less than \\0.1. Code and dataset will be released at\nhttps://mqleet.github.io/AutoPage_ProjectPage/{Webpage}$.",
+            "upvotes": 54,
+            "discussionId": "68faed18f158a71c5a2f588d",
+            "projectPage": "https://mqleet.github.io/AutoPage_ProjectPage",
+            "githubRepo": "https://github.com/AutoLab-SAI-SJTU/AutoPage",
+            "ai_summary": "AutoPage, a multi-agent system, automates the creation of interactive research webpages through a hierarchical process, ensuring high-quality and efficient results.",
+            "ai_keywords": [
+                "multi-agent system",
+                "narrative planning",
+                "multimodal content generation",
+                "interactive rendering",
+                "AI hallucination",
+                "Checker agents",
+                "human checkpoints",
+                "PageBench",
+                "benchmark"
+            ],
+            "githubStars": 71,
+            "organization": {
+                "_id": "68ee0edd23dc954f7744ac27",
+                "name": "AutoLab-SJTU",
+                "fullname": "AutoLab"
+            }
+        },
+        "translation_title": "Human-Agent 협력형 논문에서 페이지 제작하기: 비용 0.1달러 이하로",
+        "purpose": "연구 결과를 효과적으로 전달하기 위해 자동화된 웹페이지 제작 시스템 개발",
+        "method": [
+            "문제 해결을 단일 명령이 아닌 협력적이고 계층적인 프로세스로 재구성함.(we reframe the problem, arguing that the solution lies not in a single command, but in a collaborative, hierarchical process.)",
+            "AutoPage라는 새로운 다중 에이전트 시스템을 도입하여 구조화된 방식으로 웹페이지를 제작함.(We introduce AutoPage, a novel multi-agent system that embodies this philosophy.)",
+            "프로젝트 생성 과정을 서사 계획에서 멀티모달 콘텐츠 생성 및 상호작용 렌더링으로 세분화하여 효율성을 높임.(AutoPage deconstructs paper-to-page creation into a coarse-to-fine pipeline from narrative planning to multimodal content generation and interactive rendering.)",
+            "AI 환각을 방지하기 위해 'Checker' 에이전트를 통해 각 단계를 검증하고, 선택적인 인간 체크포인트를 통해 최종 결과물의 정확성을 보장함.(To combat AI hallucination, dedicated 'Checker' agents verify each step against the source paper, while optional human checkpoints ensure the final product aligns perfectly with the author's vision.)"
+        ],
+        "conclusion": "AutoPage는 15분 이내에 고품질의 웹페이지를 생성하며 비용은 0.1달러 이하로 유지됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.19779",
+            "authors": [
+                {
+                    "_id": "68f983f6b9b2e4ae04673741",
+                    "user": {
+                        "_id": "67dc66fe55c24fc4f981a4ab",
+                        "avatarUrl": "/avatars/7bd900ade802d99db7c562ad6c2f6661.svg",
+                        "isPro": false,
+                        "fullname": "Yuezhou Hu",
+                        "user": "yuezhouhu",
+                        "type": "user"
+                    },
+                    "name": "Yuezhou Hu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-23T14:51:20.772Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f983f6b9b2e4ae04673742",
+                    "name": "Jiaxin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f983f6b9b2e4ae04673743",
+                    "name": "Xinyu Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f983f6b9b2e4ae04673744",
+                    "name": "Tuo Zhao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/67dc66fe55c24fc4f981a4ab/ysq4UzVT_dquWCpvozNWh.png"
+            ],
+            "publishedAt": "2025-10-22T17:13:00.000Z",
+            "submittedOnDailyAt": "2025-10-24T02:14:45.526Z",
+            "title": "AdaSPEC: Selective Knowledge Distillation for Efficient Speculative\n  Decoders",
+            "submittedOnDailyBy": {
+                "_id": "67dc66fe55c24fc4f981a4ab",
+                "avatarUrl": "/avatars/7bd900ade802d99db7c562ad6c2f6661.svg",
+                "isPro": false,
+                "fullname": "Yuezhou Hu",
+                "user": "yuezhouhu",
+                "type": "user"
+            },
+            "summary": "Speculative Decoding (SD) accelerates large language model inference by\nemploying a small draft model to generate predictions, which are then verified\nby a larger target model. The effectiveness of SD hinges on the alignment\nbetween these models, which is typically enhanced by Knowledge Distillation\n(KD). However, conventional KD methods aim to minimize the KL divergence\nbetween the draft and target models across all tokens, a goal that is\nmisaligned with the true objective of SD, which is to maximize token acceptance\nrate. Therefore, draft models often struggle to fully assimilate the target\nmodel's knowledge due to capacity constraints, leading to suboptimal\nperformance. To address this challenge, we propose AdaSPEC, a novel method that\nincorporates selective token filtering into the KD process. AdaSPEC utilizes a\nreference model to identify and filter out difficult-to-fit tokens, enabling\nthe distillation of a draft model that better aligns with the target model on\nsimpler tokens. This approach improves the overall token acceptance rate\nwithout compromising generation quality. We evaluate AdaSPEC across diverse\ntasks, including arithmetic reasoning, instruction-following, coding, and\nsummarization, using model configurations of 31M/1.4B and 350M/2.7B parameters.\nOur results demonstrate that AdaSPEC consistently outperforms the\nstate-of-the-art DistillSpec method, achieving higher acceptance rates across\nall tasks (up to 15\\%). The code is publicly available at\nhttps://github.com/yuezhouhu/adaspec.",
+            "upvotes": 47,
+            "discussionId": "68f983f7b9b2e4ae04673745",
+            "githubRepo": "https://github.com/yuezhouhu/adaspec",
+            "ai_summary": "AdaSPEC enhances speculative decoding by selectively filtering tokens during knowledge distillation, improving token acceptance rates without sacrificing generation quality.",
+            "ai_keywords": [
+                "Speculative Decoding",
+                "Knowledge Distillation",
+                "KL divergence",
+                "token acceptance rate",
+                "selective token filtering",
+                "reference model",
+                "arithmetic reasoning",
+                "instruction-following",
+                "coding",
+                "summarization"
+            ],
+            "githubStars": 12,
+            "organization": {
+                "_id": "64155eaa95fb6f824b237c3d",
+                "name": "GeorgiaTech",
+                "fullname": "Georgia Institute of Technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64155e8abe60230f2f40b03a/3i-AL3LrNkaTarSKnaGy8.png"
+            }
+        },
+        "translation_title": "AdaSPEC: 효율적인 추정 디코더를 위한 선택적 지식 증류",
+        "purpose": "Speculative Decoding의 성능을 높이기 위해 선택적 토큰 필터링을 통한 지식 증류 방법 연구",
+        "method": [
+            "기존의 지식 증류 방식이 모든 토큰의 KL divergence를 최소화하려는 목표와 Speculative Decoding의 목적 사이의 불일치를 해결하기 위해(AdaSPEC aims to address this challenge by incorporating selective token filtering into the KD process.)",
+            "참조 모델을 이용해 조정이 어려운 토큰을 식별하고 필터링하여 더 간단한 토큰들과의 정렬을 높임(AdaSPEC utilizes a reference model to identify and filter out difficult-to-fit tokens, enabling the distillation of a draft model that better aligns with the target model on simpler tokens.)",
+            "다양한 작업에 대해 AdaSPEC을 평가하여 다른 최신 방법보다 더 높은 수용률을 기록함(We evaluate AdaSPEC across diverse tasks and demonstrate that it consistently outperforms the state-of-the-art DistillSpec method.)"
+        ],
+        "conclusion": "AdaSPEC은 모든 작업에서 최고 15% 더 높은 수용률을 달성하며, 생성 품질을 유지하면서 성능을 개선함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.20579",
+            "authors": [
+                {
+                    "_id": "68fadb71f158a71c5a2f582a",
+                    "name": "Jiahao Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f582b",
+                    "name": "Xiangtai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f582c",
+                    "name": "Haochen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f582d",
+                    "name": "Yue Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f582e",
+                    "name": "Tao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f582f",
+                    "name": "Lingdong Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f5830",
+                    "name": "Yunhai Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f5831",
+                    "name": "Anran Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f5832",
+                    "name": "Zhiyang Teng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f5833",
+                    "name": "Yujing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fadb71f158a71c5a2f5834",
+                    "name": "Zhuochen Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-23T14:05:56.000Z",
+            "submittedOnDailyAt": "2025-10-24T00:20:51.680Z",
+            "title": "Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal\n  Evidence",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Most video reasoning models only generate textual reasoning traces without\nindicating when and where key evidence appears. Recent models such as OpenAI-o3\nhave sparked wide interest in evidence-centered reasoning for images, yet\nextending this ability to videos is more challenging, as it requires joint\ntemporal tracking and spatial localization across dynamic scenes. We introduce\nOpen-o3 Video, a non-agent framework that integrates explicit spatio-temporal\nevidence into video reasoning, and carefully collect training data and design\ntraining strategies to address the aforementioned challenges. The model\nhighlights key timestamps, objects, and bounding boxes alongside its answers,\nallowing reasoning to be grounded in concrete visual observations. To enable\nthis functionality, we first curate and build two high-quality datasets,\nSTGR-CoT-30k for SFT and STGR-RL-36k for RL, with carefully constructed\ntemporal and spatial annotations, since most existing datasets offer either\ntemporal spans for videos or spatial boxes on images, lacking unified\nspatio-temporal supervision and reasoning traces. Then, we adopt a cold-start\nreinforcement learning strategy with multiple specially designed rewards that\njointly encourage answer accuracy, temporal alignment, and spatial precision.\nOn V-STAR benchmark, Open-o3 Video achieves state-of-the-art performance,\nraising mAM by 14.4% and mLGM by 24.2% on the Qwen2.5-VL baseline. Consistent\nimprovements are also observed on a broad range of video understanding\nbenchmarks, including VideoMME, WorldSense, VideoMMMU, and TVGBench. Beyond\naccuracy, the reasoning traces produced by Open-o3 Video also provide valuable\nsignals for test-time scaling, enabling confidence-aware verification and\nimproving answer reliability.",
+            "upvotes": 31,
+            "discussionId": "68fadb72f158a71c5a2f5835",
+            "projectPage": "https://marinero4972.github.io/projects/Open-o3-Video/",
+            "githubRepo": "https://github.com/marinero4972/Open-o3-Video",
+            "ai_summary": "Open-o3 Video integrates spatio-temporal evidence into video reasoning, achieving state-of-the-art performance on multiple benchmarks and providing valuable reasoning traces for test-time scaling.",
+            "ai_keywords": [
+                "spatio-temporal evidence",
+                "video reasoning",
+                "temporal tracking",
+                "spatial localization",
+                "non-agent framework",
+                "SFT",
+                "RL",
+                "cold-start reinforcement learning",
+                "V-STAR benchmark",
+                "mAM",
+                "mLGM",
+                "VideoMME",
+                "WorldSense",
+                "VideoMMMU",
+                "TVGBench",
+                "reasoning traces",
+                "confidence-aware verification"
+            ],
+            "githubStars": 31,
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "Open-o3 비디오: 명시적인 시공간 증거를 통한 근거 기반 비디오 추론",
+        "purpose": "비디오 추론 모델에 명확한 시공간 증거를 통합하여 더 정확한 비디오 이해를 목표로 함.",
+        "method": [
+            "명시적인 시공간 증거를 통합한 비디오 추론 프레임워크인 Open-o3 Video를 소개함(We introduce Open-o3 Video, a non-agent framework that integrates explicit spatio-temporal evidence into video reasoning.)",
+            "SFT 및 RL을 위한 두 개의 고품질 데이터셋(STGR-CoT-30k, STGR-RL-36k)을 구축하여 시공간 주석을 정교하게 조정함(we first curate and build two high-quality datasets, STGR-CoT-30k for SFT and STGR-RL-36k for RL, with carefully constructed temporal and spatial annotations.)",
+            "정답 정확도, 시간 정렬, 공간 정밀도를 함께 장려하는 여러 보상을 가진 차가운 시작 강화를 채택함(Then, we adopt a cold-start reinforcement learning strategy with multiple specially designed rewards that jointly encourage answer accuracy, temporal alignment, and spatial precision.)"
+        ],
+        "conclusion": "Open-o3 Video는 V-STAR 벤치마크에서 최첨단 성능을 달성하였고, 비디오 이해의 다양한 벤치마크에서도 일관된 개선을 나타냄.",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.20822",
+            "authors": [
+                {
+                    "_id": "68fada12f158a71c5a2f5804",
+                    "name": "Yihao Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f5805",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f5806",
+                    "name": "Yue Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f5807",
+                    "name": "Qiuyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f5808",
+                    "name": "Wen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f5809",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580a",
+                    "name": "Hanlin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580b",
+                    "name": "Yixuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580c",
+                    "name": "Cheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580d",
+                    "name": "Yanhong Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580e",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fada12f158a71c5a2f580f",
+                    "name": "Huamin Qu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-23T17:59:59.000Z",
+            "submittedOnDailyAt": "2025-10-24T00:15:58.230Z",
+            "title": "HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video\n  Narratives",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "State-of-the-art text-to-video models excel at generating isolated clips but\nfall short of creating the coherent, multi-shot narratives, which are the\nessence of storytelling. We bridge this \"narrative gap\" with HoloCine, a model\nthat generates entire scenes holistically to ensure global consistency from the\nfirst shot to the last. Our architecture achieves precise directorial control\nthrough a Window Cross-Attention mechanism that localizes text prompts to\nspecific shots, while a Sparse Inter-Shot Self-Attention pattern (dense within\nshots but sparse between them) ensures the efficiency required for minute-scale\ngeneration. Beyond setting a new state-of-the-art in narrative coherence,\nHoloCine develops remarkable emergent abilities: a persistent memory for\ncharacters and scenes, and an intuitive grasp of cinematic techniques. Our work\nmarks a pivotal shift from clip synthesis towards automated filmmaking, making\nend-to-end cinematic creation a tangible future. Our code is available at:\nhttps://holo-cine.github.io/.",
+            "upvotes": 19,
+            "discussionId": "68fada12f158a71c5a2f5810",
+            "projectPage": "https://holo-cine.github.io",
+            "githubRepo": "https://github.com/yihao-meng/HoloCine",
+            "ai_summary": "HoloCine generates coherent multi-shot narratives using a Window Cross-Attention mechanism and Sparse Inter-Shot Self-Attention, enabling end-to-end cinematic creation.",
+            "ai_keywords": [
+                "Window Cross-Attention",
+                "Sparse Inter-Shot Self-Attention",
+                "text-to-video models",
+                "narrative coherence",
+                "automated filmmaking"
+            ],
+            "githubStars": 93,
+            "organization": {
+                "_id": "67c1d682826160b28f778510",
+                "name": "antgroup",
+                "fullname": "Ant Group",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/7VcPHdLSGlged3ixK1dys.jpeg"
+            }
+        },
+        "translation_title": "HoloCine: 영화 다중 장면 긴 비디오 내러티브의 전체적 생성",
+        "purpose": "일관된 스토리텔링을 위한 다중 장면 내러티브 생성 개선",
+        "method": [
+            "HoloCine 모델을 통해 전체 장면을 생성하여 처음부터 끝까지 전역 일관성을 확보함(State-of-the-art text-to-video models excel at generating isolated clips but fall short of creating the coherent, multi-shot narratives, which are the essence of storytelling. We bridge this 'narrative gap' with HoloCine, a model that generates entire scenes holistically to ensure global consistency from the first shot to the last.)",
+            "Window Cross-Attention 메커니즘을 사용하여 특정 장면에 텍스트 프롬프트를 국소화하고, Sparse Inter-Shot Self-Attention 패턴을 통해 효율성을 확보함(Our architecture achieves precise directorial control through a Window Cross-Attention mechanism that localizes text prompts to specific shots, while a Sparse Inter-Shot Self-Attention pattern ensures the efficiency required for minute-scale generation.)"
+        ],
+        "conclusion": "HoloCine는 스토리 내러티브 일관성에서 새로운 최첨단을 세우고, 캐릭터와 장면에 대한 지속적인 기억 및 영화 기법에 대한 직관적인 이해와 같은 주목할 만한 새로운 능력을 개발함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.19304",
+            "authors": [
+                {
+                    "_id": "68fa31fef158a71c5a2f5608",
+                    "user": {
+                        "_id": "64c37ee87d89024360937d81",
+                        "avatarUrl": "/avatars/cc9733b0862bbdca5e00f61a7ff7bb94.svg",
+                        "isPro": false,
+                        "fullname": "mingyu jo",
+                        "user": "jojo0217",
+                        "type": "user"
+                    },
+                    "name": "Mingyu Jo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-24T01:07:20.272Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fa31fef158a71c5a2f5609",
+                    "name": "Jaesik Yoon",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fa31fef158a71c5a2f560a",
+                    "name": "Justin Deschenaux",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fa31fef158a71c5a2f560b",
+                    "name": "Caglar Gulcehre",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fa31fef158a71c5a2f560c",
+                    "name": "Sungjin Ahn",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-22T07:08:47.000Z",
+            "submittedOnDailyAt": "2025-10-24T00:27:36.960Z",
+            "title": "Loopholing Discrete Diffusion: Deterministic Bypass of the Sampling Wall",
+            "submittedOnDailyBy": {
+                "_id": "64c37ee87d89024360937d81",
+                "avatarUrl": "/avatars/cc9733b0862bbdca5e00f61a7ff7bb94.svg",
+                "isPro": false,
+                "fullname": "mingyu jo",
+                "user": "jojo0217",
+                "type": "user"
+            },
+            "summary": "Discrete diffusion models offer a promising alternative to autoregressive\ngeneration through parallel decoding, but they suffer from a sampling wall:\nonce categorical sampling occurs, rich distributional information collapses\ninto one-hot vectors and cannot be propagated across steps, forcing subsequent\nsteps to operate with limited information. To mitigate this problem, we\nintroduce Loopholing, a novel and simple mechanism that preserves this\ninformation via a deterministic latent pathway, leading to Loopholing Discrete\nDiffusion Models (LDDMs). Trained efficiently with a self-conditioning\nstrategy, LDDMs achieve substantial gains-reducing generative perplexity by up\nto 61% over prior baselines, closing (and in some cases surpassing) the gap\nwith autoregressive models, and producing more coherent text. Applied to\nreasoning tasks, LDDMs also improve performance on arithmetic benchmarks such\nas Countdown and Game of 24. These results also indicate that loopholing\nmitigates idle steps and oscillations, providing a scalable path toward\nhigh-quality non-autoregressive text generation.",
+            "upvotes": 16,
+            "discussionId": "68fa31fef158a71c5a2f560d",
+            "projectPage": "https://sites.google.com/view/lddms/home",
+            "ai_summary": "Loopholing Discrete Diffusion Models (LDDMs) enhance text generation by preserving distributional information through a deterministic latent pathway, reducing perplexity and improving coherence and performance on reasoning tasks.",
+            "ai_keywords": [
+                "discrete diffusion models",
+                "parallel decoding",
+                "sampling wall",
+                "one-hot vectors",
+                "Loopholing",
+                "deterministic latent pathway",
+                "Loopholing Discrete Diffusion Models (LDDMs)",
+                "self-conditioning strategy",
+                "generative perplexity",
+                "autoregressive models",
+                "coherent text",
+                "arithmetic benchmarks",
+                "Countdown",
+                "Game of 24",
+                "idle steps",
+                "oscillations",
+                "non-autoregressive text generation"
+            ]
+        },
+        "translation_title": "Loopholing Discrete Diffusion: 샘플링 장애물의 결정론적 우회 방법",
+        "purpose": "디스크리트 디퓨전 모델의 샘플링 문제를 해결하여 정보 손실을 줄이고 텍스트 생성 성능을 향상시키기 위한 연구",
+        "method": [
+            "샘플링 정보가 손실되지 않도록 하는 결정적인 잠재 경로를 통해 정보 보존하는 Loopholing 기법을 도입함(To mitigate this problem, we introduce Loopholing, a novel and simple mechanism that preserves this information via a deterministic latent pathway.)",
+            "자기 조건화 전략을 활용하여 LDDMs를 효율적으로 학습함(Trained efficiently with a self-conditioning strategy, LDDMs achieve substantial gains.)",
+            "LDDMs를 통해 생성을 담당하는 퍼플렉시티를 61%까지 감소시키고, 이전 모델들과의 성능 차이를 줄임(LDDMs achieve substantial gains-reducing generative perplexity by up to 61% over prior baselines.)"
+        ],
+        "conclusion": "Loopholing 기법은 비자기 회귀 텍스트 생성 품질을 향상시키고, 산수 기준에서 성능을 높이는데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
