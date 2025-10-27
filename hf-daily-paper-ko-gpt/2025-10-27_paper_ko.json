@@ -1,0 +1,672 @@
+[
+    {
+        "paper": {
+            "id": "2510.21618",
+            "authors": [
+                {
+                    "_id": "68fed3876cdff8b857f47116",
+                    "name": "Xiaoxi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f47117",
+                    "user": {
+                        "_id": "63db16330cc3bc12bc0b6f8f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63db16330cc3bc12bc0b6f8f/ld0JQIfX1SBlDVDOmw9VT.jpeg",
+                        "isPro": false,
+                        "fullname": "Wenxiang Jiao",
+                        "user": "wxjiao",
+                        "type": "user"
+                    },
+                    "name": "Wenxiang Jiao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:27:31.186Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f47118",
+                    "name": "Jiarui Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f47119",
+                    "user": {
+                        "_id": "61cd4b833dd34ba1985e0753",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61cd4b833dd34ba1985e0753/BfHfrwotoMESpXZOHiIe4.png",
+                        "isPro": false,
+                        "fullname": "KABI",
+                        "user": "dongguanting",
+                        "type": "user"
+                    },
+                    "name": "Guanting Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:27:28.550Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711a",
+                    "name": "Jiajie Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711b",
+                    "name": "Yinuo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711c",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711d",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711e",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f4711f",
+                    "name": "Yuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fed3876cdff8b857f47120",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-24T16:24:01.000Z",
+            "submittedOnDailyAt": "2025-10-27T00:37:53.632Z",
+            "title": "DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+            "submittedOnDailyBy": {
+                "_id": "66e03eace17fb5ff054b7686",
+                "avatarUrl": "/avatars/2b739ff11e43dd9e701c647a92617f20.svg",
+                "isPro": false,
+                "fullname": "Xiaoxi Li",
+                "user": "lixiaoxi45",
+                "type": "user"
+            },
+            "summary": "Large reasoning models have demonstrated strong problem-solving abilities,\nyet real-world tasks often require external tools and long-horizon\ninteractions. Existing agent frameworks typically follow predefined workflows,\nwhich limit autonomous and global task completion. In this paper, we introduce\nDeepAgent, an end-to-end deep reasoning agent that performs autonomous\nthinking, tool discovery, and action execution within a single, coherent\nreasoning process. To address the challenges of long-horizon interactions,\nparticularly the context length explosion from multiple tool calls and the\naccumulation of interaction history, we introduce an autonomous memory folding\nmechanism that compresses past interactions into structured episodic, working,\nand tool memories, reducing error accumulation while preserving critical\ninformation. To teach general-purpose tool use efficiently and stably, we\ndevelop an end-to-end reinforcement learning strategy, namely ToolPO, that\nleverages LLM-simulated APIs and applies tool-call advantage attribution to\nassign fine-grained credit to the tool invocation tokens. Extensive experiments\non eight benchmarks, including general tool-use tasks (ToolBench, API-Bank,\nTMDB, Spotify, ToolHop) and downstream applications (ALFWorld, WebShop, GAIA,\nHLE), demonstrate that DeepAgent consistently outperforms baselines across both\nlabeled-tool and open-set tool retrieval scenarios. This work takes a step\ntoward more general and capable agents for real-world applications. The code\nand demo are available at https://github.com/RUC-NLPIR/DeepAgent.",
+            "upvotes": 56,
+            "discussionId": "68fed3876cdff8b857f47121",
+            "githubRepo": "https://github.com/RUC-NLPIR/DeepAgent",
+            "ai_summary": "DeepAgent, an end-to-end deep reasoning agent, autonomously performs thinking, tool discovery, and action execution using memory folding and reinforcement learning, outperforming baselines in various tool-use and application tasks.",
+            "ai_keywords": [
+                "DeepAgent",
+                "autonomous thinking",
+                "tool discovery",
+                "action execution",
+                "autonomous memory folding",
+                "episodic memory",
+                "working memory",
+                "tool memory",
+                "reinforcement learning",
+                "ToolPO",
+                "LLM-simulated APIs",
+                "tool-call advantage attribution",
+                "ToolBench",
+                "API-Bank",
+                "TMDB",
+                "Spotify",
+                "ToolHop",
+                "ALFWorld",
+                "WebShop",
+                "GAIA",
+                "HLE"
+            ],
+            "githubStars": 60
+        },
+        "translation_title": "DeepAgent: 확장 가능한 도구 세트를 가진 일반적인 추론 에이전트",
+        "purpose": "현실 세계의 문제를 해결하기 위해 외부 도구와 긴 상호작용을 요구하는 작업을 더 잘 수행할 수 있는 에이전트 연구",
+        "method": [
+            "DeepAgent라는 끝에서 끝으로 연결된 추론 에이전트를 소개하여 자율적으로 사고하고, 도구를 발견하며, 행동을 실행함(Introduce DeepAgent, an end-to-end deep reasoning agent that performs autonomous thinking, tool discovery, and action execution within a single, coherent reasoning process.)",
+            "긴 상호작용을 처리하기 위해 과거 상호작용을 구조화된 에피소드, 작업 및 도구 기억으로 압축하는 자율 메모리 접기 메커니즘을 도입함(we introduce an autonomous memory folding mechanism that compresses past interactions into structured episodic, working, and tool memories.)",
+            "효율적이고 안정적인 도구 사용을 가르치기 위해 ToolPO라는 강화 학습 전략을 개발함(we develop an end-to-end reinforcement learning strategy, namely ToolPO, that leverages LLM-simulated APIs.)"
+        ],
+        "conclusion": "DeepAgent는 여러 벤치마크에서 일관되게 기존 모델보다 우수한 성능을 보이며, 현실 세계의 응용을 위한 보다 일반적이고 능력 있는 에이전트를 향한 첫 걸음을 내딛음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.20888",
+            "authors": [
+                {
+                    "_id": "68feb9916cdff8b857f470b6",
+                    "user": {
+                        "_id": "650447dd52ca06fef957f05d",
+                        "avatarUrl": "/avatars/511c11ac9b3cc7a162bda5e07f6ee0a3.svg",
+                        "isPro": true,
+                        "fullname": "Yuxuan BIAN",
+                        "user": "BianYx",
+                        "type": "user"
+                    },
+                    "name": "Yuxuan Bian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:27:54.652Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470b7",
+                    "name": "Xin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470b8",
+                    "name": "Zenan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470b9",
+                    "name": "Tiancheng Zhi",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470ba",
+                    "name": "Shen Sang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470bb",
+                    "name": "Linjie Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feb9916cdff8b857f470bc",
+                    "name": "Qiang Xu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-23T17:59:52.000Z",
+            "submittedOnDailyAt": "2025-10-27T00:31:33.559Z",
+            "title": "Video-As-Prompt: Unified Semantic Control for Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "650447dd52ca06fef957f05d",
+                "avatarUrl": "/avatars/511c11ac9b3cc7a162bda5e07f6ee0a3.svg",
+                "isPro": true,
+                "fullname": "Yuxuan BIAN",
+                "user": "BianYx",
+                "type": "user"
+            },
+            "summary": "Unified, generalizable semantic control in video generation remains a\ncritical open challenge. Existing methods either introduce artifacts by\nenforcing inappropriate pixel-wise priors from structure-based controls, or\nrely on non-generalizable, condition-specific finetuning or task-specific\narchitectures. We introduce Video-As-Prompt (VAP), a new paradigm that reframes\nthis problem as in-context generation. VAP leverages a reference video as a\ndirect semantic prompt, guiding a frozen Video Diffusion Transformer (DiT) via\na plug-and-play Mixture-of-Transformers (MoT) expert. This architecture\nprevents catastrophic forgetting and is guided by a temporally biased position\nembedding that eliminates spurious mapping priors for robust context retrieval.\nTo power this approach and catalyze future research, we built VAP-Data, the\nlargest dataset for semantic-controlled video generation with over 100K paired\nvideos across 100 semantic conditions. As a single unified model, VAP sets a\nnew state-of-the-art for open-source methods, achieving a 38.7% user preference\nrate that rivals leading condition-specific commercial models. VAP's strong\nzero-shot generalization and support for various downstream applications mark a\nsignificant advance toward general-purpose, controllable video generation.",
+            "upvotes": 28,
+            "discussionId": "68feb9916cdff8b857f470bd",
+            "projectPage": "https://bytedance.github.io/Video-As-Prompt/",
+            "githubRepo": "https://github.com/bytedance/Video-As-Prompt",
+            "ai_summary": "Video-As-Prompt (VAP) uses a reference video to guide a frozen Video Diffusion Transformer via a Mixture-of-Transformers expert, achieving state-of-the-art results in semantic-controlled video generation with strong zero-shot generalization.",
+            "ai_keywords": [
+                "Video-As-Prompt",
+                "Video Diffusion Transformer",
+                "DiT",
+                "Mixture-of-Transformers",
+                "MoT",
+                "catastrophic forgetting",
+                "temporally biased position embedding",
+                "VAP-Data",
+                "zero-shot generalization"
+            ],
+            "githubStars": 98,
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "Video-As-Prompt: 비디오 생성을 위한 통합 의미 제어",
+        "purpose": "비디오 생성에서의 통합적이고 일반화 가능한 의미 제어를 달성하기 위한 새로운 접근 방안 제시",
+        "method": [
+            "이 문제를 인컨텍스트 생성으로 재구성하는 새로운 패러다임인 Video-As-Prompt (VAP)을 도입함(We introduce Video-As-Prompt (VAP), a new paradigm that reframes this problem as in-context generation.)",
+            "참조 비디오를 직접적인 의미 프롬프트로 활용하여 고정된 Video Diffusion Transformer(디지털 이종 변환기)를 안내함(VAP leverages a reference video as a direct semantic prompt, guiding a frozen Video Diffusion Transformer (DiT)).",
+            "Mixture-of-Transformers(MoT) 전문가를 클립 앤 플레이 방식으로 사용하여 맥락 검색의 강인성을 높임(This architecture prevents catastrophic forgetting and is guided by a temporally biased position embedding...).",
+            "VAP-Data라는 100개 의미 조건에 걸쳐 100K개의 쌍 비디오를 포함한 데이터셋을 구축함(To power this approach and catalyze future research, we built VAP-Data, the largest dataset for semantic-controlled video generation...)."
+        ],
+        "conclusion": "VAP는 새로운 최첨단 성과를 달성하며, 다양한 하위 응용 프로그램을 지원하는 비디오 생성의 중요한 발전을 이루었다.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.21583",
+            "authors": [
+                {
+                    "_id": "68feef306cdff8b857f471c6",
+                    "name": "Yifu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471c7",
+                    "user": {
+                        "_id": "647076467fd7ecdbd0ea03b1",
+                        "avatarUrl": "/avatars/6e090ea5f88977c6f70544175094c2a6.svg",
+                        "isPro": false,
+                        "fullname": "Penghui Du",
+                        "user": "eternaldolphin",
+                        "type": "user"
+                    },
+                    "name": "Penghui Du",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:25:20.740Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471c8",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471c9",
+                    "name": "Sinan Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471ca",
+                    "name": "Tiantian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471cb",
+                    "name": "Yongzhe Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471cc",
+                    "user": {
+                        "_id": "68e741ea3edb0ff47e20084e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68e741ea3edb0ff47e20084e/OyBgFqcU4QWyPF_K58Gt5.jpeg",
+                        "isPro": false,
+                        "fullname": "Wu Kai",
+                        "user": "KaiiWuu1993",
+                        "type": "user"
+                    },
+                    "name": "Kai Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:25:12.953Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471cd",
+                    "name": "Kun Gai",
+                    "hidden": false
+                },
+                {
+                    "_id": "68feef306cdff8b857f471ce",
+                    "name": "Xueqian Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-24T15:50:36.000Z",
+            "submittedOnDailyAt": "2025-10-27T04:06:40.964Z",
+            "title": "Sample By Step, Optimize By Chunk: Chunk-Level GRPO For Text-to-Image\n  Generation",
+            "submittedOnDailyBy": {
+                "_id": "6419e0b3ed725fef6444f53a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6419e0b3ed725fef6444f53a/3ZzIafBJa50-gAu1PASuG.png",
+                "isPro": false,
+                "fullname": "Yu Changqian",
+                "user": "Changqian",
+                "type": "user"
+            },
+            "summary": "Group Relative Policy Optimization (GRPO) has shown strong potential for\nflow-matching-based text-to-image (T2I) generation, but it faces two key\nlimitations: inaccurate advantage attribution, and the neglect of temporal\ndynamics of generation. In this work, we argue that shifting the optimization\nparadigm from the step level to the chunk level can effectively alleviate these\nissues. Building on this idea, we propose Chunk-GRPO, the first chunk-level\nGRPO-based approach for T2I generation. The insight is to group consecutive\nsteps into coherent 'chunk's that capture the intrinsic temporal dynamics of\nflow matching, and to optimize policies at the chunk level. In addition, we\nintroduce an optional weighted sampling strategy to further enhance\nperformance. Extensive experiments show that ChunkGRPO achieves superior\nresults in both preference alignment and image quality, highlighting the\npromise of chunk-level optimization for GRPO-based methods.",
+            "upvotes": 24,
+            "discussionId": "68feef306cdff8b857f471cf",
+            "ai_summary": "Chunk-GRPO, a chunk-level optimization approach for text-to-image generation, improves preference alignment and image quality by addressing inaccurate advantage attribution and neglecting temporal dynamics.",
+            "ai_keywords": [
+                "flow-matching-based",
+                "text-to-image",
+                "T2I",
+                "Group Relative Policy Optimization",
+                "GRPO",
+                "chunk-level",
+                "temporal dynamics",
+                "policy optimization",
+                "weighted sampling strategy"
+            ],
+            "organization": {
+                "_id": "665f02ce9f9e5b38d0a256a8",
+                "name": "Kwai-Kolors",
+                "fullname": "Kolors Team, Kuaishou Technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62f0babaef9cc6810cec02ff/sVnELkcfVo5kxg5308rkr.png"
+            }
+        },
+        "translation_title": "Sample By Step, Optimize By Chunk: Chunk-Level GRPO를 통한 Text-to-Image 생성",
+        "purpose": "Text-to-Image 생성의 성능을 높이기 위한 Chunk-Level 최적화 접근 방식 개발",
+        "method": [
+            "GRPO의 제약을 해결하기 위해 최적화 패러다임을 단계에서 청크 수준으로 전환함에 대해 논의함(In this work, we argue that shifting the optimization paradigm from the step level to the chunk level can effectively alleviate these issues.)",
+            "연속적인 단계를 하나의 일관된 '청크'로 그룹화하여 흐름 일치의 내재적 시간 동역학을 포착함(Building on this idea, we propose Chunk-GRPO, the first chunk-level GRPO-based approach for T2I generation.)",
+            "선택적 가중치 샘플링 전략을 도입하여 성능을 further 향상시킴(In addition, we introduce an optional weighted sampling strategy to further enhance performance.)"
+        ],
+        "conclusion": "Chunk-GRPO는 선호의 정렬과 이미지 품질 모두에서 우수한 결과를 달성하여 GRPO 기반 방법의 청크 수준 최적화 가능성을 강조함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.19871",
+            "authors": [
+                {
+                    "_id": "68fedbcc6cdff8b857f4716e",
+                    "name": "Yatai Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f4716f",
+                    "user": {
+                        "_id": "63a9414e32ed73936ec0a0c8",
+                        "avatarUrl": "/avatars/f181e1bb480502c2680be5296a036bdd.svg",
+                        "isPro": true,
+                        "fullname": "wybertwang",
+                        "user": "wybertwang",
+                        "type": "user"
+                    },
+                    "name": "Teng Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-27T10:27:18.548Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f47170",
+                    "name": "Yuying Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f47171",
+                    "name": "Zhiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f47172",
+                    "name": "Sidi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f47173",
+                    "name": "Ying Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68fedbcc6cdff8b857f47174",
+                    "name": "Ping Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-22T06:58:55.000Z",
+            "submittedOnDailyAt": "2025-10-27T01:17:48.832Z",
+            "title": "From Denoising to Refining: A Corrective Framework for Vision-Language\n  Diffusion Model",
+            "submittedOnDailyBy": {
+                "_id": "64c8b0a2f3d2a59a431dbb8e",
+                "avatarUrl": "/avatars/bf130fdca7a2a0fe394558e2bf22c920.svg",
+                "isPro": false,
+                "fullname": "yatai ji",
+                "user": "jiyatai",
+                "type": "user"
+            },
+            "summary": "Discrete diffusion models have emerged as a promising direction for\nvision-language tasks, offering bidirectional context modeling and theoretical\nparallelization. However, their practical application is severely hindered by a\ntrain-inference discrepancy, which leads to catastrophic error cascades:\ninitial token errors during parallel decoding pollute the generation context,\ntriggering a chain reaction of compounding errors and leading to syntactic\nerrors and semantic hallucinations. To address this fundamental challenge, we\nreframe the generation process from passive denoising to active refining. We\nintroduce ReDiff, a refining-enhanced diffusion framework that teaches the\nmodel to identify and correct its own errors. Our approach features a two-stage\ntraining process: first, we instill a foundational revision capability by\ntraining the model to revise synthetic errors; second, we implement a novel\nonline self-correction loop where the model is explicitly trained to revise its\nown flawed drafts by learning from an expert's corrections. This mistake-driven\nlearning endows the model with the crucial ability to revisit and refine its\nalready generated output, effectively breaking the error cascade. Extensive\nexperiments demonstrate that ReDiff significantly improves the coherence and\nfactual accuracy of generated content, enabling stable and efficient parallel\ngeneration far superior to traditional denoising methods. Our codes and models\nare available at https://rediff-hku.github.io/.",
+            "upvotes": 23,
+            "discussionId": "68fedbcc6cdff8b857f47175",
+            "projectPage": "https://rediff-hku.github.io/",
+            "githubRepo": "https://github.com/jiyt17/ReDiff",
+            "ai_summary": "ReDiff, a refining-enhanced diffusion framework, addresses train-inference discrepancies in discrete diffusion models by enabling the model to identify and correct its own errors, improving coherence and factual accuracy in generated content.",
+            "ai_keywords": [
+                "discrete diffusion models",
+                "bidirectional context modeling",
+                "theoretical parallelization",
+                "train-inference discrepancy",
+                "catastrophic error cascades",
+                "parallel decoding",
+                "syntactic errors",
+                "semantic hallucinations",
+                "ReDiff",
+                "refining-enhanced diffusion framework",
+                "two-stage training process",
+                "synthetic errors",
+                "online self-correction loop",
+                "mistake-driven learning",
+                "stable and efficient parallel generation"
+            ],
+            "githubStars": 25,
+            "organization": {
+                "_id": "66deb312fd7d68a29348aa8d",
+                "name": "TheHKU",
+                "fullname": "Hong Kong University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66dc525add44163a31059cf6/kyqlTADY27mPRTqznqQFL.png"
+            }
+        },
+        "translation_title": "잡음 제거에서 정제까지: 비전-언어 확산 모델을 위한 수정 프레임워크",
+        "purpose": "비전-언어 작업에서의 생성 정확도를 높이고 오류 연쇄 문제를 해결하기 위한 프레임워크 개발",
+        "method": [
+            "생성 과정을 수동적인 잡음 제거에서 능동적인 정제로 재구성함 (we reframe the generation process from passive denoising to active refining).",
+            "ReDiff라는 수정 강화된 확산 프레임워크를 소개하여 모델이 자신의 오류를 인식하고 수정하도록 학습함 (We introduce ReDiff, a refining-enhanced diffusion framework that teaches the model to identify and correct its own errors).",
+            "모델이 합성 오류를 수정하도록 학습하는 기본 수정 능력을 구축하기 위해 두 단계의 훈련 과정을 진행함 (first, we instill a foundational revision capability by training the model to revise synthetic errors).",
+            "모델이 전문가의 수정으로부터 배우는 온라인 자가 수정 루프를 구현하여 결함 있는 초안을 수정하도록 명시적으로 훈련함 (second, we implement a novel online self-correction loop where the model is explicitly trained to revise its own flawed drafts by learning from an expert's corrections)"
+        ],
+        "conclusion": "ReDiff는 생성된 콘텐츠의 일관성과 사실 정확성을 크게 향상시키며, 전통적인 잡음 제거 방법보다 훨씬 우수한 안정적이고 효율적인 병렬 생성을 가능하게 함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.18212",
+            "authors": [
+                {
+                    "_id": "68f91c1db9b2e4ae0467366b",
+                    "name": "Dan Hendrycks",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467366c",
+                    "name": "Dawn Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467366d",
+                    "name": "Christian Szegedy",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467366e",
+                    "name": "Honglak Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467366f",
+                    "name": "Yarin Gal",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673670",
+                    "name": "Erik Brynjolfsson",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673671",
+                    "name": "Sharon Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673672",
+                    "name": "Andy Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673673",
+                    "name": "Lionel Levine",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673674",
+                    "name": "Bo Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673675",
+                    "name": "Jie Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673676",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673677",
+                    "name": "Jinwoo Shin",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673678",
+                    "name": "Kimin Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673679",
+                    "name": "Mantas Mazeika",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367a",
+                    "name": "Long Phan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367b",
+                    "name": "George Ingebretsen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367c",
+                    "name": "Adam Khoja",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367d",
+                    "name": "Cihang Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367e",
+                    "name": "Olawale Salaudeen",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467367f",
+                    "name": "Matthias Hein",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673680",
+                    "name": "Kevin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673681",
+                    "name": "Alexander Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673682",
+                    "name": "David Duvenaud",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673683",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673684",
+                    "name": "Steve Omohundro",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673685",
+                    "name": "Gabriel Alfour",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673686",
+                    "name": "Max Tegmark",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673687",
+                    "name": "Kevin McGrew",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673688",
+                    "name": "Gary Marcus",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae04673689",
+                    "name": "Jaan Tallinn",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467368a",
+                    "name": "Eric Schmidt",
+                    "hidden": false
+                },
+                {
+                    "_id": "68f91c1db9b2e4ae0467368b",
+                    "name": "Yoshua Bengio",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-21T01:28:35.000Z",
+            "submittedOnDailyAt": "2025-10-27T00:52:54.087Z",
+            "title": "A Definition of AGI",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The lack of a concrete definition for Artificial General Intelligence (AGI)\nobscures the gap between today's specialized AI and human-level cognition. This\npaper introduces a quantifiable framework to address this, defining AGI as\nmatching the cognitive versatility and proficiency of a well-educated adult. To\noperationalize this, we ground our methodology in Cattell-Horn-Carroll theory,\nthe most empirically validated model of human cognition. The framework dissects\ngeneral intelligence into ten core cognitive domains-including reasoning,\nmemory, and perception-and adapts established human psychometric batteries to\nevaluate AI systems. Application of this framework reveals a highly \"jagged\"\ncognitive profile in contemporary models. While proficient in\nknowledge-intensive domains, current AI systems have critical deficits in\nfoundational cognitive machinery, particularly long-term memory storage. The\nresulting AGI scores (e.g., GPT-4 at 27%, GPT-5 at 58%) concretely quantify\nboth rapid progress and the substantial gap remaining before AGI.",
+            "upvotes": 19,
+            "discussionId": "68f91c1eb9b2e4ae0467368c",
+            "ai_summary": "A quantifiable framework based on Cattell-Horn-Carroll theory evaluates AI systems across ten cognitive domains, revealing significant gaps in foundational cognitive abilities like long-term memory.",
+            "ai_keywords": [
+                "Cattell-Horn-Carroll theory",
+                "cognitive domains",
+                "reasoning",
+                "memory",
+                "perception",
+                "psychometric batteries",
+                "AGI scores"
+            ]
+        },
+        "translation_title": "AGI의 정의",
+        "purpose": "인공지능 일반화(AGI)의 구체적인 정의 없이 AI와 인간 인지 간의 간극을 이해하기 위한 연구",
+        "method": [
+            "AGI를 잘 교육받은 성인의 인지적 다양성과 능숙함에 일치하는 것으로 정의함(defining AGI as matching the cognitive versatility and proficiency of a well-educated adult.)",
+            "Cattell-Horn-Carroll 이론을 기반으로 방법론을 운영화하고, 이를 통해 일반 지능을 열 개의 핵심 인지 도메인으로 분해함(we ground our methodology in Cattell-Horn-Carroll theory, the most empirically validated model of human cognition.)",
+            "기존의 인간 심리측정 도구를 AI 시스템을 평가하는 데 적용함(adapts established human psychometric batteries to evaluate AI systems.)",
+            "프레임워크를 적용하여 현대 모델의 인지 프로파일을 분석함(Application of this framework reveals a highly 'jagged' cognitive profile in contemporary models.)"
+        ],
+        "conclusion": "현재 AI 시스템은 지식 집약적 영역에서는 능숙하지만, 장기 기억 저장과 같은 근본적인 인지 능력에서 중대한 결함이 있으며, AGI 점수를 통해 AGI까지의 큰 간극을 정량적으로 나타냄.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Cognitive Science"
+        ]
+    }
+]
