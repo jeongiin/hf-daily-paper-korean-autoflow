@@ -1,0 +1,615 @@
+[
+    {
+        "paper": {
+            "id": "2510.23607",
+            "authors": [
+                {
+                    "_id": "690034a222d452aac6dd4346",
+                    "name": "Yujia Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd4347",
+                    "name": "Xiaoyang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd4348",
+                    "name": "Yixing Lao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd4349",
+                    "name": "Chengyao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd434a",
+                    "name": "Zhuotao Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd434b",
+                    "name": "Naiyan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690034a222d452aac6dd434c",
+                    "name": "Hengshuang Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T17:59:59.000Z",
+            "submittedOnDailyAt": "2025-10-28T01:46:45.129Z",
+            "title": "Concerto: Joint 2D-3D Self-Supervised Learning Emerges Spatial\n  Representations",
+            "submittedOnDailyBy": {
+                "_id": "643e5d6a1d0e956d94bb3608",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643e5d6a1d0e956d94bb3608/mTnu7Dts2RmDklHlp9Gqu.jpeg",
+                "isPro": false,
+                "fullname": "Xiaoyang Wu",
+                "user": "Gofinge",
+                "type": "user"
+            },
+            "summary": "Humans learn abstract concepts through multisensory synergy, and once formed,\nsuch representations can often be recalled from a single modality. Inspired by\nthis principle, we introduce Concerto, a minimalist simulation of human concept\nlearning for spatial cognition, combining 3D intra-modal self-distillation with\n2D-3D cross-modal joint embedding. Despite its simplicity, Concerto learns more\ncoherent and informative spatial features, as demonstrated by zero-shot\nvisualizations. It outperforms both standalone SOTA 2D and 3D self-supervised\nmodels by 14.2% and 4.8%, respectively, as well as their feature concatenation,\nin linear probing for 3D scene perception. With full fine-tuning, Concerto sets\nnew SOTA results across multiple scene understanding benchmarks (e.g., 80.7%\nmIoU on ScanNet). We further present a variant of Concerto tailored for\nvideo-lifted point cloud spatial understanding, and a translator that linearly\nprojects Concerto representations into CLIP's language space, enabling\nopen-world perception. These results highlight that Concerto emerges spatial\nrepresentations with superior fine-grained geometric and semantic consistency.",
+            "upvotes": 141,
+            "discussionId": "690034a222d452aac6dd434d",
+            "projectPage": "https://pointcept.github.io/Concerto/",
+            "githubRepo": "https://github.com/Pointcept/Pointcept",
+            "ai_summary": "Concerto, a minimalist model combining 3D self-distillation and 2D-3D joint embedding, achieves superior spatial feature learning and outperforms existing models in scene understanding and open-world perception.",
+            "ai_keywords": [
+                "3D intra-modal self-distillation",
+                "2D-3D cross-modal joint embedding",
+                "zero-shot visualizations",
+                "linear probing",
+                "3D scene perception",
+                "ScanNet",
+                "mIoU",
+                "video-lifted point cloud",
+                "CLIP's language space",
+                "open-world perception",
+                "fine-grained geometric and semantic consistency"
+            ],
+            "githubStars": 153,
+            "organization": {
+                "_id": "643e5de3c0ed86c416e8eb25",
+                "name": "Pointcept",
+                "fullname": "Pointcept",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/643e5d6a1d0e956d94bb3608/dtbQ44h-xIjwQlHT9Nbbv.png"
+            }
+        },
+        "translation_title": "Concerto: 2D-3D 자가 감독 학습을 통한 공간 표현의 획득",
+        "purpose": "공간 인지를 위한 효과적인 개념 학습 방법을 제시하고, 더 일관적이고 유용한 공간 특징을 학습하기 위한 연구",
+        "method": [
+            "3D intra-modal self-distillation과 2D-3D cross-modal joint embedding을 결합하여 Concerto라는 모델을 설계함(Inspired by this principle, we introduce Concerto, a minimalist simulation of human concept learning for spatial cognition, combining 3D intra-modal self-distillation with 2D-3D cross-modal joint embedding.)",
+            "Concerto는 zero-shot visualizations을 통해 공간 특징을 더 잘 학습함을 보임(Despite its simplicity, Concerto learns more coherent and informative spatial features, as demonstrated by zero-shot visualizations.)",
+            "Concerto는 3D 장면 인식을 위한 linear probing에서 기존 2D 및 3D self-supervised 모델보다 더 나은 성능을 발휘함(Concerto sets new SOTA results across multiple scene understanding benchmarks (e.g., 80.7% mIoU on ScanNet).)"
+        ],
+        "conclusion": "Concerto는 공간 표현을 학습하는 데 있어 뛰어난 성능을 보여주며, 기존 모델들과 비교하여 더 높은 정확도를 달성함.",
+        "keywords": [
+            "3D Vision",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.23564",
+            "authors": [
+                {
+                    "_id": "69003a0022d452aac6dd438f",
+                    "name": "Zhaoyang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4390",
+                    "name": "Jiayi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4391",
+                    "name": "Huixue Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4392",
+                    "name": "Yufan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4393",
+                    "name": "Yifan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4394",
+                    "name": "Mingyi Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4395",
+                    "name": "Jinyu Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4396",
+                    "name": "Yizhang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4397",
+                    "name": "Lingxiao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4398",
+                    "name": "Yingchao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd4399",
+                    "name": "Yuyu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd439a",
+                    "name": "Bang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69003a0022d452aac6dd439b",
+                    "name": "Chenglin Wu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T17:35:15.000Z",
+            "submittedOnDailyAt": "2025-10-28T02:26:28.802Z",
+            "title": "ReCode: Unify Plan and Action for Universal Granularity Control",
+            "submittedOnDailyBy": {
+                "_id": "640dc84b474aa6f89554d518",
+                "avatarUrl": "/avatars/9fcee1023ed5c6cddb3c342e19f18295.svg",
+                "isPro": false,
+                "fullname": "Zhaoyang Yu",
+                "user": "MoshiQAQ",
+                "type": "user"
+            },
+            "summary": "Real-world tasks require decisions at varying granularities, and humans excel\nat this by leveraging a unified cognitive representation where planning is\nfundamentally understood as a high-level form of action. However, current Large\nLanguage Model (LLM)-based agents lack this crucial capability to operate\nfluidly across decision granularities. This limitation stems from existing\nparadigms that enforce a rigid separation between high-level planning and\nlow-level action, which impairs dynamic adaptability and limits generalization.\nWe propose ReCode (Recursive Code Generation), a novel paradigm that addresses\nthis limitation by unifying planning and action within a single code\nrepresentation. In this representation, ReCode treats high-level plans as\nabstract placeholder functions, which the agent then recursively decomposes\ninto finer-grained sub-functions until reaching primitive actions. This\nrecursive approach dissolves the rigid boundary between plan and action,\nenabling the agent to dynamically control its decision granularity.\nFurthermore, the recursive structure inherently generates rich,\nmulti-granularity training data, enabling models to learn hierarchical\ndecision-making processes. Extensive experiments show ReCode significantly\nsurpasses advanced baselines in inference performance and demonstrates\nexceptional data efficiency in training, validating our core insight that\nunifying planning and action through recursive code generation is a powerful\nand effective approach to achieving universal granularity control. The code is\navailable at https://github.com/FoundationAgents/ReCode.",
+            "upvotes": 95,
+            "discussionId": "69003a0122d452aac6dd439c",
+            "githubRepo": "https://github.com/FoundationAgents/ReCode",
+            "ai_summary": "ReCode, a recursive code generation paradigm, unifies high-level planning and low-level action in a single representation, enhancing decision granularity and data efficiency in LLM-based agents.",
+            "ai_keywords": [
+                "Large Language Model",
+                "ReCode",
+                "Recursive Code Generation",
+                "high-level planning",
+                "low-level action",
+                "decision granularity",
+                "abstract placeholder functions",
+                "primitive actions",
+                "hierarchical decision-making processes",
+                "inference performance",
+                "data efficiency"
+            ],
+            "githubStars": 18
+        },
+        "translation_title": "ReCode: 범용 세분화 제어를 위한 계획과 행동 통합",
+        "purpose": "계획과 행동을 통합하여 다양한 세분화 수준에서의 결정 능력을 향상시키기 위한 방법 제안",
+        "method": [
+            "ReCode라는 새로운 패러다임을 제안하여 계획과 행동을 단일 코드 표현으로 통합함(This limitation stems from existing paradigms that enforce a rigid separation between high-level planning and low-level action).",
+            "높은 수준의 계획을 추상적인 자리 표시자 함수로 처리하고, 이를 재귀적으로 세분화하여 기본적인 행동에 도달하도록 함(In this representation, ReCode treats high-level plans as abstract placeholder functions, which the agent then recursively decomposes into finer-grained sub-functions until reaching primitive actions).",
+            "재귀적 구조를 통해 풍부한 다중 세분화 훈련 데이터를 생성하여 모델이 계층적 의사 결정 프로세스를 학습할 수 있도록 함(Furthermore, the recursive structure inherently generates rich, multi-granularity training data, enabling models to learn hierarchical decision-making processes)."
+        ],
+        "conclusion": "ReCode는 추론 성능에서 기존의 고급 기준치를 초과하며, 훈련에서 뛰어난 데이터 효율성을 보여주어 계획과 행동을 통합하는 접근 방식이 효과적임을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.23587",
+            "authors": [
+                {
+                    "_id": "690065ad22d452aac6dd4454",
+                    "name": "Yizhang Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4455",
+                    "name": "Liangwei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4456",
+                    "name": "Chenyu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4457",
+                    "name": "Xiaotian Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4458",
+                    "name": "Boyan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4459",
+                    "name": "Wei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445a",
+                    "name": "Xinyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445b",
+                    "name": "Zhangyang Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445c",
+                    "name": "Tianqi Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445d",
+                    "name": "Yu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445e",
+                    "name": "Chengliang Chai",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd445f",
+                    "name": "Chong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4460",
+                    "name": "Shimin Di",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4461",
+                    "name": "Ju Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4462",
+                    "name": "Ji Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4463",
+                    "name": "Nan Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4464",
+                    "name": "Fugee Tsung",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4465",
+                    "name": "Jiannan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4466",
+                    "name": "Chenglin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4467",
+                    "name": "Yanwei Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4468",
+                    "name": "Shaolei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd4469",
+                    "name": "Yong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd446a",
+                    "name": "Xuanhe Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd446b",
+                    "name": "Guoliang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690065ad22d452aac6dd446c",
+                    "name": "Yuyu Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T17:54:07.000Z",
+            "submittedOnDailyAt": "2025-10-28T05:18:46.268Z",
+            "title": "A Survey of Data Agents: Emerging Paradigm or Overstated Hype?",
+            "submittedOnDailyBy": {
+                "_id": "65dd77bfcb021a4a9ebdc62f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65dd77bfcb021a4a9ebdc62f/o58j3T670xByIjJhnNLj9.png",
+                "isPro": false,
+                "fullname": "Derrick ZHU",
+                "user": "derrickzhu",
+                "type": "user"
+            },
+            "summary": "The rapid advancement of large language models (LLMs) has spurred the\nemergence of data agents--autonomous systems designed to orchestrate Data + AI\necosystems for tackling complex data-related tasks. However, the term \"data\nagent\" currently suffers from terminological ambiguity and inconsistent\nadoption, conflating simple query responders with sophisticated autonomous\narchitectures. This terminological ambiguity fosters mismatched user\nexpectations, accountability challenges, and barriers to industry growth.\nInspired by the SAE J3016 standard for driving automation, this survey\nintroduces the first systematic hierarchical taxonomy for data agents,\ncomprising six levels that delineate and trace progressive shifts in autonomy,\nfrom manual operations (L0) to a vision of generative, fully autonomous data\nagents (L5), thereby clarifying capability boundaries and responsibility\nallocation. Through this lens, we offer a structured review of existing\nresearch arranged by increasing autonomy, encompassing specialized data agents\nfor data management, preparation, and analysis, alongside emerging efforts\ntoward versatile, comprehensive systems with enhanced autonomy. We further\nanalyze critical evolutionary leaps and technical gaps for advancing data\nagents, especially the ongoing L2-to-L3 transition, where data agents evolve\nfrom procedural execution to autonomous orchestration. Finally, we conclude\nwith a forward-looking roadmap, envisioning the advent of proactive, generative\ndata agents.",
+            "upvotes": 49,
+            "discussionId": "690065ae22d452aac6dd446d",
+            "githubRepo": "https://github.com/HKUSTDial/awesome-data-agents",
+            "ai_summary": "A systematic taxonomy for data agents is introduced to clarify their autonomy levels and capabilities, addressing terminological ambiguity and guiding future research and development.",
+            "ai_keywords": [
+                "large language models",
+                "data agents",
+                "SAE J3016 standard",
+                "driving automation",
+                "hierarchical taxonomy",
+                "autonomy levels",
+                "data management",
+                "data preparation",
+                "data analysis",
+                "generative data agents"
+            ],
+            "githubStars": 75
+        },
+        "translation_title": "데이터 에이전트에 관한 조사: 신흥 패러다임인가 과장된 과대광고인가?",
+        "purpose": "데이터 에이전트의 정의를 명확히 하고 산업 성장의 장벽을 해결하기 위한 체계적인 분류 체계 개발",
+        "method": [
+            "SAE J3016 표준에 영감을 받아 데이터 에이전트에 대한 체계적인 계층적 분류 체계를 도입함(Inspired by the SAE J3016 standard for driving automation, this survey introduces the first systematic hierarchical taxonomy for data agents.)",
+            "여섯 개의 수준으로 자율성의 변화를 명확히 함(comprising six levels that delineate and trace progressive shifts in autonomy, from manual operations (L0) to a vision of generative, fully autonomous data agents (L5).)",
+            "기존 연구를 자율성에 따라 구조적으로 검토하고, 전문화된 데이터 에이전트와 다가오는 포괄적인 시스템을 분석함(Through this lens, we offer a structured review of existing research arranged by increasing autonomy, encompassing specialized data agents for data management, preparation, and analysis.)."
+        ],
+        "conclusion": "체계적인 분류 체계를 통해 데이터 에이전트의 능력 경계를 명확하게 하고, 능동적이며 생성적인 데이터 에이전트의 출현을 기대함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.23588",
+            "authors": [
+                {
+                    "_id": "6900348b22d452aac6dd433b",
+                    "name": "Guangting Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd433c",
+                    "name": "Qinyu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd433d",
+                    "name": "Tao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd433e",
+                    "name": "Fei Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd433f",
+                    "name": "Zhijie Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd4340",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd4341",
+                    "name": "Jiajun Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd4342",
+                    "name": "Yanyong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900348b22d452aac6dd4343",
+                    "name": "Rui Zhu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T17:54:08.000Z",
+            "submittedOnDailyAt": "2025-10-28T02:09:47.863Z",
+            "title": "FARMER: Flow AutoRegressive Transformer over Pixels",
+            "submittedOnDailyBy": {
+                "_id": "6381c5d63680a7cf34e08ca9",
+                "avatarUrl": "/avatars/731467e2d80d0ae163c4a00a9e3ff9e5.svg",
+                "isPro": false,
+                "fullname": "wujie10558@gmail.com",
+                "user": "wujie10",
+                "type": "user"
+            },
+            "summary": "Directly modeling the explicit likelihood of the raw data distribution is key\ntopic in the machine learning area, which achieves the scaling successes in\nLarge Language Models by autoregressive modeling. However, continuous AR\nmodeling over visual pixel data suffer from extremely long sequences and\nhigh-dimensional spaces. In this paper, we present FARMER, a novel end-to-end\ngenerative framework that unifies Normalizing Flows (NF) and Autoregressive\n(AR) models for tractable likelihood estimation and high-quality image\nsynthesis directly from raw pixels. FARMER employs an invertible autoregressive\nflow to transform images into latent sequences, whose distribution is modeled\nimplicitly by an autoregressive model. To address the redundancy and complexity\nin pixel-level modeling, we propose a self-supervised dimension reduction\nscheme that partitions NF latent channels into informative and redundant\ngroups, enabling more effective and efficient AR modeling. Furthermore, we\ndesign a one-step distillation scheme to significantly accelerate inference\nspeed and introduce a resampling-based classifier-free guidance algorithm to\nboost image generation quality. Extensive experiments demonstrate that FARMER\nachieves competitive performance compared to existing pixel-based generative\nmodels while providing exact likelihoods and scalable training.",
+            "upvotes": 40,
+            "discussionId": "6900348b22d452aac6dd4344",
+            "ai_summary": "FARMER, a generative framework combining Normalizing Flows and Autoregressive models, achieves competitive image synthesis from raw pixels with exact likelihoods and scalable training.",
+            "ai_keywords": [
+                "Normalizing Flows",
+                "Autoregressive models",
+                "invertible autoregressive flow",
+                "self-supervised dimension reduction",
+                "one-step distillation",
+                "resampling-based classifier-free guidance"
+            ]
+        },
+        "translation_title": "FARMER: 픽셀에 대한 흐름 자기 회귀 변환기",
+        "purpose": "원시 데이터를 기반으로 효율적이고 고품질의 이미지 생성을 위한 새로운 생성 프레임워크 개발",
+        "method": [
+            "Normalizing Flows(NF)와 Autoregressive(AR) 모델을 통합하여 안착 가능한 가능도 추정 및 고품질 이미지 합성을 위한 새로운 프레임워크인 FARMER를 제안함.(we present FARMER, a novel end-to-end generative framework that unifies Normalizing Flows (NF) and Autoregressive (AR) models for tractable likelihood estimation and high-quality image synthesis directly from raw pixels.)",
+            "픽셀 수준 모델링의 중복성과 복잡성을 해결하기 위해 자기 지도 학습 기반의 차원 축소 기법을 제안함.(we propose a self-supervised dimension reduction scheme that partitions NF latent channels into informative and redundant groups, enabling more effective and efficient AR modeling.)",
+            "추론 속도를 가속화하고 이미지 생성 품질을 향상시키기 위해 재샘플링 기반의 클래스프리 가이던스 알고리즘을 도입함.(we introduce a resampling-based classifier-free guidance algorithm to boost image generation quality.)"
+        ],
+        "conclusion": "FARMER는 기존 픽셀 기반 생성 모델과 비교해 경쟁력 있는 성능을 달성하며, 정확한 가능도와 확장 가능한 훈련을 제공함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.21817",
+            "authors": [
+                {
+                    "_id": "69002d2622d452aac6dd42d4",
+                    "name": "Xiaoyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42d5",
+                    "name": "Chaoyou Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42d6",
+                    "name": "Chi Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42d7",
+                    "name": "Chu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42d8",
+                    "name": "Haihan Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42d9",
+                    "name": "Yi-Fan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42da",
+                    "name": "Shaoqi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42db",
+                    "name": "Cheng Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42dc",
+                    "name": "Bin Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42dd",
+                    "name": "Xiuyong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42de",
+                    "name": "Guanwu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42df",
+                    "name": "Yusheng Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e0",
+                    "name": "Yunhang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e1",
+                    "name": "Deqiang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e2",
+                    "name": "Haoyu Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e3",
+                    "name": "Xing Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e4",
+                    "name": "Caifeng Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69002d2622d452aac6dd42e5",
+                    "name": "Ran He",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/623d8ca4c29adf5ef6175615/YqWLnrC3Cf4cOxO20icQF.png"
+            ],
+            "publishedAt": "2025-10-21T17:59:56.000Z",
+            "submittedOnDailyAt": "2025-10-28T01:13:48.742Z",
+            "title": "VITA-E: Natural Embodied Interaction with Concurrent Seeing, Hearing,\n  Speaking, and Acting",
+            "submittedOnDailyBy": {
+                "_id": "623d8ca4c29adf5ef6175615",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/623d8ca4c29adf5ef6175615/q7lHao7UPwU1u7YLSP56m.jpeg",
+                "isPro": false,
+                "fullname": "Yi-Fan Zhang",
+                "user": "yifanzhang114",
+                "type": "user"
+            },
+            "summary": "Current Vision-Language-Action (VLA) models are often constrained by a rigid,\nstatic interaction paradigm, which lacks the ability to see, hear, speak, and\nact concurrently as well as handle real-time user interruptions dynamically.\nThis hinders seamless embodied collaboration, resulting in an inflexible and\nunresponsive user experience. To address these limitations, we introduce\nVITA-E, a novel embodied interaction framework designed for both behavioral\nconcurrency and nearly real-time interruption. The core of our approach is a\ndual-model architecture where two parallel VLA instances operate as an ``Active\nModel'' and a ``Standby Model'', allowing the embodied agent to observe its\nenvironment, listen to user speech, provide verbal responses, and execute\nactions, all concurrently and interruptibly, mimicking human-like multitasking\ncapabilities. We further propose a ``model-as-controller'' paradigm, where we\nfine-tune the VLM to generate special tokens that serve as direct system-level\ncommands, coupling the model's reasoning with the system's behavior.\nExperiments conducted on a physical humanoid platform demonstrate that VITA-E\ncan reliably handle complex interactive scenarios. Our framework is compatible\nwith various dual-system VLA models, achieving an extremely high success rate\non emergency stops and speech interruptions while also successfully performing\nconcurrent speech and action. This represents a significant step towards more\nnatural and capable embodied assistants.",
+            "upvotes": 38,
+            "discussionId": "69002d2722d452aac6dd42e6",
+            "projectPage": "https://lxysl.github.io/VITA-E/",
+            "githubRepo": "https://github.com/Tencent/VITA/tree/VITA-E",
+            "ai_summary": "VITA-E, a dual-model embodied interaction framework, enables concurrent and interruptible vision-language-action capabilities, enhancing real-time user interaction and multitasking.",
+            "ai_keywords": [
+                "embodied interaction framework",
+                "dual-model architecture",
+                "Active Model",
+                "Standby Model",
+                "model-as-controller",
+                "VLM",
+                "special tokens",
+                "system-level commands",
+                "emergency stops",
+                "speech interruptions",
+                "concurrent speech and action"
+            ],
+            "githubStars": 107
+        },
+        "translation_title": "VITA-E: 동시 시청, 청취, 발화 및 행동을 통한 자연스러운 체현 상호작용",
+        "purpose": "동시에 여러 행동을 수행하고 실시간 사용자 중단을 처리할 수 있는 자연스러운 상호작용 프레임워크 개발",
+        "method": [
+            "이중 모델 아키텍처를 사용하여 'Active Model'과 'Standby Model' 두 개의 VLA 인스턴스가 동시에 작동하도록 설계함 (the core of our approach is a dual-model architecture where two parallel VLA instances operate as an 'Active Model' and a 'Standby Model')",
+            "VLM을 세밀하게 조정하여 시스템 명령으로 작동하는 특수 토큰을 생성하도록 함 (we further propose a 'model-as-controller' paradigm, where we fine-tune the VLM to generate special tokens that serve as direct system-level commands)",
+            "물리적 휴머노이드 플랫폼에서 실험을 수행하여 VITA-E가 복잡한 상호작용 시나리오를 안정적으로 처리함을 입증함 (Experiments conducted on a physical humanoid platform demonstrate that VITA-E can reliably handle complex interactive scenarios)"
+        ],
+        "conclusion": "VITA-E는 자연스러운 체현 보조기를 향한 중요한 진전을 나타내며, 긴급 중지 및 발화 중단 상황에서 높은 성공률을 기록함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Embodied Interaction",
+            "Natural Language Processing"
+        ]
+    }
+]
