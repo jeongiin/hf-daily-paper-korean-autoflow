@@ -1,0 +1,1096 @@
+[
+    {
+        "paper": {
+            "id": "2510.24668",
+            "authors": [
+                {
+                    "_id": "690188f7646208eac0d1f482",
+                    "name": "Mingyi Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f483",
+                    "name": "Lijun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f484",
+                    "name": "Yani Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f485",
+                    "user": {
+                        "_id": "65f40e83653c231cbaf7defe",
+                        "avatarUrl": "/avatars/afa5ce72324112739e539865c9aee26b.svg",
+                        "isPro": false,
+                        "fullname": "Jiayi Zhang",
+                        "user": "didiforhugface",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:43:11.330Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f486",
+                    "name": "Fashen Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f487",
+                    "name": "Jinyi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f488",
+                    "name": "Fuzhen Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f489",
+                    "name": "Dayi Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48a",
+                    "name": "Zhaoyang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48b",
+                    "name": "Yifan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48c",
+                    "user": {
+                        "_id": "65ddeb1e344080c5bbc547e8",
+                        "avatarUrl": "/avatars/8423d009aa8f3737b2309c64d1d71b65.svg",
+                        "isPro": false,
+                        "fullname": "Yanfei Zhang",
+                        "user": "LovinYou",
+                        "type": "user"
+                    },
+                    "name": "Yanfei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:42:46.305Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48d",
+                    "name": "Fengwei Teng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48e",
+                    "name": "Yingjia Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f48f",
+                    "name": "Song Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f490",
+                    "name": "Yude Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f491",
+                    "name": "Xin Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f492",
+                    "name": "Conghao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f493",
+                    "name": "Haoyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f494",
+                    "name": "Qirui Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f495",
+                    "name": "Tai Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f496",
+                    "name": "Xinyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f497",
+                    "name": "Xiangru Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f498",
+                    "name": "Nan Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f499",
+                    "name": "Chenglin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690188f7646208eac0d1f49a",
+                    "name": "Yuyu Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-28T17:35:54.000Z",
+            "submittedOnDailyAt": "2025-10-29T01:58:28.190Z",
+            "title": "InteractComp: Evaluating Search Agents With Ambiguous Queries",
+            "submittedOnDailyBy": {
+                "_id": "65f40e83653c231cbaf7defe",
+                "avatarUrl": "/avatars/afa5ce72324112739e539865c9aee26b.svg",
+                "isPro": false,
+                "fullname": "Jiayi Zhang",
+                "user": "didiforhugface",
+                "type": "user"
+            },
+            "summary": "Language agents have demonstrated remarkable potential in web search and\ninformation retrieval. However, these search agents assume user queries are\ncomplete and unambiguous, an assumption that diverges from reality where users\nbegin with incomplete queries requiring clarification through interaction. Yet\nmost agents lack interactive mechanisms during the search process, and existing\nbenchmarks cannot assess this capability. To address this gap, we introduce\nInteractComp, a benchmark designed to evaluate whether search agents can\nrecognize query ambiguity and actively interact to resolve it during search.\nFollowing the principle of easy to verify, interact to disambiguate, we\nconstruct 210 expert-curated questions across 9 domains through a\ntarget-distractor methodology that creates genuine ambiguity resolvable only\nthrough interaction. Evaluation of 17 models reveals striking failure: the best\nmodel achieves only 13.73% accuracy despite 71.50% with complete context,\nexposing systematic overconfidence rather than reasoning deficits. Forced\ninteraction produces dramatic gains, demonstrating latent capability current\nstrategies fail to engage. Longitudinal analysis shows interaction capabilities\nstagnated over 15 months while search performance improved seven-fold,\nrevealing a critical blind spot. This stagnation, coupled with the immediate\nfeedback inherent to search tasks, makes InteractComp a valuable resource for\nboth evaluating and training interaction capabilities in search agents. The\ncode is available at https://github.com/FoundationAgents/InteractComp.",
+            "upvotes": 80,
+            "discussionId": "690188f7646208eac0d1f49b",
+            "githubRepo": "https://github.com/FoundationAgents/InteractComp",
+            "ai_summary": "InteractComp evaluates search agents' ability to recognize and resolve query ambiguity through interaction, revealing significant gaps in current models' capabilities.",
+            "ai_keywords": [
+                "search agents",
+                "query ambiguity",
+                "interaction mechanisms",
+                "benchmark",
+                "expert-curated questions",
+                "target-distractor methodology",
+                "accuracy",
+                "overconfidence",
+                "reasoning deficits",
+                "longitudinal analysis"
+            ],
+            "githubStars": 8
+        },
+        "translation_title": "InteractComp: 모호한 쿼리로 검색 에이전트 평가하기",
+        "purpose": "사용자의 모호한 쿼리를 인식하고 상호작용을 통해 이를 해결할 수 있는 검색 에이전트를 평가하기 위한 벤치마크 개발",
+        "method": [
+            "InteractComp라는 벤치마크를 설계하여 검색 중 쿼리의 모호성을 인식하고 이를 해결하기 위한 상호작용을 평가함(To address this gap, we introduce InteractComp, a benchmark designed to evaluate whether search agents can recognize query ambiguity and actively interact to resolve it during search.)",
+            "전문가가 선별한 210개의 질문을 9개 도메인에서 목표-방해물 방법론을 통해 제작함(we construct 210 expert-curated questions across 9 domains through a target-distractor methodology that creates genuine ambiguity resolvable only through interaction.)",
+            "17개의 모델을 평가하여 상호작용을 통한 극적인 성장을 보여줌(Evaluation of 17 models reveals striking failure: the best model achieves only 13.73% accuracy despite 71.50% with complete context, exposing systematic overconfidence rather than reasoning deficits.)"
+        ],
+        "conclusion": "InteractComp는 검색 에이전트의 상호작용 능력을 평가하고 훈련하는 데 유용하며, 현재 전략들이 간과하고 있는 중요한 관점을 드러냄.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.24701",
+            "authors": [
+                {
+                    "_id": "69017244646208eac0d1f30e",
+                    "name": "Tongyi DeepResearch Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f30f",
+                    "name": "Baixuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f310",
+                    "name": "Bo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f311",
+                    "name": "Dingchu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f312",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f313",
+                    "name": "Guangyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f314",
+                    "user": {
+                        "_id": "63f06116f1a47aaea5bd497b",
+                        "avatarUrl": "/avatars/7d99ffa59c4579599e852a0ffb261268.svg",
+                        "isPro": false,
+                        "fullname": "Guoxin Chen",
+                        "user": "GuoxinChen",
+                        "type": "user"
+                    },
+                    "name": "Guoxin Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:37.103Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f315",
+                    "name": "Huifeng Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f316",
+                    "user": {
+                        "_id": "644a4fbc2166258fccc664bc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                        "isPro": false,
+                        "fullname": "Jialong Wu",
+                        "user": "callanwu",
+                        "type": "user"
+                    },
+                    "name": "Jialong Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:31.748Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f317",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f318",
+                    "name": "Kuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f319",
+                    "user": {
+                        "_id": "677f945ea82c316db164a180",
+                        "avatarUrl": "/avatars/50ec99d971564944de3b1d9c17d50cfd.svg",
+                        "isPro": false,
+                        "fullname": "Liangcai Su",
+                        "user": "HKU-Liangcai",
+                        "type": "user"
+                    },
+                    "name": "Liangcai Su",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:45:58.344Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31a",
+                    "name": "Litu Ou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31b",
+                    "name": "Liwen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31c",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31d",
+                    "name": "Rui Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31e",
+                    "name": "Wenbiao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f31f",
+                    "name": "Xinmiao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f320",
+                    "name": "Xinyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f321",
+                    "user": {
+                        "_id": "6622132f63598534f96ca29d",
+                        "avatarUrl": "/avatars/34e61fc3101f8ebce1ef7041f761e108.svg",
+                        "isPro": false,
+                        "fullname": "Xixi Wu",
+                        "user": "xxwu",
+                        "type": "user"
+                    },
+                    "name": "Xixi Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:13.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f322",
+                    "user": {
+                        "_id": "65e6970d135c27ea806526fe",
+                        "avatarUrl": "/avatars/4aced113d9cab055ae06f3945869a280.svg",
+                        "isPro": false,
+                        "fullname": "Xuanzhong Chen",
+                        "user": "chenxz",
+                        "type": "user"
+                    },
+                    "name": "Xuanzhong Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:23.542Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f323",
+                    "user": {
+                        "_id": "66e4019518a1920fb7ca19d7",
+                        "avatarUrl": "/avatars/4f8be2f3244239510235c2ec6e8d38a6.svg",
+                        "isPro": false,
+                        "fullname": "Yida Zhao",
+                        "user": "zhaoyd",
+                        "type": "user"
+                    },
+                    "name": "Yida Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:15.620Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f324",
+                    "name": "Zhen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f325",
+                    "name": "Zhengwei Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f326",
+                    "name": "Zhongwang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f327",
+                    "name": "Zile Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f328",
+                    "name": "Chenxi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f329",
+                    "name": "Donglei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32a",
+                    "name": "Gang Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32b",
+                    "name": "Haiyang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32c",
+                    "name": "Jiayin Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32d",
+                    "name": "Jun Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32e",
+                    "name": "Junkai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f32f",
+                    "name": "Kui Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f330",
+                    "name": "Li Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f331",
+                    "name": "Hailong Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f332",
+                    "name": "Maojia Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f333",
+                    "name": "Ming Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f334",
+                    "name": "Peng Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f335",
+                    "name": "Qian Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f336",
+                    "name": "Rui Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f337",
+                    "name": "Ruixue Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f338",
+                    "name": "Runnan Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f339",
+                    "name": "Shaowei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33a",
+                    "name": "Shen Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33b",
+                    "name": "Shihang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33c",
+                    "name": "Shihao Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33d",
+                    "name": "Weizhou Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33e",
+                    "name": "Xiaobin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f33f",
+                    "name": "Xin Guan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f340",
+                    "name": "Xinyu Geng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f341",
+                    "name": "Yingcheng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f342",
+                    "name": "Yuning Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f343",
+                    "name": "Zhuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f344",
+                    "name": "Zijian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017244646208eac0d1f345",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-28T17:53:02.000Z",
+            "submittedOnDailyAt": "2025-10-29T00:18:14.015Z",
+            "title": "Tongyi DeepResearch Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We present Tongyi DeepResearch, an agentic large language model, which is\nspecifically designed for long-horizon, deep information-seeking research\ntasks. To incentivize autonomous deep research agency, Tongyi DeepResearch is\ndeveloped through an end-to-end training framework that combines agentic\nmid-training and agentic post-training, enabling scalable reasoning and\ninformation seeking across complex tasks. We design a highly scalable data\nsynthesis pipeline that is fully automatic, without relying on costly human\nannotation, and empowers all training stages. By constructing customized\nenvironments for each stage, our system enables stable and consistent\ninteractions throughout. Tongyi DeepResearch, featuring 30.5 billion total\nparameters, with only 3.3 billion activated per token, achieves\nstate-of-the-art performance across a range of agentic deep research\nbenchmarks, including Humanity's Last Exam, BrowseComp, BrowseComp-ZH,\nWebWalkerQA, xbench-DeepSearch, FRAMES and xbench-DeepSearch-2510. We\nopen-source the model, framework, and complete solutions to empower the\ncommunity.",
+            "upvotes": 59,
+            "discussionId": "69017244646208eac0d1f346",
+            "projectPage": "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/",
+            "ai_summary": "Tongyi DeepResearch, a large language model with agentic capabilities, achieves top performance in various deep research tasks through an end-to-end training framework and automated data synthesis.",
+            "ai_keywords": [
+                "agentic large language model",
+                "end-to-end training framework",
+                "agentic mid-training",
+                "agentic post-training",
+                "scalable reasoning",
+                "information seeking",
+                "data synthesis pipeline",
+                "customized environments",
+                "Humanity's Last Exam",
+                "BrowseComp",
+                "BrowseComp-ZH",
+                "WebWalkerQA",
+                "xbench-DeepSearch",
+                "FRAMES",
+                "xbench-DeepSearch-2510"
+            ],
+            "organization": {
+                "_id": "67d15cca6e2cf0e062dbfb54",
+                "name": "AlibabaTongyiLab",
+                "fullname": "TongyiLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+            }
+        },
+        "translation_title": "Tongyi DeepResearch 기술 보고서",
+        "purpose": "오랜 기간의 정보 탐색 및 연구 작업을 위한 에이전트 성격의 대형 언어 모델 개발",
+        "method": [
+            "에이전트 중간 훈련과 후속 훈련을 결합한 종단 간 훈련 프레임워크를 통해 Tongyi DeepResearch를 개발함(To incentivize autonomous deep research agency, Tongyi DeepResearch is developed through an end-to-end training framework that combines agentic mid-training and agentic post-training.)",
+            "비용이 많이 드는 인간 주석 없이 전자동 데이터 합성 파이프라인을 설계하여 모든 훈련 단계를 지원함(We design a highly scalable data synthesis pipeline that is fully automatic, without relying on costly human annotation, and empowers all training stages.)",
+            "각 단계에 맞춘 맞춤형 환경을 구축하여 안정적이고 일관된 상호작용을 가능하게 함(By constructing customized environments for each stage, our system enables stable and consistent interactions throughout.)"
+        ],
+        "conclusion": "Tongyi DeepResearch는 30.5억 개의 매개변수를 가지고 있으며, 다양한 연구 작업에서 최첨단 성능을 달성하고, 모델과 프레임워크는 오픈소스로 제공되어 커뮤니티의 발전을 도모함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.24699",
+            "authors": [
+                {
+                    "_id": "69017ce1646208eac0d1f3d6",
+                    "name": "Rui Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3d7",
+                    "name": "Zhongwang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3d8",
+                    "name": "Kuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3d9",
+                    "name": "Huifeng Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3da",
+                    "name": "Zhengwei Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3db",
+                    "user": {
+                        "_id": "66e4019518a1920fb7ca19d7",
+                        "avatarUrl": "/avatars/4f8be2f3244239510235c2ec6e8d38a6.svg",
+                        "isPro": false,
+                        "fullname": "Yida Zhao",
+                        "user": "zhaoyd",
+                        "type": "user"
+                    },
+                    "name": "Yida Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:45:01.706Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3dc",
+                    "user": {
+                        "_id": "677f945ea82c316db164a180",
+                        "avatarUrl": "/avatars/50ec99d971564944de3b1d9c17d50cfd.svg",
+                        "isPro": false,
+                        "fullname": "Liangcai Su",
+                        "user": "HKU-Liangcai",
+                        "type": "user"
+                    },
+                    "name": "Liangcai Su",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:44:38.182Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3dd",
+                    "name": "Liwen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3de",
+                    "name": "Zile Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3df",
+                    "name": "Xinyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3e0",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3e1",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3e2",
+                    "name": "Siheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3e3",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017ce1646208eac0d1f3e4",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-28T17:51:50.000Z",
+            "submittedOnDailyAt": "2025-10-29T01:03:50.549Z",
+            "title": "AgentFold: Long-Horizon Web Agents with Proactive Context Management",
+            "submittedOnDailyBy": {
+                "_id": "644a4fbc2166258fccc664bc",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/8k3b44MbhQiWuo6i8BnYl.jpeg",
+                "isPro": false,
+                "fullname": "Jialong Wu",
+                "user": "callanwu",
+                "type": "user"
+            },
+            "summary": "LLM-based web agents show immense promise for information seeking, yet their\neffectiveness on long-horizon tasks is hindered by a fundamental trade-off in\ncontext management. Prevailing ReAct-based agents suffer from context\nsaturation as they accumulate noisy, raw histories, while methods that fixedly\nsummarize the full history at each step risk the irreversible loss of critical\ndetails. Addressing these, we introduce AgentFold, a novel agent paradigm\ncentered on proactive context management, inspired by the human cognitive\nprocess of retrospective consolidation. AgentFold treats its context as a\ndynamic cognitive workspace to be actively sculpted, rather than a passive log\nto be filled. At each step, it learns to execute a `folding' operation, which\nmanages its historical trajectory at multiple scales: it can perform granular\ncondensations to preserve vital, fine-grained details, or deep consolidations\nto abstract away entire multi-step sub-tasks. The results on prominent\nbenchmarks are striking: with simple supervised fine-tuning (without continual\npre-training or RL), our AgentFold-30B-A3B agent achieves 36.2% on BrowseComp\nand 47.3% on BrowseComp-ZH. Notably, this performance not only surpasses or\nmatches open-source models of a dramatically larger scale, such as the\nDeepSeek-V3.1-671B-A37B, but also surpasses leading proprietary agents like\nOpenAI's o4-mini.",
+            "upvotes": 48,
+            "discussionId": "69017ce2646208eac0d1f3e5",
+            "ai_summary": "AgentFold, a novel proactive context management paradigm for LLM-based web agents, achieves superior performance on long-horizon tasks through dynamic context folding, surpassing larger models and proprietary agents.",
+            "ai_keywords": [
+                "LLM-based web agents",
+                "ReAct-based agents",
+                "context saturation",
+                "context management",
+                "cognitive workspace",
+                "folding operation",
+                "granular condensations",
+                "deep consolidations",
+                "BrowseComp",
+                "BrowseComp-ZH",
+                "DeepSeek-V3.1-671B-A37B",
+                "OpenAI's o4-mini"
+            ],
+            "organization": {
+                "_id": "67d15cca6e2cf0e062dbfb54",
+                "name": "AlibabaTongyiLab",
+                "fullname": "TongyiLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+            }
+        },
+        "translation_title": "AgentFold: 능동적 맥락 관리가 가능한 긴 수명의 웹 에이전트",
+        "purpose": "긴 수명의 작업에 대한 맥락 관리의 효율성을 개선하는 새로운 에이전트 모델 개발",
+        "method": [
+            "AgentFold는 인간의 인지 과정에서 영감을 받아 능동적인 맥락 관리에 중점을 둔 새로운 에이전트 패러다임을 소개함(we introduce AgentFold, a novel agent paradigm centered on proactive context management, inspired by the human cognitive process of retrospective consolidation.)",
+            "각 단계에서 'folding' 작업을 수행하여 역사적 경로를 여러 규모에서 관리하는 방법을 학습함(At each step, it learns to execute a 'folding' operation, which manages its historical trajectory at multiple scales.)",
+            "간단한 감독 세부 조정을 통해 성능을 평가하였고, AgentFold-30B-A3B 에이전트가 여러 벤치마크에서 놀라운 결과를 달성함(The results on prominent benchmarks are striking: with simple supervised fine-tuning, our AgentFold-30B-A3B agent achieves... )"
+        ],
+        "conclusion": "AgentFold는 더 크고 복잡한 기존 모델들을 초월하는 성능을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.23763",
+            "authors": [
+                {
+                    "_id": "690168ee646208eac0d1f2fb",
+                    "user": {
+                        "_id": "64c3c631e77ea9f28111172a",
+                        "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                        "isPro": false,
+                        "fullname": "Siyin Wang (SII)",
+                        "user": "sinwang",
+                        "type": "user"
+                    },
+                    "name": "Siyin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:46:55.872Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f2fc",
+                    "name": "Jinlan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f2fd",
+                    "name": "Feihong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f2fe",
+                    "name": "Xinzhe He",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f2ff",
+                    "name": "Huangxuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f300",
+                    "name": "Junhao Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f301",
+                    "name": "Kexin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f302",
+                    "name": "Zhaoye Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f303",
+                    "name": "Jingjing Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f304",
+                    "name": "Zuxuan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f305",
+                    "name": "Yugang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f306",
+                    "name": "See-Kiong Ng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f307",
+                    "name": "Tat-Seng Chua",
+                    "hidden": false
+                },
+                {
+                    "_id": "690168ee646208eac0d1f308",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T18:49:03.000Z",
+            "submittedOnDailyAt": "2025-10-29T01:05:28.984Z",
+            "title": "RoboOmni: Proactive Robot Manipulation in Omni-modal Context",
+            "submittedOnDailyBy": {
+                "_id": "64c3c631e77ea9f28111172a",
+                "avatarUrl": "/avatars/495dbb73b69c399bae780da3118e332f.svg",
+                "isPro": false,
+                "fullname": "Siyin Wang (SII)",
+                "user": "sinwang",
+                "type": "user"
+            },
+            "summary": "Recent advances in Multimodal Large Language Models (MLLMs) have driven rapid\nprogress in Vision-Language-Action (VLA) models for robotic manipulation.\nAlthough effective in many scenarios, current approaches largely rely on\nexplicit instructions, whereas in real-world interactions, humans rarely issue\ninstructions directly. Effective collaboration requires robots to infer user\nintentions proactively. In this work, we introduce cross-modal contextual\ninstructions, a new setting where intent is derived from spoken dialogue,\nenvironmental sounds, and visual cues rather than explicit commands. To address\nthis new setting, we present RoboOmni, a Perceiver-Thinker-Talker-Executor\nframework based on end-to-end omni-modal LLMs that unifies intention\nrecognition, interaction confirmation, and action execution. RoboOmni fuses\nauditory and visual signals spatiotemporally for robust intention recognition,\nwhile supporting direct speech interaction. To address the absence of training\ndata for proactive intention recognition in robotic manipulation, we build\nOmniAction, comprising 140k episodes, 5k+ speakers, 2.4k event sounds, 640\nbackgrounds, and six contextual instruction types. Experiments in simulation\nand real-world settings show that RoboOmni surpasses text- and ASR-based\nbaselines in success rate, inference speed, intention recognition, and\nproactive assistance.",
+            "upvotes": 48,
+            "discussionId": "690168ee646208eac0d1f309",
+            "projectPage": "https://OpenMOSS.github.io/RoboOmni",
+            "githubRepo": "https://github.com/OpenMOSS/RoboOmni",
+            "ai_summary": "RoboOmni, a Perceiver-Thinker-Talker-Executor framework using end-to-end omni-modal LLMs, improves robotic manipulation by inferring user intentions from spoken dialogue, environmental sounds, and visual cues.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "Vision-Language-Action models",
+                "cross-modal contextual instructions",
+                "Perceiver-Thinker-Talker-Executor",
+                "end-to-end omni-modal LLMs",
+                "intention recognition",
+                "interaction confirmation",
+                "action execution",
+                "spatiotemporal fusion",
+                "OmniAction",
+                "proactive intention recognition",
+                "text-based baselines",
+                "ASR-based baselines"
+            ],
+            "githubStars": 23,
+            "organization": {
+                "_id": "613b0dee83ec35d460684607",
+                "name": "fnlp",
+                "fullname": "OpenMOSS (SII, Fudan NLP)",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61457b8deff2c9fdb4de4988/xM_PjniEZ9fmDKtJN7PAG.png"
+            }
+        },
+        "translation_title": "RoboOmni: 옴니모달 맥락에서의 능동적 로봇 조작",
+        "purpose": "로봇이 사용자의 의도를 능동적으로 추론하여 상호작용할 수 있도록 하는 새로운 설정 연구",
+        "method": [
+            "말로 된 대화, 환경 소리 및 시각적 단서를 기반으로 하는 교차 모달 맥락 지침 제시(Cross-modal contextual instructions)로 설정을 정의함.",
+            "RoboOmni라는 Perceiver-Thinker-Talker-Executor 프레임워크를 개발하여 의도 인식, 상호작용 확인 및 행동 실행을 통합함.",
+            "RoboOmni가 청각 및 시각 신호를 결합하여 강력한 의도 인식을 지원하고 직접적인 음성 상호작용도 가능하도록 함.",
+            "능동적 의도 인식을 위한 훈련 데이터 부족 문제를 해결하기 위해 140,000개의 에피소드, 5,000명 이상의 화자, 2,400개의 이벤트 소리 및 여섯 가지 맥락 지침 유형을 포함한 OmniAction 데이터셋을 구축함."
+        ],
+        "conclusion": "RoboOmni는 텍스트 및 자동 음성 인식 기반의 기초선보다 성공률, 추론 속도, 의도 인식 및 능동적 지원에서 높은 성과를 나타냄.",
+        "keywords": [
+            "Robotics",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.23691",
+            "authors": [
+                {
+                    "_id": "69018071646208eac0d1f445",
+                    "name": "Zihao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f446",
+                    "name": "Xujing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f447",
+                    "name": "Yining Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f448",
+                    "name": "Junjie Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f449",
+                    "user": {
+                        "_id": "678a19ba39c63f336d24cc27",
+                        "avatarUrl": "/avatars/5bec449236ac7d4a0936ef0dd4046761.svg",
+                        "isPro": false,
+                        "fullname": "Haoming Wang",
+                        "user": "MingComplex",
+                        "type": "user"
+                    },
+                    "name": "Haoming Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:43:14.628Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44a",
+                    "name": "Longxiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44b",
+                    "name": "Shihao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44c",
+                    "name": "Junting Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44d",
+                    "name": "Zhiyong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44e",
+                    "name": "Jiazhan Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f44f",
+                    "name": "Wanjun Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f450",
+                    "name": "Zili Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f451",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f452",
+                    "name": "Yu Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f453",
+                    "name": "Bo Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f454",
+                    "name": "Yuanfan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f455",
+                    "name": "Hao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f456",
+                    "user": {
+                        "_id": "62dd6651169bd1d2ef2f3795",
+                        "avatarUrl": "/avatars/bb6d1e4f31452c85036b5ef9a65321e3.svg",
+                        "isPro": false,
+                        "fullname": "Zhongkai Zhao",
+                        "user": "KaneZZ",
+                        "type": "user"
+                    },
+                    "name": "Zhongkai Zhao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:43:25.797Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f457",
+                    "name": "Faming Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f458",
+                    "name": "Zhengxuan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f459",
+                    "name": "Weihao Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45a",
+                    "name": "Heyuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45b",
+                    "name": "Shi Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45c",
+                    "name": "Xiangyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45d",
+                    "name": "Yitao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45e",
+                    "name": "Yujia Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69018071646208eac0d1f45f",
+                    "name": "Guang Shi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T17:43:51.000Z",
+            "submittedOnDailyAt": "2025-10-29T01:18:34.575Z",
+            "title": "Game-TARS: Pretrained Foundation Models for Scalable Generalist\n  Multimodal Game Agents",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We present Game-TARS, a generalist game agent trained with a unified,\nscalable action space anchored to human-aligned native keyboard-mouse inputs.\nUnlike API- or GUI-based approaches, this paradigm enables large-scale\ncontinual pre-training across heterogeneous domains, including OS, web, and\nsimulation games. Game-TARS is pre-trained on over 500B tokens with diverse\ntrajectories and multimodal data. Key techniques include a decaying continual\nloss to reduce causal confusion and an efficient Sparse-Thinking strategy that\nbalances reasoning depth and inference cost. Experiments show that Game-TARS\nachieves about 2 times the success rate over the previous sota model on\nopen-world Minecraft tasks, is close to the generality of fresh humans in\nunseen web 3d games, and outperforms GPT-5, Gemini-2.5-Pro, and Claude-4-Sonnet\nin FPS benchmarks. Scaling results on training-time and test-time confirm that\nthe unified action space sustains improvements when scaled to cross-game and\nmultimodal data. Our results demonstrate that simple, scalable action\nrepresentations combined with large-scale pre-training provide a promising path\ntoward generalist agents with broad computer-use abilities.",
+            "upvotes": 41,
+            "discussionId": "69018071646208eac0d1f460",
+            "projectPage": "https://seed-tars.com/game-tars",
+            "ai_summary": "Game-TARS, a generalist game agent trained with a unified action space, achieves superior performance across various domains and benchmarks through large-scale pre-training and efficient reasoning strategies.",
+            "ai_keywords": [
+                "unified action space",
+                "human-aligned native keyboard-mouse inputs",
+                "decaying continual loss",
+                "Sparse-Thinking strategy",
+                "causal confusion",
+                "open-world Minecraft tasks",
+                "unseen web 3d games",
+                "FPS benchmarks",
+                "cross-game",
+                "multimodal data",
+                "generalist agents",
+                "computer-use abilities"
+            ],
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "Game-TARS: 확장 가능한 일반ist 멀티모달 게임 에이전트를 위한 사전 학습된 기반 모델",
+        "purpose": "다양한 게임 환경에서 효과적으로 작동하는 일반ist 게임 에이전트를 개발하기 위해.",
+        "method": [
+            "인간이 사용하는 키보드-마우스 입력에 기반한 통합된 동작 공간으로 Game-TARS를 훈련함(Unlike API- or GUI-based approaches, this paradigm enables large-scale continual pre-training across heterogeneous domains, including OS, web, and simulation games.)",
+            "500B 이상의 다양한 토큰과 멀티모달 데이터를 사용하여 사전 훈련을 진행함(Game-TARS is pre-trained on over 500B tokens with diverse trajectories and multimodal data.)",
+            "원인 혼동을 줄이기 위한 지속적 손실 감소 기법과 추론 비용과 깊이를 균형 잡는 Sparse-Thinking 전략을 사용함(Key techniques include a decaying continual loss to reduce causal confusion and an efficient Sparse-Thinking strategy that balances reasoning depth and inference cost.)"
+        ],
+        "conclusion": "Game-TARS는 Minecraft와 같은 열린 세계 게임에서 성공률을 두 배로 향상시키고, 새로운 웹 3D 게임에서 인간의 일반성과 가깝다는 결과를 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Robotics",
+            "Game AI"
+        ]
+    }
+]
