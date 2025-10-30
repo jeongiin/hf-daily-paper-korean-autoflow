@@ -1,0 +1,538 @@
+[
+    {
+        "paper": {
+            "id": "2510.23473",
+            "authors": [
+                {
+                    "_id": "6900b67f646208eac0d1efe9",
+                    "user": {
+                        "_id": "67f5454e1f54f65efc9ce06b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/QTh1c-okqsl-NLHatc8Gu.png",
+                        "isPro": false,
+                        "fullname": "Shijian Wang",
+                        "user": "ShijianW01",
+                        "type": "user"
+                    },
+                    "name": "Shijian Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:43:40.824Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efea",
+                    "user": {
+                        "_id": "646cc5add2cc138217dbe133",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cc5add2cc138217dbe133/Uzvt9_UWIRIT4t4gHdjid.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiarui Jin",
+                        "user": "jinjiarui97",
+                        "type": "user"
+                    },
+                    "name": "Jiarui Jin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:42:57.692Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efeb",
+                    "name": "Xingjian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efec",
+                    "name": "Linxin Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efed",
+                    "name": "Runhao Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efee",
+                    "name": "Hecheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1efef",
+                    "name": "Zongyuan Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1eff0",
+                    "name": "Yuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6900b67f646208eac0d1eff1",
+                    "name": "Xuelian Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-27T16:10:45.000Z",
+            "submittedOnDailyAt": "2025-10-30T00:53:11.235Z",
+            "title": "Video-Thinker: Sparking \"Thinking with Videos\" via Reinforcement\n  Learning",
+            "submittedOnDailyBy": {
+                "_id": "66e03eace17fb5ff054b7686",
+                "avatarUrl": "/avatars/2b739ff11e43dd9e701c647a92617f20.svg",
+                "isPro": false,
+                "fullname": "Xiaoxi Li",
+                "user": "lixiaoxi45",
+                "type": "user"
+            },
+            "summary": "Recent advances in image reasoning methods, particularly \"Thinking with\nImages\", have demonstrated remarkable success in Multimodal Large Language\nModels (MLLMs); however, this dynamic reasoning paradigm has not yet been\nextended to video reasoning tasks. In this paper, we propose Video-Thinker,\nwhich empowers MLLMs to think with videos by autonomously leveraging their\nintrinsic \"grounding\" and \"captioning\" capabilities to generate reasoning clues\nthroughout the inference process. To spark this capability, we construct\nVideo-Thinker-10K, a curated dataset featuring autonomous tool usage within\nchain-of-thought reasoning sequences. Our training strategy begins with\nSupervised Fine-Tuning (SFT) to learn the reasoning format, followed by Group\nRelative Policy Optimization (GRPO) to strengthen this reasoning capability.\nThrough this approach, Video-Thinker enables MLLMs to autonomously navigate\ngrounding and captioning tasks for video reasoning, eliminating the need for\nconstructing and calling external tools. Extensive experiments demonstrate that\nVideo-Thinker achieves significant performance gains on both in-domain tasks\nand challenging out-of-domain video reasoning benchmarks, including\nVideo-Holmes, CG-Bench-Reasoning, and VRBench. Our Video-Thinker-7B\nsubstantially outperforms existing baselines such as Video-R1 and establishes\nstate-of-the-art performance among 7B-sized MLLMs.",
+            "upvotes": 71,
+            "discussionId": "6900b67f646208eac0d1eff2",
+            "githubRepo": "https://github.com/shijian2001/Video-Thinker",
+            "ai_summary": "Video-Thinker, a multimodal large language model, autonomously reasons with videos using intrinsic grounding and captioning capabilities, achieving state-of-the-art performance on various video reasoning benchmarks.",
+            "ai_keywords": [
+                "Thinking with Images",
+                "Multimodal Large Language Models",
+                "Video-Thinker",
+                "Video-Thinker-10K",
+                "Supervised Fine-Tuning",
+                "Group Relative Policy Optimization",
+                "Video-Holmes",
+                "CG-Bench-Reasoning",
+                "VRBench",
+                "Video-R1"
+            ],
+            "githubStars": 62
+        },
+        "translation_title": "Video-Thinker: 비디오를 통한 사고 촉진을 위한 강화 학습",
+        "purpose": "비디오 추론 작업을 위한 Multimodal Large Language Models(MLLMs)의 사고 능력을 향상시키기 위해 새로운 접근 방식 제안",
+        "method": [
+            "Video-Thinker-10K라는 관리를 수반한 데이터셋을 구축하여 사고 과정에서 추론 단서를 생성하도록 MLLMs의 고유한 'grounding' 및 'captioning' 기능을 활용함.(To spark this capability, we construct Video-Thinker-10K, a curated dataset featuring autonomous tool usage within chain-of-thought reasoning sequences.)",
+            "Supervised Fine-Tuning(SFT)으로 추론 형식을 학습하고 Group Relative Policy Optimization(GRPO)를 통해 이 추론 능력을 강화함.(Our training strategy begins with Supervised Fine-Tuning (SFT) to learn the reasoning format, followed by Group Relative Policy Optimization (GRPO) to strengthen this reasoning capability.)"
+        ],
+        "conclusion": "Video-Thinker는 비디오 추론 작업에서 기존 기준을 초과하며 성능을 획기적으로 향상시킴.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.25741",
+            "authors": [
+                {
+                    "_id": "6902c3f772739622ee92a6e8",
+                    "user": {
+                        "_id": "63ff09f24852102d4871c19c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
+                        "isPro": false,
+                        "fullname": "Rui-Jie Zhu",
+                        "user": "ridger",
+                        "type": "user"
+                    },
+                    "name": "Rui-Jie Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:29:11.604Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6e9",
+                    "name": "Zixuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ea",
+                    "name": "Kai Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6eb",
+                    "user": {
+                        "_id": "6452d79149b6b9a2383b5775",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/T28lP0kE7PZIGzJjhSpSx.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyu Zhang",
+                        "user": "TianyuZhang",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:28:53.839Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ec",
+                    "name": "Ziniu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ed",
+                    "name": "Haoran Que",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ee",
+                    "name": "Boyi Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ef",
+                    "name": "Zixin Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f0",
+                    "name": "Fan Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f1",
+                    "name": "He Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f2",
+                    "user": {
+                        "_id": "658fbec068d0b76331a81e38",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/658fbec068d0b76331a81e38/E-1fyTCM4eltkWOXwWU5k.jpeg",
+                        "isPro": false,
+                        "fullname": "Lu Li",
+                        "user": "luli2949",
+                        "type": "user"
+                    },
+                    "name": "Lu Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:28:29.408Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f3",
+                    "name": "Jiajun Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f4",
+                    "name": "Kaijing Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f5",
+                    "name": "Shanda Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f6",
+                    "name": "Taylor Kergan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f7",
+                    "name": "Andrew Smith",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f8",
+                    "name": "Xingwei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6f9",
+                    "name": "Mude Hui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6fa",
+                    "name": "Bohong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6fb",
+                    "name": "Qiyang Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6fc",
+                    "name": "Hongzhi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6fd",
+                    "name": "Xun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6fe",
+                    "name": "Wei Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a6ff",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a700",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a701",
+                    "name": "Yunfeng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a702",
+                    "name": "Chenghua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a703",
+                    "name": "Enduo Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a704",
+                    "name": "Tianle Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a705",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:29:37.002Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a706",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a707",
+                    "name": "Yoshua Bengio",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902c3f772739622ee92a708",
+                    "name": "Jason Eshraghian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-29T17:45:42.000Z",
+            "submittedOnDailyAt": "2025-10-30T00:18:54.545Z",
+            "title": "Scaling Latent Reasoning via Looped Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Modern LLMs are trained to \"think\" primarily via explicit text generation,\nsuch as chain-of-thought (CoT), which defers reasoning to post-training and\nunder-leverages pre-training data. We present and open-source Ouro, named after\nthe recursive Ouroboros, a family of pre-trained Looped Language Models\n(LoopLM) that instead build reasoning into the pre-training phase through (i)\niterative computation in latent space, (ii) an entropy-regularized objective\nfor learned depth allocation, and (iii) scaling to 7.7T tokens. Ouro 1.4B and\n2.6B models enjoy superior performance that match the results of up to 12B SOTA\nLLMs across a wide range of benchmarks. Through controlled experiments, we show\nthis advantage stems not from increased knowledge capacity, but from superior\nknowledge manipulation capabilities. We also show that LoopLM yields reasoning\ntraces more aligned with final outputs than explicit CoT. We hope our results\nshow the potential of LoopLM as a novel scaling direction in the reasoning era.\nOur model could be found in: http://ouro-llm.github.io.",
+            "upvotes": 48,
+            "discussionId": "6902c3f772739622ee92a709",
+            "projectPage": "https://ouro-llm.github.io/",
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "Looped Language Models를 통한 잠재적 추론의 확장",
+        "purpose": "사전 훈련 데이터의 활용을 극대화하여 추론 능력을 강화하기 위한 새로운 방법 개발",
+        "method": [
+            "Looped Language Models(LoopLM)를 사전 훈련 단계에서 추론을 내장하는 방법으로 사용함(i) iterative computation in latent space.",
+            "(ii) 학습된 깊이 배치를 위한 엔트로피 정규화 목표를 설정함.",
+            "(iii) 7.7T 토큰으로 확장함.",
+            "Ouro 1.4B 및 2.6B 모델이 다양한 벤치마크에서 최대 12B SOTA LLMs와 동등한 성능을 보여줌."
+        ],
+        "conclusion": "LoopLM은 지식 조작 능력이 향상되어 추론이 더 최종 출력과 잘 일치하며, 새로운 추론 시대에서의 확장 가능성을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.24592",
+            "authors": [
+                {
+                    "_id": "69017aff646208eac0d1f3cb",
+                    "user": {
+                        "_id": "63f06116f1a47aaea5bd497b",
+                        "avatarUrl": "/avatars/7d99ffa59c4579599e852a0ffb261268.svg",
+                        "isPro": false,
+                        "fullname": "Guoxin Chen",
+                        "user": "GuoxinChen",
+                        "type": "user"
+                    },
+                    "name": "Guoxin Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-29T12:45:10.856Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3cc",
+                    "name": "Jing Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3cd",
+                    "name": "Xinjie Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3ce",
+                    "name": "Wayne Xin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3cf",
+                    "name": "Ruihua Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3d0",
+                    "name": "Chengxi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3d1",
+                    "name": "Kai Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3d2",
+                    "name": "Dayiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69017aff646208eac0d1f3d3",
+                    "name": "Minpeng Liao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-28T16:22:54.000Z",
+            "submittedOnDailyAt": "2025-10-30T00:46:04.507Z",
+            "title": "ReForm: Reflective Autoformalization with Prospective Bounded Sequence\n  Optimization",
+            "submittedOnDailyBy": {
+                "_id": "63f06116f1a47aaea5bd497b",
+                "avatarUrl": "/avatars/7d99ffa59c4579599e852a0ffb261268.svg",
+                "isPro": false,
+                "fullname": "Guoxin Chen",
+                "user": "GuoxinChen",
+                "type": "user"
+            },
+            "summary": "Autoformalization, which translates natural language mathematics into\nmachine-verifiable formal statements, is critical for using formal mathematical\nreasoning to solve math problems stated in natural language. While Large\nLanguage Models can generate syntactically correct formal statements, they\noften fail to preserve the original problem's semantic intent. This limitation\narises from the LLM approaches' treating autoformalization as a simplistic\ntranslation task which lacks mechanisms for self-reflection and iterative\nrefinement that human experts naturally employ. To address these issues, we\npropose ReForm, a Reflective Autoformalization method that tightly integrates\nsemantic consistency evaluation into the autoformalization process. This\nenables the model to iteratively generate formal statements, assess its\nsemantic fidelity, and self-correct identified errors through progressive\nrefinement. To effectively train this reflective model, we introduce\nProspective Bounded Sequence Optimization (PBSO), which employs different\nrewards at different sequence positions to ensure that the model develops both\naccurate autoformalization and correct semantic validations, preventing\nsuperficial critiques that would undermine the purpose of reflection. Extensive\nexperiments across four autoformalization benchmarks demonstrate that ReForm\nachieves an average improvement of 17.2 percentage points over the strongest\nbaselines. To further ensure evaluation reliability, we introduce\nConsistencyCheck, a benchmark of 859 expert-annotated items that not only\nvalidates LLMs as judges but also reveals that autoformalization is inherently\ndifficult: even human experts produce semantic errors in up to 38.5% of cases.",
+            "upvotes": 47,
+            "discussionId": "69017aff646208eac0d1f3d4",
+            "githubRepo": "https://github.com/Chen-GX/ReForm",
+            "ai_summary": "ReForm, a reflective autoformalization method, improves the semantic accuracy of formal statements generated from natural language mathematics through iterative refinement and semantic consistency evaluation.",
+            "ai_keywords": [
+                "autoformalization",
+                "Large Language Models",
+                "semantic consistency evaluation",
+                "iterative refinement",
+                "Prospective Bounded Sequence Optimization",
+                "PBSO",
+                "ConsistencyCheck"
+            ],
+            "githubStars": 13
+        },
+        "translation_title": "ReForm: 예상 제한 시퀀스 최적화를 통한 반사적 자동 형식화",
+        "purpose": "자연어 수학 문제를 기계 검증이 가능한 형식적 진술로 변환할 때 원래 문제의 의미를 보존하기 위한 방법 제안",
+        "method": [
+            "ReForm은 자동 형식화 과정에 의미 일관성 평가를 통합하여, 모델이 형식적 진술을 반복적으로 생성하고 의미 충실도를 평가하며 자가 수정하도록 함(To address these issues, we propose ReForm, a Reflective Autoformalization method that tightly integrates semantic consistency evaluation into the autoformalization process.)",
+            "Prospective Bounded Sequence Optimization(PBSO)를 도입하여 모델이 정확한 자동 형식화와 올바른 의미 검증을 개발하도록 함(we introduce Prospective Bounded Sequence Optimization (PBSO), which employs different rewards at different sequence positions to ensure that the model develops both accurate autoformalization and correct semantic validations.)",
+            "광범위한 실험을 통해 ReForm이 평균 17.2%의 개선을 이룬 것을 입증함(Extensive experiments across four autoformalization benchmarks demonstrate that ReForm achieves an average improvement of 17.2 percentage points over the strongest baselines.)"
+        ],
+        "conclusion": "ReForm은 자연어 수학 문제의 자동 형식화에서 의미를 잘 보존하도록 개선하였으며, 이 과정에서 전문가의 성과가 38.5%의 경우에 의미 오류를 포함한다는 것을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.25065",
+            "authors": [
+                {
+                    "_id": "6902cbef72739622ee92a7bd",
+                    "user": {
+                        "_id": "64ba75761d0a5a5760874197",
+                        "avatarUrl": "/avatars/932857f6178373e977357e2269689c78.svg",
+                        "isPro": false,
+                        "fullname": "TaekHyunPark",
+                        "user": "Thrillcrazyer",
+                        "type": "user"
+                    },
+                    "name": "Taekhyun Park",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:28:15.794Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902cbef72739622ee92a7be",
+                    "user": {
+                        "_id": "67add23f4233b0da556921a7",
+                        "avatarUrl": "/avatars/f2b8b1c42e463b67c01e23ee9bf177c0.svg",
+                        "isPro": false,
+                        "fullname": "Lee",
+                        "user": "yongzzzai",
+                        "type": "user"
+                    },
+                    "name": "Yongjae Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:28:12.519Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6902cbef72739622ee92a7bf",
+                    "name": "Hyerim Bae",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-29T01:07:45.000Z",
+            "submittedOnDailyAt": "2025-10-30T02:43:45.380Z",
+            "title": "Reasoning-Aware GRPO using Process Mining",
+            "submittedOnDailyBy": {
+                "_id": "64ba75761d0a5a5760874197",
+                "avatarUrl": "/avatars/932857f6178373e977357e2269689c78.svg",
+                "isPro": false,
+                "fullname": "TaekHyunPark",
+                "user": "Thrillcrazyer",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning (RL)-based post-training has been crucial for enabling\nmulti-step reasoning in large reasoning models (LRMs), yet current reward\nschemes are typically outcome-centric. We propose PM4GRPO, a reasoning-aware\nGroup Relative Policy Optimization (GRPO) that augments standard answer/format\nrewards with signals over the reasoning procedure. To this end, process mining\ntechniques are utilized to compute a scalar conformance reward that measures\nhow closely a policy model's reasoning aligns with the pretrained teacher\nmodel. The empirical results on five benchmarks demonstrate that PM4GRPO\nsignificantly outperforms existing methodologies for GRPO-based post-training.\nThese results highlight that leveraging process mining for reasoning-aware GRPO\neffectively enhances the reasoning capabilities of policy models.",
+            "upvotes": 33,
+            "discussionId": "6902cbf072739622ee92a7c0",
+            "organization": {
+                "_id": "6902caeadf78e6ca12c2a398",
+                "name": "BAELABPNU",
+                "fullname": "BIGDATA ANALYTICS ENGINEERING LAB, Pusan National University, Busan, Korea",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6902c9cb9427990a4948a33e/L59exY-PO66fQXk3lNwQ-.png"
+            }
+        },
+        "translation_title": "사고 인지 기반 프로세스 마이닝을 이용한 GRPO",
+        "purpose": "사고 인지 기반으로 모델의 추론 능력을 향상시키기 위한 새로운 방법론 연구",
+        "method": [
+            "사고 과정에 대한 신호를 포함하여 보상을 증강시키는 PM4GRPO를 제안함(We propose PM4GRPO, a reasoning-aware Group Relative Policy Optimization (GRPO) that augments standard answer/format rewards with signals over the reasoning procedure.)",
+            "프로세스 마이닝 기술을 활용하여 정책 모델의 추론이 사전 학습된 교사 모델과 얼마나 일치하는지를 측정하는 동기 보상을 계산함(To this end, process mining techniques are utilized to compute a scalar conformance reward that measures how closely a policy model's reasoning aligns with the pretrained teacher model.)",
+            "다섯 가지 벤치마크에서 PM4GRPO의 성능을 평가하고 기존 방법론보다 우수한 결과를 도출함(The empirical results on five benchmarks demonstrate that PM4GRPO significantly outperforms existing methodologies for GRPO-based post-training.)"
+        ],
+        "conclusion": "PM4GRPO는 정책 모델의 추론 능력을 효과적으로 향상시키며, 현재의 보상 체계를 개선하는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Multimodal Learning"
+        ]
+    }
+]
