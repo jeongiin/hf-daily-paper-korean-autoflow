@@ -1,0 +1,496 @@
+[
+    {
+        "paper": {
+            "id": "2510.27492",
+            "authors": [
+                {
+                    "_id": "690813a7812eca10f9cc5e01",
+                    "name": "Jiawei Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e02",
+                    "name": "Yunzhuo Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e03",
+                    "name": "Huichen Will Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e04",
+                    "name": "Linjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e05",
+                    "name": "Michael Qizhe Shieh",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e06",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e07",
+                    "name": "Ranjay Krishna",
+                    "hidden": false
+                },
+                {
+                    "_id": "690813a7812eca10f9cc5e08",
+                    "name": "Yu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-30T17:51:38.000Z",
+            "submittedOnDailyAt": "2025-11-03T00:17:01.674Z",
+            "title": "ThinkMorph: Emergent Properties in Multimodal Interleaved\n  Chain-of-Thought Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Multimodal reasoning requires iterative coordination between language and\nvision, yet it remains unclear what constitutes a meaningful interleaved chain\nof thought. We posit that text and image thoughts should function as\ncomplementary, rather than isomorphic, modalities that mutually advance\nreasoning. Guided by this principle, we build ThinkMorph, a unified model\nfine-tuned on 24K high-quality interleaved reasoning traces spanning tasks with\nvarying visual engagement. ThinkMorph learns to generate progressive text-image\nreasoning steps that concretely manipulate visual content while maintaining\ncoherent verbal logic. It delivers large gains on vision-centric benchmarks\n(averaging 34.7% over the base model) and generalizes to out-of-domain tasks,\nmatching or surpassing larger and proprietary VLMs. Beyond performance,\nThinkMorph exhibits emergent multimodal intelligence, including unseen visual\nmanipulation skills, adaptive switching between reasoning modes, and better\ntest-time scaling through diversified multimodal thoughts.These findings\nsuggest promising directions for characterizing the emergent capabilities of\nunified models for multimodal reasoning.",
+            "upvotes": 51,
+            "discussionId": "690813a7812eca10f9cc5e09",
+            "projectPage": "https://thinkmorph.github.io/",
+            "githubRepo": "https://github.com/ThinkMorph/ThinkMorph",
+            "githubStars": 37
+        },
+        "translation_title": "ThinkMorph: 다중 모달 간섭 체계에서의Emergent Properties",
+        "purpose": "다중 모달 추론에서 텍스트와 이미지 사고가 어떻게 상호 보완적으로 작용할 수 있는지 연구하고 그에 따라 개선된 모델을 개발하는 것",
+        "method": [
+            "ThinkMorph라는 통합 모델을 구축하고 이를 24K 고품질 간섭 추론 트레이스를 기반으로 미세 조정(Fine-tuned)함(We build ThinkMorph, a unified model fine-tuned on 24K high-quality interleaved reasoning traces spanning tasks with varying visual engagement.)",
+            "ThinkMorph는 시각적 콘텐츠를 조작하면서도 일관된 언어 논리를 유지하는 텍스트-이미지 추론 단계를 생성하도록 학습함(ThinkMorph learns to generate progressive text-image reasoning steps that concretely manipulate visual content while maintaining coherent verbal logic.)",
+            "Vision-centric 벤치마크에서 기존 모델 대비 평균 34.7% 향상된 성능을 보임(It delivers large gains on vision-centric benchmarks, averaging 34.7% over the base model.)"
+        ],
+        "conclusion": "ThinkMorph는 다중 모달 지능의 Emergent 특성을 보여주며, 이는 통합 모델을 활용한 다중 모달 추론의 새로운 가능성을 제시함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.24411",
+            "authors": [
+                {
+                    "_id": "6901c572646208eac0d1f58b",
+                    "user": {
+                        "_id": "6064a0eeb1703ddba0d458b9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617207525789-noauth.png",
+                        "isPro": false,
+                        "fullname": "Qiushi",
+                        "user": "QiushiSun",
+                        "type": "user"
+                    },
+                    "name": "Qiushi Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-10-30T14:41:31.108Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f58c",
+                    "name": "Mukai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f58d",
+                    "name": "Zhoumianze Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f58e",
+                    "name": "Zhihui Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f58f",
+                    "name": "Fangzhi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f590",
+                    "name": "Zhangyue Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f591",
+                    "name": "Kanzhi Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f592",
+                    "name": "Zehao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f593",
+                    "name": "Zichen Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f594",
+                    "name": "Qi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f595",
+                    "name": "Zhiyong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f596",
+                    "name": "Zhuosheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f597",
+                    "name": "Ben Kao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6901c572646208eac0d1f598",
+                    "name": "Lingpeng Kong",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6064a0eeb1703ddba0d458b9/bw0LkLXWMJv2phqt5NTPT.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6064a0eeb1703ddba0d458b9/LzYmfXUDFU8qdRwvvP_t1.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6064a0eeb1703ddba0d458b9/oYs157OjuXN_AKMQb2vrl.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/6064a0eeb1703ddba0d458b9/iBKBpbGwt3NyyxB-BuDX5.png"
+            ],
+            "publishedAt": "2025-10-28T13:22:39.000Z",
+            "submittedOnDailyAt": "2025-11-03T00:39:54.915Z",
+            "title": "OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid\n  Validation in Realistic Workflows",
+            "submittedOnDailyBy": {
+                "_id": "6064a0eeb1703ddba0d458b9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1617207525789-noauth.png",
+                "isPro": false,
+                "fullname": "Qiushi",
+                "user": "QiushiSun",
+                "type": "user"
+            },
+            "summary": "Computer-using agents powered by Vision-Language Models (VLMs) have\ndemonstrated human-like capabilities in operating digital environments like\nmobile platforms. While these agents hold great promise for advancing digital\nautomation, their potential for unsafe operations, such as system compromise\nand privacy leakage, is raising significant concerns. Detecting these safety\nconcerns across the vast and complex operational space of mobile environments\npresents a formidable challenge that remains critically underexplored. To\nestablish a foundation for mobile agent safety research, we introduce\nMobileRisk-Live, a dynamic sandbox environment accompanied by a safety\ndetection benchmark comprising realistic trajectories with fine-grained\nannotations. Built upon this, we propose OS-Sentinel, a novel hybrid safety\ndetection framework that synergistically combines a Formal Verifier for\ndetecting explicit system-level violations with a VLM-based Contextual Judge\nfor assessing contextual risks and agent actions. Experiments show that\nOS-Sentinel achieves 10%-30% improvements over existing approaches across\nmultiple metrics. Further analysis provides critical insights that foster the\ndevelopment of safer and more reliable autonomous mobile agents.",
+            "upvotes": 51,
+            "discussionId": "6901c572646208eac0d1f599",
+            "githubRepo": "https://github.com/OS-Copilot/OS-Sentinel",
+            "ai_summary": "A hybrid safety detection framework combining formal verification and VLM-based contextual assessment improves the detection of unsafe operations in mobile agents.",
+            "ai_keywords": [
+                "Vision-Language Models",
+                "VLMs",
+                "Formal Verifier",
+                "Contextual Judge",
+                "MobileRisk-Live",
+                "safety detection benchmark",
+                "system-level violations",
+                "contextual risks",
+                "autonomous mobile agents"
+            ],
+            "githubStars": 22,
+            "organization": {
+                "_id": "61bb0986699d29d369eba1b2",
+                "name": "hkunlp",
+                "fullname": "NLP Group of The University of Hong Kong",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1639647572687-618767e4238063b4615d042b.jpeg"
+            }
+        },
+        "translation_title": "OS-Sentinel: 현실적인 워크플로우를 통한 안전성 강화 모바일 GUI 에이전트의 하이브리드 검증",
+        "purpose": "모바일 에이전트의 안전성을 연구하고 확보하기 위한 기본적인 토대 마련",
+        "method": [
+            "MobileRisk-Live라는 동적 샌드박스 환경과 안전성 탐지 벤치마크를 도입하여 현실적인 경로를 제공합니다.(We introduce MobileRisk-Live, a dynamic sandbox environment accompanied by a safety detection benchmark comprising realistic trajectories with fine-grained annotations.)",
+            "형식 검증기와 VLM 기반 컨텍스트 판단기를 조합한 하이브리드 안전 탐지 프레임워크인 OS-Sentinel을 제안합니다.(We propose OS-Sentinel, a novel hybrid safety detection framework that synergistically combines a Formal Verifier for detecting explicit system-level violations with a VLM-based Contextual Judge.)",
+            "OS-Sentinel의 실험을 통해 기존 방법 대비 10%-30%의 개선 결과를 확인합니다.(Experiments show that OS-Sentinel achieves 10%-30% improvements over existing approaches across multiple metrics.)"
+        ],
+        "conclusion": "OS-Sentinel은 자율 모바일 에이전트를 보다 안전하고 신뢰성 있게 발전시키는 데 도움이 되는 중요한 통찰력을 제공합니다.",
+        "keywords": [
+            "Vision-Language Models",
+            "Safety Detection",
+            "Mobile Agents"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.25602",
+            "authors": [
+                {
+                    "_id": "69081d74812eca10f9cc5e7a",
+                    "name": "Mengzhao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e7b",
+                    "name": "Meng Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e7c",
+                    "name": "Hui Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e7d",
+                    "name": "Zhihang Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e7e",
+                    "name": "Jing Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e7f",
+                    "name": "Chaoyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e80",
+                    "name": "Yunshui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e81",
+                    "name": "Jie Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e82",
+                    "name": "Jin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e83",
+                    "name": "Zeyue Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e84",
+                    "name": "Zhiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e85",
+                    "name": "Xingyan Bin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69081d74812eca10f9cc5e86",
+                    "name": "Ping Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-29T15:11:53.000Z",
+            "submittedOnDailyAt": "2025-11-03T00:44:27.697Z",
+            "title": "INT v.s. FP: A Comprehensive Study of Fine-Grained Low-bit Quantization\n  Formats",
+            "submittedOnDailyBy": {
+                "_id": "64aea082704210bf815e7551",
+                "avatarUrl": "/avatars/5c8dc0df57596c526b2bccea21835f53.svg",
+                "isPro": false,
+                "fullname": "Mengzhao Chen",
+                "user": "ChenMnZ",
+                "type": "user"
+            },
+            "summary": "Modern AI hardware, such as Nvidia's Blackwell architecture, is increasingly\nembracing low-precision floating-point (FP) formats to handle the pervasive\nactivation outliers in Large Language Models (LLMs). Despite this industry\ntrend, a unified comparison of FP and integer (INT) quantization across varying\ngranularities has been missing, leaving algorithm and hardware co-design\nwithout clear guidance. This paper fills that gap by systematically\ninvestigating the trade-offs between FP and INT formats. We reveal a critical\nperformance crossover: while FP excels in coarse-grained quantization, the\ncomparison at fine-grained (block-wise) levels is more nuanced. Our\ncomprehensive comparison demonstrates that for popular 8-bit fine-grained\nformats (e.g., MX with block size 32), MXINT8 is superior to its FP counterpart\nin both algorithmic accuracy and hardware efficiency. However, for 4-bit\nformats, FP (e.g., MXFP4, NVFP4) often holds an accuracy advantage , though we\nshow that NVINT4 can surpass NVFP4 when outlier-mitigation techniques like\nHadamard rotation are applied. We also introduce a symmetric clipping method\nthat resolves gradient bias in fine-grained low-bit INT training, enabling\nnearly lossless performance for MXINT8 training. These findings challenge the\ncurrent hardware trajectory, demonstrating that a one-size-fits-all FP approach\nis suboptimal and advocating that fine-grained INT formats, particularly\nMXINT8, offer a better balance of accuracy, power, and efficiency for future AI\naccelerators.",
+            "upvotes": 43,
+            "discussionId": "69081d75812eca10f9cc5e87",
+            "githubRepo": "https://github.com/ChenMnZ/INT_vs_FP",
+            "githubStars": 18,
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "INT 대 FP: 세밀한 저비트 정량화에 대한 종합 연구",
+        "purpose": "FP와 INT 포맷 간의 성능 비교를 통해 알고리즘과 하드웨어 설계에 대한 명확한 지침을 제시하고자 함.",
+        "method": [
+            "FP와 INT 포맷의 장단점을 체계적으로 조사함(This paper fills that gap by systematically investigating the trade-offs between FP and INT formats.)",
+            "세밀한 저비트 정량화 형식에서 MXINT8이 FP보다 알고리즘 정확성과 하드웨어 효율성에서 뛰어난 성능을 보임(Our comprehensive comparison demonstrates that for popular 8-bit fine-grained formats, MXINT8 is superior to its FP counterpart in both algorithmic accuracy and hardware efficiency.)",
+            "NVINT4는 Hadamard 회전과 같은 이상값 완화 기법을 적용했을 때 NVFP4를 초월할 수 있음(though we show that NVINT4 can surpass NVFP4 when outlier-mitigation techniques like Hadamard rotation are applied.)"
+        ],
+        "conclusion": "세밀한 INT 형식인 MXINT8이 정확도, 전력, 효율성의 균형을 더 잘 맞춘다는 것을 보여주며, 통합적 FP 접근법이 최적이 아님을 주장함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.25889",
+            "authors": [
+                {
+                    "_id": "690832af812eca10f9cc5ec0",
+                    "name": "Kang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec1",
+                    "name": "Zhihao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec2",
+                    "name": "Tonghe Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec3",
+                    "name": "Zhen Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec4",
+                    "name": "Si Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec5",
+                    "name": "Hao Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec6",
+                    "name": "Hongzhi Zang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec7",
+                    "name": "Quanlu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec8",
+                    "name": "Zhaofei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ec9",
+                    "name": "Guoliang Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5eca",
+                    "name": "Tiejun Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ecb",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690832af812eca10f9cc5ecc",
+                    "name": "Chao Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-29T18:37:39.000Z",
+            "submittedOnDailyAt": "2025-11-03T02:15:50.813Z",
+            "title": "π_RL: Online RL Fine-tuning for Flow-based\n  Vision-Language-Action Models",
+            "submittedOnDailyBy": {
+                "_id": "64ba0f8d842aa47891cb972b",
+                "avatarUrl": "/avatars/3bcacd9b778a146e88e20887b0b00720.svg",
+                "isPro": false,
+                "fullname": "Chao Yu",
+                "user": "zoeyuchao",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models enable robots to understand and perform\ncomplex tasks from multimodal input. Although recent work explores using\nreinforcement learning (RL) to automate the laborious data collection process\nin scaling supervised fine-tuning (SFT), applying large-scale RL to flow-based\nVLAs (e.g., pi_0, pi_{0.5}) remains challenging due to intractable action\nlog-likelihoods from iterative denoising.\n  We address this challenge with pi_{RL}, an open-source framework\nfor training flow-based VLAs in parallel simulation. pi_{RL}\nimplements two RL algorithms: (1) {Flow-Noise} models the denoising process as\na discrete-time MDP with a learnable noise network for exact log-likelihood\ncomputation. (2) {Flow-SDE} integrates denoising with agent-environment\ninteraction, formulating a two-layer MDP that employs ODE-to-SDE conversion for\nefficient RL exploration.\n  We evaluate pi_{RL} on LIBERO and ManiSkill benchmarks. On LIBERO,\npi_{RL} boosts few-shot SFT models pi_0 and pi_{0.5} from 57.6%\nto 97.6% and from 77.1% to 98.3%, respectively. In ManiSkill, we train\npi_{RL} in 320 parallel environments, improving pi_0 from 41.6% to\n85.7% and pi_{0.5} from 40.0% to 84.8% across 4352 pick-and-place tasks,\ndemonstrating scalable multitask RL under heterogeneous simulation.\n  Overall, pi_{RL} achieves significant performance gains and\nstronger generalization over SFT-models, validating the effectiveness of online\nRL for flow-based VLAs.",
+            "upvotes": 32,
+            "discussionId": "690832af812eca10f9cc5ecd",
+            "projectPage": "https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html",
+            "organization": {
+                "_id": "689ea978824b212c988bc8f5",
+                "name": "RLinf",
+                "fullname": "RLinf",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/689ea8a1a73ecc6940dbba3d/T2RGCw18z6lYP1WfkIGJ3.jpeg"
+            }
+        },
+        "translation_title": "π_RL: Flow 기반 Vision-Language-Action 모델을 위한 온라인 강화 학습 미세 조정",
+        "purpose": "Flow 기반 Vision-Language-Action 모델의 성능을 개선하기 위한 온라인 강화 학습 접근법 연구",
+        "method": [
+            "pi_{RL} 프레임워크를 도입하여 병렬 시뮬레이션에서 flow 기반 VLA 모델을 훈련함(We address this challenge with pi_{RL}, an open-source framework for training flow-based VLAs in parallel simulation.)",
+            "정확한 log-likelihood 계산을 위한 학습 가능한 노이즈 네트워크로 흐름 노이즈 모델링(Flow-Noise models the denoising process as a discrete-time MDP with a learnable noise network for exact log-likelihood computation.)",
+            "효율적인 RL 탐색을 위한 ODE-에서 SDE 변환을 통합한 두 레이어 MDP 구성(Flow-SDE integrates denoising with agent-environment interaction, formulating a two-layer MDP that employs ODE-to-SDE conversion for efficient RL exploration.)"
+        ],
+        "conclusion": "pi_{RL}은 SFT 모델들에 비해 월등한 성능 향상과 일반화를 달성하였으며, flow 기반 VLA에 대한 온라인 강화 학습의 효과를 입증함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Vision-Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.27688",
+            "authors": [
+                {
+                    "_id": "69080ebd812eca10f9cc5df3",
+                    "name": "Chenze Shao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69080ebd812eca10f9cc5df4",
+                    "name": "Darren Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69080ebd812eca10f9cc5df5",
+                    "name": "Fandong Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69080ebd812eca10f9cc5df6",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-10-31T17:58:11.000Z",
+            "submittedOnDailyAt": "2025-11-03T00:15:11.394Z",
+            "title": "Continuous Autoregressive Language Models",
+            "submittedOnDailyBy": {
+                "_id": "67a42bf8dba32bb665e351ad",
+                "avatarUrl": "/avatars/9c13810fe789ddcd9cefd4f2c924e4aa.svg",
+                "isPro": false,
+                "fullname": "Chenze Shao",
+                "user": "cccczshao",
+                "type": "user"
+            },
+            "summary": "The efficiency of large language models (LLMs) is fundamentally limited by\ntheir sequential, token-by-token generation process. We argue that overcoming\nthis bottleneck requires a new design axis for LLM scaling: increasing the\nsemantic bandwidth of each generative step. To this end, we introduce\nContinuous Autoregressive Language Models (CALM), a paradigm shift from\ndiscrete next-token prediction to continuous next-vector prediction. CALM uses\na high-fidelity autoencoder to compress a chunk of K tokens into a single\ncontinuous vector, from which the original tokens can be reconstructed with\nover 99.9\\% accuracy. This allows us to model language as a sequence of\ncontinuous vectors instead of discrete tokens, which reduces the number of\ngenerative steps by a factor of K. The paradigm shift necessitates a new\nmodeling toolkit; therefore, we develop a comprehensive likelihood-free\nframework that enables robust training, evaluation, and controllable sampling\nin the continuous domain. Experiments show that CALM significantly improves the\nperformance-compute trade-off, achieving the performance of strong discrete\nbaselines at a significantly lower computational cost. More importantly, these\nfindings establish next-vector prediction as a powerful and scalable pathway\ntowards ultra-efficient language models. Code:\nhttps://github.com/shaochenze/calm. Project:\nhttps://shaochenze.github.io/blog/2025/CALM.",
+            "upvotes": 27,
+            "discussionId": "69080ebd812eca10f9cc5df7",
+            "projectPage": "https://shaochenze.github.io/blog/2025/CALM/",
+            "githubRepo": "https://github.com/shaochenze/calm",
+            "githubStars": 17,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "지속적 자기 회귀 언어 모델",
+        "purpose": "대규모 언어 모델의 효율성을 높이기 위해 새로운 설계 축을 제안하고자 함.",
+        "method": [
+            "각 생성 단계에서 의미의 대역폭을 높이는 방안을 제안함(We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step.)",
+            "CALM을 소개하여 이산적인 다음 토큰 예측에서 연속적인 다음 벡터 예측으로 전환함(To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token prediction to continuous next-vector prediction.)",
+            "99.9% 이상의 정확도로 원래 토큰을 재구성할 수 있도록 K개의 토큰을 단일 연속 벡터로 압축하는 고충실도의 오토인코더를 사용함(CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from which the original tokens can be reconstructed with over 99.9% accuracy.)",
+            "새로운 모델링 툴킷을 개발하여 연속 도메인에서 강력한 훈련, 평가 및 제어 가능한 샘플링을 가능하게 함(The paradigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and controllable sampling in the continuous domain.)"
+        ],
+        "conclusion": "CALM은 성능-계산의 균형을 크게 개선하며 강력한 이산 기준 모델의 성능을 훨씬 낮은 계산 비용으로 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
