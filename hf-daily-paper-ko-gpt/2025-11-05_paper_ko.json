@@ -1,0 +1,476 @@
+[
+    {
+        "paper": {
+            "id": "2511.02778",
+            "authors": [
+                {
+                    "_id": "690aba32d70e173c84528fa7",
+                    "name": "Kevin Qinghong Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fa8",
+                    "name": "Yuhao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fa9",
+                    "name": "Hangyu Ran",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528faa",
+                    "name": "Dantong Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fab",
+                    "name": "Dongxing Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fac",
+                    "name": "Linjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fad",
+                    "name": "Philip Torr",
+                    "hidden": false
+                },
+                {
+                    "_id": "690aba32d70e173c84528fae",
+                    "name": "Alex Jinpeng Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-04T18:00:18.000Z",
+            "submittedOnDailyAt": "2025-11-05T00:18:37.196Z",
+            "title": "VCode: a Multimodal Coding Benchmark with SVG as Symbolic Visual\n  Representation",
+            "submittedOnDailyBy": {
+                "_id": "64440be5af034cdfd69ca3a7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                "isPro": false,
+                "fullname": "Qinghong (Kevin) Lin",
+                "user": "KevinQHLin",
+                "type": "user"
+            },
+            "summary": "Code has emerged as a precise and executable medium for reasoning and action\nin the agent era. Yet, progress has largely focused on language-centric tasks\nsuch as program synthesis and debugging, leaving visual-centric coding\nunderexplored. Inspired by how humans reason over sketches, we advocate SVG\ncode as a compact, interpretable, and executable visual representation. We\nintroduce VCode, a benchmark that reframes multimodal understanding as code\ngeneration: given an image, a model must produce SVG that preserves symbolic\nmeaning for downstream reasoning. VCode covers three domains - general\ncommonsense (MM-Vet), professional disciplines (MMMU), and visual-centric\nperception (CV-Bench). To assess symbolic fidelity, we propose CodeVQA, a novel\nevaluation protocol in which a policy model answers questions over rendered\nSVGs; correct answers indicate faithful symbolic preservation. Empirically,\nfrontier VLMs struggle to generate faithful SVGs, revealing a persistent gap\nbetween language-centric and visual-centric coding. To close this gap, we\nintroduce VCoder, an agentic framework that augments VLMs along two axes: (i)\nThinking with Revision, which iteratively analyzes discrepancies and refines\nSVG code; and (ii) Acting with Visual Tools, where detectors and parsers supply\nstructured cues such as objects, shapes, and text beyond the model's intrinsic\ncapacity. Across benchmarks, frontier VLMs with strong reasoning capabilities\nscore well overall yet remain limited in professional knowledge and 3D\nreasoning. VCoder delivers a 12.3-point overall gain over the top-performing\nClaude-4-Opus. Human studies show that both humans and VLMs perform worse on\nrendered SVGs, their consistency reveals the promise of symbolic visual\nrepresentation. The benchmark and code are available at\nhttps://github.com/CSU-JPG/VCode.",
+            "upvotes": 57,
+            "discussionId": "690aba33d70e173c84528faf",
+            "projectPage": "https://csu-jpg.github.io/VCode/",
+            "githubRepo": "https://github.com/CSU-JPG/VCode/tree/main",
+            "ai_summary": "VCode introduces a benchmark for generating SVG code from images to preserve symbolic meaning, highlighting gaps in visual-centric coding and proposing VCoder to improve performance.",
+            "ai_keywords": [
+                "SVG",
+                "VCode",
+                "multimodal understanding",
+                "code generation",
+                "CodeVQA",
+                "VLMs",
+                "Thinking with Revision",
+                "Acting with Visual Tools",
+                "professional knowledge",
+                "3D reasoning",
+                "VCoder"
+            ],
+            "githubStars": 40,
+            "organization": {
+                "_id": "67ab7720792eebb05080c926",
+                "name": "CSU-JPG",
+                "fullname": "Jinpeng Group",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62333a88fd7bb4a39b92d387/MHfLrhVz0KqH6ydx1UrOc.jpeg"
+            }
+        },
+        "translation_title": "VCode: 상징적 시각 표현으로서의 SVG를 활용한 다중 모달 코딩 벤치마크",
+        "purpose": "비주얼 중심 코딩 분야의 발전을 위해 SVG 코드를 활용한 다중 모달 이해를 코딩 생성으로 재구성하는 벤치마크 개발",
+        "method": [
+            "이미지를 입력으로 받아 SVG 코드를 생성하는 VCode라는 벤치마크를 소개함(We introduce VCode, a benchmark that reframes multimodal understanding as code generation: given an image, a model must produce SVG that preserves symbolic meaning for downstream reasoning.)",
+            "상징적 충실도를 평가하기 위해 SVG에 대한 질문에 답하는 정책 모델을 사용하는 새로운 평가 프로토콜인 CodeVQA를 제안함(To assess symbolic fidelity, we propose CodeVQA, a novel evaluation protocol in which a policy model answers questions over rendered SVGs.)",
+            "VLM의 한계를 극복하기 위해 VCoder라는 에이전트 프레임워크를 도입하여 차별성을 분석하고 SVG 코드를 정제하는 Thinking with Revision과 물체, 형태, 텍스트를 포함한 구조적 단서를 제공하는 Acting with Visual Tools 두 축으로 VLM을 보강함(To close this gap, we introduce VCoder, an agentic framework that augments VLMs along two axes: (i) Thinking with Revision, which iteratively analyzes discrepancies and refines SVG code; and (ii) Acting with Visual Tools, where detectors and parsers supply structured cues such as objects, shapes, and text beyond the model's intrinsic capacity.)"
+        ],
+        "conclusion": "VCoder는 상징적 시각 표현의 가능성을 보여주며, 벤치마크에서 상위 성능을 기록하면서도 기존의 VLM들보다 전문 지식과 3D 추론에서 한계를 드러냄.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2510.25616",
+            "authors": [
+                {
+                    "_id": "690b2b3ad70e173c8452913b",
+                    "name": "Nikita Kachaev",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b2b3ad70e173c8452913c",
+                    "name": "Mikhail Kolosov",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b2b3ad70e173c8452913d",
+                    "name": "Daniil Zelezetsky",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b2b3ad70e173c8452913e",
+                    "name": "Alexey K. Kovalev",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b2b3ad70e173c8452913f",
+                    "name": "Aleksandr I. Panov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64705ef84be5cf1f3348e283/3uiRVwV1O4F9igfnAheL3.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64705ef84be5cf1f3348e283/3EDhUUSvXsBEwjQLyeqOv.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64705ef84be5cf1f3348e283/B5JJL2VMVgeT6LOGiQskw.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64705ef84be5cf1f3348e283/NNuvVzsX7v3oJcBcWEBXd.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64705ef84be5cf1f3348e283/Bb4JGxQJlaaip8CsMmsRI.png"
+            ],
+            "publishedAt": "2025-10-29T15:20:10.000Z",
+            "submittedOnDailyAt": "2025-11-05T08:17:48.318Z",
+            "title": "Don't Blind Your VLA: Aligning Visual Representations for OOD\n  Generalization",
+            "submittedOnDailyBy": {
+                "_id": "64705ef84be5cf1f3348e283",
+                "avatarUrl": "/avatars/915875e7c4118098ab460831d5e8ef0e.svg",
+                "isPro": false,
+                "fullname": "Nikita",
+                "user": "tttonyalpha",
+                "type": "user"
+            },
+            "summary": "The growing success of Vision-Language-Action (VLA) models stems from the\npromise that pretrained Vision-Language Models (VLMs) can endow agents with\ntransferable world knowledge and vision-language (VL) grounding, laying a\nfoundation for action models with broader generalization. Yet when these VLMs\nare adapted to the action modality, it remains unclear to what extent their\noriginal VL representations and knowledge are preserved. In this work, we\nconduct a systematic study of representation retention during VLA fine-tuning,\nshowing that naive action fine-tuning leads to degradation of visual\nrepresentations. To characterize and measure these effects, we probe VLA's\nhidden representations and analyze attention maps, further, we design a set of\ntargeted tasks and methods that contrast VLA models with their counterpart\nVLMs, isolating changes in VL capabilities induced by action fine-tuning. We\nfurther evaluate a range of strategies for aligning visual representations and\nintroduce a simple yet effective method that mitigates degradation and yields\nimproved generalization to out-of-distribution (OOD) scenarios. Taken together,\nour analysis clarifies the trade-off between action fine-tuning and the\ndegradation of VL representations and highlights practical approaches to\nrecover inherited VL capabilities. Code is publicly available:\nhttps://blind-vla-paper.github.io",
+            "upvotes": 41,
+            "discussionId": "690b2b3ad70e173c84529140",
+            "projectPage": "https://blind-vla-paper.github.io",
+            "githubRepo": "https://github.com/CognitiveAISystems/BlindVLA",
+            "ai_summary": "Systematic study reveals that naive action fine-tuning degrades visual representations in Vision-Language-Action models, but targeted strategies can mitigate this and improve generalization.",
+            "ai_keywords": [
+                "Vision-Language-Action models",
+                "Vision-Language Models",
+                "VLA fine-tuning",
+                "visual representations",
+                "attention maps",
+                "out-of-distribution scenarios"
+            ],
+            "githubStars": 6
+        },
+        "translation_title": "VLA를 맹목적으로 만드는 것이 아닌 시각적 표현의 조정: OOD 일반화를 위한 연구",
+        "purpose": "Vision-Language-Action 모델의 일반화 성능을 높이기 위해 VLM의 시각적 표현을 잘 보존하는 방법 연구",
+        "method": [
+            "VLA의 파인튜닝 과정에서 시각적 표현이 어떻게 보존되는지를 체계적으로 연구함(we conduct a systematic study of representation retention during VLA fine-tuning)",
+            "VLA 모델과 VLM 모델을 비교하여 액션 파인튜닝에 의해 발생하는 VL 기능의 변화를 분석함(we design a set of targeted tasks and methods that contrast VLA models with their counterpart VLMs, isolating changes in VL capabilities induced by action fine-tuning)",
+            "시각적 표현을 정렬하기 위한 다양한 전략을 평가하고, 효과적인 방법을 제안하여 OOD 시나리오에서 일반화를 개선함(we evaluate a range of strategies for aligning visual representations and introduce a simple yet effective method that mitigates degradation and yields improved generalization to out-of-distribution (OOD) scenarios)"
+        ],
+        "conclusion": "이 연구는 액션 파인튜닝과 VL 표현 저하 사이의 균형을 명확히 하고, VL 기능 회복을 위한 실제적인 접근 방법을 강조함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Generalization"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.02779",
+            "authors": [
+                {
+                    "_id": "690adcf8d70e173c84529049",
+                    "name": "Yiyang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904a",
+                    "name": "Haoqin Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904b",
+                    "name": "Zijun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904c",
+                    "name": "Zeyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904d",
+                    "name": "Niklas Muennighoff",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904e",
+                    "name": "Fan Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c8452904f",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529050",
+                    "name": "James Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529051",
+                    "name": "Chaorui Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529052",
+                    "name": "Shen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529053",
+                    "name": "Haoqi Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529054",
+                    "name": "Cihang Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529055",
+                    "name": "Huaxiu Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690adcf8d70e173c84529056",
+                    "name": "Qinghao Ye",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-04T18:00:51.000Z",
+            "submittedOnDailyAt": "2025-11-05T02:45:55.873Z",
+            "title": "When Visualizing is the First Step to Reasoning: MIRA, a Benchmark for\n  Visual Chain-of-Thought",
+            "submittedOnDailyBy": {
+                "_id": "6433722c5277e3b24ef49055",
+                "avatarUrl": "/avatars/f3c5560d500c699e452986a6a45ba3ee.svg",
+                "isPro": false,
+                "fullname": "Yiyang Zhou",
+                "user": "YiyangAiLab",
+                "type": "user"
+            },
+            "summary": "We propose MIRA, a new benchmark designed to evaluate models in scenarios\nwhere generating intermediate visual images is essential for successful\nreasoning. Unlike traditional CoT methods that rely solely on text, tasks in\nMIRA require models to generate and utilize intermediate images - such as\nsketches, structural diagrams, or path drawings - to guide their reasoning\nprocess. This setup closely mirrors how humans solve complex problems through\n\"drawing to think\". To solve this, MIRA focuses on tasks that are intrinsically\nchallenging and involve complex structures, spatial relationships, or reasoning\nsteps that are difficult to express through language alone. To ensure that our\nevaluation data is of high-quality, we include 546 multimodal problems,\nannotated with intermediate visual images and final answers. We also propose a\nunified evaluation protocol for MIRA that spans three levels of evaluation\ninput: direct input with image and question only, text-only CoT input with\nimage and thinking prompts, and Visual-CoT input with both annotated image\nclues and textual thinking prompts. To probe the upper bound of model capacity\non our benchmark, we also report pass@k and majority voting accuracies under\ndifferent k settings. Experimental results show that existing multimodal large\nlanguage models, including strongest private models as well as strong\nopen-weight models, perform poorly when relying solely on textual prompts.\nHowever, when intermediate visual cues are provided, model performance improves\nconsistently, yielding an average relative gain of 33.7% across all models and\ntasks. We also probe the upper bound by expanding the search space and\ndesigning textual prompts aligned with Visual-CoT, but both yield only limited\nimprovements compared to our Visual-CoT setting. These results underscore the\ncritical role of imagined visual information in enabling successful reasoning\non MIRA.",
+            "upvotes": 35,
+            "discussionId": "690adcf8d70e173c84529057",
+            "projectPage": "https://mira-benchmark.github.io/",
+            "ai_summary": "MIRA is a benchmark that evaluates models using intermediate visual images to enhance reasoning, showing significant performance improvements over text-only methods.",
+            "ai_keywords": [
+                "CoT methods",
+                "intermediate visual images",
+                "sketches",
+                "structural diagrams",
+                "path drawings",
+                "multimodal problems",
+                "evaluation protocol",
+                "pass@k",
+                "majority voting accuracies",
+                "multimodal large language models",
+                "Visual-CoT input"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "시각화가 추론의 첫걸음인 경우: MIRA, 시각적 사고의 벤치마크",
+        "purpose": "모델이 성공적인 추론을 위해 중간 시각 이미지를 생성하고 이용해야 하는 상황을 평가하기 위한 벤치마크 개발",
+        "method": [
+            "MIRA에서 모델이 중간 이미지를 생성하고 활용할 수 있도록 디자인된 과제를 포함함(Unlike traditional CoT methods that rely solely on text, tasks in MIRA require models to generate and utilize intermediate images - such as sketches, structural diagrams, or path drawings - to guide their reasoning process.)",
+            "546개의 멀티모달 문제를 포함하고, 각 문제는 중간 시각 이미지와 최종 답변이 주어짐(To ensure that our evaluation data is of high-quality, we include 546 multimodal problems, annotated with intermediate visual images and final answers.)",
+            "MIRA에 대한 통합 평가 프로토콜을 제안하여 다양한 입력 형식으로 모델 성능을 평가함(We also propose a unified evaluation protocol for MIRA that spans three levels of evaluation input: direct input with image and question only, text-only CoT input with image and thinking prompts, and Visual-CoT input with both annotated image clues and textual thinking prompts.)"
+        ],
+        "conclusion": "중간 시각 정보가 성공적인 추론을 가능하게 하는 중요한 역할을 하며, 모델의 성능이 텍스트 프롬프트만 사용할 때보다 시각적 단서를 제공할 때 일관되게 향상됨.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.02243",
+            "authors": [
+                {
+                    "_id": "690ae419d70e173c8452906b",
+                    "name": "Zhuoran Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c8452906c",
+                    "name": "Tengyue Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c8452906d",
+                    "name": "Xilin Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c8452906e",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c8452906f",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c84529070",
+                    "name": "Di Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae419d70e173c84529071",
+                    "name": "Lijie Hu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-04T04:11:31.000Z",
+            "submittedOnDailyAt": "2025-11-05T03:14:18.767Z",
+            "title": "When Modalities Conflict: How Unimodal Reasoning Uncertainty Governs\n  Preference Dynamics in MLLMs",
+            "submittedOnDailyBy": {
+                "_id": "673c7319d11b1c2e246ead9c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/673c7319d11b1c2e246ead9c/IjFIO--N7Hm_BOEafhEQv.jpeg",
+                "isPro": false,
+                "fullname": "Yang Shi",
+                "user": "DogNeverSleep",
+                "type": "user"
+            },
+            "summary": "Multimodal large language models (MLLMs) must resolve conflicts when\ndifferent modalities provide contradictory information, a process we term\nmodality following. Prior work measured this behavior only with coarse\ndataset-level statistics, overlooking the influence of model's confidence in\nunimodal reasoning. In this paper, we introduce a new framework that decomposes\nmodality following into two fundamental factors: relative reasoning uncertainty\n(the case-specific confidence gap between unimodal predictions) and inherent\nmodality preference( a model's stable bias when uncertainties are balanced). To\nvalidate this framework, we construct a controllable dataset that\nsystematically varies the reasoning difficulty of visual and textual inputs.\nUsing entropy as a fine-grained uncertainty metric, we uncover a universal law:\nthe probability of following a modality decreases monotonically as its relative\nuncertainty increases. At the relative difficulty level where the model tends\nto follow both modalities with comparable probability what we call the balance\npoint, a practical indicator of the model's inherent preference. Unlike\ntraditional macro-level ratios, this measure offers a more principled and less\nconfounded way to characterize modality bias, disentangling it from unimodal\ncapabilities and dataset artifacts. Further, by probing layer-wise predictions,\nwe reveal the internal mechanism of oscillation: in ambiguous regions near the\nbalance point, models vacillate between modalities across layers, explaining\nexternally observed indecision. Together, these findings establish relative\nuncertainty and inherent preference as the two governing principles of modality\nfollowing, offering both a quantitative framework and mechanistic insight into\nhow MLLMs resolve conflicting information.",
+            "upvotes": 17,
+            "discussionId": "690ae41ad70e173c84529072",
+            "ai_summary": "A framework decomposes modality following in multimodal large language models into relative reasoning uncertainty and inherent modality preference, providing insights into how models resolve conflicting information.",
+            "ai_keywords": [
+                "multimodal large language models",
+                "modality following",
+                "relative reasoning uncertainty",
+                "inherent modality preference",
+                "entropy",
+                "balance point",
+                "layer-wise predictions"
+            ]
+        },
+        "translation_title": "모달리티가 충돌할 때: 단일 모달 사고 불확실성이 MLLMs의 선호 역학을 지배하는 방식",
+        "purpose": "다양한 모달리티 간의 충돌을 해결하는 MLLMs의 사고 메커니즘을 이해하기 위한 새로운 프레임워크 제안",
+        "method": [
+            "모달리티 추적을 두 가지 기본 요소로 분해하는 새로운 프레임워크를 제시함(we introduce a new framework that decomposes modality following into two fundamental factors: relative reasoning uncertainty and inherent modality preference.)",
+            "비주얼과 텍스트 입력의 추론 난이도를 체계적으로 변화시키는 조절 가능한 데이터세트를 구성함(we construct a controllable dataset that systematically varies the reasoning difficulty of visual and textual inputs.)",
+            "불확실성 척도로 엔트로피를 사용해 상대 불확실성이 증가할수록 특정 모달리티를 따를 확률이 감소한다는 보편 법칙을 발견함(Using entropy as a fine-grained uncertainty metric, we uncover a universal law: the probability of following a modality decreases monotonically as its relative uncertainty increases.)"
+        ],
+        "conclusion": "상대적 불확실성과 고유한 선호가 모달리티 추적의 두 가지 주요 원칙으로 작용함을 보여주며, MLLMs가 상충하는 정보를 조화롭게 해결하는 방식을 정량적이고 기계론적으로 이해할 수 있는 통찰을 제시함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.01937",
+            "authors": [
+                {
+                    "_id": "690ae1c8d70e173c84529059",
+                    "name": "Abdelaziz Bounhar",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905a",
+                    "name": "Hadi Abdine",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905b",
+                    "name": "Evan Dufraisse",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905c",
+                    "name": "Ahmad Chamma",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905d",
+                    "name": "Amr Mohamed",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905e",
+                    "name": "Dani Bouch",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c8452905f",
+                    "name": "Michalis Vazirgiannis",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae1c8d70e173c84529060",
+                    "name": "Guokan Shang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-02T17:29:16.000Z",
+            "submittedOnDailyAt": "2025-11-05T03:15:19.121Z",
+            "title": "Shorter but not Worse: Frugal Reasoning via Easy Samples as Length\n  Regularizers in Math RLVR",
+            "submittedOnDailyBy": {
+                "_id": "6380e53efb49cd1c12052c17",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6380e53efb49cd1c12052c17/b5CweexfrVn-W_xto2agR.jpeg",
+                "isPro": false,
+                "fullname": "Abdelaziz Bounhar",
+                "user": "BounharAbdelaziz",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) trained for step-by-step reasoning often become\nexcessively verbose, raising inference cost. Standard Reinforcement Learning\nwith Verifiable Rewards (RLVR) pipelines filter out ``easy'' problems for\ntraining efficiency, leaving the model to train primarily on harder problems\nthat require longer reasoning chains. This skews the output length distribution\nupward, resulting in a model that conflates ``thinking longer'' with\n``thinking better''. In this work, we show that retaining and modestly\nup-weighting moderately easy problems acts as an implicit length regularizer.\nExposing the model to solvable short-chain tasks constrains its output\ndistribution and prevents runaway verbosity. The result is\n\\emph{emergent brevity for free}: the model learns to solve harder\nproblems without inflating the output length,  despite the absence of\nany explicit length penalization. RLVR experiments using this approach on\nQwen3-4B-Thinking-2507 (with a 16k token limit) achieve baseline\npass@1 AIME25 accuracy while generating solutions that are, on average, nearly\ntwice as short. The code is available at\nhttps://github.com/MBZUAI-Paris/Frugal-AI{GitHub}, with datasets and\nmodels on\nhttps://huggingface.co/collections/MBZUAI-Paris/k2-think-mini-68dcfa8b114686a4bd3dc2bc{Hugging\nFace}.",
+            "upvotes": 5,
+            "discussionId": "690ae1c8d70e173c84529061",
+            "githubRepo": "https://github.com/MBZUAI-Paris/Frugal-AI-Math",
+            "ai_summary": "Retaining and up-weighting moderately easy problems in RLVR pipelines for LLMs reduces output verbosity without explicit length penalization.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards (RLVR)",
+                "Large language models (LLMs)",
+                "step-by-step reasoning",
+                "inference cost",
+                "output length distribution",
+                "thinking longer",
+                "thinking better",
+                "emergent brevity",
+                "Qwen3-4B-Thinking-2507",
+                "pass@1 AIME25 accuracy"
+            ],
+            "githubStars": 6,
+            "organization": {
+                "_id": "6656df18bfefce0a724e65d6",
+                "name": "MBZUAI-Paris",
+                "fullname": "MBZUAI-IFM Paris Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6087e598e2b7cc3a117b0dc5/JUiDkClou70ZdFQaiZ3hK.png"
+            }
+        },
+        "translation_title": "짧지만 나쁘지 않은: 수학 RLVR에서 쉬운 샘플을 길이 규제기로 활용한 검소한 추론",
+        "purpose": "모델의 추론 비용을 줄이고 짧은 문제에 대한 해결 능력을 유지하기 위한 연구",
+        "method": [
+            "쉬운 문제를 유지하고 적정 정도로 가중치를 부여하여 모델의 출력을 조절함(we show that retaining and modestly up-weighting moderately easy problems acts as an implicit length regularizer.)",
+            "모델을 해결 가능한 짧은 체인 작업에 노출시켜 출력 분포를 제한함(Exposing the model to solvable short-chain tasks constrains its output distribution and prevents runaway verbosity.)",
+            "Qwen3-4B-Thinking-2507에서 이 접근 방식을 사용하여 실험을 수행함(RLVR experiments using this approach on Qwen3-4B-Thinking-2507)."
+        ],
+        "conclusion": "이 방법을 통해 모델은 출력 길이를 늘리지 않고도 더 어려운 문제를 해결하는 법을 배우며, 평균적으로 솔루션 길이를 약 두 배 줄였다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    }
+]
