@@ -1,0 +1,365 @@
+[
+    {
+        "paper": {
+            "id": "2511.03276",
+            "authors": [
+                {
+                    "_id": "690c1cdc60494e4fa76756a9",
+                    "user": {
+                        "_id": "62a7362fd1e7a011fd4e31a7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a7362fd1e7a011fd4e31a7/ZY_mwH-sI0o05SHpLqwc7.png",
+                        "isPro": false,
+                        "fullname": "Jinjie Ni",
+                        "user": "jinjieni",
+                        "type": "user"
+                    },
+                    "name": "Jinjie Ni",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-06T11:47:00.935Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756aa",
+                    "name": "Qian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756ab",
+                    "name": "Longxu Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756ac",
+                    "name": "Chao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756ad",
+                    "name": "Zili Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756ae",
+                    "name": "Hang Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756af",
+                    "name": "Tianyu Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c1cdc60494e4fa76756b0",
+                    "name": "Michael Qizhe Shieh",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62a7362fd1e7a011fd4e31a7/QrHOFNxOkfy93f6tPGJdN.jpeg"
+            ],
+            "publishedAt": "2025-11-05T08:17:42.000Z",
+            "submittedOnDailyAt": "2025-11-06T01:32:43.418Z",
+            "title": "Diffusion Language Models are Super Data Learners",
+            "submittedOnDailyBy": {
+                "_id": "62a7362fd1e7a011fd4e31a7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a7362fd1e7a011fd4e31a7/ZY_mwH-sI0o05SHpLqwc7.png",
+                "isPro": false,
+                "fullname": "Jinjie Ni",
+                "user": "jinjieni",
+                "type": "user"
+            },
+            "summary": "Under strictly controlled pre-training settings, we observe a Crossover: when\nunique data is limited, diffusion language models (DLMs) consistently surpass\nautoregressive (AR) models by training for more epochs. The crossover shifts\nlater with more or higher-quality data, earlier with larger models, and\npersists across dense and sparse architectures. We attribute the gains to three\ncompounding factors: (1) any-order modeling, (2) super-dense compute from\niterative bidirectional denoising, and (3) built-in Monte Carlo augmentation;\ninput or parameter noise improves AR under data constraint but cannot close the\ngap. At scale, a 1.7B DLM trained with a ~1.5T-token compute budget on 10B\nunique Python tokens overtakes an AR coder trained with strictly matched\nsettings. In addition, a 1B-parameter DLM achieves > 56% accuracy on HellaSwag\nand > 33% on MMLU using only 1B tokens, without any special tricks, just by\nrepeating standard pre-training data. We also show that rising validation\ncross-entropy does not imply degraded downstream performance in this regime.",
+            "upvotes": 62,
+            "discussionId": "690c1cdc60494e4fa76756b1",
+            "projectPage": "https://github.com/JinjieNi/dlms-are-super-data-learners",
+            "githubRepo": "https://github.com/JinjieNi/MegaDLMs",
+            "ai_summary": "Diffusion language models outperform autoregressive models in low-data settings due to any-order modeling, iterative bidirectional denoising, and Monte Carlo augmentation, and maintain advantages even at scale.",
+            "ai_keywords": [
+                "diffusion language models",
+                "autoregressive models",
+                "any-order modeling",
+                "iterative bidirectional denoising",
+                "Monte Carlo augmentation",
+                "HellaSwag",
+                "MMLU"
+            ],
+            "githubStars": 32,
+            "organization": {
+                "_id": "6508ab2b349930913196378b",
+                "name": "NationalUniversityofSingapore",
+                "fullname": "National University of Singapore",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/630ca0817dacb93b33506ce7/ZYUmpSMsa5Whihw3me2Bw.png"
+            }
+        },
+        "translation_title": "확산 언어 모델은 데이터 학습의 최강자이다",
+        "purpose": "제한된 데이터 환경에서 확산 언어 모델(DLM)이 더 많은 에포크(epochs) 동안 학습하여 더 좋은 성능을 내는 이유를 밝히며 이러한 모델의 일반적인 특성을 분석하는 것",
+        "method": [
+            "특별히 통제된 사전 학습 환경에서 DLM과 오토회귀(AR) 모델의 성능 차이를 관찰함(we observe a Crossover: when unique data is limited, diffusion language models (DLMs) consistently surpass autoregressive (AR) models by training for more epochs.)",
+            "데이터의 양과 품질 및 모델 크기에 따라 성능 차이가 달라짐을 보여줌(the crossover shifts later with more or higher-quality data, earlier with larger models, and persists across dense and sparse architectures.)",
+            "DLM의 성능 향상을 세 가지 요인으로 설명함: (1) 순서 무관 모델링, (2) 반복적 쌍방향 디노이징에 의한 초밀집 연산, (3) 내장된 몬테카를로 증강(any-order modeling, super-dense compute from iterative bidirectional denoising, and built-in Monte Carlo augmentation)."
+        ],
+        "conclusion": "1.7B DLM이 10B 고유 Python 토큰으로 학습하여 AR 코더를 초월하는 성과를 내었으며, 1B 매개변수를 가진 DLM이 특별한 기술 없이도 HellaSwag에서 56% 이상의 정확도를 기록함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.03001",
+            "authors": [
+                {
+                    "_id": "690c0e1c60494e4fa767563a",
+                    "user": {
+                        "_id": "66bb326534295e9cf08df4e2",
+                        "avatarUrl": "/avatars/5dc3225be1194467b30691b5d33c7b19.svg",
+                        "isPro": false,
+                        "fullname": "Gyeom hwangbo",
+                        "user": "aerojohn1223",
+                        "type": "user"
+                    },
+                    "name": "Gyeom Hwangbo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-06T11:48:07.609Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c0e1c60494e4fa767563b",
+                    "name": "Hyungjoo Chae",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c0e1c60494e4fa767563c",
+                    "name": "Minseok Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c0e1c60494e4fa767563d",
+                    "name": "Hyeonjong Ju",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c0e1c60494e4fa767563e",
+                    "name": "Soohyun Oh",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c0e1c60494e4fa767563f",
+                    "name": "Jinyoung Yeo",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/hmrVsF8OLhsfTzRcjJyOn.png"
+            ],
+            "publishedAt": "2025-11-04T21:13:51.000Z",
+            "submittedOnDailyAt": "2025-11-06T00:25:38.643Z",
+            "title": "LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied\n  Environments with Tool Augmentation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Despite recent progress in using Large Language Models (LLMs) for\nautomatically generating 3D scenes, generated scenes often lack realistic\nspatial layouts and object attributes found in real-world environments. As this\nproblem stems from insufficiently detailed, coarse-grained instructions,\nadvancing 3D scene synthesis guided by more detailed, fine-grained instructions\nthat reflect real-world environments becomes crucial. Without such realistic\nscenes, training embodied agents in unrealistic environments can lead them to\nlearn priors that diverge significantly from real-world physics and semantics,\ndegrading their performance when deployed. Thus, verifying the alignment\nbetween the fine-grained instruction and the generated scene is essential for\neffective learning. However, current evaluation methods, such as CLIPScore and\nvision-language models (VLMs), often fail to reliably assess such alignment.\nThis shortcoming arises primarily from their shallow understanding of 3D\nscenes, which often leads to improperly grounded scene components. To address\nthis, we introduce LEGO-Eval, an evaluation framework equipped with diverse\ntools designed to explicitly ground scene components, enabling more accurate\nalignment assessments. We also present LEGO-Bench, a benchmark of detailed\ninstructions that specify complex layouts and attributes of real-world\nenvironments. Experiments demonstrate that LEGO-Eval outperforms VLM-as-a-judge\nby 0.41 F1 score in assessing scene-instruction alignment. Benchmarking with\nLEGO-Bench reveals significant limitations in current generation methods.\nAcross all evaluated approaches, success rates reached at most 10% in\ngenerating scenes that fully align with fine-grained instructions.",
+            "upvotes": 32,
+            "discussionId": "690c0e1d60494e4fa7675640",
+            "projectPage": "https://gyeomh.github.io/LEGO-Eval/",
+            "ai_summary": "LEGO-Eval and LEGO-Bench improve the evaluation and generation of realistic 3D scenes by aligning detailed instructions with scene components, outperforming existing methods.",
+            "ai_keywords": [
+                "Large Language Models",
+                "3D scene synthesis",
+                "fine-grained instructions",
+                "real-world environments",
+                "CLIPScore",
+                "vision-language models",
+                "LEGO-Eval",
+                "LEGO-Bench",
+                "scene-instruction alignment",
+                "F1 score"
+            ]
+        },
+        "translation_title": "LEGO-Eval: 도구 증강을 활용한 3D 환경 합성의 세밀한 평가로 나아가기",
+        "purpose": "세밀하고 현실적인 지침을 바탕으로 3D 장면 합성을 개선하기 위한 평가 프레임워크 개발",
+        "method": [
+            "LEGO-Eval이라는 평가 프레임워크를 도입하여 장면 구성 요소를 명확히 고정하는 도구를 활용함(we introduce LEGO-Eval, an evaluation framework equipped with diverse tools designed to explicitly ground scene components, enabling more accurate alignment assessments.)",
+            "LEGO-Bench라는 상세 지침 집합을 제시하여 복잡한 레이아웃과 현실 환경의 속성을 구체화함(We also present LEGO-Bench, a benchmark of detailed instructions that specify complex layouts and attributes of real-world environments.)",
+            "실험을 통해 LEGO-Eval이 VLM-as-a-judge보다 0.41 F1 점수 향상된 결과를 도출함(Experiments demonstrate that LEGO-Eval outperforms VLM-as-a-judge by 0.41 F1 score in assessing scene-instruction alignment.)"
+        ],
+        "conclusion": "LEGO-Eval은 3D 장면 합성을 위한 평가의 정확성을 높이며, 현재의 생성 방법에서는 세밀한 지침과 완전히 일치하는 장면을 생성하는 성공률이 최대 10%에 불과함을 보여줌.",
+        "keywords": [
+            "3D Vision",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.02818",
+            "authors": [
+                {
+                    "_id": "690b348b60494e4fa76754f6",
+                    "name": "Mohamed Bouadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b348b60494e4fa76754f7",
+                    "user": {
+                        "_id": "66fce04d927ec45504514afd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66fce04d927ec45504514afd/lA_bTErY7JywT6xbzdflo.jpeg",
+                        "isPro": false,
+                        "fullname": "Pratinav Seth",
+                        "user": "pratinavsetharya",
+                        "type": "user"
+                    },
+                    "name": "Pratinav Seth",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-05T16:24:08.560Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b348b60494e4fa76754f8",
+                    "name": "Aditya Tanna",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b348b60494e4fa76754f9",
+                    "name": "Vinay Kumar Sankarapu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-04T18:43:44.000Z",
+            "submittedOnDailyAt": "2025-11-06T04:18:13.289Z",
+            "title": "Orion-MSP: Multi-Scale Sparse Attention for Tabular In-Context Learning",
+            "submittedOnDailyBy": {
+                "_id": "66fce04d927ec45504514afd",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66fce04d927ec45504514afd/lA_bTErY7JywT6xbzdflo.jpeg",
+                "isPro": false,
+                "fullname": "Pratinav Seth",
+                "user": "pratinavsetharya",
+                "type": "user"
+            },
+            "summary": "Tabular data remain the predominant format for real-world applications. Yet,\ndeveloping effective neural models for tabular data remains challenging due to\nheterogeneous feature types and complex interactions occurring at multiple\nscales. Recent advances in tabular in-context learning (ICL), such as TabPFN\nand TabICL, have achieved state-of-the-art performance comparable to\ngradient-boosted trees (GBTs) without task-specific fine-tuning. However,\ncurrent architectures exhibit key limitations: (1) single-scale feature\nprocessing that overlooks hierarchical dependencies, (2) dense attention with\nquadratic scaling in table width, and (3) strictly sequential component\nprocessing that prevents iterative representation refinement and\ncross-component communication. To address these challenges, we introduce\nOrion-MSP, a tabular ICL architecture featuring three key innovations: (1)\nmulti-scale processing to capture hierarchical feature interactions; (2)\nblock-sparse attention combining windowed, global, and random patterns for\nscalable efficiency and long-range connectivity; and (3) a Perceiver-style\nmemory enabling safe bidirectional information flow across components. Across\ndiverse benchmarks, Orion-MSP matches or surpasses state-of-the-art performance\nwhile scaling effectively to high-dimensional tables, establishing a new\nstandard for efficient tabular in-context learning. The model is publicly\navailable at https://github.com/Lexsi-Labs/Orion-MSP .",
+            "upvotes": 9,
+            "discussionId": "690b348c60494e4fa76754fa",
+            "ai_summary": "Orion-MSP, a tabular in-context learning architecture, addresses limitations in current models by incorporating multi-scale processing, block-sparse attention, and a Perceiver-style memory, achieving state-of-the-art performance on diverse benchmarks.",
+            "ai_keywords": [
+                "tabular in-context learning",
+                "TabPFN",
+                "TabICL",
+                "gradient-boosted trees",
+                "multi-scale processing",
+                "block-sparse attention",
+                "Perceiver-style memory"
+            ],
+            "organization": {
+                "_id": "69034619c56aefa86350a727",
+                "name": "Lexsi",
+                "fullname": "Lexsi Labs",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63cbbcb9f488db9bb3beeaa1/b0eHmC8iYVQCyqqaLFfA6.png"
+            }
+        },
+        "translation_title": "Orion-MSP: 테이블 데이터의 인-컨텍스트 학습을 위한 다중 스케일 희소 주의 메커니즘",
+        "purpose": "테이블 데이터에 대한 효과적인 신경망 모델을 개발하고 다양한 스케일에서의 복잡한 상호작용을 처리하기 위함",
+        "method": [
+            "다중 스케일 처리를 통해 계층적 피처 상호작용을 포착함(We introduce Orion-MSP, a tabular ICL architecture featuring multi-scale processing to capture hierarchical feature interactions.)",
+            "창, 전역 및 임의 패턴의 블록 희소 주의 메커니즘을 활용하여 효율성과 장거리 연결성을 확보함(a block-sparse attention combining windowed, global, and random patterns for scalable efficiency and long-range connectivity.)",
+            "Perceiver 스타일의 메모리를 사용해 구성 요소 간 안전한 양방향 정보 흐름을 가능하게 함(and a Perceiver-style memory enabling safe bidirectional information flow across components.)"
+        ],
+        "conclusion": "Orion-MSP는 기존의 최첨단 성능을 맞추거나 초월하며, 고차원 테이블에도 효과적으로 확장 가능함",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.02802",
+            "authors": [
+                {
+                    "_id": "690b34a160494e4fa76754fc",
+                    "name": "Aditya Tanna",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b34a160494e4fa76754fd",
+                    "user": {
+                        "_id": "66fce04d927ec45504514afd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66fce04d927ec45504514afd/lA_bTErY7JywT6xbzdflo.jpeg",
+                        "isPro": false,
+                        "fullname": "Pratinav Seth",
+                        "user": "pratinavsetharya",
+                        "type": "user"
+                    },
+                    "name": "Pratinav Seth",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-05T16:24:05.630Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b34a160494e4fa76754fe",
+                    "name": "Mohamed Bouadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b34a160494e4fa76754ff",
+                    "name": "Utsav Avaiya",
+                    "hidden": false
+                },
+                {
+                    "_id": "690b34a160494e4fa7675500",
+                    "name": "Vinay Kumar Sankarapu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-04T18:25:17.000Z",
+            "submittedOnDailyAt": "2025-11-06T04:16:02.558Z",
+            "title": "TabTune: A Unified Library for Inference and Fine-Tuning Tabular\n  Foundation Models",
+            "submittedOnDailyBy": {
+                "_id": "66fce04d927ec45504514afd",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66fce04d927ec45504514afd/lA_bTErY7JywT6xbzdflo.jpeg",
+                "isPro": false,
+                "fullname": "Pratinav Seth",
+                "user": "pratinavsetharya",
+                "type": "user"
+            },
+            "summary": "Tabular foundation models represent a growing paradigm in structured data\nlearning, extending the benefits of large-scale pretraining to tabular domains.\nHowever, their adoption remains limited due to heterogeneous preprocessing\npipelines, fragmented APIs, inconsistent fine-tuning procedures, and the\nabsence of standardized evaluation for deployment-oriented metrics such as\ncalibration and fairness. We present TabTune, a unified library that\nstandardizes the complete workflow for tabular foundation models through a\nsingle interface. TabTune provides consistent access to seven state-of-the-art\nmodels supporting multiple adaptation strategies, including zero-shot\ninference, meta-learning, supervised fine-tuning (SFT), and parameter-efficient\nfine-tuning (PEFT). The framework automates model-aware preprocessing, manages\narchitectural heterogeneity internally, and integrates evaluation modules for\nperformance, calibration, and fairness. Designed for extensibility and\nreproducibility, TabTune enables consistent benchmarking of adaptation\nstrategies of tabular foundation models. The library is open source and\navailable at https://github.com/Lexsi-Labs/TabTune .",
+            "upvotes": 9,
+            "discussionId": "690b34a160494e4fa7675501",
+            "ai_summary": "TabTune is a unified library that standardizes the workflow for tabular foundation models, supporting various adaptation strategies and evaluation metrics.",
+            "ai_keywords": [
+                "tabular foundation models",
+                "zero-shot inference",
+                "meta-learning",
+                "supervised fine-tuning",
+                "parameter-efficient fine-tuning",
+                "model-aware preprocessing",
+                "calibration",
+                "fairness"
+            ],
+            "organization": {
+                "_id": "69034619c56aefa86350a727",
+                "name": "Lexsi",
+                "fullname": "Lexsi Labs",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63cbbcb9f488db9bb3beeaa1/b0eHmC8iYVQCyqqaLFfA6.png"
+            }
+        },
+        "translation_title": "TabTune: 표 형식 기초 모델의 추론 및 미세 조정을 위한 통합 라이브러리",
+        "purpose": "표 형식 기초 모델의 효율적인 사용과 정확한 평가를 위한 통합된 워크플로우 제공",
+        "method": [
+            "TabTune을 통해 단일 인터페이스로 표 형식 기초 모델의 전체 워크플로우를 표준화함(We present TabTune, a unified library that standardizes the complete workflow for tabular foundation models through a single interface.)",
+            "여러 적응 전략을 지원하는 7개의 최신 모델에 대한 일관된 접근을 제공함(TabTune provides consistent access to seven state-of-the-art models supporting multiple adaptation strategies.)",
+            "모델 인지 전처리를 자동화하고, 아키텍처의 이질성을 관리하며, 성능, 보정, 공정성을 위한 평가 모듈을 통합함(The framework automates model-aware preprocessing, manages architectural heterogeneity internally, and integrates evaluation modules for performance, calibration, and fairness.)"
+        ],
+        "conclusion": "TabTune은 표 형식 기초 모델의 일관된 벤치마킹을 가능하게 하며, 확장성과 재현성을 고려하여 설계됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
