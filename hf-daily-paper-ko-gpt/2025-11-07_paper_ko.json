@@ -1,0 +1,572 @@
+[
+    {
+        "paper": {
+            "id": "2511.04570",
+            "authors": [
+                {
+                    "_id": "690d5b51ad2597bf6c464ca9",
+                    "name": "Jingqi Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464caa",
+                    "name": "Yurong Mou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cab",
+                    "name": "Hangcheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cac",
+                    "user": {
+                        "_id": "65e4134472e748aae53e24f3",
+                        "avatarUrl": "/avatars/3346f4f4cdbffc4c51276be01a6c5f10.svg",
+                        "isPro": false,
+                        "fullname": "Mingzhe Li",
+                        "user": "Mubuky",
+                        "type": "user"
+                    },
+                    "name": "Mingzhe Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-07T10:28:47.508Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cad",
+                    "name": "Yongzhuo Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cae",
+                    "name": "Ming Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464caf",
+                    "name": "Qiguang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb0",
+                    "name": "Tianyi Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb1",
+                    "name": "Xiaomeng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb2",
+                    "name": "Yining Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb3",
+                    "name": "Xinchi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb4",
+                    "name": "Jun Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb5",
+                    "name": "Xuanjing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b51ad2597bf6c464cb6",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-06T17:25:23.000Z",
+            "submittedOnDailyAt": "2025-11-07T00:18:17.549Z",
+            "title": "Thinking with Video: Video Generation as a Promising Multimodal\n  Reasoning Paradigm",
+            "submittedOnDailyBy": {
+                "_id": "6690e13ccbcaf7ab0ec1c971",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/e8KDV6J29tviXlIpLZPq6.png",
+                "isPro": false,
+                "fullname": "Tony.Li",
+                "user": "lkdhy",
+                "type": "user"
+            },
+            "summary": "\"Thinking with Text\" and \"Thinking with Images\" paradigm significantly\nimprove the reasoning ability of large language models (LLMs) and Vision\nLanguage Models (VLMs). However, these paradigms have inherent limitations. (1)\nImages capture only single moments and fail to represent dynamic processes or\ncontinuous changes, and (2) The separation of text and vision as distinct\nmodalities, hindering unified multimodal understanding and generation. To\novercome these limitations, we introduce \"Thinking with Video\", a new paradigm\nthat leverages video generation models, such as Sora-2, to bridge visual and\ntextual reasoning in a unified temporal framework. To support this exploration,\nwe developed the Video Thinking Benchmark (VideoThinkBench). VideoThinkBench\nencompasses two task categories: (1) vision-centric tasks (e.g., Eyeballing\nPuzzles), and (2) text-centric tasks (e.g., subsets of GSM8K, MMMU). Our\nevaluation establishes Sora-2 as a capable reasoner. On vision-centric tasks,\nSora-2 is generally comparable to state-of-the-art (SOTA) VLMs, and even\nsurpasses VLMs on several tasks, such as Eyeballing Games. On text-centric\ntasks, Sora-2 achieves 92% accuracy on MATH, and 75.53% accuracy on MMMU.\nFurthermore, we systematically analyse the source of these abilities. We also\nfind that self-consistency and in-context learning can improve Sora-2's\nperformance. In summary, our findings demonstrate that the video generation\nmodel is the potential unified multimodal understanding and generation model,\npositions \"thinking with video\" as a unified multimodal reasoning paradigm.",
+            "upvotes": 118,
+            "discussionId": "690d5b51ad2597bf6c464cb7",
+            "projectPage": "https://thinking-with-video.github.io/",
+            "githubRepo": "https://github.com/tongjingqi/Thinking-with-Video",
+            "ai_summary": "The \"Thinking with Video\" paradigm enhances multimodal reasoning by integrating video generation models, demonstrated through the Video Thinking Benchmark and improved performance on both vision and text tasks.",
+            "ai_keywords": [
+                "Thinking with Text",
+                "Thinking with Images",
+                "large language models",
+                "Vision Language Models",
+                "Thinking with Video",
+                "video generation models",
+                "Video Thinking Benchmark",
+                "vision-centric tasks",
+                "text-centric tasks",
+                "Eyeballing Puzzles",
+                "GSM8K",
+                "MMMU",
+                "self-consistency",
+                "in-context learning"
+            ],
+            "githubStars": 84,
+            "organization": {
+                "_id": "613b0dee83ec35d460684607",
+                "name": "OpenMOSS-Team",
+                "fullname": "OpenMOSS",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61457b8deff2c9fdb4de4988/xM_PjniEZ9fmDKtJN7PAG.png"
+            }
+        },
+        "translation_title": "Thinking with Video: 비디오 생성이 유망한 멀티모달 추론 패러다임",
+        "purpose": "비디오 생성을 활용하여 텍스트와 비주얼 추론을 통합하는 새로운 방법론 개발",
+        "method": [
+            "비디오 생성 모델인 Sora-2를 활용하여 비주얼과 텍스트 추론을 연결하는 'Thinking with Video' 패러다임을 제안함(To overcome these limitations, we introduce 'Thinking with Video', a new paradigm that leverages video generation models, such as Sora-2, to bridge visual and textual reasoning in a unified temporal framework.)",
+            "비디오 사고 벤치마크(VideoThinkBench)를 개발하여 비주얼 중심과 텍스트 중심 작업 카테고리로 나누어 평가함(To support this exploration, we developed the Video Thinking Benchmark (VideoThinkBench).)"
+        ],
+        "conclusion": "우리의 연구 결과는 비디오 생성 모델이 통합된 멀티모달 이해 및 생성 모델로서 잠재력을 가지고 있음을 보여주며, 'Thinking with Video'를 새로운 멀티모달 추론 패러다임으로 설정함.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.04460",
+            "authors": [
+                {
+                    "_id": "690d5b2aad2597bf6c464c9a",
+                    "name": "Runqi Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464c9b",
+                    "name": "Qiuna Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464c9c",
+                    "name": "Minghan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464c9d",
+                    "name": "Guanting Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464c9e",
+                    "name": "Peiqing Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464c9f",
+                    "name": "Shiqiang Lang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca0",
+                    "name": "Enhui Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca1",
+                    "name": "Xiaowan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca2",
+                    "name": "Yida Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca3",
+                    "name": "Lan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca4",
+                    "name": "Chong Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca5",
+                    "name": "Chen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5b2aad2597bf6c464ca6",
+                    "name": "Honggang Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-06T15:32:29.000Z",
+            "submittedOnDailyAt": "2025-11-07T00:09:41.943Z",
+            "title": "V-Thinker: Interactive Thinking with Images",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Empowering Large Multimodal Models (LMMs) to deeply integrate image\ninteraction with long-horizon reasoning capabilities remains a long-standing\nchallenge in this field. Recent advances in vision-centric reasoning explore a\npromising \"Thinking with Images\" paradigm for LMMs, marking a shift from\nimage-assisted reasoning to image-interactive thinking. While this milestone\nenables models to focus on fine-grained image regions, progress remains\nconstrained by limited visual tool spaces and task-specific workflow designs.\nTo bridge this gap, we present V-Thinker, a general-purpose multimodal\nreasoning assistant that enables interactive, vision-centric thinking through\nend-to-end reinforcement learning. V-Thinker comprises two key components: (1)\na Data Evolution Flywheel that automatically synthesizes, evolves, and verifies\ninteractive reasoning datasets across three dimensions-diversity, quality, and\ndifficulty; and (2) a Visual Progressive Training Curriculum that first aligns\nperception via point-level supervision, then integrates interactive reasoning\nthrough a two-stage reinforcement learning framework. Furthermore, we introduce\nVTBench, an expert-verified benchmark targeting vision-centric interactive\nreasoning tasks. Extensive experiments demonstrate that V-Thinker consistently\noutperforms strong LMM-based baselines in both general and interactive\nreasoning scenarios, providing valuable insights for advancing\nimage-interactive reasoning applications.",
+            "upvotes": 61,
+            "discussionId": "690d5b2aad2597bf6c464ca7",
+            "githubRepo": "https://github.com/We-Math/V-Thinker",
+            "ai_summary": "V-Thinker, a multimodal reasoning assistant using reinforcement learning, enhances image-interactive thinking by synthesizing datasets and aligning perception for improved performance in vision-centric tasks.",
+            "ai_keywords": [
+                "multimodal models",
+                "image interaction",
+                "long-horizon reasoning",
+                "Thinking with Images",
+                "image-interactive thinking",
+                "end-to-end reinforcement learning",
+                "Data Evolution Flywheel",
+                "Visual Progressive Training Curriculum",
+                "point-level supervision",
+                "two-stage reinforcement learning",
+                "VTBench",
+                "vision-centric interactive reasoning"
+            ],
+            "githubStars": 52
+        },
+        "translation_title": "V-Thinker: 이미지와의 상호작용적 사고",
+        "purpose": "이미지와 장기적인 이성적 사고를 깊게 결합한 상호작용 모델 개발",
+        "method": [
+            "데이터 진화 플라이휠을 통해 상호작용 이성 데이터세트를 자동으로 생성하고 발전시킴(we present V-Thinker, a general-purpose multimodal reasoning assistant that enables interactive, vision-centric thinking through end-to-end reinforcement learning)",
+            "포인트 레벨 감독을 통해 인지 조정을 하고, 두 단계의 강화 학습 프레임워크를 통해 상호작용 이성을 융합하는 점진적 훈련 커리큘럼을 설계함(a Visual Progressive Training Curriculum that first aligns perception via point-level supervision, then integrates interactive reasoning through a two-stage reinforcement learning framework)",
+            "VTBench를 소개하여 비전 중심의 상호작용 이성 과제를 목표로 하는 전문가 검증 통계 벤치마크를 제공함."
+        ],
+        "conclusion": "V-Thinker는 기존의 강력한 LMM 기반 모델들에 비해 전반적인 이성과 상호작용 이성 시나리오에서 항상 우수한 성능을 발휘함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.03773",
+            "authors": [
+                {
+                    "_id": "690d51e4ad2597bf6c464c52",
+                    "name": "Zhaorun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c53",
+                    "name": "Zhuokai Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c54",
+                    "user": {
+                        "_id": "63e0a50242591dda0b9dca5c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63e0a50242591dda0b9dca5c/c7cBPEBWQDFYimfGnO_SI.png",
+                        "isPro": false,
+                        "fullname": "Kai Zhang",
+                        "user": "drogozhang",
+                        "type": "user"
+                    },
+                    "name": "Kai Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-07T10:30:52.478Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c55",
+                    "user": {
+                        "_id": "635e3a76106f984574c36409",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667120725800-635e3a76106f984574c36409.png",
+                        "isPro": false,
+                        "fullname": "Bo Liu",
+                        "user": "Benjamin-eecs",
+                        "type": "user"
+                    },
+                    "name": "Bo Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-07T10:30:56.570Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c56",
+                    "name": "Qi Qi",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c57",
+                    "user": {
+                        "_id": "64641a2938083255f6769953",
+                        "avatarUrl": "/avatars/a4117357703607bd7b290dc2975acbef.svg",
+                        "isPro": false,
+                        "fullname": "Yifan Wu",
+                        "user": "yfwu",
+                        "type": "user"
+                    },
+                    "name": "Yifan Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-07T10:30:54.351Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c58",
+                    "name": "Tarun Kalluri",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c59",
+                    "name": "Sara Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5a",
+                    "name": "Yuanhao Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5b",
+                    "name": "Haibo Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5c",
+                    "name": "Huaxiu Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5d",
+                    "name": "Hengduo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5e",
+                    "name": "Jiacheng Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c5f",
+                    "name": "Xian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c60",
+                    "name": "Dawn Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c61",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c62",
+                    "name": "Jason Weston",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d51e4ad2597bf6c464c63",
+                    "name": "Dat Huynh",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-05T18:58:48.000Z",
+            "submittedOnDailyAt": "2025-11-07T00:37:12.582Z",
+            "title": "Scaling Agent Learning via Experience Synthesis",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "While reinforcement learning (RL) can empower large language model (LLM)\nagents by enabling self-improvement through interaction, its practical adoption\nremains challenging due to costly rollouts, limited task diversity, unreliable\nreward signals, and infrastructure complexity, all of which obstruct the\ncollection of scalable experience data. To address these challenges, we\nintroduce DreamGym, the first unified framework designed to synthesize diverse\nexperiences with scalability in mind to enable effective online RL training for\nautonomous agents. Rather than relying on expensive real-environment rollouts,\nDreamGym distills environment dynamics into a reasoning-based experience model\nthat derives consistent state transitions and feedback signals through\nstep-by-step reasoning, enabling scalable agent rollout collection for RL. To\nimprove the stability and quality of transitions, DreamGym leverages an\nexperience replay buffer initialized with offline real-world data and\ncontinuously enriched with fresh interactions to actively support agent\ntraining. To improve knowledge acquisition, DreamGym adaptively generates new\ntasks that challenge the current agent policy, enabling more effective online\ncurriculum learning. Experiments across diverse environments and agent\nbackbones demonstrate that DreamGym substantially improves RL training, both in\nfully synthetic settings and in sim-to-real transfer scenarios. On non-RL-ready\ntasks like WebArena, DreamGym outperforms all baselines by over 30%. And in\nRL-ready but costly settings, it matches GRPO and PPO performance using only\nsynthetic interactions. When transferring a policy trained purely on synthetic\nexperiences to real-environment RL, DreamGym yields significant additional\nperformance gains while requiring far fewer real-world interactions, providing\na scalable warm-start strategy for general-purpose RL.",
+            "upvotes": 45,
+            "discussionId": "690d51e5ad2597bf6c464c64",
+            "ai_summary": "DreamGym is a unified framework that synthesizes diverse experiences for scalable online RL training, improving agent performance and reducing real-world interactions.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "large language model",
+                "self-improvement",
+                "real-environment rollouts",
+                "experience model",
+                "state transitions",
+                "feedback signals",
+                "experience replay buffer",
+                "offline real-world data",
+                "adaptive task generation",
+                "curriculum learning",
+                "sim-to-real transfer",
+                "WebArena",
+                "GRPO",
+                "PPO",
+                "synthetic interactions"
+            ],
+            "organization": {
+                "_id": "66b54027408752ae16404b05",
+                "name": "metaresearch",
+                "fullname": "Meta Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66b25f3f58babfaeb76112dc/2GmiaF075AZ7BcE538oPk.png"
+            }
+        },
+        "translation_title": "경험 합성을 통한 에이전트 학습의 확장",
+        "purpose": "자율 에이전트의 효과적인 온라인 RL 훈련을 위한 다양한 경험을 합성하는 통합 프레임워크 개발",
+        "method": [
+            "DreamGym을 통해 비용이 많이 드는 실환경 실험 대신, 환경 동역학을 이성 기반의 경험 모델로 증류하여 상태 전이 및 피드백 신호를 일관되게 도출함(To address these challenges, we introduce DreamGym, the first unified framework designed to synthesize diverse experiences with scalability in mind...)",
+            "오프라인 실제 데이터를 기반으로 시작된 경험 리플레이 버퍼를 활용해 전이의 안정성과 품질 향상(To improve the stability and quality of transitions, DreamGym leverages an experience replay buffer initialized with offline real-world data...)",
+            "현재 에이전트 정책에 도전하는 새로운 작업을 보다 효과적으로 생성하여 지식 습득을 개선함(To improve knowledge acquisition, DreamGym adaptively generates new tasks that challenge the current agent policy...)"
+        ],
+        "conclusion": "DreamGym은 다양한 환경과 에이전트 구조에서 RL 훈련을 크게 향상시키며, 실제 환경에서 훈련한 정책이 추가 성능 개선을 이룰 수 있도록 지원함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.04307",
+            "authors": [
+                {
+                    "_id": "690d5db4ad2597bf6c464d4b",
+                    "name": "Jian Mu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d4c",
+                    "name": "Chaoyun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d4d",
+                    "name": "Chiming Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d4e",
+                    "name": "Lu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d4f",
+                    "name": "Bo Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d50",
+                    "name": "Kartik Mathur",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d51",
+                    "name": "Qianhui Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d52",
+                    "name": "Yuhang Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d53",
+                    "name": "Xiaojun Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d54",
+                    "name": "Mengyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d55",
+                    "name": "Si Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d56",
+                    "name": "Liqun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d57",
+                    "name": "Yu Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d58",
+                    "name": "Minghua Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d59",
+                    "name": "Qingwei Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d5a",
+                    "name": "Saravan Rajmohan",
+                    "hidden": false
+                },
+                {
+                    "_id": "690d5db4ad2597bf6c464d5b",
+                    "name": "Dongmei Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-06T12:19:02.000Z",
+            "submittedOnDailyAt": "2025-11-07T00:19:55.977Z",
+            "title": "GUI-360: A Comprehensive Dataset and Benchmark for Computer-Using Agents",
+            "submittedOnDailyBy": {
+                "_id": "654dbac9938fbf1e696be8aa",
+                "avatarUrl": "/avatars/b3c4035c48169c1bfb04a439fce3499f.svg",
+                "isPro": true,
+                "fullname": "Chaoyun Zhang",
+                "user": "vyokky",
+                "type": "user"
+            },
+            "summary": "We introduce GUI-360^circ, a large-scale, comprehensive dataset and\nbenchmark suite designed to advance computer-using agents (CUAs). CUAs present\nunique challenges and is constrained by three persistent gaps: a scarcity of\nreal-world CUA tasks, the lack of automated collection-and-annotation pipelines\nfor multi-modal trajectories, and the absence of a unified benchmark that\njointly evaluates GUI grounding, screen parsing, and action prediction.\n  GUI-360^circ addresses these gaps with an LLM-augmented, largely automated\npipeline for query sourcing, environment-template construction, task\ninstantiation, batched execution, and LLM-driven quality filtering. The\nreleased corpus contains over 1.2M executed action steps across thousands of\ntrajectories in popular Windows office applications, and includes\nfull-resolution screenshots, accessibility metadata when available,\ninstantiated goals, intermediate reasoning traces, and both successful and\nfailed action trajectories. The dataset supports three canonical tasks, GUI\ngrounding, screen parsing, and action prediction, and a hybrid GUI+API action\nspace that reflects modern agent designs. Benchmarking state-of-the-art\nvision--language models on GUI-360^circ reveals substantial out-of-the-box\nshortcomings in grounding and action prediction; supervised fine-tuning and\nreinforcement learning yield significant gains but do not close the gap to\nhuman-level reliability. We release GUI-360^circ and accompanying code to\nfacilitate reproducible research and accelerate progress on robust desktop\nCUAs.\n  The full dataset has been made public on\nhttps://huggingface.co/datasets/vyokky/GUI-360.",
+            "upvotes": 9,
+            "discussionId": "690d5db4ad2597bf6c464d5c",
+            "ai_summary": "GUI-360° is a large-scale dataset and benchmark suite for computer-using agents, addressing gaps in real-world tasks, automated data collection, and unified evaluation of GUI grounding, screen parsing, and action prediction.",
+            "ai_keywords": [
+                "LLM-augmented",
+                "GUI grounding",
+                "screen parsing",
+                "action prediction",
+                "hybrid GUI+API action space",
+                "vision--language models",
+                "supervised fine-tuning",
+                "reinforcement learning"
+            ],
+            "organization": {
+                "_id": "5e6485f787403103f9f1055e",
+                "name": "microsoft",
+                "fullname": "Microsoft",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+            }
+        },
+        "translation_title": "GUI-360: 컴퓨터 사용 에이전트를 위한 포괄적인 데이터 세트 및 벤치마크",
+        "purpose": "컴퓨터 사용 에이전트(CUAs)를 발전시키기 위한 데이터 세트 및 벤치마크 개발",
+        "method": [
+            "LMM을 활용한 자동화된 파이프라인을 통해 질의 소싱, 환경 템플릿 구성, 작업 인스턴스화 및 실행을 처리함(GUI-360^circ addresses these gaps with an LLM-augmented, largely automated pipeline for query sourcing, environment-template construction, task instantiation, batched execution, and LLM-driven quality filtering.)",
+            "1.2M 이상의 실행된 작업 스텝을 포함하고 있으며, 다양한 Windows 오피스 응용 프로그램에서의 스크린샷과 메타데이터를 수집함(The released corpus contains over 1.2M executed action steps across thousands of trajectories in popular Windows office applications, and includes full-resolution screenshots, accessibility metadata when available.)",
+            "GUI grounding, screen parsing, action prediction의 세 가지 과제를 지원함(The dataset supports three canonical tasks, GUI grounding, screen parsing, and action prediction.)"
+        ],
+        "conclusion": "현재 상태로 시각-언어 모델의 GUI grounding 및 action prediction에서 단점이 있음을 확인하였으며, 지도 학습과 강화 학습을 통해 개선을 이루었지만 여전히 인간 수준의 신뢰성에 도달하지 못함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Natural Language Processing"
+        ]
+    }
+]
