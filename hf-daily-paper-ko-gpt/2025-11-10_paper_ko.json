@@ -1,0 +1,498 @@
+[
+    {
+        "paper": {
+            "id": "2511.05271",
+            "authors": [
+                {
+                    "_id": "69114e31830c57fd4c795fa3",
+                    "name": "Jack Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114e31830c57fd4c795fa4",
+                    "name": "Chenxiao Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114e31830c57fd4c795fa5",
+                    "name": "ChengLin Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114e31830c57fd4c795fa6",
+                    "name": "Weiheng Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114e31830c57fd4c795fa7",
+                    "name": "Guohai Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114e31830c57fd4c795fa8",
+                    "name": "Xing Yu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/k6AJxw6TBApwg-wnk8q80.gif",
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/rqGT59socM7p28aV0vajF.gif",
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/fasAZzZ_zxN4f-S6Pvd5t.gif"
+            ],
+            "publishedAt": "2025-11-07T14:31:20.000Z",
+            "submittedOnDailyAt": "2025-11-10T00:00:34.439Z",
+            "title": "DeepEyesV2: Toward Agentic Multimodal Model",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Agentic multimodal models should not only comprehend text and images, but\nalso actively invoke external tools, such as code execution environments and\nweb search, and integrate these operations into reasoning. In this work, we\nintroduce DeepEyesV2 and explore how to build an agentic multimodal model from\nthe perspectives of data construction, training methods, and model evaluation.\nWe observe that direct reinforcement learning alone fails to induce robust\ntool-use behavior. This phenomenon motivates a two-stage training pipeline: a\ncold-start stage to establish tool-use patterns, and reinforcement learning\nstage to further refine tool invocation. We curate a diverse, moderately\nchallenging training dataset, specifically including examples where tool use is\nbeneficial. We further introduce RealX-Bench, a comprehensive benchmark\ndesigned to evaluate real-world multimodal reasoning, which inherently requires\nthe integration of multiple capabilities, including perception, search, and\nreasoning. We evaluate DeepEyesV2 on RealX-Bench and other representative\nbenchmarks, demonstrating its effectiveness across real-world understanding,\nmathematical reasoning, and search-intensive tasks. Moreover, DeepEyesV2\nexhibits task-adaptive tool invocation, tending to use image operations for\nperception tasks and numerical computations for reasoning tasks. Reinforcement\nlearning further enables complex tool combinations and allows model to\nselectively invoke tools based on context. We hope our study can provide\nguidance for community in developing agentic multimodal models.",
+            "upvotes": 24,
+            "discussionId": "69114e31830c57fd4c795fa9",
+            "projectPage": "https://visual-agent.github.io/",
+            "githubRepo": "https://github.com/Visual-Agent/DeepEyes",
+            "ai_summary": "DeepEyesV2, an agentic multimodal model, uses a two-stage training pipeline to effectively integrate tool use, demonstrating robust performance across real-world reasoning tasks.",
+            "ai_keywords": [
+                "DeepEyesV2",
+                "reinforcement learning",
+                "cold-start stage",
+                "RealX-Bench",
+                "multimodal reasoning",
+                "tool invocation",
+                "task-adaptive",
+                "tool combinations"
+            ],
+            "githubStars": 932
+        },
+        "translation_title": "DeepEyesV2: 에이전트적 멀티모달 모델을 향하여",
+        "purpose": "텍스트와 이미지를 이해하고 외부 도구를 능동적으로 활용하는 에이전트적 멀티모달 모델 개발",
+        "method": [
+            "직접적인 강화 학습만으로는 효과적인 도구 사용을 유도할 수 없다는 사실을 관찰함(We observe that direct reinforcement learning alone fails to induce robust tool-use behavior.)",
+            "도구 사용 패턴을 정립하기 위한 초기에 차가운 시작 단계와 도구 호출을 정제하기 위한 강화 학습 단계를 포함한 두 단계의 훈련 파이프라인을 만들 것임(This phenomenon motivates a two-stage training pipeline: a cold-start stage to establish tool-use patterns, and reinforcement learning stage to further refine tool invocation.)",
+            "다양하고 적당히 도전적인 훈련 데이터 세트를 큐레이션하여 도구 사용이 유익한 사례를 포함함(We curate a diverse, moderately challenging training dataset, specifically including examples where tool use is beneficial.)",
+            "RealX-Bench라는 실제 멀티모달 추론을 평가하기 위한 포괄적인 벤치마크를 도입함(We further introduce RealX-Bench, a comprehensive benchmark designed to evaluate real-world multimodal reasoning.)"
+        ],
+        "conclusion": "DeepEyesV2는 실제 세계 이해, 수학적 추론 및 검색 중심 작업에서 효과성을 입증하였으며, 특정 업무에 따라 도구를 적응적으로 호출하는 능력을 보임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.04962",
+            "authors": [
+                {
+                    "_id": "69114faf830c57fd4c795fe7",
+                    "name": "Zihao Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fe8",
+                    "name": "Qingxuan Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fe9",
+                    "name": "Ruotian Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fea",
+                    "name": "Xingyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795feb",
+                    "name": "Qu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fec",
+                    "name": "Mengru Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fed",
+                    "name": "Fanghua Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fee",
+                    "name": "Ying Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795fef",
+                    "name": "Zhaopeng Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795ff0",
+                    "name": "Xiaolong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114faf830c57fd4c795ff1",
+                    "name": "Linus",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-07T03:50:52.000Z",
+            "submittedOnDailyAt": "2025-11-10T00:19:32.643Z",
+            "title": "Too Good to be Bad: On the Failure of LLMs to Role-Play Villains",
+            "submittedOnDailyBy": {
+                "_id": "65f7ad5526f86cf3378a59f2",
+                "avatarUrl": "/avatars/752aa3c072c71ece41ea786371574777.svg",
+                "isPro": false,
+                "fullname": "Zihao Yi",
+                "user": "Zihao1",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) are increasingly tasked with creative\ngeneration, including the simulation of fictional characters. However, their\nability to portray non-prosocial, antagonistic personas remains largely\nunexamined. We hypothesize that the safety alignment of modern LLMs creates a\nfundamental conflict with the task of authentically role-playing morally\nambiguous or villainous characters. To investigate this, we introduce the Moral\nRolePlay benchmark, a new dataset featuring a four-level moral alignment scale\nand a balanced test set for rigorous evaluation. We task state-of-the-art LLMs\nwith role-playing characters from moral paragons to pure villains. Our\nlarge-scale evaluation reveals a consistent, monotonic decline in role-playing\nfidelity as character morality decreases. We find that models struggle most\nwith traits directly antithetical to safety principles, such as ``Deceitful''\nand ``Manipulative'', often substituting nuanced malevolence with superficial\naggression. Furthermore, we demonstrate that general chatbot proficiency is a\npoor predictor of villain role-playing ability, with highly safety-aligned\nmodels performing particularly poorly. Our work provides the first systematic\nevidence of this critical limitation, highlighting a key tension between model\nsafety and creative fidelity. Our benchmark and findings pave the way for\ndeveloping more nuanced, context-aware alignment methods.",
+            "upvotes": 22,
+            "discussionId": "69114fb0830c57fd4c795ff2",
+            "projectPage": "https://github.com/Tencent/digitalhuman/tree/main/RolePlay_Villain",
+            "githubRepo": "https://github.com/Tencent/digitalhuman/tree/main/RolePlay_Villain",
+            "ai_summary": "LLMs struggle to authentically portray morally ambiguous or villainous characters due to safety alignment, as evidenced by the Moral RolePlay benchmark.",
+            "ai_keywords": [
+                "Large Language Models",
+                "Moral RolePlay benchmark",
+                "moral alignment scale",
+                "role-playing fidelity",
+                "safety principles",
+                "Deceitful",
+                "Manipulative",
+                "chatbot proficiency",
+                "model safety",
+                "creative fidelity"
+            ],
+            "githubStars": 159,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "너무 좋기 때문에 나쁘지 않은: LLM의 악당 역할 수행 실패에 대한 연구",
+        "purpose": "LLM이 도덕적으로 모호한 캐릭터나 악당 역할을 진정하게 수행할 수 없는 이유를 분석하고 개선하기 위한 연구",
+        "method": [
+            "Moral RolePlay 벤치마크라는 새로운 데이터셋을 도입하여 네 가지 수준의 도덕 정렬 척도를 제공함(To investigate this, we introduce the Moral RolePlay benchmark, a new dataset featuring a four-level moral alignment scale and a balanced test set for rigorous evaluation.)",
+            "최신 LLM을 사용하여 도덕적 모범에서 순수 악당까지의 캐릭터 역할을 수행하도록 하고 평가함(We task state-of-the-art LLMs with role-playing characters from moral paragons to pure villains.)",
+            "큰 규모의 평가를 통해 캐릭터의 도덕성이 낮아질수록 역할 수행 충실도가 일관되게 감소하는 것을 발견함(Our large-scale evaluation reveals a consistent, monotonic decline in role-playing fidelity as character morality decreases.)"
+        ],
+        "conclusion": "모델의 안전성과 창의적 충실성 간의 긴장을 강조하며, 보다 정교하고 맥락-aware 정렬 방법 개발을 위한 기초를 마련함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.05491",
+            "authors": [
+                {
+                    "_id": "69115163830c57fd4c795fff",
+                    "user": {
+                        "_id": "641d6c27c5f150c3af0bf879",
+                        "avatarUrl": "/avatars/39808793703406b4fe997e351b6a6bfb.svg",
+                        "isPro": false,
+                        "fullname": "Ray Yang",
+                        "user": "rayruiyang",
+                        "type": "user"
+                    },
+                    "name": "Rui Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-10T08:44:47.523Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796000",
+                    "name": "Ziyu Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796001",
+                    "user": {
+                        "_id": "643ff78cdc984afcbbbc3b1a",
+                        "avatarUrl": "/avatars/eec5198ce88aaf8156840bec0d190a7f.svg",
+                        "isPro": false,
+                        "fullname": "Yanwei Li",
+                        "user": "YanweiLi",
+                        "type": "user"
+                    },
+                    "name": "Yanwei Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-10T08:44:49.860Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796002",
+                    "name": "Jingjia Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796003",
+                    "name": "Shen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796004",
+                    "name": "Siyuan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796005",
+                    "name": "Zhe Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796006",
+                    "name": "Xiangtai Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796007",
+                    "name": "Shuangye Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796008",
+                    "name": "Wenqian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c796009",
+                    "name": "Yi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69115163830c57fd4c79600a",
+                    "name": "Hengshuang Zhao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-07T18:59:16.000Z",
+            "submittedOnDailyAt": "2025-11-10T00:14:02.211Z",
+            "title": "Visual Spatial Tuning",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Capturing spatial relationships from visual inputs is a cornerstone of\nhuman-like general intelligence. Several previous studies have tried to enhance\nthe spatial awareness of Vision-Language Models (VLMs) by adding extra expert\nencoders, which brings extra overhead and usually harms general capabilities.\nTo enhance the spatial ability in general architectures, we introduce Visual\nSpatial Tuning (VST), a comprehensive framework to cultivate VLMs with\nhuman-like visuospatial abilities, from spatial perception to reasoning. We\nfirst attempt to enhance spatial perception in VLMs by constructing a\nlarge-scale dataset termed VST-P, which comprises 4.1 million samples spanning\n19 skills across single views, multiple images, and videos. Then, we present\nVST-R, a curated dataset with 135K samples that instruct models to reason in\nspace. In particular, we adopt a progressive training pipeline: supervised\nfine-tuning to build foundational spatial knowledge, followed by reinforcement\nlearning to further improve spatial reasoning abilities. Without the\nside-effect to general capabilities, the proposed VST consistently achieves\nstate-of-the-art results on several spatial benchmarks, including 34.8% on\nMMSI-Bench and 61.2% on VSIBench. It turns out that the\nVision-Language-Action models can be significantly enhanced with the proposed\nspatial tuning paradigm, paving the way for more physically grounded AI.",
+            "upvotes": 17,
+            "discussionId": "69115163830c57fd4c79600b",
+            "projectPage": "https://yangr116.github.io/vst_project/",
+            "githubRepo": "https://github.com/Yangr116/VST",
+            "ai_summary": "A framework called Visual Spatial Tuning (VST) enhances the spatial abilities of Vision-Language Models (VLMs) through progressive training with specialized datasets, achieving state-of-the-art results on spatial benchmarks.",
+            "ai_keywords": [
+                "Visual Spatial Tuning",
+                "VST",
+                "Vision-Language Models",
+                "VLMs",
+                "spatial perception",
+                "spatial reasoning",
+                "VST-P",
+                "VST-R",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "MMSI-Bench",
+                "VSIBench",
+                "Vision-Language-Action models"
+            ],
+            "githubStars": 31,
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "시각적 공간 조정(Visual Spatial Tuning)",
+        "purpose": "Vision-Language 모델의 공간 인식을 향상시키고 인간과 유사한 시각적 능력을 발전시키기 위한 목표.",
+        "method": [
+            "대규모 데이터셋 VST-P를 구축하여 VLM의 공간 인식을 향상시킴(We first attempt to enhance spatial perception in VLMs by constructing a large-scale dataset termed VST-P, which comprises 4.1 million samples spanning 19 skills across single views, multiple images, and videos.)",
+            "공간에서 이유를 설명하도록 모델을 지도하는 135K 샘플로 구성된 데이터셋 VST-R을 제공함(Then, we present VST-R, a curated dataset with 135K samples that instruct models to reason in space.)",
+            "기초 공간 지식을 구축하기 위한 지도 학습 후, 공간 추론 능력을 더욱 향상시키기 위해 강화 학습 적용함.(In particular, we adopt a progressive training pipeline: supervised fine-tuning to build foundational spatial knowledge, followed by reinforcement learning to further improve spatial reasoning abilities.)"
+        ],
+        "conclusion": "제안된 VST는 여러 공간 기준에서 최고의 결과를 지속적으로 달성했으며, Vision-Language-Action 모델을 향상시키는 데 기여함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "3D Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.05017",
+            "authors": [
+                {
+                    "_id": "69114f2f830c57fd4c795fdd",
+                    "name": "Aakriti Agrawal",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fde",
+                    "name": "Gouthaman KV",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fdf",
+                    "name": "Rohith Aralikatti",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fe0",
+                    "name": "Gauri Jagatap",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fe1",
+                    "name": "Jiaxin Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fe2",
+                    "name": "Vijay Kamarshi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fe3",
+                    "name": "Andrea Fanelli",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114f2f830c57fd4c795fe4",
+                    "name": "Furong Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-07T06:39:54.000Z",
+            "submittedOnDailyAt": "2025-11-10T00:04:30.999Z",
+            "title": "Towards Mitigating Hallucinations in Large Vision-Language Models by\n  Refining Textual Embeddings",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "In this work, we identify an inherent bias in prevailing LVLM architectures\ntoward the language modality, largely resulting from the common practice of\nsimply appending visual embeddings to the input text sequence. To address this,\nwe propose a simple yet effective method that refines textual embeddings by\nintegrating average-pooled visual features. Our approach demonstrably improves\nvisual grounding and significantly reduces hallucinations on established\nbenchmarks. While average pooling offers a straightforward, robust, and\nefficient means of incorporating visual information, we believe that more\nsophisticated fusion methods could further enhance visual grounding and\ncross-modal alignment. Given that the primary focus of this work is to\nhighlight the modality imbalance and its impact on hallucinations -- and to\nshow that refining textual embeddings with visual information mitigates this\nissue -- we leave exploration of advanced fusion strategies for future work.",
+            "upvotes": 4,
+            "discussionId": "69114f2f830c57fd4c795fe5",
+            "ai_summary": "Refining textual embeddings with average-pooled visual features improves visual grounding and reduces hallucinations in LVLM architectures.",
+            "ai_keywords": [
+                "LVLM architectures",
+                "language modality",
+                "visual embeddings",
+                "textual embeddings",
+                "average-pooled visual features",
+                "visual grounding",
+                "hallucinations",
+                "cross-modal alignment"
+            ]
+        },
+        "translation_title": "텍스트 임베딩 개선을 통한 대형 비전-언어 모델의 환각 완화 기법",
+        "purpose": "비전-언어 모델에서 언어 모드에 편향된 문제를 해결하고 환각 현상을 줄이기 위한 방법 연구",
+        "method": [
+            "텍스트 임베딩을 개선하기 위해 평균 풀링된 시각적 특징을 통합하는 방법을 제안함(To address this, we propose a simple yet effective method that refines textual embeddings by integrating average-pooled visual features.)",
+            "이 접근 방식이 시각적 접지 시 개선을 보여주고, 기존 기준에서 환각 현상을 유의미하게 줄였음을 입증함(Our approach demonstrably improves visual grounding and significantly reduces hallucinations on established benchmarks.)"
+        ],
+        "conclusion": "텍스트 임베딩에 시각적 정보를 통합함으로써 비전-언어 모델에서 환각 현상을 완화하는 데 효과적임.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.04707",
+            "authors": [
+                {
+                    "_id": "69114ff0830c57fd4c795ff4",
+                    "name": "Rishi Rajesh Shah",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114ff0830c57fd4c795ff5",
+                    "name": "Chen Henry Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114ff0830c57fd4c795ff6",
+                    "name": "Shashwat Saxena",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114ff0830c57fd4c795ff7",
+                    "name": "Ziqian Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114ff0830c57fd4c795ff8",
+                    "name": "Alexander Robey",
+                    "hidden": false
+                },
+                {
+                    "_id": "69114ff0830c57fd4c795ff9",
+                    "name": "Aditi Raghunathan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-05T01:12:50.000Z",
+            "submittedOnDailyAt": "2025-11-10T00:07:54.603Z",
+            "title": "Jailbreaking in the Haystack",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent advances in long-context language models (LMs) have enabled\nmillion-token inputs, expanding their capabilities across complex tasks like\ncomputer-use agents. Yet, the safety implications of these extended contexts\nremain unclear. To bridge this gap, we introduce NINJA (short for\nNeedle-in-haystack jailbreak attack), a method that jailbreaks aligned LMs by\nappending benign, model-generated content to harmful user goals. Critical to\nour method is the observation that the position of harmful goals play an\nimportant role in safety. Experiments on standard safety benchmark, HarmBench,\nshow that NINJA significantly increases attack success rates across\nstate-of-the-art open and proprietary models, including LLaMA, Qwen, Mistral,\nand Gemini. Unlike prior jailbreaking methods, our approach is low-resource,\ntransferable, and less detectable. Moreover, we show that NINJA is\ncompute-optimal -- under a fixed compute budget, increasing context length can\noutperform increasing the number of trials in best-of-N jailbreak. These\nfindings reveal that even benign long contexts -- when crafted with careful\ngoal positioning -- introduce fundamental vulnerabilities in modern LMs.",
+            "upvotes": 1,
+            "discussionId": "69114ff0830c57fd4c795ffa",
+            "projectPage": "https://ar-forum.github.io/ninjaattackweb/",
+            "githubRepo": "https://github.com/AR-FORUM/NINJA_Attack",
+            "ai_summary": "NINJA, a jailbreak attack method, appends benign content to harmful goals in long-context language models, increasing attack success rates and revealing vulnerabilities in these models.",
+            "ai_keywords": [
+                "long-context language models",
+                "HarmBench",
+                "NINJA",
+                "jailbreak attack",
+                "model-generated content",
+                "position of harmful goals",
+                "compute-optimal",
+                "best-of-N jailbreak"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "밀밭 속의 바늘: Jailbreaking 연구",
+        "purpose": "길어진 문맥을 가진 언어 모델의 안전성 문제를 해결하기 위한 연구",
+        "method": [
+            "NINJA라는 새로운 방법을 소개하여 모델이 생성한 무해한 내용을 유해한 사용자 목표에 덧붙여 언어 모델을 jailbreak 함(we introduce NINJA (short for Needle-in-haystack jailbreak attack), a method that jailbreaks aligned LMs by appending benign, model-generated content to harmful user goals.)",
+            "위험한 목표의 위치가 안전성에 중요한 역할을 한다는 관찰을 중심으로 실험을 진행함(Critical to our method is the observation that the position of harmful goals play an important role in safety.)",
+            "HarmBench라는 기준을 사용하여 NINJA가 다양한 모델에서 공격 성공률을 크게 증가시킴(Experiments on standard safety benchmark, HarmBench, show that NINJA significantly increases attack success rates across state-of-the-art open and proprietary models.)"
+        ],
+        "conclusion": "NINJA는 안전성을 위협하는 새로운 접근 방법을 제공하며, 긴 문맥이 현대 언어 모델에 기본적인 취약점을 도입할 수 있음을 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
