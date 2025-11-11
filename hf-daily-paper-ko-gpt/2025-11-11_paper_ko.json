@@ -1,0 +1,533 @@
+[
+    {
+        "paper": {
+            "id": "2511.03506",
+            "authors": [
+                {
+                    "_id": "690c081d60494e4fa7675618",
+                    "name": "Ding Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa7675619",
+                    "name": "Simin Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561a",
+                    "name": "Kehang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561b",
+                    "name": "Peng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561c",
+                    "name": "Xiangping Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561d",
+                    "name": "Bo Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561e",
+                    "name": "Xinchi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa767561f",
+                    "name": "Feiyu Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "690c081d60494e4fa7675620",
+                    "name": "Zhiyu Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-05T14:37:34.000Z",
+            "submittedOnDailyAt": "2025-11-11T00:42:05.247Z",
+            "title": "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+            "submittedOnDailyBy": {
+                "_id": "64e18e9ec20c27fcc8df384e",
+                "avatarUrl": "/avatars/64ef866b9fa385efcefb34ea76b76802.svg",
+                "isPro": false,
+                "fullname": "Ding Chen",
+                "user": "Hush-cd",
+                "type": "user"
+            },
+            "summary": "Memory systems are key components that enable AI systems such as LLMs and AI\nagents to achieve long-term learning and sustained interaction. However, during\nmemory storage and retrieval, these systems frequently exhibit memory\nhallucinations, including fabrication, errors, conflicts, and omissions.\nExisting evaluations of memory hallucinations are primarily end-to-end question\nanswering, which makes it difficult to localize the operational stage within\nthe memory system where hallucinations arise. To address this, we introduce the\nHallucination in Memory Benchmark (HaluMem), the first operation level\nhallucination evaluation benchmark tailored to memory systems. HaluMem defines\nthree evaluation tasks (memory extraction, memory updating, and memory question\nanswering) to comprehensively reveal hallucination behaviors across different\noperational stages of interaction. To support evaluation, we construct\nuser-centric, multi-turn human-AI interaction datasets, HaluMem-Medium and\nHaluMem-Long. Both include about 15k memory points and 3.5k multi-type\nquestions. The average dialogue length per user reaches 1.5k and 2.6k turns,\nwith context lengths exceeding 1M tokens, enabling evaluation of hallucinations\nacross different context scales and task complexities. Empirical studies based\non HaluMem show that existing memory systems tend to generate and accumulate\nhallucinations during the extraction and updating stages, which subsequently\npropagate errors to the question answering stage. Future research should focus\non developing interpretable and constrained memory operation mechanisms that\nsystematically suppress hallucinations and improve memory reliability.",
+            "upvotes": 67,
+            "discussionId": "690c081d60494e4fa7675621",
+            "githubRepo": "https://github.com/MemTensor/HaluMem",
+            "ai_summary": "HaluMem, a benchmark for evaluating memory hallucinations in AI systems, identifies and analyzes hallucinations across memory extraction, updating, and question answering stages using large-scale human-AI interaction datasets.",
+            "ai_keywords": [
+                "memory systems",
+                "LLMs",
+                "AI agents",
+                "memory hallucinations",
+                "fabrication",
+                "errors",
+                "conflicts",
+                "omissions",
+                "HaluMem",
+                "operation level hallucination evaluation",
+                "memory extraction",
+                "memory updating",
+                "memory question answering",
+                "user-centric",
+                "multi-turn human-AI interaction datasets",
+                "HaluMem-Medium",
+                "HaluMem-Long",
+                "dialogue length",
+                "context lengths",
+                "token",
+                "hallucinations",
+                "memory reliability"
+            ],
+            "githubStars": 45,
+            "organization": {
+                "_id": "684d4f8e0bb9b6d7621cd53b",
+                "name": "MemTensor",
+                "fullname": "MemTensor",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62a155e615eeab266b2f2243/2mVH99TFqle9MJVb95aDC.jpeg"
+            }
+        },
+        "translation_title": "HaluMem: 에이전트의 메모리 시스템에서 환각 평가하기",
+        "purpose": "AI 시스템의 메모리 환각 문제를 수준별로 파악하고 평가하기 위한 벤치마크 개발",
+        "method": [
+            "메모리 시스템에 맞춘 최초의 작동 수준 환각 평가 벤치마크인 HaluMem을 소개함(To address this, we introduce the Hallucination in Memory Benchmark (HaluMem), the first operation level hallucination evaluation benchmark tailored to memory systems.)",
+            "세 가지 평가 과제(메모리 추출, 메모리 업데이트, 메모리 질문 응답)를 정의하여 상호작용의 다양한 작업 단계에서 환각 행동을 종합적으로 드러냄(HaluMem defines three evaluation tasks (memory extraction, memory updating, and memory question answering) to comprehensively reveal hallucination behaviors across different operational stages of interaction.)",
+            "사용자 중심의 다중 턴 인간-AI 상호작용 데이터세트 HaluMem-Medium 및 HaluMem-Long을 구축함(To support evaluation, we construct user-centric, multi-turn human-AI interaction datasets, HaluMem-Medium and HaluMem-Long.)"
+        ],
+        "conclusion": "HaluMem을 통한 실증 연구 결과, 기존 메모리 시스템은 추출 및 업데이트 단계에서 환각을 발생시키고 축적하며, 이는 질문 응답 단계로 오류를 전파하는 경향이 있음을 확인함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Memory Systems",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.07327",
+            "authors": [
+                {
+                    "_id": "6912b5eda644ba07c499c740",
+                    "name": "Guoxin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c741",
+                    "name": "Zile Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c742",
+                    "name": "Xuanzhong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c743",
+                    "name": "Donglei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c744",
+                    "name": "Haotian Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c745",
+                    "name": "Wayne Xin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c746",
+                    "name": "Ruihua Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c747",
+                    "name": "Wenbiao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c748",
+                    "name": "Huifeng Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c749",
+                    "name": "Liwen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74a",
+                    "name": "Kuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74b",
+                    "name": "Minpeng Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74c",
+                    "name": "Yong Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74d",
+                    "name": "Pengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74e",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b5eda644ba07c499c74f",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-10T17:30:08.000Z",
+            "submittedOnDailyAt": "2025-11-11T01:39:02.557Z",
+            "title": "IterResearch: Rethinking Long-Horizon Agents via Markovian State\n  Reconstruction",
+            "submittedOnDailyBy": {
+                "_id": "63f06116f1a47aaea5bd497b",
+                "avatarUrl": "/avatars/7d99ffa59c4579599e852a0ffb261268.svg",
+                "isPro": false,
+                "fullname": "Guoxin Chen",
+                "user": "GuoxinChen",
+                "type": "user"
+            },
+            "summary": "Recent advances in deep-research agents have shown promise for autonomous\nknowledge construction through dynamic reasoning over external sources.\nHowever, existing approaches rely on a mono-contextual paradigm that\naccumulates all information in a single, expanding context window, leading to\ncontext suffocation and noise contamination that limit their effectiveness on\nlong-horizon tasks. We introduce IterResearch, a novel iterative deep-research\nparadigm that reformulates long-horizon research as a Markov Decision Process\nwith strategic workspace reconstruction. By maintaining an evolving report as\nmemory and periodically synthesizing insights, our approach preserves\nconsistent reasoning capacity across arbitrary exploration depths. We further\ndevelop Efficiency-Aware Policy Optimization (EAPO), a reinforcement learning\nframework that incentivizes efficient exploration through geometric reward\ndiscounting and enables stable distributed training via adaptive downsampling.\nExtensive experiments demonstrate that IterResearch achieves substantial\nimprovements over existing open-source agents with average +14.5pp across six\nbenchmarks and narrows the gap with frontier proprietary systems. Remarkably,\nour paradigm exhibits unprecedented interaction scaling, extending to 2048\ninteractions with dramatic performance gains (from 3.5\\% to 42.5\\%), and serves\nas an effective prompting strategy, improving frontier models by up to 19.2pp\nover ReAct on long-horizon tasks. These findings position IterResearch as a\nversatile solution for long-horizon reasoning, effective both as a trained\nagent and as a prompting paradigm for frontier models.",
+            "upvotes": 56,
+            "discussionId": "6912b5eda644ba07c499c750",
+            "ai_summary": "IterResearch, an iterative deep-research paradigm, improves long-horizon reasoning by reformulating it as a Markov Decision Process with strategic workspace reconstruction and Efficiency-Aware Policy Optimization, achieving better performance and interaction scaling compared to existing agents.",
+            "ai_keywords": [
+                "deep-research agents",
+                "dynamic reasoning",
+                "mono-contextual paradigm",
+                "context suffocation",
+                "noise contamination",
+                "long-horizon tasks",
+                "IterResearch",
+                "Markov Decision Process",
+                "strategic workspace reconstruction",
+                "evolving report",
+                "Efficiency-Aware Policy Optimization",
+                "reinforcement learning",
+                "geometric reward discounting",
+                "adaptive downsampling",
+                "prompting strategy",
+                "ReAct"
+            ]
+        },
+        "translation_title": "IterResearch: 마르코프 상태 재구성을 통한 장기 목표 에이전트 재고찰",
+        "purpose": "장기 작업에서의 연구 효율성과 reasoning 능력을 향상시키기 위한 새로운 paradigm 제안",
+        "method": [
+            "IterResearch를 통해 장기 연구를 Markov Decision Process로 재구성하고, 전략적으로 작업 구성을 재구성함(We introduce IterResearch, a novel iterative deep-research paradigm that reformulates long-horizon research as a Markov Decision Process with strategic workspace reconstruction.)",
+            "효율적인 탐색을 유도하기 위해 EAPO라는 강화 학습 프레임워크를 개발함(We further develop Efficiency-Aware Policy Optimization (EAPO), a reinforcement learning framework that incentivizes efficient exploration through geometric reward discounting.)",
+            "IterResearch의 성능을 평가하기 위해 다양한 실험을 진행하고, 기존 오픈 소스 에이전트보다 평균 +14.5pp 향상된 성과를 입증함(Extensive experiments demonstrate that IterResearch achieves substantial improvements over existing open-source agents with average +14.5pp across six benchmarks.)"
+        ],
+        "conclusion": "IterResearch는 장기 reasoning에 유용하게 사용될 수 있으며, 훈련된 에이전트 및 프롬프트 패러다임으로 효과적인 성능을 발휘함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Long-Horizon Reasoning",
+            "Markov Decision Process"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.06307",
+            "authors": [
+                {
+                    "_id": "6912c5b6a644ba07c499c7ce",
+                    "name": "Speed Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c5b6a644ba07c499c7cf",
+                    "name": "Jianwei Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c5b6a644ba07c499c7d0",
+                    "name": "Guang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c5b6a644ba07c499c7d1",
+                    "name": "Lulu Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c5b6a644ba07c499c7d2",
+                    "name": "Saiyong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c5b6a644ba07c499c7d3",
+                    "name": "Wiggin Zhou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64b74b906ab5d14ca7f289cd/GA0zCucYiKF2baXLaOhE7.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64b74b906ab5d14ca7f289cd/I8i9Vyp-OdQbeBiKmq9c8.png"
+            ],
+            "publishedAt": "2025-11-09T10:11:28.000Z",
+            "submittedOnDailyAt": "2025-11-11T02:43:52.695Z",
+            "title": "DRIVE: Data Curation Best Practices for Reinforcement Learning with\n  Verifiable Reward in Competitive Code Generation",
+            "submittedOnDailyBy": {
+                "_id": "64b74b906ab5d14ca7f289cd",
+                "avatarUrl": "/avatars/b131b7c4ce5216708ca4a678f35ead0a.svg",
+                "isPro": false,
+                "fullname": "Chenchen Zhang",
+                "user": "xxzcc",
+                "type": "user"
+            },
+            "summary": "Recent reasoning-first models (e.g., OpenAI o1, DeepSeek R1) have spurred a\nresurgence of interest in RLVR. Nevertheless, advances are dominated by\nmathematics (e.g., AIME), with competitive-programming code generation\nunderexplored and data curation receiving less attention than RL algorithm\ndesign. We investigate how to construct RLVR datasets (i.e., RL prompts) and\npresent practical training techniques that yield strong performance on\ncompetitive-programming code generation. Our pipeline begins with supervised\nfine-tuning (SFT) distilled from strong open-source models, augmented with\ngeneral-purpose and reasoning-intensive data. RL then follows a two-stage\nprocess with executable, testcase-driven rewards: first, training on a large,\nuniformly distributed set of competitive-programming problems using Group\nRelative Policy Optimization (GRPO) with 8 rollouts per prompt and a relatively\nshort response-generation window (e.g., 32k during SFT and 24k in this stage)\nto expand entropy and mitigate repetition and truncation; second, we perform\nPre-GRPO: updating on a small, high-quality set of challenging\nproblems with a large rollout budget (64 rollouts per prompt) under a\nhard-focus curriculum that continuously retains the most difficult instances\nthroughout training. We implement our method on Qwen2.5-32B and evaluate on\nLeetCode and Codeforces weekly contests to avoid data leakage. The resulting\nmodel achieves state-of-the-art performance among models of similar scale and\nis comparable to leading systems such as DeepSeek v3.1 and Doubao-1.5-Thinking.\nWe also examine scaling trends and observe strong RL scaling on an internal\nlarge-scale MoE model. Our study distills concise best practices for data\ncuration, entropy expansion, and curriculum design in RLVR for\ncompetitive-programming code generation.",
+            "upvotes": 35,
+            "discussionId": "6912c5b6a644ba07c499c7d4",
+            "ai_summary": "The study presents a two-stage reinforcement learning approach for competitive-programming code generation, achieving state-of-the-art performance using Group Relative Policy Optimization and a hard-focus curriculum.",
+            "ai_keywords": [
+                "RLVR",
+                "supervised fine-tuning",
+                "Group Relative Policy Optimization",
+                "Pre-GRPO",
+                "entropy expansion",
+                "curriculum design",
+                "competitive-programming code generation",
+                "Qwen2.5-32B",
+                "LeetCode",
+                "Codeforces",
+                "MoE model"
+            ],
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "DRIVE: Competitive Code Generation을 위한 검증 가능한 보상으로 강화 학습 데이터 관리 최선 관행",
+        "purpose": "경쟁 프로그래밍 코드 생성을 위한 강화 학습 데이터 세트를 구성하고 효과적인 교육 기법을 연구하여 성과를 높이는 것",
+        "method": [
+            "강력한 오픈 소스 모델에서 주도면밀하게 훈련 받은 Supervised Fine-Tuning(SFT)를 시작으로, 일반 목적 및 추론 중심의 데이터로 강화함(Our pipeline begins with supervised fine-tuning (SFT) distilled from strong open-source models, augmented with general-purpose and reasoning-intensive data.)",
+            "경쟁 프로그래밍 문제에 대한 큰 일관된 세트에서 Group Relative Policy Optimization(GRPO)을 사용하여 훈련함(Training on a large, uniformly distributed set of competitive-programming problems using Group Relative Policy Optimization (GRPO).)",
+            "소규모의 고품질 문제 세트에 대해 고급 롤아웃 예산(64 rollouts per prompt)을 사용하여 업데이트하는 Pre-GRPO 수행(We perform Pre-GRPO: updating on a small, high-quality set of challenging problems with a large rollout budget (64 rollouts per prompt).)"
+        ],
+        "conclusion": "제안한 방법으로 생성된 모델은 유사한 규모의 모델들 중에서 최첨단 성능을 달성하였고, DeepSeek v3.1 및 Doubao-1.5-Thinking와 유사한 성과를 보였다.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Data Curation",
+            "Competitive Programming"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.06309",
+            "authors": [
+                {
+                    "_id": "6912b989a644ba07c499c773",
+                    "name": "Stephen Chung",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b989a644ba07c499c774",
+                    "name": "Wenyu Du",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-09T10:13:00.000Z",
+            "submittedOnDailyAt": "2025-11-11T01:50:33.244Z",
+            "title": "The Station: An Open-World Environment for AI-Driven Discovery",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce the STATION, an open-world multi-agent environment that models a\nminiature scientific ecosystem. Leveraging their extended context windows,\nagents in the Station can engage in long scientific journeys that include\nreading papers from peers, formulating hypotheses, submitting code, performing\nanalyses, and publishing results. Importantly, there is no centralized system\ncoordinating their activities - agents are free to choose their own actions and\ndevelop their own narratives within the Station. Experiments demonstrate that\nAI agents in the Station achieve new state-of-the-art performance on a wide\nrange of benchmarks, spanning from mathematics to computational biology to\nmachine learning, notably surpassing AlphaEvolve in circle packing. A rich\ntapestry of narratives emerges as agents pursue independent research, interact\nwith peers, and build upon a cumulative history. From these emergent\nnarratives, novel methods arise organically, such as a new density-adaptive\nalgorithm for scRNA-seq batch integration. The Station marks a first step\ntowards autonomous scientific discovery driven by emergent behavior in an\nopen-world environment, representing a new paradigm that moves beyond rigid\noptimization.",
+            "upvotes": 22,
+            "discussionId": "6912b989a644ba07c499c775",
+            "githubRepo": "https://github.com/dualverse-ai/station",
+            "ai_summary": "AI agents in the STATION environment achieve state-of-the-art performance across various benchmarks through autonomous scientific discovery and emergent behavior.",
+            "ai_keywords": [
+                "STATION",
+                "multi-agent environment",
+                "scientific ecosystem",
+                "context windows",
+                "long scientific journeys",
+                "reading papers",
+                "formulating hypotheses",
+                "submitting code",
+                "performing analyses",
+                "publishing results",
+                "AlphaEvolve",
+                "circle packing",
+                "density-adaptive algorithm",
+                "scRNA-seq batch integration",
+                "autonomous scientific discovery",
+                "emergent behavior",
+                "open-world environment"
+            ],
+            "githubStars": 7
+        },
+        "translation_title": "The Station: AI 중심 발견을 위한 오픈 월드 환경",
+        "purpose": "자율적인 과학적 발견을 위한 오픈 월드 멀티 에이전트 환경을 구축하고 개발하기",
+        "method": [
+            "STATION 환경에서 에이전트가 논문을 읽고, 가설을 세우며, 코드를 제출하고, 분석을 수행하는 등의 독립적인 행동을 자유롭게 선택하도록 함(Leveraging their extended context windows, agents in the Station can engage in long scientific journeys that include reading papers from peers, formulating hypotheses, submitting code, performing analyses, and publishing results.)",
+            "중앙 집중 체계 없이 에이전트들이 고유한 내러티브를 발전시킬 수 있도록 설계함(Importantly, there is no centralized system coordinating their activities - agents are free to choose their own actions and develop their own narratives within the Station.)",
+            "다양한 벤치마크에서 AI 에이전트의 향상된 성능을 기록하며, 새로운 방법론이 발생하는 것을 관찰함(Experiments demonstrate that AI agents in the Station achieve new state-of-the-art performance on a wide range of benchmarks, spanning from mathematics to computational biology to machine learning.)"
+        ],
+        "conclusion": "The Station은 자율적인 과학적 발견을 위한 새로운 패러다임을 제시하며, 에이전트들 간의 상호작용을 통해 독창적인 방법들이 자연스럽게 발생함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.07250",
+            "authors": [
+                {
+                    "_id": "6912b9b7a644ba07c499c777",
+                    "name": "Tianhao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c778",
+                    "name": "Haochen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c779",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77a",
+                    "name": "Zekun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77b",
+                    "name": "Zili Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77c",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77d",
+                    "name": "Jian Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77e",
+                    "name": "Shihao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c77f",
+                    "name": "Yanghai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c780",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c781",
+                    "name": "Houyi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c782",
+                    "name": "Wei Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c783",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c784",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c785",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b9b7a644ba07c499c786",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-10T16:02:33.000Z",
+            "submittedOnDailyAt": "2025-11-11T01:52:05.353Z",
+            "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal\n  LLMs",
+            "submittedOnDailyBy": {
+                "_id": "65377c30e48353201e6fdda0",
+                "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+                "isPro": false,
+                "fullname": "Jiaheng Liu",
+                "user": "CheeryLJH",
+                "type": "user"
+            },
+            "summary": "The advent of Multimodal Large Language Models (MLLMs) has expanded AI\ncapabilities to visual modalities, yet existing evaluation benchmarks remain\nlimited to single-video understanding, overlooking the critical need for\nmulti-video understanding in real-world scenarios (e.g., sports analytics and\nautonomous driving). To address this significant gap, we introduce MVU-Eval,\nthe first comprehensive benchmark for evaluating Multi-Video Understanding for\nMLLMs. Specifically, our MVU-Eval mainly assesses eight core competencies\nthrough 1,824 meticulously curated question-answer pairs spanning 4,959 videos\nfrom diverse domains, addressing both fundamental perception tasks and\nhigh-order reasoning tasks. These capabilities are rigorously aligned with\nreal-world applications such as multi-sensor synthesis in autonomous systems\nand cross-angle sports analytics. Through extensive evaluation of\nstate-of-the-art open-source and closed-source models, we reveal significant\nperformance discrepancies and limitations in current MLLMs' ability to perform\nunderstanding across multiple videos. The benchmark will be made publicly\navailable to foster future research.",
+            "upvotes": 16,
+            "discussionId": "6912b9b8a644ba07c499c787",
+            "projectPage": "https://huggingface.co/datasets/MVU-Eval-Team/MVU-Eval-Data",
+            "githubRepo": "https://github.com/NJU-LINK/MVU-Eval",
+            "ai_summary": "MVU-Eval is a comprehensive benchmark for evaluating multi-video understanding in Multimodal Large Language Models, addressing gaps in existing single-video benchmarks and highlighting performance discrepancies in real-world applications.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "MVU-Eval",
+                "Multi-Video Understanding",
+                "question-answer pairs",
+                "multi-sensor synthesis",
+                "cross-angle sports analytics"
+            ],
+            "githubStars": 3,
+            "organization": {
+                "_id": "68edc767abe005ac1b354573",
+                "name": "NJU-LINK",
+                "fullname": "NJU-LINK Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+            }
+        },
+        "translation_title": "MVU-Eval: 멀티모달 LLM을 위한 다중 비디오 이해 평가 방향",
+        "purpose": "다중 비디오 이해를 평가하기 위한 포괄적 기준을 제시하여 MLLM의 한계를 개선하려는 목표",
+        "method": [
+            "MVU-Eval이라는 다중 비디오 이해 평가 기준을 구축함(we introduce MVU-Eval, the first comprehensive benchmark for evaluating Multi-Video Understanding for MLLMs.)",
+            "1,824개의 질문-응답 쌍을 통해 4,959개의 다양한 비디오를 평가함(our MVU-Eval mainly assesses eight core competencies through 1,824 meticulously curated question-answer pairs spanning 4,959 videos from diverse domains.)",
+            "기초 인식 작업과 고차원 추론 작업을 모두 포함하여 실제 응용 프로그램과 밀접하게 연결해 평가함(these capabilities are rigorously aligned with real-world applications such as multi-sensor synthesis in autonomous systems and cross-angle sports analytics.)"
+        ],
+        "conclusion": "현재 MLLM의 다중 비디오 이해 성능에서 상당한 차이와 한계를 드러내며, 이 기준이 향후 연구에 기여할 것이다.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    }
+]
