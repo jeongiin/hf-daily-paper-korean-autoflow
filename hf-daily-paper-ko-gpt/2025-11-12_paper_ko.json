@@ -1,0 +1,665 @@
+[
+    {
+        "paper": {
+            "id": "2511.06221",
+            "authors": [
+                {
+                    "_id": "6912a1c7a644ba07c499c6e1",
+                    "user": {
+                        "_id": "67486775ed2e4d9e50fc9117",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/67486775ed2e4d9e50fc9117/WrCtPqY9X67ASbkUeloDF.jpeg",
+                        "isPro": false,
+                        "fullname": "Sen Xu",
+                        "user": "SenXbjtu",
+                        "type": "user"
+                    },
+                    "name": "Sen Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:27.021Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e2",
+                    "user": {
+                        "_id": "6406991ec3ab325efa9b6732",
+                        "avatarUrl": "/avatars/5ba29d9e25820c1172b5a98b078e416f.svg",
+                        "isPro": false,
+                        "fullname": "DenseHub",
+                        "user": "YiZhouDenseHub",
+                        "type": "user"
+                    },
+                    "name": "Yi Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:32.245Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e3",
+                    "name": "Wei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e4",
+                    "user": {
+                        "_id": "6646fa14b096df5b522fd5f9",
+                        "avatarUrl": "/avatars/98f67b6f8cb9776575916a2ba027f738.svg",
+                        "isPro": false,
+                        "fullname": "MIN JIXIN",
+                        "user": "JIXIN0121",
+                        "type": "user"
+                    },
+                    "name": "Jixin Min",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:33.041Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e5",
+                    "user": {
+                        "_id": "64d1faaa1ed6649d70d1fa2f",
+                        "avatarUrl": "/avatars/388ba18df077eaa8e16a89e59bf852fa.svg",
+                        "isPro": false,
+                        "fullname": "YinZhiBin",
+                        "user": "YinZhiBin",
+                        "type": "user"
+                    },
+                    "name": "Zhibin Yin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:34.446Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e6",
+                    "name": "Yingwei Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e7",
+                    "name": "Shixi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e8",
+                    "user": {
+                        "_id": "636b5433d524b220830e7a61",
+                        "avatarUrl": "/avatars/09e9b392a189195aa09b93fc17b70cc3.svg",
+                        "isPro": false,
+                        "fullname": "pangly",
+                        "user": "pangly",
+                        "type": "user"
+                    },
+                    "name": "Lianyu Pang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:31.027Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6e9",
+                    "name": "Yirong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912a1c7a644ba07c499c6ea",
+                    "user": {
+                        "_id": "668b5090101353874ced73d0",
+                        "avatarUrl": "/avatars/b2ec34a321890140e97ddd69884132a8.svg",
+                        "isPro": false,
+                        "fullname": "junlin zhang",
+                        "user": "junlinzhang",
+                        "type": "user"
+                    },
+                    "name": "Junlin Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:24.601Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6406991ec3ab325efa9b6732/4yVJjn-Y2UONHvzebYMkU.png"
+            ],
+            "publishedAt": "2025-11-09T04:37:36.000Z",
+            "submittedOnDailyAt": "2025-11-12T00:53:44.764Z",
+            "title": "Tiny Model, Big Logic: Diversity-Driven Optimization Elicits Large-Model\n  Reasoning Ability in VibeThinker-1.5B",
+            "submittedOnDailyBy": {
+                "_id": "6406991ec3ab325efa9b6732",
+                "avatarUrl": "/avatars/5ba29d9e25820c1172b5a98b078e416f.svg",
+                "isPro": false,
+                "fullname": "DenseHub",
+                "user": "YiZhouDenseHub",
+                "type": "user"
+            },
+            "summary": "Challenging the prevailing consensus that small models inherently lack robust\nreasoning, this report introduces VibeThinker-1.5B, a 1.5B-parameter dense\nmodel developed via our Spectrum-to-Signal Principle (SSP). This challenges the\nprevailing approach of scaling model parameters to enhance capabilities, as\nseen in models like DeepSeek R1 (671B) and Kimi k2 (>1T). The SSP framework\nfirst employs a Two-Stage Diversity-Exploring Distillation (SFT) to generate a\nbroad spectrum of solutions, followed by MaxEnt-Guided Policy Optimization (RL)\nto amplify the correct signal. With a total training cost of only $7,800,\nVibeThinker-1.5B demonstrates superior reasoning capabilities compared to\nclosed-source models like Magistral Medium and Claude Opus 4, and performs on\npar with open-source models like GPT OSS-20B Medium. Remarkably, it surpasses\nthe 400x larger DeepSeek R1 on three math benchmarks: AIME24 (80.3 vs. 79.8),\nAIME25 (74.4 vs. 70.0), and HMMT25 (50.4 vs. 41.7). This is a substantial\nimprovement over its base model (6.7, 4.3, and 0.6, respectively). On\nLiveCodeBench V6, it scores 51.1, outperforming Magistral Medium's 50.3 and its\nbase model's 0.0. These findings demonstrate that small models can achieve\nreasoning capabilities comparable to large models, drastically reducing\ntraining and inference costs and thereby democratizing advanced AI research.",
+            "upvotes": 50,
+            "discussionId": "6912a1c7a644ba07c499c6eb",
+            "projectPage": "https://github.com/WeiboAI/VibeThinker",
+            "githubRepo": "https://github.com/WeiboAI/VibeThinker",
+            "ai_summary": "VibeThinker-1.5B, a 1.5B-parameter model using the Spectrum-to-Signal Principle, achieves superior reasoning capabilities compared to larger models at a significantly lower cost.",
+            "ai_keywords": [
+                "Spectrum-to-Signal Principle",
+                "Two-Stage Diversity-Exploring Distillation",
+                "MaxEnt-Guided Policy Optimization",
+                "VibeThinker-1.5B",
+                "DeepSeek R1",
+                "Kimi k2",
+                "Magistral Medium",
+                "Claude Opus 4",
+                "GPT OSS-20B Medium",
+                "AIME24",
+                "AIME25",
+                "HMMT25",
+                "LiveCodeBench V6"
+            ],
+            "githubStars": 41,
+            "organization": {
+                "_id": "68c8059479c43cfa50f36156",
+                "name": "WeiboAI",
+                "fullname": "WeiboAI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64d1faaa1ed6649d70d1fa2f/lZVm6Yuiif9cdr5KsnfZr.png"
+            }
+        },
+        "translation_title": "작은 모델, 큰 논리: 다양성 기반 최적화가 VibeThinker-1.5B의 대형 모델 추론 능력을 이끌어낸다",
+        "purpose": "작은 모델도 충분한 추론 능력을 가질 수 있음을 보여주고, 고비용의 대형 모델 대신 작은 모델의 가능성을 탐색하기 위함",
+        "method": [
+            "Spectrum-to-Signal Principle(SSP)를 이용하여 1.5B 파라미터 밀집 모델인 VibeThinker-1.5B를 개발함(Challenging the prevailing consensus that small models inherently lack robust reasoning, this report introduces VibeThinker-1.5B, a 1.5B-parameter dense model developed via our Spectrum-to-Signal Principle (SSP).)",
+            "두 단계의 다양성 탐색 distillation(SFT)를 통해 다양한 솔루션을 생성하고, MaxEnt-Guided Policy Optimization(RL)을 통해 올바른 신호를 강화함(The SSP framework first employs a Two-Stage Diversity-Exploring Distillation (SFT) to generate a broad spectrum of solutions, followed by MaxEnt-Guided Policy Optimization (RL) to amplify the correct signal.)",
+            "총 훈련 비용이 7,800달러로, 기존의 큰 모델보다 더 우수한 추론 능력을 발휘함(With a total training cost of only $7,800, VibeThinker-1.5B demonstrates superior reasoning capabilities compared to closed-source models like Magistral Medium and Claude Opus 4.)"
+        ],
+        "conclusion": "작은 모델이 대형 모델과 유사한 추론 능력을 달성할 수 있으며, 훈련 및 추론 비용을 대폭 줄이면서 첨단 AI 연구를 민주화할 수 있음을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08319",
+            "authors": [
+                {
+                    "_id": "691416b6ac231a572657202a",
+                    "name": "Soyeong Jeong",
+                    "hidden": false
+                },
+                {
+                    "_id": "691416b6ac231a572657202b",
+                    "name": "Aparna Elangovan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691416b6ac231a572657202c",
+                    "name": "Emine Yilmaz",
+                    "hidden": false
+                },
+                {
+                    "_id": "691416b6ac231a572657202d",
+                    "name": "Oleg Rokhlenko",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-11T14:48:34.000Z",
+            "submittedOnDailyAt": "2025-11-12T02:44:47.353Z",
+            "title": "Adaptive Multi-Agent Response Refinement in Conversational Systems",
+            "submittedOnDailyBy": {
+                "_id": "64e5a1cd4c20016ec9020ec8",
+                "avatarUrl": "/avatars/d7ffe7fbbe39c0a013375357457c57b3.svg",
+                "isPro": false,
+                "fullname": "Soyeong",
+                "user": "starsuzi",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have demonstrated remarkable success in conversational systems by generating human-like responses. However, they can fall short, especially when required to account for personalization or specific knowledge. In real-life settings, it is impractical to rely on users to detect these errors and request a new response. One way to address this problem is to refine the response before returning it to the user. While existing approaches focus on refining responses within a single LLM, this method struggles to consider diverse aspects needed for effective conversations. In this work, we propose refining responses through a multi-agent framework, where each agent is assigned a specific role for each aspect. We focus on three key aspects crucial to conversational quality: factuality, personalization, and coherence. Each agent is responsible for reviewing and refining one of these aspects, and their feedback is then merged to improve the overall response. To enhance collaboration among them, we introduce a dynamic communication strategy. Instead of following a fixed sequence of agents, our approach adaptively selects and coordinates the most relevant agents based on the specific requirements of each query. We validate our framework on challenging conversational datasets, demonstrating that ours significantly outperforms relevant baselines, particularly in tasks involving knowledge or user's persona, or both.",
+            "upvotes": 31,
+            "discussionId": "691416b6ac231a572657202e",
+            "ai_summary": "A multi-agent framework refines conversational responses by addressing factuality, personalization, and coherence, outperforming single-agent methods on challenging datasets.",
+            "ai_keywords": [
+                "Large Language Models",
+                "conversational systems",
+                "multi-agent framework",
+                "factuality",
+                "personalization",
+                "coherence",
+                "dynamic communication strategy"
+            ],
+            "organization": {
+                "_id": "5ffdfbadbba2ae614d771970",
+                "name": "amazon",
+                "fullname": "Amazon",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png"
+            }
+        },
+        "translation_title": "대화 시스템에서의 적응형 다중 에이전트 응답 정제",
+        "purpose": "대화의 질을 높이기 위해 응답을 정제하는 방법 개발",
+        "method": [
+            "각 에이전트를 특정 역할에 할당하여 응답을 정제하는 다중 에이전트 프레임워크를 제안함(we propose refining responses through a multi-agent framework, where each agent is assigned a specific role for each aspect.)",
+            "진실성, 개인화, 일관성을 중점적으로 다룸(We focus on three key aspects crucial to conversational quality: factuality, personalization, and coherence.)",
+            "각 에이전트가 자신의 역할에 따라 피드백을 제공하고 이를 병합하여 전체 응답을 개선함(Each agent is responsible for reviewing and refining one of these aspects, and their feedback is then merged to improve the overall response.)",
+            "특정 요구 사항에 따라 가장 관련 있는 에이전트를 선택하는 동적 커뮤니케이션 전략을 도입함(we introduce a dynamic communication strategy.)"
+        ],
+        "conclusion": "제안된 방법은 지식 또는 사용자 개인 정보를 포함한 작업에서 특히 관련 기준보다 우수한 성능을 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.07332",
+            "authors": [
+                {
+                    "_id": "6912b70ea644ba07c499c752",
+                    "user": {
+                        "_id": "62e98e784fa4bc6de6c0f65b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62e98e784fa4bc6de6c0f65b/V8M3vr8yC4d5x4o2MfIhX.jpeg",
+                        "isPro": false,
+                        "fullname": "Aarash Feizi",
+                        "user": "aarashfeizi",
+                        "type": "user"
+                    },
+                    "name": "Aarash Feizi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:00.927Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c753",
+                    "name": "Shravan Nayak",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c754",
+                    "user": {
+                        "_id": "636865b8cca0a0a962c21f3f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Mja7cpws4gb2Jmdj_foPA.png",
+                        "isPro": false,
+                        "fullname": "Xiangru (Edward) Jian",
+                        "user": "HideOnBush",
+                        "type": "user"
+                    },
+                    "name": "Xiangru Jian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:03.406Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c755",
+                    "user": {
+                        "_id": "64440be5af034cdfd69ca3a7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                        "isPro": false,
+                        "fullname": "Qinghong (Kevin) Lin",
+                        "user": "KevinQHLin",
+                        "type": "user"
+                    },
+                    "name": "Kevin Qinghong Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:44:05.862Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c756",
+                    "name": "Kaixin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c757",
+                    "user": {
+                        "_id": "60edf5e03203a5daf7d3912e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60edf5e03203a5daf7d3912e/fq1AzGutKI_qojhevc03P.jpeg",
+                        "isPro": false,
+                        "fullname": "Rabiul Awal",
+                        "user": "rabiulawal",
+                        "type": "user"
+                    },
+                    "name": "Rabiul Awal",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:43:58.411Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c758",
+                    "user": {
+                        "_id": "5fa9ff3ea13e063b8b2b60cb",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1633380224986-5fa9ff3ea13e063b8b2b60cb.jpeg",
+                        "isPro": false,
+                        "fullname": "Xing Han Lù",
+                        "user": "xhluca",
+                        "type": "user"
+                    },
+                    "name": "Xing Han Lù",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:43:50.993Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c759",
+                    "user": {
+                        "_id": "6478f30ea68454566353ef95",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6478f30ea68454566353ef95/hX5NiVPyQbK8TIBKnT4J1.jpeg",
+                        "isPro": false,
+                        "fullname": "Johan Samir Obando Ceron",
+                        "user": "johanobandoc",
+                        "type": "user"
+                    },
+                    "name": "Johan Obando-Ceron",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:43:55.983Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75a",
+                    "name": "Juan A. Rodriguez",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75b",
+                    "name": "Nicolas Chapados",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75c",
+                    "name": "David Vazquez",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75d",
+                    "name": "Adriana Romero-Soriano",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75e",
+                    "name": "Reihaneh Rabbany",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c75f",
+                    "name": "Perouz Taslakian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c760",
+                    "name": "Christopher Pal",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c761",
+                    "name": "Spandana Gella",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912b70ea644ba07c499c762",
+                    "name": "Sai Rajeswar",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-10T17:35:21.000Z",
+            "submittedOnDailyAt": "2025-11-12T01:32:27.759Z",
+            "title": "Grounding Computer Use Agents on Human Demonstrations",
+            "submittedOnDailyBy": {
+                "_id": "62e98e784fa4bc6de6c0f65b",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62e98e784fa4bc6de6c0f65b/V8M3vr8yC4d5x4o2MfIhX.jpeg",
+                "isPro": false,
+                "fullname": "Aarash Feizi",
+                "user": "aarashfeizi",
+                "type": "user"
+            },
+            "summary": "Building reliable computer-use agents requires grounding: accurately\nconnecting natural language instructions to the correct on-screen elements.\nWhile large datasets exist for web and mobile interactions, high-quality\nresources for desktop environments are limited. To address this gap, we\nintroduce GroundCUA, a large-scale desktop grounding dataset built from expert\nhuman demonstrations. It covers 87 applications across 12 categories and\nincludes 56K screenshots, with every on-screen element carefully annotated for\na total of over 3.56M human-verified annotations. From these demonstrations, we\ngenerate diverse instructions that capture a wide range of real-world tasks,\nproviding high-quality data for model training. Using GroundCUA, we develop the\nGroundNext family of models that map instructions to their target UI elements.\nAt both 3B and 7B scales, GroundNext achieves state-of-the-art results across\nfive benchmarks using supervised fine-tuning, while requiring less than\none-tenth the training data of prior work. Reinforcement learning post-training\nfurther improves performance, and when evaluated in an agentic setting on the\nOSWorld benchmark using o3 as planner, GroundNext attains comparable or\nsuperior results to models trained with substantially more data,. These results\ndemonstrate the critical role of high-quality, expert-driven datasets in\nadvancing general-purpose computer-use agents.",
+            "upvotes": 31,
+            "discussionId": "6912b70fa644ba07c499c763",
+            "projectPage": "https://groundcua.github.io/",
+            "githubRepo": "https://github.com/ServiceNow/GroundCUA/",
+            "ai_summary": "GroundCUA, a large-scale desktop grounding dataset, enables the development of GroundNext models that achieve state-of-the-art performance in mapping instructions to UI elements with less training data.",
+            "ai_keywords": [
+                "grounding",
+                "natural language instructions",
+                "on-screen elements",
+                "desktop environments",
+                "GroundCUA",
+                "expert human demonstrations",
+                "screenshots",
+                "human-verified annotations",
+                "GroundNext",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "OSWorld benchmark",
+                "o3 planner"
+            ],
+            "githubStars": 16,
+            "organization": {
+                "_id": "633497b475bed993246ff763",
+                "name": "ServiceNow",
+                "fullname": "ServiceNow",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664391313869-62f6691f329d4d014d1b4087.png"
+            }
+        },
+        "translation_title": "인간 시연에 기반한 컴퓨터 사용 에이전트 구축",
+        "purpose": "정확한 자연어 지침과 화면 요소를 연결하는 신뢰할 수 있는 컴퓨터 사용 에이전트 구축을 위해 필요한 데이터를 마련하는 것",
+        "method": [
+            "전문가 인간 시연을 통해 구축한 대규모 데스크탑 그라운딩 데이터셋인 GroundCUA를 소개함(To address this gap, we introduce GroundCUA, a large-scale desktop grounding dataset built from expert human demonstrations.)",
+            "87개 애플리케이션, 12개 카테고리, 56K의 스크린샷을 포함하고 3.56M 이상의 인간 검증 주석을 포함하는 데이터셋을 생성함(It covers 87 applications across 12 categories and includes 56K screenshots, with every on-screen element carefully annotated for a total of over 3.56M human-verified annotations.)",
+            "GroundCUA를 사용해 지침과 UI 요소를 매핑하는 GroundNext 모델을 개발함(Using GroundCUA, we develop the GroundNext family of models that map instructions to their target UI elements.)",
+            "GroundNext는 감독 학습을 통해 최신의 성과를 달성하며, 이전 작업보다 훈련 데이터가 10분의 1 이하로 필요함(GroundNext achieves state-of-the-art results across five benchmarks using supervised fine-tuning, while requiring less than one-tenth the training data of prior work.)"
+        ],
+        "conclusion": "이 연구는 높은 품질의 전문가 기반 데이터셋이 일반 용도의 컴퓨터 사용 에이전트를 발전시키는 데 중요한 역할을 한다는 것을 보여줍니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Computer Vision",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.07080",
+            "authors": [
+                {
+                    "_id": "6912c6cba644ba07c499c7dd",
+                    "user": {
+                        "_id": "65276c7911a8a521c91bc10f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                        "isPro": false,
+                        "fullname": "Khalil Hennara",
+                        "user": "Hennara",
+                        "type": "user"
+                    },
+                    "name": "Khalil Hennara",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-11T19:43:31.158Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7de",
+                    "name": "Ahmad Bastati",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7df",
+                    "user": {
+                        "_id": "6496df4b3c64d75523a11973",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6496df4b3c64d75523a11973/I_Qn5-3Czngle-NsGmabO.jpeg",
+                        "isPro": false,
+                        "fullname": "Muhammad Hreden",
+                        "user": "muhammad0-0hreden",
+                        "type": "user"
+                    },
+                    "name": "Muhammad Hreden",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:09.582Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7e0",
+                    "name": "Mohamed Motasim Hamed",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7e1",
+                    "user": {
+                        "_id": "65704741e1cfce1764ce652e",
+                        "avatarUrl": "/avatars/9189aaf417426af4ebe381ed364a6c0e.svg",
+                        "isPro": false,
+                        "fullname": "Zeina Aldallal",
+                        "user": "ZeinaD",
+                        "type": "user"
+                    },
+                    "name": "Zeina Aldallal",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:07.736Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7e2",
+                    "name": "Sara Chrouf",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912c6cba644ba07c499c7e3",
+                    "name": "Safwan AlModhayan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-10T13:10:31.000Z",
+            "submittedOnDailyAt": "2025-11-12T04:46:28.866Z",
+            "title": "Wasm: A Pipeline for Constructing Structured Arabic Interleaved\n  Multimodal Corpora",
+            "submittedOnDailyBy": {
+                "_id": "65276c7911a8a521c91bc10f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65276c7911a8a521c91bc10f/39dbuUtqQTJERTJ_WkxSh.jpeg",
+                "isPro": false,
+                "fullname": "Khalil Hennara",
+                "user": "Hennara",
+                "type": "user"
+            },
+            "summary": "The performance of large language models (LLMs) and large multimodal models\n(LMMs) depends heavily on the quality and scale of their pre-training datasets.\nRecent research shows that large multimodal models trained on natural documents\nwhere images and text are interleaved outperform those trained only on\nimage-text pairs across a wide range of benchmarks, leveraging advanced pre-\ntrained models to enforce semantic alignment, image-sequence consistency, and\ntextual coherence. For Arabic, however, the lack of high-quality multimodal\ndatasets that preserve document structure has limited progress. In this paper,\nwe present our pipeline Wasm for processing the Common Crawl dataset to create\na new Arabic multimodal dataset that uniquely provides markdown output. Unlike\nexisting Arabic corpora that focus solely on text extraction, our approach\npreserves the structural integrity of web content while maintaining flexibility\nfor both text-only and multimodal pre-training scenarios. We provide a\ncomprehensive comparative analysis of our data processing pipeline against\nthose used for major existing datasets, highlighting the convergences in\nfiltering strategies and justifying our specific design choices. To support\nfuture research, we publicly release a representative dataset dump along with\nthe multimodal processing pipeline for Arabic.",
+            "upvotes": 30,
+            "discussionId": "6912c6cba644ba07c499c7e4",
+            "ai_summary": "A pipeline for processing the Common Crawl dataset to create a new Arabic multimodal dataset that preserves document structure and supports both text-only and multimodal pre-training.",
+            "ai_keywords": [
+                "large language models",
+                "large multimodal models",
+                "pre-training datasets",
+                "natural documents",
+                "semantic alignment",
+                "image-sequence consistency",
+                "textual coherence",
+                "Arabic",
+                "multimodal datasets",
+                "markdown output",
+                "web content",
+                "data processing pipeline",
+                "comparative analysis",
+                "dataset dump"
+            ]
+        },
+        "translation_title": "Wasm: 구조화된 아랍어 인터리브드 다중모달 데이터 세트 구축을 위한 파이프라인",
+        "purpose": "고품질 구조를 가진 아랍어 다중모달 데이터 세트를 구축하여 대규모 언어 모델과 다중모달 모델의 성능 향상",
+        "method": [
+            "Common Crawl 데이터셋을 처리하기 위한 파이프라인 Wasm을 제시함(we present our pipeline Wasm for processing the Common Crawl dataset to create a new Arabic multimodal dataset).",
+            "기존 아랍어 데이터세트와 달리 웹 콘텐츠의 구조적 완전성을 유지하면서 텍스트 전용 및 다중모달 전처리 시나리오에 유연성을 제공함(Unlike existing Arabic corpora that focus solely on text extraction, our approach preserves the structural integrity of web content while maintaining flexibility for both text-only and multimodal pre-training scenarios.).",
+            "데이터 처리 파이프라인의 포괄적인 비교 분석을 수행하고, 기존 데이터세트에 대한 필터링 전략의 유사성을 강조함(We provide a comprehensive comparative analysis of our data processing pipeline against those used for major existing datasets, highlighting the convergences in filtering strategies)."
+        ],
+        "conclusion": "새로운 아랍어 다중모달 데이터 세트를 통해 대규모 언어 모델과 다중모달 모델의 성능을 개선할 수 있으며, 공개 데이터 세트와 파이프라인을 제공하여 향후 연구를 지원함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.05664",
+            "authors": [
+                {
+                    "_id": "6912e1b6a644ba07c499c82d",
+                    "user": {
+                        "_id": "62e167813eb0730f6217c95e",
+                        "avatarUrl": "/avatars/95a18009f725832646643d6169c2bc08.svg",
+                        "isPro": false,
+                        "fullname": "Seo Hyun Kim",
+                        "user": "shkim0116",
+                        "type": "user"
+                    },
+                    "name": "Seo Hyun Kim",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:05.693Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912e1b6a644ba07c499c82e",
+                    "user": {
+                        "_id": "6487cd9d6d93bc7eb47ff207",
+                        "avatarUrl": "/avatars/f0b33fafd3bed5e49fd4f6630be5ddf2.svg",
+                        "isPro": false,
+                        "fullname": "H",
+                        "user": "SunwooHong",
+                        "type": "user"
+                    },
+                    "name": "Sunwoo Hong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-12T12:21:03.709Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912e1b6a644ba07c499c82f",
+                    "name": "Hojung Jung",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912e1b6a644ba07c499c830",
+                    "name": "Youngrok Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "6912e1b6a644ba07c499c831",
+                    "name": "Se-Young Yun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-07T19:05:36.000Z",
+            "submittedOnDailyAt": "2025-11-12T03:18:40.045Z",
+            "title": "KLASS: KL-Guided Fast Inference in Masked Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "62e167813eb0730f6217c95e",
+                "avatarUrl": "/avatars/95a18009f725832646643d6169c2bc08.svg",
+                "isPro": false,
+                "fullname": "Seo Hyun Kim",
+                "user": "shkim0116",
+                "type": "user"
+            },
+            "summary": "Masked diffusion models have demonstrated competitive results on various\ntasks including language generation. However, due to its iterative refinement\nprocess, the inference is often bottlenecked by slow and static sampling speed.\nTo overcome this problem, we introduce `KL-Adaptive Stability Sampling'\n(KLASS), a fast yet effective sampling method that exploits token-level KL\ndivergence to identify stable, high-confidence predictions. By unmasking\nmultiple tokens in each iteration without any additional model training, our\napproach speeds up generation significantly while maintaining sample quality.\nOn reasoning benchmarks, KLASS achieves up to 2.78times wall-clock speedups\nwhile improving performance over standard greedy decoding, attaining\nstate-of-the-art results among diffusion-based samplers. We further validate\nKLASS across diverse domains, including text, image, and molecular generation,\nshowing its effectiveness as a broadly applicable sampler across different\nmodels.",
+            "upvotes": 24,
+            "discussionId": "6912e1b6a644ba07c499c832",
+            "githubRepo": "https://github.com/shkim0116/KLASS",
+            "ai_summary": "KL-Adaptive Stability Sampling (KLASS) accelerates diffusion-based generation by identifying stable predictions, achieving significant speedups and quality improvements across various domains.",
+            "ai_keywords": [
+                "masked diffusion models",
+                "language generation",
+                "KL divergence",
+                "token-level",
+                "sampling speed",
+                "greedy decoding",
+                "text generation",
+                "image generation",
+                "molecular generation"
+            ],
+            "githubStars": 7,
+            "organization": {
+                "_id": "6475760c33192631bad2bb38",
+                "name": "kaist-ai",
+                "fullname": "KAIST AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6469949654873f0043b09c22/aaZFiyXe1qR-Dmy_xq67m.png"
+            }
+        },
+        "translation_title": "KLASS: KL 기반의 Masked Diffusion 모델에서 빠른 추론을 위한 방법",
+        "purpose": "Masked diffusion 모델의 느린 샘플링 속도를 개선하여 빠른 추론을 달성하기 위한 새로운 방법 제안",
+        "method": [
+            "KL-Aaptive Stability Sampling(KLASS)라는 빠르고 효과적인 샘플링 방법을 도입함(We introduce `KL-Adaptive Stability Sampling' (KLASS), a fast yet effective sampling method that exploits token-level KL divergence to identify stable, high-confidence predictions.)",
+            "모델 추가 학습 없이 각 반복에서 여러 토큰을 언마스크하여 생성 속도를 크게 향상시킴(By unmasking multiple tokens in each iteration without any additional model training, our approach speeds up generation significantly while maintaining sample quality.)",
+            "이 방법을 통해 추론 성능을 표준 탐욕적 디코딩보다 향상시킴(On reasoning benchmarks, KLASS achieves up to 2.78 times wall-clock speedups while improving performance over standard greedy decoding.)"
+        ],
+        "conclusion": "KLASS는 다양한 분야에서 효과적인 샘플러로 확인되었으며, 기존의 diffusion 기반 샘플러 중 최첨단 성능을 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    }
+]
