@@ -1,0 +1,588 @@
+[
+    {
+        "paper": {
+            "id": "2511.08892",
+            "authors": [
+                {
+                    "_id": "69154dffa1b06ca3cc81351e",
+                    "name": "Weihao Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc81351f",
+                    "name": "Xiangyang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813520",
+                    "name": "Yunhao Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813521",
+                    "name": "Heyuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813522",
+                    "name": "Shi Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813523",
+                    "name": "Hao Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813524",
+                    "name": "Tenglong Ao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813525",
+                    "name": "Huihui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813526",
+                    "name": "Hongbin Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813527",
+                    "name": "Bairen Yi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813528",
+                    "name": "Yujia Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc813529",
+                    "name": "Bo An",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc81352a",
+                    "name": "Libin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154dffa1b06ca3cc81352b",
+                    "name": "Guang Shi",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/FVxpP05KrXQ1HkQ1G1uNl.mp4"
+            ],
+            "publishedAt": "2025-11-12T02:01:26.000Z",
+            "submittedOnDailyAt": "2025-11-13T00:49:21.639Z",
+            "title": "Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce Lumine, the first open recipe for developing generalist agents capable of completing hours-long complex missions in real time within challenging 3D open-world environments. Lumine adopts a human-like interaction paradigm that unifies perception, reasoning, and action in an end-to-end manner, powered by a vision-language model. It processes raw pixels at 5 Hz to produce precise 30 Hz keyboard-mouse actions and adaptively invokes reasoning only when necessary. Trained in Genshin Impact, Lumine successfully completes the entire five-hour Mondstadt main storyline on par with human-level efficiency and follows natural language instructions to perform a broad spectrum of tasks in both 3D open-world exploration and 2D GUI manipulation across collection, combat, puzzle-solving, and NPC interaction. In addition to its in-domain performance, Lumine demonstrates strong zero-shot cross-game generalization. Without any fine-tuning, it accomplishes 100-minute missions in Wuthering Waves and the full five-hour first chapter of Honkai: Star Rail. These promising results highlight Lumine's effectiveness across distinct worlds and interaction dynamics, marking a concrete step toward generalist agents in open-ended environments.",
+            "upvotes": 73,
+            "discussionId": "69154dffa1b06ca3cc81352c",
+            "projectPage": "https://www.lumine-ai.org/",
+            "ai_summary": "Lumine, a vision-language model-based agent, completes complex missions in real-time across different 3D open-world environments with human-like efficiency and zero-shot cross-game generalization.",
+            "ai_keywords": [
+                "vision-language model",
+                "end-to-end",
+                "real-time",
+                "3D open-world environments",
+                "zero-shot cross-game generalization"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "Lumine: 3D 오픈 월드에서 일반화된 에이전트를 구축하기 위한 공개 레시피",
+        "purpose": "복잡한 임무를 실시간으로 수행할 수 있는 일반화된 에이전트를 개발하기 위한 공개 레시피 제공",
+        "method": [
+            "Lumine은 인간과 유사한 상호작용 방식을 채택하여 인지, 추론 및 행동을 통합적으로 처리함(we introduce Lumine, the first open recipe for developing generalist agents capable of completing hours-long complex missions in real time within challenging 3D open-world environments.)",
+            "Lumine은 5Hz로 원시 픽셀을 처리하여 30Hz의 정밀한 키보드-마우스 행동을 생성함(It processes raw pixels at 5 Hz to produce precise 30 Hz keyboard-mouse actions.)",
+            "Genshin Impact에서 훈련되어 복잡한 스토리라인을 인간 수준의 효율성으로 완료함(Trained in Genshin Impact, Lumine successfully completes the entire five-hour Mondstadt main storyline on par with human-level efficiency.)"
+        ],
+        "conclusion": "Lumine은 다양한 게임 환경에서의 강력한 제로샷 일반화 능력을 보여 주며, 오픈 엔드 환경에서 일반화된 에이전트 개발에 중요한 단계를 나아가게 함.",
+        "keywords": [
+            "3D Vision",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08217",
+            "authors": [
+                {
+                    "_id": "69148856a1b06ca3cc81337f",
+                    "user": {
+                        "_id": "63f46d83cfd7ba6e26f291ff",
+                        "avatarUrl": "/avatars/1c1bdcaa17e00a8ecff6b2e94e9cc4bb.svg",
+                        "isPro": false,
+                        "fullname": "Frank",
+                        "user": "SoloWayG",
+                        "type": "user"
+                    },
+                    "name": "Gleb V. Solovev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-13T13:06:52.809Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813380",
+                    "name": "Alina B. Zhidkovskaya",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813381",
+                    "name": "Anastasia Orlova",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813382",
+                    "name": "Nina Gubina",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813383",
+                    "name": "Anastasia Vepreva",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813384",
+                    "name": "Rodion Golovinskii",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813385",
+                    "name": "Ilya Tonkii",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813386",
+                    "name": "Ivan Dubrovsky",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813387",
+                    "name": "Ivan Gurev",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813388",
+                    "name": "Dmitry Gilemkhanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813389",
+                    "name": "Denis Chistiakov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338a",
+                    "name": "Timur A. Aliev",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338b",
+                    "name": "Ivan Poddiakov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338c",
+                    "name": "Galina Zubkova",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338d",
+                    "name": "Ekaterina V. Skorb",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338e",
+                    "name": "Vladimir Vinogradov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc81338f",
+                    "name": "Alexander Boukhanovsky",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813390",
+                    "name": "Nikolay Nikitin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813391",
+                    "name": "Andrei Dmitrenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813392",
+                    "name": "Anna Kalyuzhnaya",
+                    "hidden": false
+                },
+                {
+                    "_id": "69148856a1b06ca3cc813393",
+                    "name": "Andrey Savchenko",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63f46d83cfd7ba6e26f291ff/M7qC8qH0nCvPNbgVryDQm.png"
+            ],
+            "publishedAt": "2025-11-11T13:20:35.000Z",
+            "submittedOnDailyAt": "2025-11-13T11:30:44.564Z",
+            "title": "MADD: Multi-Agent Drug Discovery Orchestra",
+            "submittedOnDailyBy": {
+                "_id": "63f46d83cfd7ba6e26f291ff",
+                "avatarUrl": "/avatars/1c1bdcaa17e00a8ecff6b2e94e9cc4bb.svg",
+                "isPro": false,
+                "fullname": "Frank",
+                "user": "SoloWayG",
+                "type": "user"
+            },
+            "summary": "Hit identification is a central challenge in early drug discovery, traditionally requiring substantial experimental resources. Recent advances in artificial intelligence, particularly large language models (LLMs), have enabled virtual screening methods that reduce costs and improve efficiency. However, the growing complexity of these tools has limited their accessibility to wet-lab researchers. Multi-agent systems offer a promising solution by combining the interpretability of LLMs with the precision of specialized models and tools. In this work, we present MADD, a multi-agent system that builds and executes customized hit identification pipelines from natural language queries. MADD employs four coordinated agents to handle key subtasks in de novo compound generation and screening. We evaluate MADD across seven drug discovery cases and demonstrate its superior performance compared to existing LLM-based solutions. Using MADD, we pioneer the application of AI-first drug design to five biological targets and release the identified hit molecules. Finally, we introduce a new benchmark of query-molecule pairs and docking scores for over three million compounds to contribute to the agentic future of drug design.",
+            "upvotes": 36,
+            "discussionId": "69148856a1b06ca3cc813394",
+            "githubRepo": "https://github.com/sb-ai-lab/MADD",
+            "ai_summary": "MADD, a multi-agent system, enhances hit identification in drug discovery by integrating LLMs and specialized models, demonstrating superior performance and accessibility.",
+            "ai_keywords": [
+                "large language models",
+                "multi-agent systems",
+                "de novo compound generation",
+                "screening",
+                "AI-first drug design",
+                "benchmark",
+                "docking scores"
+            ],
+            "githubStars": 10,
+            "organization": {
+                "_id": "68cd79aefd75d93a07d50de3",
+                "name": "ITMO-NSS",
+                "fullname": "ITMO NSS lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f46d83cfd7ba6e26f291ff/45ZAjuGNy6TCDQiYNCCR1.png"
+            }
+        },
+        "translation_title": "MADD: 다중 에이전트 약물 발견 오케스트라",
+        "purpose": "약물 발견 과정에서 실험 자원을 줄이고 효율성을 높이기 위한 자동화된 hit identification 시스템 개발",
+        "method": [
+            "자연어 쿼리로부터 맞춤형 hit identification 파이프라인을 구축하고 실행하는 다중 에이전트 시스템 MADD를 제시함(In this work, we present MADD, a multi-agent system that builds and executes customized hit identification pipelines from natural language queries.)",
+            "MADD는 네 개의 협력 에이전트를 사용하여 신규 화합물 생성 및 스크리닝의 주요 하위 작업을 처리함(MADD employs four coordinated agents to handle key subtasks in de novo compound generation and screening.)",
+            "MADD를 통해 기존 LLM 기반 솔루션과 비교하여 우수한 성능을 입증함(We evaluate MADD across seven drug discovery cases and demonstrate its superior performance compared to existing LLM-based solutions.)"
+        ],
+        "conclusion": "MADD를 사용하여 AI 기반 약물 설계를 다섯 가지 생물학적 타겟에 적용하였고, 새로운 hit 분자를 발굴하여 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08633",
+            "authors": [
+                {
+                    "_id": "69154cdaa1b06ca3cc8134e4",
+                    "name": "Assaf Singer",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154cdaa1b06ca3cc8134e5",
+                    "user": {
+                        "_id": "62b3e85bcbd2a402fc7804b1",
+                        "avatarUrl": "/avatars/63125ce8a1e20b8c6e836f223d24284f.svg",
+                        "isPro": false,
+                        "fullname": "noam rotstein",
+                        "user": "noamrot",
+                        "type": "user"
+                    },
+                    "name": "Noam Rotstein",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-13T13:05:49.994Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154cdaa1b06ca3cc8134e6",
+                    "name": "Amir Mann",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154cdaa1b06ca3cc8134e7",
+                    "name": "Ron Kimmel",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154cdaa1b06ca3cc8134e8",
+                    "name": "Or Litany",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/hZidchKEknO4BdFehrNgb.mp4"
+            ],
+            "publishedAt": "2025-11-09T22:47:50.000Z",
+            "submittedOnDailyAt": "2025-11-13T00:43:43.116Z",
+            "title": "Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock Denoising",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Diffusion-based video generation can create realistic videos, yet existing image- and text-based conditioning fails to offer precise motion control. Prior methods for motion-conditioned synthesis typically require model-specific fine-tuning, which is computationally expensive and restrictive. We introduce Time-to-Move (TTM), a training-free, plug-and-play framework for motion- and appearance-controlled video generation with image-to-video (I2V) diffusion models. Our key insight is to use crude reference animations obtained through user-friendly manipulations such as cut-and-drag or depth-based reprojection. Motivated by SDEdit's use of coarse layout cues for image editing, we treat the crude animations as coarse motion cues and adapt the mechanism to the video domain. We preserve appearance with image conditioning and introduce dual-clock denoising, a region-dependent strategy that enforces strong alignment in motion-specified regions while allowing flexibility elsewhere, balancing fidelity to user intent with natural dynamics. This lightweight modification of the sampling process incurs no additional training or runtime cost and is compatible with any backbone. Extensive experiments on object and camera motion benchmarks show that TTM matches or exceeds existing training-based baselines in realism and motion control. Beyond this, TTM introduces a unique capability: precise appearance control through pixel-level conditioning, exceeding the limits of text-only prompting. Visit our project page for video examples and code: https://time-to-move.github.io/.",
+            "upvotes": 34,
+            "discussionId": "69154cdaa1b06ca3cc8134e9",
+            "projectPage": "https://time-to-move.github.io/",
+            "githubRepo": "https://github.com/time-to-move/TTM",
+            "ai_summary": "Time-to-Move (TTM) is a training-free framework for motion- and appearance-controlled video generation using image-to-video diffusion models, offering precise motion and appearance control without additional training costs.",
+            "ai_keywords": [
+                "diffusion-based video generation",
+                "image-to-video diffusion models",
+                "motion-conditioned synthesis",
+                "model-specific fine-tuning",
+                "Time-to-Move (TTM)",
+                "crude reference animations",
+                "cut-and-drag",
+                "depth-based reprojection",
+                "coarse motion cues",
+                "image conditioning",
+                "dual-clock denoising",
+                "region-dependent strategy",
+                "pixel-level conditioning"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "Time-to-Move: 훈련 없이 모션 제어 비디오 생성을 위한 이중 시계 제거",
+        "purpose": "정확한 모션 제어가 가능한 비디오 생성을 위해 훈련이 필요 없는 프레임워크 개발",
+        "method": [
+            "사용자가 쉽게 조작할 수 있는 Reference 애니메이션을 생성하여 모션 제어를 위한 기초적인 신호로 활용함(Our key insight is to use crude reference animations obtained through user-friendly manipulations such as cut-and-drag or depth-based reprojection.)",
+            "이미지 조정을 통해 외형을 유지하고, 이중 시계 제거(Dual-Clock Denoising) 방법을 도입하여 모션 특정 영역의 정밀한 정렬을 달성함(We preserve appearance with image conditioning and introduce dual-clock denoising, a region-dependent strategy that enforces strong alignment in motion-specified regions.)",
+            "샘플링 과정의 경량 수정으로 추가적인 훈련이나 런타임 비용을 발생시키지 않음(This lightweight modification of the sampling process incurs no additional training or runtime cost.)"
+        ],
+        "conclusion": "TTM은 현실성과 모션 제어에서 기존 훈련 기반 기준을 초과하거나 동등한 성과를 이룬다.",
+        "keywords": [
+            "Video Generation",
+            "Motion Control",
+            "Image Conditioning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08923",
+            "authors": [
+                {
+                    "_id": "69154d4ba1b06ca3cc813501",
+                    "user": {
+                        "_id": "6278fbf13503c4f835c7ff70",
+                        "avatarUrl": "/avatars/e19960973132ccb0fc0b60a76328b5d8.svg",
+                        "isPro": false,
+                        "fullname": "Jingyu Liu",
+                        "user": "Jingyu6",
+                        "type": "user"
+                    },
+                    "name": "Jingyu Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-13T13:05:42.885Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813502",
+                    "name": "Xin Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813503",
+                    "name": "Zhifan Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813504",
+                    "name": "Rishabh Mehta",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813505",
+                    "name": "Yonggan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813506",
+                    "name": "Vartika Singh",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813507",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813508",
+                    "name": "Ce Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69154d4ba1b06ca3cc813509",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-12T02:59:33.000Z",
+            "submittedOnDailyAt": "2025-11-13T00:45:40.619Z",
+            "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Diffusion language models hold the promise of fast parallel generation, while autoregressive (AR) models typically excel in quality due to their causal structure aligning naturally with language modeling. This raises a fundamental question: can we achieve a synergy with high throughput, higher GPU utilization, and AR level quality? Existing methods fail to effectively balance these two aspects, either prioritizing AR using a weaker model for sequential drafting (speculative decoding), leading to lower drafting efficiency, or using some form of left-to-right (AR-like) decoding logic for diffusion, which still suffers from quality degradation and forfeits its potential parallelizability. We introduce TiDAR, a sequence-level hybrid architecture that drafts tokens (Thinking) in Diffusion and samples final outputs (Talking) AutoRegressively - all within a single forward pass using specially designed structured attention masks. This design exploits the free GPU compute density, achieving a strong balance between drafting and verification capacity. Moreover, TiDAR is designed to be serving-friendly (low overhead) as a standalone model. We extensively evaluate TiDAR against AR models, speculative decoding, and diffusion variants across generative and likelihood tasks at 1.5B and 8B scales. Thanks to the parallel drafting and sampling as well as exact KV cache support, TiDAR outperforms speculative decoding in measured throughput and surpasses diffusion models like Dream and Llada in both efficiency and quality. Most notably, TiDAR is the first architecture to close the quality gap with AR models while delivering 4.71x to 5.91x more tokens per second.",
+            "upvotes": 25,
+            "discussionId": "69154d4ba1b06ca3cc81350a",
+            "ai_summary": "TiDAR, a hybrid diffusion-autoregressive model, achieves high throughput and quality by drafting tokens with diffusion and sampling outputs autoregressively within a single forward pass.",
+            "ai_keywords": [
+                "diffusion language models",
+                "autoregressive models",
+                "speculative decoding",
+                "left-to-right decoding",
+                "TiDAR",
+                "sequence-level hybrid architecture",
+                "structured attention masks",
+                "GPU compute density",
+                "KV cache support",
+                "Dream",
+                "Llada"
+            ],
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "TiDAR: 확산에서 생각하고, 자기회귀에서 말하다",
+        "purpose": "고속 병렬 생성과 높은 품질을 동시에 달성하기 위해 확산 모델과 자기회귀 모델의 시너지를 연구",
+        "method": [
+            "TiDAR라는 하이브리드 아키텍처를 소개하고, 확산 모델에서 토큰을 생성(Thinking)하고 최종 출력을 자기회귀적으로 샘플링(Talking)함(We introduce TiDAR, a sequence-level hybrid architecture that drafts tokens (Thinking) in Diffusion and samples final outputs (Talking) AutoRegressively)",
+            "특별히 설계된 구조적 주의 마스크를 사용하여 단일 포워드 패스 내에서 실행함(all within a single forward pass using specially designed structured attention masks)",
+            "고속 처리를 위해 GPU 자원을 최적화하고, 서버 친화적으로 설계함(TiDAR is designed to be serving-friendly (low overhead) as a standalone model)"
+        ],
+        "conclusion": "TiDAR는 자기회귀 모델과의 품질 격차를 줄이며, 초당 4.71배에서 5.91배 더 많은 토큰을 생성하는 뛰어난 성과를 달성함",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.09148",
+            "authors": [
+                {
+                    "_id": "691555e2a1b06ca3cc813576",
+                    "name": "Kangning Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc813577",
+                    "name": "Wenxiang Jiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc813578",
+                    "name": "Kounianhua Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc813579",
+                    "name": "Yuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc81357a",
+                    "name": "Weiwen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc81357b",
+                    "name": "Weinan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc81357c",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691555e2a1b06ca3cc81357d",
+                    "name": "Yong Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-12T09:34:39.000Z",
+            "submittedOnDailyAt": "2025-11-13T01:33:44.409Z",
+            "title": "LoopTool: Closing the Data-Training Loop for Robust LLM Tool Calls",
+            "submittedOnDailyBy": {
+                "_id": "63b6def76fca9d2a1902fa14",
+                "avatarUrl": "/avatars/c7f2487450ea954e2bca4fc5a6db8eb3.svg",
+                "isPro": false,
+                "fullname": "张康宁",
+                "user": "zhuiguang-ning",
+                "type": "user"
+            },
+            "summary": "Augmenting Large Language Models (LLMs) with external tools enables them to execute complex, multi-step tasks. However, tool learning is hampered by the static synthetic data pipelines where data generation and model training are executed as two separate, non-interactive processes. This approach fails to adaptively focus on a model's specific weaknesses and allows noisy labels to persist, degrading training efficiency. We introduce LoopTool, a fully automated, model-aware data evolution framework that closes this loop by tightly integrating data synthesis and model training. LoopTool iteratively refines both the data and the model through three synergistic modules: (1) Greedy Capability Probing (GCP) diagnoses the model's mastered and failed capabilities; (2) Judgement-Guided Label Verification (JGLV) uses an open-source judge model to find and correct annotation errors, progressively purifying the dataset; and (3) Error-Driven Data Expansion (EDDE) generates new, challenging samples based on identified failures. This closed-loop process operates within a cost-effective, open-source ecosystem, eliminating dependence on expensive closed-source APIs. Experiments show that our 8B model trained with LoopTool significantly surpasses its 32B data generator and achieves new state-of-the-art results on the BFCL-v3 and ACEBench benchmarks for its scale. Our work demonstrates that closed-loop, self-refining data pipelines can dramatically enhance the tool-use capabilities of LLMs.",
+            "upvotes": 9,
+            "discussionId": "691555e2a1b06ca3cc81357e",
+            "githubRepo": "https://github.com/Rednote-ExperienceAI-Lab/LoopTool",
+            "ai_summary": "LoopTool, an automated data evolution framework, enhances LLMs by iteratively refining data and models, leading to improved tool-use capabilities and state-of-the-art performance.",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "tool learning",
+                "data synthesis",
+                "model training",
+                "Greedy Capability Probing (GCP)",
+                "Judgement-Guided Label Verification (JGLV)",
+                "Error-Driven Data Expansion (EDDE)",
+                "BFCL-v3",
+                "ACEBench"
+            ],
+            "githubStars": 1,
+            "organization": {
+                "_id": "63e5ef7bf2e9a8f22c515654",
+                "name": "SJTU",
+                "fullname": "Shanghai Jiao Tong University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+            }
+        },
+        "translation_title": "LoopTool: 강력한 LLM 도구 호출을 위한 데이터-훈련 루프 마감",
+        "purpose": "LLM의 툴 사용 능력을 강화하기 위해 데이터와 모델 훈련을 통합하는 방법 연구",
+        "method": [
+            "LoopTool은 데이터 합성과 모델 훈련을 긴밀하게 통합한 자동화된 데이터 진화 프레임워크임(We introduce LoopTool, a fully automated, model-aware data evolution framework that closes this loop by tightly integrating data synthesis and model training.)",
+            "세 가지 시너지 모듈을 통해 데이터와 모델을 반복적으로 개선함(Greedy Capability Probing (GCP) diagnoses the model's mastered and failed capabilities; Judgement-Guided Label Verification (JGLV) uses an open-source judge model to find and correct annotation errors, progressively purifying the dataset; and Error-Driven Data Expansion (EDDE) generates new, challenging samples based on identified failures.)",
+            "비용 효율적인 오픈소스 생태계 내에서 운영됨(This closed-loop process operates within a cost-effective, open-source ecosystem.)"
+        ],
+        "conclusion": "LoopTool을 사용해 훈련한 8B 모델이 32B 데이터 생성기를 압도하며 새로운 최첨단 성과를 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
