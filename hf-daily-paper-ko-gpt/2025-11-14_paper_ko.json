@@ -1,0 +1,521 @@
+[
+    {
+        "paper": {
+            "id": "2511.08521",
+            "authors": [
+                {
+                    "_id": "691708afb63bfc66e04987ca",
+                    "user": {
+                        "_id": "642d26c4c5f19fe0da07284a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/xJwh9iTDJcHLxaRT0t8OV.png",
+                        "isPro": false,
+                        "fullname": "Zhengyang Liang",
+                        "user": "chr1ce",
+                        "type": "user"
+                    },
+                    "name": "Zhengyang Liang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-14T14:22:03.942Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987cb",
+                    "name": "Daoan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987cc",
+                    "name": "Huichi Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987cd",
+                    "name": "Rui Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987ce",
+                    "name": "Bobo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987cf",
+                    "name": "Yuechen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987d0",
+                    "name": "Shengqiong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987d1",
+                    "name": "Xiaohan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987d2",
+                    "name": "Jiebo Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987d3",
+                    "name": "Lizi Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708afb63bfc66e04987d4",
+                    "user": {
+                        "_id": "647773a1168cb428e00e9a8f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647773a1168cb428e00e9a8f/NiRR3ScY6Plzjibfwy1hC.jpeg",
+                        "isPro": false,
+                        "fullname": "Hao Fei",
+                        "user": "scofield7419",
+                        "type": "user"
+                    },
+                    "name": "Hao Fei",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-14T14:22:06.106Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/87spQgoG8jmSzQqzVR09j.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/RDvGE1r3gWhsd0fFgt-kp.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/6NmH0FkOgnIpuk20Sfny5.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/oVgbiR5oxZ3lAi7hal44z.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/i3EAUVF0RRLChjwixQ4tN.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/647773a1168cb428e00e9a8f/530GBdoT6mls8JDJOsefD.png"
+            ],
+            "publishedAt": "2025-11-11T17:58:13.000Z",
+            "submittedOnDailyAt": "2025-11-14T08:20:20.734Z",
+            "title": "UniVA: Universal Video Agent towards Open-Source Next-Generation Video Generalist",
+            "submittedOnDailyBy": {
+                "_id": "647773a1168cb428e00e9a8f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/647773a1168cb428e00e9a8f/NiRR3ScY6Plzjibfwy1hC.jpeg",
+                "isPro": false,
+                "fullname": "Hao Fei",
+                "user": "scofield7419",
+                "type": "user"
+            },
+            "summary": "While specialized AI models excel at isolated video tasks like generation or understanding, real-world applications demand complex, iterative workflows that combine these capabilities. To bridge this gap, we introduce UniVA, an open-source, omni-capable multi-agent framework for next-generation video generalists that unifies video understanding, segmentation, editing, and generation into cohesive workflows. UniVA employs a Plan-and-Act dual-agent architecture that drives a highly automated and proactive workflow: a planner agent interprets user intentions and decomposes them into structured video-processing steps, while executor agents execute these through modular, MCP-based tool servers (for analysis, generation, editing, tracking, etc.). Through a hierarchical multi-level memory (global knowledge, task context, and user-specific preferences), UniVA sustains long-horizon reasoning, contextual continuity, and inter-agent communication, enabling interactive and self-reflective video creation with full traceability. This design enables iterative and any-conditioned video workflows (e.g., text/image/video-conditioned generation rightarrow multi-round editing rightarrow object segmentation rightarrow compositional synthesis) that were previously cumbersome to achieve with single-purpose models or monolithic video-language models. We also introduce UniVA-Bench, a benchmark suite of multi-step video tasks spanning understanding, editing, segmentation, and generation, to rigorously evaluate such agentic video systems. Both UniVA and UniVA-Bench are fully open-sourced, aiming to catalyze research on interactive, agentic, and general-purpose video intelligence for the next generation of multimodal AI systems. (https://univa.online/)",
+            "upvotes": 18,
+            "discussionId": "691708afb63bfc66e04987e0",
+            "projectPage": "https://univa.online/",
+            "githubRepo": "https://github.com/univa-agent/univa",
+            "ai_summary": "UniVA is an open-source multi-agent framework that integrates video understanding, segmentation, editing, and generation into cohesive workflows using a Plan-and-Act architecture and hierarchical memory.",
+            "ai_keywords": [
+                "UniVA",
+                "multi-agent framework",
+                "Plan-and-Act",
+                "planner agent",
+                "executor agents",
+                "MCP-based tool servers",
+                "hierarchical multi-level memory",
+                "long-horizon reasoning",
+                "contextual continuity",
+                "inter-agent communication",
+                "UniVA-Bench",
+                "multi-step video tasks"
+            ],
+            "githubStars": 5,
+            "organization": {
+                "_id": "690b4d26463a29d7e84f9e19",
+                "name": "UniVA-Agent",
+                "fullname": "UniVA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/642d26c4c5f19fe0da07284a/qBXCIO24-uc55pVzDH-Yv.png"
+            }
+        },
+        "translation_title": "UniVA: 오픈 소스 차세대 비디오 일반화를 위한 범용 비디오 에이전트",
+        "purpose": "비디오 생성과 이해 같은 개별적인 AI 모델의 한계를 극복하고, 복합적이고 반복적인 작업 흐름을 지원하는 범용 비디오 에이전트 개발",
+        "method": [
+            "비디오 이해, 분할, 편집 및 생성을 통합한 오픈 소스 다중 에이전트 프레임워크인 UniVA를 소개함(we introduce UniVA, an open-source, omni-capable multi-agent framework for next-generation video generalists that unifies video understanding, segmentation, editing, and generation into cohesive workflows.)",
+            "사용자의 의도를 해석하고 이를 구조화된 비디오 처리 단계로 나누는 플래너 에이전트와 이 단계를 실행하는 실행자 에이전트로 구성된 이중 에이전트 아키텍처를 채택함(UniVA employs a Plan-and-Act dual-agent architecture that drives a highly automated and proactive workflow: a planner agent interprets user intentions and decomposes them into structured video-processing steps, while executor agents execute these through modular, MCP-based tool servers.)",
+            "계층적 다중 레벨 메모리를 통해 장기적 추론, 문맥적 연속성 및 에이전트 간 의사 소통을 지원함(Through a hierarchical multi-level memory, UniVA sustains long-horizon reasoning, contextual continuity, and inter-agent communication, enabling interactive and self-reflective video creation with full traceability.)"
+        ],
+        "conclusion": "UniVA는 반복적인 비디오 작업 흐름을 지원하며, 비디오 생성 및 편집의 효율성을 높이는 데 기여함.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.10643",
+            "authors": [
+                {
+                    "_id": "691708aab63bfc66e0498796",
+                    "name": "Tianzhu Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e0498797",
+                    "user": {
+                        "_id": "5df85abada6d0311fd3d5408",
+                        "avatarUrl": "/avatars/2331cf703c1b5d3a62e2050b1a6eb108.svg",
+                        "isPro": false,
+                        "fullname": "Li Dong",
+                        "user": "unilm",
+                        "type": "user"
+                    },
+                    "name": "Li Dong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-14T14:22:15.496Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e0498798",
+                    "name": "Zewen Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e0498799",
+                    "name": "Xun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e049879a",
+                    "name": "Shaohan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e049879b",
+                    "name": "Furu Wei",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64ac0605091ff88865352b44/PMTyQps-TkEKvIpSRJ22H.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/64ac0605091ff88865352b44/NlW6JrLeKZMxjyZhJrx2d.png"
+            ],
+            "publishedAt": "2025-11-13T18:58:37.000Z",
+            "submittedOnDailyAt": "2025-11-14T08:37:12.638Z",
+            "title": "Black-Box On-Policy Distillation of Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "64ac0605091ff88865352b44",
+                "avatarUrl": "/avatars/c28acb08a1fdeab899afd1961d3dd94a.svg",
+                "isPro": false,
+                "fullname": "ytz",
+                "user": "ytz20",
+                "type": "user"
+            },
+            "summary": "Black-box distillation creates student large language models (LLMs) by learning from a proprietary teacher model's text outputs alone, without access to its internal logits or parameters. In this work, we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation. GAD frames the student LLM as a generator and trains a discriminator to distinguish its responses from the teacher LLM's, creating a minimax game. The discriminator acts as an on-policy reward model that co-evolves with the student, providing stable, adaptive feedback. Experimental results show that GAD consistently surpasses the commonly used sequence-level knowledge distillation. In particular, Qwen2.5-14B-Instruct (student) trained with GAD becomes comparable to its teacher, GPT-5-Chat, on the LMSYS-Chat automatic evaluation. The results establish GAD as a promising and effective paradigm for black-box LLM distillation.",
+            "upvotes": 14,
+            "discussionId": "691708aab63bfc66e049879c",
+            "projectPage": "https://aka.ms/GAD-project",
+            "githubRepo": "https://github.com/microsoft/LMOps/tree/main/gad",
+            "ai_summary": "Generative Adversarial Distillation (GAD) enhances black-box distillation by framing the student model as a generator and using a discriminator to provide adaptive feedback, surpassing traditional sequence-level knowledge distillation.",
+            "ai_keywords": [
+                "black-box distillation",
+                "large language models (LLMs)",
+                "Generative Adversarial Distillation (GAD)",
+                "generator",
+                "discriminator",
+                "minimax game",
+                "on-policy reward model",
+                "sequence-level knowledge distillation",
+                "LMSYS-Chat automatic evaluation"
+            ],
+            "githubStars": 4170,
+            "organization": {
+                "_id": "68151d0f51add3813f3f7d1b",
+                "name": "MicrosoftResearch",
+                "fullname": "Microsoft Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+            }
+        },
+        "translation_title": "대규모 언어 모델의 블랙박스 온-정책 증류",
+        "purpose": "비공식 교사 모델의 텍스트 출력을 통해 학생 대규모 언어 모델을 학습하기 위한 새로운 방법 연구",
+        "method": [
+            "Generative Adversarial Distillation (GAD) 방법을 도입하여 블랙박스 증류 및 온-정책 증류를 가능하게 함(we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation.)",
+            "학생 LLM을 생성기로 설정하고, 교사 LLM의 응답과 구별할 수 있는 판별기를 훈련함(GAD frames the student LLM as a generator and trains a discriminator to distinguish its responses from the teacher LLM's.)",
+            "판별기가 온-정책 보상 모델로 작용하며 학생과 함께 발전하도록 함(The discriminator acts as an on-policy reward model that co-evolves with the student.)"
+        ],
+        "conclusion": "GAD는 기존의 지식 증류 방법보다 우수한 성능을 보이며, Qwen2.5-14B-Instruct 모델이 GPT-5-Chat 교사 모델과 유사한 성능에 도달함을 확인하였음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.10647",
+            "authors": [
+                {
+                    "_id": "6916d5069a1d7af6ca2f01d5",
+                    "name": "Haotong Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01d6",
+                    "name": "Sili Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01d7",
+                    "name": "Junhao Liew",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01d8",
+                    "name": "Donny Y. Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01d9",
+                    "name": "Zhenyu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01da",
+                    "name": "Guang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01db",
+                    "name": "Jiashi Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6916d5069a1d7af6ca2f01dc",
+                    "name": "Bingyi Kang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-13T18:59:53.000Z",
+            "submittedOnDailyAt": "2025-11-14T06:16:02.269Z",
+            "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+            "submittedOnDailyBy": {
+                "_id": "63a369d98c0c89dcae3b8329",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63a369d98c0c89dcae3b8329/AiH2zjy1cnt9OADAAZMLD.jpeg",
+                "isPro": true,
+                "fullname": "Adina Yakefu",
+                "user": "AdinaY",
+                "type": "user"
+            },
+            "summary": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates the need for complex multi-task learning. Through our teacher-student training paradigm, the model achieves a level of detail and generalization on par with Depth Anything 2 (DA2). We establish a new visual geometry benchmark covering camera pose estimation, any-view geometry and visual rendering. On this benchmark, DA3 sets a new state-of-the-art across all tasks, surpassing prior SOTA VGGT by an average of 44.3% in camera pose accuracy and 25.1% in geometric accuracy. Moreover, it outperforms DA2 in monocular depth estimation. All models are trained exclusively on public academic datasets.",
+            "upvotes": 7,
+            "discussionId": "6916d5069a1d7af6ca2f01dd",
+            "projectPage": "https://depth-anything-3.github.io/",
+            "githubRepo": "https://github.com/ByteDance-Seed/depth-anything-3",
+            "ai_summary": "Depth Anything 3 (DA3) uses a plain transformer for geometry prediction from visual inputs, achieving state-of-the-art results in camera pose estimation, any-view geometry, visual rendering, and monocular depth estimation.",
+            "ai_keywords": [
+                "plain transformer",
+                "vanilla DINO encoder",
+                "depth-ray prediction",
+                "teacher-student training paradigm",
+                "visual geometry benchmark",
+                "camera pose estimation",
+                "any-view geometry",
+                "visual rendering",
+                "monocular depth estimation",
+                "state-of-the-art (SOTA)",
+                "VGGT"
+            ],
+            "githubStars": 310,
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "Depth Anything 3: 모든 관점에서 시각적 공간 복원하기",
+        "purpose": "임의의 수의 시각적 입력으로부터 공간적으로 일관된 기하학을 예측하기 위한 모델 개발",
+        "method": [
+            "단순한 plain transformer(예: vanilla DINO encoder)를 벡본으로 사용하여 건축적 특수화 없이도 충분함을 보임(In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization.)",
+            "단일 깊이-광선(depth-ray) 예측 대상을 설정하여 복잡한 다중 작업 학습이 필요 없도록 함(a singular depth-ray prediction target obviates the need for complex multi-task learning.)",
+            "교사-학생 트레이닝 패러다임을 통해 모델을 훈련하여 Depth Anything 2(DA2)와 동등한 세부사항과 일반화를 달성함(Through our teacher-student training paradigm, the model achieves a level of detail and generalization on par with Depth Anything 2 (DA2).)"
+        ],
+        "conclusion": "DA3는 모든 작업에서 새로운 최첨단 성능을 세팅하였고, 카메라 포즈 정확도에서 평균 44.3% 및 기하학적 정확도에서 25.1% 향상됨.",
+        "keywords": [
+            "3D Vision",
+            "Camera Pose Estimation",
+            "Visual Rendering"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.10629",
+            "authors": [
+                {
+                    "_id": "691708aab63bfc66e049879e",
+                    "user": {
+                        "_id": "64bfced7dd71b24b9626a949",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bfced7dd71b24b9626a949/tNvOP44A3hPRu--Y-04Xn.png",
+                        "isPro": false,
+                        "fullname": "Aleksandr Razin",
+                        "user": "RazinAleks",
+                        "type": "user"
+                    },
+                    "name": "Aleksandr Razin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-14T14:22:11.716Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e049879f",
+                    "user": {
+                        "_id": "628e38f1c64b0daa908e8709",
+                        "avatarUrl": "/avatars/00ccf0b0286c931532dd720013d95f37.svg",
+                        "isPro": false,
+                        "fullname": "Danil Kazancev",
+                        "user": "vaskers5",
+                        "type": "user"
+                    },
+                    "name": "Danil Kazantsev",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-14T14:22:08.073Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691708aab63bfc66e04987a0",
+                    "name": "Ilya Makarov",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64bfced7dd71b24b9626a949/5XomVDoz3P--HeR-uZ9IJ.png"
+            ],
+            "publishedAt": "2025-11-13T18:54:18.000Z",
+            "submittedOnDailyAt": "2025-11-14T11:57:59.881Z",
+            "title": "One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "64bfced7dd71b24b9626a949",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bfced7dd71b24b9626a949/tNvOP44A3hPRu--Y-04Xn.png",
+                "isPro": false,
+                "fullname": "Aleksandr Razin",
+                "user": "RazinAleks",
+                "type": "user"
+            },
+            "summary": "Diffusion models struggle to scale beyond their training resolutions, as direct high-resolution sampling is slow and costly, while post-hoc image super-resolution (ISR) introduces artifacts and additional latency by operating after decoding. We present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE decoding step. LUA integrates as a drop-in component, requiring no modifications to the base model or additional diffusion stages, and enables high-resolution synthesis through a single feed-forward pass in latent space. A shared Swin-style backbone with scale-specific pixel-shuffle heads supports 2x and 4x factors and remains compatible with image-space SR baselines, achieving comparable perceptual quality with nearly 3x lower decoding and upscaling time (adding only +0.42 s for 1024 px generation from 512 px, compared to 1.87 s for pixel-space SR using the same SwinIR architecture). Furthermore, LUA shows strong generalization across the latent spaces of different VAEs, making it easy to deploy without retraining from scratch for each new decoder. Extensive experiments demonstrate that LUA closely matches the fidelity of native high-resolution generation while offering a practical and efficient path to scalable, high-fidelity image synthesis in modern diffusion pipelines.",
+            "upvotes": 7,
+            "discussionId": "691708aab63bfc66e04987a1",
+            "ai_summary": "LUA is a lightweight module that performs super-resolution directly in the latent space of diffusion models, improving efficiency without compromising image quality.",
+            "ai_keywords": [
+                "diffusion models",
+                "latent code",
+                "VAE decoding",
+                "Swin-style backbone",
+                "pixel-shuffle heads",
+                "image-space SR",
+                "SwinIR architecture",
+                "perceptual quality",
+                "decoding and upscaling time",
+                "latent spaces",
+                "VAEs",
+                "high-resolution generation",
+                "scalable",
+                "high-fidelity image synthesis"
+            ]
+        },
+        "translation_title": "잠재 공간에서의 작은 한 걸음, 픽셀을 위한 거대한 도약: 빠른 잠재 업스케일 어댑터를 위한 확산 모델",
+        "purpose": "확산 모델의 고해상도 이미지 생성을 빠르고 효율적으로 개선하기 위한 방법 제시",
+        "method": [
+            "Latent Upscaler Adapter(LUA)라는 경량 모듈을 도입하여 생성자의 잠재 코드에서 직접 슈퍼 해상도를 수행함(we present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE decoding step.)",
+            "기존 모델에 변경 없이 통합되도록 설계되어 단일 피드 포워드 패스를 통해 고해상도 합성을 가능하게 함(LUA integrates as a drop-in component, requiring no modifications to the base model or additional diffusion stages, and enables high-resolution synthesis through a single feed-forward pass in latent space.)",
+            "Swin 스타일 백본을 사용하여 2배 및 4배 스케일에 맞게 설계되었고, 이미지 공간의 SR 기준과 호환되며, 거의 3배 낮은 디코딩 및 업스케일링 시간을 달성함(a shared Swin-style backbone with scale-specific pixel-shuffle heads supports 2x and 4x factors and remains compatible with image-space SR baselines, achieving comparable perceptual quality with nearly 3x lower decoding and upscaling time.)"
+        ],
+        "conclusion": "LUA는 고해상도 생성을 위한 효율적이고 실용적인 경로를 제공하며, 다양한 VAE의 잠재 공간에서 강력한 일반화 능력을 보여주어 재학습 없이 쉽게 배포할 수 있음.",
+        "keywords": [
+            "Image Generation",
+            "Image Super-Resolution",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.01918",
+            "authors": [
+                {
+                    "_id": "690ae7b8d70e173c8452907b",
+                    "user": {
+                        "_id": "66a607f8d187b6539c2be8df",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a607f8d187b6539c2be8df/GHM23ueGwH9pjSXPjK6We.png",
+                        "isPro": false,
+                        "fullname": "Ahmet Erdem Pamuk",
+                        "user": "ahmeterdempmk",
+                        "type": "user"
+                    },
+                    "name": "Ahmet Erdem Pamuk",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-10T09:32:19.680Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae7b8d70e173c8452907c",
+                    "user": {
+                        "_id": "65f6b3223a0e5e2d20c0bc7e",
+                        "avatarUrl": "/avatars/f21307e39bdddf0c94464db970586541.svg",
+                        "isPro": false,
+                        "fullname": "Emir Kaan Özdemir",
+                        "user": "emirkaanozdemr",
+                        "type": "user"
+                    },
+                    "name": "Emir Kaan Özdemir",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-10T21:03:17.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "690ae7b8d70e173c8452907d",
+                    "user": {
+                        "_id": "668c299c95a7493f14fe3bcc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/nMuuypcbWFQcDD5xNo4Zt.jpeg",
+                        "isPro": true,
+                        "fullname": "Şuayp Talha Kocabay",
+                        "user": "suayptalha",
+                        "type": "user"
+                    },
+                    "name": "Şuayp Talha Kocabay",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-05T16:24:26.781Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-01T16:37:55.000Z",
+            "submittedOnDailyAt": "2025-11-14T10:08:44.216Z",
+            "title": "Superpositional Gradient Descent: Harnessing Quantum Principles for\n  Model Training",
+            "submittedOnDailyBy": {
+                "_id": "668c299c95a7493f14fe3bcc",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/nMuuypcbWFQcDD5xNo4Zt.jpeg",
+                "isPro": true,
+                "fullname": "Şuayp Talha Kocabay",
+                "user": "suayptalha",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) are increasingly trained with classical\noptimization techniques like AdamW to improve convergence and generalization.\nHowever, the mechanisms by which quantum-inspired methods enhance classical\ntraining remain underexplored. We introduce Superpositional Gradient Descent\n(SGD), a novel optimizer linking gradient updates with quantum superposition by\ninjecting quantum circuit perturbations. We present a mathematical framework\nand implement hybrid quantum-classical circuits in PyTorch and Qiskit. On\nsynthetic sequence classification and large-scale LLM fine-tuning, SGD\nconverges faster and yields lower final loss than AdamW. Despite promising\nresults, scalability and hardware constraints limit adoption. Overall, this\nwork provides new insights into the intersection of quantum computing and deep\nlearning, suggesting practical pathways for leveraging quantum principles to\ncontrol and enhance model behavior.",
+            "upvotes": 7,
+            "discussionId": "690ae7b9d70e173c8452907e",
+            "githubRepo": "https://github.com/The-Aqua-Labs/Superpositional-Gradient-Descent",
+            "ai_summary": "Superpositional Gradient Descent, a quantum-inspired optimizer, improves convergence and reduces final loss in large language model training compared to AdamW.",
+            "ai_keywords": [
+                "Superpositional Gradient Descent",
+                "SGD",
+                "quantum superposition",
+                "quantum circuit perturbations",
+                "hybrid quantum-classical circuits",
+                "PyTorch",
+                "Qiskit",
+                "sequence classification",
+                "large-scale LLM fine-tuning"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "Superpositional Gradient Descent: 모델 훈련을 위한 양자 원리 활용",
+        "purpose": "양자 원리를 활용하여 모델 훈련을 향상시키기 위한 새로운 최적화 방법 제안",
+        "method": [
+            "양자 회로의 변동을 주입하여 그라디언트 업데이트와 양자 중첩을 연결하는 Superpositional Gradient Descent(SGD) 최적화 기법을 소개함.(We introduce Superpositional Gradient Descent (SGD), a novel optimizer linking gradient updates with quantum superposition by injecting quantum circuit perturbations.)",
+            "PyTorch와 Qiskit에서 하이브리드 양자-고전 회로를 구현함.(We present a mathematical framework and implement hybrid quantum-classical circuits in PyTorch and Qiskit.)",
+            "합성 시퀀스 분류 및 대규모 LLM 미세 조정 작업에서 SGD가 AdamW보다 빠른 수렴과 더 낮은 최종 손실을 검증함.(On synthetic sequence classification and large-scale LLM fine-tuning, SGD converges faster and yields lower final loss than AdamW.)"
+        ],
+        "conclusion": "이 연구는 양자 컴퓨팅과 딥러닝의 교차점에 대한 새로운 통찰을 제공하며, 양자 원리를 활용해 모델의 성능을 개선할 수 있는 실용적인 경로를 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
