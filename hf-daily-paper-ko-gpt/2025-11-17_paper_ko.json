@@ -1,0 +1,552 @@
+[
+    {
+        "paper": {
+            "id": "2511.09146",
+            "authors": [
+                {
+                    "_id": "6917090db63bfc66e049897a",
+                    "name": "Jing Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897b",
+                    "name": "Liyang Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897c",
+                    "name": "Hui Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897d",
+                    "name": "Zunhai Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897e",
+                    "name": "Min Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e049897f",
+                    "name": "Lingpeng Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6917090db63bfc66e0498980",
+                    "name": "Ngai Wong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-12T09:32:35.000Z",
+            "submittedOnDailyAt": "2025-11-17T04:37:56.746Z",
+            "title": "DoPE: Denoising Rotary Position Embedding",
+            "submittedOnDailyBy": {
+                "_id": "60851545a5da133ac6c38686",
+                "avatarUrl": "/avatars/d385fcc513acef80a3b711aa92d898e5.svg",
+                "isPro": false,
+                "fullname": "Jing Xiong",
+                "user": "menik1126",
+                "type": "user"
+            },
+            "summary": "Rotary Position Embedding (RoPE) in Transformer models has inherent limits that weaken length extrapolation. We reinterpret the attention map with positional encoding as a noisy feature map, and propose Denoising Positional Encoding (DoPE), a training-free method based on truncated matrix entropy to detect outlier frequency bands in the feature map. Leveraging the noise characteristics of the feature map, we further reparameterize it with a parameter-free Gaussian distribution to achieve robust extrapolation. Our method theoretically reveals the underlying cause of the attention sink phenomenon and its connection to truncated matrix entropy. Experiments on needle-in-a-haystack and many-shot in-context learning tasks demonstrate that DoPE significantly improves retrieval accuracy and reasoning stability across extended contexts (up to 64K tokens). The results show that the denoising strategy for positional embeddings effectively mitigates attention sinks and restores balanced attention patterns, providing a simple yet powerful solution for improving length generalization. Our project page is Project: https://The-physical-picture-of-LLMs.github.io",
+            "upvotes": 45,
+            "discussionId": "6917090db63bfc66e04989a3",
+            "projectPage": "https://The-physical-picture-of-LLMs.github.io",
+            "ai_summary": "Denoising Positional Encoding (DoPE) enhances length generalization in Transformer models by detecting and mitigating noisy frequency bands in positional embeddings, improving retrieval accuracy and reasoning stability.",
+            "ai_keywords": [
+                "Rotary Position Embedding (RoPE)",
+                "Transformer models",
+                "attention map",
+                "positional encoding",
+                "Denoising Positional Encoding (DoPE)",
+                "truncated matrix entropy",
+                "Gaussian distribution",
+                "attention sink phenomenon",
+                "needle-in-a-haystack",
+                "many-shot in-context learning",
+                "retrieval accuracy",
+                "reasoning stability",
+                "length generalization"
+            ]
+        },
+        "translation_title": "DoPE: 잡음 제거 회전 위치 임베딩",
+        "purpose": "Transformer 모델에서 위치 임베딩의 한계를 극복하고, 긴 시퀀스에서의 일반화 성능을 향상시키기 위한 방법 연구",
+        "method": [
+            "Rotary Position Embedding의 주의 맵을 잡음 있는 특성 맵으로 재해석함(Noisy feature map interpretation of attention map with RoPE.)",
+            "트렁케이션 행렬 엔트로피를 기반으로 잡음 제거 위치 인코딩(DoPE)을 제안함(We propose Denoising Positional Encoding (DoPE), a training-free method based on truncated matrix entropy).",
+            "잡음 특성을 활용해 매개변수가 없는 가우시안 분포로 다시 매개화함(Reparameterization with a parameter-free Gaussian distribution to achieve robust extrapolation.)",
+            "DoPE가 긴 맥락에서의 검색 정확도와 추론 안정성을 크게 개선함을 실험으로 입증함(Experiments demonstrate DoPE significantly improves retrieval accuracy and reasoning stability across extended contexts)."
+        ],
+        "conclusion": "DoPE는 위치 임베딩의 잡음 제거 전략을 통해 주의 sink 현상을 완화하고, 길이 일반화를 향상시키는 간단하면서도 강력한 솔루션을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.11434",
+            "authors": [
+                {
+                    "_id": "691adfa56bfd5965c0fd3604",
+                    "name": "Wei Chow",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3605",
+                    "name": "Jiachun Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3606",
+                    "name": "Yongyuan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3607",
+                    "name": "Mingze Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3608",
+                    "name": "Xue Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3609",
+                    "name": "Liyu Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360a",
+                    "name": "Saining Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360b",
+                    "name": "Siliang Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360c",
+                    "name": "Juncheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360d",
+                    "user": {
+                        "_id": "68637e529734255efb3be60c",
+                        "avatarUrl": "/avatars/d9cdefc30f50daabd173d0f3954e2320.svg",
+                        "isPro": false,
+                        "fullname": "Zhang Fengda",
+                        "user": "ZhangFengda",
+                        "type": "user"
+                    },
+                    "name": "Fengda Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:25:55.874Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360e",
+                    "name": "Weijia Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd360f",
+                    "name": "Hanwang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691adfa56bfd5965c0fd3610",
+                    "name": "Tat-Seng Chua",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6345a93afe134dfd7a0cfabd/lzAZtYil2gu_ASTrabE2C.png"
+            ],
+            "publishedAt": "2025-11-14T16:02:38.000Z",
+            "submittedOnDailyAt": "2025-11-17T06:13:26.872Z",
+            "title": "WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation",
+            "submittedOnDailyBy": {
+                "_id": "6345a93afe134dfd7a0cfabd",
+                "avatarUrl": "/avatars/65130ce06b1c72ab1066678419731d88.svg",
+                "isPro": false,
+                "fullname": "wu weijia",
+                "user": "weijiawu",
+                "type": "user"
+            },
+            "summary": "Recent advances in unified multimodal models (UMMs) have enabled impressive progress in visual comprehension and generation. However, existing datasets and benchmarks focus primarily on single-turn interactions, failing to capture the multi-turn, context-dependent nature of real-world image creation and editing. To address this gap, we present WEAVE, the first suite for in-context interleaved cross-modality comprehension and generation. Our suite consists of two complementary parts. WEAVE-100k is a large-scale dataset of 100K interleaved samples spanning over 370K dialogue turns and 500K images, covering comprehension, editing, and generation tasks that require reasoning over historical context. WEAVEBench is a human-annotated benchmark with 100 tasks based on 480 images, featuring a hybrid VLM judger evaluation framework based on both the reference image and the combination of the original image with editing instructions that assesses models' abilities in multi-turn generation, visual memory, and world-knowledge reasoning across diverse domains. Experiments demonstrate that training on WEAVE-100k enables vision comprehension, image editing, and comprehension-generation collaboration capabilities. Furthermore, it facilitates UMMs to develop emergent visual-memory capabilities, while extensive evaluations on WEAVEBench expose the persistent limitations and challenges of current approaches in multi-turn, context-aware image generation and editing. We believe WEAVE provides a view and foundation for studying in-context interleaved comprehension and generation for multi-modal community.",
+            "upvotes": 37,
+            "discussionId": "691adfa56bfd5965c0fd3611",
+            "projectPage": "https://weichow23.github.io/weave/",
+            "githubRepo": "https://github.com/weichow23/weave",
+            "ai_summary": "WEAVE introduces a comprehensive suite including a large dataset and a benchmark to assess and improve multi-turn, context-dependent image generation and editing in unified multimodal models.",
+            "ai_keywords": [
+                "unified multimodal models",
+                "WEAVE",
+                "WEAVE-100k",
+                "interleaved samples",
+                "dialogue turns",
+                "comprehension",
+                "editing",
+                "generation",
+                "WEAVEBench",
+                "human-annotated benchmark",
+                "VLM judger",
+                "visual memory",
+                "world-knowledge reasoning",
+                "multi-turn generation",
+                "vision comprehension",
+                "image editing",
+                "comprehension-generation collaboration",
+                "emergent visual-memory capabilities"
+            ],
+            "githubStars": 6
+        },
+        "translation_title": "WEAVE: 맥락 기반 상호 연결 이해 및 생성의 폭발적인 발전과 평가",
+        "purpose": "다중 턴 기반의 이미지 생성 및 편집 작업을 평가하고 이해하기 위한 데이터셋과 벤치마크 개발",
+        "method": [
+            "WEAVE-100k이라는 100K의 상호 연결된 샘플로 구성된 대규모 데이터셋을 제작하여 맥락을 고려한 이해 및 생성 작업을 다룸(we present WEAVE, the first suite for in-context interleaved cross-modality comprehension and generation.)",
+            "WEAVEBench라는 100개의 Task를 기반으로 하는 인공지능 평가 프레임워크를 개발하여 모델의 다중 턴 생성 및 시각적 기억 평가를 수행함(WEAVEBench is a human-annotated benchmark with 100 tasks based on 480 images, featuring a hybrid VLM judger evaluation framework.)",
+            "실험을 통해 WEAVE-100k로 학습한 결과, 시각적 이해, 이미지 편집 및 이해-생성 협업 기능이 향상됨(Experiments demonstrate that training on WEAVE-100k enables vision comprehension, image editing, and comprehension-generation collaboration capabilities.)"
+        ],
+        "conclusion": "WEAVE는 다중 턴 및 맥락 인식 이미지 생성과 편집의 한계를 드러내며, 다중 모달 커뮤니티의 연구를 위한 기초를 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.11134",
+            "authors": [
+                {
+                    "_id": "691a96096bfd5965c0fd3476",
+                    "name": "Jingxuan Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3477",
+                    "name": "Caijun Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3478",
+                    "name": "Xi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd3479",
+                    "name": "Xinglong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347a",
+                    "name": "Siyuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347b",
+                    "name": "Linzhuang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347c",
+                    "name": "Bihui Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347d",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347e",
+                    "name": "Lijun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691a96096bfd5965c0fd347f",
+                    "name": "Cheng Tan",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/MWaH1mrhdrfkzs10c7_y1.mp4"
+            ],
+            "publishedAt": "2025-11-14T10:07:53.000Z",
+            "submittedOnDailyAt": "2025-11-17T00:57:58.782Z",
+            "title": "GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The advent of Unified Multimodal Models (UMMs) signals a paradigm shift in artificial intelligence, moving from passive perception to active, cross-modal generation. Despite their unprecedented ability to synthesize information, a critical gap persists in evaluation: existing benchmarks primarily assess discriminative understanding or unconstrained image generation separately, failing to measure the integrated cognitive process of generative reasoning. To bridge this gap, we propose that geometric construction provides an ideal testbed as it inherently demands a fusion of language comprehension and precise visual generation. We introduce GGBench, a benchmark designed specifically to evaluate geometric generative reasoning. It provides a comprehensive framework for systematically diagnosing a model's ability to not only understand and reason but to actively construct a solution, thereby setting a more rigorous standard for the next generation of intelligent systems. Project website: https://opendatalab-raiser.github.io/GGBench/.",
+            "upvotes": 29,
+            "discussionId": "691a960a6bfd5965c0fd3480",
+            "ai_summary": "GGBench is introduced to evaluate geometric generative reasoning, addressing the gap in assessing integrated cognitive processes in multimodal models.",
+            "ai_keywords": [
+                "Unified Multimodal Models",
+                "generative reasoning",
+                "evaluation",
+                "discriminative understanding",
+                "unconstrained image generation",
+                "geometric construction",
+                "language comprehension",
+                "visual generation",
+                "benchmark"
+            ]
+        },
+        "translation_title": "GGBench: 통합 멀티모달 모델을 위한 기하학적 생성 추론 기준",
+        "purpose": "기하학적 생성 추론을 평가하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "기존 벤치마크가 분별적 이해나 제한 없는 이미지 생성을 따로 평가하는 문제를 해결하고자 기하학적 구성을 테스트베드로 제안함(we propose that geometric construction provides an ideal testbed as it inherently demands a fusion of language comprehension and precise visual generation.)",
+            "GGBench라는 벤치마크를 소개하여 모델의 이해, 추론 및 해결책 생성 능력을 평가할 수 있는 포괄적인 프레임워크 제공(GGBench, a benchmark designed specifically to evaluate geometric generative reasoning.)",
+            "모델의 기하학적 생성 추론 능력을 진단하고 차세대 지능 시스템에 대한 더욱 엄격한 기준 설정(GGBench provides a comprehensive framework for systematically diagnosing a model's ability to not only understand and reason but to actively construct a solution.)"
+        ],
+        "conclusion": "GGBench는 통합 멀티모달 모델의 생성 추론 능력을 보다 체계적으로 평가하는 데 기여하며, 다음 세대 지능 시스템의 발전에 중요한 기준을 설정함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08195",
+            "authors": [
+                {
+                    "_id": "69170901b63bfc66e04988d9",
+                    "name": "Zhen Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988da",
+                    "name": "Wenyi Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988db",
+                    "name": "Mingde Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988dc",
+                    "name": "Xinyue Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988dd",
+                    "name": "Weihan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988de",
+                    "name": "Jiele Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988df",
+                    "name": "Xiaotao Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170901b63bfc66e04988e0",
+                    "name": "Jie Tang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/dw6-SAx5OVrdfn0_0YutW.jpeg",
+                "https://cdn-uploads.huggingface.co/production/uploads/62ecd24cb8764c7738ef2793/fHbYJ62-hSRF_OHc03iIk.jpeg"
+            ],
+            "publishedAt": "2025-11-11T13:00:09.000Z",
+            "submittedOnDailyAt": "2025-11-17T02:18:16.514Z",
+            "title": "UI2Code^N: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation",
+            "submittedOnDailyBy": {
+                "_id": "62ecd24cb8764c7738ef2793",
+                "avatarUrl": "/avatars/c1b80b5c55f9d652c1aaac7919e1fa32.svg",
+                "isPro": false,
+                "fullname": "Wenyi Hong",
+                "user": "wenyi",
+                "type": "user"
+            },
+            "summary": "User interface (UI) programming is a core yet highly complex part of modern software development. Recent advances in visual language models (VLMs) highlight the potential of automatic UI coding, but current approaches face two key limitations: multimodal coding capabilities remain underdeveloped, and single-turn paradigms make little use of iterative visual feedback. We address these challenges with an interactive UI-to-code paradigm that better reflects real-world workflows and raises the upper bound of achievable performance. Under this paradigm, we present UI2Code^N, a visual language model trained through staged pretraining, fine-tuning, and reinforcement learning to achieve foundational improvements in multimodal coding. The model unifies three key capabilities: UI-to-code generation, UI editing, and UI polishing. We further explore test-time scaling for interactive generation, enabling systematic use of multi-turn feedback. Experiments on UI-to-code and UI polishing benchmarks show that UI2Code^N establishes a new state of the art among open-source models and achieves performance comparable to leading closed-source models such as Claude-4-Sonnet and GPT-5. Our code and models are available at https://github.com/zai-org/UI2Code_N.",
+            "upvotes": 24,
+            "discussionId": "69170901b63bfc66e04988e1",
+            "projectPage": "https://zheny2751-dotcom.github.io/ui2code-n.github.io/",
+            "githubRepo": "https://github.com/zai-org/UI2Code_N",
+            "ai_summary": "UI2Code$^\\text{N}$, a visual language model enhanced through staged pretraining, fine-tuning, and reinforcement learning, achieves superior performance in UI-to-code generation, editing, and polishing with iterative feedback.",
+            "ai_keywords": [
+                "visual language models",
+                "VLMs",
+                "UI-to-code",
+                "staged pretraining",
+                "fine-tuning",
+                "reinforcement learning",
+                "UI-to-code generation",
+                "UI editing",
+                "UI polishing",
+                "multi-turn feedback",
+                "UI-to-code benchmarks",
+                "UI polishing benchmarks"
+            ],
+            "githubStars": 16
+        },
+        "translation_title": "UI2Code^N: 테스트 시간에 확장 가능한 대화형 UI에서 코드로의 변환을 위한 시각적 언어 모델",
+        "purpose": "자동 UI 코딩의 성능을 향상시키기 위한 대화형 UI-to-code 패러다임 연구",
+        "method": [
+            "실제 작업 흐름을 반영한 대화형 UI-to-code paradigm을 제안함(We address these challenges with an interactive UI-to-code paradigm that better reflects real-world workflows.)",
+            "UI-to-code 생성, UI 편집, UI 수정의 3가지 기능을 통합한 UI2Code^N 모델을 훈련함(Under this paradigm, we present UI2Code^N, a visual language model trained through staged pretraining, fine-tuning, and reinforcement learning.)",
+            "성능 향상을 위해 다단계 사전 훈련, 미세 조정, 강화 학습을 적용함(The model unifies three key capabilities: UI-to-code generation, UI editing, and UI polishing.)"
+        ],
+        "conclusion": "UI2Code^N은 오픈 소스 모델 중 가장 높은 성능을 기록했으며, Claude-4-Sonnet 및 GPT-5와 같은 주요 폐쇄형 모델과 유사한 성능을 나타냄.",
+        "keywords": [
+            "Natural Language Processing",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.11257",
+            "authors": [
+                {
+                    "_id": "691aa2536bfd5965c0fd358a",
+                    "user": {
+                        "_id": "66a5db1c94d2b190a23c9a46",
+                        "avatarUrl": "/avatars/e2caafde5b9383d63d9917d9476c9ee3.svg",
+                        "isPro": false,
+                        "fullname": "Yuqi Yin",
+                        "user": "chitanda-eru",
+                        "type": "user"
+                    },
+                    "name": "Yuqi Yin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:09.321Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358b",
+                    "name": "Yibo Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358c",
+                    "user": {
+                        "_id": "6495b0b844bc2e9ce6cc849b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/j6aucl_tefMHwtD-bdUAw.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyuan Wang",
+                        "user": "OldKingMeister",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:11.698Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358d",
+                    "user": {
+                        "_id": "67badcafb717d1b5a3ec8e66",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0QifFDd3MiLtdQT1TzVa8.png",
+                        "isPro": false,
+                        "fullname": "sp",
+                        "user": "Pengss",
+                        "type": "user"
+                    },
+                    "name": "Peng Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-17T10:26:06.909Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358e",
+                    "name": "Hongyu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd358f",
+                    "name": "Xiaohui Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3590",
+                    "name": "Lei Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3591",
+                    "name": "Zhiyong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3592",
+                    "name": "Zhirong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3593",
+                    "name": "Jianji Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691aa2536bfd5965c0fd3594",
+                    "name": "Zhaoxi Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-14T12:53:57.000Z",
+            "submittedOnDailyAt": "2025-11-17T03:06:43.136Z",
+            "title": "AIonopedia: an LLM agent orchestrating multimodal learning for ionic liquid discovery",
+            "submittedOnDailyBy": {
+                "_id": "66a5db1c94d2b190a23c9a46",
+                "avatarUrl": "/avatars/e2caafde5b9383d63d9917d9476c9ee3.svg",
+                "isPro": false,
+                "fullname": "Yuqi Yin",
+                "user": "chitanda-eru",
+                "type": "user"
+            },
+            "summary": "The discovery of novel Ionic Liquids (ILs) is hindered by critical challenges in property prediction, including limited data, poor model accuracy, and fragmented workflows. Leveraging the power of Large Language Models (LLMs), we introduce AIonopedia, to the best of our knowledge, the first LLM agent for IL discovery. Powered by an LLM-augmented multimodal domain foundation model for ILs, AIonopedia enables accurate property predictions and incorporates a hierarchical search architecture for molecular screening and design. Trained and evaluated on a newly curated and comprehensive IL dataset, our model delivers superior performance. Complementing these results, evaluations on literature-reported systems indicate that the agent can perform effective IL modification. Moving beyond offline tests, the practical efficacy was further confirmed through real-world wet-lab validation, in which the agent demonstrated exceptional generalization capabilities on challenging out-of-distribution tasks, underscoring its ability to accelerate real-world IL discovery.",
+            "upvotes": 23,
+            "discussionId": "691aa2536bfd5965c0fd3595",
+            "ai_summary": "Axonopedia, an AI agent utilizing LLMs and a multimodal foundation model, enhances property prediction and molecular design for Ionic Liquids through hierarchical search and real-world validation.",
+            "ai_keywords": [
+                "Large Language Models (LLMs)",
+                "multimodal domain foundation model",
+                "hierarchical search architecture",
+                "Ionic Liquids (ILs)",
+                "property predictions",
+                "molecular screening",
+                "design",
+                "dataset",
+                "generalization capabilities",
+                "wet-lab validation"
+            ]
+        },
+        "translation_title": "AIonopedia: 이온액체 발견을 위한 멀티모달 학습을 조율하는 LLM 에이전트",
+        "purpose": "이온액체(IL)의 발견을 위한 정확한 물성 예측과 효과적인 분자 스크리닝을 달성하기 위한 새로운 LLM 에이전트 개발",
+        "method": [
+            "Large Language Models(LLMs)의 힘을 활용하여 AIonopedia라는 첫 번째 LLM 에이전트를 소개함(We introduce AIonopedia, to the best of our knowledge, the first LLM agent for IL discovery.)",
+            "LLM 기반의 멀티모달 도메인 모델을 활용하여 정확한 물성 예측 및 계층적 검색 구조를 구현함(Powered by an LLM-augmented multimodal domain foundation model for ILs, AIonopedia enables accurate property predictions and incorporates a hierarchical search architecture for molecular screening and design.)",
+            "새롭게 편집된 포괄적인 이온액체 데이터셋에서 모델을 학습하고 평가하여 우수한 성능을 달성함(Trained and evaluated on a newly curated and comprehensive IL dataset, our model delivers superior performance.)"
+        ],
+        "conclusion": "AIonopedia는 이온액체 발견의 실제 적용에서도 탁월한 일반화 능력을 보여주며, 실험실 검증을 통해 성과를 입증함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
