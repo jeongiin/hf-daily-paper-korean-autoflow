@@ -1,0 +1,477 @@
+[
+    {
+        "paper": {
+            "id": "2511.14295",
+            "authors": [
+                {
+                    "_id": "691d6caa0247f3d258ef32a6",
+                    "name": "Mohammad Zbib",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32a7",
+                    "name": "Hasan Abed Al Kader Hammoud",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32a8",
+                    "name": "Sina Mukalled",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32a9",
+                    "name": "Nadine Rizk",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32aa",
+                    "name": "Fatima Karnib",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32ab",
+                    "name": "Issam Lakkis",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32ac",
+                    "user": {
+                        "_id": "61f01168943fd4875cd86724",
+                        "avatarUrl": "/avatars/415cc5388c16e2527d286bc56faeb810.svg",
+                        "isPro": false,
+                        "fullname": "Ammar Mohanna",
+                        "user": "AmmarMohanna",
+                        "type": "user"
+                    },
+                    "name": "Ammar Mohanna",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-19T08:39:11.874Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d6caa0247f3d258ef32ad",
+                    "name": "Bernard Ghanem",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-18T09:47:01.000Z",
+            "submittedOnDailyAt": "2025-11-19T04:45:52.000Z",
+            "title": "AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models",
+            "submittedOnDailyBy": {
+                "_id": "642b51385bf2355d02a23d15",
+                "avatarUrl": "/avatars/87985347643b2647555f2453fa4d94fb.svg",
+                "isPro": false,
+                "fullname": "Hasan Abed Al Kader Hammoud",
+                "user": "hammh0a",
+                "type": "user"
+            },
+            "summary": "We present AraLingBench: a fully human annotated benchmark for evaluating the Arabic linguistic competence of large language models (LLMs). The benchmark spans five core categories: grammar, morphology, spelling, reading comprehension, and syntax, through 150 expert-designed multiple choice questions that directly assess structural language understanding. Evaluating 35 Arabic and bilingual LLMs reveals that current models demonstrate strong surface level proficiency but struggle with deeper grammatical and syntactic reasoning. AraLingBench highlights a persistent gap between high scores on knowledge-based benchmarks and true linguistic mastery, showing that many models succeed through memorization or pattern recognition rather than authentic comprehension. By isolating and measuring fundamental linguistic skills, AraLingBench provides a diagnostic framework for developing Arabic LLMs. The full evaluation code is publicly available on GitHub.",
+            "upvotes": 44,
+            "discussionId": "691d6caa0247f3d258ef32ae",
+            "githubRepo": "https://github.com/hammoudhasan/AraLingBench",
+            "ai_summary": "AraLingBench evaluates Arabic and bilingual LLMs' linguistic competence using a benchmark with expert-designed questions across grammar, morphology, spelling, reading comprehension, and syntax, revealing gaps between surface proficiency and true comprehension.",
+            "ai_keywords": [
+                "large language models",
+                "LLMS",
+                "grammar",
+                "morphology",
+                "spelling",
+                "reading comprehension",
+                "syntax",
+                "multiple choice questions",
+                "structural language understanding"
+            ],
+            "githubStars": 1,
+            "organization": {
+                "_id": "6808bff3dd4333f8fe87db70",
+                "name": "IVUL-KAUST",
+                "fullname": "Image and Video Understanding Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6808bf97ffadd78ec71cb721/Xwkc8YwWKDbZj0fHSGXoa.png"
+            }
+        },
+        "translation_title": "AraLingBench: 아랍어 대형 언어 모델의 언어 능력을 평가하는 인간 주석 기준",
+        "purpose": "아랍어 언어 능력 평가를 위한 완전한 인간 주석 기준 구축",
+        "method": [
+            "150개의 전문가 설계의 객관식 질문을 통해 문법, 형태소, 철자, 독해 및 구문을 평가함(through 150 expert-designed multiple choice questions that directly assess structural language understanding.)",
+            "35개의 아랍어 및 이중 언어 LLM을 평가하여 모델들의 성능을 분석함(Evaluating 35 Arabic and bilingual LLMs reveals that current models demonstrate strong surface level proficiency but struggle with deeper grammatical and syntactic reasoning.)",
+            "AraLingBench를 통해 언어 기반 기준에서 높은 점수를 얻더라도 진정한 언어 숙달에는 격차가 있음을 보여줌(AraLingBench highlights a persistent gap between high scores on knowledge-based benchmarks and true linguistic mastery.)"
+        ],
+        "conclusion": "AraLingBench는 아랍어 LLM 개발을 위한 진단 프레임워크를 제공하며, 평가 코드가 GitHub에서 공개됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Linguistic Competence"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.08577",
+            "authors": [
+                {
+                    "_id": "6913f98dac231a5726571fe0",
+                    "user": {
+                        "_id": "6445fd9ba56444c355dcbcba",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+                        "isPro": true,
+                        "fullname": "Tianyu Fu",
+                        "user": "fuvty",
+                        "type": "user"
+                    },
+                    "name": "Tianyu Fu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-19T08:41:08.958Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6913f98dac231a5726571fe1",
+                    "user": {
+                        "_id": "66954ebfbcd81f395e9dca37",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66954ebfbcd81f395e9dca37/0C3m5YdxyXuK7dJBu4AdL.png",
+                        "isPro": false,
+                        "fullname": "Yichen You",
+                        "user": "youyc22",
+                        "type": "user"
+                    },
+                    "name": "Yichen You",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-19T08:41:07.355Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6913f98dac231a5726571fe2",
+                    "name": "Zekai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6913f98dac231a5726571fe3",
+                    "name": "Guohao Dai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6913f98dac231a5726571fe4",
+                    "name": "Huazhong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6913f98dac231a5726571fe5",
+                    "name": "Yu Wang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6445fd9ba56444c355dcbcba/6h7sv9rXj60DwGtljqCbU.mp4"
+            ],
+            "publishedAt": "2025-11-11T18:57:02.000Z",
+            "submittedOnDailyAt": "2025-11-19T02:54:11.874Z",
+            "title": "Think-at-Hard: Selective Latent Iterations to Improve Reasoning Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6445fd9ba56444c355dcbcba",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6445fd9ba56444c355dcbcba/NCyRCD-MK-yA0_qY6I2y0.png",
+                "isPro": true,
+                "fullname": "Tianyu Fu",
+                "user": "fuvty",
+                "type": "user"
+            },
+            "summary": "Improving reasoning capabilities of Large Language Models (LLMs), especially under parameter constraints, is crucial for real-world applications. Prior work proposes recurrent transformers, which allocate a fixed number of extra iterations per token to improve generation quality. After the first, standard forward pass, instead of verbalization, last-layer hidden states are fed back as inputs for additional iterations to refine token predictions. Yet we identify a latent overthinking phenomenon: easy token predictions that are already correct after the first pass are sometimes revised into errors in additional iterations. To address this, we propose Think-at-Hard (TaH), a dynamic latent thinking method that iterates deeper only at hard tokens. It employs a lightweight neural decider to trigger latent iterations only at tokens that are likely incorrect after the standard forward pass. During latent iterations, Low-Rank Adaptation (LoRA) modules shift the LLM objective from general next-token prediction to focused hard-token refinement. We further introduce a duo-causal attention mechanism that extends attention from the token sequence dimension to an additional iteration depth dimension. This enables cross-iteration information flow while maintaining full sequential parallelism. Experiments show that TaH boosts LLM reasoning performance across five challenging benchmarks while maintaining the same parameter count. Compared with baselines that iterate twice for all output tokens, TaH delivers 8.1-11.3% accuracy gains while exempting 94% of tokens from the second iteration. Against strong single-iteration Qwen3 models finetuned with the same data, it also delivers 4.0-5.0% accuracy gains. When allowing less than 3% additional parameters from LoRA and the iteration decider, the gains increase to 8.5-12.6% and 5.3-5.4%, respectively. Our code is available at https://github.com/thu-nics/TaH.",
+            "upvotes": 41,
+            "discussionId": "6913f98dac231a5726571fe6",
+            "githubRepo": "https://github.com/thu-nics/TaH",
+            "ai_summary": "Think-at-Hard (TaH) dynamically refines only hard tokens in LLMs using a neural decider and LoRA, improving reasoning performance with minimal additional parameters or iterations.",
+            "ai_keywords": [
+                "recurrent transformers",
+                "latent thinking",
+                "Think-at-Hard (TaH)",
+                "dynamic latent thinking",
+                "LoRA",
+                "Low-Rank Adaptation",
+                "duo-causal attention",
+                "cross-iteration information flow",
+                "sequential parallelism"
+            ],
+            "githubStars": 12,
+            "organization": {
+                "_id": "64b74b5fb727f8771ab887f9",
+                "name": "nics-efc",
+                "fullname": "Tsinghua-NICS-EFC",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/641031b1a78453b8d96b8420/vmgxct2WsyHcKT2x2NAYT.jpeg"
+            }
+        },
+        "translation_title": "Think-at-Hard: 선택적 잠재 반복을 통해 사고하는 언어 모델 개선하기",
+        "purpose": "매개변수 제약 하에서 대형 언어 모델(LLMs)의 추론 능력을 향상시키기 위한 방법 연구",
+        "method": [
+            "기존의 반복 트랜스포머 접근 방식을 분석하고, 주어진 표준 전달 후 하드 토큰에서만 깊은 반복을 수행하는 동적 접근 방식인 Think-at-Hard(TaH)를 제안함(We propose Think-at-Hard (TaH), a dynamic latent thinking method that iterates deeper only at hard tokens.)",
+            "적정한 토큰에 대해서만 반복을 유도하기 위해 경량 신경 결정자(neural decider)를 사용함(It employs a lightweight neural decider to trigger latent iterations only at tokens that are likely incorrect after the standard forward pass.)",
+            "Low-Rank Adaptation(LoRA) 모듈을 통해 LLM 목표를 일반 다음 토큰 예측에서 하드 토큰 정제 집중으로 전환함(During latent iterations, Low-Rank Adaptation (LoRA) modules shift the LLM objective from general next-token prediction to focused hard-token refinement.)"
+        ],
+        "conclusion": "TaH는 동일한 매개변수 수를 유지하면서 LLM의 추론 성능을 여러 벤치마크에서 향상시킴.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.10555",
+            "authors": [
+                {
+                    "_id": "69170105a0c1cdddcec3727d",
+                    "user": {
+                        "_id": "64f9951e42f1c4a68c9882b3",
+                        "avatarUrl": "/avatars/77fa010db659107a059d510e036025e0.svg",
+                        "isPro": false,
+                        "fullname": "Huijie Liu",
+                        "user": "liuhuijie6410",
+                        "type": "user"
+                    },
+                    "name": "Huijie Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-19T08:41:05.701Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170105a0c1cdddcec3727e",
+                    "user": {
+                        "_id": "64969fb7b8d4efc75b014f99",
+                        "avatarUrl": "/avatars/e2335de7b6dbe5cc08c09789ebcf9787.svg",
+                        "isPro": false,
+                        "fullname": "Shuhao cui",
+                        "user": "hassassin",
+                        "type": "user"
+                    },
+                    "name": "Shuhao Cui",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-19T08:41:03.942Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170105a0c1cdddcec3727f",
+                    "name": "Haoxiang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170105a0c1cdddcec37280",
+                    "name": "Shuai Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170105a0c1cdddcec37281",
+                    "name": "Kai Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69170105a0c1cdddcec37282",
+                    "name": "Guoliang Kang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-13T17:56:10.000Z",
+            "submittedOnDailyAt": "2025-11-19T00:43:14.226Z",
+            "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
+            "submittedOnDailyBy": {
+                "_id": "68e741ea3edb0ff47e20084e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68e741ea3edb0ff47e20084e/OyBgFqcU4QWyPF_K58Gt5.jpeg",
+                "isPro": false,
+                "fullname": "Wu Kai",
+                "user": "KaiiWuu1993",
+                "type": "user"
+            },
+            "summary": "Innovative visual stylization is a cornerstone of artistic creation, yet generating novel and consistent visual styles remains a significant challenge. Existing generative approaches typically rely on lengthy textual prompts, reference images, or parameter-efficient fine-tuning to guide style-aware image generation, but often struggle with style consistency, limited creativity, and complex style representations. In this paper, we affirm that a style is worth one numerical code by introducing the novel task, code-to-style image generation, which produces images with novel, consistent visual styles conditioned solely on a numerical style code. To date, this field has only been primarily explored by the industry (e.g., Midjourney), with no open-source research from the academic community. To fill this gap, we propose CoTyle, the first open-source method for this task. Specifically, we first train a discrete style codebook from a collection of images to extract style embeddings. These embeddings serve as conditions for a text-to-image diffusion model (T2I-DM) to generate stylistic images. Subsequently, we train an autoregressive style generator on the discrete style embeddings to model their distribution, allowing the synthesis of novel style embeddings. During inference, a numerical style code is mapped to a unique style embedding by the style generator, and this embedding guides the T2I-DM to generate images in the corresponding style. Unlike existing methods, our method offers unparalleled simplicity and diversity, unlocking a vast space of reproducible styles from minimal input. Extensive experiments validate that CoTyle effectively turns a numerical code into a style controller, demonstrating a style is worth one code.",
+            "upvotes": 33,
+            "discussionId": "69170105a0c1cdddcec372a4",
+            "projectPage": "https://Kwai-Kolors.github.io/CoTyle/",
+            "githubRepo": "https://github.com/Kwai-Kolors/CoTyle",
+            "ai_summary": "A novel method, CoTyle, generates images in consistent visual styles using unique numerical style codes, filling an academic gap in code-to-style image generation.",
+            "ai_keywords": [
+                "discrete style codebook",
+                "style embeddings",
+                "text-to-image diffusion model",
+                "autoregressive style generator",
+                "numerical style code",
+                "style controller"
+            ],
+            "githubStars": 25,
+            "organization": {
+                "_id": "665f02ce9f9e5b38d0a256a8",
+                "name": "Kwai-Kolors",
+                "fullname": "Kolors Team, Kuaishou Technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62f0babaef9cc6810cec02ff/sVnELkcfVo5kxg5308rkr.png"
+            }
+        },
+        "translation_title": "스타일 하나가 코드 하나의 가치: 이산 스타일 공간으로 코드-투-스타일 이미지 생성을 열다",
+        "purpose": "새로운 시각적 스타일을 생성하기 위한 코드-투-스타일 이미지 생성 작업의 개념을 제안하고 개선",
+        "method": [
+            "이미지에서 스타일 임베딩을 추출하기 위해 이산 스타일 코드북을 훈련시킴(To fill this gap, we propose CoTyle, the first open-source method for this task.)",
+            "생성된 스타일 임베딩을 기반으로 텍스트-투-이미지 확산 모델(T2I-DM)을 사용하여 스타일화된 이미지를 생성함(These embeddings serve as conditions for a text-to-image diffusion model (T2I-DM) to generate stylistic images.)",
+            "이산 스타일 임베딩에 대해 자가 회귀적인 스타일 생성기를 훈련하여 새로운 스타일 임베딩을 합성할 수 있도록 함(Subsequently, we train an autoregressive style generator on the discrete style embeddings to model their distribution.)"
+        ],
+        "conclusion": "CoTyle은 숫자 코드를 스타일 제어기로 효과적으로 변환하여 스타일 생성의 단순함과 다양성을 제공함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.13853",
+            "authors": [
+                {
+                    "_id": "691d33a20247f3d258ef3224",
+                    "name": "Xinxin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d33a20247f3d258ef3225",
+                    "name": "Zhaopan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d33a20247f3d258ef3226",
+                    "name": "Kai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d33a20247f3d258ef3227",
+                    "name": "Yong Jae Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d33a20247f3d258ef3228",
+                    "name": "Yuzhang Shang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-17T19:11:39.000Z",
+            "submittedOnDailyAt": "2025-11-19T00:34:13.944Z",
+            "title": "Can World Simulators Reason? Gen-ViRe: A Generative Visual Reasoning Benchmark",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "While Chain-of-Thought (CoT) prompting enables sophisticated symbolic reasoning in LLMs, it remains confined to discrete text and cannot simulate the continuous, physics-governed dynamics of the real world. Recent video generation models have emerged as potential world simulators through Chain-of-Frames (CoF) reasoning -- materializing thought as frame-by-frame visual sequences, with each frame representing a physically-grounded reasoning step. Despite compelling demonstrations, a challenge persists: existing benchmarks, focusing on fidelity or alignment, do not assess CoF reasoning and thus cannot measure core cognitive abilities in multi-step planning, algorithmic logic, or abstract pattern extrapolation. This evaluation void prevents systematic understanding of model capabilities and principled guidance for improvement. We introduce Gen-ViRe (Generative Visual Reasoning Benchmark), a framework grounded in cognitive science and real-world AI applications, which decomposes CoF reasoning into six cognitive dimensions -- from perceptual logic to abstract planning -- and 24 subtasks. Through multi-source data curation, minimal prompting protocols, and hybrid VLM-assisted evaluation with detailed criteria, Gen-ViRe delivers the first quantitative assessment of video models as reasoners. Our experiments on SOTA systems reveal substantial discrepancies between impressive visual quality and actual reasoning depth, establishing baselines and diagnostic tools to advance genuine world simulators.",
+            "upvotes": 29,
+            "discussionId": "691d33a20247f3d258ef3229",
+            "githubRepo": "https://github.com/L-CodingSpace/GVR",
+            "ai_summary": "Gen-ViRe benchmarks video models on reasoning abilities using a framework that decomposes Chain-of-Frames reasoning into cognitive dimensions and subtasks.",
+            "ai_keywords": [
+                "Chain-of-Thought",
+                "LLMs",
+                "Chain-of-Frames",
+                "perceptual logic",
+                "abstract planning",
+                "VLM-assisted evaluation",
+                "generative visual reasoning benchmark"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "세계 시뮬레이터는 추론할 수 있는가? Gen-ViRe: 생성적 시각 추론 벤치마크",
+        "purpose": "비디오 모델의 추론 능력을 정량적으로 평가하여 실제 세계를 시뮬레이션하는 모델 능력을 이해하고 향상시키기 위한 벤치마크 제공",
+        "method": [
+            "Chain-of-Thought(코드) prompting을 활용하여 복잡한 기호적 추론을 가능하게 하였으나 기존 벤치마크는 CoF(Chain-of-Frames) 추론을 평가하지 못함(While Chain-of-Thought (CoT) prompting enables sophisticated symbolic reasoning in LLMs, it remains confined to discrete text and cannot simulate the continuous, physics-governed dynamics of the real world.)",
+            "CoF 추론을 6개의 인지 차원으로 분해하고 24개 하위 작업으로 구성된 Gen-ViRe 프레임워크를 소개함(We introduce Gen-ViRe (Generative Visual Reasoning Benchmark), a framework grounded in cognitive science and real-world AI applications, which decomposes CoF reasoning into six cognitive dimensions -- from perceptual logic to abstract planning -- and 24 subtasks.)",
+            "다양한 출처의 데이터 수집, 최소한의 prompting 프로토콜, 하이브리드 VLM 보조 평가를 통해 비디오 모델의 첫 번째 정량적 평가를 제공함(Through multi-source data curation, minimal prompting protocols, and hybrid VLM-assisted evaluation with detailed criteria, Gen-ViRe delivers the first quantitative assessment of video models as reasoners.)"
+        ],
+        "conclusion": "Gen-ViRe 실험 결과, 비주얼 품질과 실제 추론 깊이 사이에 큰 차이를 발견하였으며, 진정한 세계 시뮬레이터를 발전시키기 위한 기초선과 진단 도구를 확립함.",
+        "keywords": [
+            "Video Understanding",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.14159",
+            "authors": [
+                {
+                    "_id": "691d34810247f3d258ef322b",
+                    "name": "Huiyi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef322c",
+                    "name": "Jiawei Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef322d",
+                    "name": "Dehai Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef322e",
+                    "name": "Changchang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef322f",
+                    "name": "Kaijie Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef3230",
+                    "name": "Yan Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef3231",
+                    "name": "Xu Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691d34810247f3d258ef3232",
+                    "name": "Lu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-18T05:48:08.000Z",
+            "submittedOnDailyAt": "2025-11-19T00:37:57.562Z",
+            "title": "MVI-Bench: A Comprehensive Benchmark for Evaluating Robustness to Misleading Visual Inputs in LVLMs",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Evaluating the robustness of Large Vision-Language Models (LVLMs) is essential for their continued development and responsible deployment in real-world applications. However, existing robustness benchmarks typically focus on hallucination or misleading textual inputs, while largely overlooking the equally critical challenge posed by misleading visual inputs in assessing visual understanding. To fill this important gap, we introduce MVI-Bench, the first comprehensive benchmark specially designed for evaluating how Misleading Visual Inputs undermine the robustness of LVLMs. Grounded in fundamental visual primitives, the design of MVI-Bench centers on three hierarchical levels of misleading visual inputs: Visual Concept, Visual Attribute, and Visual Relationship. Using this taxonomy, we curate six representative categories and compile 1,248 expertly annotated VQA instances. To facilitate fine-grained robustness evaluation, we further introduce MVI-Sensitivity, a novel metric that characterizes LVLM robustness at a granular level. Empirical results across 18 state-of-the-art LVLMs uncover pronounced vulnerabilities to misleading visual inputs, and our in-depth analyses on MVI-Bench provide actionable insights that can guide the development of more reliable and robust LVLMs. The benchmark and codebase can be accessed at https://github.com/chenyil6/MVI-Bench.",
+            "upvotes": 23,
+            "discussionId": "691d34820247f3d258ef3233",
+            "githubRepo": "https://github.com/chenyil6/MVI-Bench",
+            "ai_summary": "MVI-Bench evaluates the robustness of Large Vision-Language Models against misleading visual inputs using a hierarchical taxonomy and a novel sensitivity metric, revealing significant vulnerabilities.",
+            "ai_keywords": [
+                "Large Vision-Language Models",
+                "LVLMs",
+                "robustness",
+                "hallucination",
+                "misleading visual inputs",
+                "visual primitives",
+                "Visual Concept",
+                "Visual Attribute",
+                "Visual Relationship",
+                "VQA",
+                "MVI-Bench",
+                "MVI-Sensitivity"
+            ],
+            "githubStars": 5
+        },
+        "translation_title": "MVI-Bench: LVLM의 오해 소지가 있는 시각 입력에 대한 강 robustness 평가를 위한 종합 벤치마크",
+        "purpose": "LVLM의 강 robustness를 평가하고 실제 응용에서의 사용을 책임감 있게 발전시키기 위한 기준을 마련하는 것이 목표",
+        "method": [
+            "LVLM의 강 robustness를 평가하기 위해 Misleading Visual Inputs를 중점적으로 다룬 최초의 종합 벤치마크인 MVI-Bench를 소개함(To fill this important gap, we introduce MVI-Bench, the first comprehensive benchmark specially designed for evaluating how Misleading Visual Inputs undermine the robustness of LVLMs.)",
+            "시각적 개념, 시각적 속성 및 시각적 관계라는 세 가지 계층으로 구성된 비주얼 입력 분류 체계를 개발함(Grounded in fundamental visual primitives, the design of MVI-Bench centers on three hierarchical levels of misleading visual inputs: Visual Concept, Visual Attribute, and Visual Relationship.)",
+            "1,248개의 전문가 주석 VQA 인스턴스를 통해 대표적인 카테고리 데이터를 수집함(Using this taxonomy, we curate six representative categories and compile 1,248 expertly annotated VQA instances.)"
+        ],
+        "conclusion": "18개의 최첨단 LVLM에서 오해 소지가 있는 시각 입력에 대한 취약성이 드러났으며, MVI-Bench에 대한 심층 분석을 통해 보다 신뢰할 수 있는 LVLM 개발에 유용한 인사이트를 제공함.",
+        "keywords": [
+            "Large Language Models",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    }
+]
