@@ -1,0 +1,736 @@
+[
+    {
+        "paper": {
+            "id": "2511.16668",
+            "authors": [
+                {
+                    "_id": "691fcf88cce0eb9b6387af2c",
+                    "name": "Yang Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af2d",
+                    "name": "Xuanlei Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af2e",
+                    "name": "Baijiong Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af2f",
+                    "user": {
+                        "_id": "6423f5e6774cc34079730f31",
+                        "avatarUrl": "/avatars/7ebeb1f623c86b1a676c95bb67572f8b.svg",
+                        "isPro": false,
+                        "fullname": "Lingting Zhu",
+                        "user": "ltzhu",
+                        "type": "user"
+                    },
+                    "name": "Lingting Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T08:59:57.803Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af30",
+                    "name": "Liyao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af31",
+                    "name": "Yuqi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af32",
+                    "name": "Ying-Cong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af33",
+                    "user": {
+                        "_id": "6380580f42cedbc20c7bef71",
+                        "avatarUrl": "/avatars/8d710e0de551cd2bf545cc31fcaf099d.svg",
+                        "isPro": false,
+                        "fullname": "Shengju Qian",
+                        "user": "thesouthfrog",
+                        "type": "user"
+                    },
+                    "name": "Shengju Qian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T08:59:59.823Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af34",
+                    "name": "Xin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcf88cce0eb9b6387af35",
+                    "name": "Yang You",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-20T18:59:42.000Z",
+            "submittedOnDailyAt": "2025-11-21T00:03:52.875Z",
+            "title": "V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Recent progress in generative video models, such as Veo-3, has shown surprising zero-shot reasoning abilities, creating a growing need for systematic and reliable evaluation. We introduce V-ReasonBench, a benchmark designed to assess video reasoning across four key dimensions: structured problem-solving, spatial cognition, pattern-based inference, and physical dynamics. The benchmark is built from both synthetic and real-world image sequences and provides a diverse set of answer-verifiable tasks that are reproducible, scalable, and unambiguous. Evaluations of six state-of-the-art video models reveal clear dimension-wise differences, with strong variation in structured, spatial, pattern-based, and physical reasoning. We further compare video models with strong image models, analyze common hallucination behaviors, and study how video duration affects Chain-of-Frames reasoning. Overall, V-ReasonBench offers a unified and reproducible framework for measuring video reasoning and aims to support the development of models with more reliable, human-aligned reasoning skills.",
+            "upvotes": 35,
+            "discussionId": "691fcf88cce0eb9b6387af36",
+            "projectPage": "https://oahzxl.github.io/VReasonBench/",
+            "githubRepo": "https://github.com/yangluo7/V-ReasonBench",
+            "ai_summary": "V-ReasonBench evaluates generative video models across structured problem-solving, spatial cognition, pattern-based inference, and physical dynamics using a diverse set of tasks.",
+            "ai_keywords": [
+                "generative video models",
+                "Veo-3",
+                "zero-shot reasoning",
+                "benchmark",
+                "structured problem-solving",
+                "spatial cognition",
+                "pattern-based inference",
+                "physical dynamics",
+                "synthetic image sequences",
+                "real-world image sequences",
+                "answer-verifiable tasks",
+                "reproducible",
+                "scalable",
+                "unambiguous",
+                "Chain-of-Frames reasoning",
+                "human-aligned reasoning skills"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "V-ReasonBench: 비디오 생성 모델을 위한 통합된 추론 벤치마크 Suite",
+        "purpose": "비디오 생성 모델의 추론 능력을 체계적이고 신뢰성 있게 평가하기 위한 벤치마크 개발",
+        "method": [
+            "V-ReasonBench라는 벤치마크를 도입해 비디오 추론을 네 가지 핵심 차원(구조적 문제 해결, 공간 인지, 패턴 기반 추론, 물리적 역학)에서 평가함(We introduce V-ReasonBench, a benchmark designed to assess video reasoning across four key dimensions: structured problem-solving, spatial cognition, pattern-based inference, and physical dynamics.)",
+            "합성 및 실제 이미지 시퀀스를 기반으로 다양한 검증 가능한 작업 세트를 제공함(The benchmark is built from both synthetic and real-world image sequences and provides a diverse set of answer-verifiable tasks that are reproducible, scalable, and unambiguous.)",
+            "여섯 개의 최첨단 비디오 모델을 평가하여 각 차원에서 명확한 차이를 발견함(Evaluations of six state-of-the-art video models reveal clear dimension-wise differences, with strong variation in structured, spatial, pattern-based, and physical reasoning.)"
+        ],
+        "conclusion": "V-ReasonBench는 비디오 추론 측정을 위한 통합적이고 재현 가능한 프레임워크를 제공하며, 더 신뢰할 수 있고 인간과 일치하는 추론 능력을 갖춘 모델 개발을 지원하는 것을 목표로 함.",
+        "keywords": [
+            "Video Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.15848",
+            "authors": [
+                {
+                    "_id": "691fd89fcce0eb9b6387af99",
+                    "name": "Fei Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9a",
+                    "user": {
+                        "_id": "6524e60c5edccefd13125fd3",
+                        "avatarUrl": "/avatars/6daae919255d94f6aa761fb45349650a.svg",
+                        "isPro": false,
+                        "fullname": "Xiangyu",
+                        "user": "Tonyyouyou1",
+                        "type": "user"
+                    },
+                    "name": "Xiangyu Tony Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T08:59:45.995Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9b",
+                    "name": "Yuxin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9c",
+                    "name": "Haoyang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9d",
+                    "name": "Yuxin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9e",
+                    "name": "Daijiao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387af9f",
+                    "name": "Yayue Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa0",
+                    "name": "Donghang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa1",
+                    "name": "Jun Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa2",
+                    "name": "Liang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa3",
+                    "name": "Chengyuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa4",
+                    "name": "Hexin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa5",
+                    "name": "Eng Siong Chng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa6",
+                    "name": "Xuerui Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa7",
+                    "name": "Xiangyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa8",
+                    "name": "Daxin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd89fcce0eb9b6387afa9",
+                    "user": {
+                        "_id": "63417332c5565a4b8d43a0d8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63417332c5565a4b8d43a0d8/MmnYG7Wu2Z_lqCBvTfJmy.png",
+                        "isPro": false,
+                        "fullname": "Gang Yu",
+                        "user": "skicy",
+                        "type": "user"
+                    },
+                    "name": "Gang Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T08:59:43.455Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-19T20:12:50.000Z",
+            "submittedOnDailyAt": "2025-11-21T00:43:02.457Z",
+            "title": "Step-Audio-R1 Technical Report",
+            "submittedOnDailyBy": {
+                "_id": "66518fd07d8cb2629a514c18",
+                "avatarUrl": "/avatars/6280b33a6b1532ee938afd4aa303f709.svg",
+                "isPro": false,
+                "fullname": "Yang",
+                "user": "giantPanda0906",
+                "type": "user"
+            },
+            "summary": "Recent advances in reasoning models have demonstrated remarkable success in text and vision domains through extended chain-of-thought deliberation. However, a perplexing phenomenon persists in audio language models: they consistently perform better with minimal or no reasoning, raising a fundamental question - can audio intelligence truly benefit from deliberate thinking? We introduce Step-Audio-R1, the first audio reasoning model that successfully unlocks reasoning capabilities in the audio domain. Through our proposed Modality-Grounded Reasoning Distillation (MGRD) framework, Step-Audio-R1 learns to generate audio-relevant reasoning chains that genuinely ground themselves in acoustic features rather than hallucinating disconnected deliberations. Our model exhibits strong audio reasoning capabilities, surpassing Gemini 2.5 Pro and achieving performance comparable to the state-of-the-art Gemini 3 Pro across comprehensive audio understanding and reasoning benchmarks spanning speech, environmental sounds, and music. These results demonstrate that reasoning is a transferable capability across modalities when appropriately anchored, transforming extended deliberation from a liability into a powerful asset for audio intelligence. By establishing the first successful audio reasoning model, Step-Audio-R1 opens new pathways toward building truly multimodal reasoning systems that think deeply across all sensory modalities.",
+            "upvotes": 33,
+            "discussionId": "691fd89fcce0eb9b6387afaa",
+            "projectPage": "https://stepaudiollm.github.io/step-audio-r1/",
+            "githubRepo": "https://github.com/stepfun-ai/Step-Audio-R1",
+            "ai_summary": "Step-Audio-R1, using the Modality-Grounded Reasoning Distillation framework, achieves strong reasoning capabilities in audio, outperforming previous models and demonstrating the transferability of reasoning across modalities.",
+            "ai_keywords": [
+                "reasoning models",
+                "chain-of-thought deliberation",
+                "audio language models",
+                "Step-Audio-R1",
+                "Modality-Grounded Reasoning Distillation",
+                "acoustic features",
+                "audio reasoning",
+                "audio understanding",
+                "reasoning benchmarks",
+                "speech",
+                "environmental sounds",
+                "music",
+                "multimodal reasoning systems"
+            ],
+            "githubStars": 64,
+            "organization": {
+                "_id": "66e43eae9d477f566f937935",
+                "name": "stepfun-ai",
+                "fullname": "StepFun",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+            }
+        },
+        "translation_title": "Step-Audio-R1 기술 보고서",
+        "purpose": "오디오 도메인에서 추론 능력을 개선하기 위한 새로운 오디오 추론 모델 연구",
+        "method": [
+            "Modality-Grounded Reasoning Distillation(MGRD) 프레임워크를 통해 오디오 관련 추론 체인을 생성하도록 학습함 (Through our proposed Modality-Grounded Reasoning Distillation (MGRD) framework, Step-Audio-R1 learns to generate audio-relevant reasoning chains that genuinely ground themselves in acoustic features rather than hallucinating disconnected deliberations.)",
+            "Step-Audio-R1이 Gemini 2.5 Pro를 능가하고 Gemini 3 Pro와 유사한 성능을 달성함 (Our model exhibits strong audio reasoning capabilities, surpassing Gemini 2.5 Pro and achieving performance comparable to the state-of-the-art Gemini 3 Pro across comprehensive audio understanding and reasoning benchmarks spanning speech, environmental sounds, and music.)"
+        ],
+        "conclusion": "Step-Audio-R1은 첫 번째 성공적인 오디오 추론 모델로, 모든 감각 모달리티를 아우르는 진정한 다중 모달 추론 시스템 구축의 새로운 경로를 열어준다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Audio Reasoning",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.15700",
+            "authors": [
+                {
+                    "_id": "691fd565cce0eb9b6387af82",
+                    "name": "Jingxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af83",
+                    "user": {
+                        "_id": "642447e873f7a0d40b30d677",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642447e873f7a0d40b30d677/hbUnfIhKZCeSSPv9wGAzk.png",
+                        "isPro": false,
+                        "fullname": "LZX",
+                        "user": "zli12321",
+                        "type": "user"
+                    },
+                    "name": "Zongxia Li",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-21T10:09:00.987Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af84",
+                    "name": "Zhichao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af85",
+                    "name": "Guangyao Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af86",
+                    "name": "Xiyang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af87",
+                    "name": "Fuxiao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af88",
+                    "name": "Cornelia Fermuller",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af89",
+                    "name": "Brandon Y. Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd565cce0eb9b6387af8a",
+                    "name": "Yiannis Aloimonos",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/642447e873f7a0d40b30d677/vlbD6Bxk_YNiKzB6TGjOV.gif"
+            ],
+            "publishedAt": "2025-11-19T18:56:50.000Z",
+            "submittedOnDailyAt": "2025-11-21T00:36:01.876Z",
+            "title": "First Frame Is the Place to Go for Video Content Customization",
+            "submittedOnDailyBy": {
+                "_id": "642447e873f7a0d40b30d677",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642447e873f7a0d40b30d677/hbUnfIhKZCeSSPv9wGAzk.png",
+                "isPro": false,
+                "fullname": "LZX",
+                "user": "zli12321",
+                "type": "user"
+            },
+            "summary": "What role does the first frame play in video generation models? Traditionally, it's viewed as the spatial-temporal starting point of a video, merely a seed for subsequent animation. In this work, we reveal a fundamentally different perspective: video models implicitly treat the first frame as a conceptual memory buffer that stores visual entities for later reuse during generation. Leveraging this insight, we show that it's possible to achieve robust and generalized video content customization in diverse scenarios, using only 20-50 training examples without architectural changes or large-scale finetuning. This unveils a powerful, overlooked capability of video generation models for reference-based video customization.",
+            "upvotes": 31,
+            "discussionId": "691fd565cce0eb9b6387af8b",
+            "projectPage": "https://firstframego.github.io",
+            "githubRepo": "https://github.com/zli12321/FFGO-Video-Customization?tab=readme-ov-file",
+            "ai_summary": "Video generation models use the first frame as a conceptual memory buffer, enabling robust customization with minimal training examples.",
+            "ai_keywords": [
+                "conceptual memory buffer",
+                "video generation models",
+                "reference-based video customization"
+            ],
+            "githubStars": 28,
+            "organization": {
+                "_id": "68b3c3bbc375e05b059370b2",
+                "name": "UMCP",
+                "fullname": "University of Maryland College Park",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68b3c2c3a4ea236d1a97871a/bji3nI5ZWm2r4JX_-HLo0.png"
+            }
+        },
+        "translation_title": "첫 번째 프레임: 비디오 콘텐츠 맞춤 설정의 시작점",
+        "purpose": "비디오 생성 모델에서 첫 번째 프레임의 역할을 재조명하고, 이를 활용한 비디오 콘텐츠 맞춤 설정의 가능성을 탐구하는 것",
+        "method": [
+            "첫 번째 프레임을 개념적 메모리 버퍼로 간주하고, 이를 통해 시각적 엔티티를 저장하고 재사용할 수 있음을 밝혀냄(we reveal a fundamentally different perspective: video models implicitly treat the first frame as a conceptual memory buffer that stores visual entities for later reuse during generation.)",
+            "20-50개의 훈련 예시만으로도 안정적이고 일반화된 비디오 콘텐츠 맞춤 설정이 가능함을 보여줌(we show that it's possible to achieve robust and generalized video content customization in diverse scenarios, using only 20-50 training examples without architectural changes or large-scale finetuning.)"
+        ],
+        "conclusion": "첫 번째 프레임의 새로운 시각은 비디오 생성 모델의 강력한 맞춤 설정 능력을 드러내며, 기존 접근 방식보다 더 좋은 성과를 이끌어낼 수 있음을 입증함.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.13719",
+            "authors": [
+                {
+                    "_id": "691f541c6d58f71c91487f52",
+                    "user": {
+                        "_id": "652d06833b5997ed71ce5c46",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/xZTXEcnEogEmBm_ledJQr.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhongang Cai",
+                        "user": "caizhongang",
+                        "type": "user"
+                    },
+                    "name": "Zhongang Cai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T09:00:34.042Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f53",
+                    "name": "Ruisi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f54",
+                    "name": "Chenyang Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f55",
+                    "user": {
+                        "_id": "646e1ef5075bbcc48ddf21e8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/_vJC0zeVOIvaNV2R6toqg.jpeg",
+                        "isPro": false,
+                        "fullname": "Pu Fanyi",
+                        "user": "pufanyi",
+                        "type": "user"
+                    },
+                    "name": "Fanyi Pu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T09:00:39.316Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f56",
+                    "name": "Junxiang Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f57",
+                    "name": "Yubo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f58",
+                    "name": "Wanqi Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f59",
+                    "name": "Zhitao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5a",
+                    "name": "Chen Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5b",
+                    "name": "Qingping Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5c",
+                    "name": "Tongxi Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5d",
+                    "name": "Jiaqi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5e",
+                    "name": "Hui En Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f5f",
+                    "user": {
+                        "_id": "647ae5462d27d3541deb70ff",
+                        "avatarUrl": "/avatars/2258bc8cde543ba27e555fa00f7eca00.svg",
+                        "isPro": false,
+                        "fullname": "Oscar J Qian",
+                        "user": "oscarqjh",
+                        "type": "user"
+                    },
+                    "name": "Oscar Qian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T09:00:37.084Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f60",
+                    "name": "Yukun Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f61",
+                    "name": "Zhiqian Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f62",
+                    "name": "Xuanke Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f63",
+                    "name": "Kewang Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f64",
+                    "user": {
+                        "_id": "65d201b32383296176d7cc6b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/mdYa9UxX8yAogrtHA3olj.jpeg",
+                        "isPro": false,
+                        "fullname": "Xiaoyang Han",
+                        "user": "robinhanxy",
+                        "type": "user"
+                    },
+                    "name": "Xiaoyang Han",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T09:00:30.589Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f65",
+                    "name": "Zukai Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f66",
+                    "name": "Xiangyu Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f67",
+                    "name": "Hanming Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f68",
+                    "name": "Lewei Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f69",
+                    "name": "Liang Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f6a",
+                    "name": "Bo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f6b",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f6c",
+                    "name": "Quan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f6d",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "691f541c6d58f71c91487f6e",
+                    "user": {
+                        "_id": "6626a471430a124253f197c8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6626a471430a124253f197c8/uVEk5nnW-bS6-no0rQ7Wh.png",
+                        "isPro": false,
+                        "fullname": "yl-1993",
+                        "user": "yl-1993",
+                        "type": "user"
+                    },
+                    "name": "Lei Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-21T09:00:32.441Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-17T18:59:33.000Z",
+            "submittedOnDailyAt": "2025-11-21T00:54:15.478Z",
+            "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
+            "submittedOnDailyBy": {
+                "_id": "652d06833b5997ed71ce5c46",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/xZTXEcnEogEmBm_ledJQr.jpeg",
+                "isPro": false,
+                "fullname": "Zhongang Cai",
+                "user": "caizhongang",
+                "type": "user"
+            },
+            "summary": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence. In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models (i.e., Qwen3-VL and InternVL3) and unified understanding and generation models (i.e., Bagel). We take a principled approach to constructing high-performing and robust spatial intelligence by systematically curating SenseNova-SI-8M: eight million diverse data samples under a rigorous taxonomy of spatial capabilities. SenseNova-SI demonstrates unprecedented performance across a broad range of spatial intelligence benchmarks: 68.7% on VSI-Bench, 43.3% on MMSI, 85.6% on MindCube, 54.6% on ViewSpatial, and 50.1% on SITE, while maintaining strong general multimodal understanding (e.g., 84.9% on MMBench-En). More importantly, we analyze the impact of data scaling, discuss early signs of emergent generalization capabilities enabled by diverse data training, analyze the risk of overfitting and language shortcuts, present a preliminary study on spatial chain-of-thought reasoning, and validate the potential downstream application. SenseNova-SI is an ongoing project, and this report will be updated continuously. All newly trained multimodal foundation models are publicly released to facilitate further research in this direction.",
+            "upvotes": 31,
+            "discussionId": "691f541d6d58f71c91487f6f",
+            "projectPage": "https://huggingface.co/sensenova/SenseNova-SI-1.1-InternVL3-8B",
+            "githubRepo": "https://github.com/OpenSenseNova/SenseNova-SI",
+            "ai_summary": "Multimodal foundation models like SenseNova-SI improve spatial intelligence through diverse data scaling and demonstrate strong performance across various spatial benchmarks while maintaining general multimodal understanding.",
+            "ai_keywords": [
+                "multimodal foundation models",
+                "spatial intelligence",
+                "SenseNova-SI",
+                "SenseNova-SI-8M",
+                "visual understanding models",
+                "unified understanding and generation models",
+                "spatial capabilities",
+                "VSI-Bench",
+                "MMSI",
+                "MindCube",
+                "ViewSpatial",
+                "SITE",
+                "MMBench-En",
+                "spatial chain-of-thought reasoning"
+            ],
+            "githubStars": 100,
+            "organization": {
+                "_id": "64f0405f8a4cf3e5e6b38f9c",
+                "name": "sensenova",
+                "fullname": "SenseNova",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/652d06833b5997ed71ce5c46/k66xcOMf4NVbMSFulUjHY.png"
+            }
+        },
+        "translation_title": "Multimodal Foundation Models로 공간 지능 확장하기",
+        "purpose": "Multimodal Foundation Models의 공간 지능 향상을 목표로 함",
+        "method": [
+            "SenseNova-SI라는 공간 지능 모델을 구축하고, 시각 이해 모델(Qwen3-VL과 InternVL3) 및 통합 이해/생성 모델(Bagel)을 바탕으로 함(In this work, we explore scaling up multimodal foundation models to cultivate spatial intelligence within the SenseNova-SI family, built upon established multimodal foundations including visual understanding models and unified understanding and generation models.)",
+            "공간 능력에 대한 체계적인 분류를 바탕으로 800만 개의 다양한 데이터 샘플을 생성하여 데이터 세트인 SenseNova-SI-8M을 구축함(We systematically curate SenseNova-SI-8M: eight million diverse data samples under a rigorous taxonomy of spatial capabilities.)",
+            "여러 공간 지능 벤치마크에서 성능을 평가하고, 데이터 확장의 영향을 분석하며, 다양한 데이터 교육의 결과로 나타나는 일반화 능리를 논의함(SenseNova-SI demonstrates unprecedented performance across a broad range of spatial intelligence benchmarks... more importantly, we analyze the impact of data scaling, discuss early signs of emergent generalization capabilities enabled by diverse data training.)"
+        ],
+        "conclusion": "SenseNova-SI 모델은 다양한 공간 지능 평가에서 뛰어난 성능을 보여주며, 연구 커뮤니티에 공개되어 추가 연구를 촉진함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.16669",
+            "authors": [
+                {
+                    "_id": "691fd2a9cce0eb9b6387af66",
+                    "user": {
+                        "_id": "6506b77a773ceaa8d52ecea1",
+                        "avatarUrl": "/avatars/0e769a0795063e1491c44760a4a83097.svg",
+                        "isPro": false,
+                        "fullname": "CJH",
+                        "user": "Howe666",
+                        "type": "user"
+                    },
+                    "name": "Junhao Cheng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-21T10:17:16.376Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd2a9cce0eb9b6387af67",
+                    "name": "Liang Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd2a9cce0eb9b6387af68",
+                    "name": "Xin Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fd2a9cce0eb9b6387af69",
+                    "name": "Jing Liao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-20T18:59:44.000Z",
+            "submittedOnDailyAt": "2025-11-21T00:18:06.892Z",
+            "title": "Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO",
+            "submittedOnDailyBy": {
+                "_id": "6506b77a773ceaa8d52ecea1",
+                "avatarUrl": "/avatars/0e769a0795063e1491c44760a4a83097.svg",
+                "isPro": false,
+                "fullname": "CJH",
+                "user": "Howe666",
+                "type": "user"
+            },
+            "summary": "While language models have become impactful in many real-world applications, video generation remains largely confined to entertainment. Motivated by video's inherent capacity to demonstrate physical-world information that is difficult to convey through language alone (e.g., imagine teaching someone to tie a tie using only text), we identify an underutilized opportunity to extend video as a new answer modality for Next-Event Prediction (NEP), formalized as Video-Next-Event Prediction (VNEP). While the established NEP task takes a video with a procedural or predictive question as input to predict the next event in text, VNEP requires dynamic video responses. This shift from telling to showing unlocks more intuitive and customized answers for procedural learning and creative exploration. However, this task remains challenging for existing models, as it demands an understanding of multimodal input, instruction-conditioned reasoning, and the generation of video with visual and semantic consistency. To address this, we introduce VANS, a model that leverages reinforcement learning to align a Vision-Language Model (VLM) with a Video Diffusion Model (VDM) for VNEP. The core of VANS is our proposed Joint-GRPO that orchestrates the VLM and VDM to function as a unit. Driven by a shared reward on their respective output, it optimizes the VLM to produce captions that are both accurate and friendly to visualize, while guiding the VDM to generate videos that are faithful to these captions and the input visual context. To enable this learning, we craft VANS-Data-100K, a dedicated dataset for the VNEP task. Experiments on procedural and predictive benchmarks demonstrate that VANS achieves state-of-the-art performance in both video event prediction and visualization. Codes are released in https://github.com/KlingTeam/VANS.",
+            "upvotes": 24,
+            "discussionId": "691fd2a9cce0eb9b6387af6a",
+            "projectPage": "https://video-as-answer.github.io/",
+            "githubRepo": "https://github.com/KlingTeam/VANS",
+            "ai_summary": "VANS, a model combining reinforcement learning, a Vision-Language Model, and a Video Diffusion Model, achieves state-of-the-art performance in Video-Next-Event Prediction by generating visually consistent and semantically accurate videos.",
+            "ai_keywords": [
+                "Vision-Language Model",
+                "Video Diffusion Model",
+                "Joint-GRPO",
+                "Video-Next-Event Prediction",
+                "procedural learning",
+                "creative exploration",
+                "multimodal input",
+                "instruction-conditioned reasoning"
+            ],
+            "githubStars": 25,
+            "organization": {
+                "_id": "662c559b322afcbae51b3c8b",
+                "name": "KlingTeam",
+                "fullname": "Kling Team",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+            }
+        },
+        "translation_title": "Video-as-Answer: 다음 비디오 이벤트 예측 및 생성을 위한 Joint-GRPO",
+        "purpose": "다음 이벤트 예측(Next-Event Prediction, NEP)을 위한 새로운 답변 방식으로 비디오 활용 기회 탐색",
+        "method": [
+            "강화 학습을 통해 Vision-Language Model(VLM)과 Video Diffusion Model(VDM)을 정렬하는 VANS 모델을 도입함(we introduce VANS, a model that leverages reinforcement learning to align a Vision-Language Model (VLM) with a Video Diffusion Model (VDM) for VNEP.)",
+            "VLM과 VDM을 하나의 단위로 기능하도록 조정하는 Joint-GRPO를 제안함(The core of VANS is our proposed Joint-GRPO that orchestrates the VLM and VDM to function as a unit.)",
+            "VNEP 작업에 특화된 VANS-Data-100K이라는 데이터셋을 구축함(To enable this learning, we craft VANS-Data-100K, a dedicated dataset for the VNEP task.)"
+        ],
+        "conclusion": "VANS는 비디오 사건 예측 및 시각화에서 최첨단 성능을 달성하며, 이러한 작업의 효율적인 처리를 열어줌.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    }
+]
