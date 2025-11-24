@@ -1,0 +1,683 @@
+[
+    {
+        "paper": {
+            "id": "2511.16334",
+            "authors": [
+                {
+                    "_id": "691fcb8fcce0eb9b6387aeda",
+                    "user": {
+                        "_id": "64bb77e786e7fb5b8a317a43",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bb77e786e7fb5b8a317a43/J0jOrlZJ9gazdYaeSH2Bo.png",
+                        "isPro": false,
+                        "fullname": "kcz",
+                        "user": "kcz358",
+                        "type": "user"
+                    },
+                    "name": "Kaichen Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-24T07:58:42.998Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aedb",
+                    "user": {
+                        "_id": "66bf00ca5b4e241fe266059d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66bf00ca5b4e241fe266059d/VoWPC_C4zoeT6dS699t7L.png",
+                        "isPro": false,
+                        "fullname": "Keming Wu",
+                        "user": "wukeming11",
+                        "type": "user"
+                    },
+                    "name": "Keming Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-24T12:27:05.035Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aedc",
+                    "name": "Zuhao Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aedd",
+                    "name": "Kairui Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aede",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aedf",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aee0",
+                    "name": "Xingxuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "691fcb8fcce0eb9b6387aee1",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-20T13:11:45.000Z",
+            "submittedOnDailyAt": "2025-11-24T00:11:13.178Z",
+            "title": "OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe",
+            "submittedOnDailyBy": {
+                "_id": "64bb77e786e7fb5b8a317a43",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64bb77e786e7fb5b8a317a43/J0jOrlZJ9gazdYaeSH2Bo.png",
+                "isPro": false,
+                "fullname": "kcz",
+                "user": "kcz358",
+                "type": "user"
+            },
+            "summary": "Recent advancements in large reasoning models have fueled growing interest in extending such capabilities to multimodal domains. However, despite notable progress in visual reasoning, the lack of transparent and reproducible data curation and training strategies remains a major barrier to scalable research. In this work, we introduce OpenMMReasoner, a fully transparent two-stage recipe for multimodal reasoning spanning supervised fine-tuning (SFT) and reinforcement learning (RL). In the SFT stage, we construct an 874K-sample cold-start dataset with rigorous step-by-step validation, providing a strong foundation for reasoning capabilities. The subsequent RL stage leverages a 74K-sample dataset across diverse domains to further sharpen and stabilize these abilities, resulting in a more robust and efficient learning process. Extensive evaluations demonstrate that our training recipe not only surpasses strong baselines but also highlights the critical role of data quality and training design in shaping multimodal reasoning performance. Notably, our method achieves a 11.6% improvement over the Qwen2.5-VL-7B-Instruct baseline across nine multimodal reasoning benchmarks, establishing a solid empirical foundation for future large-scale multimodal reasoning research. We open-sourced all our codes, pipeline, and data at https://github.com/EvolvingLMMs-Lab/OpenMMReasoner.",
+            "upvotes": 69,
+            "discussionId": "691fcb8fcce0eb9b6387aee2",
+            "projectPage": "https://evolvinglmms-lab.github.io/OpenMMReasoner/",
+            "githubRepo": "https://github.com/EvolvingLMMs-Lab/OpenMMReasoner",
+            "ai_summary": "OpenMMReasoner, a two-stage training approach combining supervised fine-tuning and reinforcement learning, enhances multimodal reasoning performance through rigorous data curation and improved training strategies.",
+            "ai_keywords": [
+                "multimodal reasoning",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "cold-start dataset",
+                "step-by-step validation",
+                "robust learning process",
+                "multimodal reasoning benchmarks",
+                "large-scale multimodal reasoning"
+            ],
+            "githubStars": 55,
+            "organization": {
+                "_id": "6583eb89bed3689928f5d845",
+                "name": "lmms-lab",
+                "fullname": "LMMs-Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d3f7d84b0933c48f3cdd9c/RpVWux8y4hHjNO6guD6sp.png"
+            }
+        },
+        "translation_title": "OpenMMReasoner: 멀티모달 추론을 위한 열린 일반적 레시피에 대한 경계를 확장하기",
+        "purpose": "투명하고 재현 가능한 데이터 관리 및 훈련 전략을 제공하여 멀티모달 추론의 연구를 확장하고자 함",
+        "method": [
+            "두 단계로 이루어진 투명한 레시피를 소개하여 supervised fine-tuning(SFT)과 reinforcement learning(RL) 과정을 통합함(In this work, we introduce OpenMMReasoner, a fully transparent two-stage recipe for multimodal reasoning spanning supervised fine-tuning (SFT) and reinforcement learning (RL).)",
+            "SFT 단계에서 874K 샘플의 초기 데이터 세트를 엄격한 검증을 통해 구축하여 추론 능력의 기초를 강화함(In the SFT stage, we construct an 874K-sample cold-start dataset with rigorous step-by-step validation, providing a strong foundation for reasoning capabilities.)",
+            "이후 RL 단계를 통해 74K 샘플의 데이터 세트를 활용해 능력을 더욱 강화하고 안정화함(The subsequent RL stage leverages a 74K-sample dataset across diverse domains to further sharpen and stabilize these abilities.)"
+        ],
+        "conclusion": "이 방법은 강력한 기준선을 초과하며 데이터 품질과 훈련 설계가 멀티모달 추론 성능에 중요한 역할을 한다는 것을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.15705",
+            "authors": [
+                {
+                    "_id": "692066fd8c38b39d6a482df1",
+                    "user": {
+                        "_id": "627b73728b6ecd7ece822825",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b73728b6ecd7ece822825/QV-sT0vwupGZYg-loLPRw.jpeg",
+                        "isPro": false,
+                        "fullname": "Yikun Wang (SII)",
+                        "user": "LibraTree",
+                        "type": "user"
+                    },
+                    "name": "Yikun Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-24T07:58:14.951Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692066fd8c38b39d6a482df2",
+                    "name": "Zuyan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692066fd8c38b39d6a482df3",
+                    "name": "Ziyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "692066fd8c38b39d6a482df4",
+                    "name": "Pengfei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692066fd8c38b39d6a482df5",
+                    "name": "Han Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692066fd8c38b39d6a482df6",
+                    "name": "Yongming Rao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/627b73728b6ecd7ece822825/iNgtSB9Pwu7odhzjGpPS3.qt"
+            ],
+            "publishedAt": "2025-11-19T18:59:22.000Z",
+            "submittedOnDailyAt": "2025-11-24T00:04:22.841Z",
+            "title": "GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization",
+            "submittedOnDailyBy": {
+                "_id": "627b73728b6ecd7ece822825",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b73728b6ecd7ece822825/QV-sT0vwupGZYg-loLPRw.jpeg",
+                "isPro": false,
+                "fullname": "Yikun Wang (SII)",
+                "user": "LibraTree",
+                "type": "user"
+            },
+            "summary": "Current research on agentic visual reasoning enables deep multimodal understanding but primarily focuses on image manipulation tools, leaving a gap toward more general-purpose agentic models. In this work, we revisit the geolocalization task, which requires not only nuanced visual grounding but also web search to confirm or refine hypotheses during reasoning. Since existing geolocalization benchmarks fail to meet the need for high-resolution imagery and the localization challenge for deep agentic reasoning, we curate GeoBench, a benchmark that includes photos and panoramas from around the world, along with a subset of satellite images of different cities to rigorously evaluate the geolocalization ability of agentic models. We also propose GeoVista, an agentic model that seamlessly integrates tool invocation within the reasoning loop, including an image-zoom-in tool to magnify regions of interest and a web-search tool to retrieve related web information. We develop a complete training pipeline for it, including a cold-start supervised fine-tuning (SFT) stage to learn reasoning patterns and tool-use priors, followed by a reinforcement learning (RL) stage to further enhance reasoning ability. We adopt a hierarchical reward to leverage multi-level geographical information and improve overall geolocalization performance. Experimental results show that GeoVista surpasses other open-source agentic models on the geolocalization task greatly and achieves performance comparable to closed-source models such as Gemini-2.5-flash and GPT-5 on most metrics.",
+            "upvotes": 57,
+            "discussionId": "692066fd8c38b39d6a482df7",
+            "projectPage": "https://ekonwang.github.io/geo-vista/",
+            "githubRepo": "https://github.com/ekonwang/GeoVista",
+            "ai_summary": "GeoVista, an agentic model integrating tool invocation and reinforcement learning, achieves high geolocalization performance on GeoBench, outperforming open-source models and matching closed-source models.",
+            "ai_keywords": [
+                "geolocalization",
+                "GeoBench",
+                "GeoVista",
+                "image-zoom-in tool",
+                "web-search tool",
+                "cold-start supervised fine-tuning",
+                "reinforcement learning",
+                "hierarchical reward",
+                "Gemini-2.5-flash",
+                "GPT-5"
+            ],
+            "githubStars": 94,
+            "organization": {
+                "_id": "6645f953c39288df638dbdd5",
+                "name": "Tencent-Hunyuan",
+                "fullname": "Tencent Hunyuan",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+            }
+        },
+        "translation_title": "GeoVista: 웹 증강 에이전트 시각 추론을 통한 지리적 위치 확인",
+        "purpose": "지리적 위치 확인을 위한 모델을 개선하고, 일반적인 에이전트 모델 개발에 기여하기 위함",
+        "method": [
+            "GeoBench를 구축해 다양한 도시의 사진 및 파노라마, 위성 이미지를 포함한 데이터셋을 마련함(we curate GeoBench, a benchmark that includes photos and panoramas from around the world, along with a subset of satellite images of different cities).",
+            "GeoVista라는 에이전트 모델을 제안해 추론 과정에서 도구 호출 기능을 통합함(We also propose GeoVista, an agentic model that seamlessly integrates tool invocation within the reasoning loop).",
+            "훈련 파이프라인을 구축하고, 감독을 통한 미세 조정(SFT) 및 강화 학습(RL) 단계를 통해 추론 능력을 향상시킴(We develop a complete training pipeline for it, including a cold-start supervised fine-tuning (SFT) stage to learn reasoning patterns and tool-use priors, followed by a reinforcement learning (RL) stage)."
+        ],
+        "conclusion": "GeoVista는 지리적 위치 확인 작업에서 다른 오픈 소스 에이전트 모델을 크게 능가하며, 많은 평가 지표에서 Gemini-2.5-flash 및 GPT-5와 같은 폐쇄형 모델에 필적하는 성과를 달성함",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.16719",
+            "authors": [
+                {
+                    "_id": "6923c54bb5612535ed9558c9",
+                    "name": "Nicolas Carion",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ca",
+                    "name": "Laura Gustafson",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558cb",
+                    "name": "Yuan-Ting Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558cc",
+                    "name": "Shoubhik Debnath",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558cd",
+                    "name": "Ronghang Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ce",
+                    "name": "Didac Suris",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558cf",
+                    "name": "Chaitanya Ryali",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d0",
+                    "name": "Kalyan Vasudev Alwala",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d1",
+                    "name": "Haitham Khedr",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d2",
+                    "name": "Andrew Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d3",
+                    "name": "Jie Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d4",
+                    "name": "Tengyu Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d5",
+                    "name": "Baishan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d6",
+                    "name": "Arpit Kalla",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d7",
+                    "name": "Markus Marks",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d8",
+                    "name": "Joseph Greer",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558d9",
+                    "name": "Meng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558da",
+                    "name": "Peize Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558db",
+                    "name": "Roman Rädle",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558dc",
+                    "name": "Triantafyllos Afouras",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558dd",
+                    "name": "Effrosyni Mavroudi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558de",
+                    "name": "Katherine Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558df",
+                    "name": "Tsung-Han Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e0",
+                    "name": "Yu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e1",
+                    "name": "Liliane Momeni",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e2",
+                    "name": "Rishi Hazra",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e3",
+                    "name": "Shuangrui Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e4",
+                    "name": "Sagar Vaze",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e5",
+                    "name": "Francois Porcher",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e6",
+                    "name": "Feng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e7",
+                    "name": "Siyuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e8",
+                    "name": "Aishwarya Kamath",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558e9",
+                    "name": "Ho Kei Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ea",
+                    "name": "Piotr Dollár",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558eb",
+                    "name": "Nikhila Ravi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ec",
+                    "name": "Kate Saenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ed",
+                    "name": "Pengchuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923c54bb5612535ed9558ee",
+                    "name": "Christoph Feichtenhofer",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-20T18:59:56.000Z",
+            "submittedOnDailyAt": "2025-11-24T00:09:18.247Z",
+            "title": "SAM 3: Segment Anything with Concepts",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We present Segment Anything Model (SAM) 3, a unified model that detects, segments, and tracks objects in images and videos based on concept prompts, which we define as either short noun phrases (e.g., \"yellow school bus\"), image exemplars, or a combination of both. Promptable Concept Segmentation (PCS) takes such prompts and returns segmentation masks and unique identities for all matching object instances. To advance PCS, we build a scalable data engine that produces a high-quality dataset with 4M unique concept labels, including hard negatives, across images and videos. Our model consists of an image-level detector and a memory-based video tracker that share a single backbone. Recognition and localization are decoupled with a presence head, which boosts detection accuracy. SAM 3 doubles the accuracy of existing systems in both image and video PCS, and improves previous SAM capabilities on visual segmentation tasks. We open source SAM 3 along with our new Segment Anything with Concepts (SA-Co) benchmark for promptable concept segmentation.",
+            "upvotes": 43,
+            "discussionId": "6923c54bb5612535ed9558ef",
+            "projectPage": "https://ai.meta.com/sam3/",
+            "githubRepo": "https://github.com/facebookresearch/sam3",
+            "ai_summary": "Segment Anything Model 3 achieves state-of-the-art performance in promptable concept segmentation and tracking by leveraging a unified model architecture with decoupled recognition and localization.",
+            "ai_keywords": [
+                "Segment Anything Model",
+                "Promptable Concept Segmentation",
+                "concept prompts",
+                "segmentation masks",
+                "unique identities",
+                "scalable data engine",
+                "image-level detector",
+                "memory-based video tracker",
+                "presence head",
+                "visual segmentation tasks",
+                "Segment Anything with Concepts benchmark"
+            ],
+            "githubStars": 3695,
+            "organization": {
+                "_id": "5e63d8713071d5be688861b8",
+                "name": "facebook",
+                "fullname": "AI at Meta",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1592839207516-noauth.png"
+            }
+        },
+        "translation_title": "SAM 3: 개념을 통한 무언가를 분할하기",
+        "purpose": "이미지와 비디오에서 개념 프롬프트를 기반으로 객체를 감지하고 분할 및 추적하는 통합 모델 개발",
+        "method": [
+            "각각의 짧은 명사구나 이미지 예시를 사용한 개념 프롬프트를 기반으로 객체를 분할하는 Promptable Concept Segmentation(PCS) 방법을 개발함(we define as either short noun phrases (e.g., 'yellow school bus'), image exemplars, or a combination of both.)",
+            "4M 고유 개념 레이블을 포함한 고품질 데이터 세트를 생성하는 확장 가능한 데이터 엔진을 구축함(To advance PCS, we build a scalable data engine that produces a high-quality dataset with 4M unique concept labels, including hard negatives, across images and videos.)",
+            "이미지 감지기와 메모리 기반 비디오 추적기를 공유하는 구조로 모델을 설계함(Our model consists of an image-level detector and a memory-based video tracker that share a single backbone.)",
+            "Presence head를 통해 인식과 위치 추정을 분리하여 감지 정확도를 향상시킴(Recognition and localization are decoupled with a presence head, which boosts detection accuracy.)"
+        ],
+        "conclusion": "SAM 3는 이미지와 비디오에서 개념 분할 정확도를 두 배로 향상시키고, 이전 SAM 기능을 개선하여 시각적 분할 작업에서 성과를 거둠.",
+        "keywords": [
+            "Image Segmentation",
+            "Video Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.15210",
+            "authors": [
+                {
+                    "_id": "6923ff30b5612535ed955a20",
+                    "name": "Vladislav Pedashenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a21",
+                    "name": "Laida Kushnareva",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a22",
+                    "name": "Yana Khassan Nibal",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a23",
+                    "name": "Eduard Tulchinskii",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a24",
+                    "name": "Kristian Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a25",
+                    "name": "Vladislav Zharchinskii",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a26",
+                    "name": "Yury Maximov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923ff30b5612535ed955a27",
+                    "name": "Irina Piontkovskaya",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/636254dc2691058b19d9276a/5yDeYqs7yyBgD7hoKeAP1.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/636254dc2691058b19d9276a/qwi_UW2deSSfccjsrV1V8.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/636254dc2691058b19d9276a/baU0ZNQ4OfKtZCT5b6QGJ.png"
+            ],
+            "publishedAt": "2025-11-19T08:00:40.000Z",
+            "submittedOnDailyAt": "2025-11-24T04:28:35.717Z",
+            "title": "Unveiling Intrinsic Dimension of Texts: from Academic Abstract to Creative Story",
+            "submittedOnDailyBy": {
+                "_id": "636254dc2691058b19d9276a",
+                "avatarUrl": "/avatars/36eb0e27e0e321fb0ac513f0d4d67c95.svg",
+                "isPro": false,
+                "fullname": "Kushnareva",
+                "user": "Kushnareva",
+                "type": "user"
+            },
+            "summary": "Intrinsic dimension (ID) is an important tool in modern LLM analysis, informing studies of training dynamics, scaling behavior, and dataset structure, yet its textual determinants remain underexplored. We provide the first comprehensive study grounding ID in interpretable text properties through cross-encoder analysis, linguistic features, and sparse autoencoders (SAEs). In this work, we establish three key findings. First, ID is complementary to entropy-based metrics: after controlling for length, the two are uncorrelated, with ID capturing geometric complexity orthogonal to prediction quality. Second, ID exhibits robust genre stratification: scientific prose shows low ID (~8), encyclopedic content medium ID (~9), and creative/opinion writing high ID (~10.5) across all models tested. This reveals that contemporary LLMs find scientific text \"representationally simple\" while fiction requires additional degrees of freedom. Third, using SAEs, we identify causal features: scientific signals (formal tone, report templates, statistics) reduce ID; humanized signals (personalization, emotion, narrative) increase it. Steering experiments confirm these effects are causal. Thus, for contemporary models, scientific writing appears comparatively \"easy\", whereas fiction, opinion, and affect add representational degrees of freedom. Our multi-faceted analysis provides practical guidance for the proper use of ID and the sound interpretation of ID-based results.",
+            "upvotes": 33,
+            "discussionId": "6923ff30b5612535ed955a28",
+            "ai_summary": "The study explores intrinsic dimension in large language models through cross-encoder analysis, linguistic features, and sparse autoencoders, revealing its independence from entropy, genre-specific stratification, and causal features related to text type.",
+            "ai_keywords": [
+                "intrinsic dimension",
+                "cross-encoder analysis",
+                "sparse autoencoders",
+                "entropy-based metrics",
+                "genre stratification",
+                "scientific prose",
+                "encyclopedic content",
+                "creative/opinion writing",
+                "causal features",
+                "formal tone",
+                "report templates",
+                "statistics",
+                "humanized signals",
+                "personalization",
+                "emotion",
+                "narrative"
+            ]
+        },
+        "translation_title": "텍스트의 내재적 차원 드러내기: 학술 요약에서 창의적 이야기까지",
+        "purpose": "텍스트의 내재적 차원(ID)을 이해하고 설명하기 위한 종합 연구",
+        "method": [
+            "크로스 인코더 분석과 언어적 특징, 희소 자동 인코더(SAE)를 통해 ID를 텍스트 속성과 연결함(we provide the first comprehensive study grounding ID in interpretable text properties through cross-encoder analysis, linguistic features, and sparse autoencoders (SAEs).)",
+            "ID와 엔트로피 기반 메트릭의 상관관계를 분석하고, 다양한 장르에 따른 ID 값을 연구함(first, ID is complementary to entropy-based metrics... Second, ID exhibits robust genre stratification.)",
+            "SAE를 활용해 과학적 신호와 인간화된 신호의 인과적 특징을 식별함(third, using SAEs, we identify causal features...)"
+        ],
+        "conclusion": "과학적 글쓰기는 상대적으로 '쉬운' 반면, 픽션, 의견, 감정의 표현은 더 많은 표현 자유도를 요구한다는 것을 발견함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.13593",
+            "authors": [
+                {
+                    "_id": "6923bd09b5612535ed95586d",
+                    "name": "Piaohong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed95586e",
+                    "user": {
+                        "_id": "690f8f1364c5f58f09c08312",
+                        "avatarUrl": "/avatars/7f38fb15cc5a63fdeab7c949a3ec0433.svg",
+                        "isPro": false,
+                        "fullname": "Motong Tian",
+                        "user": "motongt2",
+                        "type": "user"
+                    },
+                    "name": "Motong Tian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-24T07:55:06.380Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed95586f",
+                    "name": "Jiaxian Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955870",
+                    "name": "Yuan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955871",
+                    "name": "Yuqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955872",
+                    "name": "Qianben Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955873",
+                    "name": "Tiannan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955874",
+                    "name": "Zhicong Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955875",
+                    "name": "Jiawei Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955876",
+                    "name": "Yuchen Eleanor Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6923bd09b5612535ed955877",
+                    "name": "Wangchunshu Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-17T16:55:19.000Z",
+            "submittedOnDailyAt": "2025-11-24T00:13:31.976Z",
+            "title": "O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents",
+            "submittedOnDailyBy": {
+                "_id": "632bfaebea6e62428ab0e9c2",
+                "avatarUrl": "/avatars/344aaf371bbba9aea091b12741c451e5.svg",
+                "isPro": false,
+                "fullname": "Tiannan Wang",
+                "user": "WTNswaggy",
+                "type": "user"
+            },
+            "summary": "Recent advancements in LLM-powered agents have demonstrated significant potential in generating human-like responses; however, they continue to face challenges in maintaining long-term interactions within complex environments, primarily due to limitations in contextual consistency and dynamic personalization. Existing memory systems often depend on semantic grouping prior to retrieval, which can overlook semantically irrelevant yet critical user information and introduce retrieval noise. In this report, we propose the initial design of O-Mem, a novel memory framework based on active user profiling that dynamically extracts and updates user characteristics and event records from their proactive interactions with agents. O-Mem supports hierarchical retrieval of persona attributes and topic-related context, enabling more adaptive and coherent personalized responses. O-Mem achieves 51.67% on the public LoCoMo benchmark, a nearly 3% improvement upon LangMem,the previous state-of-the-art, and it achieves 62.99% on PERSONAMEM, a 3.5% improvement upon A-Mem,the previous state-of-the-art. O-Mem also boosts token and interaction response time efficiency compared to previous memory frameworks. Our work opens up promising directions for developing efficient and human-like personalized AI assistants in the future.",
+            "upvotes": 17,
+            "discussionId": "6923bd09b5612535ed955878",
+            "ai_summary": "O-Mem, an active user profiling memory framework, enhances contextual consistency and dynamic personalization in LLM-powered agents, improving performance on benchmarks and response efficiency.",
+            "ai_keywords": [
+                "LLM-powered agents",
+                "contextual consistency",
+                "dynamic personalization",
+                "memory framework",
+                "active user profiling",
+                "hierarchical retrieval",
+                "persona attributes",
+                "topic-related context",
+                "LoCoMo benchmark",
+                "LangMem",
+                "PERSONAMEM",
+                "A-Mem",
+                "token response time",
+                "interaction response time"
+            ],
+            "organization": {
+                "_id": "684a463d17db6e9f271a0b66",
+                "name": "PersonalAILab",
+                "fullname": "OPPO-Personal-AI-Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/632bfaebea6e62428ab0e9c2/P5L4TzWg2d4NXntonI-fK.png"
+            }
+        },
+        "translation_title": "O-Mem: 개인화된 장기 지향 자기 진화 에이전트를 위한 옴니 메모리 시스템",
+        "purpose": "복잡한 환경에서 장기적인 상호작용을 유지하기 위한 개인화된 메모리 시스템 연구",
+        "method": [
+            "O-Mem이라는 새로운 메모리 프레임워크를 제안하여 능동적인 사용자 프로파일링 기반으로 사용자 특성과 사건 기록을 동적으로 추출하고 업데이트함(we propose the initial design of O-Mem, a novel memory framework based on active user profiling that dynamically extracts and updates user characteristics and event records from their proactive interactions with agents.)",
+            "O-Mem의 계층적 검색 기능을 통해 개인 특성과 주제 관련 맥락을 더 잘 지원함(O-Mem supports hierarchical retrieval of persona attributes and topic-related context, enabling more adaptive and coherent personalized responses.)",
+            "O-Mem이 공공 LoCoMo 벤치마크에서 기존의 최고 성능인 LangMem보다 3% 향상된 51.67%를 기록함(O-Mem achieves 51.67% on the public LoCoMo benchmark, a nearly 3% improvement upon LangMem, the previous state-of-the-art.)"
+        ],
+        "conclusion": "O-Mem은 개인화된 AI 어시스턴트를 개발하는 데 있어 효율성 및 인간 같은 반응을 향상시키는 방향성을 열어줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
