@@ -1,0 +1,590 @@
+[
+    {
+        "paper": {
+            "id": "2511.18423",
+            "authors": [
+                {
+                    "_id": "692518ff16eb3a9f1310391c",
+                    "name": "B. Y. Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "692518ff16eb3a9f1310391d",
+                    "name": "Chaofan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "692518ff16eb3a9f1310391e",
+                    "name": "Hongjin Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "692518ff16eb3a9f1310391f",
+                    "user": {
+                        "_id": "6145b3fd35135ec7e8d4ca45",
+                        "avatarUrl": "/avatars/5dc25d18d6a8418c9b1a29ece9a48f5a.svg",
+                        "isPro": false,
+                        "fullname": "Shuqi Lu",
+                        "user": "shuqi",
+                        "type": "user"
+                    },
+                    "name": "Shuqi Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T12:18:11.163Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692518ff16eb3a9f13103920",
+                    "user": {
+                        "_id": "64a38c590111d5ff6c3d5f2b",
+                        "avatarUrl": "/avatars/ef13dc7ce243819bc0da9b04e778b432.svg",
+                        "isPro": false,
+                        "fullname": "zhengliu",
+                        "user": "lz1001",
+                        "type": "user"
+                    },
+                    "name": "Zheng Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T12:17:59.618Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-23T12:29:33.000Z",
+            "submittedOnDailyAt": "2025-11-25T00:25:04.757Z",
+            "title": "General Agentic Memory Via Deep Research",
+            "submittedOnDailyBy": {
+                "_id": "64a38c590111d5ff6c3d5f2b",
+                "avatarUrl": "/avatars/ef13dc7ce243819bc0da9b04e778b432.svg",
+                "isPro": false,
+                "fullname": "zhengliu",
+                "user": "lz1001",
+                "type": "user"
+            },
+            "summary": "Memory is critical for AI agents, yet the widely-adopted static memory, aiming to create readily available memory in advance, is inevitably subject to severe information loss. To address this limitation, we propose a novel framework called general agentic memory (GAM). GAM follows the principle of \"just-in time (JIT) compilation\" where it focuses on creating optimized contexts for its client at runtime while keeping only simple but useful memory during the offline stage. To this end, GAM employs a duo-design with the following components. 1) Memorizer, which highlights key historical information using a lightweight memory, while maintaining complete historical information within a universal page-store. 2) Researcher, which retrieves and integrates useful information from the page-store for its online request guided by the pre-constructed memory. This design allows GAM to effectively leverage the agentic capabilities and test-time scalability of frontier large language models (LLMs), while also facilitating end-to-end performance optimization through reinforcement learning. In our experimental study, we demonstrate that GAM achieves substantial improvement on various memory-grounded task completion scenarios against existing memory systems.",
+            "upvotes": 115,
+            "discussionId": "692518ff16eb3a9f13103921",
+            "projectPage": "https://github.com/VectorSpaceLab/general-agentic-memory",
+            "githubRepo": "https://github.com/VectorSpaceLab/general-agentic-memory",
+            "ai_summary": "GAM, a novel framework that employs JIT compilation principles, improves memory efficiency and task completion by leveraging a lightweight memorizer and researcher in conjunction with reinforcement learning.",
+            "ai_keywords": [
+                "general agentic memory",
+                "GAM",
+                "just-in time compilation",
+                "JIT compilation",
+                "memorizer",
+                "researcher",
+                "universal page-store",
+                "large language models",
+                "LLMs",
+                "reinforcement learning"
+            ],
+            "githubStars": 78,
+            "organization": {
+                "_id": "61be9739d2f9358e24ca0a4f",
+                "name": "BAAI",
+                "fullname": "Beijing Academy of Artificial Intelligence",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664511063789-632c234f42c386ebd2710434.png"
+            }
+        },
+        "translation_title": "딥 연구를 통한 일반적인 에이전트 메모리",
+        "purpose": "AI 에이전트를 위한 메모리 시스템의 정보를 효과적으로 활용하고 개선하기 위한 새로운 프레임워크 연구",
+        "method": [
+            "정적 메모리의 한계를 극복하기 위해 일반 에이전트 메모리(GAM)라는 새로운 프레임워크를 제안함(we propose a novel framework called general agentic memory (GAM).)",
+            "GAM은 'just-in time (JIT) compilation' 원칙을 따르며, 온라인 요청을 위한 최적화된 컨텍스트를 생성하도록 설계됨(GAM follows the principle of 'just-in time (JIT) compilation' where it focuses on creating optimized contexts for its client at runtime).",
+            "GAM은 경량 메모리를 사용하는 Memorizer와 완전한 역사 정보를 제공하는 universal page-store를 포함하는 이중 설계를 채택함(GAM employs a duo-design with the following components: 1) Memorizer, which highlights key historical information using a lightweight memory).",
+            "연구자는 page-store에서 유용한 정보를 검색하고 통합하여 온라인 요청에 응답하도록 설계됨(2) Researcher, which retrieves and integrates useful information from the page-store for its online request guided by the pre-constructed memory.)"
+        ],
+        "conclusion": "GAM은 기존 메모리 시스템에 비해 다양한 메모리 기반 작업 완료 시나리오에서 현저한 개선을 달성함.",
+        "keywords": [
+            "Memory",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19304",
+            "authors": [
+                {
+                    "_id": "6925274e16eb3a9f13103998",
+                    "user": {
+                        "_id": "65f40e83653c231cbaf7defe",
+                        "avatarUrl": "/avatars/afa5ce72324112739e539865c9aee26b.svg",
+                        "isPro": false,
+                        "fullname": "Jiayi Zhang",
+                        "user": "didiforhugface",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:05:29.887Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f13103999",
+                    "name": "Yiran Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399a",
+                    "user": {
+                        "_id": "6621e02cf34ab6caed18e9c6",
+                        "avatarUrl": "/avatars/15888b2060d1cc56be9fa55fd4b34005.svg",
+                        "isPro": false,
+                        "fullname": "Fanqi Kong",
+                        "user": "Fancylalala",
+                        "type": "user"
+                    },
+                    "name": "Fanqi Kong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:05:25.655Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399b",
+                    "user": {
+                        "_id": "67c443afb753bd020f9c97d8",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/xbACBNLSopWmN5G1K8h_Y.png",
+                        "isPro": false,
+                        "fullname": "Cheng",
+                        "user": "YangC777",
+                        "type": "user"
+                    },
+                    "name": "Yang Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:05:18.820Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399c",
+                    "name": "Yifan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399d",
+                    "name": "Zhaoyang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399e",
+                    "user": {
+                        "_id": "649ea7106282cb41e77760bc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649ea7106282cb41e77760bc/HlWjaqxr03ob93vdKg_LQ.jpeg",
+                        "isPro": false,
+                        "fullname": "Isaac",
+                        "user": "XiangJinYu",
+                        "type": "user"
+                    },
+                    "name": "Jinyu Xiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:05:23.607Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f1310399f",
+                    "name": "Jianhao Ruan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a0",
+                    "name": "Jinlin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a1",
+                    "name": "Maojia Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a2",
+                    "user": {
+                        "_id": "6632160088f75d987d1a156f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6632160088f75d987d1a156f/mYlMQfK1BGWeEbOSMmeSb.jpeg",
+                        "isPro": false,
+                        "fullname": "Hongzhang Liu",
+                        "user": "Alphamasterliu",
+                        "type": "user"
+                    },
+                    "name": "HongZhang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:05:27.575Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a3",
+                    "name": "Xiangru Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a4",
+                    "name": "Bang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a5",
+                    "name": "Chenglin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6925274e16eb3a9f131039a6",
+                    "name": "Yuyu Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-24T16:54:23.000Z",
+            "submittedOnDailyAt": "2025-11-25T01:26:13.029Z",
+            "title": "AutoEnv: Automated Environments for Measuring Cross-Environment Agent Learning",
+            "submittedOnDailyBy": {
+                "_id": "65f40e83653c231cbaf7defe",
+                "avatarUrl": "/avatars/afa5ce72324112739e539865c9aee26b.svg",
+                "isPro": false,
+                "fullname": "Jiayi Zhang",
+                "user": "didiforhugface",
+                "type": "user"
+            },
+            "summary": "Humans naturally adapt to diverse environments by learning underlying rules across worlds with different dynamics, observations, and reward structures. In contrast, existing agents typically demonstrate improvements via self-evolving within a single domain, implicitly assuming a fixed environment distribution. Cross-environment learning has remained largely unmeasured: there is no standard collection of controllable, heterogeneous environments, nor a unified way to represent how agents learn. We address these gaps in two steps. First, we propose AutoEnv, an automated framework that treats environments as factorizable distributions over transitions, observations, and rewards, enabling low-cost (4.12 USD on average) generation of heterogeneous worlds. Using AutoEnv, we construct AutoEnv-36, a dataset of 36 environments with 358 validated levels, on which seven language models achieve 12-49% normalized reward, demonstrating the challenge of AutoEnv-36. Second, we formalize agent learning as a component-centric process driven by three stages of Selection, Optimization, and Evaluation applied to an improvable agent component. Using this formulation, we design eight learning methods and evaluate them on AutoEnv-36. Empirically, the gain of any single learning method quickly decrease as the number of environments increases, revealing that fixed learning methods do not scale across heterogeneous environments. Environment-adaptive selection of learning methods substantially improves performance but exhibits diminishing returns as the method space expands. These results highlight both the necessity and the current limitations of agent learning for scalable cross-environment generalization, and position AutoEnv and AutoEnv-36 as a testbed for studying cross-environment agent learning. The code is avaiable at https://github.com/FoundationAgents/AutoEnv.",
+            "upvotes": 75,
+            "discussionId": "6925274f16eb3a9f131039a7",
+            "ai_summary": "AutoEnv and AutoEnv-36 provide a standardized framework and dataset for evaluating cross-environment learning in agents, highlighting the challenges and limitations of existing learning methods.",
+            "ai_keywords": [
+                "AutoEnv",
+                "factorizable distributions",
+                "heterogeneous environments",
+                "AutoEnv-36",
+                "language models",
+                "normalized reward",
+                "component-centric process",
+                "Selection",
+                "Optimization",
+                "Evaluation",
+                "learning methods",
+                "environment-adaptive selection"
+            ]
+        },
+        "translation_title": "AutoEnv: 교차 환경 에이전트 학습 측정을 위한 자동화된 환경",
+        "purpose": "교차 환경에서 에이전트가 학습하는 방식을 측정하고 평가하기 위한 표준화된 환경과 방법론 개발",
+        "method": [
+            "자동화된 프레임워크인 AutoEnv를 제안하여 환경을 전이, 관찰 및 보상에 대한 분포로 처리하고 다양한 환경을 저비용으로 생성하도록 함(We propose AutoEnv, an automated framework that treats environments as factorizable distributions over transitions, observations, and rewards, enabling low-cost generation of heterogeneous worlds.)",
+            "AutoEnv를 활용하여 36개 환경과 358개의 검증된 레벨로 구성된 AutoEnv-36 데이터 세트를 구축함(Using AutoEnv, we construct AutoEnv-36, a dataset of 36 environments with 358 validated levels.)",
+            "에이전트 학습을 선택, 최적화 및 평가의 세 단계로 구성된 프로세스로 공식화하고 여기에 8개의 학습 방법을 설계하여 AutoEnv-36에서 평가함(We formalize agent learning as a component-centric process driven by three stages of Selection, Optimization, and Evaluation applied to an improvable agent component.)"
+        ],
+        "conclusion": "AutoEnv 및 AutoEnv-36은 교차 환경 일반화를 연구하기 위한 실험 공간으로 자리잡았으며, 다양한 환경에서의 학습 방법의 필요성과 한계를 강조함.",
+        "keywords": [
+            "Robotics",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.15567",
+            "authors": [
+                {
+                    "_id": "692067008c38b39d6a482df9",
+                    "user": {
+                        "_id": "64440be5af034cdfd69ca3a7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                        "isPro": false,
+                        "fullname": "Qinghong (Kevin) Lin",
+                        "user": "KevinQHLin",
+                        "type": "user"
+                    },
+                    "name": "Kevin Qinghong Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T09:06:05.314Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dfa",
+                    "name": "Siyuan Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dfb",
+                    "name": "Linjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dfc",
+                    "user": {
+                        "_id": "630713411801ecc7d2592a7c",
+                        "avatarUrl": "/avatars/fb36f69f03421c3a2a7f72ba0858fa60.svg",
+                        "isPro": true,
+                        "fullname": "Zhengyuan Yang",
+                        "user": "zyang39",
+                        "type": "user"
+                    },
+                    "name": "Zhengyuan Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T09:36:56.053Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dfd",
+                    "name": "Lijuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dfe",
+                    "user": {
+                        "_id": "6565ed28a5ec0231cb07225f",
+                        "avatarUrl": "/avatars/7f95bba9aa7811d56eecb380827abfac.svg",
+                        "isPro": false,
+                        "fullname": "prof philip torr",
+                        "user": "philiptorr",
+                        "type": "user"
+                    },
+                    "name": "Philip Torr",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T09:36:50.554Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692067008c38b39d6a482dff",
+                    "user": {
+                        "_id": "661ab3da2b14565c7acccf5c",
+                        "avatarUrl": "/avatars/fa4fc03664803e02aede4d4c3d50b393.svg",
+                        "isPro": false,
+                        "fullname": "Mike Zheng Shou",
+                        "user": "AnalMom",
+                        "type": "user"
+                    },
+                    "name": "Mike Zheng Shou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T09:36:42.407Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/46SJDQ6RRkIZYeUC4jmvo.mp4"
+            ],
+            "publishedAt": "2025-11-19T16:00:02.000Z",
+            "submittedOnDailyAt": "2025-11-25T00:11:39.230Z",
+            "title": "Computer-Use Agents as Judges for Generative User Interface",
+            "submittedOnDailyBy": {
+                "_id": "64440be5af034cdfd69ca3a7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                "isPro": false,
+                "fullname": "Qinghong (Kevin) Lin",
+                "user": "KevinQHLin",
+                "type": "user"
+            },
+            "summary": "Computer-Use Agents (CUA) are becoming increasingly capable of autonomously operating digital environments through Graphical User Interfaces (GUI). Yet, most GUI remain designed primarily for humans--prioritizing aesthetics and usability--forcing agents to adopt human-oriented behaviors that are unnecessary for efficient task execution. At the same time, rapid advances in coding-oriented language models (Coder) have transformed automatic GUI design. This raises a fundamental question: Can CUA as judges to assist Coder for automatic GUI design? To investigate, we introduce AUI-Gym, a benchmark for Automatic GUI development spanning 52 applications across diverse domains. Using language models, we synthesize 1560 tasks that simulate real-world scenarios. To ensure task reliability, we further develop a verifier that programmatically checks whether each task is executable within its environment. Building on this, we propose a Coder-CUA in Collaboration framework: the Coder acts as Designer, generating and revising websites, while the CUA serves as Judge, evaluating functionality and refining designs. Success is measured not by visual appearance, but by task solvability and CUA navigation success rate. To turn CUA feedback into usable guidance, we design a CUA Dashboard that compresses multi-step navigation histories into concise visual summaries, offering interpretable guidance for iterative redesign. By positioning agents as both designers and judges, our framework shifts interface design toward agent-native efficiency and reliability. Our work takes a step toward shifting agents from passive use toward active participation in digital environments. Our code and dataset are available at https://github.com/showlab/AUI.",
+            "upvotes": 44,
+            "discussionId": "692067008c38b39d6a482e00",
+            "projectPage": "https://showlab.github.io/AUI/",
+            "githubRepo": "https://github.com/showlab/AUI",
+            "ai_summary": "A framework leveraging Computer-Use Agents as judges to assist coding-oriented language models in designing efficient and functional GUIs.",
+            "ai_keywords": [
+                "Computer-Use Agents",
+                "CUA",
+                "Graphical User Interfaces",
+                "GUI",
+                "language models",
+                "Coder",
+                "AUI-Gym",
+                "task reliability",
+                "Coder-CUA collaboration",
+                "CUA Dashboard",
+                "task solvability",
+                "navigation success rate"
+            ],
+            "githubStars": 21,
+            "organization": {
+                "_id": "63a553c4ce5763e06f78669c",
+                "name": "showlab",
+                "fullname": "Show Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1671779505215-63a55320ce5763e06f78519c.png"
+            }
+        },
+        "translation_title": "Generative User Interface를 위한 평가자로서의 Computer-Use Agents",
+        "purpose": "자동 GUI 디자인을 위해 Coder를 지원할 수 있는 평가자로서의 CUA의 가능성을 연구함",
+        "method": [
+            "52개 다양한 도메인에 걸쳐 Automatic GUI 개발을 위한 벤치마크 AUI-Gym을 도입함(To investigate, we introduce AUI-Gym, a benchmark for Automatic GUI development spanning 52 applications across diverse domains.)",
+            "언어 모델을 사용하여 실제 시나리오를 시뮬레이션하는 1560개의 작업을 합성함(Using language models, we synthesize 1560 tasks that simulate real-world scenarios.)",
+            "CUA가 기능을 평가하고 디자인을 개선하는 역할로 작용하는 Coder-CUA 협업 프레임워크를 제안함(Building on this, we propose a Coder-CUA in Collaboration framework: the Coder acts as Designer, generating and revising websites, while the CUA serves as Judge, evaluating functionality and refining designs.)"
+        ],
+        "conclusion": "CUA의 피드백을 활용하여 에이전트의 효율성과 신뢰성을 중심으로 한 인터페이스 디자인을 구현함",
+        "keywords": [
+            "Computer Vision",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19365",
+            "authors": [
+                {
+                    "_id": "69251d6b16eb3a9f13103933",
+                    "user": {
+                        "_id": "65d851096769b3a9c9376134",
+                        "avatarUrl": "/avatars/e4ca32cf96fa8bcba44f1f1dc8e0ec9b.svg",
+                        "isPro": false,
+                        "fullname": "ZehongMa",
+                        "user": "zehongma",
+                        "type": "user"
+                    },
+                    "name": "Zehong Ma",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T09:37:20.953Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69251d6b16eb3a9f13103934",
+                    "name": "Longhui Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "69251d6b16eb3a9f13103935",
+                    "name": "Shuai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69251d6b16eb3a9f13103936",
+                    "user": {
+                        "_id": "681c126ad15c979cc4c8cad1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/rpuwzjv2qXzrA4hfbdXJ8.png",
+                        "isPro": false,
+                        "fullname": "shiliang zhang",
+                        "user": "slade96",
+                        "type": "user"
+                    },
+                    "name": "Shiliang Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-25T09:37:37.350Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69251d6b16eb3a9f13103937",
+                    "name": "Qi Tian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-24T17:59:06.000Z",
+            "submittedOnDailyAt": "2025-11-25T01:03:11.081Z",
+            "title": "DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation",
+            "submittedOnDailyBy": {
+                "_id": "65d851096769b3a9c9376134",
+                "avatarUrl": "/avatars/e4ca32cf96fa8bcba44f1f1dc8e0ec9b.svg",
+                "isPro": false,
+                "fullname": "ZehongMa",
+                "user": "zehongma",
+                "type": "user"
+            },
+            "summary": "Pixel diffusion aims to generate images directly in pixel space in an end-to-end fashion. This approach avoids the limitations of VAE in the two-stage latent diffusion, offering higher model capacity. Existing pixel diffusion models suffer from slow training and inference, as they usually model both high-frequency signals and low-frequency semantics within a single diffusion transformer (DiT). To pursue a more efficient pixel diffusion paradigm, we propose the frequency-DeCoupled pixel diffusion framework. With the intuition to decouple the generation of high and low frequency components, we leverage a lightweight pixel decoder to generate high-frequency details conditioned on semantic guidance from the DiT. This thus frees the DiT to specialize in modeling low-frequency semantics. In addition, we introduce a frequency-aware flow-matching loss that emphasizes visually salient frequencies while suppressing insignificant ones. Extensive experiments show that DeCo achieves superior performance among pixel diffusion models, attaining FID of 1.62 (256x256) and 2.22 (512x512) on ImageNet, closing the gap with latent diffusion methods. Furthermore, our pretrained text-to-image model achieves a leading overall score of 0.86 on GenEval in system-level comparison. Codes are publicly available at https://github.com/Zehong-Ma/DeCo.",
+            "upvotes": 41,
+            "discussionId": "69251d6b16eb3a9f13103938",
+            "projectPage": "https://zehong-ma.github.io/DeCo/",
+            "githubRepo": "https://github.com/Zehong-Ma/DeCo",
+            "ai_summary": "The frequency-DeCoupled pixel diffusion framework improves image generation efficiency and quality by separating high-frequency details and low-frequency semantics, achieving superior performance compared to existing pixel diffusion models.",
+            "ai_keywords": [
+                "pixel diffusion",
+                "pixel space",
+                "VAE",
+                "latent diffusion",
+                "diffusion transformer (DiT)",
+                "frequency-DeCoupled pixel diffusion",
+                "lightweight pixel decoder",
+                "semantic guidance",
+                "frequency-aware flow-matching loss",
+                "FID",
+                "ImageNet",
+                "GenEval"
+            ],
+            "githubStars": 24,
+            "organization": {
+                "_id": "61dcd8e344f59573371b5cb6",
+                "name": "PekingUniversity",
+                "fullname": "Peking University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/vavgrBsnkSejriUF4lXDE.png"
+            }
+        },
+        "translation_title": "DeCo: 주파수 분리 픽셀 확산을 통한 엔드 투 엔드 이미지 생성",
+        "purpose": "픽셀 공간에서 이미지를 효율적으로 생성하기 위한 새로운 확산 모델 프레임워크 개발",
+        "method": [
+            "고주파와 저주파 구성 요소 생성을 분리하여 높은 주파수 세부 사항을 생성함(we propose the frequency-DeCoupled pixel diffusion framework. With the intuition to decouple the generation of high and low frequency components.)",
+            "경량 픽셀 디코더를 활용해 의미적 가이드를 바탕으로 고주파 세부 정보를 생성함(we leverage a lightweight pixel decoder to generate high-frequency details conditioned on semantic guidance from the DiT.)",
+            "시각적으로 중요한 주파수를 강조하는 손실 함수를 도입하여 더 나은 학습 성능을 확보함(we introduce a frequency-aware flow-matching loss that emphasizes visually salient frequencies while suppressing insignificant ones.)"
+        ],
+        "conclusion": "DeCo는 픽셀 확산 모델 가운데 우수한 성능을 보이며, FID 점수와 시스템 레벨 비교에서 우위를 점함.",
+        "keywords": [
+            "Image Generation",
+            "Computer Vision",
+            "Image Classification"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.18050",
+            "authors": [
+                {
+                    "_id": "692525c216eb3a9f1310396f",
+                    "name": "Tian Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525c216eb3a9f13103970",
+                    "name": "Song Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525c216eb3a9f13103971",
+                    "name": "Lei Zhu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-22T13:07:21.000Z",
+            "submittedOnDailyAt": "2025-11-25T01:29:51.780Z",
+            "title": "UltraFlux: Data-Model Co-Design for High-quality Native 4K Text-to-Image Generation across Diverse Aspect Ratios",
+            "submittedOnDailyBy": {
+                "_id": "66015e8aa4d296af07de538e",
+                "avatarUrl": "/avatars/a1295c631cc2646282c545859975ce4c.svg",
+                "isPro": false,
+                "fullname": "Owen",
+                "user": "Owen777",
+                "type": "user"
+            },
+            "summary": "Diffusion transformers have recently delivered strong text-to-image generation around 1K resolution, but we show that extending them to native 4K across diverse aspect ratios exposes a tightly coupled failure mode spanning positional encoding, VAE compression, and optimization. Tackling any of these factors in isolation leaves substantial quality on the table. We therefore take a data-model co-design view and introduce UltraFlux, a Flux-based DiT trained natively at 4K on MultiAspect-4K-1M, a 1M-image 4K corpus with controlled multi-AR coverage, bilingual captions, and rich VLM/IQA metadata for resolution- and AR-aware sampling. On the model side, UltraFlux couples (i) Resonance 2D RoPE with YaRN for training-window-, frequency-, and AR-aware positional encoding at 4K; (ii) a simple, non-adversarial VAE post-training scheme that improves 4K reconstruction fidelity; (iii) an SNR-Aware Huber Wavelet objective that rebalances gradients across timesteps and frequency bands; and (iv) a Stage-wise Aesthetic Curriculum Learning strategy that concentrates high-aesthetic supervision on high-noise steps governed by the model prior. Together, these components yield a stable, detail-preserving 4K DiT that generalizes across wide, square, and tall ARs. On the Aesthetic-Eval at 4096 benchmark and multi-AR 4K settings, UltraFlux consistently outperforms strong open-source baselines across fidelity, aesthetic, and alignment metrics, and-with a LLM prompt refiner-matches or surpasses the proprietary Seedream 4.0.",
+            "upvotes": 30,
+            "discussionId": "692525c216eb3a9f13103972",
+            "projectPage": "https://github.com/W2GenAI-Lab/UltraFlux",
+            "githubRepo": "https://github.com/W2GenAI-Lab/UltraFlux",
+            "ai_summary": "UltraFlux, a Flux-based DiT trained on a 4K dataset, addresses failures in diffusion transformers at 4K resolution through enhanced positional encoding, improved VAE compression, gradient rebalancing, and aesthetic curriculum learning, achieving superior performance compared to existing models.",
+            "ai_keywords": [
+                "diffusion transformers",
+                "text-to-image generation",
+                "4K resolution",
+                "positional encoding",
+                "VAE compression",
+                "Resonance 2D RoPE",
+                "YaRN",
+                "VAE post-training",
+                "SNR-Aware Huber Wavelet",
+                "Stage-wise Aesthetic Curriculum Learning",
+                "aesthetic evaluation",
+                "Aesthetic-Eval",
+                "Seedream 4.0"
+            ],
+            "githubStars": 37,
+            "organization": {
+                "_id": "68b2b2167f881fc640bb9d21",
+                "name": "W2GenAI",
+                "fullname": "W2GenAI Lab"
+            }
+        },
+        "translation_title": "UltraFlux: 고품질 네이티브 4K Text-to-Image 생성을 위한 데이터-모델 공동 설계",
+        "purpose": "다양한 종횡비에서 네이티브 4K 수준의 Text-to-Image 생성을 개선하기 위한 모델과 데이터의 공동 설계 연구",
+        "method": [
+            "Diffusion transformers의 한계를 극복하기 위해 데이터-모델 공동 설계를 적용함(To tackle any of these factors in isolation leaves substantial quality on the table.)",
+            "MultiAspect-4K-1M 데이터세트를 활용해 UltraFlux 모델을 훈련함(we introduce UltraFlux, a Flux-based DiT trained natively at 4K on MultiAspect-4K-1M, a 1M-image 4K corpus with controlled multi-AR coverage, bilingual captions, and rich VLM/IQA metadata for resolution- and AR-aware sampling.)",
+            "다양한 포지션 인코딩 방식 및 학습 전략을 도입하여 4K 해상도에 최적화된 성능을 확보함(UltraFlux couples (i) Resonance 2D RoPE with YaRN for training-window-, frequency-, and AR-aware positional encoding at 4K)"
+        ],
+        "conclusion": "UltraFlux는 fidelity, aesthetic, alignment 지표에서 강력한 성능을 보이며, 기존의 오픈 소스 모델들을 지속적으로 능가함.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    }
+]
