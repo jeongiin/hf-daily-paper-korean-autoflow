@@ -1,0 +1,584 @@
+[
+    {
+        "paper": {
+            "id": "2511.17592",
+            "authors": [
+                {
+                    "_id": "6926bc70243b2216fb75cb97",
+                    "name": "Valentin Khrulkov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb98",
+                    "user": {
+                        "_id": "661e44cf1d8ffc49b57ba07e",
+                        "avatarUrl": "/avatars/3e937cc4f784b369b9f996ba82d1b81d.svg",
+                        "isPro": false,
+                        "fullname": "Andrey Galichin",
+                        "user": "andreuka18",
+                        "type": "user"
+                    },
+                    "name": "Andrey Galichin",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-11-26T11:53:55.369Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb99",
+                    "name": "Denis Bashkirov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb9a",
+                    "name": "Dmitry Vinichenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb9b",
+                    "name": "Oleg Travkin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb9c",
+                    "name": "Roman Alferov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb9d",
+                    "name": "Andrey Kuznetsov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926bc70243b2216fb75cb9e",
+                    "name": "Ivan Oseledets",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-17T14:44:47.000Z",
+            "submittedOnDailyAt": "2025-11-26T06:09:36.043Z",
+            "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+            "submittedOnDailyBy": {
+                "_id": "643984dceb7c5616ef3f5d54",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643984dceb7c5616ef3f5d54/10JRkblrRIEVci6UJwvPz.jpeg",
+                "isPro": false,
+                "fullname": "Andrey Kuznetsov",
+                "user": "kuznetsoffandrey",
+                "type": "user"
+            },
+            "summary": "Recent advances in LLM-guided evolutionary computation, particularly AlphaEvolve (Novikov et al., 2025; Georgiev et al., 2025), have demonstrated remarkable success in discovering novel mathematical constructions and solving challenging optimization problems. However, the high-level descriptions in published work leave many implementation details unspecified, hindering reproducibility and further research. In this report we present GigaEvo, an extensible open-source framework that enables researchers to study and experiment with hybrid LLM-evolution approaches inspired by AlphaEvolve. Our system provides modular implementations of key components: MAP-Elites quality-diversity algorithms, asynchronous DAG-based evaluation pipelines, LLM-driven mutation operators with insight generation and bidirectional lineage tracking, and flexible multi-island evolutionary strategies. In order to assess reproducibility and validate our implementation we evaluate GigaEvo on challenging problems from the AlphaEvolve paper: Heilbronn triangle placement, circle packing in squares, and high-dimensional kissing numbers. The framework emphasizes modularity, concurrency, and ease of experimentation, enabling rapid prototyping through declarative configuration. We provide detailed descriptions of system architecture, implementation decisions, and experimental methodology to support further research in LLM driven evolutionary methods. The GigaEvo framework and all experimental code are available at https://github.com/AIRI-Institute/gigaevo-core.",
+            "upvotes": 71,
+            "discussionId": "6926bc70243b2216fb75cb9f",
+            "projectPage": "https://airi-institute.github.io/gigaevo-cover/",
+            "githubRepo": "https://github.com/FusionBrainLab/gigaevo-core",
+            "ai_summary": "GigaEvo is an open-source framework for LLM-guided evolutionary computation, offering modular and concurrent tools for research and experimentation in solving complex optimization problems.",
+            "ai_keywords": [
+                "LLM-guided evolutionary computation",
+                "AlphaEvolve",
+                "MAP-Elites",
+                "quality-diversity algorithms",
+                "asynchronous DAG-based evaluation",
+                "LLM-driven mutation",
+                "bidirectional lineage tracking",
+                "multi-island evolutionary strategies",
+                "Heilbronn triangle placement",
+                "circle packing",
+                "high-dimensional kissing numbers"
+            ],
+            "githubStars": 23,
+            "organization": {
+                "_id": "62a1fefca12f9cb8a15a5219",
+                "name": "AIRI-Institute",
+                "fullname": " AIRI - Artificial Intelligence Research Institute",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1654783663739-62a1fdd62cfb273c7f41333e.png"
+            }
+        },
+        "translation_title": "GigaEvo: LLM과 진화 알고리즘 기반의 오픈 소스 최적화 프레임워크",
+        "purpose": "LLM과 진화 알고리즘을 결합한 접근 방식 연구 및 실험을 가능하게 하는 프레임워크 개발",
+        "method": [
+            "GigaEvo라는 확장 가능한 오픈 소스 프레임워크를 제시함(In this report we present GigaEvo, an extensible open-source framework that enables researchers to study and experiment with hybrid LLM-evolution approaches inspired by AlphaEvolve.)",
+            "주요 구성 요소의 모듈화된 구현을 제공함(Our system provides modular implementations of key components: MAP-Elites quality-diversity algorithms, asynchronous DAG-based evaluation pipelines, LLM-driven mutation operators with insight generation and bidirectional lineage tracking, and flexible multi-island evolutionary strategies.)",
+            "GigaEvo를 실제 문제에 적용하여 재현성과 유효성을 검증함(In order to assess reproducibility and validate our implementation we evaluate GigaEvo on challenging problems from the AlphaEvolve paper.)"
+        ],
+        "conclusion": "GigaEvo는 모듈화와 실험의 용이성을 강조하며, LLM 기반의 진화 방법에 대한 추가 연구를 지원할 수 있는 기초를 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19320",
+            "authors": [
+                {
+                    "_id": "692525d916eb3a9f13103974",
+                    "user": {
+                        "_id": "65645169ec7e239899136895",
+                        "avatarUrl": "/avatars/59f7f485643f71aff078347d99ed9765.svg",
+                        "isPro": false,
+                        "fullname": "Jiaming Zhang",
+                        "user": "jiamingZ",
+                        "type": "user"
+                    },
+                    "name": "Jiaming Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-25T12:10:05.653Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f13103975",
+                    "name": "Shengming Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f13103976",
+                    "name": "Rui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f13103977",
+                    "name": "Xiaotong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f13103978",
+                    "name": "Yutao Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f13103979",
+                    "name": "Xinglin Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f1310397a",
+                    "name": "Gangshan Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f1310397b",
+                    "name": "Haolan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f1310397c",
+                    "name": "Yu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f1310397d",
+                    "name": "Limin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "692525d916eb3a9f1310397e",
+                    "name": "Kai Ma",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-24T17:15:55.000Z",
+            "submittedOnDailyAt": "2025-11-26T00:24:22.899Z",
+            "title": "SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation",
+            "submittedOnDailyBy": {
+                "_id": "65645169ec7e239899136895",
+                "avatarUrl": "/avatars/59f7f485643f71aff078347d99ed9765.svg",
+                "isPro": false,
+                "fullname": "Jiaming Zhang",
+                "user": "jiamingZ",
+                "type": "user"
+            },
+            "summary": "Preserving first-frame identity while ensuring precise motion control is a fundamental challenge in human image animation. The Image-to-Motion Binding process of the dominant Reference-to-Video (R2V) paradigm overlooks critical spatio-temporal misalignments common in real-world applications, leading to failures such as identity drift and visual artifacts. We introduce SteadyDancer, an Image-to-Video (I2V) paradigm-based framework that achieves harmonized and coherent animation and is the first to ensure first-frame preservation robustly. Firstly, we propose a Condition-Reconciliation Mechanism to harmonize the two conflicting conditions, enabling precise control without sacrificing fidelity. Secondly, we design Synergistic Pose Modulation Modules to generate an adaptive and coherent pose representation that is highly compatible with the reference image. Finally, we employ a Staged Decoupled-Objective Training Pipeline that hierarchically optimizes the model for motion fidelity, visual quality, and temporal coherence. Experiments demonstrate that SteadyDancer achieves state-of-the-art performance in both appearance fidelity and motion control, while requiring significantly fewer training resources than comparable methods.",
+            "upvotes": 37,
+            "discussionId": "692525d916eb3a9f1310397f",
+            "projectPage": "https://mcg-nju.github.io/steadydancer-web",
+            "githubRepo": "https://github.com/MCG-NJU/SteadyDancer",
+            "ai_summary": "SteadyDancer, an Image-to-Video framework, ensures first-frame identity preservation and precise motion control through harmonized conditions, adaptive pose representation, and hierarchical training objectives.",
+            "ai_keywords": [
+                "Image-to-Motion Binding",
+                "Reference-to-Video",
+                "Image-to-Video",
+                "Condition-Reconciliation Mechanism",
+                "Synergistic Pose Modulation Modules",
+                "Staged Decoupled-Objective Training Pipeline",
+                "motion fidelity",
+                "visual quality",
+                "temporal coherence"
+            ],
+            "githubStars": 24,
+            "organization": {
+                "_id": "62c77fde1e080b83746468bd",
+                "name": "MCG-NJU",
+                "fullname": "Multimedia Computing Group-Nanjing University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/OIFtHl-mDBM_5SqyR9T8f.png"
+            }
+        },
+        "translation_title": "SteadyDancer: 첫 프레임 보존을 통한 조화롭고 일관된 인간 이미지 애니메이션",
+        "purpose": "첫 프레임의 정체성을 보존하면서 정밀한 움직임 제어를 달성하기 위한 인간 이미지 애니메이션 기술 개발",
+        "method": [
+            "Condition-Reconciliation Mechanism을 제안하여 상충하는 두 조건을 조화롭게 만들어 정확한 제어를 가능하게 함.(Firstly, we propose a Condition-Reconciliation Mechanism to harmonize the two conflicting conditions, enabling precise control without sacrificing fidelity.)",
+            "적응형이고 일관된 포즈 표현을 생성하는 Synergistic Pose Modulation Modules를 설계함.(Secondly, we design Synergistic Pose Modulation Modules to generate an adaptive and coherent pose representation that is highly compatible with the reference image.)",
+            "다단계 분리된 목표 훈련 파이프라인을 사용해 모델을 계층적으로 최적화함.(Finally, we employ a Staged Decoupled-Objective Training Pipeline that hierarchically optimizes the model for motion fidelity, visual quality, and temporal coherence.)"
+        ],
+        "conclusion": "SteadyDancer는 외관 충실도와 움직임 제어에서 최고 성능을 달성하며, 비슷한 방법보다 훨씬 적은 훈련 자원으로 작업이 가능함.",
+        "keywords": [
+            "Image Generation",
+            "Video Generation",
+            "Pose Estimation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19046",
+            "authors": [
+                {
+                    "_id": "69267465243b2216fb75ca9d",
+                    "user": {
+                        "_id": "66214b651fc3a06144ef8f4b",
+                        "avatarUrl": "/avatars/dab669ad56b67805d55fef8c4fcf1326.svg",
+                        "isPro": false,
+                        "fullname": "Anglin Liu",
+                        "user": "lal-Joey",
+                        "type": "user"
+                    },
+                    "name": "Anglin Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-26T09:27:33.112Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75ca9e",
+                    "name": "Rundong Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75ca9f",
+                    "user": {
+                        "_id": "5fc9f05d52770aca770bd3d9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/5fc9f05d52770aca770bd3d9/axiKCXPYttXEWC-RqCSfh.jpeg",
+                        "isPro": true,
+                        "fullname": "Xu Cao",
+                        "user": "IrohXu",
+                        "type": "user"
+                    },
+                    "name": "Xu R. Cao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-26T09:27:30.698Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75caa0",
+                    "name": "Yifan Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75caa1",
+                    "name": "Yi Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75caa2",
+                    "name": "Xiang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75caa3",
+                    "name": "Qianqian Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69267465243b2216fb75caa4",
+                    "name": "Jintai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-24T12:34:38.000Z",
+            "submittedOnDailyAt": "2025-11-26T01:01:06.095Z",
+            "title": "MedSAM3: Delving into Segment Anything with Medical Concepts",
+            "submittedOnDailyBy": {
+                "_id": "65e387095132c2edd193ae49",
+                "avatarUrl": "/avatars/39278e5b026bcbdde88c560fc54018c5.svg",
+                "isPro": false,
+                "fullname": "Yifan Shen",
+                "user": "SivanSX",
+                "type": "user"
+            },
+            "summary": "Medical image segmentation is fundamental for biomedical discovery. Existing methods lack generalizability and demand extensive, time-consuming manual annotation for new clinical application. Here, we propose MedSAM-3, a text promptable medical segmentation model for medical image and video segmentation. By fine-tuning the Segment Anything Model (SAM) 3 architecture on medical images paired with semantic conceptual labels, our MedSAM-3 enables medical Promptable Concept Segmentation (PCS), allowing precise targeting of anatomical structures via open-vocabulary text descriptions rather than solely geometric prompts. We further introduce the MedSAM-3 Agent, a framework that integrates Multimodal Large Language Models (MLLMs) to perform complex reasoning and iterative refinement in an agent-in-the-loop workflow. Comprehensive experiments across diverse medical imaging modalities, including X-ray, MRI, Ultrasound, CT, and video, demonstrate that our approach significantly outperforms existing specialist and foundation models. We will release our code and model at https://github.com/Joey-S-Liu/MedSAM3.",
+            "upvotes": 34,
+            "discussionId": "69267466243b2216fb75caa5",
+            "githubRepo": "https://github.com/Joey-S-Liu/MedSAM3",
+            "ai_summary": "MedSAM-3, a text-promptable medical segmentation model fine-tuned on SAM 3 architecture, achieves superior performance across various medical imaging modalities using semantic conceptual labels and multimodal large language models.",
+            "ai_keywords": [
+                "Segment Anything Model (SAM)",
+                "text promptable",
+                "medical segmentation",
+                "Promptable Concept Segmentation (PCS)",
+                "Multimodal Large Language Models (MLLMs)",
+                "X-ray",
+                "MRI",
+                "Ultrasound",
+                "CT",
+                "video"
+            ],
+            "githubStars": 33
+        },
+        "translation_title": "MedSAM3: 의료 개념을 활용한 Segmentation Anything 탐구",
+        "purpose": "의료 이미지와 비디오 세분화에서 범햡성이 뛰어난 자동화된 세분화 모델 개발 및 정확한 해부학적 구조 타겟팅 수행",
+        "method": [
+            "Segment Anything Model(SAM) 3 아키텍처를 의료 이미지와 의미론적 개념 레이블로 fine-tuning 함(we propose MedSAM-3, a text promptable medical segmentation model for medical image and video segmentation.)",
+            "Promptable Concept Segmentation(PCS)를 통해 개방형 어휘 텍스트 설명을 사용해 해부학적 구조를 정확하게 타겟팅 가능하게 함(allowing precise targeting of anatomical structures via open-vocabulary text descriptions rather than solely geometric prompts.)",
+            "Multimodal Large Language Models(MLLMs)를 통합해 복잡한 추론과 반복 개선이 가능한 에이전트 루프 워크플로우를 수행함(introduce the MedSAM-3 Agent, a framework that integrates MLLMs to perform complex reasoning and iterative refinement in an agent-in-the-loop workflow.)"
+        ],
+        "conclusion": "우리의 접근 방식은 X-ray, MRI, Ultrasound, CT 및 비디오를 포함한 다양한 의료 이미징 모달리티에서 기존 모델들보다 훨씬 뛰어난 성능을 보임.",
+        "keywords": [
+            "Image Segmentation",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19900",
+            "authors": [
+                {
+                    "_id": "6926877a243b2216fb75caca",
+                    "user": {
+                        "_id": "684ff37fa383bc5d6b0ff77f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0JPr-cd_rxQz3k6rmzBOF.png",
+                        "isPro": false,
+                        "fullname": "JiaqiLiu",
+                        "user": "JiaaqiLiu",
+                        "type": "user"
+                    },
+                    "name": "Jiaqi Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-26T09:27:22.964Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cacb",
+                    "name": "Kaiwen Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cacc",
+                    "name": "Peng Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cacd",
+                    "name": "Yiyang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cace",
+                    "name": "Haonian Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cacf",
+                    "name": "Lu Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cad0",
+                    "name": "Siwei Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cad1",
+                    "name": "Mingyu Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926877a243b2216fb75cad2",
+                    "name": "Huaxiu Yao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-25T04:15:14.000Z",
+            "submittedOnDailyAt": "2025-11-26T02:25:56.245Z",
+            "title": "Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "684ff37fa383bc5d6b0ff77f",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/0JPr-cd_rxQz3k6rmzBOF.png",
+                "isPro": false,
+                "fullname": "JiaqiLiu",
+                "user": "JiaaqiLiu",
+                "type": "user"
+            },
+            "summary": "Vision-language agents have achieved remarkable progress in a variety of multimodal reasoning tasks; however, their learning remains constrained by the limitations of human-annotated supervision. Recent self-rewarding approaches attempt to overcome this constraint by allowing models to act as their own critics or reward providers. Yet, purely text-based self-evaluation struggles to verify complex visual reasoning steps and often suffers from evaluation hallucinations. To address these challenges, inspired by recent advances in tool-integrated reasoning, we propose Agent0-VL, a self-evolving vision-language agent that achieves continual improvement with tool-integrated reasoning. Agent0-VL incorporates tool usage not only into reasoning but also into self-evaluation and self-repair, enabling the model to introspect, verify, and refine its reasoning through evidence-grounded analysis. It unifies two synergistic roles within a single LVLM: a Solver that performs multi-turn tool-integrated reasoning, and a Verifier that generates structured feedback and fine-grained self-rewards through tool-grounded critique. These roles interact through a Self-Evolving Reasoning Cycle, where tool-based verification and reinforcement learning jointly align the reasoning and evaluation distributions for stable self-improvement. Through this zero-external-reward evolution, Agent0-VL aligns its reasoning and verification behaviors without any human annotation or external reward models, achieving continual self-improvement. Experiments on geometric problem solving and visual scientific analysis show that Agent0-VL achieves an 12.5% improvement over the base model. Our code is available at https://github.com/aiming-lab/Agent0/Agent0-VL{this https URL}.",
+            "upvotes": 33,
+            "discussionId": "6926877a243b2216fb75cad3",
+            "projectPage": "https://github.com/aiming-lab/Agent0/tree/main/Agent0-VL",
+            "githubRepo": "https://github.com/aiming-lab/Agent0/tree/main/Agent0-VL",
+            "ai_summary": "Agent0-VL, a self-evolving vision-language agent, incorporates tool usage into both reasoning and self-evaluation, enabling continual improvement through evidence-grounded analysis and reinforcement learning.",
+            "ai_keywords": [
+                "self-rewarding approaches",
+                "tool-integrated reasoning",
+                "self-evaluation",
+                "self-repair",
+                "introspect",
+                "evidence-grounded analysis",
+                "Solver",
+                "Verifier",
+                "Self-Evolving Reasoning Cycle",
+                "reinforcement learning",
+                "geometric problem solving",
+                "visual scientific analysis"
+            ],
+            "githubStars": 318,
+            "organization": {
+                "_id": "669f9d1fec8789263c0e355a",
+                "name": "UNC-ChapelHill",
+                "fullname": "University of North Carolina at Chapel Hill",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/669f9c85bd649dba3b88e581/H5uB8_MCewnMtxEUnAvTL.png"
+            }
+        },
+        "translation_title": "Agent0-VL: 도구 통합 비전-언어 추론을 위한 자기 진화 에이전트 탐색",
+        "purpose": "비전-언어 에이전트가 도구 통합 추론을 통해 지속적으로 개선될 수 있도록 하는 자기 진화 기법 연구",
+        "method": [
+            "최근 도구 통합 추론 기술에서 영감을 받아 Agent0-VL을 제안함(we propose Agent0-VL, a self-evolving vision-language agent that achieves continual improvement with tool-integrated reasoning.)",
+            "Agent0-VL은 추론뿐만 아니라 자기 평가와 자기 수정을 위한 도구 사용을 통합하여 모델이 자신의 추론을 반성하고, 검증하며, 수정하게 함(Agent0-VL incorporates tool usage not only into reasoning but also into self-evaluation and self-repair, enabling the model to introspect, verify, and refine its reasoning through evidence-grounded analysis.)",
+            "도구 기반 검증과 강화 학습을 통해 지속적인 자기 개선을 위한 안정성과 정렬을 이룸(through a Self-Evolving Reasoning Cycle, where tool-based verification and reinforcement learning jointly align the reasoning and evaluation distributions for stable self-improvement.)"
+        ],
+        "conclusion": "Agent0-VL은 인간 주석이나 외부 보상 없이도 지속적인 자기 개선을 달성하며, 기본 모델 대비 12.5% 향상을 보임.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.20635",
+            "authors": [
+                {
+                    "_id": "69266dec243b2216fb75ca56",
+                    "name": "Zhoujie Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca57",
+                    "name": "Xianfang Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca58",
+                    "name": "Jinghong Lan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca59",
+                    "name": "Xinyao Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5a",
+                    "name": "Cheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5b",
+                    "name": "Junyi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5c",
+                    "name": "Jiacheng Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5d",
+                    "user": {
+                        "_id": "64b914c8ace99c0723ad83a9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64b914c8ace99c0723ad83a9/B4gxNByeVY_xaOcjwiN1j.jpeg",
+                        "isPro": false,
+                        "fullname": "Wei Cheng",
+                        "user": "wchengad",
+                        "type": "user"
+                    },
+                    "name": "Wei Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-26T09:27:36.745Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5e",
+                    "name": "Shiyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca5f",
+                    "name": "Yunuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca60",
+                    "name": "Gang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69266dec243b2216fb75ca61",
+                    "name": "Guosheng Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-25T18:54:16.000Z",
+            "submittedOnDailyAt": "2025-11-26T00:33:21.436Z",
+            "title": "iMontage: Unified, Versatile, Highly Dynamic Many-to-many Image Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Pre-trained video models learn powerful priors for generating high-quality, temporally coherent content. While these models excel at temporal coherence, their dynamics are often constrained by the continuous nature of their training data. We hypothesize that by injecting the rich and unconstrained content diversity from image data into this coherent temporal framework, we can generate image sets that feature both natural transitions and a far more expansive dynamic range. To this end, we introduce iMontage, a unified framework designed to repurpose a powerful video model into an all-in-one image generator. The framework consumes and produces variable-length image sets, unifying a wide array of image generation and editing tasks. To achieve this, we propose an elegant and minimally invasive adaptation strategy, complemented by a tailored data curation process and training paradigm. This approach allows the model to acquire broad image manipulation capabilities without corrupting its invaluable original motion priors. iMontage excels across several mainstream many-in-many-out tasks, not only maintaining strong cross-image contextual consistency but also generating scenes with extraordinary dynamics that surpass conventional scopes. Find our homepage at: https://kr1sjfu.github.io/iMontage-web/.",
+            "upvotes": 27,
+            "discussionId": "69266dec243b2216fb75ca62",
+            "projectPage": "https://kr1sjfu.github.io/iMontage-web/",
+            "githubRepo": "https://github.com/Kr1sJFU/iMontage",
+            "ai_summary": "iMontage repurposes pre-trained video models to generate high-quality, diverse image sets with natural transitions and enhanced dynamics through a unified framework and tailored adaptation strategy.",
+            "ai_keywords": [
+                "pre-trained video models",
+                "temporal coherence",
+                "continuous nature",
+                "image data",
+                "content diversity",
+                "iMontage",
+                "unified framework",
+                "image generator",
+                "variable-length image sets",
+                "image generation",
+                "image editing",
+                "adaptation strategy",
+                "data curation",
+                "training paradigm",
+                "image manipulation",
+                "motion priors",
+                "cross-image contextual consistency"
+            ],
+            "githubStars": 35,
+            "organization": {
+                "_id": "66e43eae9d477f566f937935",
+                "name": "stepfun-ai",
+                "fullname": "StepFun",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+            }
+        },
+        "translation_title": "iMontage: 통합된 다목적 고도로 동적인 다대다 이미지 생성",
+        "purpose": "영상 모델의 강력한 사전 지식을 활용하여 다양하고 자연스러운 전환을 지닌 이미지 세트를 생성하는 것",
+        "method": [
+            "영상 모델의 동적 특성을 활용하여 이미지 데이터의 다양성을 주입함으로써 이미지 세트를 생성함(We hypothesize that by injecting the rich and unconstrained content diversity from image data into this coherent temporal framework, we can generate image sets that feature both natural transitions and a far more expansive dynamic range.)",
+            "iMontage라는 통합 프레임워크를 소개하여 강력한 영상 모델을 이미지 생성기로 전환함(To this end, we introduce iMontage, a unified framework designed to repurpose a powerful video model into an all-in-one image generator.)",
+            "변동 길이의 이미지 세트를 생성하고 다양한 이미지 생성 및 편집 작업을 통합하는 방법을 제안함(The framework consumes and produces variable-length image sets, unifying a wide array of image generation and editing tasks.)"
+        ],
+        "conclusion": "iMontage는 여러 다대다 작업에서 뛰어난 성능을 발휘하며, 기존 모델에서 경량화된 이미지 조작 능력을 유지하면서도 독창적인 동적인 장면을 생성한다.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    }
+]
