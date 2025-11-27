@@ -1,0 +1,618 @@
+[
+    {
+        "paper": {
+            "id": "2511.20639",
+            "authors": [
+                {
+                    "_id": "6927c504243b2216fb75cd62",
+                    "user": {
+                        "_id": "65c288280aa2d53135734a42",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c288280aa2d53135734a42/5WHmau52EaRS01TOMI3Qg.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiaru Zou",
+                        "user": "jiaruz2",
+                        "type": "user"
+                    },
+                    "name": "Jiaru Zou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-27T09:58:44.029Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd63",
+                    "name": "Xiyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd64",
+                    "name": "Ruizhong Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd65",
+                    "name": "Gaotang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd66",
+                    "name": "Katherine Tieu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd67",
+                    "user": {
+                        "_id": "60f5f68fa7fd83d025749234",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60f5f68fa7fd83d025749234/gCeJAZfzaANAcEvI6v5-P.jpeg",
+                        "isPro": false,
+                        "fullname": "Pan Lu",
+                        "user": "lupantech",
+                        "type": "user"
+                    },
+                    "name": "Pan Lu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-27T09:58:40.924Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd68",
+                    "name": "Ke Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd69",
+                    "name": "Hanghang Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd6a",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd6b",
+                    "name": "Jingrui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd6c",
+                    "name": "James Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd6d",
+                    "name": "Mengdi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927c504243b2216fb75cd6e",
+                    "name": "Ling Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-25T18:56:57.000Z",
+            "submittedOnDailyAt": "2025-11-27T01:00:26.981Z",
+            "title": "Latent Collaboration in Multi-Agent Systems",
+            "submittedOnDailyBy": {
+                "_id": "65c288280aa2d53135734a42",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65c288280aa2d53135734a42/5WHmau52EaRS01TOMI3Qg.jpeg",
+                "isPro": false,
+                "fullname": "Jiaru Zou",
+                "user": "jiaruz2",
+                "type": "user"
+            },
+            "summary": "Multi-agent systems (MAS) extend large language models (LLMs) from independent single-model reasoning to coordinative system-level intelligence. While existing LLM agents depend on text-based mediation for reasoning and communication, we take a step forward by enabling models to collaborate directly within the continuous latent space. We introduce LatentMAS, an end-to-end training-free framework that enables pure latent collaboration among LLM agents. In LatentMAS, each agent first performs auto-regressive latent thoughts generation through last-layer hidden embeddings. A shared latent working memory then preserves and transfers each agent's internal representations, ensuring lossless information exchange. We provide theoretical analyses establishing that LatentMAS attains higher expressiveness and lossless information preservation with substantially lower complexity than vanilla text-based MAS. In addition, empirical evaluations across 9 comprehensive benchmarks spanning math and science reasoning, commonsense understanding, and code generation show that LatentMAS consistently outperforms strong single-model and text-based MAS baselines, achieving up to 14.6% higher accuracy, reducing output token usage by 70.8%-83.7%, and providing 4x-4.3x faster end-to-end inference. These results demonstrate that our new latent collaboration framework enhances system-level reasoning quality while offering substantial efficiency gains without any additional training. Code and data are fully open-sourced at https://github.com/Gen-Verse/LatentMAS.",
+            "upvotes": 39,
+            "discussionId": "6927c504243b2216fb75cd6f",
+            "githubRepo": "https://github.com/Gen-Verse/LatentMAS",
+            "ai_summary": "LatentMAS enables efficient and effective collaboration among LLM agents using latent space representations, enhancing reasoning quality and reducing computational costs.",
+            "ai_keywords": [
+                "multi-agent systems",
+                "large language models",
+                "latent space",
+                "LatentMAS",
+                "auto-regressive latent thoughts generation",
+                "last-layer hidden embeddings",
+                "shared latent working memory",
+                "expressiveness",
+                "information preservation",
+                "complexity",
+                "math and science reasoning",
+                "commonsense understanding",
+                "code generation",
+                "accuracy",
+                "output token usage",
+                "end-to-end inference"
+            ],
+            "githubStars": 51,
+            "organization": {
+                "_id": "67a21d7efeeacb7707bf40de",
+                "name": "Gen-Verse",
+                "fullname": "Princeton-AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64fde4e252e82dd432b74ce9/TAEScS71YX5NPRM4TXZc8.png"
+            }
+        },
+        "translation_title": "다중 에이전트 시스템에서의 잠재적 협업",
+        "purpose": "대규모 언어 모델(LLM) 간의 협업을 지원하여 시스템 수준의 지능을 향상하기 위한 방법 연구",
+        "method": [
+            "LatentMAS라는 프레임워크를 도입하여 LLM 에이전트들이 잠재 공간에서 직접 협업하도록 함(We introduce LatentMAS, an end-to-end training-free framework that enables pure latent collaboration among LLM agents.)",
+            "각 에이전트가 마지막 층의 숨겨진 임베딩을 통해 자동 회귀적인 잠재 생각 생성을 수행함(In LatentMAS, each agent first performs auto-regressive latent thoughts generation through last-layer hidden embeddings.)",
+            "공유된 잠재 작업 기억이 각 에이전트의 내부 표현을 보존하고 전달하여 손실 없는 정보 교환을 보장함(A shared latent working memory then preserves and transfers each agent's internal representations, ensuring lossless information exchange.)"
+        ],
+        "conclusion": "LatentMAS는 기존의 텍스트 기반 방식보다 더 높은 표현력과 손실 없는 정보 보존을 달성하면서도, 단순화된 복잡성을 보임과 동시에 시스템 수준의 추론 품질을 향상시키고 효율성을 크게 높임을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.20714",
+            "authors": [
+                {
+                    "_id": "6927bc37243b2216fb75cd3c",
+                    "name": "Inferix Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd3d",
+                    "name": "Tianyu Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd3e",
+                    "name": "Yizeng Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd3f",
+                    "name": "Jiahao He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd40",
+                    "name": "Yuanyu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd41",
+                    "name": "Xi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd42",
+                    "name": "Teng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd43",
+                    "name": "Hanfeng Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd44",
+                    "name": "Jiasheng Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd45",
+                    "name": "Wei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd46",
+                    "name": "Zhiyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd47",
+                    "name": "Jichao Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd48",
+                    "name": "Mingyang Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd49",
+                    "name": "Yinghao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd4a",
+                    "user": {
+                        "_id": "64ec877bb93654d4ca5c92e9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ec877bb93654d4ca5c92e9/GvHk_KSdE9Rhnk_o-NaZX.jpeg",
+                        "isPro": false,
+                        "fullname": "Zeyu Zhang",
+                        "user": "SteveZeyuZhang",
+                        "type": "user"
+                    },
+                    "name": "Zeyu Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-27T09:59:06.036Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927bc37243b2216fb75cd4b",
+                    "name": "Bohan Zhuang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-25T01:45:04.000Z",
+            "submittedOnDailyAt": "2025-11-27T00:19:36.886Z",
+            "title": "Inferix: A Block-Diffusion based Next-Generation Inference Engine for World Simulation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "World models serve as core simulators for fields such as agentic AI, embodied AI, and gaming, capable of generating long, physically realistic, and interactive high-quality videos. Moreover, scaling these models could unlock emergent capabilities in visual perception, understanding, and reasoning, paving the way for a new paradigm that moves beyond current LLM-centric vision foundation models. A key breakthrough empowering them is the semi-autoregressive (block-diffusion) decoding paradigm, which merges the strengths of diffusion and autoregressive methods by generating video tokens in block-applying diffusion within each block while conditioning on previous ones, resulting in more coherent and stable video sequences. Crucially, it overcomes limitations of standard video diffusion by reintroducing LLM-style KV Cache management, enabling efficient, variable-length, and high-quality generation.\n  Therefore, Inferix is specifically designed as a next-generation inference engine to enable immersive world synthesis through optimized semi-autoregressive decoding processes. This dedicated focus on world simulation distinctly sets it apart from systems engineered for high-concurrency scenarios (like vLLM or SGLang) and from classic video diffusion models (such as xDiTs). Inferix further enhances its offering with interactive video streaming and profiling, enabling real-time interaction and realistic simulation to accurately model world dynamics. Additionally, it supports efficient benchmarking through seamless integration of LV-Bench, a new fine-grained evaluation benchmark tailored for minute-long video generation scenarios. We hope the community will work together to advance Inferix and foster world model exploration.",
+            "upvotes": 33,
+            "discussionId": "6927bc38243b2216fb75cd4c",
+            "githubRepo": "https://github.com/alibaba-damo-academy/Inferix",
+            "ai_summary": "Inferix is a next-generation inference engine designed for immersive world synthesis using semi-autoregressive decoding, combining diffusion and autoregressive methods for high-quality, real-time video generation and interaction.",
+            "ai_keywords": [
+                "world models",
+                "agentic AI",
+                "embodied AI",
+                "gaming",
+                "visual perception",
+                "understanding",
+                "reasoning",
+                "semi-autoregressive",
+                "block-diffusion",
+                "diffusion",
+                "autoregressive methods",
+                "video tokens",
+                "KV Cache management",
+                "Inferix",
+                "vLLM",
+                "SGLang",
+                "xDiTs",
+                "interactive video streaming",
+                "profiling",
+                "LV-Bench",
+                "minute-long video generation"
+            ],
+            "githubStars": 14
+        },
+        "translation_title": "Inferix: 차세대 세계 시뮬레이션을 위한 블록-디퓨전 기반 추론 엔진",
+        "purpose": "고품질의 물리적으로 현실적인 상호작용 비디오를 생성할 수 있는 새로운 세계 모델 시뮬레이터 개발",
+        "method": [
+            "반자율 회귀(block-diffusion) 디코딩 패러다임을 도입해 비디오 토큰을 블록 단위로 생성하며 앞선 토큰을 기반으로 조건 설정(semiautoregressive (block-diffusion) decoding paradigm, which merges the strengths of diffusion and autoregressive methods by generating video tokens in block-applying diffusion within each block while conditioning on previous ones)로 일관되고 안정적인 비디오 시퀀스를 생성함.",
+            "LLM 스타일 KV Cache 관리를 재도입해 효율적이고 가변 길이의 고품질 생성을 가능하게 함(it overcomes limitations of standard video diffusion by reintroducing LLM-style KV Cache management, enabling efficient, variable-length, and high-quality generation).",
+            "세계 시뮬레이션에 최적화된 디코딩 프로세스를 통해 몰입감 있는 세계 합성을 실행하도록 설계함(Inferix is specifically designed as a next-generation inference engine to enable immersive world synthesis through optimized semi-autoregressive decoding processes)."
+        ],
+        "conclusion": "Inferix는 상호작용 비디오 스트리밍과 프로파일링을 통해 실시간 상호작용과 현실적인 시뮬레이션을 가능하게 하여 세계 모델 탐색과 개발에 기여할 것으로 기대됨.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.21579",
+            "authors": [
+                {
+                    "_id": "69283a32805584b280405089",
+                    "name": "Teng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508a",
+                    "name": "Zhentao Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508b",
+                    "name": "Guozhen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508c",
+                    "name": "Zihan Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508d",
+                    "name": "Zhengguang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508e",
+                    "name": "Youliang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b28040508f",
+                    "name": "Yuan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b280405090",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69283a32805584b280405091",
+                    "name": "Ran Yi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-26T16:53:05.000Z",
+            "submittedOnDailyAt": "2025-11-27T09:20:11.686Z",
+            "title": "Harmony: Harmonizing Audio and Video Generation through Cross-Task Synergy",
+            "submittedOnDailyBy": {
+                "_id": "6484576450e57f3530ee6432",
+                "avatarUrl": "/avatars/16a780f94597e9f5a4d57a84879102d7.svg",
+                "isPro": false,
+                "fullname": "huteng",
+                "user": "JTUplayer",
+                "type": "user"
+            },
+            "summary": "The synthesis of synchronized audio-visual content is a key challenge in generative AI, with open-source models facing challenges in robust audio-video alignment. Our analysis reveals that this issue is rooted in three fundamental challenges of the joint diffusion process: (1) Correspondence Drift, where concurrently evolving noisy latents impede stable learning of alignment; (2) inefficient global attention mechanisms that fail to capture fine-grained temporal cues; and (3) the intra-modal bias of conventional Classifier-Free Guidance (CFG), which enhances conditionality but not cross-modal synchronization. To overcome these challenges, we introduce Harmony, a novel framework that mechanistically enforces audio-visual synchronization. We first propose a Cross-Task Synergy training paradigm to mitigate drift by leveraging strong supervisory signals from audio-driven video and video-driven audio generation tasks. Then, we design a Global-Local Decoupled Interaction Module for efficient and precise temporal-style alignment. Finally, we present a novel Synchronization-Enhanced CFG (SyncCFG) that explicitly isolates and amplifies the alignment signal during inference. Extensive experiments demonstrate that Harmony establishes a new state-of-the-art, significantly outperforming existing methods in both generation fidelity and, critically, in achieving fine-grained audio-visual synchronization.",
+            "upvotes": 16,
+            "discussionId": "69283a32805584b280405092",
+            "projectPage": "https://sjtuplayer.github.io/projects/Harmony/",
+            "githubRepo": "https://github.com/sjtuplayer/Harmony",
+            "ai_summary": "Harmony addresses audio-visual synchronization in generative AI by introducing a Cross-Task Synergy training paradigm, Global-Local Decoupled Interaction Module, and Synchronization-Enhanced CFG to improve alignment and fidelity.",
+            "ai_keywords": [
+                "joint diffusion process",
+                "Correspondence Drift",
+                "global attention mechanisms",
+                "temporal cues",
+                "intra-modal bias",
+                "Classifier-Free Guidance",
+                "Cross-Task Synergy",
+                "Global-Local Decoupled Interaction Module",
+                "Synchronization-Enhanced CFG"
+            ],
+            "githubStars": 15,
+            "organization": {
+                "_id": "6645f953c39288df638dbdd5",
+                "name": "Tencent-Hunyuan",
+                "fullname": "Tencent Hunyuan",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+            }
+        },
+        "translation_title": "Harmony: 오디오와 비디오 생성을 교차 작업 시너지를 통해 조화롭게 하기",
+        "purpose": "오디오와 비디오의 동기화를 더욱 효과적으로 생성하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "Cross-Task Synergy 훈련 패러다임을 통해 오디오와 비디오 생성 작업의 강력한 지도 신호를 활용하여 Drift를 완화함(We first propose a Cross-Task Synergy training paradigm to mitigate drift by leveraging strong supervisory signals from audio-driven video and video-driven audio generation tasks.)",
+            "효율적이고 정밀한 시간 스타일 정렬을 위한 Global-Local Decoupled Interaction Module을 설계함(Then, we design a Global-Local Decoupled Interaction Module for efficient and precise temporal-style alignment.)",
+            "추론 중에 정렬 신호를 명시적으로 분리하고 증폭하는 Synchronization-Enhanced CFG(SyncCFG)를 도입함(Finally, we present a novel Synchronization-Enhanced CFG (SyncCFG) that explicitly isolates and amplifies the alignment signal during inference.)"
+        ],
+        "conclusion": "Harmony는 생성을 보다 정밀하게 수행하며, 기존 방법보다 동기화 성능에서 획기적인 개선을 이루어 냈음.",
+        "keywords": [
+            "Video Generation",
+            "Audio-Visual Synchronization",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.20478",
+            "authors": [
+                {
+                    "_id": "6926d024243b2216fb75cbca",
+                    "name": "Kateryna Chumachenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbcb",
+                    "name": "Amala Sanjay Deshmukh",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbcc",
+                    "name": "Jarno Seppanen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbcd",
+                    "name": "Ilia Karmanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbce",
+                    "name": "Chia-Chih Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbcf",
+                    "name": "Lukas Voegtle",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd0",
+                    "name": "Philipp Fischer",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd1",
+                    "name": "Marek Wawrzos",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd2",
+                    "name": "Saeid Motiian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd3",
+                    "name": "Roman Ageev",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd4",
+                    "name": "Kedi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd5",
+                    "name": "Alexandre Milesi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd6",
+                    "name": "Maryam Moosaei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd7",
+                    "name": "Krzysztof Pawelec",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd8",
+                    "name": "Padmavathy Subramanian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbd9",
+                    "name": "Mehrzad Samadi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbda",
+                    "name": "Xin Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbdb",
+                    "name": "Celina Dear",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbdc",
+                    "name": "Sarah Stoddard",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbdd",
+                    "name": "Jenna Diamond",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbde",
+                    "name": "Jesse Oliver",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbdf",
+                    "name": "Leanna Chraghchian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe0",
+                    "name": "Patrick Skelly",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe1",
+                    "name": "Tom Balough",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe2",
+                    "name": "Yao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe3",
+                    "name": "Jane Polak Scowcroft",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe4",
+                    "name": "Daniel Korzekwa",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe5",
+                    "name": "Darragh Hanley",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe6",
+                    "name": "Sandip Bhaskar",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe7",
+                    "name": "Timo Roman",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe8",
+                    "name": "Karan Sapra",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbe9",
+                    "name": "Andrew Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6926d024243b2216fb75cbea",
+                    "name": "Bryan Catanzaro",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-25T16:41:25.000Z",
+            "submittedOnDailyAt": "2025-11-27T00:15:47.055Z",
+            "title": "NVIDIA Nemotron Parse 1.1",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce Nemotron-Parse-1.1, a lightweight document parsing and OCR model that advances the capabilities of its predecessor, Nemoretriever-Parse-1.0. Nemotron-Parse-1.1 delivers improved capabilities across general OCR, markdown formatting, structured table parsing, and text extraction from pictures, charts, and diagrams. It also supports a longer output sequence length for visually dense documents. As with its predecessor, it extracts bounding boxes of text segments, as well as corresponding semantic classes. Nemotron-Parse-1.1 follows an encoder-decoder architecture with 885M parameters, including a compact 256M-parameter language decoder. It achieves competitive accuracy on public benchmarks making it a strong lightweight OCR solution. We release the model weights publicly on Huggingface, as well as an optimized NIM container, along with a subset of the training data as part of the broader Nemotron-VLM-v2 dataset. Additionally, we release Nemotron-Parse-1.1-TC which operates on a reduced vision token length, offering a 20% speed improvement with minimal quality degradation.",
+            "upvotes": 9,
+            "discussionId": "6926d024243b2216fb75cbeb",
+            "ai_summary": "Nemotron-Parse-1.1 is a lightweight OCR and document parsing model with improved capabilities in general OCR, markdown formatting, structured table parsing, and text extraction from images, using an encoder-decoder architecture.",
+            "ai_keywords": [
+                "OCR",
+                "document parsing",
+                "markdown formatting",
+                "structured table parsing",
+                "text extraction",
+                "encoder-decoder architecture",
+                "bounding boxes",
+                "semantic classes",
+                "Huggingface",
+                "NIM container",
+                "vision tokens"
+            ],
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "NVIDIA Nemotron Parse 1.1",
+        "purpose": "문서 파싱 및 OCR 모델의 성능을 향상시키기 위한 경량 솔루션 개발",
+        "method": [
+            "Nemotron-Parse-1.1 모델을 소개하며, 이전 버전보다 개선된 기능을 제공함(We introduce Nemotron-Parse-1.1, a lightweight document parsing and OCR model that advances the capabilities of its predecessor, Nemoretriever-Parse-1.0.)",
+            "일반 OCR, 마크다운 포맷, 구조화된 표 파싱 및 이미지에서 텍스트 추출에서 성능 향상을 달성함(Nemotron-Parse-1.1 delivers improved capabilities across general OCR, markdown formatting, structured table parsing, and text extraction from pictures, charts, and diagrams.)",
+            "추가적으로 시각적으로 밀집한 문서에 대해 긴 출력 시퀀스 길이를 지원함(It also supports a longer output sequence length for visually dense documents.)",
+            "885M 매개변수를 포함한 인코더-디코더 아키텍처를 따르며, 공공 벤치마크에서 경쟁력 있는 정확도를 달성함(Nemotron-Parse-1.1 follows an encoder-decoder architecture with 885M parameters, and achieves competitive accuracy on public benchmarks.)"
+        ],
+        "conclusion": "Nemotron-Parse-1.1은 경량 OCR 솔루션으로 현업에서 유용하며, 공개적으로 모델 가중치 및 최적화된 NIM 컨테이너와 훈련 데이터의 일부를 배포함.",
+        "keywords": [
+            "Document Parsing",
+            "OCR",
+            "Computer Vision"
+        ]
+    }
+]
