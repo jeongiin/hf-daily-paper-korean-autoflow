@@ -1,0 +1,559 @@
+[
+    {
+        "paper": {
+            "id": "2511.21541",
+            "authors": [
+                {
+                    "_id": "69294e361f3fae537858b58c",
+                    "user": {
+                        "_id": "66f6627e08be8ab9ab0833f2",
+                        "avatarUrl": "/avatars/871a0862c22e0e4f8829144953f81d85.svg",
+                        "isPro": false,
+                        "fullname": "mi",
+                        "user": "mxy123",
+                        "type": "user"
+                    },
+                    "name": "Xiaoyue Mi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:39.358Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b58d",
+                    "name": "Wenqing Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b58e",
+                    "name": "Jiesong Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b58f",
+                    "name": "Shibo Jie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b590",
+                    "name": "Ruizhe Zhong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b591",
+                    "user": {
+                        "_id": "6468c76bff18750165a64df3",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6468c76bff18750165a64df3/dHhE62SHOSJZjyU60vgh7.jpeg",
+                        "isPro": true,
+                        "fullname": "Zijun Liu",
+                        "user": "BBQGOD",
+                        "type": "user"
+                    },
+                    "name": "Zijun Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:41.129Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b592",
+                    "user": {
+                        "_id": "6684152a443492c24cdac044",
+                        "avatarUrl": "/avatars/1d5abbde12a808aa743769603e494ddb.svg",
+                        "isPro": false,
+                        "fullname": "Guozhen Zhang",
+                        "user": "zgzaacm",
+                        "type": "user"
+                    },
+                    "name": "Guozhen Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:43.019Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b593",
+                    "name": "Zixiang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b594",
+                    "name": "Zhiyong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b595",
+                    "name": "Yuan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b596",
+                    "name": "Qinglin Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69294e361f3fae537858b597",
+                    "name": "Fan Tang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6684152a443492c24cdac044/YJExuDfzC5B_ujgy-bCBS.png"
+            ],
+            "publishedAt": "2025-11-26T16:14:18.000Z",
+            "submittedOnDailyAt": "2025-11-28T05:01:44.583Z",
+            "title": "Video Generation Models Are Good Latent Reward Models",
+            "submittedOnDailyBy": {
+                "_id": "6684152a443492c24cdac044",
+                "avatarUrl": "/avatars/1d5abbde12a808aa743769603e494ddb.svg",
+                "isPro": false,
+                "fullname": "Guozhen Zhang",
+                "user": "zgzaacm",
+                "type": "user"
+            },
+            "summary": "Reward feedback learning (ReFL) has proven effective for aligning image generation with human preferences. However, its extension to video generation faces significant challenges. Existing video reward models rely on vision-language models designed for pixel-space inputs, confining ReFL optimization to near-complete denoising steps after computationally expensive VAE decoding. This pixel-space approach incurs substantial memory overhead and increased training time, and its late-stage optimization lacks early-stage supervision, refining only visual quality rather than fundamental motion dynamics and structural coherence. In this work, we show that pre-trained video generation models are naturally suited for reward modeling in the noisy latent space, as they are explicitly designed to process noisy latent representations at arbitrary timesteps and inherently preserve temporal information through their sequential modeling capabilities. Accordingly, we propose Process Reward Feedback Learning~(PRFL), a framework that conducts preference optimization entirely in latent space, enabling efficient gradient backpropagation throughout the full denoising chain without VAE decoding. Extensive experiments demonstrate that PRFL significantly improves alignment with human preferences, while achieving substantial reductions in memory consumption and training time compared to RGB ReFL.",
+            "upvotes": 15,
+            "discussionId": "69294e361f3fae537858b598",
+            "projectPage": "https://kululumi.github.io/PRFL/#",
+            "ai_summary": "PRFL optimizes video generation preferences in latent space, improving alignment with human preferences while reducing memory consumption and training time.",
+            "ai_keywords": [
+                "reward feedback learning",
+                "ReFL",
+                "video generation",
+                "vision-language models",
+                "pixel space",
+                "VAE decoding",
+                "latent space",
+                "noisy latent representations",
+                "sequential modeling",
+                "gradient backpropagation",
+                "PRFL"
+            ],
+            "organization": {
+                "_id": "6645f953c39288df638dbdd5",
+                "name": "Tencent-Hunyuan",
+                "fullname": "Tencent Hunyuan",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+            }
+        },
+        "translation_title": "비디오 생성 모델은 좋은 잠재 보상 모델이다",
+        "purpose": "비디오 생성을 위한 보상 모델을 제안하여 인간의 선호도와의 정렬을 개선하고자 함",
+        "method": [
+            "기존의 비디오 보상 모델들은 픽셀 공간 입력에 최적화된 비전-언어 모델에 의존함(Existing video reward models rely on vision-language models designed for pixel-space inputs.)",
+            "사전 훈련된 비디오 생성 모델들이 잡음이 있는 잠재 공간에서 보상 모델링에 적합하다는 것을 보여줌(In this work, we show that pre-trained video generation models are naturally suited for reward modeling in the noisy latent space.)",
+            "PRFL(Process Reward Feedback Learning) 프레임워크를 제안하여 잠재 공간에서 선호도 최적화를 수행함(Accordingly, we propose Process Reward Feedback Learning~(PRFL), a framework that conducts preference optimization entirely in latent space.)"
+        ],
+        "conclusion": "PRFL은 인간의 선호도와의 정렬을 크게 개선하며, 메모리 소비와 훈련 시간을 줄이는 성과를 거둠.",
+        "keywords": [
+            "Video Generation",
+            "Reward Feedback Learning",
+            "Latent Space"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.21691",
+            "authors": [
+                {
+                    "_id": "6927cfb1243b2216fb75cd97",
+                    "name": "Yusuf Dalva",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd98",
+                    "name": "Guocheng Gordon Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd99",
+                    "name": "Maya Goldenberg",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd9a",
+                    "name": "Tsai-Shien Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd9b",
+                    "name": "Kfir Aberman",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd9c",
+                    "name": "Sergey Tulyakov",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd9d",
+                    "name": "Pinar Yanardag",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927cfb1243b2216fb75cd9e",
+                    "name": "Kuan-Chieh Jackson Wang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65454d7c117ecae648892170/wYbC0015-eECU_RvLEOZD.mp4"
+            ],
+            "publishedAt": "2025-11-26T18:59:56.000Z",
+            "submittedOnDailyAt": "2025-11-28T03:38:16.212Z",
+            "title": "Canvas-to-Image: Compositional Image Generation with Multimodal Controls",
+            "submittedOnDailyBy": {
+                "_id": "65454d7c117ecae648892170",
+                "avatarUrl": "/avatars/83a7091a24bf86801176ca85234b417a.svg",
+                "isPro": false,
+                "fullname": "Yusuf Dalva",
+                "user": "ydalva",
+                "type": "user"
+            },
+            "summary": "While modern diffusion models excel at generating high-quality and diverse images, they still struggle with high-fidelity compositional and multimodal control, particularly when users simultaneously specify text prompts, subject references, spatial arrangements, pose constraints, and layout annotations. We introduce Canvas-to-Image, a unified framework that consolidates these heterogeneous controls into a single canvas interface, enabling users to generate images that faithfully reflect their intent. Our key idea is to encode diverse control signals into a single composite canvas image that the model can directly interpret for integrated visual-spatial reasoning. We further curate a suite of multi-task datasets and propose a Multi-Task Canvas Training strategy that optimizes the diffusion model to jointly understand and integrate heterogeneous controls into text-to-image generation within a unified learning paradigm. This joint training enables Canvas-to-Image to reason across multiple control modalities rather than relying on task-specific heuristics, and it generalizes well to multi-control scenarios during inference. Extensive experiments show that Canvas-to-Image significantly outperforms state-of-the-art methods in identity preservation and control adherence across challenging benchmarks, including multi-person composition, pose-controlled composition, layout-constrained generation, and multi-control generation.",
+            "upvotes": 6,
+            "discussionId": "6927cfb2243b2216fb75cd9f",
+            "projectPage": "https://snap-research.github.io/canvas-to-image/",
+            "ai_summary": "Canvas-to-Image is a unified framework that encodes diverse control signals into a composite canvas image for high-fidelity multimodal image generation, outperforming existing methods in various benchmarks.",
+            "ai_keywords": [
+                "diffusion models",
+                "high-fidelity compositional",
+                "multimodal control",
+                "text prompts",
+                "subject references",
+                "spatial arrangements",
+                "pose constraints",
+                "layout annotations",
+                "unified framework",
+                "composite canvas image",
+                "visual-spatial reasoning",
+                "multi-task datasets",
+                "Multi-Task Canvas Training",
+                "text-to-image generation",
+                "identity preservation",
+                "control adherence",
+                "multi-person composition",
+                "pose-controlled composition",
+                "layout-constrained generation",
+                "multi-control generation"
+            ]
+        },
+        "translation_title": "Canvas-to-Image: 다중 모드를 활용한 조합 이미지 생성",
+        "purpose": "사용자가 동시에 다양한 조작(텍스트 프롬프트, 주제 참조, 공간 배열 등)을 지정할 때 고품질 이미지를 생성하기 위한 프레임워크 개발",
+        "method": [
+            "다양한 조작 신호를 하나의 복합 캔버스 이미지로 인코딩하여 모델이 이를 해석하도록 함(Our key idea is to encode diverse control signals into a single composite canvas image that the model can directly interpret for integrated visual-spatial reasoning.)",
+            "다중 작업 데이터 세트를 준비하고, 이를 통해 확산 모델이 조작을 통합할 수 있도록 최적화하는 Multi-Task Canvas Training 전략을 제안함(We further curate a suite of multi-task datasets and propose a Multi-Task Canvas Training strategy that optimizes the diffusion model to jointly understand and integrate heterogeneous controls into text-to-image generation within a unified learning paradigm.)",
+            "조인트 훈련을 통해 여러 조작 모드 간의 추론이 가능하게 함(This joint training enables Canvas-to-Image to reason across multiple control modalities rather than relying on task-specific heuristics.)"
+        ],
+        "conclusion": "Canvas-to-Image는 다양한 조작 모드에서 뛰어난 성능을 발휘하며, 여러 제어 기준을 준수하는 이미지 생성을 통해 최신 기술을 능가함.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.21087",
+            "authors": [
+                {
+                    "_id": "6928a2681f3fae537858b4a4",
+                    "user": {
+                        "_id": "65e6a9a4c799256ec5f7ef77",
+                        "avatarUrl": "/avatars/539a455841675539a62b44ff9803a948.svg",
+                        "isPro": true,
+                        "fullname": "ziyun zeng",
+                        "user": "zengziyun",
+                        "type": "user"
+                    },
+                    "name": "Ziyun Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:50.315Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6928a2681f3fae537858b4a5",
+                    "user": {
+                        "_id": "6855a23082b55fe44a8d0f14",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/4IJaLsm6W1lRK3y2FMh8u.png",
+                        "isPro": false,
+                        "fullname": "Hang",
+                        "user": "hhua1",
+                        "type": "user"
+                    },
+                    "name": "Hang Hua",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:48.434Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6928a2681f3fae537858b4a6",
+                    "name": "Jiebo Luo",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-26T06:13:32.000Z",
+            "submittedOnDailyAt": "2025-11-28T00:06:07.849Z",
+            "title": "MIRA: Multimodal Iterative Reasoning Agent for Image Editing",
+            "submittedOnDailyBy": {
+                "_id": "639f8277beb95d698de007dd",
+                "avatarUrl": "/avatars/57f223ccd9d3cb03166ccf0e41361c58.svg",
+                "isPro": false,
+                "fullname": "HangHua",
+                "user": "hhua2",
+                "type": "user"
+            },
+            "summary": "Instruction-guided image editing offers an intuitive way for users to edit images with natural language. However, diffusion-based editing models often struggle to accurately interpret complex user instructions, especially those involving compositional relationships, contextual cues, or referring expressions, leading to edits that drift semantically or fail to reflect the intended changes. We tackle this problem by proposing MIRA (Multimodal Iterative Reasoning Agent), a lightweight, plug-and-play multimodal reasoning agent that performs editing through an iterative perception-reasoning-action loop, effectively simulating multi-turn human-model interaction processes. Instead of issuing a single prompt or static plan, MIRA predicts atomic edit instructions step by step, using visual feedback to make its decisions. Our 150K multimodal tool-use dataset, MIRA-Editing, combined with a two-stage SFT + GRPO training pipeline, enables MIRA to perform reasoning and editing over complex editing instructions. When paired with open-source image editing models such as Flux.1-Kontext, Step1X-Edit, and Qwen-Image-Edit, MIRA significantly improves both semantic consistency and perceptual quality, achieving performance comparable to or exceeding proprietary systems such as GPT-Image and Nano-Banana.",
+            "upvotes": 5,
+            "discussionId": "6928a2691f3fae537858b4a7",
+            "ai_summary": "MIRA, a multimodal reasoning agent, enhances diffusion-based image editing by iteratively interpreting complex instructions, improving both semantic consistency and perceptual quality.",
+            "ai_keywords": [
+                "diffusion-based editing models",
+                "multimodal reasoning agent",
+                "iterative perception-reasoning-action loop",
+                "atomic edit instructions",
+                "visual feedback",
+                "multimodal tool-use dataset",
+                "MIRA-Editing",
+                "two-stage SFT + GRPO training pipeline",
+                "semantic consistency",
+                "perceptual quality",
+                "Flux.1-Kontext",
+                "Step1X-Edit",
+                "Qwen-Image-Edit",
+                "GPT-Image",
+                "Nano-Banana"
+            ]
+        },
+        "translation_title": "MIRA: 이미지 편집을 위한 다중 모달 반복 추론 에이전트",
+        "purpose": "자연어를 사용한 직관적인 이미지 편집을 통해 사용자 편의성을 향상시키기 위해 이미지 편집의 정확성을 개선하는 것",
+        "method": [
+            "MIRA라는 경량의 다중 모달 추론 에이전트를 제안하여 반복적인 인식-추론-행동 루프를 통해 편집을 수행함(This problem is tackled by proposing MIRA, a lightweight, plug-and-play multimodal reasoning agent that performs editing through an iterative perception-reasoning-action loop.)",
+            "MIRA는 사용자 지침을 단계별로 예측하고, 시각적 피드백을 통해 결정함(Instead of issuing a single prompt or static plan, MIRA predicts atomic edit instructions step by step, using visual feedback to make its decisions.)",
+            "150K의 다중 모달 도구 사용 데이터세트인 MIRA-Editing과 두 단계의 SFT + GRPO 훈련 파이프라인을 통해 복잡한 편집 지침을 처리할 수 있도록 함(Our 150K multimodal tool-use dataset, MIRA-Editing, combined with a two-stage SFT + GRPO training pipeline, enables MIRA to perform reasoning and editing over complex editing instructions.)"
+        ],
+        "conclusion": "MIRA는 기존의 이미지 편집 모델과 결합 시 의미적 일관성과 지각 품질을 크게 향상시켜, 상용 시스템과 유사하거나 그 이상의 성능을 달성함.",
+        "keywords": [
+            "Image Editing",
+            "Multimodal Learning",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.21662",
+            "authors": [
+                {
+                    "_id": "6927d4bd243b2216fb75cdb6",
+                    "user": {
+                        "_id": "6570977f87a92b76922c9950",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6570977f87a92b76922c9950/AQGto1w6ugBvH2yCV46YU.jpeg",
+                        "isPro": false,
+                        "fullname": "Tianyi Xiong",
+                        "user": "txiong23",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Xiong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:55.333Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdb7",
+                    "name": "Yi Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdb8",
+                    "name": "Ming Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdb9",
+                    "name": "Zuolong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdba",
+                    "name": "Pranav Kulkarni",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdbb",
+                    "name": "Kaishen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdbc",
+                    "name": "Qi He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdbd",
+                    "name": "Zeying Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdbe",
+                    "name": "Chenxi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdbf",
+                    "name": "Ruibo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc0",
+                    "name": "Tong Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc1",
+                    "name": "Yanshuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc2",
+                    "user": {
+                        "_id": "655fed9fdef5905d38b84af3",
+                        "avatarUrl": "/avatars/2cda4182dfd11a1e94743639e62328ea.svg",
+                        "isPro": false,
+                        "fullname": "Xiyao Wang",
+                        "user": "russwang",
+                        "type": "user"
+                    },
+                    "name": "Xiyao Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-11-28T13:48:53.739Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc3",
+                    "name": "Renrui Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc4",
+                    "name": "Wenhu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6927d4bd243b2216fb75cdc5",
+                    "name": "Heng Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-26T18:35:17.000Z",
+            "submittedOnDailyAt": "2025-11-28T00:23:35.734Z",
+            "title": "Multi-Crit: Benchmarking Multimodal Judges on Pluralistic Criteria-Following",
+            "submittedOnDailyBy": {
+                "_id": "6570977f87a92b76922c9950",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6570977f87a92b76922c9950/AQGto1w6ugBvH2yCV46YU.jpeg",
+                "isPro": false,
+                "fullname": "Tianyi Xiong",
+                "user": "txiong23",
+                "type": "user"
+            },
+            "summary": "Large multimodal models (LMMs) are increasingly adopted as judges in multimodal evaluation systems due to their strong instruction following and consistency with human preferences. However, their ability to follow diverse, fine-grained evaluation criteria remains underexplored. We develop Multi-Crit, a benchmark for evaluating multimodal judges on their capacity to follow pluralistic criteria and produce reliable criterion-level judgments. Covering both open-ended generation and verifiable reasoning tasks, Multi-Crit is built through a rigorous data curation pipeline that gathers challenging response pairs with multi-criterion human annotations. It further introduces three novel metrics for systematically assessing pluralistic adherence, criterion-switching flexibility, and the ability to recognize criterion-level preference conflicts. Comprehensive analysis of 25 LMMs reveals that 1) proprietary models still struggle to maintain consistent adherence to pluralistic criteria--especially in open-ended evaluation; 2) open-source models lag further behind in flexibly following diverse criteria; and 3) critic fine-tuning with holistic judgment signals enhances visual grounding but fails to generalize to pluralistic criterion-level judgment. Additional analyses on reasoning fine-tuning, test-time scaling, and boundary consistency between open-source and proprietary models further probe the limits of current multimodal judges. As a pioneering study, Multi-Crit lays the foundation for building reliable and steerable multimodal AI evaluation.",
+            "upvotes": 2,
+            "discussionId": "6927d4be243b2216fb75cdc6",
+            "projectPage": "https://multi-crit.github.io/",
+            "ai_summary": "Multi-Crit evaluates multimodal models on following diverse criteria with metrics for pluralistic adherence, criterion-switching flexibility, and recognizing preference conflicts, revealing gaps in model capabilities.",
+            "ai_keywords": [
+                "LMMs",
+                "multimodal evaluation systems",
+                "instruction following",
+                "human preferences",
+                "multi-criterion human annotations",
+                "pluralistic criteria",
+                "criterion-level judgments",
+                "open-ended generation",
+                "verifiable reasoning tasks",
+                "holistic judgment signals",
+                "visual grounding",
+                "reasoning fine-tuning",
+                "test-time scaling",
+                "boundary consistency"
+            ],
+            "organization": {
+                "_id": "68b3c3bbc375e05b059370b2",
+                "name": "UMCP",
+                "fullname": "University of Maryland College Park",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68b3c2c3a4ea236d1a97871a/bji3nI5ZWm2r4JX_-HLo0.png"
+            }
+        },
+        "translation_title": "Multi-Crit: 다면적 기준 준수를 위한 다중모달 평가자 벤치마킹",
+        "purpose": "다양한 세부 평가 기준을 준수하는 능력을 평가하기 위한 기준 마련",
+        "method": [
+            "Multi-Crit라는 벤치마크를 개발하여 다중모달 평가자들이 다면적 기준을 따르는 능력을 평가함(We develop Multi-Crit, a benchmark for evaluating multimodal judges on their capacity to follow pluralistic criteria and produce reliable criterion-level judgments.)",
+            "엄격한 데이터 수집 파이프라인을 통해 다중 기준 인간 주석이 포함된 응답 쌍을 수집함(It further introduces three novel metrics for systematically assessing pluralistic adherence, criterion-switching flexibility, and the ability to recognize criterion-level preference conflicts.)",
+            "25개의 LMM을 포괄적으로 분석하여 현재 다중모달 모델의 한계를 탐구함(Comprehensive analysis of 25 LMMs reveals that proprietary models still struggle to maintain consistent adherence to pluralistic criteria.)"
+        ],
+        "conclusion": "Multi-Crit는 신뢰할 수 있고 조정 가능한 다중모달 AI 평가의 기초를 마련함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2511.19757",
+            "authors": [
+                {
+                    "_id": "6929776c015287ce74613dd0",
+                    "name": "Colton Casto",
+                    "hidden": false
+                },
+                {
+                    "_id": "6929776c015287ce74613dd1",
+                    "name": "Anna Ivanova",
+                    "hidden": false
+                },
+                {
+                    "_id": "6929776c015287ce74613dd2",
+                    "name": "Evelina Fedorenko",
+                    "hidden": false
+                },
+                {
+                    "_id": "6929776c015287ce74613dd3",
+                    "name": "Nancy Kanwisher",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-11-24T22:21:55.000Z",
+            "submittedOnDailyAt": "2025-11-28T07:53:58.709Z",
+            "title": "What does it mean to understand language?",
+            "submittedOnDailyBy": {
+                "_id": "61e52be53d6dbb1da842316a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/61e52be53d6dbb1da842316a/gx0WGPcOCClXPymoKglc4.jpeg",
+                "isPro": false,
+                "fullname": "Börje Karlsson",
+                "user": "tellarin",
+                "type": "user"
+            },
+            "summary": "Language understanding entails not just extracting the surface-level meaning of the linguistic input, but constructing rich mental models of the situation it describes. Here we propose that because processing within the brain's core language system is fundamentally limited, deeply understanding language requires exporting information from the language system to other brain regions that compute perceptual and motor representations, construct mental models, and store our world knowledge and autobiographical memories. We review the existing evidence for this hypothesis, and argue that recent progress in cognitive neuroscience provides both the conceptual foundation and the methods to directly test it, thus opening up a new strategy to reveal what it means, cognitively and neurally, to understand language.",
+            "upvotes": 1,
+            "discussionId": "6929776c015287ce74613dd4",
+            "ai_summary": "Language understanding involves transferring information from the core language system to other brain regions for constructing mental models, using world knowledge, and autobiographical memories.",
+            "ai_keywords": [
+                ""
+            ],
+            "organization": {
+                "_id": "63728bde14d543d507ae970d",
+                "name": "MIT",
+                "fullname": "Massachusetts Institute of Technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/S90qoeEJeEYaYf-c7Zs8g.png"
+            }
+        },
+        "translation_title": "언어를 이해한다는 것은 무엇인가?",
+        "purpose": "언어 이해의 인지적 및 신경적 의미를 밝혀내기 위한 새로운 전략 제안",
+        "method": [
+            "뇌의 핵심 언어 시스템의 처리 한계를 설명하고, 언어 이해가 다른 뇌 영역으로 정보를 내보내야 함을 제안함(we propose that because processing within the brain's core language system is fundamentally limited, deeply understanding language requires exporting information from the language system to other brain regions)",
+            "인지 신경 과학의 최근 진행 상황을 검토하고, 이를 통해 우리의 제안을 직접 테스트할 수 있는 방법을 제시함(we review the existing evidence for this hypothesis, and argue that recent progress in cognitive neuroscience provides both the conceptual foundation and the methods to directly test it)"
+        ],
+        "conclusion": "이 연구는 언어 이해의 심층적인 인지적 모델을 개발하고, 이를 검증하기 위한 새로운 방법론을 열어줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Cognitive Neuroscience",
+            "Mental Models"
+        ]
+    }
+]
