@@ -1,0 +1,1024 @@
+[
+    {
+        "paper": {
+            "id": "2512.04324",
+            "authors": [
+                {
+                    "_id": "693245c66d1060ca587a265c",
+                    "name": "Fangyu Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a265d",
+                    "user": {
+                        "_id": "67f231b5ac0b61b184e84482",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/qJZfkOZEn5Zx_VP2MR7ab.png",
+                        "isPro": false,
+                        "fullname": "mengjinxiang",
+                        "user": "Mjx0221",
+                        "type": "user"
+                    },
+                    "name": "Jinxiang Meng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:39:10.222Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a265e",
+                    "name": "Yiming Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a265f",
+                    "name": "Junjie Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2660",
+                    "name": "Yitong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2661",
+                    "user": {
+                        "_id": "66adf5cc0c6056d9f4dc308f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66adf5cc0c6056d9f4dc308f/mVKo06P7M1qf6RYNG-c2i.jpeg",
+                        "isPro": false,
+                        "fullname": "Jane Luo",
+                        "user": "Luo2003",
+                        "type": "user"
+                    },
+                    "name": "Jianwen Luo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:34.047Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2662",
+                    "name": "Xin Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2663",
+                    "name": "Ruiyi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2664",
+                    "name": "Wenbo Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2665",
+                    "name": "Yan Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2666",
+                    "name": "Shizhu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2667",
+                    "name": "Zuo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2668",
+                    "name": "Qian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a2669",
+                    "name": "Yang Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a266a",
+                    "name": "Ke Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a266b",
+                    "name": "Jun Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693245c66d1060ca587a266c",
+                    "name": "Kang Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-03T23:21:28.000Z",
+            "submittedOnDailyAt": "2025-12-05T00:09:12.656Z",
+            "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Real-world enterprise data intelligence workflows encompass data engineering that turns raw sources into analytical-ready tables and data analysis that convert those tables into decision-oriented insights. We introduce DAComp, a benchmark of 210 tasks that mirrors these complex workflows. Data engineering (DE) tasks require repository-level engineering on industrial schemas, including designing and building multi-stage SQL pipelines from scratch and evolving existing systems under evolving requirements. Data analysis (DA) tasks pose open-ended business problems that demand strategic planning, exploratory analysis through iterative coding, interpretation of intermediate results, and the synthesis of actionable recommendations. Engineering tasks are scored through execution-based, multi-metric evaluation. Open-ended tasks are assessed by a reliable, experimentally validated LLM-judge, which is guided by hierarchical, meticulously crafted rubrics. Our experiments reveal that even state-of-the-art agents falter on DAComp. Performance on DE tasks is particularly low, with success rates under 20%, exposing a critical bottleneck in holistic pipeline orchestration, not merely code generation. Scores on DA tasks also average below 40%, highlighting profound deficiencies in open-ended reasoning and demonstrating that engineering and analysis are distinct capabilities. By clearly diagnosing these limitations, DAComp provides a rigorous and realistic testbed to drive the development of truly capable autonomous data agents for enterprise settings. Our data and code are available at https://da-comp.github.io",
+            "upvotes": 116,
+            "discussionId": "693245c66d1060ca587a266d",
+            "projectPage": "https://da-comp.github.io/",
+            "ai_summary": "DAComp is a benchmark of 210 tasks that evaluates the capabilities of agents in real-world data engineering and data analysis workflows, revealing significant deficiencies in both areas.",
+            "ai_keywords": [
+                "data engineering",
+                "data analysis",
+                "DE tasks",
+                "DA tasks",
+                "SQL pipelines",
+                "multi-metric evaluation",
+                "LLM-judge",
+                "hierarchical rubrics",
+                "autonomous data agents"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "DAComp: 데이터 인텔리전스 생애 주기 전반에 걸친 데이터 에이전트 벤치마킹",
+        "purpose": "기업 환경에서 데이터 기반 의사 결정을 지원하는 데이터 에이전트의 성능을 평가하기 위한 벤치마크 개발",
+        "method": [
+            "210개의 작업을 포함한 DAComp 벤치마크를 도입하여 데이터 엔지니어링(DE) 및 데이터 분석(DA) 작업을 시뮬레이션함(We introduce DAComp, a benchmark of 210 tasks that mirrors these complex workflows.)",
+            "DE 작업에 대한 평가를 실행 기반 다중 지표로 수행함(Data engineering (DE) tasks are scored through execution-based, multi-metric evaluation.)",
+            "DA 작업은 실험적으로 검증된 LLM-judge에 의해 계층적 루브릭을 따르도록 평가함(Open-ended tasks are assessed by a reliable, experimentally validated LLM-judge, which is guided by hierarchical, meticulously crafted rubrics.)"
+        ],
+        "conclusion": "DAComp의 결과를 통해 현재 데이터 에이전트가 직면한 문제와 한계를 명확하게 진단하고, 더 유능한 자율 데이터 에이전트 개발을 위한 기반을 마련함.",
+        "keywords": [
+            "Data Engineering",
+            "Data Analysis",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.04677",
+            "authors": [
+                {
+                    "_id": "693251d36d1060ca587a2746",
+                    "name": "Yubo Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a2747",
+                    "name": "Hailong Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a2748",
+                    "name": "Fangtai Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a2749",
+                    "name": "Shifeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274a",
+                    "name": "Shijie Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274b",
+                    "name": "Qijun Gan",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274c",
+                    "name": "Lin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274d",
+                    "name": "Sirui Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274e",
+                    "name": "Enhong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a274f",
+                    "user": {
+                        "_id": "637c941588699fba70e29f70",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637c941588699fba70e29f70/b6G_QZkT-MhE47dx87i0d.png",
+                        "isPro": true,
+                        "fullname": "LIU JIAMING",
+                        "user": "jamesliu1217",
+                        "type": "user"
+                    },
+                    "name": "Jiaming Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:19.340Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693251d36d1060ca587a2750",
+                    "name": "Steven Hoi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-04T11:11:24.000Z",
+            "submittedOnDailyAt": "2025-12-05T01:00:58.773Z",
+            "title": "Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": true,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "Existing diffusion-based video generation methods are fundamentally constrained by sequential computation and long-horizon inconsistency, limiting their practical adoption in real-time, streaming audio-driven avatar synthesis. We present Live Avatar, an algorithm-system co-designed framework that enables efficient, high-fidelity, and infinite-length avatar generation using a 14-billion-parameter diffusion model. Our approach introduces Timestep-forcing Pipeline Parallelism (TPP), a distributed inference paradigm that pipelines denoising steps across multiple GPUs, effectively breaking the autoregressive bottleneck and ensuring stable, low-latency real-time streaming. To further enhance temporal consistency and mitigate identity drift and color artifacts, we propose the Rolling Sink Frame Mechanism (RSFM), which maintains sequence fidelity by dynamically recalibrating appearance using a cached reference image. Additionally, we leverage Self-Forcing Distribution Matching Distillation to facilitate causal, streamable adaptation of large-scale models without sacrificing visual quality. Live Avatar demonstrates state-of-the-art performance, reaching 20 FPS end-to-end generation on 5 H800 GPUs, and, to the best of our knowledge, is the first to achieve practical, real-time, high-fidelity avatar generation at this scale. Our work establishes a new paradigm for deploying advanced diffusion models in industrial long-form video synthesis applications.",
+            "upvotes": 108,
+            "discussionId": "693251d46d1060ca587a2751",
+            "ai_summary": "Live Avatar uses a 14-billion-parameter diffusion model with Timestep-forcing Pipeline Parallelism and Rolling Sink Frame Mechanism to achieve real-time, high-fidelity avatar generation.",
+            "ai_keywords": [
+                "diffusion-based video generation",
+                "sequential computation",
+                "long-horizon inconsistency",
+                "real-time",
+                "streaming audio-driven avatar synthesis",
+                "Timestep-forcing Pipeline Parallelism",
+                "distributed inference paradigm",
+                "pipeline parallelism",
+                "denoising steps",
+                "autoregressive bottleneck",
+                "low-latency real-time streaming",
+                "Rolling Sink Frame Mechanism",
+                "sequence fidelity",
+                "Self-Forcing Distribution Matching Distillation",
+                "causal",
+                "streamable adaptation",
+                "visual quality",
+                "end-to-end generation",
+                "H800 GPUs"
+            ]
+        },
+        "translation_title": "Live Avatar: 실시간 오디오 기반 아바타 생성 지원 기술",
+        "purpose": "실시간 오디오 기반 아바타 생성의 효율성 및 품질 향상",
+        "method": [
+            "14억 개의 매개변수를 가진 diffusion 모델을 활용하여 무한 길이의 아바타 생성을 가능하게 함(We present Live Avatar, an algorithm-system co-designed framework that enables efficient, high-fidelity, and infinite-length avatar generation using a 14-billion-parameter diffusion model.)",
+            "Timestep-forcing Pipeline Parallelism (TPP)를 도입하여 여러 GPU 간에 denoising 단계를 파이프라인으로 연결해 안정적이고 낮은 지연 시간의 실시간 스트리밍을 보장함.(Our approach introduces Timestep-forcing Pipeline Parallelism (TPP), a distributed inference paradigm that pipelines denoising steps across multiple GPUs, effectively breaking the autoregressive bottleneck and ensuring stable, low-latency real-time streaming.)",
+            "Rolling Sink Frame Mechanism (RSFM)을 통해 외관을 보존하고 색상 아티팩트를 줄여 시퀀스 충실성을 유지함(we propose the Rolling Sink Frame Mechanism (RSFM), which maintains sequence fidelity by dynamically recalibrating appearance using a cached reference image.)"
+        ],
+        "conclusion": "Live Avatar는 5 H800 GPU에서 20 FPS의 끝내주는 생성 속도를 달성하여 실시간 고품질 아바타 생성을 성공적으로 이루어냄.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.04987",
+            "authors": [
+                {
+                    "_id": "6932458a6d1060ca587a2618",
+                    "name": "Nex-AGI Team",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261a",
+                    "name": "Yuxuan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261b",
+                    "name": "Lu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261c",
+                    "name": "Qiaoling Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261d",
+                    "name": "Yuyang Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261e",
+                    "name": "Liwen Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a261f",
+                    "name": "Wenjie Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2620",
+                    "user": {
+                        "_id": "658bd417925aadd43303566a",
+                        "avatarUrl": "/avatars/e97f6696817caaa4564a33f12c7b9090.svg",
+                        "isPro": false,
+                        "fullname": "Gao",
+                        "user": "Yufei0707",
+                        "type": "user"
+                    },
+                    "name": "Yufei Gao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:36.106Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2621",
+                    "user": {
+                        "_id": "638ef0b0c67af472d31674a6",
+                        "avatarUrl": "/avatars/02df97d15a0f46b47f9162221733b121.svg",
+                        "isPro": false,
+                        "fullname": "Honglin Guo",
+                        "user": "KYLN24",
+                        "type": "user"
+                    },
+                    "name": "Honglin Guo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:43.376Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2622",
+                    "user": {
+                        "_id": "6461e09759daabed7575b7a2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6461e09759daabed7575b7a2/sxfko49Q7ta0dCfgrpqoB.jpeg",
+                        "isPro": false,
+                        "fullname": "PinxueGuo",
+                        "user": "PinxueGuo",
+                        "type": "user"
+                    },
+                    "name": "Pinxue Guo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T15:14:54.854Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2623",
+                    "name": "Zhenhua Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2624",
+                    "name": "Zhengfu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2625",
+                    "name": "Hanglei Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2626",
+                    "name": "Kai Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2627",
+                    "name": "Shengjia Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2628",
+                    "name": "Tianyu Huai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2629",
+                    "name": "Baodai Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262a",
+                    "name": "Li Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262b",
+                    "name": "Zhen Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262c",
+                    "name": "Zhikai Lei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262d",
+                    "name": "Bufan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262e",
+                    "name": "Jiahang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a262f",
+                    "name": "Lizhi Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2630",
+                    "name": "Jinxiu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2631",
+                    "user": {
+                        "_id": "65435cad429b80b14922ab8d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/N8oWq4ZZn3dRxmXi18FrA.jpeg",
+                        "isPro": false,
+                        "fullname": "Shichun Liu",
+                        "user": "Liusc2020",
+                        "type": "user"
+                    },
+                    "name": "Shichun Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:39.885Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2632",
+                    "name": "Ziming Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2633",
+                    "name": "Yuchen Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2634",
+                    "name": "Pengfang Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2635",
+                    "name": "Yujiong Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2636",
+                    "name": "Qingyun Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2637",
+                    "name": "Wentao Shu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2638",
+                    "name": "Peng Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2639",
+                    "name": "Yiran Suo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263a",
+                    "name": "Tian Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263b",
+                    "name": "Boyu Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263c",
+                    "user": {
+                        "_id": "6542391f3fcd1aee202383d2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/5O7dZAVGmwhsx1THSJ-gn.jpeg",
+                        "isPro": false,
+                        "fullname": "wang",
+                        "user": "guoteng",
+                        "type": "user"
+                    },
+                    "name": "Guoteng Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T15:14:58.106Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263d",
+                    "name": "Junzhe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263e",
+                    "name": "Peixin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a263f",
+                    "user": {
+                        "_id": "653a6e5cae155b92bae77b74",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/653a6e5cae155b92bae77b74/TA5FWKAUsB249ux4MzD_R.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhiheng Xi",
+                        "user": "WooooDyy",
+                        "type": "user"
+                    },
+                    "name": "Zhiheng Xi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:45.863Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2640",
+                    "name": "Hang Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2641",
+                    "user": {
+                        "_id": "66206a2136201a18e5329631",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66206a2136201a18e5329631/9aJiGOKshh1tZ171zDw_D.png",
+                        "isPro": false,
+                        "fullname": "yangjie",
+                        "user": "red-fox-yj",
+                        "type": "user"
+                    },
+                    "name": "Jie Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:39:12.116Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2642",
+                    "name": "Zhixiong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2643",
+                    "name": "Tianchu Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2644",
+                    "name": "Guangze Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2645",
+                    "name": "Qianxi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2646",
+                    "user": {
+                        "_id": "6334f2f1259c518276efa730",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6334f2f1259c518276efa730/z_SH_OBkDyj4RCN9mqsKS.jpeg",
+                        "isPro": false,
+                        "fullname": "Shuo Zhang",
+                        "user": "Meteonis",
+                        "type": "user"
+                    },
+                    "name": "Shuo Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:41.640Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2647",
+                    "name": "Xinyue Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2648",
+                    "name": "Yiqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2649",
+                    "name": "Jiarong Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264a",
+                    "name": "Miao Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264b",
+                    "name": "Rui Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264c",
+                    "name": "Enyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264d",
+                    "name": "Jiazheng Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264e",
+                    "name": "Maosen Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a264f",
+                    "name": "Yuhao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2650",
+                    "name": "Tao Gui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2651",
+                    "name": "Yining Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2652",
+                    "name": "Xinchi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2653",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2654",
+                    "user": {
+                        "_id": "62061f8f03825909dcbeba27",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62061f8f03825909dcbeba27/byOi6gxlycUtsUPIUPscQ.jpeg",
+                        "isPro": false,
+                        "fullname": "Siyuan Feng",
+                        "user": "Siyuan",
+                        "type": "user"
+                    },
+                    "name": "Siyuan Feng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:38.168Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2655",
+                    "name": "Qin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2656",
+                    "name": "Liang He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2657",
+                    "name": "Qi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2658",
+                    "name": "Xuanjing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932458a6d1060ca587a2659",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-04T16:57:02.000Z",
+            "submittedOnDailyAt": "2025-12-05T00:08:10.618Z",
+            "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The evolution of Large Language Models (LLMs) from passive responders to autonomous agents necessitates a fundamental shift in learning paradigms -- from static imitation to incentive-driven decision making. However, this transition is significantly impeded by the lack of scalable infrastructure capable of constructing high-quality interaction signals for effective policy learning. To address this, we introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments. Our method realizes this scaling by addressing three orthogonal dimensions: (1) Complexity: NexAU, a flexible agent framework that supports building complex agent hierarchies via simple configurations; (2) Diversity: NexA4A automatically generates diverse agent hierarchies from natural language to cover infinite domains; and (3) Fidelity: NexGAP bridges the simulation-reality gap by integrating dynamic real-world environment for grounded trajectories synthesis. We train Nex-N1 upon the diverse and complex interactive environments established by our infrastructure. Empirical results on benchmarks such as SWE-bench and tau2 demonstrate that Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks. We open-source the Nex ecosystem and model weights to facilitate further research.",
+            "upvotes": 55,
+            "discussionId": "6932458a6d1060ca587a265a",
+            "githubRepo": "https://github.com/nex-agi/Nex-N1",
+            "ai_summary": "The introduction of NexAU, NexA4A, and NexGAP enables the scaling of complexity, diversity, and fidelity in interactive environments for training large language models as autonomous agents, resulting in superior performance.",
+            "ai_keywords": [
+                "Large Language Models",
+                "autonomous agents",
+                "incentive-driven decision making",
+                "policy learning",
+                "interaction signals",
+                "NexAU",
+                "agent hierarchies",
+                "NexA4A",
+                "natural language",
+                "NexGAP",
+                "simulation-reality gap",
+                "grounded trajectories synthesis",
+                "SWE-bench",
+                "tau2"
+            ],
+            "githubStars": 66,
+            "organization": {
+                "_id": "6907441c72f7d95376e910a5",
+                "name": "nex-agi",
+                "fullname": "Nex AGI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/65435cad429b80b14922ab8d/a_O9jT_daz_NXTfxtcw6S.png"
+            }
+        },
+        "translation_title": "Nex-N1: 대규모 환경 구축을 위한 통합 생태계에서 훈련된 자율 모델",
+        "purpose": "자율 에이전트로 발전하기 위한 학습 패러다임 전환 및 고품질 상호작용 신호 구축 방법론 제안",
+        "method": [
+            "NexAU를 통해 복잡한 에이전트 계층을 구축할 수 있는 유연한 에이전트 프레임워크 제공(Our method realizes this scaling by addressing three orthogonal dimensions: (1) Complexity: NexAU, a flexible agent framework that supports building complex agent hierarchies via simple configurations.)",
+            "NexA4A를 통해 자연어로부터 다양한 에이전트 계층 자동 생성(2) Diversity: NexA4A automatically generates diverse agent hierarchies from natural language to cover infinite domains;)",
+            "NexGAP을 사용하여 실제 환경과의 시뮬레이션 간극을 해소하여 더 나은 경로 합성 달성(3) Fidelity: NexGAP bridges the simulation-reality gap by integrating dynamic real-world environment for grounded trajectories synthesis."
+        ],
+        "conclusion": "결과적으로 Nex-N1은 SOTA 오픈 소스 모델보다 우수한 성능을 보이며, 복잡한 에이전트 작업에서도 경쟁력 있는 성과를 달성함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.05111",
+            "authors": [
+                {
+                    "_id": "693267756d1060ca587a2780",
+                    "name": "Shengyuan Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2781",
+                    "user": {
+                        "_id": "64f5f8dd9b17cd59c453c57f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f5f8dd9b17cd59c453c57f/MulhwLcePFUWUQel8LQZ8.jpeg",
+                        "isPro": false,
+                        "fullname": "Xinyu Fang",
+                        "user": "nebulae09",
+                        "type": "user"
+                    },
+                    "name": "Xinyu Fang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:39:08.410Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2782",
+                    "name": "Ziyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2783",
+                    "user": {
+                        "_id": "63859cf3b2906edaf83af9f0",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63859cf3b2906edaf83af9f0/kajwuVzd4pDucSPlwghxo.png",
+                        "isPro": true,
+                        "fullname": "Yuhang Zang",
+                        "user": "yuhangzang",
+                        "type": "user"
+                    },
+                    "name": "Yuhang Zang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:11.324Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2784",
+                    "name": "Yuhang Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2785",
+                    "name": "Xiangyu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2786",
+                    "name": "Haodong Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2787",
+                    "name": "Xiaoyi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2788",
+                    "name": "Jianze Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a2789",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a278a",
+                    "name": "Conghui He",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a278b",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "693267756d1060ca587a278c",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-04T18:59:52.000Z",
+            "submittedOnDailyAt": "2025-12-05T02:38:10.825Z",
+            "title": "ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "646cd947da8e99940b6e55cf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cd947da8e99940b6e55cf/9c0P0WppFqNW9pdo8LgOS.jpeg",
+                "isPro": false,
+                "fullname": "Shengyuan Ding",
+                "user": "ChrisDing1105",
+                "type": "user"
+            },
+            "summary": "Reward models are critical for aligning vision-language systems with human preferences, yet current approaches suffer from hallucination, weak visual grounding, and an inability to use tools for verification, limiting their reliability on complex multimodal reasoning tasks. We present ARM-Thinker, an A}gentic multimodal Reward Model that autonomously invokes external tools (e.g., image cropping, doc page retrieval) to ground judgments in verifiable evidence, replacing static, non-interactive reward scoring. This enables the model to verify fine-grained visual details, cross-reference multi-page evidence, and validate reasoning claims, which are capabilities absent in existing reward models. We train ARM-Thinker with multi-stage reinforcement learning, jointly optimizing tool-calling decisions and judgment accuracy. To evaluate agentic reward modeling, we introduce ARMBench-VL, comprising three benchmarks that assess fine-grained visual grounding (image-level tools), multi-page document understanding (retrieval tools), and instruction following (text-level verification). ARM-Thinker achieves +16.2% average improvement on reward modeling benchmarks, +9.6% on tool-use tasks, and outperforms baselines on multimodal math and logical reasoning benchmarks. Our results demonstrate that agentic capabilities significantly enhance both accuracy and interpretability of reward models.",
+            "upvotes": 35,
+            "discussionId": "693267766d1060ca587a278d",
+            "projectPage": "https://github.com/InternLM/ARM-Thinker",
+            "githubRepo": "https://github.com/InternLM/ARM-Thinker",
+            "ai_summary": "ARM-Thinker, an agentic reward model, uses external tools for verification, improving accuracy and interpretability in complex multimodal reasoning tasks.",
+            "ai_keywords": [
+                "reward models",
+                "vision-language systems",
+                "hallucination",
+                "visual grounding",
+                "external tools",
+                "image cropping",
+                "doc page retrieval",
+                "multi-stage reinforcement learning",
+                "tool-calling decisions",
+                "judgment accuracy",
+                "agentic reward modeling",
+                "ARMBench-VL",
+                "fine-grained visual grounding",
+                "multi-page document understanding",
+                "instruction following",
+                "multimodal math",
+                "logical reasoning"
+            ],
+            "githubStars": 32,
+            "organization": {
+                "_id": "64a2d5fa81252883206f24c9",
+                "name": "internlm",
+                "fullname": "Intern Large Models",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6445306bc525660aa2099ecc/ipmEgm86UIby2q5q7NkKm.jpeg"
+            }
+        },
+        "translation_title": "ARM-Thinker: 도구 사용과 시각적 추론으로 강화된 멀티모달 생성 보상 모델",
+        "purpose": "시각-언어 시스템을 인간의 선호와 정렬하기 위한 신뢰성 높은 보상 모델 개발",
+        "method": [
+            "ARM-Thinker라는 에이전트적인 멀티모달 보상 모델을 제시하고 외부 도구를 자율적으로 호출하여 판단을 검증 가능한 증거에 기반하도록 함 (We present ARM-Thinker, an Agentic multimodal Reward Model that autonomously invokes external tools to ground judgments in verifiable evidence.)",
+            "다단계 강화 학습을 통해 도구 호출 결정과 판단 정확성을 공동 최적화함 (We train ARM-Thinker with multi-stage reinforcement learning, jointly optimizing tool-calling decisions and judgment accuracy.)",
+            "세 가지 벤치마크를 도입하여 ARM-Thinker의 에이전트적 보상 모델링을 평가함 (To evaluate agentic reward modeling, we introduce ARMBench-VL, comprising three benchmarks that assess fine-grained visual grounding, multi-page document understanding, and instruction following.)"
+        ],
+        "conclusion": "ARM-Thinker는 보상 모델링 벤치마크에서 평균 16.2% 향상, 도구 사용 과제에서 9.6% 향상된 성과를 달성하고, 멀티모달 수학 및 논리 추론 벤치마크에서 기준선보다 우수한 성과를 보임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.04678",
+            "authors": [
+                {
+                    "_id": "693248cc6d1060ca587a26fa",
+                    "name": "Yunhong Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a26fb",
+                    "name": "Yanhong Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a26fc",
+                    "name": "Haobo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a26fd",
+                    "name": "Hao Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a26fe",
+                    "user": {
+                        "_id": "64981bea09cea550852652af",
+                        "avatarUrl": "/avatars/df528e9008972c8e5ae4d278e617476c.svg",
+                        "isPro": false,
+                        "fullname": "Qiuyu Wang",
+                        "user": "qiuyuu",
+                        "type": "user"
+                    },
+                    "name": "Qiuyu Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-05T08:29:25.231Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a26ff",
+                    "name": "Ka Leong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2700",
+                    "name": "Jiapeng Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2701",
+                    "name": "Hengyuan Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2702",
+                    "name": "Zhipeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2703",
+                    "name": "Xing Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2704",
+                    "name": "Yujun Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "693248cc6d1060ca587a2705",
+                    "name": "Min Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-04T11:12:13.000Z",
+            "submittedOnDailyAt": "2025-12-05T00:25:31.113Z",
+            "title": "Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation",
+            "submittedOnDailyBy": {
+                "_id": "63d4b843df01ef426a0f79fb",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676365795587-63d4b843df01ef426a0f79fb.jpeg",
+                "isPro": false,
+                "fullname": "Yanhong Zeng",
+                "user": "zengyh1900",
+                "type": "user"
+            },
+            "summary": "Efficient streaming video generation is critical for simulating interactive and dynamic worlds. Existing methods distill few-step video diffusion models with sliding window attention, using initial frames as sink tokens to maintain attention performance and reduce error accumulation. However, video frames become overly dependent on these static tokens, resulting in copied initial frames and diminished motion dynamics. To address this, we introduce Reward Forcing, a novel framework with two key designs. First, we propose EMA-Sink, which maintains fixed-size tokens initialized from initial frames and continuously updated by fusing evicted tokens via exponential moving average as they exit the sliding window. Without additional computation cost, EMA-Sink tokens capture both long-term context and recent dynamics, preventing initial frame copying while maintaining long-horizon consistency. Second, to better distill motion dynamics from teacher models, we propose a novel Rewarded Distribution Matching Distillation (Re-DMD). Vanilla distribution matching treats every training sample equally, limiting the model's ability to prioritize dynamic content. Instead, Re-DMD biases the model's output distribution toward high-reward regions by prioritizing samples with greater dynamics rated by a vision-language model. Re-DMD significantly enhances motion quality while preserving data fidelity. We include both quantitative and qualitative experiments to show that Reward Forcing achieves state-of-the-art performance on standard benchmarks while enabling high-quality streaming video generation at 23.1 FPS on a single H100 GPU.",
+            "upvotes": 30,
+            "discussionId": "693248cc6d1060ca587a2706",
+            "projectPage": "https://reward-forcing.github.io/",
+            "githubRepo": "https://github.com/JaydenLyh/Reward-Forcing",
+            "ai_summary": "The paper introduces Reward Forcing, which enhances video generation by updating sink tokens with EMA-Sink and using Rewarded Distribution Matching Distillation to prioritize dynamic content.",
+            "ai_keywords": [
+                "video diffusion models",
+                "sliding window attention",
+                "sink tokens",
+                "Reward Forcing",
+                "EMA-Sink",
+                "exponential moving average",
+                "Rewarded Distribution Matching Distillation",
+                "Re-DMD",
+                "vision-language model",
+                "motion dynamics",
+                "data fidelity",
+                "streaming video generation"
+            ],
+            "githubStars": 70
+        },
+        "translation_title": "Reward Forcing: 보상을 통한 효율적인 스트리밍 비디오 생성 기술",
+        "purpose": "상호작용적이고 동적인 세계를 시뮬레이션하기 위한 효율적인 스트리밍 비디오 생성을 위한 새로운 방법 제안",
+        "method": [
+            "초기 프레임에서 초기화된 고정 크기 토큰을 유지하고, 슬라이딩 윈도우를 통해 퇴출된 토큰을 지수 이동 평균으로 융합하여 지속적으로 업데이트하는 EMA-Sink 제안(we propose EMA-Sink, which maintains fixed-size tokens initialized from initial frames and continuously updated by fusing evicted tokens via exponential moving average as they exit the sliding window.)",
+            "동적 콘텐츠를 우선시하기 위해, vision-language 모델로 평가된 더 높은 동적 샘플을 우선시하여 모델의 출력 분포를 보상 영역으로 편향시키는 보상 분포 매칭 증류(Re-DMD) 제안(we propose a novel Rewarded Distribution Matching Distillation (Re-DMD) which biases the model's output distribution toward high-reward regions by prioritizing samples with greater dynamics rated by a vision-language model.)"
+        ],
+        "conclusion": "Reward Forcing는 표준 벤치마크에서 최첨단 성능을 달성하며, 단일 H100 GPU에서 초당 23.1 프레임으로 고품질 스트리밍 비디오 생성을 가능하게 함.",
+        "keywords": [
+            "Video Generation",
+            "Vision-Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
