@@ -1,0 +1,421 @@
+[
+    {
+        "paper": {
+            "id": "2512.05150",
+            "authors": [
+                {
+                    "_id": "69365dca3962c926cf6807f7",
+                    "name": "Zhenglin Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69365dca3962c926cf6807f8",
+                    "name": "Peng Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "69365dca3962c926cf6807f9",
+                    "name": "Jianguo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69365dca3962c926cf6807fa",
+                    "name": "Tao Lin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-03T07:45:46.000Z",
+            "submittedOnDailyAt": "2025-12-08T02:49:09.906Z",
+            "title": "TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows",
+            "submittedOnDailyBy": {
+                "_id": "65028e8389707f182386588c",
+                "avatarUrl": "/avatars/86a748a3264e6e0f4ee5eaf8f7032ecb.svg",
+                "isPro": true,
+                "fullname": "Zhenglin Cheng (SII)",
+                "user": "kenshinn",
+                "type": "user"
+            },
+            "summary": "Recent advances in large multi-modal generative models have demonstrated impressive capabilities in multi-modal generation, including image and video generation. These models are typically built upon multi-step frameworks like diffusion and flow matching, which inherently limits their inference efficiency (requiring 40-100 Number of Function Evaluations (NFEs)). While various few-step methods aim to accelerate the inference, existing solutions have clear limitations. Prominent distillation-based methods, such as progressive and consistency distillation, either require an iterative distillation procedure or show significant degradation at very few steps (< 4-NFE). Meanwhile, integrating adversarial training into distillation (e.g., DMD/DMD2 and SANA-Sprint) to enhance performance introduces training instability, added complexity, and high GPU memory overhead due to the auxiliary trained models. To this end, we propose TwinFlow, a simple yet effective framework for training 1-step generative models that bypasses the need of fixed pretrained teacher models and avoids standard adversarial networks during training, making it ideal for building large-scale, efficient models. On text-to-image tasks, our method achieves a GenEval score of 0.83 in 1-NFE, outperforming strong baselines like SANA-Sprint (a GAN loss-based framework) and RCGM (a consistency-based framework). Notably, we demonstrate the scalability of TwinFlow by full-parameter training on Qwen-Image-20B and transform it into an efficient few-step generator. With just 1-NFE, our approach matches the performance of the original 100-NFE model on both the GenEval and DPG-Bench benchmarks, reducing computational cost by 100times with minor quality degradation. Project page is available at https://zhenglin-cheng.com/twinflow.",
+            "upvotes": 36,
+            "discussionId": "69365dcb3962c926cf6807fb",
+            "ai_summary": "TwinFlow is a 1-step generative model framework that enhances inference efficiency without requiring fixed pretrained teacher models or standard adversarial networks, achieving high performance on text-to-image tasks and scaling efficiently.",
+            "ai_keywords": [
+                "diffusion",
+                "flow matching",
+                "inference efficiency",
+                "Number of Function Evaluations",
+                "few-step methods",
+                "progressive distillation",
+                "consistency distillation",
+                "adversarial training",
+                "DMD/DMD2",
+                "SANA-Sprint",
+                "TwinFlow",
+                "GenEval",
+                "RCGM",
+                "Qwen-Image-20B",
+                "DPG-Bench"
+            ],
+            "organization": {
+                "_id": "67aea5c8f086ab0f70ed97c9",
+                "name": "inclusionAI",
+                "fullname": "inclusionAI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg"
+            }
+        },
+        "translation_title": "TwinFlow: 자기 대립 흐름을 통한 대형 모델에서 원스텝 생성 실현",
+        "purpose": "대형 모델 생성에서 고정된 사전 훈련된 교사 모델 없이 효율적인 원스텝 생성 모델 구축",
+        "method": [
+            "TwinFlow라는 간단하면서도 효과적인 프레임워크를 제안하여 고정된 사전 훈련된 교사 모델의 필요성을 우회함(To this end, we propose TwinFlow, a simple yet effective framework for training 1-step generative models that bypasses the need of fixed pretrained teacher models.)",
+            "텍스트-이미지 작업에서 1-NFE로 0.83의 GenEval 점수를 달성함(Our method achieves a GenEval score of 0.83 in 1-NFE, outperforming strong baselines like SANA-Sprint.)",
+            "통합된 이 접근법은 100-NFE 모델과 동일한 성능을 내면서 계산 비용을 100배 줄임(With just 1-NFE, our approach matches the performance of the original 100-NFE model, reducing computational cost by 100 times.)"
+        ],
+        "conclusion": "TwinFlow는 대형 생성 모델에서 효율성을 높이며 고품질의 결과를 제공하면서도 계산 비용을 크게 줄이는데 성공하였다.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Large Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.05965",
+            "authors": [
+                {
+                    "_id": "693638ba3962c926cf680724",
+                    "user": {
+                        "_id": "66fd43e80cde4879f9aeca01",
+                        "avatarUrl": "/avatars/7bc9afa5e023e00820333e8d18dc4bc5.svg",
+                        "isPro": false,
+                        "fullname": "Hongyu Li",
+                        "user": "appletea2333",
+                        "type": "user"
+                    },
+                    "name": "Hongyu Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-08T08:30:17.282Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680725",
+                    "name": "Manyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680726",
+                    "user": {
+                        "_id": "67e60ae6ac37824273d74389",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/YvPKZ_0gyJnvNwM1zK3JS.png",
+                        "isPro": false,
+                        "fullname": "Dian Zheng",
+                        "user": "zhengli1013",
+                        "type": "user"
+                    },
+                    "name": "Dian Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-08T08:30:20.419Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680727",
+                    "name": "Ziyu Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680728",
+                    "name": "Yimeng Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680729",
+                    "name": "Kaituo Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072a",
+                    "user": {
+                        "_id": "669205f1ccca14aa8f13f770",
+                        "avatarUrl": "/avatars/11ce274e93345fe3790ac9fa687e2bcb.svg",
+                        "isPro": false,
+                        "fullname": "Hao Yu",
+                        "user": "Longin-Yu",
+                        "type": "user"
+                    },
+                    "name": "Hao Yu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-08T08:30:14.976Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072b",
+                    "name": "Yexin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072c",
+                    "name": "Yan Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072d",
+                    "name": "Peng Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072e",
+                    "name": "Xunliang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf68072f",
+                    "name": "Linjiang Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680730",
+                    "name": "Hongsheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "693638ba3962c926cf680731",
+                    "name": "Si Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/8f-me49cubcrpFx-hfaoM.gif"
+            ],
+            "publishedAt": "2025-12-05T18:58:09.000Z",
+            "submittedOnDailyAt": "2025-12-08T00:03:16.853Z",
+            "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Instruction-based image editing has emerged as a prominent research area, which, benefiting from image generation foundation models, have achieved high aesthetic quality, making instruction-following capability the primary challenge. Existing approaches improve instruction adherence via supervised or reinforcement learning, yet single-turn success rates remain limited due to inherent stochasticity and a lack of deliberation. In this work, we propose a deliberative editing framework to 'think' while they edit, which simulates the human cognitive loop by iteratively executing a Think-while-Edit cycle: Critiquing results and Refining instructions , followed by Repeating the generation until satisfactory. Specifically, we train a single MLLM, EditThinker, to act as the reasoning engine of this framework, which jointly produce the critique score, reasoning process, and refined instructions. We employ reinforcement learning to align the EditThinker's thinking with its editing, thereby generating more targeted instruction improvements. Extensive experiments on four benchmarks demonstrate that our approach significantly improves the instruction-following capability of any image editing model by a large margin. We will release our data construction framework, datasets, and models to benefit the community.",
+            "upvotes": 31,
+            "discussionId": "693638ba3962c926cf680732",
+            "projectPage": "https://appletea233.github.io/think-while-edit/",
+            "githubRepo": "https://github.com/appletea233/EditThinker",
+            "ai_summary": "A deliberative editing framework with a reasoning engine improves instruction-following in image editing through iterative critique and refinement, significantly enhancing performance.",
+            "ai_keywords": [
+                "MLLM",
+                "EditThinker",
+                "reinforcement learning",
+                "Think-while-Edit cycle",
+                "Critiquing",
+                "Refining instructions",
+                "generation",
+                "image editing",
+                "instruction-following capability",
+                "data construction framework"
+            ],
+            "githubStars": 17
+        },
+        "translation_title": "EditThinker: 이미지 편집을 위한 반복적 사고 과정의 개방",
+        "purpose": "이미지 편집 모델의 지침 준수 능력을 향상시키기 위한 새로운 편집 프레임워크 개발",
+        "method": [
+            "사람의 인지 루프를 모사하는 Think-while-Edit 사이클을 실행함으로써 편집 중 사고 과정을 시뮬레이션 하는 법을 제안함(In this work, we propose a deliberative editing framework to 'think' while they edit, which simulates the human cognitive loop by iteratively executing a Think-while-Edit cycle.)",
+            "EditThinker라는 단일 MLLM을 훈련시켜 비판 점수, 사고 과정 및 수정된 지침을 함께 생성하도록 함(Specifically, we train a single MLLM, EditThinker, to act as the reasoning engine of this framework, which jointly produce the critique score, reasoning process, and refined instructions.)",
+            "EditThinker의 사고와 편집을 정렬하기 위해 강화 학습을 활용함(We employ reinforcement learning to align the EditThinker's thinking with its editing.)"
+        ],
+        "conclusion": "우리의 접근 방식은 이미지 편집 모델의 지침 준수 능력을 크게 향상시켰으며, 이후 데이터 구축 프레임워크와 데이터셋, 모델을 공동체에 제공할 예정임.",
+        "keywords": [
+            "Image Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.02580",
+            "authors": [
+                {
+                    "_id": "6934d2ba3962c926cf680575",
+                    "name": "Changpeng Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf680576",
+                    "name": "Jinyang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf680577",
+                    "name": "Yuchen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf680578",
+                    "name": "Shuai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf680579",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057a",
+                    "name": "Qiliang Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057b",
+                    "name": "Hongzhen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057c",
+                    "name": "Shuai Nie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057d",
+                    "name": "Jiaming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057e",
+                    "name": "Runyu Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf68057f",
+                    "name": "Ying Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6934d2ba3962c926cf680580",
+                    "name": "Guoquan Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-02T09:48:57.000Z",
+            "submittedOnDailyAt": "2025-12-08T01:16:07.593Z",
+            "title": "From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks",
+            "submittedOnDailyBy": {
+                "_id": "6747de57f8cab58c22ec94a2",
+                "avatarUrl": "/avatars/5bae0341862fac24564781c0fa32aac5.svg",
+                "isPro": false,
+                "fullname": "Jinyang Wu",
+                "user": "Jinyang23",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning has emerged as a paradigm for post-training large language models, boosting their reasoning capabilities. Such approaches compute an advantage value for each sample, reflecting better or worse performance than expected, thereby yielding both positive and negative signals for training. However, the indiscriminate mixing of the two signals in existing methods, especially from the early stages, may lead to ambiguous guidance and limited gains. To address this issue, we propose **CAPO** (**C**urriculum **A**dvantage **P**olicy **O**ptimization), an adaptive curriculum mechanism based on advantage signals. The proposed mechanism bootstraps imitation learning with positive-only advantage samples to establish robust foundations, and subsequently introduces negative signals to cultivate discriminative capabilities, thereby improving generalization across complex scenarios. Compatible with diverse optimization methods including GRPO, PPO, RLOO, and Reinforce++, our method consistently achieves stable and significant improvements in mathematical reasoning tasks, and further generalizes effectively to multimodal Graphical User Interface (GUI) reasoning scenarios, establishing itself as a versatile and robust optimization framework.",
+            "upvotes": 23,
+            "discussionId": "6934d2ba3962c926cf680581",
+            "ai_summary": "CAPO, a curriculum advantage policy optimization, enhances reinforcement learning for large language models by strategically introducing positive and negative advantage signals, improving reasoning capabilities and generalization.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "post-training",
+                "large language models",
+                "reasoning capabilities",
+                "advantage value",
+                "positive signals",
+                "negative signals",
+                "curriculum mechanism",
+                "imitation learning",
+                "discriminative capabilities",
+                "generalization",
+                "GRPO",
+                "PPO",
+                "RLOO",
+                "Reinforce++",
+                "mathematical reasoning tasks",
+                "multimodal Graphical User Interface (GUI) reasoning scenarios",
+                "optimization framework"
+            ]
+        },
+        "translation_title": "모방에서 차별화로: 교차 도메인 추론 작업을 향상시키는 일반화된 커리큘럼 어드밴티지 메커니즘",
+        "purpose": "교차 도메인 추론 작업에서의 성능을 향상시키기 위한 적응형 커리큘럼 메커니즘 제안",
+        "method": [
+            "기존 방법들의 신호 혼합 문제가 발생하는 것을 해결하기 위해 CAPO라는 새로운 커리큘럼 메커니즘을 제안함(To address this issue, we propose CAPO (Curriculum Advantage Policy Optimization), an adaptive curriculum mechanism based on advantage signals.)",
+            "긍정적인 샘플을 통해 강력한 기반을 형성하고, 이후 부정 신호를 도입하여 차별화 기능을 계발함(The proposed mechanism bootstraps imitation learning with positive-only advantage samples to establish robust foundations, and subsequently introduces negative signals to cultivate discriminative capabilities.)",
+            "다양한 최적화 방법과 호환되며 일관된 성과를 보여줌(Compatible with diverse optimization methods including GRPO, PPO, RLOO, and Reinforce++, our method consistently achieves stable and significant improvements in mathematical reasoning tasks.)"
+        ],
+        "conclusion": "CAPO는 복잡한 시나리오에서의 일반화를 개선하고, 다양한 최적화 작업에서 안정적이고 중요한 향상을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.04810",
+            "authors": [
+                {
+                    "_id": "6932753c6d1060ca587a27b3",
+                    "name": "Xin He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932753c6d1060ca587a27b4",
+                    "name": "Longhui Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932753c6d1060ca587a27b5",
+                    "name": "Jianbo Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932753c6d1060ca587a27b6",
+                    "name": "Lingxi Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6932753c6d1060ca587a27b7",
+                    "name": "Qi Tian",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-04T14:01:53.000Z",
+            "submittedOnDailyAt": "2025-12-08T11:07:32.487Z",
+            "title": "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture",
+            "submittedOnDailyBy": {
+                "_id": "66bb8186150fad8b4e3b1f8c",
+                "avatarUrl": "/avatars/1e95838ed1418e9c52338931b9f9f92e.svg",
+                "isPro": false,
+                "fullname": "Longhui Wei",
+                "user": "Joohnzxcv",
+                "type": "user"
+            },
+            "summary": "We propose EMMA, an efficient and unified architecture for multimodal understanding, generation and editing. Specifically, EMMA primarily consists of 1) An efficient autoencoder with a 32x compression ratio, which significantly reduces the number of tokens required for generation. This also ensures the training balance between understanding and generation tasks by applying the same compression ratio to images. 2) Channel-wise concatenation instead of token-wise concatenation among visual understanding and generation tokens, which further reduces the visual tokens in unified architectures. 3) A shared-and-decoupled network that enables mutual improvements across tasks while meeting the task-specific modeling requirements. 4) A mixture-of-experts mechanism adopted for visual understanding encoder, which substantially improves perceptual capabilities with a few parameters increase. Extensive experiments have shown that EMMA-4B can significantly outperform state-of-the-art unified multimodal approaches (e.g., BAGEL-7B) in both efficiency and performance, while also achieving competitive results compared to recent multimodal understanding and generation experts (e.g., Qwen3-VL and Qwen-Image). We believe that EMMA lays a solid foundation for the future development of unified multimodal architectures.",
+            "upvotes": 20,
+            "discussionId": "6932753c6d1060ca587a27b8",
+            "projectPage": "https://emma-umm.github.io/emma/",
+            "githubRepo": "https://github.com/umm-emma/emma",
+            "ai_summary": "EMMA is an efficient unified architecture for multimodal tasks that uses autoencoders, channel-wise concatenation, shared-and-decoupled networks, and mixture-of-experts to achieve superior performance and efficiency.",
+            "ai_keywords": [
+                "autoencoder",
+                "channel-wise concatenation",
+                "shared-and-decoupled network",
+                "mixture-of-experts",
+                "multimodal understanding",
+                "multimodal generation",
+                "perceptual capabilities"
+            ],
+            "githubStars": 9
+        },
+        "translation_title": "EMMA: 통합 아키텍처를 이용한 효율적인 다중 모드 이해, 생성 및 편집",
+        "purpose": "다중 모드 이해, 생성 및 편집을 위한 효율적이고 통합된 아키텍처 개발",
+        "method": [
+            "32배 압축 비율을 가진 효율적인 오토인코더를 사용해 생성에 필요한 토큰 수를 크게 줄임(This primarily consists of 1) An efficient autoencoder with a 32x compression ratio, which significantly reduces the number of tokens required for generation.)",
+            "비주얼 이해 및 생성 토큰 간의 토큰-wise가 아닌 채널-wise 연결 방식을 채택하여 통합 아키텍처에서 비주얼 토큰 수를 추가로 줄임(Channel-wise concatenation instead of token-wise concatenation among visual understanding and generation tokens, which further reduces the visual tokens in unified architectures.)",
+            "작업별 모델링 요구사항을 충족하면서 상호 개선을 가능하게 하는 공유-분리 네트워크를 설계함(A shared-and-decoupled network that enables mutual improvements across tasks while meeting the task-specific modeling requirements.)",
+            "비주얼 이해 인코더에 혼합 전문가 기법을 도입해 몇 개의 파라미터 증가로 지각 능력을 크게 향상시킴(A mixture-of-experts mechanism adopted for visual understanding encoder, which substantially improves perceptual capabilities with a few parameters increase.)"
+        ],
+        "conclusion": "EMMA는 효율성과 성능 모두에서 최첨단 통합 다중 모드 접근법을 크게 능가하며, 통합 다중 모드 아키텍처의 미래 개발을 위한 탄탄한 기반을 마련한다고 믿음.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Generation",
+            "Vision-Language Models"
+        ]
+    }
+]
