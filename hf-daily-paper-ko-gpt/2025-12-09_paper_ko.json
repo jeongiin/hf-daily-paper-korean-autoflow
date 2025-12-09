@@ -1,0 +1,596 @@
+[
+    {
+        "paper": {
+            "id": "2512.07525",
+            "authors": [
+                {
+                    "_id": "693794d319d912300c34a291",
+                    "user": {
+                        "_id": "64f033ef82c6eea604c4da8b",
+                        "avatarUrl": "/avatars/51b93fea7fd68b4274ee03701245dcca.svg",
+                        "isPro": false,
+                        "fullname": "Xiaoran Liu (SII)",
+                        "user": "SII-xrliu",
+                        "type": "user"
+                    },
+                    "name": "Xiaoran Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:38:01.257Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a292",
+                    "name": "Yuerong Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a293",
+                    "name": "Zhigeng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a294",
+                    "user": {
+                        "_id": "64805e6dde559d48dbb00627",
+                        "avatarUrl": "/avatars/29ca34546411dcc28bbc934e3c26a2ba.svg",
+                        "isPro": false,
+                        "fullname": "Zengfeng",
+                        "user": "ZengfengHuang",
+                        "type": "user"
+                    },
+                    "name": "Zengfeng Huang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T10:35:11.754Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a295",
+                    "user": {
+                        "_id": "6491cd52b1e5d3444528edb1",
+                        "avatarUrl": "/avatars/a85635d886c7f157b6723dec5c01c030.svg",
+                        "isPro": false,
+                        "fullname": "Qipeng Guo",
+                        "user": "QipengGuo",
+                        "type": "user"
+                    },
+                    "name": "Qipeng Guo",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T10:35:18.117Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a296",
+                    "name": "Zhaoxiang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a297",
+                    "name": "Shiguo Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a298",
+                    "name": "Ziwei He",
+                    "hidden": false
+                },
+                {
+                    "_id": "693794d319d912300c34a299",
+                    "user": {
+                        "_id": "61457b8deff2c9fdb4de4988",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1632381702899-61457b8deff2c9fdb4de4988.jpeg",
+                        "isPro": false,
+                        "fullname": "Xipeng Qiu",
+                        "user": "xpqiu",
+                        "type": "user"
+                    },
+                    "name": "Xipeng Qiu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T10:35:28.411Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-08T12:59:54.000Z",
+            "submittedOnDailyAt": "2025-12-09T00:49:29.234Z",
+            "title": "Beyond Real: Imaginary Extension of Rotary Position Embeddings for Long-Context LLMs",
+            "submittedOnDailyBy": {
+                "_id": "64f033ef82c6eea604c4da8b",
+                "avatarUrl": "/avatars/51b93fea7fd68b4274ee03701245dcca.svg",
+                "isPro": false,
+                "fullname": "Xiaoran Liu (SII)",
+                "user": "SII-xrliu",
+                "type": "user"
+            },
+            "summary": "Rotary Position Embeddings (RoPE) have become a standard for encoding sequence order in Large Language Models (LLMs) by applying rotations to query and key vectors in the complex plane. Standard implementations, however, utilize only the real component of the complex-valued dot product for attention score calculation. This simplification discards the imaginary component, which contains valuable phase information, leading to a potential loss of relational details crucial for modeling long-context dependencies. In this paper, we propose an extension that re-incorporates this discarded imaginary component. Our method leverages the full complex-valued representation to create a dual-component attention score. We theoretically and empirically demonstrate that this approach enhances the modeling of long-context dependencies by preserving more positional information. Furthermore, evaluations on a suite of long-context language modeling benchmarks show that our method consistently improves performance over the standard RoPE, with the benefits becoming more significant as context length increases. The code is available at https://github.com/OpenMOSS/rope_pp.",
+            "upvotes": 39,
+            "discussionId": "693794d419d912300c34a29a",
+            "githubRepo": "https://github.com/OpenMOSS/rope_pp",
+            "ai_summary": "The paper proposes a method to enhance Rotary Position Embeddings by utilizing both the real and imaginary components of the complex-valued dot product, improving long-context modeling in Large Language Models.",
+            "ai_keywords": [
+                "Rotary Position Embeddings",
+                "Large Language Models",
+                "complex-valued dot product",
+                "attention score",
+                "long-context dependencies",
+                "positional information"
+            ],
+            "githubStars": 11,
+            "organization": {
+                "_id": "613b0dee83ec35d460684607",
+                "name": "OpenMOSS-Team",
+                "fullname": "OpenMOSS",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61457b8deff2c9fdb4de4988/N5b9663zQ4uq5_OTNlnmw.png"
+            }
+        },
+        "translation_title": "Beyond Real: 롱 컨텍스트 LLMs를 위한 Rotary Position Embeddings의 상상적 확장",
+        "purpose": "롱 컨텍스트 의존성 모델링을 개선하기 위해 Rotary Position Embeddings의 불완전한 정보를 보완하고자 함",
+        "method": [
+            "복소수 표현의 전체를 활용하여 이차 구성 요소 주의 점수를 생성하는 방법을 제안함(Our method leverages the full complex-valued representation to create a dual-component attention score.)",
+            "이 방법이 더 많은 위치 정보를 보존함으로써 롱 컨텍스트 의존성 모델링을 개선함을 이론적 및 실증적으로 입증함(We theoretically and empirically demonstrate that this approach enhances the modeling of long-context dependencies by preserving more positional information.)",
+            "롱 컨텍스트 언어 모델링 벤치마크에서 이 방법이 표준 RoPE보다 일관되게 성능을 개선하는 결과를 보임(Furthermore, evaluations on a suite of long-context language modeling benchmarks show that our method consistently improves performance over the standard RoPE.)"
+        ],
+        "conclusion": "제안한 방법은 롱 컨텍스트 의존성 모델링을 향상시키며, 컨텍스트 길이가 길어질수록 그 이점이 더욱 두드러짐.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.07461",
+            "authors": [
+                {
+                    "_id": "6937b96219d912300c34a398",
+                    "user": {
+                        "_id": "626b889ff451470f861d8c78",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1651214465695-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "victor wu",
+                        "user": "victor-wu",
+                        "type": "user"
+                    },
+                    "name": "Tong Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:22:22.731Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a399",
+                    "user": {
+                        "_id": "6191cc9e6d34e827404cebab",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674119843175-6191cc9e6d34e827404cebab.jpeg",
+                        "isPro": false,
+                        "fullname": "Yang",
+                        "user": "jacklanda",
+                        "type": "user"
+                    },
+                    "name": "Yang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:22:20.278Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39a",
+                    "user": {
+                        "_id": "624505fcd083d28d314de3dd",
+                        "avatarUrl": "/avatars/92cf6b6a1d81d7958dbbd21f0bf63f8f.svg",
+                        "isPro": false,
+                        "fullname": "bai jun",
+                        "user": "ba1jun",
+                        "type": "user"
+                    },
+                    "name": "Jun Bai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:22:17.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39b",
+                    "name": "Zixia Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39c",
+                    "name": "Shuyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39d",
+                    "name": "Ziyong Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39e",
+                    "user": {
+                        "_id": "64b119c4372d43407723136b",
+                        "avatarUrl": "/avatars/d523e181993eea06b7f6a71a592c995e.svg",
+                        "isPro": false,
+                        "fullname": "YANTING WANG",
+                        "user": "Noane",
+                        "type": "user"
+                    },
+                    "name": "Yanting Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:22:14.418Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a39f",
+                    "name": "Song-Chun Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6937b96219d912300c34a3a0",
+                    "name": "Zilong Zheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-08T11:39:43.000Z",
+            "submittedOnDailyAt": "2025-12-09T04:12:55.960Z",
+            "title": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "63a95a6a7930fa8c7dd63d4e",
+                "avatarUrl": "/avatars/d9d0420f7ddfe2f3a7e029fb05f1c89f.svg",
+                "isPro": false,
+                "fullname": "Zilong Zheng",
+                "user": "zlzheng",
+                "type": "user"
+            },
+            "summary": "We introduce Native Parallel Reasoner (NPR), a teacher-free framework that enables Large Language Models (LLMs) to self-evolve genuine parallel reasoning capabilities. NPR transforms the model from sequential emulation to native parallel cognition through three key innovations: 1) a self-distilled progressive training paradigm that transitions from ``cold-start'' format discovery to strict topological constraints without external supervision; 2) a novel Parallel-Aware Policy Optimization (PAPO) algorithm that optimizes branching policies directly within the execution graph, allowing the model to learn adaptive decomposition via trial and error; and 3) a robust NPR Engine that refactors memory management and flow control of SGLang to enable stable, large-scale parallel RL training. Across eight reasoning benchmarks, NPR trained on Qwen3-4B achieves performance gains of up to 24.5% and inference speedups up to 4.6x. Unlike prior baselines that often fall back to autoregressive decoding, NPR demonstrates 100% genuine parallel execution, establishing a new standard for self-evolving, efficient, and scalable agentic reasoning.",
+            "upvotes": 39,
+            "discussionId": "6937b96219d912300c34a3a1",
+            "projectPage": "https://bigai-nlco.github.io/Native-Parallel-Reasoner/",
+            "githubRepo": "https://github.com/bigai-nlco/Native-Parallel-Reasoner",
+            "ai_summary": "NPR, a teacher-free framework, enhances Large Language Models with native parallel reasoning capabilities through self-distilled training, Parallel-Aware Policy Optimization, and a robust NPR Engine, achieving substantial performance and speed improvements.",
+            "ai_keywords": [
+                "Native Parallel Reasoner",
+                "Large Language Models",
+                "self-evolve",
+                "parallel reasoning",
+                "self-distilled progressive training",
+                "cold-start format discovery",
+                "topological constraints",
+                "Parallel-Aware Policy Optimization",
+                "branching policies",
+                "execution graph",
+                "adaptive decomposition",
+                "trial and error",
+                "NPR Engine",
+                "memory management",
+                "flow control",
+                "parallel RL training",
+                "reasoning benchmarks",
+                "Qwen3-4B",
+                "genuine parallel execution",
+                "autoregressive decoding",
+                "agentic reasoning"
+            ],
+            "githubStars": 13,
+            "organization": {
+                "_id": "63a95ac93453852ef5399a77",
+                "name": "bigai",
+                "fullname": "Beijing Institute for General Artificial Intelligence",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1672043197974-63a95a6a7930fa8c7dd63d4e.png"
+            }
+        },
+        "translation_title": "Native Parallel Reasoner: 자기 증식을 통한 병렬 추론 방법",
+        "purpose": "Large Language Models에서 진정한 병렬 추론 능력을 자기 발전시키기 위한 프레임워크 개발",
+        "method": [
+            "자기 증식적 점진적 훈련 패러다임을 도입하여 외부 감독 없이 모델을 냉시작 형식 발견에서 엄격한 위상 제약으로 전환함(1) a self-distilled progressive training paradigm that transitions from ''cold-start'' format discovery to strict topological constraints without external supervision;",
+            "실행 그래프 내에서 분기 정책을 직접 최적화하는 Parallel-Aware Policy Optimization (PAPO) 알고리즘을 개발함(2) a novel Parallel-Aware Policy Optimization (PAPO) algorithm that optimizes branching policies directly within the execution graph; ",
+            "SGLang의 메모리 관리 및 흐름 제어를 리팩토링하는 NPR Engine을 통해 대규모 병렬 RL 훈련을 가능하게 함(3) a robust NPR Engine that refactors memory management and flow control of SGLang to enable stable, large-scale parallel RL training."
+        ],
+        "conclusion": "NPR은 기존 모델보다 최대 24.5% 향상된 성능과 4.6배 빠른 추론 속도를 보이며, 100% 진정한 병렬 실행을 시연하여 자기 발전 및 효율적인 추론의 새로운 기준을 정립함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.07469",
+            "authors": [
+                {
+                    "_id": "69379e0319d912300c34a2fb",
+                    "user": {
+                        "_id": "6486df66373f79a52913e017",
+                        "avatarUrl": "/avatars/4741683fbbcec3a615d0a8df62bc6fec.svg",
+                        "isPro": false,
+                        "fullname": "Xiangpeng Yang",
+                        "user": "XiangpengYang",
+                        "type": "user"
+                    },
+                    "name": "Xiangpeng Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T10:34:33.919Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379e0319d912300c34a2fc",
+                    "name": "Ji Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379e0319d912300c34a2fd",
+                    "name": "Yiyuan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379e0319d912300c34a2fe",
+                    "name": "Yan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379e0319d912300c34a2ff",
+                    "name": "Min Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379e0319d912300c34a300",
+                    "name": "Qiang Wu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6486df66373f79a52913e017/iKPp57sIku0K9HVBgHjuu.mp4"
+            ],
+            "publishedAt": "2025-12-08T11:50:18.000Z",
+            "submittedOnDailyAt": "2025-12-09T01:34:28.853Z",
+            "title": "Unified Video Editing with Temporal Reasoner",
+            "submittedOnDailyBy": {
+                "_id": "6486df66373f79a52913e017",
+                "avatarUrl": "/avatars/4741683fbbcec3a615d0a8df62bc6fec.svg",
+                "isPro": false,
+                "fullname": "Xiangpeng Yang",
+                "user": "XiangpengYang",
+                "type": "user"
+            },
+            "summary": "Existing video editing methods face a critical trade-off: expert models offer precision but rely on task-specific priors like masks, hindering unification; conversely, unified temporal in-context learning models are mask-free but lack explicit spatial cues, leading to weak instruction-to-region mapping and imprecise localization. To resolve this conflict, we propose VideoCoF, a novel Chain-of-Frames approach inspired by Chain-of-Thought reasoning. VideoCoF enforces a ``see, reason, then edit\" procedure by compelling the video diffusion model to first predict reasoning tokens (edit-region latents) before generating the target video tokens. This explicit reasoning step removes the need for user-provided masks while achieving precise instruction-to-region alignment and fine-grained video editing. Furthermore, we introduce a RoPE alignment strategy that leverages these reasoning tokens to ensure motion alignment and enable length extrapolation beyond the training duration. We demonstrate that with a minimal data cost of only 50k video pairs, VideoCoF achieves state-of-the-art performance on VideoCoF-Bench, validating the efficiency and effectiveness of our approach. Our code, weight, data are available at https://github.com/knightyxp/VideoCoF.",
+            "upvotes": 25,
+            "discussionId": "69379e0319d912300c34a301",
+            "projectPage": "https://videocof.github.io/",
+            "githubRepo": "https://github.com/knightyxp/VideoCoF",
+            "ai_summary": "VideoCoF, a Chain-of-Frames approach, improves video editing precision and instruction-to-region mapping by using reasoning tokens without requiring user-provided masks.",
+            "ai_keywords": [
+                "chain-of-frames",
+                "chain-of-thought reasoning",
+                "video diffusion model",
+                "reasoning tokens",
+                "edit-region latents",
+                "target video tokens",
+                "instruction-to-region alignment",
+                "fine-grained video editing",
+                "RoPE alignment",
+                "motion alignment",
+                "length extrapolation"
+            ],
+            "githubStars": 20,
+            "organization": {
+                "_id": "67c4a2574f5d0005fd418d85",
+                "name": "staraj3",
+                "fullname": "University of Technology Sydney",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67c4a1ab71e55dc41e273b5a/8l4iiw2XH5nbIlLURt7ep.png"
+            }
+        },
+        "translation_title": "Temporal Reasoner를 통한 통합 비디오 편집",
+        "purpose": "정확한 비디오 편집을 위한 통합 모델 개발과 사용자 제공 마스크의 필요성을 제거하기 위해",
+        "method": [
+            "Chain-of-Frames 접근 방식을 기반으로 한 VideoCoF를 제안함(This paper proposes VideoCoF, a novel Chain-of-Frames approach inspired by Chain-of-Thought reasoning.)",
+            "비디오 확산 모델이 먼저 reasoning tokens(편집 영역의 레이턴트)을 예측하도록 하여 정확한 instruction-to-region 정렬을 가능하게 함(VideoCoF enforces a ``see, reason, then edit'' procedure by compelling the video diffusion model to first predict reasoning tokens before generating the target video tokens.)",
+            "RoPE 정렬 전략을 도입하여 이러한 reasoning tokens를 활용하며, 움직임 정렬을 보장하고 훈련 기간 이상의 길이 외삽을 가능하게 함(We introduce a RoPE alignment strategy that leverages these reasoning tokens to ensure motion alignment and enable length extrapolation beyond the training duration.)"
+        ],
+        "conclusion": "VideoCoF는 단 50k 비디오 쌍으로 비디오 편집 분야에서 최신 성과를 달성하며, 우리의 접근 방식의 효율성과 효과성을 검증함.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.07834",
+            "authors": [
+                {
+                    "_id": "69379f8019d912300c34a30d",
+                    "user": {
+                        "_id": "67178582bc4492cad19a1f14",
+                        "avatarUrl": "/avatars/f2481c0c70a857a862d887beb05c428e.svg",
+                        "isPro": false,
+                        "fullname": "Yi-Chuan Huang",
+                        "user": "YiChuanH",
+                        "type": "user"
+                    },
+                    "name": "Yi-Chuan Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:37:53.207Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379f8019d912300c34a30e",
+                    "user": {
+                        "_id": "6630a67d6b3957f5983658b1",
+                        "avatarUrl": "/avatars/4cc0c264e0d8cc0ebc346bb9b1abe8de.svg",
+                        "isPro": false,
+                        "fullname": "Chan Jiewen",
+                        "user": "JiewenChan",
+                        "type": "user"
+                    },
+                    "name": "Jiewen Chan",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T11:13:18.274Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379f8019d912300c34a30f",
+                    "user": {
+                        "_id": "6784959669a180a9949ec5d9",
+                        "avatarUrl": "/avatars/b1fcc9a00a8e6e2baaa338c4b04ea9e2.svg",
+                        "isPro": false,
+                        "fullname": "Hao-Jen Chien",
+                        "user": "chien90190",
+                        "type": "user"
+                    },
+                    "name": "Hao-Jen Chien",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T11:13:24.865Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69379f8019d912300c34a310",
+                    "name": "Yu-Lun Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/xmWIqFounUj-kosdkGMIN.mp4"
+            ],
+            "publishedAt": "2025-12-08T18:59:58.000Z",
+            "submittedOnDailyAt": "2025-12-09T01:33:21.818Z",
+            "title": "Voxify3D: Pixel Art Meets Volumetric Rendering",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Voxel art is a distinctive stylization widely used in games and digital media, yet automated generation from 3D meshes remains challenging due to conflicting requirements of geometric abstraction, semantic preservation, and discrete color coherence. Existing methods either over-simplify geometry or fail to achieve the pixel-precise, palette-constrained aesthetics of voxel art. We introduce Voxify3D, a differentiable two-stage framework bridging 3D mesh optimization with 2D pixel art supervision. Our core innovation lies in the synergistic integration of three components: (1) orthographic pixel art supervision that eliminates perspective distortion for precise voxel-pixel alignment; (2) patch-based CLIP alignment that preserves semantics across discretization levels; (3) palette-constrained Gumbel-Softmax quantization enabling differentiable optimization over discrete color spaces with controllable palette strategies. This integration addresses fundamental challenges: semantic preservation under extreme discretization, pixel-art aesthetics through volumetric rendering, and end-to-end discrete optimization. Experiments show superior performance (37.12 CLIP-IQA, 77.90\\% user preference) across diverse characters and controllable abstraction (2-8 colors, 20x-50x resolutions). Project page: https://yichuanh.github.io/Voxify-3D/",
+            "upvotes": 23,
+            "discussionId": "69379f8019d912300c34a311",
+            "projectPage": "https://yichuanh.github.io/Voxify-3D/",
+            "ai_summary": "Voxify3D is a two-stage framework that combines 3D mesh optimization with 2D pixel art supervision to generate high-quality voxel art with semantic preservation, pixel-art aesthetics, and discrete color coherence.",
+            "ai_keywords": [
+                "orthographic pixel art supervision",
+                "patch-based CLIP alignment",
+                "Gumbel-Softmax quantization",
+                "volumetric rendering",
+                "CLIP-IQA",
+                "user preference"
+            ]
+        },
+        "translation_title": "Voxify3D: 픽셀 아트와 볼륨 렌더링의 만남",
+        "purpose": "3D 메시에서 픽셀 아트를 자동으로 생성하기 위한 효율적인 프레임워크 개발",
+        "method": [
+            "2단계 차별화 가능한 프레임워크를 도입하여 3D 메시 최적화와 2D 픽셀 아트 감독을 연결함(We introduce Voxify3D, a differentiable two-stage framework bridging 3D mesh optimization with 2D pixel art supervision.)",
+            "정확한 voxel-pixel 정렬을 위한 사사각형 픽셀 아트 감독을 활용함(Our core innovation lies in the synergistic integration of three components: (1) orthographic pixel art supervision that eliminates perspective distortion for precise voxel-pixel alignment;)",
+            "패치 기반 CLIP 정렬을 통해 의미를 보존하며, Gumbel-Softmax 양자화를 통해 색상 공간에서의 최적화를 가능하게 함((2) patch-based CLIP alignment that preserves semantics across discretization levels; (3) palette-constrained Gumbel-Softmax quantization enabling differentiable optimization over discrete color spaces with controllable palette strategies.)"
+        ],
+        "conclusion": "실험 결과 다양한 캐릭터 및 추상화 설정에서 뛰어난 성능을 보여줌(37.12 CLIP-IQA, 77.90% 사용자 선호도).",
+        "keywords": [
+            "Image Generation",
+            "3D Vision",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.06749",
+            "authors": [
+                {
+                    "_id": "693791a319d912300c34a271",
+                    "user": {
+                        "_id": "64f6efa0e2e54c750fb0655d",
+                        "avatarUrl": "/avatars/83518aff2e2ef0f9cf84ca39e0e5db0d.svg",
+                        "isPro": false,
+                        "fullname": "Ming Ma",
+                        "user": "MBJinX",
+                        "type": "user"
+                    },
+                    "name": "Ming Ma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-09T09:38:05.434Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a272",
+                    "name": "Jue Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a273",
+                    "name": "Fangkai Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a274",
+                    "name": "Yu Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a275",
+                    "name": "Qingwei Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a276",
+                    "name": "Saravan Rajmohan",
+                    "hidden": false
+                },
+                {
+                    "_id": "693791a319d912300c34a277",
+                    "user": {
+                        "_id": "66473d2c7abe6ad66e81a3dd",
+                        "avatarUrl": "/avatars/82f40244806c06ffeaa1c4265e9725ea.svg",
+                        "isPro": false,
+                        "fullname": "ZHANGDONGMEI",
+                        "user": "ZDM6426",
+                        "type": "user"
+                    },
+                    "name": "Dongmei Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-09T10:36:42.746Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-07T09:23:48.000Z",
+            "submittedOnDailyAt": "2025-12-09T00:43:03.031Z",
+            "title": "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems",
+            "submittedOnDailyBy": {
+                "_id": "65f40e43653c231cbaf7d1e4",
+                "avatarUrl": "/avatars/a42ac5454cbe175f04c3420fce90cad2.svg",
+                "isPro": false,
+                "fullname": "Jue Zhang",
+                "user": "JueZhang",
+                "type": "user"
+            },
+            "summary": "Large language model (LLM)-based multi-agent systems are challenging to debug because failures often arise from long, branching interaction traces. The prevailing practice is to leverage LLMs for log-based failure localization, attributing errors to a specific agent and step. However, this paradigm has two key limitations: (i) log-only debugging lacks validation, producing untested hypotheses, and (ii) single-step or single-agent attribution is often ill-posed, as we find that multiple distinct interventions can independently repair the failed task. To address the first limitation, we introduce DoVer, an intervention-driven debugging framework, which augments hypothesis generation with active verification through targeted interventions (e.g., editing messages, altering plans). For the second limitation, rather than evaluating on attribution accuracy, we focus on measuring whether the system resolves the failure or makes quantifiable progress toward task success, reflecting a more outcome-oriented view of debugging. Within the Magnetic-One agent framework, on the datasets derived from GAIA and AssistantBench, DoVer flips 18-28% of failed trials into successes, achieves up to 16% milestone progress, and validates or refutes 30-60% of failure hypotheses. DoVer also performs effectively on a different dataset (GSMPlus) and agent framework (AG2), where it recovers 49% of failed trials. These results highlight intervention as a practical mechanism for improving reliability in agentic systems and open opportunities for more robust, scalable debugging methods for LLM-based multi-agent systems. Project website and code will be available at https://aka.ms/DoVer.",
+            "upvotes": 23,
+            "discussionId": "693791a319d912300c34a278",
+            "projectPage": "https://aka.ms/DoVer",
+            "ai_summary": "DoVer, an intervention-driven debugging framework, enhances reliability in LLM-based multi-agent systems by actively validating failure hypotheses and measuring task progress through targeted interventions.",
+            "ai_keywords": [
+                "DoVer",
+                "intervention-driven debugging",
+                "LLM-based multi-agent systems",
+                "failure localization",
+                "targeted interventions",
+                "outcome-oriented debugging",
+                "Magnetic-One agent framework",
+                "GAIA",
+                "AssistantBench",
+                "GSMPlus",
+                "AG2"
+            ],
+            "organization": {
+                "_id": "5e6485f787403103f9f1055e",
+                "name": "microsoft",
+                "fullname": "Microsoft",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1583646260758-5e64858c87403103f9f1055d.png"
+            }
+        },
+        "translation_title": "DoVer: 개입 기반 오토 디버깅 프레임워크를 위한 LLM 다중 에이전트 시스템",
+        "purpose": "LLM 기반 다중 에이전트 시스템의 신뢰성을 개선하기 위한 디버깅 방법론 제안",
+        "method": [
+            "DoVer라는 개입 기반 디버깅 프레임워크를 도입해 가설 생성을 활성 검증으로 보강함(e.g., editing messages, altering plans)",
+            "성공 여부에 중점을 두고 디버깅 결과를 측정함(rather than evaluating on attribution accuracy, we focus on measuring whether the system resolves the failure)."
+        ],
+        "conclusion": "DoVer는 실패한 시도를 18-28% 성공으로 전환하고, 16% 마일스톤을 달성하며, 가설을 30-60% 검증하는 성과를 거두었음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Large Language Models"
+        ]
+    }
+]
