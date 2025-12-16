@@ -1,0 +1,806 @@
+[
+    {
+        "paper": {
+            "id": "2512.13687",
+            "authors": [
+                {
+                    "_id": "6940ee0665f1e24a1178066d",
+                    "user": {
+                        "_id": "67756c9c846a267749304255",
+                        "avatarUrl": "/avatars/01f09805b561887c55d1b9ad4e96b461.svg",
+                        "isPro": false,
+                        "fullname": "Jingfeng Yao",
+                        "user": "MapleF9",
+                        "type": "user"
+                    },
+                    "name": "Jingfeng Yao",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-16T10:34:03.365Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940ee0665f1e24a1178066e",
+                    "user": {
+                        "_id": "6264bf5a1ed8d81e47ae3a62",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650769741842-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuda Song",
+                        "user": "IDKiro",
+                        "type": "user"
+                    },
+                    "name": "Yuda Song",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T14:10:38.071Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940ee0665f1e24a1178066f",
+                    "user": {
+                        "_id": "64192280d459c9e7fbb03aa1",
+                        "avatarUrl": "/avatars/89935de92f3f9107d7b768b82fb27e70.svg",
+                        "isPro": false,
+                        "fullname": "Zhou",
+                        "user": "Yucong",
+                        "type": "user"
+                    },
+                    "name": "Yucong Zhou",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-16T10:34:50.881Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940ee0665f1e24a11780670",
+                    "user": {
+                        "_id": "62600de6d47e3dbae32ce1ce",
+                        "avatarUrl": "/avatars/a536417cfec6e10ac415091bd1829426.svg",
+                        "isPro": false,
+                        "fullname": "Xinggang Wang",
+                        "user": "xinggangw",
+                        "type": "user"
+                    },
+                    "name": "Xinggang Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2025-12-16T10:34:40.199Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-15T18:59:54.000Z",
+            "submittedOnDailyAt": "2025-12-16T07:11:50.997Z",
+            "title": "Towards Scalable Pre-training of Visual Tokenizers for Generation",
+            "submittedOnDailyBy": {
+                "_id": "67756c9c846a267749304255",
+                "avatarUrl": "/avatars/01f09805b561887c55d1b9ad4e96b461.svg",
+                "isPro": false,
+                "fullname": "Jingfeng Yao",
+                "user": "MapleF9",
+                "type": "user"
+            },
+            "summary": "The quality of the latent space in visual tokenizers (e.g., VAEs) is crucial for modern generative models. However, the standard reconstruction-based training paradigm produces a latent space that is biased towards low-level information, leading to a foundation flaw: better pixel-level accuracy does not lead to higher-quality generation. This implies that pouring extensive compute into visual tokenizer pre-training translates poorly to improved performance in generation. We identify this as the ``pre-training scaling problem`` and suggest a necessary shift: to be effective for generation, a latent space must concisely represent high-level semantics. We present VTP, a unified visual tokenizer pre-training framework, pioneering the joint optimization of image-text contrastive, self-supervised, and reconstruction losses. Our large-scale study reveals two principal findings: (1) understanding is a key driver of generation, and (2) much better scaling properties, where generative performance scales effectively with compute, parameters, and data allocated to the pretraining of the visual tokenizer. After large-scale pre-training, our tokenizer delivers a competitive profile (78.2 zero-shot accuracy and 0.36 rFID on ImageNet) and 4.1 times faster convergence on generation compared to advanced distillation methods. More importantly, it scales effectively: without modifying standard DiT training specs, solely investing more FLOPS in pretraining VTP achieves 65.8\\% FID improvement in downstream generation, while conventional autoencoder stagnates very early at 1/10 FLOPS. Our pre-trained models are available at https://github.com/MiniMax-AI/VTP.",
+            "upvotes": 60,
+            "discussionId": "6940ee0665f1e24a11780671",
+            "githubRepo": "https://github.com/MiniMax-AI/VTP",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "A unified visual tokenizer pre-training framework (VTP) improves generative performance by optimizing image-text contrastive, self-supervised, and reconstruction losses, leading to better scaling properties and higher zero-shot accuracy and faster convergence.",
+            "ai_keywords": [
+                "latent space",
+                "visual tokenizers",
+                "VAEs",
+                "reconstruction-based training",
+                "low-level information",
+                "pre-training scaling problem",
+                "high-level semantics",
+                "VTP",
+                "image-text contrastive",
+                "self-supervised",
+                "reconstruction losses",
+                "generative performance",
+                "ImageNet",
+                "zero-shot accuracy",
+                "rFID",
+                "FLOPS",
+                "DiT",
+                "advanced distillation methods"
+            ],
+            "githubStars": 50,
+            "organization": {
+                "_id": "6778fc29920093dbc0c24917",
+                "name": "MiniMaxAI",
+                "fullname": "MiniMax",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/676e38ad04af5bec20bc9faf/dUd-LsZEX0H_d4qefO_g6.jpeg"
+            }
+        },
+        "translation_title": "생성을 위한 비주얼 토크나이저의 확장 가능한 사전 훈련 접근법",
+        "purpose": "비주얼 토크나이저의 사전 훈련이 생성 성능 향상에 효과적이도록 고수준의 의미를 간결하게 표현하는 latent space 필요성 연구",
+        "method": [
+            "VTP라는 통합 비주얼 토크나이저 사전 훈련 프레임워크를 제시함(We present VTP, a unified visual tokenizer pre-training framework.)",
+            "이미지-텍스트 대조, 자가 지도 학습 및 재구성 손실의 공동 최적화를 선도함(pioneering the joint optimization of image-text contrastive, self-supervised, and reconstruction losses.)",
+            "대규모 연구를 통해 이해가 생성의 주요 원동력이라는 사실을 확인함(understanding is a key driver of generation.)",
+            "사전 훈련에서 효율적인 확장 속성을 발견함(better scaling properties, where generative performance scales effectively with compute, parameters, and data allocated to the pretraining.)"
+        ],
+        "conclusion": "사전 훈련 후 Tokenizer는 경쟁력 있는 성능을 보여주며, 다운스트림 생성에서 효과적으로 확장이 가능함.",
+        "keywords": [
+            "Image Generation",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.13564",
+            "authors": [
+                {
+                    "_id": "6940d68565f1e24a1178056c",
+                    "user": {
+                        "_id": "6544b9b646dbdeca34ee5f52",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6544b9b646dbdeca34ee5f52/nRx6m1C4wfZ_xSWoBUNJf.png",
+                        "isPro": false,
+                        "fullname": "Yuyang Hu",
+                        "user": "namespace-ERI",
+                        "type": "user"
+                    },
+                    "name": "Yuyang Hu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T14:10:40.040Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178056d",
+                    "user": {
+                        "_id": "65435cad429b80b14922ab8d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/N8oWq4ZZn3dRxmXi18FrA.jpeg",
+                        "isPro": false,
+                        "fullname": "Shichun Liu",
+                        "user": "Liusc2020",
+                        "type": "user"
+                    },
+                    "name": "Shichun Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:40.844Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178056e",
+                    "name": "Yanwei Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178056f",
+                    "name": "Guibin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780570",
+                    "name": "Boyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780571",
+                    "name": "Fangyi Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780572",
+                    "name": "Jiahang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780573",
+                    "user": {
+                        "_id": "638ef0b0c67af472d31674a6",
+                        "avatarUrl": "/avatars/02df97d15a0f46b47f9162221733b121.svg",
+                        "isPro": false,
+                        "fullname": "Honglin Guo",
+                        "user": "KYLN24",
+                        "type": "user"
+                    },
+                    "name": "Honglin Guo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:38.698Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780574",
+                    "name": "Shihan Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780575",
+                    "name": "Zhiheng Xi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780576",
+                    "name": "Senjie Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780577",
+                    "user": {
+                        "_id": "62e52483a944e2a56cd2c6ca",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62e52483a944e2a56cd2c6ca/pG44O-1qD00q5CEJMMyFQ.jpeg",
+                        "isPro": false,
+                        "fullname": "Jiejun Tan",
+                        "user": "zstanjj",
+                        "type": "user"
+                    },
+                    "name": "Jiejun Tan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:42.726Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780578",
+                    "name": "Yanbin Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780579",
+                    "name": "Jiongnan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057a",
+                    "name": "Zeyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057b",
+                    "name": "Zhongxiang Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057c",
+                    "name": "Yutao Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057d",
+                    "name": "Hao Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057e",
+                    "name": "Boci Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178057f",
+                    "name": "Zhenrong Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780580",
+                    "name": "Xuanbo Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780581",
+                    "name": "Jiaxin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780582",
+                    "name": "Xinlei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780583",
+                    "name": "Zhenhong Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780584",
+                    "name": "Zewen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780585",
+                    "name": "Jiahao Huo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780586",
+                    "name": "Junhao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780587",
+                    "name": "Yuwei Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780588",
+                    "name": "Yu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780589",
+                    "name": "Zhenfei Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058a",
+                    "name": "Xiaobin Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058b",
+                    "name": "Yue Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058c",
+                    "name": "Qiankun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058d",
+                    "name": "Kun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058e",
+                    "name": "Wangchunshu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178058f",
+                    "name": "Yixin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780590",
+                    "name": "Dawei Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780591",
+                    "name": "Qi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780592",
+                    "name": "Tao Gui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780593",
+                    "name": "Shirui Pan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780594",
+                    "name": "Yan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780595",
+                    "name": "Philip Torr",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780596",
+                    "name": "Zhicheng Dou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780597",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780598",
+                    "name": "Xuanjing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a11780599",
+                    "name": "Yu-Gang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d68565f1e24a1178059a",
+                    "name": "Shuicheng Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-15T17:22:34.000Z",
+            "submittedOnDailyAt": "2025-12-16T01:18:34.363Z",
+            "title": "Memory in the Age of AI Agents",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence.",
+            "upvotes": 56,
+            "discussionId": "6940d68565f1e24a1178059b",
+            "githubRepo": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "This survey provides an updated overview of agent memory research, distinguishing its forms, functions, and dynamics, and highlights emerging research directions.",
+            "ai_keywords": [
+                "agent memory",
+                "LLM memory",
+                "retrieval augmented generation (RAG)",
+                "context engineering",
+                "token-level memory",
+                "parametric memory",
+                "latent memory",
+                "factual memory",
+                "experiential memory",
+                "working memory",
+                "memory benchmarks",
+                "open-source frameworks",
+                "memory automation",
+                "reinforcement learning integration",
+                "multimodal memory",
+                "multi-agent memory",
+                "trustworthiness issues"
+            ],
+            "githubStars": 71
+        },
+        "translation_title": "AI 에이전트 시대의 메모리",
+        "purpose": "에이전트 메모리에 대한 현재 연구 동향을 제공하고 개념적 명확성을 높이기 위함",
+        "method": [
+            "에이전트 메모리의 범위를 명확히 구분하고 LLM 메모리, Retrieval Augmented Generation(RAG), 컨텍스트 엔지니어링과 같은 관련 개념과 구별함(We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering.)",
+            "에이전트 메모리를 형태, 기능 및 동적 관점에서 분석함(We then examine agent memory through the unified lenses of forms, functions, and dynamics.)",
+            "메모리 벤치마크와 오픈 소스 프레임워크에 대한 포괄적인 요약을 작성함(To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks.)"
+        ],
+        "conclusion": "이 연구는 에이전트 메모리를 재설계하는 데 있어 개념적 기초를 제공하고, 미래 연구의 다양한 방향성을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.13604",
+            "authors": [
+                {
+                    "_id": "6940d44165f1e24a11780535",
+                    "name": "Jianxiong Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a11780536",
+                    "name": "Zhaoxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a11780537",
+                    "name": "Xian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a11780538",
+                    "user": {
+                        "_id": "64970d3d9c3b29dca8633f87",
+                        "avatarUrl": "/avatars/11e3c9c66d28490d6d09925f9aa47cd1.svg",
+                        "isPro": false,
+                        "fullname": "JunhaoZhuang",
+                        "user": "JunhaoZhuang",
+                        "type": "user"
+                    },
+                    "name": "Junhao Zhuang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:51.620Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a11780539",
+                    "name": "Chengming Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a1178053a",
+                    "name": "Jianfeng Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a1178053b",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a1178053c",
+                    "name": "Yanwei Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a1178053d",
+                    "user": {
+                        "_id": "635f8ed47c05eb9f59963d3a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/635f8ed47c05eb9f59963d3a/uQf4p9N9pSaFy87Wg9v4k.jpeg",
+                        "isPro": false,
+                        "fullname": "ChenyangSi",
+                        "user": "ChenyangSi",
+                        "type": "user"
+                    },
+                    "name": "Chenyang Si",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:49.025Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d44165f1e24a1178053e",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-15T17:59:58.000Z",
+            "submittedOnDailyAt": "2025-12-16T01:12:24.486Z",
+            "title": "LongVie 2: Multimodal Controllable Ultra-Long Video World Model",
+            "submittedOnDailyBy": {
+                "_id": "643815c4961bb61e463c5896",
+                "avatarUrl": "/avatars/3b44592472f16c56105bff8c314d9939.svg",
+                "isPro": false,
+                "fullname": "Jianxiong Gao",
+                "user": "Jianxiong",
+                "type": "user"
+            },
+            "summary": "Building video world models upon pretrained video generation systems represents an important yet challenging step toward general spatiotemporal intelligence. A world model should possess three essential properties: controllability, long-term visual quality, and temporal consistency. To this end, we take a progressive approach-first enhancing controllability and then extending toward long-term, high-quality generation. We present LongVie 2, an end-to-end autoregressive framework trained in three stages: (1) Multi-modal guidance, which integrates dense and sparse control signals to provide implicit world-level supervision and improve controllability; (2) Degradation-aware training on the input frame, bridging the gap between training and long-term inference to maintain high visual quality; and (3) History-context guidance, which aligns contextual information across adjacent clips to ensure temporal consistency. We further introduce LongVGenBench, a comprehensive benchmark comprising 100 high-resolution one-minute videos covering diverse real-world and synthetic environments. Extensive experiments demonstrate that LongVie 2 achieves state-of-the-art performance in long-range controllability, temporal coherence, and visual fidelity, and supports continuous video generation lasting up to five minutes, marking a significant step toward unified video world modeling.",
+            "upvotes": 49,
+            "discussionId": "6940d44165f1e24a1178053f",
+            "projectPage": "https://vchitect.github.io/LongVie2-project/",
+            "ai_summary": "LongVie 2, an end-to-end autoregressive framework, enhances controllability, visual quality, and temporal consistency in video world models through three progressive training stages.",
+            "ai_keywords": [
+                "autoregressive framework",
+                "multi-modal guidance",
+                "degradation-aware training",
+                "history-context guidance",
+                "video world models",
+                "controllability",
+                "visual quality",
+                "temporal consistency",
+                "LongVGenBench",
+                "state-of-the-art performance",
+                "temporal coherence",
+                "visual fidelity"
+            ]
+        },
+        "translation_title": "LongVie 2: 다중모달 제어 가능한 초장기 비디오 월드 모델",
+        "purpose": "일반적인 시공간 지능을 위한 비디오 월드 모델 체계의 개발",
+        "method": [
+            "비디오 생성 시스템을 기반으로 한 다중모달 가이드를 통해 세계 수준의 감독을 제공하고 제어 가능성을 향상함(Multi-modal guidance, which integrates dense and sparse control signals to provide implicit world-level supervision and improve controllability;)",
+            "입력 프레임의 열화 인식 훈련을 진행하여 훈련과 비장기 추론 간의 간극을 줄여 시각적 품질을 유지함(Degradation-aware training on the input frame, bridging the gap between training and long-term inference to maintain high visual quality;)",
+            "인접 클립 간의 맥락 정보를 정렬하여 시간적 일관성을 보장하는 역사적 맥락 가이드를 도입함(History-context guidance, which aligns contextual information across adjacent clips to ensure temporal consistency.)"
+        ],
+        "conclusion": "LongVie 2는 장기적으로 제어 가능성, 시간적 일관성 및 시각적 충실도의 최첨단 성능을 달성하며, 최대 5분 동안 연속적인 비디오 생성을 지원하여 비디오 월드 모델링의 통합적인 발전을 이룸.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Temporal Consistency"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.12967",
+            "authors": [
+                {
+                    "_id": "6940d25d65f1e24a11780417",
+                    "user": {
+                        "_id": "64777a346e6c7ac608c1e9bf",
+                        "avatarUrl": "/avatars/b0e65ba781c90c2560606eb5467101eb.svg",
+                        "isPro": false,
+                        "fullname": "Weizhou Shen",
+                        "user": "shenwzh3",
+                        "type": "user"
+                    },
+                    "name": "Weizhou Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T14:10:42.079Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780418",
+                    "user": {
+                        "_id": "64c9b0f28d2d187c24d1e6c1",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/1CPnAaB3gsupdpiNWaoDc.png",
+                        "isPro": false,
+                        "fullname": "ZiYi Yang",
+                        "user": "AALF",
+                        "type": "user"
+                    },
+                    "name": "Ziyi Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:39:56.062Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780419",
+                    "name": "Chenliang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041a",
+                    "name": "Zhiyuan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041b",
+                    "name": "Miao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041c",
+                    "name": "Huashan Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041d",
+                    "name": "Yingcheng Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041e",
+                    "name": "Shengyi Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a1178041f",
+                    "name": "Shaopeng Lai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780420",
+                    "name": "Bo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780421",
+                    "name": "Dayiheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780422",
+                    "name": "Fei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780423",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d25d65f1e24a11780424",
+                    "name": "Ming Yan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-15T04:11:11.000Z",
+            "submittedOnDailyAt": "2025-12-16T01:29:41.007Z",
+            "title": "QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We introduce QwenLong-L1.5, a model that achieves superior long-context reasoning capabilities through systematic post-training innovations. The key technical breakthroughs of QwenLong-L1.5 are as follows: (1) Long-Context Data Synthesis Pipeline: We develop a systematic synthesis framework that generates challenging reasoning tasks requiring multi-hop grounding over globally distributed evidence. By deconstructing documents into atomic facts and their underlying relationships, and then programmatically composing verifiable reasoning questions, our approach creates high-quality training data at scale, moving substantially beyond simple retrieval tasks to enable genuine long-range reasoning capabilities. (2) Stabilized Reinforcement Learning for Long-Context Training: To overcome the critical instability in long-context RL, we introduce task-balanced sampling with task-specific advantage estimation to mitigate reward bias, and propose Adaptive Entropy-Controlled Policy Optimization (AEPO) that dynamically regulates exploration-exploitation trade-offs. (3) Memory-Augmented Architecture for Ultra-Long Contexts: Recognizing that even extended context windows cannot accommodate arbitrarily long sequences, we develop a memory management framework with multi-stage fusion RL training that seamlessly integrates single-pass reasoning with iterative memory-based processing for tasks exceeding 4M tokens. Based on Qwen3-30B-A3B-Thinking, QwenLong-L1.5 achieves performance comparable to GPT-5 and Gemini-2.5-Pro on long-context reasoning benchmarks, surpassing its baseline by 9.90 points on average. On ultra-long tasks (1M~4M tokens), QwenLong-L1.5's memory-agent framework yields a 9.48-point gain over the agent baseline. Additionally, the acquired long-context reasoning ability translates to enhanced performance in general domains like scientific reasoning, memory tool using, and extended dialogue.",
+            "upvotes": 47,
+            "discussionId": "6940d25d65f1e24a11780425",
+            "githubRepo": "https://github.com/Tongyi-Zhiwen/Qwen-Doc",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "QwenLong-L1.5 enhances long-context reasoning through data synthesis, stabilized reinforcement learning, and memory-augmented architecture, achieving superior performance on benchmarks and general domains.",
+            "ai_keywords": [
+                "Long-Context Data Synthesis Pipeline",
+                "atomic facts",
+                "verifiable reasoning questions",
+                "Stabilized Reinforcement Learning",
+                "task-balanced sampling",
+                "task-specific advantage estimation",
+                "Adaptive Entropy-Controlled Policy Optimization",
+                "Memory-Augmented Architecture",
+                "multi-stage fusion RL training",
+                "single-pass reasoning",
+                "iterative memory-based processing",
+                "memory-agent framework"
+            ],
+            "organization": {
+                "_id": "67d15cca6e2cf0e062dbfb54",
+                "name": "AlibabaTongyiLab",
+                "fullname": "TongyiLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+            }
+        },
+        "translation_title": "QwenLong-L1.5: 긴 맥락 추론 및 메모리 관리에 대한 후훈련 레시피",
+        "purpose": "긴 맥락 추론 기능을 개선하기 위해 시스템적인 후훈련 혁신을 통해 모델 개발",
+        "method": [
+            "긴 맥락 데이터 합성 파이프라인을 개발하여 전 세계적으로 분산된 증거에 대해 다단계 기반의 도전 과제가 필요하도록 데이터를 생성함(Long-Context Data Synthesis Pipeline: We develop a systematic synthesis framework that generates challenging reasoning tasks requiring multi-hop grounding over globally distributed evidence.)",
+            "긴 맥락 강화 학습의 불안정을 극복하기 위해 과제 균형 샘플링과 적응형 엔트로피 조절 정책 최적화를 도입함(Stabilized Reinforcement Learning for Long-Context Training: To overcome the critical instability in long-context RL, we introduce task-balanced sampling with task-specific advantage estimation.)",
+            "초장기 맥락을 위한 메모리 증강 아키텍처를 개발하여 단일 패스 추론과 메모리 기반 처리를 통합함(Memory-Augmented Architecture for Ultra-Long Contexts: We develop a memory management framework with multi-stage fusion RL training that seamlessly integrates single-pass reasoning with iterative memory-based processing for tasks exceeding 4M tokens.)"
+        ],
+        "conclusion": "QwenLong-L1.5는 GPT-5 및 Gemini-2.5-Pro와 유사한 성능을 달성하였으며, 초장기 과제에서 9.48점의 성과 향상을 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Reinforcement Learning",
+            "Memory Management"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.13586",
+            "authors": [
+                {
+                    "_id": "6940d86d65f1e24a117805cd",
+                    "user": {
+                        "_id": "67be0888267276f5a2f9ce71",
+                        "avatarUrl": "/avatars/c27dc0003351d2e59d7361064d572e55.svg",
+                        "isPro": false,
+                        "fullname": "Jia-Nan Li",
+                        "user": "JinaLeejnl",
+                        "type": "user"
+                    },
+                    "name": "Jia-Nan Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-16T09:38:49.797Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d86d65f1e24a117805ce",
+                    "name": "Jian Guan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d86d65f1e24a117805cf",
+                    "name": "Wei Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d86d65f1e24a117805d0",
+                    "name": "Chongxuan Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-15T17:41:19.000Z",
+            "submittedOnDailyAt": "2025-12-16T01:39:12.101Z",
+            "title": "ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding",
+            "submittedOnDailyBy": {
+                "_id": "67be0888267276f5a2f9ce71",
+                "avatarUrl": "/avatars/c27dc0003351d2e59d7361064d572e55.svg",
+                "isPro": false,
+                "fullname": "Jia-Nan Li",
+                "user": "JinaLeejnl",
+                "type": "user"
+            },
+            "summary": "Autoregressive models (ARMs) are hindered by slow sequential inference. While masked diffusion models (MDMs) offer a parallel alternative, they suffer from critical drawbacks: high computational overhead from precluding Key-Value (KV) caching, and incoherent generation arising from learning dependencies over an intractable space of token combinations. To address these limitations, we introduce ReFusion, a novel masked diffusion model that achieves superior performance and efficiency by elevating parallel decoding from the token level to a higher slot level, where each slot is a fixed-length, contiguous sub-sequence. This is achieved through an iterative ``plan-and-infill'' decoding process: a diffusion-based planning step first identifies a set of weakly dependent slots, and an autoregressive infilling step then decodes these selected slots in parallel. The slot-based design simultaneously unlocks full KV cache reuse with a unified causal framework and reduces the learning complexity from the token combination space to a manageable slot-level permutation space. Extensive experiments on seven diverse benchmarks show that ReFusion not only overwhelmingly surpasses prior MDMs with 34% performance gains and an over 18times speedup on average, but also bridges the performance gap to strong ARMs while maintaining a 2.33times average speedup.",
+            "upvotes": 46,
+            "discussionId": "6940d86d65f1e24a117805d1",
+            "githubRepo": "https://github.com/ML-GSAI/ReFusion",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "ReFusion, a novel masked diffusion model, improves performance and efficiency by using slot-based parallel decoding, achieving superior results compared to autoregressive models and traditional masked diffusion models.",
+            "ai_keywords": [
+                "autoregressive models",
+                "masked diffusion models",
+                "Key-Value caching",
+                "parallel decoding",
+                "token level",
+                "slot level",
+                "diffusion-based planning",
+                "autoregressive infilling",
+                "slot-based design",
+                "slot-level permutation space"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "ReFusion: 병렬 오토 회귀 디코딩을 가진 확산 대규모 언어 모델",
+        "purpose": "느린 순차적 추론 문제를 해결하고 더 나은 성능과 효율성을 가진 모델을 개발하기 위함",
+        "method": [
+            "ReFusion이라는 새로운 마스크 확산 모델을 제안하여, 토큰 레벨에서 높은 슬롯 레벨로 병렬 디코딩을 상승시킴(we introduce ReFusion, a novel masked diffusion model that achieves superior performance and efficiency by elevating parallel decoding from the token level to a higher slot level)",
+            "전략적 ``plan-and-infill'' 디코딩 과정을 통해 약한 종속 슬롯을 식별하고 병렬로 디코딩함(This is achieved through an iterative ``plan-and-infill'' decoding process: a diffusion-based planning step first identifies a set of weakly dependent slots, and an autoregressive infilling step then decodes these selected slots in parallel)",
+            "슬롯 기반 설계를 통해 KV 캐시 재사용을 가능하게 하고 학습 복잡성을 관리 가능한 슬롯 수준으로 줄임(The slot-based design simultaneously unlocks full KV cache reuse with a unified causal framework and reduces the learning complexity from the token combination space to a manageable slot-level permutation space)"
+        ],
+        "conclusion": "ReFusion은 이전 MDM보다 34%의 성능 향상과 평균 18배의 속도 증가를 달성하며, 강력한 ARMs과의 성능 격차를 줄이는 데 성공함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    }
+]
