@@ -1,0 +1,615 @@
+[
+    {
+        "paper": {
+            "id": "2512.14691",
+            "authors": [
+                {
+                    "_id": "69421eb65d5b2dc105274811",
+                    "name": "Zefan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274812",
+                    "name": "Haoyi Qiu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274813",
+                    "user": {
+                        "_id": "643ebfac1a12dcf01c6b5263",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/643ebfac1a12dcf01c6b5263/thkBlRvwgf83GULvOveM6.png",
+                        "isPro": false,
+                        "fullname": "Tianyi Ma",
+                        "user": "SueMintony",
+                        "type": "user"
+                    },
+                    "name": "Tianyi Ma",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:08:32.897Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274814",
+                    "name": "Haozhe Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274815",
+                    "user": {
+                        "_id": "6450bcd3673b2bcfaf8681af",
+                        "avatarUrl": "/avatars/f5f93d780562d0772ec5dc1728945fcf.svg",
+                        "isPro": false,
+                        "fullname": "Gengze Zhou",
+                        "user": "ZGZzz",
+                        "type": "user"
+                    },
+                    "name": "Gengze Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:08:34.841Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274816",
+                    "name": "Kung-Hsiang Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274817",
+                    "name": "Parisa Kordjamshidi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274818",
+                    "name": "Minjia Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc105274819",
+                    "name": "Xiao Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc10527481a",
+                    "name": "Jiuxiang Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc10527481b",
+                    "name": "Nanyun Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69421eb65d5b2dc10527481c",
+                    "name": "Junjie Hu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-16T18:58:04.000Z",
+            "submittedOnDailyAt": "2025-12-17T00:38:46.609Z",
+            "title": "MMGR: Multi-Modal Generative Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook reasoning failures, including violations of causality, physics, and global consistency. We introduce MMGR (Multi-Modal Generative Reasoning Evaluation and Benchmark), a principled evaluation framework based on five reasoning abilities: Physical, Logical, 3D Spatial, 2D Spatial, and Temporal. MMGR evaluates generative reasoning across three domains: Abstract Reasoning (ARC-AGI, Sudoku), Embodied Navigation (real-world 3D navigation and localization), and Physical Commonsense (sports and compositional interactions). MMGR applies fine-grained metrics that require holistic correctness across both video and image generation. We benchmark leading video models (Veo-3, Sora-2, Wan-2.2) and image models (Nano-banana, Nano-banana Pro, GPT-4o-image, Qwen-image), revealing strong performance gaps across domains. Models show moderate success on Physical Commonsense tasks but perform poorly on Abstract Reasoning (below 10 percent accuracy on ARC-AGI) and struggle with long-horizon spatial planning in embodied settings. Our analysis highlights key limitations in current models, including overreliance on perceptual data, weak global state consistency, and objectives that reward visual plausibility over causal correctness. MMGR offers a unified diagnostic benchmark and a path toward reasoning-aware generative world models.",
+            "upvotes": 56,
+            "discussionId": "69421eb65d5b2dc10527481d",
+            "ai_summary": "MMGR evaluates video and image models across reasoning abilities in multiple domains, revealing performance gaps and highlighting limitations in perceptual data and causal correctness.",
+            "ai_keywords": [
+                "Frechet Video Distance (FVD)",
+                "MMGR",
+                "Multi-Modal Generative Reasoning Evaluation and Benchmark",
+                "Physical",
+                "Logical",
+                "3D Spatial",
+                "2D Spatial",
+                "Temporal",
+                "Abstract Reasoning",
+                "ARC-AGI",
+                "Sudoku",
+                "Embodied Navigation",
+                "Physical Commonsense",
+                "Veo-3",
+                "Sora-2",
+                "Wan-2.2",
+                "Nano-banana",
+                "Nano-banana Pro",
+                "GPT-4o-image",
+                "Qwen-image",
+                "perceptual quality",
+                "reasoning failures",
+                "causality",
+                "physics",
+                "global consistency",
+                "holistic correctness",
+                "generative reasoning",
+                "world simulators"
+            ]
+        },
+        "translation_title": "MMGR: 다중 모달 생성 추론",
+        "purpose": "비디오 기초 모델의 신뢰성을 평가하기 위한 생성적 추론 기준 프레임워크 구축",
+        "method": [
+            "생성적 추론을 평가하기 위해 물리적, 논리적, 3D 공간, 2D 공간 및 시간적 제약을 기반으로 한 MMGR 평가 프레임워크를 도입함.(We introduce MMGR (Multi-Modal Generative Reasoning Evaluation and Benchmark), a principled evaluation framework based on five reasoning abilities: Physical, Logical, 3D Spatial, 2D Spatial, and Temporal.)",
+            "MMGR을 활용해 세 가지 도메인(추상 추론, 구현 내비게이션, 물리적 상식)에서의 성능을 평가함.(MMGR evaluates generative reasoning across three domains: Abstract Reasoning (ARC-AGI, Sudoku), Embodied Navigation (real-world 3D navigation and localization), and Physical Commonsense.)",
+            "비디오 및 이미지 생성 모두에서 전체적인 정확성을 요구하는 세분화된 지표를 적용함.(MMGR applies fine-grained metrics that require holistic correctness across both video and image generation.)"
+        ],
+        "conclusion": "MMGR을 통해 현재 모델의 주요 한계를 식별하고, 이유 기반 생성 세계 모델을 향한 경로를 제시함.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.14614",
+            "authors": [
+                {
+                    "_id": "694219f25d5b2dc1052747ff",
+                    "user": {
+                        "_id": "64897b1f0ec897cfe579a399",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64897b1f0ec897cfe579a399/ICR_75b877BaSE94gjBuj.jpeg",
+                        "isPro": false,
+                        "fullname": "wenq",
+                        "user": "wenqsun",
+                        "type": "user"
+                    },
+                    "name": "Wenqiang Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:08:38.348Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274800",
+                    "name": "Haiyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274801",
+                    "name": "Haoyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274802",
+                    "name": "Junta Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274803",
+                    "name": "Zehan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274804",
+                    "name": "Zhenwei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274805",
+                    "name": "Yunhong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274806",
+                    "name": "Jun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274807",
+                    "name": "Tengfei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694219f25d5b2dc105274808",
+                    "name": "Chunchao Guo",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/z23kgc1LgY1qvs-Tfp4zj.mp4"
+            ],
+            "publishedAt": "2025-12-16T17:22:46.000Z",
+            "submittedOnDailyAt": "2025-12-17T00:24:30.301Z",
+            "title": "WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual Action Representation to enable robust action control in response to the user's keyboard and mouse inputs. 2) To enforce long-term consistency, our Reconstituted Context Memory dynamically rebuilds context from past frames and uses temporal reframing to keep geometrically important but long-past frames accessible, effectively alleviating memory attenuation. 3) We also propose Context Forcing, a novel distillation method designed for memory-aware model. Aligning memory context between the teacher and student preserves the student's capacity to use long-range information, enabling real-time speeds while preventing error drift. Taken together, WorldPlay generates long-horizon streaming 720p video at 24 FPS with superior consistency, comparing favorably with existing techniques and showing strong generalization across diverse scenes. Project page and online demo can be found: https://3d-models.hunyuan.tencent.com/world/ and https://3d.hunyuan.tencent.com/sceneTo3D.",
+            "upvotes": 44,
+            "discussionId": "694219f35d5b2dc105274809",
+            "projectPage": "https://3d-models.hunyuan.tencent.com/world/",
+            "ai_summary": "WorldPlay is a streaming video diffusion model that achieves real-time, interactive world modeling with long-term geometric consistency by using a Dual Action Representation, Reconstituted Context Memory, and Context Forcing.",
+            "ai_keywords": [
+                "Dual Action Representation",
+                "Reconstituted Context Memory",
+                "temporal reframing",
+                "Context Forcing",
+                "memory-aware model",
+                "long-horizon streaming video"
+            ]
+        },
+        "translation_title": "WorldPlay: 실시간 인터랙티브 월드 모델링을 위한 장기 기하학적 일관성 구축",
+        "purpose": "실시간으로 인터랙티브한 세계 모델링을 가능하게 하여 현재 방법의 속도와 메모리 문제를 해결하기 위함",
+        "method": [
+            "Dual Action Representation을 사용하여 사용자의 키보드 및 마우스 입력에 대한 강력한 액션 제어를 가능하게 함(We use a Dual Action Representation to enable robust action control in response to the user's keyboard and mouse inputs.)",
+            "Reconstituted Context Memory를 통해 과거 프레임에서 컨텍스트를 동적으로 재구성하고, 중요한 기하학적 프레임을 접근 가능하게 함(To enforce long-term consistency, our Reconstituted Context Memory dynamically rebuilds context from past frames and uses temporal reframing to keep geometrically important but long-past frames accessible.)",
+            "Context Forcing이라는 새로운 증류 방법을 제안하여 메모리 인식을 강화하고, 긴 정보 사용을 지원함(We also propose Context Forcing, a novel distillation method designed for memory-aware model.)"
+        ],
+        "conclusion": "WorldPlay는 24 FPS로 720p 비디오를 스트리밍하며, 기존 기술들과 비교해 우수한 일관성을 제공하고 다양한 장면에 강한 일반화 성능을 보여줌.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.13281",
+            "authors": [
+                {
+                    "_id": "6940d82465f1e24a117805c2",
+                    "name": "Jiaqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c3",
+                    "name": "Weijia Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c4",
+                    "name": "Yi Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c5",
+                    "name": "Rui Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c6",
+                    "name": "Ming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c7",
+                    "name": "James Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c8",
+                    "name": "Wei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805c9",
+                    "name": "Philip Torr",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940d82465f1e24a117805ca",
+                    "user": {
+                        "_id": "64440be5af034cdfd69ca3a7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                        "isPro": false,
+                        "fullname": "Qinghong (Kevin) Lin",
+                        "user": "KevinQHLin",
+                        "type": "user"
+                    },
+                    "name": "Kevin Qinghong Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T14:04:37.407Z",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64440be5af034cdfd69ca3a7/g2dRdpFY8mVSrBnrK3C0q.mp4"
+            ],
+            "publishedAt": "2025-12-15T12:41:23.000Z",
+            "submittedOnDailyAt": "2025-12-17T08:26:01.077Z",
+            "title": "Video Reality Test: Can AI-Generated ASMR Videos fool VLMs and Humans?",
+            "submittedOnDailyBy": {
+                "_id": "64440be5af034cdfd69ca3a7",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64440be5af034cdfd69ca3a7/qmx24QiDFT29vleCxL9TX.jpeg",
+                "isPro": false,
+                "fullname": "Qinghong (Kevin) Lin",
+                "user": "KevinQHLin",
+                "type": "user"
+            },
+            "summary": "Recent advances in video generation have produced vivid content that are often indistinguishable from real videos, making AI-generated video detection an emerging societal challenge. Prior AIGC detection benchmarks mostly evaluate video without audio, target broad narrative domains, and focus on classification solely. Yet it remains unclear whether state-of-the-art video generation models can produce immersive, audio-paired videos that reliably deceive humans and VLMs. To this end, we introduce Video Reality Test, an ASMR-sourced video benchmark suite for testing perceptual realism under tight audio-visual coupling, featuring the following dimensions: (i) Immersive ASMR video-audio sources. Built on carefully curated real ASMR videos, the benchmark targets fine-grained action-object interactions with diversity across objects, actions, and backgrounds. (ii) Peer-Review evaluation. An adversarial creator-reviewer protocol where video generation models act as creators aiming to fool reviewers, while VLMs serve as reviewers seeking to identify fakeness. Our experimental findings show: The best creator Veo3.1-Fast even fools most VLMs: the strongest reviewer (Gemini 2.5-Pro) achieves only 56\\% accuracy (random 50\\%), far below that of human experts (81.25\\%). Adding audio improves real-fake discrimination, yet superficial cues such as watermarks can still significantly mislead models. These findings delineate the current boundary of video generation realism and expose limitations of VLMs in perceptual fidelity and audio-visual consistency. Our code is available at https://github.com/video-reality-test/video-reality-test.",
+            "upvotes": 43,
+            "discussionId": "6940d82565f1e24a117805cb",
+            "projectPage": "https://video-reality-test.github.io/",
+            "githubRepo": "https://github.com/video-reality-test/video-reality-test",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "The Video Reality Test benchmark evaluates the realism and detection of AI-generated ASMR videos with audio, revealing that even the best models can deceive VLMs and humans, highlighting limitations in perceptual fidelity and audio-visual consistency.",
+            "ai_keywords": [
+                "ASMR",
+                "audio-visual coupling",
+                "Veo3.1-Fast",
+                "Gemini 2.5-Pro",
+                "perceptual realism",
+                "real-fake discrimination",
+                "audio-visual consistency"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "비디오 현실 테스트: AI 생성 ASMR 비디오가 VLM과 인간을 속일 수 있는가?",
+        "purpose": "AI 생성 비디오의 인식 현실성을 테스트하고 VLM과 인간을 혼동시키는 것을 평가하기 위함",
+        "method": [
+            "ASMR 소스 비디오 벤치마크를 소개하여 오디오와 비주얼의 밀접한 결합에서 인식 현실성을 측정함(we introduce Video Reality Test, an ASMR-sourced video benchmark suite for testing perceptual realism under tight audio-visual coupling)",
+            "데이터는 실제 ASMR 비디오를 바탕으로 세밀한 행동-객체 상호작용을 평가하도록 설계됨(built on carefully curated real ASMR videos, the benchmark targets fine-grained action-object interactions with diversity across objects, actions, and backgrounds)",
+            "생성자-리뷰어 프로토콜을 사용하여 비디오 생성 모델이 리뷰어를 속이도록 하고, VLM이 가짜를 식별하도록 설정함(an adversarial creator-reviewer protocol where video generation models act as creators aiming to fool reviewers, while VLMs serve as reviewers seeking to identify fakeness)"
+        ],
+        "conclusion": "최고의 생성자 Veo3.1-Fast 조차도 많은 VLM을 속이는 데 성공했으며, VLM의 인식 정확도는 인간 전문가보다 낮았고, 오디오 추가가 판별에 도움을 주지만 수표적 요소는 여전히 모델을 속일 수 있음을 보임.",
+        "keywords": [
+            "Video Generation",
+            "Video Understanding",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.12675",
+            "authors": [
+                {
+                    "_id": "6940c8af65f1e24a1177fbe2",
+                    "user": {
+                        "_id": "65e71ef39cf349af2940b317",
+                        "avatarUrl": "/avatars/fc1cd8d3510946fc947d67b16b51834b.svg",
+                        "isPro": false,
+                        "fullname": "Yuran Wang",
+                        "user": "Ryann829",
+                        "type": "user"
+                    },
+                    "name": "Yuran Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:09:32.675Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe3",
+                    "user": {
+                        "_id": "6671214c92412fd4640714eb",
+                        "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+                        "isPro": false,
+                        "fullname": "bohan zeng",
+                        "user": "zbhpku",
+                        "type": "user"
+                    },
+                    "name": "Bohan Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:09:30.756Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe4",
+                    "name": "Chengzhuo Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe5",
+                    "name": "Wenxuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe6",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe7",
+                    "name": "Xiaochen Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe8",
+                    "name": "Hao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbe9",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6940c8af65f1e24a1177fbea",
+                    "name": "Wentao Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-14T12:58:19.000Z",
+            "submittedOnDailyAt": "2025-12-17T00:18:03.394Z",
+            "title": "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling",
+            "submittedOnDailyBy": {
+                "_id": "6671214c92412fd4640714eb",
+                "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+                "isPro": false,
+                "fullname": "bohan zeng",
+                "user": "zbhpku",
+                "type": "user"
+            },
+            "summary": "Subject-driven image generation has advanced from single- to multi-subject composition, while neglecting distinction, the ability to identify and generate the correct subject when inputs contain multiple candidates. This limitation restricts effectiveness in complex, realistic visual settings. We propose Scone, a unified understanding-generation method that integrates composition and distinction. Scone enables the understanding expert to act as a semantic bridge, conveying semantic information and guiding the generation expert to preserve subject identity while minimizing interference. A two-stage training scheme first learns composition, then enhances distinction through semantic alignment and attention-based masking. We also introduce SconeEval, a benchmark for evaluating both composition and distinction across diverse scenarios. Experiments demonstrate that Scone outperforms existing open-source models in composition and distinction tasks on two benchmarks. Our model, benchmark, and training data are available at: https://github.com/Ryann-Ran/Scone.",
+            "upvotes": 37,
+            "discussionId": "6940c8b065f1e24a1177fbeb",
+            "githubRepo": "https://github.com/Ryann-Ran/Scone",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Scone integrates composition and distinction in image generation by using a two-stage training scheme with semantic alignment and attention-based masking, outperforming existing models on benchmarks.",
+            "ai_keywords": [
+                "composition",
+                "distinction",
+                "semantic bridge",
+                "semantic alignment",
+                "attention-based masking",
+                "SconeEval"
+            ],
+            "githubStars": 19,
+            "organization": {
+                "_id": "61dcd8e344f59573371b5cb6",
+                "name": "PekingUniversity",
+                "fullname": "Peking University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/noauth/vavgrBsnkSejriUF4lXDE.png"
+            }
+        },
+        "translation_title": "Scone: 통합 이해-생성 모델링을 통한 주제 기반 이미지 생성에서의 구성 및 구분 연결",
+        "purpose": "주제 기반 이미지 생성에서 구성과 구분 능력을 통합하여 개선하기 위한 방법 제안",
+        "method": [
+            "Scone이라는 통합 이해-생성 방법을 제안하여, 구성과 구분을 함께 반영함(We propose Scone, a unified understanding-generation method that integrates composition and distinction.)",
+            "두 단계의 훈련 방식을 통해 먼저 구성을 학습하고, 이후 의미적 정렬과 주의 기반 마스킹을 통해 구분 능력을 향상시킴(A two-stage training scheme first learns composition, then enhances distinction through semantic alignment and attention-based masking.)",
+            "SconeEval이라는 벤치마크를 통해 다양한 시나리오에서 구성과 구분 능력을 평가함(We also introduce SconeEval, a benchmark for evaluating both composition and distinction across diverse scenarios.)"
+        ],
+        "conclusion": "Scone은 기존 오픈 소스 모델들보다 구성과 구분 작업에서 더 나은 성과를 보여줌.",
+        "keywords": [
+            "Image Generation",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.13660",
+            "authors": [
+                {
+                    "_id": "694220325d5b2dc105274831",
+                    "user": {
+                        "_id": "63f08dc79cf89c9ed1bb89cd",
+                        "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+                        "isPro": false,
+                        "fullname": "Zhoues",
+                        "user": "Zhoues",
+                        "type": "user"
+                    },
+                    "name": "Enshen Zhou",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-17T10:08:27.449Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274832",
+                    "name": "Cheng Chi",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274833",
+                    "name": "Yibo Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274834",
+                    "name": "Jingkun An",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274835",
+                    "name": "Jiayuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274836",
+                    "name": "Shanyu Rong",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274837",
+                    "name": "Yi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274838",
+                    "name": "Yuheng Ji",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc105274839",
+                    "name": "Mengzhen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc10527483a",
+                    "name": "Pengwei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc10527483b",
+                    "name": "Zhongyuan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc10527483c",
+                    "name": "Lu Sheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "694220325d5b2dc10527483d",
+                    "name": "Shanghang Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63f08dc79cf89c9ed1bb89cd/oBxP3i_7vhT9DXbEAa7rd.mp4"
+            ],
+            "publishedAt": "2025-12-15T18:52:43.000Z",
+            "submittedOnDailyAt": "2025-12-17T01:02:34.029Z",
+            "title": "RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics",
+            "submittedOnDailyBy": {
+                "_id": "63f08dc79cf89c9ed1bb89cd",
+                "avatarUrl": "/avatars/37290358ad00bbd752f519cfdec02f3e.svg",
+                "isPro": false,
+                "fullname": "Zhoues",
+                "user": "Zhoues",
+                "type": "user"
+            },
+            "summary": "Spatial tracing, as a fundamental embodied interaction ability for robots, is inherently challenging as it requires multi-step metric-grounded reasoning compounded with complex spatial referring and real-world metric measurement. However, existing methods struggle with this compositional task. To this end, we propose RoboTracer, a 3D-aware VLM that first achieves both 3D spatial referring and measuring via a universal spatial encoder and a regression-supervised decoder to enhance scale awareness during supervised fine-tuning (SFT). Moreover, RoboTracer advances multi-step metric-grounded reasoning via reinforcement fine-tuning (RFT) with metric-sensitive process rewards, supervising key intermediate perceptual cues to accurately generate spatial traces. To support SFT and RFT training, we introduce TraceSpatial, a large-scale dataset of 30M QA pairs, spanning outdoor/indoor/tabletop scenes and supporting complex reasoning processes (up to 9 steps). We further present TraceSpatial-Bench, a challenging benchmark filling the gap to evaluate spatial tracing. Experimental results show that RoboTracer surpasses baselines in spatial understanding, measuring, and referring, with an average success rate of 79.1%, and also achieves SOTA performance on TraceSpatial-Bench by a large margin, exceeding Gemini-2.5-Pro by 36% accuracy. Notably, RoboTracer can be integrated with various control policies to execute long-horizon, dynamic tasks across diverse robots (UR5, G1 humanoid) in cluttered real-world scenes.",
+            "upvotes": 31,
+            "discussionId": "694220325d5b2dc10527483e",
+            "projectPage": "https://zhoues.github.io/RoboTracer/",
+            "githubRepo": "https://github.com/Zhoues/RoboTracer",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "RoboTracer, a 3D-aware visual language model, enhances spatial tracing by combining supervised and reinforcement fine-tuning with a universal spatial encoder and regression-supervised decoder, achieving state-of-the-art performance on TraceSpatial-Bench.",
+            "ai_keywords": [
+                "3D-aware VLM",
+                "universal spatial encoder",
+                "regression-supervised decoder",
+                "supervised fine-tuning",
+                "reinforcement fine-tuning",
+                "metric-sensitive process rewards",
+                "TraceSpatial",
+                "TraceSpatial-Bench",
+                "spatial tracing",
+                "spatial understanding",
+                "spatial referring",
+                "UR5",
+                "G1 humanoid"
+            ],
+            "githubStars": 14,
+            "organization": {
+                "_id": "61be9739d2f9358e24ca0a4f",
+                "name": "BAAI",
+                "fullname": "Beijing Academy of Artificial Intelligence",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664511063789-632c234f42c386ebd2710434.png"
+            }
+        },
+        "translation_title": "RoboTracer: 비전-언어 모델에서 로봇을 위한 공간 추적을 위한 추론 마스터링",
+        "purpose": "로봇의 공간 추적 능력을 개선하기 위한 모델 개발",
+        "method": [
+            "3D 공간 지칭 및 측정을 달성하기 위해 보편적인 공간 인코더와 회귀-지도형 디코더를 사용하는 3D 인식 VLM인 RoboTracer를 제안함(we propose RoboTracer, a 3D-aware VLM that first achieves both 3D spatial referring and measuring via a universal spatial encoder and a regression-supervised decoder).",
+            "강화 학습을 통해 다단계 메트릭 기반 추론을 개선하고 핵심 중간 지각 단서를 감독하여 정확한 공간 추적을 생성하도록 함(we advance multi-step metric-grounded reasoning via reinforcement fine-tuning with metric-sensitive process rewards, supervising key intermediate perceptual cues to accurately generate spatial traces).",
+            "30M QA 쌍으로 구성된 TraceSpatial이라는 대규모 데이터셋을 도입하여 복잡한 추론 과정을 지원함(we introduce TraceSpatial, a large-scale dataset of 30M QA pairs, supporting complex reasoning processes)."
+        ],
+        "conclusion": "RoboTracer는 공간 이해 및 측정에서 기존 모델을 초월하며, 다양한 로봇에서 긴 작업을 수행할 수 있는 능력을 가짐.",
+        "keywords": [
+            "Robotics",
+            "3D Vision",
+            "Vision-Language Models"
+        ]
+    }
+]
