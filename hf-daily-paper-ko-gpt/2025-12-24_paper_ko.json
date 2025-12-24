@@ -1,0 +1,395 @@
+[
+    {
+        "paper": {
+            "id": "2512.20619",
+            "authors": [
+                {
+                    "_id": "694b614d746a34b55dd53d1a",
+                    "name": "Jianhong Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d1b",
+                    "name": "Xiaoshi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d1c",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d1d",
+                    "name": "Fu Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d1e",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d1f",
+                    "name": "Qinghe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d20",
+                    "name": "Xiaoyu Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d21",
+                    "name": "Menghan Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d22",
+                    "name": "Zuozhu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d23",
+                    "name": "Haoji Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d24",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b614d746a34b55dd53d25",
+                    "name": "Kun Gai",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6530bf50f145530101ec03a2/amGfUgsGwtKhlryqSDYnU.png"
+            ],
+            "publishedAt": "2025-12-23T18:59:56.000Z",
+            "submittedOnDailyAt": "2025-12-24T01:20:51.117Z",
+            "title": "SemanticGen: Video Generation in Semantic Space",
+            "submittedOnDailyBy": {
+                "_id": "6530bf50f145530101ec03a2",
+                "avatarUrl": "/avatars/c61c00c314cf202b64968e51e855694d.svg",
+                "isPro": false,
+                "fullname": "Jianhong Bai",
+                "user": "jianhongbai",
+                "type": "user"
+            },
+            "summary": "State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos. In this paper, we introduce SemanticGen, a novel solution to address these limitations by generating videos in the semantic space. Our main insight is that, due to the inherent redundancy in videos, the generation process should begin in a compact, high-level semantic space for global planning, followed by the addition of high-frequency details, rather than directly modeling a vast set of low-level video tokens using bi-directional attention. SemanticGen adopts a two-stage generation process. In the first stage, a diffusion model generates compact semantic video features, which define the global layout of the video. In the second stage, another diffusion model generates VAE latents conditioned on these semantic features to produce the final output. We observe that generation in the semantic space leads to faster convergence compared to the VAE latent space. Our method is also effective and computationally efficient when extended to long video generation. Extensive experiments demonstrate that SemanticGen produces high-quality videos and outperforms state-of-the-art approaches and strong baselines.",
+            "upvotes": 73,
+            "discussionId": "694b614d746a34b55dd53d26",
+            "projectPage": "https://jianhongbai.github.io/SemanticGen/",
+            "ai_summary": "SemanticGen addresses slow convergence and computational costs in video generation by using a two-stage diffusion model approach that first generates semantic features and then VAE latents, leading to faster convergence and high-quality results.",
+            "ai_keywords": [
+                "VAE space",
+                "VAE decoder",
+                "semantic space",
+                "diffusion model",
+                "semantic video features",
+                "bi-directional attention"
+            ],
+            "organization": {
+                "_id": "662c559b322afcbae51b3c8b",
+                "name": "KlingTeam",
+                "fullname": "Kling Team",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+            }
+        },
+        "translation_title": "SemanticGen: 의미 공간에서의 비디오 생성",
+        "purpose": "비디오 생성의 속도를 개선하고 계산 비용을 줄이기 위해 의미 공간에서 비디오를 생성하는 새로운 방법 연구",
+        "method": [
+            "비디오 생성 과정을 고차원 의미 공간에서 시작하고 세부 정보를 추가하는 두 단계 생성 과정을 도입함(Our main insight is that, due to the inherent redundancy in videos, the generation process should begin in a compact, high-level semantic space for global planning, followed by the addition of high-frequency details.)",
+            "첫 번째 단계에서 확산 모델을 사용해 비디오의 전반적인 레이아웃을 정의하는 의미 비디오 특징을 생성함(In the first stage, a diffusion model generates compact semantic video features, which define the global layout of the video.)",
+            "두 번째 단계에서 이 의미 특징에 조건화된 VAE 레이턴트를 생성해 최종 결과물을 만들어냄(In the second stage, another diffusion model generates VAE latents conditioned on these semantic features to produce the final output.)"
+        ],
+        "conclusion": "SemanticGen은 의미 공간에서의 생성으로 인해 더 빠른 수렴을 보여주며, 긴 비디오 생성에도 효과적이고 계산적으로 효율적임을 입증함.",
+        "keywords": [
+            "Video Generation",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.19673",
+            "authors": [
+                {
+                    "_id": "694ac3ad746a34b55dd53b6c",
+                    "name": "Yuqiao Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b6d",
+                    "name": "Minzheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b6e",
+                    "name": "Shizhu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b6f",
+                    "name": "Huanxuan Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b70",
+                    "name": "Chengfeng Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b71",
+                    "name": "Qiunan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b72",
+                    "name": "Tian Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b73",
+                    "name": "Jun Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ac3ad746a34b55dd53b74",
+                    "name": "Kang Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-22T18:51:48.000Z",
+            "submittedOnDailyAt": "2025-12-24T00:28:45.252Z",
+            "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+            "submittedOnDailyBy": {
+                "_id": "64bcc373ef8c0e42bf16acc5",
+                "avatarUrl": "/avatars/873308203d28115ae1a9e4d0e26508f4.svg",
+                "isPro": false,
+                "fullname": "mz.w",
+                "user": "iiiiwis",
+                "type": "user"
+            },
+            "summary": "Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reasoning mechanisms. In this paper, we decompose the language model policy by leveraging the intrinsic split of the Transformer residual stream and the equivalence between the composition of hidden states with the unembedding matrix and the resulting samplable policy. This decomposition reveals Internal Layer Policies, corresponding to contributions from individual layers, and Internal Modular Policies, which align with the self-attention and feed-forward network (FFN) components within each layer. By analyzing the entropy of internal policy, we find that: (a) Early layers keep high entropy for exploration, top layers converge to near-zero entropy for refinement, with convergence patterns varying across model series. (b) LLama's prediction space rapidly converges in the final layer, whereas Qwen-series models, especially Qwen3, exhibit a more human-like, progressively structured reasoning pattern. Motivated by these findings, we propose Bottom-up Policy Optimization (BuPO), a novel RL paradigm that directly optimizes the internal layer policy during early training. By aligning training objective at lower layer, BuPO reconstructs foundational reasoning capabilities and achieves superior performance. Extensive experiments on complex reasoning benchmarks demonstrates the effectiveness of our method. Our code is available at https://github.com/Trae1ounG/BuPO.",
+            "upvotes": 47,
+            "discussionId": "694ac3ad746a34b55dd53b75",
+            "githubRepo": "https://github.com/Trae1ounG/BuPO",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "The paper decomposes the policy of large language models into internal layer and modular policies, revealing distinct reasoning patterns across layers and proposing Bottom-up Policy Optimization to enhance performance on complex reasoning tasks.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "large language models",
+                "Transformer residual stream",
+                "unembedding matrix",
+                "Internal Layer Policies",
+                "Internal Modular Policies",
+                "self-attention",
+                "feed-forward network",
+                "entropy",
+                "Bottom-up Policy Optimization"
+            ],
+            "githubStars": 19,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "Bottom-up Policy Optimization: 당신의 언어 모델 정책은 내부 정책을 비밀리에 포함하고 있습니다",
+        "purpose": "정확한 최적화를 가능하게 하고 복잡한 추론 메커니즘을 설명하기 위해 언어 모델 정책의 내부 메커니즘을 이해하려는 연구",
+        "method": [
+            "Transformer의 잔차 스트림의 본질적인 분할을 활용하여 언어 모델 정책을 분해함(we decompose the language model policy by leveraging the intrinsic split of the Transformer residual stream)",
+            "내부 계층 정책과 내부 모듈 정책을 분석함(this decomposition reveals Internal Layer Policies and Internal Modular Policies)",
+            "내부 정책의 엔트로피를 분석하여 기초적인 발견을 하였음(by analyzing the entropy of internal policy)"
+        ],
+        "conclusion": "BuPO는 초기 훈련 중 내부 계층 정책을 직접 최적화하여 기초적인 추론 능력을 재구성하고 우수한 성능을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.20618",
+            "authors": [
+                {
+                    "_id": "694ba02a746a34b55dd53e8b",
+                    "name": "Runtao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e8c",
+                    "name": "Ziyi Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e8d",
+                    "name": "Jiaqi Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e8e",
+                    "name": "Yue Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e8f",
+                    "name": "Renjie Pi",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e90",
+                    "name": "Jipeng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ba02a746a34b55dd53e91",
+                    "name": "Qifeng Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-23T18:59:49.000Z",
+            "submittedOnDailyAt": "2025-12-24T05:57:23.776Z",
+            "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+            "submittedOnDailyBy": {
+                "_id": "642e7a12ccdcf5da7f9657a0",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642e7a12ccdcf5da7f9657a0/w8jW5BagTuTp6EvC6KEyR.png",
+                "isPro": true,
+                "fullname": "Jiaqi Tang",
+                "user": "Jiaqi-hkust",
+                "type": "user"
+            },
+            "summary": "Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We propose a multi-agent framework in which a master LLM coordinates a grounding agent to localize question-relevant segments and a vision agent to extract targeted textual observations. The master agent plans with a step limit, and is trained with reinforcement learning to encourage concise, correct, and efficient multi-agent cooperation. This design helps the master agent focus on relevant clips via grounding, complements subtitles with visual detail, and yields interpretable trajectories. On our proposed LongTVQA and LongTVQA+ which are episode-level datasets aggregated from TVQA/TVQA+, our multi-agent system significantly outperforms strong non-agent baselines. Experiments also show reinforcement learning further strengthens reasoning and planning for the trained agent. Code and data will be shared at https://longvideoagent.github.io/.",
+            "upvotes": 37,
+            "discussionId": "694ba02a746a34b55dd53e92",
+            "ai_summary": "A multi-agent framework, involving a master LLM, grounding agent, and vision agent, enhances long-video QA by improving temporal grounding and leveraging visual and textual data.",
+            "ai_keywords": [
+                "multimodal LLMs",
+                "long-video QA",
+                "multi-agent framework",
+                "grounding agent",
+                "vision agent",
+                "reinforcement learning",
+                "temporal grounding",
+                "LongTVQA",
+                "LongTVQA+"
+            ]
+        },
+        "translation_title": "LongVideoAgent: 긴 동영상에 대한 다중 에이전트 추론",
+        "purpose": "긴 동영상 질문 응답(QA)에서 다중 에이전트 시스템을 통해 더 나은 추론 능력을 키우기 위한 연구",
+        "method": [
+            "마스터 LLM이 질문 관련 세그먼트를 지역화하기 위한 grounding agent와 목표 텍스트 관찰을 추출할 vision agent를 조정하는 다중 에이전트 프레임워크를 제안함(We propose a multi-agent framework in which a master LLM coordinates a grounding agent to localize question-relevant segments and a vision agent to extract targeted textual observations.)",
+            "마스터 에이전트는 단계 제한으로 계획하고, 간결하고 정확하며 효율적인 다중 에이전트 협업을 유도하기 위해 강화 학습으로 훈련됨(The master agent plans with a step limit, and is trained with reinforcement learning to encourage concise, correct, and efficient multi-agent cooperation.)",
+            "제안된 LongTVQA 및 LongTVQA+ 데이터셋에서 우리 다중 에이전트 시스템이 경쟁력 있는 비에이전트 기준선과 비교하여 상당히 뛰어난 성능을 보임(On our proposed LongTVQA and LongTVQA+ which are episode-level datasets aggregated from TVQA/TVQA+, our multi-agent system significantly outperforms strong non-agent baselines.)"
+        ],
+        "conclusion": "LongVideoAgent는 긴 동영상에서 효과적인 추론과 계획을 강화할 수 있으며, 이는 다중 에이전트 협업을 통해 가능함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Video Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.20617",
+            "authors": [
+                {
+                    "_id": "694b58e3746a34b55dd53cff",
+                    "name": "Yuxi Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d00",
+                    "name": "Longfei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d01",
+                    "name": "Shen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d02",
+                    "name": "Xinhang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d03",
+                    "name": "Sida Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d04",
+                    "name": "Yunchao Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d05",
+                    "name": "Xiaowei Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b58e3746a34b55dd53d06",
+                    "name": "Bingyi Kang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/hWsrMM0K13mB2Ej9Zwgbp.mp4"
+            ],
+            "publishedAt": "2025-12-23T18:59:46.000Z",
+            "submittedOnDailyAt": "2025-12-24T00:38:28.003Z",
+            "title": "SpatialTree: How Spatial Abilities Branch Out in MLLMs",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Cognitive science suggests that spatial ability develops progressively-from perception to reasoning and interaction. Yet in multimodal LLMs (MLLMs), this hierarchy remains poorly understood, as most studies focus on a narrow set of tasks. We introduce SpatialTree, a cognitive-science-inspired hierarchy that organizes spatial abilities into four levels: low-level perception (L1), mental mapping (L2), simulation (L3), and agentic competence (L4). Based on this taxonomy, we construct the first capability-centric hierarchical benchmark, thoroughly evaluating mainstream MLLMs across 27 sub-abilities. The evaluation results reveal a clear structure: L1 skills are largely orthogonal, whereas higher-level skills are strongly correlated, indicating increasing interdependency. Through targeted supervised fine-tuning, we uncover a surprising transfer dynamic-negative transfer within L1, but strong cross-level transfer from low- to high-level abilities with notable synergy. Finally, we explore how to improve the entire hierarchy. We find that naive RL that encourages extensive \"thinking\" is unreliable: it helps complex reasoning but hurts intuitive perception. We propose a simple auto-think strategy that suppresses unnecessary deliberation, enabling RL to consistently improve performance across all levels. By building SpatialTree, we provide a proof-of-concept framework for understanding and systematically scaling spatial abilities in MLLMs.",
+            "upvotes": 31,
+            "discussionId": "694b58e4746a34b55dd53d07",
+            "projectPage": "https://spatialtree.github.io/",
+            "ai_summary": "SpatialTree, a cognitive-science-inspired hierarchy, evaluates and improves spatial abilities in MLLMs across multiple levels, revealing transfer dynamics and proposing an auto-think strategy for consistent performance enhancement.",
+            "ai_keywords": [
+                "SpatialTree",
+                "low-level perception",
+                "mental mapping",
+                "simulation",
+                "agentic competence",
+                "capability-centric hierarchical benchmark",
+                "targeted supervised fine-tuning",
+                "negative transfer",
+                "cross-level transfer",
+                "naive RL",
+                "auto-think strategy"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "SpatialTree: MLLMs에서 공간 능력이 가지치기되는 방식",
+        "purpose": "MLLMs에서 공간 능력의 계층적 구조를 이해하고 개선하기 위한 체계적 접근 방법 제시",
+        "method": [
+            "공간 능력을 저수준 지각, 정신적 지도화, 시뮬레이션, 에이전트 능력으로 나누는 계층 구조인 SpatialTree를 제안함(Cognitive science suggests that spatial ability develops progressively-from perception to reasoning and interaction.)",
+            "27개의 하위 능력에 대해 MLLMs를 평가하는 최초의 능력 중심 계층 벤치마크를 구축함(Based on this taxonomy, we construct the first capability-centric hierarchical benchmark, thoroughly evaluating mainstream MLLMs across 27 sub-abilities.)",
+            "지도 학습을 통해 저수준 능력에서 고수준 능력으로의 강한 전이 효과를 확인하고 불필요한 고민을 억제하는 auto-think 전략을 제안함(We find that naive RL that encourages extensive 'thinking' is unreliable: it helps complex reasoning but hurts intuitive perception.)"
+        ],
+        "conclusion": "SpatialTree를 통해 MLLMs에서 공간 능력을 이해하고 체계적으로 확장할 수 있는 기반을 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Robotics"
+        ]
+    }
+]
