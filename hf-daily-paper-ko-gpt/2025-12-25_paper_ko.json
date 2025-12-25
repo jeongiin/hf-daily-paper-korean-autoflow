@@ -1,0 +1,491 @@
+[
+    {
+        "paper": {
+            "id": "2512.20557",
+            "authors": [
+                {
+                    "_id": "694b766b746a34b55dd53de6",
+                    "name": "Shengchao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53de7",
+                    "name": "Yuxin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53de8",
+                    "name": "Yuying Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53de9",
+                    "name": "Wei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53dea",
+                    "name": "Jiehong Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53deb",
+                    "name": "Ying Shan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694b766b746a34b55dd53dec",
+                    "name": "Xiaojuan Qi",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/656db3f53dc1d277e5a64410/Wgimy4m8ERFK9NwbdFrt8.mp4"
+            ],
+            "publishedAt": "2025-12-23T17:56:36.000Z",
+            "submittedOnDailyAt": "2025-12-25T00:20:37.914Z",
+            "title": "Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models",
+            "submittedOnDailyBy": {
+                "_id": "656db3f53dc1d277e5a64410",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/656db3f53dc1d277e5a64410/9kiY2K3MCRcBDk7MrkTBK.png",
+                "isPro": false,
+                "fullname": "Wei Huang",
+                "user": "AaronHuangWei",
+                "type": "user"
+            },
+            "summary": "Vision-language models (VLM) excel at general understanding yet remain weak at dynamic spatial reasoning (DSR), i.e., reasoning about the evolvement of object geometry and relationship in 3D space over time, largely due to the scarcity of scalable 4D-aware training resources. To bridge this gap across aspects of dataset, benchmark and model, we introduce DSR Suite. First, we propose an automated pipeline that generates multiple-choice question-answer pairs from in-the-wild videos for DSR. By leveraging modern vision foundation models, the pipeline extracts rich geometric and motion information, including camera poses, local point clouds, object masks, orientations, and 3D trajectories. These geometric cues enable the construction of DSR-Train for learning and further human-refined DSR-Bench for evaluation. Compared with previous works, our data emphasize (i) in-the-wild video sources, (ii) object- and scene-level 3D requirements, (iii) viewpoint transformations, (iv) multi-object interactions, and (v) fine-grained, procedural answers. Beyond data, we propose a lightweight Geometry Selection Module (GSM) to seamlessly integrate geometric priors into VLMs, which condenses question semantics and extracts question-relevant knowledge from pretrained 4D reconstruction priors into a compact set of geometry tokens. This targeted extraction avoids overwhelming the model with irrelevant knowledge. Experiments show that integrating DSR-Train and GSM into Qwen2.5-VL-7B significantly enhances its dynamic spatial reasoning capability, while maintaining accuracy on general video understanding benchmarks.",
+            "upvotes": 40,
+            "discussionId": "694b766b746a34b55dd53ded",
+            "githubRepo": "https://github.com/TencentARC/DSR_Suite",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "DSR Suite enhances vision-language models with dynamic spatial reasoning through automated data generation and a geometry selection module that integrates geometric priors.",
+            "ai_keywords": [
+                "vision-language models",
+                "dynamic spatial reasoning",
+                "4D-aware training",
+                "automated pipeline",
+                "multiple-choice question-answer pairs",
+                "vision foundation models",
+                "camera poses",
+                "local point clouds",
+                "object masks",
+                "orientations",
+                "3D trajectories",
+                "DSR-Train",
+                "DSR-Bench",
+                "Geometry Selection Module",
+                "geometry tokens",
+                "Qwen2.5-VL-7B",
+                "video understanding benchmarks"
+            ],
+            "githubStars": 24,
+            "organization": {
+                "_id": "67ea9ecfc234715db8dbf339",
+                "name": "hkuhk",
+                "fullname": "The University of Hong Kong",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67ea9e8d2d95c10a0da11b0c/FNnR4M7YqKRuG43N5771B.png"
+            }
+        },
+        "translation_title": "4D에서의 추론 학습: 비전 언어 모델을 위한 동적 공간 이해",
+        "purpose": "비전 언어 모델의 동적 공간 추론 능력을 개선하기 위한 데이터셋과 평가 기준 개발",
+        "method": [
+            "DSR Suite라는 새 데이터셋을 도입하여 동적 공간 추론을 위한 질의-응답 쌍을 생성하는 자동화된 파이프라인을 제안함(we introduce DSR Suite. First, we propose an automated pipeline that generates multiple-choice question-answer pairs from in-the-wild videos for DSR.)",
+            "현대 비전 기반 모델을 활용해 카메라 위치, 지역 포인트 클라우드 등 다양한 기하학적 정보를 추출함(By leveraging modern vision foundation models, the pipeline extracts rich geometric and motion information, including camera poses, local point clouds...)",
+            "경량의 Geometry Selection Module(GSM)를 통해 비전 언어 모델에 기하학적 사전 지식을 통합하는 방법을 제안함(Beyond data, we propose a lightweight Geometry Selection Module (GSM) to seamlessly integrate geometric priors into VLMs.)"
+        ],
+        "conclusion": "DSR-Train과 GSM을 Qwen2.5-VL-7B에 통합함으로써 동적 공간 추론 능력이 크게 향상되었고, 일반 비디오 이해 기준에서의 정확도도 유지됨.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.16093",
+            "authors": [
+                {
+                    "_id": "6944be16fbf17e708e186002",
+                    "name": "Jintao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186003",
+                    "name": "Kaiwen Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186004",
+                    "name": "Kai Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186005",
+                    "name": "Haoxu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186006",
+                    "name": "Ion Stoica",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186007",
+                    "name": "Joseph E. Gonzalez",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186008",
+                    "name": "Jianfei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6944be16fbf17e708e186009",
+                    "name": "Jun Zhu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66c0a08bac74db25de8427ec/-RjP9vMsFF9ejLei8FwOh.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/66c0a08bac74db25de8427ec/OvRYA9op0fUwGSuuoHIO1.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/66c0a08bac74db25de8427ec/0JdwlvuPuNKQepAUD2cYM.png"
+            ],
+            "publishedAt": "2025-12-18T02:21:30.000Z",
+            "submittedOnDailyAt": "2025-12-25T00:44:44.469Z",
+            "title": "TurboDiffusion: Accelerating Video Diffusion Models by 100-200 Times",
+            "submittedOnDailyBy": {
+                "_id": "66c0a08bac74db25de8427ec",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c0a08bac74db25de8427ec/9D-piDBZqSt6KNkHImmkv.jpeg",
+                "isPro": false,
+                "fullname": "Jintao Zhang",
+                "user": "jt-zhang",
+                "type": "user"
+            },
+            "summary": "We introduce TurboDiffusion, a video generation acceleration framework that can speed up end-to-end diffusion generation by 100-200x while maintaining video quality. TurboDiffusion mainly relies on several components for acceleration: (1) Attention acceleration: TurboDiffusion uses low-bit SageAttention and trainable Sparse-Linear Attention (SLA) to speed up attention computation. (2) Step distillation: TurboDiffusion adopts rCM for efficient step distillation. (3) W8A8 quantization: TurboDiffusion quantizes model parameters and activations to 8 bits to accelerate linear layers and compress the model. In addition, TurboDiffusion incorporates several other engineering optimizations.\n  We conduct experiments on the Wan2.2-I2V-14B-720P, Wan2.1-T2V-1.3B-480P, Wan2.1-T2V-14B-720P, and Wan2.1-T2V-14B-480P models. Experimental results show that TurboDiffusion achieves 100-200x speedup for video generation even on a single RTX 5090 GPU, while maintaining comparable video quality. The GitHub repository, which includes model checkpoints and easy-to-use code, is available at https://github.com/thu-ml/TurboDiffusion.",
+            "upvotes": 39,
+            "discussionId": "6944be16fbf17e708e18600a",
+            "projectPage": "https://github.com/thu-ml/TurboDiffusion",
+            "githubRepo": "https://github.com/thu-ml/TurboDiffusion",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "TurboDiffusion accelerates video generation by 100-200x using attention acceleration, step distillation, and quantization, while maintaining video quality.",
+            "ai_keywords": [
+                "SageAttention",
+                "Sparse-Linear Attention",
+                "rCM",
+                "W8A8 quantization",
+                "diffusion generation",
+                "video generation",
+                "RTX 5090 GPU"
+            ],
+            "githubStars": 1905,
+            "organization": {
+                "_id": "66b1baeff10262fc4fa61961",
+                "name": "UCBerkeley",
+                "fullname": "University of California, Berkeley",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f425c3a096536aeab42dea/bxNKEkprdm5JI1wkjmNAL.png"
+            }
+        },
+        "translation_title": "TurboDiffusion: 비디오 확산 모델을 100-200배 가속화하기 위한 프레임워크",
+        "purpose": "비디오 생성 과정을 100-200배 빠르게 하면서 동영상 품질을 유지하기 위한 방법 연구",
+        "method": [
+            "Attention 계산 속도를 높이기 위해 저비트 SageAttention과 학습 가능한 Sparse-Linear Attention(SLA)을 사용함(TurboDiffusion uses low-bit SageAttention and trainable Sparse-Linear Attention (SLA) to speed up attention computation.)",
+            "효율적인 단계 증류를 위해 rCM을 채택함(TurboDiffusion adopts rCM for efficient step distillation.)",
+            "모델 매개변수와 활성화를 8비트로 양자화하여 선형 계층을 가속화하고 모델 압축을 수행함(TurboDiffusion quantizes model parameters and activations to 8 bits to accelerate linear layers and compress the model.)"
+        ],
+        "conclusion": "TurboDiffusion은 단일 RTX 5090 GPU에서도 비디오 생성 시 100-200배의 속도 향상을 달성하면서 비슷한 동영상 품질을 유지함.",
+        "keywords": [
+            "Video Generation",
+            "Computer Vision",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.21094",
+            "authors": [
+                {
+                    "_id": "694ca45e746a34b55dd542de",
+                    "name": "Zhe Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542df",
+                    "name": "Tao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e0",
+                    "name": "Jiaming Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e1",
+                    "name": "Yanghai Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e2",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e3",
+                    "name": "Jialu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e4",
+                    "name": "Miao Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e5",
+                    "name": "Jiahao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e6",
+                    "name": "Yubin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e7",
+                    "name": "Chenxi Liao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e8",
+                    "name": "Yize Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542e9",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca45e746a34b55dd542ea",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-24T10:30:35.000Z",
+            "submittedOnDailyAt": "2025-12-25T00:12:49.258Z",
+            "title": "T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "65377c30e48353201e6fdda0",
+                "avatarUrl": "/avatars/a8f803b6f2e598eaee9c52c0d2ddfc16.svg",
+                "isPro": false,
+                "fullname": "Jiaheng Liu",
+                "user": "CheeryLJH",
+                "type": "user"
+            },
+            "summary": "Text-to-Audio-Video (T2AV) generation aims to synthesize temporally coherent video and semantically synchronized audio from natural language, yet its evaluation remains fragmented, often relying on unimodal metrics or narrowly scoped benchmarks that fail to capture cross-modal alignment, instruction following, and perceptual realism under complex prompts. To address this limitation, we present T2AV-Compass, a unified benchmark for comprehensive evaluation of T2AV systems, consisting of 500 diverse and complex prompts constructed via a taxonomy-driven pipeline to ensure semantic richness and physical plausibility. Besides, T2AV-Compass introduces a dual-level evaluation framework that integrates objective signal-level metrics for video quality, audio quality, and cross-modal alignment with a subjective MLLM-as-a-Judge protocol for instruction following and realism assessment. Extensive evaluation of 11 representative T2AVsystems reveals that even the strongest models fall substantially short of human-level realism and cross-modal consistency, with persistent failures in audio realism, fine-grained synchronization, instruction following, etc. These results indicate significant improvement room for future models and highlight the value of T2AV-Compass as a challenging and diagnostic testbed for advancing text-to-audio-video generation.",
+            "upvotes": 22,
+            "discussionId": "694ca45e746a34b55dd542eb",
+            "projectPage": "https://nju-link.github.io/T2AV-Compass/",
+            "githubRepo": "https://github.com/NJU-LINK/T2AV-Compass/",
+            "githubRepoAddedBy": "user",
+            "githubStars": 5,
+            "organization": {
+                "_id": "68edc767abe005ac1b354573",
+                "name": "NJU-LINK",
+                "fullname": "NJU-LINK Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67f9d060395fb1a0d7e4ae21/O3V4UZjcSGnOivcQqTcXW.png"
+            }
+        },
+        "translation_title": "T2AV-Compass: 텍스트-오디오-비디오 생성의 통합 평가를 향해",
+        "purpose": "텍스트-오디오-비디오 생성 시스템을 포괄적으로 평가하기 위한 모델과 기준 개발",
+        "method": [
+            "500개의 다양한 복합 프롬프트로 구성된 T2AV-Compass 벤치마크를 생성하고, 이는 의미론적 다양성과 물리적 타당성을 보장하기 위해 세분화된 파이프라인을 통해 구성됨(To address this limitation, we present T2AV-Compass, a unified benchmark for comprehensive evaluation of T2AV systems, consisting of 500 diverse and complex prompts constructed via a taxonomy-driven pipeline to ensure semantic richness and physical plausibility.)",
+            "비디오 품질, 오디오 품질, 그리고 크로스 모달 일치를 평가하기 위한 객관적 신호 수준 메트릭과 지시 사항 준수 및 현실성 평가를 위한 주관적 MLLM-as-a-Judge 프로토콜을 통합한 이중 수준 평가 프레임워크 도입(T2AV-Compass introduces a dual-level evaluation framework that integrates objective signal-level metrics for video quality, audio quality, and cross-modal alignment with a subjective MLLM-as-a-Judge protocol for instruction following and realism assessment.)",
+            "11개의 대표적인 T2AV 시스템에 대한 광범위한 평가를 수행하여, 가장 강력한 모델조차도 인간 수준의 현실성과 크로스 모달 일치에는 큰 차이가 있음을 발견함(Extensive evaluation of 11 representative T2AV systems reveals that even the strongest models fall substantially short of human-level realism and cross-modal consistency.)"
+        ],
+        "conclusion": "T2AV-Compass는 텍스트-오디오-비디오 생성의 발전을 위한 중요한 테스트베드로, 향후 모델에 대한 개선 여지가 큼을 강조함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Video Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.21252",
+            "authors": [
+                {
+                    "_id": "694ca90c746a34b55dd542fc",
+                    "name": "Jiawei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd542fd",
+                    "name": "Junqiao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd542fe",
+                    "name": "Jiangfan Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd542ff",
+                    "name": "Gen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54300",
+                    "name": "Siyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54301",
+                    "name": "Zetao Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54302",
+                    "name": "Shanshan Lao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54303",
+                    "name": "Zengde Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54304",
+                    "name": "Jianing Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54305",
+                    "name": "Tingting Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54306",
+                    "name": "Jiayi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54307",
+                    "name": "Yunqiu Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54308",
+                    "name": "Qian He",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ca90c746a34b55dd54309",
+                    "name": "Xinglong Wu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63049b95dae2eb7d083f1bf3/605rnyvIr9b5QeEeARAi1.mp4"
+            ],
+            "publishedAt": "2025-12-24T16:00:15.000Z",
+            "submittedOnDailyAt": "2025-12-25T03:53:01.476Z",
+            "title": "DreaMontage: Arbitrary Frame-Guided One-Shot Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "63049b95dae2eb7d083f1bf3",
+                "avatarUrl": "/avatars/5eaeadc1318724b54ea59873da11275f.svg",
+                "isPro": false,
+                "fullname": "Jiawei Liu",
+                "user": "jwliu-cc",
+                "type": "user"
+            },
+            "summary": "The \"one-shot\" technique represents a distinct and sophisticated aesthetic in filmmaking. However, its practical realization is often hindered by prohibitive costs and complex real-world constraints. Although emerging video generation models offer a virtual alternative, existing approaches typically rely on naive clip concatenation, which frequently fails to maintain visual smoothness and temporal coherence. In this paper, we introduce DreaMontage, a comprehensive framework designed for arbitrary frame-guided generation, capable of synthesizing seamless, expressive, and long-duration one-shot videos from diverse user-provided inputs. To achieve this, we address the challenge through three primary dimensions. (i) We integrate a lightweight intermediate-conditioning mechanism into the DiT architecture. By employing an Adaptive Tuning strategy that effectively leverages base training data, we unlock robust arbitrary-frame control capabilities. (ii) To enhance visual fidelity and cinematic expressiveness, we curate a high-quality dataset and implement a Visual Expression SFT stage. In addressing critical issues such as subject motion rationality and transition smoothness, we apply a Tailored DPO scheme, which significantly improves the success rate and usability of the generated content. (iii) To facilitate the production of extended sequences, we design a Segment-wise Auto-Regressive (SAR) inference strategy that operates in a memory-efficient manner. Extensive experiments demonstrate that our approach achieves visually striking and seamlessly coherent one-shot effects while maintaining computational efficiency, empowering users to transform fragmented visual materials into vivid, cohesive one-shot cinematic experiences.",
+            "upvotes": 21,
+            "discussionId": "694ca90c746a34b55dd5430a",
+            "projectPage": "https://dreamontage.github.io/DreaMontage/",
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "DreaMontage: 임의 프레임 유도 단일 영상 생성",
+        "purpose": "임의 프레임에 기반한 seamless하고 표현력이 풍부한 단일 비디오 생성 방법 연구",
+        "method": [
+            "DiT 아키텍처에 경량 중간 조정 메커니즘을 통합하여 강력한 임의 프레임 제어 기능을 구현함(We integrate a lightweight intermediate-conditioning mechanism into the DiT architecture.)",
+            "고품질 데이터셋을 큐레이션하고 Visual Expression SFT 단계를 적용하여 시각적 충실도와 영화적 표현력을 향상시킴(To enhance visual fidelity and cinematic expressiveness, we curate a high-quality dataset and implement a Visual Expression SFT stage.)",
+            "메모리 효율적으로 작동하는 Segment-wise Auto-Regressive (SAR) 추론 전략을 설계하여 긴 시퀀스 제작을 용이하게 함(To facilitate the production of extended sequences, we design a Segment-wise Auto-Regressive (SAR) inference strategy that operates in a memory-efficient manner.)"
+        ],
+        "conclusion": "우리의 접근 방식은 시각적으로 인상적이고 seamless한 단일 비디오 효과를 달성하며, 사용자가 단편적인 시각 자료를 생생하고 응집력 있는 단일 영화적 경험으로 변환할 수 있도록 합니다.",
+        "keywords": [
+            "Video Generation",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.21337",
+            "authors": [
+                {
+                    "_id": "694ccc03746a34b55dd54372",
+                    "name": "Li-Zhong Szu-Tu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ccc03746a34b55dd54373",
+                    "name": "Ting-Lin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ccc03746a34b55dd54374",
+                    "name": "Chia-Jui Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ccc03746a34b55dd54375",
+                    "name": "He Syu",
+                    "hidden": false
+                },
+                {
+                    "_id": "694ccc03746a34b55dd54376",
+                    "name": "Yu-Lun Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/KzxafmNkf4IHasqHjp3DV.jpeg"
+            ],
+            "publishedAt": "2025-12-24T18:59:54.000Z",
+            "submittedOnDailyAt": "2025-12-25T03:01:52.321Z",
+            "title": "Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6459d5da3b6fafd9664807ab",
+                "avatarUrl": "/avatars/57430d1bbde3a2fe5586e5fbcafb0e74.svg",
+                "isPro": false,
+                "fullname": "Yu-Lun Liu",
+                "user": "yulunliu",
+                "type": "user"
+            },
+            "summary": "We expose a significant popularity bias in state-of-the-art vision-language models (VLMs), which achieve up to 34% higher accuracy on famous buildings compared to ordinary ones, indicating a reliance on memorization over generalizable understanding. To systematically investigate this, we introduce the largest open benchmark for this task: the YearGuessr dataset, a collection of 55,546 building images with multi-modal attributes from 157 countries, annotated with continuous ordinal labels of their construction year (1001-2024), GPS data, and page-view counts as a proxy for popularity. Using this dataset, we frame the construction year prediction task as ordinal regression and introduce popularity-aware interval accuracy metrics to quantify this bias. Our resulting benchmark of 30+ models, including our YearCLIP model, confirms that VLMs excel on popular, memorized items but struggle significantly with unrecognized subjects, exposing a critical flaw in their reasoning capabilities. Project page: https://sytwu.github.io/BeyondMemo/",
+            "upvotes": 17,
+            "discussionId": "694ccc03746a34b55dd54377",
+            "projectPage": "https://sytwu.github.io/BeyondMemo/",
+            "githubRepo": "https://github.com/Sytwu/BeyondMemo",
+            "githubRepoAddedBy": "user",
+            "githubStars": 3
+        },
+        "translation_title": "기억을 넘어서: Vision-Language 모델의 인기 편향을 드러내는 다중 모달 서열 회귀 벤치마크",
+        "purpose": "Vision-Language 모델에서 인기 편향을 드러내고 이를 체계적으로 조사하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "가장 큰 공개 벤치마크인 YearGuessr 데이터셋을 소개하여, 55,546개의 건물 이미지를 수집하고 다양한 속성을 주석 처리함(we introduce the largest open benchmark for this task: the YearGuessr dataset, a collection of 55,546 building images with multi-modal attributes from 157 countries)",
+            "건설 연도 예측 작업을 서열 회귀로 설정하고, 인기 인식 간격 정확도 지표를 도입하여 편향을 정량화함(We frame the construction year prediction task as ordinal regression and introduce popularity-aware interval accuracy metrics to quantify this bias)",
+            "30개 이상의 모델로 구성된 벤치마크를 통해 인기 있는 이미지에서는 성능이 뛰어나지만, 인식되지 않은 주제에서는 성능이 저조하다는 것을 확인함(Our resulting benchmark of 30+ models... confirms that VLMs excel on popular, memorized items but struggle significantly with unrecognized subjects)"
+        ],
+        "conclusion": "이 연구를 통해 Vision-Language 모델의 추론 능력에 중요한 결함이 있음을 드러내었다.",
+        "keywords": [
+            "Vision-Language Models",
+            "Image Understanding",
+            "Ordinal Regression"
+        ]
+    }
+]
