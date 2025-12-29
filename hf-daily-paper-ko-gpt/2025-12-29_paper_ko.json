@@ -1,0 +1,523 @@
+[
+    {
+        "paper": {
+            "id": "2512.17220",
+            "authors": [
+                {
+                    "_id": "69493ea1d2000e944d383ab5",
+                    "name": "Yuqing Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383ab6",
+                    "name": "Jiangnan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383ab7",
+                    "name": "Zheng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383ab8",
+                    "name": "Ziyan Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383ab9",
+                    "name": "Junjie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383aba",
+                    "name": "Weiping Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383abb",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69493ea1d2000e944d383abc",
+                    "name": "Mo Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-19T04:08:29.000Z",
+            "submittedOnDailyAt": "2025-12-29T00:41:08.445Z",
+            "title": "Mindscape-Aware Retrieval Augmented Generation for Improved Long Context Understanding",
+            "submittedOnDailyBy": {
+                "_id": "67af92045a86287292026808",
+                "avatarUrl": "/avatars/8bad9272fe73ba04e077b5484837c8d3.svg",
+                "isPro": false,
+                "fullname": "Mo",
+                "user": "BishopGorov",
+                "type": "user"
+            },
+            "summary": "Humans understand long and complex texts by relying on a holistic semantic representation of the content. This global view helps organize prior knowledge, interpret new information, and integrate evidence dispersed across a document, as revealed by the Mindscape-Aware Capability of humans in psychology. Current Retrieval-Augmented Generation (RAG) systems lack such guidance and therefore struggle with long-context tasks. In this paper, we propose Mindscape-Aware RAG (MiA-RAG), the first approach that equips LLM-based RAG systems with explicit global context awareness. MiA-RAG builds a mindscape through hierarchical summarization and conditions both retrieval and generation on this global semantic representation. This enables the retriever to form enriched query embeddings and the generator to reason over retrieved evidence within a coherent global context. We evaluate MiA-RAG across diverse long-context and bilingual benchmarks for evidence-based understanding and global sense-making. It consistently surpasses baselines, and further analysis shows that it aligns local details with a coherent global representation, enabling more human-like long-context retrieval and reasoning.",
+            "upvotes": 65,
+            "discussionId": "69493ea1d2000e944d383abd",
+            "ai_summary": "MiA-RAG, a Mindscape-Aware Retrieval-Augmented Generation system, enhances LLM-based RAG with global context awareness through hierarchical summarization, improving long-context tasks and evidence-based understanding.",
+            "ai_keywords": [
+                "Mindscape-Aware Capability",
+                "Retrieval-Augmented Generation (RAG)",
+                "MiA-RAG",
+                "LLM-based RAG systems",
+                "hierarchical summarization",
+                "query embeddings",
+                "global semantic representation",
+                "evidence-based understanding",
+                "global sense-making"
+            ],
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "Mindscape-Aware Retrieval Augmented Generation을 통한 개선된 긴 문맥 이해",
+        "purpose": "긴 문맥 이해를 향상시키기 위한 Retrieval-Augmented Generation 시스템의 글로벌 컨텍스트 인식 연구",
+        "method": [
+            "MiA-RAG라는 접근 방식을 제안하고, 이는 LLM 기반 RAG 시스템에 명시적인 글로벌 컨텍스트 인식을 제공함(we propose Mindscape-Aware RAG (MiA-RAG), the first approach that equips LLM-based RAG systems with explicit global context awareness.)",
+            "계층 요약을 통해 Mindscape를 구축하고, 검색 및 생성을 이 글로벌 의미 표현에 맞춰 조건을 설정함(MiA-RAG builds a mindscape through hierarchical summarization and conditions both retrieval and generation on this global semantic representation.)",
+            "MiA-RAG의 성능을 다양한 긴 문맥 및 이중 언어 벤치마크를 통해 평가하고, 일관된 성능을 확인함(We evaluate MiA-RAG across diverse long-context and bilingual benchmarks for evidence-based understanding and global sense-making.)"
+        ],
+        "conclusion": "MiA-RAG는 인과 관계와 글로벌 의미를 더 잘 반영하여 인간과 유사한 긴 문맥 검색 및 추론을 가능하게 함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.17504",
+            "authors": [
+                {
+                    "_id": "694c0ede746a34b55dd53fa2",
+                    "user": {
+                        "_id": "6726857c88f2f9df27225d48",
+                        "avatarUrl": "/avatars/6a4e09d1759f1c2fa241e51ad85f9f00.svg",
+                        "isPro": false,
+                        "fullname": "Hoiyeong Jin",
+                        "user": "myyzzzoooo",
+                        "type": "user"
+                    },
+                    "name": "Hoiyeong Jin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-25T20:44:16.181Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa3",
+                    "user": {
+                        "_id": "669e3d80f433fc42bebe2ff0",
+                        "avatarUrl": "/avatars/2122a3288ca017922a966361aec1fda4.svg",
+                        "isPro": false,
+                        "fullname": "Jang hyojin",
+                        "user": "Whit3Snow",
+                        "type": "user"
+                    },
+                    "name": "Hyojin Jang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-25T20:44:20.849Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa4",
+                    "name": "Jeongho Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa5",
+                    "name": "Junha Hyung",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa6",
+                    "name": "Kinam Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa7",
+                    "name": "Dongjin Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa8",
+                    "name": "Huijin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53fa9",
+                    "name": "Hyeonji Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "694c0ede746a34b55dd53faa",
+                    "name": "Jaegul Choo",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6726857c88f2f9df27225d48/ZFmCv5gVUK7FY4ivZnTJY.mp4"
+            ],
+            "publishedAt": "2025-12-19T12:14:36.000Z",
+            "submittedOnDailyAt": "2025-12-29T00:07:19.171Z",
+            "title": "InsertAnywhere: Bridging 4D Scene Geometry and Diffusion Models for Realistic Video Object Insertion",
+            "submittedOnDailyBy": {
+                "_id": "6726857c88f2f9df27225d48",
+                "avatarUrl": "/avatars/6a4e09d1759f1c2fa241e51ad85f9f00.svg",
+                "isPro": false,
+                "fullname": "Hoiyeong Jin",
+                "user": "myyzzzoooo",
+                "type": "user"
+            },
+            "summary": "Recent advances in diffusion-based video generation have opened new possibilities for controllable video editing, yet realistic video object insertion (VOI) remains challenging due to limited 4D scene understanding and inadequate handling of occlusion and lighting effects. We present InsertAnywhere, a new VOI framework that achieves geometrically consistent object placement and appearance-faithful video synthesis. Our method begins with a 4D aware mask generation module that reconstructs the scene geometry and propagates user specified object placement across frames while maintaining temporal coherence and occlusion consistency. Building upon this spatial foundation, we extend a diffusion based video generation model to jointly synthesize the inserted object and its surrounding local variations such as illumination and shading. To enable supervised training, we introduce ROSE++, an illumination aware synthetic dataset constructed by transforming the ROSE object removal dataset into triplets of object removed video, object present video, and a VLM generated reference image. Through extensive experiments, we demonstrate that our framework produces geometrically plausible and visually coherent object insertions across diverse real world scenarios, significantly outperforming existing research and commercial models.",
+            "upvotes": 62,
+            "discussionId": "694c0ede746a34b55dd53fab",
+            "projectPage": "https://myyzzzoooo.github.io/InsertAnywhere/",
+            "githubRepo": "https://github.com/myyzzzoooo/InsertAnywhere",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "InsertAnywhere framework enhances video object insertion by generating geometrically consistent and visually coherent scenarios through 4D aware mask generation and diffusion-based synthesis.",
+            "ai_keywords": [
+                "diffusion-based video generation",
+                "realistic video object insertion",
+                "4D scene understanding",
+                "occlusion effects",
+                "geometrically consistent object placement",
+                "appearance-faithful video synthesis",
+                "4D aware mask generation",
+                "diffusion based video generation model",
+                "ROSE++",
+                "illumination aware synthetic dataset",
+                "object removal dataset",
+                "VLM generated reference image",
+                "geometrically plausible",
+                "visually coherent object insertions"
+            ],
+            "githubStars": 16,
+            "organization": {
+                "_id": "6475760c33192631bad2bb38",
+                "name": "kaist-ai",
+                "fullname": "KAIST AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6469949654873f0043b09c22/aaZFiyXe1qR-Dmy_xq67m.png"
+            }
+        },
+        "translation_title": "InsertAnywhere: 4D 장면 기하학과 확산 모델을 연결하여 사실적 비디오 객체 삽입하기",
+        "purpose": "사실적 비디오 객체 삽입(VOI)의 정확도를 높이고, 장면 이해와 폐색 및 조명 효과를 개선하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "4D 인식 마스크 생성 모듈을 사용해 장면 기하학을 재구성하고 사용자 지정 객체 배치를 프레임 간에 지속적으로 유지함(Our method begins with a 4D aware mask generation module that reconstructs the scene geometry and propagates user specified object placement across frames while maintaining temporal coherence and occlusion consistency.)",
+            "확산 기반 비디오 생성 모델을 확장하여 삽입된 객체와 주변 변화(조명 및 음영)를 동시 합성함(Building upon this spatial foundation, we extend a diffusion based video generation model to jointly synthesize the inserted object and its surrounding local variations such as illumination and shading.)",
+            "조명 인식 합성 데이터셋 ROSE++를 도입해 감독 학습 가능하도록 설정함(To enable supervised training, we introduce ROSE++, an illumination aware synthetic dataset constructed by transforming the ROSE object removal dataset into triplets of object removed video, object present video, and a VLM generated reference image.)"
+        ],
+        "conclusion": "우리의 프레임워크는 다양한 실제 시나리오에서 기하학적으로 그럴듯하고 시각적으로 일관된 객체 삽입을 생성하며, 기존 연구 및 상업 모델을 훨씬 능가하는 성능을 보여줌.",
+        "keywords": [
+            "Video Generation",
+            "Image Understanding",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.21675",
+            "authors": [
+                {
+                    "_id": "6951e354746a34b55dd5487a",
+                    "name": "Shuo Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd5487b",
+                    "name": "Jiayang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd5487c",
+                    "name": "Xiaohui Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd5487d",
+                    "user": {
+                        "_id": "625d5b9f0bec31f086e04cd9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+                        "isPro": false,
+                        "fullname": "YuandongPu",
+                        "user": "Andrew613",
+                        "type": "user"
+                    },
+                    "name": "Yuandong Pu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-29T14:23:05.871Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd5487e",
+                    "name": "Kaiwen Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd5487f",
+                    "name": "Yuanting Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54880",
+                    "name": "Siqi Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54881",
+                    "name": "Yi Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54882",
+                    "name": "Qi Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54883",
+                    "name": "Yu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54884",
+                    "name": "Xiangyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54885",
+                    "name": "Wenlong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54886",
+                    "name": "Bin Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54887",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e354746a34b55dd54888",
+                    "name": "Yihao Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-25T13:35:52.000Z",
+            "submittedOnDailyAt": "2025-12-29T00:40:27.598Z",
+            "title": "UniPercept: Towards Unified Perceptual-Level Image Understanding across Aesthetics, Quality, Structure, and Texture",
+            "submittedOnDailyBy": {
+                "_id": "625d5b9f0bec31f086e04cd9",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650285458447-noauth.jpeg",
+                "isPro": false,
+                "fullname": "YuandongPu",
+                "user": "Andrew613",
+                "type": "user"
+            },
+            "summary": "Multimodal large language models (MLLMs) have achieved remarkable progress in visual understanding tasks such as visual grounding, segmentation, and captioning. However, their ability to perceive perceptual-level image features remains limited. In this work, we present UniPercept-Bench, a unified framework for perceptual-level image understanding across three key domains: Aesthetics, Quality, Structure and Texture. We establish a hierarchical definition system and construct large-scale datasets to evaluate perceptual-level image understanding. Based on this foundation, we develop a strong baseline UniPercept trained via Domain-Adaptive Pre-Training and Task-Aligned RL, enabling robust generalization across both Visual Rating (VR) and Visual Question Answering (VQA) tasks. UniPercept outperforms existing MLLMs on perceptual-level image understanding and can serve as a plug-and-play reward model for text-to-image generation. This work defines Perceptual-Level Image Understanding in the era of MLLMs and, through the introduction of a comprehensive benchmark together with a strong baseline, provides a solid foundation for advancing perceptual-level multimodal image understanding.",
+            "upvotes": 18,
+            "discussionId": "6951e354746a34b55dd54889",
+            "projectPage": "https://thunderbolt215.github.io/Unipercept-project/",
+            "githubRepo": "https://github.com/thunderbolt215/UniPercept",
+            "githubRepoAddedBy": "user",
+            "githubStars": 21
+        },
+        "translation_title": "UniPercept: 미적, 품질, 구조 및 질감 측면에서 통합적 감각 수준 이미지 이해를 향한 연구",
+        "purpose": "MLLMs가 감각 수준의 이미지 특징을 인식하는 능력을 개선하기 위한 통합적인 평가 체계를 연구",
+        "method": [
+            "감각 수준의 이미지 이해를 위한 UniPercept-Bench라는 통합 프레임워크를 제안함(In this work, we present UniPercept-Bench, a unified framework for perceptual-level image understanding across three key domains: Aesthetics, Quality, Structure and Texture.)",
+            "계층적 정의 시스템을 구축하고 대규모 데이터 세트를 통해 감각 수준의 이미지 이해를 평가함(We establish a hierarchical definition system and construct large-scale datasets to evaluate perceptual-level image understanding.)",
+            "도메인 적응형 사전 훈련 및 작업 정렬 강화 학습(Task-Aligned RL)을 통해 강력한 기준 모델 UniPercept를 개발함(Based on this foundation, we develop a strong baseline UniPercept trained via Domain-Adaptive Pre-Training and Task-Aligned RL.)"
+        ],
+        "conclusion": "UniPercept는 감각 수준의 이미지 이해에서 기존 MLLMs를 초월하며, text-to-image 생성에 적합한 보상 모델로 활용될 수 있음.",
+        "keywords": [
+            "Image Understanding",
+            "Multimodal Learning",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22047",
+            "authors": [
+                {
+                    "_id": "6951e7d4746a34b55dd548a7",
+                    "name": "Hanzhang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548a8",
+                    "name": "Xu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548a9",
+                    "name": "Panrong Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548aa",
+                    "name": "Jianan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548ab",
+                    "name": "Liangyu Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548ac",
+                    "name": "Quyu Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548ad",
+                    "name": "Chenglin Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548ae",
+                    "name": "Chen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548af",
+                    "name": "Yue Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548b0",
+                    "name": "Jingren Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e7d4746a34b55dd548b1",
+                    "name": "Steven Hoi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-26T14:51:52.000Z",
+            "submittedOnDailyAt": "2025-12-29T00:01:11.405Z",
+            "title": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "The development of GUI agents could revolutionize the next generation of human-computer interaction. Motivated by this vision, we present MAI-UI, a family of foundation GUI agents spanning the full spectrum of sizes, including 2B, 8B, 32B, and 235B-A22B variants. We identify four key challenges to realistic deployment: the lack of native agent-user interaction, the limits of UI-only operation, the absence of a practical deployment architecture, and brittleness in dynamic environments. MAI-UI addresses these issues with a unified methodology: a self-evolving data pipeline that expands the navigation data to include user interaction and MCP tool calls, a native device-cloud collaboration system routes execution by task state, and an online RL framework with advanced optimizations to scale parallel environments and context length. MAI-UI establishes new state-of-the-art across GUI grounding and mobile navigation. On grounding benchmarks, it reaches 73.5% on ScreenSpot-Pro, 91.3% on MMBench GUI L2, 70.9% on OSWorld-G, and 49.2% on UI-Vision, surpassing Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro. On mobile GUI navigation, it sets a new SOTA of 76.7% on AndroidWorld, surpassing UI-Tars-2, Gemini-2.5-Pro and Seed1.8. On MobileWorld, MAI-UI obtains 41.7% success rate, significantly outperforming end-to-end GUI models and competitive with Gemini-3-Pro based agentic frameworks. Our online RL experiments show significant gains from scaling parallel environments from 32 to 512 (+5.2 points) and increasing environment step budget from 15 to 50 (+4.3 points). Finally, the native device-cloud collaboration system improves on-device performance by 33%, reduces cloud model calls by over 40%, and preserves user privacy.",
+            "upvotes": 17,
+            "discussionId": "6951e7d4746a34b55dd548b2",
+            "organization": {
+                "_id": "67d15cca6e2cf0e062dbfb54",
+                "name": "AlibabaTongyiLab",
+                "fullname": "TongyiLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d1502bfabfe9974d1f77bb/XdUSVf6HqBzE7zFBfSDQP.png"
+            }
+        },
+        "translation_title": "MAI-UI 기술 보고서: 현실 중심의 기반 GUI 에이전트",
+        "purpose": "GUI 에이전트를 현실-world에서 효율적으로 배포하고 사용자와의 상호 작용을 개선하기 위한 연구",
+        "method": [
+            "자체 진화하는 데이터 파이프라인을 구축하여 사용자 상호 작용과 MCP 툴 호출을 포함한 탐색 데이터를 확장함(The lack of native agent-user interaction, the limits of UI-only operation, the absence of a practical deployment architecture, and brittleness in dynamic environments.).",
+            "작업 상태에 따라 실행을 라우팅하는 네이티브 장치-클라우드 협업 시스템을 구현함(a native device-cloud collaboration system routes execution by task state).",
+            "온라인 RL 프레임워크를 도입하여 병렬 환경과 컨텍스트 길이를 확장하는 고급 최적화를 수행함(an online RL framework with advanced optimizations to scale parallel environments and context length)."
+        ],
+        "conclusion": "MAI-UI는 GUI grounding과 모바일 탐색에서 새로운 SOTA를 설정하며, 사용자 개인 정보를 보호하면서 성능을 크게 향상시킴.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22118",
+            "authors": [
+                {
+                    "_id": "6951e89b746a34b55dd548bd",
+                    "name": "Zhi Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548be",
+                    "user": {
+                        "_id": "67e60ae6ac37824273d74389",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/YvPKZ_0gyJnvNwM1zK3JS.png",
+                        "isPro": false,
+                        "fullname": "Dian Zheng",
+                        "user": "zhengli1013",
+                        "type": "user"
+                    },
+                    "name": "Dian Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2025-12-29T14:23:01.346Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548bf",
+                    "name": "Xiao-Ming Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548c0",
+                    "name": "Jian-Jian Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548c1",
+                    "name": "Kun-Yu Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548c2",
+                    "name": "Jingke Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6951e89b746a34b55dd548c3",
+                    "name": "Wei-Shi Zheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-26T18:59:14.000Z",
+            "submittedOnDailyAt": "2025-12-29T00:07:11.474Z",
+            "title": "ProEdit: Inversion-based Editing From Prompts Done Right",
+            "submittedOnDailyBy": {
+                "_id": "67e60ae6ac37824273d74389",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/YvPKZ_0gyJnvNwM1zK3JS.png",
+                "isPro": false,
+                "fullname": "Dian Zheng",
+                "user": "zhengli1013",
+                "type": "user"
+            },
+            "summary": "Inversion-based visual editing provides an effective and training-free way to edit an image or a video based on user instructions. Existing methods typically inject source image information during the sampling process to maintain editing consistency. However, this sampling strategy overly relies on source information, which negatively affects the edits in the target image (e.g., failing to change the subject's atributes like pose, number, or color as instructed). In this work, we propose ProEdit to address this issue both in the attention and the latent aspects. In the attention aspect, we introduce KV-mix, which mixes KV features of the source and the target in the edited region, mitigating the influence of the source image on the editing region while maintaining background consistency. In the latent aspect, we propose Latents-Shift, which perturbs the edited region of the source latent, eliminating the influence of the inverted latent on the sampling. Extensive experiments on several image and video editing benchmarks demonstrate that our method achieves SOTA performance. In addition, our design is plug-and-play, which can be seamlessly integrated into existing inversion and editing methods, such as RF-Solver, FireFlow and UniEdit.",
+            "upvotes": 11,
+            "discussionId": "6951e89b746a34b55dd548c4",
+            "projectPage": "https://isee-laboratory.github.io/ProEdit/",
+            "githubRepo": "https://github.com/iSEE-Laboratory/ProEdit",
+            "githubRepoAddedBy": "user",
+            "githubStars": 16
+        },
+        "translation_title": "ProEdit: 프롬프트 기반의 정확한 변환 편집",
+        "purpose": "사용자의 지시사항에 따라 이미지나 비디오를 효과적으로 수정하기 위한 새로운 편집 방법 개발",
+        "method": [
+            "KV-mix 기법을 도입하여 수정된 영역에서 소스와 타겟의 KV 피처를 혼합함으로써 배경의 일관성을 유지하며 소스 이미지의 영향을 줄임(In the attention aspect, we introduce KV-mix, which mixes KV features of the source and the target in the edited region, mitigating the influence of the source image on the editing region while maintaining background consistency.)",
+            "Latents-Shift 기법을 통해 수정된 영역의 소스 잠재값을 변형하여 샘플링에서 역변환 잠재값의 영향을 제거함(In the latent aspect, we propose Latents-Shift, which perturbs the edited region of the source latent, eliminating the influence of the inverted latent on the sampling.)"
+        ],
+        "conclusion": "ProEdit는 기존의 이미지 및 비디오 편집 방법에 비해 SOTA 성능을 달성하며, 기존의 편집 방법에 쉽게 통합될 수 있습니다.",
+        "keywords": [
+            "Image Generation",
+            "Video Generation",
+            "Image Segmentation"
+        ]
+    }
+]
