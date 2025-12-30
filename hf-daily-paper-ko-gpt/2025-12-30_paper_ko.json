@@ -1,0 +1,479 @@
+[
+    {
+        "paper": {
+            "id": "2512.23447",
+            "authors": [
+                {
+                    "_id": "69534a9589916ff627aa3f5c",
+                    "name": "Ang Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534a9589916ff627aa3f5d",
+                    "name": "Jin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534a9589916ff627aa3f5e",
+                    "name": "Yiyuan Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534a9589916ff627aa3f5f",
+                    "name": "Siyuan Qiao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-29T13:03:18.000Z",
+            "submittedOnDailyAt": "2025-12-30T01:18:40.635Z",
+            "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+            "submittedOnDailyBy": {
+                "_id": "64b8ca3c5067873176d4b436",
+                "avatarUrl": "/avatars/b659d147b2454b47c9a7e89bbed525fc.svg",
+                "isPro": false,
+                "fullname": "AngLv",
+                "user": "AngLv",
+                "type": "user"
+            },
+            "summary": "Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities. Our approach treats each expert's router embedding as a proxy token for the tokens assigned to that expert, and feeds perturbed router embeddings through the experts to obtain internal activations. The ERC loss enforces two constraints on these activations: (1) Each expert must exhibit higher activation for its own proxy token than for the proxy tokens of any other expert. (2) Each proxy token must elicit stronger activation from its corresponding expert than from any other expert. These constraints jointly ensure that each router embedding faithfully represents its corresponding expert's capability, while each expert specializes in processing the tokens actually routed to it. The ERC loss is computationally efficient, operating only on n^2 activations, where n is the number of experts. This represents a fixed cost independent of batch size, unlike prior coupling methods that scale with the number of tokens (often millions per batch). Through pre-training MoE-LLMs ranging from 3B to 15B parameters and extensive analysis on trillions of tokens, we demonstrate the effectiveness of the ERC loss. Moreover, the ERC loss offers flexible control and quantitative tracking of expert specialization levels during training, providing valuable insights into MoEs.",
+            "upvotes": 66,
+            "discussionId": "69534a9589916ff627aa3f60",
+            "ai_summary": "An expert-router coupling (ERC) loss aligns router decisions with expert capabilities in Mixture-of-Experts (MoE) models by enforcing constraints on internal activations, improving performance and computational efficiency.",
+            "ai_keywords": [
+                "Mixture-of-Experts (MoE)",
+                "expert-router coupling (ERC) loss",
+                "router embeddings",
+                "proxy tokens",
+                "internal activations",
+                "MoE-LLMs",
+                "expert specialization levels",
+                "n² activations"
+            ],
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "보조 손실을 통한 전문가와 라우터의 결합",
+        "purpose": "라우터의 결정이 전문가의 능력과 잘 맞아떨어지도록 하기 위한 연구",
+        "method": [
+            "전문가-라우터 결합(ERC) 손실을 제안함으로써 라우터 결정을 전문가의 능력과 밀접하게 연결함(To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities.)",
+            "각 전문가의 라우터 임베딩을 해당 전문가에 할당된 토큰의 프록시 토큰으로 간주하고, 이를 통해 내부 활성화를 얻도록 함(Our approach treats each expert's router embedding as a proxy token for the tokens assigned to that expert, and feeds perturbed router embeddings through the experts to obtain internal activations.)",
+            "ERC 손실은 각 전문가가 자신의 프록시 토큰에 대해 더 높은 활성화를 보여줄 수 있도록 제한하며(1) Each expert must exhibit higher activation for its own proxy token than for the proxy tokens of any other expert.",
+            "각 프록시 토큰이 해당 전문가로부터 더 강한 활성화를 이끌어내도록 요구함(2) Each proxy token must elicit stronger activation from its corresponding expert than from any other expert.)"
+        ],
+        "conclusion": "ERC 손실은 MoE 모델의 성능을 향상시키며, 훈련 중 전문가의 전문화 수준을 유연하게 조절하고 정량적으로 추적할 수 있게 해 줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.23576",
+            "authors": [
+                {
+                    "_id": "69534f1e89916ff627aa3fe3",
+                    "name": "Ethan Chern",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe4",
+                    "name": "Zhulin Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe5",
+                    "name": "Bohao Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe6",
+                    "name": "Jiadi Su",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe7",
+                    "name": "Steffi Chern",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe8",
+                    "name": "Zhijie Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69534f1e89916ff627aa3fe9",
+                    "name": "Pengfei Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64bb5f9d8e051085bace4d1e/skNa_3Ly0Bg7F6aL0mk92.mp4"
+            ],
+            "publishedAt": "2025-12-29T16:17:36.000Z",
+            "submittedOnDailyAt": "2025-12-30T02:36:23.479Z",
+            "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+            "submittedOnDailyBy": {
+                "_id": "64bb5f9d8e051085bace4d1e",
+                "avatarUrl": "/avatars/15ccbb78c6131dfe46b7a9d8e7d1a31f.svg",
+                "isPro": false,
+                "fullname": "Ethan Chern",
+                "user": "ethanchern",
+                "type": "user"
+            },
+            "summary": "Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing distillation methods can make the model autoregressive and reduce sampling steps to mitigate this, they focus primarily on text-to-video generation, leaving the human-AI interaction unnatural and less efficient. This paper targets real-time interactive video diffusion conditioned on a multimodal context, including text, image, and audio, to bridge the gap. Given the observation that the leading on-policy distillation approach Self Forcing encounters challenges (visual artifacts like flickering, black frames, and quality degradation) with multimodal conditioning, we investigate an improved distillation recipe with emphasis on the quality of condition inputs as well as the initialization and schedule for the on-policy optimization. On benchmarks for multimodal-conditioned (audio, image, and text) avatar video generation including HDTF, AVSpeech, and CelebV-HQ, our distilled model matches the visual quality of the full-step, bidirectional baselines of similar or larger size with 20x less inference cost and latency. Further, we integrate our model with audio language models and long-form video inference technique Anchor-Heavy Identity Sinks to build LiveTalk, a real-time multimodal interactive avatar system. System-level evaluation on our curated multi-turn interaction benchmark shows LiveTalk outperforms state-of-the-art models (Sora2, Veo3) in multi-turn video coherence and content quality, while reducing response latency from 1 to 2 minutes to real-time generation, enabling seamless human-AI multimodal interaction.",
+            "upvotes": 47,
+            "discussionId": "69534f1e89916ff627aa3fea",
+            "githubRepo": "https://github.com/GAIR-NLP/LiveTalk",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Real-time multimodal video generation via diffusion is enabled by an improved distillation approach with multimodal conditioning and optimized scheduling, reducing inference latency while maintaining quality for interactive systems.",
+            "ai_keywords": [
+                "diffusion models",
+                "bidirectional attention",
+                "distillation methods",
+                "on-policy distillation",
+                "Self Forcing",
+                "audio language models",
+                "Anchor-Heavy Identity Sinks",
+                "multimodal conditioning",
+                "autoregressive",
+                "on-policy optimization"
+            ],
+            "githubStars": 50
+        },
+        "translation_title": "LiveTalk: 개선된 On-Policy Distillation을 통한 실시간 멀티모달 인터랙티브 비디오 확산",
+        "purpose": "멀티모달 상호작용 AI 시스템을 위한 실시간 비디오 생성 기술 개선",
+        "method": [
+            "비디오 프레임의 동시에 노이즈 제거하는 기존 방법의 한계를 극복하기 위해 멀티모달 맥락을 기반으로 하는 실시간 비디오 확산에 집중함(However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction.)",
+            "Quality 개선을 위해 조건 입력의 품질, 최적화 초기화 및 일정을 강조한 개선된 증류 레시피를 연구함(we investigate an improved distillation recipe with emphasis on the quality of condition inputs as well as the initialization and schedule for the on-policy optimization.)",
+            "우리의 증류 모델은 기존 모델들에 비해 훨씬 적은 모델 비용으로 시각적 품질을 유지함(on benchmarks for multimodal-conditioned avatar video generation including HDTF, AVSpeech, and CelebV-HQ, our distilled model matches the visual quality of the full-step, bidirectional baselines of similar or larger size with 20x less inference cost and latency.)"
+        ],
+        "conclusion": "LiveTalk는 실시간 멀티모달 인터랙션에서 최첨단 모델보다 우수한 성능을 보이며, 응답 지연 시간을 1-2분에서 실시간으로 줄임.",
+        "keywords": [
+            "Video Generation",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22096",
+            "authors": [
+                {
+                    "_id": "695206a8746a34b55dd548dd",
+                    "name": "Xiaofeng Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548de",
+                    "name": "Zhen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548df",
+                    "name": "Chuanhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e0",
+                    "name": "Xiaojie Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e1",
+                    "name": "Kaining Ying",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e2",
+                    "name": "Tong He",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e3",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e4",
+                    "name": "Yu Qiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "695206a8746a34b55dd548e5",
+                    "name": "Kaipeng Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/65f1713552c38a91e0a445e8/NMttpBTOZdYJorkqyoD67.mp4"
+            ],
+            "publishedAt": "2025-12-26T17:52:49.000Z",
+            "submittedOnDailyAt": "2025-12-30T01:50:23.447Z",
+            "title": "Yume-1.5: A Text-Controlled Interactive World Generation Model",
+            "submittedOnDailyBy": {
+                "_id": "65f1713552c38a91e0a445e8",
+                "avatarUrl": "/avatars/47ab3ada51c9b9976ac1cd0c4301c373.svg",
+                "isPro": false,
+                "fullname": "kaipeng",
+                "user": "kpzhang996",
+                "type": "user"
+            },
+            "summary": "Recent approaches have demonstrated the promise of using diffusion models to generate interactive and explorable worlds. However, most of these methods face critical challenges such as excessively large parameter sizes, reliance on lengthy inference steps, and rapidly growing historical context, which severely limit real-time performance and lack text-controlled generation capabilities. To address these challenges, we propose \\method, a novel framework designed to generate realistic, interactive, and continuous worlds from a single image or text prompt. \\method achieves this through a carefully designed framework that supports keyboard-based exploration of the generated worlds. The framework comprises three core components: (1) a long-video generation framework integrating unified context compression with linear attention; (2) a real-time streaming acceleration strategy powered by bidirectional attention distillation and an enhanced text embedding scheme; (3) a text-controlled method for generating world events. We have provided the codebase in the supplementary material.",
+            "upvotes": 47,
+            "discussionId": "695206a8746a34b55dd548e6",
+            "projectPage": "https://stdstu12.github.io/YUME-Project/",
+            "githubRepo": "https://github.com/stdstu12/YUME",
+            "githubRepoAddedBy": "user",
+            "githubStars": 415
+        },
+        "translation_title": "Yume-1.5: 텍스트 기반 인터랙티브 세계 생성 모델",
+        "purpose": "하나의 이미지 또는 텍스트 프롬프트로부터 현실적이고 인터랙티브하며 지속적인 세계를 생성하기 위한 새로운 방법론 개발",
+        "method": [
+            "통합된 컨텍스트 압축과 선형 어텐션을 통합한 장기 비디오 생성 프레임워크를 설계함(To address these challenges, we propose a novel framework designed to generate realistic, interactive, and continuous worlds from a single image or text prompt.)",
+            "양방향 어텐션 증류와 향상된 텍스트 임베딩 방안을 통해 실시간 스트리밍 가속 전략을 구현함(We achieve this through a carefully designed framework that supports keyboard-based exploration of the generated worlds.)",
+            "세계 이벤트 생성을 위한 텍스트 제어 방법을 개발함(The framework comprises three core components: a text-controlled method for generating world events.)"
+        ],
+        "conclusion": "제안된 방법론을 통해 사용자에게 현실적이고 탐험 가능한 세계를 생성할 수 있으며, 실시간 성능을 극대화함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22322",
+            "authors": [
+                {
+                    "_id": "69533fb889916ff627aa3ecb",
+                    "name": "Shaofei Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ecc",
+                    "name": "Yulei Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ecd",
+                    "name": "Haojia Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ece",
+                    "name": "Zihan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ecf",
+                    "name": "Gang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed0",
+                    "name": "Yuchen Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed1",
+                    "name": "Zongyi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed2",
+                    "name": "Yong Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed3",
+                    "name": "Siqi Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed4",
+                    "name": "Xiaoyu Tan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed5",
+                    "name": "Yitao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed6",
+                    "name": "Ke Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69533fb889916ff627aa3ed7",
+                    "name": "Xing Sun",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6390525c00fb8ec4a424e0ff/h0k49_chVHOUTywBgnJR6.gif"
+            ],
+            "publishedAt": "2025-12-26T14:51:39.000Z",
+            "submittedOnDailyAt": "2025-12-30T01:07:21.942Z",
+            "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+            "submittedOnDailyBy": {
+                "_id": "6390525c00fb8ec4a424e0ff",
+                "avatarUrl": "/avatars/4302571e2ef4a9875491221aa630a329.svg",
+                "isPro": false,
+                "fullname": "Yulei Qin",
+                "user": "yolay",
+                "type": "user"
+            },
+            "summary": "Agentic reinforcement learning (RL) holds great promise for the development of autonomous agents under complex GUI tasks, but its scalability remains severely hampered by the verification of task completion. Existing task verification is treated as a passive, post-hoc process: a verifier (i.e., rule-based scoring script, reward or critic model, and LLM-as-a-Judge) analyzes the agent's entire interaction trajectory to determine if the agent succeeds. Such processing of verbose context that contains irrelevant, noisy history poses challenges to the verification protocols and therefore leads to prohibitive cost and low reliability. To overcome this bottleneck, we propose SmartSnap, a paradigm shift from this passive, post-hoc verification to proactive, in-situ self-verification by the agent itself. We introduce the Self-Verifying Agent, a new type of agent designed with dual missions: to not only complete a task but also to prove its accomplishment with curated snapshot evidences. Guided by our proposed 3C Principles (Completeness, Conciseness, and Creativity), the agent leverages its accessibility to the online environment to perform self-verification on a minimal, decisive set of snapshots. Such evidences are provided as the sole materials for a general LLM-as-a-Judge verifier to determine their validity and relevance. Experiments on mobile tasks across model families and scales demonstrate that our SmartSnap paradigm allows training LLM-driven agents in a scalable manner, bringing performance gains up to 26.08% and 16.66% respectively to 8B and 30B models. The synergizing between solution finding and evidence seeking facilitates the cultivation of efficient, self-verifying agents with competitive performance against DeepSeek V3.1 and Qwen3-235B-A22B.",
+            "upvotes": 31,
+            "discussionId": "69533fb889916ff627aa3ed8",
+            "projectPage": "https://huggingface.co/collections/yolay/smartsnap",
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "SmartSnap: 자가 검증 에이전트를 위한 능동적 증거 탐색",
+        "purpose": "복잡한 GUI 작업에서 자율 에이전트의 성과 검증 방식 개선",
+        "method": [
+            "기존의 수동적 검증 방법에서 에이전트가 스스로 검증하도록 능동적 접근 방식으로 전환함(To overcome this bottleneck, we propose SmartSnap, a paradigm shift from this passive, post-hoc verification to proactive, in-situ self-verification by the agent itself.)",
+            "Self-Verifying Agent를 도입하여 에이전트가 작업을 완료하면서도 그 성과를 입증할 수 있는 증거를 제공하도록 설계함(We introduce the Self-Verifying Agent, a new type of agent designed with dual missions: to not only complete a task but also to prove its accomplishment with curated snapshot evidences.)",
+            "3C 원칙(완전성, 간결성, 창의성)을 기반으로 에이전트가 결정적인 스냅샷 집합을 활용해 자가 검증을 수행함(Guided by our proposed 3C Principles (Completeness, Conciseness, and Creativity), the agent leverages its accessibility to the online environment to perform self-verification on a minimal, decisive set of snapshots.)"
+        ],
+        "conclusion": "SmartSnap 패러다임은 LLM 기반 에이전트를 더욱 확장 가능하게 하여 성능을 최대 26.08% 및 16.66% 향상시킴.",
+        "keywords": [
+            "Robotics",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.23705",
+            "authors": [
+                {
+                    "_id": "6953546989916ff627aa4002",
+                    "name": "Shaocong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4003",
+                    "name": "Songlin Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4004",
+                    "name": "Qizhe Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4005",
+                    "name": "Zheng Geng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4006",
+                    "name": "Hong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4007",
+                    "name": "Licheng Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4008",
+                    "name": "Qianpu Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4009",
+                    "name": "Shu Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400a",
+                    "name": "Bin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400b",
+                    "name": "Bohan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400c",
+                    "name": "Chongjie Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400d",
+                    "name": "Yuhang Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400e",
+                    "name": "Nan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa400f",
+                    "name": "Saining Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6953546989916ff627aa4010",
+                    "name": "Hao Zhao",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/652bd2493a416e1f21beb01a/6NM5vLS_B3DlYtmX1N4A_.gif"
+            ],
+            "publishedAt": "2025-12-29T18:59:24.000Z",
+            "submittedOnDailyAt": "2025-12-30T01:56:18.708Z",
+            "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+            "submittedOnDailyBy": {
+                "_id": "652bd2493a416e1f21beb01a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/652bd2493a416e1f21beb01a/tKijq1pbjmBZuRm82dNEV.jpeg",
+                "isPro": true,
+                "fullname": "Shaocong.Xu",
+                "user": "Daniellesry",
+                "type": "user"
+            },
+            "summary": "Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules. We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences rendered with Blender/Cycles. Scenes are assembled from a curated bank of category-rich static assets and shape-rich procedural assets paired with glass/plastic/metal materials. We render RGB + depth + normals with physically based ray tracing and OptiX denoising. Starting from a large video diffusion model, we learn a video-to-video translator for depth (and normals) via lightweight LoRA adapters. During training we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets, yielding temporally consistent predictions for arbitrary-length input videos. The resulting model, DKT, achieves zero-shot SOTA on real and synthetic video benchmarks involving transparency: ClearPose, DREDS (CatKnown/CatNovel), and TransPhy3D-Test. It improves accuracy and temporal consistency over strong image/video baselines, and a normal variant sets the best video normal estimation results on ClearPose. A compact 1.3B version runs at ~0.17 s/frame. Integrated into a grasping stack, DKT's depth boosts success rates across translucent, reflective and diffuse surfaces, outperforming prior estimators. Together, these results support a broader claim: \"Diffusion knows transparency.\" Generative video priors can be repurposed, efficiently and label-free, into robust, temporally coherent perception for challenging real-world manipulation.",
+            "upvotes": 30,
+            "discussionId": "6953546a89916ff627aa4011",
+            "projectPage": "https://daniellli.github.io/projects/DKT/",
+            "githubRepo": "https://github.com/Daniellli/DKT",
+            "githubRepoAddedBy": "user",
+            "githubStars": 90,
+            "organization": {
+                "_id": "61be9739d2f9358e24ca0a4f",
+                "name": "BAAI",
+                "fullname": "Beijing Academy of Artificial Intelligence",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1664511063789-632c234f42c386ebd2710434.png"
+            }
+        },
+        "translation_title": "Diffusion은 투명성을 알다: 투명 물체의 깊이 및 법선 추정을 위한 비디오 확산 재활용",
+        "purpose": "투명한 물체를 인식하는 시스템의 성능을 개선하기 위한 깊이 및 법선 추정 기술 개발",
+        "method": [
+            "정확한 투명현상을 합성하는 현대 비디오 확산 모델을 활용하여 내부 광학 규칙을 이해함을 발견함(Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules.)",
+            "TransPhy3D라는 합성 비디오 데이터셋을 구축하였고, 11,000개의 장면을 렌더링함(We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences rendered with Blender/Cycles.)",
+            "RGB 및 (잡음이 있는) 깊이 잠재 변수를 연결하여 비디오 간 변환기를 학습함(we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets.)"
+        ],
+        "conclusion": "결과 모델인 DKT는 투명성을 포함한 실제 및 합성 비디오 벤치마크에서 최고 성능을 달성하였으며, 깊이 추정에서 이전 추정기보다 향상된 결과를 나타냄.",
+        "keywords": [
+            "Computer Vision",
+            "Video Understanding",
+            "Robotics"
+        ]
+    }
+]
