@@ -1,0 +1,461 @@
+[
+    {
+        "paper": {
+            "id": "2512.21185",
+            "authors": [
+                {
+                    "_id": "694e459a746a34b55dd54592",
+                    "name": "Tanghui Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54593",
+                    "name": "Dongyu Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54594",
+                    "name": "Dehao Hao",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54595",
+                    "name": "Yang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54596",
+                    "name": "Kaiyi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54597",
+                    "name": "Xianyi He",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54598",
+                    "name": "Lanjiong Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd54599",
+                    "name": "Jinnan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd5459a",
+                    "name": "Lutao Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd5459b",
+                    "name": "Qishen Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd5459c",
+                    "name": "Long Quan",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd5459d",
+                    "name": "Ying-Cong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "694e459a746a34b55dd5459e",
+                    "name": "Li Yuan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-24T14:08:38.000Z",
+            "submittedOnDailyAt": "2025-12-31T06:02:48.033Z",
+            "title": "UltraShape 1.0: High-Fidelity 3D Shape Generation via Scalable Geometric Refinement",
+            "submittedOnDailyBy": {
+                "_id": "64049ae20ab5e22719f35103",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678023295407-noauth.jpeg",
+                "isPro": false,
+                "fullname": "Dongyu Yan",
+                "user": "StarYDY",
+                "type": "user"
+            },
+            "summary": "In this report, we introduce UltraShape 1.0, a scalable 3D diffusion framework for high-fidelity 3D geometry generation. The proposed approach adopts a two-stage generation pipeline: a coarse global structure is first synthesized and then refined to produce detailed, high-quality geometry. To support reliable 3D generation, we develop a comprehensive data processing pipeline that includes a novel watertight processing method and high-quality data filtering. This pipeline improves the geometric quality of publicly available 3D datasets by removing low-quality samples, filling holes, and thickening thin structures, while preserving fine-grained geometric details. To enable fine-grained geometry refinement, we decouple spatial localization from geometric detail synthesis in the diffusion process. We achieve this by performing voxel-based refinement at fixed spatial locations, where voxel queries derived from coarse geometry provide explicit positional anchors encoded via RoPE, allowing the diffusion model to focus on synthesizing local geometric details within a reduced, structured solution space. Our model is trained exclusively on publicly available 3D datasets, achieving strong geometric quality despite limited training resources. Extensive evaluations demonstrate that UltraShape 1.0 performs competitively with existing open-source methods in both data processing quality and geometry generation. All code and trained models will be released to support future research.",
+            "upvotes": 13,
+            "discussionId": "694e459a746a34b55dd5459f",
+            "projectPage": "https://pku-yuangroup.github.io/UltraShape-1.0/",
+            "githubRepo": "https://github.com/PKU-YuanGroup/UltraShape-1.0",
+            "githubRepoAddedBy": "user",
+            "githubStars": 97
+        },
+        "translation_title": "UltraShape 1.0: 확장 가능한 기하학적 정제를 통한 고충실도 3D 형상 생성",
+        "purpose": "고품질 3D 형상을 생성하기 위한 확장 가능한 프레임워크 개발",
+        "method": [
+            "2단계 생성 파이프라인을 통해 먼저 대략적인 전체 구조를 합성한 후 자세한 고품질 기하학을 정제함(In this report, we introduce UltraShape 1.0, a scalable 3D diffusion framework for high-fidelity 3D geometry generation.)",
+            "고품질 데이터 필터링 및 새로운 방수 처리 방법을 포함한 포괄적인 데이터 처리 파이프라인을 개발함(To support reliable 3D generation, we develop a comprehensive data processing pipeline that includes a novel watertight processing method and high-quality data filtering.)",
+            "voxel 기반 정제를 통해 기하학적 세부사항 합성을 공간적 지역화와 분리하여 수행함(This is achieved by performing voxel-based refinement at fixed spatial locations, where voxel queries derived from coarse geometry provide explicit positional anchors encoded via RoPE.)"
+        ],
+        "conclusion": "UltraShape 1.0은 공개된 3D 데이터셋에 대한 강력한 기하학적 품질을 달성하며, 기존의 오픈소스 방법들과 경쟁할 수 있는 성능을 보임.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Image Segmentation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22525",
+            "authors": [
+                {
+                    "_id": "69549ff6869a8627b452c956",
+                    "name": "Bin Xia",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c957",
+                    "name": "Bohao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c958",
+                    "name": "Jiyang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c959",
+                    "name": "Sitong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95a",
+                    "name": "Jingyao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95b",
+                    "name": "Junjia Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95c",
+                    "name": "Xu Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95d",
+                    "name": "Yitong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95e",
+                    "name": "Ruihang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c95f",
+                    "name": "Bei Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69549ff6869a8627b452c960",
+                    "name": "Jiaya Jia",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-27T09:07:12.000Z",
+            "submittedOnDailyAt": "2025-12-31T01:36:44.468Z",
+            "title": "DreamOmni3: Scribble-based Editing and Generation",
+            "submittedOnDailyBy": {
+                "_id": "64e42a700ecc1ecca77b1db9",
+                "avatarUrl": "/avatars/c1228db09b88c9246aab48da7ae82f7c.svg",
+                "isPro": false,
+                "fullname": "binxia",
+                "user": "binxia",
+                "type": "user"
+            },
+            "summary": "Recently unified generation and editing models have achieved remarkable success with their impressive performance. These models rely mainly on text prompts for instruction-based editing and generation, but language often fails to capture users intended edit locations and fine-grained visual details. To this end, we propose two tasks: scribble-based editing and generation, that enables more flexible creation on graphical user interface (GUI) combining user textual, images, and freehand sketches. We introduce DreamOmni3, tackling two challenges: data creation and framework design. Our data synthesis pipeline includes two parts: scribble-based editing and generation. For scribble-based editing, we define four tasks: scribble and instruction-based editing, scribble and multimodal instruction-based editing, image fusion, and doodle editing. Based on DreamOmni2 dataset, we extract editable regions and overlay hand-drawn boxes, circles, doodles or cropped image to construct training data. For scribble-based generation, we define three tasks: scribble and instruction-based generation, scribble and multimodal instruction-based generation, and doodle generation, following similar data creation pipelines. For the framework, instead of using binary masks, which struggle with complex edits involving multiple scribbles, images, and instructions, we propose a joint input scheme that feeds both the original and scribbled source images into the model, using different colors to distinguish regions and simplify processing. By applying the same index and position encodings to both images, the model can precisely localize scribbled regions while maintaining accurate editing. Finally, we establish comprehensive benchmarks for these tasks to promote further research. Experimental results demonstrate that DreamOmni3 achieves outstanding performance, and models and code will be publicly released.",
+            "upvotes": 9,
+            "discussionId": "69549ff6869a8627b452c961",
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "DreamOmni3: 스크리블 기반 편집 및 생성",
+        "purpose": "사용자의 텍스트, 이미지 및 자유로운 스케치를 결합한 더 유연한 생성 방법을 연구",
+        "method": [
+            "스크리블 기반 편집과 생성이라는 두 가지 작업을 제안함(To this end, we propose two tasks: scribble-based editing and generation, that enables more flexible creation on graphical user interface (GUI) combining user textual, images, and freehand sketches.)",
+            "DreamOmni2 데이터세트를 기반으로 편집 가능한 영역을 추출하고 훈련 데이터를 구축함(Based on DreamOmni2 dataset, we extract editable regions and overlay hand-drawn boxes, circles, doodles or cropped image to construct training data.)",
+            "복잡한 편집을 처리할 수 있는 결합 입력 방식을 제안함(we propose a joint input scheme that feeds both the original and scribbled source images into the model)"
+        ],
+        "conclusion": "DreamOmni3는 우수한 성능을 달성하였으며, 모델과 코드는 공개될 예정임.",
+        "keywords": [
+            "Image Generation",
+            "Image Understanding",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.23675",
+            "authors": [
+                {
+                    "_id": "6954c9c9869a8627b452c99b",
+                    "name": "Arnuv Tandon",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c99c",
+                    "name": "Karan Dalal",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c99d",
+                    "name": "Xinhao Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c99e",
+                    "name": "Daniel Koceja",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c99f",
+                    "name": "Marcel Rød",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a0",
+                    "name": "Sam Buchanan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a1",
+                    "name": "Xiaolong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a2",
+                    "name": "Jure Leskovec",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a3",
+                    "name": "Sanmi Koyejo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a4",
+                    "name": "Tatsunori Hashimoto",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a5",
+                    "name": "Carlos Guestrin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a6",
+                    "name": "Jed McCaleb",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a7",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c9c9869a8627b452c9a8",
+                    "name": "Yu Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-29T18:30:14.000Z",
+            "submittedOnDailyAt": "2025-12-31T04:29:26.053Z",
+            "title": "End-to-End Test-Time Training for Long Context",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under this formulation, we only use a standard architecture -- a Transformer with sliding-window attention. However, our model continues learning at test time via next-token prediction on the given context, compressing the context it reads into its weights. In addition, we improve the model's initialization for learning at test time via meta-learning at training time. Overall, our method, a form of Test-Time Training (TTT), is End-to-End (E2E) both at test time (via next-token prediction) and training time (via meta-learning), in contrast to previous forms. We conduct extensive experiments with a focus on scaling properties. In particular, for 3B models trained with 164B tokens, our method (TTT-E2E) scales with context length in the same way as Transformer with full attention, while others, such as Mamba 2 and Gated DeltaNet, do not. However, similar to RNNs, TTT-E2E has constant inference latency regardless of context length, making it 2.7 times faster than full attention for 128K context. Our code is publicly available.",
+            "upvotes": 6,
+            "discussionId": "6954c9c9869a8627b452c9a9",
+            "githubRepo": "https://github.com/test-time-training/e2e",
+            "githubRepoAddedBy": "user",
+            "githubStars": 80
+        },
+        "translation_title": "긴 컨텍스트를 위한 End-to-End Test-Time Training",
+        "purpose": "긴 컨텍스트 언어 모델링 문제를 지속적인 학습 문제로 접근하여 모델의 성능 향상 및 효율적인 학습 방법 개발",
+        "method": [
+            "표준 아키텍처인 트랜스포머를 사용하되, 테스트 시간에 다음 토큰 예측을 통해 계속 학습하도록 함(we only use a standard architecture -- a Transformer with sliding-window attention)",
+            "메타 학습을 통해 테스트 시간 학습을 위한 모델 초기화 개선(meta-learning at training time)",
+            "Test-Time Training (TTT) 형태를 통해 테스트 시간에서도 학습이 지속되도록 함(our method, a form of Test-Time Training (TTT), is End-to-End (E2E) both at test time)."
+        ],
+        "conclusion": "TTT-E2E 방법은 긴 컨텍스트에서 트랜스포머와 동일한 확장성을 가지며, 컨텍스트 길이에 관계없이 일정한 추론 속도를 유지해 기존 방법보다 2.7배 빠른 성능을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.23165",
+            "authors": [
+                {
+                    "_id": "6954cfbc869a8627b452c9ab",
+                    "name": "Qingyu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9ac",
+                    "name": "Yulun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9ad",
+                    "name": "Zhennan Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9ae",
+                    "name": "Sunbowen Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9af",
+                    "name": "Zhilin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9b0",
+                    "name": "Yanshu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9b1",
+                    "name": "Chak Tou Leong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9b2",
+                    "name": "Jiale Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954cfbc869a8627b452c9b3",
+                    "name": "Jinjin Gu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-29T03:13:08.000Z",
+            "submittedOnDailyAt": "2025-12-31T04:55:40.592Z",
+            "title": "Evaluating Parameter Efficient Methods for RLVR",
+            "submittedOnDailyBy": {
+                "_id": "6453cb22908e259483c0a061",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6453cb22908e259483c0a061/hMgdwZUsUbgquGalzPGzV.jpeg",
+                "isPro": false,
+                "fullname": "Qingyu_Yin",
+                "user": "MikaStars39",
+                "type": "user"
+            },
+            "summary": "We systematically evaluate Parameter-Efficient Fine-Tuning (PEFT) methods under the paradigm of Reinforcement Learning with Verifiable Rewards (RLVR). RLVR incentivizes language models to enhance their reasoning capabilities through verifiable feedback; however, while methods like LoRA are commonly used, the optimal PEFT architecture for RLVR remains unidentified. In this work, we conduct the first comprehensive evaluation of over 12 PEFT methodologies across the DeepSeek-R1-Distill families on mathematical reasoning benchmarks. Our empirical results challenge the default adoption of standard LoRA with three main findings. First, we demonstrate that structural variants, such as DoRA, AdaLoRA, and MiSS, consistently outperform LoRA. Second, we uncover a spectral collapse phenomenon in SVD-informed initialization strategies (e.g., PiSSA, MiLoRA), attributing their failure to a fundamental misalignment between principal-component updates and RL optimization. Furthermore, our ablations reveal that extreme parameter reduction (e.g., VeRA, Rank-1) severely bottlenecks reasoning capacity. We further conduct ablation studies and scaling experiments to validate our findings. This work provides a definitive guide for advocating for more exploration for parameter-efficient RL methods.",
+            "upvotes": 3,
+            "discussionId": "6954cfbc869a8627b452c9b4",
+            "organization": {
+                "_id": "61bac2af530e5c78d7b99667",
+                "name": "zju",
+                "fullname": "Zhejiang University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5e1058e9fcf41d740b69966d/7G1xjlxwCdMEmKcxNR0n5.png"
+            }
+        },
+        "translation_title": "RLVR을 위한 파라미터 효율적인 방법 평가",
+        "purpose": "Reinforcement Learning with Verifiable Rewards(RLVR)에서 파라미터 효율적인 방식의 최적 구조를 찾기 위한 체계적인 평가",
+        "method": [
+            "12개 이상의 PEFT 방법론을 DeepSeek-R1-Distill 패밀리에서 수학적 추론 벤치마크를 기반으로 평가함.(we conduct the first comprehensive evaluation of over 12 PEFT methodologies across the DeepSeek-R1-Distill families on mathematical reasoning benchmarks.)",
+            "기본 LoRA의 사용을 도전하는 3가지 주요 발견을 확보함.(Our empirical results challenge the default adoption of standard LoRA with three main findings.)",
+            "기타 구조적 변형 기법들이 LoRA보다 일관되게 더 성능이 좋음을 입증함.(we demonstrate that structural variants, such as DoRA, AdaLoRA, and MiSS, consistently outperform LoRA.)"
+        ],
+        "conclusion": "이 연구는 파라미터 효율적인 RL 방법에 대한 추가 탐색을 권장하는 확고한 가이드를 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22469",
+            "authors": [
+                {
+                    "_id": "6954c129869a8627b452c97c",
+                    "name": "Wei Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c97d",
+                    "name": "Chao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c97e",
+                    "name": "Pengfei Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c97f",
+                    "name": "Aofan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c980",
+                    "name": "Wei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c981",
+                    "name": "Haiyan Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6954c129869a8627b452c982",
+                    "name": "Zhi Jin",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-27T05:02:53.000Z",
+            "submittedOnDailyAt": "2025-12-31T04:28:11.263Z",
+            "title": "GraphLocator: Graph-guided Causal Reasoning for Issue Localization",
+            "submittedOnDailyBy": {
+                "_id": "64425a502f4abae43fc0446c",
+                "avatarUrl": "/avatars/7448a8d024813d8a20e09c162a189304.svg",
+                "isPro": false,
+                "fullname": "Chao Peng",
+                "user": "pengchao",
+                "type": "user"
+            },
+            "summary": "The issue localization task aims to identify the locations in a software repository that requires modification given a natural language issue description. This task is fundamental yet challenging in automated software engineering due to the semantic gap between issue description and source code implementation. This gap manifests as two mismatches:(1) symptom-to-cause mismatches, where descriptions do not explicitly reveal underlying root causes; (2) one-to-many mismatches, where a single issue corresponds to multiple interdependent code entities. To address these two mismatches, we propose GraphLocator, an approach that mitigates symptom-to-cause mismatches through causal structure discovering and resolves one-to-many mismatches via dynamic issue disentangling. The key artifact is the causal issue graph (CIG), in which vertices represent discovered sub-issues along with their associated code entities, and edges encode the causal dependencies between them. The workflow of GraphLocator consists of two phases: symptom vertices locating and dynamic CIG discovering; it first identifies symptom locations on the repository graph, then dynamically expands the CIG by iteratively reasoning over neighboring vertices. Experiments on three real-world datasets demonstrates the effectiveness of GraphLocator: (1) Compared with baselines, GraphLocator achieves more accurate localization with average improvements of +19.49% in function-level recall and +11.89% in precision. (2) GraphLocator outperforms baselines on both symptom-to-cause and one-to-many mismatch scenarios, achieving recall improvement of +16.44% and +19.18%, precision improvement of +7.78% and +13.23%, respectively. (3) The CIG generated by GraphLocator yields the highest relative improvement, resulting in a 28.74% increase in performance on downstream resolving task.",
+            "upvotes": 1,
+            "discussionId": "6954c129869a8627b452c983"
+        },
+        "translation_title": "GraphLocator: Graph 기반 인과 추론을 통한 문제 위치 찾기",
+        "purpose": "자연어로 주어진 문제 설명에 따라 소프트웨어 저장소에서 수정을 요구하는 위치를 식별하기 위한 방법론 제안",
+        "method": [
+            "원인-증상 불일치를 완화하기 위해 인과 구조를 발견하고, 단일 문제에 대해 여러 상호 의존적인 코드 엔티티를 처리하는 방법을 제안함 (we propose GraphLocator, an approach that mitigates symptom-to-cause mismatches through causal structure discovering and resolves one-to-many mismatches via dynamic issue disentangling.)",
+            "인과 문제 그래프(Causal Issue Graph, CIG)를 구성하여 발견된 하위 문제와 관련 코드 엔티티 및 이들 간의 인과 관계를 표현함 (The key artifact is the causal issue graph (CIG), in which vertices represent discovered sub-issues along with their associated code entities, and edges encode the causal dependencies between them.)",
+            "증상 정점 탐색 및 동적 CIG 발견의 두 가지 단계로 구성된 워크플로우를 사용함 (The workflow of GraphLocator consists of two phases: symptom vertices locating and dynamic CIG discovering.)"
+        ],
+        "conclusion": "GraphLocator는 기능 수준 재현율에서 평균 +19.49%, 정밀도에서 +11.89% 향상을 통해 정확한 문제 위치 찾기를 달성하며, 인과 문제 그래프는 다운스트림 해결 작업에서 28.74% 성능 증가를 초래함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Image Segmentation"
+        ]
+    }
+]
