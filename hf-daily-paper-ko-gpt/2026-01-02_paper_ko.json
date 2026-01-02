@@ -1,0 +1,407 @@
+[
+    {
+        "paper": {
+            "id": "2512.23959",
+            "authors": [
+                {
+                    "_id": "69575365832867f2535258c9",
+                    "name": "Chulun Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258ca",
+                    "name": "Chunkang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258cb",
+                    "name": "Guoxin Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258cc",
+                    "name": "Fandong Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258cd",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258ce",
+                    "name": "Wai Lam",
+                    "hidden": false
+                },
+                {
+                    "_id": "69575365832867f2535258cf",
+                    "name": "Mo Yu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-30T03:13:10.000Z",
+            "submittedOnDailyAt": "2026-01-02T11:19:59.871Z",
+            "title": "Improving Multi-step RAG with Hypergraph-based Memory for Long-Context Complex Relational Modeling",
+            "submittedOnDailyBy": {
+                "_id": "67af92045a86287292026808",
+                "avatarUrl": "/avatars/8bad9272fe73ba04e077b5484837c8d3.svg",
+                "isPro": false,
+                "fullname": "Mo",
+                "user": "BishopGorov",
+                "type": "user"
+            },
+            "summary": "Multi-step retrieval-augmented generation (RAG) has become a widely adopted strategy for enhancing large language models (LLMs) on tasks that demand global comprehension and intensive reasoning. Many RAG systems incorporate a working memory module to consolidate retrieved information. However, existing memory designs function primarily as passive storage that accumulates isolated facts for the purpose of condensing the lengthy inputs and generating new sub-queries through deduction. This static nature overlooks the crucial high-order correlations among primitive facts, the compositions of which can often provide stronger guidance for subsequent steps. Therefore, their representational strength and impact on multi-step reasoning and knowledge evolution are limited, resulting in fragmented reasoning and weak global sense-making capacity in extended contexts. We introduce HGMem, a hypergraph-based memory mechanism that extends the concept of memory beyond simple storage into a dynamic, expressive structure for complex reasoning and global understanding. In our approach, memory is represented as a hypergraph whose hyperedges correspond to distinct memory units, enabling the progressive formation of higher-order interactions within memory. This mechanism connects facts and thoughts around the focal problem, evolving into an integrated and situated knowledge structure that provides strong propositions for deeper reasoning in subsequent steps. We evaluate HGMem on several challenging datasets designed for global sense-making. Extensive experiments and in-depth analyses show that our method consistently improves multi-step RAG and substantially outperforms strong baseline systems across diverse tasks.",
+            "upvotes": 32,
+            "discussionId": "69575365832867f2535258d0",
+            "githubRepo": "https://github.com/Encyclomen/HGMem",
+            "githubRepoAddedBy": "user",
+            "githubStars": 2,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "하이퍼그래프 기반 메모리를 통한 다단계 RAG 개선: 긴 맥락의 복잡한 관계 모델링",
+        "purpose": "다단계 RAG 시스템의 정보를 통합하고 복잡한 추론을 지원하기 위해 새로운 메모리 구조를 제안하고자 함",
+        "method": [
+            "메모리를 단순 저장소가 아닌 동적이고 표현력이 있는 하이퍼그래프 구조로 확장함(We introduce HGMem, a hypergraph-based memory mechanism that extends the concept of memory beyond simple storage into a dynamic, expressive structure for complex reasoning and global understanding.)",
+            "하이퍼그래프에서 하이퍼엣지가 별도의 메모리 단위를 나타내도록 하여 메모리 내의 고차원 상호작용을 점진적으로 형성함(This mechanism connects facts and thoughts around the focal problem, evolving into an integrated and situated knowledge structure that provides strong propositions for deeper reasoning in subsequent steps.)",
+            "여러 도전적인 데이터셋에서 HGMem의 성능을 평가하고 꾸준히 다단계 RAG 성능을 향상시킴(Extensive experiments and in-depth analyses show that our method consistently improves multi-step RAG and substantially outperforms strong baseline systems across diverse tasks.)"
+        ],
+        "conclusion": "HGMem은 다단계 RAG 시스템의 성능을 지속적으로 향상시켜, 복잡한 관계 모델링에서 탁월한 결과를 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24617",
+            "authors": [
+                {
+                    "_id": "69573165832867f253525871",
+                    "name": "Xingwei Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525872",
+                    "name": "Shaowen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525873",
+                    "name": "Zihao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525874",
+                    "name": "Kai Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525875",
+                    "name": "Fan Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525876",
+                    "name": "Rui-Jie Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525877",
+                    "name": "Jundong Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525878",
+                    "name": "Qiyang Min",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525879",
+                    "name": "Zihao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587a",
+                    "name": "Yizhi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587b",
+                    "name": "Tianyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587c",
+                    "name": "He Xing",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587d",
+                    "name": "Zheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587e",
+                    "name": "Yuxuan Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f25352587f",
+                    "name": "Tianyu Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525880",
+                    "name": "Zhiyuan Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525881",
+                    "name": "Chenghua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525882",
+                    "name": "Ge Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69573165832867f253525883",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-31T04:19:33.000Z",
+            "submittedOnDailyAt": "2026-01-02T00:17:55.450Z",
+            "title": "Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space",
+            "submittedOnDailyBy": {
+                "_id": "646b4c9fdf2609a541c0866e",
+                "avatarUrl": "/avatars/7ec6c709017dcf32d4ac49d1e3820328.svg",
+                "isPro": false,
+                "fullname": "Qu",
+                "user": "ScottQu",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) apply uniform computation to all tokens, despite language exhibiting highly non-uniform information density. This token-uniform regime wastes capacity on locally predictable spans while under-allocating computation to semantically critical transitions. We propose Dynamic Large Concept Models (DLCM), a hierarchical language modeling framework that learns semantic boundaries from latent representations and shifts computation from tokens to a compressed concept space where reasoning is more efficient. DLCM discovers variable-length concepts end-to-end without relying on predefined linguistic units. Hierarchical compression fundamentally changes scaling behavior. We introduce the first compression-aware scaling law, which disentangles token-level capacity, concept-level reasoning capacity, and compression ratio, enabling principled compute allocation under fixed FLOPs. To stably train this heterogeneous architecture, we further develop a decoupled μP parametrization that supports zero-shot hyperparameter transfer across widths and compression regimes. At a practical setting (R=4, corresponding to an average of four tokens per concept), DLCM reallocates roughly one-third of inference compute into a higher-capacity reasoning backbone, achieving a +2.69\\% average improvement across 12 zero-shot benchmarks under matched inference FLOPs.",
+            "upvotes": 21,
+            "discussionId": "69573165832867f253525884",
+            "organization": {
+                "_id": "67d1140985ea0644e2f14b99",
+                "name": "ByteDance-Seed",
+                "fullname": "ByteDance Seed",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/flkDUqd_YEuFsjeNET3r-.png"
+            }
+        },
+        "translation_title": "동적 대규모 개념 모델: 적응형 의미 공간에서의 잠재적 추론",
+        "purpose": "Token의 uniform computation 방식을 개선하여 의미적으로 중요한 전환에 더 많은 계산 자원을 할당하는 방법 연구",
+        "method": [
+            "Hierarchical language modeling framework인 Dynamic Large Concept Models(DLCM)을 제안함(We propose Dynamic Large Concept Models (DLCM), a hierarchical language modeling framework that learns semantic boundaries from latent representations.)",
+            "토큰에서 압축된 개념 공간으로 계산을 전환하여 효율적인 추론을 가능하게 함(DLCM shifts computation from tokens to a compressed concept space where reasoning is more efficient.)",
+            "고정된 FLOPs 하에서 적절한 계산 자원 할당을 가능하게 하는 compression-aware scaling law을 소개함(We introduce the first compression-aware scaling law, which disentangles token-level capacity, concept-level reasoning capacity, and compression ratio.)"
+        ],
+        "conclusion": "DLCM은 추론의 약 1/3을 고용량의 추론 백본으로 재배치하여 12개의 zero-shot 벤치마크에서 평균 2.69%의 성과 향상을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24165",
+            "authors": [
+                {
+                    "_id": "69571b38832867f25352584d",
+                    "name": "Zefeng He",
+                    "hidden": false
+                },
+                {
+                    "_id": "69571b38832867f25352584e",
+                    "name": "Xiaoye Qu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69571b38832867f25352584f",
+                    "name": "Yafu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69571b38832867f253525850",
+                    "name": "Tong Zhu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69571b38832867f253525851",
+                    "name": "Siyuan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69571b38832867f253525852",
+                    "name": "Yu Cheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-30T11:51:18.000Z",
+            "submittedOnDailyAt": "2026-01-02T03:34:41.232Z",
+            "title": "DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models",
+            "submittedOnDailyBy": {
+                "_id": "629454301ae2138079f7ff31",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/629454301ae2138079f7ff31/rVtbF-j06gDiYzomTeVTc.jpeg",
+                "isPro": false,
+                "fullname": "Tong Zhu",
+                "user": "Spico",
+                "type": "user"
+            },
+            "summary": "While recent Multimodal Large Language Models (MLLMs) have attained significant strides in multimodal reasoning, their reasoning processes remain predominantly text-centric, leading to suboptimal performance in complex long-horizon, vision-centric tasks. In this paper, we establish a novel Generative Multimodal Reasoning paradigm and introduce DiffThinker, a diffusion-based reasoning framework. Conceptually, DiffThinker reformulates multimodal reasoning as a native generative image-to-image task, achieving superior logical consistency and spatial precision in vision-centric tasks. We perform a systematic comparison between DiffThinker and MLLMs, providing the first in-depth investigation into the intrinsic characteristics of this paradigm, revealing four core properties: efficiency, controllability, native parallelism, and collaboration. Extensive experiments across four domains (sequential planning, combinatorial optimization, constraint satisfaction, and spatial configuration) demonstrate that DiffThinker significantly outperforms leading closed source models including GPT-5 (+314.2\\%) and Gemini-3-Flash (+111.6\\%), as well as the fine-tuned Qwen3-VL-32B baseline (+39.0\\%), highlighting generative multimodal reasoning as a promising approach for vision-centric reasoning.",
+            "upvotes": 12,
+            "discussionId": "69571b38832867f253525853",
+            "projectPage": "https://diffthinker-project.github.io/",
+            "githubRepo": "https://github.com/lcqysl/DiffThinker",
+            "githubRepoAddedBy": "user",
+            "githubStars": 5
+        },
+        "translation_title": "DiffThinker: 확산 모델을 이용한 생성적 다중 모달 추론",
+        "purpose": "비전 중심의 복잡한 작업에서 성능을 향상시키기 위한 새로운 생성적 다중 모달 추론 패러다임 확립",
+        "method": [
+            "DiffThinker를 도입하여 다중 모달 추론을 생성적 이미지-이미지 작업으로 재구성함(we establish a novel Generative Multimodal Reasoning paradigm and introduce DiffThinker, a diffusion-based reasoning framework.)",
+            "DiffThinker와 MLLM 간 체계적인 비교를 수행하고 이 패러다임의 특성을 조사함(We perform a systematic comparison between DiffThinker and MLLMs, providing the first in-depth investigation into the intrinsic characteristics of this paradigm.)",
+            "네 가지 핵심 속성(효율성, 제어 가능성, 기본 병렬성 및 협업)을 통해 DiffThinker의 성능을 평가함(revealing four core properties: efficiency, controllability, native parallelism, and collaboration.)"
+        ],
+        "conclusion": "DiffThinker는 GPT-5와 Gemini-3-Flash 같은 장애물 모델에 비해 뛰어난 성과를 보이면서 비전 중심의 추론을 위한 유망한 접근 방식임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Image Generation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.22630",
+            "authors": [
+                {
+                    "_id": "6957329e832867f253525886",
+                    "name": "Ziqi Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957329e832867f253525887",
+                    "name": "Bin Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957329e832867f253525888",
+                    "name": "Xiang Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957329e832867f253525889",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957329e832867f25352588a",
+                    "name": "Aixin Sun",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-27T16:03:08.000Z",
+            "submittedOnDailyAt": "2026-01-02T00:23:07.951Z",
+            "title": "On the Role of Discreteness in Diffusion LLMs",
+            "submittedOnDailyBy": {
+                "_id": "625921d05f80a3c1aad0bae3",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/625921d05f80a3c1aad0bae3/ElN3-6V5nGId2fzI3Dqlr.jpeg",
+                "isPro": true,
+                "fullname": "Phi",
+                "user": "Xalphinions",
+                "type": "user"
+            },
+            "summary": "Diffusion models offer appealing properties for language generation, such as parallel decoding and iterative refinement, but the discrete and highly structured nature of text challenges the direct application of diffusion principles. In this paper, we revisit diffusion language modeling from the view of diffusion process and language modeling, and outline five properties that separate diffusion mechanics from language-specific requirements. We first categorize existing approaches into continuous diffusion in embedding space and discrete diffusion over tokens. We then show that each satisfies only part of the five essential properties and therefore reflects a structural trade-off. Through analyses of recent large diffusion language models, we identify two central issues: (i) uniform corruption does not respect how information is distributed across positions, and (ii) token-wise marginal training cannot capture multi-token dependencies during parallel decoding. These observations motivate diffusion processes that align more closely with the structure of text, and encourage future work toward more coherent diffusion language models.",
+            "upvotes": 6,
+            "discussionId": "6957329e832867f25352588b",
+            "organization": {
+                "_id": "682c435aa186ba2f1fdde607",
+                "name": "miromind-ai",
+                "fullname": "MiroMind AI",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/682c41fb2f8a52030ec93ce0/Cna52_IapEXuNBsyI3lvR.png"
+            }
+        },
+        "translation_title": "Diffusion LLMs에서 이산성의 역할",
+        "purpose": "Diffusion 모델이 언어 생성에 적합하도록 하는 새로운 접근 방식 제안",
+        "method": [
+            "diffusion 언어 모델링을 diffusion 과정과 언어 모델링 관점에서 재검토함(we revisit diffusion language modeling from the view of diffusion process and language modeling)",
+            "기존 접근 방식을 임베딩 공간에서의 연속적 diffusion과 토큰에 대한 이산적 diffusion으로 분류함(We first categorize existing approaches into continuous diffusion in embedding space and discrete diffusion over tokens)",
+            "대규모 diffusion 언어 모델 분석을 통해 정보 분포와 다중 토큰 종속성 문제를 식별함(Through analyses of recent large diffusion language models, we identify two central issues)"
+        ],
+        "conclusion": "텍스트 구조에 더 밀접하게 맞춰진 diffusion 과정이 필요하며, 향후 더 일관된 diffusion 언어 모델을 위한 연구를 촉진함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24766",
+            "authors": [
+                {
+                    "_id": "6957d6a1832867f253525983",
+                    "name": "Karthik Dharmarajan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957d6a1832867f253525984",
+                    "name": "Wenlong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957d6a1832867f253525985",
+                    "name": "Jiajun Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957d6a1832867f253525986",
+                    "name": "Li Fei-Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6957d6a1832867f253525987",
+                    "name": "Ruohan Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-31T10:25:24.000Z",
+            "submittedOnDailyAt": "2026-01-02T12:01:38.691Z",
+            "title": "Dream2Flow: Bridging Video Generation and Open-World Manipulation with 3D Object Flow",
+            "submittedOnDailyBy": {
+                "_id": "60f1abe7544c2adfd699860c",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674929746905-60f1abe7544c2adfd699860c.jpeg",
+                "isPro": true,
+                "fullname": "AK",
+                "user": "akhaliq",
+                "type": "user"
+            },
+            "summary": "Generative video modeling has emerged as a compelling tool to zero-shot reason about plausible physical interactions for open-world manipulation. Yet, it remains a challenge to translate such human-led motions into the low-level actions demanded by robotic systems. We observe that given an initial image and task instruction, these models excel at synthesizing sensible object motions. Thus, we introduce Dream2Flow, a framework that bridges video generation and robotic control through 3D object flow as an intermediate representation. Our method reconstructs 3D object motions from generated videos and formulates manipulation as object trajectory tracking. By separating the state changes from the actuators that realize those changes, Dream2Flow overcomes the embodiment gap and enables zero-shot guidance from pre-trained video models to manipulate objects of diverse categories-including rigid, articulated, deformable, and granular. Through trajectory optimization or reinforcement learning, Dream2Flow converts reconstructed 3D object flow into executable low-level commands without task-specific demonstrations. Simulation and real-world experiments highlight 3D object flow as a general and scalable interface for adapting video generation models to open-world robotic manipulation. Videos and visualizations are available at https://dream2flow.github.io/.",
+            "upvotes": 0,
+            "discussionId": "6957d6a2832867f253525988"
+        },
+        "translation_title": "Dream2Flow: 비디오 생성과 오픈 월드 조작을 연결하는 3D 객체 흐름",
+        "purpose": "Generative video modeling을 통해 로봇 시스템의 요구에 맞는 저수준의 행동으로 인간의 움직임을 변환하기 위한 방법 연구",
+        "method": [
+            "초기 이미지와 작업 지시를 주었을 때, 모델이 타당한 객체 움직임을 합성하는 능력을 활용함(We observe that given an initial image and task instruction, these models excel at synthesizing sensible object motions.)",
+            "3D 객체 흐름을 중간 표현으로 사용하여 비디오 생성과 로봇 제어를 연결하는 Dream2Flow 프레임워크를 개발함(Thus, we introduce Dream2Flow, a framework that bridges video generation and robotic control through 3D object flow as an intermediate representation.)",
+            "생성된 비디오로부터 3D 객체 움직임을 재구성하고, 이러한 움직임을 객체 궤적 추적으로 공식화함(Our method reconstructs 3D object motions from generated videos and formulates manipulation as object trajectory tracking.)"
+        ],
+        "conclusion": "Dream2Flow는 다양한 카테고리의 객체를 조작하기 위한 제로샷 가이드를 가능하게 하며, 시뮬레이션 및 실제 실험을 통해 3D 객체 흐름이 비디오 생성 모델을 오픈 월드 로봇 조작에 적응시키기 위한 일반적이고 확장 가능한 인터페이스임을 입증함.",
+        "keywords": [
+            "Video Generation",
+            "Robotics",
+            "3D Vision"
+        ]
+    }
+]
