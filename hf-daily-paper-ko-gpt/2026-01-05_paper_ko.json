@@ -1,0 +1,622 @@
+[
+    {
+        "paper": {
+            "id": "2601.00393",
+            "authors": [
+                {
+                    "_id": "695b2297832867f253525d68",
+                    "user": {
+                        "_id": "66dd71d0140f04eb180d7c2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66dd71d0140f04eb180d7c2a/7Qm0Ap0gCjKdumXrbgq_p.png",
+                        "isPro": false,
+                        "fullname": "Yuxue Yang",
+                        "user": "Yuppie1204",
+                        "type": "user"
+                    },
+                    "name": "Yuxue Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:23.295Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b2297832867f253525d69",
+                    "user": {
+                        "_id": "649ecf9827145c4463240177",
+                        "avatarUrl": "/avatars/27696cf31790a3d58d8be2e0c983800e.svg",
+                        "isPro": false,
+                        "fullname": "Lue Fan",
+                        "user": "Abyssaledge",
+                        "type": "user"
+                    },
+                    "name": "Lue Fan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T13:49:26.330Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b2297832867f253525d6a",
+                    "user": {
+                        "_id": "644cc2c36dfd5f8240d76a52",
+                        "avatarUrl": "/avatars/dcd9279af1c6d8535e48dc6e3e6511cd.svg",
+                        "isPro": false,
+                        "fullname": "Ziqi Shi",
+                        "user": "renshengjihe",
+                        "type": "user"
+                    },
+                    "name": "Ziqi Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:21.077Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b2297832867f253525d6b",
+                    "name": "Junran Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b2297832867f253525d6c",
+                    "name": "Feng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b2297832867f253525d6d",
+                    "name": "Zhaoxiang Zhang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/66dd71d0140f04eb180d7c2a/zVr0WeywcHVevhzmqwIaj.mp4"
+            ],
+            "publishedAt": "2026-01-01T17:07:30.000Z",
+            "submittedOnDailyAt": "2026-01-05T02:49:46.994Z",
+            "title": "NeoVerse: Enhancing 4D World Model with in-the-wild Monocular Videos",
+            "submittedOnDailyBy": {
+                "_id": "66dd71d0140f04eb180d7c2a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66dd71d0140f04eb180d7c2a/7Qm0Ap0gCjKdumXrbgq_p.png",
+                "isPro": false,
+                "fullname": "Yuxue Yang",
+                "user": "Yuppie1204",
+                "type": "user"
+            },
+            "summary": "In this paper, we propose NeoVerse, a versatile 4D world model that is capable of 4D reconstruction, novel-trajectory video generation, and rich downstream applications. We first identify a common limitation of scalability in current 4D world modeling methods, caused either by expensive and specialized multi-view 4D data or by cumbersome training pre-processing. In contrast, our NeoVerse is built upon a core philosophy that makes the full pipeline scalable to diverse in-the-wild monocular videos. Specifically, NeoVerse features pose-free feed-forward 4D reconstruction, online monocular degradation pattern simulation, and other well-aligned techniques. These designs empower NeoVerse with versatility and generalization to various domains. Meanwhile, NeoVerse achieves state-of-the-art performance in standard reconstruction and generation benchmarks. Our project page is available at https://neoverse-4d.github.io",
+            "upvotes": 79,
+            "discussionId": "695b2297832867f253525d6e",
+            "projectPage": "https://neoverse-4d.github.io/",
+            "githubRepo": "https://github.com/IamCreateAI/NeoVerse",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "NeoVerse is a scalable 4D world model that enables pose-free reconstruction and novel-trajectory video generation from monocular videos with state-of-the-art performance.",
+            "ai_keywords": [
+                "4D world model",
+                "4D reconstruction",
+                "novel-trajectory video generation",
+                "monocular videos",
+                "pose-free",
+                "feed-forward",
+                "degradation pattern simulation"
+            ],
+            "githubStars": 107
+        },
+        "translation_title": "NeoVerse: 자연환경에서 수집된 단일 영상으로 4D 세계 모델 향상하기",
+        "purpose": "4D 세계 모델의 확장성을 높이고 다양한 단일 영상을 활용한 재구성과 생성 능력을 발전시키기 위함",
+        "method": [
+            "NeoVerse는 다양한 단일 영상에 대한 전체 pipeline을 확장 가능하게 구성함(our NeoVerse is built upon a core philosophy that makes the full pipeline scalable to diverse in-the-wild monocular videos).",
+            "Pose-free feed-forward 4D 재구성과 온라인 단일 영상 악화 패턴 시뮬레이션을 도입함(NeoVerse features pose-free feed-forward 4D reconstruction, online monocular degradation pattern simulation).",
+            "이러한 설계를 통해 NeoVerse는 여러 응용 분야에 대한 다재다능성과 일반화 성능을 갖춤(these designs empower NeoVerse with versatility and generalization to various domains)."
+        ],
+        "conclusion": "NeoVerse는 표준 재구성과 생성 벤치마크에서 최첨단 성과를 달성함.",
+        "keywords": [
+            "4D World Model",
+            "Video Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24615",
+            "authors": [
+                {
+                    "_id": "69564d96832867f2535257af",
+                    "user": {
+                        "_id": "622b00a776c20fee5d14501b",
+                        "avatarUrl": "/avatars/e00496dda1e309548e7b5b437839bb65.svg",
+                        "isPro": false,
+                        "fullname": "Eason shi",
+                        "user": "Easonshi",
+                        "type": "user"
+                    },
+                    "name": "Yuchen Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-04T20:09:50.111Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b0",
+                    "user": {
+                        "_id": "66e258bdc70c02b46dfed6e3",
+                        "avatarUrl": "/avatars/ccc2d604616c018f45a268a610472cac.svg",
+                        "isPro": false,
+                        "fullname": "Yuzheng Cai",
+                        "user": "Ucreate",
+                        "type": "user"
+                    },
+                    "name": "Yuzheng Cai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:50.884Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b1",
+                    "name": "Siqi Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b2",
+                    "name": "Zihan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b3",
+                    "user": {
+                        "_id": "64154bfa385a75d7790f80e8",
+                        "avatarUrl": "/avatars/9e22f54b5eb7c4ebedad99a9a92c4b6a.svg",
+                        "isPro": false,
+                        "fullname": "Lichao Chen",
+                        "user": "nth233",
+                        "type": "user"
+                    },
+                    "name": "Lichao Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:46.825Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b4",
+                    "user": {
+                        "_id": "6390525c00fb8ec4a424e0ff",
+                        "avatarUrl": "/avatars/4302571e2ef4a9875491221aa630a329.svg",
+                        "isPro": false,
+                        "fullname": "Yulei Qin",
+                        "user": "yolay",
+                        "type": "user"
+                    },
+                    "name": "Yulei Qin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-04T20:09:48.064Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b5",
+                    "name": "Zhijian Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b6",
+                    "name": "Xiang Fei",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b7",
+                    "user": {
+                        "_id": "6604e43869c47cd78fdebd08",
+                        "avatarUrl": "/avatars/4c11f5e1aeae3c5eb213f6ec6d5bfe72.svg",
+                        "isPro": false,
+                        "fullname": "Qiu",
+                        "user": "ChaofanDFG",
+                        "type": "user"
+                    },
+                    "name": "Chaofan Qiu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:48.910Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b8",
+                    "user": {
+                        "_id": "637af0a7bdf7309aa6da1c36",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/637af0a7bdf7309aa6da1c36/NHZ-09otVCfbpXVxm8f-e.png",
+                        "isPro": false,
+                        "fullname": "Xiaoyu Tan",
+                        "user": "WIlliam1900",
+                        "type": "user"
+                    },
+                    "name": "Xiaoyu Tan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:52.763Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257b9",
+                    "name": "Gang Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257ba",
+                    "name": "Zongyi Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257bb",
+                    "name": "Haojia Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257bc",
+                    "name": "Guocan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257bd",
+                    "name": "Yong Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257be",
+                    "name": "Yunsheng Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257bf",
+                    "name": "Ke Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69564d96832867f2535257c0",
+                    "user": {
+                        "_id": "647401e50da364bd0d002f2a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/vPuPn7EV092mLBOM2YZXd.png",
+                        "isPro": false,
+                        "fullname": "XING SUN",
+                        "user": "tedsun",
+                        "type": "user"
+                    },
+                    "name": "Xing Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-02T15:38:39.390Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-31T04:17:36.000Z",
+            "submittedOnDailyAt": "2026-01-05T00:21:56.456Z",
+            "title": "Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization",
+            "submittedOnDailyBy": {
+                "_id": "63280915eeee4dd858083092",
+                "avatarUrl": "/avatars/78347af4af42527d53e88d9969c5c934.svg",
+                "isPro": false,
+                "fullname": "Ke Li",
+                "user": "tristanli",
+                "type": "user"
+            },
+            "summary": "Existing Large Language Model (LLM) agent frameworks face two significant challenges: high configuration costs and static capabilities. Building a high-quality agent often requires extensive manual effort in tool integration and prompt engineering, while deployed agents struggle to adapt to dynamic environments without expensive fine-tuning. To address these issues, we propose Youtu-Agent, a modular framework designed for the automated generation and continuous evolution of LLM agents. Youtu-Agent features a structured configuration system that decouples execution environments, toolkits, and context management, enabling flexible reuse and automated synthesis. We introduce two generation paradigms: a Workflow mode for standard tasks and a Meta-Agent mode for complex, non-standard requirements, capable of automatically generating tool code, prompts, and configurations. Furthermore, Youtu-Agent establishes a hybrid policy optimization system: (1) an Agent Practice module that enables agents to accumulate experience and improve performance through in-context optimization without parameter updates; and (2) an Agent RL module that integrates with distributed training frameworks to enable scalable and stable reinforcement learning of any Youtu-Agents in an end-to-end, large-scale manner. Experiments demonstrate that Youtu-Agent achieves state-of-the-art performance on WebWalkerQA (71.47\\%) and GAIA (72.8\\%) using open-weight models. Our automated generation pipeline achieves over 81\\% tool synthesis success rate, while the Practice module improves performance on AIME 2024/2025 by +2.7\\% and +5.4\\% respectively. Moreover, our Agent RL training achieves 40\\% speedup with steady performance improvement on 7B LLMs, enhancing coding/reasoning and searching capabilities respectively up to 35\\% and 21\\% on Maths and general/multi-hop QA benchmarks.",
+            "upvotes": 76,
+            "discussionId": "69564d96832867f2535257c1",
+            "projectPage": "https://tencentcloudadp.github.io/youtu-agent/",
+            "githubRepo": "https://github.com/TencentCloudADP/youtu-agent",
+            "githubRepoAddedBy": "user",
+            "githubStars": 4081,
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "Youtu-Agent: 자동 생성 및 하이브리드 정책 최적화를 통한 에이전트 생산성 향상",
+        "purpose": "자동화된 LLM 에이전트의 생성을 통해 높은 구성 비용과 정적 간섭을 해결하고 지속적으로 발전시키고자 함",
+        "method": [
+            "구성 환경, 툴킷 및 컨텍스트 관리를 분리하여 유연한 재사용과 자동 합성을 가능하게 하는 구조화된 구성 시스템을 설계함(We propose Youtu-Agent, a modular framework designed for the automated generation and continuous evolution of LLM agents.)",
+            "표준 작업을 위한 Workflow 모드와 복잡한 비표준 요구 사항을 위한 Meta-Agent 모드를 도입하여 자동으로 툴 코드, 프롬프트 및 구성을 생성함(We introduce two generation paradigms: a Workflow mode for standard tasks and a Meta-Agent mode for complex, non-standard requirements.)",
+            "에이전트가 경험을 쌓고 성능을 향상시킬 수 있도록 하는 Agent Practice 모듈과 배포된 훈련 프레임워크와 통합된 Agent RL 모듈을 통해 스케일러블하고 안정적인 강화 학습을 가능하게 함(Furthermore, Youtu-Agent establishes a hybrid policy optimization system.)"
+        ],
+        "conclusion": "Youtu-Agent는 WebWalkerQA 및 GAIA에서 최첨단 성능을 달성하며, 자동 생성 파이프라인과 Practice 모듈의 성능 향상을 통해 에이전트의 생산성을 크게 높임.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.00664",
+            "authors": [
+                {
+                    "_id": "695b237a832867f253525d70",
+                    "user": {
+                        "_id": "66b57c77778c98d29446c8ec",
+                        "avatarUrl": "/avatars/c176bb7c072f3093f6a0786c87d384d8.svg",
+                        "isPro": false,
+                        "fullname": "Taekyung Ki",
+                        "user": "taekyungki",
+                        "type": "user"
+                    },
+                    "name": "Taekyung Ki",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:19.100Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b237a832867f253525d71",
+                    "name": "Sangwon Jang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b237a832867f253525d72",
+                    "name": "Jaehyeong Jo",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b237a832867f253525d73",
+                    "user": {
+                        "_id": "652066649004117947e46ed6",
+                        "avatarUrl": "/avatars/972c97df6f26d2c3d6ce71ec579984bb.svg",
+                        "isPro": false,
+                        "fullname": "Jaehong Yoon",
+                        "user": "jaehong31",
+                        "type": "user"
+                    },
+                    "name": "Jaehong Yoon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:17.228Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b237a832867f253525d74",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6039478ab3ecf716b1a5fd4d/OjpAmq7fuwGa-ZxL3KbSY.mp4"
+            ],
+            "publishedAt": "2026-01-02T11:58:48.000Z",
+            "submittedOnDailyAt": "2026-01-05T00:05:44.498Z",
+            "title": "Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Talking head generation creates lifelike avatars from static portraits for virtual communication and content creation. However, current models do not yet convey the feeling of truly interactive communication, often generating one-way responses that lack emotional engagement. We identify two key challenges toward truly interactive avatars: generating motion in real-time under causal constraints and learning expressive, vibrant reactions without additional labeled data. To address these challenges, we propose Avatar Forcing, a new framework for interactive head avatar generation that models real-time user-avatar interactions through diffusion forcing. This design allows the avatar to process real-time multimodal inputs, including the user's audio and motion, with low latency for instant reactions to both verbal and non-verbal cues such as speech, nods, and laughter. Furthermore, we introduce a direct preference optimization method that leverages synthetic losing samples constructed by dropping user conditions, enabling label-free learning of expressive interaction. Experimental results demonstrate that our framework enables real-time interaction with low latency (approximately 500ms), achieving 6.8X speedup compared to the baseline, and produces reactive and expressive avatar motion, which is preferred over 80% against the baseline.",
+            "upvotes": 42,
+            "discussionId": "695b237a832867f253525d75",
+            "projectPage": "https://taekyungki.github.io/AvatarForcing/",
+            "githubRepo": "https://github.com/TaekyungKi/AvatarForcing",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Avatar Forcing framework enables real-time interactive head avatar generation with low latency and expressive motion through diffusion forcing and label-free preference optimization.",
+            "ai_keywords": [
+                "diffusion forcing",
+                "real-time interaction",
+                "multimodal inputs",
+                "audio",
+                "motion",
+                "causal constraints",
+                "synthetic losing samples",
+                "direct preference optimization",
+                "interactive head avatar generation"
+            ],
+            "githubStars": 17
+        },
+        "translation_title": "Avatar Forcing: 자연스러운 대화를 위한 실시간 인터랙티브 헤드 아바타 생성",
+        "purpose": "진정한 인터랙티브 아바타 생성을 위해 실시간으로 사용자와 아바타 간의 상호작용을 모델링하고, 레이블 없는 데이터로 표현력 있는 반응을 학습하는 방법 개발",
+        "method": [
+            "Avatar Forcing이라는 새로운 프레임워크를 제안하여 확산 강제를 통해 실시간 사용자-아바타 상호작용을 모델링함(To address these challenges, we propose Avatar Forcing, a new framework for interactive head avatar generation that models real-time user-avatar interactions through diffusion forcing.)",
+            "사용자의 오디오와 모션 등을 포함하는 멀티모달 입력을 처리할 수 있도록 설계함(This design allows the avatar to process real-time multimodal inputs, including the user's audio and motion, with low latency for instant reactions.)",
+            "직접적인 선호 최적화 방법을 도입하여 레이블 없는 학습이 가능하도록 함(Furthermore, we introduce a direct preference optimization method that leverages synthetic losing samples constructed by dropping user conditions.)"
+        ],
+        "conclusion": "이 프레임워크는 약 500ms의 낮은 대기 시간으로 실시간 상호작용을 가능하게 하며, 기존 모델에 비해 6.8배의 속도 향상을 이루고, 반응적이고 표현력 있는 아바타 모션을 생성하여 80% 이상의 선호도를 얻음.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24330",
+            "authors": [
+                {
+                    "_id": "69560bcd832867f2535256fc",
+                    "name": "Yong Xien Chng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f2535256fd",
+                    "name": "Tao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f2535256fe",
+                    "name": "Wenwen Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f2535256ff",
+                    "name": "Xueheng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525700",
+                    "name": "Jiandong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525701",
+                    "name": "Haojia Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525702",
+                    "name": "Jiefan Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525703",
+                    "name": "Hewei Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525704",
+                    "name": "Hanming Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525705",
+                    "name": "Chengjun Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525706",
+                    "name": "Gao Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525707",
+                    "name": "Dahua Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69560bcd832867f253525708",
+                    "name": "Lewei Lu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-30T16:31:45.000Z",
+            "submittedOnDailyAt": "2026-01-05T00:14:32.572Z",
+            "title": "SenseNova-MARS: Empowering Multimodal Agentic Reasoning and Search via Reinforcement Learning",
+            "submittedOnDailyBy": {
+                "_id": "647d4f1236e109abce409c3b",
+                "avatarUrl": "/avatars/d166f5f8be666e96b522a0a0effd21c4.svg",
+                "isPro": false,
+                "fullname": "Wenwen Tong",
+                "user": "tongww",
+                "type": "user"
+            },
+            "summary": "While Vision-Language Models (VLMs) can solve complex tasks through agentic reasoning, their capabilities remain largely constrained to text-oriented chain-of-thought or isolated tool invocation. They fail to exhibit the human-like proficiency required to seamlessly interleave dynamic tool manipulation with continuous reasoning, particularly in knowledge-intensive and visually complex scenarios that demand coordinated external tools such as search and image cropping. In this work, we introduce SenseNova-MARS, a novel Multimodal Agentic Reasoning and Search framework that empowers VLMs with interleaved visual reasoning and tool-use capabilities via reinforcement learning (RL). Specifically, SenseNova-MARS dynamically integrates the image search, text search, and image crop tools to tackle fine-grained and knowledge-intensive visual understanding challenges. In the RL stage, we propose the Batch-Normalized Group Sequence Policy Optimization (BN-GSPO) algorithm to improve the training stability and advance the model's ability to invoke tools and reason effectively. To comprehensively evaluate the agentic VLMs on complex visual tasks, we introduce the HR-MMSearch benchmark, the first search-oriented benchmark composed of high-resolution images with knowledge-intensive and search-driven questions. Experiments demonstrate that SenseNova-MARS achieves state-of-the-art performance on open-source search and fine-grained image understanding benchmarks. Specifically, on search-oriented benchmarks, SenseNova-MARS-8B scores 67.84 on MMSearch and 41.64 on HR-MMSearch, surpassing proprietary models such as Gemini-3-Flash and GPT-5. SenseNova-MARS represents a promising step toward agentic VLMs by providing effective and robust tool-use capabilities. To facilitate further research in this field, we will release all code, models, and datasets.",
+            "upvotes": 29,
+            "discussionId": "69560bcd832867f253525709",
+            "githubRepo": "https://github.com/OpenSenseNova/SenseNova-MARS",
+            "githubRepoAddedBy": "user",
+            "githubStars": 21,
+            "organization": {
+                "_id": "64f0405f8a4cf3e5e6b38f9c",
+                "name": "sensenova",
+                "fullname": "SenseNova",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/652d06833b5997ed71ce5c46/k66xcOMf4NVbMSFulUjHY.png"
+            }
+        },
+        "translation_title": "SenseNova-MARS: 강화 학습을 통한 멀티모달 에이전트적 추론 및 검색 강화",
+        "purpose": "VLM이 복잡한 시각적 작업을 효과적으로 수행할 수 있도록 에이전트적 추론과 도구 사용 능력을 개선하기 위한 새로운 프레임워크 연구",
+        "method": [
+            "SenseNova-MARS를 도입하여 VLM에 시각적 추론과 도구 사용 능력을 통합함(we introduce SenseNova-MARS, a novel Multimodal Agentic Reasoning and Search framework that empowers VLMs with interleaved visual reasoning and tool-use capabilities)",
+            "Batch-Normalized Group Sequence Policy Optimization(BN-GSPO) 알고리즘을 통해 훈련의 안정성을 높이고 모델의 도구 호출 및 효과적 추론 능력을 향상시킴(we propose the Batch-Normalized Group Sequence Policy Optimization (BN-GSPO) algorithm to improve the training stability and advance the model's ability to invoke tools and reason effectively)",
+            "HR-MMSearch 벤치마크를 도입하여 에이전트적 VLM의 복잡한 시각적 작업에 대한 포괄적 평가를 수행함(we introduce the HR-MMSearch benchmark, the first search-oriented benchmark composed of high-resolution images with knowledge-intensive and search-driven questions)"
+        ],
+        "conclusion": "SenseNova-MARS는 오픈 소스 검색 및 세부적인 이미지 이해 벤치마크에서 최첨단 성능을 달성하였으며, 에이전트적 VLM으로서의 효과적인 도구 사용 능력을 제공한다.",
+        "keywords": [
+            "Vision-Language Models",
+            "Multimodal Learning",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2512.24271",
+            "authors": [
+                {
+                    "_id": "695b1d02832867f253525d50",
+                    "name": "Zhe Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d51",
+                    "name": "Hao Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d52",
+                    "user": {
+                        "_id": "6583a8bdaa85c512dac3be51",
+                        "avatarUrl": "/avatars/5ece6d142e85b58ea5f59b9af251ee02.svg",
+                        "isPro": false,
+                        "fullname": "aiming hao",
+                        "user": "HamHugging",
+                        "type": "user"
+                    },
+                    "name": "Aiming Hao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-05T08:27:32.637Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d53",
+                    "name": "Bingze Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d54",
+                    "name": "Meiqi Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d55",
+                    "name": "Jiahong Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d56",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d57",
+                    "name": "Sheng Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695b1d02832867f253525d58",
+                    "name": "Haoqian Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2025-12-30T14:53:33.000Z",
+            "submittedOnDailyAt": "2026-01-05T01:14:54.357Z",
+            "title": "Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Multimodal Large Language Models (MLLMs) have made remarkable progress in video understanding. However, they suffer from a critical vulnerability: an over-reliance on language priors, which can lead to visual ungrounded hallucinations, especially when processing counterfactual videos that defy common sense. This limitation, stemming from the intrinsic data imbalance between text and video, is challenging to address due to the substantial cost of collecting and annotating counterfactual data. To address this, we introduce DualityForge, a novel counterfactual data synthesis framework that employs controllable, diffusion-based video editing to transform real-world videos into counterfactual scenarios. By embedding structured contextual information into the video editing and QA generation processes, the framework automatically produces high-quality QA pairs together with original-edited video pairs for contrastive training. Based on this, we build DualityVidQA, a large-scale video dataset designed to reduce MLLM hallucinations. In addition, to fully exploit the contrastive nature of our paired data, we propose Duality-Normalized Advantage Training (DNA-Train), a two-stage SFT-RL training regime where the RL phase applies pair-wise ell_1 advantage normalization, thereby enabling a more stable and efficient policy optimization. Experiments on DualityVidQA-Test demonstrate that our method substantially reduces model hallucinations on counterfactual videos, yielding a relative improvement of 24.0% over the Qwen2.5-VL-7B baseline. Moreover, our approach achieves significant gains across both hallucination and general-purpose benchmarks, indicating strong generalization capability. We will open-source our dataset and code.",
+            "upvotes": 23,
+            "discussionId": "695b1d02832867f253525d59",
+            "projectPage": "https://amap-ml.github.io/Taming-Hallucinations/",
+            "githubRepo": "https://github.com/AMAP-ML/Taming-Hallucinations",
+            "githubRepoAddedBy": "user",
+            "githubStars": 29,
+            "organization": {
+                "_id": "67d11771890254196d3174e5",
+                "name": "GD-ML",
+                "fullname": "AMAP-ML",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/67d116c47be76de1a40873ca/s5ukAx9E36ZZIKvbpBRi4.png"
+            }
+        },
+        "translation_title": "환각 해소: MLLM의 비디오 이해를 향상시키기 위한 반사실적 비디오 생성",
+        "purpose": "MLLM의 비디오 이해에서 발생하는 환각 문제를 해결하고 성능을 향상시키기 위해 반사실적 데이터를 생성하는 방법 개발",
+        "method": [
+            "DualityForge라는 새로운 반사실적 데이터 합성 프레임워크를 소개하여, 실제 비디오를 반사실적 시나리오로 변환하는 제어 가능한 확산 기반 비디오 편집을 활용함(To address this, we introduce DualityForge, a novel counterfactual data synthesis framework that employs controllable, diffusion-based video editing to transform real-world videos into counterfactual scenarios.)",
+            "구조화된 맥락 정보를 비디오 편집 및 QA 생성 과정에 통합하여, 고품질의 QA 쌍과 원본-편집 비디오 쌍을 자동으로 생산함(By embedding structured contextual information into the video editing and QA generation processes, the framework automatically produces high-quality QA pairs together with original-edited video pairs for contrastive training.)",
+            "DNA-Train이라는 두 단계의 SFT-RL 훈련 체제를 제안하여, 더 안정적이고 효율적인 정책 최적화를 가능하게 함(In addition, to fully exploit the contrastive nature of our paired data, we propose Duality-Normalized Advantage Training (DNA-Train), a two-stage SFT-RL training regime where the RL phase applies pair-wise ell_1 advantage normalization.)"
+        ],
+        "conclusion": "우리의 방법은 반사실적 비디오에서 모델의 환각을 24.0% 감소시키고, 일반적인 벤치마크에서도 강력한 일반화 능력을 나타냄.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Video Generation"
+        ]
+    }
+]
