@@ -1,0 +1,546 @@
+[
+    {
+        "paper": {
+            "id": "2601.02151",
+            "authors": [
+                {
+                    "_id": "695f2d8a5fa3847525c41f8d",
+                    "user": {
+                        "_id": "6768c97367e4b4606a3c9cec",
+                        "avatarUrl": "/avatars/5ddafe7a05828366f66c79072556f370.svg",
+                        "isPro": false,
+                        "fullname": "diaomuxi",
+                        "user": "diaomuxi",
+                        "type": "user"
+                    },
+                    "name": "Muxi Diao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-08T08:31:56.507Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f8e",
+                    "user": {
+                        "_id": "666a6cf89a3e3ce05a519bcc",
+                        "avatarUrl": "/avatars/9e72481deec3bd5c5202e42c32894a32.svg",
+                        "isPro": false,
+                        "fullname": "杨乐乐",
+                        "user": "ssl-asuka",
+                        "type": "user"
+                    },
+                    "name": "Lele Yang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-08T08:31:51.246Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f8f",
+                    "user": {
+                        "_id": "64c0f972d76592ba899c2c9c",
+                        "avatarUrl": "/avatars/d6940beb135f99241c6fb2cf0e8ccdbe.svg",
+                        "isPro": false,
+                        "fullname": "GongWuxuan",
+                        "user": "Wuxuan-Gong",
+                        "type": "user"
+                    },
+                    "name": "Wuxuan Gong",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-08T08:44:19.470Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f90",
+                    "name": "Yutong Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f91",
+                    "user": {
+                        "_id": "64fbd4e69a62bb2791b3a665",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64fbd4e69a62bb2791b3a665/ZEMtU8O0z98ryeRCG3l_K.jpeg",
+                        "isPro": false,
+                        "fullname": "Zhonghao Yan",
+                        "user": "zzzyzh",
+                        "type": "user"
+                    },
+                    "name": "Zhonghao Yan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-08T08:31:53.904Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f92",
+                    "name": "Yufei Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f93",
+                    "user": {
+                        "_id": "67f4a56928cbc4f2f75c008d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/qoX8HT0JsjqW2OQoENSvg.png",
+                        "isPro": false,
+                        "fullname": "Kongming Liang",
+                        "user": "KongmingLiang",
+                        "type": "user"
+                    },
+                    "name": "Kongming Liang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-08T08:44:38.812Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f94",
+                    "name": "Weiran Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f2d8a5fa3847525c41f95",
+                    "name": "Zhanyu Ma",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-05T14:28:17.000Z",
+            "submittedOnDailyAt": "2026-01-08T01:42:04.476Z",
+            "title": "Entropy-Adaptive Fine-Tuning: Resolving Confident Conflicts to Mitigate Forgetting",
+            "submittedOnDailyBy": {
+                "_id": "666a6cf89a3e3ce05a519bcc",
+                "avatarUrl": "/avatars/9e72481deec3bd5c5202e42c32894a32.svg",
+                "isPro": false,
+                "fullname": "杨乐乐",
+                "user": "ssl-asuka",
+                "type": "user"
+            },
+            "summary": "Supervised Fine-Tuning (SFT) is the standard paradigm for domain adaptation, yet it frequently incurs the cost of catastrophic forgetting. In sharp contrast, on-policy Reinforcement Learning (RL) effectively preserves general capabilities. We investigate this discrepancy and identify a fundamental distributional gap: while RL aligns with the model's internal belief, SFT forces the model to fit external supervision. This mismatch often manifests as \"Confident Conflicts\" tokens characterized by low probability but low entropy. In these instances, the model is highly confident in its own prediction but is forced to learn a divergent ground truth, triggering destructive gradient updates. To address this, we propose Entropy-Adaptive Fine-Tuning (EAFT). Unlike methods relying solely on prediction probability, EAFT utilizes token-level entropy as a gating mechanism to distinguish between epistemic uncertainty and knowledge conflict. This allows the model to learn from uncertain samples while suppressing gradients on conflicting data. Extensive experiments on Qwen and GLM series (ranging from 4B to 32B parameters) across mathematical, medical, and agentic domains confirm our hypothesis. EAFT consistently matches the downstream performance of standard SFT while significantly mitigating the degradation of general capabilities.",
+            "upvotes": 59,
+            "discussionId": "695f2d8b5fa3847525c41f96",
+            "projectPage": "https://ymxyll.github.io/EAFT/",
+            "githubRepo": "https://github.com/PRIS-CV/EAFT",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Entropy-Adaptive Fine-Tuning addresses catastrophic forgetting in supervised fine-tuning by using token-level entropy to distinguish uncertainty from knowledge conflict, enabling better preservation of general capabilities.",
+            "ai_keywords": [
+                "supervised fine-tuning",
+                "catastrophic forgetting",
+                "on-policy reinforcement learning",
+                "distributional gap",
+                "Confident Conflicts",
+                "token-level entropy",
+                "epistemic uncertainty",
+                "knowledge conflict",
+                "gradient updates",
+                "downstream performance"
+            ],
+            "githubStars": 15,
+            "organization": {
+                "_id": "64283c0c68faf6ddab552684",
+                "name": "BUPT-PRIS",
+                "fullname": "BUPT AI PRIS"
+            }
+        },
+        "translation_title": "엔트로피 적응형 파인튜닝: 기억 상실을 완화하기 위한 자신감 충돌 해결",
+        "purpose": "도메인 적응을 위한 Supervised Fine-Tuning(SFT)에서 발생하는 기억 상실 문제를 해결하고자 함",
+        "method": [
+            "SFT와 Reinforcement Learning(RL) 간의 분포 차이를 조사하고, Confident Conflicts라는 문제를 정의함(In sharp contrast, on-policy Reinforcement Learning (RL) effectively preserves general capabilities. We investigate this discrepancy and identify a fundamental distributional gap.)",
+            "Entropy-Adaptive Fine-Tuning (EAFT) 방법을 제안하여 불확실한 샘플에서도 학습할 수 있도록 하고 충돌하는 데이터에 대한 그래디언트를 억제함(We propose Entropy-Adaptive Fine-Tuning (EAFT). Unlike methods relying solely on prediction probability, EAFT utilizes token-level entropy as a gating mechanism.)",
+            "다양한 도메인에서 Qwen 및 GLM 시리즈 모델을 활용한 광범위한 실험을 통해 가설을 검증함(Extensive experiments on Qwen and GLM series across mathematical, medical, and agentic domains confirm our hypothesis.)"
+        ],
+        "conclusion": "EAFT는 표준 SFT의 성능을 일관되게 유지하면서 일반적 능력의 저하를 효과적으로 완화함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.03509",
+            "authors": [
+                {
+                    "_id": "695fbc7d5b7998385e639349",
+                    "name": "Haochen Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "695fbc7d5b7998385e63934a",
+                    "name": "Xingdi Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "695fbc7d5b7998385e63934b",
+                    "name": "Bang Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/654a97282d2fcd6bf2851173/sAKIzhLgfcEhgVZMBkHRW.png"
+            ],
+            "publishedAt": "2026-01-07T01:43:25.000Z",
+            "submittedOnDailyAt": "2026-01-08T11:50:05.687Z",
+            "title": "Evolving Programmatic Skill Networks",
+            "submittedOnDailyBy": {
+                "_id": "654a97282d2fcd6bf2851173",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/654a97282d2fcd6bf2851173/9zXf940gr4WNt4e-oOt4k.png",
+                "isPro": false,
+                "fullname": "Bang Liu",
+                "user": "Bang-UdeM-Mila",
+                "type": "user"
+            },
+            "summary": "We study continual skill acquisition in open-ended embodied environments where an agent must construct, refine, and reuse an expanding library of executable skills. We introduce the Programmatic Skill Network (PSN), a framework in which skills are executable symbolic programs forming a compositional network that evolves through experience. PSN defines three core mechanisms instantiated via large language models: (1)REFLECT for structured fault localization over skill compositions, (2) progressive optimization with maturity-aware update gating that stabilizes reliable skills while maintaining plasticity for uncertain ones, and (3) canonical structural refactoring under rollback validation that maintains network compactness. We further show that PSN's learning dynamics exhibit structural parallels to neural network training. Experiments on MineDojo and Crafter demonstrate robust skill reuse, rapid adaptation, and strong generalization across open-ended task distributions.\\footnote{We plan to open-source the code.",
+            "upvotes": 31,
+            "discussionId": "695fbc7e5b7998385e63934c",
+            "ai_summary": "Programmatic Skill Network enables continual skill acquisition through executable symbolic programs that evolve via reflection, progressive optimization, and structural refactoring mechanisms.",
+            "ai_keywords": [
+                "Programmatic Skill Network",
+                "executable symbolic programs",
+                "skill composition",
+                "structured fault localization",
+                "progressive optimization",
+                "maturity-aware update gating",
+                "canonical structural refactoring",
+                "rollback validation",
+                "neural network training",
+                "skill reuse",
+                "rapid adaptation",
+                "generalization"
+            ],
+            "organization": {
+                "_id": "636e93488ba65db4a0987ab4",
+                "name": "Universite-de-Montreal",
+                "fullname": "Université de Montréal"
+            }
+        },
+        "translation_title": "진화하는 프로그램적 기술 네트워크",
+        "purpose": "에이전트가 확장 가능한 기술 라이브러리를 구축하고 활용할 수 있는 지속적인 기술 습득 연구",
+        "method": [
+            "Programmatic Skill Network(PSN)이라는 프레임워크를 도입하여 기술을 실행 가능한 상징적 프로그램의 구성 네트워크로 만든다.(We introduce the Programmatic Skill Network (PSN), a framework in which skills are executable symbolic programs forming a compositional network that evolves through experience.)",
+            "대형 언어 모델을 통해 RELECT, 성숙도 인지 업데이트 게이팅, 롤백 검증을 통한 구조적 리팩토링이라는 세 가지 핵심 메커니즘을 구현한다.(PSN defines three core mechanisms instantiated via large language models: (1)REFLECT for structured fault localization over skill compositions, (2) progressive optimization with maturity-aware update gating that stabilizes reliable skills while maintaining plasticity for uncertain ones, and (3) canonical structural refactoring under rollback validation that maintains network compactness.)",
+            "MineDojo와 Crafter에서 실험을 수행하여 강력한 기술 재사용 및 빠른 적응을 입증한다.(Experiments on MineDojo and Crafter demonstrate robust skill reuse, rapid adaptation, and strong generalization across open-ended task distributions.)"
+        ],
+        "conclusion": "PSN은 개방형 작업 분포에서 강력한 일반화와 빠른 적응을 입증하여 기술 활용의 개선을 가져왔다.",
+        "keywords": [
+            "Robotics",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.03872",
+            "authors": [
+                {
+                    "_id": "695f1a475fa3847525c41d06",
+                    "user": {
+                        "_id": "6747de57f8cab58c22ec94a2",
+                        "avatarUrl": "/avatars/5bae0341862fac24564781c0fa32aac5.svg",
+                        "isPro": false,
+                        "fullname": "Jinyang Wu",
+                        "user": "Jinyang23",
+                        "type": "user"
+                    },
+                    "name": "Jinyang Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-08T08:32:36.055Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d07",
+                    "name": "Guocheng Zhai",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d08",
+                    "name": "Ruihan Jin",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d09",
+                    "name": "Jiahao Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d0a",
+                    "name": "Yuhao Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d0b",
+                    "name": "Shuai Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d0c",
+                    "name": "Zhengqi Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f1a475fa3847525c41d0d",
+                    "name": "Jianhua Tao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-07T12:38:33.000Z",
+            "submittedOnDailyAt": "2026-01-08T04:50:03.287Z",
+            "title": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "6747de57f8cab58c22ec94a2",
+                "avatarUrl": "/avatars/5bae0341862fac24564781c0fa32aac5.svg",
+                "isPro": false,
+                "fullname": "Jinyang Wu",
+                "user": "Jinyang23",
+                "type": "user"
+            },
+            "summary": "The integration of large language models (LLMs) with external tools has significantly expanded the capabilities of AI agents. However, as the diversity of both LLMs and tools increases, selecting the optimal model-tool combination becomes a high-dimensional optimization challenge. Existing approaches often rely on a single model or fixed tool-calling logic, failing to exploit the performance variations across heterogeneous model-tool pairs. In this paper, we present ATLAS (Adaptive Tool-LLM Alignment and Synergistic Invocation), a dual-path framework for dynamic tool usage in cross-domain complex reasoning. ATLAS operates via a dual-path approach: (1) training-free cluster-based routing that exploits empirical priors for domain-specific alignment, and (2) RL-based multi-step routing that explores autonomous trajectories for out-of-distribution generalization. Extensive experiments across 15 benchmarks demonstrate that our method outperforms closed-source models like GPT-4o, surpassing existing routing methods on both in-distribution (+10.1%) and out-of-distribution (+13.1%) tasks. Furthermore, our framework shows significant gains in visual reasoning by orchestrating specialized multi-modal tools.",
+            "upvotes": 29,
+            "discussionId": "695f1a475fa3847525c41d0e",
+            "ai_summary": "ATLAS is a dual-path framework that dynamically selects optimal model-tool combinations for cross-domain reasoning through cluster-based routing and reinforcement learning-based multi-step routing, achieving superior performance on complex reasoning tasks.",
+            "ai_keywords": [
+                "large language models",
+                "external tools",
+                "model-tool combination",
+                "high-dimensional optimization",
+                "dual-path framework",
+                "training-free cluster-based routing",
+                "RL-based multi-step routing",
+                "cross-domain complex reasoning",
+                "domain-specific alignment",
+                "out-of-distribution generalization"
+            ]
+        },
+        "translation_title": "Atlas: 다양한 모델과 도구를 조직하여 다중 도메인 복합 추론 수행하기",
+        "purpose": "다양한 모델-도구 조합에서 최적의 성능을 선택하기 위한 동적 도구 사용 체계 구축",
+        "method": [
+            "크로스 도메인 복합 추론을 위해 ATLAS라는 이중 경로 프레임워크를 제시함(we present ATLAS (Adaptive Tool-LLM Alignment and Synergistic Invocation), a dual-path framework for dynamic tool usage in cross-domain complex reasoning.)",
+            "도메인별 정렬을 위해 경험적 우선순위를 활용한 교육 없는 클러스터 기반 라우팅을 사용함(ATLAS operates via a dual-path approach: (1) training-free cluster-based routing that exploits empirical priors for domain-specific alignment.)",
+            "RL 기반의 다단계 라우팅을 통해 자율적 경로 탐색을 수행함(and (2) RL-based multi-step routing that explores autonomous trajectories for out-of-distribution generalization.)"
+        ],
+        "conclusion": "ATLAS는 15개의 벤치마크에서 기존 모델보다 뛰어난 성능을 보이며, 비주얼 추론에서 중요한 향상을 기록함.",
+        "keywords": [
+            "Large Language Models",
+            "Multimodal Learning",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.03986",
+            "authors": [
+                {
+                    "_id": "695f290d5fa3847525c41d7d",
+                    "name": "Qi Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d7e",
+                    "user": {
+                        "_id": "62ea79dd01ed9b0e8f61ccd3",
+                        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                        "isPro": false,
+                        "fullname": "Chengsong Huang",
+                        "user": "ChengsongHuang",
+                        "type": "user"
+                    },
+                    "name": "Chengsong Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-08T08:31:58.524Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d7f",
+                    "name": "Jingwen Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d80",
+                    "name": "Changze Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d81",
+                    "name": "Muling Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d82",
+                    "name": "Wenhao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d83",
+                    "name": "Xiaohua Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d84",
+                    "name": "Zhenghua Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d85",
+                    "name": "Zisu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d86",
+                    "name": "Muzhao Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d87",
+                    "name": "Jianhan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d88",
+                    "name": "Kun Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d89",
+                    "name": "He-Da Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d8a",
+                    "name": "Yao Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d8b",
+                    "name": "Xuanjing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f290d5fa3847525c41d8c",
+                    "name": "Xiaoqing Zheng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-07T14:59:03.000Z",
+            "submittedOnDailyAt": "2026-01-08T01:59:31.547Z",
+            "title": "Benchmark^2: Systematic Evaluation of LLM Benchmarks",
+            "submittedOnDailyBy": {
+                "_id": "62ea79dd01ed9b0e8f61ccd3",
+                "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                "isPro": false,
+                "fullname": "Chengsong Huang",
+                "user": "ChengsongHuang",
+                "type": "user"
+            },
+            "summary": "The rapid proliferation of benchmarks for evaluating large language models (LLMs) has created an urgent need for systematic methods to assess benchmark quality itself. We propose Benchmark^2, a comprehensive framework comprising three complementary metrics: (1) Cross-Benchmark Ranking Consistency, measuring whether a benchmark produces model rankings aligned with peer benchmarks; (2) Discriminability Score, quantifying a benchmark's ability to differentiate between models; and (3) Capability Alignment Deviation, identifying problematic instances where stronger models fail but weaker models succeed within the same model family. We conduct extensive experiments across 15 benchmarks spanning mathematics, reasoning, and knowledge domains, evaluating 11 LLMs across four model families. Our analysis reveals significant quality variations among existing benchmarks and demonstrates that selective benchmark construction based on our metrics can achieve comparable evaluation performance with substantially reduced test sets.",
+            "upvotes": 27,
+            "discussionId": "695f290d5fa3847525c41d8d",
+            "ai_summary": "Researchers developed Benchmark^2, a framework with three metrics to evaluate benchmark quality for large language models, revealing significant variations in existing benchmarks and enabling more efficient evaluation through selective benchmark construction.",
+            "ai_keywords": [
+                "Benchmark^2",
+                "cross-benchmark ranking consistency",
+                "discriminability score",
+                "capability alignment deviation",
+                "large language models",
+                "benchmarks",
+                "model rankings",
+                "evaluation performance",
+                "test sets"
+            ]
+        },
+        "translation_title": "Benchmark^2: LLM 벤치마크의 체계적 평가",
+        "purpose": "LLM 벤치마크의 품질을 체계적으로 평가하기 위한 방법론 개발",
+        "method": [
+            "Cross-Benchmark Ranking Consistency를 통해 벤치마크가 동료 벤치마크에 맞춘 모델 순위를 생성하는지 측정함 (measuring whether a benchmark produces model rankings aligned with peer benchmarks.)",
+            "Discriminability Score를 사용하여 벤치마크가 모델 간의 차이를 구분하는 능력을 측정함 (quantifying a benchmark's ability to differentiate between models.)",
+            "Capability Alignment Deviation를 통해 같은 모델 패밀리 내에서 더 강한 모델이 실패하고 더 약한 모델이 성공하는 문제의 사례를 식별함 (identifying problematic instances where stronger models fail but weaker models succeed within the same model family.)"
+        ],
+        "conclusion": "우리의 분석 결과, 기존 벤치마크 간에 품질의 큰 차이가 있음을 발견하였고, 제안한 메트릭에 기반한 선택적 벤치마크 설계가 테스트 세트를 대폭 줄이면서도 비슷한 평가 성능을 달성할 수 있음을 입증하였음.",
+        "keywords": [
+            "Large Language Models",
+            "Benchmarking",
+            "Model Evaluation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.04151",
+            "authors": [
+                {
+                    "_id": "695f21355fa3847525c41d37",
+                    "name": "Jun Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d38",
+                    "name": "Chunyu Qiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d39",
+                    "name": "Yuxin Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d3a",
+                    "name": "Yiran Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d3b",
+                    "name": "Xijuan Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d3c",
+                    "name": "Chen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "695f21355fa3847525c41d3d",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-07T18:03:45.000Z",
+            "submittedOnDailyAt": "2026-01-08T01:07:20.425Z",
+            "title": "Klear: Unified Multi-Task Audio-Video Joint Generation",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Audio-video joint generation has progressed rapidly, yet substantial challenges still remain. Non-commercial approaches still suffer audio-visual asynchrony, poor lip-speech alignment, and unimodal degradation, which can be stemmed from weak audio-visual correspondence modeling, limited generalization, and scarce high-quality dense-caption data. To address these issues, we introduce Klear and delve into three axes--model architecture, training strategy, and data curation. Architecturally, we adopt a single-tower design with unified DiT blocks and an Omni-Full Attention mechanism, achieving tight audio-visual alignment and strong scalability. Training-wise, we adopt a progressive multitask regime--random modality masking to joint optimization across tasks, and a multistage curriculum, yielding robust representations, strengthening A-V aligned world knowledge, and preventing unimodal collapse. For datasets, we present the first large-scale audio-video dataset with dense captions, and introduce a novel automated data-construction pipeline which annotates and filters millions of diverse, high-quality, strictly aligned audio-video-caption triplets. Building on this, Klear scales to large datasets, delivering high-fidelity, semantically and temporally aligned, instruction-following generation in both joint and unimodal settings while generalizing robustly to out-of-distribution scenarios. Across tasks, it substantially outperforms prior methods by a large margin and achieves performance comparable to Veo 3, offering a unified, scalable path toward next-generation audio-video synthesis.",
+            "upvotes": 9,
+            "discussionId": "695f21365fa3847525c41d3e",
+            "ai_summary": "Klear addresses audio-video joint generation challenges through a unified model architecture, progressive multitask training, and large-scale dense-caption data construction, achieving superior alignment and generalization.",
+            "ai_keywords": [
+                "audio-visual correspondence modeling",
+                "DiT blocks",
+                "Omni-Full Attention mechanism",
+                "random modality masking",
+                "multistage curriculum",
+                "unimodal collapse",
+                "dense-caption data",
+                "automated data-construction pipeline",
+                "audio-video joint generation",
+                "instruction-following generation"
+            ],
+            "organization": {
+                "_id": "662c559b322afcbae51b3c8b",
+                "name": "KlingTeam",
+                "fullname": "Kling Team",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+            }
+        },
+        "translation_title": "Klear: 통합 멀티태스크 오디오-비디오 공동 생성",
+        "purpose": "오디오-비디오 생성에서 발생하는 다양한 문제를 해결하기 위한 통합 모델 및 데이터 커링 방법 연구",
+        "method": [
+            "하나의 타워 디자인에 통합된 DiT 블록과 Omni-Full Attention 메커니즘을 채택하여 오디오-비주얼 정렬을 강화하고 확장성을 높임(Architecturally, we adopt a single-tower design with unified DiT blocks and an Omni-Full Attention mechanism, achieving tight audio-visual alignment and strong scalability.)",
+            "진행형 멀티태스크 체계를 도입하고, 랜덤 모드 마스킹을 사용하여 작업 간의 공동 최적화를 수행함(Training-wise, we adopt a progressive multitask regime--random modality masking to joint optimization across tasks.)",
+            "첫 번째 대규모 오디오-비디오 데이터셋을 제시하고 고품질의 엄격하게 정렬된 오디오-비디오-캡션 트리플렛을 자동으로 주석 달고 필터링하는 새로운 데이터 구축 파이프라인을 소개함(For datasets, we present the first large-scale audio-video dataset with dense captions, and introduce a novel automated data-construction pipeline which annotates and filters millions of diverse, high-quality, strictly aligned audio-video-caption triplets.)"
+        ],
+        "conclusion": "Klear는 대규모 데이터셋에 확장 가능하며, 오디오-비디오 생성을 통해 기존 방법보다 상당한 성능 향상을 이루고 Veo 3과 비교되는 성능을 달성함.",
+        "keywords": [
+            "Computer Vision",
+            "Video Generation",
+            "Multimodal Learning"
+        ]
+    }
+]
