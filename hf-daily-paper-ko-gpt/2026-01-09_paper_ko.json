@@ -1,0 +1,551 @@
+[
+    {
+        "paper": {
+            "id": "2601.05242",
+            "authors": [
+                {
+                    "_id": "69607a225b7998385e63952a",
+                    "user": {
+                        "_id": "62b58c68a1bae3c711c41321",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b58c68a1bae3c711c41321/FGQ1ifsPpmRi8P0ElxV5J.png",
+                        "isPro": false,
+                        "fullname": "LIU Shih-yang",
+                        "user": "sliuau",
+                        "type": "user"
+                    },
+                    "name": "Shih-Yang Liu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:35:01.190Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e63952b",
+                    "name": "Xin Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e63952c",
+                    "user": {
+                        "_id": "640928bd3461c51cf7378707",
+                        "avatarUrl": "/avatars/b29fcb7388b81f8686086352f6321d06.svg",
+                        "isPro": false,
+                        "fullname": "Ximing Lu",
+                        "user": "Ximing",
+                        "type": "user"
+                    },
+                    "name": "Ximing Lu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-09T08:49:57.401Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e63952d",
+                    "name": "Shizhe Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e63952e",
+                    "name": "Peter Belcak",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e63952f",
+                    "name": "Mingjie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639530",
+                    "user": {
+                        "_id": "64ae22dd1aee69ece065cdcd",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ae22dd1aee69ece065cdcd/JG7QaHIrr4i2k4uwR4pZK.png",
+                        "isPro": false,
+                        "fullname": "Min-Hung Chen",
+                        "user": "cmhungsteve",
+                        "type": "user"
+                    },
+                    "name": "Min-Hung Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:35:03.130Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639531",
+                    "name": "Hongxu Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639532",
+                    "name": "Yu-Chiang Frank Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639533",
+                    "name": "Kwang-Ting Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639534",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639535",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "69607a225b7998385e639536",
+                    "name": "Pavlo Molchanov",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-08T18:59:24.000Z",
+            "submittedOnDailyAt": "2026-01-09T01:16:50.715Z",
+            "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+            "submittedOnDailyBy": {
+                "_id": "62b58c68a1bae3c711c41321",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b58c68a1bae3c711c41321/FGQ1ifsPpmRi8P0ElxV5J.png",
+                "isPro": false,
+                "fullname": "LIU Shih-yang",
+                "user": "sliuau",
+                "type": "user"
+            },
+            "summary": "As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each capturing a distinct preference, to guide models toward these desired behaviors. However, recent work has defaulted to apply Group Relative Policy Optimization (GRPO) under multi-reward setting without examining its suitability. In this paper, we demonstrate that directly applying GRPO to normalize distinct rollout reward combinations causes them to collapse into identical advantage values, reducing the resolution of the training signal and resulting in suboptimal convergence and, in some cases, early training failure. We then introduce Group reward-Decoupled Normalization Policy Optimization (GDPO), a new policy optimization method to resolve these issues by decoupling the normalization of individual rewards, more faithfully preserving their relative differences and enabling more accurate multi-reward optimization, along with substantially improved training stability. We compare GDPO with GRPO across three tasks: tool calling, math reasoning, and coding reasoning, evaluating both correctness metrics (accuracy, bug ratio) and constraint adherence metrics (format, length). Across all settings, GDPO consistently outperforms GRPO, demonstrating its effectiveness and generalizability for multi-reward reinforcement learning optimization.",
+            "upvotes": 80,
+            "discussionId": "69607a225b7998385e639537",
+            "projectPage": "https://nvlabs.github.io/GDPO/",
+            "githubRepo": "https://github.com/NVlabs/GDPO",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Multi-reward reinforcement learning suffers from reward normalization collapse in GRPO, which GDPO addresses by decoupling reward normalization for improved training stability and performance across reasoning tasks.",
+            "ai_keywords": [
+                "Reinforcement learning",
+                "Group Relative Policy Optimization",
+                "multi-reward setting",
+                "policy optimization",
+                "Group reward-Decoupled Normalization Policy Optimization",
+                "reward normalization",
+                "advantage values",
+                "training stability",
+                "multi-reward reinforcement learning"
+            ],
+            "githubStars": 43,
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "GDPO: 다중 보상 RL 최적화를 위한 그룹 보상-분리 정규화 정책 최적화",
+        "purpose": "다양한 인간 선호를 반영한 정확한 행동을 제공하기 위한 다중 보상 RL 최적화 방법 개발",
+        "method": [
+            "GRPO를 다중 보상 설정에서 직접 적용할 때 발생하는 문제를 분석함(we demonstrate that directly applying GRPO to normalize distinct rollout reward combinations causes them to collapse into identical advantage values.)",
+            "GDPO라는 새로운 정책 최적화 방법을 도입하여 개별 보상의 정규화를 분리하고, 상대 차이를 정확하게 유지하도록 함(we introduce Group reward-Decoupled Normalization Policy Optimization (GDPO), a new policy optimization method to resolve these issues by decoupling the normalization of individual rewards.)",
+            "GDPO의 성능을 도구 호출, 수학 추론, 코딩 추론의 세 가지 작업에서 GRPO와 비교함(We compare GDPO with GRPO across three tasks: tool calling, math reasoning, and coding reasoning.)"
+        ],
+        "conclusion": "GDPO는 GRPO보다 항상 우수한 성능을 보이며, 다중 보상 강화 학습 최적화를 위한 효과적이고 일반적인 방법임.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Policy Optimization",
+            "Multi-reward"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.04890",
+            "authors": [
+                {
+                    "_id": "69608e7c5b7998385e639583",
+                    "name": "Maksim Velikanov",
+                    "hidden": false
+                },
+                {
+                    "_id": "69608e7c5b7998385e639584",
+                    "name": "Ilyas Chahed",
+                    "hidden": false
+                },
+                {
+                    "_id": "69608e7c5b7998385e639585",
+                    "user": {
+                        "_id": "6460c3811db65f878513bcaf",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6460c3811db65f878513bcaf/CRdJ8lXixDku3k8Rm5Stn.jpeg",
+                        "isPro": false,
+                        "fullname": "Jingwei Zuo",
+                        "user": "JingweiZuo",
+                        "type": "user"
+                    },
+                    "name": "Jingwei Zuo",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:34:49.874Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69608e7c5b7998385e639586",
+                    "name": "Dhia Eddine Rhaiem",
+                    "hidden": false
+                },
+                {
+                    "_id": "69608e7c5b7998385e639587",
+                    "user": {
+                        "_id": "62441d1d9fdefb55a0b7d12c",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1648631057413-noauth.png",
+                        "isPro": false,
+                        "fullname": "Younes B",
+                        "user": "ybelkada",
+                        "type": "user"
+                    },
+                    "name": "Younes Belkada",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:34:47.914Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69608e7c5b7998385e639588",
+                    "name": "Hakim Hacid",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-08T12:41:49.000Z",
+            "submittedOnDailyAt": "2026-01-09T02:55:50.938Z",
+            "title": "Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers",
+            "submittedOnDailyBy": {
+                "_id": "6460c3811db65f878513bcaf",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6460c3811db65f878513bcaf/CRdJ8lXixDku3k8Rm5Stn.jpeg",
+                "isPro": false,
+                "fullname": "Jingwei Zuo",
+                "user": "JingweiZuo",
+                "type": "user"
+            },
+            "summary": "Applying weight decay (WD) to matrix layers is standard practice in large-language-model pretraining. Prior work suggests that stochastic gradient noise induces a Brownian-like expansion of the weight matrices W, whose growth is counteracted by WD, leading to a WD-noise equilibrium with a certain weight norm ||W||. In this work, we view the equilibrium norm as a harmful artifact of the training procedure, and address it by introducing learnable multipliers to learn the optimal scale. First, we attach a learnable scalar multiplier to W and confirm that the WD-noise equilibrium norm is suboptimal: the learned scale adapts to data and improves performance. We then argue that individual row and column norms are similarly constrained, and free their scale by introducing learnable per-row and per-column multipliers. Our method can be viewed as a learnable, more expressive generalization of muP multipliers. It outperforms a well-tuned muP baseline, reduces the computational overhead of multiplier tuning, and surfaces practical questions such as forward-pass symmetries and the width-scaling of the learned multipliers. Finally, we validate learnable multipliers with both Adam and Muon optimizers, where it shows improvement in downstream evaluations matching the improvement of the switching from Adam to Muon.",
+            "upvotes": 27,
+            "discussionId": "69608e7c5b7998385e639589",
+            "projectPage": "https://tiiuae.github.io/Falcon-H1/",
+            "githubRepo": "https://github.com/tiiuae/falcon-h1",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Learnable multipliers are introduced to address weight decay-induced normalization artifacts in large language model training, outperforming traditional methods while reducing computational overhead.",
+            "ai_keywords": [
+                "weight decay",
+                "stochastic gradient noise",
+                "Brownian-like expansion",
+                "WD-noise equilibrium",
+                "learnable multipliers",
+                "matrix layers",
+                "weight norm",
+                "muP multipliers",
+                "Adam optimizer",
+                "Muon optimizer"
+            ],
+            "githubStars": 98,
+            "organization": {
+                "_id": "6448cad23adf50d86406b0a3",
+                "name": "tiiuae",
+                "fullname": "Technology Innovation Institute",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61a8d1aac664736898ffc84f/AT6cAB5ZNwCcqFMal71WD.jpeg"
+            }
+        },
+        "translation_title": "학습 가능한 곱셈기: 언어 모델 행렬 층의 스케일 해방",
+        "purpose": "대규모 언어 모델 사전 훈련에서의 가중치 감소 방식의 문제 해결 및 성능 향상 목적",
+        "method": [
+            "행렬 W에 학습 가능한 스칼라 곱셈기를 부착하여 가중치 감소 노이즈 평형을 최적화함(we view the equilibrium norm as a harmful artifact of the training procedure, and address it by introducing learnable multipliers to learn the optimal scale.)",
+            "열과 행의 개별 노름을 해제하기 위해 학습 가능한 곱셈기를 도입함(we then argue that individual row and column norms are similarly constrained, and free their scale by introducing learnable per-row and per-column multipliers.)",
+            "우리의 방법은 muP 곱셈기의 학습 가능한 표현으로 볼 수 있으며, 잘 조정된 muP 기준선보다 성능이 뛰어났음(It outperforms a well-tuned muP baseline)."
+        ],
+        "conclusion": "학습 가능한 곱셈기는 다운스트림 평가에서 성능을 향상시키며, Adam과 Muon 옵티마이저 모두에서 효과를 검증함.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.05249",
+            "authors": [
+                {
+                    "_id": "6960a8ce5b7998385e639615",
+                    "user": {
+                        "_id": "676ce504027822ead2b5f193",
+                        "avatarUrl": "/avatars/91de797fc4a971a481b2dce82b579f66.svg",
+                        "isPro": false,
+                        "fullname": "YuanKangNeilLee",
+                        "user": "NeilLeeNTU",
+                        "type": "user"
+                    },
+                    "name": "Yuan-Kang Lee",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:24:03.428Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960a8ce5b7998385e639616",
+                    "name": "Kuan-Lin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960a8ce5b7998385e639617",
+                    "name": "Chia-Che Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960a8ce5b7998385e639618",
+                    "name": "Yu-Lun Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/-GwLalmxp_ctrLFDuUq73.webp"
+            ],
+            "publishedAt": "2026-01-08T18:59:55.000Z",
+            "submittedOnDailyAt": "2026-01-09T04:35:57.571Z",
+            "title": "RL-AWB: Deep Reinforcement Learning for Auto White Balance Correction in Low-Light Night-time Scenes",
+            "submittedOnDailyBy": {
+                "_id": "6459d5da3b6fafd9664807ab",
+                "avatarUrl": "/avatars/57430d1bbde3a2fe5586e5fbcafb0e74.svg",
+                "isPro": false,
+                "fullname": "Yu-Lun Liu",
+                "user": "yulunliu",
+                "type": "user"
+            },
+            "summary": "Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions. We present RL-AWB, a novel framework combining statistical methods with deep reinforcement learning for nighttime white balance. Our method begins with a statistical algorithm tailored for nighttime scenes, integrating salient gray pixel detection with novel illumination estimation. Building on this foundation, we develop the first deep reinforcement learning approach for color constancy that leverages the statistical algorithm as its core, mimicking professional AWB tuning experts by dynamically optimizing parameters for each image. To facilitate cross-sensor evaluation, we introduce the first multi-sensor nighttime dataset. Experiment results demonstrate that our method achieves superior generalization capability across low-light and well-illuminated images. Project page: https://ntuneillee.github.io/research/rl-awb/",
+            "upvotes": 23,
+            "discussionId": "6960a8ce5b7998385e639619",
+            "projectPage": "https://ntuneillee.github.io/research/rl-awb/",
+            "githubRepo": "https://github.com/BrianChen1120/RL-AWB",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "A novel nighttime color constancy framework combines statistical methods with deep reinforcement learning to improve white balance adjustment under low-light conditions.",
+            "ai_keywords": [
+                "deep reinforcement learning",
+                "color constancy",
+                "white balance",
+                "statistical algorithms",
+                "illumination estimation",
+                "multi-sensor dataset"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "RL-AWB: 저조도 야간 장면에서 자동 화이트 밸런스 수정을 위한 심층 강화 학습",
+        "purpose": "저조도 야간 장면에서 화이트 밸런스를 최적화하여 색상 일관성 문제를 해결하고자 함",
+        "method": [
+            "야간 장면에 맞춘 통계 알고리즘을 사용하여 두드러진 회색 픽셀 탐지와 조명 추정을 결합함(Nighttime color constancy remains a challenging problem in computational photography due to low-light noise and complex illumination conditions.)",
+            "통계 알고리즘을 핵심으로 삼아 전문 AWB 조정 전문가를 모방하며 이미지를 위해 매개변수를 동적으로 최적화하는 심층 강화 학습 접근 방식을 개발함(Building on this foundation, we develop the first deep reinforcement learning approach for color constancy that leverages the statistical algorithm as its core.)",
+            "다양한 센서 간 평가를 위해 최초의 다중 센서 야간 데이터셋을 도입함(To facilitate cross-sensor evaluation, we introduce the first multi-sensor nighttime dataset.)"
+        ],
+        "conclusion": "우리의 방법은 저조도 및 조명이 잘 되어 있는 이미지에서 우수한 일반화 능력을 기록함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Understanding",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.05241",
+            "authors": [
+                {
+                    "_id": "6960775a5b7998385e6394ff",
+                    "user": {
+                        "_id": "64ed876a74d9b58eabc769a4",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ed876a74d9b58eabc769a4/K4bJVW0FlqRtAAxJBJifR.jpeg",
+                        "isPro": true,
+                        "fullname": "Boyang Wang",
+                        "user": "HikariDawn",
+                        "type": "user"
+                    },
+                    "name": "Boyang Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:35:11.481Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639500",
+                    "name": "Haoran Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639501",
+                    "name": "Shujie Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639502",
+                    "user": {
+                        "_id": "64edb581067fbb625f893628",
+                        "avatarUrl": "/avatars/d59893d6f1f752bb73255bd78b325fe9.svg",
+                        "isPro": false,
+                        "fullname": "hao",
+                        "user": "wuzhi-hao",
+                        "type": "user"
+                    },
+                    "name": "Jinkun Hao",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:35:09.450Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639503",
+                    "name": "Mingda Jia",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639504",
+                    "name": "Qi Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639505",
+                    "name": "Yucheng Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639506",
+                    "name": "Zhaoyang Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639507",
+                    "name": "Jia Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639508",
+                    "name": "Xudong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960775a5b7998385e639509",
+                    "name": "Jiangmiao Pang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-08T18:59:22.000Z",
+            "submittedOnDailyAt": "2026-01-09T02:54:13.651Z",
+            "title": "RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation",
+            "submittedOnDailyBy": {
+                "_id": "64ed876a74d9b58eabc769a4",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ed876a74d9b58eabc769a4/K4bJVW0FlqRtAAxJBJifR.jpeg",
+                "isPro": true,
+                "fullname": "Boyang Wang",
+                "user": "HikariDawn",
+                "type": "user"
+            },
+            "summary": "The diversity, quantity, and quality of manipulation data are critical for training effective robot policies. However, due to hardware and physical setup constraints, collecting large-scale real-world manipulation data remains difficult to scale across diverse environments. Recent work uses text-prompt conditioned image diffusion models to augment manipulation data by altering the backgrounds and tabletop objects in the visual observations. However, these approaches often overlook the practical need for multi-view and temporally coherent observations required by state-of-the-art policy models. Further, text prompts alone cannot reliably specify the scene setup. To provide the diffusion model with explicit visual guidance, we introduce visual identity prompting, which supplies exemplar images as conditioning inputs to guide the generation of the desired scene setup. To this end, we also build a scalable pipeline to curate a visual identity pool from large robotics datasets. Using our augmented manipulation data to train downstream vision-language-action and visuomotor policy models yields consistent performance gains in both simulation and real-robot settings.",
+            "upvotes": 19,
+            "discussionId": "6960775a5b7998385e63950a",
+            "projectPage": "https://robovip.github.io/RoboVIP/",
+            "githubRepo": "https://github.com/RoboVIP/RoboVIP_VDM",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Visual identity prompting enhances manipulation data augmentation for robot policies by providing explicit visual guidance to diffusion models, improving policy performance in both simulation and real-world settings.",
+            "ai_keywords": [
+                "image diffusion models",
+                "visual identity prompting",
+                "manipulation data",
+                "vision-language-action models",
+                "visuomotor policy models",
+                "visual identity pool"
+            ],
+            "githubStars": 7
+        },
+        "translation_title": "RoboVIP: 시각적 정체성을 활용한 다중 시점 비디오 생성으로 로봇 조작 향상",
+        "purpose": "효과적인 로봇 정책을 위한 다변화된 조작 데이터의 양과 질을 향상시키기 위한 연구",
+        "method": [
+            "텍스트 프롬프트 조건의 이미지 확산 모델을 사용해 조작 데이터를 보강하고 배경과 테이블 오브젝트를 변경함(Recent work uses text-prompt conditioned image diffusion models to augment manipulation data by altering the backgrounds and tabletop objects in the visual observations.)",
+            "비디오 생성의 시나리오 설정을 명확히 하기 위해 시각적 정체성 프롬프트를 도입하여 예시 이미지를 생성의 조건 입력으로 제공함(To provide the diffusion model with explicit visual guidance, we introduce visual identity prompting, which supplies exemplar images as conditioning inputs to guide the generation of the desired scene setup.)",
+            "로봇 데이터 세트에서 시각적 정체성 풀을 구성하기 위한 스케일러블 파이프라인을 구축함(To this end, we also build a scalable pipeline to curate a visual identity pool from large robotics datasets.)"
+        ],
+        "conclusion": "증강된 조작 데이터를 활용해 비전-언어-행동 및 비주얼 모터 정책 모델을 훈련시키고, 시뮬레이션과 실제 로봇 환경 모두에서 일관된 성능 향상을 달성함.",
+        "keywords": [
+            "Robotics",
+            "Video Generation",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.05167",
+            "authors": [
+                {
+                    "_id": "69606c325b7998385e639481",
+                    "user": {
+                        "_id": "62ea79dd01ed9b0e8f61ccd3",
+                        "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                        "isPro": false,
+                        "fullname": "Chengsong Huang",
+                        "user": "ChengsongHuang",
+                        "type": "user"
+                    },
+                    "name": "Chengsong Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T08:35:21.851Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69606c325b7998385e639482",
+                    "name": "Tong Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69606c325b7998385e639483",
+                    "name": "Langlin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69606c325b7998385e639484",
+                    "name": "Jinyuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69606c325b7998385e639485",
+                    "name": "Haolin Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69606c325b7998385e639486",
+                    "name": "Jiaxin Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-08T17:56:16.000Z",
+            "submittedOnDailyAt": "2026-01-09T00:17:45.320Z",
+            "title": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+            "submittedOnDailyBy": {
+                "_id": "62ea79dd01ed9b0e8f61ccd3",
+                "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                "isPro": false,
+                "fullname": "Chengsong Huang",
+                "user": "ChengsongHuang",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) for complex reasoning is often hindered by high computational costs and latency, while resource-efficient Small Language Models (SLMs) typically lack the necessary reasoning capacity. Existing collaborative approaches, such as cascading or routing, operate at a coarse granularity by offloading entire queries to LLMs, resulting in significant computational waste when the SLM is capable of handling the majority of reasoning steps. To address this, we propose RelayLLM, a novel framework for efficient reasoning via token-level collaborative decoding. Unlike routers, RelayLLM empowers the SLM to act as an active controller that dynamically invokes the LLM only for critical tokens via a special command, effectively \"relaying\" the generation process. We introduce a two-stage training framework, including warm-up and Group Relative Policy Optimization (GRPO) to teach the model to balance independence with strategic help-seeking. Empirical results across six benchmarks demonstrate that RelayLLM achieves an average accuracy of 49.52%, effectively bridging the performance gap between the two models. Notably, this is achieved by invoking the LLM for only 1.07% of the total generated tokens, offering a 98.2% cost reduction compared to performance-matched random routers.",
+            "upvotes": 17,
+            "discussionId": "69606c325b7998385e639487",
+            "githubRepo": "https://github.com/Chengsong-Huang/RelayLLM",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "RelayLLM enables efficient collaborative reasoning between small and large language models through token-level dynamic invocation, achieving high accuracy with minimal computational overhead.",
+            "ai_keywords": [
+                "Large Language Models",
+                "Small Language Models",
+                "collaborative decoding",
+                "token-level collaboration",
+                "Group Relative Policy Optimization",
+                "policy optimization",
+                "dynamic invocation",
+                "computational efficiency",
+                "reasoning capacity"
+            ],
+            "githubStars": 4
+        },
+        "translation_title": "RelayLLM: 협동 디코딩을 통한 효율적인 추론",
+        "purpose": "복잡한 추론에서 Large Language Models(LLMs)의 높은 계산 비용과 지연 시간을 극복하고, Small Language Models(SLMs)의 추론 능력을 향상시키기 위한 새로운 접근법을 제안하는 것",
+        "method": [
+            "RelayLLM이라는 새로운 프레임워크를 제안하여, 토큰 수준에서 협업 디코딩을 활용함(we propose RelayLLM, a novel framework for efficient reasoning via token-level collaborative decoding.)",
+            "SLM이 중요한 토큰에 대해서만 LLM을 호출하도록 설계하여 효율성을 높임(Unlike routers, RelayLLM empowers the SLM to act as an active controller that dynamically invokes the LLM only for critical tokens.)",
+            "두 단계의 훈련 프레임워크를 도입하여 모델이 독립성과 전략적 도움 요청을 균형 있게 조정하도록 교육함(We introduce a two-stage training framework, including warm-up and Group Relative Policy Optimization (GRPO) to teach the model to balance independence with strategic help-seeking.)"
+        ],
+        "conclusion": "RelayLLM은 두 모델 간의 성능 차이를 줄이며, 총 생성된 토큰의 1.07%만 LLM을 호출하여 98.2%의 비용 절감을 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
