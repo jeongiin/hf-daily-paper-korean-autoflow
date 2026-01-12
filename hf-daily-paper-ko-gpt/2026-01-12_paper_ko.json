@@ -1,0 +1,567 @@
+[
+    {
+        "paper": {
+            "id": "2601.05432",
+            "authors": [
+                {
+                    "_id": "69646268138cc47cbd76527e",
+                    "user": {
+                        "_id": "666a83e9b2d8397c1e545785",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/666a83e9b2d8397c1e545785/7PxrVl38zWUbjAsZThHHb.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuxiang Ji",
+                        "user": "Yux1ang",
+                        "type": "user"
+                    },
+                    "name": "Yuxiang Ji",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-12T10:34:41.283Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd76527f",
+                    "name": "Yong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765280",
+                    "name": "Ziyu Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765281",
+                    "name": "Yiming Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765282",
+                    "user": {
+                        "_id": "65003db8bef9b594656f8fa7",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65003db8bef9b594656f8fa7/L6cvPOAeBRnFnIQwWxYyf.png",
+                        "isPro": false,
+                        "fullname": "Hailang Huang",
+                        "user": "lerogo",
+                        "type": "user"
+                    },
+                    "name": "Hailang Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-12T10:34:39.368Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765283",
+                    "name": "Xuecai Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765284",
+                    "name": "Guanhua Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765285",
+                    "name": "Liaoni Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69646268138cc47cbd765286",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-08T23:47:30.000Z",
+            "submittedOnDailyAt": "2026-01-12T01:15:15.959Z",
+            "title": "Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "The image geolocalization task aims to predict the location where an image was taken anywhere on Earth using visual clues. Existing large vision-language model (LVLM) approaches leverage world knowledge, chain-of-thought reasoning, and agentic capabilities, but overlook a common strategy used by humans -- using maps. In this work, we first equip the model Thinking with Map ability and formulate it as an agent-in-the-map loop. We develop a two-stage optimization scheme for it, including agentic reinforcement learning (RL) followed by parallel test-time scaling (TTS). The RL strengthens the agentic capability of model to improve sampling efficiency, and the parallel TTS enables the model to explore multiple candidate paths before making the final prediction, which is crucial for geolocalization. To evaluate our method on up-to-date and in-the-wild images, we further present MAPBench, a comprehensive geolocalization training and evaluation benchmark composed entirely of real-world images. Experimental results show that our method outperforms existing open- and closed-source models on most metrics, specifically improving Acc@500m from 8.0\\% to 22.1\\% compared to Gemini-3-Pro with Google Search/Map grounded mode.",
+            "upvotes": 124,
+            "discussionId": "69646268138cc47cbd765287",
+            "projectPage": "https://amap-ml.github.io/Thinking-with-Map/",
+            "githubRepo": "https://github.com/AMAP-ML/Thinking-with-Map",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Large vision-language models are enhanced for image geolocalization by incorporating map-based reasoning and agent-in-the-map loop optimization, achieving superior accuracy compared to existing models.",
+            "ai_keywords": [
+                "vision-language model",
+                "geolocalization",
+                "chain-of-thought reasoning",
+                "agentic capabilities",
+                "agentic reinforcement learning",
+                "parallel test-time scaling",
+                "agent-in-the-map loop",
+                "MAPBench",
+                "Acc@500m"
+            ],
+            "githubStars": 102,
+            "organization": {
+                "_id": "64488b334988ee01f2a8d856",
+                "name": "alibaba-inc",
+                "fullname": "alibaba-inc",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/MX4wxQVaFm1A1wqnrL2WU.jpeg"
+            }
+        },
+        "translation_title": "Thinking with Map: 지도를 활용한 강화된 병렬 지도 증강 에이전트로 위치 추정하기",
+        "purpose": "지도를 사용한 인간의 전략을 활용하여 이미지 위치 추정 성능을 개선하는 것.",
+        "method": [
+            "Thinking with Map 능력을 모델에 장착하고, 이를 에이전트-인-지도 루프 형태로 구성함(we first equip the model Thinking with Map ability and formulate it as an agent-in-the-map loop).",
+            "강화 학습(RL)을 통한 에이전트 능력을 향상시키고, 테스트 시 병렬 확장을 포함한 두 단계 최적화 방안을 개발함(the two-stage optimization scheme for it, including agentic reinforcement learning (RL) followed by parallel test-time scaling (TTS)).",
+            "병렬 TTS를 통해 모델이 최종 예측을 하기 전에 여러 후보 경로를 탐색할 수 있도록 함(the parallel TTS enables the model to explore multiple candidate paths before making the final prediction)."
+        ],
+        "conclusion": "우리의 방법은 대부분의 지표에서 기존 모델을 초월했으며, 특히 Acc@500m을 8.0%에서 22.1%로 향상시켰음.",
+        "keywords": [
+            "Image Understanding",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.03017",
+            "authors": [
+                {
+                    "_id": "696488cc138cc47cbd765365",
+                    "name": "Jing Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765366",
+                    "name": "Qi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765367",
+                    "name": "Yunta Hsieh",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765368",
+                    "name": "Hui Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765369",
+                    "name": "Huajian Xin",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536a",
+                    "name": "Chaofan Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536b",
+                    "name": "Chenyang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536c",
+                    "name": "Hengyuan Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536d",
+                    "name": "Taiqiang Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536e",
+                    "name": "Zhen Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd76536f",
+                    "name": "Haochen Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765370",
+                    "name": "Zhongwei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765371",
+                    "name": "Lingpeng Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "696488cc138cc47cbd765372",
+                    "name": "Ngai Wong",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-06T13:42:51.000Z",
+            "submittedOnDailyAt": "2026-01-12T03:10:40.203Z",
+            "title": "MMFormalizer: Multimodal Autoformalization in the Wild",
+            "submittedOnDailyBy": {
+                "_id": "60851545a5da133ac6c38686",
+                "avatarUrl": "/avatars/d385fcc513acef80a3b711aa92d898e5.svg",
+                "isPro": false,
+                "fullname": "Jing Xiong",
+                "user": "menik1126",
+                "type": "user"
+            },
+            "summary": "Autoformalization, which translates natural language mathematics into formal statements to enable machine reasoning, faces fundamental challenges in the wild due to the multimodal nature of the physical world, where physics requires inferring hidden constraints (e.g., mass or energy) from visual elements. To address this, we propose MMFormalizer, which extends autoformalization beyond text by integrating adaptive grounding with entities from real-world mathematical and physical domains. MMFormalizer recursively constructs formal propositions from perceptually grounded primitives through recursive grounding and axiom composition, with adaptive recursive termination ensuring that every abstraction is supported by visual evidence and anchored in dimensional or axiomatic grounding. We evaluate MMFormalizer on a new benchmark, PhyX-AF, comprising 115 curated samples from MathVerse, PhyX, Synthetic Geometry, and Analytic Geometry, covering diverse multimodal autoformalization tasks. Results show that frontier models such as GPT-5 and Gemini-3-Pro achieve the highest compile and semantic accuracy, with GPT-5 excelling in physical reasoning, while geometry remains the most challenging domain. Overall, MMFormalizer provides a scalable framework for unified multimodal autoformalization, bridging perception and formal reasoning. To the best of our knowledge, this is the first multimodal autoformalization method capable of handling classical mechanics (derived from the Hamiltonian), as well as relativity, quantum mechanics, and thermodynamics. More details are available on our project page: MMFormalizer.github.io",
+            "upvotes": 89,
+            "discussionId": "696488cc138cc47cbd765373",
+            "projectPage": "https://mmformalizer.github.io/",
+            "ai_summary": "MMFormalizer enables multimodal autoformalization by integrating visual perception with formal mathematical reasoning, supporting complex physical domains from classical mechanics to quantum mechanics.",
+            "ai_keywords": [
+                "autoformalization",
+                "multimodal",
+                "perceptually grounded primitives",
+                "recursive grounding",
+                "axiom composition",
+                "adaptive recursive termination",
+                "dimensional grounding",
+                "axiomatic grounding",
+                "PhyX-AF",
+                "MathVerse",
+                "PhyX",
+                "Synthetic Geometry",
+                "Analytic Geometry",
+                "GPT-5",
+                "Gemini-3-Pro",
+                "classical mechanics",
+                "relativity",
+                "quantum mechanics",
+                "thermodynamics"
+            ]
+        },
+        "translation_title": "MMFormalizer: 다양한 환경에서의 다중모드 자동 형식화",
+        "purpose": "다양한 물리적 환경에서 자연어 수학을 기계적 추론이 가능한 형태로 전환하기 위한 자동 형식화 개선",
+        "method": [
+            "MMFormalizer를 제안하여 텍스트를 넘어 실제 수학 및 물리 분야의 엔티티와 적응적 기반을 통합함(To address this, we propose MMFormalizer, which extends autoformalization beyond text by integrating adaptive grounding with entities from real-world mathematical and physical domains.)",
+            "우리의 방법은 인식에 기반한 기본 단위로부터 형식적 명제를 재귀적으로 구성하며, 시각적 증거에 의해 지원됨을 보장함(MMFormalizer recursively constructs formal propositions from perceptually grounded primitives through recursive grounding and axiom composition, with adaptive recursive termination ensuring that every abstraction is supported by visual evidence.)",
+            "PhyX-AF라는 새로운 벤치마크에서 MMFormalizer를 평가하고, 다양한 다중모드 자동 형식화 작업을 포함함(We evaluate MMFormalizer on a new benchmark, PhyX-AF, comprising 115 curated samples from MathVerse, PhyX, Synthetic Geometry, and Analytic Geometry, covering diverse multimodal autoformalization tasks.)"
+        ],
+        "conclusion": "MMFormalizer는 지각과 형식적 추론을 연결하는 확장 가능한 다중모드 자동 형식화 프레임워크를 제공하며, 이 분야에서의 선도적인 모델들이 기계적 이해에서 높은 정확도를 보임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Natural Language Processing",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.06002",
+            "authors": [
+                {
+                    "_id": "6964644c138cc47cbd76529b",
+                    "user": {
+                        "_id": "636f526a6cd69d9a36ff2b53",
+                        "avatarUrl": "/avatars/8f2271a193fcac609d9be270552b5afa.svg",
+                        "isPro": false,
+                        "fullname": "Qiguang Chen",
+                        "user": "LightChen2333",
+                        "type": "user"
+                    },
+                    "name": "Qiguang Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-12T10:33:48.803Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd76529c",
+                    "name": "Yantao Du",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd76529d",
+                    "name": "Ziniu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd76529e",
+                    "name": "Jinhao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd76529f",
+                    "name": "Songyao Duan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a0",
+                    "name": "Jiarui Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a1",
+                    "name": "Minghao Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a2",
+                    "name": "Jiaheng Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a3",
+                    "name": "Tong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a4",
+                    "user": {
+                        "_id": "638efcf4c67af472d316d424",
+                        "avatarUrl": "/avatars/97a57859d7d87a3a8f1bb41d32a72bc2.svg",
+                        "isPro": false,
+                        "fullname": "Ge Zhang",
+                        "user": "zhangysk",
+                        "type": "user"
+                    },
+                    "name": "Ge Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-12T10:33:51.170Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a5",
+                    "name": "Libo Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a6",
+                    "name": "Wanxiang Che",
+                    "hidden": false
+                },
+                {
+                    "_id": "6964644c138cc47cbd7652a7",
+                    "name": "Wenhao Huang",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/636f526a6cd69d9a36ff2b53/zucZmtYcmLkZCc31rmCfq.png"
+            ],
+            "publishedAt": "2026-01-09T18:39:01.000Z",
+            "submittedOnDailyAt": "2026-01-12T01:02:27.368Z",
+            "title": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "636f526a6cd69d9a36ff2b53",
+                "avatarUrl": "/avatars/8f2271a193fcac609d9be270552b5afa.svg",
+                "isPro": false,
+                "fullname": "Qiguang Chen",
+                "user": "LightChen2333",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) often fail to learn effective long chain-of-thought (Long CoT) reasoning from human or non-Long-CoT LLMs imitation. To understand this, we propose that effective and learnable Long CoT trajectories feature stable molecular-like structures in unified view, which are formed by three interaction types: Deep-Reasoning (covalent-like), Self-Reflection (hydrogen-bond-like), and Self-Exploration (van der Waals-like). Analysis of distilled trajectories reveals these structures emerge from Long CoT fine-tuning, not keyword imitation. We introduce Effective Semantic Isomers and show that only bonds promoting fast entropy convergence support stable Long CoT learning, while structural competition impairs training. Drawing on these findings, we present Mole-Syn, a distribution-transfer-graph method that guides synthesis of effective Long CoT structures, boosting performance and RL stability across benchmarks.",
+            "upvotes": 35,
+            "discussionId": "6964644c138cc47cbd7652a8",
+            "ai_summary": "Large language models struggle with long chain-of-thought reasoning due to unstable structural patterns, but a molecular-inspired approach using effective semantic isomers and distribution-transfer-graph methods improves training stability and performance.",
+            "ai_keywords": [
+                "chain-of-thought",
+                "large language models",
+                "Long CoT",
+                "fine-tuning",
+                "entropy convergence",
+                "semantic isomers",
+                "distribution-transfer-graph",
+                "molecular-like structures",
+                "deep reasoning",
+                "self-reflection",
+                "self-exploration"
+            ],
+            "organization": {
+                "_id": "653b817d32c97d0655575872",
+                "name": "ByteDance",
+                "fullname": "ByteDance",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6535c9e88bde2fae19b6fb25/0clr54wj5Ly-RkYU9OXPp.png"
+            }
+        },
+        "translation_title": "사고의 분자 구조: 장기 연쇄 사고 추론의 위상 매핑",
+        "purpose": "효과적인 장기 연쇄 사고(Long CoT) 추론의 학습을 위한 안정적인 구조 이해",
+        "method": [
+            "안정적인 분자 같은 구조가 형성되는 세 가지 상호작용 유형을 제안함(Deep-Reasoning, Self-Reflection, Self-Exploration).",
+            "Long CoT 미세 조정이 이루어지는 경로 분석을 통해 이들 구조가 키워드 모방이 아닌 것으로 나타났음을 분석함.",
+            "효과적인 분자 동위체(Effective Semantic Isomers)를 도입하여 빠른 엔트로피 수렴을 촉진하는 결합만이 안정적인 Long CoT 학습을 지원한다고 제시함.",
+            "Mole-Syn이라는 배포-전이-그래프 방법을 제안하여 효과적인 Long CoT 구조의 합성을 안내함."
+        ],
+        "conclusion": "Mole-Syn 방법을 통해 여러 벤치마크에서 성능과 RL 안정성을 향상시킴.",
+        "keywords": [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.03319",
+            "authors": [
+                {
+                    "_id": "6960e7365b7998385e6396e3",
+                    "user": {
+                        "_id": "6761f183e5b85d453550147a",
+                        "avatarUrl": "/avatars/b071c0b1ee46955ee5ff38a3c3df457f.svg",
+                        "isPro": false,
+                        "fullname": "EldadMat",
+                        "user": "eldad929",
+                        "type": "user"
+                    },
+                    "name": "Eldad Matmon",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-09T15:45:52.792Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960e7365b7998385e6396e4",
+                    "name": "Amit Bracha",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960e7365b7998385e6396e5",
+                    "user": {
+                        "_id": "62b3e85bcbd2a402fc7804b1",
+                        "avatarUrl": "/avatars/63125ce8a1e20b8c6e836f223d24284f.svg",
+                        "isPro": false,
+                        "fullname": "noam rotstein",
+                        "user": "noamrot",
+                        "type": "user"
+                    },
+                    "name": "Noam Rotstein",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-12T10:36:06.891Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6960e7365b7998385e6396e6",
+                    "name": "Ron Kimmel",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-06T13:56:28.000Z",
+            "submittedOnDailyAt": "2026-01-12T03:43:15.850Z",
+            "title": "CaricatureGS: Exaggerating 3D Gaussian Splatting Faces With Gaussian Curvature",
+            "submittedOnDailyBy": {
+                "_id": "6761f183e5b85d453550147a",
+                "avatarUrl": "/avatars/b071c0b1ee46955ee5ff38a3c3df457f.svg",
+                "isPro": false,
+                "fullname": "EldadMat",
+                "user": "eldad929",
+                "type": "user"
+            },
+            "summary": "A photorealistic and controllable 3D caricaturization framework for faces is introduced. We start with an intrinsic Gaussian curvature-based surface exaggeration technique, which, when coupled with texture, tends to produce over-smoothed renders. To address this, we resort to 3D Gaussian Splatting (3DGS), which has recently been shown to produce realistic free-viewpoint avatars. Given a multiview sequence, we extract a FLAME mesh, solve a curvature-weighted Poisson equation, and obtain its exaggerated form. However, directly deforming the Gaussians yields poor results, necessitating the synthesis of pseudo-ground-truth caricature images by warping each frame to its exaggerated 2D representation using local affine transformations. We then devise a training scheme that alternates real and synthesized supervision, enabling a single Gaussian collection to represent both natural and exaggerated avatars. This scheme improves fidelity, supports local edits, and allows continuous control over the intensity of the caricature. In order to achieve real-time deformations, an efficient interpolation between the original and exaggerated surfaces is introduced. We further analyze and show that it has a bounded deviation from closed-form solutions. In both quantitative and qualitative evaluations, our results outperform prior work, delivering photorealistic, geometry-controlled caricature avatars.",
+            "upvotes": 32,
+            "discussionId": "6960e7365b7998385e6396e7",
+            "projectPage": "https://c4ricaturegs.github.io/",
+            "ai_summary": "A photorealistic 3D caricaturization framework combines Gaussian curvature-based surface exaggeration with 3D Gaussian Splatting to create controllable, realistic avatars with improved fidelity and real-time deformation capabilities.",
+            "ai_keywords": [
+                "3D Gaussian Splatting",
+                "FLAME mesh",
+                "curvature-weighted Poisson equation",
+                "pseudo-ground-truth caricature images",
+                "local affine transformations",
+                "real-time deformations",
+                "closed-form solutions"
+            ],
+            "organization": {
+                "_id": "6393322be2364bc1eea56e45",
+                "name": "Technion",
+                "fullname": "Technion Israel institute of technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670591001944-63926124526c29d5b5011374.jpeg"
+            }
+        },
+        "translation_title": "CaricatureGS: 가우시안 곡률로 3D 가우시안 스플랫팅 얼굴 강조하기",
+        "purpose": "얼굴을 위한 포토리얼리스틱하고 제어 가능한 3D 캐리커쳐 생성 프레임워크 개발",
+        "method": [
+            "우리는 내재적인 가우시안 곡률 기반 표면 강조 기법을 사용하여 캐리커쳐 생성의 기본을 설정함(A Gaussian curvature-based surface exaggeration technique is introduced).",
+            "3D Gaussian Splatting을 활용하여 사실적인 자유 시점 아바타를 생성함(we resort to 3D Gaussian Splatting (3DGS), which has recently been shown to produce realistic free-viewpoint avatars).",
+            "각 프레임을 강조된 2D 표현으로 변형하여 가상의 캐리커쳐 이미지를 생성함(synthesis of pseudo-ground-truth caricature images by warping each frame to its exaggerated 2D representation using local affine transformations).",
+            "진짜와 합성된 감독을 번갈아 사용하는 훈련 방식을 개발하여 자연스러운 아바타와 강조된 아바타를 표현하도록 함(we devise a training scheme that alternates real and synthesized supervision, enabling a single Gaussian collection to represent both natural and exaggerated avatars)."
+        ],
+        "conclusion": "우리의 결과는 포토리얼리스틱하고 기하학적으로 제어된 캐리커쳐 아바타를 제공하며, 이전 연구보다 우수한 성능을 보임.",
+        "keywords": [
+            "3D Vision",
+            "Image Generation",
+            "Computer Vision"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.06021",
+            "authors": [
+                {
+                    "_id": "69645f30138cc47cbd765248",
+                    "name": "Jiajie Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69645f30138cc47cbd765249",
+                    "name": "Xin Lv",
+                    "hidden": false
+                },
+                {
+                    "_id": "69645f30138cc47cbd76524a",
+                    "name": "Ling Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "69645f30138cc47cbd76524b",
+                    "name": "Lei Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "69645f30138cc47cbd76524c",
+                    "name": "Juanzi Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-09T18:57:53.000Z",
+            "submittedOnDailyAt": "2026-01-12T00:13:19.034Z",
+            "title": "Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards",
+            "submittedOnDailyBy": {
+                "_id": "66cdd285c51a915bd5f2d017",
+                "avatarUrl": "/avatars/14e5794307e4672b1b51d26b31227e0f.svg",
+                "isPro": false,
+                "fullname": "Jiajie Zhang",
+                "user": "NeoZ123",
+                "type": "user"
+            },
+            "summary": "Reinforcement learning (RL) has emerged as a critical technique for enhancing LLM-based deep search agents. However, existing approaches primarily rely on binary outcome rewards, which fail to capture the comprehensiveness and factuality of agents' reasoning process, and often lead to undesirable behaviors such as shortcut exploitation and hallucinations. To address these limitations, we propose Citation-aware Rubric Rewards (CaRR), a fine-grained reward framework for deep search agents that emphasizes reasoning comprehensiveness, factual grounding, and evidence connectivity. CaRR decomposes complex questions into verifiable single-hop rubrics and requires agents to satisfy these rubrics by explicitly identifying hidden entities, supporting them with correct citations, and constructing complete evidence chains that link to the predicted answer. We further introduce Citation-aware Group Relative Policy Optimization (C-GRPO), which combines CaRR and outcome rewards for training robust deep search agents. Experiments show that C-GRPO consistently outperforms standard outcome-based RL baselines across multiple deep search benchmarks. Our analysis also validates that C-GRPO effectively discourages shortcut exploitation, promotes comprehensive, evidence-grounded reasoning, and exhibits strong generalization to open-ended deep research tasks. Our code and data are available at https://github.com/THUDM/CaRR.",
+            "upvotes": 29,
+            "discussionId": "69645f30138cc47cbd76524d",
+            "githubRepo": "https://github.com/THUDM/CaRR",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "A citation-aware reward framework and policy optimization method improve deep search agents' reasoning comprehensiveness and factual accuracy while reducing shortcut exploitation and hallucinations.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "deep search agents",
+                "fine-grained reward framework",
+                "reasoning comprehensiveness",
+                "factual grounding",
+                "evidence connectivity",
+                "verifiable single-hop rubrics",
+                "citation-aware group relative policy optimization",
+                "outcome rewards",
+                "shortcut exploitation",
+                "hallucinations"
+            ],
+            "githubStars": 13,
+            "organization": {
+                "_id": "62ad27f19096e7f9ecb1853a",
+                "name": "zai-org",
+                "fullname": "Z.ai",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png"
+            }
+        },
+        "translation_title": "증거 연결: 인용 기반 루브릭 보상을 통한 강건한 강화 학습 딥 검색 에이전트",
+        "purpose": "딥 검색 에이전트의 추론 과정을 정확하고 포괄적으로 평가하기 위한 강화 학습 프레임워크 개발",
+        "method": [
+            "이론적 지원을 위해 인용 기반 루브릭 보상(CaRR)을 제안하여 복잡한 질문을 검증 가능한 단일 루브릭으로 분해함(we propose Citation-aware Rubric Rewards (CaRR), a fine-grained reward framework for deep search agents that emphasizes reasoning comprehensiveness, factual grounding, and evidence connectivity.)",
+            "C-GRPO를 통해 CaRR과 결과 보상을 결합하여 강건한 딥 검색 에이전트를 훈련함(We further introduce Citation-aware Group Relative Policy Optimization (C-GRPO), which combines CaRR and outcome rewards for training robust deep search agents.)",
+            "여러 딥 검색 벤치마크에서 C-GRPO가 기존의 결과 기반 RL과의 비교에서 일관되게 성능이 우수함을 입증함(Experiments show that C-GRPO consistently outperforms standard outcome-based RL baselines across multiple deep search benchmarks.)"
+        ],
+        "conclusion": "C-GRPO는 포괄적이고 증거 기반의 추론을 촉진하며, 개방형 연구 작업에서 강력한 일반화를 보여줌.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    }
+]
