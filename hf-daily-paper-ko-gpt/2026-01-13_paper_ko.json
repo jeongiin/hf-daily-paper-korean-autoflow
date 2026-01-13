@@ -1,0 +1,730 @@
+[
+    {
+        "paper": {
+            "id": "2601.06943",
+            "authors": [
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8f5",
+                    "name": "Chengwen Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8f6",
+                    "name": "Xiaomin Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8f7",
+                    "name": "Zhuoyue Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8f8",
+                    "name": "Zhe Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8f9",
+                    "name": "Shuo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8fa",
+                    "name": "Heng Lian",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8fb",
+                    "name": "Kunyi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8fc",
+                    "name": "Rui Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8fd",
+                    "name": "Sen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8fe",
+                    "name": "Jianheng Hou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f8ff",
+                    "name": "Hao Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f900",
+                    "name": "Chengwei Qin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f901",
+                    "name": "Xiaobin Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f902",
+                    "name": "Hong Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f903",
+                    "name": "Ronghao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965babdfc8c4ecc02c7f904",
+                    "name": "Huacan Wang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-11T15:07:37.000Z",
+            "submittedOnDailyAt": "2026-01-13T01:12:08.706Z",
+            "title": "Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "64084fa192033c150738e4f2",
+                "avatarUrl": "/avatars/dfff2216eb235c635e5abe6fda3084f0.svg",
+                "isPro": false,
+                "fullname": "Yu_xm",
+                "user": "Yu2020",
+                "type": "user"
+            },
+            "summary": "In real-world video question answering scenarios, videos often provide only localized visual cues, while verifiable answers are distributed across the open web; models therefore need to jointly perform cross-frame clue extraction, iterative retrieval, and multi-hop reasoning-based verification. To bridge this gap, we construct the first video deep research benchmark, VideoDR. VideoDR centers on video-conditioned open-domain video question answering, requiring cross-frame visual anchor extraction, interactive web retrieval, and multi-hop reasoning over joint video-web evidence; through rigorous human annotation and quality control, we obtain high-quality video deep research samples spanning six semantic domains. We evaluate multiple closed-source and open-source multimodal large language models under both the Workflow and Agentic paradigms, and the results show that Agentic is not consistently superior to Workflow: its gains depend on a model's ability to maintain the initial video anchors over long retrieval chains. Further analysis indicates that goal drift and long-horizon consistency are the core bottlenecks. In sum, VideoDR provides a systematic benchmark for studying video agents in open-web settings and reveals the key challenges for next-generation video deep research agents.",
+            "upvotes": 162,
+            "discussionId": "6965babdfc8c4ecc02c7f905",
+            "githubRepo": "https://github.com/QuantaAlpha/VideoDR-Benchmark",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "VideoDR benchmark enables video question answering by combining cross-frame visual extraction, web retrieval, and multi-hop reasoning in open-domain settings.",
+            "ai_keywords": [
+                "video question answering",
+                "cross-frame visual anchor extraction",
+                "interactive web retrieval",
+                "multi-hop reasoning",
+                "multimodal large language models",
+                "Workflow paradigm",
+                "Agentic paradigm",
+                "goal drift",
+                "long-horizon consistency"
+            ],
+            "githubStars": 45
+        },
+        "translation_title": "관찰, 추론 및 검색: 주체적 비디오 추론을 위한 공개 웹 기반 비디오 딥 리서치 벤치마크",
+        "purpose": "주체적 비디오 질문 응답을 위해 비디오 및 웹 증거를 통합하여 추론하는 모델의 성능을 평가하기 위한 벤치마크 구축",
+        "method": [
+            "비디오 질문 응답을 위한 VideoDR이라는 첫 번째 비디오 딥 리서치 벤치마크를 구축함(we construct the first video deep research benchmark, VideoDR.)",
+            "비디오에 조건화된 공개 도메인 질문 응답을 요구하며, 크로스 프레임 비주얼 앵커 추출과 인터랙티브 웹 검색 및 다단계 추론을 포함함(VideoDR centers on video-conditioned open-domain video question answering, requiring cross-frame visual anchor extraction, interactive web retrieval, and multi-hop reasoning over joint video-web evidence.)",
+            "엄격한 인간 주석 및 품질 관리를 통해 고품질 비디오 딥 리서치 샘플을 확보함(through rigorous human annotation and quality control, we obtain high-quality video deep research samples spanning six semantic domains.)"
+        ],
+        "conclusion": "VideoDR은 공개 웹 환경에서 비디오 에이전트를 연구하기 위한 체계적인 벤치마크를 제공하며, 다음 세대 비디오 딥 리서치 에이전트의 주요 도전 과제를 밝혀냄.",
+        "keywords": [
+            "Video Understanding",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.06521",
+            "authors": [
+                {
+                    "_id": "6965c124fc8c4ecc02c7f930",
+                    "name": "Liang Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f931",
+                    "name": "Weichu Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f932",
+                    "name": "Yiyan Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f933",
+                    "name": "Hongfeng He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f934",
+                    "name": "Hans Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f935",
+                    "name": "Zhibo Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f936",
+                    "name": "Zhiqi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f937",
+                    "name": "Haoning Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f938",
+                    "name": "Haoyu Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f939",
+                    "name": "Y. charles",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93a",
+                    "name": "Yiping Bao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93b",
+                    "name": "Yuantao Fan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93c",
+                    "name": "Guopeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93d",
+                    "name": "Haiyang Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93e",
+                    "user": {
+                        "_id": "65e6970d135c27ea806526fe",
+                        "avatarUrl": "/avatars/4aced113d9cab055ae06f3945869a280.svg",
+                        "isPro": false,
+                        "fullname": "Xuanzhong Chen",
+                        "user": "chenxz",
+                        "type": "user"
+                    },
+                    "name": "Xuanzhong Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-13T08:23:52.086Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f93f",
+                    "name": "Wendong Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f940",
+                    "name": "Shuzheng Si",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f941",
+                    "name": "Zefan Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f942",
+                    "name": "Wenhao Chai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f943",
+                    "user": {
+                        "_id": "60efe7fa0d920bc7805cada5",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/60efe7fa0d920bc7805cada5/2LBrJBjSCOP5ilZIpWLHl.png",
+                        "isPro": false,
+                        "fullname": "Ziqi Huang",
+                        "user": "Ziqi",
+                        "type": "user"
+                    },
+                    "name": "Ziqi Huang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-13T08:23:50.242Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f944",
+                    "name": "Fangfu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f945",
+                    "name": "Tianyu Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f946",
+                    "name": "Baobao Chang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f947",
+                    "name": "Xiaobo Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f948",
+                    "name": "Kaiyuan Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f949",
+                    "name": "Yixin Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f94a",
+                    "name": "Yang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f94b",
+                    "name": "Yuan Gong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c124fc8c4ecc02c7f94c",
+                    "name": "Kuan Li",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-10T10:42:44.000Z",
+            "submittedOnDailyAt": "2026-01-13T01:21:01.708Z",
+            "title": "BabyVision: Visual Reasoning Beyond Language",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "While humans develop core visual skills long before acquiring language, contemporary Multimodal LLMs (MLLMs) still rely heavily on linguistic priors to compensate for their fragile visual understanding. We uncovered a crucial fact: state-of-the-art MLLMs consistently fail on basic visual tasks that humans, even 3-year-olds, can solve effortlessly. To systematically investigate this gap, we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs. BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories. Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines. Gemini3-Pro-Preview scores 49.7, lagging behind 6-year-old humans and falling well behind the average adult score of 94.1. These results show despite excelling in knowledge-heavy evaluations, current MLLMs still lack fundamental visual primitives. Progress in BabyVision represents a step toward human-level visual perception and reasoning capabilities. We also explore solving visual reasoning with generation models by proposing BabyVision-Gen and automatic evaluation toolkit. Our code and benchmark data are released at https://github.com/UniPat-AI/BabyVision for reproduction.",
+            "upvotes": 136,
+            "discussionId": "6965c124fc8c4ecc02c7f94d",
+            "projectPage": "https://unipat.ai/blog/BabyVision",
+            "githubRepo": "https://github.com/UniPat-AI/BabyVision",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Current multimodal large language models exhibit significant gaps in fundamental visual understanding compared to human children, as demonstrated by the BabyVision benchmark.",
+            "ai_keywords": [
+                "Multimodal LLMs",
+                "visual reasoning",
+                "core visual skills",
+                "BabyVision benchmark",
+                "visual perception",
+                "visual primitives"
+            ],
+            "githubStars": 73
+        },
+        "translation_title": "BabyVision: 언어를 넘은 시각적 추론",
+        "purpose": "Multimodal LLMs의 시각적 이해력을 평가하고 향상하기 위한 기준을 제시",
+        "method": [
+            "BabyVision이라는 기준을 도입해 언어적 지식과 무관하게 핵심 시각 능력을 측정함(we introduce BabyVision, a benchmark designed to assess core visual abilities independent of linguistic knowledge for MLLMs.)",
+            "388개의 항목을 22개의 하위 클래스와 4개의 주요 범주로 나눠 다양한 시각적 과제를 포함함(BabyVision spans a wide range of tasks, with 388 items divided into 22 subclasses across four key categories.)",
+            "최신의 MLLMs들이 인간의 기본적인 시각 작업에서 낮은 성능을 보인다는 것을 발견함(Empirical results and human evaluation reveal that leading MLLMs perform significantly below human baselines.)"
+        ],
+        "conclusion": "BabyVision의 연구 결과, 현재 MLLMs는 지식 중심의 평가에서는 뛰어나지만, 기본적인 시각적 능력에서는 여전히 인간보다 크게 뒤처진다는 것을 보여줌.",
+        "keywords": [
+            "Multimodal Learning",
+            "Image Understanding",
+            "Vision-Language Models"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.05593",
+            "authors": [
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8df",
+                    "name": "Jingcheng Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e0",
+                    "name": "Yinmin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e1",
+                    "name": "Shijie Shang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e2",
+                    "name": "Xiaobo Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e3",
+                    "name": "Yue Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e4",
+                    "name": "Zhewei Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e5",
+                    "name": "Hebin Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e6",
+                    "name": "Xin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e7",
+                    "name": "Jie Cheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e8",
+                    "name": "Fanqi Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8e9",
+                    "name": "Xiangwen Kong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8ea",
+                    "name": "Chengyuan Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8eb",
+                    "name": "Kaiwen Yan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8ec",
+                    "name": "Ailin Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8ed",
+                    "name": "Hongyu Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8ee",
+                    "name": "Qi Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8ef",
+                    "name": "Zheng Ge",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8f0",
+                    "name": "Daxin Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8f1",
+                    "name": "Xiangyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965b990fc8c4ecc02c7f8f2",
+                    "name": "Heung-Yeung Shum",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-09T07:24:43.000Z",
+            "submittedOnDailyAt": "2026-01-13T00:51:45.124Z",
+            "title": "PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "625026b7d2d191ac43320c5e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/625026b7d2d191ac43320c5e/2ExzHlZ-Bk8SQMyBjeY6N.jpeg",
+                "isPro": false,
+                "fullname": "Jingcheng Hu",
+                "user": "reign12",
+                "type": "user"
+            },
+            "summary": "We introduce Parallel Coordinated Reasoning (PaCoRe), a training-and-inference framework designed to overcome a central limitation of contemporary language models: their inability to scale test-time compute (TTC) far beyond sequential reasoning under a fixed context window. PaCoRe departs from the traditional sequential paradigm by driving TTC through massive parallel exploration coordinated via a message-passing architecture in multiple rounds. Each round launches many parallel reasoning trajectories, compacts their findings into context-bounded messages, and synthesizes these messages to guide the next round and ultimately produce the final answer. Trained end-to-end with large-scale, outcome-based reinforcement learning, the model masters the synthesis abilities required by PaCoRe and scales to multi-million-token effective TTC without exceeding context limits. The approach yields strong improvements across diverse domains, and notably pushes reasoning beyond frontier systems in mathematics: an 8B model reaches 94.5% on HMMT 2025, surpassing GPT-5's 93.2% by scaling effective TTC to roughly two million tokens. We open-source model checkpoints, training data, and the full inference pipeline to accelerate follow-up work.",
+            "upvotes": 60,
+            "discussionId": "6965b990fc8c4ecc02c7f8f3",
+            "githubRepo": "https://github.com/stepfun-ai/PaCoRe",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Parallel Coordinated Reasoning enables large-scale test-time compute scaling beyond sequential reasoning limitations through parallel exploration and message-passing architecture.",
+            "ai_keywords": [
+                "test-time compute",
+                "sequential reasoning",
+                "parallel exploration",
+                "message-passing architecture",
+                "reinforcement learning",
+                "multi-million-token",
+                "HMMT 2025",
+                "GPT-5"
+            ],
+            "githubStars": 258,
+            "organization": {
+                "_id": "66e43eae9d477f566f937935",
+                "name": "stepfun-ai",
+                "fullname": "StepFun",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/66935cee39002fc0569c2943/Qv8QPbkgoKE3wR4jTzHiy.png"
+            }
+        },
+        "translation_title": "PaCoRe: 병렬 협조 추론을 통한 테스트 시간 컴퓨팅 확장 학습",
+        "purpose": "기존 언어 모델의 테스트 시간 컴퓨팅(TTC) 한계를 극복하기 위한 새로운 훈련 및 추론 프레임워크 개발",
+        "method": [
+            "병렬 탐색을 통해 TTC를 추진하는 PaCoRe라는 새로운 접근 방식을 제안함(We introduce Parallel Coordinated Reasoning (PaCoRe), a training-and-inference framework designed to overcome a central limitation of contemporary language models: their inability to scale test-time compute (TTC) far beyond sequential reasoning under a fixed context window.)",
+            "많은 병렬 추론 경로를 시작하고, 이들의 결과를 문맥에 제한된 메시지로 요약함(Each round launches many parallel reasoning trajectories, compacts their findings into context-bounded messages, and synthesizes these messages to guide the next round and ultimately produce the final answer.)",
+            "대규모 결과 기반 강화 학습을 통해 모델을 전반적으로 학습시킴(Trained end-to-end with large-scale, outcome-based reinforcement learning, the model masters the synthesis abilities required by PaCoRe and scales to multi-million-token effective TTC without exceeding context limits.)"
+        ],
+        "conclusion": "이 접근 방식을 통해 다양한 분야에서 강력한 성능 향상을 이루었으며, 특히 수학 문제 해결에서 뛰어난 성과를 보여주었음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.06953",
+            "authors": [
+                {
+                    "_id": "6965af14fc8c4ecc02c7f873",
+                    "name": "Jie Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f874",
+                    "user": {
+                        "_id": "650be23ec4e52db6a4db63ef",
+                        "avatarUrl": "/avatars/03af548029b38bee49ec295fefe74f9a.svg",
+                        "isPro": false,
+                        "fullname": "Haoling Li",
+                        "user": "Ringo1110",
+                        "type": "user"
+                    },
+                    "name": "Haoling Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-13T08:24:20.281Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f875",
+                    "name": "Xin Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f876",
+                    "name": "Jiani Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f877",
+                    "name": "Jane Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f878",
+                    "name": "Steven Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f879",
+                    "name": "Yangyu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f87a",
+                    "name": "Ruihang Chu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f87b",
+                    "name": "Scarlett Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965af14fc8c4ecc02c7f87c",
+                    "name": "Yujiu Yang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-11T15:22:33.000Z",
+            "submittedOnDailyAt": "2026-01-13T01:12:35.419Z",
+            "title": "X-Coder: Advancing Competitive Programming with Fully Synthetic Tasks, Solutions, and Tests",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "Competitive programming presents great challenges for Code LLMs due to its intensive reasoning demands and high logical complexity. However, current Code LLMs still rely heavily on real-world data, which limits their scalability. In this paper, we explore a fully synthetic approach: training Code LLMs with entirely generated tasks, solutions, and test cases, to empower code reasoning models without relying on real-world data. To support this, we leverage feature-based synthesis to propose a novel data synthesis pipeline called SynthSmith. SynthSmith shows strong potential in producing diverse and challenging tasks, along with verified solutions and tests, supporting both supervised fine-tuning and reinforcement learning. Based on the proposed synthetic SFT and RL datasets, we introduce the X-Coder model series, which achieves a notable pass rate of 62.9 avg@8 on LiveCodeBench v5 and 55.8 on v6, outperforming DeepCoder-14B-Preview and AReal-boba2-14B despite having only 7B parameters. In-depth analysis reveals that scaling laws hold on our synthetic dataset, and we explore which dimensions are more effective to scale. We further provide insights into code-centric reinforcement learning and highlight the key factors that shape performance through detailed ablations and analysis. Our findings demonstrate that scaling high-quality synthetic data and adopting staged training can greatly advance code reasoning, while mitigating reliance on real-world coding data.",
+            "upvotes": 28,
+            "discussionId": "6965af14fc8c4ecc02c7f87d",
+            "githubRepo": "https://github.com/JieWu02/X-Coder",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Code LLMs trained on fully synthetic data using a feature-based synthesis pipeline achieve superior performance on competitive programming benchmarks while reducing dependence on real-world coding datasets.",
+            "ai_keywords": [
+                "Code LLMs",
+                "synthetic data",
+                "feature-based synthesis",
+                "data synthesis pipeline",
+                "SynthSmith",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "X-Coder model series",
+                "LiveCodeBench",
+                "scaling laws",
+                "staged training",
+                "code reasoning"
+            ],
+            "githubStars": 35
+        },
+        "translation_title": "X-Coder: 완전 합성 작업, 솔루션 및 테스트로 경쟁 프로그래밍 발전시키기",
+        "purpose": "Code LLM의 성능을 향상시키기 위해 완전 합성 방식으로 코드 문제와 해결책을 연구하고자 함",
+        "method": [
+            "완전 합성 접근 방식을 탐구하여, 실세계 데이터에 의존하지 않고 코드를 추론하는 모델을 훈련함(we explore a fully synthetic approach: training Code LLMs with entirely generated tasks, solutions, and test cases, to empower code reasoning models without relying on real-world data.)",
+            "특징 기반 합성을 활용해 SynthSmith라는 새로운 데이터 합성 파이프라인을 제안함(we leverage feature-based synthesis to propose a novel data synthesis pipeline called SynthSmith.)",
+            "제안한 합성 데이터셋을 기반으로 X-Coder 모델 시리즈를 소개하고, LiveCodeBench v5에서 평균 62.9의 통과율을 달성함(Based on the proposed synthetic SFT and RL datasets, we introduce the X-Coder model series, which achieves a notable pass rate of 62.9 avg@8 on LiveCodeBench v5)."
+        ],
+        "conclusion": "X-Coder는 고품질 합성 데이터를 확장하고 단계적 훈련을 채택해 코드 추론 성능을 크게 개선함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.07832",
+            "authors": [
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d3",
+                    "user": {
+                        "_id": "659698e6f67e8fb2a5985445",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/6jxohd_DsLVfSnWgKMGrn.jpeg",
+                        "isPro": false,
+                        "fullname": "Kewei Zhang",
+                        "user": "xiwenyoumu",
+                        "type": "user"
+                    },
+                    "name": "Kewei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-13T08:23:45.745Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d4",
+                    "name": "Ye Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d5",
+                    "user": {
+                        "_id": "68fce03ed1d0efce7ca87075",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68fce03ed1d0efce7ca87075/GRKTeVIaLZD_M-KoJE8YF.png",
+                        "isPro": false,
+                        "fullname": "yfdeng",
+                        "user": "yfdeng10",
+                        "type": "user"
+                    },
+                    "name": "Yufan Deng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-13T08:23:39.576Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d6",
+                    "name": "Jincheng Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d7",
+                    "name": "Junsong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d8",
+                    "name": "Huan Ling",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9d9",
+                    "name": "Enze Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6965c791fc8c4ecc02c7f9da",
+                    "name": "Daquan Zhou",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/68fce03ed1d0efce7ca87075/nan3M8p_MfDdxZgb1KI4j.mp4"
+            ],
+            "publishedAt": "2026-01-12T18:59:18.000Z",
+            "submittedOnDailyAt": "2026-01-13T06:02:44.452Z",
+            "title": "MHLA: Restoring Expressivity of Linear Attention via Token-Level Multi-Head",
+            "submittedOnDailyBy": {
+                "_id": "68fce03ed1d0efce7ca87075",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68fce03ed1d0efce7ca87075/GRKTeVIaLZD_M-KoJE8YF.png",
+                "isPro": false,
+                "fullname": "yfdeng",
+                "user": "yfdeng10",
+                "type": "user"
+            },
+            "summary": "While the Transformer architecture dominates many fields, its quadratic self-attention complexity hinders its use in large-scale applications. Linear attention offers an efficient alternative, but its direct application often degrades performance, with existing fixes typically re-introducing computational overhead through extra modules (e.g., depthwise separable convolution) that defeat the original purpose. In this work, we identify a key failure mode in these methods: global context collapse, where the model loses representational diversity. To address this, we propose Multi-Head Linear Attention (MHLA), which preserves this diversity by computing attention within divided heads along the token dimension. We prove that MHLA maintains linear complexity while recovering much of the expressive power of softmax attention, and verify its effectiveness across multiple domains, achieving a 3.6\\% improvement on ImageNet classification, a 6.3\\% gain on NLP, a 12.6\\% improvement on image generation, and a 41\\% enhancement on video generation under the same time complexity.",
+            "upvotes": 25,
+            "discussionId": "6965c791fc8c4ecc02c7f9db",
+            "projectPage": "https://dagroup-pku.github.io/MHLA/",
+            "githubRepo": "https://github.com/DAGroup-PKU/MHLA",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Multi-Head Linear Attention addresses the performance degradation in linear attention by preserving representational diversity through head-wise token dimension computation, maintaining linear complexity while recovering softmax attention's expressive power across multiple domains.",
+            "ai_keywords": [
+                "Transformer architecture",
+                "self-attention",
+                "linear attention",
+                "global context collapse",
+                "Multi-Head Linear Attention",
+                "token dimension",
+                "softmax attention",
+                "ImageNet classification",
+                "NLP",
+                "image generation",
+                "video generation"
+            ],
+            "githubStars": 34,
+            "organization": {
+                "_id": "6953c657d2ff7b60c8527d3c",
+                "name": "DAGroup-PKU",
+                "fullname": "DAGroup-PKU",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/665c91e15b11dca02f0c5891/ek9KGIc02tiFfaYeDfLaU.png"
+            }
+        },
+        "translation_title": "MHLA: 토큰 수준 다중 헤드를 통한 선형 주의력의 표현력 복원",
+        "purpose": "대규모 애플리케이션에서 Transformer 아키텍처의 성능을 높이기 위한 효율적인 Linear Attention 기술을 제안",
+        "method": [
+            "Multi-Head Linear Attention (MHLA)를 제안하여 토큰 차원에서 나누어진 헤드 안에서 주의를 계산함(To address this, we propose Multi-Head Linear Attention (MHLA), which preserves this diversity by computing attention within divided heads along the token dimension.)",
+            "MHLA가 선형 복잡성을 유지하면서도 softmax Attention의 표현력을 일부 복원함을 입증함(We prove that MHLA maintains linear complexity while recovering much of the expressive power of softmax attention.)",
+            "다양한 분야에서의 효과를 검증하여 ImageNet 분류에서 3.6%, NLP에서 6.3%, 이미지 생성에서 12.6%, 비디오 생성에서 41%라는 성과를 달성함(verify its effectiveness across multiple domains, achieving a 3.6% improvement on ImageNet classification, a 6.3% gain on NLP, a 12.6% improvement on image generation, and a 41% enhancement on video generation under the same time complexity.)"
+        ],
+        "conclusion": "MHLA는 선형 복잡성을 유지하면서도 높은 표현력을 제공하여 다양한 작업에서 성능 향상을 이룸.",
+        "keywords": [
+            "Natural Language Processing",
+            "Image Generation",
+            "Video Generation"
+        ]
+    }
+]
