@@ -1,0 +1,627 @@
+[
+    {
+        "paper": {
+            "id": "2601.07348",
+            "authors": [
+                {
+                    "_id": "696855610ac10a06522f69cf",
+                    "user": {
+                        "_id": "662911a202f5ad9a5195932f",
+                        "avatarUrl": "/avatars/663d142e27abbdb319ed5fd2cbe3f1a4.svg",
+                        "isPro": false,
+                        "fullname": "Tu Hu",
+                        "user": "Blackteaxxx",
+                        "type": "user"
+                    },
+                    "name": "Tu Hu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:18.320Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d0",
+                    "name": "Ronghao Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d1",
+                    "user": {
+                        "_id": "65562edfb7bad186e877c724",
+                        "avatarUrl": "/avatars/bb91f42b102e113208bbe3238916a015.svg",
+                        "isPro": false,
+                        "fullname": "zhangshuo",
+                        "user": "mcflurryshuoz",
+                        "type": "user"
+                    },
+                    "name": "Shuo Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:16.329Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d2",
+                    "name": "Jianghao Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d3",
+                    "name": "Mou Xiao Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d4",
+                    "name": "Jingping Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d5",
+                    "name": "Shaolei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d6",
+                    "name": "Wenqi Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d7",
+                    "name": "Yuqi Fang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d8",
+                    "name": "Sen Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69d9",
+                    "name": "Yi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "696855610ac10a06522f69da",
+                    "user": {
+                        "_id": "6603d56ab4344a2b07cd6d21",
+                        "avatarUrl": "/avatars/1569bb60166532317c85e80da722ba1c.svg",
+                        "isPro": false,
+                        "fullname": "Huacan Wang",
+                        "user": "Huacan-Wang",
+                        "type": "user"
+                    },
+                    "name": "Huacan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:20.275Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-12T09:23:13.000Z",
+            "submittedOnDailyAt": "2026-01-15T00:23:14.421Z",
+            "title": "Controlled Self-Evolution for Algorithmic Code Optimization",
+            "submittedOnDailyBy": {
+                "_id": "6603d56ab4344a2b07cd6d21",
+                "avatarUrl": "/avatars/1569bb60166532317c85e80da722ba1c.svg",
+                "isPro": false,
+                "fullname": "Huacan Wang",
+                "user": "Huacan-Wang",
+                "type": "user"
+            },
+            "summary": "Self-evolution methods enhance code generation through iterative \"generate-verify-refine\" cycles, yet existing approaches suffer from low exploration efficiency, failing to discover solutions with superior complexity within limited budgets. This inefficiency stems from initialization bias trapping evolution in poor solution regions, uncontrolled stochastic operations lacking feedback guidance, and insufficient experience utilization across tasks. To address these bottlenecks, we propose Controlled Self-Evolution (CSE), which consists of three key components. Diversified Planning Initialization generates structurally distinct algorithmic strategies for broad solution space coverage. Genetic Evolution replaces stochastic operations with feedback-guided mechanisms, enabling targeted mutation and compositional crossover. Hierarchical Evolution Memory captures both successful and failed experiences at inter-task and intra-task levels. Experiments on EffiBench-X demonstrate that CSE consistently outperforms all baselines across various LLM backbones. Furthermore, CSE achieves higher efficiency from early generations and maintains continuous improvement throughout evolution. Our code is publicly available at https://github.com/QuantaAlpha/EvoControl.",
+            "upvotes": 91,
+            "discussionId": "696855610ac10a06522f69db",
+            "githubRepo": "https://github.com/QuantaAlpha/EvoControl",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Controlled Self-Evolution method improves code generation through diversified initialization, feedback-guided genetic evolution, and hierarchical memory to enhance exploration efficiency and solution quality.",
+            "ai_keywords": [
+                "self-evolution methods",
+                "generate-verify-refine cycles",
+                "exploration efficiency",
+                "initialization bias",
+                "stochastic operations",
+                "feedback guidance",
+                "genetic evolution",
+                "targeted mutation",
+                "compositional crossover",
+                "hierarchical evolution memory",
+                "LLM backbones",
+                "EffiBench-X"
+            ],
+            "githubStars": 61,
+            "organization": {
+                "_id": "68b33ab6a9ed99140481cf44",
+                "name": "QuantaAlpha",
+                "fullname": "QuantaAlpha",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63f7767fbd28622c9b9915e9/DRN8PvmnpKmn2MSLQ7qhF.jpeg"
+            }
+        },
+        "translation_title": "알고리즘 코드 최적화를 위한 통제된 자기 진화",
+        "purpose": "제한된 예산 내에서 더 나은 복잡성을 가진 솔루션을 발견하고 코드 생성의 탐색 효율성을 높이기 위한 연구",
+        "method": [
+            "다양한 계획 초기화(Diversified Planning Initialization)를 활용해 구조적으로 독특한 알고리즘 전략을 생성하여 넓은 솔루션 공간을 커버함.",
+            "유전적 진화(Genetic Evolution)를 통해 랜덤 작업을 피드백 기반 메커니즘으로 대체하여 목표 지향적 돌연변이 및 조합 교차를 가능하게 함.",
+            "계층적 진화 기억(Hierarchical Evolution Memory)을 구축하여 작업 간 및 작업 내에서 성공적 및 실패한 경험들을 기록함.",
+            "실험 결과, CSE가 다양한 LLM 백본에 대해 모든 기준 대비 지속적으로 우수한 성과를 보임. (Experiments on EffiBench-X demonstrate that CSE consistently outperforms all baselines across various LLM backbones.)"
+        ],
+        "conclusion": "CSE는 초기 생성 단계에서 더 높은 효율성을 달성하고 진화 과정 전반에 걸쳐 지속적인 개선을 유지하게 됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.09688",
+            "authors": [
+                {
+                    "_id": "696864c90ac10a06522f6a4a",
+                    "name": "Yibo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a4b",
+                    "name": "Lei Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a4c",
+                    "name": "Yue Deng",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a4d",
+                    "user": {
+                        "_id": "66bf00ca5b4e241fe266059d",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66bf00ca5b4e241fe266059d/VoWPC_C4zoeT6dS699t7L.png",
+                        "isPro": false,
+                        "fullname": "Keming Wu",
+                        "user": "wukeming11",
+                        "type": "user"
+                    },
+                    "name": "Keming Wu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:02:22.232Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a4e",
+                    "name": "Yao Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a4f",
+                    "name": "Huanjin Yao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a50",
+                    "name": "Liwei Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a51",
+                    "name": "Hai Ye",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a52",
+                    "name": "Yongcheng Jing",
+                    "hidden": false
+                },
+                {
+                    "_id": "696864c90ac10a06522f6a53",
+                    "name": "Lidong Bing",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-14T18:38:31.000Z",
+            "submittedOnDailyAt": "2026-01-15T01:33:59.520Z",
+            "title": "DeepResearchEval: An Automated Framework for Deep Research Task Construction and Agentic Evaluation",
+            "submittedOnDailyBy": {
+                "_id": "66bf00ca5b4e241fe266059d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66bf00ca5b4e241fe266059d/VoWPC_C4zoeT6dS699t7L.png",
+                "isPro": false,
+                "fullname": "Keming Wu",
+                "user": "wukeming11",
+                "type": "user"
+            },
+            "summary": "Deep research systems are widely used for multi-step web research, analysis, and cross-source synthesis, yet their evaluation remains challenging. Existing benchmarks often require annotation-intensive task construction, rely on static evaluation dimensions, or fail to reliably verify facts when citations are missing. To bridge these gaps, we introduce DeepResearchEval, an automated framework for deep research task construction and agentic evaluation. For task construction, we propose a persona-driven pipeline generating realistic, complex research tasks anchored in diverse user profiles, applying a two-stage filter Task Qualification and Search Necessity to retain only tasks requiring multi-source evidence integration and external retrieval. For evaluation, we propose an agentic pipeline with two components: an Adaptive Point-wise Quality Evaluation that dynamically derives task-specific evaluation dimensions, criteria, and weights conditioned on each generated task, and an Active Fact-Checking that autonomously extracts and verifies report statements via web search, even when citations are missing.",
+            "upvotes": 80,
+            "discussionId": "696864c90ac10a06522f6a54",
+            "githubRepo": "https://github.com/Infinity-AILab/DeepResearchEval",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "DeepResearchEval presents an automated framework for creating complex research tasks and evaluating them through agent-based methods that adapt to task specifics and verify facts without relying on citations.",
+            "ai_keywords": [
+                "automated framework",
+                "deep research task construction",
+                "agentic evaluation",
+                "persona-driven pipeline",
+                "task qualification",
+                "search necessity",
+                "adaptive point-wise quality evaluation",
+                "active fact-checking",
+                "web search",
+                "multi-source evidence integration"
+            ],
+            "githubStars": 60,
+            "organization": {
+                "_id": "6948e6c46d88786b0ec9cf9d",
+                "name": "Infinity-AILab",
+                "fullname": "Infinity Lab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6362a77dd3be91534c2e9213/-zILHmHPjnq27MzoESFsG.png"
+            }
+        },
+        "translation_title": "DeepResearchEval: 심층 연구 작업 구축 및 에이전틱 평가를 위한 자동화 프레임워크",
+        "purpose": "심층 연구 시스템의 작업 구축과 평가 과정을 자동화하여 효율성을 높이고 신뢰성을 개선하는 것",
+        "method": [
+            "사용자 프로필에 기반하여 현실적이고 복잡한 연구 작업을 생성하는 페르소나 기반 파이프라인을 제안함(To bridge these gaps, we introduce DeepResearchEval, an automated framework for deep research task construction and agentic evaluation.)",
+            "다양한 출처의 증거 통합과 외부 검색이 필요한 작업만 유지하도록 다단계 필터를 적용함(for task construction, we propose a persona-driven pipeline generating realistic, complex research tasks anchored in diverse user profiles.)",
+            "작업에 따라 동적으로 평가 차원, 기준 및 가중치를 도출하는 적응형 평가를 제안함(For evaluation, we propose an agentic pipeline with two components: an Adaptive Point-wise Quality Evaluation that dynamically derives task-specific evaluation dimensions.)"
+        ],
+        "conclusion": "DeepResearchEval을 통해 심층 연구 작업의 수행과 평가를 보다 효율적이고 신뢰성 있게 개선할 수 있음.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Document Parsing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.09259",
+            "authors": [
+                {
+                    "_id": "696856230ac10a06522f69dd",
+                    "name": "Jian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69de",
+                    "user": {
+                        "_id": "67e0dc49daf1e39a7d15e67f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/GsHxvMtp5jW58LunxVorc.png",
+                        "isPro": false,
+                        "fullname": "Zhiyuan Wang",
+                        "user": "Pekku",
+                        "type": "user"
+                    },
+                    "name": "Zhiyuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:12.229Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69df",
+                    "name": "Zhangqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e0",
+                    "name": "Yu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e1",
+                    "name": "Haoran Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e2",
+                    "name": "li yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e3",
+                    "name": "Lingling Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e4",
+                    "name": "Rui Mao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e5",
+                    "user": {
+                        "_id": "66ac77011cfb12c087605acb",
+                        "avatarUrl": "/avatars/54c06bd1c4c9d491470ed4162c2301ae.svg",
+                        "isPro": false,
+                        "fullname": "Lin",
+                        "user": "Qika",
+                        "type": "user"
+                    },
+                    "name": "Qika Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:14.086Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696856230ac10a06522f69e6",
+                    "name": "Jun Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-14T07:48:00.000Z",
+            "submittedOnDailyAt": "2026-01-15T00:22:01.292Z",
+            "title": "MAXS: Meta-Adaptive Exploration with LLM Agents",
+            "submittedOnDailyBy": {
+                "_id": "658be7fe135580745c510323",
+                "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                "isPro": false,
+                "fullname": "Jian Zhang",
+                "user": "VentureZJ",
+                "type": "user"
+            },
+            "summary": "Large Language Model (LLM) Agents exhibit inherent reasoning abilities through the collaboration of multiple tools. However, during agent inference, existing methods often suffer from (i) locally myopic generation, due to the absence of lookahead, and (ii) trajectory instability, where minor early errors can escalate into divergent reasoning paths. These issues make it difficult to balance global effectiveness and computational efficiency. To address these two issues, we propose meta-adaptive exploration with LLM agents https://github.com/exoskeletonzj/MAXS, a meta-adaptive reasoning framework based on LLM Agents that flexibly integrates tool execution and reasoning planning. MAXS employs a lookahead strategy to extend reasoning paths a few steps ahead, estimating the advantage value of tool usage, and combines step consistency variance and inter-step trend slopes to jointly select stable, consistent, and high-value reasoning steps. Additionally, we introduce a trajectory convergence mechanism that controls computational cost by halting further rollouts once path consistency is achieved, enabling a balance between resource efficiency and global effectiveness in multi-tool reasoning. We conduct extensive empirical studies across three base models (MiMo-VL-7B, Qwen2.5-VL-7B, Qwen2.5-VL-32B) and five datasets, demonstrating that MAXS consistently outperforms existing methods in both performance and inference efficiency. Further analysis confirms the effectiveness of our lookahead strategy and tool usage.",
+            "upvotes": 78,
+            "discussionId": "696856230ac10a06522f69e7",
+            "githubRepo": "https://github.com/exoskeletonzj/MAXS",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "MAXS is a meta-adaptive reasoning framework for LLM agents that improves multi-tool reasoning through lookahead strategies and trajectory convergence mechanisms, balancing global effectiveness and computational efficiency.",
+            "ai_keywords": [
+                "LLM agents",
+                "tool execution",
+                "reasoning planning",
+                "lookahead strategy",
+                "advantage value",
+                "step consistency variance",
+                "inter-step trend slopes",
+                "trajectory convergence",
+                "multi-tool reasoning",
+                "inference efficiency"
+            ],
+            "githubStars": 1
+        },
+        "translation_title": "MAXS: LLM 에이전트를 활용한 메타 적응 탐색",
+        "purpose": "LLM 에이전트를 이용한 글로벌 효과성과 계산 효율성을 동시에 달성하기 위한 메타 적응 추론 프레임워크 제안",
+        "method": [
+            "LLM 에이전트를 기반으로 도구 실행과 추론 계획을 유연하게 통합하는 메타 적응 추론 프레임워크인 MAXS를 제안함(To address these two issues, we propose meta-adaptive exploration with LLM agents a meta-adaptive reasoning framework based on LLM Agents that flexibly integrates tool execution and reasoning planning.)",
+            "LOOKAHEAD 전략을 사용하여 몇 단계 앞서 추론 경로를 연장하고, 도구 사용의 이점 가치를 추정함(MAXS employs a lookahead strategy to extend reasoning paths a few steps ahead, estimating the advantage value of tool usage.)",
+            "경로 일관성을 제어하면서 각 단계에서 안정적이고 고성능의 추론 단계를 선택하도록 설계함(we combine step consistency variance and inter-step trend slopes to jointly select stable, consistent, and high-value reasoning steps.)",
+            "경로 일관성이 달성되면 더 이상 롤아웃을 중단하여 계산 비용을 조절함(we introduce a trajectory convergence mechanism that controls computational cost by halting further rollouts once path consistency is achieved.)"
+        ],
+        "conclusion": "MAXS는 기존 방법에 비해 성능과 추론 효율성 모두에서 우수한 결과를 나타내며, LOOKAHEAD 전략과 도구 사용의 효과성을 검증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.09274",
+            "authors": [
+                {
+                    "_id": "6968568f0ac10a06522f69e9",
+                    "name": "Jian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69ea",
+                    "name": "Yu He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69eb",
+                    "user": {
+                        "_id": "67e0dc49daf1e39a7d15e67f",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/GsHxvMtp5jW58LunxVorc.png",
+                        "isPro": false,
+                        "fullname": "Zhiyuan Wang",
+                        "user": "Pekku",
+                        "type": "user"
+                    },
+                    "name": "Zhiyuan Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:02.764Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69ec",
+                    "name": "Zhangqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69ed",
+                    "name": "Kai He",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69ee",
+                    "name": "Fangzhi Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69ef",
+                    "user": {
+                        "_id": "66ac77011cfb12c087605acb",
+                        "avatarUrl": "/avatars/54c06bd1c4c9d491470ed4162c2301ae.svg",
+                        "isPro": false,
+                        "fullname": "Lin",
+                        "user": "Qika",
+                        "type": "user"
+                    },
+                    "name": "Qika Lin",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T15:03:05.035Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6968568f0ac10a06522f69f0",
+                    "name": "Jun Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-14T08:17:41.000Z",
+            "submittedOnDailyAt": "2026-01-15T00:23:45.077Z",
+            "title": "A^3-Bench: Benchmarking Memory-Driven Scientific Reasoning via Anchor and Attractor Activation",
+            "submittedOnDailyBy": {
+                "_id": "658be7fe135580745c510323",
+                "avatarUrl": "/avatars/830e5cec4565efdc23226a86a0fcef0e.svg",
+                "isPro": false,
+                "fullname": "Jian Zhang",
+                "user": "VentureZJ",
+                "type": "user"
+            },
+            "summary": "Scientific reasoning relies not only on logical inference but also on activating prior knowledge and experiential structures. Memory can efficiently reuse knowledge and enhance reasoning consistency and stability. However, existing benchmarks mainly evaluate final answers or step-by-step coherence, overlooking the memory-driven mechanisms that underlie human reasoning, which involves activating anchors and attractors, then integrating them into multi-step inference. To address this gap, we propose A^3-Bench~ https://a3-bench.github.io, a benchmark designed to evaluate scientific reasoning through dual-scale memory-driven activation, grounded in Anchor and Attractor Activation. First, we annotate 2,198 science reasoning problems across domains using the SAPM process(subject, anchor & attractor, problem, and memory developing). Second, we introduce a dual-scale memory evaluation framework utilizing anchors and attractors, along with the AAUI(Anchor--Attractor Utilization Index) metric to measure memory activation rates. Finally, through experiments with various base models and paradigms, we validate A^3-Bench and analyze how memory activation impacts reasoning performance, providing insights into memory-driven scientific reasoning.",
+            "upvotes": 74,
+            "discussionId": "6968568f0ac10a06522f69f1",
+            "projectPage": "https://a3-bench.github.io/",
+            "githubRepo": "https://github.com/exoskeletonzj/A3-Bench",
+            "githubRepoAddedBy": "user",
+            "githubStars": 0
+        },
+        "translation_title": "A^3-Bench: 앵커와 매력자의 활성화를 통한 메모리 기반 과학적 추론 벤치마킹",
+        "purpose": "메모리 기반 과학적 추론의 평가를 통해 기존의 평가 방법에서 간과했던 메모리 구동 메커니즘을 조명하기 위한 목표",
+        "method": [
+            "2,198개의 과학적 추론 문제를 SAPM 프로세스를 사용해 주석 처리함(First, we annotate 2,198 science reasoning problems across domains using the SAPM process.)",
+            "앵커와 매력자를 활용한 이중 규모 메모리 평가 프레임워크 및 AAUI 지표를 도입함(Second, we introduce a dual-scale memory evaluation framework utilizing anchors and attractors, along with the AAUI metric to measure memory activation rates.)",
+            "다양한 기본 모델과 패러다임을 통해 A^3-Bench를 검증하고 메모리 활성화가 추론 성능에 미치는 영향을 분석함(Finally, through experiments with various base models and paradigms, we validate A^3-Bench and analyze how memory activation impacts reasoning performance.)"
+        ],
+        "conclusion": "A^3-Bench는 메모리 구동 과학적 추론을 평가하는 새로운 방식으로, 메모리 활성화가 추론 성능에 미치는 중요한 영향을 제공하는 통찰력을 제시함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.09088",
+            "authors": [
+                {
+                    "_id": "69688bbc0ac10a06522f6aeb",
+                    "user": {
+                        "_id": "6463345cd2044cd1d7c613a8",
+                        "avatarUrl": "/avatars/242cbf2479877e836f931d17a6190660.svg",
+                        "isPro": false,
+                        "fullname": "Shaotian",
+                        "user": "ystluffy",
+                        "type": "user"
+                    },
+                    "name": "Shaotian Yan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T09:33:27.639Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6aec",
+                    "name": "Kaiyuan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6aed",
+                    "user": {
+                        "_id": "64b73e3830a0b8ff60145a29",
+                        "avatarUrl": "/avatars/297469812b57b2ddf7d52b9391d80bde.svg",
+                        "isPro": false,
+                        "fullname": "Chen Shen",
+                        "user": "zjushenchen",
+                        "type": "user"
+                    },
+                    "name": "Chen Shen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T09:33:19.260Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6aee",
+                    "user": {
+                        "_id": "6225b0d87f5fba1007d62fae",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6225b0d87f5fba1007d62fae/clONu5C-lkoSswcJjcG0u.jpeg",
+                        "isPro": false,
+                        "fullname": "Bing Wang",
+                        "user": "wangbing1416",
+                        "type": "user"
+                    },
+                    "name": "Bing Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T09:33:17.091Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6aef",
+                    "user": {
+                        "_id": "694a226980a37f293a4ce7c0",
+                        "avatarUrl": "/avatars/7a48f4eeb80a1b5688cbfb10a59765a0.svg",
+                        "isPro": false,
+                        "fullname": "Sinan Fan",
+                        "user": "sinan25",
+                        "type": "user"
+                    },
+                    "name": "Sinan Fan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-15T09:33:14.748Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6af0",
+                    "name": "Jun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6af1",
+                    "name": "Yue Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6af2",
+                    "name": "Zheng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69688bbc0ac10a06522f6af3",
+                    "name": "Jieping Ye",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-14T02:43:17.000Z",
+            "submittedOnDailyAt": "2026-01-15T07:24:58.461Z",
+            "title": "Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
+            "submittedOnDailyBy": {
+                "_id": "6463345cd2044cd1d7c613a8",
+                "avatarUrl": "/avatars/242cbf2479877e836f931d17a6190660.svg",
+                "isPro": false,
+                "fullname": "Shaotian",
+                "user": "ystluffy",
+                "type": "user"
+            },
+            "summary": "In this report, we introduce DASD-4B-Thinking, a lightweight yet highly capable, fully open-source reasoning model. It achieves SOTA performance among open-source models of comparable scale across challenging benchmarks in mathematics, scientific reasoning, and code generation -- even outperforming several larger models. We begin by critically reexamining a widely adopted distillation paradigm in the community: SFT on teacher-generated responses, also known as sequence-level distillation. Although a series of recent works following this scheme have demonstrated remarkable efficiency and strong empirical performance, they are primarily grounded in the SFT perspective. Consequently, these approaches focus predominantly on designing heuristic rules for SFT data filtering, while largely overlooking the core principle of distillation itself -- enabling the student model to learn the teacher's full output distribution so as to inherit its generalization capability. Specifically, we identify three critical limitations in current practice: i) Inadequate representation of the teacher's sequence-level distribution; ii) Misalignment between the teacher's output distribution and the student's learning capacity; and iii) Exposure bias arising from teacher-forced training versus autoregressive inference. In summary, these shortcomings reflect a systemic absence of explicit teacher-student interaction throughout the distillation process, leaving the essence of distillation underexploited. To address these issues, we propose several methodological innovations that collectively form an enhanced sequence-level distillation training pipeline. Remarkably, DASD-4B-Thinking obtains competitive results using only 448K training samples -- an order of magnitude fewer than those employed by most existing open-source efforts. To support community research, we publicly release our models and the training dataset.",
+            "upvotes": 41,
+            "discussionId": "69688bbc0ac10a06522f6af4",
+            "projectPage": "https://github.com/D2I-ai/dasd-thinking",
+            "githubRepo": "https://github.com/D2I-ai/dasd-thinking",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "A lightweight open-source reasoning model achieves state-of-the-art performance through enhanced sequence-level distillation that addresses limitations in current teacher-student knowledge transfer methods.",
+            "ai_keywords": [
+                "sequence-level distillation",
+                "teacher-student distillation",
+                "SFT",
+                "heuristic rules",
+                "output distribution",
+                "generalization capability",
+                "exposure bias",
+                "teacher-forced training",
+                "autoregressive inference"
+            ],
+            "githubStars": 14,
+            "organization": {
+                "_id": "693005c327917f8ddef415f4",
+                "name": "Alibaba-Apsara",
+                "fullname": "Alibaba Cloud Apsara Lab ",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6463345cd2044cd1d7c613a8/Vlbe-DKfqzJcbWyW6AE57.png"
+            }
+        },
+        "translation_title": "우수한 Long-CoT 추론을 위한 분포 정렬 시퀀스 증류",
+        "purpose": "오픈소스 모델에서 우수한 추론 능력을 달성하기 위한 새로운 시퀀스 증류 방법 연구",
+        "method": [
+            "기존의 SFT(Teacher-Generated Responses) 방식의 시퀀스 증류 패러다임을 비판적으로 재검토함(In this report, we introduce DASD-4B-Thinking, a lightweight yet highly capable, fully open-source reasoning model.)",
+            "교사(Teacher)의 전체 출력 분포를 학습할 수 있도록 하는 새로운 방법론을 제안함(To address these issues, we propose several methodological innovations that collectively form an enhanced sequence-level distillation training pipeline.)",
+            "DASD-4B-Thinking 모델이 모집단의 성능을 유지하면서도 448K의 훈련 샘플만으로 경쟁력 있는 결과를 도출함(Remarkably, DASD-4B-Thinking obtains competitive results using only 448K training samples.)"
+        ],
+        "conclusion": "DASD-4B-Thinking은 기존 오픈소스 모델보다 적은 데이터를 사용해 우수한 성능을 발휘하며, 연구 커뮤니티에 모델과 훈련 데이터셋을 공개함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
