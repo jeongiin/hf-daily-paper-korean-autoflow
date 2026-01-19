@@ -1,0 +1,591 @@
+[
+    {
+        "paper": {
+            "id": "2601.08521",
+            "authors": [
+                {
+                    "_id": "69674059c5e371f6b235d1d8",
+                    "user": {
+                        "_id": "68920f91bcf2b25e8e121cf6",
+                        "avatarUrl": "/avatars/4bc69f43828a346a3ee24b026e0edbb4.svg",
+                        "isPro": false,
+                        "fullname": "Fengkai Yang",
+                        "user": "ShortCatisLong",
+                        "type": "user"
+                    },
+                    "name": "Fengkai Yang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:33:21.899Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1d9",
+                    "user": {
+                        "_id": "6969715fb2636f5f23a9a8c5",
+                        "avatarUrl": "/avatars/5e75043891ee41bb980f71fb9e3a33ab.svg",
+                        "isPro": false,
+                        "fullname": "Zherui Chen",
+                        "user": "chenzherui007",
+                        "type": "user"
+                    },
+                    "name": "Zherui Chen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-16T10:33:53.078Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1da",
+                    "name": "Xiaohan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1db",
+                    "name": "Xiaodong Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1dc",
+                    "user": {
+                        "_id": "666eb642a119281ee0bfa443",
+                        "avatarUrl": "/avatars/71317810b00978754ad439837b04faff.svg",
+                        "isPro": false,
+                        "fullname": "Jiajun Chai",
+                        "user": "PandaChai",
+                        "type": "user"
+                    },
+                    "name": "Jiajun Chai",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:37:17.404Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1dd",
+                    "name": "Guojun Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1de",
+                    "name": "Wei Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1df",
+                    "name": "Shuai Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1e0",
+                    "name": "Fuzhen Zhuang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1e1",
+                    "name": "Deqing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1e2",
+                    "name": "Yaodong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1e3",
+                    "name": "Jianxin Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "69674059c5e371f6b235d1e4",
+                    "user": {
+                        "_id": "68345345f4bbf856e2d708e2",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68345345f4bbf856e2d708e2/L5H2HNCuWje3ti2tNbC5p.jpeg",
+                        "isPro": false,
+                        "fullname": "Yikun Ban",
+                        "user": "Yikunb",
+                        "type": "user"
+                    },
+                    "name": "Yikun Ban",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-16T10:33:50.655Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-13T13:03:15.000Z",
+            "submittedOnDailyAt": "2026-01-19T00:20:58.837Z",
+            "title": "Your Group-Relative Advantage Is Biased",
+            "submittedOnDailyBy": {
+                "_id": "68345345f4bbf856e2d708e2",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/68345345f4bbf856e2d708e2/L5H2HNCuWje3ti2tNbC5p.jpeg",
+                "isPro": false,
+                "fullname": "Yikun Ban",
+                "user": "Yikunb",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid learned critics, yet its theoretical properties remain poorly understood.\n  In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage. We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts, leading to imbalanced exploration and exploitation. To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics. Both theoretical analysis and experiments on five mathematical reasoning benchmarks demonstrate that HA-DW consistently improves performance when integrated into GRPO and its variants. Our results suggest that correcting biased advantage estimation is critical for robust and efficient RLVR training.",
+            "upvotes": 91,
+            "discussionId": "6967405ac5e371f6b235d1e5",
+            "ai_summary": "Group-based reinforcement learning from verifier rewards suffers from biased advantage estimation that underestimates hard prompts and overestimates easy prompts, which is addressed through a history-aware adaptive difficulty weighting method that improves performance on mathematical reasoning benchmarks.",
+            "ai_keywords": [
+                "Reinforcement Learning from Verifier Rewards",
+                "group-based methods",
+                "GRPO",
+                "advantage estimation",
+                "bias correction",
+                "adaptive reweighting",
+                "difficulty weighting",
+                "mathematical reasoning",
+                "benchmark evaluation"
+            ]
+        },
+        "translation_title": "당신의 그룹-상대 이점은 편향되어 있다",
+        "purpose": "그룹 기반 RL 방법의 편향된 상대 이점 추정 문제를 해결하고 성능을 개선하기 위한 연구",
+        "method": [
+            "그룹-상대 이점 추정기가 실제 이점에 대해 본질적으로 편향되어 있다는 문제를 밝힘(In this work, we uncover a fundamental issue of group-based RL: the group-relative advantage estimator is inherently biased relative to the true (expected) advantage.)",
+            "어려운 프롬프트에 대해 이점을 과소평가하고 쉬운 프롬프트에 대해 과대평가함을 이론적으로 분석함(We provide the first theoretical analysis showing that it systematically underestimates advantages for hard prompts and overestimates them for easy prompts.)",
+            " HA-DW라는 적응형 재가중치 방식을 제안하고, 이 방식이 GRPO와 그 변형에 통합될 때 성능을 향상시킴(To address this issue, we propose History-Aware Adaptive Difficulty Weighting (HA-DW), an adaptive reweighting scheme that adjusts advantage estimates based on an evolving difficulty anchor and training dynamics.)"
+        ],
+        "conclusion": "편향된 이점 추정 교정이 강력하고 효율적인 RLVR 훈련에 중요하다는 것을 보여줌.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Adaptation"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.11496",
+            "authors": [
+                {
+                    "_id": "696de89f3f1837bfb8970ab3",
+                    "user": {
+                        "_id": "64802fb6c57f629056c59966",
+                        "avatarUrl": "/avatars/d5ecabaceeba759969855acf512b6649.svg",
+                        "isPro": false,
+                        "fullname": "Eilam Shapira",
+                        "user": "EilamSha",
+                        "type": "user"
+                    },
+                    "name": "Eilam Shapira",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:37:41.780Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696de89f3f1837bfb8970ab4",
+                    "name": "Roi Reichart",
+                    "hidden": false
+                },
+                {
+                    "_id": "696de89f3f1837bfb8970ab5",
+                    "name": "Moshe Tennenholtz",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-16T18:18:03.000Z",
+            "submittedOnDailyAt": "2026-01-19T06:58:50.740Z",
+            "title": "The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents",
+            "submittedOnDailyBy": {
+                "_id": "64802fb6c57f629056c59966",
+                "avatarUrl": "/avatars/d5ecabaceeba759969855acf512b6649.svg",
+                "isPro": false,
+                "fullname": "Eilam Shapira",
+                "user": "EilamSha",
+                "type": "user"
+            },
+            "summary": "The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction. We investigate the economic implications of expanding the set of available technologies in three canonical game-theoretic settings: bargaining (resource division), negotiation (asymmetric information trade), and persuasion (strategic information transmission). We find that simply increasing the choice of AI delegates can drastically shift equilibrium payoffs and regulatory outcomes, often creating incentives for regulators to proactively develop and release technologies. Conversely, we identify a strategic phenomenon termed the \"Poisoned Apple\" effect: an agent may release a new technology, which neither they nor their opponent ultimately uses, solely to manipulate the regulator's choice of market design in their favor. This strategic release improves the releaser's welfare at the expense of their opponent and the regulator's fairness objectives. Our findings demonstrate that static regulatory frameworks are vulnerable to manipulation via technology expansion, necessitating dynamic market designs that adapt to the evolving landscape of AI capabilities.",
+            "upvotes": 36,
+            "discussionId": "696de8a03f1837bfb8970ab6",
+            "organization": {
+                "_id": "6393322be2364bc1eea56e45",
+                "name": "Technion",
+                "fullname": "Technion Israel institute of technology",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1670591001944-63926124526c29d5b5011374.jpeg"
+            }
+        },
+        "translation_title": "독사과 효과: AI 에이전트의 기술 확대를 통한 매개 시장의 전략적 조작",
+        "purpose": "AI 에이전트의 기술 확대가 경제적 상호작용에 미치는 영향을 분석하고, 규제 결과를 변화시키는 방식을 연구",
+        "method": [
+            "세 가지 게임 이론적 설정(자원 분배, 비대칭 정보 거래, 전략적 정보 전송)에서 AI 기술 선택의 확대가 경제적 결과에 미치는 영향을 조사함(The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction.)",
+            "AI 대리인의 선택을 증가시키는 것이 균형 보상과 규제 결과를 크게 변화시킬 수 있음을 발견함(We find that simply increasing the choice of AI delegates can drastically shift equilibrium payoffs and regulatory outcomes.)",
+            "‘독사과’ 효과라는 전략적 현상을 식별하고, 규제를 조작하기 위해 새로운 기술을 출시하는 경우에 대해 논의함(Conversely, we identify a strategic phenomenon termed the 'Poisoned Apple' effect...)."
+        ],
+        "conclusion": "기술 확대를 통한 조작 가능성이 정적 규제 프레임워크의 취약성을 드러내며, AI 능력의 변화에 적응하는 동적 시장 디자인이 필요하다는 것을 시사함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.10355",
+            "authors": [
+                {
+                    "_id": "6969a11632f0333869ff9390",
+                    "user": {
+                        "_id": "65647e2b50a80d26dbfdf49c",
+                        "avatarUrl": "/avatars/aff0de9f9e4ed322e05d7f832c3c060d.svg",
+                        "isPro": false,
+                        "fullname": "Xu Zhihao",
+                        "user": "naiweizi",
+                        "type": "user"
+                    },
+                    "name": "Zhihao Xu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-16T10:30:47.984Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9391",
+                    "name": "Rumei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9392",
+                    "name": "Jiahuan Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9393",
+                    "user": {
+                        "_id": "601faf6053442c822abcad19",
+                        "avatarUrl": "/avatars/47889d2beea63fbaf46c203d00a33494.svg",
+                        "isPro": false,
+                        "fullname": "Rongxiang Weng",
+                        "user": "wengrx",
+                        "type": "user"
+                    },
+                    "name": "Rongxiang Weng",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:38:27.977Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9394",
+                    "user": {
+                        "_id": "647097cbcfd57849518e656b",
+                        "avatarUrl": "/avatars/c66fe0add29c1bde9e3a98bf4a8793b9.svg",
+                        "isPro": false,
+                        "fullname": "Jingang Wang",
+                        "user": "bitwjg",
+                        "type": "user"
+                    },
+                    "name": "Jingang Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:38:22.544Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9395",
+                    "name": "Xunliang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6969a11632f0333869ff9396",
+                    "user": {
+                        "_id": "640e962f3830fd441c2e250c",
+                        "avatarUrl": "/avatars/f88fbe06925064180b1867787b6d9a4d.svg",
+                        "isPro": false,
+                        "fullname": "Wang",
+                        "user": "Xiting",
+                        "type": "user"
+                    },
+                    "name": "Xiting Wang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:38:07.595Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-15T12:58:46.000Z",
+            "submittedOnDailyAt": "2026-01-19T00:30:06.659Z",
+            "title": "Unlocking Implicit Experience: Synthesizing Tool-Use Trajectories from Text",
+            "submittedOnDailyBy": {
+                "_id": "65647e2b50a80d26dbfdf49c",
+                "avatarUrl": "/avatars/aff0de9f9e4ed322e05d7f832c3c060d.svg",
+                "isPro": false,
+                "fullname": "Xu Zhihao",
+                "user": "naiweizi",
+                "type": "user"
+            },
+            "summary": "Enabling Large Language Models (LLMs) to effectively utilize tools in multi-turn interactions is essential for building capable autonomous agents. However, acquiring diverse and realistic multi-turn tool-use data remains a significant challenge. In this work, we propose a novel text-based paradigm. We observe that textual corpora naturally contain rich, multi-step problem-solving experiences, which can serve as an untapped, scalable, and authentic data source for multi-turn tool-use tasks. Based on this insight, we introduce GEM, a data synthesis pipeline that enables the generation and extraction of multi-turn tool-use trajectories from text corpora through a four-stage process: relevance filtering, workflow & tool extraction, trajectory grounding, and complexity refinement. To reduce the computational cost, we further train a specialized Trajectory Synthesizer via supervised fine-tuning. This model distills the complex generation pipeline into an efficient, end-to-end trajectory generator. Experiments demonstrate that our GEM-32B achieve a 16.5% improvement on the BFCL V3 Multi-turn benchmark. Our models partially surpass the performance of models trained on τ - bench (Airline and Retail) in-domain data, highlighting the superior generalization capability derived from our text-based synthesis paradigm. Notably, our Trajectory Synthesizer matches the quality of the full pipeline while significantly reducing inference latency and costs.",
+            "upvotes": 29,
+            "discussionId": "6969a11632f0333869ff9397",
+            "ai_summary": "A text-based data synthesis approach generates multi-turn tool-use trajectories for large language models, achieving improved performance and reduced computational costs through a specialized trajectory synthesizer.",
+            "ai_keywords": [
+                "large language models",
+                "multi-turn interactions",
+                "tool-use data",
+                "text corpora",
+                "data synthesis pipeline",
+                "relevance filtering",
+                "workflow extraction",
+                "trajectory grounding",
+                "complexity refinement",
+                "supervised fine-tuning",
+                "trajectory synthesizer",
+                "BFCL V3 Multi-turn benchmark",
+                "τ-bench",
+                "inference latency"
+            ],
+            "organization": {
+                "_id": "68b28d79a176a9beb30d2049",
+                "name": "meituan-longcat",
+                "fullname": "LongCat",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+            }
+        },
+        "translation_title": "암묵적 경험의 개방: 텍스트로부터 도구 사용 경로 합성하기",
+        "purpose": "다양하고 현실적인 다중 턴 도구 사용 데이터를 생성하여 유능한 자율 행위를 위한 기반을 마련하는 것",
+        "method": [
+            "텍스트 코퍼스에서 풍부한 문제 해결 경험이 포함되어 있음을 관찰하고, 이를 기반으로 다중 턴 도구 사용 작업에 필요한 데이터를 생성하는 파이프라인 GEM을 제안함(We observe that textual corpora naturally contain rich, multi-step problem-solving experiences, which can serve as an untapped, scalable, and authentic data source for multi-turn tool-use tasks.)",
+            "GEM은 관련성 필터링, 작업 및 도구 추출, 경로 기초화, 복잡성 조정의 네 가지 단계로 구성됨(Based on this insight, we introduce GEM, a data synthesis pipeline that enables the generation and extraction of multi-turn tool-use trajectories from text corpora through a four-stage process: relevance filtering, workflow & tool extraction, trajectory grounding, and complexity refinement.)",
+            "전문화된 Trajectory Synthesizer를 지도 학습 방식으로 훈련시켜 효율적인 경로 생성기를 구현함(To reduce the computational cost, we further train a specialized Trajectory Synthesizer via supervised fine-tuning.)"
+        ],
+        "conclusion": "GEM은 BFCL V3 멀티 턴 벤치마크에서 16.5%의 성능 향상을 이루었으며, 텍스트 기반 합성 패러다임으로부터 우수한 일반화 능력을 가진 모델이 생성됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.08430",
+            "authors": [
+                {
+                    "_id": "696b31133f1837bfb8970653",
+                    "name": "Sunzhu Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970654",
+                    "name": "Jiale Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970655",
+                    "name": "Miteto Wei",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970656",
+                    "user": {
+                        "_id": "65c0327d52edc43028968b74",
+                        "avatarUrl": "/avatars/a0f0a4ef5a808d5b1e4226debafa0061.svg",
+                        "isPro": false,
+                        "fullname": "Huimin Ren",
+                        "user": "renhuimin",
+                        "type": "user"
+                    },
+                    "name": "Huimin Ren",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:38:54.568Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970657",
+                    "name": "Yang Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970658",
+                    "name": "Jingwen Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb8970659",
+                    "user": {
+                        "_id": "6713afea187a20dc579e121b",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6713afea187a20dc579e121b/ELxVQLVF9ifuT-TCWPK22.jpeg",
+                        "isPro": false,
+                        "fullname": "Shunyu Liu",
+                        "user": "liushunyu",
+                        "type": "user"
+                    },
+                    "name": "Shunyu Liu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:39:28.083Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb897065a",
+                    "user": {
+                        "_id": "6625fa89f8639638f9226978",
+                        "avatarUrl": "/avatars/df61c93add66d59d05a33e41f552ff2d.svg",
+                        "isPro": false,
+                        "fullname": "Kaike Zhang",
+                        "user": "kaikezhang",
+                        "type": "user"
+                    },
+                    "name": "Kaike Zhang",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:38:44.338Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696b31133f1837bfb897065b",
+                    "name": "Wei Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-13T10:56:39.000Z",
+            "submittedOnDailyAt": "2026-01-19T00:15:22.448Z",
+            "title": "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
+            "submittedOnDailyBy": {
+                "_id": "67375a6ae6b1d15ff5359a54",
+                "avatarUrl": "/avatars/9d32d9e3bfb43b8d001c6ddeae720ec5.svg",
+                "isPro": false,
+                "fullname": "Zela",
+                "user": "vzl123",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has driven substantial progress in reasoning-intensive domains like mathematics. However, optimizing open-ended generation remains challenging due to the lack of ground truth. While rubric-based evaluation offers a structured proxy for verification, existing methods suffer from scalability bottlenecks and coarse criteria, resulting in a supervision ceiling effect. To address this, we propose an automated Coarse-to-Fine Rubric Generation framework. By synergizing principle-guided synthesis, multi-model aggregation, and difficulty evolution, our approach produces comprehensive and highly discriminative criteria capable of capturing the subtle nuances. Based on this framework, we introduce RubricHub, a large-scale (sim110k) and multi-domain dataset. We validate its utility through a two-stage post-training pipeline comprising Rubric-based Rejection Sampling Fine-Tuning (RuFT) and Reinforcement Learning (RuRL). Experimental results demonstrate that RubricHub unlocks significant performance gains: our post-trained Qwen3-14B achieves state-of-the-art (SOTA) results on HealthBench (69.3), surpassing proprietary frontier models such as GPT-5. The code and data will be released soon.",
+            "upvotes": 24,
+            "discussionId": "696b31143f1837bfb897065c",
+            "projectPage": "https://huggingface.co/datasets/sojuL/RubricHub_v1",
+            "githubRepo": "https://github.com/teqkilla/RubricHub",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "RLVR has advanced reasoning capabilities but struggles with open-ended generation due to lack of ground truth; this work proposes an automated rubric generation framework and dataset to improve performance in health reasoning benchmarks.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "rubric-based evaluation",
+                "principle-guided synthesis",
+                "multi-model aggregation",
+                "difficulty evolution",
+                "RubricHub",
+                "Rubric-based Rejection Sampling Fine-Tuning",
+                "Reinforcement Learning"
+            ],
+            "githubStars": 24
+        },
+        "translation_title": "RubricHub: 자동화된 거칠고 정교한 생성 방식을 통한 종합적이고 차별적인 루브릭 데이터셋",
+        "purpose": "루브릭 기반 평가를 통해 열린 생성 문제를 해결하고, 최적의 평가 기준을 개발하기 위한 데이터셋 구축",
+        "method": [
+            "거칠고 정교한 루브릭 생성을 위한 자동화된 프레임워크를 제안함(To address this, we propose an automated Coarse-to-Fine Rubric Generation framework.)",
+            "원칙에 기반한 합성과 여러 모델 집합 및 난이도 진화를 통해 종합적이고 차별적인 기준을 생성함(By synergizing principle-guided synthesis, multi-model aggregation, and difficulty evolution, our approach produces comprehensive and highly discriminative criteria.)",
+            "루브릭 기반 거부 샘플링 파인 튜닝(RuFT)과 강화 학습(RuRL)을 포함한 두 단계의 후속 훈련 파이프라인을 통해 유용성을 검증함(Based on this framework, we validate its utility through a two-stage post-training pipeline comprising Rubric-based Rejection Sampling Fine-Tuning (RuFT) and Reinforcement Learning (RuRL).)"
+        ],
+        "conclusion": "RubricHub를 통해 Qwen3-14B가 HealthBench에서 SOTA 결과를 달성하며 복합적인 성능 향상을 이루었다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.11000",
+            "authors": [
+                {
+                    "_id": "696dc5773f1837bfb8970a3b",
+                    "user": {
+                        "_id": "6309bfdab8d7b3889319b588",
+                        "avatarUrl": "/avatars/572acdad470f765ef2e058ead3741e24.svg",
+                        "isPro": false,
+                        "fullname": "SunZX",
+                        "user": "Jeryi",
+                        "type": "user"
+                    },
+                    "name": "Zhongxiang Sun",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-19T09:22:05.638Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a3c",
+                    "name": "Yi Zhan",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a3d",
+                    "user": {
+                        "_id": "64b15e4fa15d33a1bc6c2fd5",
+                        "avatarUrl": "/avatars/27bbd2e335c1615bb97a77bace227641.svg",
+                        "isPro": false,
+                        "fullname": "chenglei shen",
+                        "user": "starrylay",
+                        "type": "user"
+                    },
+                    "name": "Chenglei Shen",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:39:47.954Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a3e",
+                    "user": {
+                        "_id": "67f22419903c812238ecccf9",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/E8RQo_VGJsFvJ_ufq5UI6.png",
+                        "isPro": false,
+                        "fullname": "Weijie Yu",
+                        "user": "Shikicon",
+                        "type": "user"
+                    },
+                    "name": "Weijie Yu",
+                    "status": "admin_assigned",
+                    "statusLastChangedAt": "2026-01-19T14:39:42.356Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a3f",
+                    "name": "Xiao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a40",
+                    "name": "Ming He",
+                    "hidden": false
+                },
+                {
+                    "_id": "696dc5773f1837bfb8970a41",
+                    "name": "Jun Xu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-16T05:20:10.000Z",
+            "submittedOnDailyAt": "2026-01-19T04:22:37.620Z",
+            "title": "When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs",
+            "submittedOnDailyBy": {
+                "_id": "6309bfdab8d7b3889319b588",
+                "avatarUrl": "/avatars/572acdad470f765ef2e058ead3741e24.svg",
+                "isPro": false,
+                "fullname": "SunZX",
+                "user": "Jeryi",
+                "type": "user"
+            },
+            "summary": "Personalized large language models (LLMs) adapt model behavior to individual users to enhance user satisfaction, yet personalization can inadvertently distort factual reasoning. We show that when personalized LLMs face factual queries, there exists a phenomenon where the model generates answers aligned with a user's prior history rather than the objective truth, resulting in personalization-induced hallucinations that degrade factual reliability and may propagate incorrect beliefs, due to representational entanglement between personalization and factual representations. To address this issue, we propose Factuality-Preserving Personalized Steering (FPPS), a lightweight inference-time approach that mitigates personalization-induced factual distortions while preserving personalized behavior. We further introduce PFQABench, the first benchmark designed to jointly evaluate factual and personalized question answering under personalization. Experiments across multiple LLM backbones and personalization methods show that FPPS substantially improves factual accuracy while maintaining personalized performance.",
+            "upvotes": 19,
+            "discussionId": "696dc5773f1837bfb8970a42",
+            "ai_summary": "Personalized large language models can generate false information aligned with user history instead of factual truth, but a new method called FPPS helps maintain both factual accuracy and personalized responses while preserving existing personalization effects.",
+            "ai_keywords": [
+                "personalized large language models",
+                "factual reasoning",
+                "personalization-induced hallucinations",
+                "representational entanglement",
+                "Factuality-Preserving Personalized Steering",
+                "PFQABench",
+                "inference-time approach",
+                "factual accuracy",
+                "personalized performance"
+            ],
+            "organization": {
+                "_id": "622177ac43826d6f261f8208",
+                "name": "RUC",
+                "fullname": "Renmin University of China",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+            }
+        },
+        "translation_title": "개인화가 잘못된 인식을 초래할 때: 개인화된 LLM에서 환각 현상을 이해하고 완화하기",
+        "purpose": "개인화된 LLM에서 사실적 왜곡을 완화하고 개인화된 행동을 유지하기 위한 방법 연구",
+        "method": [
+            "개인화된 LLM이 사실적 쿼리에 직면했을 때 발생하는 개인화로 인한 환각 현상을 확인함(We show that when personalized LLMs face factual queries, there exists a phenomenon where the model generates answers aligned with a user's prior history rather than the objective truth.)",
+            "사실성을 보존하는 개인화 조정(FPPS) 방법을 제안하여 개인화로 인한 사실 왜곡을 완화함(we propose Factuality-Preserving Personalized Steering (FPPS), a lightweight inference-time approach that mitigates personalization-induced factual distortions while preserving personalized behavior.)",
+            "PFQABench라는 첫 번째 벤치마크를 도입하여 개인화된 질문 응답을 평가함(We further introduce PFQABench, the first benchmark designed to jointly evaluate factual and personalized question answering under personalization.)"
+        ],
+        "conclusion": "FPPS는 사실적 정확성을 크게 개선하면서 개인화된 성능을 유지하는 데 효과적임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
