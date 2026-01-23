@@ -1,0 +1,583 @@
+[
+    {
+        "paper": {
+            "id": "2601.15876",
+            "authors": [
+                {
+                    "_id": "6972d8d5fb12c92b735b73a2",
+                    "name": "Taofeng Xue",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a3",
+                    "name": "Chong Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a4",
+                    "name": "Mianqiu Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a5",
+                    "name": "Linsen Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a6",
+                    "user": {
+                        "_id": "6764279e684ed3b61b2316a4",
+                        "avatarUrl": "/avatars/63a6b6c3b9f442b42480679425951187.svg",
+                        "isPro": false,
+                        "fullname": "SII-TianchengHAN",
+                        "user": "GenSouKai",
+                        "type": "user"
+                    },
+                    "name": "Tiancheng Han",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-23T09:38:30.106Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a7",
+                    "name": "Haozhe Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a8",
+                    "name": "Jianing Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73a9",
+                    "name": "Xiaocheng Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73aa",
+                    "name": "Xin Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73ab",
+                    "name": "Dengchang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73ac",
+                    "name": "Jinrui Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73ad",
+                    "name": "Xiandi Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73ae",
+                    "name": "Yuchen Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73af",
+                    "name": "Peng Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73b0",
+                    "name": "Xunliang Cai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972d8d5fb12c92b735b73b1",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-22T11:36:43.000Z",
+            "submittedOnDailyAt": "2026-01-23T07:54:00.525Z",
+            "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+            "submittedOnDailyBy": {
+                "_id": "6459c7c10aba070266e41bb1",
+                "avatarUrl": "/avatars/2178cac69cf4123db5e85191160f3795.svg",
+                "isPro": false,
+                "fullname": "mqhuang",
+                "user": "LutherXD",
+                "type": "user"
+            },
+            "summary": "The development of native computer-use agents (CUA) represents a significant leap in multimodal AI. However, their potential is currently bottlenecked by the constraints of static data scaling. Existing paradigms relying primarily on passive imitation of static datasets struggle to capture the intricate causal dynamics inherent in long-horizon computer tasks. In this work, we introduce EvoCUA, a native computer use agentic model. Unlike static imitation, EvoCUA integrates data generation and policy optimization into a self-sustaining evolutionary cycle. To mitigate data scarcity, we develop a verifiable synthesis engine that autonomously generates diverse tasks coupled with executable validators. To enable large-scale experience acquisition, we design a scalable infrastructure orchestrating tens of thousands of asynchronous sandbox rollouts. Building on these massive trajectories, we propose an iterative evolving learning strategy to efficiently internalize this experience. This mechanism dynamically regulates policy updates by identifying capability boundaries -- reinforcing successful routines while transforming failure trajectories into rich supervision through error analysis and self-correction. Empirical evaluations on the OSWorld benchmark demonstrate that EvoCUA achieves a success rate of 56.7%, establishing a new open-source state-of-the-art. Notably, EvoCUA significantly outperforms the previous best open-source model, OpenCUA-72B (45.0%), and surpasses leading closed-weights models such as UI-TARS-2 (53.1%). Crucially, our results underscore the generalizability of this approach: the evolving paradigm driven by learning from experience yields consistent performance gains across foundation models of varying scales, establishing a robust and scalable path for advancing native agent capabilities.",
+            "upvotes": 58,
+            "discussionId": "6972d8d5fb12c92b735b73b2",
+            "ai_summary": "EvoCUA introduces an evolutionary approach to computer-use agents that combines autonomous task generation with policy optimization to achieve superior performance in complex, long-horizon tasks.",
+            "ai_keywords": [
+                "computer-use agents",
+                "native computer-use agents",
+                "data generation",
+                "policy optimization",
+                "evolutionary cycle",
+                "verifiable synthesis engine",
+                "executable validators",
+                "sandbox rollouts",
+                "iterative evolving learning",
+                "capability boundaries",
+                "error analysis",
+                "self-correction",
+                "OSWorld benchmark",
+                "foundation models"
+            ]
+        },
+        "translation_title": "EvoCUA: 확장 가능한 합성 경험에서 학습하여 컴퓨터 사용 에이전트를 발전시키기",
+        "purpose": "정적인 데이터 한계를 극복하고 컴퓨터 작업의 복잡한 인과 역학을 이해하기 위해 진화하는 컴퓨터 사용 에이전트를 개발하는 것",
+        "method": [
+            "EvoCUA는 데이터 생성과 정책 최적화를 결합한 자기 지속적인 진화 사이클을 통해 작동함(Unlike static imitation, EvoCUA integrates data generation and policy optimization into a self-sustaining evolutionary cycle.)",
+            "자동으로 다양한 작업과 실행 가능한 검증기를 생성하는 검증 가능한 합성 엔진을 개발함(To mitigate data scarcity, we develop a verifiable synthesis engine that autonomously generates diverse tasks coupled with executable validators.)",
+            "대규모 경험 수집을 위해 수만 개의 비동기 샌드박스 롤아웃을 조정하는 확장 가능한 인프라를 설계함(To enable large-scale experience acquisition, we design a scalable infrastructure orchestrating tens of thousands of asynchronous sandbox rollouts.)",
+            "경험을 효율적으로 내재화하기 위해 반복적인 진화 학습 전략을 제안함(Building on these massive trajectories, we propose an iterative evolving learning strategy to efficiently internalize this experience.)",
+            "정책 업데이트를 동적으로 조정하기 위해 능력 경계를 식별하는 메커니즘을 구축함(This mechanism dynamically regulates policy updates by identifying capability boundaries -- reinforcing successful routines while transforming failure trajectories into rich supervision through error analysis and self-correction.)"
+        ],
+        "conclusion": "EvoCUA는 56.7%의 성공률을 기록하며 새로운 오픈소스 최신 기술을 수립하였고, 이전 최고 오픈소스 모델인 OpenCUA-72B보다 크게 우수한 성능을 보임.",
+        "keywords": [
+            "Multimodal Learning",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.14724",
+            "authors": [
+                {
+                    "_id": "6972ee7afb12c92b735b74b4",
+                    "user": {
+                        "_id": "637169557a5e5d8efdc3e58e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1668515232215-637169557a5e5d8efdc3e58e.jpeg",
+                        "isPro": false,
+                        "fullname": "Haowei Zhang",
+                        "user": "freesky",
+                        "type": "user"
+                    },
+                    "name": "Haowei Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-23T09:38:23.639Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972ee7afb12c92b735b74b5",
+                    "name": "Shudong Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972ee7afb12c92b735b74b6",
+                    "name": "Jinlan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972ee7afb12c92b735b74b7",
+                    "name": "See-Kiong Ng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972ee7afb12c92b735b74b8",
+                    "name": "Xipeng Qiu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-21T07:26:15.000Z",
+            "submittedOnDailyAt": "2026-01-23T01:43:37.582Z",
+            "title": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+            "submittedOnDailyBy": {
+                "_id": "637169557a5e5d8efdc3e58e",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1668515232215-637169557a5e5d8efdc3e58e.jpeg",
+                "isPro": false,
+                "fullname": "Haowei Zhang",
+                "user": "freesky",
+                "type": "user"
+            },
+            "summary": "Recent advancements in Multimodal Large Language Models (MLLMs) have demonstrated significant improvement in offline video understanding. However, extending these capabilities to streaming video inputs, remains challenging, as existing models struggle to simultaneously maintain stable understanding performance, real-time responses, and low GPU memory overhead. To address this challenge, we propose HERMES, a novel training-free architecture for real-time and accurate understanding of video streams. Based on a mechanistic attention investigation, we conceptualize KV cache as a hierarchical memory framework that encapsulates video information across multiple granularities. During inference, HERMES reuses a compact KV cache, enabling efficient streaming understanding under resource constraints. Notably, HERMES requires no auxiliary computations upon the arrival of user queries, thereby guaranteeing real-time responses for continuous video stream interactions, which achieves 10times faster TTFT compared to prior SOTA. Even when reducing video tokens by up to 68% compared with uniform sampling, HERMES achieves superior or comparable accuracy across all benchmarks, with up to 11.4% gains on streaming datasets.",
+            "upvotes": 52,
+            "discussionId": "6972ee7bfb12c92b735b74b9",
+            "projectPage": "https://hermes-streaming.github.io/",
+            "githubRepo": "https://github.com/haowei-freesky/HERMES",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "HERMES is a training-free architecture that enables real-time video stream understanding by utilizing a hierarchical memory framework based on KV cache reuse, achieving faster response times and maintained accuracy even with reduced video token input.",
+            "ai_keywords": [
+                "Multimodal Large Language Models",
+                "video understanding",
+                "streaming video inputs",
+                "real-time responses",
+                "KV cache",
+                "hierarchical memory framework",
+                "mechanistic attention",
+                "video tokens",
+                "TTFT"
+            ],
+            "githubStars": 23,
+            "organization": {
+                "_id": "613b0dee83ec35d460684607",
+                "name": "OpenMOSS-Team",
+                "fullname": "OpenMOSS",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61457b8deff2c9fdb4de4988/N5b9663zQ4uq5_OTNlnmw.png"
+            }
+        },
+        "translation_title": "HERMES: 효율적인 스트리밍 비디오 이해를 위한 계층 메모리로서의 KV 캐시",
+        "purpose": "실시간 비디오 스트림의 정확한 이해를 위한 새로운 아키텍처 개발",
+        "method": [
+            "기계적 주의 메커니즘 연구를 바탕으로 KV 캐시를 계층적 메모리 프레임워크로 개념화함(Based on a mechanistic attention investigation, we conceptualize KV cache as a hierarchical memory framework that encapsulates video information across multiple granularities.)",
+            "HERMES는 컴팩트한 KV 캐시를 재사용하여 자원 제약 하에서 효율적인 스트리밍 이해를 가능하게 함(During inference, HERMES reuses a compact KV cache, enabling efficient streaming understanding under resource constraints.)",
+            "사용자 쿼리 도착 시 보조 계산이 필요 없어 실시간 응답을 보장함(Notably, HERMES requires no auxiliary computations upon the arrival of user queries, thereby guaranteeing real-time responses for continuous video stream interactions.)"
+        ],
+        "conclusion": "HERMES는 기존 최첨단 기술에 비해 TTFT를 10배 더 빠르게 달성하고, 비디오 토큰을 68% 줄여도 모든 벤치마크에서 우수한 정확도를 유지함.",
+        "keywords": [
+            "Video Understanding",
+            "Multimodal Learning",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.15165",
+            "authors": [
+                {
+                    "_id": "6971933ac1c7409747bf9597",
+                    "name": "Zanlin Ni",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf9598",
+                    "user": {
+                        "_id": "6486dde1f74857df3f1a5828",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6486dde1f74857df3f1a5828/FgE80CpalBO5qqArdfwxA.jpeg",
+                        "isPro": false,
+                        "fullname": "Shenzhi Wang",
+                        "user": "shenzhi-wang",
+                        "type": "user"
+                    },
+                    "name": "Shenzhi Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-23T09:38:54.254Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf9599",
+                    "name": "Yang Yue",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959a",
+                    "name": "Tianyu Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959b",
+                    "name": "Weilin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959c",
+                    "name": "Yeguo Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959d",
+                    "name": "Tianyi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959e",
+                    "name": "Jun Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf959f",
+                    "name": "Cheng Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf95a0",
+                    "name": "Bo Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971933ac1c7409747bf95a1",
+                    "name": "Gao Huang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-21T16:41:58.000Z",
+            "submittedOnDailyAt": "2026-01-23T00:11:51.141Z",
+            "title": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+            "submittedOnDailyBy": {
+                "_id": "63987ffb2ceb55aabe0852f3",
+                "avatarUrl": "/avatars/343b796ff6b8906203904e8c620d7eb5.svg",
+                "isPro": false,
+                "fullname": "Zanlin Ni",
+                "user": "nzl-thu",
+                "type": "user"
+            },
+            "summary": "Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders. Intuitively, this flexibility implies a solution space that strictly supersets the fixed autoregressive trajectory, theoretically unlocking superior reasoning potential for general tasks like mathematics and coding. Consequently, numerous works have leveraged reinforcement learning (RL) to elicit the reasoning capability of dLLMs. In this paper, we reveal a counter-intuitive reality: arbitrary order generation, in its current form, narrows rather than expands the reasoning boundary of dLLMs. We find that dLLMs tend to exploit this order flexibility to bypass high-uncertainty tokens that are crucial for exploration, leading to a premature collapse of the solution space. This observation challenges the premise of existing RL approaches for dLLMs, where considerable complexities, such as handling combinatorial trajectories and intractable likelihoods, are often devoted to preserving this flexibility. We demonstrate that effective reasoning is better elicited by intentionally forgoing arbitrary order and applying standard Group Relative Policy Optimization (GRPO) instead. Our approach, JustGRPO, is minimalist yet surprisingly effective (e.g., 89.1% accuracy on GSM8K) while fully retaining the parallel decoding ability of dLLMs. Project page: https://nzl-thu.github.io/the-flexibility-trap",
+            "upvotes": 51,
+            "discussionId": "6971933ac1c7409747bf95a2",
+            "projectPage": "https://nzl-thu.github.io/the-flexibility-trap",
+            "githubRepo": "https://github.com/LeapLabTHU/JustGRPO",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Arbitrary order generation in diffusion large language models limits reasoning capability by causing premature solution space collapse, making standard policy optimization more effective.",
+            "ai_keywords": [
+                "diffusion large language models",
+                "left-to-right constraint",
+                "token generation",
+                "reinforcement learning",
+                "reasoning potential",
+                "mathematical reasoning",
+                "coding tasks",
+                "combinatorial trajectories",
+                "likelihoods",
+                "Group Relative Policy Optimization",
+                "GRPO",
+                "parallel decoding"
+            ],
+            "githubStars": 57,
+            "organization": {
+                "_id": "69719700e3846c07669d13ee",
+                "name": "Tsinghua-LeapLab",
+                "fullname": "Tsinghua-LeapLab",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/63987ffb2ceb55aabe0852f3/hflTWNTGxeJx83xNkYrDB.png"
+            }
+        },
+        "translation_title": "유연성의 함정: 임의의 순서가 Diffusion Language Models의 추론 잠재력을 제한하는 이유",
+        "purpose": "Diffusion Language Models(dLLMs)의 임의 순서 생성을 통해 더 우수한 추론 잠재력을 이끌어내기 위한 연구",
+        "method": [
+            "dLLMs는 전통적인 LLMs의 왼쪽에서 오른쪽으로의 고정된 제약을 깨고 임의의 순서로 토큰 생성을 가능하게 함(Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders.)",
+            "종래의 RL 기법을 활용하여 dLLMs의 추론 능력을 끌어내고자 했지만, 임의의 순서 생성이 오히려 dLLMs의 추론 경계를 좁힌다는 사실을 발견함(Consequently, numerous works have leveraged reinforcement learning (RL) to elicit the reasoning capability of dLLMs. In this paper, we reveal a counter-intuitive reality: arbitrary order generation, in its current form, narrows rather than expands the reasoning boundary of dLLMs.)",
+            "임의 순서를 포기하고 Group Relative Policy Optimization (GRPO)를 적용하는 JustGRPO 방식을 제안하여 효과적인 추론을 이끌어냄(We demonstrate that effective reasoning is better elicited by intentionally forgoing arbitrary order and applying standard Group Relative Policy Optimization (GRPO) instead.)"
+        ],
+        "conclusion": "JustGRPO 방식은 dLLMs의 병렬 디코딩 능력을 유지하면서도 효과적인 추론을 가능하게 하여 89.1%의 정확도를 달성함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.15197",
+            "authors": [
+                {
+                    "_id": "6971c608c1c7409747bf96a5",
+                    "user": {
+                        "_id": "65ec01fd770aa0e25d9374dc",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ec01fd770aa0e25d9374dc/yvLWwBEdAdHb-8EdUHg3n.jpeg",
+                        "isPro": false,
+                        "fullname": "Shijie Lian",
+                        "user": "LiamLian0727",
+                        "type": "user"
+                    },
+                    "name": "Shijie Lian",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-22T08:44:25.547Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96a6",
+                    "name": "Bin Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96a7",
+                    "name": "Xiaopeng Lin",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96a8",
+                    "name": "Laurence T. Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96a9",
+                    "name": "Zhaolong Shen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96aa",
+                    "name": "Changti Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96ab",
+                    "name": "Yuzhuo Miao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96ac",
+                    "name": "Cong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6971c608c1c7409747bf96ad",
+                    "name": "Kai Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-21T17:15:22.000Z",
+            "submittedOnDailyAt": "2026-01-23T00:45:20.588Z",
+            "title": "BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries",
+            "submittedOnDailyBy": {
+                "_id": "65ec01fd770aa0e25d9374dc",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ec01fd770aa0e25d9374dc/yvLWwBEdAdHb-8EdUHg3n.jpeg",
+                "isPro": false,
+                "fullname": "Shijie Lian",
+                "user": "LiamLian0727",
+                "type": "user"
+            },
+            "summary": "Vision-Language-Action (VLA) models have shown promise in robot manipulation but often struggle to generalize to new instructions or complex multi-task scenarios. We identify a critical pathology in current training paradigms where goal-driven data collection creates a dataset bias. In such datasets, language instructions are highly predictable from visual observations alone, causing the conditional mutual information between instructions and actions to vanish, a phenomenon we term Information Collapse. Consequently, models degenerate into vision-only policies that ignore language constraints and fail in out-of-distribution (OOD) settings. To address this, we propose BayesianVLA, a novel framework that enforces instruction following via Bayesian decomposition. By introducing learnable Latent Action Queries, we construct a dual-branch architecture to estimate both a vision-only prior p(a mid v) and a language-conditioned posterior π(a mid v, ell). We then optimize the policy to maximize the conditional Pointwise Mutual Information (PMI) between actions and instructions. This objective effectively penalizes the vision shortcut and rewards actions that explicitly explain the language command. Without requiring new data, BayesianVLA significantly improves generalization. Extensive experiments across on SimplerEnv and RoboCasa demonstrate substantial gains, including an 11.3% improvement on the challenging OOD SimplerEnv benchmark, validating the ability of our approach to robustly ground language in action.",
+            "upvotes": 50,
+            "discussionId": "6971c609c1c7409747bf96ae",
+            "projectPage": "https://github.com/ZGC-EmbodyAI/BayesianVLA",
+            "githubRepo": "https://github.com/ZGC-EmbodyAI/BayesianVLA",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "BayesianVLA addresses language-action grounding issues in robot manipulation by using Bayesian decomposition to prevent information collapse and improve out-of-distribution generalization.",
+            "ai_keywords": [
+                "Vision-Language-Action models",
+                "Information Collapse",
+                "Bayesian decomposition",
+                "latent action queries",
+                "conditional Pointwise Mutual Information",
+                "vision-only policies",
+                "out-of-distribution generalization",
+                "SimplerEnv",
+                "RoboCasa"
+            ],
+            "githubStars": 7,
+            "organization": {
+                "_id": "68896d3a716ee5bfb1428441",
+                "name": "ZGCA",
+                "fullname": "Zhongguancun Academy",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6854c3ab09a3ba7d16243875/aZ3tp3lZk1yQoXDwSklye.png"
+            }
+        },
+        "translation_title": "BayesianVLA: 잠재적 행동 질의를 통한 비전 언어 행동 모델의 베이지안 분해",
+        "purpose": "로봇 조작에서 비전-언어-행동 모델의 일반화 능력을 향상시키기 위해 정보 붕괴 문제를 해결",
+        "method": [
+            "기존의 목표 중심 데이터 수집이 데이터셋 편향을 초래하는 문제를 식별함.(We identify a critical pathology in current training paradigms where goal-driven data collection creates a dataset bias.)",
+            "베이지안 분해를 통해 지시사항 따르기를 강화하는 BayesianVLA 프레임워크를 제안함.(To address this, we propose BayesianVLA, a novel framework that enforces instruction following via Bayesian decomposition.)",
+            "학습 가능한 잠재 행동 질의를 도입하고, 비전 전용 사전과 언어 조건부 후안을 추정하는 이중 가지 아키텍처를 구축함.(By introducing learnable Latent Action Queries, we construct a dual-branch architecture to estimate both a vision-only prior p(a mid v) and a language-conditioned posterior π(a mid v, ell).)",
+            "정책을 최적화하여 행동과 지시사항 간의 조건부 Pointwise Mutual Information (PMI)을 극대화함.(We then optimize the policy to maximize the conditional Pointwise Mutual Information (PMI) between actions and instructions.)"
+        ],
+        "conclusion": "BayesianVLA는 새로운 데이터 없이도 일반화를 크게 개선하며, 언어를 행동으로 강력하게 연계할 수 있는 능력을 입증함.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Image Understanding"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.16206",
+            "authors": [
+                {
+                    "_id": "6972e04dfb12c92b735b73cf",
+                    "user": {
+                        "_id": "649e6761f9134a06ed1e0cea",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649e6761f9134a06ed1e0cea/XNeKceE8xSwI0xWwWUwwJ.jpeg",
+                        "isPro": false,
+                        "fullname": "Daixuan Cheng",
+                        "user": "daixuancheng",
+                        "type": "user"
+                    },
+                    "name": "Daixuan Cheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-23T09:38:28.070Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d0",
+                    "name": "Shaohan Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d1",
+                    "name": "Yuxian Gu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d2",
+                    "name": "Huatong Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d3",
+                    "name": "Guoxin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d4",
+                    "name": "Li Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d5",
+                    "name": "Wayne Xin Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d6",
+                    "name": "Ji-Rong Wen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6972e04dfb12c92b735b73d7",
+                    "name": "Furu Wei",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-22T18:57:09.000Z",
+            "submittedOnDailyAt": "2026-01-23T00:27:12.305Z",
+            "title": "LLM-in-Sandbox Elicits General Agentic Intelligence",
+            "submittedOnDailyBy": {
+                "_id": "649e6761f9134a06ed1e0cea",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/649e6761f9134a06ed1e0cea/XNeKceE8xSwI0xWwWUwwJ.jpeg",
+                "isPro": false,
+                "fullname": "Daixuan Cheng",
+                "user": "daixuancheng",
+                "type": "user"
+            },
+            "summary": "We introduce LLM-in-Sandbox, enabling LLMs to explore within a code sandbox (i.e., a virtual computer), to elicit general intelligence in non-code domains. We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for non-code tasks. For example, LLMs spontaneously access external resources to acquire new knowledge, leverage the file system to handle long contexts, and execute scripts to satisfy formatting requirements. We further show that these agentic capabilities can be enhanced through LLM-in-Sandbox Reinforcement Learning (LLM-in-Sandbox-RL), which uses only non-agentic data to train models for sandbox exploration. Experiments demonstrate that LLM-in-Sandbox, in both training-free and post-trained settings, achieves robust generalization spanning mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following. Finally, we analyze LLM-in-Sandbox's efficiency from computational and system perspectives, and open-source it as a Python package to facilitate real-world deployment.",
+            "upvotes": 41,
+            "discussionId": "6972e04dfb12c92b735b73d8",
+            "projectPage": "https://llm-in-sandbox.github.io",
+            "githubRepo": "https://github.com/llm-in-sandbox/llm-in-sandbox",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "LLM-in-Sandbox enables large language models to perform general intelligence tasks across diverse domains by allowing them to explore a code sandbox environment, achieving robust generalization without additional training.",
+            "ai_keywords": [
+                "LLM-in-Sandbox",
+                "code sandbox",
+                "virtual computer",
+                "reinforcement learning",
+                "non-agentic data",
+                "sandbox exploration",
+                "general intelligence",
+                "long-context understanding",
+                "instruction following"
+            ],
+            "githubStars": 26,
+            "organization": {
+                "_id": "68151d0f51add3813f3f7d1b",
+                "name": "MicrosoftResearch",
+                "fullname": "Microsoft Research",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6529a4f2f1205983224fa513/PeuVr7jSuJflmDBBGxoDX.png"
+            }
+        },
+        "translation_title": "LLM-in-Sandbox: 일반적인 에이전트 지능을 이끌어내다",
+        "purpose": "비코드 분야에서의 일반적 지능을 이끌어내기 위한 LLM의 코드 샌드박스 활용 연구",
+        "method": [
+            "강력한 LLM이 추가 교육 없이 비코드 작업을 위해 코드 샌드박스를 활용하는 일반화 능력을 보여줌(We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for non-code tasks.)",
+            "LLM-in-Sandbox Reinforcement Learning(LLM-in-Sandbox-RL)를 통해 에이전트 능력을 향상시킴(We further show that these agentic capabilities can be enhanced through LLM-in-Sandbox Reinforcement Learning (LLM-in-Sandbox-RL).)",
+            "LLM-in-Sandbox가 수학, 물리학, 화학 등 다양한 분야에서 강력한 일반화를 이뤄냄(Experiments demonstrate that LLM-in-Sandbox, in both training-free and post-trained settings, achieves robust generalization spanning mathematics, physics, chemistry, biomedicine, long-context understanding, and instruction following.)"
+        ],
+        "conclusion": "LLM-in-Sandbox는 실제 세계에서의 적용을 위해 컴퓨팅 및 시스템 관점에서 효율성을 분석하고 Python 패키지로 오픈소스하였다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
