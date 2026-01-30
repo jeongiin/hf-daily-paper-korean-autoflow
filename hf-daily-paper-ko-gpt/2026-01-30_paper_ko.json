@@ -1,0 +1,616 @@
+[
+    {
+        "paper": {
+            "id": "2601.20354",
+            "authors": [
+                {
+                    "_id": "697c1857a67238fac88cc06e",
+                    "user": {
+                        "_id": "656c9cfef7be0986b49934ea",
+                        "avatarUrl": "/avatars/2030e77c28fb4c518b692cd9a20de665.svg",
+                        "isPro": false,
+                        "fullname": "MuMing",
+                        "user": "ZengbinWang",
+                        "type": "user"
+                    },
+                    "name": "Zengbin Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-30T09:36:35.067Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c1857a67238fac88cc06f",
+                    "name": "Xuecai Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c1857a67238fac88cc070",
+                    "name": "Yong Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c1857a67238fac88cc071",
+                    "name": "Feng Xiong",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c1857a67238fac88cc072",
+                    "name": "Man Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c1857a67238fac88cc073",
+                    "name": "Xiangxiang Chu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-28T08:15:00.000Z",
+            "submittedOnDailyAt": "2026-01-30T05:01:51.614Z",
+            "title": "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
+            "submittedOnDailyBy": {
+                "_id": "66d255e3947594430c723ff6",
+                "avatarUrl": "/avatars/c56e4792332a01bf34085a75ee64916e.svg",
+                "isPro": false,
+                "fullname": "xiaochonglinghu",
+                "user": "xiaochonglinghu",
+                "type": "user"
+            },
+            "summary": "Text-to-image (T2I) models have achieved remarkable success in generating high-fidelity images, but they often fail in handling complex spatial relationships, e.g., spatial perception, reasoning, or interaction. These critical aspects are largely overlooked by current benchmarks due to their short or information-sparse prompt design. In this paper, we introduce SpatialGenEval, a new benchmark designed to systematically evaluate the spatial intelligence of T2I models, covering two key aspects: (1) SpatialGenEval involves 1,230 long, information-dense prompts across 25 real-world scenes. Each prompt integrates 10 spatial sub-domains and corresponding 10 multi-choice question-answer pairs, ranging from object position and layout to occlusion and causality. Our extensive evaluation of 21 state-of-the-art models reveals that higher-order spatial reasoning remains a primary bottleneck. (2) To demonstrate that the utility of our information-dense design goes beyond simple evaluation, we also construct the SpatialT2I dataset. It contains 15,400 text-image pairs with rewritten prompts to ensure image consistency while preserving information density. Fine-tuned results on current foundation models (i.e., Stable Diffusion-XL, Uniworld-V1, OmniGen2) yield consistent performance gains (+4.2%, +5.7%, +4.4%) and more realistic effects in spatial relations, highlighting a data-centric paradigm to achieve spatial intelligence in T2I models.",
+            "upvotes": 95,
+            "discussionId": "697c1857a67238fac88cc074",
+            "githubRepo": "https://github.com/AMAP-ML/SpatialGenEval",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "A new benchmark and dataset are introduced to evaluate and improve spatial reasoning capabilities in text-to-image models through information-dense prompts and fine-tuning.",
+            "ai_keywords": [
+                "text-to-image models",
+                "spatial intelligence",
+                "benchmark",
+                "long prompts",
+                "information-dense prompts",
+                "spatial reasoning",
+                "Stable Diffusion-XL",
+                "Uniworld-V1",
+                "OmniGen2",
+                "fine-tuning"
+            ],
+            "githubStars": 79,
+            "organization": {
+                "_id": "64488b334988ee01f2a8d856",
+                "name": "alibaba-inc",
+                "fullname": "alibaba-inc",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/61ac8f8a00d01045fca0ad2f/MX4wxQVaFm1A1wqnrL2WU.jpeg"
+            }
+        },
+        "translation_title": "모든 것이 제자리에: Text-to-Image 모델의 공간 지능 벤치마킹",
+        "purpose": "Text-to-Image 모델의 공간 지능을 체계적으로 평가하기 위한 새로운 벤치마크 개발",
+        "method": [
+            "SpatialGenEval을 도입하여 25개의 실제 장면에서 1,230개의 긴 정보 밀집 프롬프트를 포함한 평가 방안을 마련함.(we introduce SpatialGenEval, a new benchmark designed to systematically evaluate the spatial intelligence of T2I models, covering two key aspects: (1) SpatialGenEval involves 1,230 long, information-dense prompts across 25 real-world scenes.)",
+            "각 프롬프트는 10개의 공간 하위 도메인과 관련된 10개의 선택형 질문-답변 쌍을 통합함(Each prompt integrates 10 spatial sub-domains and corresponding 10 multi-choice question-answer pairs, ranging from object position and layout to occlusion and causality.)",
+            "SpatialT2I 데이터셋을 구축해 15,400개의 텍스트-이미지 쌍을 포함하고 정보 밀도를 유지함(we also construct the SpatialT2I dataset. It contains 15,400 text-image pairs with rewritten prompts to ensure image consistency while preserving information density.)"
+        ],
+        "conclusion": "모델 평가 과정을 통해 공간 관계에서 더 현실적인 효과와 성능 향상을 확인함.",
+        "keywords": [
+            "Computer Vision",
+            "Image Generation",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.20833",
+            "authors": [
+                {
+                    "_id": "697b9192a67238fac88cbee8",
+                    "name": "Tengyue Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbee9",
+                    "name": "Zhuoyang Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeea",
+                    "name": "Gaoge Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeeb",
+                    "name": "Li Ling",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeec",
+                    "name": "Zhentao Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeed",
+                    "name": "Biao Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeee",
+                    "name": "Shuo Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbeef",
+                    "name": "Ke Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef0",
+                    "name": "Wei Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef1",
+                    "name": "Ziqi Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef2",
+                    "name": "Zheng Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef3",
+                    "name": "Yan Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef4",
+                    "name": "Shu Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef5",
+                    "name": "Yongjin Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef6",
+                    "name": "Zhibo Feng",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef7",
+                    "name": "Zhuo Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef8",
+                    "name": "Bruce Yuan",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbef9",
+                    "name": "Harry Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697b9192a67238fac88cbefa",
+                    "name": "Kris Chen",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-28T18:31:54.000Z",
+            "submittedOnDailyAt": "2026-01-30T03:32:00.106Z",
+            "title": "Idea2Story: An Automated Pipeline for Transforming Research Concepts into Complete Scientific Narratives",
+            "submittedOnDailyBy": {
+                "_id": "62baa0d6dd02fbf607ce97be",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62baa0d6dd02fbf607ce97be/V0I6pANlLEf2YDd9ZLZgi.jpeg",
+                "isPro": false,
+                "fullname": "Wendy",
+                "user": "Wendy-Fly",
+                "type": "user"
+            },
+            "summary": "Autonomous scientific discovery with large language model (LLM)-based agents has recently made substantial progress, demonstrating the ability to automate end-to-end research workflows. However, existing systems largely rely on runtime-centric execution paradigms, repeatedly reading, summarizing, and reasoning over large volumes of scientific literature online. This on-the-spot computation strategy incurs high computational cost, suffers from context window limitations, and often leads to brittle reasoning and hallucination. We propose Idea2Story, a pre-computation-driven framework for autonomous scientific discovery that shifts literature understanding from online reasoning to offline knowledge construction. Idea2Story continuously collects peer-reviewed papers together with their review feedback, extracts core methodological units, composes reusable research patterns, and organizes them into a structured methodological knowledge graph. At runtime, underspecified user research intents are aligned to established research paradigms, enabling efficient retrieval and reuse of high-quality research patterns instead of open-ended generation and trial-and-error. By grounding research planning and execution in a pre-built knowledge graph, Idea2Story alleviates the context window bottleneck of LLMs and substantially reduces repeated runtime reasoning over literature. We conduct qualitative analyses and preliminary empirical studies demonstrating that Idea2Story can generate coherent, methodologically grounded, and novel research patterns, and can produce several high-quality research demonstrations in an end-to-end setting. These results suggest that offline knowledge construction provides a practical and scalable foundation for reliable autonomous scientific discovery.",
+            "upvotes": 71,
+            "discussionId": "697b9192a67238fac88cbefb",
+            "githubRepo": "https://github.com/AgentAlphaAGI/Idea2Paper",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Offline knowledge construction through structured methodological graphs enables more reliable and scalable autonomous scientific discovery by reducing reliance on real-time literature processing.",
+            "ai_keywords": [
+                "large language model",
+                "autonomous scientific discovery",
+                "runtime-centric execution",
+                "context window limitations",
+                "hallucination",
+                "pre-computation-driven framework",
+                "peer-reviewed papers",
+                "research patterns",
+                "methodological knowledge graph",
+                "end-to-end research workflows"
+            ],
+            "githubStars": 32,
+            "organization": {
+                "_id": "69542731e1200d74c1c053d1",
+                "name": "AgentAlphaAGI",
+                "fullname": "AgentAlpha",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/64b78eb76ab5d14ca7faac87/TbMZ3y00APtRzHEfTSR7I.jpeg"
+            }
+        },
+        "translation_title": "Idea2Story: 연구 개념을 완전한 과학 내러티브로 변환하는 자동화 파이프라인",
+        "purpose": "자율적인 과학 발견을 위해 오프라인 지식 구축을 통한 효율적인 연구 패턴 생성 및 재사용을 목표로 함.",
+        "method": [
+            "리뷰된 논문과 피드백을 지속적으로 수집하고 핵심 방법론적 단위를 추출함.(Idea2Story continuously collects peer-reviewed papers together with their review feedback, extracts core methodological units.)",
+            "재사용 가능한 연구 패턴을 구성하고 이를 구조화된 방법론적 지식 그래프로 정리함.(composes reusable research patterns, and organizes them into a structured methodological knowledge graph.)",
+            "사용자의 연구 의도를 기존 연구 패러다임에 맞춰 조정하여 고품질 연구 패턴을 효율적으로 검색하고 재사용함.(underspecified user research intents are aligned to established research paradigms, enabling efficient retrieval and reuse of high-quality research patterns.)"
+        ],
+        "conclusion": "Idea2Story는 일관성 있고 방법론적으로 기반을 둔 새로운 연구 패턴을 생성할 수 있으며, 자율적인 과학 발견을 위한 신뢰할 수 있는 기반을 제공함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.21204",
+            "authors": [
+                {
+                    "_id": "697c3801a67238fac88cc1b1",
+                    "name": "Hong Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b2",
+                    "name": "Jiaqi Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b3",
+                    "name": "Chao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b4",
+                    "name": "Xing Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b5",
+                    "name": "Linkun Lyu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b6",
+                    "name": "Jiaqi Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b7",
+                    "name": "Xurui Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b8",
+                    "name": "Bo Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1b9",
+                    "name": "Fengcun Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1ba",
+                    "name": "Yulei Qian",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1bb",
+                    "name": "Lingtong Si",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1bc",
+                    "name": "Yerui Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1bd",
+                    "name": "Rumei Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1be",
+                    "name": "Peng Pei",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1bf",
+                    "name": "Yuchen Xie",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c3801a67238fac88cc1c0",
+                    "name": "Xunliang Cai",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-29T03:11:19.000Z",
+            "submittedOnDailyAt": "2026-01-30T02:18:11.112Z",
+            "title": "Scaling Embeddings Outperforms Scaling Experts in Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "While Mixture-of-Experts (MoE) architectures have become the standard for sparsity scaling in large language models, they increasingly face diminishing returns and system-level bottlenecks. In this work, we explore embedding scaling as a potent, orthogonal dimension for scaling sparsity. Through a comprehensive analysis and experiments, we identify specific regimes where embedding scaling achieves a superior Pareto frontier compared to expert scaling. We systematically characterize the critical architectural factors governing this efficacy -- ranging from parameter budgeting to the interplay with model width and depth. Moreover, by integrating tailored system optimizations and speculative decoding, we effectively convert this sparsity into tangible inference speedups. Guided by these insights, we introduce LongCat-Flash-Lite, a 68.5B parameter model with ~3B activated trained from scratch. Despite allocating over 30B parameters to embeddings, LongCat-Flash-Lite not only surpasses parameter-equivalent MoE baselines but also exhibits exceptional competitiveness against existing models of comparable scale, particularly in agentic and coding domains.",
+            "upvotes": 66,
+            "discussionId": "697c3801a67238fac88cc1c1",
+            "ai_summary": "Embedding scaling offers superior sparsity scaling compared to expert scaling in large language models, enabling efficient inference through system optimizations and speculative decoding.",
+            "ai_keywords": [
+                "Mixture-of-Experts",
+                "sparsity scaling",
+                "embedding scaling",
+                "Pareto frontier",
+                "parameter budgeting",
+                "model width",
+                "model depth",
+                "system optimizations",
+                "speculative decoding",
+                "LongCat-Flash-Lite"
+            ],
+            "organization": {
+                "_id": "68b28d79a176a9beb30d2049",
+                "name": "meituan-longcat",
+                "fullname": "LongCat",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/68a2a29ab9d4c5698e02c747/CDCAx7X7rXDt7xjI-DoxG.png"
+            }
+        },
+        "translation_title": "임베딩 확장이 언어 모델에서 전문가 확장을 능가한다",
+        "purpose": "대규모 언어 모델에서의 희소성 스케일링을 개선하기 위해 임베딩 스케일링을 탐구하여 대안을 제시하는 것",
+        "method": [
+            "Mixture-of-Experts 아키텍처의 성능 저하 문제에 대한 실험을 통해 임베딩 스케일링의 효과를 분석함(we explore embedding scaling as a potent, orthogonal dimension for scaling sparsity.)",
+            "임베딩 스케일링이 전문가 스케일링보다 더 우수한 결과를 달성하는 특정 조건을 확인함(we identify specific regimes where embedding scaling achieves a superior Pareto frontier compared to expert scaling.)",
+            "시스템 최적화와 추측 디코딩을 통해 희소성을 실제 추론 속도로 전환하는 방법을 적용함(we effectively convert this sparsity into tangible inference speedups.)"
+        ],
+        "conclusion": "LongCat-Flash-Lite 모델은 68.5B 파라미터와 ~3B 활성화된 특성을 지니며, MoE 기준보다 뛰어난 성능을 보여줌.",
+        "keywords": [
+            "Large Language Models",
+            "Embedding Scaling",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.21639",
+            "authors": [
+                {
+                    "_id": "697c5270a67238fac88cc226",
+                    "user": {
+                        "_id": "693f91d7ed7d40c019934508",
+                        "avatarUrl": "/avatars/0d73f098627c9ebd2ae7d90e693a34f6.svg",
+                        "isPro": false,
+                        "fullname": "Yufeng Zhong",
+                        "user": "Albert-Zhong",
+                        "type": "user"
+                    },
+                    "name": "Yufeng Zhong",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-30T09:35:23.719Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc227",
+                    "name": "Lei Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc228",
+                    "name": "Xuanle Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc229",
+                    "name": "Wenkang Han",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22a",
+                    "name": "Liming Zheng",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22b",
+                    "name": "Jing Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22c",
+                    "name": "Deyang Jiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22d",
+                    "name": "Yilin Cao",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22e",
+                    "name": "Lin Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c5270a67238fac88cc22f",
+                    "name": "Zhixiong Zeng",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-29T12:43:02.000Z",
+            "submittedOnDailyAt": "2026-01-30T04:33:06.261Z",
+            "title": "OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models",
+            "submittedOnDailyBy": {
+                "_id": "6572cbc42bb242937c0a1101",
+                "avatarUrl": "/avatars/f2af45e6b242aa47578fe3f60e97ca86.svg",
+                "isPro": false,
+                "fullname": "Xuanle Zhao",
+                "user": "xxxllz",
+                "type": "user"
+            },
+            "summary": "The development of large vision language models drives the demand for managing, and applying massive amounts of multimodal data, making OCR technology, which extracts information from visual images, increasingly popular. However, existing OCR methods primarily focus on recognizing text elements from images or scanned documents (Text-centric OCR), neglecting the identification of visual elements from visually information-dense image sources (Vision-centric OCR), such as charts, web pages and science plots. In reality, these visually information-dense images are widespread on the internet and have significant real-world application value, such as data visualization and web page analysis. In this technical report, we propose OCRVerse, the first holistic OCR method in end-to-end manner that enables unified text-centric OCR and vision-centric OCR. To this end, we constructe comprehensive data engineering to cover a wide range of text-centric documents, such as newspapers, magazines and books, as well as vision-centric rendered composites, including charts, web pages and scientific plots. Moreover, we propose a two-stage SFT-RL multi-domain training method for OCRVerse. SFT directly mixes cross-domain data to train and establish initial domain knowledge, while RL focuses on designing personalized reward strategies for the characteristics of each domain. Specifically, since different domains require various output formats and expected outputs, we provide sufficient flexibility in the RL stage to customize flexible reward signals for each domain, thereby improving cross-domain fusion and avoiding data conflicts. Experimental results demonstrate the effectiveness of OCRVerse, achieving competitive results across text-centric and vision-centric data types, even comparable to large-scale open-source and closed-source models.",
+            "upvotes": 40,
+            "discussionId": "697c5270a67238fac88cc230",
+            "githubRepo": "https://github.com/DocTron-hub/OCRVerse",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "OCRVerse is a novel end-to-end OCR method that unifies text-centric and vision-centric approaches through comprehensive data engineering and a two-stage SFT-RL training framework with domain-specific reward strategies.",
+            "ai_keywords": [
+                "OCR",
+                "vision-centric OCR",
+                "text-centric OCR",
+                "end-to-end OCR",
+                "data engineering",
+                "SFT-RL training",
+                "cross-domain training",
+                "reward strategies",
+                "domain-specific customization",
+                "cross-domain fusion"
+            ],
+            "githubStars": 10
+        },
+        "translation_title": "OCRVerse: End-to-End Vision-Language 모델을 위한 종합 OCR",
+        "purpose": "텍스트 중심 OCR과 비주얼 중심 OCR을 통합하여 다양한 정보를 추출할 수 있는 종합 OCR 방법 개발",
+        "method": [
+            "텍스트 중심 문서(신문, 잡지, 책 등)와 비주얼 중심 복합체(차트, 웹 페이지, 과학적 플롯)를 아우르는 데이터 엔지니어링을 구축함.(we construct comprehensive data engineering to cover a wide range of text-centric documents, such as newspapers, magazines and books, as well as vision-centric rendered composites, including charts, web pages and scientific plots.)",
+            "SFT-RL 다중 도메인 훈련 방법을 제안하여 초기 도메인 지식을 구축하고, 각 도메인에 맞춘 보상 전략을 설계함.(we propose a two-stage SFT-RL multi-domain training method for OCRVerse.)"
+        ],
+        "conclusion": "OCRVerse는 텍스트 중심 및 비주얼 중심 데이터 유형에서 경쟁력 있는 결과를 달성하며, 대규모 공개 모델 및 폐쇄형 모델에 버금가는 성능을 보임.",
+        "keywords": [
+            "Computer Vision",
+            "Document Parsing",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.22153",
+            "authors": [
+                {
+                    "_id": "697c2899a67238fac88cc115",
+                    "user": {
+                        "_id": "63f47b5321eb234ab739e91a",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f47b5321eb234ab739e91a/vWfFNVtMkHl8gieha5PPd.jpeg",
+                        "isPro": false,
+                        "fullname": "Haozhe Xie",
+                        "user": "hzxie",
+                        "type": "user"
+                    },
+                    "name": "Haozhe Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-30T13:31:48.996Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc116",
+                    "user": {
+                        "_id": "672392c4a4c4381cefc06416",
+                        "avatarUrl": "/avatars/8ee84a7e3e91e5d13074bc3c407ff75d.svg",
+                        "isPro": false,
+                        "fullname": "Wen Beichen",
+                        "user": "wenbc21",
+                        "type": "user"
+                    },
+                    "name": "Beichen Wen",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-30T13:31:52.487Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc117",
+                    "user": {
+                        "_id": "6899ff3f4c5ca50a326bb456",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/Nuqof2ofdaQUD5b07cDnG.png",
+                        "isPro": false,
+                        "fullname": "Zheng Jiarui",
+                        "user": "zghtyarecrenj",
+                        "type": "user"
+                    },
+                    "name": "Jiarui Zheng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-01-30T13:31:46.030Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc118",
+                    "name": "Zhaoxi Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc119",
+                    "name": "Fangzhou Hong",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc11a",
+                    "name": "Haiwen Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c2899a67238fac88cc11b",
+                    "name": "Ziwei Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/63f47b5321eb234ab739e91a/p9cPxETttQUS23woFb14M.mp4"
+            ],
+            "publishedAt": "2026-01-29T18:59:51.000Z",
+            "submittedOnDailyAt": "2026-01-30T01:46:39.673Z",
+            "title": "DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation",
+            "submittedOnDailyBy": {
+                "_id": "63f47b5321eb234ab739e91a",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/63f47b5321eb234ab739e91a/vWfFNVtMkHl8gieha5PPd.jpeg",
+                "isPro": false,
+                "fullname": "Haozhe Xie",
+                "user": "hzxie",
+                "type": "user"
+            },
+            "summary": "Manipulating dynamic objects remains an open challenge for Vision-Language-Action (VLA) models, which, despite strong generalization in static manipulation, struggle in dynamic scenarios requiring rapid perception, temporal anticipation, and continuous control. We present DynamicVLA, a framework for dynamic object manipulation that integrates temporal reasoning and closed-loop adaptation through three key designs: 1) a compact 0.4B VLA using a convolutional vision encoder for spatially efficient, structurally faithful encoding, enabling fast multimodal inference; 2) Continuous Inference, enabling overlapping reasoning and execution for lower latency and timely adaptation to object motion; and 3) Latent-aware Action Streaming, which bridges the perception-execution gap by enforcing temporally aligned action execution. To fill the missing foundation of dynamic manipulation data, we introduce the Dynamic Object Manipulation (DOM) benchmark, built from scratch with an auto data collection pipeline that efficiently gathers 200K synthetic episodes across 2.8K scenes and 206 objects, and enables fast collection of 2K real-world episodes without teleoperation. Extensive evaluations demonstrate remarkable improvements in response speed, perception, and generalization, positioning DynamicVLA as a unified framework for general dynamic object manipulation across embodiments.",
+            "upvotes": 39,
+            "discussionId": "697c2899a67238fac88cc11c",
+            "projectPage": "https://haozhexie.com/project/dynamic-vla",
+            "githubRepo": "https://github.com/hzxie/DynamicVLA",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "DynamicVLA addresses dynamic object manipulation challenges through a compact vision-language-action model with temporal reasoning and closed-loop adaptation, supported by a new benchmark for dynamic manipulation tasks.",
+            "ai_keywords": [
+                "Vision-Language-Action models",
+                "temporal reasoning",
+                "closed-loop adaptation",
+                "convolutional vision encoder",
+                "multimodal inference",
+                "Continuous Inference",
+                "Latent-aware Action Streaming",
+                "Dynamic Object Manipulation benchmark",
+                "synthetic episodes",
+                "real-world episodes"
+            ],
+            "githubStars": 41,
+            "organization": {
+                "_id": "62d55f243bf5e059f7ca25ba",
+                "name": "mmlab-ntu",
+                "fullname": "MMLab@NTU",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1658151991971-62b5777f593a2c49da69dc02.png"
+            }
+        },
+        "translation_title": "DynamicVLA: 동적 물체 조작을 위한 Vision-Language-Action 모델",
+        "purpose": "동적 물체 조작에서 비전-언어-행동(VLA) 모델의 성능을 개선하기 위한 새로운 프레임워크 개발",
+        "method": [
+            "Compact한 0.4B VLA를 활용하여 공간 효율적이고 구조적으로 신뢰할 수 있는 인코딩을 가능하게 함(we present DynamicVLA, a framework for dynamic object manipulation that integrates temporal reasoning and closed-loop adaptation through three key designs: 1) a compact 0.4B VLA using a convolutional vision encoder for spatially efficient, structurally faithful encoding.)",
+            "Continuous Inference로 빠른 적응과 낮은 대기시간을 위한 중첩된 추론과 실행을 가능하게 함(2) Continuous Inference, enabling overlapping reasoning and execution for lower latency and timely adaptation to object motion;)",
+            "Latent-aware Action Streaming을 통해 인식-실행 격차를 줄이고 시기적절한 행동 실행을 보장함(3) Latent-aware Action Streaming, which bridges the perception-execution gap by enforcing temporally aligned action execution.)"
+        ],
+        "conclusion": "DynamicVLA는 빠른 반응 속도, 인식 및 일반화에서의 개선을 보여주며, 다양한 환경에서의 동적 물체 조작을 위한 통합 프레임워크로 자리잡음.",
+        "keywords": [
+            "Vision-Language Models",
+            "Robotics",
+            "Image Understanding"
+        ]
+    }
+]
