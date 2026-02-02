@@ -1,0 +1,513 @@
+[
+    {
+        "paper": {
+            "id": "2601.21558",
+            "authors": [
+                {
+                    "_id": "697c279ea67238fac88cc104",
+                    "name": "Xiaoyu Tian",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc105",
+                    "name": "Haotian Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc106",
+                    "name": "Shuaiting Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc107",
+                    "name": "Hao Zhou",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc108",
+                    "name": "Kaichi Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc109",
+                    "name": "Yudian Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10a",
+                    "name": "Jade Ouyang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10b",
+                    "name": "Junxi Yin",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10c",
+                    "name": "Jiong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10d",
+                    "name": "Baoyan Guo",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10e",
+                    "name": "Lei Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc10f",
+                    "name": "Junjie Tao",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc110",
+                    "name": "Yuansheng Song",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc111",
+                    "name": "Ming Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "697c279ea67238fac88cc112",
+                    "name": "Chengwei Liu",
+                    "hidden": false
+                }
+            ],
+            "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/621499d72be42a56cca7afad/C3KRF5SVsqevuZy7nGJfm.png"
+            ],
+            "publishedAt": "2026-01-29T11:22:23.000Z",
+            "submittedOnDailyAt": "2026-02-02T00:08:03.322Z",
+            "title": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+            "submittedOnDailyBy": {
+                "_id": "621499d72be42a56cca7afad",
+                "avatarUrl": "/avatars/3cea70d1a55c8096b4270093c69e4a5e.svg",
+                "isPro": false,
+                "fullname": "TianXiaoyu",
+                "user": "Emperorizzis",
+                "type": "user"
+            },
+            "summary": "Large language models (LLMs) are increasingly used as tool-augmented agents for multi-step decision making, yet training robust tool-using agents remains challenging. Existing methods still require manual intervention, depend on non-verifiable simulated environments, rely exclusively on either supervised fine-tuning (SFT) or reinforcement learning (RL), and struggle with stable long-horizon, multi-turn learning. To address these challenges, we introduce ASTRA, a fully automated end-to-end framework for training tool-augmented language model agents via scalable data synthesis and verifiable reinforcement learning. ASTRA integrates two complementary components. First, a pipeline that leverages the static topology of tool-call graphs synthesizes diverse, structurally grounded trajectories, instilling broad and transferable tool-use competence. Second, an environment synthesis framework that captures the rich, compositional topology of human semantic reasoning converts decomposed question-answer traces into independent, code-executable, and rule-verifiable environments, enabling deterministic multi-turn RL. Based on this method, we develop a unified training methodology that integrates SFT with online RL using trajectory-level rewards to balance task completion and interaction efficiency. Experiments on multiple agentic tool-use benchmarks demonstrate that ASTRA-trained models achieve state-of-the-art performance at comparable scales, approaching closed-source systems while preserving core reasoning ability. We release the full pipelines, environments, and trained models at https://github.com/LianjiaTech/astra.",
+            "upvotes": 42,
+            "discussionId": "697c279fa67238fac88cc113",
+            "githubRepo": "https://github.com/LianjiaTech/astra",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "ASTRA is an automated framework that trains tool-augmented language models using synthetic data and verifiable reinforcement learning to improve multi-step decision-making capabilities.",
+            "ai_keywords": [
+                "tool-call graphs",
+                "trajectory-level rewards",
+                "supervised fine-tuning",
+                "reinforcement learning",
+                "agent training",
+                "multi-step decision making",
+                "verifiable environments",
+                "compositional topology",
+                "semantic reasoning",
+                "tool-augmented language models"
+            ],
+            "githubStars": 80
+        },
+        "translation_title": "ASTRA: 에이전트 경로 및 강화 학습 공간의 자동 합성",
+        "purpose": "도구를 사용하는 언어 모델 에이전트를 훈련하기 위한 자동화된 프레임워크 개발",
+        "method": [
+            "도구 호출 그래프의 정적 토폴로지를 활용하여 다양한 구조적 경로를 합성하는 파이프라인을 구축함(First, a pipeline that leverages the static topology of tool-call graphs synthesizes diverse, structurally grounded trajectories.)",
+            "인간의 의미론적 추론을 캡처하여 질문-답변 흔적을 독립적이고 검증 가능한 환경으로 변환하는 환경 합성 프레임워크를 도입함(Second, an environment synthesis framework that captures the rich, compositional topology of human semantic reasoning converts decomposed question-answer traces into independent, code-executable, and rule-verifiable environments.)",
+            "SFT와 온라인 RL을 통합하여 경로 수준 보상을 사용한 통합 훈련 방법론을 개발함(Based on this method, we develop a unified training methodology that integrates SFT with online RL using trajectory-level rewards to balance task completion and interaction efficiency.)"
+        ],
+        "conclusion": "ASTRA로 훈련된 모델은 최첨단 성능을 달성하고 핵심 추론 능력을 유지하며, 우리는 전체 파이프라인과 모델을 공개함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.23143",
+            "authors": [
+                {
+                    "_id": "69801ae26676f9332270659b",
+                    "name": "Seanie Lee",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f9332270659c",
+                    "name": "Sangwoo Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f9332270659d",
+                    "name": "Yumin Choi",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f9332270659e",
+                    "name": "Gyeongman Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f9332270659f",
+                    "name": "Minki Kang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f933227065a0",
+                    "name": "Jihun Yun",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f933227065a1",
+                    "name": "Dongmin Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f933227065a2",
+                    "name": "Jongho Park",
+                    "hidden": false
+                },
+                {
+                    "_id": "69801ae26676f933227065a3",
+                    "name": "Sung Ju Hwang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-30T16:31:02.000Z",
+            "submittedOnDailyAt": "2026-02-02T02:09:13.735Z",
+            "title": "THINKSAFE: Self-Generated Safety Alignment for Reasoning Models",
+            "submittedOnDailyBy": {
+                "_id": "638716c14e00d7fc0902fef4",
+                "avatarUrl": "/avatars/5fa8152f8c0e4e600d1a64802c3e0103.svg",
+                "isPro": false,
+                "fullname": "Sangwoo Park",
+                "user": "Sangsang",
+                "type": "user"
+            },
+            "summary": "Large reasoning models (LRMs) achieve remarkable performance by leveraging reinforcement learning (RL) on reasoning tasks to generate long chain-of-thought (CoT) reasoning. However, this over-optimization often prioritizes compliance, making models vulnerable to harmful prompts. To mitigate this safety degradation, recent approaches rely on external teacher distillation, yet this introduces a distributional discrepancy that degrades native reasoning. We propose ThinkSafe, a self-generated alignment framework that restores safety alignment without external teachers. Our key insight is that while compliance suppresses safety mechanisms, models often retain latent knowledge to identify harm. ThinkSafe unlocks this via lightweight refusal steering, guiding the model to generate in-distribution safety reasoning traces. Fine-tuning on these self-generated responses effectively realigns the model while minimizing distribution shift. Experiments on DeepSeek-R1-Distill and Qwen3 show ThinkSafe significantly improves safety while preserving reasoning proficiency. Notably, it achieves superior safety and comparable reasoning to GRPO, with significantly reduced computational cost. Code, models, and datasets are available at https://github.com/seanie12/ThinkSafe.git.",
+            "upvotes": 30,
+            "discussionId": "69801ae26676f933227065a4",
+            "githubRepo": "https://github.com/seanie12/ThinkSafe.git",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "ThinkSafe is a self-aligned framework that enhances safety in large reasoning models through lightweight refusal steering and fine-tuning on self-generated responses, maintaining reasoning performance while reducing computational costs.",
+            "ai_keywords": [
+                "reinforcement learning",
+                "chain-of-thought reasoning",
+                "external teacher distillation",
+                "distributional discrepancy",
+                "lightweight refusal steering",
+                "self-generated alignment",
+                "safety alignment",
+                "reasoning proficiency",
+                "computational cost"
+            ],
+            "githubStars": 3
+        },
+        "translation_title": "THINKSAFE: 추론 모델을 위한 자가 생성 안전 정렬",
+        "purpose": "추론 모델의 안전성을 강화하며 외부 교사 없이도 사고의 정렬을 회복하는 방법을 제안하기 위함",
+        "method": [
+            "ThinkSafe라는 자가 생성 정렬 프레임워크를 제안하여 외부 교사 없이도 안전성을 회복함(We propose ThinkSafe, a self-generated alignment framework that restores safety alignment without external teachers.)",
+            "경량화된 거부 유도 방식을 통해 모델이 안전한 사고 추적을 생성하도록 안내함(ThinkSafe unlocks this via lightweight refusal steering, guiding the model to generate in-distribution safety reasoning traces.)",
+            "자가 생성된 응답으로 모델을 미세 조정하여 안전성을 재조정하고 배포 변화를 최소화함(Fine-tuning on these self-generated responses effectively realigns the model while minimizing distribution shift.)"
+        ],
+        "conclusion": "THINKSAFE는 안전성을 크게 향상시키면서도 추론 능력을 유지하며, GRPO보다 더 우수한 안전성과 비교 가능한 추론을 달성하는 동시에 훨씬 낮은 계산 비용을 가지며 성과를 보임.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.22628",
+            "authors": [
+                {
+                    "_id": "6980103b6676f9332270654a",
+                    "name": "Chengyi Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f9332270654b",
+                    "name": "Zhishang Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f9332270654c",
+                    "name": "Yunbo Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f9332270654d",
+                    "name": "Zongpei Teng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f9332270654e",
+                    "name": "Chengsong Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f9332270654f",
+                    "name": "Fei Long",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f93322706550",
+                    "name": "Yuhan Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980103b6676f93322706551",
+                    "name": "Jinsong Su",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-30T06:38:02.000Z",
+            "submittedOnDailyAt": "2026-02-02T00:37:03.238Z",
+            "title": "TTCS: Test-Time Curriculum Synthesis for Self-Evolving",
+            "submittedOnDailyBy": {
+                "_id": "62ea79dd01ed9b0e8f61ccd3",
+                "avatarUrl": "/avatars/70af83e0e267be39fcd5f23b85e2dafa.svg",
+                "isPro": false,
+                "fullname": "Chengsong Huang",
+                "user": "ChengsongHuang",
+                "type": "user"
+            },
+            "summary": "Test-Time Training offers a promising way to improve the reasoning ability of large language models (LLMs) by adapting the model using only the test questions. However, existing methods struggle with difficult reasoning problems for two reasons: raw test questions are often too difficult to yield high-quality pseudo-labels, and the limited size of test sets makes continuous online updates prone to instability. To address these limitations, we propose TTCS, a co-evolving test-time training framework. Specifically, TTCS initializes two policies from the same pretrained model: a question synthesizer and a reasoning solver. These policies evolve through iterative optimization: the synthesizer generates progressively challenging question variants conditioned on the test questions, creating a structured curriculum tailored to the solver's current capability, while the solver updates itself using self-consistency rewards computed from multiple sampled responses on both original test and synthetic questions. Crucially, the solver's feedback guides the synthesizer to generate questions aligned with the model's current capability, and the generated question variants in turn stabilize the solver's test-time training. Experiments show that TTCS consistently strengthens the reasoning ability on challenging mathematical benchmarks and transfers to general-domain tasks across different LLM backbones, highlighting a scalable path towards dynamically constructing test-time curricula for self-evolving. Our code and implementation details are available at https://github.com/XMUDeepLIT/TTCS.",
+            "upvotes": 24,
+            "discussionId": "6980103b6676f93322706552",
+            "githubRepo": "https://github.com/XMUDeepLIT/TTCS",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "TTCS is a co-evolving test-time training framework that enhances LLM reasoning abilities by iteratively generating challenging question variants and updating a reasoning solver through self-consistency rewards.",
+            "ai_keywords": [
+                "test-time training",
+                "large language models",
+                "pseudo-labels",
+                "self-consistency rewards",
+                "question synthesizer",
+                "reasoning solver",
+                "iterative optimization",
+                "test-time curricula",
+                "mathematical benchmarks",
+                "general-domain tasks"
+            ],
+            "githubStars": 19
+        },
+        "translation_title": "TTCS: 자가 발전을 위한 테스트 시간 커리큘럼 합성",
+        "purpose": "대규모 언어 모델의 추론 능력을 향상시키기 위한 새로운 방법론 제안",
+        "method": [
+            "TTCS라는 공진화 테스트 시간 훈련 프레임워크를 제안함(To address these limitations, we propose TTCS, a co-evolving test-time training framework.)",
+            "질문 합성기와 추론 해결사라는 두 가지 정책을 동일한 선훈련 모델에서 초기화함(Specifically, TTCS initializes two policies from the same pretrained model: a question synthesizer and a reasoning solver.)",
+            "합성기가 테스트 질문에 따라 점진적으로 도전적인 질문 변형을 생성하여 구조화된 커리큘럼을 형성함 while the synthesizer generates progressively challenging question variants conditioned on the test questions."
+        ],
+        "conclusion": "TTCS는 어려운 수학 벤치마크에서 추론 능력을 강화하고, 다양한 LLM 백본에서 일반 도메인 작업으로 원활하게 전이됨.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.22975",
+            "authors": [
+                {
+                    "_id": "6980a86d6676f9332270678f",
+                    "name": "Ximing Lu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706790",
+                    "name": "David Acuna",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706791",
+                    "name": "Jaehun Jung",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706792",
+                    "name": "Jian Hu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706793",
+                    "name": "Di Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706794",
+                    "name": "Shizhe Diao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706795",
+                    "name": "Yunheng Zou",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706796",
+                    "name": "Shaokun Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706797",
+                    "name": "Brandon Cui",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706798",
+                    "name": "Mingjie Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f93322706799",
+                    "name": "Hyunwoo Kim",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f9332270679a",
+                    "name": "Prithviraj Ammanabrolu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f9332270679b",
+                    "name": "Jan Kautz",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f9332270679c",
+                    "name": "Yi Dong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980a86d6676f9332270679d",
+                    "name": "Yejin Choi",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-30T13:39:11.000Z",
+            "submittedOnDailyAt": "2026-02-02T11:10:15.313Z",
+            "title": "Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text",
+            "submittedOnDailyBy": {
+                "_id": "640928bd3461c51cf7378707",
+                "avatarUrl": "/avatars/b29fcb7388b81f8686086352f6321d06.svg",
+                "isPro": false,
+                "fullname": "Ximing Lu",
+                "user": "Ximing",
+                "type": "user"
+            },
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has become a cornerstone for unlocking complex reasoning in Large Language Models (LLMs). Yet, scaling up RL is bottlenecked by limited existing verifiable data, where improvements increasingly saturate over prolonged training. To overcome this, we propose Golden Goose, a simple trick to synthesize unlimited RLVR tasks from unverifiable internet text by constructing a multiple-choice question-answering version of the fill-in-the-middle task. Given a source text, we prompt an LLM to identify and mask key reasoning steps, then generate a set of diverse, plausible distractors. This enables us to leverage reasoning-rich unverifiable corpora typically excluded from prior RLVR data construction (e.g., science textbooks) to synthesize GooseReason-0.7M, a large-scale RLVR dataset with over 0.7 million tasks spanning mathematics, programming, and general scientific domains. Empirically, GooseReason effectively revives models saturated on existing RLVR data, yielding robust, sustained gains under continuous RL and achieving new state-of-the-art results for 1.5B and 4B-Instruct models across 15 diverse benchmarks. Finally, we deploy Golden Goose in a real-world setting, synthesizing RLVR tasks from raw FineWeb scrapes for the cybersecurity domain, where no prior RLVR data exists. Training Qwen3-4B-Instruct on the resulting data GooseReason-Cyber sets a new state-of-the-art in cybersecurity, surpassing a 7B domain-specialized model with extensive domain-specific pre-training and post-training. This highlights the potential of automatically scaling up RLVR data by exploiting abundant, reasoning-rich, unverifiable internet text.",
+            "upvotes": 13,
+            "discussionId": "6980a86d6676f9332270679e",
+            "ai_summary": "Golden Goose synthesizes unlimited RLVR tasks from unverifiable internet text by creating multiple-choice question-answering versions of fill-in-the-middle tasks, enabling large-scale training and achieving state-of-the-art results in cybersecurity and other domains.",
+            "ai_keywords": [
+                "Reinforcement Learning with Verifiable Rewards",
+                "Large Language Models",
+                "fill-in-the-middle task",
+                "multiple-choice question-answering",
+                "unverifiable corpora",
+                "GooseReason-0.7M",
+                "continuous RL",
+                "Qwen3-4B-Instruct",
+                "GooseReason-Cyber"
+            ],
+            "organization": {
+                "_id": "60262b67268c201cdc8b7d43",
+                "name": "nvidia",
+                "fullname": "NVIDIA",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1613114437487-60262a8e0703121c822a80b6.png"
+            }
+        },
+        "translation_title": "Golden Goose: 검증할 수 없는 인터넷 텍스트로 무제한 RLVR 작업을 합성하는 간단한 트릭",
+        "purpose": "무제한 RLVR 작업을 생성하여 복잡한 추론을 지원하는 데이터의 한계를 극복하는 것",
+        "method": [
+            "다양한 선택 질문-답변 형식의 fill-in-the-middle 작업을 통해 RLVR 작업을 합성하는 방법을 제안함(To overcome this, we propose Golden Goose, a simple trick to synthesize unlimited RLVR tasks from unverifiable internet text by constructing a multiple-choice question-answering version of the fill-in-the-middle task.)",
+            "주어진 텍스트에서 핵심 추론 단계를 식별하고 마스킹하여 다양한 분산 후보를 생성하도록 LLM을 프롬프트함(Given a source text, we prompt an LLM to identify and mask key reasoning steps, then generate a set of diverse, plausible distractors.)",
+            "이 방법을 통해 과거 RLVR 데이터 구축에서 제외되었던 비검증 가능한 데이터셋을 활용하여 GooseReason-0.7M 이라는 대규모 RLVR 데이터셋을 생성함(This enables us to leverage reasoning-rich unverifiable corpora typically excluded from prior RLVR data construction to synthesize GooseReason-0.7M, a large-scale RLVR dataset with over 0.7 million tasks.)"
+        ],
+        "conclusion": "GooseReason은 기존 RLVR 데이터에 포화 상태인 모델의 성능을 크게 향상시켜 15개의 다양한 벤치마크에서 새로운 최첨단 결과를 달성함.",
+        "keywords": [
+            "Reinforcement Learning",
+            "Large Language Models",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2601.23184",
+            "authors": [
+                {
+                    "_id": "6980247b6676f933227065ee",
+                    "name": "Fanmeng Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980247b6676f933227065ef",
+                    "name": "Haotian Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980247b6676f933227065f0",
+                    "name": "Guojiang Zhao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980247b6676f933227065f1",
+                    "name": "Hongteng Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6980247b6676f933227065f2",
+                    "name": "Zhifeng Gao",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-01-30T17:08:06.000Z",
+            "submittedOnDailyAt": "2026-02-02T01:44:01.004Z",
+            "title": "ReGuLaR: Variational Latent Reasoning Guided by Rendered Chain-of-Thought",
+            "submittedOnDailyBy": {
+                "_id": "6039478ab3ecf716b1a5fd4d",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6039478ab3ecf716b1a5fd4d/_Thy4E7taiSYBLKxEKJbT.jpeg",
+                "isPro": true,
+                "fullname": "taesiri",
+                "user": "taesiri",
+                "type": "user"
+            },
+            "summary": "While Chain-of-Thought (CoT) significantly enhances the performance of Large Language Models (LLMs), explicit reasoning chains introduce substantial computational redundancy. Recent latent reasoning methods attempt to mitigate this by compressing reasoning processes into latent space, but often suffer from severe performance degradation due to the lack of appropriate compression guidance. In this study, we propose Rendered CoT-Guided variational Latent Reasoning (ReGuLaR), a simple yet novel latent learning paradigm resolving this issue. Fundamentally, we formulate latent reasoning within the Variational Auto-Encoding (VAE) framework, sampling the current latent reasoning state from the posterior distribution conditioned on previous ones. Specifically, when learning this variational latent reasoning model, we render explicit reasoning chains as images, from which we extract dense visual-semantic representations to regularize the posterior distribution, thereby achieving efficient compression with minimal information loss. Extensive experiments demonstrate that ReGuLaR significantly outperforms existing latent reasoning methods across both computational efficiency and reasoning effectiveness, and even surpasses CoT through multi-modal reasoning, providing a new and insightful solution to latent reasoning. Code: https://github.com/FanmengWang/ReGuLaR.",
+            "upvotes": 12,
+            "discussionId": "6980247b6676f933227065f3",
+            "githubRepo": "https://github.com/FanmengWang/ReGuLaR",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "ReGuLaR introduces a variational auto-encoding framework that compresses reasoning processes into latent space while maintaining performance through image-rendered explicit reasoning chains for guidance.",
+            "ai_keywords": [
+                "Chain-of-Thought",
+                "Large Language Models",
+                "latent reasoning",
+                "Variational Auto-Encoding",
+                "posterior distribution",
+                "visual-semantic representations",
+                "multi-modal reasoning"
+            ],
+            "githubStars": 12
+        },
+        "translation_title": "ReGuLaR: 렌더링된 사고 과정을 통한 변량 잠재 추론",
+        "purpose": "Explicit reasoning chain의 계산적 중복성을 줄이면서 잠재 추론 성능 향상",
+        "method": [
+            "VAE 프레임워크 내에서 변량 잠재 추론을 공식화하고, 이전 reasoning 상태를 기반으로 현재 잠재 reasoning 상태를 샘플링함(we formulate latent reasoning within the Variational Auto-Encoding (VAE) framework, sampling the current latent reasoning state from the posterior distribution conditioned on previous ones.)",
+            "명시적 reasoning 체인을 이미지로 렌더링하여, 밀집한 시각-의미 표현을 추출하고 후방 분포를 정규화함(specifically, when learning this variational latent reasoning model, we render explicit reasoning chains as images, from which we extract dense visual-semantic representations to regularize the posterior distribution, thereby achieving efficient compression with minimal information loss.)",
+            "ReGuLaR 방법의 Computation efficiency 및 reasoning effectiveness를 면밀히 실험하여 기존 방법들과 비교함(extensive experiments demonstrate that ReGuLaR significantly outperforms existing latent reasoning methods across both computational efficiency and reasoning effectiveness.)"
+        ],
+        "conclusion": "ReGuLaR는 기존의 변량 잠재 추론 방법보다 뛰어난 성능을 보이며, multi-modal reasoning을 통해 CoT를 초월한 새로운 솔루션을 제공합니다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    }
+]
