@@ -1,0 +1,697 @@
+[
+    {
+        "paper": {
+            "id": "2602.01785",
+            "authors": [
+                {
+                    "_id": "69818a88ce18b18628096389",
+                    "user": {
+                        "_id": "645b0c3ec35da9c7afd95421",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+                        "isPro": false,
+                        "fullname": "Yuling",
+                        "user": "YerbaPage",
+                        "type": "user"
+                    },
+                    "name": "Yuling Shi",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-03T10:03:06.748Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638a",
+                    "user": {
+                        "_id": "68354b3e65397cd063da14e4",
+                        "avatarUrl": "/avatars/1b85fc942b41f58dac8e72bd12dd8e55.svg",
+                        "isPro": false,
+                        "fullname": "Chaoxiang Xie",
+                        "user": "bailynlove",
+                        "type": "user"
+                    },
+                    "name": "Chaoxiang Xie",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:31:45.296Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638b",
+                    "name": "Zhensu Sun",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638c",
+                    "name": "Yeheng Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638d",
+                    "name": "Chenxu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638e",
+                    "name": "Longfei Yun",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b1862809638f",
+                    "name": "Chengcheng Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b18628096390",
+                    "name": "Hongyu Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b18628096391",
+                    "name": "David Lo",
+                    "hidden": false
+                },
+                {
+                    "_id": "69818a88ce18b18628096392",
+                    "name": "Xiaodong Gu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-02-02T08:10:21.000Z",
+            "submittedOnDailyAt": "2026-02-04T00:15:44.767Z",
+            "title": "CodeOCR: On the Effectiveness of Vision Language Models in Code Understanding",
+            "submittedOnDailyBy": {
+                "_id": "645b0c3ec35da9c7afd95421",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/645b0c3ec35da9c7afd95421/vYBrCDagHsXAo6J2p-uG0.jpeg",
+                "isPro": false,
+                "fullname": "Yuling",
+                "user": "YerbaPage",
+                "type": "user"
+            },
+            "summary": "Large Language Models (LLMs) have achieved remarkable success in source code understanding, yet as software systems grow in scale, computational efficiency has become a critical bottleneck. Currently, these models rely on a text-based paradigm that treats source code as a linear sequence of tokens, which leads to a linear increase in context length and associated computational costs. The rapid advancement of Multimodal LLMs (MLLMs) introduces an opportunity to optimize efficiency by representing source code as rendered images. Unlike text, which is difficult to compress without losing semantic meaning, the image modality is inherently suitable for compression. By adjusting resolution, images can be scaled to a fraction of their original token cost while remaining recognizable to vision-capable models. To explore the feasibility of this approach, we conduct the first systematic study on the effectiveness of MLLMs for code understanding. Our experiments reveal that: (1) MLLMs can effectively understand code with substantial token reduction, achieving up to 8x compression; (2) MLLMs can effectively leverage visual cues such as syntax highlighting, improving code completion performance under 4x compression; and (3) Code-understanding tasks like clone detection exhibit exceptional resilience to visual compression, with some compression ratios even slightly outperforming raw text inputs. Our findings highlight both the potential and current limitations of MLLMs in code understanding, which points out a shift toward image-modality code representation as a pathway to more efficient inference.",
+            "upvotes": 75,
+            "discussionId": "69818a89ce18b18628096393",
+            "ai_summary": "Multimodal large language models can effectively understand source code when represented as compressed images, achieving significant token reduction while maintaining or improving performance on code comprehension tasks.",
+            "ai_keywords": [
+                "Multimodal LLMs",
+                "source code understanding",
+                "token compression",
+                "visual cues",
+                "syntax highlighting",
+                "code completion",
+                "clone detection",
+                "image modality",
+                "visual compression",
+                "computational efficiency"
+            ],
+            "organization": {
+                "_id": "63e5ef7bf2e9a8f22c515654",
+                "name": "SJTU",
+                "fullname": "Shanghai Jiao Tong University",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/1676013394657-63e5ee22b6a40bf941da0928.png"
+            }
+        },
+        "translation_title": "CodeOCR: 비전 언어 모델의 코드 이해에서의 효과",
+        "purpose": "코드 이해에서의 효율성을 높이기 위한 새로운 접근법 연구",
+        "method": [
+            "Multimodal LLMs를 사용하여 소스 코드를 이미지로 표현하는 방법을 제안함(Unlike text, which is difficult to compress without losing semantic meaning, the image modality is inherently suitable for compression.)",
+            "MLLMs의 효과를 조사하기 위한 체계적인 연구를 수행함(To explore the feasibility of this approach, we conduct the first systematic study on the effectiveness of MLLMs for code understanding.)",
+            "코드에서의 토큰 수를 8배 줄이면서도 MLLMs가 효과적으로 코드를 이해할 수 있음을 실험으로 입증함(Our experiments reveal that: (1) MLLMs can effectively understand code with substantial token reduction, achieving up to 8x compression.)"
+        ],
+        "conclusion": "MLLMs는 코드 이해에서 시각적 단서를 활용하여 성능을 향상시킬 수 있으며, 이미지 표현 방식이 더 효율적인 추론을 위한 가능성을 제공함.",
+        "keywords": [
+            "Multimodal Learning",
+            "Vision-Language Models",
+            "Natural Language Processing"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2602.03786",
+            "authors": [
+                {
+                    "_id": "6982c1c69084cb4f0ecb574b",
+                    "user": {
+                        "_id": "68a435cc22fdf7356962ccb9",
+                        "avatarUrl": "/avatars/467f4732ade5f47b42433ff354acdeef.svg",
+                        "isPro": false,
+                        "fullname": "jianhao ruan",
+                        "user": "Aurorra1123",
+                        "type": "user"
+                    },
+                    "name": "Jianhao Ruan",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:23.320Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb574c",
+                    "name": "Zhihao Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb574d",
+                    "name": "Yiran Peng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb574e",
+                    "name": "Fashen Ren",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb574f",
+                    "name": "Zhaoyang Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5750",
+                    "name": "Xinbing Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5751",
+                    "name": "Jinyu Xiang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5752",
+                    "name": "Bang Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5753",
+                    "name": "Chenglin Wu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5754",
+                    "name": "Yuyu Luo",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982c1c69084cb4f0ecb5755",
+                    "user": {
+                        "_id": "65f40e83653c231cbaf7defe",
+                        "avatarUrl": "/avatars/afa5ce72324112739e539865c9aee26b.svg",
+                        "isPro": false,
+                        "fullname": "Jiayi Zhang",
+                        "user": "didiforhugface",
+                        "type": "user"
+                    },
+                    "name": "Jiayi Zhang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:20.999Z",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-02-03T17:46:16.000Z",
+            "submittedOnDailyAt": "2026-02-04T02:34:02.843Z",
+            "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+            "submittedOnDailyBy": {
+                "_id": "68a435cc22fdf7356962ccb9",
+                "avatarUrl": "/avatars/467f4732ade5f47b42433ff354acdeef.svg",
+                "isPro": false,
+                "fullname": "jianhao ruan",
+                "user": "Aurorra1123",
+                "type": "user"
+            },
+            "summary": "Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability. We address this challenge with a unified, framework-agnostic agent abstraction that models any agent as a tuple Instruction, Context, Tools, Model. This tuple acts as a compositional recipe for capabilities, enabling the system to spawn specialized executors for each task on demand. Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step: it curates task-relevant context, selects tools and models, and delegates execution via on-the-fly automatic agent creation. Such designs enable reducing human engineering efforts, and remain framework-agnostic with plug-and-play support for diverse agents as task executors. It also enables a controllable performance-cost trade-off, allowing the system to approach Pareto-efficient. Across three challenging benchmarks (GAIA, SWE-Bench, Terminal-Bench), AOrchestra achieves 16.28% relative improvement against the strongest baseline when paired with Gemini-3-Flash. The code is available at: https://github.com/FoundationAgents/AOrchestra",
+            "upvotes": 61,
+            "discussionId": "6982c1c69084cb4f0ecb5756",
+            "ai_summary": "AOrchestra is a framework-agnostic agentic system that uses a tuple-based abstraction to dynamically create specialized task executors, achieving improved performance on complex benchmarks through automated agent creation and resource management.",
+            "ai_keywords": [
+                "language agents",
+                "sub-agent-as-tools paradigm",
+                "multi-turn task solving",
+                "agent abstraction",
+                "task automation",
+                "framework-agnostic",
+                "agent orchestration",
+                "automatic agent creation",
+                "Pareto-efficient",
+                "GAIA",
+                "SWE-Bench",
+                "Terminal-Bench"
+            ]
+        },
+        "translation_title": "AOrchestra: 에이전틱 오케스트레이션을 위한 서브 에이전트 생성 자동화",
+        "purpose": "복잡한 작업을 자동화하기 위해 서브 에이전트를 보다 효율적으로 생성하고 관리하기 위한 방법 개발",
+        "method": [
+            "서브 에이전트를 동적 추상적으로 모델링하는 통합된 프레임워크 비의존적 에이전트 추상화 방식을 제안함(This challenge is addressed with a unified, framework-agnostic agent abstraction that models any agent as a tuple Instruction, Context, Tools, Model.)",
+            "추상화를 기반으로 각 작업에 맞춰 전문화된 실행자를 필요할 때마다 생성하는 시스템 AOrchestra를 도입함(Building on this abstraction, we introduce an agentic system AOrchestra, where the central orchestrator concretizes the tuple at each step.)",
+            "AOrchestra는 작업 관련 컨텍스트를 조정하고, 도구와 모델을 선택하며, 자동적으로 에이전트를 생성하여 실행을 위임함(This design enables reducing human engineering efforts, and remains framework-agnostic with plug-and-play support for diverse agents as task executors.)"
+        ],
+        "conclusion": "AOrchestra는 다양한 기준에서 이전 모델보다 16.28% 향상된 성능을 보여주며, 인간의 엔지니어링 노력을 줄이는 데 기여함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Robotics",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2602.02103",
+            "authors": [
+                {
+                    "_id": "6981ab8dce18b1862809643a",
+                    "name": "Liyan Xu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6981ab8dce18b1862809643b",
+                    "name": "Mo Yu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6981ab8dce18b1862809643c",
+                    "name": "Fandong Meng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6981ab8dce18b1862809643d",
+                    "name": "Jie Zhou",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-02-02T13:46:56.000Z",
+            "submittedOnDailyAt": "2026-02-04T01:21:43.596Z",
+            "title": "No Global Plan in Chain-of-Thought: Uncover the Latent Planning Horizon of LLMs",
+            "submittedOnDailyBy": {
+                "_id": "650f0fac11f3210cf7a8a849",
+                "avatarUrl": "/avatars/687d56c3a6d4f5cdb34e424cdcff954d.svg",
+                "isPro": false,
+                "fullname": "Liyan Xu",
+                "user": "lxucs",
+                "type": "user"
+            },
+            "summary": "This work stems from prior complementary observations on the dynamics of Chain-of-Thought (CoT): Large Language Models (LLMs) is shown latent planning of subsequent reasoning prior to CoT emergence, thereby diminishing the significance of explicit CoT; whereas CoT remains critical for tasks requiring multi-step reasoning. To deepen the understanding between LLM's internal states and its verbalized reasoning trajectories, we investigate the latent planning strength of LLMs, through our probing method, Tele-Lens, applying to hidden states across diverse task domains. Our empirical results indicate that LLMs exhibit a myopic horizon, primarily conducting incremental transitions without precise global planning. Leveraging this characteristic, we propose a hypothesis on enhancing uncertainty estimation of CoT, which we validate that a small subset of CoT positions can effectively represent the uncertainty of the entire path. We further underscore the significance of exploiting CoT dynamics, and demonstrate that automatic recognition of CoT bypass can be achieved without performance degradation. Our code, data and models are released at https://github.com/lxucs/tele-lens.",
+            "upvotes": 56,
+            "discussionId": "6981ab8dce18b1862809643e",
+            "ai_summary": "Research investigates latent planning dynamics in large language models through a probing method called Tele-Lens, revealing limited global planning and enabling improved uncertainty estimation and CoT bypass recognition.",
+            "ai_keywords": [
+                "Chain-of-Thought",
+                "Large Language Models",
+                "latent planning",
+                "hidden states",
+                "Tele-Lens",
+                "multi-step reasoning",
+                "uncertainty estimation",
+                "CoT dynamics"
+            ],
+            "organization": {
+                "_id": "66543b6e420092799d2f625c",
+                "name": "tencent",
+                "fullname": "Tencent",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/5dd96eb166059660ed1ee413/Lp3m-XLpjQGwBItlvn69q.png"
+            }
+        },
+        "translation_title": "Chain-of-Thought에서의 글로벌 계획 없음: LLM의 잠재적 계획 수평선 드러내기",
+        "purpose": "LLM의 내부 상태와 언어적 추론 경로 간의 관계를 더 깊이 이해하기 위한 연구",
+        "method": [
+            "잠재 계획 강도를 조사하기 위해 Tele-Lens라는 탐색 방법을 사용하여 다양한 작업 도메인에서 LLM의 숨겨진 상태를 적용함(This work stems from prior complementary observations on the dynamics of Chain-of-Thought (CoT): Large Language Models (LLMs) ...)",
+            "LLMs가 주로 점진적인 전환을 수행하며 정확한 글로벌 계획 없이 근시안적으로 작동하는 경향을 보여줌(Our empirical results indicate that LLMs exhibit a myopic horizon, primarily conducting incremental transitions without precise global planning.)",
+            "CoT의 일부 위치가 전체 경로의 불확실성을 효과적으로 나타낼 수 있다는 가설을 검증함(we validate that a small subset of CoT positions can effectively represent the uncertainty of the entire path.)"
+        ],
+        "conclusion": "LLM의 CoT 역학을 활용하여 자동으로 CoT 우회를 인식할 수 있으며, 이는 성능 저하 없이 이루어질 수 있음을 입증함.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Multimodal Learning"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2602.02619",
+            "authors": [
+                {
+                    "_id": "6982cefe9084cb4f0ecb57a9",
+                    "user": {
+                        "_id": "66d01e4401f2a6b4cd93ad87",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d01e4401f2a6b4cd93ad87/qxEUHyO8WauOCLcHXfiOS.png",
+                        "isPro": false,
+                        "fullname": "Mohan Jiang (SII)",
+                        "user": "mhjiang0408",
+                        "type": "user"
+                    },
+                    "name": "Mohan Jiang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:27:54.679Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57aa",
+                    "name": "Dayuan Fu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57ab",
+                    "name": "Junhao Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57ac",
+                    "user": {
+                        "_id": "62dce08bb2c60f29c3d0a5da",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dce08bb2c60f29c3d0a5da/dFRFamdOyPbR1OxQC_qOV.png",
+                        "isPro": false,
+                        "fullname": "Ji Zeng",
+                        "user": "stargazerzj",
+                        "type": "user"
+                    },
+                    "name": "Ji Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:27:51.423Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57ad",
+                    "name": "Weiye Si",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57ae",
+                    "user": {
+                        "_id": "668e476520e499a0786ea56e",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/668e476520e499a0786ea56e/lnvd1_UWW9o9ddrR6ehwR.png",
+                        "isPro": false,
+                        "fullname": "Keyu Li (SII)",
+                        "user": "weizhihao1",
+                        "type": "user"
+                    },
+                    "name": "Keyu Li",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:27:49.277Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57af",
+                    "name": "Xuefeng Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57b0",
+                    "name": "Yang Xiao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57b1",
+                    "name": "Wenjie Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57b2",
+                    "name": "Dequan Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982cefe9084cb4f0ecb57b3",
+                    "name": "Pengfei Liu",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-02-02T13:23:39.000Z",
+            "submittedOnDailyAt": "2026-02-04T02:17:05.727Z",
+            "title": "daVinci-Agency: Unlocking Long-Horizon Agency Data-Efficiently",
+            "submittedOnDailyBy": {
+                "_id": "66d01e4401f2a6b4cd93ad87",
+                "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d01e4401f2a6b4cd93ad87/qxEUHyO8WauOCLcHXfiOS.png",
+                "isPro": false,
+                "fullname": "Mohan Jiang (SII)",
+                "user": "mhjiang0408",
+                "type": "user"
+            },
+            "summary": "While Large Language Models (LLMs) excel at short-term tasks, scaling them to long-horizon agentic workflows remains challenging. The core bottleneck lies in the scarcity of training data that captures authentic long-dependency structures and cross-stage evolutionary dynamics--existing synthesis methods either confine to single-feature scenarios constrained by model distribution, or incur prohibitive human annotation costs, failing to provide scalable, high-quality supervision. We address this by reconceptualizing data synthesis through the lens of real-world software evolution. Our key insight: Pull Request (PR) sequences naturally embody the supervision signals for long-horizon learning. They decompose complex objectives into verifiable submission units, maintain functional coherence across iterations, and encode authentic refinement patterns through bug-fix histories. Building on this, we propose daVinci-Agency, which systematically mines structured supervision from chain-of-PRs through three interlocking mechanisms: (1) progressive task decomposition via continuous commits, (2) long-term consistency enforcement through unified functional objectives, and (3) verifiable refinement from authentic bug-fix trajectories. Unlike synthetic trajectories that treat each step independently, daVinci-Agency's PR-grounded structure inherently preserves the causal dependencies and iterative refinements essential for teaching persistent goal-directed behavior and enables natural alignment with project-level, full-cycle task modeling. The resulting trajectories are substantial--averaging 85k tokens and 116 tool calls--yet remarkably data-efficient: fine-tuning GLM-4.6 on 239 daVinci-Agency samples yields broad improvements across benchmarks, notably achieving a 47% relative gain on Toolathlon. Beyond benchmark performance, our analysis confirms...",
+            "upvotes": 41,
+            "discussionId": "6982cefe9084cb4f0ecb57b4",
+            "githubRepo": "https://github.com/GAIR-NLP/daVinci-Agency",
+            "githubRepoAddedBy": "user",
+            "ai_summary": "Large language models face challenges in long-horizon agentic workflows due to lack of authentic long-dependency training data, which is addressed by leveraging pull request sequences for structured supervision through progressive decomposition, consistency enforcement, and refinement from bug-fix histories.",
+            "ai_keywords": [
+                "Large Language Models",
+                "long-horizon agentic workflows",
+                "training data",
+                "long-dependency structures",
+                "cross-stage evolutionary dynamics",
+                "data synthesis",
+                "Pull Request sequences",
+                "task decomposition",
+                "functional coherence",
+                "bug-fix histories",
+                "daVinci-Agency",
+                "continuous commits",
+                "unified functional objectives",
+                "verifiable refinement",
+                "causal dependencies",
+                "iterative refinements",
+                "goal-directed behavior",
+                "project-level task modeling",
+                "Toolathlon"
+            ],
+            "githubStars": 25,
+            "organization": {
+                "_id": "630bc2d186b8b9904c33ce1b",
+                "name": "GAIR",
+                "fullname": "SII - GAIR",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/6144a0c4ff1146bbd84d9865/NqAuVddq2ci-AsFcFNbav.png"
+            }
+        },
+        "translation_title": "daVinci-Agency: 장기 목표 지향성 데이터를 효율적으로 확보하기",
+        "purpose": "단기 작업을 넘어서서 장기 목표 지향적 작업 수행을 위한 효율적인 데이터 확보 방안 연구",
+        "method": [
+            "실제 소프트웨어 진화를 통해 데이터 합성을 재구성함(We address this by reconceptualizing data synthesis through the lens of real-world software evolution.)",
+            "Pull Request(프리젠테이션) 시퀀스를 활용하여 장기 목표 학습에 필요한 감독 신호를 탐색함(Our key insight: Pull Request (PR) sequences naturally embody the supervision signals for long-horizon learning.)",
+            "연속적인 커밋을 통한 점진적인 작업 분해, 통합된 기능 목표에 의한 장기 일관성 유지, 진정한 버그 수정 경로로부터의 검증 가능 개선을 통해 체계적으로 구조화된 감독을 발굴함(Building on this, we propose daVinci-Agency, which systematically mines structured supervision from chain-of-PRs through three interlocking mechanisms.)"
+        ],
+        "conclusion": "daVinci-Agency는 로그 데이터에서 장기 목표 지향 행동을 가르치는 데 필수적인 인과적 의존성과 반복적 개선을 보존하면서, 데이터 효율성을 높이며 GLM-4.6의 성능을 향상시켰다.",
+        "keywords": [
+            "Natural Language Processing",
+            "Large Language Models",
+            "Robotics"
+        ]
+    },
+    {
+        "paper": {
+            "id": "2602.01630",
+            "authors": [
+                {
+                    "_id": "6982b3dd9084cb4f0ecb564b",
+                    "user": {
+                        "_id": "6671214c92412fd4640714eb",
+                        "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+                        "isPro": false,
+                        "fullname": "bohan zeng",
+                        "user": "zbhpku",
+                        "type": "user"
+                    },
+                    "name": "Bohan Zeng",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:47.439Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb564c",
+                    "user": {
+                        "_id": "6708920aeae29d1cd41a703b",
+                        "avatarUrl": "/avatars/922427a86523b0aa810412fd2d75f88e.svg",
+                        "isPro": false,
+                        "fullname": "kaixin zhu",
+                        "user": "czkk566",
+                        "type": "user"
+                    },
+                    "name": "Kaixin Zhu",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:49.804Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb564d",
+                    "name": "Daili Hua",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb564e",
+                    "name": "Bozhou Li",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb564f",
+                    "name": "Chengzhuo Tong",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5650",
+                    "user": {
+                        "_id": "65e71ef39cf349af2940b317",
+                        "avatarUrl": "/avatars/fc1cd8d3510946fc947d67b16b51834b.svg",
+                        "isPro": false,
+                        "fullname": "Yuran Wang",
+                        "user": "Ryann829",
+                        "type": "user"
+                    },
+                    "name": "Yuran Wang",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:54.435Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5651",
+                    "name": "Xinyi Huang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5652",
+                    "user": {
+                        "_id": "674e77fa59a127e4eacf5dba",
+                        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/674e77fa59a127e4eacf5dba/W7qr94Buvvaio8zhKrEha.jpeg",
+                        "isPro": false,
+                        "fullname": "Yifan Dai",
+                        "user": "Moonwines",
+                        "type": "user"
+                    },
+                    "name": "Yifan Dai",
+                    "status": "claimed_verified",
+                    "statusLastChangedAt": "2026-02-04T12:28:52.281Z",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5653",
+                    "name": "Zixiang Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5654",
+                    "name": "Yifan Yang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5655",
+                    "name": "Zhou Liu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5656",
+                    "name": "Hao Liang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5657",
+                    "name": "Xiaochen Ma",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5658",
+                    "name": "Ruichuan An",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5659",
+                    "name": "Tianyi Bai",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565a",
+                    "name": "Hongcheng Gao",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565b",
+                    "name": "Junbo Niu",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565c",
+                    "name": "Yang Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565d",
+                    "name": "Xinlong Chen",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565e",
+                    "name": "Yue Ding",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb565f",
+                    "name": "Minglei Shi",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5660",
+                    "name": "Kai Zeng",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5661",
+                    "name": "Yiwen Tang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5662",
+                    "name": "Yuanxing Zhang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5663",
+                    "name": "Pengfei Wan",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5664",
+                    "name": "Xintao Wang",
+                    "hidden": false
+                },
+                {
+                    "_id": "6982b3dd9084cb4f0ecb5665",
+                    "name": "Wentao Zhang",
+                    "hidden": false
+                }
+            ],
+            "publishedAt": "2026-02-02T04:42:44.000Z",
+            "submittedOnDailyAt": "2026-02-04T00:21:41.173Z",
+            "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+            "submittedOnDailyBy": {
+                "_id": "6671214c92412fd4640714eb",
+                "avatarUrl": "/avatars/48fa84e7bc3bb92ad0192aa26b32de10.svg",
+                "isPro": false,
+                "fullname": "bohan zeng",
+                "user": "zbhpku",
+                "type": "user"
+            },
+            "summary": "World models have emerged as a critical frontier in AI research, aiming to enhance large models by infusing them with physical dynamics and world knowledge. The core objective is to enable agents to understand, predict, and interact with complex environments. However, current research landscape remains fragmented, with approaches predominantly focused on injecting world knowledge into isolated tasks, such as visual prediction, 3D estimation, or symbol grounding, rather than establishing a unified definition or framework. While these task-specific integrations yield performance gains, they often lack the systematic coherence required for holistic world understanding. In this paper, we analyze the limitations of such fragmented approaches and propose a unified design specification for world models. We suggest that a robust world model should not be a loose collection of capabilities but a normative framework that integrally incorporates interaction, perception, symbolic reasoning, and spatial representation. This work aims to provide a structured perspective to guide future research toward more general, robust, and principled models of the world.",
+            "upvotes": 41,
+            "discussionId": "6982b3de9084cb4f0ecb5666",
+            "ai_summary": "Current world models lack unified frameworks despite task-specific advances, necessitating a comprehensive approach integrating interaction, perception, symbolic reasoning, and spatial representation.",
+            "ai_keywords": [
+                "world models",
+                "physical dynamics",
+                "environment interaction",
+                "visual prediction",
+                "3D estimation",
+                "symbol grounding",
+                "unified framework",
+                "normative framework",
+                "spatial representation"
+            ],
+            "organization": {
+                "_id": "662c559b322afcbae51b3c8b",
+                "name": "KlingTeam",
+                "fullname": "Kling Team",
+                "avatar": "https://cdn-uploads.huggingface.co/production/uploads/60e272ca6c78a8c122b12127/ZQV1aKLUDPf2rUcxxAqj6.jpeg"
+            }
+        },
+        "translation_title": "세계 모델에 대한 연구: 특정 작업에 세계 지식을 단순히 주입하는 것이 아님",
+        "purpose": "복합 환경에서 에이전트의 이해, 예측 및 상호작용을 향상시키기 위한 보다 일반적이고 강력한 세계 모델 설계 규격 제안",
+        "method": [
+            "현재 연구는 분산된 접근 방식을 가지며, 주로 개별 작업에 세계 지식을 주입하는 데 집중하고 있음(However, current research landscape remains fragmented, with approaches predominantly focused on injecting world knowledge into isolated tasks.)",
+            "작업 별 통합이 성능 향상을 가져오지만, 전체적인 세계 이해를 위해 필요한 체계적 일관성이 부족하며 이를 분석함(While these task-specific integrations yield performance gains, they often lack the systematic coherence required for holistic world understanding.)",
+            "보다 강력한 세계 모델은 상호작용, 인식, 상징적 추론 및 공간적 표현을 통합적으로 포함해야 한다고 제안함(We suggest that a robust world model should not be a loose collection of capabilities but a normative framework that integrally incorporates interaction, perception, symbolic reasoning, and spatial representation.)"
+        ],
+        "conclusion": "일반적이고 원칙적인 세계 모델 개발을 위한 구조화된 관점을 제시함.",
+        "keywords": [
+            "Large Language Models",
+            "3D Vision",
+            "Robotics"
+        ]
+    }
+]
